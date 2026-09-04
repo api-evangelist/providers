@@ -2014,9 +2014,22 @@ def main():
         yaml.safe_dump(published, fh, sort_keys=False, allow_unicode=True, width=10000)
 
     tag_to_slugs = {}
+    # roadmap#135 — WHICH VERTICALS ARE STILL ROSTER-ONLY, said on the record rather than
+    # left for a reader to infer. The 2026-08-25 pass took roster-only from 46 to 8 by giving
+    # each vertical its own name as a tag (automotive 42 -> 401 providers, healthcare 92 ->
+    # 2,063). The eight with no exact tag match are still a Fortune-1000 research slice —
+    # pharmaceutical holds 24 and fitness-wellness 5, presented in the same furniture as a
+    # 2,063-member cohort. Flagged here so the page can say so; the flag is the honest
+    # middle option from that issue, and it forecloses neither merging them into their
+    # tag-backed neighbours nor curating tags for them later.
+    tag_backed = {spec["slug"] for spec in TAG_INDUSTRIES}
+    for slug, rec in industries.items():
+        rec["roster_only"] = slug not in tag_backed
+
     for spec in TAG_INDUSTRIES:
         rec = industry(spec["slug"], spec["name"], spec["description"], spec["icon"])
-        rec.update({"name": spec["name"], "description": spec["description"], "icon": spec["icon"]})
+        rec.update({"name": spec["name"], "description": spec["description"], "icon": spec["icon"],
+                    "roster_only": False})
         for tag in spec["tags"]:
             key = tag_norm.canon_key(tag)
             if key:
@@ -2065,12 +2078,20 @@ def main():
             "description": rec["description"],
             "icon": rec["icon"],
             "count": len(entries),
+            # roadmap#135 — carried onto the card so the index can mark it too, not just
+            # the detail page. A 5-member roster and a 2,063-member cohort should not be
+            # visually interchangeable.
+            "roster_only": bool(rec.get("roster_only")),
         })
         write_page(
             os.path.join(SITE, "industries", ind_slug, "index.html"),
             listing_page(
                 esc(rec["name"]),
-                esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), rec["name"])),
+                esc(("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), rec["name"]))
+                    + (" This vertical has no tag-derived membership: it is the Fortune-1000 research"
+                       " roster for this sector, not a measure of the market — a company with no"
+                       " job-posting signal is absent whatever it publishes (roadmap#135)."
+                       if rec.get("roster_only") else "")),
                 "providers-industry-%s" % ind_slug,
                 rated=True,
                 market_tools=ind_slug in INDUSTRY_MARKET_TOOLS,
