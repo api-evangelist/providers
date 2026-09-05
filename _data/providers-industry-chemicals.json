@@ -29,8 +29,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -64,61 +64,16 @@
      "rank": 1
     },
     {
-     "name": "Knowde",
-     "slug": "knowde",
-     "description": "Knowde is an AI platform for industrial operations, built for the chemicals and ingredients industry. Knowde AI extracts, structures, harmonizes and enriches product data out of legacy systems and offline documents; Knowde MDM is the master data repository that data lands in; Knowde CXP launches supplier storefronts natively integrated with MDM; and the Knowde Marketplace is a network of 8,000+ chemical company storefronts. The Knowde API gives customers programmatic access to that platform through a GraphQL API (the recommended primary interface) and a RESTful JSON API, both served from developer-api.knowde.com behind OAuth 2.0 client credentials, with API Clients provisioned in the Developer Portal and a documented PIMS filter grammar for querying product, category and attribute data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knowde/refs/heads/main/screenshots/knowde-2026-08-07T171300.png",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 59.5,
-      "commercial_clarity": 42.1,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 5.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
-    {
      "name": "Uncountable",
      "slug": "uncountable",
      "description": "Uncountable is a unified laboratory informatics and R&D data platform for enterprise research organizations, replacing disconnected LIMS, ELN, QMS and PLM tools with a single cloud system that centralizes experimental data, accelerates formulation work, and supports AI-driven discovery across chemicals, advanced materials, batteries, plastics, coatings, food and life sciences. The platform is delivered as a multi-region SaaS application (US and EU deployments) and exposes an authenticated External API plus a hosted, OAuth-protected Model Context Protocol (MCP) server so agents and integration tooling can read platform data, alongside SFTP and instrument/ERP connectors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/screenshots/uncountable-2026-09-02T164847.png",
-     "score": 33.4,
+     "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 0.0,
+      "contract_quality": 5.3,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
@@ -126,8 +81,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -151,6 +106,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 2
+    },
+    {
+     "name": "Knowde",
+     "slug": "knowde",
+     "description": "Knowde is an AI platform for industrial operations, built for the chemicals and ingredients industry. Knowde AI extracts, structures, harmonizes and enriches product data out of legacy systems and offline documents; Knowde MDM is the master data repository that data lands in; Knowde CXP launches supplier storefronts natively integrated with MDM; and the Knowde Marketplace is a network of 8,000+ chemical company storefronts. The Knowde API gives customers programmatic access to that platform through a GraphQL API (the recommended primary interface) and a RESTful JSON API, both served from developer-api.knowde.com behind OAuth 2.0 client credentials, with API Clients provisioned in the Developer Portal and a documented PIMS filter grammar for querying product, category and attribute data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/knowde/refs/heads/main/screenshots/knowde-2026-08-07T171300.png",
+     "score": 34.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 59.5,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 5.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 3
     },
     {
@@ -170,8 +170,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -233,8 +233,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -278,8 +278,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -330,8 +330,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -375,8 +375,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -420,8 +420,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -472,8 +472,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -517,8 +517,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -562,8 +562,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -621,8 +621,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -666,8 +666,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -710,8 +710,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -755,8 +755,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -800,8 +800,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -845,8 +845,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -890,8 +890,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -935,8 +935,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -980,8 +980,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1032,8 +1032,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1077,8 +1077,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1122,8 +1122,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1167,8 +1167,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1212,8 +1212,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1257,8 +1257,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1302,8 +1302,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1347,8 +1347,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1399,8 +1399,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1451,8 +1451,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1496,8 +1496,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1541,8 +1541,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1586,8 +1586,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1638,8 +1638,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1694,8 +1694,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1739,8 +1739,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1784,8 +1784,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1829,8 +1829,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1874,8 +1874,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1926,8 +1926,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1978,8 +1978,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2022,8 +2022,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2067,8 +2067,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2119,8 +2119,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2171,8 +2171,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2216,8 +2216,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2268,8 +2268,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2320,8 +2320,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2365,8 +2365,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2409,8 +2409,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2454,8 +2454,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2499,8 +2499,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2551,8 +2551,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2602,8 +2602,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2654,8 +2654,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2699,8 +2699,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2744,8 +2744,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2796,8 +2796,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2848,8 +2848,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2893,8 +2893,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2938,8 +2938,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2983,8 +2983,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3027,8 +3027,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3072,8 +3072,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3117,8 +3117,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3162,8 +3162,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3207,8 +3207,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3252,8 +3252,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3297,8 +3297,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3342,8 +3342,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3387,8 +3387,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3432,8 +3432,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3477,8 +3477,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3529,8 +3529,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3573,8 +3573,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3618,8 +3618,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3663,8 +3663,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3708,8 +3708,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3760,8 +3760,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3805,8 +3805,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3850,8 +3850,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3894,8 +3894,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3939,8 +3939,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3991,8 +3991,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4042,8 +4042,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4094,8 +4094,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4146,8 +4146,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4198,8 +4198,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4250,8 +4250,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4302,8 +4302,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4353,8 +4353,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4398,8 +4398,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4450,8 +4450,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -4499,8 +4499,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4550,8 +4550,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4601,8 +4601,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4652,8 +4652,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",

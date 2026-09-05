@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - security
   - '{''url'': ''https://www.cyberark.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.paloaltonetworks.com/idira — a different registrable domain (cyberark.com -> paloaltonetworks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
@@ -35,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -286,10 +287,12 @@ score:
   composite: 38.4
   coverage:
     artifact_dirs: 15
+    catalog_earned: 72.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 43.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -2.7
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -299,7 +302,7 @@ score:
     discoverability: 66.7
     governance: 69.7
     operational_transparency: 26.3
-  previous_composite: 41.1
+  previous_composite: 38.4
   provenance:
     agentic_access: derived
     contracts:
@@ -307,8 +310,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyberark/refs/heads/main/screenshots/cyberark-2026-06-20T175406.png
 security:

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -48,7 +49,7 @@ apis:
   description: Create, list, and remove MirrorTab browser sessions.
   name: MirrorTab Sessions API
   slug: mirrortab-sessions-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -99,7 +100,7 @@ common:
   url: https://www.mirrortab.com/privacy-policy
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mirrortab-mcp.yml
 - group: agent
   title: ''
@@ -129,10 +130,6 @@ created: '2026-07-17'
 description: MirrorTab is a cybersecurity company that stops automated attacks against web applications and APIs by serving the application through an isolated, server-side rendered browser session so the DOM, code, and data are never exposed to the end browser. Rather than detecting bots, it removes the surface they operate on, blocking credential stuffing, agentic-AI automation, man-in-the-browser attacks, malicious extensions, XSS, formjacking, clickjacking, and CSRF without endpoint agents or application code changes. MirrorTab is edge-driven and integrates alongside existing CDNs, WAFs, and fraud platforms. Founded by the CTO and co-founder of Honey (acquired by PayPal), the company also publishes a public v1 REST API to programmatically create, list, and remove MirrorTab browser sessions.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mirrortab.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: MirrorTab MCP Server
-  slug: mirrortab-mcp-server
 modified: '2026-07-20'
 name: MirrorTab
 nav: Providers
@@ -147,9 +144,11 @@ score:
   composite: 33.2
   coverage:
     artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -171,8 +170,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/screenshots/mirrortab-2026-08-07T183736.png
 security:

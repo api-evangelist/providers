@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -58,7 +58,7 @@ apis:
   description: The Webhooks API from Lightning Social Ventures — 2 operation(s) for webhooks.
   name: Lightning Social Ventures Webhooks API
   slug: lightning-social-ventures-webhooks-api
-artifact_total: 12
+artifact_total: 11
 asyncapis:
 - description: ''
   name: Lightning Social Ventures Webhooks
@@ -115,7 +115,7 @@ common:
   url: https://www.lightningreach.org/privacy-policy
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lightning-social-ventures-mcp.yml
 - group: agent
   title: ''
@@ -173,10 +173,6 @@ created: '2026-07-17'
 description: Lightning Social Ventures is the UK social-impact company behind Lightning Reach, a financial support platform that connects people facing hardship to grants, benefits, vouchers and assistance schemes through a single profile and eligibility match. Councils, housing associations, charities, utilities and banks use the platform to run and administer their own support programmes, from application intake through evidence review to award and payment. Lightning Reach operates a partner-facing REST API that exposes support schemes, application submission and referral, applicant evidence assets, decision and award recording, and webhook subscriptions with public-key signature verification.
 image: https://static.wixstatic.com/media/b5277c_f5fd0014edb2463184acc145d446cc23~mv2.png/v1/fill/w_2400,h_1260,al_c/b5277c_f5fd0014edb2463184acc145d446cc23~mv2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Lightning Social Ventures MCP Server
-  slug: lightning-social-ventures-mcp-server
 modified: '2026-07-19'
 name: Lightning Social Ventures
 nav: Providers
@@ -194,9 +190,11 @@ score:
   composite: 31.2
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -224,8 +222,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 35.2
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/screenshots/lightning-social-ventures-2026-07-25T225125.png
 security:

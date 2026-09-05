@@ -16,7 +16,7 @@
      "slug": "intuit",
      "description": "Collection of APIs offered by Intuit for financial and business management services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png",
-     "score": 64.1,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -25,12 +25,12 @@
       "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 55.3,
-      "developer_ergonomics": 85.7,
+      "developer_ergonomics": 82.1,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -92,8 +92,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -148,8 +148,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -193,8 +193,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

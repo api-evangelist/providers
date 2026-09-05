@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.vault.tesseract.fi
@@ -61,7 +61,7 @@ apis:
   description: The vaults API from Tesseract — 4 operation(s) for vaults.
   name: Tesseract vaults API
   slug: tesseract-vaults-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -144,7 +144,7 @@ common:
   url: lifecycle/tesseract-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tesseract-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: Tesseract is a Finnish digital-asset management and crypto-lending company. Tesseract Investment Oy is authorised as a Crypto-Asset Service Provider (CASP) under Regulation (EU) 2023/1114 (MiCA) and supervised by the Finnish Financial Supervisory Authority (FIN-FSA). It operates institutional-grade, per-client on-chain Dedicated Client Vaults (DCVs) on Ethereum mainnet, an Earn API that lets exchanges, neobanks and fintechs offer crypto yield to their users under their own brand, and Earn Direct for referred clients. Developers integrate via a public vault reporting API (unauthenticated reads, EIP-712 signed strategy assignment) and a partner Earn API using OAuth2 client-credentials with a daily net-settlement model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tesseract.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tesseract MCP Server
-  slug: tesseract-mcp-server
 modified: '2026-07-21'
 name: Tesseract
 nav: Providers
@@ -208,9 +204,11 @@ score:
   composite: 42.6
   coverage:
     artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 46.1
@@ -231,8 +229,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/screenshots/tesseract-2026-08-17T082323.png
 security:

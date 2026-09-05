@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ arazzos:
 - description: Search the Knight Frank office directory, then fetch the full record for the best-matching office.
   name: Knight Frank office lookup
   slug: knight-frank-office-lookup
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: KnightFrank Api v3
@@ -136,7 +136,7 @@ common:
   url: well-known/knight-frank-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/knight-frank-mcp.yml
 - group: agent
   title: ''
@@ -220,10 +220,6 @@ description: 'Knight Frank LLP is a London-headquartered global real estate cons
   and saved-property service at api-v2.web.prd-knightfrank.com is the opposite: it returns 401 and is protected by Azure AD B2C (tenant KnightFrankB2Cprod, custom policy B2C_1A_MYKFSIGNIN, scope MyKf.ReadWrite) through a first-party MSAL client for the consumer My Knight Frank account, which is an end-user login and not a developer credential. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in the Knight Frank estate — RESO is a North American NAR/MLS construct and the United Kingdom has no MLS to certify against. Knight Frank publishes no open data either; its research ships as PDF and web narrative, and the genuinely open UK property layer belongs to the public sector — HM Land Registry Price Paid Data and Ordnance Survey open products — not to the brokerage.'
 image: https://www.knightfrank.com/icons/apple-touch-icon-180x180.png
 layout: provider
-mcp_servers:
-- description: Knight Frank operates NO Model Context Protocol server. Searches on 2026-07-26 found no MCP server in the provider's estate, no @knightfrank package on npm, no entry in any public MCP registry, no /mc
-  name: Knight Frank MCP Server
-  slug: knight-frank-mcp-server
 modified: '2026-07-26'
 name: Knight Frank
 nav: Providers
@@ -243,9 +239,11 @@ score:
   composite: 28.0
   coverage:
     artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -273,8 +271,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knight-frank/refs/heads/main/screenshots/knight-frank-2026-08-07T171255.png
 security:

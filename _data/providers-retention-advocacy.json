@@ -16,7 +16,7 @@
      "slug": "thanx",
      "description": "Thanx is a customer engagement, loyalty, and marketing automation platform for restaurants and other offline businesses, built to acquire, engage, and retain best customers and grow customer lifetime value. The platform combines data infrastructure, lifecycle marketing, loyalty and CRM, and digital ordering experiences. Thanx is API-first and publishes a public developer portal documenting a Consumer API for custom consumer experiences, a Partner API for privileged integration use cases, and a Loyalty API for digital ordering and kiosk providers, along with webhooks and Connex data-export integrations to warehouses like Snowflake and BigQuery. Thanx serves roughly 500 brands and processes over a billion transactions annually. It also publishes a hosted Docs MCP server for natural-language API search and an open agent-skills starter kit.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png",
-     "score": 76.4,
+     "score": 75.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -25,12 +25,12 @@
       "governance": 47.0,
       "contract_governance": 47.0,
       "operational_transparency": 86.8,
-      "developer_ergonomics": 88.1,
+      "developer_ergonomics": 84.5,
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 42.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -74,8 +74,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -126,8 +126,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 45.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -159,7 +159,7 @@
      "slug": "awin-affiliate",
      "description": "Awin is a global affiliate marketing network connecting advertisers (brands) with publishers (content creators, cashback, voucher, and loyalty partners) across thousands of programmes worldwide. Awin exposes a documented public REST API at https://api.awin.com that lets both publishers and advertisers pull data such as individual transactions and aggregated performance reports, inspect commission groups and programme details, list the accounts a user can access, and generate tracking links and offers. All endpoints follow REST principles, return JSON, are served over HTTPS only, and authenticate with an OAuth 2.0 Bearer access token issued at the user level from the Awin UI (the Create Transactions API is the exception and uses an x-api-key). A platform-wide throttle limits requests to 20 API calls per minute per user.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/awin-affiliate/refs/heads/main/screenshots/awin-affiliate-2026-07-25T202025.png",
-     "score": 69.3,
+     "score": 68.6,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -168,12 +168,12 @@
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 78.9,
-      "developer_ergonomics": 70.8,
+      "developer_ergonomics": 67.3,
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -218,8 +218,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -273,7 +273,7 @@
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 64.1,
+      "contract_quality": 64.2,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 92.1,
@@ -281,8 +281,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -327,14 +327,14 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 52.7,
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 54.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": "verified",
       "auth_clarity": "served",
       "idempotency": false,
@@ -372,8 +372,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -435,8 +435,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -481,8 +481,8 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -526,8 +526,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -572,8 +572,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -617,8 +617,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -663,8 +663,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -709,8 +709,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 53.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -754,8 +754,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 42.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -799,8 +799,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 59.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -844,8 +844,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 59.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -900,8 +900,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -945,8 +945,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -997,8 +997,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1042,8 +1042,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1088,8 +1088,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1116,96 +1116,6 @@
      "rank": 23
     },
     {
-     "name": "CJ Affiliate",
-     "slug": "cj-affiliate",
-     "description": "CJ Affiliate (formerly Commission Junction) is one of the largest affiliate marketing networks, connecting publishers with thousands of advertiser programs. Its current developer platform is three GraphQL APIs - Commission Detail at commissions.api.cj.com for near-real-time commission and transaction data, Product Search / Ads at ads.api.cj.com for product discovery, product feeds and catalog writes, and Advertiser Tracking at tracking.api.cj.com for submitting, restating and cancelling orders. Alongside them CJ still documents a family of classic XML REST APIs - Link Search, Advertiser Lookup, Publisher Lookup, the Automated Offer Feed and a deprecated Commission Detail - plus two JSON click-tracking APIs, the Click Events API and the Publisher Tracking API. Everything authenticates with a single long-lived personal access token minted by hand in the CJ developer portal; there is no OAuth, no scopes and no programmatic token issuance. GraphQL introspection is open and unauthenticated on all three endpoints.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 67.4,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 20.8,
-      "commercial_clarity": 63.2,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 30.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 24
-    },
-    {
-     "name": "Friendbuy",
-     "slug": "friendbuy",
-     "description": "Friendbuy is a referral and loyalty marketing platform for ecommerce and direct-to-consumer brands. Merchants launch referral, loyalty, and reward campaigns through on-site widgets and a no-code dashboard, and integrate server-to-server through the Friendbuy Merchant API (base https://mapi.fbot.me/v1). The Merchant API lets merchants sync customer records, generate personal referral links, track purchase / sign-up / custom conversion events, pull campaign and reward analytics, and manage loyalty ledger balances, adjustments, redemptions, and coupons. Authentication is a key/secret exchange at POST /authorization that returns a short-lived Bearer JWT. Access to the API and to production credentials is gated behind a paid, contact-sales plan.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/screenshots/friendbuy-2026-07-25T215215.png",
-     "score": 48.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 21.9,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 67.1,
-      "access_clarity": 67.1
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 25
-    },
-    {
      "name": "WoowUp",
      "slug": "woowup",
      "description": "WoowUp is a customer marketing and loyalty CRM platform built for retail and ecommerce brands across Latin America. Founded in Buenos Aires and backed by 500 Global, WoowUp centralizes customer, purchase, and product data from POS and ecommerce platforms (VTEX, Magento, Shopify, WooCommerce, PrestaShop, Tienda Nube) and activates it through segmentation, campaigns, loyalty programs, web push notifications, and abandoned-cart recovery. Its REST API v3 lets developers sync users (multi-ID), purchases, products, coupons, benefits, points, and custom events, with client libraries published in PHP.",
@@ -1223,8 +1133,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1249,7 +1159,52 @@
       "agentic_commerce": false
      },
      "tier": "Sold to both sides",
-     "rank": 26
+     "rank": 24
+    },
+    {
+     "name": "CJ Affiliate",
+     "slug": "cj-affiliate",
+     "description": "CJ Affiliate (formerly Commission Junction) is one of the largest affiliate marketing networks, connecting publishers with thousands of advertiser programs. Its current developer platform is three GraphQL APIs - Commission Detail at commissions.api.cj.com for near-real-time commission and transaction data, Product Search / Ads at ads.api.cj.com for product discovery, product feeds and catalog writes, and Advertiser Tracking at tracking.api.cj.com for submitting, restating and cancelling orders. Alongside them CJ still documents a family of classic XML REST APIs - Link Search, Advertiser Lookup, Publisher Lookup, the Automated Offer Feed and a deprecated Commission Detail - plus two JSON click-tracking APIs, the Click Events API and the Publisher Tracking API. Everything authenticates with a single long-lived personal access token minted by hand in the CJ developer portal; there is no OAuth, no scopes and no programmatic token issuance. GraphQL introspection is open and unauthenticated on all three endpoints.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cj-affiliate/refs/heads/main/screenshots/cj-affiliate-2026-07-25T205448.png",
+     "score": 47.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 67.4,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 17.3,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 30.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
     },
     {
      "name": "SkimBit",
@@ -1269,8 +1224,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1295,6 +1250,51 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the publisher (sell side)",
+     "rank": 26
+    },
+    {
+     "name": "Friendbuy",
+     "slug": "friendbuy",
+     "description": "Friendbuy is a referral and loyalty marketing platform for ecommerce and direct-to-consumer brands. Merchants launch referral, loyalty, and reward campaigns through on-site widgets and a no-code dashboard, and integrate server-to-server through the Friendbuy Merchant API (base https://mapi.fbot.me/v1). The Merchant API lets merchants sync customer records, generate personal referral links, track purchase / sign-up / custom conversion events, pull campaign and reward analytics, and manage loyalty ledger balances, adjustments, redemptions, and coupons. Authentication is a key/secret exchange at POST /authorization that returns a short-lived Bearer JWT. Access to the API and to production credentials is gated behind a paid, contact-sales plan.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/friendbuy/refs/heads/main/screenshots/friendbuy-2026-07-25T215215.png",
+     "score": 44.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 8.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 55.4,
+      "commercial_clarity": 67.1,
+      "access_clarity": 67.1
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 27
     },
     {
@@ -1315,8 +1315,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1361,8 +1361,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1407,8 +1407,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1452,8 +1452,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1508,8 +1508,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1561,8 +1561,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1606,8 +1606,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1651,8 +1651,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1704,8 +1704,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1750,8 +1750,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1796,8 +1796,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1841,8 +1841,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1887,8 +1887,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1932,8 +1932,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1992,8 +1992,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2048,8 +2048,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2094,8 +2094,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2140,8 +2140,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2186,8 +2186,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2231,8 +2231,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2277,8 +2277,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2322,8 +2322,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2368,8 +2368,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2419,8 +2419,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2464,8 +2464,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2520,8 +2520,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2566,8 +2566,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2618,8 +2618,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2664,8 +2664,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

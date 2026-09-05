@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +8,15 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,10 +24,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: derived
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.0
-  scored_at: '2026-09-03'
+  score: 41.2
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -44,74 +46,89 @@ agentic_access:
   summary_line: 38 operations · 14 acting
 api_count: 6
 apis:
-- description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
+- baseURL: https://{backstageHost}/api/events
+  baseurl_source: declared
+  description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
   name: Backstage Events System
   slug: events-system
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/scaffolder
+  baseurl_source: declared
   description: Endpoints for listing available scaffolder actions.
   name: Backstage Actions API
   slug: backstage-actions-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/auth
+  baseurl_source: declared
   description: The Authentication API from Backstage — 4 operation(s) for authentication.
   name: Backstage Authentication API
   slug: backstage-authentication-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/permission
+  baseurl_source: declared
   description: The Authorization API from Backstage — 2 operation(s) for authorization.
   name: Backstage Authorization API
   slug: backstage-authorization-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/techdocs
+  baseurl_source: declared
   description: The Documentation API from Backstage — 2 operation(s) for documentation.
   name: Backstage Documentation API
   slug: backstage-documentation-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/catalog
+  baseurl_source: declared
   description: Endpoints for managing and querying catalog entities.
   name: Backstage Entities API
   slug: backstage-entities-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/catalog
+  baseurl_source: declared
   description: Endpoints for managing catalog locations (entity sources).
   name: Backstage Locations API
   slug: backstage-locations-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/techdocs
+  baseurl_source: declared
   description: The Metadata API from Backstage — 2 operation(s) for metadata.
   name: Backstage Metadata API
   slug: backstage-metadata-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/search
+  baseurl_source: declared
   description: The Search API from Backstage — 1 operation(s) for search.
   name: Backstage Search API
   slug: backstage-search-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/techdocs
+  baseurl_source: declared
   description: The Sync API from Backstage — 1 operation(s) for sync.
   name: Backstage Sync API
   slug: backstage-sync-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/scaffolder
+  baseurl_source: declared
   description: Endpoints for creating and managing scaffolder tasks.
   name: Backstage Tasks API
   slug: backstage-tasks-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/scaffolder
+  baseurl_source: declared
   description: Endpoints for template metadata and parameter schemas.
   name: Backstage Templates API
   slug: backstage-templates-api
-- baseURL: https://localhost:7007/api/auth
-  baseurl_source: spec
+- baseURL: https://{backstageHost}/api/auth
+  baseurl_source: declared
   description: The Token Verification API from Backstage — 1 operation(s) for token verification.
   name: Backstage Token Verification API
   slug: backstage-token-verification-api
-artifact_total: 108
+- baseURL: https://{backstageHost}/api/notifications
+  baseurl_source: declared
+  description: The Backstage Notifications API delivers user- and group-addressed notifications inside a Backstage portal. Plugins create notifications with a topic, severity and link; users list, read, mark and sav
+  name: Backstage Notifications API
+  slug: backstage-notifications-api
+- baseURL: https://{backstageHost}/api/.backstage/dynamic-features
+  baseurl_source: declared
+  description: The Backstage dynamic feature service reports the dynamically loaded frontend and backend remotes present in a running Backstage instance. It is the introspection surface behind dynamic plugin loading
+  name: Backstage Dynamic Feature Service API
+  slug: backstage-dynamic-features-api
+artifact_total: 114
 asyncapis:
 - description: The Backstage Events system provides a publish-subscribe mechanism for broadcasting and consuming events within a Backstage instance. It enables plugins to emit events when significant actions occur (
   name: Backstage Events System
   slug: backstage-events-asyncapi
+- description: ''
+  name: Backstage Webhooks
+  slug: backstage-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -173,6 +190,102 @@ collections:
 common:
 - group: agent
   title: ''
+  type: MCPServer
+  url: mcp/backstage-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/backstage-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/backstage-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/backstage-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/backstage-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/backstage-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/backstage-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/backstage-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/backstage-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/backstage-scopes.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/backstage-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/backstage-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/backstage-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/backstage-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/backstage-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/backstage-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/backstage-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/backstage-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/backstage-webhooks.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://backstage.io/docs/overview/roadmap/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://backstage.io/docs/features/software-catalog/software-catalog-api/
+- group: operate
+  title: ''
+  type: Support
+  url: https://backstage.io/docs/overview/support
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://backstage.io/docs/
+- group: agent
+  title: ''
   type: AgenticAccess
   url: agentic-access/backstage-agentic-access.yml
 - group: auth
@@ -183,10 +296,6 @@ common:
   title: ''
   type: Authentication
   url: authentication/backstage-authentication.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/showcase/backstage-from-spotify
 - group: company
   title: ''
   type: Website
@@ -427,17 +536,21 @@ jsonld:
   property_count: 48
   slug: backstage-context
 layout: provider
-modified: '2026-04-21'
+mcp_servers:
+- description: 'Backstage ships a first-party MCP server as the @backstage/plugin-mcp-actions-backend plugin. It exposes every action registered with the Backstage Actions Registry as an MCP tool over the Streamable '
+  name: Backstage MCP Actions Backend
+  slug: backstage-mcp-actions-backend
+modified: '2026-09-04'
 name: Backstage
 nav: Providers
 network: true
-overview: 'Backstage publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Events System, Actions API, Authentication API, and 10 more. Tagged areas include Developer Portal, Internal Developer Platform, Software Catalog, and Open-Source.
+overview: 'Backstage publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Events System, Actions API, Authentication API, and 12 more. Tagged areas include Developer Portal, Internal Developer Platform, Software Catalog, Open-Source, and Platform Engineering.
 
 
-  The Backstage catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Backstage catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Backstage''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, and 12 more developer resources.'
+  Backstage''s developer surface includes sandbox, changelog, CLI, API reference, support, authentication, documentation, and 33 more developer resources.'
 plans:
 - name: Backstage Plans Pricing
   plan_count: 4
@@ -480,35 +593,45 @@ rules:
     info: 4
     warn: 14
   slug: backstage-spectral-rules
+scopes:
+- name: Backstage Scopes
+  scope_count: 0
+  slug: backstage-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 39.8
+  band: strong
+  composite: 56.9
   coverage:
-    artifact_dirs: 17
-    catalog_gap: 55.5
+    artifact_dirs: 33
+    catalog_earned: 69.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 45.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 17.1
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
-    contract_governance: 28.8
-    contract_quality: 63.2
-    developer_ergonomics: 40.5
-    discoverability: 55.6
-    governance: 28.8
-    operational_transparency: 28.9
+    contract_governance: 47.0
+    contract_quality: 62.7
+    developer_ergonomics: 85.7
+    discoverability: 74.1
+    governance: 47.0
+    operational_transparency: 60.5
   previous_composite: 39.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+      total: 19
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:
 - kind: authentication
@@ -519,12 +642,19 @@ security:
   name: Backstage Domain Security
   slug: backstage-domain-security
   summary_line: TLSv1.3
+- kind: vulnerability-disclosure
+  name: Backstage Vulnerability Disclosure
+  slug: backstage-vulnerability-disclosure
+  summary_line: Hackerone
 slug: backstage
 tags:
 - Developer Portal
 - Internal Developer Platform
 - Software Catalog
 - Open-Source
+- Platform Engineering
+- Software Templates
+- CNCF
 use_cases:
 - description: Build a unified portal for developers to discover services, read docs, and scaffold projects.
   name: Internal Developer Portal

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: Create, configure, and run reports to analyze campaign performance. Reports support multiple types including standard, reach, path to conversion, cross-dimension reach, floodlight, and cross-media rea
   name: Google Campaign Manager Reports API
   slug: google-campaign-manager-reports-api
-artifact_total: 230
+artifact_total: 229
 collections:
 - collection_type: open
   name: API Collection
@@ -138,7 +138,7 @@ common:
   url: security/google-campaign-manager-vulnerability-disclosure.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/google-campaign-manager-mcp.yml
 - group: agent
   title: ''
@@ -904,10 +904,6 @@ jsonld:
   property_count: 0
   slug: google-campaign-manager-context
 layout: provider
-mcp_servers:
-- description: CANDIDATE tool surface derived from the Campaign Manager 360 OpenAPI operations in this repo. Google publishes NO Model Context Protocol server for Campaign Manager 360. Nothing below is deployed by t
-  name: Google Campaign Manager MCP Server
-  slug: google-campaign-manager-mcp-server
 modified: '2026-08-13'
 name: Google Campaign Manager
 nav: Providers
@@ -957,19 +953,21 @@ scopes:
   summary_line: 3 scopes
 score:
   band: strong
-  composite: 63.9
+  composite: 63.2
   coverage:
     artifact_dirs: 31
+    catalog_earned: 68.5
+    catalog_earned_first_party: 12.0
     catalog_gap: 46.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
     contract_governance: 33.3
     contract_quality: 69.9
-    developer_ergonomics: 74.4
+    developer_ergonomics: 70.8
     discoverability: 61.1
     governance: 33.3
     operational_transparency: 84.2
@@ -984,8 +982,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
 security:

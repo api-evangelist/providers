@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - baseURL: https://api.jobox.ai/Kili
@@ -188,7 +188,7 @@ apis:
   description: The wallet API from JOBOX.ai — 6 operation(s) for wallet.
   name: JOBOX.ai Wallet API
   slug: jobox-ai-wallet-api
-artifact_total: 35
+artifact_total: 34
 common:
 - group: other
   title: ''
@@ -196,7 +196,7 @@ common:
   url: overlays/jobox-ai-kili-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/jobox-ai-mcp.yml
 - group: company
   title: ''
@@ -246,10 +246,6 @@ created: '2026-08-23'
 description: JOBOX.ai (Jobox) is a home-services fintech and marketplace-infrastructure platform for skilled trades professionals — locksmiths, plumbers, HVAC and appliance technicians. Founded in California in 2016 and operating since 2018, Jobox runs a mobile business app for independent pros (job intake from SMS/WhatsApp, dispatching, invoicing, tap-to-pay card acceptance, receipts, settlement reports, the Jobox Wallet and a Jobox credit card) plus a B2B "managed marketplace" product that lets retailers, distributors, discovery platforms and franchises embed home services into their own customer journeys through programmable APIs, an automated dispatch algorithm, a demand-partner dashboard, Jobox-handled KYC and weekly settlement reconciliation. Jobox.ai was acquired by Talus Pay in January 2024; the pro-facing mobile app and help center have since been rebranded to Talus Pay while the jobox.ai marketing site and the api.jobox.ai "Kili" production API remain live.
 image: https://cdn.prod.website-files.com/621a3e492346748467acfaa9/62399d2f126332471592241d_256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: JOBOX.ai MCP Server
-  slug: joboxai-mcp-server
 modified: '2026-08-23'
 name: JOBOX.ai
 nav: Providers
@@ -272,9 +268,11 @@ score:
   composite: 29.4
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -301,8 +299,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobox-ai/refs/heads/main/screenshots/jobox-ai-2026-09-02T145948.png
 security:

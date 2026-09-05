@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +8,14 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,8 +23,8 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.3
-  scored_at: '2026-09-03'
+  score: 27.2
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 2
@@ -92,7 +93,11 @@ apis:
   description: The Integrations API from Artifact Hub — 3 operation(s) for integrations.
   name: Artifact Hub Integrations API
   slug: artifact-hub-integrations-api
-artifact_total: 41
+artifact_total: 43
+asyncapis:
+- description: ''
+  name: Artifact Hub Webhooks
+  slug: artifact-hub-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -128,6 +133,10 @@ collections:
   name: Artifact Hub API
   slug: open-artifact-hub
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://artifacthub.io/
 - group: operate
   title: ''
   type: IssueTracker
@@ -185,9 +194,97 @@ common:
   type: ReleaseNotes
   url: https://github.com/artifacthub/hub/releases
 - group: agent
-  title: ''
-  type: LlmsText
-  url: https://artifacthub.io/llms.txt
+  title: llms.txt for Artifact Hub
+  type: LLMsTxt
+  url: llms/artifact-hub-llms.txt
+- group: build
+  title: Distribution packages (Helm chart, ah CLI, container images, widget)
+  type: Packages
+  url: packages/artifact-hub-packages.yml
+- group: build
+  title: ah command line tool
+  type: CLI
+  url: cli/artifact-hub-cli.yml
+- group: design
+  title: Embeddable Artifact Hub widget
+  type: Components
+  url: components/artifact-hub-components.yml
+- group: design
+  title: API conventions, idempotency and reversibility
+  type: Conventions
+  url: conventions/artifact-hub-conventions.yml
+- group: design
+  title: Error catalog
+  type: ErrorCatalog
+  url: errors/artifact-hub-problem-types.yml
+- group: design
+  title: Entity relationship model
+  type: DataModel
+  url: data-model/artifact-hub-data-model.yml
+- group: design
+  title: Standards conformance
+  type: Conformance
+  url: conformance/artifact-hub-conformance.yml
+- group: design
+  title: Versioning, releases and deprecation posture
+  type: Lifecycle
+  url: lifecycle/artifact-hub-lifecycle.yml
+- group: operate
+  title: Release changelog
+  type: ChangeLog
+  url: changelog/artifact-hub-changelog.yml
+- group: start
+  title: Self-hosted sandbox and rehearsal operations
+  type: Sandbox
+  url: sandbox/artifact-hub-sandbox.yml
+- group: commercial
+  title: Plans and pricing (free, no tiers)
+  type: Plans
+  url: plans/artifact-hub-plans-pricing.yml
+- group: operate
+  title: Rate limits
+  type: RateLimits
+  url: rate-limits/artifact-hub-rate-limits.yml
+- group: commercial
+  title: FinOps framework mapping
+  type: FinOps
+  url: finops/artifact-hub-finops.yml
+- group: design
+  title: Webhook and event catalog
+  type: Webhooks
+  url: asyncapi/artifact-hub-webhooks.yml
+- group: agent
+  title: Packaged Agent Skills
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: Candidate MCP tool list (no first-party server published)
+  type: X-MCPServerCandidate
+  url: mcp/artifact-hub-mcp.yml
+- group: auth
+  title: Vulnerability disclosure policy
+  type: VulnerabilityDisclosure
+  url: security/artifact-hub-vulnerability-disclosure.yml
+- group: auth
+  title: Security policy and contact
+  type: Security
+  url: security/artifact-hub-vulnerability-disclosure.yml
+- group: docs
+  title: Artifact Hub API reference
+  type: APIReference
+  url: https://artifacthub.io/docs/api/
+- group: company
+  title: Artifact Hub Blog
+  type: Blog
+  url: https://artifacthub.github.io/blog/
+- group: operate
+  title: Artifact Hub Roadmap
+  type: Roadmap
+  url: https://github.com/artifacthub/hub/blob/master/ROADMAP.md
+- group: commercial
+  title: Linux Foundation Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.linuxfoundation.org/legal/privacy-policy
 created: '2026-03-16'
 description: Artifact Hub is a CNCF incubating web-based application that enables finding, installing, and publishing cloud-native packages. Built primarily in TypeScript and Go, it addresses fragmentation in the cloud-native ecosystem by providing a single discovery experience for consumers. It supports 27+ artifact types including Helm charts, OPA policies, Falco rules, OLM operators, Tinkerbell actions, kubectl plugins, Tekton tasks, KEDA scalers, CoreDNS plugins, and more. Artifact Hub provides a searchable catalog with versioning, security reports via Trivy and Snyk, changelog tracking, and webhook notification support. Licensed under Apache 2.0 and governed by the CNCF.
 features:
@@ -218,55 +315,63 @@ integrations:
 - description: Artifact Hub is an official CNCF incubating project integrated into the Cloud Native Computing Foundation's ecosystem.
   name: CNCF Landscape
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Artifact Hub
 nav: Providers
 network: true
 overview: 'Artifact Hub publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Organizations API, Packages API, Repositories API, and 6 more. Tagged areas include Cloud-Native, CNCF, Helm Charts, Package Registry, and Discovery.
 
 
-  Artifact Hub''s developer surface includes authentication, documentation, developer portal, release notes, and 11 more developer resources.'
+  The Artifact Hub catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Artifact Hub''s developer surface includes authentication, documentation, developer portal, release notes, CLI, changelog, sandbox, and 31 more developer resources.'
 plans:
 - name: Artifact Hub Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: artifact-hub-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Artifact Hub Rate Limits
   slug: artifact-hub-rate-limits
 score:
   band: developing
-  composite: 43.6
+  composite: 51.4
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 69.0
+    artifact_dirs: 25
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 7.8
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 55.9
-    developer_ergonomics: 31.0
+    access_clarity: 26.3
+    commercial_clarity: 26.3
+    contract_governance: 4.5
+    contract_quality: 63.2
+    developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 0.0
-    operational_transparency: 36.8
+    governance: 4.5
+    operational_transparency: 42.1
   open_source:
     applies: true
     score: 100.0
   previous_composite: 43.6
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifact-hub/refs/heads/main/screenshots/artifact-hub-2026-06-20T172443.png
 security:
 - kind: authentication
@@ -277,6 +382,10 @@ security:
   name: Artifact Hub Domain Security
   slug: artifact-hub-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Artifact Hub Vulnerability Disclosure
+  slug: artifact-hub-vulnerability-disclosure
+  summary_line: Hackerone
 slug: artifact-hub
 tags:
 - Cloud-Native

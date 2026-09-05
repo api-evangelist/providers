@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.monetizeplatform.com
@@ -142,7 +142,7 @@ apis:
   description: APIs to record, update and query usage events
   name: MonetizeNow Usage API
   slug: monetizenow-usage-api
-artifact_total: 30
+artifact_total: 29
 asyncapis:
 - description: ''
   name: Monetizenow Webhooks
@@ -250,7 +250,7 @@ common:
   url: asyncapi/monetizenow-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/monetizenow-mcp.yml
 - group: build
   title: ''
@@ -305,10 +305,6 @@ description: 'MonetizeNow is an enterprise monetization platform that unifies qu
   an OAuth-protected hosted MCP server at https://mcp.monetizeplatform.com/mcp that appears nowhere in its documentation. Pre-built connectors integrate Salesforce, HubSpot, Attio, NetSuite, QuickBooks, Xero, DocuSign, Adobe Sign, Anrok, Avalara, and Taxwire. MonetizeNow is backed by Uncork Capital.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/monetizenow.png
 layout: provider
-mcp_servers:
-- description: MonetizeNow operates a REAL, first-party, hosted remote MCP server at https://mcp.monetizeplatform.com/mcp. It is not advertised anywhere in the public documentation, the marketing site, or any MCP re
-  name: MonetizeNow MCP Server
-  slug: monetizenow-mcp-server
 modified: '2026-08-13'
 name: MonetizeNow
 nav: Providers
@@ -339,9 +335,11 @@ score:
   composite: 56.5
   coverage:
     artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 43.4
@@ -368,8 +366,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monetizenow/refs/heads/main/screenshots/monetizenow-2026-08-07T184153.png
 security:

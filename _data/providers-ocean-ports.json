@@ -8,15 +8,15 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "VesselFinder",
      "slug": "vesselfinder",
      "description": "VesselFinder is a maritime intelligence company operating a global AIS vessel-tracking network (terrestrial AIS plus satellite AIS) and offering ship positions, voyage history, vessel particulars, port-call events, sea-distance routing, and ocean-container track-and-trace through its developer APIs. The platform pairs a credit-metered AIS REST API (Vessels, PortCalls, ExpectedArrivals, MasterData, Distance, plus subscription feeds VesselsList and LiveData) with a separate Container Tracking API that returns shipment schedules and real-time vessel positions by container number. VesselFinder also runs a public web map, iOS/Android apps, an embeddable map widget, a fleet explorer, and a route planner.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png",
-     "score": 51.5,
+     "score": 50.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -25,12 +25,12 @@
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 50.0,
+      "developer_ergonomics": 46.4,
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -75,8 +75,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -109,27 +109,38 @@
      },
      "tier": "Ocean Visibility",
      "rank": 2
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "Terminal49",
      "slug": "terminal49",
      "description": "Terminal49 is an automated container and ocean-freight tracking platform. Its v2 REST API (JSON:API) lets shippers, forwarders, and logistics software track Bills of Lading, bookings, and container numbers across global ocean carriers and North American rail, returning normalized milestones, ETAs, terminal availability, holds, demurrage fees, and last free day, with webhooks for real-time updates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/terminal49/refs/heads/main/screenshots/terminal49-2026-09-02T163138.png",
-     "score": 39.8,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.1,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 53.8,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 35.7,
+      "developer_ergonomics": 32.1,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -155,18 +166,7 @@
      },
      "tier": "Ocean Visibility",
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
-   "providers": [
+    },
     {
      "name": "Vizion",
      "slug": "vizion",
@@ -185,8 +185,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -231,8 +231,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -277,8 +277,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -334,8 +334,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -380,8 +380,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -436,8 +436,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -482,8 +482,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -528,8 +528,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -574,8 +574,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -620,8 +620,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -666,8 +666,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

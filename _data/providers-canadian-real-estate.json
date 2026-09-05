@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -87,12 +87,12 @@
      "slug": "crea",
      "description": "The Canadian Real Estate Association (CREA) is the national industry body for Canadian residential real estate, representing roughly 160,000 REALTORS through some 60 member boards and associations, owning the MLS and REALTOR trademarks in Canada, and operating REALTOR.ca - the country's single national consumer listing portal. Where the United States fragments into roughly 500 independently governed MLSs, Canada consolidates: CREA runs the REALTOR.ca Data Distribution Facility (DDF), one national syndication seam that collects listing content from member boards' MLS Systems and redistributes it to member websites, franchisor pools, and a network of Real Estate Advertising Websites. That makes CREA simultaneously the standards-setter (it writes the DDF Policy and Rules that boards must adopt and enforce), the operator of the pipe, and the gatekeeper of the data. Its API posture is unusually good for an industry body and still firmly gated. Three real machine-readable contracts are downloadable anonymously - an OpenAPI 3.0.4 document for the DDF Web API served from ddfapi.realtor.ca/swagger/v1/swagger.json and embedded in the public Redoc site at ddfapi-docs.realtor.ca, an OpenAPI 3.0.1 document for the REALTOR.ca Board API at boardapi-docs.realtor.ca, and a full OpenID Connect discovery document at identity.crea.ca. The DDF Web API is an OData v4 surface normalized to the RESO Data Dictionary and described by CREA as built on the RESO Web API specification, but CREA is RESO-aligned rather than RESO-certified - it does not appear in RESO's public certification directory of 578 organizations, where the only Canadian entries are individual boards such as the Toronto Regional Real Estate Board and Greater Vancouver REALTORS, none of them Certified Current. Nothing is self-serve. There is no signup, no sandbox and no free tier; client_id and client_secret are, in CREA's own words, provided by CREA. A REALTOR must opt in through the DDF Dashboard on CREA's member portal, and a third-party developer must enter a data access agreement with CREA as a Technology Provider operating a National Pool Website or Member Website on behalf of that opted-in member. The OData $metadata document, the actual RESO contract, returns HTTP 401 to anonymous callers. No open, unlicensed Canadian listing dataset exists behind any of it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png",
-     "score": 41.7,
+     "score": 42.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 92.6,
-      "contract_quality": 44.8,
+      "contract_quality": 47.1,
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
@@ -100,8 +100,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -157,8 +157,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -203,8 +203,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -256,8 +256,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -302,8 +302,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -348,8 +348,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -411,8 +411,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -463,8 +463,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -516,8 +516,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -569,8 +569,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -621,8 +621,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -677,8 +677,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -729,8 +729,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ apis:
   description: The Whitelisting APIs API from Bharti Airtel — 1 operation(s) for whitelisting apis.
   name: Bharti Airtel Whitelisting APIs API
   slug: bharti-airtel-whitelisting-apis-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: ''
   name: Bharti Airtel Webhooks
@@ -233,7 +233,7 @@ common:
   url: asyncapi/bharti-airtel-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/bharti-airtel-mcp.yml
 - group: build
   title: ''
@@ -336,10 +336,6 @@ description: 'Bharti Airtel Limited is an Indian multinational telecommunication
   complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel''s network capabilities only through aggregators — Aduna, and Nokia''s Network as Code platform — never directly. Its own "Airtel API Marketplace" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Bharti Airtel MCP Server
-  slug: bharti-airtel-mcp-server
 modified: '2026-07-25'
 name: Bharti Airtel
 nav: Providers
@@ -362,9 +358,11 @@ score:
   composite: 51.0
   coverage:
     artifact_dirs: 22
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -392,8 +390,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 81.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bharti-airtel/refs/heads/main/screenshots/bharti-airtel-2026-08-07T162406.png
 security:

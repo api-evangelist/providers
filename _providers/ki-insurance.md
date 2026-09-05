@@ -30,12 +30,12 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: documented
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-09-03'
+  score: 33.6
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -142,7 +142,7 @@ arazzos:
 - description: 'Ki''s slip extraction pipeline: register the slip upload, execute the extraction job, poll it to completion, read the result and promote it into a quote. Every operationId exists verbatim in the refere'
   name: Ki — turn a broker slip into a quote
   slug: ki-insurance-slip-to-quote
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: Ki Broker Trading Platform API (observed)
@@ -234,7 +234,7 @@ common:
   url: skills/_index.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ki-insurance-mcp.yml
 - group: build
   title: ''
@@ -269,10 +269,6 @@ description: 'Ki is the first fully digital, algorithmically driven syndicate at
   collection, and no public webhook or event catalog. What is observable is the platform API itself — Ki''s own broker client ships a complete endpoint registry in its public JavaScript bundle, exposing a same-origin REST surface of roughly a hundred JSON operations across quotes, quote lines, pricing, schedules of values, slip extraction, leads, pipeline, broking houses, nominated leads and Lloyd''s risk codes, all authorised with an Auth0 bearer token. API Evangelist has derived an observed OpenAPI from that bundle. Ki remains the archetype of the United Kingdom''s London-market pattern: genuinely advanced machine-to-machine insurance placement infrastructure, aimed at brokers and syndicates rather than at developers, and therefore effectively invisible from the outside.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ki Insurance MCP Server
-  slug: ki-insurance-mcp-server
 modified: '2026-07-25'
 name: Ki Insurance
 nav: Providers
@@ -292,9 +288,11 @@ score:
   composite: 24.9
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -322,8 +320,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ki-insurance/refs/heads/main/screenshots/ki-insurance-2026-07-25T223715.png
 security:

@@ -1,25 +1,26 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-09-03'
+  score: 45.0
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +60,7 @@ apis:
   description: ADM food ingredients and product catalog
   name: Archer Daniels Midland Products API
   slug: archer-daniels-midland-products-api
-artifact_total: 54
+artifact_total: 55
 collections:
 - collection_type: open
   name: API Collection
@@ -77,6 +78,10 @@ collections:
   name: Archer Daniels Midland Commodity Data Commodities Products API
   slug: open-archer-daniels-midland-products-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.adm.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -92,7 +97,7 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/archer-daniels-midland
+  url: https://www.linkedin.com/company/adm
 - group: start
   title: ''
   type: Portal
@@ -112,7 +117,67 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.adm.com/en-us/news/adm-stories/
+  url: https://www.adm.com/en-us/news/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/archer-daniels-midland-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/archer-daniels-midland-llms.txt
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/archer-daniels-midland-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/archer-daniels-midland-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/archer-daniels-midland-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/archer-daniels-midland-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/archer-daniels-midland-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/archer-daniels-midland-rate-limits.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.adm.com/en-us/legal/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.adm.com/en-us/legal/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.adm.com/en-us/contact-us/
+coverage:
+  checked: '2026-09-04'
+  detail: ADM runs no public developer program at all — its own llms.txt enumerates every key page on adm.com and names no API, developer portal or SDK, and api.adm.com, the host this record's baseURLs point at, has no DNS record whatsoever.
+  evidence:
+  - status: 200
+    url: https://www.adm.com/llms.txt
+  - status: 0
+    url: https://api.adm.com/
+  - status: 0
+    url: https://developer.adm.com/
+  - status: 404
+    url: https://www.adm.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.adm.com/.well-known/openid-configuration
+  reason: no-developer-program
+  state: none
 created: '2026-03-23'
 description: Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and industrial markets worldwide.
 examples:
@@ -221,7 +286,7 @@ jsonld:
   property_count: 22
   slug: archer-daniels-midland-commodity-data-api-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Archer Daniels Midland
 nav: Providers
 network: true
@@ -231,10 +296,10 @@ overview: 'Archer Daniels Midland publishes 3 APIs on the [APIs.io](https://apis
   The Archer Daniels Midland catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Archer Daniels Midland''s developer surface includes authentication, developer portal, engineering blog, and 6 more developer resources.'
+  Archer Daniels Midland''s developer surface includes authentication, developer portal, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Archer Daniels Midland Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: archer-daniels-midland-plans-pricing
 press:
 - date: '2026-05-25'
@@ -254,7 +319,7 @@ press:
   url: https://www.agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981/
 random_paper: 0
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Archer Daniels Midland Rate Limits
   slug: archer-daniels-midland-rate-limits
 rules:
@@ -279,41 +344,50 @@ rules:
     info: 0
     warn: 11
   slug: archer-daniels-midland-spectral-rules
+scopes:
+- name: Archer Daniels Midland Scopes
+  scope_count: 0
+  slug: archer-daniels-midland-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 25.8
+  band: thin
+  composite: 29.5
   coverage:
-    artifact_dirs: 18
-    catalog_gap: 47.5
+    artifact_dirs: 27
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 3.7
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 28.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 47.0
     contract_quality: 21.6
-    developer_ergonomics: 31.0
+    developer_ergonomics: 26.2
     discoverability: 74.1
-    governance: 28.8
-    operational_transparency: 5.3
+    governance: 47.0
+    operational_transparency: 0.0
   previous_composite: 25.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 4
       marker_coverage: 100.0
       total: 4
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+    mcp: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png
 security:
 - kind: authentication
   name: Archer Daniels Midland Authentication
   slug: archer-daniels-midland-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: openIdConnect/apiKey · 2 schemes
 - kind: domain-security
   name: Archer Daniels Midland Domain Security
   slug: archer-daniels-midland-domain-security
@@ -335,5 +409,5 @@ use_cases:
   name: Food Ingredient Sourcing
 - description: Access commodity pricing and market trend data for agricultural commodity risk management.
   name: Risk Management
-website: https://www.adm.com/en-us/
+website: https://www.adm.com/
 ---

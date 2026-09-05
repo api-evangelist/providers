@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,14 +52,31 @@ common:
   title: ''
   type: Website
   url: https://www.semgroup.com
-description: SemGroup was a midstream service provider that gathered, transported, stored, processed, and marketed crude oil, refined products, and natural gas liquids before being acquired by Energy Transfer.
+coverage:
+  checked: '2026-09-04'
+  detail: SemGroup ceased to exist as a company when its merger into Energy Transfer LP closed on 2019-12-05; www.semgroup.com now answers 302 on every path — including every /.well-known/ and spec path probed — and lands on Energy Transfer's corporate site, while the semgroup.com apex has no A record at all.
+  evidence:
+  - status: 302
+    url: http://www.semgroup.com/
+  - status: 302
+    url: http://www.semgroup.com/.well-known/security.txt
+  - status: 302
+    url: http://www.semgroup.com/openapi.json
+  - status: 503
+    url: http://www.semgroup.com/developers
+  - status: 0
+    url: https://www.semgroup.com/
+  reason: defunct
+  state: none
+created: '2026-03-24'
+description: SemGroup Corporation was a Tulsa, Oklahoma midstream energy service provider that gathered, transported, stored, processed, and marketed crude oil, refined products, and natural gas liquids across North America, and operated the Houston Fuel Oil Terminal (HFOTCO) on the Houston Ship Channel. Energy Transfer LP acquired SemGroup in a $5.1 billion transaction that closed on December 5, 2019; the company was absorbed into Energy Transfer, its NYSE listing retired, and www.semgroup.com now redirects to energytransfer.com. SemGroup never operated a public developer program or API.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semgroup.png
 layout: provider
-modified: '2026-03-24'
-name: Semgroup
+modified: '2026-09-04'
+name: SemGroup
 nav: Providers
 network: true
-overview: Semgroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: SemGroup is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Midstream, Oil and Gas, Pipelines, and Crude Oil.
 press:
 - date: '2026-05-25'
   title: SemGroup buying Houston Fuel Oil Terminal Co. in $2B deal
@@ -79,25 +96,33 @@ press:
 random_paper: 0
 score:
   band: minimal
-  composite: 2.6
+  composite: 3.3
   coverage:
-    artifact_dirs: 5
-    catalog_gap: 101.0
+    artifact_dirs: 6
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 25.9
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 8.1
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semgroup/refs/heads/main/screenshots/semgroup-2026-06-20T193648.png
 security:
@@ -107,6 +132,14 @@ security:
   summary_line: DMARC
 slug: semgroup
 tags:
+- Energy
+- Midstream
+- Oil and Gas
+- Pipelines
+- Crude Oil
+- Natural Gas Liquids
+- Terminals
+- Acquired
 - Fortune 1000
 website: https://www.semgroup.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -111,19 +111,27 @@ apis:
 - description: The Accounts API from Microsoft Azure — 52 operation(s) for accounts.
   name: Microsoft Azure Accounts API
   slug: microsoft-azure-accounts-api
-- description: The Acr API from Microsoft Azure — 2 operation(s) for acr.
+- baseURL_template: https://{registryName}.azurecr.io
+  baseurl_source: spec_template
+  description: The Acr API from Microsoft Azure — 2 operation(s) for acr.
   name: Microsoft Azure Acr API
   slug: microsoft-azure-acr-api
 - description: ACR APIs related to manifests
   name: Microsoft Azure AcrManifest API
   slug: microsoft-azure-acrmanifest-api
-- description: The AcrMetadata API from Microsoft Azure — 5 operation(s) for acrmetadata.
+- baseURL_template: https://{registryName}.azurecr.io
+  baseurl_source: spec_template
+  description: The AcrMetadata API from Microsoft Azure — 5 operation(s) for acrmetadata.
   name: Microsoft Azure AcrMetadata API
   slug: microsoft-azure-acrmetadata-api
-- description: ACR APIs related to repositories
+- baseURL_template: https://{registryName}.azurecr.io
+  baseurl_source: spec_template
+  description: ACR APIs related to repositories
   name: Microsoft Azure AcrRepository API
   slug: microsoft-azure-acrrepository-api
-- description: ACR APIs related to tags
+- baseURL_template: https://{registryName}.azurecr.io
+  baseurl_source: spec_template
+  description: ACR APIs related to tags
   name: Microsoft Azure AcrTag API
   slug: microsoft-azure-acrtag-api
 - description: The AcrToken API from Microsoft Azure — 2 operation(s) for acrtoken.
@@ -393,7 +401,9 @@ apis:
 - description: Provides access to inventory assets.
   name: Microsoft Azure Assets API
   slug: microsoft-azure-assets-api
-- description: The Assistant API from Microsoft Azure — 1 operation(s) for assistant.
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: The Assistant API from Microsoft Azure — 1 operation(s) for assistant.
   name: Microsoft Azure Assistant API
   slug: microsoft-azure-assistant-api
 - description: The Assistants API from Microsoft Azure — 20 operation(s) for assistants.
@@ -423,7 +433,9 @@ apis:
 - description: The Attested API from Microsoft Azure — 1 operation(s) for attested.
   name: Microsoft Azure Attested API
   slug: microsoft-azure-attested-api
-- description: Operations for audio transcription and translation
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: Operations for audio transcription and translation
   name: Microsoft Azure Audio API
   slug: microsoft-azure-audio-api
 - description: The Audit API from Microsoft Azure — 1 operation(s) for audit.
@@ -621,7 +633,9 @@ apis:
 - description: The BillingPeriods API from Microsoft Azure — 2 operation(s) for billingperiods.
   name: Microsoft Azure BillingPeriods API
   slug: microsoft-azure-billingperiods-api
-- description: Operations on blobs
+- baseURL_template: https://{accountName}.blob.core.windows.net
+  baseurl_source: spec_template
+  description: Operations on blobs
   name: Microsoft Azure Blobs API
   slug: microsoft-azure-blobs-api
 - description: The BlockchainMember API from Microsoft Azure — 6 operation(s) for blockchainmember.
@@ -759,7 +773,9 @@ apis:
 - description: The Charges API from Microsoft Azure — 1 operation(s) for charges.
   name: Microsoft Azure Charges API
   slug: microsoft-azure-charges-api
-- description: Operations for chat-based completions
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: Operations for chat-based completions
   name: Microsoft Azure Chat Completions API
   slug: microsoft-azure-chat-completions-api
 - description: The ChatTranscripts API from Microsoft Azure — 4 operation(s) for chattranscripts.
@@ -900,7 +916,9 @@ apis:
 - description: The CommunityTrainings API from Microsoft Azure — 3 operation(s) for communitytrainings.
   name: Microsoft Azure CommunityTrainings API
   slug: microsoft-azure-communitytrainings-api
-- description: Operations for text completions
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: Operations for text completions
   name: Microsoft Azure Completions API
   slug: microsoft-azure-completions-api
 - description: The Compose Deployment API from Microsoft Azure — 7 operation(s) for compose deployment.
@@ -1122,7 +1140,9 @@ apis:
 - description: The DatabaseReplicationLinks API from Microsoft Azure — 5 operation(s) for databasereplicationlinks.
   name: Microsoft Azure DatabaseReplicationLinks API
   slug: microsoft-azure-databasereplicationlinks-api
-- description: Operations for managing Cosmos DB databases
+- baseURL_template: https://{accountName}.documents.azure.com
+  baseurl_source: spec_template
+  description: Operations for managing Cosmos DB databases
   name: Microsoft Azure Databases API
   slug: microsoft-azure-databases-api
 - description: The DatabasesController API from Microsoft Azure — 2 operation(s) for databasescontroller.
@@ -1515,7 +1535,9 @@ apis:
 - description: The EmailSend API from Microsoft Azure — 1 operation(s) for emailsend.
   name: Microsoft Azure EmailSend API
   slug: microsoft-azure-emailsend-api
-- description: Operations for generating text embeddings
+- baseURL_template: https://{endpoint}/openai
+  baseurl_source: spec_template
+  description: Operations for generating text embeddings
   name: Microsoft Azure Embeddings API
   slug: microsoft-azure-embeddings-api
 - description: The EmergingIssues API from Microsoft Azure — 2 operation(s) for emergingissues.
@@ -2295,7 +2317,9 @@ apis:
 - description: The ItemLevelRecoveryConnections API from Microsoft Azure — 2 operation(s) for itemlevelrecoveryconnections.
   name: Microsoft Azure ItemLevelRecoveryConnections API
   slug: microsoft-azure-itemlevelrecoveryconnections-api
-- description: Operations for managing items (documents)
+- baseURL_template: https://{accountName}.documents.azure.com
+  baseurl_source: spec_template
+  description: Operations for managing items (documents)
   name: Microsoft Azure Items API
   slug: microsoft-azure-items-api
 - description: The JitRequests API from Microsoft Azure — 3 operation(s) for jitrequests.
@@ -2343,7 +2367,9 @@ apis:
 - description: The keyPhrases API from Microsoft Azure — 1 operation(s) for keyphrases.
   name: Microsoft Azure keyPhrases API
   slug: microsoft-azure-keyphrases-api
-- description: The Keys API from Microsoft Azure — 6 operation(s) for keys.
+- baseURL_template: https://{vaultName}.vault.azure.net
+  baseurl_source: spec_template
+  description: The Keys API from Microsoft Azure — 6 operation(s) for keys.
   name: Microsoft Azure Keys API
   slug: microsoft-azure-keys-api
 - description: The KeyValues API from Microsoft Azure — 4 operation(s) for keyvalues.
@@ -2514,7 +2540,9 @@ apis:
 - description: The Managed CCF API from Microsoft Azure — 5 operation(s) for managed ccf.
   name: Microsoft Azure Managed CCF API
   slug: microsoft-azure-managed-ccf-api
-- description: Operations for managing AKS clusters
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Operations for managing AKS clusters
   name: Microsoft Azure Managed Clusters API
   slug: microsoft-azure-managed-clusters-api
 - description: The ManagedHostingEnvironments API from Microsoft Azure — 7 operation(s) for managedhostingenvironments.
@@ -2559,7 +2587,9 @@ apis:
 - description: Everything about manifests
   name: Microsoft Azure Manifest API
   slug: microsoft-azure-manifest-api
-- description: Operations for managing image manifests
+- baseURL_template: https://{registryName}.azurecr.io
+  baseurl_source: spec_template
+  description: Operations for managing image manifests
   name: Microsoft Azure Manifests API
   slug: microsoft-azure-manifests-api
 - description: The Map API from Microsoft Azure — 3 operation(s) for map.
@@ -3633,7 +3663,9 @@ apis:
 - description: The Reports API from Microsoft Azure — 14 operation(s) for reports.
   name: Microsoft Azure Reports API
   slug: microsoft-azure-reports-api
-- description: Operations for managing repositories
+- baseURL_template: https://{registryName}.azurecr.io
+  baseurl_source: spec_template
+  description: Operations for managing repositories
   name: Microsoft Azure Repositories API
   slug: microsoft-azure-repositories-api
 - description: Everything about repository
@@ -3657,7 +3689,9 @@ apis:
 - description: The Resource API from Microsoft Azure — 7 operation(s) for resource.
   name: Microsoft Azure Resource API
   slug: microsoft-azure-resource-api
-- description: Operations for managing resource groups
+- baseURL: https://management.azure.com
+  baseurl_source: spec
+  description: Operations for managing resource groups
   name: Microsoft Azure Resource Groups API
   slug: microsoft-azure-resource-groups-api
 - description: The ResourceActions API from Microsoft Azure — 1 operation(s) for resourceactions.
@@ -3879,7 +3913,9 @@ apis:
 - description: The Seasons API from Microsoft Azure — 2 operation(s) for seasons.
   name: Microsoft Azure Seasons API
   slug: microsoft-azure-seasons-api
-- description: Operations for managing secrets
+- baseURL_template: https://{vaultName}.vault.azure.net
+  baseurl_source: spec_template
+  description: Operations for managing secrets
   name: Microsoft Azure Secrets API
   slug: microsoft-azure-secrets-api
 - description: The Security Contacts API from Microsoft Azure — 2 operation(s) for security contacts.
@@ -4314,7 +4350,9 @@ apis:
 - description: The StorageTasks API from Microsoft Azure — 6 operation(s) for storagetasks.
   name: Microsoft Azure StorageTasks API
   slug: microsoft-azure-storagetasks-api
-- description: Operations for managing stored procedures
+- baseURL_template: https://{accountName}.documents.azure.com
+  baseurl_source: spec_template
+  description: Operations for managing stored procedures
   name: Microsoft Azure Stored Procedures API
   slug: microsoft-azure-stored-procedures-api
 - description: The Stream API from Microsoft Azure — 1 operation(s) for stream.
@@ -13913,19 +13951,21 @@ scopes:
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.8
+  composite: 57.1
   coverage:
     artifact_dirs: 29
+    catalog_earned: 57.5
+    catalog_earned_first_party: 0.0
     catalog_gap: 57.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
     contract_governance: 18.2
-    contract_quality: 61.8
-    developer_ergonomics: 76.2
+    contract_quality: 61.9
+    developer_ergonomics: 72.6
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 42.1
@@ -13934,13 +13974,13 @@ score:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 0.8
       derived: 0
       marker_coverage: 0.0
       total: 1659
     mcp: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:

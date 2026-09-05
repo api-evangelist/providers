@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://www.import2.com/api/v2.1
@@ -46,7 +49,7 @@ apis:
   description: Supported source and destination migration tools.
   name: Import2 Tools API
   slug: import2-tools-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +155,7 @@ common:
   url: security/import2-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/import2-mcp.yml
 - group: agent
   title: ''
@@ -166,10 +169,6 @@ created: '2026-07-17'
 description: Import2 is a fully automated data-migration platform that moves customer data between SaaS applications — CRM, helpdesk, and project-management tools — without CSV exports or custom development. Users connect a source and destination app and Import2 moves records, custom fields, pipelines, and deal stages directly over each app's API, processing data in real time on a temporary machine that is destroyed after the migration. It supports 50+ tools (Salesforce, HubSpot, Zendesk, Pipedrive, Asana, Monday.com, Jira and more) and offers a free sample migration before a full run. Import2 also exposes a partner/vendor API (v2.1) so SaaS vendors can create and track automated migrations programmatically, plus sibling tools ViaCSV and MyCRMBackup.
 image: https://cdn.prod.website-files.com/698e5a4787478ca03bb07614/699307813937eab1c0993d3d_webclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Import2 MCP Server
-  slug: import2-mcp-server
 modified: '2026-07-19'
 name: Import2
 nav: Providers
@@ -188,9 +187,11 @@ score:
   composite: 38.0
   coverage:
     artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -211,8 +212,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/import2/refs/heads/main/screenshots/import2-2026-07-25T222154.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 284
   human_in_the_loop: 22
@@ -419,7 +419,7 @@ apis:
   description: The Visibility API from OneRail — 4 operation(s) for visibility.
   name: OneRail Visibility API
   slug: onerail-visibility-api
-artifact_total: 159
+artifact_total: 158
 asyncapis:
 - description: ''
   name: Onerail Delivery Events Webhooks
@@ -778,10 +778,6 @@ description: OneRail is an Orlando, Florida based last-mile delivery orchestrati
   organization App ID / API Key header pair, and delivery status changes are pushed to shipper-configured webhook endpoints. OneRail is embedded in the IBM Sterling Order Management and Fulfillment Suite and in SAP environments, and serves wholesale, retail, automotive, pharma, industrial, grocery, furniture, and food and beverage shippers.
 image: https://www.onerail.com/wp-content/themes/customtheme/images/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OneRail MCP Server
-  slug: onerail-mcp-server
 modified: '2026-08-02'
 name: OneRail
 nav: Providers
@@ -801,20 +797,22 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 44.6
+  composite: 46.4
   coverage:
     artifact_dirs: 21
-    catalog_gap: 88.0
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.8
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 50.5
     developer_ergonomics: 61.3
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
   previous_composite: 44.6
@@ -828,8 +826,8 @@ score:
       total: 75
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onerail/refs/heads/main/screenshots/onerail-2026-08-07T190340.png
 security:

@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'REST + gRPC API for querying features from the Chalk Context Engine — online single-row queries, bulk (feather/Arrow) queries, and asynchronous offline dataset generation — plus deployment of feature '
   name: Chalk API
   slug: chalk-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -119,7 +119,7 @@ common:
   url: cli/chalk-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chalk-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: 'Chalk is a real-time AI/ML data platform ("Context Engine") that lets teams define features, embeddings, LLM outputs, and prompts once in Python and serve them everywhere — training, real-time inference, and agents — computed on infrastructure the customer controls. Instead of stitching together a feature store, vector database, retrieval and prompt tooling, orchestration, and a sandbox runtime, Chalk unifies them: features are point-in-time correct, served in single-digit milliseconds, and deployed via a branch-based model inside the customer''s own cloud. It exposes a REST API and gRPC client libraries (Python, TypeScript, Go, Java, C#), a first-party CLI, OAuth 2.0 authentication, and MCP-scoped agent access. Backed by Felicis and General Catalyst.'
 image: https://chalk.ai/opengraph.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chalk MCP Server
-  slug: chalk-mcp-server
 modified: '2026-07-18'
 name: Chalk
 nav: Providers
@@ -188,9 +184,11 @@ score:
   composite: 38.8
   coverage:
     artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 42.1
@@ -205,8 +203,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chalk/refs/heads/main/screenshots/chalk-2026-07-25T205026.png
 security:

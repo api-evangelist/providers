@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -73,7 +73,7 @@ apis:
   description: The webhook API from Hourone — 5 operation(s) for webhook.
   name: Hourone webhook API
   slug: hourone-webhook-api
-artifact_total: 17
+artifact_total: 16
 asyncapis:
 - description: Outbound webhook notifications for video processing lifecycle. Hour One POSTs a signed JSON payload to your registered endpoint when a video finishes rendering or fails. Each request carries an x-hour
   name: Hour One (MakeReals) Webhooks
@@ -175,7 +175,7 @@ common:
   url: data-model/hourone-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hourone-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +197,6 @@ created: '2026-07-17'
 description: Hour One (developer surface "MakeReals") is an AI video-generation platform that turns text, scripts and data into studio-quality videos fronted by lifelike AI presenters (characters) and text-to-speech voices. Its REST API lets developers create videos programmatically two ways — from a Blueprint (an existing HourOne studio project/template) or Dynamically (scenes built from scratch with media, text, palette, character and voice) — preview voices, generate multi-language subtitles, pull usage analytics, manage API keys, and subscribe to video.ready / video.failed webhooks. The API is asynchronous (create, then poll by id or receive a signed webhook) and authenticates with a single api-key header. Common uses include personalized video at scale, L&D and training content, CRM/LMS automation, and localized marketing video. Hour One is a portfolio company of Kindred Ventures.
 image: https://hourone.ai/
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hourone MCP Server
-  slug: hourone-mcp-server
 modified: '2026-08-08'
 name: Hourone
 nav: Providers
@@ -218,9 +214,11 @@ score:
   composite: 37.3
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -242,8 +240,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
 security:

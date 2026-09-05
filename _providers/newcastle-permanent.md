@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 3
 apis:
 - baseURL: https://openbank.newcastlepermanent.com.au/cds-au/v1/banking/products
@@ -81,7 +81,7 @@ apis:
   description: The Common API from Newcastle Permanent Building Society — 2 operation(s) for common.
   name: Newcastle Permanent Building Society Common API
   slug: newcastle-permanent-common-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +211,7 @@ common:
   url: data-model/newcastle-permanent-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/newcastle-permanent-mcp.yml
 - group: other
   title: ''
@@ -249,10 +249,6 @@ created: '2026-07-20'
 description: Newcastle Permanent Building Society is a customer-owned Australian authorised deposit-taking institution (ADI) founded in 1903 and headquartered in Newcastle, New South Wales. As a mutual, it is owned by its members rather than shareholders, and it provides retail banking, home loans, savings, term deposits, and insurance to communities across NSW. In March 2023 it merged with Greater Bank to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned banks, while Newcastle Permanent continues to operate as a consumer brand. As a regulated ADI it is a data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a live, public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body Consumer Data Standards, alongside an NPBS Innovation Sandbox and Marketplace developer portal.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newcastle-permanent.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Newcastle Permanent Building Society MCP Server
-  slug: newcastle-permanent-building-society-mcp-server
 modified: '2026-07-21'
 name: Newcastle Permanent Building Society
 nav: Providers
@@ -272,9 +268,11 @@ score:
   composite: 44.8
   coverage:
     artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -305,8 +303,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:

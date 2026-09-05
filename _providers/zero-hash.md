@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 4
 apis:
 - description: Authenticated WebSocket feed delivering a full account-balance snapshot on subscribe followed by incremental balance-updated events, plus RFQ liquidity bid/ask price levels per subscribed symbol. Ever
@@ -191,7 +191,7 @@ apis:
   description: Initiate and monitor withdrawals from accounts
   name: Zero Hash Withdrawals API
   slug: zero-hash-withdrawals-api
-artifact_total: 69
+artifact_total: 68
 asyncapis:
 - description: ''
   name: Zero Hash Webhooks
@@ -293,7 +293,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/zero-hash-mcp.yml
 - group: other
   title: ''
@@ -456,10 +456,6 @@ description: Zero Hash is a regulated digital-asset infrastructure provider that
   CLOB order entry and market data, an outbound webhook catalog, and a large family of embeddable JavaScript/React SDK modules for buy, sell, onboarding, funding, withdrawals and account linking.
 image: https://cdn.prod.website-files.com/68c59605946d2fed8ac8bcbd/6a0c76136695e559d8cffe0f_zerohash%20-%20512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Zero Hash MCP Server
-  slug: zero-hash-mcp-server
 modified: '2026-08-05'
 name: Zero Hash
 nav: Providers
@@ -482,9 +478,11 @@ score:
   composite: 58.3
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -511,8 +509,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 65.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-hash/refs/heads/main/screenshots/zero-hash-2026-08-17T083054.png
 security:

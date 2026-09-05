@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -201,6 +201,10 @@ common:
   title: ''
   type: Authentication
   url: https://docs.revert.dev
+- group: company
+  title: ''
+  type: Website
+  url: https://revert.dev
 created: '2026-03-16'
 description: Revert is an open-source unified API platform that makes it easy to build product integrations 10x faster. It provides a single standardized API to integrate with CRMs (Salesforce, HubSpot, Zoho CRM, Pipedrive, Close CRM), ticketing systems (Jira, Asana), accounting (Xero, QuickBooks), chat (Slack, Microsoft Teams, Discord), and more, with built-in OAuth management, token refresh, and retry logic.
 examples:
@@ -242,7 +246,7 @@ overview: 'Revert publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Revert catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Revert''s developer surface includes authentication, GitHub presence, documentation, and 8 more developer resources.'
+  Revert''s developer surface includes authentication, GitHub presence, documentation, and 9 more developer resources.'
 plans:
 - name: Revert Plans Pricing
   plan_count: 3
@@ -278,9 +282,11 @@ score:
   composite: 36.2
   coverage:
     artifact_dirs: 14
+    catalog_earned: 70.3
+    catalog_earned_first_party: 0.0
     catalog_gap: 44.8
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 39.5
@@ -299,8 +305,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 security:
 - kind: authentication

@@ -31,10 +31,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-09-03'
+  score: 36.3
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -47,27 +47,27 @@ apis:
 - description: The Aflac Claims API provides programmatic access to supplemental insurance claim submission, status retrieval, and benefit payment tracking. It enables policyholders and administrators to submit clai
   name: Aflac Claims API
   slug: claims-api
-- baseURL: https://api.enterprise-connect.aflac.com
+- baseURL: https://enterprise-connect.aflac.com
   baseurl_source: declared
   description: Claims submission and status retrieval operations.
   name: aflac Claims API
   slug: aflac-claims-api
-- baseURL: https://api.enterprise-connect.aflac.com
+- baseURL: https://enterprise-connect.aflac.com
   baseurl_source: declared
   description: Employee eligibility verification operations.
   name: aflac Eligibility API
   slug: aflac-eligibility-api
-- baseURL: https://api.enterprise-connect.aflac.com
+- baseURL: https://enterprise-connect.aflac.com
   baseurl_source: declared
   description: Benefits enrollment operations for supplemental insurance products.
   name: aflac Enrollment API
   slug: aflac-enrollment-api
-- baseURL: https://api.enterprise-connect.aflac.com
+- baseURL: https://enterprise-connect.aflac.com
   baseurl_source: declared
   description: Employer group management operations.
   name: aflac Groups API
   slug: aflac-groups-api
-- baseURL: https://api.enterprise-connect.aflac.com
+- baseURL: https://enterprise-connect.aflac.com
   baseurl_source: declared
   description: Policy management and retrieval operations.
   name: aflac Policies API
@@ -151,7 +151,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/_original/aflac-enterprise-connect-openapi.yml
+  url: openapi/_ae-authored/aflac-enterprise-connect-openapi.yml
 - group: docs
   title: ''
   type: JSONSchema
@@ -320,11 +320,56 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/aflac-vocabulary.yaml
-- group: agent
+- group: design
   title: ''
-  type: LlmsText
-  url: https://docs.enterprise-connect.aflac.com/llms.txt
-description: Aflac is America's leading provider of supplemental insurance, offering products that pay benefits when a policyholder experiences an accident, illness, or injury. Aflac provides REST APIs through its Enterprise Connect (AEC) platform enabling benefits technology companies, HR platforms, and benefits administrators to integrate supplemental insurance enrollment, policy management, and claims capabilities into their workflows.
+  type: Conventions
+  url: conventions/aflac-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/aflac-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/aflac-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/aflac-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/aflac-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aflac-packages.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/aflac-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aflac-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aflac-plans-pricing.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.enterprise-connect.aflac.com/docs/index
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.enterprise-connect.aflac.com/docs/developer-guide/app-team-controls/openapi-specification
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.enterprise-connect.aflac.com/docs/onboarding
+created: '2026-04-19'
+description: 'Aflac is America''s leading provider of supplemental insurance, paying benefits when a policyholder has an accident, illness, or injury. Aflac runs its own integration-API platform, Aflac Enterprise Connect (AEC), on AWS API Gateway in front of Java and .NET services, and publishes the platform''s design rules openly at docs.enterprise-connect.aflac.com: a layered service taxonomy (experience, process, core, system, aspect), a strict resource-path grammar, a mandated general-response envelope, a mandatory health endpoint on every API, and a complete enterprise canonical data model (EDS v2020, roughly 90 canonicals across 20 libraries). The portal is written for Aflac application teams, not outside partners: the service catalog, Swagger console and spec builder sit behind a PingIdentity login, OAuth 2.0 client-credentials is the only supported authentication, and credentials are issued by internal request. The design documentation is public; the contracts and endpoints are not.'
 examples:
 - key_count: 9
   name: Enterprise Connect Claim Example
@@ -480,17 +525,17 @@ jsonld:
   property_count: 30
   slug: aflac-enterprise-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Aflac
 nav: Providers
 network: true
-overview: 'Aflac publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Enrollment API, and 2 more. Tagged areas include Fortune 500.
+overview: 'Aflac publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Claims API, Eligibility API, Enrollment API, and 2 more. Tagged areas include Fortune 500, Insurance, Supplemental Insurance, Employee Benefits, and Claims.
 
 
   The Aflac catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Aflac''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, code examples, and 51 more developer resources.'
+  Aflac''s developer surface includes authentication, developer portal, signup flow, support, engineering blog, code examples, sandbox, and 61 more developer resources.'
 plans:
 - name: Aflac Plans Pricing
   plan_count: 2
@@ -513,7 +558,7 @@ press:
   url: https://www.ciodive.com/news/Aflac-CIO-Shelia-Anderson-generative-ai-cloud-strategy/742503/
 random_paper: 20
 rate_limits:
-- limit_count: 1
+- limit_count: 3
   name: Aflac Rate Limits
   slug: aflac-rate-limits
 rules:
@@ -544,34 +589,44 @@ scopes:
   slug: aflac-scopes
   summary_line: 6 scopes · clientCredentials
 score:
-  band: thin
-  composite: 29.6
+  band: developing
+  composite: 42.7
   coverage:
-    artifact_dirs: 20
-    catalog_gap: 52.5
+    artifact_dirs: 29
+    catalog_earned: 77.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 37.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 13.1
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
-    contract_governance: 28.8
+    contract_governance: 47.0
     contract_quality: 27.8
-    developer_ergonomics: 28.6
-    discoverability: 72.2
-    governance: 28.8
-    operational_transparency: 7.9
+    developer_ergonomics: 42.9
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 34.2
   previous_composite: 29.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    mcp: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 51.5
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png
 security:
 - kind: authentication
@@ -585,6 +640,13 @@ security:
 slug: aflac
 tags:
 - Fortune 500
+- Insurance
+- Supplemental Insurance
+- Employee Benefits
+- Claims
+- Enrollment
+- Policy Administration
+- Enterprise Integration
 use_cases:
 - description: HR and benefits administration platforms integrate with Aflac's API to offer supplemental insurance enrollment within their existing benefits workflows.
   name: HR Platform Integration

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ apis:
   description: Authenticated user profile and relationships
   name: FitBark User API
   slug: fitbark-user-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -91,7 +91,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fitbark-mcp.yml
 - group: other
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: FitBark makes GPS and health-monitoring wearables for dogs and offers the FitBark Public API (v2), an OAuth 2.0 REST API that lets developers integrate FitBark activity and health data into third-party mobile and web applications. The API exposes a dog's activity series and totals, time-at-activity-level breakdowns, daily activity-point goals, similar-dog statistics, related users and dogs, and Base64/JPEG profile pictures. Approved developers receive a client_id and client_secret and authenticate with the OAuth 2.0 authorization_code and client_credentials grants (base host https://app.fitbark.com). FitBark was a Techstars portfolio company; this profile was enriched by API Evangelist from FitBark's official published developer documentation and Postman collection.
 image: https://www.fitbark.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: FitBark MCP Server
-  slug: fitbark-mcp-server
 modified: '2026-07-19'
 name: FitBark
 nav: Providers
@@ -188,9 +184,11 @@ score:
   composite: 40.6
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -218,8 +216,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/screenshots/fitbark-2026-07-25T214628.png
 security:

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: REST API for the Verkada Command platform - cameras and footage, access control, sensors, alarms, guest management, Helix video tagging, and audit logs. Scoped API key + short-lived token auth; region
   name: Verkada Command API
   slug: verkada-command-api
-artifact_total: 8
+artifact_total: 7
 asyncapis:
 - description: ''
   name: Verkada Webhooks
@@ -151,7 +153,7 @@ common:
   url: conformance/verkada-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/verkada-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +191,6 @@ created: '2026-07-17'
 description: Verkada is a cloud-managed physical security company whose platform spans security cameras, access control, environmental and air-quality sensors, alarms, intercoms, visitor/guest management, and workplace safety, all administered through Verkada Command. Its public Command API is a REST interface (JSON over HTTPS, standard HTTP status codes) that lets developers programmatically manage cameras and footage, access-control users, doors, credentials and schedules, sensor and alarm data, guest events, Helix video tagging, and organization audit logs. Authentication uses a scoped API Key that mints short-lived 30-minute tokens (x-verkada-auth), with region-specific hosts for the United States, Europe, Australia, and GovCloud, plus HMAC-signed event webhooks for cameras, access, alarms, and guest.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verkada.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool surface derived from the Verkada Command API operations published in the provider's own llms.txt / API reference. Verkada does not (as of this pass) publish an official hosted or re
-  name: Verkada MCP Server
-  slug: verkada-mcp-server
 modified: '2026-07-21'
 name: Verkada
 nav: Providers
@@ -214,9 +212,11 @@ score:
   composite: 48.8
   coverage:
     artifact_dirs: 17
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -232,8 +232,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verkada/refs/heads/main/screenshots/verkada-2026-08-17T082733.png
 security:

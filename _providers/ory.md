@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 6
@@ -55,7 +55,9 @@ apis:
 - description: Endpoints used by frontend applications (e.g. Single-Page-App, Native Apps, Server Apps, ...) to manage a user's own profile.
   name: Ory frontend API
   slug: ory-frontend-api
-- description: APIs for managing identities.
+- baseURL_template: https://{project-slug}.projects.oryapis.com
+  baseurl_source: spec_template
+  description: APIs for managing identities.
   name: Ory identity API
   slug: ory-identity-api
 - description: JSON Web Keys
@@ -73,10 +75,14 @@ apis:
 - description: The permission API from Ory — 4 operation(s) for permission.
   name: Ory permission API
   slug: ory-permission-api
-- description: The relationship API from Ory — 4 operation(s) for relationship.
+- baseURL_template: https://{project-slug}.projects.oryapis.com
+  baseurl_source: spec_template
+  description: The relationship API from Ory — 4 operation(s) for relationship.
   name: Ory relationship API
   slug: ory-relationship-api
-- description: Well-Known Endpoints
+- baseURL_template: https://{project-slug}.projects.oryapis.com
+  baseurl_source: spec_template
+  description: Well-Known Endpoints
   name: Ory wellknown API
   slug: ory-wellknown-api
 - baseURL: https://{project-slug}.projects.oryapis.com
@@ -332,19 +338,21 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 41.6
+  composite: 41.1
   coverage:
     artifact_dirs: 11
+    catalog_earned: 41.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.5
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
     contract_governance: 0.0
-    contract_quality: 50.1
-    developer_ergonomics: 35.7
+    contract_quality: 50.9
+    developer_ergonomics: 32.1
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
@@ -355,12 +363,12 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 54.5
+      callable: 68.2
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ory/refs/heads/main/screenshots/ory-2026-06-20T191212.png
 security:

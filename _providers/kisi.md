@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 141
   human_in_the_loop: 25
@@ -283,7 +283,7 @@ apis:
   description: The Wireless locks API from KISI — 1 operation(s) for wireless locks.
   name: KISI Wireless locks API
   slug: kisi-wireless-locks-api
-artifact_total: 104
+artifact_total: 103
 collections:
 - collection_type: open
   name: API Collection
@@ -543,7 +543,7 @@ common:
   url: agentic-access/kisi-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kisi-mcp.yml
 - group: agent
   title: ''
@@ -561,10 +561,6 @@ created: '2026-07-17'
 description: Kisi is a cloud-based physical access control platform that combines hardware controllers and readers with software dashboards and a full REST API to manage building access, doors, locks, elevators, groups, members, access cards, visitor management, video surveillance, and security analytics. The Kisi API (OpenAPI 3.1, production host https://api.kisi.io) exposes 227 operations across 47 resource families, with header/OAuth2 authentication, offset/limit pagination, documented rate limits, RFC 8594 deprecation signaling, and a published Trust Center (SOC 2 Type 2, ISO/IEC 27001:2022, GDPR, NDAA). Kisi is a Point Nine portfolio company; this profile was enriched from Kisi's public developer surface.
 image: https://getkisi.com/favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: KISI MCP Server
-  slug: kisi-mcp-server
 modified: '2026-07-20'
 name: KISI
 nav: Providers
@@ -588,9 +584,11 @@ score:
   composite: 47.2
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -612,8 +610,8 @@ score:
       total: 48
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kisi/refs/heads/main/screenshots/kisi-2026-07-25T223853.png
 security:

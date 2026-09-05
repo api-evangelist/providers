@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ apis:
   description: The WebSocket Stream API from Ripio — 0 operation(s) for websocket stream.
   name: Ripio WebSocket Stream API
   slug: ripio-websocket-stream-api
-artifact_total: 44
+artifact_total: 43
 asyncapis:
 - description: ''
   name: Ripio Trade Webhooks
@@ -278,7 +278,7 @@ common:
   url: data-model/ripio-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ripio-mcp.yml
 - group: build
   title: ''
@@ -324,10 +324,6 @@ created: '2026-07-17'
 description: Ripio is a Latin American cryptocurrency exchange founded in 2013, offering crypto trading, stablecoins, DeFi products, a Visa crypto card, and B2B infrastructure and liquidity across Brazil, Argentina, Chile, Uruguay, Colombia, Mexico, Peru and Spain. Its developer-facing product is the Ripio Trade API (v4) — a REST and WebSocket trading API covering market data, order management, balances, statements, cryptocurrency deposits and withdrawals, and real-time streaming. Authentication uses an API Token plus HMAC-SHA256 request signing. The platform is SOC 2 Type II certified with a HackerOne bug bounty. Backed by Pantera Capital.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ripio.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ripio MCP Server
-  slug: ripio-mcp-server
 modified: '2026-07-21'
 name: Ripio
 nav: Providers
@@ -346,19 +342,21 @@ rate_limits:
   slug: ripio-rate-limits
 score:
   band: strong
-  composite: 60.7
+  composite: 60.0
   coverage:
     artifact_dirs: 20
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 61.6
-    developer_ergonomics: 68.5
+    developer_ergonomics: 64.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 72.4
@@ -379,8 +377,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/screenshots/ripio-2026-08-17T081611.png
 security:

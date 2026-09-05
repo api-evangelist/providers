@@ -29,10 +29,10 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-03'
+  score: 2.9
+  scored_at: '2026-09-04'
 api_count: 0
 artifact_total: 1
 common:
@@ -40,6 +40,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/alliance-holdings-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alliance-holdings-llms.txt
 - group: company
   title: ''
   type: Website
@@ -48,10 +52,33 @@ common:
   title: ''
   type: InvestorRelations
   url: https://investor.arlp.com
-description: 'Alliance Holdings GP, L.P. (AHGP) was a limited partnership formed to own and control Alliance Resource Management GP, LLC, the managing general partner of Alliance Resource Partners, L.P. (ARLP), the second largest coal producer in the eastern United States. AHGP held a general partner interest and incentive distribution rights in ARLP, along with a substantial direct ownership stake in ARLP common units. In 2018, Alliance Holdings GP became a wholly-owned subsidiary of Alliance Resource Partners as part of a simplification transaction, with AHGP unitholders receiving ARLP common units in exchange. Alliance Resource Partners (NASDAQ: ARLP) continues as a diversified energy company generating income from coal production and mineral royalties from coal, oil, and gas interests across the United States. As an energy holding company, Alliance Holdings did not maintain a public developer API program.'
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.arlp.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.arlp.com/privacy-statement/
+coverage:
+  checked: '2026-09-04'
+  detail: Alliance Holdings GP, L.P. was absorbed into Alliance Resource Partners in the 2018 simplification transaction and its own host ahgp.com no longer resolves (NXDOMAIN on the apex, certificate-name mismatch on www), so the only surface left to probe is the successor's twelve-page WordPress corporate site at www.arlp.com — which has no developer section, returns 404 for /openapi.json, /swagger.json, /api-docs, /graphql, /llms.txt and every /.well-known/ path, and whose full Yoast page sitemap lists no documentation, reference or portal page at all.
+  evidence:
+  - status: 404
+    url: https://www.arlp.com/openapi.json
+  - status: 404
+    url: https://www.arlp.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.arlp.com/page-sitemap.xml
+  - status: 0
+    url: https://ahgp.com
+  reason: defunct
+  state: none
+created: '2026-03-24'
+description: 'Alliance Holdings GP, L.P. (AHGP) was a limited partnership formed to own and control Alliance Resource Management GP, LLC, the managing general partner of Alliance Resource Partners, L.P. (ARLP), the second largest coal producer in the eastern United States. AHGP held a general partner interest, incentive distribution rights, and a direct stake in ARLP common units. In 2018 AHGP was absorbed into ARLP in a simplification transaction and ceased to exist as a separate public entity. ARLP (NASDAQ: ARLP) continues as a diversified energy company earning income from coal production and from coal, oil and gas mineral royalties. Alliance Holdings never maintained a public developer API program and neither does the surviving entity. The legacy ahgp.com host no longer resolves and alliancecoal.com redirects to www.arlp.com; probes on 2026-09-04 of arlp.com, www.arlp.com and investor.arlp.com found no OpenAPI, GraphQL, AsyncAPI, gRPC, WSDL, MCP, agent card, or served /.well-known/ document.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alliance-holdings.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Alliance Holdings
 nav: Providers
 network: true
@@ -59,20 +86,22 @@ overview: Alliance Holdings is profiled on the [APIs.io](https://apis.io/) netwo
 random_paper: 4
 score:
   band: minimal
-  composite: 2.7
+  composite: 9.1
   coverage:
-    artifact_dirs: 2
-    catalog_gap: 91.0
+    artifact_dirs: 4
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 6.4
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 2.7
@@ -81,10 +110,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 18.9
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-holdings/refs/heads/main/screenshots/alliance-holdings-2026-07-25T195655.png
 security:
 - kind: domain-security

@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - baseURL: https://infer.flow7.org/v1
@@ -56,7 +56,7 @@ apis:
   description: Customer-facing service state without private routing topology.
   name: Infer by Flow7 Status API
   slug: infer-by-flow7-status-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: Infer by Flow7 Public API
@@ -76,7 +76,7 @@ common:
   url: overlays/infer-by-flow7-public-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/infer-by-flow7-mcp.yml
 - group: auth
   title: ''
@@ -166,10 +166,6 @@ created: '2026-08-11'
 description: 'A single Responses-compatible inference API that fronts multiple model families through a private, opaque supplier pool. Public paid beta offering a prepaid-wallet billing model, locked prices, spending limits, and per-call receipts for accountable coding-agent inference. Four operations — two of them unauthenticated — cover a machine-readable price catalog, per-model route status with p95 latency, an authenticated selector list, and the Responses endpoint itself. Distinguished by an unusually legible commercial surface: the full rate card, including per-tier margin floors and dated market-reference discounts, is served as JSON without a key, and every completed request returns a receipt with the locked price version and the exact charge.'
 image: https://infer.flow7.org/assets/og-infer.png?v=20260811
 layout: provider
-mcp_servers:
-- description: ''
-  name: Infer by Flow7 MCP Server
-  slug: infer-by-flow7-mcp-server
 modified: '2026-08-11'
 name: Infer by Flow7
 nav: Providers
@@ -197,9 +193,11 @@ score:
   composite: 60.9
   coverage:
     artifact_dirs: 22
+    catalog_earned: 46.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 69.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -220,8 +218,8 @@ score:
       total: 3
     mcp: derived
     skills: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infer-by-flow7/refs/heads/main/screenshots/infer-by-flow7-2026-08-17T080956.png
 security:

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.testim.io
@@ -71,7 +72,7 @@ apis:
   description: List tests by branch, search by test name, and execute tests
   name: Testim Io Tests API
   slug: testim-io-tests-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -156,7 +157,7 @@ common:
   url: cli/testim-io-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/testim-io-mcp.yml
 - group: agent
   title: ''
@@ -202,10 +203,6 @@ created: '2026-07-17'
 description: Testim is an AI-powered functional test automation platform for web and mobile applications, using machine learning to author, run, and self-heal UI tests. Acquired by Tricentis in 2022, Testim is offered as part of the Tricentis quality-engineering portfolio. It exposes a public REST API (api.testim.io, with an EU host at api.eu.testim.io) and an official npm CLI (@testim/testim-cli) so teams can manage test branches; look up and execute tests, suites, labels and test plans from CI/CD; read execution and step-level results; and manage mobile application binaries. Testim was backed by Lightspeed Venture Partners prior to acquisition.
 image: https://github.com/testimio.png
 layout: provider
-mcp_servers:
-- description: No official hosted/remote Model Context Protocol (MCP) server was found for Testim (Tricentis) as of this pass. This is a CANDIDATE tool surface derived 1:1 from the public REST API operations, showin
-  name: Testim Io MCP Server
-  slug: testim-io-mcp-server
 modified: '2026-07-21'
 name: Testim Io
 nav: Providers
@@ -220,9 +217,11 @@ score:
   composite: 40.9
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -243,8 +242,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testim-io/refs/heads/main/screenshots/testim-io-2026-08-17T082328.png
 security:

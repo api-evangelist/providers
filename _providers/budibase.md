@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +8,14 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-03'
+  score: 30.4
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -45,31 +46,40 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://budibase.app/api/public/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage Budibase applications.
   name: Budibase Applications API
   slug: budibase-applications-api
 - baseURL: https://budibase.app/api/public/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Execute and search queries.
   name: Budibase Queries API
   slug: budibase-queries-api
 - baseURL: https://budibase.app/api/public/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage rows inside a table.
   name: Budibase Rows API
   slug: budibase-rows-api
 - baseURL: https://budibase.app/api/public/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage data tables inside an application.
   name: Budibase Tables API
   slug: budibase-tables-api
 - baseURL: https://budibase.app/api/public/v1
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage Budibase users.
   name: Budibase Users API
   slug: budibase-users-api
-artifact_total: 27
+- baseURL: https://budibase.app/api/public/v1
+  baseurl_source: declared
+  description: The complete Budibase Public API as Budibase itself publishes it — OpenAPI 3.1.0, info.version 3.3.0, 44 operations across workspaces, applications, tables, rows, views, users, roles, queries and metr
+  name: Budibase Public API
+  slug: budibase-public-api
+artifact_total: 30
+asyncapis:
+- description: ''
+  name: Budibase Webhooks
+  slug: budibase-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -185,6 +195,106 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.budibase.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/budibase-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/budibase-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/budibase-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/budibase-components.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/budibase-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/budibase-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/budibase-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/budibase-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/budibase-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/budibase-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.budibase.com
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/budibase-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/budibase-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/budibase-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/budibase-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/Budibase/budibase/security/advisories/new
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/budibase-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/budibase-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/budibase-public-api-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/budibase-llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.budibase.com/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.budibase.com/docs/quickstart
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.budibase.com/docs/public-api
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Budibase
 created: '2026-03-27'
 description: Budibase is an open source low-code platform for building AI agents, internal tools, and workflow automations. It enables teams to connect databases, spreadsheets, and business systems, then build applications and automations on top without extensive coding. Used by over 300,000 teams ranging from SMEs to government organizations, Budibase accelerates the delivery of internal business applications and process automation.
 features:
@@ -228,59 +338,67 @@ features:
   - On-Premises Support
   - Air-Gapped Deployments
   name: Self-Hosting
-  url: https://docs.budibase.com/docs/self-hosting
+  url: https://docs.budibase.com/docs/hosting-methods
 finops:
 - name: Budibase Finops
   service_category: API
   slug: budibase-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/budibase.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-04'
 name: Budibase
 nav: Providers
 network: true
-overview: 'Budibase publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Queries API, Rows API, and 2 more. Tagged areas include AI Agents, Automation, Internal Tools, Low-Code, and Open-Source.
+overview: 'Budibase publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Queries API, Rows API, and 3 more. Tagged areas include AI Agents, Automation, Internal Tools, Low-Code, and Open-Source.
 
 
-  Budibase''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, signup flow, support, and 16 more developer resources.'
+  The Budibase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Budibase''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, signup flow, support, and 41 more developer resources.'
 plans:
 - name: Budibase Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: budibase-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Budibase Rate Limits
   slug: budibase-rate-limits
 score:
-  band: developing
-  composite: 41.2
+  band: strong
+  composite: 64.6
   coverage:
-    artifact_dirs: 11
-    catalog_gap: 74.0
+    artifact_dirs: 25
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: -5.9
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 23.4
   facets:
-    access_clarity: 61.8
-    commercial_clarity: 61.8
-    contract_governance: 0.0
-    contract_quality: 53.7
-    developer_ergonomics: 17.9
-    discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 39.5
-  previous_composite: 47.1
+    access_clarity: 93.4
+    commercial_clarity: 93.4
+    contract_governance: 4.5
+    contract_quality: 61.3
+    developer_ergonomics: 62.5
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 76.3
+  previous_composite: 41.2
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: falling
+      total: 6
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/screenshots/budibase-2026-06-20T173737.png
 security:
 - kind: authentication
@@ -291,10 +409,14 @@ security:
   name: Budibase Domain Security
   slug: budibase-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Budibase Vulnerability Disclosure
+  slug: budibase-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Budibase Trust Center
   slug: budibase-trust-center
-  summary_line: ISO 27001, GDPR
+  summary_line: ISO 27001, GDPR, SOC 1 / SOC 2
 slug: budibase
 tags:
 - AI Agents

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
+  confidence: high
+  label: No API access model — EDI trading-partner agreement only
   onboarding: unknown
-  pricing: free
+  pricing: unknown
   public: false
   source:
-  - plans
+  - https://www.seaboardmarine.com/edi-request/
+  - plans (plan_count 0)
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 artifact_total: 6
 collections:
@@ -44,33 +45,81 @@ collections:
   name: Seaboard Corporation API
   slug: open-seaboard
 common:
-- group: auth
+- group: company
   title: ''
-  type: DomainSecurity
-  url: security/seaboard-domain-security.yml
+  type: Website
+  url: https://www.seaboardcorp.com
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/seaboard-corporation
 - group: company
   title: ''
-  type: Website
-  url: https://www.seaboard.com
-description: Seaboard Corporation is a diverse global agribusiness and transportation company involved in pork, commodity merchandising, grain processing, sugar production, electric power generation, and ocean transportation.
+  type: Blog
+  url: https://www.seaboardcorp.com/news/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.seaboardcorp.com/feed/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.seaboardcorp.com/contact-us/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.seaboardcorp.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.seaboardcorp.com/privacy-policy/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/seaboard-conformance.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/seaboard-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/seaboard-llms.txt
+coverage:
+  checked: '2026-09-04'
+  detail: Seaboard Corporation is a physical-goods holding company (pork, grain, ocean freight, renewable diesel, power generation) and ships no software product; the only machine-to-machine surface anywhere in the group is Seaboard Marine's batch EDI program, whose public page enumerates twelve ANSI X12 transaction sets and nine UN/EDIFACT messages but no HTTP API, and every spec and .well-known path probed across seaboardcorp.com, seaboardmarine.com, seaboardfoods.com and the MySeaboard portal returned 404 or a login redirect.
+  evidence:
+  - status: 404
+    url: https://www.seaboardcorp.com/openapi.json
+  - status: 404
+    url: https://www.seaboardmarine.com/openapi.json
+  - status: 404
+    url: https://www.seaboardcorp.com/.well-known/agent-card.json
+  - status: 302
+    url: https://myseaboard.seaboardmarine.com/.well-known/oauth-authorization-server
+  - status: 200
+    url: https://www.seaboardmarine.com/services/electronic-data-interchange/
+  reason: not-a-software-company
+  state: none
+created: '2026-05-22'
+description: Seaboard Corporation is a diversified global agribusiness and transportation holding company headquartered in Merriam, Kansas, operating through Seaboard Foods (pork production and processing), Seaboard Marine (containerized ocean cargo between the United States, the Caribbean, and Central and South America), Seaboard Overseas and Trading Group (grain merchandising and milling), Seaboard Energy (renewable diesel), Transcontinental Capital Corporation (electric power generation in the Dominican Republic), Mount Dora Farms, and a minority interest in Butterball. Seaboard publishes no public developer API or developer portal; its only documented machine-to-machine integration surface is the Seaboard Marine Electronic Data Interchange program, which publishes an ANSI ASC X12 and UN/EDIFACT transaction-set catalog and onboards trading partners through a request form.
 finops:
 - name: Seaboard Finops
   service_category: API
   slug: seaboard-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seaboard.png
 layout: provider
-modified: '2026-03-21'
+modified: '2026-09-04'
 name: Seaboard
 nav: Providers
 network: true
-overview: Seaboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500.
+overview: 'Seaboard publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Agribusiness, Ocean Transportation, Container Shipping, and Pork Production.
+
+
+  Seaboard''s developer surface includes engineering blog, support, and 8 more developer resources.'
 plans:
 - name: Seaboard Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: seaboard-plans-pricing
 press:
 - date: '2026-05-25'
@@ -99,30 +148,40 @@ press:
   url: https://www.seaboardcorp.com/investors/#comment-104
 random_paper: 14
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Seaboard Rate Limits
   slug: seaboard-rate-limits
 score:
   band: emerging
-  composite: 12.0
+  composite: 13.1
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 77.0
+    artifact_dirs: 13
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 85.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.1
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 35.2
+    developer_ergonomics: 7.1
+    discoverability: 50.0
     governance: 0.0
-    operational_transparency: 21.1
+    operational_transparency: 0.0
   previous_composite: 12.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  provenance:
+    conformance: first-party
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 25.7
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 security:
 - kind: domain-security
@@ -132,5 +191,14 @@ security:
 slug: seaboard
 tags:
 - Fortune 500
-website: https://www.seaboard.com
+- Agribusiness
+- Ocean Transportation
+- Container Shipping
+- Pork Production
+- Commodity Trading
+- Grain Milling
+- Power Generation
+- Logistics
+- EDI
+website: https://www.seaboardcorp.com
 ---

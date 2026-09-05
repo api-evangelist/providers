@@ -1,20 +1,21 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-09-03'
+  score: 31.5
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 3
   slug: biogen-agentic-access
   summary_line: 3 operations · 1 acting
-api_count: 2
+api_count: 1
 apis:
 - baseURL: https://developer.biogen.com
   baseurl_source: declared
@@ -54,7 +55,12 @@ apis:
   description: Available Biogen API services
   name: Biogen Services API
   slug: biogen-services-api
-artifact_total: 43
+- baseURL: https://dev1.api.biogen.com
+  baseurl_source: declared
+  description: 'Service and package export lookups on Biogen''s non-production API gateway. This is the only Biogen API whose machine-readable definition is published anonymously — Biogen serves it as a Mashery/Boomi '
+  name: Biogen CDP Export API (Non-Production)
+  slug: biogen-cdp-export-api
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -109,6 +115,70 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/biogen/refs/heads/main/vocabulary/biogen-vocabulary.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/biogen-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/biogen-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/biogen-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/biogen-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/biogen-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/biogen-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/biogen-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/biogen-sandbox.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/biogen-mcp.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/biogen-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/biogen-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.biogen.com/terms-and-conditions.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.biogen.com/privacy-center.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.biogen.com/company/contact-us.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.biogen.com/stories.html
 created: '2025-01-01'
 description: Biogen is a global biotechnology company that discovers, develops, and delivers therapies for people living with serious neurological diseases including multiple sclerosis, Alzheimer's, and spinal muscular atrophy.
 examples:
@@ -195,17 +265,17 @@ jsonld:
   property_count: 5
   slug: biogen-context
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-04'
 name: Biogen
 nav: Providers
 network: true
-overview: 'Biogen publishes 2 APIs on the [APIs.io](https://apis.io/) network: Keys API and Services API. Tagged areas include Biotechnology, Healthcare, Life Sciences, Pharmaceuticals, and Neurology.
+overview: 'Biogen publishes 3 APIs on the [APIs.io](https://apis.io/) network: Keys API, Services API, and CDP Export API (Non-Production). Tagged areas include Biotechnology, Healthcare, Life Sciences, Pharmaceuticals, and Neurology.
 
 
   The Biogen catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Biogen''s developer surface includes authentication, developer portal, documentation, and 7 more developer resources.'
+  Biogen''s developer surface includes authentication, developer portal, documentation, sandbox, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Biogen Plans Pricing
   plan_count: 1
@@ -254,45 +324,50 @@ rules:
     warn: 21
   slug: biogen-spectral-rules
 score:
-  band: emerging
-  composite: 25.7
+  band: developing
+  composite: 42.9
   coverage:
-    artifact_dirs: 18
-    catalog_gap: 53.5
+    artifact_dirs: 30
+    catalog_earned: 73.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 41.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 17.2
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 28.8
-    contract_quality: 20.7
-    developer_ergonomics: 31.0
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 33.3
+    contract_quality: 20.4
+    developer_ergonomics: 47.0
     discoverability: 68.5
-    governance: 28.8
-    operational_transparency: 7.9
+    governance: 33.3
+    operational_transparency: 23.7
   previous_composite: 25.7
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
+      derived: 4
       marker_coverage: 100.0
-      total: 3
+      total: 4
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 21.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 48.8
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 security:
 - kind: authentication
   name: Biogen Authentication
   slug: biogen-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Biogen Domain Security
   slug: biogen-domain-security

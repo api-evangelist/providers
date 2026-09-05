@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://www.buxfer.com/api
@@ -61,7 +62,7 @@ apis:
   description: Create, edit, delete, list and import transactions.
   name: Buxfer Transactions API
   slug: buxfer-transactions-api
-artifact_total: 15
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -164,7 +165,7 @@ common:
   url: lifecycle/buxfer-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/buxfer-mcp.yml
 - group: agent
   title: ''
@@ -182,10 +183,6 @@ created: '2026-07-17'
 description: Buxfer is a personal finance and money management platform that consolidates bank, investment and retirement accounts in one place. It connects to 20,000+ banks across 70+ countries, tracks assets in 100+ currencies, and provides budgeting with real-time alerts, expense forecasting, net-worth projection, automatic transaction tagging with custom rules, investment and retirement planning, shared-expense groups, and encrypted cloud backups to Dropbox, Google Drive or OneDrive. Buxfer exposes a JSON HTTP API for reading accounts, transactions, tags, budgets, reminders, groups, contacts and loans, and for creating, editing and deleting transactions and uploading statements. Authentication uses a login call that returns an ephemeral token passed on every subsequent request. Buxfer is a Y Combinator company.
 image: https://www.buxfer.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Buxfer MCP Server
-  slug: buxfer-mcp-server
 modified: '2026-07-18'
 name: Buxfer
 nav: Providers
@@ -200,9 +197,11 @@ score:
   composite: 34.0
   coverage:
     artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -229,8 +228,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.rainbird.ai
@@ -55,7 +56,7 @@ arazzos:
 - description: Start a session against a Knowledge Map, run a query, then retrieve the evidence chain behind the result.
   name: Rainbird — run a decision and fetch its evidence
   slug: rainbird-technologies-run-and-explain
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +141,7 @@ common:
   url: security/rainbird-technologies-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/rainbird-technologies-mcp.yml
 - group: agent
   title: ''
@@ -194,10 +195,6 @@ created: '2026-07-17'
 description: Rainbird Technologies is an AI decision automation platform for regulated industries (banking and finance, insurance, tax and audit, healthcare, and law). It turns regulations, policies, and expert knowledge into deterministic, fully auditable decision systems using symbolic reasoning over knowledge graphs (Knowledge Maps), promising zero hallucinations and explainable, evidence-backed outcomes. The Rainbird API lets developers query a published Knowledge Map by starting a session, injecting known facts, running queries, answering the questions the engine asks, and retrieving the evidence chain behind every decision. Community and Enterprise hosting environments are offered, with first-party JavaScript/React and Go SDKs.
 image: https://rainbird.ai/wp-content/uploads/2023/01/rainbird-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Rainbird Technologies MCP Server
-  slug: rainbird-technologies-mcp-server
 modified: '2026-07-20'
 name: Rainbird Technologies
 nav: Providers
@@ -212,9 +209,11 @@ score:
   composite: 39.4
   coverage:
     artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -235,8 +234,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbird-technologies/refs/heads/main/screenshots/rainbird-technologies-2026-08-17T081442.png
 security:

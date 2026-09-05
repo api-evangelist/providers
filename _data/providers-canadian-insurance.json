@@ -29,8 +29,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -82,8 +82,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -142,8 +142,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -195,8 +195,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -259,8 +259,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -295,69 +295,16 @@
      "rank": 5
     },
     {
-     "name": "Wawanesa Insurance",
-     "slug": "wawanesa",
-     "description": "The Wawanesa Mutual Insurance Company, founded in 1896 in Wawanesa, Manitoba and headquartered in Winnipeg, is one of Canada's largest property and casualty mutual insurers, writing auto, home, condo, tenant, seasonal residence, farm and commercial lines across every province and territory through a 100% independent broker distribution model, alongside its wholly-owned life and group subsidiary Wawanesa Life. Wawanesa runs its policy, claims and billing on Guidewire InsuranceSuite following a roughly $300 million Strategic Systems Renewal that made it one of the first Canadian insurers to put its entire product suite online, and it has announced a broker-facing API programme — most notably a Commercial Small Business API aligned to CSIO data standards that supports real-time rating, quoting and binding — plus CSIO My Proof of Insurance electronic pink slips. None of that surface is public: Wawanesa publishes no developer portal, no API reference, no OpenAPI, and no self-serve signup. Probes of developer./developers./docs. wawanesa.com do not resolve, api.wawanesa.com answers 403 at the root, and the only integration path is the Salesforce-based Broker Platform behind an Okta login with onboarding brokered by a Wawanesa Business Development representative. Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance outright — so the connectivity layer here is CSIO, not ACORD, and the honest posture is partner-gated with no public API. What Wawanesa does publish is certification: it holds CSIO's API Security Standards Certification (2024-10-29), was the first CSIO member certified in JSON API Standards for Billing (2025-02-05), was the first insurer to attain Claims eDocs Certification (2022-04-04), and contributed nine reusable API packages — Quote, New Business, Policy Inquiry, Policy Update List, Policy Cancellation, Risk Appetite, Required Fields, Billing Inquiry and eDocs — to CSIO's Reusable Services Library for other carriers and BMS vendors to implement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wawanesa/refs/heads/main/screenshots/wawanesa-2026-09-02T170501.png",
-     "score": 28.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 35.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 71.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 15.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 6
-    },
-    {
      "name": "CAA Insurance",
      "slug": "caa-insurance",
      "description": "CAA Insurance Company is a Canadian property and casualty carrier that began underwriting in 1974 and is part of CAA Club Group, the CAA South Central Ontario federation, with its head office at 60 Commerce Valley Drive East in Thornhill, Ontario. It underwrites personal-lines auto insurance (including accident benefits, the CAA MyPace pay-as-you-drive product, CAA Connect telematics, and antique and classic vehicle coverage) and personal property insurance (homeowners, condominium, and tenant), plus optional endorsements such as tire coverage, home equipment breakdown, service line, renewable energy equipment, and legal expense coverage. It sells in British Columbia, Saskatchewan, Manitoba, Ontario, New Brunswick, Nova Scotia, and Prince Edward Island through a direct-to-consumer channel and through independent brokers. Its API posture is honestly none: as of the July 2026 review there is no public developer portal, no self-serve API program, no downloadable OpenAPI or Swagger definition, and no published event or webhook catalog. Every developer-style host and path probed (developer/developers/docs/api subdomains, and /developers, /api, /developer, /partners, /integrations on both caainsurancecompany.com and caainsurancecompany.ca) either failed DNS or returned 404. The only integration surface is the CAA Broker Portal at caabrokerportal.ca, which is a Microsoft Entra External ID (CIAM) WS-Federation login wall in front of a SharePoint broker workspace, and the broker program microsite at broker.caainsurance.com, which is marketing and business-development content only. The one machine-readable contract anywhere in the estate is platform-provided rather than authored by CAA: the broker portal runs Microsoft SharePoint 16.0.0.5552 and serves twenty SOAP WSDL documents (199 operations, none of them insurance operations) anonymously at /_vti_bin/<service>.asmx?WSDL, with its REST/OData sibling at /_api/web returning 403 to anonymous callers; the CAA Club Group Entra External ID tenant likewise serves standard OpenID Connect discovery. Consumer quoting runs through hosted web applications rather than an exposed quote API. This is a representative record of the Canadian carrier tier, where there is no open-insurance mandate — OSFI supervises prudentially, provincial regulators such as FSRA and the AMF handle market conduct, and Consumer-Driven Banking excludes insurance entirely — so carriers face no forcing function to publish anything.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/caa-insurance/refs/heads/main/screenshots/caa-insurance-2026-07-25T204155.png",
-     "score": 27.0,
+     "score": 28.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 50.0,
-      "contract_quality": 26.7,
+      "contract_quality": 32.0,
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
@@ -365,8 +312,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -395,6 +342,59 @@
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
+     "rank": 6
+    },
+    {
+     "name": "Wawanesa Insurance",
+     "slug": "wawanesa",
+     "description": "The Wawanesa Mutual Insurance Company, founded in 1896 in Wawanesa, Manitoba and headquartered in Winnipeg, is one of Canada's largest property and casualty mutual insurers, writing auto, home, condo, tenant, seasonal residence, farm and commercial lines across every province and territory through a 100% independent broker distribution model, alongside its wholly-owned life and group subsidiary Wawanesa Life. Wawanesa runs its policy, claims and billing on Guidewire InsuranceSuite following a roughly $300 million Strategic Systems Renewal that made it one of the first Canadian insurers to put its entire product suite online, and it has announced a broker-facing API programme — most notably a Commercial Small Business API aligned to CSIO data standards that supports real-time rating, quoting and binding — plus CSIO My Proof of Insurance electronic pink slips. None of that surface is public: Wawanesa publishes no developer portal, no API reference, no OpenAPI, and no self-serve signup. Probes of developer./developers./docs. wawanesa.com do not resolve, api.wawanesa.com answers 403 at the root, and the only integration path is the Salesforce-based Broker Platform behind an Okta login with onboarding brokered by a Wawanesa Business Development representative. Canada has no open-insurance mandate — Consumer-Driven Banking excludes insurance outright — so the connectivity layer here is CSIO, not ACORD, and the honest posture is partner-gated with no public API. What Wawanesa does publish is certification: it holds CSIO's API Security Standards Certification (2024-10-29), was the first CSIO member certified in JSON API Standards for Billing (2025-02-05), was the first insurer to attain Claims eDocs Certification (2022-04-04), and contributed nine reusable API packages — Quote, New Business, Policy Inquiry, Policy Update List, Policy Cancellation, Risk Appetite, Required Fields, Billing Inquiry and eDocs — to CSIO's Reusable Services Library for other carriers and BMS vendors to implement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wawanesa/refs/heads/main/screenshots/wawanesa-2026-09-02T170501.png",
+     "score": 28.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 35.5,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 71.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 15.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
@@ -429,8 +429,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -482,8 +482,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -534,8 +534,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -586,8 +586,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -639,8 +639,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -692,8 +692,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -745,8 +745,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -797,8 +797,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -850,8 +850,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -903,8 +903,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -956,8 +956,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1019,8 +1019,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1072,8 +1072,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

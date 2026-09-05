@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -83,7 +84,7 @@ apis:
   description: Reporting on the referrals you've sent Steadily and the referral fees you've earned. The lead, account, and policy endpoints follow each referral through its lifetime. The summary views provide aggreg
   name: Steadily Reporting API
   slug: steadily-reporting-api
-artifact_total: 22
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -155,7 +156,7 @@ common:
   url: data-model/steadily-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/steadily-mcp.yml
 - group: design
   title: ''
@@ -213,10 +214,6 @@ created: '2026-07-17'
 description: Steadily is a US landlord-insurance provider — built by landlords, for landlords — writing rental-property policies in all 50 states with online quotes in minutes and coverage designed around how rental properties actually work. Its Partner API, a FastAPI-based REST service at api.steadily.com, lets property managers, lenders, and marketplaces generate instant insurance estimates, refer leads, and track bound policies. Appointed independent agencies use the companion Rater Quotes API to create, price, underwrite, and offer quotes directly from their rater. Steadily was founded by a landlord who could not find decent insurance for his own rental property.
 image: https://app.steadily.com/static/images/steadily-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Steadily MCP Server
-  slug: steadily-mcp-server
 modified: '2026-07-21'
 name: Steadily
 nav: Providers
@@ -231,9 +228,11 @@ score:
   composite: 40.0
   coverage:
     artifact_dirs: 18
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -261,8 +260,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 40.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/steadily/refs/heads/main/screenshots/steadily-2026-09-02T160824.png
 security:

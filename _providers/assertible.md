@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +8,14 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-03'
+  score: 34.7
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -44,10 +45,12 @@ agentic_access:
   summary_line: 1 operation · 1 acting
 api_count: 1
 apis:
-- description: The Assertible API enables programmatic management of API tests, test suites, and monitoring configurations for automated quality assurance. It allows triggering test runs, managing webhooks, and acce
+- baseURL: https://assertible.com
+  baseurl_source: declared
+  description: 'Assertible''s public programmatic surface, used to drive test runs from a CI/CD pipeline. It consists of two documented POST operations on assertible.com: a trigger URL that runs a web service''s tests '
   name: Assertible API
   slug: assertible-api
-- baseURL: https://api.assertible.com
+- baseURL: https://assertible.com
   baseurl_source: declared
   description: Notify Assertible of deployments and trigger tests
   name: Assertible Deployments API
@@ -64,6 +67,10 @@ collections:
   name: Assertible API
   slug: open-assertible
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://assertible.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -76,6 +83,74 @@ common:
   title: ''
   type: Authentication
   url: authentication/assertible-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/assertible-conventions.yml
+- group: design
+  title: Idempotency and reversibility semantics
+  type: Idempotency
+  url: conventions/assertible-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/assertible-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/assertible-lifecycle.yml
+- group: operate
+  title: Assertible Status
+  type: StatusPage
+  url: http://status.assertible.com
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/assertible-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/assertible-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/assertible-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/assertible-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/assertible-mcp.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/assertible-plans-pricing.yml
+- group: commercial
+  title: Plans and Pricing
+  type: Pricing
+  url: https://assertible.com/plans
+- group: commercial
+  title: Terms of Service
+  type: TermsOfService
+  url: https://assertible.com/termsofservice
+- group: commercial
+  title: Privacy Policy
+  type: PrivacyPolicy
+  url: https://assertible.com/privacypolicy
+- group: operate
+  title: Contact Assertible
+  type: Support
+  url: https://assertible.com/contact
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/AssertibleApp
 - group: company
   title: ''
   type: LinkedIn
@@ -94,7 +169,7 @@ common:
   url: https://assertible.com/blog
 - group: start
   title: Sign Up
-  type: Signup
+  type: SignUp
   url: https://assertible.com/signup
 - group: start
   title: Login
@@ -132,58 +207,63 @@ integrations:
 - description: Integration with CircleCI pipelines for running Assertible test suites as part of continuous integration workflows.
   name: CircleCI
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Assertible
 nav: Providers
 network: true
-overview: 'Assertible publishes 1 API on the [APIs.io](https://apis.io/) network: Deployments API. Tagged areas include API Testing, Monitoring, Quality Assurance, Testing, and CI/CD.
+overview: 'Assertible publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Deployments API, and 1 more. Tagged areas include API Testing, Monitoring, Quality Assurance, Testing, and CI/CD.
 
 
-  Assertible''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, and 5 more developer resources.'
+  Assertible''s developer surface includes authentication, pricing, support, developer portal, documentation, engineering blog, signup flow, and 21 more developer resources.'
 plans:
 - name: Assertible Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: assertible-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Assertible Rate Limits
   slug: assertible-rate-limits
 score:
-  band: thin
-  composite: 33.0
+  band: developing
+  composite: 43.5
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 69.0
+    artifact_dirs: 22
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 10.5
   facets:
-    access_clarity: 22.4
-    commercial_clarity: 22.4
-    contract_governance: 0.0
-    contract_quality: 54.4
-    developer_ergonomics: 33.3
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 18.2
+    contract_quality: 28.6
+    developer_ergonomics: 47.0
     discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 10.5
+    governance: 18.2
+    operational_transparency: 18.4
   previous_composite: 33.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+      derived: 2
+      marker_coverage: 66.7
+      total: 3
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/screenshots/assertible-2026-06-20T172506.png
 security:
 - kind: authentication
   name: Assertible Authentication
   slug: assertible-authentication
-  summary_line: http · 1 scheme
+  summary_line: http · 3 schemes
 - kind: domain-security
   name: Assertible Domain Security
   slug: assertible-domain-security

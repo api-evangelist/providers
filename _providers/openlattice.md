@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.openlattice.com
@@ -71,7 +72,7 @@ apis:
   description: API endpoints to search data.
   name: OpenLattice search API
   slug: openlattice-search-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +137,7 @@ common:
   url: data-model/openlattice-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openlattice-mcp.yml
 - group: agent
   title: ''
@@ -158,10 +159,6 @@ created: '2026-07-17'
 description: OpenLattice was a data-integration and analytics platform built around an Entity Data Model (EDM) — a graph of entity types, property types, association types, and EntitySets — with a fine-grained ACL permissions model over organizations, roles, and principals. It was adopted by public-sector and criminal-justice programs such as reentry case management, community work programs, childcare, and courts. The company's hosted service and website (openlattice.com, api.openlattice.com) no longer resolve, but its OpenAPI 3.0 specification (91 operations), multi-language SDKs, and React UI kit remain published under the github.com/openlattice organization, from which this profile was enriched.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openlattice.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OpenLattice MCP Server
-  slug: openlattice-mcp-server
 modified: '2026-07-20'
 name: OpenLattice
 nav: Providers
@@ -176,9 +173,11 @@ score:
   composite: 24.6
   coverage:
     artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -204,8 +203,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlattice/refs/heads/main/screenshots/openlattice-2026-08-07T190610.png
 security:

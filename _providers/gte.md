@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: The Users API from GTE — 6 operation(s) for users.
   name: GTE Users API
   slug: gte-users-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -127,7 +127,7 @@ common:
   url: packages/gte-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gte-mcp.yml
 - group: auth
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: GTE (Global Token Exchange) is a non-custodial, permissionless decentralized exchange built on MegaETH, offering a central limit order book (CLOB) with CEX-level speed — advertised at 100,000 orders per second and ~1ms latency — combined with DeFi security properties. Users trade crypto and tokenized assets 24/7 from a self-custodied wallet, with spot and leveraged/perpetual markets, shortable positions, and on-chain settlement. GTE exposes a public HTTP + WebSocket API (GTE API v1) covering tokens, markets, candles, trades, order books, and per-wallet portfolio/order data, plus a signed POST /exchange endpoint for submitting orders and trades. An official Python SDK (gte-py) constructs the signed transaction bodies. GTE is developed by Liquid Labs and backed by Paradigm.
 image: https://framerusercontent.com/images/dmNBRSvrpcZRlw2DSNsXF7eY0MA.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: GTE MCP Server
-  slug: gte-mcp-server
 modified: '2026-07-19'
 name: GTE
 nav: Providers
@@ -223,9 +219,11 @@ score:
   composite: 32.2
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -253,8 +251,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/screenshots/gte-2026-07-25T220408.png
 security:

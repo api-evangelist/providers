@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -368,7 +370,7 @@ apis:
   description: Webhook requests are delivery attempts from Syntage to a webhook endpoint. Use them to monitor delivery status, inspect failed deliveries, and connect an event to the endpoint that received it.
   name: Syntage Webhook Requests API
   slug: syntage-webhook-requests-api
-artifact_total: 137
+artifact_total: 136
 asyncapis:
 - description: ''
   name: Syntage Webhooks
@@ -663,7 +665,7 @@ common:
   url: well-known/syntage-api-catalog.json
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/syntage-mcp.yml
 - group: agent
   title: ''
@@ -717,10 +719,6 @@ created: '2026-07-17'
 description: Syntage is a Mexican fintech data platform that aggregates business and fiscal data from official Mexican sources (the SAT tax authority, RPC, RUG, credit bureaus / Buro de Credito, and blacklists) into a single API and dashboard. Financial institutions use it to analyze credit risk, verify CFDI invoices for factoring operations, run KYB/KYC/PLD compliance checks, and monitor taxpayer data changes in real time. Data is consumable via a REST API (JSON-LD / Hydra), an app dashboard, PDF reports, and Excel exports. Reported scale includes 300+ financial-institution clients and billions of transactions processed. ISO/IEC 27001:2022 certified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syntage.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Syntage MCP Server
-  slug: syntage-mcp-server
 modified: '2026-07-21'
 name: Syntage
 nav: Providers
@@ -738,9 +736,11 @@ score:
   composite: 51.1
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 35.5
@@ -762,8 +762,8 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syntage/refs/heads/main/screenshots/syntage-2026-08-17T082234.png
 security:

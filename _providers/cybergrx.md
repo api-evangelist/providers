@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'Versioned REST API for managing third-party cyber risk — search and create third parties, answer inherent-risk scoping questions, apply tags, read inherent and residual risk profiles, and bulk-export '
   name: CyberGRX Global Risk Exchange API
   slug: cybergrx-global-risk-exchange-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -91,7 +93,7 @@ common:
   url: sandbox/cybergrx-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cybergrx-mcp.yml
 - group: agent
   title: ''
@@ -109,10 +111,6 @@ created: '2026-07-17'
 description: CyberGRX is a third-party cyber risk management platform — the Global Risk Exchange (GRX) — that helps organizations assess, monitor, and reduce risk across their vendor and supplier ecosystem. It combines a shared library of standardized vendor risk assessments with analytics for inherent and residual risk, control gaps, and findings. CyberGRX was acquired by ProcessUnity in 2023 and is now delivered as the ProcessUnity Global Risk Exchange. It exposes a versioned REST API (v1, bulk-v1, v2) authenticated with an account API token passed in the Authorization header, including a Bulk API that returns an entire third-party ecosystem — residual risk, control scores, and findings — in a single request, plus first-party Python examples and Go/Splunk connectors.
 image: https://avatars.githubusercontent.com/u/20931711?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: CyberGRX MCP Server
-  slug: cybergrx-mcp-server
 modified: '2026-07-18'
 name: CyberGRX
 nav: Providers
@@ -127,9 +125,11 @@ score:
   composite: 17.8
   coverage:
     artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -144,8 +144,8 @@ score:
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cybergrx/refs/heads/main/screenshots/cybergrx-2026-07-25T211027.png
 security:

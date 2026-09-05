@@ -12,10 +12,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: derived
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-09-03'
+  score: 28.6
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -45,7 +45,7 @@ agentic_access:
   summary_line: 35 operations · 18 acting · 1 human-in-the-loop
 api_count: 3
 apis:
-- baseURL: https://api.example.com
+- baseURL: https://{streamManagerDomain}/as/v1
   baseurl_source: declared
   description: The Red5 Pro WebRTC SDK is a JavaScript library for integrating low-latency live streaming publish and subscribe capabilities into web applications. It supports WHIP for WebRTC publishing and WHEP for
   name: Red5 Pro WebRTC SDK
@@ -59,58 +59,61 @@ apis:
 - description: The Red5 Pro Android Streaming SDK is a native Android library for integrating real-time live streaming publish and subscribe capabilities into Android applications. It supports H.264/H.265 video enco
   name: Red5 Pro Android Streaming SDK
   slug: android-sdk
-- baseURL: http://localhost:5080/api/v1
+- baseURL: https://{streamManagerDomain}/as/v1
   baseurl_source: declared
   description: Node metrics, system info, and autoscaling management
   name: Red5 Admin API
   slug: red5-admin-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: http://{host}:5080
   baseurl_source: declared
   description: Restream recorded FLV or MP4 files as pseudo-live streams
   name: Red5 File Restreamer API
   slug: red5-file-restreamer-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: http://{host}:5080
   baseurl_source: declared
   description: Image overlay management for mixer sessions
   name: Red5 Images API
   slug: red5-images-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: http://{host}:5080
   baseurl_source: declared
   description: Input stream management for mixer sessions
   name: Red5 Inputs API
   slug: red5-inputs-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: http://{host}:5080
   baseurl_source: declared
   description: Mixer session lifecycle management
   name: Red5 Mixers API
   slug: red5-mixers-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: https://{streamManagerDomain}/as/v1
   baseurl_source: declared
   description: Stream provisioning, authentication, and configuration
   name: Red5 Provision API
   slug: red5-provision-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: https://{streamManagerDomain}/as/v1
   baseurl_source: declared
   description: WHIP, WHEP, and WebSocket proxy endpoints
   name: Red5 Proxy API
   slug: red5-proxy-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: http://{host}:5080
   baseurl_source: declared
   description: Configure RTMP and RTMPS push/pull restreaming
   name: Red5 RTMP Restreamer API
   slug: red5-rtmp-restreamer-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: http://{host}:5080
   baseurl_source: declared
   description: Server-level restreamer plugin configuration
   name: Red5 Servlet Configuration API
   slug: red5-servlet-configuration-api
-- baseURL: http://localhost:5080/api/v1
+- baseURL: https://{streamManagerDomain}/as/v1
   baseurl_source: declared
   description: Live stream enumeration, statistics, and control
   name: Red5 Streams API
   slug: red5-streams-api
-artifact_total: 47
+artifact_total: 48
 asyncapis:
+- description: 'Red5 Pro''s webhook subsystem calls a customer-supplied REST endpoint when streaming events occur. Events are grouped into six categories — CONNECT, PUBLISH, SUBSCRIBE, WEBSOCKET, MEDIA and USER — and '
+  name: Red5 Pro Webhooks
+  slug: red5-webhooks-asyncapi
 - description: AsyncAPI specification for the Red5 Pro WebRTC streaming event system, covering WebSocket signaling messages exchanged during publish and subscribe sessions. Red5 Pro WebRTC uses WebSocket connections
   name: Red5 Pro WebRTC Streaming Events
   slug: red5-webrtc-streaming-asyncapi
@@ -234,7 +237,7 @@ common:
 - group: docs
   title: ''
   type: OpenAPI
-  url: openapi/red5-server-api-openapi.yml
+  url: openapi/_superseded/red5-server-api-openapi.yml
 - group: docs
   title: ''
   type: OpenAPI
@@ -263,6 +266,134 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/red5-vocabulary.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/red5-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/red5-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/red5-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/red5-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/red5-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.red5.net/legal/data-processing-addendum/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/red5-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/red5-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.red5.net/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/red5-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/red5-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.red5.net/docs/red5-pro/resources/release-notes/
+- group: design
+  title: ''
+  type: Components
+  url: components/red5-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/red5-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/red5-sandbox.yml
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/red5-webhooks-asyncapi.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://www.red5.net/docs/red5-pro/users-guide/red5-pro-webhooks-overview/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/red5-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/red5-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/red5-finops.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/red5-server-api-list-streams-example.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/red5-stream-manager-create-provision-example.json
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.red5.net/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.red5.net/docs/red5-pro/development/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.red5.net/docs/red5-cloud/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://customer.support.red5.net/servicedesk/customer/portals
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.red5.net/legal/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.red5.net/legal/privacy-policy/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cloud.red5.net/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://account.red5.net/login
+- group: commercial
+  title: ''
+  type: ServiceLevelAgreement
+  url: https://www.red5.net/legal/service-level-agreement/
 created: '2026-03-01'
 description: Red5 provides real-time streaming infrastructure for live video and audio delivery at scale. The Red5 Pro platform includes a media server, Stream Manager 2.0 for autoscaling cloud deployments, the Brew Mixer for composite stream production, a Restreamer for pushing live streams to social media and RTMP destinations, and WebRTC and native SDKs for browser and mobile integration. Red5 APIs enable programmatic management of streams, mixers, restreaming, cluster orchestration, and node monitoring. Use cases include live events, sports broadcasting, interactive video, gaming, surveillance, and enterprise communications requiring ultra-low latency streaming.
 examples:
@@ -294,24 +425,24 @@ jsonld:
   property_count: 9
   slug: red5-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-04'
 name: Red5
 nav: Providers
 network: true
 overview: 'Red5 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Pro WebRTC SDK, Admin API, File Restreamer API, and 8 more. Tagged areas include Live Streaming, Media, Real-Time, RTMP, and Streaming.
 
 
-  The Red5 catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The Red5 catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Red5''s developer surface includes authentication, documentation, pricing, engineering blog, and 20 more developer resources.'
+  Red5''s developer surface includes authentication, documentation, pricing, engineering blog, changelog, sandbox, code examples, and 49 more developer resources.'
 plans:
 - name: Red5 Plans Pricing
-  plan_count: 2
+  plan_count: 8
   slug: red5-plans-pricing
 random_paper: 11
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Red5 Rate Limits
   slug: red5-rate-limits
 rules:
@@ -348,34 +479,39 @@ rules:
     warn: 8
   slug: red5-rules
 score:
-  band: thin
-  composite: 38.4
+  band: exemplar
+  composite: 66.9
   coverage:
-    artifact_dirs: 18
-    catalog_gap: 58.5
+    artifact_dirs: 32
+    catalog_earned: 69.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 45.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 28.5
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 28.8
-    contract_quality: 60.4
-    developer_ergonomics: 38.1
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 7.9
+    access_clarity: 92.1
+    commercial_clarity: 92.1
+    contract_governance: 33.3
+    contract_quality: 63.4
+    developer_ergonomics: 78.6
+    discoverability: 74.1
+    governance: 33.3
+    operational_transparency: 42.1
   previous_composite: 38.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    mcp: derived
+    skills: first-party
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:
 - kind: authentication
@@ -385,7 +521,7 @@ security:
 - kind: domain-security
   name: Red5 Domain Security
   slug: red5-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: red5
 tags:
 - Live Streaming

@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.18.2
-last_updated: '2026-09-03'
+schema_version: 0.18.3
+last_updated: '2026-09-04'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,46 +22,56 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.18.1
+  version: 0.18.3
   body: |
-    A TRACKED SIGNAL, NOT A SCORED ONE — the 0.15.1 shape. No new dimensions, no
-    weight changes, no change to the agent-readiness denominator, and no band
-    re-cut: nothing about any provider's score moves, and scores stamped 0.18.0
-    remain correct under 0.18.1.
+    THREE PROVENANCE CORRECTIONS. No new dimensions, no weight changes, no band
+    re-cut. Each stops a score crediting work the provider did not do, or
+    penalising a provider for the only correct answer available to them.
 
-    `webmcp` joins `observed_signals`: does a script served by the provider's
-    own pages register tools with the browser's modelContext (the W3C WebMCP
-    draft — document.modelContext.registerTool(), Chrome origin trial 149-156)?
-    It is the browser-side counterpart of the MCP server the layer already
-    scores: not "is the API agent-drivable out-of-band" but "is the SITE
-    agent-drivable in the session the user is already in". A new prober
-    (signals/probe_webmcp.py) writes a frozen snapshot with the
-    mcp-deployment.json contract — every probed slug carries a verdict, so
-    absent means unprobed — and the scorer reads it through a new `probe:` key
-    on observed signals, the first non-spec-check signal in the list.
+    OPERATOR-SUPPLIED HOSTS ARE NOT UNCALLABLE (roadmap#184, #249). Self-hosted
+    software cannot publish a callable host: Matomo declares
+    `https://{matomo_host}/index.php` and Grafana `http://localhost:3000/api`,
+    and both were scored as if they had failed to fill in a blank. Those are now
+    N/A in servers_resolvable — out of the numerator AND the denominator, the
+    same treatment `inbound` gets, because in both cases somebody other than the
+    vendor is the host. 439 providers were penalised this way against 137
+    publishing a genuine placeholder. Credit was the other option and is wrong:
+    it would rank Matomo's callability equal to Stripe's.
 
-    The baseline is the finding, and it is not the zero we expected. 81 of 730
-    providers probed across the hosted-MCP cohort ship WebMCP registration —
-    but 72 of the 81 are ONE SCRIPT: ReadMe.io's docs-hub bundle registers a
-    search_docs tool on every docs site it hosts. A documentation platform
-    quietly made seventy-two providers' docs agent-drivable, none of whom
-    necessarily know. Distinct, provider-engineered deployments number 9
-    (Cloudflare, Zapier, Nylas, Render, and self-hosted bridges), and 6 of the
-    81 ship only the deprecated navigator surface — dead in Chrome 150+.
+    A POSTMAN COLLECTION WE GENERATED IS NOT THE PROVIDER'S (roadmap#208).
+    `postman_present` pays 2 points of developer_ergonomics for a runnable
+    collection — "the fastest path from reading about the API to calling it",
+    a claim about what the PROVIDER published. 1,623 providers were satisfying it
+    with a collection API Evangelist authored: 656 point at a file inside their
+    own repo, and 1,080 at `postman.com/kinlaneapi/...`, which is OUR workspace.
+    It is now provenance-graded against a new collections class, exactly as
+    `agent_skill_present` has been since 0.6. Authorship comes from the per-repo
+    manifest rather than the files, because a Postman collection is JSON an
+    importer validates and cannot carry a marker.
 
-    The raw count already clears the 25-provider promotion line and promotion
-    is deferred anyway: the number that has to clear it is providers whose own
-    engineering shipped the tools — 9 — or promotion would hand out credit for
-    ReadMe's work, re-creating exactly the false credit contract_self_operated
-    removed in 0.18.0. When it promotes, it promotes graded (runtime-verified
-    1.0 / statically-detected 0.4 / platform-shipped graded down the way
-    tenant contracts are), with points and the band re-cut a denominator
-    change requires. Until then, zero rescale: the agent_card lesson stands.
+    THE POINTER DECIDES, NOT THE DIRECTORY. Grading by the collections class
+    alone also docked 301 providers who publish their OWN collection, because
+    their repo happens to hold ones we derived. They keep full credit. The test
+    is the WORKSPACE OWNER and never the scheme: `postman.com/kinlaneapi/...` is
+    an https URL and it is ours, so "remote" would have handed the 1,080 their
+    points straight back.
 
-    Also recorded: the name is already colliding — at least one provider
-    markets a server-side MCP endpoint as its "WebMCP Server" — so the probe
-    keys on the registration API, never the word.
+    A SELF-CONFESSED SCAFFOLD IS 0% COVERAGE (roadmap#251, Kin 2026-09-03). A
+    spec whose own description says "modeled from the published documentation" or
+    "endpoint scaffold" states that nobody exercised the API. It shared a bucket
+    and a 0.25 credit with `derived`, so a mechanically derived contract and a
+    document admitting it was never tested counted the same — and a scaffold-tier
+    repo could read 100% covered. `scaffold` is its own tier at 0.00, so those
+    checks contribute their full points to catalog_gap.
 
+    Also in this pass, and not a rubric change: the `domain_standards` signal
+    `domain_standard_conformance` reads had no code producing it, and the script
+    owning its file rebuilt that file without the key — so the next routine run
+    would have zeroed the check for all 164 providers carrying it. The derivation
+    is rebuilt and covers 230, including 18 OGC providers whose /conformance
+    endpoints declare opengis.net classes (roadmap#81). It drops 18 entries
+    credited on a substring ("Microdata" contains "odata") and one credited by an
+    artifact that says `conforms: false`.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -465,12 +475,18 @@ provenance:
     first-party: 1.00
     conformance: 0.75
     derived: 0.25
+    # 0.18.3 (roadmap#251) — Kin's ruling 2026-09-03: a self-confessed scaffold is
+    # unenriched BY DEFINITION, so it counts as zero coverage rather than as a weak
+    # derivation. `derived` means we built it from something the provider published;
+    # `scaffold` means the document itself says nobody exercised the API.
+    scaffold: 0.00
     unknown: 1.00
   # Checks and dimensions whose award is multiplied by the authorship credit of
   # the artifact class named here. Everything else is unaffected.
   applies_to:
     mcp_server_present: mcp            # developer_ergonomics, 4 pts
     agent_skill_present: skills        # developer_ergonomics, 3 pts
+    postman_present: collections       # developer_ergonomics, 2 pts (0.18.3, roadmap#208)
     contract_present: openapi          # contract_quality, 20 pts
     mcp_server: mcp                    # agent readiness, 12 pts
     agent_skills: skills               # agent readiness, 5 pts
@@ -1949,10 +1965,23 @@ artifacts:
         label: Postman collection
         facet: developer_ergonomics
         points: 2
-        rule: 'common[].type includes "Postman" (alias-aware)'
+        provenance: collections
+        rule: 'common[].type includes "Postman" (alias-aware), graded by who authored it'
         description: >
           A runnable collection — the fastest path from reading about the API to calling
           it.
+
+          PROVENANCE-GRADED IN 0.18.3: 610 of the 729 providers registering a Postman
+          pointer at a file in their own repo point at one API Evangelist GENERATED from
+          their OpenAPI — our own provenance manifest calls it `derived`. The check's
+          description is a claim about what the provider published, and those 610 were
+          satisfying it with our work. Same treatment agent_skill_present has had since
+          0.6, for the same reason.
+
+          Authorship is read from the per-repo provenance manifest, not from the file: a
+          Postman collection is JSON an importer validates, so a marker cannot go inside
+          it. A pointer at a REMOTE url the provider hosts is unaffected — 1,622 of the
+          2,351 are exactly that, and they are the providers this check is for.
       - id: agent_skill_present
         label: Agent Skill
         facet: developer_ergonomics
@@ -3053,7 +3082,14 @@ agent_readiness:
         the discovery document the pipeline already fetches and saves on 889 providers.
         APPENDED AT SLOT 18. Dimension order is positional in DIM_ORDER and the glyph.
     - id: agentic_commerce
-      label: Agentic Commerce Surface
+      # 0.18.2 (roadmap#188) — LABEL ONLY, no scoring change. "Agentic Commerce Surface"
+      # invited exactly the reading roadmap#185 made: "98.3% false = nobody has built for
+      # agents acting with consequence." The check measures one thing — a UCP/ACP
+      # well-known document on the provider's own domain — and correctly reads false on
+      # both protocol authors (Stripe, OpenAI), because neither is a storefront. The
+      # label now says what is measured, so it can no longer support the sentence the
+      # dimension cannot.
+      label: Agentic Commerce Well-Known Document
       points: 5
       graded: true
       credit:

@@ -1,12 +1,16 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
-  pricing: unknown
+  confidence: high
+  label: Paid
+  onboarding: unknown
+  pricing: paid
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -76,7 +80,7 @@ apis:
   description: The Utilities API from Mattermark — 1 operation(s) for utilities.
   name: Mattermark Utilities API
   slug: mattermark-utilities-api
-artifact_total: 13
+artifact_total: 12
 common:
 - group: agent
   title: ''
@@ -152,7 +156,7 @@ common:
   url: changelog/mattermark-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/mattermark-mcp.yml
 - group: build
   title: ''
@@ -202,10 +206,6 @@ created: '2026-07-17'
 description: Mattermark is a business-intelligence platform for data-driven deal making, providing profiles on roughly four million companies and twenty million key contacts along with their investors, funding events, and news. Relaunched as an independent company, Mattermark exposes its dataset through a REST API (api.mattermark.com) and a GraphQL API (eapi.mattermark.com), both authenticated with a Bearer API key and queryable with the Mattermark Search Filter Language (MSFL). Originally an a16z / Slow Ventures / Version One Ventures-backed startup, it is tracked in the API Evangelist network as a company profile.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattermark.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Mattermark MCP Server
-  slug: mattermark-mcp-server
 modified: '2026-08-14'
 name: Mattermark
 nav: Providers
@@ -228,9 +228,11 @@ score:
   composite: 47.7
   coverage:
     artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 63.2
@@ -252,8 +254,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermark/refs/heads/main/screenshots/mattermark-2026-07-25T230426.png
 security:

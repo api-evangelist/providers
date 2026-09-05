@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 4
 apis:
 - baseURL: https://proxy.kong.lkeyprod.com/integration/
@@ -111,7 +111,7 @@ apis:
   description: Endpoints for receiving DocuSign webhook notifications
   name: LendKey Webhooks API
   slug: lendkey-webhooks-api
-artifact_total: 36
+artifact_total: 35
 asyncapis:
 - description: ''
   name: Lendkey Webhooks
@@ -256,7 +256,7 @@ common:
   url: sandbox/lendkey-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lendkey-mcp.yml
 - group: agent
   title: ''
@@ -270,10 +270,6 @@ created: '2026-07-17'
 description: LendKey Technologies is a New York based digital lending platform that lets credit unions and community banks originate, fund and service consumer loans without building the technology themselves. Its network-lending model covers private student loans, student loan refinancing, home improvement lending and auto lending, and its ALIRO platform runs loan participations and post-origination liquidity between institutions. LendKey has surpassed $8 billion in loan originations. For integrators it operates a Kong Gateway fronted API estate published through a Kong Developer Portal at developer.lendkey.com, covering origination intake (leads, soft credit pull, credit attributes, scoring and application boarding), treasury management (loan inventory, disbursements, payments and capital ledger), and DocuSign backed e-signature contracts. Access is partner gated, with OAuth2 client-credentials credentials issued through the developer portal.
 image: https://www.lendkey.com/wp-content/uploads/2018/08/cropped-LK512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LendKey MCP Server
-  slug: lendkey-mcp-server
 modified: '2026-07-19'
 name: LendKey
 nav: Providers
@@ -296,9 +292,11 @@ score:
   composite: 46.2
   coverage:
     artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -325,8 +323,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 70.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendkey/refs/heads/main/screenshots/lendkey-2026-07-25T224904.png
 security:

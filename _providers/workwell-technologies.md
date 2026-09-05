@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.workwelltech.com
@@ -50,7 +50,7 @@ apis:
   description: User records for the uAttend account
   name: Workwell Technologies Users API
   slug: workwell-technologies-users-api
-artifact_total: 8
+artifact_total: 7
 collections:
 - collection_type: open
   name: API Collection
@@ -67,7 +67,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/workwell-technologies-mcp.yml
 - group: other
   title: ''
@@ -105,10 +105,6 @@ created: '2026-07-17'
 description: Workwell Technologies, Inc. is a Carlsbad, California workforce management company backed by Battery Ventures, best known for its uAttend cloud-connected time and attendance platform and uPunch punch clocks. uAttend pairs biometric time clocks (fingerprint, facial recognition, RFID, voice control) with cloud software for time tracking, scheduling, overtime alerts, and optional payroll processing for small businesses. The WorkWell Technologies API exposes employee, timecard, and punch data from uAttend accounts over HTTPS with API-key authentication, supporting payroll and HRIS integrations.
 image: https://uattend.com/wp-content/uploads/2019/07/uAttendLogo-01.svg
 layout: provider
-mcp_servers:
-- description: Workwell Technologies does not publish an official MCP server (none found in docs, npm, or MCP registries). This is a candidate tool list derived from the documented WorkWell Technologies API (uAttend
-  name: Workwell Technologies MCP Server
-  slug: workwell-technologies-mcp-server
 modified: '2026-07-21'
 name: Workwell Technologies
 nav: Providers
@@ -123,9 +119,11 @@ score:
   composite: 16.9
   coverage:
     artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -144,8 +142,8 @@ score:
       marker_coverage: 100.0
       total: 3
     mcp: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workwell-technologies/refs/heads/main/screenshots/workwell-technologies-2026-09-02T170954.png
 slug: workwell-technologies

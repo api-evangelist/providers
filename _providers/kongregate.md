@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -111,7 +113,7 @@ apis:
   description: The User Items.json API from Kongregate — 1 operation(s) for user items.json.
   name: Kongregate User Items.json API
   slug: kongregate-user-items-json-api
-artifact_total: 33
+artifact_total: 32
 asyncapis:
 - description: ''
   name: Kongregate Callbacks Webhooks
@@ -218,7 +220,7 @@ common:
   url: llms/kongregate-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kongregate-mcp.yml
 - group: agent
   title: ''
@@ -280,10 +282,6 @@ created: '2026-07-17'
 description: 'Kongregate is a browser-game platform and publisher that hosts thousands of free online games across action, puzzle, RPG, strategy, idle and multiplayer genres. For game developers it operates a two-part developer API: a CDN-delivered client JavaScript API (with Unity WebGL bindings) handling player identity, in-page registration, statistic submission and the Kreds purchase flow; and a server-side REST API at api.kongregate.com that authenticates players, reads and consumes the Kreds virtual-goods inventory, submits statistics, reads lifetime/weekly/daily/friends leaderboards, and registers game-defined guilds and characters. Kongregate monetizes through Kreds, its own virtual currency, and rewards player engagement with badges and collectible Kongpanions. Outbound API callbacks are delivered as HMAC-SHA256 signed requests. Kongregate Inc. is backed by Lightspeed Venture Partners and Uncork Capital.'
 image: https://www.kongregate.com/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kongregate MCP Server
-  slug: kongregate-mcp-server
 modified: '2026-07-19'
 name: Kongregate
 nav: Providers
@@ -301,9 +299,11 @@ score:
   composite: 44.8
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -325,8 +325,8 @@ score:
       total: 13
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/screenshots/kongregate-2026-07-25T224157.png
 security:

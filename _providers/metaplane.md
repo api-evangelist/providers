@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
   description: 'The Tags API from Metaplane — 7 operations for bulk-labelling tables and monitors, removing tags, fetching tag definitions and reading tagged objects and monitors back. Tags are the routing dimension '
   name: Metaplane Tags API
   slug: metaplane-tags-api
-artifact_total: 19
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Metaplane Webhooks
@@ -219,7 +219,7 @@ common:
   url: asyncapi/metaplane-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/metaplane-mcp.yml
 - group: agent
   title: ''
@@ -241,10 +241,6 @@ finops:
   slug: metaplane-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/metaplane.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Metaplane MCP Server
-  slug: metaplane-mcp-server
 modified: '2026-08-29'
 name: Metaplane
 nav: Providers
@@ -270,9 +266,11 @@ score:
   composite: 60.1
   coverage:
     artifact_dirs: 24
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 63.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 100.0
@@ -294,8 +292,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/screenshots/metaplane-2026-06-20T185251.png
 security:

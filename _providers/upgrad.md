@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - baseURL: https://partner.upgrad.com
@@ -36,7 +36,7 @@ apis:
   description: 'Learner-experience analytics service behind upGrad''s learning platform: daily reading-time leaderboards per course and per user, micro-interaction notification records, and administrative cache evicti'
   name: upGrad Learner Experience Analytics API
   slug: upgrad-learner-experience-analytics-api
-artifact_total: 8
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -112,7 +112,7 @@ common:
   url: packages/upgrad-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/upgrad-mcp.yml
 - group: agent
   title: ''
@@ -131,10 +131,6 @@ description: 'upGrad is an online higher-education and workforce-upskilling plat
   leaderboards and micro-interaction notifications.'
 image: https://prod-mphs.upgrad.com/hubfs/NF%20upGrad%20Assets/University%20Logos%20and%20Images/upGrad%20Logos/upgrad-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: upGrad MCP Server
-  slug: upgrad-mcp-server
 modified: '2026-09-02'
 name: upGrad
 nav: Providers
@@ -157,9 +153,11 @@ score:
   composite: 36.9
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -186,8 +184,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 security:
 - kind: authentication

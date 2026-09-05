@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Production REST API covering 14 spiritual intelligence domains with 210+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -206,21 +206,23 @@ rate_limits:
   slug: roxyapi-rate-limits
 score:
   band: strong
-  composite: 59.7
+  composite: 58.0
   coverage:
     artifact_dirs: 20
+    catalog_earned: 58.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 57.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 42.8
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.7
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 26.7
     developer_ergonomics: 83.3
     discoverability: 70.4
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 78.9
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -228,10 +230,14 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 16.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: rising
+  previous_composite: 59.7
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/screenshots/roxyapi-2026-09-02T154145.png
 security:
 - kind: authentication

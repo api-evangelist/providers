@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 6
@@ -53,7 +55,7 @@ apis:
   description: The Payments API from vivenu — 4 operation(s) for payments.
   name: vivenu Payments API
   slug: vivenu-payments-api
-artifact_total: 82
+artifact_total: 81
 asyncapis:
 - description: ''
   name: Vivenu Webhooks
@@ -364,7 +366,7 @@ common:
   url: components/vivenu-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/vivenu-mcp.yml
 - group: agent
   title: ''
@@ -386,10 +388,6 @@ created: '2026-07-17'
 description: vivenu is an enterprise-grade, API-first event ticketing platform for live entertainment — sports, music, festivals, and performing arts. It provides white-label ticketing infrastructure, a headless REST API with total access to every platform resource (events, tickets, transactions, dynamic pricing, inventory, checkouts, customers, purchase intents), real-time webhooks, prebuilt drop-in checkout and seatmap components, and a unified payments API spanning global payment gateways. Used by more than 1,000 organizers worldwide, vivenu GmbH is headquartered in Germany and backed by Balderton Capital. The public OpenAPI (450 paths, 504 schemas) is served from https://vivenu.com/api with a staging environment at https://vivenu.dev/api.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivenu.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: vivenu MCP Server
-  slug: vivenu-mcp-server
 modified: '2026-07-21'
 name: vivenu
 nav: Providers
@@ -407,9 +405,11 @@ score:
   composite: 42.0
   coverage:
     artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -441,8 +441,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vivenu/refs/heads/main/screenshots/vivenu-2026-08-17T082808.png
 security:

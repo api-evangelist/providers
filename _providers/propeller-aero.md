@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -188,19 +188,21 @@ rate_limits:
   name: Propeller Aero Rate Limits
   slug: propeller-aero-rate-limits
 score:
-  band: thin
-  composite: 28.2
+  band: emerging
+  composite: 24.9
   coverage:
     artifact_dirs: 10
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 55.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.3
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
-    contract_quality: 13.1
+    contract_quality: 0.0
     developer_ergonomics: 27.4
     discoverability: 68.5
     governance: 0.0
@@ -210,11 +212,11 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propeller-aero/refs/heads/main/screenshots/propeller-aero-2026-09-02T152151.png
 security:

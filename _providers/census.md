@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,7 +8,7 @@ access_model:
   source:
   - plans
   - authentication
-  - '{''url'': ''https://www.getcensus.com/'', ''status'': 301, ''note'': ''declared website redirects to https://www.fivetran.com/ — a different registrable domain (getcensus.com -> fivetran.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -230,33 +230,35 @@ rate_limits:
   name: Census Rate Limits
   slug: census-rate-limits
 score:
-  band: thin
-  composite: 27.5
+  band: emerging
+  composite: 24.0
   coverage:
     artifact_dirs: 10
+    catalog_earned: 41.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 74.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 1.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 0.0
-    contract_quality: 23.2
-    developer_ergonomics: 33.3
+    contract_quality: 12.0
+    developer_ergonomics: 29.8
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 26.5
+  previous_composite: 27.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 7
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census/refs/heads/main/screenshots/census-2026-06-20T174117.png
 security:

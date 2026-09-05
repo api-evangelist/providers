@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,20 +144,22 @@ rate_limits:
   name: Guusto Rate Limits
   slug: guusto-rate-limits
 score:
-  band: developing
-  composite: 39.9
+  band: thin
+  composite: 39.2
   coverage:
     artifact_dirs: 9
+    catalog_earned: 64.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 51.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 54.9
-    developer_ergonomics: 33.3
+    developer_ergonomics: 29.8
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 31.6
@@ -174,8 +177,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/screenshots/guusto-2026-07-25T220443.png
 security:

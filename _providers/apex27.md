@@ -1,8 +1,8 @@
 ---
 access_model:
   confidence: low
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ apis:
   description: Webhook subscription management.
   name: Apex27 Webhooks API
   slug: apex27-webhooks-api
-artifact_total: 40
+artifact_total: 39
 asyncapis:
 - description: ''
   name: Apex27 Webhooks
@@ -232,7 +232,7 @@ common:
   url: overlays/apex27-portal-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/apex27-mcp.yml
 - group: agent
   title: ''
@@ -335,10 +335,6 @@ description: Apex27 Limited is a United Kingdom estate agency CRM vendor, founde
   a key issued inside a paid tenant. Access is customer-only, not self-serve. RESO does not apply — no RESO Web API or Data Dictionary certification exists for Apex27 or for the UK market at all, since RESO is a NAR/MLS construct with no UK counterpart. Apex27 publishes no open data; the UK's open property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.
 image: https://apex27.co.uk/img/icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Apex27 MCP Server
-  slug: apex27-mcp-server
 modified: '2026-07-26'
 name: Apex27
 nav: Providers
@@ -356,9 +352,11 @@ score:
   composite: 33.0
   coverage:
     artifact_dirs: 21
+    catalog_earned: 38.3
+    catalog_earned_first_party: 0.0
     catalog_gap: 76.8
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -380,8 +378,8 @@ score:
       total: 33
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apex27/refs/heads/main/screenshots/apex27-2026-08-07T161440.png
 security:

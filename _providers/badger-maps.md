@@ -1,13 +1,16 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -69,7 +72,7 @@ apis:
   description: Authentication, the authenticated user profile, and user search.
   name: Badger Maps Users API
   slug: badger-maps-users-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Badger Maps Webhooks
@@ -183,7 +186,7 @@ common:
   url: packages/badger-maps-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/badger-maps-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +240,6 @@ finops:
   slug: badger-maps-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/badger-maps.png
 layout: provider
-mcp_servers:
-- description: Badger Maps ships no Model Context Protocol server. A search of the provider docs, the company GitHub organization (github.com/BadgerMaps), npm and the public MCP registries on 2026-08-13 found no fir
-  name: Badger Maps MCP Server
-  slug: badger-maps-mcp-server
 modified: '2026-08-13'
 name: Badger Maps
 nav: Providers
@@ -263,19 +262,21 @@ rate_limits:
   slug: badger-maps-rate-limits
 score:
   band: strong
-  composite: 58.8
+  composite: 58.1
   coverage:
     artifact_dirs: 23
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 66.8
-    developer_ergonomics: 51.8
+    developer_ergonomics: 48.2
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 57.9
@@ -290,8 +291,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badger-maps/refs/heads/main/screenshots/badger-maps-2026-07-25T202239.png
 security:

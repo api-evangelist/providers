@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 16
@@ -133,7 +134,7 @@ apis:
   description: vcs
   name: Nuon vcs API
   slug: nuon-vcs-api
-artifact_total: 43
+artifact_total: 42
 asyncapis:
 - description: 'Org-scoped webhooks deliver workflow and workflow-step lifecycle events for a Nuon Org as CloudEvents v1.0 JSON envelopes over HTTP POST. Best-effort delivery (no retries or replay); handlers must be '
   name: Nuon Org Webhooks
@@ -303,7 +304,7 @@ common:
   url: cli/nuon-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nuon-mcp.yml
 - group: agent
   title: ''
@@ -349,10 +350,6 @@ created: '2026-07-17'
 description: 'Nuon is a Bring Your Own Cloud (BYOC) continuous-delivery platform for software vendors. It lets vendors package existing applications — Terraform, Pulumi, Helm charts, Kubernetes manifests, and container images — and deploy them into their customers'' own AWS, Azure, or GCP accounts while keeping a SaaS-like experience. Nuon runs a Control Plane plus egress-only Runners installed in each customer account (no cross-account IAM), and adds day-2 operations: least-privilege operation roles, drift detection, approval workflows, OPA-based policies, runbooks, secrets, actions, and org-scoped CloudEvents webhooks. The platform exposes a REST control-plane API (OpenAPI v2 + v3), a first-party CLI and TUIs, Go/Python/Elixir SDKs, and Terraform providers. Nuon''s core is open source under github.com/nuonco.'
 image: https://nuon.co/favicon.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nuon MCP Server
-  slug: nuon-mcp-server
 modified: '2026-07-20'
 name: Nuon
 nav: Providers
@@ -370,9 +367,11 @@ score:
   composite: 52.3
   coverage:
     artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -394,8 +393,8 @@ score:
       total: 18
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuon/refs/heads/main/screenshots/nuon-2026-08-07T185744.png
 security:

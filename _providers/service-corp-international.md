@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/service-corp-international-domain-security.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -43,15 +47,57 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.service-corp-international.com
-description: Service Corporation International is North America's leading provider of deathcare products and services, owning and operating funeral homes and cemeteries throughout the United States and Canada.
+  url: https://www.sci-corp.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.sci-corp.com/news-releases
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://investors.sci-corp.com/news?pagetemplate=rss
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.sci-corp.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.sci-corp.com/terms-of-service
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.sci-corp.com/contact-us
+coverage:
+  checked: '2026-09-04'
+  detail: Service Corporation International sells funeral, cremation and cemetery services through physical locations, not software — developer.sci-corp.com, developers.sci-corp.com, api.sci-corp.com, docs.sci-corp.com and api.dignitymemorial.com are all NXDOMAIN, there is no GitHub organization under any SCI or Dignity Memorial name, and the only /api/ namespace on the brand sites is the one dignitymemorial.com's own robots.txt labels internal.
+  evidence:
+  - status: 0
+    url: https://api.sci-corp.com/
+  - status: 404
+    url: https://api.github.com/orgs/sci-corp
+  - status: 404
+    url: https://www.sci-corp.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.sci-corp.com/llms.txt
+  - status: 403
+    url: https://www.dignitymemorial.com/api/v1/openapi.json
+  - status: 200
+    url: https://www.sci-corp.com/robots.txt
+  reason: not-a-software-company
+  state: none
+created: '2026-05-25'
+description: 'Service Corporation International (NYSE: SCI), headquartered in Houston, Texas, is North America''s leading provider of deathcare products and services, owning and operating funeral homes and cemeteries across the United States and Canada. SCI markets its network under the Dignity Memorial brand, alongside Neptune Society and National Cremation, and sells funeral and cemetery services on both an at-need and a preneed basis. It publishes no developer program, no API documentation and no machine-readable API contract.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/service-corp-international.png
 layout: provider
-modified: '2026-03-24'
+modified: '2026-09-04'
 name: Service Corp International
 nav: Providers
 network: true
-overview: Service Corp International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'Service Corp International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Deathcare, Funeral Services, Cemeteries, and Cremation.
+
+
+  Service Corp International''s developer surface includes engineering blog, support, and 6 more developer resources.'
 press:
 - date: '2026-05-25'
   title: SERVICE CORP INTERNATIONAL SEC 10-K Report
@@ -71,20 +117,22 @@ press:
 random_paper: 12
 score:
   band: minimal
-  composite: 2.6
+  composite: 10.6
   coverage:
-    artifact_dirs: 4
-    catalog_gap: 101.0
+    artifact_dirs: 6
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 8.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 25.9
+    developer_ergonomics: 7.1
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   needs_work:
@@ -94,11 +142,21 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 2.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
+security:
+- kind: domain-security
+  name: Service Corp International Domain Security
+  slug: service-corp-international-domain-security
+  summary_line: TLSv1.3
 slug: service-corp-international
 tags:
 - Fortune 1000
-website: https://www.service-corp-international.com
+- Deathcare
+- Funeral Services
+- Cemeteries
+- Cremation
+- Consumer Services
+website: https://www.sci-corp.com
 ---

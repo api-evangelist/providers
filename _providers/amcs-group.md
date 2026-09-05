@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 215
   human_in_the_loop: 1
@@ -1328,7 +1330,7 @@ apis:
   description: The Zone API from AMCS Group — 2 operation(s) for zone.
   name: AMCS Group Zone API
   slug: amcs-group-zone-api
-artifact_total: 519
+artifact_total: 518
 collections:
 - collection_type: open
   name: API Collection
@@ -2199,7 +2201,7 @@ common:
   url: packages/amcs-group-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amcs-group-mcp.yml
 - group: agent
   title: ''
@@ -2221,10 +2223,6 @@ created: '2026-07-17'
 description: AMCS Group is an enterprise cloud software provider for the waste, recycling, resource and transport industries, headquartered in Ireland and backed by Insight Partners. Its flagship AMCS Platform exposes a REST API spanning Core, ERP Platform, Pay, Scale, TLV and Vision AI services, covering directory, accounting, transport, fleet, municipal and weighbridge operations. The API authenticates with a Personal Access Token exchanged for a session cookie, ships Swagger documentation, a hosted sandbox, a Node.js reference client, a Terraform provider, and an API Accelerator Program with pre-coded, MIT-licensed integration templates covering most of a typical integration project.
 image: https://raw.githubusercontent.com/amcsplatform/amcsrestapi/master/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: AMCS Group MCP Server
-  slug: amcs-group-mcp-server
 modified: '2026-07-17'
 name: AMCS Group
 nav: Providers
@@ -2239,9 +2237,11 @@ score:
   composite: 42.5
   coverage:
     artifact_dirs: 21
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -2269,8 +2269,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png
 security:

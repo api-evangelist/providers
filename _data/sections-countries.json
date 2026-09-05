@@ -11,24 +11,24 @@
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 346,
-  "by_tag": 337,
+  "count": 350,
+  "by_tag": 341,
   "by_hq": 9
  },
  {
   "slug": "china",
   "name": "China",
   "flag": "🇨🇳",
-  "count": 336,
-  "by_tag": 325,
+  "count": 342,
+  "by_tag": 331,
   "by_hq": 11
  },
  {
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 319,
-  "by_tag": 297,
+  "count": 320,
+  "by_tag": 298,
   "by_hq": 22
  },
  {
@@ -59,8 +59,8 @@
   "slug": "france",
   "name": "France",
   "flag": "🇫🇷",
-  "count": 145,
-  "by_tag": 141,
+  "count": 148,
+  "by_tag": 144,
   "by_hq": 4
  },
  {
@@ -115,8 +115,8 @@
   "slug": "south-korea",
   "name": "South Korea",
   "flag": "🇰🇷",
-  "count": 67,
-  "by_tag": 66,
+  "count": 68,
+  "by_tag": 67,
   "by_hq": 1
  },
  {
@@ -155,8 +155,16 @@
   "slug": "switzerland",
   "name": "Switzerland",
   "flag": "🇨🇭",
-  "count": 32,
-  "by_tag": 31,
+  "count": 34,
+  "by_tag": 33,
+  "by_hq": 1
+ },
+ {
+  "slug": "ireland",
+  "name": "Ireland",
+  "flag": "🇮🇪",
+  "count": 24,
+  "by_tag": 23,
   "by_hq": 1
  },
  {
@@ -166,14 +174,6 @@
   "count": 23,
   "by_tag": 20,
   "by_hq": 3
- },
- {
-  "slug": "ireland",
-  "name": "Ireland",
-  "flag": "🇮🇪",
-  "count": 23,
-  "by_tag": 22,
-  "by_hq": 1
  },
  {
   "slug": "finland",

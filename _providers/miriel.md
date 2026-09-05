@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -78,7 +79,7 @@ apis:
   description: The Users API from Miriel — 3 operation(s) for users.
   name: Miriel Users API
   slug: miriel-users-api
-artifact_total: 19
+artifact_total: 18
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +176,7 @@ common:
   url: packages/miriel-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/miriel-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +206,6 @@ created: '2026-07-17'
 description: 'Miriel is the context engine and platform for AI-native development. It gives AI apps and agents the context they need in real time through a simple API: developers connect a data source with the learn operation and retrieve relevant context with the query operation, backed by LLM, vector, and knowledge-graph retrieval. Every interaction is encrypted and permissions are managed at the token level (per-user grants and policies). Built by a team with backgrounds across Google, Tesla, Facebook, and Posit, Miriel handles intelligent indexing and retrieval tailored to each source, plus Labs projects (Nora, Floodlight) and tools like Autodev and NexusBuild. Backed by Foundry Group.'
 image: https://miriel.ai/MirielLogoWhiteNoTextOnBlue.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Miriel MCP Server
-  slug: miriel-mcp-server
 modified: '2026-07-20'
 name: Miriel
 nav: Providers
@@ -223,9 +220,11 @@ score:
   composite: 24.8
   coverage:
     artifact_dirs: 17
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -247,8 +246,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/screenshots/miriel-2026-08-07T183723.png
 security:

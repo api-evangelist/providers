@@ -1,13 +1,16 @@
 ---
 access_model:
   confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -84,7 +87,7 @@ apis:
   description: The Teams API from Plausible — 1 operation(s) for teams.
   name: Plausible Teams API
   slug: plausible-teams-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -209,7 +212,7 @@ common:
   url: finops/plausible-finops.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/plausible-mcp.yml
 - group: operate
   title: ''
@@ -339,10 +342,6 @@ finops:
   slug: plausible-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plausible.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Plausible MCP Server
-  slug: plausible-mcp-server
 modified: '2026-08-13'
 name: Plausible
 nav: Providers
@@ -365,9 +364,11 @@ score:
   composite: 61.4
   coverage:
     artifact_dirs: 24
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 48.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 75.0
@@ -389,8 +390,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/screenshots/plausible-2026-06-20T191759.png
 security:

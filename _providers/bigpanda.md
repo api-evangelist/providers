@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +8,15 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,18 +25,18 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-09-03'
+  score: 41.0
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,39 +44,148 @@ agentic_access:
   operation_count: 11
   slug: bigpanda-agentic-access
   summary_line: 11 operations · 5 acting
-api_count: 6
+api_count: 27
 apis:
 - baseURL: https://api.bigpanda.io
-  baseurl_source: spec
-  description: Ingest and manage monitoring alerts
+  baseurl_source: declared
+  description: 'The three agent-facing endpoints: the MCP server, the A2A JSON-RPC endpoint and the agent-card retrieval operation.'
+  name: BigPanda Agents API (MCP & A2A)
+  slug: bigpanda-agents-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: AI analysis configurations and on-demand AI analysis generation.
+  name: BigPanda AI Settings API
+  slug: bigpanda-ai-settings-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Alert tags, enrichment items, mapping enrichment schemas and tables — the largest single resource group, and the one that decides what context an incident carries.
+  name: BigPanda Alert Tags & Enrichment API
+  slug: bigpanda-alert-enrichment-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Alert filters and filter schedules, in current and v1 routes, for suppressing alerts before correlation.
+  name: BigPanda Alert Filters API
+  slug: bigpanda-alert-filters-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Open Integration Hub ingestion — send raw tool payloads for normalization and processing, with 23 documented tool reference payloads.
+  name: BigPanda Alert Ingestion (OIM) API
+  slug: bigpanda-alert-ingestion-oim-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Inbound alert ingestion and batch alert resolution — the write path monitoring tools use to push events into BigPanda.
   name: BigPanda Alerts API
   slug: bigpanda-alerts-api
 - baseURL: https://api.bigpanda.io
-  baseurl_source: spec
-  description: Access audit logs
+  baseurl_source: declared
+  description: Create, read, update and revoke the User API Keys that authenticate every other call.
+  name: BigPanda API Keys API
+  slug: bigpanda-api-keys-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Search the organization audit log.
   name: BigPanda Audit API
   slug: bigpanda-audit-api
 - baseURL: https://api.bigpanda.io
-  baseurl_source: spec
-  description: Ingest change events for correlation
-  name: BigPanda Changes API
+  baseurl_source: declared
+  description: Send a natural-language question to Biggy and retrieve the response, synchronously or as an async job.
+  name: BigPanda Biggy Query API
+  slug: bigpanda-biggy-query-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Request and retrieve AI-powered risk ratings for ServiceNow change requests.
+  name: BigPanda Change Risk API
+  slug: bigpanda-change-risk-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Ingest deployment and configuration changes and link them to incidents as Root Cause Changes.
+  name: BigPanda Changes & Root Cause API
   slug: bigpanda-changes-api
 - baseURL: https://api.bigpanda.io
-  baseurl_source: spec
-  description: Define incident grouping environments
+  baseurl_source: declared
+  description: The rules that turn alerts into incidents, including their evaluation order.
+  name: BigPanda Correlation Patterns API
+  slug: bigpanda-correlation-patterns-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Data connectors and their authentication.
+  name: BigPanda Data Connectors API
+  slug: bigpanda-data-connectors-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Versioned email-parser integration configuration, mirroring the OIM configuration lifecycle.
+  name: BigPanda Email Parser Configuration API
+  slug: bigpanda-email-parser-configuration-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: BPQL-defined environments and environment groups that scope every incident operation.
   name: BigPanda Environments API
   slug: bigpanda-environments-api
 - baseURL: https://api.bigpanda.io
-  baseurl_source: spec
-  description: View and manage correlated incidents
+  baseurl_source: declared
+  description: Search, read, assign, comment, tag, snooze, merge, split and resolve correlated incidents.
   name: BigPanda Incidents API
   slug: bigpanda-incidents-api
 - baseURL: https://api.bigpanda.io
-  baseurl_source: spec
-  description: Schedule maintenance windows to suppress alerts
+  baseurl_source: declared
+  description: Schedule maintenance windows to suppress alerts during planned work, and stop a running window early.
   name: BigPanda Maintenance Plans API
   slug: bigpanda-maintenance-plans-api
-artifact_total: 85
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Add the Biggy transcription bot to a call, then list transcripts, read raw text and generate AI summaries.
+  name: BigPanda Meetings & Transcripts API
+  slug: bigpanda-meetings-transcripts-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Execute a major-incident workflow from a template, then list, inspect, cancel or resolve the execution.
+  name: BigPanda Major Incident Management API
+  slug: bigpanda-mim-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Configure Notifications Webhook v2 destinations and discover the dynamic variables a webhook template can interpolate.
+  name: BigPanda Notifications & Webhooks API
+  slug: bigpanda-notifications-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Versioned Open Integration Hub configuration with list, retrieve, diff and restore — the only versioned object in the BigPanda surface.
+  name: BigPanda OIM Configuration API
+  slug: bigpanda-oim-configuration-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Troubleshooting logs and multi-context report generation.
+  name: BigPanda Reporting API
+  slug: bigpanda-reporting-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Roles, role membership and the permission catalog that decides what a User API Key can do.
+  name: BigPanda Roles & Permissions API
+  slug: bigpanda-roles-permissions-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Machine identities and the API keys attached to them.
+  name: BigPanda Service Accounts API
+  slug: bigpanda-service-accounts-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: SAML SSO configuration, a SAML debug endpoint, and just-in-time domain and role provisioning.
+  name: BigPanda SSO & JIT Provisioning API
+  slug: bigpanda-sso-provisioning-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: Service and infrastructure topology used to relate alerts across systems.
+  name: BigPanda Topology API
+  slug: bigpanda-topology-api
+- baseURL: https://api.bigpanda.io
+  baseurl_source: declared
+  description: User management plus a standards-based SCIM 2.0 provisioning surface for Users and Groups.
+  name: BigPanda Users & SCIM API
+  slug: bigpanda-users-api
+artifact_total: 109
+asyncapis:
+- description: ''
+  name: Bigpanda Webhooks
+  slug: bigpanda-webhooks
 collections:
 - collection_type: postman
   name: BigPanda Alerts API
@@ -119,6 +230,10 @@ collections:
   name: BigPanda API
   slug: open-bigpanda
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bigpanda.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -143,22 +258,6 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/bigpanda
-- group: start
-  title: ''
-  type: Portal
-  url: https://docs.bigpanda.io
-- group: start
-  title: ''
-  type: GettingStarted
-  url: https://docs.bigpanda.io/docs/get-started
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://docs.bigpanda.io/reference
-- group: operate
-  title: ''
-  type: ChangeLog
-  url: https://docs.bigpanda.io/docs/release-notes
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -175,16 +274,144 @@ common:
   title: ''
   type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/vocabulary/bigpanda-vocabulary.yaml
+- group: start
+  title: ''
+  type: Portal
+  url: https://api-docs.bigpanda.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api-docs.bigpanda.io/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api-docs.bigpanda.io/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.bigpanda.io/docs/get-started
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://api-docs.bigpanda.io/get-started
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.bigpanda.io/docs/release-notes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/bigpanda-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/bigpanda-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bigpanda-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/bigpanda-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bigpanda-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/bigpanda-trust-center.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/bigpanda-problem-types.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/bigpanda-scopes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bigpanda-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/bigpanda-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/bigpanda-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/bigpanda-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/bigpanda-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/bigpanda-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bigpanda-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bigpanda-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/bigpanda-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bigpanda-api-reference-llms.txt
 - group: agent
   title: ''
   type: LlmsText
-  url: https://docs.bigpanda.io/llms.txt
+  url: https://api-docs.bigpanda.io/llms.txt
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.bigpanda.io/pricing/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.bigpanda.io/demo/
+- group: start
+  title: ''
+  type: Login
+  url: https://login.bigpanda.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.bigpanda.io/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bigpanda.io/terms-of-service/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bigpanda.io/privacy-notice/
 - group: company
   title: ''
   type: Blog
+  url: https://www.bigpanda.io/blog/
+- group: company
+  title: ''
+  type: BlogRSS
   url: https://www.bigpanda.io/feed/
 created: '2025-01-08'
-description: BigPanda is a software platform that uses artificial intelligence (AI) to help IT operations teams automate incident management by correlating alerts from various systems, identifying root causes, and streamlining the incident resolution process, essentially moving from reactive to proactive incident response by providing context and insights through intelligent data analysis.
+description: 'BigPanda is an agentic IT operations (AIOps) platform that ingests alerts from monitoring and observability tools, correlates them into a small number of actionable incidents, links those incidents to the deployment and configuration changes that caused them, and increasingly acts on them through AI agents. Its public API is large and current: 263 operations across 165 paths, published as OpenAPI 3.0.1 on BigPanda''s own API reference, covering alert ingestion and enrichment, correlation patterns, incidents, environments, changes and root cause, maintenance plans, topology, outbound webhooks, SCIM 2.0 user provisioning, SSO, roles and API keys, plus a Biggy assistant surface with a remote Model Context Protocol server and an A2A agent endpoint.'
 examples:
 - key_count: 6
   name: Bigpanda Alert Request Example
@@ -342,20 +569,24 @@ jsonld:
   property_count: 19
   slug: bigpanda-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: 'BigPanda ships two distinct remote Model Context Protocol surfaces. The product one is the Biggy action-plan server at https://api.biggy.io/mcp, documented in BigPanda''s own API reference: a single st'
+  name: BigPanda MCP Server
+  slug: bigpanda-mcp-server
+modified: '2026-09-04'
 name: BigPanda
 nav: Providers
 network: true
-overview: 'BigPanda publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Audit API, Changes API, and 3 more. Tagged areas include Incidents, Monitoring, and Platform.
+overview: 'BigPanda publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Agents API (MCP & A2A), AI Settings API, Alert Tags & Enrichment API, and 24 more. Tagged areas include Incidents, Monitoring, Platform, AIOps, and IT Operations.
 
 
-  The BigPanda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The BigPanda catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  BigPanda''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, engineering blog, and 10 more developer resources.'
+  BigPanda''s developer surface includes authentication, developer portal, API reference, documentation, getting-started guide, changelog, pricing, and 38 more developer resources.'
 plans:
 - name: Bigpanda Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: bigpanda-plans-pricing
 random_paper: 3
 rate_limits:
@@ -384,41 +615,51 @@ rules:
     info: 0
     warn: 21
   slug: bigpanda-spectral-rules
+scopes:
+- name: Bigpanda Scopes
+  scope_count: 0
+  slug: bigpanda-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 35.5
+  band: exemplar
+  composite: 67.9
   coverage:
-    artifact_dirs: 18
-    catalog_gap: 55.5
+    artifact_dirs: 31
+    catalog_earned: 75.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 39.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 32.4
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 28.8
-    contract_quality: 22.3
-    developer_ergonomics: 50.0
-    discoverability: 63.0
-    governance: 28.8
-    operational_transparency: 42.1
+    access_clarity: 68.4
+    commercial_clarity: 68.4
+    contract_governance: 47.0
+    contract_quality: 71.1
+    developer_ergonomics: 60.1
+    discoverability: 81.5
+    governance: 47.0
+    operational_transparency: 81.6
   previous_composite: 35.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 7
+      derived: 1
       marker_coverage: 100.0
-      total: 7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+      total: 28
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigpanda/refs/heads/main/screenshots/bigpanda-2026-06-20T173234.png
 security:
 - kind: authentication
   name: Bigpanda Authentication
   slug: bigpanda-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Bigpanda Domain Security
   slug: bigpanda-domain-security
@@ -432,6 +673,13 @@ tags:
 - Incidents
 - Monitoring
 - Platform
+- AIOps
+- IT Operations
+- Alerts
+- Incident Management
+- Observability
+- Agents
+- MCP
 use_cases:
 - description: Reduce alert fatigue by correlating thousands of alerts into a handful of incidents.
   name: Alert Noise Reduction
@@ -443,5 +691,5 @@ use_cases:
   name: Maintenance Scheduling
 - description: Automatically create and update tickets in ServiceNow or Jira from correlated incidents.
   name: ITSM Integration
-website: https://docs.bigpanda.io
+website: https://www.bigpanda.io/
 ---

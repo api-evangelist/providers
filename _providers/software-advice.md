@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Software Advice provides software review data, ratings, and recommendations through their platform. As a Gartner subsidiary, Software Advice aggregates user reviews and expert analysis across 300+ sof
@@ -170,9 +170,11 @@ score:
   composite: 25.4
   coverage:
     artifact_dirs: 12
+    catalog_earned: 65.3
+    catalog_earned_first_party: 0.0
     catalog_gap: 49.8
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 36.8
@@ -184,8 +186,8 @@ score:
     governance: 25.0
     operational_transparency: 13.2
   previous_composite: 25.4
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 security:
 - kind: domain-security

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
   description: The Health API from Automation Preflight API — 1 operation(s) for health.
   name: Automation Preflight API Health API
   slug: automation-preflight-api-health-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -87,7 +87,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/automation-preflight-api-mcp.yml
 - group: other
   title: ''
@@ -204,10 +204,6 @@ examples:
   slug: automation-preflight-api-health-and-errors-example
 image: https://tinyopsstudio.com/assets/tinyops-logo-mark-v4.png
 layout: provider
-mcp_servers:
-- description: TinyOps Studio publishes NO MCP server for the Automation Preflight API. This file is a candidate tool surface derived from the published OpenAPI operations — a design proposal, not a provider artifac
-  name: Automation Preflight API MCP Server
-  slug: automation-preflight-api-mcp-server
 modified: '2026-08-09'
 name: Automation Preflight API
 nav: Providers
@@ -230,9 +226,11 @@ score:
   composite: 48.4
   coverage:
     artifact_dirs: 21
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 76.3
@@ -254,8 +252,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/screenshots/automation-preflight-api-2026-08-17T080618.png
 security:

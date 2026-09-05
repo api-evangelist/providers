@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - description: REST/JSON over the merged corpus. 17 paths / 18 operations in the served OpenAPI 3.0.3. Keyless GET tier, CORS open, RateLimit-* headers on every response, per-record licence and attribution.
@@ -188,9 +188,12 @@ score:
   composite: 52.6
   coverage:
     artifact_dirs: 17
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -200,6 +203,7 @@ score:
     discoverability: 87.0
     governance: 0.0
     operational_transparency: 31.6
+  previous_composite: 52.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -210,8 +214,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: flat
 security:
 - kind: authentication
   name: Flightfinder Authentication

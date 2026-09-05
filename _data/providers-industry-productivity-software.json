@@ -29,14 +29,14 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 41.9,
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 43.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": "documented",
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -74,8 +74,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 39.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -130,8 +130,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -162,7 +162,7 @@
      "slug": "slack",
      "description": "Slack is a cloud-based team collaboration platform that provides chat, file sharing, and integrations with other tools and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png",
-     "score": 64.2,
+     "score": 63.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -171,12 +171,12 @@
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 63.2,
-      "developer_ergonomics": 85.7,
+      "developer_ergonomics": 82.1,
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -207,7 +207,7 @@
      "slug": "airtable",
      "description": "Airtable is a cloud-based collaboration service that combines the simplicity of a spreadsheet with the complexity of a database. It provides APIs for managing bases, tables, records, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png",
-     "score": 63.4,
+     "score": 62.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -216,12 +216,12 @@
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 44.7,
-      "developer_ergonomics": 76.2,
+      "developer_ergonomics": 72.6,
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -252,7 +252,7 @@
      "slug": "notion",
      "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. The Notion API allows developers to integrate Notion with other tools and build custom applications on top of Notion's platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png",
-     "score": 62.2,
+     "score": 61.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -261,12 +261,12 @@
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 63.2,
-      "developer_ergonomics": 78.6,
+      "developer_ergonomics": 75.0,
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 52.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -297,7 +297,7 @@
      "slug": "microsoft",
      "description": "Collection of Microsoft's primary APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-     "score": 59.6,
+     "score": 58.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -306,12 +306,12 @@
       "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 42.1,
-      "developer_ergonomics": 78.6,
+      "developer_ergonomics": 75.0,
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -342,7 +342,7 @@
      "slug": "atlassian",
      "description": "Atlassian is a software company that develops collaboration, productivity, and project management tools to help teams work more efficiently. Its products are designed to enhance teamwork, streamline workflows, and support project tracking across a wide range of industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png",
-     "score": 57.0,
+     "score": 56.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -351,12 +351,12 @@
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 52.6,
-      "developer_ergonomics": 73.8,
+      "developer_ergonomics": 70.2,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 47.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -411,8 +411,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -463,8 +463,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -508,8 +508,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 25.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -563,8 +563,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -615,8 +615,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -664,8 +664,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -709,8 +709,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -764,8 +764,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -809,8 +809,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {

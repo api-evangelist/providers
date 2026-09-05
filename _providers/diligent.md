@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - baseURL: https://api.godiligent.ai
@@ -66,7 +68,7 @@ apis:
   description: '## How to Secure Webhook Deliveries To ensure that webhook payloads are securely transmitted and verified. This guide explains how to configure and validate webhook deliveries using a shared secret. #'
   name: Diligent Webhooks API
   slug: diligent-webhooks-api
-artifact_total: 18
+artifact_total: 17
 asyncapis:
 - description: ''
   name: Diligent Webhooks
@@ -176,7 +178,7 @@ common:
   url: llms/diligent-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/diligent-mcp.yml
 - group: design
   title: ''
@@ -218,10 +220,6 @@ created: '2026-07-17'
 description: Diligent (Diligent AI, godiligent.ai) builds autonomous AI agents for financial-crime compliance, automating the reasoning-heavy KYC/AML workflows that banks and fintechs run at scale. Its API exposes Customer Due Diligence (CDD) and business/merchant verification, name screening against sanctions and PEP providers with AI-powered alert remediation, ongoing monitoring with alerting, company identification and registry document retrieval, a blocked-company list, and an experimental instant website screening endpoint. The platform is API-first (X-API-KEY auth, production and sandbox environments, idempotency, and signed webhooks) and is used by fintechs and banks including Scalapay, Flywire, Allica Bank, Tamara, Teya, Vivid and Alma. Diligent is SOC 2 Type II certified, ISO 27001 certified, and GDPR compliant. It is backed by Speedinvest, Y Combinator and Shapers, and operates out of London and Berlin.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diligent.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP tool list derived from the Diligent OpenAPI operations; no official hosted server published.
-  name: Diligent MCP (candidate)
-  slug: diligent-mcp-candidate
 modified: '2026-07-18'
 name: Diligent
 nav: Providers
@@ -239,9 +237,11 @@ score:
   composite: 46.0
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 43.4
@@ -262,8 +262,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/diligent/refs/heads/main/screenshots/diligent-2026-07-25T212039.png
 security:

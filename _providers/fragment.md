@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Fragment's GraphQL Ledger API. Store a double-entry chart-of-accounts schema, create ledgers, post idempotent ledger entries and lines, read aggregated / historical / period / strongly-consistent bala
   name: Fragment Ledger API
   slug: fragment-ledger-api
-artifact_total: 6
+artifact_total: 5
 common:
 - group: start
   title: ''
@@ -155,7 +155,7 @@ common:
   url: data-model/fragment-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fragment-mcp.yml
 - group: agent
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: Fragment is the ledger API for engineers who move money. It provides a double-entry accounting engine — "the database for money" — that lets developers model any funds flow as declarative, typed schemas and post balanced, immutable ledger entries through a GraphQL API. Fragment generates a typesafe SDK from your chart-of-accounts schema, tracks real-time, historical, period, and strongly-consistent balances across multi-currency and custom-currency accounts, and reconciles internal ledgers against external systems (Stripe, Increase, Unit, banks) via linked and external accounts. Every write mutation is idempotent (per-Ledger idempotency keys), responses are GraphQL union types with typed errors, list queries are cursor-paginated, and the API is deployed across AWS regions. Fragment is used by companies including Bill, Ramp, Pleo, AtoB, Basic Capital, and Nala, and is backed by General Catalyst.
 image: https://fragment.dev/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fragment MCP Server
-  slug: fragment-mcp-server
 modified: '2026-07-19'
 name: Fragment
 nav: Providers
@@ -187,9 +183,11 @@ score:
   composite: 52.5
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -211,8 +209,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fragment/refs/heads/main/screenshots/fragment-2026-07-25T215102.png
 security:

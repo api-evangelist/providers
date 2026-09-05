@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.yokoy.ai/v1/organizations/{organizationId}
@@ -146,7 +146,7 @@ apis:
   description: Users in Yokoy reflect the fundamental roles of submitter, approver, and finance user. Mandatory user information depends on the specific organization requirements and Yokoy features enabled. Email ad
   name: Yokoy User API
   slug: yokoy-user-api
-artifact_total: 51
+artifact_total: 50
 collections:
 - collection_type: open
   name: API Collection
@@ -300,7 +300,7 @@ common:
   url: packages/yokoy-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/yokoy-mcp.yml
 - group: agent
   title: ''
@@ -318,10 +318,6 @@ created: '2026-07-17'
 description: Yokoy (now part of Perk / TravelPerk) is an AI-powered spend-management platform for expenses, supplier invoices and corporate cards. Its public REST API (OpenAPI 3.0, 105 operations) imports master and configuration data into Yokoy and exports financial data — expenses, trips, invoices, transactions, journal entries and FX rates — to third-party ERP and accounting systems. Authentication uses the OAuth2 client-credentials flow; every request is scoped to an organization ID and most resources to a legal entity (company). The API spans expenses, invoices, trips, transactions, company cards and card accounts, cost centers, categories, tax rates, suppliers, users, policies, tags and finance-export tasks.
 image: https://yokoy.io/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Yokoy MCP Server
-  slug: yokoy-mcp-server
 modified: '2026-07-21'
 name: Yokoy
 nav: Providers
@@ -341,9 +337,11 @@ score:
   composite: 39.7
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 15.8
@@ -374,8 +372,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 59.4
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yokoy/refs/heads/main/screenshots/yokoy-2026-08-17T083017.png
 security:

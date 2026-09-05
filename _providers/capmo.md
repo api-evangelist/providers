@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -158,7 +159,7 @@ apis:
   description: The Uploads API from Capmo — 3 operation(s) for uploads.
   name: Capmo Uploads API
   slug: capmo-uploads-api
-artifact_total: 52
+artifact_total: 51
 collections:
 - collection_type: open
   name: API Collection
@@ -314,7 +315,7 @@ common:
   url: well-known/capmo-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/capmo-mcp.yml
 - group: other
   title: ''
@@ -360,10 +361,6 @@ created: '2026-07-17'
 description: Capmo is a Munich-based construction project management platform ("Bauprojektmanagement-Software") for the DACH market, backed by Bessemer Venture Partners. Its web and mobile apps cover defect and task management (tickets), site journals (Bautagebuch), plans, documents, change orders, project and organisation contact books, and reporting for construction teams. Capmo exposes a public REST API (api.capmo.de, /api/v1) documented on ReadMe, with API-key authentication, cursor pagination, a 600 requests/minute rate limit, HMAC-signed webhooks for change-order events, and downloadable OpenAPI specifications for both the REST and Webhook surfaces.
 image: https://cdn.prod.website-files.com/620fb9c4a7a29bb3b2650350/652667d7d817b5862140ee97_Capmo_2310_Webclip.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Capmo MCP Server
-  slug: capmo-mcp-server
 modified: '2026-07-18'
 name: Capmo
 nav: Providers
@@ -378,9 +375,11 @@ score:
   composite: 41.7
   coverage:
     artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 38.2
@@ -402,8 +401,8 @@ score:
       total: 23
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/screenshots/capmo-2026-07-25T204431.png
 security:

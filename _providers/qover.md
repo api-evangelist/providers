@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +35,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'Qover''s REST API for embedded insurance: a Claims API (file, retrieve, track status history, and download claim reports), a Policy API (manage policies and dynamically add/remove risk items), and a Do'
   name: Qover Embedded Insurance API
   slug: qover-embedded-insurance-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Qover Webhooks
@@ -125,10 +127,6 @@ created: '2026-07-17'
 description: Qover is a Brussels-based insurtech providing an API-first embedded insurance orchestration platform used across 32 European countries. Its modular platform lets brands, fintechs and insurers configure and distribute insurance products (travel, mobility, bike, purchase protection, accident, property) and run the full lifecycle from policy configuration and issuance through AI-assisted claims and multilingual customer care. Qover exposes REST APIs - a Claims API, a Policy API and a Document Asset Management API - secured with API keys, with a sandbox environment, configurable webhooks for claim status changes, and per-partner product configuration. Founded in 2016, Qover reports serving 440+ brands and insurers covering millions of people, and is an ISO-certified company with a Vanta-hosted trust center.
 image: https://qover.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qover MCP Server
-  slug: qover-mcp-server
 modified: '2026-07-20'
 name: Qover
 nav: Providers
@@ -146,9 +144,11 @@ score:
   composite: 50.2
   coverage:
     artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -174,8 +174,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/screenshots/qover-2026-08-17T081419.png
 security:

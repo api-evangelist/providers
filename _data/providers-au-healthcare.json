@@ -29,8 +29,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -38,12 +38,12 @@
       "score": 51.2,
       "matched_via": "tags"
      },
-     "agent_score": 27.2,
-     "agent_band": "agent-aware",
+     "agent_score": 28.9,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -93,8 +93,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -113,12 +113,12 @@
        }
       ]
      },
-     "agent_score": 30.8,
+     "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "negotiable",
       "idempotency": false,
@@ -157,8 +157,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -166,12 +166,12 @@
       "score": 38.8,
       "matched_via": "tags"
      },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
+     "agent_score": 29.6,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -197,7 +197,7 @@
      "slug": "heidi-health",
      "description": "Heidi Health is a Melbourne, Australia-founded AI care partner for clinicians, founded in 2019 by Dr. Tom Kelly (CEO), Waleed Mussa (CFO), and Yu Liu (CTO). The product began as an ambient AI medical scribe and now spans four capability surfaces: Scribe (real-time clinical documentation from audio), Evidence (clinical decision support and literature lookup with citations), Remote (a 21-gram wearable microphone with on-device encryption for offline ambient capture), and Comms (clinical communications). The platform is used by more than one million clinicians across 50+ countries spanning family medicine, specialists, nursing, mental health, allied health, dentistry, veterinary medicine, and trainees, and claims to have returned over 18 million hours of clinician time to date. Heidi exposes a public Heidi API and embeddable Heidi Widget that EHR vendors, telehealth platforms, and partners use to embed ambient documentation into their own workflows; documented integrations include Epic (Hyperspace/Hyperdrive/Haiku), Oracle Cerner (PowerChart/FirstNet), Athenahealth, eClinicalWorks (via Vim), Best Practice, Medical Director, Gentu, Cliniko, Halaxy, MediRecords, and many others. Heidi holds SOC 2, ISO 27001, ISO 42001, HIPAA, GDPR, APP, PIPEDA, NHS, Cyber Essentials+, UKCA, and Swiss FDPA attestations, has raised approximately $80M across Seed, Series A (Blackbird), and a $65M Series B led by Point72 Private Investments with Blackbird, Headline, and Latitude, and recently announced a strategic partnership with R1 RCM to embed Heidi into US revenue cycle management workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png",
-     "score": 49.7,
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -206,12 +206,12 @@
       "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 15.8,
-      "developer_ergonomics": 40.5,
+      "developer_ergonomics": 36.9,
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -263,8 +263,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -327,8 +327,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -391,8 +391,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -444,8 +444,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -496,8 +496,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -559,8 +559,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -612,8 +612,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -675,8 +675,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",

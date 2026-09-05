@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Paid · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Paid
+  onboarding: unknown
   pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -82,7 +83,7 @@ apis:
 - description: Cloud Streaming pushes changing quote and trade fields continuously rather than requiring repeated REST polling, for live market data in servers, web, and mobile apps. QUODD's own developer platform d
   name: QUODD Cloud Streaming API
   slug: quodd-cloud-streaming-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +140,7 @@ common:
   url: packages/quodd-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/quodd-mcp.yml
 - group: agent
   title: ''
@@ -197,10 +198,6 @@ finops:
   slug: quodd-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quodd.png
 layout: provider
-mcp_servers:
-- description: 'QUODD publishes no official hosted MCP server (no MCP endpoint on developer.quodd.com or api.quodd.com, no GitHub org, no entry in the official MCP registry as of the probe date). This is a candidate '
-  name: QUODD MCP Server
-  slug: quodd-mcp-server
 modified: '2026-07-22'
 name: QUODD
 nav: Providers
@@ -220,18 +217,20 @@ rate_limits:
   slug: quodd-rate-limits
 score:
   band: thin
-  composite: 37.5
+  composite: 34.1
   coverage:
     artifact_dirs: 22
+    catalog_earned: 60.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 55.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -3.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 4.5
-    contract_quality: 13.4
+    contract_quality: 0.0
     developer_ergonomics: 47.0
     discoverability: 75.9
     governance: 4.5
@@ -242,8 +241,8 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 3
-      marker_coverage: 100.0
+      derived: 0
+      marker_coverage: 0.0
       total: 3
     mcp: derived
     skills: derived
@@ -253,8 +252,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png
 security:

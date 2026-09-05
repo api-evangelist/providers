@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -253,7 +253,7 @@ apis:
   description: The Workflow API from Cube Planning — 5 operation(s) for workflow.
   name: Cube Planning Workflow API
   slug: cube-planning-workflow-api
-artifact_total: 91
+artifact_total: 90
 collections:
 - collection_type: open
   name: API Collection
@@ -447,7 +447,7 @@ common:
   url: security/cube-planning-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cube-planning-mcp.yml
 - group: agent
   title: ''
@@ -493,10 +493,6 @@ created: '2026-07-17'
 description: Cube (Cube Software) is a financial planning & analysis (FP&A) platform that positions itself as an "agentic finance layer" — giving finance teams clean, decision-ready data everywhere FP&A happens by harmonizing data across their existing tool stack (ERPs, accounting, HRIS, CRM, data warehouses, and spreadsheets like Excel and Google Sheets) and automating planning, budgeting, and forecasting workflows. Cube exposes a public REST API at api.cubesoftware.com with 296 operations across 16 tags — dimensions, formulas, data tables, cube data exports, dashboards, connections, tags, attributes, and company/user administration — secured with OAuth 2.0 authorization-code + PKCE and multi-tenant via an X-Company-ID header. Cube is a Battery Ventures portfolio company. Enriched by the API Evangelist pipeline from Cube's public OpenAPI and developer surface.
 image: https://www.cubesoftware.com/hubfs/cube-favicon-2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cube Planning MCP Server
-  slug: cube-planning-mcp-server
 modified: '2026-07-18'
 name: Cube Planning
 nav: Providers
@@ -513,20 +509,22 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.0
+  composite: 45.1
   coverage:
     artifact_dirs: 23
-    catalog_gap: 78.0
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 52.6
     developer_ergonomics: 49.4
-    discoverability: 75.9
+    discoverability: 57.4
     governance: 18.2
     operational_transparency: 15.8
   previous_composite: 47.0
@@ -540,8 +538,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:

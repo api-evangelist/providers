@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'JWT-authenticated REST API for publishers on the OpenWeb platform: request an API token, export comments/users/ranks (v2 and v4), retrieve top comments and trending articles, manage SSO users (registe'
   name: OpenWeb Publisher API
   slug: openweb-publisher-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Openweb Notifications Webhooks
@@ -135,7 +135,7 @@ common:
   url: components/openweb-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/openweb-mcp.yml
 - group: agent
   title: ''
@@ -149,10 +149,6 @@ created: '2026-07-17'
 description: OpenWeb (formerly Spot.IM) is a community and audience-engagement platform for publishers, delivering OpenWebOS — a unified, end-to-end suite for building community, harnessing first-party data, and driving sustainable revenue. Its developer platform exposes a JWT-authenticated Publisher API (comment export, top comments, trending articles, SSO user management, moderation policy, and SEO markup services) at api.openweb.com, a notification webhook surface, and web, Android, iOS, and React Native SDKs for embedding Conversation, Reactions, Community Spotlight, Live Blog, and Standalone Ad experiences. Backed by Insight Partners.
 image: https://www.openweb.com/wp-content/uploads/2025/09/favicon-32x32-1.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OpenWeb MCP Server
-  slug: openweb-mcp-server
 modified: '2026-07-20'
 name: OpenWeb
 nav: Providers
@@ -170,9 +166,11 @@ score:
   composite: 33.8
   coverage:
     artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -187,8 +185,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openweb/refs/heads/main/screenshots/openweb-2026-08-07T190658.png
 security:

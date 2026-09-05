@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 7
 apis:
 - baseURL: https://blockstream.info/api
@@ -71,7 +71,7 @@ apis:
   description: The Transactions API from Blockstream — 10 operation(s) for transactions.
   name: Blockstream Transactions API
   slug: blockstream-transactions-api
-artifact_total: 18
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +152,7 @@ common:
   url: packages/blockstream-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/blockstream-mcp.yml
 - group: agent
   title: ''
@@ -178,10 +178,6 @@ created: '2026-07-17'
 description: 'Blockstream is a Bitcoin infrastructure company whose products include the Liquid Network sidechain, the Green self-custody wallet, Blockstream Satellite, and Bitcoin mining and data services. For developers its flagship public API is Esplora, the open-source Bitcoin block explorer behind blockstream.info: a no-authentication HTTP REST API for reading blocks, transactions, addresses, scripthashes, the mempool, and fee estimates across Bitcoin mainnet, testnet, and signet, plus Liquid/Elements issued assets. Amounts are returned in satoshis and hashes are hex-encoded, with cursor pagination over confirmed transaction history. Blockstream also ships GDK, its open-source cross-platform wallet SDK.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/blockstream.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Blockstream MCP Server
-  slug: blockstream-mcp-server
 modified: '2026-07-18'
 name: Blockstream
 nav: Providers
@@ -196,9 +192,11 @@ score:
   composite: 21.3
   coverage:
     artifact_dirs: 19
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -219,8 +217,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockstream/refs/heads/main/screenshots/blockstream-2026-07-25T203345.png
 security:

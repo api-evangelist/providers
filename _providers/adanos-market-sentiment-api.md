@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,14 +22,14 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.9
-  scored_at: '2026-09-03'
+  score: 24.5
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: RESTful JSON API grouping five sentiment services (Reddit Stocks, X.com Stocks, Stock News, Polymarket Stocks, Reddit Crypto) with 41 base endpoints plus PRO raw-mention endpoints. Authenticated via X
   name: Adanos Market Sentiment API
   slug: adanos-market-sentiment-api
-artifact_total: 6
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -177,21 +177,23 @@ rate_limits:
   slug: adanos-market-sentiment-api-rate-limits
 score:
   band: strong
-  composite: 58.0
+  composite: 56.4
   coverage:
     artifact_dirs: 20
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 56.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 48.8
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.6
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
-    contract_governance: 18.2
+    contract_governance: 4.5
     contract_quality: 26.7
     developer_ergonomics: 57.1
     discoverability: 72.2
-    governance: 18.2
+    governance: 4.5
     operational_transparency: 86.8
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -199,16 +201,25 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 9.2
+  previous_composite: 58.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 6
+    mcp: derived
+    skills: first-party
   regulatory:
     applies: true
     matched_via: weak_tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 61.7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: rising
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/screenshots/adanos-market-sentiment-api-2026-07-25T181547.png
 security:
 - kind: authentication
@@ -223,6 +234,10 @@ security:
   name: Adanos Market Sentiment Api Vulnerability Disclosure
   slug: adanos-market-sentiment-api-vulnerability-disclosure
   summary_line: security.txt · contact published
+skill_count: 1
+skills:
+- name: adanos-market-sentiment
+  slug: adanos-market-sentiment
 slug: adanos-market-sentiment-api
 tags:
 - Market

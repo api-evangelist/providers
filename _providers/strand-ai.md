@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -63,7 +64,7 @@ apis:
   description: The Uploads API from Strand AI — 2 operation(s) for uploads.
   name: Strand AI Uploads API
   slug: strand-ai-uploads-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -139,7 +140,7 @@ common:
   url: packages/strand-ai-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/strand-ai-mcp.yml
 - group: other
   title: ''
@@ -181,10 +182,6 @@ created: '2026-07-17'
 description: Strand AI (YC W26) builds multimodal foundation models for spatial biology that predict missing patient bio-data from the data a patient already has. Its Lattice model turns a single H&E-stained whole-slide image into per-pixel predictions for a panel of protein markers, recovering spatial protein signal without running multiplex immunofluorescence. The Strand Platform API is a production REST surface (https://app.strandai.com/api/v1) for uploading whole-slide images, estimating and submitting Lattice inference jobs, streaming job status over Server-Sent Events, and downloading OME-Zarr results as AnnData (Python) or SpatialExperiment (R). Access is invite-only, authenticated with organization-scoped bearer API keys, and metered in credits (1 credit per 224x224-px patch per marker). Official Python (strand-sdk) and R (strandai) clients are published. Outputs are for research and hypothesis generation, not clinical use.
 image: https://avatars.githubusercontent.com/u/252118542?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Strand AI MCP Server
-  slug: strand-ai-mcp-server
 modified: '2026-07-21'
 name: Strand AI
 nav: Providers
@@ -199,9 +196,11 @@ score:
   composite: 38.7
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -229,8 +228,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/screenshots/strand-ai-2026-09-02T160944.png
 security:

@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Documented, key required
-  onboarding: unknown
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
-  public: true
+  public: false
   source:
-  - https://developer.broadlume.com/bms
+  - plans
+  - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.rmaster.com/api
@@ -176,7 +179,7 @@ apis:
   description: The Version API from Broadlume — 1 operation(s) for version.
   name: Broadlume Version API
   slug: broadlume-version-api
-artifact_total: 34
+artifact_total: 33
 collections:
 - collection_type: open
   name: Broadlume BMS API
@@ -280,7 +283,7 @@ common:
   url: packages/broadlume-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/broadlume-mcp.yml
 - group: agent
   title: ''
@@ -302,10 +305,6 @@ created: '2026-07-17'
 description: Broadlume is an all-in-one business platform for the flooring industry, serving more than 4,000 retailers and 300+ manufacturers. Its products span lead-generating websites, digital advertising, SEO and reputation management, product catalogs, and a suite of flooring business software covering accounting, inventory management, job costing, and lead management, plus a retail selling system with in-store visualization and e-commerce sample ordering. Broadlume publishes a public developer portal at developer.broadlume.com documenting the Broadlume BMS API — the REST interface to its flooring ERP, formerly known as RollMaster, which Broadlume acquired in November 2021 — covering orders, quotes, leads, customers, products, inventory, purchase orders, invoicing, accounts receivable, general ledger, installation scheduling and handheld barcode operations. Broadlume is owned by Cyncly.
 image: https://optimise2.assets-servd.host/broadlume-platform/production/images/Notebooks.png?w=1200&h=630&q=82&auto=format&fit=crop&dm=1663075995&s=fbf90ba9ce3de4a4318d0dd612edb58a
 layout: provider
-mcp_servers:
-- description: ''
-  name: Broadlume MCP Server
-  slug: broadlume-mcp-server
 modified: '2026-08-13'
 name: Broadlume
 nav: Providers
@@ -328,9 +327,11 @@ score:
   composite: 44.7
   coverage:
     artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -351,8 +352,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadlume/refs/heads/main/screenshots/broadlume-2026-07-25T203941.png
 security:

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.usechamber.io/v1
@@ -56,7 +57,7 @@ apis:
   description: List, retrieve, and get statistics for GPU workloads
   name: Chamber Workloads API
   slug: chamber-workloads-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -172,7 +173,7 @@ common:
   url: cli/chamber-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/chamber-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +191,6 @@ created: '2026-07-17'
 description: Chamber is an AIOps control plane for enterprise AI infrastructure (Y Combinator W26, Seattle). Its always-on agent — Chambie — monitors, diagnoses, and automatically resolves GPU workload failures across AWS, GCP, Azure, and on-premise Kubernetes clusters, and optimizes utilization so ML teams can run more workloads on the same GPUs without manual intervention. Chamber ships a REST API, an official Python SDK (chamber-sdk), and a `chamber` CLI for submitting GPU workloads, querying capacity budgets and GPU-hour allocations, and reading GPU utilization / memory / temperature / power metrics, plus Slack and email integrations and Terraform modules for GPU-ready EKS and GKE clusters.
 image: https://usechamber.io/og-image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Chamber MCP Server
-  slug: chamber-mcp-server
 modified: '2026-07-18'
 name: Chamber
 nav: Providers
@@ -208,9 +205,11 @@ score:
   composite: 44.2
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -231,8 +230,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:

@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: The agent API from Groundwork Open Source — 8 operation(s) for agent.
@@ -54,7 +54,7 @@ apis:
 - description: The metrics API from Groundwork Open Source — 1 operation(s) for metrics.
   name: Groundwork Open Source metrics API
   slug: groundwork-open-source-metrics-api
-artifact_total: 17
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -126,7 +126,7 @@ common:
   url: conformance/groundwork-open-source-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/groundwork-open-source-mcp.yml
 - group: build
   title: ''
@@ -164,10 +164,6 @@ created: '2026-07-17'
 description: GroundWork Open Source, Inc. builds GroundWork Monitor, an open-source-based IT and network monitoring platform for hybrid infrastructure, assembling Nagios Core, Telegraf, InfluxDB, and Grafana into a unified availability, event, and metrics monitoring product. Its integration layer, the Transit Connection Generator (TCG), exposes a Controller REST API and a Go SDK for feeding host/ service inventory, metrics, alert events, and downtime windows into the GroundWork Foundation server. The platform is self-hosted; all source lives on GitHub under the gwos organization (TCG, Nagios Core, Grafana, and Telegraf forks). Surfaced as a portfolio company of Canaan Partners and enriched here from its live GitHub org and published Swagger 2.0 API specification.
 image: https://raw.githubusercontent.com/gwos/tcg/master/.github/img/readme_image.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Groundwork Open Source MCP Server
-  slug: groundwork-open-source-mcp-server
 modified: '2026-07-19'
 name: Groundwork Open Source
 nav: Providers
@@ -182,9 +178,11 @@ score:
   composite: 24.5
   coverage:
     artifact_dirs: 14
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -205,8 +203,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundwork-open-source/refs/heads/main/screenshots/groundwork-open-source-2026-07-25T220352.png
 security:

@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://sandbox.nory.ai/app/v1
@@ -86,7 +88,7 @@ apis:
   description: The Templates API from Nory — 5 operation(s) for templates.
   name: Nory Templates API
   slug: nory-templates-api
-artifact_total: 14
+artifact_total: 13
 collections:
 - collection_type: open
   name: API Collection
@@ -146,7 +148,7 @@ common:
   url: data-model/nory-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nory-mcp.yml
 - group: design
   title: ''
@@ -180,10 +182,6 @@ created: '2026-07-17'
 description: Nory is an AI-powered restaurant management platform (an "agentic AI restaurant operating system") founded in Ireland in 2019 by Conor Sheridan. It unifies business intelligence, inventory, workforce scheduling and payroll into one control centre, using real-time data and predictive AI (demand-based ordering, live P&L, labour forecasting) to cut food waste and labour cost across single-site and multi-location restaurant groups. Nory connects to POS and hospitality systems such as Toast, Lightspeed, Square, SumUp, Vita Mojo, Clover, Zonal, Revel, Oracle Micros and Shift4, and exposes a partner-facing Middleware API (published as a Swagger 2.0 sandbox definition) covering brands, branches, inventory counts/deliveries/suppliers, AI recommended purchase orders, employee punch/labour data, location settings and scheduling templates. Nory raised a $37M Series B in 2025 and is backed by Accel.
 image: https://nory.ai/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nory MCP Server
-  slug: nory-mcp-server
 modified: '2026-07-20'
 name: Nory
 nav: Providers
@@ -198,9 +196,11 @@ score:
   composite: 30.9
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -221,8 +221,8 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nory/refs/heads/main/screenshots/nory-2026-08-07T185535.png
 security:

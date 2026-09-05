@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 3
 apis:
 - baseURL: https://www.ankorstore.com
@@ -141,7 +141,7 @@ apis:
   description: 'ℹ️ This section describes the API endpoints which can be used for managing webhook subscriptions. ## 💡 Overview In order to be able to manage Webhook Subscriptions via API you should understand the re'
   name: Ankorstore Webhooks API
   slug: ankorstore-webhooks-api
-artifact_total: 47
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Ankorstore Webhooks
@@ -300,7 +300,7 @@ common:
   url: conformance/ankorstore-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ankorstore-mcp.yml
 - group: agent
   title: ''
@@ -326,10 +326,6 @@ created: '2026-07-17'
 description: 'Ankorstore is a European B2B wholesale marketplace that connects independent brands with independent retailers across Europe. Its public developer platform lets brands and their technical partners programmatically manage their presence on the marketplace: sync product catalogs and stock, update prices, process and transition orders, request shipping quotes and schedule pickups, manage Ankorstore Fulfillment Center replenishments, run OrderPay flows for a brand''s own customers, and subscribe to real-time webhook notifications. The API is built on the JSON:API specification, secured with OAuth2 client credentials, and ships alongside the ASTRAL stock-tracking/logistics API and a fulfillment media service, with a public sandbox environment and a downloadable mock server for testing.'
 image: https://cdn.ankorstore.com/images/logo/logo-black.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Ankorstore MCP Server
-  slug: ankorstore-mcp-server
 modified: '2026-07-17'
 name: Ankorstore
 nav: Providers
@@ -347,9 +343,11 @@ score:
   composite: 40.9
   coverage:
     artifact_dirs: 19
+    catalog_earned: 30.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 85.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -370,8 +368,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankorstore/refs/heads/main/screenshots/ankorstore-2026-07-25T200257.png
 security:

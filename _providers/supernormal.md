@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 48.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -69,7 +69,7 @@ apis:
   description: Operations about posts
   name: supernormal Posts API
   slug: supernormal-posts-api
-artifact_total: 16
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -136,7 +136,7 @@ common:
   url: llms/supernormal-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/supernormal-mcp.yml
 - group: agent
   title: ''
@@ -190,10 +190,6 @@ created: '2026-07-17'
 description: Supernormal is an AI meeting assistant and AI-agents platform (backed by Balderton Capital and EQT Ventures) that joins Google Meet, Zoom, and Microsoft Teams calls to capture, transcribe, and summarize meetings into shareable notes with action items. Beyond meeting notes, Supernormal offers configurable AI voice agents that can host or join calls, run surveys and screening interviews, and produce transcripts and structured posts. Its public REST API (https://api.supernormal.com/api/v1) exposes the current user, upcoming calendar events, meeting posts with notes and transcripts, agents, and agent sessions, authenticated with a scoped X-API-TOKEN API key. Supernormal additionally runs an OAuth 2.0 authorization server with dynamic client registration and PKCE, and a published, OAuth-protected Model Context Protocol (MCP) server so agents can access recordings and projects.
 image: https://supernormal.com/og-card.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: supernormal MCP Server
-  slug: supernormal-mcp-server
 modified: '2026-07-21'
 name: supernormal
 nav: Providers
@@ -213,9 +209,11 @@ score:
   composite: 35.5
   coverage:
     artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 13.2
@@ -237,8 +235,8 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supernormal/refs/heads/main/screenshots/supernormal-2026-09-02T161245.png
 security:

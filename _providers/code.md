@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: The Code payments gRPC/Protobuf API — account, currency, messaging, and transaction (intent/swap) services that power the Code wallet and SDK.
   name: Code Protobuf API
   slug: code-protobuf-api
-artifact_total: 5
+artifact_total: 4
 asyncapis:
 - description: ''
   name: Code Webhooks
@@ -123,7 +123,7 @@ common:
   url: changelog/code-changelog.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/code-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: 'Code is an open, self-custodial payments protocol and mobile wallet built on the Solana blockchain. Its SDK lets any web developer embed a "Pay with Code" button and accept permissionless micropayments — as little as 5 cents per transaction plus a flat 1-cent blockchain fee — with no sign-up required and just a few lines of code. The API is defined as gRPC/Protobuf services (code-protobuf-api): clients sign transaction intents with a self-custodial Ed25519 keypair, payments are created as idempotent payment intents, and completion is confirmed server-side or via JWT-signed webhooks. The entire stack — SDKs (JavaScript, Go, Python, PHP), the Code VM, and the on-chain Solana programs — is open source under the code-payments GitHub org. Code was seeded by Union Square Ventures.'
 image: https://avatars.githubusercontent.com/u/151064663?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Code MCP Server
-  slug: code-mcp-server
 modified: '2026-07-18'
 name: Code
 nav: Providers
@@ -162,9 +158,11 @@ score:
   composite: 33.8
   coverage:
     artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -186,8 +184,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code/refs/heads/main/screenshots/code-2026-07-25T205901.png
 security:

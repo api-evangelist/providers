@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: http://localhost:1234
@@ -56,7 +57,7 @@ apis:
   description: OpenAI-compatible endpoints for reuse of existing OpenAI clients.
   name: LM Studio OpenAI Compatibility API
   slug: lm-studio-openai-compatibility-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +133,7 @@ common:
   url: cli/lm-studio-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/lm-studio-mcp.yml
 - group: auth
   title: ''
@@ -182,10 +183,6 @@ created: '2026-07-17'
 description: 'LM Studio is a desktop application for discovering, downloading, and running large language models (Llama, DeepSeek, Phi, Qwen, gpt-oss, and others) locally on macOS, Windows, and Linux. It runs GGUF and MLX models via llama.cpp and Apple''s MLX engine, and ships a local HTTP server that developers can drive from their own apps: a native LM Studio REST API (beta) under /api/v1 with generation stats, model load/unload/download and MCP-via-API, an OpenAI-compatible surface under /v1 (chat/completions, completions, embeddings, models, responses), and an Anthropic-compatible /v1/messages endpoint. It is complemented by Python (lmstudio) and TypeScript (@lmstudio/sdk) SDKs, the MIT-licensed lms command-line tool, headless/daemon operation, LM Link cross-device routing, and MCP host support. Backed by Matrix Partners.'
 image: https://files.lmstudio.ai/bionic/lm-studio-bionic-og.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: LM Studio MCP Server
-  slug: lm-studio-mcp-server
 modified: '2026-07-20'
 name: LM Studio
 nav: Providers
@@ -200,9 +197,11 @@ score:
   composite: 27.5
   coverage:
     artifact_dirs: 21
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -223,8 +222,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/screenshots/lm-studio-2026-07-25T225416.png
 security:

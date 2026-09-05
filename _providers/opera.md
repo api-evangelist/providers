@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -29,12 +29,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.2
-  scored_at: '2026-09-03'
+  score: 28.9
+  scored_at: '2026-09-04'
 api_count: 4
 apis:
 - baseURL: https://ofp.adx.opera.com/openapi/inventory/v1
@@ -255,18 +255,20 @@ rate_limits:
   slug: opera-rate-limits
 score:
   band: developing
-  composite: 44.1
+  composite: 44.8
   coverage:
     artifact_dirs: 22
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 67.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 18.2
-    contract_quality: 14.6
+    contract_quality: 17.6
     developer_ergonomics: 73.2
     discoverability: 81.5
     governance: 18.2
@@ -275,14 +277,14 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 71.4
+      callable: 100.0
       derived: 7
       marker_coverage: 100.0
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png
 security:

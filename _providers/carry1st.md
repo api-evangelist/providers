@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -67,7 +69,7 @@ arazzos:
 - description: Authenticate, create a signed payment request, and confirm the payment status.
   name: Pay1st - collect a payment
   slug: carry1st-collect-payment
-artifact_total: 15
+artifact_total: 14
 asyncapis:
 - description: ''
   name: Carry1St Pay1St Webhooks
@@ -175,7 +177,7 @@ common:
   url: well-known/carry1st-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/carry1st-mcp.yml
 - group: agent
   title: ''
@@ -209,10 +211,6 @@ created: '2026-07-17'
 description: Carry1st is Africa's leading mobile games publisher and digital commerce platform, headquartered in South Africa and operating across high-growth African markets including Nigeria, South Africa, Kenya, Ghana, Egypt, and Morocco. Beyond publishing and distributing mobile games from partners such as Riot Games, Activision, and Supercell, Carry1st operates Pay1st, a payment gateway that lets digital-content and game developers accept payments through 120+ local payment methods across six African geographies. Pay1st offers a single unified API, acts as Merchant of Record (handling compliance, taxation, FX, and risk so businesses collect in USD), and supports hosted-payment, game-client, and Carry1st Shop marketplace integration styles. Carry1st is backed by a16z. This profile was enriched by the API Evangelist pipeline from the public Pay1st developer documentation.
 image: https://www.carry1st.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Carry1st MCP Server
-  slug: carry1st-mcp-server
 modified: '2026-07-18'
 name: Carry1st
 nav: Providers
@@ -230,9 +228,11 @@ score:
   composite: 32.0
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -260,8 +260,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carry1st/refs/heads/main/screenshots/carry1st-2026-07-25T204645.png
 security:

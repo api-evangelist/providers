@@ -1,20 +1,22 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
-  onboarding: self-serve
-  pricing: freemium
+  label: Enterprise · Sales-gated, credentials issued by ArcBest
+  onboarding: unknown
+  pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - sandbox
+  - lifecycle
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,9 +25,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-09-03'
+  score: 36.7
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,29 +44,43 @@ agentic_access:
   operation_count: 5
   slug: arcbest-agentic-access
   summary_line: 5 operations · 3 acting
-api_count: 4
+api_count: 6
 apis:
-- baseURL: https://api.arcbest.com/v2
-  baseurl_source: spec
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
   description: Pickup scheduling and management
   name: ArcBest Pickups API
   slug: arcbest-pickups-api
-- baseURL: https://api.arcbest.com/v2
-  baseurl_source: spec
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
   description: Freight rate quote services
   name: ArcBest Rates API
   slug: arcbest-rates-api
-- baseURL: https://api.arcbest.com/v2
-  baseurl_source: spec
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
   description: Shipment booking and management
   name: ArcBest Shipments API
   slug: arcbest-shipments-api
-- baseURL: https://api.arcbest.com/v2
-  baseurl_source: spec
+- baseURL: https://api.arcb.com
+  baseurl_source: declared
   description: Shipment tracking and visibility
   name: ArcBest Tracking API
   slug: arcbest-tracking-api
-artifact_total: 69
+- baseURL: https://api.arcb.com/expedite/customer
+  baseurl_source: declared
+  description: 'Quote, book and track ArcBest Expedite (Panther Premium Logistics) time-critical freight directly from a shipper''s own application. Client-credential authorize call returns a bearer token; quotes are '
+  name: ArcBest Expedite Customer API
+  slug: arcbest-expedite-customer-api
+- baseURL: https://api.arcb.com/expedite/digital
+  baseurl_source: declared
+  description: The integration surface ArcBest publishes for transportation management systems and freight-visibility platforms. HTTP Basic authenticated; quote, book, poll booking status, retrieve the Bill of Ladin
+  name: ArcBest Expedite Third Party TMS API
+  slug: arcbest-expedite-tms-api
+artifact_total: 75
+asyncapis:
+- description: ''
+  name: Arcbest Track And Trace Webhooks
+  slug: arcbest-track-and-trace-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +98,114 @@ collections:
   name: ArcBest Pickups Tracking API
   slug: open-arcbest-tracking-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://arcb.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/arcbest-expedite-customer-api-openapi.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/arcbest-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/arcbest-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/arcbest-lifecycle.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/arcbest-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/arcbest-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/arcbest-track-and-trace-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/arcbest-sandbox.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/arcbest-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/arcbest-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/arcbest-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/arcbest-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/arcbest-rate-limits.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://arcb.com/technology/shippers/API
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://arcb.com/technology/shippers/API/expedite-setup-documentation-download
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://arcb.com/technology/shippers
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://arcb.com/technology/shippers/API/expedite-setup-documentation-download
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.arcb.com/en
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.arcb.com/en/collections/900749-quote-tools
+- group: company
+  title: ''
+  type: Blog
+  url: https://arcb.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://arcb.com/registration/customer
+- group: start
+  title: ''
+  type: Login
+  url: https://arcb.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://arcb.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://arcb.com/privacy-policy
+- group: other
+  title: ''
+  type: Standard
+  url: https://arcb.com/technology/shippers/EDI
 - group: agent
   title: ''
   type: AgenticAccess
@@ -94,6 +218,10 @@ common:
   title: ''
   type: Authentication
   url: authentication/arcbest-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/ArcBest-Technologies
 - group: company
   title: ''
   type: LinkedIn
@@ -101,11 +229,7 @@ common:
 - group: start
   title: ''
   type: Portal
-  url: https://www.arcbest.com/
-- group: start
-  title: ''
-  type: Signup
-  url: https://www.arcbest.com/
+  url: https://arcb.com/
 - group: design
   title: ''
   type: SpectralRules
@@ -119,7 +243,7 @@ common:
   type: JSONLD
   url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/json-ld/arcbest-api-context.jsonld
 created: '2026-03-23'
-description: ArcBest is a logistics company offering less-than-truckload (LTL) freight, truckload, moving, and supply chain management services. The ArcBest API platform provides integration capabilities for freight rating, booking, tracking, and supply chain visibility.
+description: 'ArcBest is a multibillion-dollar freight and logistics provider operating ABF Freight (LTL), Panther Premium Logistics (expedite), MoLo (truckload brokerage) and U-Pack (moving), with managed transportation, warehousing and international forwarding alongside. Its integration surface is published on arcb.com in two forms: REST APIs covering rate quote, volume quote, tracking, document retrieval, transit times, pickup request and Bill of Lading, whose documentation sits behind a customer login; and ANSI X12 EDI, where ArcBest publishes downloadable 204, 210 and 214 mapping specifications openly. The one API surface documented publicly is ArcBest Expedite - a Customer API and a third-party TMS API, each shipped as a downloadable Swagger-Codegen reference with worked JSON examples, live at api.arcb.com with a test environment at test.api.arcb.com.'
 examples:
 - key_count: 6
   name: Arcbest Api Address Example
@@ -223,6 +347,12 @@ json_schemas:
 - name: TrackingStatus
   property_count: 5
   slug: arcbest-api-tracking-status
+- name: Arcbest Expedite Quote Request Model
+  property_count: 0
+  slug: arcbest-expedite-quote-request-model
+- name: Arcbest Expedite Quote Response Model
+  property_count: 0
+  slug: arcbest-expedite-quote-response-model
 json_structures:
 - name: Arcbest Api Address Structure
   property_count: 6
@@ -266,20 +396,24 @@ jsonld:
   property_count: 41
   slug: arcbest-api-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: ArcBest MCP Server
+  slug: arcbest-mcp-server
+modified: '2026-09-04'
 name: ArcBest
 nav: Providers
 network: true
-overview: 'ArcBest publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Pickups API, Rates API, Shipments API, and 1 more. Tagged areas include Logistics, Freight, LTL, Supply Chain, and Shipping.
+overview: 'ArcBest publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Pickups API, Rates API, Shipments API, and 3 more. Tagged areas include Logistics, Freight, LTL, Supply Chain, and Shipping.
 
 
-  The ArcBest catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The ArcBest catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  ArcBest''s developer surface includes authentication, developer portal, signup flow, and 6 more developer resources.'
+  ArcBest''s developer surface includes sandbox, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 29 more developer resources.'
 plans:
 - name: Arcbest Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: arcbest-plans-pricing
 press:
 - date: '2026-05-25'
@@ -299,7 +433,7 @@ press:
   url: https://investors.arcb.com/news-events/news/News-Details/2024/ArcBest-Helps-Bridge-the-Gap-Between-Robotics-and-Logistics-Using-NVIDIA-Technology/
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Arcbest Rate Limits
   slug: arcbest-rate-limits
 rules:
@@ -325,40 +459,45 @@ rules:
     warn: 11
   slug: arcbest-spectral-rules
 score:
-  band: thin
-  composite: 28.4
+  band: developing
+  composite: 43.7
   coverage:
-    artifact_dirs: 18
-    catalog_gap: 50.5
+    artifact_dirs: 32
+    catalog_earned: 63.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 51.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 15.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 28.8
-    contract_quality: 21.9
-    developer_ergonomics: 31.0
-    discoverability: 64.8
-    governance: 28.8
-    operational_transparency: 7.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
+    contract_governance: 47.0
+    contract_quality: 29.3
+    developer_ergonomics: 66.1
+    discoverability: 74.1
+    governance: 47.0
+    operational_transparency: 13.2
   previous_composite: 28.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
-      derived: 5
+      callable: 28.6
+      derived: 7
       marker_coverage: 100.0
-      total: 5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+      total: 7
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/screenshots/arcbest-2026-06-20T172358.png
 security:
 - kind: authentication
   name: Arcbest Authentication
   slug: arcbest-authentication
-  summary_line: http · 1 scheme
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Arcbest Domain Security
   slug: arcbest-domain-security
@@ -371,6 +510,12 @@ tags:
 - Supply Chain
 - Shipping
 - Transportation
+- Expedite
+- Truckload
+- EDI
+- Bill of Lading
+- Rate Quote
+- Shipment Tracking
 use_cases:
 - description: Integrate ArcBest freight rates and booking into e-commerce platforms for automated shipping.
   name: E-Commerce Shipping
@@ -380,5 +525,5 @@ use_cases:
   name: TMS Integration
 - description: Connect ArcBest pickup scheduling with warehouse management systems for outbound logistics automation.
   name: Warehouse Management
-website: https://www.arcbest.com/
+website: https://arcb.com/
 ---

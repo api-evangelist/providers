@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -63,7 +64,7 @@ apis:
   description: The Voices API from Keyframe Labs — 2 operation(s) for voices.
   name: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
-artifact_total: 13
+artifact_total: 12
 collections:
 - collection_type: open
   name: API Collection
@@ -111,7 +112,7 @@ common:
   url: components/keyframe-labs-components.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/keyframe-labs-mcp.yml
 - group: other
   title: ''
@@ -197,10 +198,6 @@ created: '2026-07-17'
 description: Keyframe Labs builds real-time foundation models that turn AI voice and text agents into lifelike, emotionally expressive video calls. Its Persona-1.5-Live product lets developers add photoreal AI avatars ("personas") to their agents and applications with a few lines of embed code, at roughly 500ms latency and from $0.06 per minute. The platform exposes a REST Sessions API (create a live session, manage meeting bots for Zoom/Meet/Teams, and list voices and LLM models), JavaScript/TypeScript SDKs, and embeddable UI elements, with hosted and self-managed integration paths that plug into agent frameworks such as LiveKit Agents, ElevenLabs Agents, and OpenAI Realtime. Founded in 2025 and backed by Y Combinator (Spring 2026), Keyframe Labs is based in San Francisco.
 image: https://platform.keyframelabs.com/og.png
 layout: provider
-mcp_servers:
-- description: Candidate MCP server for the Keyframe Sessions API, derived one tool per OpenAPI operation. No official hosted/remote Keyframe MCP server was found at time of writing; this is a proposed tool surface,
-  name: Keyframe Labs MCP Server
-  slug: keyframe-labs-mcp-server
 modified: '2026-07-19'
 name: Keyframe Labs
 nav: Providers
@@ -215,9 +212,11 @@ score:
   composite: 36.8
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 10.5
@@ -239,8 +238,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
 security:

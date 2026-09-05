@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 3
 apis:
 - baseURL: https://api.laserdata.cloud
@@ -126,7 +128,7 @@ apis:
   description: Tenant CRUD, config, structure
   name: LaserData Tenants API
   slug: laserdata-tenants-api
-artifact_total: 42
+artifact_total: 41
 asyncapis:
 - description: ''
   name: Laserdata Notifications Webhooks
@@ -304,7 +306,7 @@ common:
   url: well-known/laserdata-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/laserdata-mcp.yml
 - group: auth
   title: ''
@@ -326,10 +328,6 @@ created: '2026-07-17'
 description: LaserData is a hyper-efficient data streaming platform built in Rust for AI-native, real-time, and latency-sensitive workloads. Founded by the creators of Apache Iggy, LaserData packages the Iggy message-streaming engine — io_uring, thread-per-core, zero-copy deserialization, no garbage collection — as a managed cloud, BYOC, and on-premise product with sub-millisecond p99 latency and millions of messages per second per node. LaserData Cloud exposes a public REST control plane across three OpenAPI 3.1 services (Core, Audit, Notifier) covering tenants, divisions, environments, deployments, connectors, networking, API keys, roles and permissions, billing, notifications, and an immutable audit log, plus a per-deployment Supervisor API for configs, metrics, logs, diagnostic snapshots, and backups. The platform ships a first-party Rust SDK, a single-binary CLI with an interactive TUI, and an official Claude Code Agent Skill pack.
 image: https://assets.laserdata.com/laserdata_dark.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LaserData MCP Server
-  slug: laserdata-mcp-server
 modified: '2026-07-19'
 name: LaserData
 nav: Providers
@@ -347,9 +345,11 @@ score:
   composite: 54.5
   coverage:
     artifact_dirs: 20
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -370,8 +370,8 @@ score:
       total: 18
     mcp: derived
     skills: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laserdata/refs/heads/main/screenshots/laserdata-2026-07-25T224540.png
 security:

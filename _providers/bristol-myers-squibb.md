@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
-- description: The BMS Medical Information portal provides US healthcare providers with access to product medical information, clinical data, and scientific resources for BMS medicines across oncology, immunology, a
+- description: BMS Medical Information Online provides US healthcare providers with prescribing information, medical inquiry submission, and product/regimen libraries for BMS medicines across oncology, hematology, i
   name: BMS Medical Information Portal
   slug: medical-information-api
-- description: BMS Study Connect is a clinical trial recruitment and information platform enabling patients and caregivers to find and enroll in Bristol Myers Squibb sponsored clinical research studies.
+- description: BMS Clinical Trials is the clinical trial search and enrollment platform for patients and caregivers looking for Bristol Myers Squibb sponsored studies. It was formerly published as BMS Study Connect;
   name: BMS Study Connect
   slug: study-connect
 artifact_total: 6
@@ -62,16 +62,56 @@ common:
   url: https://www.bms.com
 - group: other
   title: ''
-  type: ResearchDataSharing
-  url: https://www.bms.com/researchers-and-partners/independent-research/data-sharing-request-process.html
+  type: x-ResearchDataSharing
+  url: https://www.bms.com/research-and-development/independent-research/data-sharing-request-process.html
 - group: other
   title: ''
-  type: BusinessDevelopment
-  url: https://www.bms.com/researchers-and-partners/business-development.html
+  type: x-BusinessDevelopment
+  url: https://www.bms.com/our-company/partnerships-and-business-development.html
 - group: company
   title: ''
   type: InvestorRelations
   url: https://investors.bms.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/bristol-myers-squibb-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bristol-myers-squibb-conformance.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bristol-myers-squibb-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bristol-myers-squibb-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bristol-myers-squibb-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/bristol-myers-squibb-finops.yml
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bms.com/privacy-policy.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bms.com/legal-notice.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bms.com/life-and-science.html
+- group: start
+  title: ''
+  type: x-ClinicalTrials
+  url: https://www.bms.com/research-and-development/clinical-trials.html
 created: '2026-03-21'
 description: Bristol Myers Squibb (BMS) is a global Fortune 500 biopharmaceutical company committed to discovering, developing, and delivering innovative medicines for patients with serious diseases. BMS focuses on oncology, immunology, cardiovascular, fibrosis, and cell therapy (CAR T). The company operates BMS Study Connect for clinical trial recruitment, a Medical Information portal for healthcare providers, and the BMS Business Development platform for research partnerships and data sharing. BMS actively pursues technology partnerships in protein degradation, advanced treatment modalities, and digital health.
 finops:
@@ -80,14 +120,17 @@ finops:
   slug: bristol-myers-squibb-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bristol-myers-squibb.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-04'
 name: Bristol Myers Squibb
 nav: Providers
 network: true
-overview: Bristol Myers Squibb publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biopharmaceutical, Oncology, Immunology, and Cardiovascular.
+overview: 'Bristol Myers Squibb publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biopharmaceutical, Oncology, Immunology, and Cardiovascular.
+
+
+  Bristol Myers Squibb''s developer surface includes engineering blog and 16 more developer resources.'
 plans:
 - name: Bristol Myers Squibb Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: bristol-myers-squibb-plans-pricing
 press:
 - date: '2026-05-25'
@@ -107,37 +150,42 @@ press:
   url: https://www.bms.com/about-us/our-company/our-technologies.html
 random_paper: 5
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Bristol Myers Squibb Rate Limits
   slug: bristol-myers-squibb-rate-limits
 score:
-  band: minimal
-  composite: 9.8
+  band: emerging
+  composite: 15.2
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 76.0
+    artifact_dirs: 13
+    catalog_earned: 35.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 80.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 5.4
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 11.9
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 2.6
   previous_composite: 9.8
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 23.8
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bristol-myers-squibb/refs/heads/main/screenshots/bristol-myers-squibb-2026-06-20T173708.png
 security:
 - kind: domain-security

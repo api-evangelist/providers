@@ -1,12 +1,15 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -28,12 +31,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 31.5
-  scored_at: '2026-09-03'
+  score: 33.2
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -78,7 +81,7 @@ apis:
   description: The Voice API from Deepdub — 2 operation(s) for voice.
   name: Deepdub Voice API
   slug: deepdub-voice-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -175,7 +178,7 @@ common:
   url: packages/deepdub-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/deepdub-mcp.yml
 - group: agent
   title: ''
@@ -237,10 +240,6 @@ created: '2026-07-17'
 description: 'Deepdub is an AI dubbing, voice-cloning, and text-to-speech company that turns content into natural, emotionally adaptive speech across 100+ languages. Its platform powers media dubbing for studios such as Paramount, Netflix, and Prime Video, real-time AI voice agents (~125ms latency), video localization, live broadcast, and voice cloning. Deepdub exposes a developer platform: a REST Text-to-Speech API (restapi.deepdub.ai) covering TTS generation, a voice bank, gender detection, usage, and issue tracking; a Managed Dubbing API (dubbing.deepdub.app) for end-to-end video dubbing jobs; and a WebSocket streaming API for real-time audio. Authentication is via an x-api-key header, with Python and Node.js SDKs, published OpenAPI specs, and agent files (AGENTS.md, Cursor skill). Deepdub is backed by Insight Partners.'
 image: https://deepdub.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2BStarted%26title%3DIntroduction%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fdeepdub%252FYsh6dRbXX3wLTl5X%252Flogo%252Flogo128.png&w=1200&q=100
 layout: provider
-mcp_servers:
-- description: ''
-  name: Deepdub MCP Server
-  slug: deepdub-mcp-server
 modified: '2026-07-18'
 name: Deepdub
 nav: Providers
@@ -259,9 +258,11 @@ score:
   composite: 50.0
   coverage:
     artifact_dirs: 21
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 38.2
@@ -283,8 +284,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepdub/refs/heads/main/screenshots/deepdub-2026-07-25T211547.png
 security:

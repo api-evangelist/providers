@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'RESTful JSON web service exposing OneStream Data Automation functions: Authentication, Data Management (ExecuteSequence, ExecuteStep), and Data Provider (ADO datasets from adapters, Cube Views, SQL, a'
   name: OneStream Web (REST) API
   slug: onestream-web-rest-api
-artifact_total: 5
+artifact_total: 4
 common:
 - group: company
   title: ''
@@ -131,7 +131,7 @@ common:
   url: security/onestream-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/onestream-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +141,6 @@ created: '2026-07-17'
 description: OneStream is an enterprise finance platform that unifies financial and operational data into a single source of truth, spanning financial close and consolidation, planning, budgeting, forecasting and financial planning & analysis (FP&A), account reconciliation, and reporting. It applies AI and machine learning to automate core finance work so teams can focus on analysis and decision-making. For developers and integrators OneStream exposes the OneStream Web (REST) API — a client-agnostic JSON-over-HTTPS service with Authentication, Data Management, and Data Provider endpoints — secured with bearer tokens (Personal Access Tokens via OneStream IdentityServer, or OAuth 2.0 client_credentials through Microsoft Entra ID, Okta, or PingFederate) and extended through the Solution Exchange (MarketPlace, PartnerPlace, OpenPlace).
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onestream.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: OneStream MCP Server
-  slug: onestream-mcp-server
 modified: '2026-07-20'
 name: OneStream
 nav: Providers
@@ -159,9 +155,11 @@ score:
   composite: 33.6
   coverage:
     artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -176,8 +174,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onestream/refs/heads/main/screenshots/onestream-2026-08-07T190345.png
 security:

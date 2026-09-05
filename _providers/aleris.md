@@ -26,58 +26,91 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-03'
+  score: 2.5
+  scored_at: '2026-09-04'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/aleris-domain-security.yml
-- group: company
+- group: agent
   title: ''
-  type: Website
-  url: https://www.aleris.com
+  type: LLMsTxt
+  url: llms/aleris-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aleris-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aleris-rate-limits.yml
 - group: company
   title: ''
   type: Website
   url: https://novelis.com
-description: Aleris was a global producer of rolled aluminum products serving the aerospace, automotive, building and construction, and other industrial end-use markets. Founded as IMCO Recycling and later renamed Aleris International, the company operated manufacturing plants across North America, Europe, and Asia. Aleris was acquired by Novelis Inc. (a subsidiary of Hindalco Industries) on April 14, 2020 for approximately $2.8 billion. The company's primary product lines included aluminum sheet, plate, and engineered products for demanding applications such as aerospace structures and automotive body panels. As a manufacturing-focused business, Aleris did not maintain a public developer API program, but engaged in B2B EDI integrations with major customers and suppliers across its supply chain.
+coverage:
+  checked: '2026-09-04'
+  detail: Aleris ceased to exist as an independent company when Novelis completed its acquisition on 2020-04-14; aleris.com still resolves to 3.220.245.86 but no longer answers HTTP on 443 or 80, so there is no site, no developer portal and no contract to read on any Aleris host.
+  evidence:
+  - status: 0
+    url: https://www.aleris.com/
+  - status: 0
+    url: https://aleris.com/.well-known/agent-card.json
+  - status: 404
+    url: https://novelis.com/.well-known/apis.json
+  - status: 200
+    url: https://novelis.com/llms.txt
+  reason: defunct
+  state: none
+created: '2026-03-24'
+description: Aleris was a global producer of rolled aluminum products serving the aerospace, automotive, building and construction, and other industrial end-use markets. Founded as IMCO Recycling and later renamed Aleris International, the company operated manufacturing plants across North America, Europe, and Asia. Aleris was acquired by Novelis Inc. (a subsidiary of Hindalco Industries) on April 14, 2020 for approximately $2.8 billion. The company's primary product lines included aluminum sheet, plate, and engineered products for demanding applications such as aerospace structures and automotive body panels. As a manufacturing-focused business, Aleris did not maintain a public developer API program, but engaged in B2B EDI integrations with major customers and suppliers across its supply chain. The Aleris brand has since been absorbed into Novelis and aleris.com no longer serves a website.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aleris.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Aleris
 nav: Providers
 network: true
 overview: Aleris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aluminum, Manufacturing, Aerospace, Automotive, and Industrial.
+plans:
+- name: Aleris Plans Pricing
+  plan_count: 0
+  slug: aleris-plans-pricing
 random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Aleris Rate Limits
+  slug: aleris-rate-limits
 score:
   band: minimal
-  composite: 4.4
+  composite: 5.0
   coverage:
-    artifact_dirs: 1
-    catalog_gap: 91.0
+    artifact_dirs: 5
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.6
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 44.4
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 4.4
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 security:
 - kind: domain-security
@@ -92,5 +125,5 @@ tags:
 - Automotive
 - Industrial
 - Materials
-website: https://www.aleris.com
+website: https://novelis.com
 ---

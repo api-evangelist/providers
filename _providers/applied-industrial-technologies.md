@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
   description: Industrial product catalog operations
   name: Applied Industrial Technologies Products API
   slug: applied-industrial-technologies-products-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -66,6 +66,10 @@ collections:
   name: Applied Industrial Technologies Product Catalog Orders Products API
   slug: open-applied-industrial-technologies-products-api
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/applied-industrial-technologies-domain-security.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -85,8 +89,27 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.applied-industrial-technologies.com
-description: Applied Industrial Technologies is an industrial distributor of bearings, power transmission products, fluid power components, industrial rubber products, linear motion components, tools, and related supplies.
+  url: https://www.applied.com
+coverage:
+  checked: '2026-09-04'
+  detail: Applied Industrial Technologies runs a live Azure API Management gateway at api.applied.com — it answers every request with a 54-byte JSON 404 and an Azure Request-Context header — but publishes no developer portal, no API reference and no discovery document, so its integration surface is reachable only through an account team and a signed customer agreement.
+  evidence:
+  - status: 404
+    url: https://api.applied.com/
+  - status: 404
+    url: https://api.applied.com/openapi.json
+  - status: 404
+    url: https://www.applied.com/llms.txt
+  - status: 403
+    url: https://www.applied.com/developers
+  - status: 404
+    url: https://www.applied.com/.well-known/security.txt
+  - status: 0
+    url: https://api.applied-industrial-technologies.com/
+  reason: customer-only-docs
+  state: gated
+created: '2026-05-03'
+description: 'Applied Industrial Technologies, Inc. (NYSE: AIT) is a Cleveland, Ohio industrial distributor and technical solutions provider, founded in 1923, serving MRO and OEM customers across North America, Australia, New Zealand and Singapore. It distributes bearings, power transmission products, fluid power components, industrial rubber products, linear motion components, specialty flow control, tools and related supplies, and operates engineered fluid power and automation businesses alongside its distribution network. Its customer-facing storefront is applied.com, an SAP Commerce site; the company runs an Azure API Management gateway at api.applied.com but publishes no public developer program, API reference or machine-readable contract.'
 examples:
 - key_count: 9
   name: Product Example
@@ -120,10 +143,10 @@ overview: 'Applied Industrial Technologies publishes 2 APIs on the [APIs.io](htt
   The Applied Industrial Technologies catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Applied Industrial Technologies'' developer surface includes authentication and 4 more developer resources.'
+  Applied Industrial Technologies'' developer surface includes authentication and 5 more developer resources.'
 plans:
 - name: Applied Industrial Technologies Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: applied-industrial-technologies-plans-pricing
 press:
 - date: '2026-05-25'
@@ -143,7 +166,7 @@ press:
   url: https://seekingalpha.com/symbol/AIT
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Applied Industrial Technologies Rate Limits
   slug: applied-industrial-technologies-rate-limits
 rules:
@@ -169,45 +192,51 @@ rules:
     warn: 14
   slug: applied-industrial-technologies-spectral-rules
 score:
-  band: thin
-  composite: 31.5
+  band: emerging
+  composite: 20.4
   coverage:
-    artifact_dirs: 18
-    catalog_gap: 53.5
+    artifact_dirs: 21
+    catalog_earned: 58.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 56.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -11.1
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 7.9
+    commercial_clarity: 7.9
     contract_governance: 28.8
-    contract_quality: 67.3
+    contract_quality: 26.0
     developer_ergonomics: 11.9
-    discoverability: 53.7
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 7.9
+    operational_transparency: 0.0
   previous_composite: 31.5
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 14.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 23.0
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: falling
 security:
 - kind: authentication
   name: Applied Industrial Technologies Authentication
   slug: applied-industrial-technologies-authentication
   summary_line: http · 1 scheme
+- kind: domain-security
+  name: Applied Industrial Technologies Domain Security
+  slug: applied-industrial-technologies-domain-security
+  summary_line: TLSv1.3 · DMARC
 slug: applied-industrial-technologies
 tags:
 - Industrial Distribution
@@ -216,5 +245,5 @@ tags:
 - Fluid Power
 - Supply Chain
 - Fortune 1000
-website: https://www.applied-industrial-technologies.com
+website: https://www.applied.com
 ---

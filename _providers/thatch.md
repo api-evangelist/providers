@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -78,7 +79,7 @@ apis:
   description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Pay Schedules API
   slug: thatch-pay-schedules-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +180,7 @@ common:
   url: agentic-access/thatch-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thatch-mcp.yml
 - group: agent
   title: ''
@@ -221,10 +222,6 @@ created: '2026-07-17'
 description: 'Thatch is a health benefits company that helps businesses offer personalized health insurance through an ICHRA (Individual Coverage Health Reimbursement Arrangement) plus a Thatch Visa spend card. Its developer product, Thatch for Platforms, is a set of REST APIs and embeddable JavaScript components that let partners (payroll, HR, and SMB platforms) bring ICHRA benefits into their own applications: create employers, manage employees, run a hosted employer onboarding flow, track enrollments and members, model pay schedules, and pull monthly payroll deductions. The API is partner-gated, authenticates with a Bearer API key, and is documented at docs.thatch.com. Thatch is backed by a16z, General Catalyst, GV, Index Ventures, and Lux Capital.'
 image: https://thatch.com/opengraph/thatch-main.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Thatch MCP Server
-  slug: thatch-mcp-server
 modified: '2026-07-21'
 name: Thatch
 nav: Providers
@@ -239,9 +236,11 @@ score:
   composite: 46.9
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -269,8 +268,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thatch/refs/heads/main/screenshots/thatch-2026-08-17T082332.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://thrivecart.com/api/external
@@ -95,7 +95,7 @@ apis:
   description: The Upsells API from ThriveCart — 3 operation(s) for upsells.
   name: ThriveCart Upsells API
   slug: thrivecart-upsells-api
-artifact_total: 22
+artifact_total: 21
 asyncapis:
 - description: ThriveCart delivers account events to subscriber endpoints over HTTP POST. Two surfaces exist and they do not share event names. **Event Subscription API (this document).** Created programmatically wi
   name: ThriveCart Event Subscriptions
@@ -118,7 +118,7 @@ common:
   url: overlays/thrivecart-api-overlay.yaml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thrivecart-mcp.yml
 - group: agent
   title: ''
@@ -268,10 +268,6 @@ created: '2026-08-12'
 description: ThriveCart is a hosted shopping cart, checkout and course platform for creators, coaches and digital-product sellers, operated by ThriveCart LLC. It sells one-time and recurring digital and physical products through customisable checkout pages with order bumps, one-click upsells and downsells, A/B testing, abandoned-cart recovery, sales-tax automation and a built-in affiliate centre, and bundles a learning-management product (ThriveCart Learn / ThriveCart Academy). Payments are processed through Stripe, PayPal, Authorize.net and ThrivePay Installments rather than by ThriveCart itself. The public ThriveCart API is a bearer-token REST surface at https://thrivecart.com/api/external covering products, bump offers, upsells, downsells, pricing options, transactions, customers, subscriptions, affiliates, Learn students and event subscriptions, with an account-wide webhook surface and a targeted Event Subscription API alongside it.
 image: https://thrivecart.com/wp-content/uploads/2025/07/TC-logo-on-White.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: ThriveCart MCP Server
-  slug: thrivecart-mcp-server
 modified: '2026-08-12'
 name: ThriveCart
 nav: Providers
@@ -302,9 +298,11 @@ score:
   composite: 72.5
   coverage:
     artifact_dirs: 26
+    catalog_earned: 57.0
+    catalog_earned_first_party: 20.0
     catalog_gap: 58.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -331,8 +329,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivecart/refs/heads/main/screenshots/thrivecart-2026-08-17T082349.png
 security:

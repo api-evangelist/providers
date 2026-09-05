@@ -1,20 +1,23 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  label: Paid · Self-serve signup
   onboarding: self-serve
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
+  - sandbox
   trial: false
-  try_now: true
+  try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,8 +25,8 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -33,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-03'
+  score: 33.5
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -42,34 +45,43 @@ agentic_access:
   operation_count: 14
   slug: pandium-agentic-access
   summary_line: 14 operations · 5 acting
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.pandium.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Proxy calls to external APIs on behalf of a tenant.
   name: Pandium Connector Calls API
   slug: pandium-connector-calls-api
 - baseURL: https://api.pandium.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage integrations on the Pandium platform.
   name: Pandium Integrations API
   slug: pandium-integrations-api
 - baseURL: https://api.pandium.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: View run status and trigger syncs.
   name: Pandium Runs API
   slug: pandium-runs-api
 - baseURL: https://api.pandium.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage metadata associated with tenants.
   name: Pandium Tenant Metadata API
   slug: pandium-tenant-metadata-api
 - baseURL: https://api.pandium.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Manage tenants (customer instances of integrations).
   name: Pandium Tenants API
   slug: pandium-tenants-api
-artifact_total: 234
+- baseURL: https://api.pandium.io
+  baseurl_source: declared
+  description: Create builds for integrations from source control; a build can then be used to create a release.
+  name: Pandium Builds API
+  slug: pandium-builds-api
+artifact_total: 236
+asyncapis:
+- description: ''
+  name: Pandium Webhooks
+  slug: pandium-webhooks
 collections:
 - collection_type: postman
   name: Pandium Connector Calls API
@@ -163,7 +175,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.pandium.com/getting-started/readme
+  url: https://docs.pandium.com/
 - group: other
   title: ''
   type: Glossary
@@ -171,11 +183,11 @@ common:
 - group: build
   title: ''
   type: CLI
-  url: https://docs.pandium.com/reference/pandium-cli
+  url: https://docs.pandium.com/getting-started/pandium-integration-development-kit-idk/pandium-cli
 - group: other
   title: ''
-  type: ' WhatsNew'
-  url: https://www.pandium.com/product-updates
+  type: WhatsNew
+  url: https://www.pandium.com/blog/product-updates
 - group: commercial
   title: ''
   type: Pricing
@@ -208,6 +220,82 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.pandium.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/pandium-packages.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/pandium-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/pandium-llms.txt
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/pandium-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/pandium-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/pandium-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/pandium-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/pandium-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/pandium-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/pandium-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/pandium-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/pandium-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/pandium-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/pandium-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pandium-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/pandium-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.pandium.com/reference/pandium-api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.pandium.com/getting-started/pandium-integration-tutorial
 created: '2025-01-07'
 description: Transform integration development from a fragmented, ad hoc process into a streamlined, repeatable workflow with Pandiums Integration Platform. With Pandium, B2B SaaS companies can meet customer demands, reduce technical debt, and stay ahead in an increasingly connected world.
 features:
@@ -432,24 +520,24 @@ jsonld:
   property_count: 4
   slug: pandium-context
 layout: provider
-modified: '2026-05-19'
+modified: '2026-09-03'
 name: Pandium
 nav: Providers
 network: true
-overview: 'Pandium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Connector Calls API, Integrations API, Runs API, and 2 more. Tagged areas include B2B, Hub, Integration, and Workflows.
+overview: 'Pandium publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Connector Calls API, Integrations API, Runs API, and 3 more. Tagged areas include B2B, Hub, Integration, Workflows, and iPaaS.
 
 
-  The Pandium catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Pandium catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  Pandium''s developer surface includes authentication, engineering blog, FAQ, documentation, CLI, pricing, and 19 more developer resources.'
+  Pandium''s developer surface includes authentication, engineering blog, FAQ, documentation, CLI, pricing, sandbox, and 37 more developer resources.'
 plans:
 - name: Pandium Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: pandium-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Pandium Rate Limits
   slug: pandium-rate-limits
 rules:
@@ -464,34 +552,39 @@ rules:
     warn: 4
   slug: pandium-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 47.1
+  band: strong
+  composite: 61.9
   coverage:
-    artifact_dirs: 16
-    catalog_gap: 60.8
+    artifact_dirs: 31
+    catalog_earned: 66.3
+    catalog_earned_first_party: 8.0
+    catalog_gap: 48.8
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 14.8
   facets:
-    access_clarity: 55.3
-    commercial_clarity: 55.3
-    contract_governance: 9.8
-    contract_quality: 67.3
-    developer_ergonomics: 35.7
-    discoverability: 57.4
-    governance: 9.8
-    operational_transparency: 39.5
+    access_clarity: 76.3
+    commercial_clarity: 76.3
+    contract_governance: 14.4
+    contract_quality: 68.1
+    developer_ergonomics: 65.5
+    discoverability: 75.9
+    governance: 14.4
+    operational_transparency: 55.3
   previous_composite: 47.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+      derived: 1
+      marker_coverage: 16.7
+      total: 6
+    mcp: derived
+    skills: unknown
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/screenshots/pandium-2026-06-20T191334.png
 security:
 - kind: authentication
@@ -516,6 +609,7 @@ tags:
 - Hub
 - Integration
 - Workflows
+- iPaaS
 use_cases:
 - name: Building and Launching User-Facing Integrations
 - name: Enhanced Customer Experience

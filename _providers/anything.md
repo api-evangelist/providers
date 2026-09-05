@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -113,7 +114,7 @@ apis:
   description: The User API from Anything — 1 operation(s) for user.
   name: Anything User API
   slug: anything-user-api
-artifact_total: 33
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -239,7 +240,7 @@ common:
   url: data-model/anything-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/anything-mcp.yml
 - group: other
   title: ''
@@ -273,10 +274,6 @@ created: '2026-07-17'
 description: Anything is an AI-powered app builder that turns natural-language prompts into working web and mobile applications, complete with a built-in PostgreSQL database, authentication, backend functions, custom domains, and 100+ third-party integrations. Its public REST API (v0) lets agents and developers programmatically create projects, request AI-generated changes, provision databases, manage secrets and domains, publish web apps, and submit mobile apps to the App Store and Play Store. Backed by Bessemer Venture Partners and Uncork Capital.
 image: https://www.anything.com/opengraph-image-ontcvn.png?ad4f87502cada048
 layout: provider
-mcp_servers:
-- description: ''
-  name: Anything MCP Server
-  slug: anything-mcp-server
 modified: '2026-07-17'
 name: Anything
 nav: Providers
@@ -291,9 +288,11 @@ score:
   composite: 40.0
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 32.9
@@ -315,8 +314,8 @@ score:
       total: 14
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anything/refs/heads/main/screenshots/anything-2026-07-25T200512.png
 security:

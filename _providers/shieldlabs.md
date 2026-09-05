@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -34,25 +34,25 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-09-03'
-api_count: 2
+  score: 39.6
+  scored_at: '2026-09-04'
+api_count: 1
 apis:
-- baseURL: https://api.shieldlabs.ai
+- baseURL: https://account.shieldlabs.ai/api
   baseurl_source: declared
-  description: 'Recommended snapshot reads on account.shieldlabs.ai (service: Shield.Portal.Admin). Authenticated with Private API Key. Response envelope `{ data, total }`.'
+  description: Recommended snapshot reads on account.shieldlabs.ai. Authenticated with a Private API Key. Response envelope `{ data, total }`, limit/offset pagination, newest first. Free — reads do not consume reque
   name: ShieldLabs History API
   slug: shieldlabs-history-api-api
 - baseURL: https://api.shieldlabs.ai
   baseurl_source: declared
-  description: 'Profile, balance, and alternate History on api.shieldlabs.ai (service: Shield.Core). Authenticated with Secret Key headers. History returns a PascalCase JSON array.'
+  description: 'Profile and balance on api.shieldlabs.ai. Authenticated with Secret Key headers (`Authorization: Bearer` plus `X-Shield-Domain`). Its `GET /v1/history` path returns a PascalCase JSON array and is DEPR'
   name: ShieldLabs Management API
   slug: shieldlabs-management-api-api
 - baseURL: https://api.shieldlabs.ai
   baseurl_source: declared
-  description: The ShieldLabs API API from ShieldLabs — 0 operation(s) for shieldlabs api.
+  description: The event half of the ShieldLabs contract. This document carries no REST paths — it holds the OpenAPI 3.1 top-level `webhooks` object describing `identification.scored`, the signed at-most-once envelo
   name: ShieldLabs ShieldLabs API
   slug: shieldlabs-shieldlabs-api-api
 artifact_total: 12
@@ -163,6 +163,10 @@ common:
   url: lifecycle/shieldlabs-lifecycle.yml
 - group: operate
   title: ''
+  type: Deprecation
+  url: lifecycle/shieldlabs-lifecycle.yml
+- group: operate
+  title: ''
   type: ChangeLog
   url: changelog/shieldlabs-changelog.yml
 - group: operate
@@ -230,8 +234,8 @@ common:
   type: LLMsTxt
   url: llms/shieldlabs-llms.txt
 created: '2026-08-19'
-description: 'Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus an explainable 0-100 Risk Score built from weighted anonymity signals — VPN, proxy, Tor, privacy relay, datacenter, IP reputation, anti-detect browser, geolocation spoofing, OS mismatch, incognito, browser automation and suspicious paid clicks. ShieldLabs deliberately makes no allow/challenge/block decision: it returns the score and the signals behind it, and the customer''s own code owns the verdict. Delivery is a signed at-most-once webhook (identification.scored, HMAC-SHA256 in X-Shield-Signature, no retries), backed by two server-side REST surfaces — a free History API on account.shieldlabs.ai and a billed Management API on api.shieldlabs.ai — described by a public OpenAPI 3.1
-  specification the company maintains in its own MIT-licensed GitHub repo. Self-serve and per-identification priced, with a 5,000-identification free tier and no sales gate.'
+description: 'Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus an explainable 0-100 Risk Score built from weighted anonymity signals — VPN, proxy, Tor, privacy relay, datacenter, IP reputation, anti-detect browser, geolocation spoofing, OS mismatch, incognito, browser automation and suspicious paid clicks. ShieldLabs deliberately makes no allow/challenge/block decision: it returns the score and the signals behind it, and the customer''s own code owns the verdict. Delivery is a signed at-most-once webhook (identification.scored, HMAC-SHA256 in X-Shield-Signature, no retries), backed by two server-side REST surfaces on account.shieldlabs.ai and api.shieldlabs.ai — both read-only, neither consuming request balance — described by a public OpenAPI
+  3.1 specification the company maintains in its own MIT-licensed GitHub repo and serves from its docs host. The Management API''s history path was deprecated on 2026-09-01 with a dated Sunset of 2027-01-01, a named successor, and RFC 8594 Deprecation/Sunset/Link headers. Self-serve and per-identification priced, with a 5,000-identification free tier and no sales gate.'
 examples:
 - key_count: 4
   name: Shieldlabs Identification Scored Example
@@ -246,7 +250,7 @@ mcp_servers:
 - description: ''
   name: ShieldLabs MCP Server
   slug: shieldlabs-mcp-server
-modified: '2026-08-19'
+modified: '2026-09-04'
 name: ShieldLabs
 nav: Providers
 network: true
@@ -256,25 +260,27 @@ overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The ShieldLabs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
+  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
 plans:
 - name: Shieldlabs Plans Pricing
   plan_count: 4
   slug: shieldlabs-plans-pricing
 random_paper: 1
 rate_limits:
-- limit_count: 3
+- limit_count: 7
   name: Shieldlabs Rate Limits
   slug: shieldlabs-rate-limits
 score:
   band: strong
-  composite: 63.1
+  composite: 64.2
   coverage:
     artifact_dirs: 25
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 48.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 1.1
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -283,7 +289,7 @@ score:
     developer_ergonomics: 78.6
     discoverability: 75.9
     governance: 4.5
-    operational_transparency: 68.4
+    operational_transparency: 76.3
   previous_composite: 63.1
   provenance:
     conformance: derived
@@ -291,11 +297,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/screenshots/shieldlabs-2026-09-02T155148.png
 security:

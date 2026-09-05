@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 6
 apis:
 - description: 'Public Gateway API for the Agentic Storefront product: conversational discovery and chat, catalog/collection browsing, cart and checkout sessions, virtual try-on, orders and shipments, user profile an'
@@ -54,7 +56,7 @@ apis:
 - description: 'Public Total Landed Cost API: compute guaranteed landed cost (duties, taxes, import fees) for single or bulk cross-border shipments, request HS-code classification, and report shipped or voided transa'
   name: Swap TLC API
   slug: swap-tlc-api
-artifact_total: 11
+artifact_total: 10
 asyncapis:
 - description: ''
   name: Swap Webhooks
@@ -174,7 +176,7 @@ common:
   url: data-model/swap-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/swap-mcp.yml
 - group: agent
   title: ''
@@ -184,10 +186,6 @@ created: '2026-07-17'
 description: 'Swap (Swap Commerce, Inc.) is an agentic commerce platform that helps merchants sell, ship, and scale globally, powering 700+ brands across AI-led product discovery, cross-border checkout, fulfillment, and returns on a shared per-store data layer. Swap exposes six independent public API surfaces: the Agentic Storefront API (conversational discovery, chat, virtual try-on, and checkout), the Global API (cross-border classify, shipping rates, tax and duty calculation, and order reporting), the Protect API (package-protection order enrollment and claims), the Returns API (reverse logistics and quality control), the Shipping API / Swap Values API (customs-correct declared values and commercial-invoice enrichment for any carrier label stack), and the TLC API (guaranteed total landed cost and HS-code classification). Every surface authenticates with a per-API, per-environment API key plus a store identifier, and several ship JWT- or HMAC-signed webhooks.'
 image: https://cdn.sanity.io/images/yqjhv3kv/production/8a30678bcf375982957978b1f5b4bd4c4eb1c3d1-1200x630.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Swap MCP Server
-  slug: swap-mcp-server
 modified: '2026-07-21'
 name: Swap
 nav: Providers
@@ -205,9 +203,11 @@ score:
   composite: 49.5
   coverage:
     artifact_dirs: 14
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -235,8 +235,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swap/refs/heads/main/screenshots/swap-2026-08-17T082210.png
 security:

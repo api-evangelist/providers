@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -31,10 +32,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-09-03'
+  score: 26.3
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,6 +83,10 @@ collections:
   name: Archrock Investor Relations Financials SEC Filings API
   slug: open-archrock-sec-filings-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.archrock.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -106,14 +111,26 @@ common:
   title: ''
   type: Portal
   url: https://www.archrock.com/
-- group: docs
+- group: company
   title: ''
-  type: Documentation
-  url: https://www.archrock.com/investor-relations
+  type: InvestorRelations
+  url: https://www.archrock.com/aroc-investor-relations/
 - group: company
   title: ''
   type: Blog
-  url: https://www.archrock.com/news
+  url: https://www.archrock.com/news-media/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.archrock.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.archrock.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.archrock.com/contact/
 - group: design
   title: ''
   type: SpectralRules
@@ -126,6 +143,22 @@ common:
   title: ''
   type: JSONLD
   url: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/json-ld/archrock-investor-relations-api-context.jsonld
+coverage:
+  checked: '2026-09-04'
+  detail: 'Archrock (NYSE: AROC) sells natural gas compression as a physical service — contract compression, field and shop aftermarket work, and compressor parts — and its complete 42-page sitemap contains no developer, API, docs, signup or pricing page; the api.archrock.com host named by the OpenAPI files in this repo has no DNS record at all.'
+  evidence:
+  - status: 200
+    url: https://www.archrock.com/sitemap.xml
+  - status: 0
+    url: https://api.archrock.com/openapi.json
+  - status: 404
+    url: https://www.archrock.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.archrock.com/llms.txt
+  - status: 404
+    url: https://api.github.com/orgs/archrock
+  reason: not-a-software-company
+  state: none
 created: '2026-03-23'
 description: 'Archrock (NYSE: AROC) is the premier provider of natural gas compression services and equipment to customers in the oil and natural gas industry throughout the United States. The company operates a large fleet of compression equipment and provides contract operations and aftermarket services.'
 examples:
@@ -223,7 +256,7 @@ jsonld:
   property_count: 0
   slug: archrock-investor-relations-api-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Archrock
 nav: Providers
 network: true
@@ -233,10 +266,10 @@ overview: 'Archrock publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Archrock catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Archrock''s developer surface includes authentication, developer portal, documentation, engineering blog, and 7 more developer resources.'
+  Archrock''s developer surface includes authentication, developer portal, engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Archrock Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: archrock-plans-pricing
 press:
 - date: '2026-05-25'
@@ -256,7 +289,7 @@ press:
   url: https://naturalgasintel.com/news/ai-power-lng-growth-sparking-natural-gas-compression-boom-for-archrock/
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Archrock Rate Limits
   slug: archrock-rate-limits
 rules:
@@ -283,22 +316,24 @@ rules:
   slug: archrock-spectral-rules
 score:
   band: thin
-  composite: 33.2
+  composite: 35.5
   coverage:
-    artifact_dirs: 19
-    catalog_gap: 56.5
+    artifact_dirs: 21
+    catalog_earned: 52.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 62.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 2.3
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 28.8
     contract_quality: 51.7
-    developer_ergonomics: 31.0
+    developer_ergonomics: 26.2
     discoverability: 59.3
     governance: 28.8
-    operational_transparency: 7.9
+    operational_transparency: 0.0
   previous_composite: 33.2
   provenance:
     agentic_access: derived
@@ -312,9 +347,9 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 23.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+    score: 33.8
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archrock/refs/heads/main/screenshots/archrock-2026-06-20T172409.png
 security:

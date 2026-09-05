@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://quotes.eco.com
@@ -51,7 +51,7 @@ apis:
   description: The Quotes V3 API from Eco — 9 operation(s) for quotes v3.
   name: Eco Quotes V3 API
   slug: eco-quotes-v3-api
-artifact_total: 10
+artifact_total: 9
 collections:
 - collection_type: open
   name: API Collection
@@ -128,7 +128,7 @@ common:
   url: llms/eco-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/eco-mcp.yml
 - group: other
   title: ''
@@ -171,10 +171,6 @@ description: 'Eco is a developer platform for programmable stablecoin infrastruc
   platforms, DeFi protocols, treasury managers, and AI agents.'
 image: https://cdn.prod.website-files.com/67af51ad91d062ee8ef52137/69c2cc38e52fc86cca6c5320_Stablecoin%20Economy%20OG%20(5)%20(1).jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Eco MCP Server
-  slug: eco-mcp-server
 modified: '2026-07-19'
 name: Eco
 nav: Providers
@@ -189,9 +185,11 @@ score:
   composite: 40.5
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -218,8 +216,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eco/refs/heads/main/screenshots/eco-2026-07-25T212742.png
 security:

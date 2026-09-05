@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - baseURL: https://cloud.synadia.com/api
@@ -50,7 +50,7 @@ apis:
   description: A first-class RESTful HTTP interface to NATS, hosted by Synadia Cloud at api.ngs.global. 30 operations expose the NATS key-value store and its management surface, the object store and its management s
   name: Synadia Cloud NATS HTTP Gateway
   slug: synadia-communications-http-gateway
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Synadia Communications Event Surface
@@ -130,7 +130,7 @@ common:
   url: cli/synadia-communications-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/synadia-communications-mcp.yml
 - group: agent
   title: ''
@@ -201,10 +201,6 @@ description: 'Synadia Communications, Inc. is the creator and primary maintainer
   and a registry of provider-authored Agent Skills.'
 image: https://www.synadia.com/images/og-image-default.webp
 layout: provider
-mcp_servers:
-- description: 'Synadia ships NO Model Context Protocol server. This is a derived candidate only. Every NATS MCP server found in the search is third-party and unaffiliated - sinadarbouy/mcp-nats, JaredCluff/nuntius, '
-  name: Synadia Communications MCP surface
-  slug: synadia-communications-mcp-surface
 modified: '2026-08-29'
 name: Synadia Communications
 nav: Providers
@@ -227,18 +223,20 @@ rate_limits:
   slug: synadia-communications-rate-limits
 score:
   band: strong
-  composite: 64.0
+  composite: 64.4
   coverage:
     artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.4
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 18.2
-    contract_quality: 59.5
+    contract_quality: 61.2
     developer_ergonomics: 85.7
     discoverability: 75.9
     governance: 18.2
@@ -247,14 +245,14 @@ score:
   provenance:
     conformance: first-party
     contracts:
-      callable: 50.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
     mcp: derived
     skills: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synadia-communications/refs/heads/main/screenshots/synadia-communications-2026-09-02T161447.png
 security:

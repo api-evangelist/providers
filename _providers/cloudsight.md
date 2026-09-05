@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -50,7 +50,7 @@ apis:
   description: Submit images for recognition and retrieve the resulting annotation.
   name: CloudSight Images API
   slug: cloudsight-images-api
-artifact_total: 7
+artifact_total: 6
 collections:
 - collection_type: open
   name: API Collection
@@ -141,7 +141,7 @@ common:
   url: packages/cloudsight-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cloudsight-mcp.yml
 - group: agent
   title: ''
@@ -159,10 +159,6 @@ created: '2026-08-09'
 description: CloudSight Inc. is a computer-vision company that sells general-purpose image understanding as a single, simple REST API. A client POSTs an image — as a multipart upload, a base64 data URI, or a remote image URL — and receives a token; polling that token returns a natural-language caption describing what is in the picture, together with skip reasons (blurry, dark, bright, offensive, unsure) and content flags (adult) when the image cannot be described. The company grew out of the CamFind visual-search app, also ships an on-device SDK, and lists a whole-scene recognition model on Google Cloud Marketplace. The public API contract is published as an API Blueprint on Apiary and is backed by first-party client libraries for Ruby, Python, Go, Elixir and Objective-C.
 image: https://cloudsight.ai/static/img/favicons/apple-touch-icon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: CloudSight MCP Server
-  slug: cloudsight-mcp-server
 modified: '2026-08-09'
 name: CloudSight
 nav: Providers
@@ -177,9 +173,11 @@ score:
   composite: 32.6
   coverage:
     artifact_dirs: 20
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 6.6
@@ -201,8 +199,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/screenshots/cloudsight-2026-08-17T080822.png
 security:

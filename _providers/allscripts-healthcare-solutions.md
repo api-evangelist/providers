@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - plans
+  - '{''url'': ''https://www.allscripts.com'', ''status'': 301, ''note'': ''declared website redirects to https://veradigm.com:443/?modal=allscripts — a different registrable domain (allscripts.com -> veradigm.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - description: HL7 FHIR R4 (4.0.1) REST API for Veradigm EHR, aligned to USCDI for 21st Century Cures Act patient and provider access. The live CapabilityStatement declares 31 resource types (Patient, Encounter, Obs
@@ -42,7 +43,7 @@ apis:
 - description: Veradigm's proprietary bidirectional API and the only Veradigm surface that can WRITE patient demographic, appointment or financial data - the Process Overview page states plainly that the FHIR API is
   name: Veradigm Unity API
   slug: veradigm-unity-api
-artifact_total: 9
+artifact_total: 8
 common:
 - group: company
   title: ''
@@ -154,7 +155,7 @@ common:
   url: packages/allscripts-healthcare-solutions-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/allscripts-healthcare-solutions-mcp.yml
 - group: agent
   title: ''
@@ -189,10 +190,6 @@ finops:
   slug: allscripts-healthcare-solutions-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/allscripts-healthcare-solutions.png
 layout: provider
-mcp_servers:
-- description: Veradigm (formerly Allscripts Healthcare Solutions) ships NO MCP server - no hosted endpoint, no stdio package, no registry listing. Searches of the developer portal, npm and the MCP ecosystem on 2026
-  name: veradigm-fhir (candidate, not published)
-  slug: veradigm-fhir-candidate-not-published
 modified: '2026-09-01'
 name: Allscripts Healthcare Solutions
 nav: Providers
@@ -220,9 +217,11 @@ score:
   composite: 60.6
   coverage:
     artifact_dirs: 19
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 56.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 84.2
@@ -250,8 +249,8 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/screenshots/allscripts-healthcare-solutions-2026-06-20T171537.png
 security:

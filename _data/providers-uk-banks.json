@@ -8,9 +8,69 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
+    {
+     "name": "Barclays",
+     "slug": "barclays",
+     "description": "Barclays is a British multinational bank providing retail and commercial banking, investment banking, wealth management and credit cards. Its developer surface is the Barclays API Exchange (developer.barclays.com), which publishes 30 API versions across three distinct families: UK Open Banking (OBIE Read/Write v3.1 and v4.0), Barclays Bank Ireland (Berlin Group NextGenPSD2), and Barclaycard US card servicing. 26 of them ship a first-party OpenAPI 3.1 contract covering 184 operations, served anonymously from the portal registry. Nothing is callable without registration, access approval, an OAuth 2.0 token and — on the UK Open Banking surface — an Open Banking-issued mTLS transport certificate.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png",
+     "score": 61.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 59.8,
+      "governance": 29.5,
+      "contract_governance": 29.5,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 89.9,
+      "matched_via": "tags",
+      "jurisdictions_satisfied": 1,
+      "jurisdictions": [
+       {
+        "standard": "psd2",
+        "jurisdiction": "EU"
+       }
+      ]
+     },
+     "agent_score": 46.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "verified",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "CMA9 (Mandated Open Banking)",
+     "rank": 1
+    },
     {
      "name": "Algbra",
      "slug": "algbra",
@@ -29,8 +89,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -69,7 +129,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 1
+     "rank": 2
     }
    ],
    "open": true
@@ -100,8 +160,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -133,7 +193,7 @@
       "agentic_commerce": false
      },
      "tier": "BaaS & Clearing",
-     "rank": 2
+     "rank": 3
     },
     {
      "name": "first direct",
@@ -153,8 +213,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -193,7 +253,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "Revolut",
@@ -213,8 +273,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -229,12 +289,12 @@
        }
       ]
      },
-     "agent_score": 51.8,
+     "agent_score": 49.2,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "verified",
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "verified",
@@ -253,7 +313,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Weatherbys Bank",
@@ -273,8 +333,8 @@
       "commercial_clarity": 78.6,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -313,7 +373,7 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Starling Bank",
@@ -333,8 +393,8 @@
       "commercial_clarity": 78.6,
       "access_clarity": 78.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -373,7 +433,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Virgin Money UK",
@@ -393,8 +453,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -437,7 +497,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Triodos Bank UK",
@@ -457,8 +517,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -481,12 +541,12 @@
        }
       ]
      },
-     "agent_score": 27.2,
-     "agent_band": "agent-aware",
+     "agent_score": 28.9,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "documented",
@@ -505,7 +565,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Danske Bank (UK)",
@@ -525,8 +585,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -565,7 +625,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Yorkshire Building Society",
@@ -585,8 +645,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -625,7 +685,7 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Allica Bank",
@@ -645,8 +705,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -685,7 +745,7 @@
       "agentic_commerce": false
      },
      "tier": "SME & Business",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "C. Hoare & Co.",
@@ -705,8 +765,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -738,7 +798,7 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "ClearBank",
@@ -758,8 +818,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -767,12 +827,12 @@
       "score": 44.3,
       "matched_via": "tags"
      },
-     "agent_score": 34.0,
+     "agent_score": 35.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": false,
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": "documented",
@@ -791,7 +851,7 @@
       "agentic_commerce": false
      },
      "tier": "BaaS & Clearing",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "The Co-operative Bank",
@@ -811,8 +871,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -851,7 +911,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Hampden & Co",
@@ -871,8 +931,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -911,7 +971,7 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Investec",
@@ -931,8 +991,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -971,7 +1031,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Vanquis Banking Group",
@@ -991,8 +1051,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1031,7 +1091,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Coventry Building Society",
@@ -1051,8 +1111,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1095,7 +1155,7 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Monzo",
@@ -1115,8 +1175,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1148,7 +1208,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Kroo",
@@ -1168,8 +1228,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1208,7 +1268,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Chase UK",
@@ -1228,8 +1288,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1268,7 +1328,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Nationwide Building Society",
@@ -1288,8 +1348,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1321,7 +1381,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Cashplus Bank",
@@ -1341,8 +1401,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1381,7 +1441,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "AIB Group (UK)",
@@ -1401,8 +1461,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1441,7 +1501,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Monument Bank",
@@ -1461,8 +1521,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1501,7 +1561,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Aldermore Bank",
@@ -1521,8 +1581,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1561,7 +1621,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Secure Trust Bank",
@@ -1581,8 +1641,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1621,7 +1681,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Bank of Ireland (UK)",
@@ -1641,8 +1701,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1681,7 +1741,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Tandem Bank",
@@ -1701,8 +1761,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1741,7 +1801,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Recognise Bank",
@@ -1761,8 +1821,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1801,7 +1861,7 @@
       "agentic_commerce": false
      },
      "tier": "SME & Business",
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "zopa",
@@ -1821,8 +1881,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1861,7 +1921,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "TSB Bank",
@@ -1881,8 +1941,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1921,7 +1981,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Coutts",
@@ -1941,8 +2001,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1974,7 +2034,7 @@
       "agentic_commerce": false
      },
      "tier": "Private Bank",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Mettle",
@@ -1994,8 +2054,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2038,7 +2098,7 @@
       "agentic_commerce": false
      },
      "tier": "Challenger & Neobank",
-     "rank": 34
+     "rank": 35
     }
    ],
    "open": true
@@ -2048,8 +2108,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 17,
-   "shown": 17,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Lloyds Banking Group",
@@ -2069,8 +2129,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2109,7 +2169,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Santander UK",
@@ -2129,8 +2189,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2169,7 +2229,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Halifax",
@@ -2189,8 +2249,8 @@
       "commercial_clarity": 21.4,
       "access_clarity": 21.4
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2233,7 +2293,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Handelsbanken UK",
@@ -2253,8 +2313,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2301,7 +2361,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "GB Bank",
@@ -2321,8 +2381,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2361,7 +2421,7 @@
       "agentic_commerce": false
      },
      "tier": "SME & Business",
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Metro Bank",
@@ -2381,8 +2441,8 @@
       "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2421,7 +2481,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Cynergy Bank",
@@ -2441,8 +2501,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2485,7 +2545,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Goldman Sachs",
@@ -2505,8 +2565,8 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2538,7 +2598,7 @@
       "agentic_commerce": false
      },
      "tier": "Savings",
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Skipton Building Society",
@@ -2558,8 +2618,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2591,7 +2651,7 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Wise",
@@ -2611,8 +2671,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2644,7 +2704,7 @@
       "agentic_commerce": false
      },
      "tier": "Payments",
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Paragon Bank",
@@ -2663,8 +2723,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2703,7 +2763,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "Shawbrook Bank",
@@ -2723,8 +2783,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2763,7 +2823,7 @@
       "agentic_commerce": false
      },
      "tier": "Specialist & Mid-Tier Lender",
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Principality Building Society",
@@ -2783,8 +2843,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2816,7 +2876,7 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Bank of Scotland",
@@ -2836,8 +2896,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2876,7 +2936,7 @@
       "agentic_commerce": false
      },
      "tier": "High-Street & Retail",
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "NatWest Group",
@@ -2896,8 +2956,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2929,7 +2989,7 @@
       "agentic_commerce": false
      },
      "tier": "CMA9 (Mandated Open Banking)",
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "Leeds Building Society",
@@ -2949,8 +3009,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2982,59 +3042,6 @@
       "agentic_commerce": false
      },
      "tier": "Building Society",
-     "rank": 50
-    },
-    {
-     "name": "Barclays",
-     "slug": "barclays",
-     "description": "Barclays is a multinational financial services company providing retail and commercial banking, investment banking, wealth management, and credit cards. The Barclays API Exchange (developer.barclays.com) offers 22+ APIs covering open banking account information, payment initiation, confirmation of funds, ATM/branch location, rewards, digital wallet, and more, compliant with UK Open Banking and EU PSD2 standards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png",
-     "score": 28.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 10.7,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 31.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "CMA9 (Mandated Open Banking)",
      "rank": 51
     }
    ]
@@ -3065,8 +3072,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3118,8 +3125,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3171,8 +3178,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3224,8 +3231,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3277,8 +3284,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3330,8 +3337,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3393,8 +3400,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3446,8 +3453,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3499,8 +3506,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ apis:
   description: The Webhooks API from Sikoia — 6 operation(s) for webhooks.
   name: Sikoia Webhooks API
   slug: sikoia-webhooks-api
-artifact_total: 45
+artifact_total: 44
 asyncapis:
 - description: ''
   name: Sikoia Webhooks
@@ -315,7 +315,7 @@ common:
   url: asyncapi/sikoia-webhooks.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/sikoia-mcp.yml
 - group: agent
   title: ''
@@ -345,10 +345,6 @@ created: '2026-07-17'
 description: Sikoia is a UK-based (FCA-authorised AISP), ISO 27001-certified customer-verification platform for financial services. Its REST API automates KYC/KYB and onboarding by grouping companies and people into cases and enriching them with company registry data, company & consumer credit reports, identity verification (IDV), open banking, document upload with classification/extraction and integrity/tampering checks, income & employer verification, affordability insights, PEPs & sanctions and adverse-media screening, plus validation/completeness checklists. The v2 API uses OAuth 2.0 client-credentials, JSON over HTTPS, HMAC-signed webhooks, and a documented rate-limit, error, and deprecation model.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sikoia.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Sikoia MCP Server
-  slug: sikoia-mcp-server
 modified: '2026-07-21'
 name: Sikoia
 nav: Providers
@@ -370,9 +366,11 @@ score:
   composite: 56.0
   coverage:
     artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -400,8 +398,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/screenshots/sikoia-2026-08-17T081855.png
 security:

@@ -1,14 +1,17 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  label: Freemium (free trial) · Self-serve signup
   onboarding: self-serve
   pricing: freemium
   public: false
   source:
   - plans
   - authentication
-  trial: false
+  - scopes
+  - rate-limits
+  - security
+  trial: true
   try_now: true
 agent_readiness:
   band: agent-ready
@@ -34,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -84,7 +87,7 @@ apis:
   description: The Workspaces API from Publer — 1 operation listing every workspace the authenticated user can reach, with owner, members, plan and picture. The workspace id it returns is required as the Publer-Work
   name: Publer Workspaces API
   slug: publer-workspaces-api
-artifact_total: 26
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -167,7 +170,7 @@ common:
   url: https://publer.com/blog/feed/
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/publer-mcp.yml
 - group: build
   title: ''
@@ -257,10 +260,6 @@ finops:
   slug: publer-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/publer.png
 layout: provider
-mcp_servers:
-- description: Publer ships a FIRST-PARTY, HOSTED (remote) MCP server that connects an MCP-compatible client — Publer names Claude, ChatGPT and Cursor — to a Publer workspace. It is configured from the Publer app un
-  name: Publer MCP Server
-  slug: publer-mcp-server
 modified: '2026-08-13'
 name: Publer
 nav: Providers
@@ -285,19 +284,21 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.1
+  composite: 41.4
   coverage:
     artifact_dirs: 23
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 51.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 4.5
     contract_quality: 57.7
-    developer_ergonomics: 25.6
+    developer_ergonomics: 22.0
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
@@ -312,8 +313,8 @@ score:
       total: 8
     mcp: first-party
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/publer/refs/heads/main/screenshots/publer-2026-08-17T081403.png
 security:

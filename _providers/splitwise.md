@@ -28,12 +28,12 @@ agent_readiness:
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.8
-  scored_at: '2026-09-03'
+  score: 28.5
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://secure.splitwise.com/api/v3.0
@@ -71,7 +71,7 @@ apis:
   description: Resources to access and modify user information.
   name: Splitwise users API
   slug: splitwise-users-api
-artifact_total: 20
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -140,7 +140,7 @@ common:
   url: packages/splitwise-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/splitwise-mcp.yml
 - group: agent
   title: ''
@@ -206,10 +206,6 @@ created: '2026-07-17'
 description: Splitwise is an expense-sharing and bill-splitting service that helps roommates, travel groups, couples, and friends track shared costs and settle up fairly. Its public Self-Serve REST API (v3.0) lets third-party applications read and manage a user's groups, friends, expenses, comments, and notifications on that user's behalf, authenticating with OAuth 2.0 or a personal API key. Splitwise was added to the API Evangelist network from a venture-capital portfolio lead and has been enriched from its public developer documentation and OpenAPI specification.
 image: https://www.splitwise.com/assets/press/logos/sw.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Splitwise MCP Server
-  slug: splitwise-mcp-server
 modified: '2026-07-21'
 name: Splitwise
 nav: Providers
@@ -229,9 +225,11 @@ score:
   composite: 41.6
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -258,8 +256,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitwise/refs/heads/main/screenshots/splitwise-2026-08-17T082029.png
 security:

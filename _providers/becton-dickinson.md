@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - description: 'The BD Incada Connected Care Platform is a scalable, AI-enabled, cloud-based platform launched in October 2025 that unifies BD device data from infusion pumps, patient monitors, and pharmacy robotics '
@@ -42,7 +42,7 @@ apis:
 - description: BD Pyxis is a medication management and dispensing system used in hospitals to control medication access, reduce errors, and streamline pharmacy workflows. Pyxis connects to hospital information syste
   name: BD Pyxis Medication Management System
   slug: pyxis
-artifact_total: 21
+artifact_total: 23
 common:
 - group: auth
   title: ''
@@ -59,15 +59,47 @@ common:
 - group: auth
   title: ''
   type: Security
-  url: https://www.bd.com/en-us/company/cybersecurity
+  url: https://www.bd.com/en-us/about-bd/cybersecurity
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.bd.com/en-us/company/legal-notices-and-privacy/privacy
+  url: https://www.bd.com/en-us/about-bd/policies/privacy-policy-statement
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.bd.com/en-us/company/legal-notices-and-privacy
+  url: https://www.bd.com/en-us/about-bd/policies/terms-of-use
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/becton-dickinson-llms.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/becton-dickinson-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/becton-dickinson-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/becton-dickinson-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/becton-dickinson-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/becton-dickinson-packages.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bd.com/en-us/support/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.bd.com/press-releases
 created: '2026-03-21'
 description: Becton Dickinson (BD) is a global medical technology company that develops, manufactures, and sells medical devices, instrument systems, and reagents. In October 2025, BD launched the BD Incada Connected Care Platform, an AI-enabled, cloud-based platform built on AWS that unifies data from nearly 3 million connected BD devices including infusion pumps, patient monitors, and pharmacy robotics. BD also produces the Pyxis medication management system and integrates with EMRs via HL7 FHIR standards for clinical data exchange.
 features:
@@ -100,11 +132,14 @@ integrations:
 - description: Healthcare integration engine used with BD systems for interfacing with hospital information systems.
   name: Cloverleaf
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Becton Dickinson
 nav: Providers
 network: true
-overview: Becton Dickinson publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Infusion Therapy, Medication Management, and Connected Health.
+overview: 'Becton Dickinson publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Medical Devices, Infusion Therapy, Medication Management, and Connected Health.
+
+
+  Becton Dickinson''s developer surface includes support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Becton Dickinson Plans Pricing
   plan_count: 1
@@ -131,39 +166,51 @@ rate_limits:
   name: Becton Dickinson Rate Limits
   slug: becton-dickinson-rate-limits
 score:
-  band: minimal
-  composite: 9.5
+  band: emerging
+  composite: 20.4
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 12
+    catalog_earned: 39.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 10.9
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 0.0
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 59.3
-    governance: 0.0
+    governance: 18.2
     operational_transparency: 5.3
   previous_composite: 9.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 35.0
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/becton-dickinson/refs/heads/main/screenshots/becton-dickinson-2026-06-20T173125.png
 security:
 - kind: domain-security
   name: Becton Dickinson Domain Security
   slug: becton-dickinson-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Becton Dickinson Vulnerability Disclosure
+  slug: becton-dickinson-vulnerability-disclosure
+  summary_line: contact published
+- kind: trust-center
+  name: Becton Dickinson Trust Center
+  slug: becton-dickinson-trust-center
+  summary_line: ISO/IEC 27001:2022, ISO/IEC 27001:2022, ISO/IEC 27001:2022, SOC 2+, UL CAP / UL 2900-2-1, MDS2 (Manufacturer Disclosure Statement for Medical Device Security)
 slug: becton-dickinson
 tags:
 - Healthcare

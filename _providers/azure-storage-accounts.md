@@ -29,12 +29,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-03'
+  score: 26.5
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 1
@@ -696,19 +696,21 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.9
+  composite: 46.2
   coverage:
     artifact_dirs: 17
+    catalog_earned: 66.5
+    catalog_earned_first_party: 0.0
     catalog_gap: 48.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 56.9
-    developer_ergonomics: 59.5
+    developer_ergonomics: 56.0
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 23.7
@@ -720,8 +722,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-storage-accounts/refs/heads/main/screenshots/azure-storage-accounts-2026-06-20T172908.png
 security:

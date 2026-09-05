@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
   description: The Sign API from Nitro Software — 22 operation(s) for sign.
   name: Nitro Software Sign API
   slug: nitro-software-sign-api
-artifact_total: 14
+artifact_total: 13
 asyncapis:
 - description: ''
   name: Nitro Software Sign Webhooks
@@ -187,7 +187,7 @@ common:
   url: conformance/nitro-software-conformance.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/nitro-software-mcp.yml
 - group: agent
   title: ''
@@ -205,10 +205,6 @@ created: '2026-07-17'
 description: 'Nitro Software is a document productivity company (San Francisco, CA; part of the Nitro Productivity Platform) offering PDF editing, eSignature (Nitro Sign), and document intelligence. Nitro publishes a public developer platform of REST APIs at developers.gonitro.com covering two surfaces: a PDF Services / Document Intelligence Platform API (convert, extract, transform, redact, OCR, generate/fill forms) and the Nitro Sign API (envelopes, documents, participants, fields, sealing, audit trails, and signer signing URLs). The APIs use machine-to-machine OAuth 2.0 client-credentials with short-lived bearer JWTs, RFC 9457 problem+json errors, cursor pagination, asynchronous jobs with callbacks, and RFC 9421 signed Sign webhooks. API access requires a Nitro Sign Enterprise plan.'
 image: https://www.gonitro.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Nitro Software MCP Server
-  slug: nitro-software-mcp-server
 modified: '2026-07-20'
 name: Nitro Software
 nav: Providers
@@ -226,9 +222,11 @@ score:
   composite: 55.3
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 53.9
@@ -250,8 +248,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/screenshots/nitro-software-2026-08-07T185343.png
 security:

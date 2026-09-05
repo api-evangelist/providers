@@ -1,12 +1,14 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  label: Paid
   onboarding: unknown
-  pricing: freemium
+  pricing: paid
   public: false
   source:
   - plans
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,22 +35,70 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: ApiShare provides a unified catalog of APIs, applications, assets, MCP servers, and AI agents with role-based visibility, configurable lifecycle workflows, subscription management, and built-in audita
   name: ApiShare
   slug: apishare
-artifact_total: 27
+artifact_total: 28
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apishare.cloud/
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/apishare-domain-security.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/apishare-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/apishare-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.apishare.cloud/certifications
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apishare-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/apishare-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/apishare-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/apishare-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/apishare-llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.apishare.cloud/contacts
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.apishare.cloud/privacy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/72734885
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.apishare.cloud/documentation-1.12
+  url: https://www.apishare.cloud/documentation-2.1
 - group: commercial
   title: ''
   type: Pricing
@@ -116,44 +166,53 @@ network: true
 overview: 'ApiShare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Governance, API Lifecycle, API Management, Catalog, and Governance.
 
 
-  ApiShare''s developer surface includes documentation, pricing, engineering blog, release notes, and 2 more developer resources.'
+  ApiShare''s developer surface includes changelog, support, documentation, pricing, engineering blog, release notes, and 12 more developer resources.'
 plans:
 - name: Apishare Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: apishare-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Apishare Rate Limits
   slug: apishare-rate-limits
 score:
-  band: emerging
-  composite: 19.0
+  band: thin
+  composite: 29.0
   coverage:
-    artifact_dirs: 6
-    catalog_gap: 74.0
+    artifact_dirs: 13
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 10.0
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 65.8
+    commercial_clarity: 65.8
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
+    developer_ergonomics: 28.6
     discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 23.7
+    governance: 18.2
+    operational_transparency: 15.8
   previous_composite: 19.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apishare/refs/heads/main/screenshots/apishare-2026-06-20T172257.png
 security:
 - kind: domain-security
   name: Apishare Domain Security
   slug: apishare-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Apishare Trust Center
+  slug: apishare-trust-center
+  summary_line: ISO 9001, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 37001, ISO 45001, ISO 14001
 slug: apishare
 tags:
 - API Governance
@@ -174,4 +233,5 @@ use_cases:
   name: Multi-Domain Governance
 - description: Manage consumer subscriptions, approvals, and keyset lifecycle for API access control.
   name: API Access Management
+website: https://www.apishare.cloud/
 ---

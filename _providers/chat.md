@@ -2,9 +2,9 @@
 access_model:
   confidence: medium
   generated: '2026-09-03'
-  label: Freemium
+  label: Freemium · Self-serve signup
   method: derived
-  onboarding: unknown
+  onboarding: self-serve
   pricing: freemium
   public: false
   source:

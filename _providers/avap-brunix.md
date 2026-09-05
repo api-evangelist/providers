@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: AVAP BRUNIX is an AI copilot integrated into the AVAP framework, providing intelligent assistance for API development, code generation, testing automation, and API lifecycle management.
@@ -61,6 +61,66 @@ common:
   title: ''
   type: LlmsText
   url: https://avapframework.com/llms.txt
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.avapframework.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://avap.ai/brunix
+- group: operate
+  title: ''
+  type: Support
+  url: https://avap.ai/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://avap.ai/resources/blog
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://avap.ai/resources/roadmap
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://avap.ai/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://avapid.com/Register
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://avap.ai/legal/privacy-policy
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/101OBEX-CORP
+- group: build
+  title: ''
+  type: Packages
+  url: packages/avap-brunix-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/avap-brunix-cli.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/avap-brunix-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/avap-brunix-rate-limits.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/avap-brunix-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/avap-brunix-llms.txt
 created: '2025-05-02'
 description: AVAP BRUNIX is an AI-powered API development platform that serves as a copilot for developers, integrating artificial intelligence directly into the core of the AVAP framework to enhance efficiency and productivity in API development, testing, and management.
 finops:
@@ -76,38 +136,40 @@ network: true
 overview: 'AVAP BRUNIX publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, API Development, Developer Tools, Low-Code, and Automation.
 
 
-  AVAP BRUNIX''s developer surface includes developer portal and 4 more developer resources.'
+  AVAP BRUNIX''s developer surface includes developer portal, documentation, support, engineering blog, pricing, signup flow, CLI, and 13 more developer resources.'
 plans:
 - name: Avap Brunix Plans Pricing
-  plan_count: 3
+  plan_count: 9
   slug: avap-brunix-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Avap Brunix Rate Limits
   slug: avap-brunix-rate-limits
 score:
-  band: emerging
-  composite: 14.7
+  band: thin
+  composite: 31.5
   coverage:
-    artifact_dirs: 6
-    catalog_gap: 74.0
+    artifact_dirs: 10
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 16.8
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 73.7
+    commercial_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 19.0
+    developer_ergonomics: 33.3
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 26.3
   previous_composite: 14.7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/avap-brunix/refs/heads/main/screenshots/avap-brunix-2026-06-20T172724.png
 security:
 - kind: domain-security

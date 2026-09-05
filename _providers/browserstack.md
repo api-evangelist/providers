@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,33 +8,35 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-03'
+  score: 38.9
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -93,36 +95,36 @@ apis:
   name: BrowserStack Low Code Automation API
   slug: low-code-automation-api
 - baseURL: https://api.browserstack.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations on Automate access keys.
   name: BrowserStack AccessKey API
   slug: browserstack-accesskey-api
 - baseURL: https://api.browserstack.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations describing supported browsers and devices.
   name: BrowserStack Browsers API
   slug: browserstack-browsers-api
 - baseURL: https://api.browserstack.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations on Automate builds.
   name: BrowserStack Builds API
   slug: browserstack-builds-api
 - baseURL: https://api.browserstack.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations describing the current Automate subscription plan and capacity.
   name: BrowserStack Plan API
   slug: browserstack-plan-api
 - baseURL: https://api.browserstack.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations on Automate projects.
   name: BrowserStack Projects API
   slug: browserstack-projects-api
 - baseURL: https://api.browserstack.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Operations on Automate sessions.
   name: BrowserStack Sessions API
   slug: browserstack-sessions-api
-artifact_total: 37
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -241,70 +243,163 @@ common:
   title: ''
   type: Developer Tools
   url: https://www.browserstack.com/docs/browserstack-mcp-server/overview
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/browserstack-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/browserstack-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/browserstack-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/browserstack-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/browserstack-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/browserstack-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/browserstack-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/browserstack-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/browserstack-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/browserstack-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/browserstack-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/browserstack-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/browserstack-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/browserstack-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/browserstack-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/browserstack-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/browserstack-plans-pricing.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.browserstack.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.browserstack.com/docs/automate/api-reference/selenium/introduction
 created: '2025-02-17'
-description: BrowserStack provides instant access to 3500+ real mobile devices and desktop browsers for testing web and mobile applications across different platforms and operating systems.
+description: BrowserStack provides instant access to 3,500+ real desktop browsers and 30,000+ real mobile device units for manual and automated software testing. Its products span cross-browser testing (Live, Automate), mobile app testing (App Live, App Automate), visual regression testing (Percy, App Percy), accessibility testing, test management, test reporting and analytics, and low-code automation. Each product exposes its own REST API on its own host, and BrowserStack ships an official Model Context Protocol server — hosted at mcp.browserstack.com and distributed as an npm package — carrying 44 tools across those products.
 finops:
 - name: Browserstack Finops
   service_category: API
   slug: browserstack-finops
 image: https://www.browserstack.com/images/browserstack-logo.svg
 layout: provider
-modified: '2026-04-21'
+mcp_servers:
+- description: BrowserStack's official Model Context Protocol server. It exposes 44 tools covering Test Management, Automate/App Automate SDK setup, Observability, Live and App Live manual sessions, Accessibility sc
+  name: BrowserStack MCP Server
+  slug: browserstack-mcp-server
+modified: '2026-09-04'
 name: BrowserStack
 nav: Providers
 network: true
 overview: 'BrowserStack publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AccessKey API, Browsers API, Builds API, and 3 more. Tagged areas include Accessibility, Appium, Application, Automation, and CI/CD.
 
 
-  BrowserStack''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, pricing, signup flow, support, and 16 more developer resources.'
+  BrowserStack''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, pricing, signup flow, support, and 36 more developer resources.'
 plans:
 - name: Browserstack Plans Pricing
-  plan_count: 3
+  plan_count: 17
   slug: browserstack-plans-pricing
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 6
   name: Browserstack Rate Limits
   slug: browserstack-rate-limits
 score:
-  band: developing
-  composite: 50.4
+  band: strong
+  composite: 66.1
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 79.0
+    artifact_dirs: 23
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 15.7
   facets:
-    access_clarity: 68.4
-    commercial_clarity: 68.4
-    contract_governance: 0.0
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 18.2
     contract_quality: 52.4
-    developer_ergonomics: 57.1
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 55.3
+    developer_ergonomics: 73.2
+    discoverability: 59.3
+    governance: 18.2
+    operational_transparency: 78.9
   previous_composite: 50.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/screenshots/browserstack-2026-06-20T173725.png
 security:
 - kind: authentication
   name: Browserstack Authentication
   slug: browserstack-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oauth2/openIdConnect · 5 schemes
 - kind: domain-security
   name: Browserstack Domain Security
   slug: browserstack-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Browserstack Vulnerability Disclosure
+  slug: browserstack-vulnerability-disclosure
+  summary_line: disclosure policy published
 - kind: trust-center
   name: Browserstack Trust Center
   slug: browserstack-trust-center

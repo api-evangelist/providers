@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -28,12 +30,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.4
-  scored_at: '2026-09-03'
+  score: 36.1
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -73,7 +75,7 @@ apis:
   description: The WhatsApp API from Hilos — 3 operation(s) for whatsapp.
   name: Hilos WhatsApp API
   slug: hilos-whatsapp-api
-artifact_total: 20
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Hilos Events
@@ -195,7 +197,7 @@ common:
   url: data-model/hilos-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/hilos-mcp.yml
 - group: build
   title: ''
@@ -229,10 +231,6 @@ created: '2026-07-17'
 description: 'Hilos is a WhatsApp Business Platform automation company (backed by 500 Global and Techstars, now part of ActiveCampaign) that helps businesses capture leads, qualify prospects, and automate follow-ups over WhatsApp''s Cloud API. Its REST API exposes contacts, inbox conversations, WhatsApp message templates, and no-code flow executions, authenticated with an `Authorization: Token` API key against https://api.hilos.io/api/ and paginated with `page` / `page_size` query parameters.'
 image: https://app.hilos.io/logo512.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Hilos Docs
-  slug: hilos-docs
 modified: '2026-08-13'
 name: Hilos
 nav: Providers
@@ -258,9 +256,11 @@ score:
   composite: 44.6
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 34.2
@@ -282,8 +282,8 @@ score:
       total: 6
     mcp: first-party
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hilos/refs/heads/main/screenshots/hilos-2026-07-25T221229.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://rtb.network.tpsengage.com/api/sv
@@ -45,7 +45,7 @@ apis:
   description: The Prefetch API from TPS Engage — 1 operation(s) for prefetch.
   name: TPS Engage Prefetch API
   slug: tps-engage-prefetch-api
-artifact_total: 12
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -59,7 +59,7 @@ collections:
 common:
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tps-engage-mcp.yml
 - group: other
   title: ''
@@ -169,10 +169,6 @@ created: '2026-07-17'
 description: 'TPS Engage, LLC operates Blindspot (seeblindspot.com), a self-serve programmatic digital out-of-home (DOOH) advertising platform: 3,000,000+ digital billboards and screens in 50+ countries bookable by the exact hour, with pay-per-play pricing, no minimums, and an agentic AI media planner (Blinky). The company publishes one public API — the Blindspot Pull API, the device-facing surface screen owners use to pull the creative to play, prefetch media, and log verified proof-of-play — documented with an OpenAPI 3.0 spec on the TPSEngage GitHub org. Originally added to the API Evangelist network as a Techstars portfolio lead, this profile has been enriched from Blindspot''s public surface.'
 image: https://seeblindspot.com/wp-content/uploads/APU.COM-_The-One-Times-Square-NYC-Blindspot-1-1.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: tps-engage-pull-api (candidate)
-  slug: tps-engage-pull-api-candidate
 modified: '2026-08-13'
 name: TPS Engage
 nav: Providers
@@ -195,9 +191,11 @@ score:
   composite: 45.4
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -218,8 +216,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tps-engage/refs/heads/main/screenshots/tps-engage-2026-08-17T082415.png
 security:

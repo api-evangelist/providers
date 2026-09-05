@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'Form-encoded REST API for phone verification and OTP: issue a session token, normalize a phone number, send a pincode over SMS or voice, and verify the user-entered code. Responses carry status plus p'
   name: RingCaptcha Verification API
   slug: ringcaptcha-verification-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -107,7 +108,7 @@ common:
   url: packages/thrivecom-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/thrivecom-mcp.yml
 - group: agent
   title: ''
@@ -137,10 +138,6 @@ created: '2026-07-17'
 description: RingCaptcha, operated by ThriveCom, is a phone-verification and two-factor authentication (2FA) platform that helps businesses confirm real users and block fraud. It delivers one-time passcodes over SMS, voice, WhatsApp and missed-call (Blink) verification, normalizes and validates phone numbers to E.164, and returns fraud, carrier and device metadata to filter fake signups, bots and spam leads. Developers integrate through a simple form-encoded REST API at api.ringcaptcha.com, authenticated with per-application api_key, secret_key and app_key credentials, plus official client SDKs for Node.js, Python, PHP, Ruby, C#, Android, iOS and WordPress. RingCaptcha was surfaced as a 500 Global portfolio company and profiled through the API Evangelist enrichment pipeline.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/thrivecom.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: RingCaptcha (ThriveCom) MCP Server
-  slug: ringcaptcha-thrivecom-mcp-server
 modified: '2026-07-21'
 name: RingCaptcha (ThriveCom)
 nav: Providers
@@ -155,9 +152,11 @@ score:
   composite: 31.1
   coverage:
     artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -182,8 +181,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thrivecom/refs/heads/main/screenshots/thrivecom-2026-09-02T163635.png
 security:

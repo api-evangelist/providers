@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 6
@@ -81,7 +81,7 @@ apis:
   description: The cluster surface of the Ant Media Server management panel REST API — 9 operations for listing cluster nodes with offset/size paging, counting them, annotating a node with a note, and removing a nod
   name: Ant Media Cluster API
   slug: ant-media-cluster-api
-artifact_total: 39
+artifact_total: 38
 asyncapis:
 - description: ''
   name: Ant Media Webhooks
@@ -203,7 +203,7 @@ common:
   url: llms/ant-media-llms.txt
 - group: agent
   title: Derived candidate tool surface — Ant Media publishes no MCP server
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/ant-media-mcp.yml
 - group: auth
   title: ''
@@ -315,10 +315,6 @@ jsonld:
   property_count: 14
   slug: ant-media-context
 layout: provider
-mcp_servers:
-- description: A candidate MCP tool surface derived from Ant Media Server's published REST operations. NOTHING HERE IS SHIPPED BY ANT MEDIA. It is a design sketch of what a server would expose if one existed, so the
-  name: Derived candidate tool surface — Ant Media publishes no MCP server
-  slug: derived-candidate-tool-surface-ant-media-publishes-no-mcp-server
 modified: '2026-09-02'
 name: Ant Media
 nav: Providers
@@ -355,10 +351,12 @@ score:
   composite: 60.5
   coverage:
     artifact_dirs: 32
+    catalog_earned: 68.3
+    catalog_earned_first_party: 12.0
     catalog_gap: 46.8
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 3.5
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.0
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -368,7 +366,7 @@ score:
     discoverability: 75.9
     governance: 29.5
     operational_transparency: 42.1
-  previous_composite: 57.0
+  previous_composite: 60.5
   provenance:
     agentic_access: derived
     conformance: derived
@@ -379,8 +377,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ant-media/refs/heads/main/screenshots/ant-media-2026-06-20T172022.png
 security:

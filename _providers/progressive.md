@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -69,7 +70,13 @@ apis:
   description: Manage vehicle information for quoting.
   name: Progressive Vehicles API
   slug: progressive-vehicles-api
-artifact_total: 20
+- description: Returns an estimated auto insurance rate from consumer-supplied vehicle and driver data; partners embed the quote flow directly inside their own product surfaces and complete the policy purchase end-t
+  name: Embedded Direct Quoting API
+  slug: embedded-direct-quoting
+- description: Generates or retrieves a certificate of insurance (COI) for a Progressive commercial policy; used by lenders, brokers, and operations platforms that need real-time proof-of-coverage documents.
+  name: Certificate of Insurance API
+  slug: certificate-of-insurance
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -124,6 +131,14 @@ common:
   title: ''
   type: Website
   url: https://www.progressive.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Progressive-Insurance
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.progressive.com/
 created: '2026-03-21'
 description: The Progressive Corporation is one of the largest providers of car insurance in the United States, also offering personal and commercial auto, home, renters, boat, motorcycle, and other insurance products. Progressive operates a developer portal at developer.progressive.com offering APIs for auto insurance quoting, certificate of insurance generation, and agent portal integrations.
 finops:
@@ -143,7 +158,7 @@ network: true
 overview: 'Progressive publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Certificates API, Drivers API, Policies API, and 2 more. Tagged areas include Auto Insurance, Commercial Insurance, Embedded Insurance, Insurance, and Quoting.
 
 
-  Progressive''s developer surface includes authentication, developer portal, and 5 more developer resources.'
+  Progressive''s developer surface includes authentication, developer portal, and 7 more developer resources.'
 plans:
 - name: Progressive Plans Pricing
   plan_count: 1
@@ -171,22 +186,24 @@ rate_limits:
   slug: progressive-rate-limits
 score:
   band: thin
-  composite: 28.3
+  composite: 28.0
   coverage:
     artifact_dirs: 14
-    catalog_gap: 71.0
+    catalog_earned: 39.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 76.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.3
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 53.0
     developer_ergonomics: 31.0
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 0.0
-    operational_transparency: 5.3
+    operational_transparency: 10.5
   previous_composite: 28.3
   provenance:
     agentic_access: derived
@@ -201,8 +218,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 18.2
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png
 security:

@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -98,7 +99,7 @@ apis:
   description: The User Management API from Qualio — 7 operation(s) for user management.
   name: Qualio User Management API
   slug: qualio-user-management-api
-artifact_total: 28
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +180,7 @@ common:
   url: data-model/qualio-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qualio-mcp.yml
 - group: agent
   title: ''
@@ -253,10 +254,6 @@ created: '2026-07-17'
 description: Qualio is an AI-powered quality management system (QMS) and compliance platform built for life sciences companies — medical devices, pharmaceuticals, biotech, software as a medical device (SaMD), cosmetics, cannabis and contract research organizations. It unifies document control, quality events (CAPAs, deviations, non-conformances), training records, design controls, risk and change management, supplier management, audits and compliance intelligence in one audit-ready system. Qualio exposes a RESTful Developer API (OpenAPI 3.1.0, base URL https://api.qualio.com) providing secure, API-key-authenticated programmatic access to documents, events, training, users, suppliers, design controls and compliance data, letting teams automate quality processes and integrate the QMS with the rest of their toolchain.
 image: https://www.qualio.com/hubfs/qualio-logo.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qualio MCP Server
-  slug: qualio-mcp-server
 modified: '2026-07-20'
 name: Qualio
 nav: Providers
@@ -271,9 +268,11 @@ score:
   composite: 46.2
   coverage:
     artifact_dirs: 18
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -301,8 +300,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/screenshots/qualio-2026-08-17T081435.png
 security:

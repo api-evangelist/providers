@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 115
   human_in_the_loop: 0
@@ -258,7 +260,7 @@ apis:
   description: List account users to resolve IDs for relations and assignment
   name: Frontline Users API
   slug: frontline-users-api
-artifact_total: 108
+artifact_total: 107
 collections:
 - collection_type: open
   name: API Collection
@@ -363,6 +365,10 @@ collections:
   name: Public Account Workflows API
   slug: open-frontline-workflows-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/frontline-capability-edges.yml
 - group: auth
   title: ''
   type: Authentication
@@ -405,7 +411,7 @@ common:
   url: agentic-access/frontline-agentic-access.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/frontline-mcp.yml
 - group: agent
   title: ''
@@ -483,10 +489,6 @@ created: '2026-07-17'
 description: Frontline is an AI-native CRM platform that builds and maintains itself. It unifies customer context from WhatsApp, email, and meetings, ships AI agents (Max) that draft replies, proposals, follow-ups and meeting notes, and a Studio for building an AI workforce for sales and support. The Frontline Public API exposes agents, agent-builder flows, automation workflows, CRM objects and rows, tables, tools, intents, AI models, incoming webhooks, account, and billing over REST at https://prod-api.getfrontline.ai/public/v1, authenticated with GENERAL (account) and USER Bearer API keys. Backed by 500 Global.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frontline.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Frontline MCP Server
-  slug: frontline-mcp-server
 modified: '2026-08-14'
 name: Frontline
 nav: Providers
@@ -494,7 +496,7 @@ network: true
 overview: 'Frontline publishes 43 APIs on the [APIs.io](https://apis.io/) network, including Account API, Agent Builder API, Agents API, and 40 more. Tagged areas include Company, CRM, AI Agents, Sales Automation, and Customer-Support.
 
 
-  Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 22 more developer resources.'
+  Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Frontline Plans Pricing
   plan_count: 0
@@ -509,9 +511,11 @@ score:
   composite: 48.8
   coverage:
     artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 47.4
@@ -533,8 +537,8 @@ score:
       total: 44
     mcp: derived
     skills: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontline/refs/heads/main/screenshots/frontline-2026-07-25T215237.png
 security:

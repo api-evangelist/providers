@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 78
   human_in_the_loop: 0
@@ -129,7 +130,7 @@ apis:
   description: Operations for managing VPC links
   name: Amazon API Gateway VPC Links API
   slug: amazon-api-gateway-vpc-links-api
-artifact_total: 248
+artifact_total: 247
 asyncapis:
 - description: Amazon API Gateway WebSocket APIs enable real-time two-way communication between clients and backend services. Clients connect via WebSocket protocol and exchange messages through routes that map to L
   name: Amazon API Gateway WebSocket API
@@ -306,7 +307,7 @@ common:
   url: well-known/amazon-api-gateway-security.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/amazon-api-gateway-mcp.yml
 - group: agent
   title: ''
@@ -930,10 +931,6 @@ jsonld:
   property_count: 13
   slug: amazon-api-gateway-context
 layout: provider
-mcp_servers:
-- description: ''
-  name: Amazon API Gateway MCP Server
-  slug: amazon-api-gateway-mcp-server
 modified: '2026-06-20'
 name: Amazon API Gateway
 nav: Providers
@@ -984,9 +981,11 @@ score:
   composite: 51.1
   coverage:
     artifact_dirs: 23
+    catalog_earned: 56.5
+    catalog_earned_first_party: 0.0
     catalog_gap: 58.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 60.5
@@ -1007,8 +1006,8 @@ score:
       marker_coverage: 0.0
       total: 15
     mcp: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-api-gateway/refs/heads/main/screenshots/amazon-api-gateway-2026-07-25T195913.png
 security:

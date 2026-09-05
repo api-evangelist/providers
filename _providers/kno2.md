@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,6 +8,7 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,7 +76,7 @@ apis:
   description: SEND surface - draft, populate, attach, and send messages.
   name: Kno2 Messaging API
   slug: kno2-messaging-api
-artifact_total: 21
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -185,7 +186,7 @@ common:
   url: packages/kno2-packages.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/kno2-mcp.yml
 - group: agent
   title: ''
@@ -251,10 +252,6 @@ finops:
   slug: kno2-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kno2.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Kno2 MCP Server
-  slug: kno2-mcp-server
 modified: '2026-08-14'
 name: Kno2
 nav: Providers
@@ -274,19 +271,21 @@ rate_limits:
   slug: kno2-rate-limits
 score:
   band: developing
-  composite: 41.3
+  composite: 40.6
   coverage:
     artifact_dirs: 22
+    catalog_earned: 45.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 30.3
     commercial_clarity: 30.3
     contract_governance: 4.5
     contract_quality: 56.5
-    developer_ergonomics: 42.3
+    developer_ergonomics: 38.7
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 26.3
@@ -311,8 +310,8 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png
 security:

@@ -1,13 +1,14 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -34,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - baseURL: https://api.exploretock.com
@@ -47,7 +48,19 @@ apis:
   description: Guest (CRM) data model and ingest surface published at api.exploretock.com. Guest profiles capture contact details, dietary restrictions and preferences, tags, per-business and group-level notes and s
   name: Tock Guest API
   slug: guest-api
-artifact_total: 171
+- description: Twice-daily export of all historical reservation and guest data for the locations in a Tock business group. Payloads follow the published Reservation data model (party, purchased experiences, options,
+  name: Tock Data Exports API
+  slug: tock-data-exports-api
+- description: Add and update basic guest information and guest-profile tags in Tock, following the published Guest data model (patron identity, contact details, dietary restrictions, hospitality preferences, busine
+  name: Tock Guest Profile Ingest API
+  slug: tock-guest-profile-ingest-api
+- description: Real-time webhook that delivers reservation updates for all locations within a Tock business group to a partner-supplied endpoint URL. The partner provides the receiving endpoint and any required auth
+  name: Tock Real-time Reservation Webhook
+  slug: tock-reservation-webhook
+- description: Real-time webhook that delivers guest-profile updates for all locations within a Tock business group to a partner-supplied endpoint URL. Tock POSTs guest-profile events shaped by the published Guest d
+  name: Tock Real-time Guest Profile Webhook
+  slug: tock-guest-profile-webhook
+artifact_total: 175
 collections:
 - collection_type: open
   name: API Collection
@@ -135,6 +148,10 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/tock-vocabulary.yaml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://tock.zendesk.com/hc/en-us/articles/25447494175508-API-FAQ
 created: '2026-05-08'
 description: Tock is a Chicago-founded reservation, ticketed events, takeout, and delivery management platform for restaurants, wineries, and hospitality venues. Founded in 2014 by Nick Kokonas, Brian Fitzpatrick, and Grant Achatz to support prepaid and ticketed dining (originated at Alinea Group), Tock pioneered the prepaid reservation model and expanded into takeout, wine delivery, and experience ticketing through the pandemic. Squarespace acquired Tock for approximately $400 million in 2021, then sold it to American Express in June 2024 as part of Amex's strategy to deepen its dining and premium-experience footprint. Tock is operated as an Amex-owned property today and continues to serve restaurants globally through exploretock.com. Tock publishes API documentation and data-model specifications at api.exploretock.com covering its Reservation and Guest data models. Programmatic access is delivered through a Data Exports API (twice-daily reservation and guest exports), a Guest Profile Ingest
   API (create/update of basic guest information), and a real-time Reservation Webhook. API and webhook access is an entitlement of the Premium and Premium Unlimited plans; partners request an API key by emailing integrate@tockhq.com from a Tock Dashboard Account Owner. There is no self-serve developer signup; deeper POS, CRM, marketing, loyalty, and ticketing integrations are coordinated through Tock's partnerships team.
@@ -604,7 +621,7 @@ overview: 'Tock publishes 2 APIs on the [APIs.io](https://apis.io/) network: Res
   The Tock catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Tock''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 14 more developer resources.'
+  Tock''s developer surface includes authentication, documentation, signup flow, support, engineering blog, and 15 more developer resources.'
 plans:
 - name: Tock Plans Pricing
   plan_count: 2
@@ -630,9 +647,11 @@ score:
   composite: 37.0
   coverage:
     artifact_dirs: 15
+    catalog_earned: 65.3
+    catalog_earned_first_party: 0.0
     catalog_gap: 49.8
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 40.8
@@ -644,8 +663,8 @@ score:
     governance: 25.0
     operational_transparency: 10.5
   previous_composite: 37.0
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tock/refs/heads/main/screenshots/tock-2026-06-20T195428.png
 security:

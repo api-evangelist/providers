@@ -29,12 +29,12 @@ agent_readiness:
     openapi_examples: false
     protected_resource_metadata: documented
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 43.3
-  scored_at: '2026-09-03'
+  score: 45.1
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -315,19 +315,21 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.1
+  composite: 57.3
   coverage:
     artifact_dirs: 26
+    catalog_earned: 49.8
+    catalog_earned_first_party: 0.0
     catalog_gap: 65.3
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.8
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 15.9
     contract_quality: 58.8
-    developer_ergonomics: 55.4
+    developer_ergonomics: 51.8
     discoverability: 75.9
     governance: 15.9
     operational_transparency: 52.6
@@ -348,8 +350,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://feed.fusion.tempus-ex.com/v2/
@@ -41,7 +41,7 @@ apis:
   description: 'FusionFeed aggregates sports data and media (schedules, rosters, official and automated statistics, telemetry, scoreboard, and live/VOD video) into a single GraphQL-first API (with an interchangeable '
   name: FusionFeed
   slug: fusionfeed
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: Live push of sports data from FusionFeed over WebSocket. Subscriptions use the graphql-ws protocol (legacy subscriptions-transport-ws is also supported). Authentication is provided in the connection-i
   name: FusionFeed Realtime (GraphQL Subscriptions)
@@ -121,7 +121,7 @@ common:
   url: asyncapi/tempus-ex-fusionfeed-asyncapi.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tempus-ex-mcp.yml
 - group: agent
   title: ''
@@ -135,10 +135,6 @@ created: '2026-07-17'
 description: Tempus Ex is a sports data and media technology company (part of Infinite Athlete) whose FusionFeed API aggregates data and media from many on-site sources into a single API for gridiron football (NFL and NCAA) and association football (soccer). FusionFeed provides schedules, game-by-game rosters, official and AI-automated statistics, low-latency X/Y telemetry for players, officials and the ball, scoreboard data, and live/VOD video (HLS and sub-second SRT) including computer-vision products such as bounding boxes, skeletal pose estimation, camera calibration and virtual FusionCams. The API is offered as a GraphQL-first interface (with WebSocket subscriptions via graphql-ws) and an interchangeable REST interface, both versioned under /v2/, with a Fusion Query Language (FQL) for powerful play/event search.
 image: https://docs.tempus-ex.com/images/fusionfeed.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tempus Ex MCP Server
-  slug: tempus-ex-mcp-server
 modified: '2026-07-21'
 name: Tempus Ex
 nav: Providers
@@ -160,9 +156,11 @@ score:
   composite: 35.0
   coverage:
     artifact_dirs: 14
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -178,8 +176,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempus-ex/refs/heads/main/screenshots/tempus-ex-2026-09-02T163041.png
 security:

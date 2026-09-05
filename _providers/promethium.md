@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.7
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: REST API for Promethium's agentic data platform — tenant-scoped OAuth2 authentication, datamap search and creation, bulk metadata import, audit logs, and federated SQL execution via the Trino Stream U
   name: Promethium API
   slug: promethium-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -117,10 +117,6 @@ created: '2026-07-17'
 description: Promethium is an open agentic data platform that gives analysts, business users, and AI agents trusted access to all enterprise data through a single governed layer without moving, copying, or consolidating data. Its AI Insights Fabric combines a zero-copy federated Universal Query Engine (Trino) across cloud warehouses, relational databases, SaaS apps and on-prem systems, an Insights Context Graph that assembles business definitions and semantic models, and a Trust Harness that validates answers before delivery. Promethium exposes governed data to any agent, copilot, or application through a single MCP server or REST API, with its Mantra engine powering plain-English agentic analytics. Backed by Insight Partners; led by CEO Prat Moghe.
 image: https://promethium.ai/wp-content/themes/promethium/assets/images/src/favicon.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Promethium MCP Server
-  slug: promethium-mcp-server
 modified: '2026-07-20'
 name: Promethium
 nav: Providers
@@ -135,9 +131,11 @@ score:
   composite: 29.2
   coverage:
     artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -153,8 +151,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/promethium/refs/heads/main/screenshots/promethium-2026-09-02T152139.png
 security:

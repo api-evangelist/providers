@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 194
   human_in_the_loop: 3
@@ -253,7 +253,7 @@ apis:
   description: The WMSLocations API from Invendor — 9 operation(s) for wmslocations.
   name: Invendor WMSLocations API
   slug: invendor-wmslocations-api
-artifact_total: 90
+artifact_total: 89
 collections:
 - collection_type: open
   name: API Collection
@@ -431,7 +431,7 @@ common:
   url: data-model/invendor-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/invendor-mcp.yml
 - group: agent
   title: ''
@@ -481,10 +481,6 @@ created: '2026-07-17'
 description: Invendor is a smart industrial vending and vendor-managed inventory (VMI) platform for industrial distributors and manufacturers, combining weight-sensing (Gravity) and scan-based (Capture) smart cabinets, a Storeroom mobile app, and cloud warehouse software to automate tool and consumable replenishment across customer locations. Invendor (formerly Scanbro, a Techstars company based in Tallinn, Estonia) exposes two public OAS3 REST APIs - a Common API for managing accounts, items, locations, operations, orders, users, and devices, and a Reporting API for scans, consumption, replenishment, and unique-item status data - both secured with OAuth2 (authorization code) through the identity.scanbro.com identity server.
 image: https://invendor.com/wp-content/uploads/2026/06/invendor-social-image.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Invendor MCP Server
-  slug: invendor-mcp-server
 modified: '2026-07-19'
 name: Invendor
 nav: Providers
@@ -504,9 +500,11 @@ score:
   composite: 34.2
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 27.6
@@ -528,8 +526,8 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invendor/refs/heads/main/screenshots/invendor-2026-07-25T222735.png
 security:

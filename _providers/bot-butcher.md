@@ -1,20 +1,21 @@
 ---
 access_model:
   confidence: high
-  label: Freemium · Self-serve signup
+  label: Usage-based · Self-serve signup · First 10 requests each month free
   onboarding: self-serve
-  pricing: freemium
-  public: false
+  pricing: unknown
+  public: true
   source:
   - plans
   - authentication
-  trial: false
+  - security
+  trial: true
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-03'
+  score: 28.6
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,16 +46,11 @@ agentic_access:
 api_count: 1
 apis:
 - baseURL: https://api.botbutcher.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: Submit contact form data to Bot Butcher and receive a JSON classification result indicating whether the message is spam or legitimate. The AI model classifies each message within the context of your s
   name: Bot Butcher Classification API
   slug: bot-butcher-classification-api
-- baseURL: https://api.botbutcher.com
-  baseurl_source: spec
-  description: Submit and retrieve classified messages.
-  name: Bot Butcher Classification API
-  slug: bot-butcher-classification-api
-artifact_total: 11
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -66,6 +62,46 @@ collections:
   name: Bot Butcher Classification API
   slug: open-bot-butcher
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://botbutcher.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://botbutcher.com/documentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://botbutcher.com/documentation
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://botbutcher.com/get-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://botbutcher.com/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://botbutcher.com/login
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://botbutcher.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://botbutcher.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://botbutcher.com/privacy
+- group: build
+  title: ''
+  type: Postman
+  url: https://god.postman.co/run-collection/24192121-47f4e172-5026-4788-b752-cbbc5488a03e
 - group: agent
   title: ''
   type: AgenticAccess
@@ -78,68 +114,101 @@ common:
   title: ''
   type: Authentication
   url: authentication/bot-butcher-authentication.yml
-- group: company
+- group: design
   title: ''
-  type: Website
-  url: https://botbutcher.com/
-- group: docs
+  type: Conventions
+  url: conventions/bot-butcher-conventions.yml
+- group: design
   title: ''
-  type: Documentation
-  url: https://botbutcher.com/
+  type: ErrorCatalog
+  url: errors/bot-butcher-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/bot-butcher-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/bot-butcher-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/bot-butcher-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bot-butcher-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bot-butcher-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/bot-butcher-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2025-01-07'
-description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported accuracy. It supports multi-tenant architectures and is designed for enterprise scalability across vertical SaaS and website builder platforms.
+description: Bot Butcher is an AI-powered spam detection API that uses a fine-tuned large language model to classify contact form submissions as spam or legitimate messages. The service analyzes messages within the context of what each website is about, providing context-aware classification with 99% reported accuracy against the provider's own human-graded benchmark. It supports multi-tenant architectures and is designed for enterprise scalability across vertical SaaS and website builder platforms. The API has two operations — classify a message, retrieve a message by id — authenticated with a per-form x-api-key header, and is sold on a single usage-based plan whose first ten requests each month are free. Bot Butcher is operated by Hillside Lab Inc, a Delaware corporation based in Pasadena, California.
 finops:
 - name: Bot Butcher Finops
   service_category: API
   slug: bot-butcher-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bot-butcher.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-04'
 name: Bot Butcher
 nav: Providers
 network: true
-overview: 'Bot Butcher publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Classification API, and 1 more. Tagged areas include Bots, Spam Detection, Contact Forms, AI Classification, and Security.
+overview: 'Bot Butcher publishes 1 API on the [APIs.io](https://apis.io/) network: Classification API. Tagged areas include Bots, Spam Detection, Contact Forms, AI Classification, and Security.
 
 
-  Bot Butcher''s developer surface includes authentication, documentation, and 3 more developer resources.'
+  Bot Butcher''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, authentication, and 16 more developer resources.'
 plans:
 - name: Bot Butcher Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: bot-butcher-plans-pricing
 random_paper: 6
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Bot Butcher Rate Limits
   slug: bot-butcher-rate-limits
 score:
   band: thin
-  composite: 27.7
+  composite: 36.9
   coverage:
-    artifact_dirs: 9
-    catalog_gap: 74.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 9.2
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 53.1
-    developer_ergonomics: 21.4
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 15.0
+    developer_ergonomics: 47.0
+    discoverability: 68.5
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 27.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 1
+      marker_coverage: 100.0
       total: 1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bot-butcher/refs/heads/main/screenshots/bot-butcher-2026-06-20T173615.png
 security:
 - kind: authentication

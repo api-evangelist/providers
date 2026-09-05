@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 98
   human_in_the_loop: 4
@@ -243,7 +244,7 @@ apis:
   description: VRF Management. A VRF is a project-scoped virtual router resource that defines a collection of customer-managed IP blocks that can be used in BGP peering on one or more virtual networks. Metal Gateway
   name: Packet Host VRFs API
   slug: packet-host-vrfs-api
-artifact_total: 85
+artifact_total: 84
 collections:
 - collection_type: open
   name: API Collection
@@ -443,7 +444,7 @@ common:
   url: cli/packet-host-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/packet-host-mcp.yml
 - group: agent
   title: ''
@@ -469,10 +470,6 @@ created: '2026-07-17'
 description: 'Packet Host, Inc. (packet.com / api.packet.net) was a New York-based bare-metal cloud provider, backed by Battery Ventures, that let developers provision dedicated single-tenant servers on demand through a REST API, CLI, and Terraform. Equinix acquired Packet in 2020 and rebranded the service Equinix Metal, moving the API to api.equinix.com/metal/v1. Equinix Metal was fully retired: End-of-Sale was announced 2024-11-07 and the service was sunset 2026-06-30. This profile captures the Metal API surface (220 operations across 40 tags) and the Packet-to-Equinix-Metal lineage.'
 image: https://raw.githubusercontent.com/packethost/metal-logo/main/Horizontal/Full%20Color/Equinix%20Metal%20Horizontal%20RGB.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Packet Host MCP Server
-  slug: packet-host-mcp-server
 modified: '2026-07-20'
 name: Packet Host
 nav: Providers
@@ -487,9 +484,11 @@ score:
   composite: 41.5
   coverage:
     artifact_dirs: 19
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -511,8 +510,8 @@ score:
       total: 40
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packet-host/refs/heads/main/screenshots/packet-host-2026-08-07T191242.png
 security:

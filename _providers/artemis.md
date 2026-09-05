@@ -1,6 +1,6 @@
 ---
 access_model:
-  confidence: high
+  confidence: medium
   label: Freemium · Self-serve signup
   onboarding: self-serve
   pricing: freemium
@@ -8,13 +8,14 @@ access_model:
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: true
 agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-09-03'
+  score: 27.3
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,7 +76,12 @@ apis:
   description: Near Earth Object Web Service
   name: Artemis NeoWs API
   slug: artemis-neows-api
-artifact_total: 29
+- baseURL: https://techport.nasa.gov/api
+  baseurl_source: declared
+  description: TechPort is NASA's public catalog of its technology development projects, including the technology investments made through the Artemis program. The API returns project records — funding, work locatio
+  name: NASA TechPort API
+  slug: nasa-techport-api
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -99,6 +105,10 @@ collections:
   name: NASA Open APIs (Artemis-relevant subset)
   slug: open-artemis
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nasa.gov/artemis/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -115,10 +125,6 @@ common:
   title: ''
   type: Blog
   url: https://www.nasa.gov/feed/
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/artemisag
 - group: start
   title: Artemis Program Website
   type: Portal
@@ -139,6 +145,74 @@ common:
   title: Privacy Policy
   type: PrivacyPolicy
   url: https://www.nasa.gov/privacy/
+- group: operate
+  title: NASA API catalog issue tracker
+  type: Support
+  url: https://github.com/nasa/api-docs/issues
+- group: commercial
+  title: NASA Media Usage Guidelines
+  type: TermsOfService
+  url: https://www.nasa.gov/nasa-brand-center/images-and-media/
+- group: auth
+  title: NASA Vulnerability Disclosure Policy
+  type: Security
+  url: https://www.nasa.gov/vulnerability-disclosure-policy/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/artemis-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/artemis-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/artemis-problem-types.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/artemis-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/artemis-plans-pricing.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/artemis-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/artemis-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/artemis-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/artemis-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/artemis-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: Candidate MCP tool list derived from the OpenAPI — NASA ships no MCP server
+  type: X-MCPServerCandidate
+  url: mcp/artemis-mcp.yml
+- group: other
+  title: Moon Trek LRO WAC global lunar mosaic — OGC WMTS 1.0.0
+  type: GetCapabilities
+  url: https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/WMTSCapabilities.xml
+- group: other
+  title: api.nasa.gov Mars WMTS catalog — OGC WMTS 1.0.0
+  type: GetCapabilities
+  url: https://api.nasa.gov/mars-wmts/catalog/Mars_Viking_MDIM21_ClrMosaic_global_232m/1.0.0/WMTSCapabilities.xml
 created: '2024-01-15'
 description: NASA's Artemis program is the next generation of lunar exploration, aiming to return humans to the Moon and establish a sustainable presence for future missions to Mars. The program includes the Space Launch System (SLS) rocket, Orion spacecraft, the Lunar Gateway space station, and commercial lunar landers from SpaceX and Blue Origin. NASA's Open APIs provide programmatic access to Artemis-related data, including mission imagery, space weather, and planetary data through api.nasa.gov. The program operates under NASA's Science Mission Directorate and Exploration Systems Development Mission Directorate.
 features:
@@ -158,58 +232,63 @@ finops:
   slug: artemis-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artemis.png
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Artemis
 nav: Providers
 network: true
-overview: 'Artemis publishes 5 APIs on the [APIs.io](https://apis.io/) network, including APOD API, DONKI API, EPIC API, and 2 more. Tagged areas include Exploration, Lunar, Moon, NASA, and Space.
+overview: 'Artemis publishes 6 APIs on the [APIs.io](https://apis.io/) network, including APOD API, DONKI API, EPIC API, and 3 more. Tagged areas include Exploration, Lunar, Moon, NASA, and Space.
 
 
-  Artemis'' developer surface includes authentication, engineering blog, developer portal, documentation, signup flow, and 5 more developer resources.'
+  Artemis'' developer surface includes authentication, engineering blog, developer portal, documentation, signup flow, support, and 21 more developer resources.'
 plans:
 - name: Artemis Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: artemis-plans-pricing
 random_paper: 1
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Artemis Rate Limits
   slug: artemis-rate-limits
 score:
-  band: thin
-  composite: 37.2
+  band: developing
+  composite: 53.7
   coverage:
-    artifact_dirs: 10
-    catalog_gap: 69.0
+    artifact_dirs: 24
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 55.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 16.5
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 48.3
-    developer_ergonomics: 39.3
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 18.2
+    contract_quality: 46.8
+    developer_ergonomics: 45.8
     discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 10.5
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 37.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 7
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 29.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 57.4
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/artemis/refs/heads/main/screenshots/artemis-2026-06-20T172440.png
 security:
 - kind: authentication
@@ -220,6 +299,10 @@ security:
   name: Artemis Domain Security
   slug: artemis-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Artemis Vulnerability Disclosure
+  slug: artemis-vulnerability-disclosure
+  summary_line: Bugcrowd
 slug: artemis
 tags:
 - Exploration

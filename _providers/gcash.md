@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
   name: GCash Mini Program Open API
   slug: gcash-mini-program-open-api
-artifact_total: 6
+artifact_total: 5
 asyncapis:
 - description: ''
   name: Gcash Payments Webhooks
@@ -103,7 +103,7 @@ common:
   url: sandbox/gcash-sandbox.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/gcash-mcp.yml
 - group: design
   title: ''
@@ -137,10 +137,6 @@ created: '2026-07-17'
 description: 'GCash (operated by Mynt / G-Xchange, Inc.) is the Philippines'' largest mobile wallet and e-money platform, offering payments, transfers, QR checkout, bills payment, savings, lending and insurance to tens of millions of users. For developers and businesses it exposes a partner-gated API surface: the GCash API Portal (discover and subscribe to API products such as In-Store QR, Webpay, GLife and Funds Disbursement) and the GCash Mini Program Open API, which lets merchants build in-app mini programs with cashier payments, refunds and user authorization. API requests are secured with per-request RSA256/ECC224 signatures plus an OAuth2 authorization-code user flow, with idempotent payment operations and asynchronous webhook notifications. This profile was seeded as a portfolio lead and enriched from GCash''s public developer documentation.'
 image: https://logo.clearbit.com/gcash.com
 layout: provider
-mcp_servers:
-- description: ''
-  name: GCash MCP Server
-  slug: gcash-mcp-server
 modified: '2026-07-19'
 name: GCash
 nav: Providers
@@ -158,9 +154,11 @@ score:
   composite: 37.3
   coverage:
     artifact_dirs: 11
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -181,8 +179,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/screenshots/gcash-2026-07-25T215519.png
 security:

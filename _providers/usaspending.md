@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -87,7 +87,10 @@ apis:
   description: Subaward (pass-through award) listings scoped to a prime award.
   name: USAspending.gov Subawards API
   slug: usaspending-subawards-api
-artifact_total: 23
+- description: US federal spending data
+  name: USAspending.gov
+  slug: usaspendinggov
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -151,6 +154,10 @@ common:
   title: ''
   type: RateLimits
   url: rate-limits/usaspending-rate-limits.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://api.usaspending.gov/
 created: '2026-07-03'
 description: USAspending.gov is the official open data source of federal spending information operated by the U.S. Department of the Treasury's Bureau of the Fiscal Service, implementing the DATA Act's transparency mandate. The underlying USAspending API (api.usaspending.gov) is a free, public, unauthenticated REST API that exposes federal contracts, grants, loans, direct payments, and other financial assistance awards, along with agency budgets, federal account and Treasury Account Symbol data, recipient profiles, and COVID-19 / disaster emergency relief spending. Most search and listing endpoints accept a POST with a JSON filter object rather than query parameters, given the complexity of the filter combinations; simpler lookup endpoints use GET with path parameters. The API and the usaspending-api server are open source.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/usaspending.png
@@ -162,7 +169,7 @@ network: true
 overview: 'USAspending.gov publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Agency API, Awards Search API, Budget Functions API, and 6 more. Tagged areas include Government, Federal Spending, Open Data, Contracts, and Grants.
 
 
-  USAspending.gov''s developer surface includes documentation and 6 more developer resources.'
+  USAspending.gov''s developer surface includes documentation and 7 more developer resources.'
 random_paper: 9
 rate_limits:
 - limit_count: 3
@@ -173,9 +180,11 @@ score:
   composite: 25.6
   coverage:
     artifact_dirs: 7
+    catalog_earned: 49.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -200,8 +209,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usaspending/refs/heads/main/screenshots/usaspending-2026-09-02T165227.png
 security:

@@ -8,6 +8,8 @@ access_model:
   source:
   - plans
   - authentication
+  - rate-limits
+  - security
   trial: true
   try_now: true
 agent_readiness:
@@ -34,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,7 +71,7 @@ apis:
   description: The Tcp Warming API from Cerebras Systems — 1 operation(s) for tcp warming.
   name: Cerebras Systems Tcp Warming API
   slug: cerebras-systems-tcp-warming-api
-artifact_total: 23
+artifact_total: 22
 collections:
 - collection_type: postman
   name: Cerebras Inference Chat API
@@ -211,7 +213,7 @@ common:
   url: llms/cerebras-systems-llms.txt
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/cerebras-systems-mcp.yml
 - group: auth
   title: ''
@@ -269,10 +271,6 @@ created: '2026-07-17'
 description: 'Cerebras Systems builds the Wafer-Scale Engine (WSE) — the largest computer chip ever made — and the CS-3 systems built around it, delivering AI training and inference at speeds far beyond conventional GPUs. Cerebras Inference is the company''s cloud API: an OpenAI-compatible REST interface at api.cerebras.ai that serves open-weight frontier models (OpenAI GPT-OSS, Gemma 4, Z.ai GLM 4.7) at industry-leading tokens-per-second. Developers authenticate with a bearer API key and call chat/completions, completions, and models endpoints, with streaming, tool calling, structured outputs, vision, prompt caching, and batch inference. Custom model weights can be deployed on dedicated endpoints. Official Python and Node.js SDKs, a Cloud Console with a playground, and coding-tool integrations (VS Code, Cline, Kilo Code, OpenCode) round out the developer surface.'
 image: https://github.com/Cerebras.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Cerebras Systems MCP Server
-  slug: cerebras-systems-mcp-server
 modified: '2026-07-18'
 name: Cerebras Systems
 nav: Providers
@@ -292,19 +290,21 @@ rate_limits:
   slug: cerebras-systems-rate-limits
 score:
   band: strong
-  composite: 61.8
+  composite: 61.1
   coverage:
     artifact_dirs: 22
+    catalog_earned: 49.0
+    catalog_earned_first_party: 12.0
     catalog_gap: 66.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.7
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 53.1
-    developer_ergonomics: 75.6
+    developer_ergonomics: 72.0
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 52.6
@@ -319,8 +319,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

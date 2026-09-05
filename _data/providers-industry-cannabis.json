@@ -1,6 +1,6 @@
 {
- "total": 25,
- "shown": 25,
+ "total": 26,
+ "shown": 26,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -92,8 +92,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -137,8 +137,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -189,8 +189,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -241,8 +241,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -293,8 +293,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -349,8 +349,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -394,8 +394,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -439,8 +439,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -483,8 +483,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 20.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -517,8 +517,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Dutchie",
@@ -537,8 +537,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -589,8 +589,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -633,8 +633,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -661,6 +661,50 @@
      "rank": 13
     },
     {
+     "name": "Willie's Reserve",
+     "slug": "willie-s-reserve",
+     "description": "Willie's Reserve is the cannabis brand founded around Willie Nelson's name and legacy, selling premium cannabis products direct to consumers from williesreserve.com. It is a consumer products company rather than a software vendor, and it publishes no developer program, no OpenAPI and no SDKs. It does, however, operate a real and unusually complete agent commerce surface: a live, anonymously reachable Model Context Protocol endpoint at /api/ucp/mcp implementing the Universal Commerce Protocol shopping service, a machine-readable UCP merchant profile at /.well-known/ucp, an /agents.md instruction document mirrored at /llms.txt, a dedicated agentic-discovery sitemap, and robots.txt policy language requiring human approval before any agent completes a payment.",
+     "score": 20.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 16.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": "platform"
+     },
+     "rank": 14
+    },
+    {
      "name": "Binske",
      "slug": "binske",
      "description": "binske is a Colorado-born premium cannabis brand founded in 2015, producing flower and pre-rolls, live resin and live hash rosin concentrates, vape carts and all-in-ones, and edibles including chocolate bars and fruit gummies, sold through licensed dispensaries as a multi-state brand across Colorado, Florida, Michigan, New Jersey, New York and Washington. The company develops proprietary genetics with ONI Seed Co. and built its chocolate line around rare white cacao sourced in Peru, with packaging art by UK artist Martin O'Neill. binske operates no developer program and publishes no API of its own; its only machine-callable surface is the Shopify-native Universal Commerce Protocol MCP endpoint served from its direct-to-consumer storefront at shopbinske.com, which exposes catalog search, cart and checkout to agents and requires explicit human approval before payment.",
@@ -678,8 +722,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -703,7 +747,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Herb",
@@ -723,8 +767,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -755,7 +799,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     }
    ]
   },
@@ -785,8 +829,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -817,7 +861,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Jane (iHeartJane)",
@@ -837,53 +881,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "Green Thumb Industries",
-     "slug": "green-thumb-industries",
-     "description": "A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multiple states.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-thumb-industries/refs/heads/main/screenshots/green-thumb-industries-2026-06-20T182354.png",
-     "score": 7.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 35.2,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -910,25 +909,25 @@
      "rank": 18
     },
     {
-     "name": "Central Coast Agriculture",
-     "slug": "central-coast-agriculture",
-     "description": "Central Coast Agriculture, Inc. (CCA) is a vertically integrated California cannabis cultivator and manufacturer headquartered in the Santa Ynez Valley north of Santa Barbara, best known for its Raw Garden brand of fresh-frozen concentrates, vapes and infused pre-rolls. The company describes itself as a progressive farm focused on utilizing science and sustainability to grow quality, modern crops, and operates its own farming, genetics/breeding and extraction programs. It is a physical agricultural and consumer-packaged-goods business: it publishes a corporate site, a consumer brand site and a wholesale ordering page, but no public API, developer portal, SDK or machine-readable specification of any kind.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-coast-agriculture/refs/heads/main/screenshots/central-coast-agriculture-2026-09-02T145024.png",
-     "score": 7.1,
+     "name": "Green Thumb Industries",
+     "slug": "green-thumb-industries",
+     "description": "A leading U.S. cannabis consumer packaged goods company operating a nationwide portfolio of retail dispensaries under the RISE brand and a collection of cannabis brands. Operates manufacturing facilities and retail locations across multiple states.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-thumb-industries/refs/heads/main/screenshots/green-thumb-industries-2026-06-20T182354.png",
+     "score": 7.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 35.2,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -955,6 +954,51 @@
      "rank": 19
     },
     {
+     "name": "Central Coast Agriculture",
+     "slug": "central-coast-agriculture",
+     "description": "Central Coast Agriculture, Inc. (CCA) is a vertically integrated California cannabis cultivator and manufacturer headquartered in the Santa Ynez Valley north of Santa Barbara, best known for its Raw Garden brand of fresh-frozen concentrates, vapes and infused pre-rolls. The company describes itself as a progressive farm focused on utilizing science and sustainability to grow quality, modern crops, and operates its own farming, genetics/breeding and extraction programs. It is a physical agricultural and consumer-packaged-goods business: it publishes a corporate site, a consumer brand site and a wholesale ordering page, but no public API, developer portal, SDK or machine-readable specification of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/central-coast-agriculture/refs/heads/main/screenshots/central-coast-agriculture-2026-09-02T145024.png",
+     "score": 7.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
      "name": "Curaleaf Holdings",
      "slug": "curaleaf",
      "description": "The largest cannabis company in the world by revenue operating cultivation, processing, and retail dispensary operations. Operates in multiple U.S. states and international markets producing cannabis flower, pre-rolls, edibles, and vape products under leading brands.",
@@ -972,8 +1016,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1004,7 +1048,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Baker Technologies",
@@ -1024,53 +1068,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "Eaze",
-     "slug": "eaze",
-     "description": "Eaze is a California-based cannabis marketplace and delivery platform that connects licensed dispensaries and cannabis brands with adult consumers, offering online ordering and same-day delivery of flower, edibles, vapes, and related products across the state. Founded in 2014 and headquartered in San Francisco, Eaze operates a consumer marketplace plus a technology and logistics stack for compliant retail. Backed by 500 Global and DCM Ventures, it was added to the API Evangelist network as a venture-portfolio lead. Eaze does not publish a public developer API, SDKs, or a developer portal; its api.eaze.com host is an internal, bot-protected surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eaze/refs/heads/main/screenshots/eaze-2026-07-25T212725.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1097,11 +1096,11 @@
      "rank": 22
     },
     {
-     "name": "Duane Morris",
-     "slug": "duane-morris",
-     "description": "Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as \"a law firm with more than 900 attorneys in offices across the United States and internationally\" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duane-morris/refs/heads/main/screenshots/duane-morris-2026-06-20T180307.png",
-     "score": 4.5,
+     "name": "Eaze",
+     "slug": "eaze",
+     "description": "Eaze is a California-based cannabis marketplace and delivery platform that connects licensed dispensaries and cannabis brands with adult consumers, offering online ordering and same-day delivery of flower, edibles, vapes, and related products across the state. Founded in 2014 and headquartered in San Francisco, Eaze operates a consumer marketplace plus a technology and logistics stack for compliant retail. Backed by 500 Global and DCM Ventures, it was added to the API Evangelist network as a venture-portfolio lead. Eaze does not publish a public developer API, SDKs, or a developer portal; its api.eaze.com host is an internal, bot-protected surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eaze/refs/heads/main/screenshots/eaze-2026-07-25T212725.png",
+     "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1109,20 +1108,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1149,56 +1141,11 @@
      "rank": 23
     },
     {
-     "name": "Tilray Brands",
-     "slug": "tilray-brands",
-     "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
-     "score": 4.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 24
-    },
-    {
-     "name": "Hound Labs",
-     "slug": "hound-labs",
-     "description": "Hound Labs was a breath-measurement company founded in 2014 in the San Francisco Bay Area that built the HOUND CANNABIS BREATHALYZER, an ultra-sensitive analytical test that identifies THC molecules in breath down to picogram levels and so narrows cannabis detection to a two-to-three hour recent-use window rather than the days-to-weeks window of urine testing. The company shipped its first commercial product, the HOUND CANNABIS BREATHALYZER Collect + Send, in 2023 into construction, energy, gaming, manufacturing and transportation employers, pairing the handheld device with the Hound Labs Retriever results portal for paperless chain-of-custody and result delivery. The business now trades as Hound Diagnostics, whose about page states it is \"formerly known as Hound Labs\" and which sells Hound Breathalyzer, Hound Screens (a customizable panel covering cannabis plus up to nineteen substances), Hound Chart (a HIPAA-compliant cloud results platform) and Hound Check background screening. The original houndlabs.com host has been decommissioned and now answers a Flywheel \"Unknown Domain\" 404 behind a TLS certificate that does not cover the name; neither the retired domain nor the live successor site publishes a developer program, API reference, SDK, or machine-readable contract of any kind, so the products are sold and delivered as devices plus a customer-facing web dashboard rather than as a programmable surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hound-labs/refs/heads/main/screenshots/hound-labs-2026-09-02T145746.png",
-     "score": 4.3,
+     "name": "Duane Morris",
+     "slug": "duane-morris",
+     "description": "Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as \"a law firm with more than 900 attorneys in offices across the United States and internationally\" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/duane-morris/refs/heads/main/screenshots/duane-morris-2026-06-20T180307.png",
+     "score": 4.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1206,13 +1153,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-03",
-     "schema_version": "0.18.2",
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1243,7 +1190,104 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 24
+    },
+    {
+     "name": "Tilray Brands",
+     "slug": "tilray-brands",
+     "description": "A global lifestyle and consumer packaged goods company operating across cannabis, beverage alcohol, and wellness segments. One of the largest cannabis companies worldwide with cultivation, processing, and distribution operations spanning North America, Europe, and beyond.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tilray-brands/refs/heads/main/screenshots/tilray-brands-2026-06-20T195356.png",
+     "score": 4.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 25
+    },
+    {
+     "name": "Hound Labs",
+     "slug": "hound-labs",
+     "description": "Hound Labs was a breath-measurement company founded in 2014 in the San Francisco Bay Area that built the HOUND CANNABIS BREATHALYZER, an ultra-sensitive analytical test that identifies THC molecules in breath down to picogram levels and so narrows cannabis detection to a two-to-three hour recent-use window rather than the days-to-weeks window of urine testing. The company shipped its first commercial product, the HOUND CANNABIS BREATHALYZER Collect + Send, in 2023 into construction, energy, gaming, manufacturing and transportation employers, pairing the handheld device with the Hound Labs Retriever results portal for paperless chain-of-custody and result delivery. The business now trades as Hound Diagnostics, whose about page states it is \"formerly known as Hound Labs\" and which sells Hound Breathalyzer, Hound Screens (a customizable panel covering cannabis plus up to nineteen substances), Hound Chart (a HIPAA-compliant cloud results platform) and Hound Check background screening. The original houndlabs.com host has been decommissioned and now answers a Flywheel \"Unknown Domain\" 404 behind a TLS certificate that does not cover the name; neither the retired domain nor the live successor site publishes a developer program, API reference, SDK, or machine-readable contract of any kind, so the products are sold and delivered as devices plus a customer-facing web dashboard rather than as a programmable surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hound-labs/refs/heads/main/screenshots/hound-labs-2026-09-02T145746.png",
+     "score": 4.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-04",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 26
     }
    ]
   }

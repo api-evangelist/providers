@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - sandbox
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: wss://mds.qfex.com
@@ -61,7 +63,7 @@ apis:
   description: The user API from Qfex — 15 operation(s) for user.
   name: Qfex user API
   slug: qfex-user-api
-artifact_total: 16
+artifact_total: 15
 asyncapis:
 - description: Single WebSocket gateway for all QFEX real‑time streams. Clients publish subscription and order commands here, and receive all updates over the same endpoint.
   name: QFEX Multiplexed WebSocket API
@@ -152,7 +154,7 @@ common:
   url: https://status.qfex.com
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/qfex-mcp.yml
 - group: agent
   title: ''
@@ -218,10 +220,6 @@ created: '2026-07-17'
 description: QFEX is the first 24/7 exchange built exclusively for US equities, commodities, and FX, offering high-leverage perpetual futures on traditional assets without a broker. Founded by former Tower Research and Citadel engineers who met studying mathematics at Cambridge, QFEX gives retail and institutional traders direct, high-frequency access to markets around the clock. Its developer platform exposes a REST API for historic market data and account operations, two multiplexed WebSocket gateways (market data and trading) documented with AsyncAPI 3.0, and a JSON-native CLI purpose-built for agentic trading workflows. Authentication uses HMAC-SHA256 request signing with public/secret API key pairs.
 image: https://qfex.com/qfex-logo-with-text-for-metadata.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Qfex MCP Server
-  slug: qfex-mcp-server
 modified: '2026-07-20'
 name: Qfex
 nav: Providers
@@ -239,9 +237,11 @@ score:
   composite: 53.6
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 44.7
@@ -268,8 +268,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/screenshots/qfex-2026-08-17T081412.png
 security:

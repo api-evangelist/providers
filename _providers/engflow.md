@@ -33,13 +33,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: The EngFlow cluster gRPC / Protocol Buffers API surface — cluster info, IAM (roles/policies/users/groups), authentication, event store and result store build-event streaming, secret management, and no
   name: EngFlow Cluster API (gRPC)
   slug: engflow-cluster-api-grpc
-artifact_total: 4
+artifact_total: 3
 common:
 - group: operate
   title: ''
@@ -147,7 +147,7 @@ common:
   url: data-model/engflow-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/engflow-mcp.yml
 - group: agent
   title: ''
@@ -165,10 +165,6 @@ created: '2026-07-17'
 description: EngFlow provides remote build execution, remote caching, CI runners, and a Build & Test UI that accelerate large-scale software builds for Bazel, BuildStream, Goma, Pants, Soong, CMake, and Buck2. EngFlow clusters expose a gRPC / Protocol Buffers API surface — the open Remote Execution API (REAPI v2) and Remote Asset API, plus EngFlow's own cluster, IAM, authentication, event store, result store, secret, notification, and resource-usage services, all published as Protocol Buffer interface definitions in the EngFlow/engflowapis repository. Clusters authenticate via mTLS, cluster-issued JWT bearer tokens, OIDC federation, SAML, GitHub tokens, and basic auth, and provision users over SCIM 2.0. EngFlow was founded by former Google/Bazel engineers and is backed by a16z.
 image: https://avatars.githubusercontent.com/u/61729484?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: EngFlow MCP Server
-  slug: engflow-mcp-server
 modified: '2026-07-19'
 name: EngFlow
 nav: Providers
@@ -183,9 +179,11 @@ score:
   composite: 42.1
   coverage:
     artifact_dirs: 15
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 52.6
@@ -204,8 +202,8 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engflow/refs/heads/main/screenshots/engflow-2026-07-25T213344.png
 security:

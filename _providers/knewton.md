@@ -7,6 +7,7 @@ access_model:
   public: false
   source:
   - authentication
+  - '{''url'': ''https://www.knewton.com/'', ''status'': 302, ''note'': ''declared website redirects to https://www.wiley.com/en-us/grow/teach-learn/teacher-resources/courseware/knewton-alta/ — a different registrable domain (knewton.com -> wiley.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,13 +34,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: 'The Knewton Enterprise Platform REST API (v0) that partner learning applications integrate with to deliver continuously adaptive learning. Partners create anonymized user accounts, establish learning '
   name: Knewton Enterprise Platform API
   slug: enterprise-platform
-artifact_total: 6
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -127,7 +128,7 @@ common:
   url: well-known/knewton-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/knewton-mcp.yml
 - group: agent
   title: ''
@@ -145,10 +146,6 @@ created: '2026-07-17'
 description: Knewton is an adaptive learning technology company founded in 2008 in New York City and acquired by John Wiley & Sons in 2019, where it now ships as the Knewton alta courseware line. Its developer-facing product is the Knewton Enterprise Platform API, documented at dev.knewton.com, which lets partner learning applications send learner interaction and performance data to Knewton and receive continuously personalized content recommendations and predictive analytics in return. The platform maps the pedagogical relationships between concepts in a partner catalog into a knowledge graph, then uses it to recommend modules, track goal status and progress, and generate predicted scores. The REST API is versioned at v0, uses OAuth 2.0 client-credentials tokens, and exposes accounts, learning instances, registrations, scoped goals, graded and ungraded student events, recommendations, status-and-progress metrics, and predicted score.
 image: https://dev.knewton.com/knewton-theme/assets/images/layout/logo-kw.svg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Knewton MCP Server
-  slug: knewton-mcp-server
 modified: '2026-07-19'
 name: Knewton
 nav: Providers
@@ -172,9 +169,11 @@ score:
   composite: 32.1
   coverage:
     artifact_dirs: 16
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 21.1
@@ -196,8 +195,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knewton/refs/heads/main/screenshots/knewton-2026-07-25T223953.png
 security:

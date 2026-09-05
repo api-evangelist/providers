@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ apis:
   description: The Usage API from Compresr — 1 operation(s) for usage.
   name: Compresr Usage API
   slug: compresr-usage-api
-artifact_total: 62
+artifact_total: 61
 collections:
 - collection_type: open
   name: API Collection
@@ -266,6 +266,10 @@ collections:
   name: Compresr Platform Admin Usage API
   slug: open-compresr-usage-api
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/compresr-capability-edges.yml
 - group: start
   title: ''
   type: DeveloperPortal
@@ -336,7 +340,7 @@ common:
   url: cli/compresr-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/compresr-mcp.yml
 - group: agent
   title: ''
@@ -406,10 +410,6 @@ finops:
   slug: compresr-finops
 image: https://compresr.ai/logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Compresr MCP Server
-  slug: compresr-mcp-server
 modified: '2026-07-18'
 name: Compresr
 nav: Providers
@@ -417,7 +417,7 @@ network: true
 overview: 'Compresr publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin - Whitelist API, API Keys API, and 24 more. Tagged areas include LLM, Context Compression, Prompt Engineering, RAG, and AI Infrastructure.
 
 
-  Compresr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 26 more developer resources.'
+  Compresr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 27 more developer resources.'
 plans:
 - name: Compresr Plans
   plan_count: 2
@@ -432,9 +432,11 @@ score:
   composite: 60.7
   coverage:
     artifact_dirs: 26
+    catalog_earned: 60.0
+    catalog_earned_first_party: 20.0
     catalog_gap: 55.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 73.7
@@ -456,8 +458,8 @@ score:
       total: 27
     mcp: derived
     skills: first-party
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:

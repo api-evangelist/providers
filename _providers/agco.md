@@ -1,20 +1,21 @@
 ---
 access_model:
-  confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +23,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -31,10 +32,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 28.7
-  scored_at: '2026-09-03'
+  score: 36.5
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 3
   slug: agco-agentic-access
   summary_line: 3 operations
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.agcocorp.com
   baseurl_source: declared
@@ -59,7 +60,12 @@ apis:
   description: Retrieve machine telemetry and sensor data.
   name: agco Telemetry API
   slug: agco-telemetry-api
-artifact_total: 38
+- baseURL: https://secure.agco-ats.com
+  baseurl_source: declared
+  description: 'The AGCO Technical Support (ATS) API behind AGCO''s Electronic Diagnostic Tool (EDT) and dealer software distribution platform. Publishes 285 operations across 55 tags covering authorization codes and '
+  name: AGCO ATS API
+  slug: agco-ats-api
+artifact_total: 40
 collections:
 - collection_type: open
   name: API Collection
@@ -109,10 +115,6 @@ common:
   title: ''
   type: GitHubOrganization
   url: https://github.com/agco
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.agcocorp.com/legal/privacy-policy.html
 - group: company
   title: ''
   type: Blog
@@ -165,7 +167,84 @@ common:
   title: ''
   type: Vocabulary
   url: vocabulary/agco-vocabulary.yaml
-description: AGCO is a global leader in the design, manufacture, and distribution of agricultural machinery and precision ag technology. The AGCO AgCommand API enables approved third-party developers and service providers to access machine telemetry data, location tracking, and performance metrics from AGCO Connect-ready equipment including Fendt, Massey Ferguson, Challenger, and Valtra brands.
+- group: build
+  title: ''
+  type: Packages
+  url: packages/agco-packages.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/agco-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/agco-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/agco-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/agco-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/agco-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/agco-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/agco-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/agco-ats-api-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/agco-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/agco-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://secure.agco-ats.com/swagger
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://github.com/agco/agco-json-api-profiles
+- group: operate
+  title: ''
+  type: Support
+  url: https://agcocorp.support/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.agcocorp.com/us/en/home/compliance-center/privacy-statement/privacy-statement-en.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.agcocorp.com/us/en/home/compliance-center/legal.html
+- group: start
+  title: ''
+  type: Login
+  url: https://access.agcocorp.com/en/
+- group: company
+  title: ''
+  type: Website
+  url: https://www.agcocorp.com/
+created: '2026-05-04'
+description: 'AGCO is a global manufacturer of agricultural machinery and precision-ag technology — Fendt, Massey Ferguson, Valtra, Challenger, GSI and PTx. Its one publicly reachable machine-readable contract is the AGCO Technical Support (ATS) API at secure.agco-ats.com: a Swagger 2.0 document with 285 operations across 55 tags, served with a public Swagger UI, covering dealer records, authorization codes and vouchers, software package distribution to Electronic Diagnostic Tool (EDT) installations, a content submission and release pipeline, translation workflow, and AGCO Power aftermarket services. AGCO also publishes three first-party JSON:API profiles standardising filtering, search and change events. The AgCommand telematics API announced in 2015 for third-party developers has no reachable public documentation: the developer portal at developer.agcocorp.com no longer publishes and api.agcocorp.com is an API Gateway that authenticates every path.'
 examples:
 - key_count: 7
   name: Agco Location Example
@@ -223,20 +302,20 @@ jsonld:
   property_count: 24
   slug: agco-telematics-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Agco
 nav: Providers
 network: true
-overview: 'Agco publishes 3 APIs on the [APIs.io](https://apis.io/) network: Locations API, Machines API, and Telemetry API. Tagged areas include Fortune 500.
+overview: 'Agco publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Locations API, Machines API, Telemetry API, and 1 more. Tagged areas include Fortune 500, Agriculture, Farm Equipment, Manufacturing, and Telematics.
 
 
   The Agco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Agco''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, code examples, and 17 more developer resources.'
+  Agco''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, code examples, API reference, documentation, and 33 more developer resources.'
 plans:
 - name: Agco Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: agco-plans-pricing
 press:
 - date: '2026-05-25'
@@ -256,7 +335,7 @@ press:
   url: https://www.prnewswire.com/news-releases/agco-to-showcase-full-line-innovation-and-smart-farming-technologies-at-agritechnica-2025-302604586.html
 random_paper: 11
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Agco Rate Limits
   slug: agco-rate-limits
 rules:
@@ -282,36 +361,45 @@ rules:
     warn: 11
   slug: agco-spectral-rules
 score:
-  band: thin
-  composite: 36.4
+  band: developing
+  composite: 45.8
   coverage:
-    artifact_dirs: 19
-    catalog_gap: 61.5
+    artifact_dirs: 30
+    catalog_earned: 57.5
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 9.4
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 28.8
+    access_clarity: 31.6
+    commercial_clarity: 31.6
+    contract_governance: 47.0
     contract_quality: 59.6
-    developer_ergonomics: 45.2
-    discoverability: 53.7
-    governance: 28.8
-    operational_transparency: 7.9
+    developer_ergonomics: 58.9
+    discoverability: 68.5
+    governance: 47.0
+    operational_transparency: 2.6
   previous_composite: 36.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png
 security:
+- kind: authentication
+  name: Agco Ats Authentication
+  slug: agco-ats-authentication
+  summary_line: 0 schemes
 - kind: authentication
   name: Agco Authentication
   slug: agco-authentication
@@ -323,6 +411,12 @@ security:
 slug: agco
 tags:
 - Fortune 500
+- Agriculture
+- Farm Equipment
+- Manufacturing
+- Telematics
+- Precision Agriculture
+- Diagnostics
 use_cases:
 - description: Build web and mobile dashboards that display real-time machine location, performance, and fuel status for farm operators.
   name: Farm Management Dashboard
@@ -334,5 +428,5 @@ use_cases:
   name: Fuel Management
 - description: Integrate AGCO machine data into existing farm management or precision agriculture software platforms.
   name: Telematics Integration
-website: https://get.agcoconnect.com/
+website: https://www.agcocorp.com/
 ---

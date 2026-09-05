@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -30,12 +30,12 @@ agent_readiness:
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.6
-  scored_at: '2026-09-03'
+  score: 35.4
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 2
@@ -200,7 +200,7 @@ apis:
   description: The Web Hooks API from Fat Zebra — 2 operation(s) for web hooks.
   name: Fat Zebra Web Hooks API
   slug: fat-zebra-web-hooks-api
-artifact_total: 41
+artifact_total: 40
 asyncapis:
 - description: ''
   name: Fat Zebra Webhooks
@@ -219,6 +219,10 @@ collections:
   name: Fat Zebra Partner API
   slug: open-fat-zebra-partner
 common:
+- group: other
+  title: ''
+  type: CapabilityMap
+  url: capabilities/fat-zebra-capability-edges.yml
 - group: other
   title: ''
   type: Overlay
@@ -317,7 +321,7 @@ common:
   url: well-known/fat-zebra-well-known.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/fat-zebra-mcp.yml
 - group: build
   title: ''
@@ -403,10 +407,6 @@ created: '2026-07-24'
 description: Fat Zebra is an Australian payments company (founded 2012, Sydney) providing a card-present and card-not-present payment gateway and processing platform for merchants, ISOs, and software platforms across Australia and New Zealand. Its API-first Gateway handles Visa, Mastercard, and Amex purchases, authorizations and captures, refunds and voids, card tokenization, 3D Secure, recurring payment plans, direct debits and direct credits over local bank rails, chargeback handling, batch processing, and hosted payment pages (PayNow), alongside wallet acceptance for Apple Pay, Google Pay, and Click to Pay. A separate Partner API lets platforms and ISOs create and board their own sub-merchants onto acquirer connections programmatically. The developer surface is a genuine, well-documented ReadMe hub at docs.fatzebra.com with four downloadable OpenAPI definitions, and the runtime platform is branded pmnts (gateway.pmnts.io). Authentication is HTTP Basic using a username and API token.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-mcp_servers:
-- description: ''
-  name: Fat Zebra MCP Server
-  slug: fat-zebra-mcp-server
 modified: '2026-07-24'
 name: Fat Zebra
 nav: Providers
@@ -417,16 +417,18 @@ overview: 'Fat Zebra publishes 31 APIs on the [APIs.io](https://apis.io/) networ
   The Fat Zebra catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 38 more developer resources.'
+  Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 39 more developer resources.'
 random_paper: 10
 score:
   band: strong
   composite: 56.4
   coverage:
     artifact_dirs: 23
+    catalog_earned: 40.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 46.1
@@ -454,8 +456,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 58.6
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fat-zebra/refs/heads/main/screenshots/fat-zebra-2026-07-25T214245.png
 security:

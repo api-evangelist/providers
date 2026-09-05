@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - baseURL: https://api.a.loconav.com/integration/api/v1
@@ -96,7 +98,7 @@ apis:
   description: The Video Telematics VT / Videos API from LocoNav — 2 operation(s) for video telematics vt / videos.
   name: LocoNav Video Telematics VT / Videos API
   slug: loconav-video-telematics-vt-videos-api
-artifact_total: 31
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI description of LocoNav alert and live-location webhooks derived from the published Postman webhook examples. LocoNav POSTs these events to a partner-registered receiver URL.
   name: LocoNav Webhooks
@@ -219,7 +221,7 @@ common:
   url: security/loconav-domain-security.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/loconav-mcp.yml
 - group: agent
   title: ''
@@ -245,10 +247,6 @@ created: '2026-07-17'
 description: 'LocoNav is an AI- and IoT-powered GPS vehicle tracking and smart fleet management platform used across 50+ countries, integrating 2,200+ device and sensor types to track vehicles and assets in real time. Its LocoNav Integration API exposes REST endpoints and webhooks for fleet telematics: telematics data (sensor readings, GPS location, distance, timelines, video and live streams), CRUD management of drivers, vehicles, trips, geofence polygons and users, driver-vehicle assignment, vehicle scorecards, immobilization, live share links, and alert subscriptions. Real-time alert and live-location webhooks push events such as overspeed, harsh braking/acceleration, geofence, fatigue, crash, fuel-theft, anti-theft and device-offline. Authentication is a user-level token in the User-Authentication header; all listing endpoints are paginated and time parameters use epoch seconds.'
 image: https://loconav.com/marketing_pages/assets/images/loconav-logo.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: LocoNav MCP Server
-  slug: loconav-mcp-server
 modified: '2026-07-20'
 name: LocoNav
 nav: Providers
@@ -267,19 +265,21 @@ rate_limits:
   slug: loconav-rate-limits
 score:
   band: developing
-  composite: 48.7
+  composite: 47.9
   coverage:
     artifact_dirs: 20
+    catalog_earned: 45.0
+    catalog_earned_first_party: 8.0
     catalog_gap: 70.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.8
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 64.0
-    developer_ergonomics: 51.8
+    developer_ergonomics: 48.2
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 31.6
@@ -293,8 +293,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loconav/refs/heads/main/screenshots/loconav-2026-07-25T225438.png
 security:

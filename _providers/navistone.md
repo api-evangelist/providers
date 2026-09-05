@@ -1,12 +1,15 @@
 ---
 access_model:
   confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Requires approval
+  onboarding: approval
   pricing: unknown
   public: false
   source:
+  - plans
   - authentication
+  - rate-limits
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -87,7 +90,7 @@ arazzos:
 - description: Onboard a client, create a direct-mail campaign, add ZIP geo-targeting, and read output.
   name: NaviStone campaign launch
   slug: navistone-campaign-launch
-artifact_total: 24
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -179,7 +182,7 @@ common:
   url: lifecycle/navistone-lifecycle.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/navistone-mcp.yml
 - group: other
   title: ''
@@ -225,10 +228,6 @@ created: '2026-07-17'
 description: NaviStone is a direct-mail marketing technology company that turns first-party and "unknown" website audiences into addressable postcard campaigns for consumer brands. Its platform helps businesses prospect (lookalike audiences), retain (mailing customers who opt out of digital channels), and retarget (postcards that amplify campaign performance), claiming up to a 70% increase in return on marketing spend. NaviStone's platform API (implemented on the Zazmic platform and published at docs.navistone.com) manages clients, website domains, audience segments, campaigns tied to Modern Postcard creative IDs, ZIP-code and state geo-targeting, and output tracking, all secured with an X-API-Key header. NaviStone is backed by Bullpen Capital and works with brands including Sleep Number, Vitamix, and Hey Dude across retail, travel, beauty, apparel, and home services.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/navistone.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: NaviStone MCP Server
-  slug: navistone-mcp-server
 modified: '2026-08-13'
 name: NaviStone
 nav: Providers
@@ -251,9 +250,11 @@ score:
   composite: 36.9
   coverage:
     artifact_dirs: 21
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 23.7
@@ -275,8 +276,8 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navistone/refs/heads/main/screenshots/navistone-2026-08-07T184732.png
 security:

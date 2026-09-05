@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: high
-  label: Enterprise · Self-serve signup
-  onboarding: self-serve
+  confidence: medium
+  label: Enterprise
+  onboarding: unknown
   pricing: enterprise
   public: false
   source:
@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
   description: Equipment maintenance scheduling and records
   name: Applied Materials Maintenance API
   slug: applied-materials-maintenance-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -66,6 +66,38 @@ collections:
   name: Applied Materials Management Equipment Maintenance API
   slug: open-applied-materials-maintenance-api
 common:
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/applied-materials-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/applied-materials-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/applied-materials-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/applied-materials-finops.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://appliedsmartfactory.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://appliedsmartfactory.com/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://appliedsmartfactory.com/support/
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/applied-materials-domain-security.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -81,8 +113,27 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.applied-materials.com
-description: Applied Materials is a global leader in materials engineering solutions used to produce virtually every new chip and advanced display in the world.
+  url: https://www.appliedmaterials.com
+coverage:
+  checked: '2026-09-04'
+  detail: Applied Materials runs no developer program at all - api., developer., developers., docs., portal., customer., sso. and login..appliedmaterials.com every one returns NXDOMAIN, and the two OpenAPI files already in this repo describe an api.applied-materials.com host that is not an Applied Materials domain (the company's registrable domain is appliedmaterials.com, CAA iodef mailto:dnsadmin@amat.com), so they are API Evangelist scaffolds and are now stamped x-provenance as such.
+  evidence:
+  - status: 403
+    url: https://www.appliedmaterials.com/
+  - status: 403
+    url: https://www.appliedmaterials.com/robots.txt
+  - status: 200
+    url: https://appliedsmartfactory.com/llms.txt
+  - status: 404
+    url: https://appliedsmartfactory.com/.well-known/api-catalog
+  - status: 404
+    url: https://appliedsmartfactory.com/.well-known/agent-card.json
+  - status: 0
+    url: https://api.applied-materials.com/
+  reason: no-developer-program
+  state: none
+created: '2026-05-04'
+description: 'Applied Materials, Inc. (NASDAQ: AMAT) is the global leader in materials engineering solutions used to produce virtually every new chip and advanced display in the world, supplying deposition, etch, chemical mechanical planarization, ion implantation, metrology and inspection equipment to semiconductor, display and adjacent markets. Its Applied SmartFactory business unit (appliedsmartfactory.com) ships the software side of that portfolio - PROMIS and 300works MES, SPC and process-quality, scheduling, dispatching and material-control products for fabs. Applied Materials publishes no public developer portal, API reference or machine-readable API contract; software is delivered under enterprise licence and support runs through customer portals.'
 examples:
 - key_count: 8
   name: Equipment Example
@@ -106,7 +157,7 @@ jsonld:
   property_count: 0
   slug: applied-materials-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-04'
 name: Applied Materials
 nav: Providers
 network: true
@@ -116,7 +167,7 @@ overview: 'Applied Materials publishes 2 APIs on the [APIs.io](https://apis.io/)
   The Applied Materials catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Applied Materials'' developer surface includes authentication and 3 more developer resources.'
+  Applied Materials'' developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
 plans:
 - name: Applied Materials Plans Pricing
   plan_count: 1
@@ -166,38 +217,44 @@ rules:
   slug: applied-materials-spectral-rules
 score:
   band: thin
-  composite: 31.3
+  composite: 28.4
   coverage:
-    artifact_dirs: 17
-    catalog_gap: 60.5
+    artifact_dirs: 20
+    catalog_earned: 74.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 40.5
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -2.9
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 28.8
-    contract_quality: 70.7
-    developer_ergonomics: 11.9
-    discoverability: 44.4
+    contract_quality: 26.9
+    developer_ergonomics: 19.0
+    discoverability: 59.3
     governance: 28.8
-    operational_transparency: 5.3
+    operational_transparency: 21.1
   previous_composite: 31.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 2
+      marker_coverage: 100.0
       total: 2
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 security:
 - kind: authentication
   name: Applied Materials Authentication
   slug: applied-materials-authentication
   summary_line: http · 1 scheme
+- kind: domain-security
+  name: Applied Materials Domain Security
+  slug: applied-materials-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: applied-materials
 tags:
 - Semiconductors
@@ -206,5 +263,5 @@ tags:
 - Fab Operations
 - Materials Engineering
 - Fortune 500
-website: https://www.applied-materials.com
+website: https://appliedsmartfactory.com
 ---

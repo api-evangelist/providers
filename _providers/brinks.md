@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: The 24SEVEN ACCESS customer portal enables businesses to digitally manage Brink's cash management services including tracking cash deposits, ordering change, and monitoring operations through mobile d
@@ -48,7 +48,7 @@ common:
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/LiveWatch
+  url: https://github.com/brinks-incorporated
 - group: company
   title: ''
   type: LinkedIn
@@ -65,6 +65,58 @@ common:
   title: ''
   type: InvestorRelations
   url: https://investors.brinks.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/brinks-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/brinks-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/brinks-llms.txt
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://blubeempayments.com/the-basics/pricing
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://us.brinks.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://us.brinks.com/terms-of-use
+- group: operate
+  title: ''
+  type: Support
+  url: https://us.brinks.com/contact
+- group: company
+  title: ''
+  type: Blog
+  url: https://us.brinks.com/insights
+- group: start
+  title: ''
+  type: Login
+  url: https://us.brinks.com/login
+coverage:
+  checked: '2026-09-04'
+  detail: 'Brink''s ships customer software - the 24SEVEN portal and app, BLUbeem, the BGS tracking portal - but runs no developer programme at all: eleven Brink''s hosts returned 404 on every /.well-known/ path and every spec path, and all nine Brink''s GitHub organizations carry zero public repositories.'
+  evidence:
+  - status: 404
+    url: https://us.brinks.com/openapi.json
+  - status: 404
+    url: https://us.brinks.com/.well-known/api-catalog
+  - status: 403
+    url: https://customerportal.brinksinc.com/o/headless-delivery/v1.0/openapi.json
+  - status: 404
+    url: https://blubeempayments.com/.well-known/security.txt
+  - status: 200
+    url: https://api.github.com/orgs/brinks-incorporated
+  reason: no-developer-program
+  state: none
 created: '2026-03-23'
 description: Brink's is a global leader in secure cash management, armored transport, ATM services, and financial security solutions. The company serves retail, restaurant, financial institutions, and entertainment businesses with its Total Cash Management platform, combining hardware, software, and logistics services. Brink's digital customer portal 24SEVEN ACCESS enables businesses to track cash deposits, order change, and manage operations via mobile and desktop interfaces. Additional products include the Brink's Armored Account payment processing service, Brink's Money paycard for employee payments, and RetailBox point-of-sale cash management.
 finops:
@@ -73,14 +125,17 @@ finops:
   slug: brinks-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brinks.png
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-04'
 name: Brinks
 nav: Providers
 network: true
-overview: Brinks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cash Management, Security, ATM Services, Financial-Services, and Armored Transport.
+overview: 'Brinks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cash Management, Security, ATM Services, Financial-Services, and Armored Transport.
+
+
+  Brinks'' developer surface includes pricing, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Brinks Plans Pricing
-  plan_count: 1
+  plan_count: 2
   slug: brinks-plans-pricing
 press:
 - date: '2026-05-25'
@@ -100,31 +155,33 @@ press:
   url: https://investors.brinks.com/news-releases/news-release-details/brinks-delivers-strong-second-quarter-results-exceeding-top-end/
 random_paper: 19
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Brinks Rate Limits
   slug: brinks-rate-limits
 score:
   band: emerging
-  composite: 11.5
+  composite: 24.3
   coverage:
-    artifact_dirs: 8
-    catalog_gap: 76.0
+    artifact_dirs: 10
+    catalog_earned: 43.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 72.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 12.8
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 73.7
+    commercial_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 9.5
+    developer_ergonomics: 16.7
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 2.6
   previous_composite: 11.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brinks/refs/heads/main/screenshots/brinks-2026-06-20T173710.png
 security:
 - kind: domain-security

@@ -33,14 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Baxter's DeviceBridge is a cloud-based platform that enables secure data transfer from Baxter medical devices to hospital IT systems including electronic medical records (EMRs). It supports clinical d
   name: Baxter DeviceBridge Platform
   slug: device-bridge
-artifact_total: 21
+artifact_total: 23
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/baxter-international-vulnerability-disclosure.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -56,19 +60,23 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.baxter.com/perspectives/healthcare-insights
+  url: https://support.baxter.com/en/resources/it-resources/emr-connectivity/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.baxter.com/
 - group: auth
   title: ''
   type: Security
-  url: https://www.baxter.com/product-security
+  url: https://www.baxter.com/about-baxter/governance/product-security
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.baxter.com/privacy-policy
+  url: https://www.baxter.com/global-privacy-policy
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.baxter.com/terms-of-use
+  url: https://www.baxter.com/terms-use
 - group: design
   title: ''
   type: SpectralRules
@@ -85,10 +93,50 @@ common:
   title: ''
   type: Blog
   url: https://www.baxter.com/rss.xml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/baxter-international-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/baxter-international-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/baxter-international-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/baxter-international-packages.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/baxter-international-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/baxter-international-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/baxter-international-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/baxter-international-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/baxter-international-finops.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.baxter.com/about-baxter/governance/ethics-compliance
 created: '2026-03-21'
-description: Baxter International is a global medical products company that develops, manufactures, and markets products related to hemophilia, kidney disease, immune disorders, and other chronic and acute medical conditions. Baxter offers connected device solutions including the DeviceBridge platform for secure medical device data transfer to hospital IT systems such as EMRs, and integrates with healthcare connectivity standards including HL7 FHIR for clinical interoperability.
+description: 'Baxter International (NYSE: BAX) is a global medical products company that develops, manufactures and markets infusion systems and pumps, IV fluids and injectable medicines, patient monitoring and diagnostic devices, hospital beds and patient mobility products, surgical equipment and care-communications systems. Its connected-care portfolio moves medical device data into hospital IT systems and electronic medical records; Baxter reports well over 600 device interfaces and integrations with more than 150 EMR companies. Baxter acquired Hillrom in December 2021, which had acquired Welch Allyn in 2015, so the Welch Allyn Connectivity SDK and the CARDIOPERFECT API are now Baxter integration surfaces. Those surfaces are licensed to OEMs and EMR partners under agreement rather than published: as of 2026-09-04 no OpenAPI, AsyncAPI, GraphQL schema, WSDL, MCP server or agent card is served on any Baxter, Hillrom or Welch Allyn host.'
 examples:
-- key_count: 13
+- key_count: 14
   name: Device Observation Example
   slug: device-observation-example
 features:
@@ -122,7 +170,7 @@ jsonld:
   property_count: 12
   slug: baxter-context
 layout: provider
-modified: '2026-04-21'
+modified: '2026-09-04'
 name: Baxter International
 nav: Providers
 network: true
@@ -132,10 +180,10 @@ overview: 'Baxter International publishes 1 API on the [APIs.io](https://apis.io
   The Baxter International catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Baxter International''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
+  Baxter International''s developer surface includes documentation, support, engineering blog, and 20 more developer resources.'
 plans:
 - name: Baxter International Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: baxter-international-plans-pricing
 press:
 - date: '2026-05-25'
@@ -155,7 +203,7 @@ press:
   url: https://www.linkedin.com/posts/peter-high-07a94a1_baxter-cio-rusty-patel-on-connected-care-activity-7370850642262728704-1ZlC
 random_paper: 12
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Baxter International Rate Limits
   slug: baxter-international-rate-limits
 rules:
@@ -170,39 +218,52 @@ rules:
     warn: 2
   slug: baxter-spectral-rules
 score:
-  band: emerging
-  composite: 20.4
+  band: thin
+  composite: 31.0
   coverage:
-    artifact_dirs: 13
-    catalog_gap: 53.0
+    artifact_dirs: 19
+    catalog_earned: 58.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 57.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 0.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 10.6
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 45.5
+    access_clarity: 36.8
+    commercial_clarity: 36.8
+    contract_governance: 63.6
     contract_quality: 10.7
-    developer_ergonomics: 11.9
+    developer_ergonomics: 23.8
     discoverability: 59.3
-    governance: 45.5
-    operational_transparency: 15.8
+    governance: 63.6
+    operational_transparency: 10.5
   previous_composite: 20.4
+  provenance:
+    conformance: first-party
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: flat
+    score: 27.5
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/baxter-international/refs/heads/main/screenshots/baxter-international-2026-06-20T173048.png
 security:
 - kind: domain-security
   name: Baxter International Domain Security
   slug: baxter-international-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Baxter International Vulnerability Disclosure
+  slug: baxter-international-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Baxter International Trust Center
+  slug: baxter-international-trust-center
+  summary_line: ISO 14001:2015, ISO 45001:2018
 slug: baxter-international
 tags:
 - Healthcare

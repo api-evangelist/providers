@@ -1,12 +1,14 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
+  - '{''url'': ''https://www.passbase.com'', ''status'': 302, ''note'': ''declared website redirects to https://parallelmarkets.com/?utm_source=passbase.com — a different registrable domain (passbase.com -> parallelmarkets.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -53,7 +55,7 @@ apis:
   description: Read project settings and verification configuration.
   name: Passbase Project API
   slug: passbase-project-api
-artifact_total: 10
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Passbase Webhooks
@@ -95,7 +97,7 @@ common:
   url: authentication/passbase-authentication.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/passbase-mcp.yml
 - group: agent
   title: ''
@@ -141,10 +143,6 @@ created: '2026-07-17'
 description: Passbase was a developer-first identity verification (KYC) platform founded in Berlin and San Francisco that let companies verify users in seconds through facial comparison, liveness detection, and authenticity checks on government-issued IDs from 190+ countries. It shipped mobile and web client SDKs plus a server-side Verifications API (v2) for reading verified identities, their resources and data points, and project settings, with webhooks for verification lifecycle events. Passbase was acquired by Parallel Markets in March 2023; api.passbase.com and docs.passbase.com are no longer live, and this API Evangelist profile captures the last-published API surface reconstructed from the company's official OpenAPI-generated SDKs. Backed by Cowboy Ventures and Seedcamp.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/passbase.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Passbase MCP Server
-  slug: passbase-mcp-server
 modified: '2026-07-20'
 name: Passbase
 nav: Providers
@@ -162,9 +160,11 @@ score:
   composite: 28.8
   coverage:
     artifact_dirs: 17
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -186,8 +186,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passbase/refs/heads/main/screenshots/passbase-2026-08-07T191532.png
 security:

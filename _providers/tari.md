@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Self-hosted gRPC interfaces (proto3, package tari.rpc) to a Tari base node and wallet, for querying the chain and controlling a wallet. Servers run locally on the operator's node rather than at a sing
   name: Tari Base Node & Wallet gRPC
   slug: tari-base-node-wallet-grpc
-artifact_total: 3
+artifact_total: 2
 common:
 - group: company
   title: ''
@@ -86,7 +86,7 @@ common:
   url: cli/tari-cli.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/tari-mcp.yml
 - group: agent
   title: ''
@@ -117,10 +117,6 @@ description: 'Tari is an open-source, proof-of-work blockchain protocol designed
   Pantera Capital, and Trinity Ventures.'
 image: https://tari.com/favicon.ico
 layout: provider
-mcp_servers:
-- description: ''
-  name: Tari MCP Server
-  slug: tari-mcp-server
 modified: '2026-07-21'
 name: Tari
 nav: Providers
@@ -135,9 +131,11 @@ score:
   composite: 24.4
   coverage:
     artifact_dirs: 13
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 0.0
@@ -158,8 +156,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tari/refs/heads/main/screenshots/tari-2026-09-02T162544.png
 security:

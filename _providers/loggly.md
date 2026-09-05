@@ -1,12 +1,13 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - authentication
+  - security
   trial: false
   try_now: false
 agent_readiness:
@@ -33,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 2
 apis:
 - description: 'REST API (apiv2) for searching and retrieving log events: initiate a search to get an RSID, then page results via the events/iterate endpoints, enumerate indexed fields with the fields/facet API, and '
@@ -42,7 +43,7 @@ apis:
 - description: Bulk/single event ingestion API. POST or GET log events to Loggly using a customer token; supports plain text and JSON payloads over HTTPS.
   name: Loggly HTTP/S Event Endpoint
   slug: loggly-https-event-endpoint
-artifact_total: 7
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -150,7 +151,7 @@ common:
   url: https://www.solarwinds.com/information-security
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/loggly-mcp.yml
 - group: agent
   title: ''
@@ -160,10 +161,6 @@ created: '2026-07-17'
 description: Loggly is a cloud-based log management and analytics service (part of SolarWinds) that aggregates, searches, and visualizes application, server, and infrastructure logs in real time. Developers ship logs over syslog or the HTTP/S event endpoint and query them through a REST API supporting full-text search, field faceting, statistics, and dashboards. Loggly offers token-based (bearer) API authentication, an event-retrieval API (search, events, iterate, fields, stats) and a customer-token ingestion API, with SOC 2 Type II, PCI, and HIPAA-aligned security. Originally surfaced as a trinity-ventures portfolio lead, this profile has been enriched with real, searched API artifacts.
 image: https://avatars.githubusercontent.com/u/6423?v=4
 layout: provider
-mcp_servers:
-- description: ''
-  name: Loggly MCP Server
-  slug: loggly-mcp-server
 modified: '2026-07-20'
 name: Loggly
 nav: Providers
@@ -178,9 +175,11 @@ score:
   composite: 34.2
   coverage:
     artifact_dirs: 12
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -195,8 +194,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/screenshots/loggly-2026-07-25T225459.png
 security:

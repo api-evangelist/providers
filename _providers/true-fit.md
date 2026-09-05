@@ -1,8 +1,8 @@
 ---
 access_model:
-  confidence: medium
-  label: Self-serve signup
-  onboarding: self-serve
+  confidence: low
+  label: Unknown
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 2
@@ -153,7 +153,7 @@ apis:
   description: A token is used to identify requests from a device and associate the requests with a session. As the user interacts with True Fit, the token will update. The most recent token returned by True Fit sho
   name: True Fit Token API
   slug: true-fit-token-api
-artifact_total: 48
+artifact_total: 47
 collections:
 - collection_type: open
   name: API Collection
@@ -348,7 +348,7 @@ common:
   url: data-model/true-fit-data-model.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/true-fit-mcp.yml
 - group: build
   title: ''
@@ -374,10 +374,6 @@ created: '2026-08-05'
 description: True Fit Corporation is an AI-powered fit and sizing intelligence platform for apparel and footwear ecommerce. Its Fashion Genome dataset is built on roughly two decades of real purchase-and-return outcomes across 100M+ registered shoppers, 60M unique products and 91K+ brands, and powers size recommendations, fit confidence scores, cross-brand size calibration and shopper fit profiles. True Fit ships as a product-detail-page JavaScript widget, a Shopify app, native iOS/Android/React Native SDKs, a documented Partner REST API and Consumer REST API, a 360 Member View data API, and a Fit Intelligence Layer exposed to AI agents over the Model Context Protocol.
 image: https://cdn.prod.website-files.com/64ee50f98275d03e3242bdef/69d410679088692a9df73243_256px%20webclip.png
 layout: provider
-mcp_servers:
-- description: True Fit publicly markets a "Fit Intelligence Layer via MCP" as one of its activation paths, described in section 7 of its own technical specification. NO public MCP endpoint, tools/list manifest, reg
-  name: True Fit MCP Server
-  slug: true-fit-mcp-server
 modified: '2026-08-05'
 name: True Fit
 nav: Providers
@@ -392,9 +388,11 @@ score:
   composite: 39.4
   coverage:
     artifact_dirs: 22
+    catalog_earned: 37.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 28.9
@@ -416,8 +414,8 @@ score:
       total: 21
     mcp: derived
     skills: derived
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/true-fit/refs/heads/main/screenshots/true-fit-2026-08-17T082444.png
 security:

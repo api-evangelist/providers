@@ -12,7 +12,7 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -21,7 +21,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: true
+    event_surface_described: derived
     idempotency: documented
     mcp_server: documented
     openapi_examples: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 38.3
-  scored_at: '2026-09-03'
+  score: 32.4
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: REST domain-intelligence API (40+ endpoints under /v1) for availability, DNS, WHOIS/RDAP, SSL/TLS, email auth, valuation, security, and OSINT, with API-key authentication.
@@ -198,19 +198,21 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 56.4
+  composite: 56.9
   coverage:
     artifact_dirs: 21
+    catalog_earned: 61.0
+    catalog_earned_first_party: 24.0
     catalog_gap: 54.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
-  delta: 40.6
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: 0.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 41.6
-    developer_ergonomics: 69.0
+    contract_quality: 48.1
+    developer_ergonomics: 63.7
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 60.5
@@ -220,10 +222,19 @@ score:
     reasons:
     - owner: catalog
       reason: never_enriched
-  previous_composite: 15.8
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
-  trend: rising
+  previous_composite: 56.4
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 2
+    mcp: first-party
+    skills: derived
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/screenshots/domscan-2026-07-25T212249.png
 security:
 - kind: authentication

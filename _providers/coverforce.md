@@ -32,13 +32,13 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-03'
+  scored_at: '2026-09-04'
 api_count: 1
 apis:
 - description: Unified commercial insurance API connecting to 40+ carriers and MGAs through a single integration. Documented endpoint families include Applications (create and submit in a unified JSON schema), Quote
   name: CoverForce API
   slug: coverforce-api
-artifact_total: 4
+artifact_total: 3
 common:
 - group: company
   title: ''
@@ -114,16 +114,12 @@ common:
   url: security/coverforce-trust-center.yml
 - group: agent
   title: ''
-  type: MCPServer
+  type: X-MCPServerCandidate
   url: mcp/coverforce-mcp.yml
 created: '2026-07-17'
 description: CoverForce is a commercial insurance distribution infrastructure platform headquartered in New York City. It provides a unified RESTful API and white-label software that let insurance agencies, agency networks, wholesalers, carriers, insurtechs, and developers digitally submit, quote, compare, bind, pay, and issue commercial insurance policies across 40+ carriers and MGAs through a single integration. Coverage spans Workers' Compensation, General Liability, Business Owners Policy (BOP), Cyber, Commercial Auto, Inland Marine, Management Liability (D&O, EPLI, Fiduciary), Product Liability, and Miscellaneous Professional Liability across all 50 US states. The API exposes Applications, Quotes, Bind, Document AI, Renewals, Appetite, Status, Analytics, and Documents endpoints, backed by AI capabilities for document reading and carrier-code mapping. Founded in 2021 and backed by Insight Partners, Nyca Partners, and QED Investors; named to the CB Insights Insurtech 50 in 2025.
 image: https://cdn.prod.website-files.com/62fb0fee9797e7c02c446c87/63f67f2011a086a2ce4b6077_CoverForce%20Primary%20Icon%20256x256.png
 layout: provider
-mcp_servers:
-- description: ''
-  name: Coverforce MCP Server
-  slug: coverforce-mcp-server
 modified: '2026-07-18'
 name: Coverforce
 nav: Providers
@@ -138,9 +134,11 @@ score:
   composite: 28.7
   coverage:
     artifact_dirs: 7
+    catalog_earned: 32.0
+    catalog_earned_first_party: 0.0
     catalog_gap: 83.0
     catalog_max: 115.0
-    note: Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider; it is our backlog, not their gap, and it is NOT subtracted from the composite above.
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
   delta: 0.0
   facets:
     access_clarity: 50.0
@@ -165,8 +163,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 48.5
-  schema_version: 0.18.2
-  scored_at: '2026-09-03'
+  schema_version: 0.18.3
+  scored_at: '2026-09-04'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coverforce/refs/heads/main/screenshots/coverforce-2026-07-25T210552.png
 security:
