@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://api.lufthansa-cargo.com
@@ -172,6 +172,14 @@ score:
     discoverability: 59.3
     governance: 0.0
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - germany
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
   previous_composite: 19.7
   provenance:
     contracts:
@@ -180,7 +188,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lufthansa-cargo/refs/heads/main/screenshots/lufthansa-cargo-2026-08-07T171824.png
 slug: lufthansa-cargo

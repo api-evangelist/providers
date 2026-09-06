@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - description: Bespoke MITA-built open-data portal (JS SPA) at portal.data.gov.mt / open.data.gov.mt. The catalog is DCAT-AP-compliant and harvested into data.europa.eu (~230+ datasets across sectors such as plannin
@@ -89,6 +89,12 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - italy-southern-europe
   previous_composite: 6.9
   regulatory:
     applies: true
@@ -97,7 +103,7 @@ score:
     regime_id: government
     score: 22.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-mt/refs/heads/main/screenshots/data-gov-mt-2026-07-25T211239.png
 security:

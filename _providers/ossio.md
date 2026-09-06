@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'An OAuth-protected Model Context Protocol server mounted on OSSIO''s WordPress corporate site at /wp-json/mcp/mcp-oauth-server, discoverable through the site''s RFC 9728 protected-resource document. It '
@@ -142,6 +142,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 22.1
   provenance:
     conformance: first-party
@@ -153,7 +158,7 @@ score:
     regime_id: health
     score: 52.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ossio/refs/heads/main/screenshots/ossio-2026-09-02T150904.png
 security:

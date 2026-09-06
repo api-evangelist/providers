@@ -29,7 +29,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -93,7 +93,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -157,7 +157,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -210,7 +210,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -263,7 +263,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,
@@ -313,7 +313,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -373,7 +373,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -426,7 +426,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -486,7 +486,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -546,7 +546,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -599,7 +599,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -659,7 +659,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -712,7 +712,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -765,7 +765,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -818,7 +818,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -878,7 +878,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -946,7 +946,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -999,7 +999,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1059,7 +1059,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1112,7 +1112,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1187,7 +1187,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1240,7 +1240,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1293,7 +1293,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1340,64 +1340,11 @@
      "rank": 23
     },
     {
-     "name": "Wise",
-     "slug": "wise",
-     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency accounts for personal and business customers. The Wise Platform API exposes profiles, balances, transfers, recipients, quotes, multi-currency accounts, cards, statements, and webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png",
-     "score": 35.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 51.9,
-      "contract_quality": 65.5,
-      "governance": 11.4,
-      "contract_governance": 11.4,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 29.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 42.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "verified",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "verified",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "verified",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Cross-Border & Money Movement",
-     "rank": 24
-    },
-    {
      "name": "ECOMMPAY",
      "slug": "ecommpay",
      "description": "ECOMMPAY is a London-headquartered international payment service provider and direct card acquirer founded in 2012, authorised by the UK Financial Conduct Authority (FRN 607597), PCI DSS Level 1 certified, and holding Visa and Mastercard Principal Membership. It operates its own payment gateway, acquiring, and certified processing platform, serving e-commerce merchants across Europe, the UK, and global markets with card processing, 100+ alternative and local payment methods, open banking, payouts, multi-currency settlement, and fraud prevention. Its developer surface is API-native but signature-authenticated rather than token-based: merchants integrate through a hosted Payment Page API, a server-to-server Gate API for direct payment processing, a Data API for reporting and reconciliation, and a Dashboard for operational management, all documented on a public developer portal with callbacks/webhooks and multi-language SDKs. Its home market is the United Kingdom.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecommpay/refs/heads/main/screenshots/ecommpay-2026-07-25T212806.png",
-     "score": 34.0,
+     "score": 35.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1405,12 +1352,12 @@
       "contract_quality": 41.6,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 10.5,
+      "operational_transparency": 18.4,
       "developer_ergonomics": 52.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1450,6 +1397,59 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 24
+    },
+    {
+     "name": "Wise",
+     "slug": "wise",
+     "description": "Wise (formerly TransferWise) provides cross-border payments and multi-currency accounts for personal and business customers. The Wise Platform API exposes profiles, balances, transfers, recipients, quotes, multi-currency accounts, cards, statements, and webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wise/refs/heads/main/screenshots/wise-2026-06-20T201536.png",
+     "score": 35.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 51.9,
+      "contract_quality": 65.5,
+      "governance": 11.4,
+      "contract_governance": 11.4,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 29.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 42.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "verified",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "verified",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "verified",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Cross-Border & Money Movement",
      "rank": 25
     },
     {
@@ -1470,7 +1470,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1533,7 +1533,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1586,7 +1586,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1639,7 +1639,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1692,7 +1692,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1755,7 +1755,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1802,13 +1802,13 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,

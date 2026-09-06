@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -240,7 +240,7 @@ score:
     regime_id: health
     score: 46.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/waystar/refs/heads/main/screenshots/waystar-2026-09-02T170509.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 3
 apis:
 - description: SYSPRO OData provides RESTful access to SYSPRO data across all functional modules including inventory, production, purchasing, sales, and financials. It uses basic authentication over HTTPS and suppor
@@ -146,7 +146,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 30.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syspro/refs/heads/main/screenshots/syspro-2026-06-20T194838.png
 security:

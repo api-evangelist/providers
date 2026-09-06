@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://www.truthsystems.ai
@@ -167,7 +167,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truth-systems/refs/heads/main/screenshots/truth-systems-2026-09-02T164426.png
 security:

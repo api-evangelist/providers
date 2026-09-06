@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://api.askmiso.com
@@ -287,7 +287,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/misoai/refs/heads/main/screenshots/misoai-2026-08-07T183747.png
 security:

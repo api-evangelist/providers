@@ -19,21 +19,21 @@ agent_readiness:
     auth_clarity: negotiable
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-09-04'
+  score: 26.7
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: REDU (Repositorio de Dados de Pesquisa da Unicamp) is Unicamp's institutional research data repository, self-hosted on the open-source Dataverse platform at redu.unicamp.br - a Unicamp-owned host, not
@@ -196,6 +196,13 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
   previous_composite: 49.1
   provenance:
     conformance: first-party
@@ -211,7 +218,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unicamp/refs/heads/main/screenshots/unicamp-2026-06-20T200024.png
 security:

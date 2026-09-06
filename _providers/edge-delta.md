@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/edge-delta/refs/heads/main/screenshots/edge-delta-2026-07-25T212824.png
 security:

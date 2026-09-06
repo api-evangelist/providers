@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -91,7 +91,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york/refs/heads/main/screenshots/bank-of-new-york-2026-06-20T172954.png
 security:

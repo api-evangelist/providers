@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 4
 common:
@@ -104,7 +104,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 11.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-software-foundation/refs/heads/main/screenshots/green-software-foundation-2026-06-20T182353.png
 security:

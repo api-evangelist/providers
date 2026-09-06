@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -183,7 +183,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adcolony/refs/heads/main/screenshots/adcolony-2026-07-25T181608.png
 security:

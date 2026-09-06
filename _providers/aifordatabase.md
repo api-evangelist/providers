@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://app.aifordatabase.com/api/v1
@@ -245,7 +245,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aifordatabase/refs/heads/main/screenshots/aifordatabase-2026-09-02T144117.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: 'Chemical mechanical planarization (CMP) slurries for semiconductor wafer polishing. CMC slurries cover tungsten, copper, dielectric, barrier metal, and STI applications across leading-edge and legacy '
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 security:
 - kind: domain-security

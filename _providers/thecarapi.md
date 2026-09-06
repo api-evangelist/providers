@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: REST/JSON API for multi-source vehicle auction inventory, search, facets, auction detail and price history, VIN history, market intel, classifieds, and import cost calculation. API key required for li
@@ -208,6 +208,14 @@ score:
     discoverability: 75.9
     governance: 8.3
     operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - south-korea
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - japan-korea
   previous_composite: 52.2
   provenance:
     conformance: derived
@@ -219,7 +227,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thecarapi/refs/heads/main/screenshots/thecarapi-2026-09-02T163425.png
 security:

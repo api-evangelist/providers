@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,11 +130,18 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
   previous_composite: 12.2
   provenance:
     conformance: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/screenshots/leaner-technologies-2026-07-25T224738.png
 security:

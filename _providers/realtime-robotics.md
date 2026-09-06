@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 3
 apis:
 - description: The ASCII API is the primary runtime integration surface for the Realtime Controller. A client opens a TCP socket to the controller and exchanges inline YAML 1.2 command strings (topic / type / id / d
@@ -213,12 +213,17 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 25.5
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/screenshots/realtime-robotics-2026-09-02T153007.png
 security:

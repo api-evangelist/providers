@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,7 +125,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveaction/refs/heads/main/screenshots/liveaction-2026-07-25T225348.png
 security:

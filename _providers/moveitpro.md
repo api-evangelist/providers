@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: Client (customer) records. Modeled from the documented MoveitPro Zapier integration, which exposes a "New Client" trigger and a "Create Client" action with name, contact, referral source, and branch a
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moveitpro/refs/heads/main/screenshots/moveitpro-2026-08-07T184350.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: RESTful API for storing, searching, updating, and deleting regulated records inside a selected country's borders, authenticated with OAuth2 client-credentials and encrypted with AES-GCM. Supports sing
@@ -187,7 +187,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/incountry/refs/heads/main/screenshots/incountry-2026-07-25T222340.png
 security:

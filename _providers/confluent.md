@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -713,6 +713,10 @@ collections:
   name: Confluent Cloud Kafka REST API
   slug: open-confluent
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.confluent.io/
 - group: other
   title: ''
   type: CapabilityMap
@@ -915,7 +919,7 @@ overview: 'Confluent publishes 125 APIs on the [APIs.io](https://apis.io/) netwo
   The Confluent catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Confluent''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 38 more developer resources.'
+  Confluent''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 39 more developer resources.'
 plans:
 - name: Confluent Plans Pricing
   plan_count: 5
@@ -962,7 +966,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/screenshots/confluent-2026-06-20T174900.png
 security:
@@ -1022,5 +1026,5 @@ tags:
 - Real-Time Data
 - Messaging
 - Cloud Infrastructure
-website: https://developer.confluent.io/
+website: https://www.confluent.io/
 ---

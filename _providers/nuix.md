@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 135
   human_in_the_loop: 1
@@ -1269,7 +1269,7 @@ score:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 63.7
+    contract_quality: 63.4
     developer_ergonomics: 38.1
     discoverability: 59.3
     governance: 9.8
@@ -1283,7 +1283,7 @@ score:
       marker_coverage: 0.0
       total: 12
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuix/refs/heads/main/screenshots/nuix-2026-06-20T190513.png
 security:

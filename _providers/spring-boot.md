@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -332,7 +332,7 @@ score:
       marker_coverage: 0.0
       total: 10
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:

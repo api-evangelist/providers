@@ -16,7 +16,7 @@
      "slug": "moneris",
      "description": "Moneris (Moneris Solutions Corporation) is Canada's largest payment processor and merchant-acquiring company, founded in December 2000 as a joint venture equally owned by Royal Bank of Canada (RBC) and Bank of Montreal (BMO). It is a payment-technology and card-acquiring company rather than a deposit-taking Schedule I bank, sitting in the payments-infrastructure layer of Canadian financial services: it serves roughly 325,000 points of commerce, processes close to five billion transactions a year, and handles on the order of one in three Canadian card transactions. In 2025-2026 RBC and BMO explored a sale of the venture, with Francisco Partners (owner of Verifone) reported as the lead buyer. Unlike its bank owners, Moneris is not subject to Canada's coming Consumer-Driven Banking framework; its \"open\" surface is a commercial, self-serve first-party developer program. Moneris runs a real, public developer portal at developer.moneris.com documenting the Moneris Unified API (REST, OpenAPI 3.0.3, hosts api.moneris.io production / api.sb.moneris.io sandbox) covering payments, tokenized payment methods, refunds, recurring billing/subscriptions, 3-D Secure, Kount fraud/risk, disputes, multi-currency pricing, and third-party merchant onboarding, secured with OAuth 2.0 client credentials and API keys, with a published Postman workspace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moneris/refs/heads/main/screenshots/moneris-2026-08-07T184149.png",
-     "score": 45.1,
+     "score": 45.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -25,11 +25,11 @@
       "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
-      "developer_ergonomics": 43.5,
+      "developer_ergonomics": 45.8,
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -135,7 +135,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -305,7 +305,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -369,7 +369,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -422,7 +422,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -475,7 +475,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -528,7 +528,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -581,7 +581,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -634,7 +634,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -686,7 +686,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -739,7 +739,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -792,7 +792,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -845,7 +845,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -898,7 +898,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -961,7 +961,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1014,7 +1014,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1067,7 +1067,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1120,7 +1120,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1173,7 +1173,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1226,7 +1226,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1279,7 +1279,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1332,7 +1332,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1385,7 +1385,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1438,7 +1438,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1491,7 +1491,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1544,7 +1544,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1597,7 +1597,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1650,7 +1650,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1703,7 +1703,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1756,7 +1756,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1809,7 +1809,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1862,7 +1862,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1914,7 +1914,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1967,7 +1967,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2020,7 +2020,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2073,7 +2073,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2126,7 +2126,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2179,7 +2179,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2232,7 +2232,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,

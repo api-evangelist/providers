@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 5
 common:
@@ -158,6 +158,11 @@ score:
     discoverability: 57.4
     governance: 18.2
     operational_transparency: 13.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 23.9
   provenance:
     conformance: first-party
@@ -176,7 +181,7 @@ score:
     regime_id: education
     score: 55.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merlyn-mind/refs/heads/main/screenshots/merlyn-mind-2026-09-02T150524.png
 security:

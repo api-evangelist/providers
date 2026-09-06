@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Bundled API for countries, states, cities, IP geolocation, and live exchange rates
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apogeoapi/refs/heads/main/screenshots/apogeoapi-2026-06-20T172303.png
 security:

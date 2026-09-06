@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 5
 apis:
 - description: Institution-operated Shibboleth SAML 2.0 identity provider on the university's own host, published as machine-readable metadata in the GakuNin (学術認証フェデレーション) aggregate. EntityDescriptor ID PI0136JP, e
@@ -183,6 +183,13 @@ score:
     discoverability: 74.1
     governance: 18.2
     operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - japan
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - japan-korea
   previous_composite: 36.7
   provenance:
     conformance: first-party
@@ -193,7 +200,7 @@ score:
     regime_id: education
     score: 53.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagoya/refs/heads/main/screenshots/nagoya-2026-06-20T185937.png
 security:

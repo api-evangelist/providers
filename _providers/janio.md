@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'Janio''s production REST API for cross-border logistics: order creation and batch order management, unified multi-carrier tracking, rate and transit-time quotes, shipping label and customs document gen'
@@ -182,11 +182,18 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - singapore
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
   previous_composite: 26.7
   provenance:
     conformance: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/janio/refs/heads/main/screenshots/janio-2026-09-02T150157.png
 security:

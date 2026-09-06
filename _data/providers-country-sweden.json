@@ -1,6 +1,6 @@
 {
- "total": 65,
- "shown": 65,
+ "total": 66,
+ "shown": 66,
  "limit": 1000,
  "bands": [
   {
@@ -28,7 +28,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -91,7 +91,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -136,20 +136,20 @@
      "name": "Cambio Healthcare Systems",
      "slug": "cambio-healthcare-systems",
      "description": "Cambio Healthcare Systems is a Swedish health-IT company founded in 1993 in Linkoping and headquartered in Stockholm, best known for Cambio COSMIC, an electronic health record and clinical decision support platform used across Swedish regions, Denmark and the United Kingdom by well over 100,000 clinical users. Cambio runs a public developer programme, Cambio Open Services (COS), which publishes 19 REST APIs and an HL7 FHIR R4 server on Azure API Management at api.openservices.cambio.se, together with a published FHIR Implementation Guide of COSMIC-specific profiles, a Keycloak OpenID Connect authorization server with SMART-on-FHIR style scopes, and a synthetic-data sandbox. COSMIC and its clinical decision support are CE-marked and MDR-certified (notified body BSI-2797), and the company holds ISO 9001, 13485, 14001, 20000 and 27001 certifications.",
-     "score": 55.0,
+     "score": 55.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 74.1,
+      "discoverability": 81.5,
       "contract_quality": 59.1,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 28.9,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 66.1,
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -212,7 +212,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -264,7 +264,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -316,7 +316,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -368,7 +368,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -420,7 +420,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -472,7 +472,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -524,7 +524,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -586,7 +586,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -631,7 +631,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -676,7 +676,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -728,7 +728,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -780,7 +780,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -832,7 +832,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
@@ -877,7 +877,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -922,7 +922,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -967,7 +967,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -1012,7 +1012,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1067,7 +1067,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1126,7 +1126,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1178,7 +1178,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1229,7 +1229,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1281,7 +1281,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1332,7 +1332,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1395,7 +1395,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1440,7 +1440,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1492,7 +1492,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1543,7 +1543,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1588,7 +1588,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1633,7 +1633,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1685,7 +1685,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1737,7 +1737,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1782,7 +1782,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -1816,8 +1816,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 30,
-   "shown": 30,
+   "count": 31,
+   "shown": 31,
    "providers": [
     {
      "name": "Anyfin",
@@ -1837,7 +1837,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1882,7 +1882,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1934,7 +1934,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1986,7 +1986,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2031,7 +2031,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2083,7 +2083,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2128,7 +2128,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2173,7 +2173,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2218,7 +2218,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2270,7 +2270,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2322,7 +2322,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2374,7 +2374,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2409,10 +2409,9 @@
      "rank": 47
     },
     {
-     "name": "Candela",
-     "slug": "candela",
-     "description": "Candela is a Swedish manufacturer of electric hydrofoiling boats and ferries, on a mission to decarbonize waterborne transportation. Its proprietary computer-controlled hydrofoil system, C-Pod electric propulsion, and C-Foil technology lift the hull clear of the water to cut energy consumption by roughly 80% versus conventional planing hulls, enabling silent, long-range, zero-emission travel. Products span leisure craft (the C-8 and C-7 dayboats) and professional vessels (the P-12 electric ferry and shuttle for public and commercial transport). Backed by EQT Ventures, Candela is a hardware and mobility company; as of this profile it publishes no public developer API, SDKs, or API documentation. This record captures its public web presence and domain security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/candela/refs/heads/main/screenshots/candela-2026-07-25T204336.png",
+     "name": "AAK",
+     "slug": "aak",
+     "description": "AAK AB is a Swedish producer of value-adding plant-based oils and fats, headquartered in Malmö and listed on Nasdaq Stockholm (ticker AAK) in the Food & Beverage large-cap segment. It was formed in 2005 through the merger of Denmark's Aarhus United and Sweden's Karlshamns AB, and describes more than 150 years of combined experience in specialty vegetable oils. The company employs roughly 4,000 people across 19 production facilities, 25 regional sales offices and 16 Customer Innovation Centers, and works through a co-development model with customers in chocolate and confectionery, bakery, dairy and ice cream, plant-based foods, special nutrition, foodservice and retail, personal care, animal nutrition, candles and technical products such as fatty acids and glycerine. Its product is a physical industrial ingredient, not software: no developer program, public API, SDK, developer portal, machine-readable contract or GitHub organization could be found, and no api/developer/docs/portal hostname resolves under aak.com.",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2422,19 +2421,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.5,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2461,11 +2453,11 @@
      "rank": 48
     },
     {
-     "name": "Blixt",
-     "slug": "blixt",
-     "description": "BL!XT (Blixt) is a Swedish deep-tech company building intelligent, programmable power infrastructure that turns electrical distribution from analog systems into digitally controlled, software-defined platforms. Its products include ZERO, a solid-state current-control switchgear for circuit-level protection, monitoring, and automation; X-VERTER, a software-defined voltage conversion system with integrated energy storage; and THE ZONE, an AI-driven software intelligence layer that coordinates connected distribution devices for real-time analysis, failure prediction, and load balancing. BL!XT serves data centers, industrial manufacturing, maritime vessels, grid providers, and defense. Headquartered in Kista, Sweden and backed by Union Square Ventures. As of this enrichment pass the company publishes no public API or developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blixt/refs/heads/main/screenshots/blixt-2026-07-25T203329.png",
-     "score": 7.2,
+     "name": "Candela",
+     "slug": "candela",
+     "description": "Candela is a Swedish manufacturer of electric hydrofoiling boats and ferries, on a mission to decarbonize waterborne transportation. Its proprietary computer-controlled hydrofoil system, C-Pod electric propulsion, and C-Foil technology lift the hull clear of the water to cut energy consumption by roughly 80% versus conventional planing hulls, enabling silent, long-range, zero-emission travel. Products span leisure craft (the C-8 and C-7 dayboats) and professional vessels (the P-12 electric ferry and shuttle for public and commercial transport). Backed by EQT Ventures, Candela is a hardware and mobility company; as of this profile it publishes no public developer API, SDKs, or API documentation. This record captures its public web presence and domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/candela/refs/heads/main/screenshots/candela-2026-07-25T204336.png",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2474,11 +2466,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2513,11 +2505,11 @@
      "rank": 49
     },
     {
-     "name": "Edgeware",
-     "slug": "edgeware",
-     "description": "Edgeware AB was a Swedish video-delivery technology company founded in 2004 and headquartered in Stockholm, known for its TV CDN, origin and media server, and streaming video-delivery products used by telecom operators and broadcasters to run OTT and IPTV services. Backed by Creandum, it listed on Nasdaq Stockholm in 2016 and was acquired by Agile Content (Agile Content S.A.) in 2020. The Edgeware brand has since been consolidated into AgileTV: edgeware.tv now redirects to agiletv.com/edgeware/, and its developer/technical documentation lives under docs.agilecontent.com (AgileTV Origin & Media Server, CDN Solutions, Subtitling). Edgeware no longer operates as an independent company or publishes an independent developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edgeware/refs/heads/main/screenshots/edgeware-2026-07-25T212838.png",
-     "score": 6.9,
+     "name": "Blixt",
+     "slug": "blixt",
+     "description": "BL!XT (Blixt) is a Swedish deep-tech company building intelligent, programmable power infrastructure that turns electrical distribution from analog systems into digitally controlled, software-defined platforms. Its products include ZERO, a solid-state current-control switchgear for circuit-level protection, monitoring, and automation; X-VERTER, a software-defined voltage conversion system with integrated energy storage; and THE ZONE, an AI-driven software intelligence layer that coordinates connected distribution devices for real-time analysis, failure prediction, and load balancing. BL!XT serves data centers, industrial manufacturing, maritime vessels, grid providers, and defense. Headquartered in Kista, Sweden and backed by Union Square Ventures. As of this enrichment pass the company publishes no public API or developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blixt/refs/heads/main/screenshots/blixt-2026-07-25T203329.png",
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2526,12 +2518,19 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2558,11 +2557,11 @@
      "rank": 50
     },
     {
-     "name": "Mathem",
-     "slug": "mathem",
-     "description": "Mathem is Sweden's largest pure-play online grocery retailer, delivering fresh food, household goods and pantry staples directly to consumers' homes across Sweden. Customers browse and order the full assortment of a physical supermarket through the mathem.se website and native iOS/Android apps, and receive scheduled home delivery. Mathem merged with the Norwegian online grocer Oda to form one of the Nordics' largest online grocery groups, and its security and careers functions are now operated under the shared Oda organization. Payments are handled through Klarna and the major card networks. Mathem operates a consumer e-commerce storefront and mobile apps; it does not publish a public developer API, SDKs, or a developer portal. This API Evangelist profile was created as a SoftBank Vision Fund portfolio lead and enriched via the enrichment pipeline; the substantive public technical surface found is an RFC 9116 security.txt and an invite-only YesWeHack bug-bounty program run through Oda.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mathem/refs/heads/main/screenshots/mathem-2026-07-25T230409.png",
-     "score": 6.4,
+     "name": "Edgeware",
+     "slug": "edgeware",
+     "description": "Edgeware AB was a Swedish video-delivery technology company founded in 2004 and headquartered in Stockholm, known for its TV CDN, origin and media server, and streaming video-delivery products used by telecom operators and broadcasters to run OTT and IPTV services. Backed by Creandum, it listed on Nasdaq Stockholm in 2016 and was acquired by Agile Content (Agile Content S.A.) in 2020. The Edgeware brand has since been consolidated into AgileTV: edgeware.tv now redirects to agiletv.com/edgeware/, and its developer/technical documentation lives under docs.agilecontent.com (AgileTV Origin & Media Server, CDN Solutions, Subtitling). Edgeware no longer operates as an independent company or publishes an independent developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/edgeware/refs/heads/main/screenshots/edgeware-2026-07-25T212838.png",
+     "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2570,12 +2569,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2603,6 +2602,51 @@
      "rank": 51
     },
     {
+     "name": "Mathem",
+     "slug": "mathem",
+     "description": "Mathem is Sweden's largest pure-play online grocery retailer, delivering fresh food, household goods and pantry staples directly to consumers' homes across Sweden. Customers browse and order the full assortment of a physical supermarket through the mathem.se website and native iOS/Android apps, and receive scheduled home delivery. Mathem merged with the Norwegian online grocer Oda to form one of the Nordics' largest online grocery groups, and its security and careers functions are now operated under the shared Oda organization. Payments are handled through Klarna and the major card networks. Mathem operates a consumer e-commerce storefront and mobile apps; it does not publish a public developer API, SDKs, or a developer portal. This API Evangelist profile was created as a SoftBank Vision Fund portfolio lead and enriched via the enrichment pipeline; the substantive public technical surface found is an RFC 9116 security.txt and an invite-only YesWeHack bug-bounty program run through Oda.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mathem/refs/heads/main/screenshots/mathem-2026-07-25T230409.png",
+     "score": 6.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
      "name": "Northvolt",
      "slug": "northvolt",
      "description": "Northvolt AB is a Swedish lithium-ion battery developer and manufacturer, founded in Stockholm in 2016, that built and operated the Northvolt Ett gigafactory in Skelleftea and the Northvolt Labs R&D and qualification campus in Vasteras, with further sites in Heide (Germany), Gdansk (Poland) and Montreal (Canada). Its product line covered lithium-ion, sodium-ion and lithium-metal cells, the Voltpack Core and Voltpack Mobile System battery energy storage systems, the Revolt battery recycling operation, and a Connected Battery telemetry and fleet-management service. Northvolt AB filed for bankruptcy in Sweden on 12 March 2025; through 2025 its remaining assets in Sweden, Germany and Poland were acquired by Lyten. The company never published a public developer program, API reference or machine-readable API contract; its only named developer-facing surface, api.northvolt.com, no longer has a reachable origin.",
@@ -2620,7 +2664,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2652,7 +2696,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 53
     },
     {
      "name": "Polestar",
@@ -2672,51 +2716,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Bluebook",
-     "slug": "bluebook",
-     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2744,24 +2744,23 @@
      "rank": 54
     },
     {
-     "name": "H&M",
-     "slug": "hm",
-     "description": "A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world's largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
-     "score": 5.5,
+     "name": "Bluebook",
+     "slug": "bluebook",
+     "description": "Bluebook is a Stockholm, Sweden based software company building AI agents for accounting firms, accountants, and CFOs. The platform automates accounting workflows — reconciliations, accruals, accounts payable and receivable, month-end close, reporting, and accounting research — with the stated goal of a \"zero-day close\", and integrates with the general ledgers firms already run on, notably QuickBooks and NetSuite. The product surface is organized around Background Agents, Checklists (tasks, delegation, human-in-the-loop approvals, month-end close), and an Assistant covering FP&A, flux analysis, and accounting research. Founded in 2024 by Philip Andersson (CEO), Jonathan Andersson (COO), and Filip Stål (CTO), Bluebook went through Y Combinator (Winter 2025) and raised a $3M pre-seed led by EQT Ventures with participation from Y Combinator and angel investors from Affirm, OpenAI, and ElevenLabs. Bluebook is a product company, not an API provider: as of this enrichment pass it publishes no public developer program, API documentation, machine-readable specification, or SDKs.",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2789,10 +2788,10 @@
      "rank": 55
     },
     {
-     "name": "PaceMaker",
-     "slug": "pacemaker",
-     "description": "PaceMaker is the consumer DJ application from Pacemaker Music AB, a Swedish startup and 500 Global portfolio company, that lets anyone mix and mash millions of tracks on iPhone and iPad. It connects to streaming catalogs such as Spotify, includes an AI DJ that suggests matching tracks and beat-matched transitions, and lets users crop and blend songs at phrase, bar, and beat precision to record and share their own mixtapes. Pacemaker is a mobile end-user product; as of this pass it publishes no public developer API, OpenAPI definition, SDK, MCP server, or developer portal, and its domain (pacemaker.net) currently serves a WordPress marketing blog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacemaker/refs/heads/main/screenshots/pacemaker-2026-08-07T191234.png",
+     "name": "H&M",
+     "slug": "hm",
+     "description": "A Swedish multinational fast-fashion retailer offering affordable clothing, accessories, and home goods. Operates thousands of stores globally and is one of the world's largest fashion companies. No public developer portal or open API catalogue was located on hm.com or hmgroup.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hm/refs/heads/main/screenshots/hm-2026-07-25T221319.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2806,7 +2805,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2834,6 +2833,51 @@
      "rank": 56
     },
     {
+     "name": "PaceMaker",
+     "slug": "pacemaker",
+     "description": "PaceMaker is the consumer DJ application from Pacemaker Music AB, a Swedish startup and 500 Global portfolio company, that lets anyone mix and mash millions of tracks on iPhone and iPad. It connects to streaming catalogs such as Spotify, includes an AI DJ that suggests matching tracks and beat-matched transitions, and lets users crop and blend songs at phrase, bar, and beat precision to record and share their own mixtapes. Pacemaker is a mobile end-user product; as of this pass it publishes no public developer API, OpenAPI definition, SDK, MCP server, or developer portal, and its domain (pacemaker.net) currently serves a WordPress marketing blog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pacemaker/refs/heads/main/screenshots/pacemaker-2026-08-07T191234.png",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
      "name": "Eneryield",
      "slug": "eneryield",
      "description": "Eneryield is a Gothenburg, Sweden based company (a Techstars portfolio company) building AI-powered fault prediction and analytics for electric power systems. Its flagship product, Eneryield IntelliView, uses explainable AI to forecast power outages before they occur by analyzing voltage and current signals from digital relays and merging units on overhead lines, underground cables, and underwater cables. The cloud-based platform integrates directly into existing utility monitoring systems without additional hardware, giving grid operators transparent root-cause analysis so they can move to proactive maintenance and reduce operational cost and downtime. As of this profile, Eneryield publishes no public developer API, SDKs, or API documentation; this record captures its identity and infrastructure posture for the API Evangelist network.",
@@ -2851,7 +2895,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2883,7 +2927,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Acne Studios",
@@ -2903,51 +2947,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Campanja",
-     "slug": "campanja",
-     "description": "Campanja was a Stockholm-based advertising-technology company founded in 2010 that built a high-frequency paid-search bid-optimization engine. Its platform placed millions of automated bids per day across Google AdWords, Google Shopping, and Yahoo/Bing search campaigns, using real-time tracking and predictive big-data modeling to improve return on ad spend for large online advertisers while cutting media cost. Campanja raised a $5M Series A (Hoxton Ventures, DFJ Esprit) and was acquired by [24]7.ai in 2015, where its technology was folded into the [24]7 Customer Acquisition Cloud. The independent company is effectively defunct and campanja.com no longer resolves to a live site. This profile was surfaced as a 500 Global portfolio lead and processed by the API Evangelist enrichment pipeline.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2975,9 +2975,9 @@
      "rank": 59
     },
     {
-     "name": "Cult of the North",
-     "slug": "cult-of-the-north",
-     "description": "Cult of the North (established November 2022 under the codename \"Seidr\") is a Stockholm, Sweden-based video game studio co-founded by former EA general manager Adam Schaub and former King SVP Marcus Jacobs, and backed by a seed investment from Andreessen Horowitz (a16z). The studio drew talent from King, Activision Blizzard, EA, Embark Studios, Resolution Games, and FunPlus, and set out to build large-scale, next-generation multiplayer PvP experiences for PC and console in Unreal Engine 5 — first the debut title codenamed \"Project Gundalf\" and later the free-to-play strategy war game \"We Will Be Gods.\" As a consumer game studio it exposes no public developer API, SDK, or documentation surface; this profile carries company identity only. Industry reporting in 2025 indicated the studio wound down operations.",
+     "name": "Campanja",
+     "slug": "campanja",
+     "description": "Campanja was a Stockholm-based advertising-technology company founded in 2010 that built a high-frequency paid-search bid-optimization engine. Its platform placed millions of automated bids per day across Google AdWords, Google Shopping, and Yahoo/Bing search campaigns, using real-time tracking and predictive big-data modeling to improve return on ad spend for large online advertisers while cutting media cost. Campanja raised a $5M Series A (Hoxton Ventures, DFJ Esprit) and was acquired by [24]7.ai in 2015, where its technology was folded into the [24]7 Customer Acquisition Cloud. The independent company is effectively defunct and campanja.com no longer resolves to a live site. This profile was surfaced as a 500 Global portfolio lead and processed by the API Evangelist enrichment pipeline.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2985,13 +2985,13 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3019,10 +3019,9 @@
      "rank": 60
     },
     {
-     "name": "Na Kd",
-     "slug": "na-kd",
-     "description": "Na Kd (NA-KD) is a Swedish online fashion retailer for women, selling clothing, shoes, and accessories direct-to-consumer through na-kd.com. It was added to the API Evangelist network as a venture-portfolio lead, backed by Northzone and Partech. As of this enrichment pass NA-KD publishes no public developer API, SDK, MCP server, or /.well-known discovery surface; this profile captures the company identity and its live domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/na-kd/refs/heads/main/screenshots/na-kd-2026-08-07T184557.png",
+     "name": "Cult of the North",
+     "slug": "cult-of-the-north",
+     "description": "Cult of the North (established November 2022 under the codename \"Seidr\") is a Stockholm, Sweden-based video game studio co-founded by former EA general manager Adam Schaub and former King SVP Marcus Jacobs, and backed by a seed investment from Andreessen Horowitz (a16z). The studio drew talent from King, Activision Blizzard, EA, Embark Studios, Resolution Games, and FunPlus, and set out to build large-scale, next-generation multiplayer PvP experiences for PC and console in Unreal Engine 5 — first the debut title codenamed \"Project Gundalf\" and later the free-to-play strategy war game \"We Will Be Gods.\" As a consumer game studio it exposes no public developer API, SDK, or documentation surface; this profile carries company identity only. Industry reporting in 2025 indicated the studio wound down operations.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3036,7 +3035,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3064,10 +3063,10 @@
      "rank": 61
     },
     {
-     "name": "Tenet Industries",
-     "slug": "tenet-industries",
-     "description": "Tenet Industries is a Swedish defense-technology startup founded in 2026 by Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute of Technology and the Stockholm School of Economics) building low-cost, mass-producible defense systems. Applying design-for-manufacturing and first-principles engineering, the company starts with strike/attack drones — a kamikaze quadcopter that assembles in two minutes with roughly half the parts of comparable systems — and extends the same hardware/software platform to loitering munitions, jammers, radars, and missile systems. Backed by Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries currently publishes no public API, SDK, developer portal, or event surface; this profile is maintained as a company record in the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenet-industries/refs/heads/main/screenshots/tenet-industries-2026-09-02T163054.png",
+     "name": "Na Kd",
+     "slug": "na-kd",
+     "description": "Na Kd (NA-KD) is a Swedish online fashion retailer for women, selling clothing, shoes, and accessories direct-to-consumer through na-kd.com. It was added to the API Evangelist network as a venture-portfolio lead, backed by Northzone and Partech. As of this enrichment pass NA-KD publishes no public developer API, SDK, MCP server, or /.well-known discovery surface; this profile captures the company identity and its live domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/na-kd/refs/heads/main/screenshots/na-kd-2026-08-07T184557.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3081,7 +3080,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3109,6 +3108,51 @@
      "rank": 62
     },
     {
+     "name": "Tenet Industries",
+     "slug": "tenet-industries",
+     "description": "Tenet Industries is a Swedish defense-technology startup founded in 2026 by Hugo Frisk, Fabian Andersson, and Emil Falk (students from KTH Royal Institute of Technology and the Stockholm School of Economics) building low-cost, mass-producible defense systems. Applying design-for-manufacturing and first-principles engineering, the company starts with strike/attack drones — a kamikaze quadcopter that assembles in two minutes with roughly half the parts of comparable systems — and extends the same hardware/software platform to loitering munitions, jammers, radars, and missile systems. Backed by Y Combinator ($500K). As a defense hardware manufacturer, Tenet Industries currently publishes no public API, SDK, developer portal, or event surface; this profile is maintained as a company record in the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tenet-industries/refs/heads/main/screenshots/tenet-industries-2026-09-02T163054.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
+    },
+    {
      "name": "Essity",
      "slug": "essity",
      "description": "Essity is a Swedish-headquartered global hygiene and health company operating across four business areas: Health & Medical, Personal Care, Consumer Tissue, and Professional Hygiene. The company is listed on Nasdaq Stockholm (ESSITY) and owns roughly 40 brands including TENA (incontinence care), Tork (professional hygiene), Libero (baby diapers), Libresse / Bodyform / Nana / Saba / Nuvenia / Libra (feminine care), Modibodi and Knix (period underwear), JOBST (compression hosiery), Leukoplast (adhesive bandages), Cutimed, Sorbact, Hydrofera and Actimove (wound care, sports medicine, orthopedic supports), Delta-Cast (casting), and consumer tissue brands Lotus, Zewa, Tempo, Cushelle, Plenty, Velvet, Regio, Sorbent and Purex. No public developer-facing APIs or developer portal have been identified for Essity; this repository tracks corporate, brand, sustainability, investor, and integration surfaces for ongoing API discovery. The company's Tork brand ships a connected washroom data platform — Tork Vision Cleaning — which is the closest thing to a public data surface in the portfolio.",
@@ -3126,7 +3170,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3158,7 +3202,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 64
     },
     {
      "name": "Ericsson",
@@ -3178,7 +3222,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3210,7 +3254,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 65
     },
     {
      "name": "Norstel",
@@ -3229,7 +3273,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3261,7 +3305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     }
    ]
   }

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -68,18 +68,38 @@ common:
   title: ''
   type: Blog
   url: https://www.clevelandcliffs.com/news/news-releases/rss
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cliffs-natural-resources-llms.txt
+coverage:
+  checked: '2026-09-05'
+  detail: Cleveland-Cliffs (the current name for Cliffs Natural Resources) runs no developer program at all — developer/api/docs.clevelandcliffs.com do not resolve, the corporate site serves its standard 404 page for every /.well-known/*, /openapi.json and /llms.txt path, and its own "For Suppliers" page routes partners to login-gated web portals (isupplier.cliffssteel.com, cert.cliffssteel.com) and emailed invoices rather than to any documented interface.
+  evidence:
+  - status: 0
+    url: https://developer.clevelandcliffs.com/
+  - status: 404
+    url: https://www.clevelandcliffs.com/openapi.json
+  - status: 404
+    url: https://www.clevelandcliffs.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.clevelandcliffs.com/llms.txt
+  - status: 200
+    url: https://www.clevelandcliffs.com/doing-business/for-suppliers
+  reason: no-developer-program
+  state: none
 created: '2026-03-23'
 description: Cliffs Natural Resources is the legacy corporate name for what is now Cleveland-Cliffs Inc., a major mining and natural resources company that produces iron ore pellets primarily for steelmaking customers in North America. The company was renamed Cleveland-Cliffs in 2017 and the canonical profile lives at the cleveland-cliffs repo. Cliffs Natural Resources / Cleveland-Cliffs does not publish a public developer portal or general-purpose REST API surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cliffs-natural-resources.png
 layout: provider
-modified: '2026-04-26'
+modified: '2026-09-05'
 name: Cliffs Natural Resources
 nav: Providers
 network: true
 overview: 'Cliffs Natural Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Iron Ore, Manufacturing, Mining, Steel, and Steelmaking.
 
 
-  Cliffs Natural Resources'' developer surface includes engineering blog and 7 more developer resources.'
+  Cliffs Natural Resources'' developer surface includes engineering blog and 8 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Cliffs Natural Resources Inc. Celebrates 170 Years of Mining
@@ -101,7 +121,7 @@ score:
   band: minimal
   composite: 7.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -119,7 +139,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cliffs-natural-resources/refs/heads/main/screenshots/cliffs-natural-resources-2026-06-20T174519.png
 security:

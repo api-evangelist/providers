@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 20
 apis:
 - baseURL: https://mns-aws.jpmchase.com/v1
@@ -356,7 +356,12 @@ apis:
   description: Manage or request tokens and cryptograms.
   name: JPMorgan Chase Token Processing API
   slug: jp-morgan-chase-token-processing-api
-artifact_total: 96
+- baseURL: https://api.jpmorgan.com
+  baseurl_source: declared
+  description: Banking operations
+  name: JPMorgan Chase Banking API
+  slug: jpmorgan-chase-banking-api
+artifact_total: 98
 asyncapis:
 - description: ''
   name: Jp Morgan Chase Webhooks
@@ -571,13 +576,17 @@ finops:
 - name: Jp Morgan Chase Finops
   service_category: Banking / Payments
   slug: jp-morgan-chase-finops
+graphqls:
+- description: This GraphQL schema provides a conceptual representation of JPMorgan Chase's banking and financial services APIs. JPMorgan Chase operates one of the world's largest financial services platforms, offer
+  name: JPMorgan Chase GraphQL Schema
+  slug: jpmorgan-chase-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jp-morgan-chase.png
 layout: provider
 modified: '2026-07-28'
 name: JPMorgan Chase
 nav: Providers
 network: true
-overview: 'JPMorgan Chase publishes 64 APIs on the [APIs.io](https://apis.io/) network, including Notifications API, Accounts API, Recipients API, and 61 more. Tagged areas include Banking, Financial-Services, Payments, Treasury, and Fortune 100.
+overview: 'JPMorgan Chase publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Notifications API, Accounts API, Recipients API, and 62 more. Tagged areas include Banking, Financial-Services, Payments, Treasury, and Fortune 100.
 
 
   The JPMorgan Chase catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -622,7 +631,7 @@ score:
   band: developing
   composite: 49.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -644,7 +653,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 64
+      total: 65
   regulatory:
     applies: true
     matched_via: tags
@@ -652,7 +661,7 @@ score:
     regime_id: banking_open_finance
     score: 25.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

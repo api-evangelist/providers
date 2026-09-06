@@ -33,13 +33,30 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-04'
-api_count: 1
+  scored_at: '2026-09-05'
+api_count: 6
 apis:
 - description: Payment gateway API for accepting credit card and eCheck.Net payments, storing customer payment profiles (CIM), recurring billing (ARB), hosted/tokenized card capture (Accept.js / Accept Hosted), tran
   name: Authorize.net API
   slug: authorizenet-api
-artifact_total: 4
+- description: The Authorize.net Payment API enables merchants to process credit card, debit card, eCheck, Apple Pay, Google Pay, and PayPal transactions via a POST-based XML/JSON API with API Login ID and Transacti
+  name: Authorize.net Payment API
+  slug: authorize-net-payment-api
+- description: The Authorize.net Automated Recurring Billing (ARB) API enables merchants to create, update, and cancel subscription-based payment schedules for recurring charges.
+  name: Authorize.net Recurring Billing API
+  slug: authorize-net-recurring-billing-api
+- description: The Authorize.net Customer Information Manager (CIM) API enables secure storage and management of customer payment profiles including credit cards and bank accounts for reuse in future transactions.
+  name: Authorize.net Customer Profiles API
+  slug: authorize-net-customer-profiles-api
+- description: Authorize.net Webhooks deliver real-time event notifications for transaction, subscription, and fraud management events to merchant-configured HTTP endpoints.
+  name: Authorize.net Webhooks
+  slug: authorize-net-webhooks
+- baseURL: https://api.authorize.net/xml/v1/request.api
+  baseurl_source: declared
+  description: Charge, authorize, capture, void and refund transactions.
+  name: Authorize.net Transactions API
+  slug: authorize-net-transactions-api
+artifact_total: 9
 asyncapis:
 - description: ''
   name: Authorizenet Webhooks
@@ -162,7 +179,7 @@ modified: '2026-07-18'
 name: Authorize.net
 nav: Providers
 network: true
-overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payment Gateway, Credit Cards, and E-Commerce.
+overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) network: Transactions API. Tagged areas include Company, Payments, Payment Gateway, Credit Cards, and E-Commerce.
 
 
   The Authorize.net catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -171,28 +188,33 @@ overview: 'Authorize.net publishes 1 API on the [APIs.io](https://apis.io/) netw
   Authorize.net''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, sandbox, and 20 more developer resources.'
 random_paper: 12
 score:
-  band: developing
-  composite: 47.8
+  band: thin
+  composite: 37.6
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 37.0
+    artifact_dirs: 13
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -10.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
-    contract_quality: 41.6
-    developer_ergonomics: 73.8
-    discoverability: 68.5
+    contract_quality: 8.1
+    developer_ergonomics: 61.9
+    discoverability: 74.1
     governance: 4.5
     operational_transparency: 26.3
   previous_composite: 47.8
   provenance:
     conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
     mcp: derived
   regulatory:
     applies: true
@@ -201,8 +223,8 @@ score:
     regime_id: payments
     score: 51.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: falling
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorizenet/refs/heads/main/screenshots/authorizenet-2026-07-25T201810.png
 security:
 - kind: authentication

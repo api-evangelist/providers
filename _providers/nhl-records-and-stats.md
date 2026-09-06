@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: NHL historical data and statistics
@@ -92,7 +92,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhl-records-and-stats/refs/heads/main/screenshots/nhl-records-and-stats-2026-06-20T190310.png
 security:

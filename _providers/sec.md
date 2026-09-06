@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -27,15 +27,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-09-04'
+  score: 30.6
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -90,7 +90,30 @@ apis:
   description: Company filing history and metadata by CIK
   name: SEC EDGAR Submissions API
   slug: sec-submissions-api
-artifact_total: 32
+- description: The SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system provides REST APIs for accessing company filings, XBRL financial data, and full-text search across SEC submissions. APIs deliv
+  name: SEC EDGAR Company Filings API
+  slug: sec-edgar-company-filings-api
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Aggregated company financial facts
+  name: sec-edgar Company Facts API
+  slug: sec-edgar-company-facts-api
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Full-text search across all EDGAR filings
+  name: sec-edgar Full-Text Search API
+  slug: sec-edgar-full-text-search-api
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Company filing submission history
+  name: sec-edgar Submissions API
+  slug: sec-edgar-submissions-api
+- baseURL: https://efts.sec.gov
+  baseurl_source: declared
+  description: Structured XBRL financial data
+  name: sec-edgar XBRL API
+  slug: sec-edgar-xbrl-api
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -225,7 +248,7 @@ modified: '2026-06-12'
 name: SEC EDGAR
 nav: Providers
 network: true
-overview: 'SEC EDGAR publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Company Concept API, Company Facts API, EDGAR Operational Status API API, and 6 more. Tagged areas include Financial Data, SEC, EDGAR, Public Company Filings, and XBRL.
+overview: 'SEC EDGAR publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Company Concept API, Company Facts API, EDGAR Operational Status API API, and 10 more. Tagged areas include Financial Data, SEC, EDGAR, Public Company Filings, and XBRL.
 
 
   The SEC EDGAR catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -254,7 +277,7 @@ rules:
   slug: sec-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.3
+  composite: 45.6
   coverage:
     artifact_dirs: 16
     catalog_earned: 88.3
@@ -262,13 +285,13 @@ score:
     catalog_gap: 26.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
-    contract_quality: 69.5
-    developer_ergonomics: 23.8
+    contract_quality: 68.9
+    developer_ergonomics: 31.0
     discoverability: 74.1
     governance: 25.0
     operational_transparency: 26.3
@@ -279,7 +302,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 9
+      total: 13
   regulatory:
     applies: true
     matched_via: tags
@@ -287,7 +310,7 @@ score:
     regime_id: securities_market_data
     score: 38.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png
 security:

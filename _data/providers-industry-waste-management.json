@@ -29,7 +29,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -71,8 +71,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Waste Management",
@@ -92,7 +92,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -120,6 +120,51 @@
      "rank": 2
     },
     {
+     "name": "Clean Harbors",
+     "slug": "clean-harbors",
+     "description": "Clean Harbors is the largest provider of environmental and industrial services in North America — hazardous and non-hazardous waste management, emergency response, industrial cleaning, remediation, and used-oil and solvent recycling through its Safety-Kleen subsidiary. It runs no developer programme: no developer portal, no API documentation, no SDK in any registry, no GitHub organisation, and no /.well-known/ document on any host. Customers use the authenticated Clean Harbors Online Services portal at clhsaas.cleanharbors.com and the EPA's RCRA e-Manifest programme, whose machine-readable surface belongs to the EPA. Two callable contracts nonetheless run on Clean Harbors hosts, both found by direct probing: an anonymous, fully introspectable GraphQL endpoint at store.safety-kleen.com fronting six brand storefronts on one Adobe Commerce instance, and an unauthenticated Job Query API at careers.cleanharbors.com that the company documents in a published llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clean-harbors/refs/heads/main/screenshots/clean-harbors-2026-06-20T174450.png",
+     "score": 35.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 55.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 24.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 3
+    },
+    {
      "name": "WM",
      "slug": "wm",
      "description": "WM (formerly Waste Management, Inc.) is North America's largest integrated environmental solutions company, serving nearly 20 million municipal, commercial, industrial, and residential customers through collection, transfer, recycling, landfill, and waste-to-energy operations. WM does not run a self-serve, publicly-signup developer platform. It publishes a documented partner/customer REST API at api.wm.com covering account-level service and billing data - service details and pickup schedules, live service status and truck ETA, routing and hauling material information, pricing, invoices and aging balance, communication preferences, contacts, cases, tickets, and account activity notes. Access requires a WM-issued ClientId plus a JSON Web Token (JWT) and is granted on request to existing commercial/enterprise customers and integration partners by emailing apiaccess@wm.com; there is no open, self-serve API key signup.",
@@ -137,7 +182,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -162,7 +207,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -172,8 +217,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Waste Connections",
@@ -193,7 +238,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -218,7 +263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Stericycle",
@@ -238,7 +283,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -270,7 +315,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Goodr",
@@ -290,52 +335,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Resourcify",
-     "slug": "resourcify",
-     "description": "Resourcify (Resourcify GmbH) is a Hamburg, Germany based digital platform for waste management and circular-economy operations, describing itself as \"the operating system for a circular future.\" Its cloud software helps enterprises digitize and optimize their waste streams end to end - automating waste and recycling operations, optimizing cost, CO2 and recycling rates, tracking compliance, and running take-back systems - across manufacturing, construction, retail, healthcare, and airports. The platform connects waste producers with a network of recyclers and haulers, captures waste data and documentation, and reports on sustainability and material recovery. Resourcify is backed by Speedinvest. As of this profile the company exposes no public developer API, API documentation, or developer portal; integrations are delivered as managed connections rather than a self-serve API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/resourcify/refs/heads/main/screenshots/resourcify-2026-09-02T153549.png",
-     "score": 14.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 38.2,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -363,24 +363,24 @@
      "rank": 7
     },
     {
-     "name": "Junk King",
-     "slug": "junk-king",
-     "description": "Junk King is a professional junk removal and hauling franchise operating across the United States and Canada as part of the Neighborly family of home service brands. Through locally owned and operated locations, Junk King provides full-service junk removal, self-service dumpster rental, and dumpster bag pickup for residential and commercial customers, handling appliance and furniture removal, estate and property cleanouts, construction debris, yard waste, and e-waste. The company emphasizes eco-friendly disposal, recycling, donating, and reusing as much collected material as possible. Junk King offers free estimates, same-day service in many markets, and online, phone, and text-based booking. It is a portfolio company associated with Norwest Venture Partners and is tracked in the API Evangelist network as a company profile; Junk King publishes no public API or developer platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/junk-king/refs/heads/main/screenshots/junk-king-2026-07-25T223329.png",
-     "score": 13.5,
+     "name": "Resourcify",
+     "slug": "resourcify",
+     "description": "Resourcify (Resourcify GmbH) is a Hamburg, Germany based digital platform for waste management and circular-economy operations, describing itself as \"the operating system for a circular future.\" Its cloud software helps enterprises digitize and optimize their waste streams end to end - automating waste and recycling operations, optimizing cost, CO2 and recycling rates, tracking compliance, and running take-back systems - across manufacturing, construction, retail, healthcare, and airports. The platform connects waste producers with a network of recyclers and haulers, captures waste data and documentation, and reports on sustainability and material recovery. Resourcify is backed by Speedinvest. As of this profile the company exposes no public developer API, API documentation, or developer portal; integrations are delivered as managed connections rather than a self-serve API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/resourcify/refs/heads/main/screenshots/resourcify-2026-09-02T153549.png",
+     "score": 14.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -408,24 +408,24 @@
      "rank": 8
     },
     {
-     "name": "Clean Harbors",
-     "slug": "clean-harbors",
-     "description": "Clean Harbors is the largest provider of environmental and industrial services in North America, delivering hazardous and non-hazardous waste management, emergency response, industrial cleaning, environmental remediation, and used-oil and solvent recycling through its Safety-Kleen subsidiary. Clean Harbors does not publish a public developer portal or general-purpose REST API surface; programmatic interfaces are limited to the authenticated customer portal at clhsaas.cleanharbors.com (CLH SaaS) for service requests, manifests, and reporting, and partner-mediated EDI feeds. Customers also use the EPA e-Manifest system for federally regulated hazardous-waste manifest tracking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clean-harbors/refs/heads/main/screenshots/clean-harbors-2026-06-20T174450.png",
-     "score": 12.8,
+     "name": "Junk King",
+     "slug": "junk-king",
+     "description": "Junk King is a professional junk removal and hauling franchise operating across the United States and Canada as part of the Neighborly family of home service brands. Through locally owned and operated locations, Junk King provides full-service junk removal, self-service dumpster rental, and dumpster bag pickup for residential and commercial customers, handling appliance and furniture removal, estate and property cleanouts, construction debris, yard waste, and e-waste. The company emphasizes eco-friendly disposal, recycling, donating, and reusing as much collected material as possible. Junk King offers free estimates, same-day service in many markets, and online, phone, and text-based booking. It is a portfolio company associated with Norwest Venture Partners and is tracked in the API Evangelist network as a company profile; Junk King publishes no public API or developer platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/junk-king/refs/heads/main/screenshots/junk-king-2026-07-25T223329.png",
+     "score": 13.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 10.7,
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -470,7 +470,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -515,7 +515,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -570,7 +570,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -615,7 +615,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -667,7 +667,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -712,7 +712,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -764,7 +764,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -809,7 +809,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -854,7 +854,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -899,7 +899,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -927,15 +927,14 @@
      "rank": 19
     },
     {
-     "name": "Dayjob",
-     "slug": "dayjob",
-     "description": "Dayjob is an AI-powered scheduling agent built for waste management and skip hire fleets, operated by Gaea Technology Ltd and backed by Y Combinator (Spring 2026). Its autonomous agents analyze millions of potential route combinations to build optimized daily schedules that factor in travel times, skip sizes, driver availability and priority job assignments, then continuously re-optimize in real time as new jobs, driver changes and exceptions arrive. Dayjob integrates with existing ERP and telematics systems (Weighsoft, PurGo, Wastelogics, plus custom report setups) and claims customers see revenue and efficiency gains, tighter time-window hit rates and materially less planning admin. It is a vertical logistics application rather than an API platform - no public developer portal, API reference or SDKs are published at this time. This profile has been enriched from the company's public website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dayjob/refs/heads/main/screenshots/dayjob-2026-07-25T211445.png",
-     "score": 7.1,
+     "name": "Vaulted Deep",
+     "slug": "vaulted-deep",
+     "description": "Vaulted Deep is a permanent carbon removal and organic waste disposal company that injects carbon-filled organic waste — biosolids, agricultural byproducts and manure, and pulp and paper sludge — thousands of feet underground as a slurry, using patented geologic slurry sequestration technology adapted from oil and gas practice so the carbon is trapped permanently beneath impermeable rock. Spun out of Advantek Waste Management Services in 2023 and co-founded by Julia Reichelstein and Omar Abou-Sayed, it operates the Great Plains site in Hutchinson, Kansas and the Terminal Island site in Los Angeles, California, serving municipal wastewater utilities and agricultural operators while selling durable carbon removal credits to corporate buyers. It publishes no public API, SDK, or developer program.",
+     "score": 7.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -944,7 +943,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -972,24 +971,24 @@
      "rank": 20
     },
     {
-     "name": "Republic Services",
-     "slug": "republic-services",
-     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png",
+     "name": "Dayjob",
+     "slug": "dayjob",
+     "description": "Dayjob is an AI-powered scheduling agent built for waste management and skip hire fleets, operated by Gaea Technology Ltd and backed by Y Combinator (Spring 2026). Its autonomous agents analyze millions of potential route combinations to build optimized daily schedules that factor in travel times, skip sizes, driver availability and priority job assignments, then continuously re-optimize in real time as new jobs, driver changes and exceptions arrive. Dayjob integrates with existing ERP and telematics systems (Weighsoft, PurGo, Wastelogics, plus custom report setups) and claims customers see revenue and efficiency gains, tighter time-window hit rates and materially less planning admin. It is a vertical logistics application rather than an API platform - no public developer portal, API reference or SDKs are published at this time. This profile has been enriched from the company's public website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dayjob/refs/heads/main/screenshots/dayjob-2026-07-25T211445.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 10.7,
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1017,23 +1016,24 @@
      "rank": 21
     },
     {
-     "name": "Vaulted Deep",
-     "slug": "vaulted-deep",
-     "description": "Vaulted Deep is a permanent carbon removal and organic waste disposal company that injects carbon-filled organic waste — biosolids, agricultural byproducts and manure, and pulp and paper sludge — thousands of feet underground as a slurry, using patented geologic slurry sequestration technology adapted from oil and gas practice so the carbon is trapped permanently beneath impermeable rock. Spun out of Advantek Waste Management Services in 2023 and co-founded by Julia Reichelstein and Omar Abou-Sayed, it operates the Great Plains site in Hutchinson, Kansas and the Terminal Island site in Los Angeles, California, serving municipal wastewater utilities and agricultural operators while selling durable carbon removal credits to corporate buyers. It publishes no public API, SDK, or developer program.",
+     "name": "Republic Services",
+     "slug": "republic-services",
+     "description": "Republic Services is one of the largest providers of non-hazardous solid waste disposal, recycling, and environmental services in the United States. As a Fortune 500 company, Republic Services serves millions of customers across residential, commercial, industrial, and environmental segments. The company offers waste collection, recycling processing, composting, landfill operations, and digital customer tools for account management, service scheduling, and environmental reporting.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
+      "discoverability": 40.7,
+      "contract_quality": 10.7,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1078,7 +1078,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1123,7 +1123,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1167,7 +1167,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1212,7 +1212,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1257,7 +1257,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1302,7 +1302,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1347,7 +1347,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1385,13 +1385,13 @@
       "discoverability": 46.3,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,

@@ -21,21 +21,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-09-04'
+  score: 27.1
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://api.llm-discovery-api.com/functions/v1/llm-discovery/public
@@ -217,7 +217,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payem/refs/heads/main/screenshots/payem-2026-09-02T150919.png
 security:

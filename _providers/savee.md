@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -9,21 +9,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: documented
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-09-04'
+  score: 41.5
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://api.savee.com/v1
@@ -205,7 +205,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.2
+  composite: 56.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -213,7 +213,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -222,7 +222,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 47.4
+    operational_transparency: 44.7
   previous_composite: 57.2
   provenance:
     conformance: first-party
@@ -234,7 +234,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/savee/refs/heads/main/screenshots/savee-2026-09-02T154444.png
 security:

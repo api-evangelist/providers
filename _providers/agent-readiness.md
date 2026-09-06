@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.2
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 15
 apis:
 - description: An open JSON-RPC protocol that lets AI agents talk to tools, resources, and prompts through a uniform server surface. MCP is the most direct expression of "an API designed for an agent" — every API su
@@ -231,7 +231,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 26.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agent-readiness/refs/heads/main/screenshots/agent-readiness-2026-06-20T165921.png
 security:

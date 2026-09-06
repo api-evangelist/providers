@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -93,7 +93,37 @@ apis:
   description: The Zoning API from Brocade — 2 operation(s) for zoning.
   name: Brocade Zoning API
   slug: brocade-zoning-api
-artifact_total: 26
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Chassis API from Brocade Communications Systems — 1 operation(s) for chassis.
+  name: Brocade Communications Systems Chassis API
+  slug: brocade-communications-systems-chassis-api
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Interfaces API from Brocade Communications Systems — 2 operation(s) for interfaces.
+  name: Brocade Communications Systems Interfaces API
+  slug: brocade-communications-systems-interfaces-api
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Operations API from Brocade Communications Systems — 4 operation(s) for operations.
+  name: Brocade Communications Systems Operations API
+  slug: brocade-communications-systems-operations-api
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Session API from Brocade Communications Systems — 2 operation(s) for session.
+  name: Brocade Communications Systems Session API
+  slug: brocade-communications-systems-session-api
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Switch API from Brocade Communications Systems — 1 operation(s) for switch.
+  name: Brocade Communications Systems Switch API
+  slug: brocade-communications-systems-switch-api
+- baseURL: https://{switch-ip}/rest
+  baseurl_source: declared
+  description: The Zoning API from Brocade Communications Systems — 2 operation(s) for zoning.
+  name: Brocade Communications Systems Zoning API
+  slug: brocade-communications-systems-zoning-api
+artifact_total: 32
 collections:
 - collection_type: open
   name: API Collection
@@ -212,7 +242,7 @@ modified: '2026-08-21'
 name: Brocade
 nav: Providers
 network: true
-overview: 'Brocade publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Chassis API, Interfaces API, Operations API, and 3 more. Tagged areas include Data-Center, Directors, Fibre Channel, Network Automation, and Networking.
+overview: 'Brocade publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Chassis API, Interfaces API, Operations API, and 9 more. Tagged areas include Data-Center, Directors, Fibre Channel, Network Automation, and Networking.
 
 
   Brocade''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, signup flow, engineering blog, and 13 more developer resources.'
@@ -229,7 +259,7 @@ score:
   band: developing
   composite: 45.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -252,9 +282,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 12
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/screenshots/brocade-2026-06-20T173715.png
 security:

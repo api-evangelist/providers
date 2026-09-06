@@ -1,6 +1,6 @@
 {
- "total": 98,
- "shown": 98,
+ "total": 100,
+ "shown": 100,
  "limit": 1000,
  "bands": [
   {
@@ -8,8 +8,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "AspenTech",
@@ -29,7 +29,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -64,51 +64,6 @@
      "rank": 1
     },
     {
-     "name": "Uncountable",
-     "slug": "uncountable",
-     "description": "Uncountable is a unified laboratory informatics and R&D data platform for enterprise research organizations, replacing disconnected LIMS, ELN, QMS and PLM tools with a single cloud system that centralizes experimental data, accelerates formulation work, and supports AI-driven discovery across chemicals, advanced materials, batteries, plastics, coatings, food and life sciences. The platform is delivered as a multi-region SaaS application (US and EU deployments) and exposes an authenticated External API plus a hosted, OAuth-protected Model Context Protocol (MCP) server so agents and integration tooling can read platform data, alongside SFTP and instrument/ERP connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/screenshots/uncountable-2026-09-02T164847.png",
-     "score": 34.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 5.3,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 54.8,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 23.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
-    {
      "name": "Knowde",
      "slug": "knowde",
      "description": "Knowde is an AI platform for industrial operations, built for the chemicals and ingredients industry. Knowde AI extracts, structures, harmonizes and enriches product data out of legacy systems and offline documents; Knowde MDM is the master data repository that data lands in; Knowde CXP launches supplier storefronts natively integrated with MDM; and the Knowde Marketplace is a network of 8,000+ chemical company storefronts. The Knowde API gives customers programmatic access to that platform through a GraphQL API (the recommended primary interface) and a RESTful JSON API, both served from developer-api.knowde.com behind OAuth 2.0 client credentials, with API Clients provisioned in the Developer Portal and a documented PIMS filter grammar for querying product, category and attribute data.",
@@ -126,7 +81,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -151,17 +106,107 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 2
+    },
+    {
+     "name": "Chemius",
+     "slug": "chemius",
+     "description": "Chemius is a cloud-based chemical compliance platform that automates Safety Data Sheet (SDS), Technical Data Sheet (TDS), and regulatory label creation in 38+ languages for organizations handling chemical products. The platform exposes an API suite covering SDS, TDS, ADR transport documentation, ERP integration, labels, web shop product data, and PDF generation, and offers AI-assisted authoring through the Chemius AI SDS assistant. Chemius is hosted in a data center the company describes as DIN ISO/IEC 27001-certified, and ships the EU CLP 1272/2008 regulatory region alongside REACH 1907/2006, detergents, aerosols, ADR and UFI/PCN support. US OSHA and a general GHS region are announced on the site as \"Coming Soon\" rather than shipped. Chemius sells seven named APIs as separately priced monthly add-ons but publishes no reference for any of them: every API page ends at \"Book a call & ask for the API documentation\".",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemius/refs/heads/main/screenshots/chemius-2026-06-20T174256.png",
+     "score": 33.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 6.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 3
+    },
+    {
+     "name": "Uncountable",
+     "slug": "uncountable",
+     "description": "Uncountable is a unified laboratory informatics and R&D data platform for enterprise research organizations, replacing disconnected LIMS, ELN, QMS and PLM tools with a single cloud system that centralizes experimental data, accelerates formulation work, and supports AI-driven discovery across chemicals, advanced materials, batteries, plastics, coatings, food and life sciences. The platform is delivered as a multi-region SaaS application (US and EU deployments) and exposes an authenticated External API plus a hosted, OAuth-protected Model Context Protocol (MCP) server so agents and integration tooling can read platform data, alongside SFTP and instrument/ERP connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uncountable/refs/heads/main/screenshots/uncountable-2026-09-02T164847.png",
+     "score": 32.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 5.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 47.6,
+      "commercial_clarity": 43.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 23.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
     },
     {
      "name": "Air Products and Chemicals",
      "slug": "air-products-and-chemicals",
      "description": "Air Products and Chemicals, Inc. is a global industrial gases company founded in 1940 and headquartered in Allentown, Pennsylvania. It is one of the largest producers of hydrogen and helium worldwide, supplying atmospheric, process, and specialty gases including nitrogen, oxygen, argon, hydrogen, helium, and carbon dioxide, as well as related equipment and engineering services to customers in manufacturing, healthcare, technology, energy, and other industries. Air Products does not currently provide a public developer API, developer portal, or machine-readable contract. A live Axway (Vordel) API gateway operates at api.airproducts.com but blocks every anonymous path with a SOAP MessageBlocked fault, and customer ordering and tank telemetry sit behind the MyAirProducts login; integration is provisioned bilaterally under a gas supply agreement.",
-     "score": 28.7,
+     "score": 29.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 59.3,
+      "discoverability": 66.7,
       "contract_quality": 10.7,
       "governance": 9.8,
       "contract_governance": 9.8,
@@ -170,7 +215,7 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -202,7 +247,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     }
    ],
    "open": true
@@ -212,8 +257,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 31,
-   "shown": 31,
+   "count": 30,
+   "shown": 30,
    "providers": [
     {
      "name": "Sherwin-Williams",
@@ -233,7 +278,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -258,7 +303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "LanzaTech",
@@ -278,7 +323,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -310,7 +355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Evolved By Nature",
@@ -330,7 +375,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -355,7 +400,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Citrine Informatics",
@@ -375,7 +420,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -400,7 +445,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "EnergyX",
@@ -420,7 +465,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -452,7 +497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Standard Industries",
@@ -472,52 +517,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Valdera",
-     "slug": "valdera",
-     "description": "Valdera is the AI-powered sourcing and procurement platform for chemicals, ingredients, and raw materials, matching buyers with vetted global suppliers across a database of 400K+ suppliers and 1.7M+ unique chemistries. Buyers get supplier discovery, RFQs, and negotiation in one place; suppliers receive relevant inbound RFQs and fulfill orders on the platform. Valdera is a web platform, not an API provider — it publishes no public developer portal, API documentation, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valdera/refs/heads/main/screenshots/valdera-2026-09-02T165311.png",
-     "score": 16.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -545,6 +545,51 @@
      "rank": 11
     },
     {
+     "name": "Valdera",
+     "slug": "valdera",
+     "description": "Valdera is the AI-powered sourcing and procurement platform for chemicals, ingredients, and raw materials, matching buyers with vetted global suppliers across a database of 400K+ suppliers and 1.7M+ unique chemistries. Buyers get supplier discovery, RFQs, and negotiation in one place; suppliers receive relevant inbound RFQs and fulfill orders on the platform. Valdera is a web platform, not an API provider — it publishes no public developer portal, API documentation, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/valdera/refs/heads/main/screenshots/valdera-2026-09-02T165311.png",
+     "score": 16.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Imubit",
      "slug": "imubit",
      "description": "Imubit is a Houston-based industrial AI company behind the Optimizing Brain, the process industry's first Closed Loop AI Optimization (AIO) solution powered by deep reinforcement learning. Its cloud-based platform learns a dynamic model from a plant's own historian and DCS data, then writes optimal setpoints back through existing control-system infrastructure to continuously optimize throughput, yield, energy use and emissions. Imubit reports 100+ closed-loop applications deployed across refining, oil and gas, chemicals, petrochemicals and polymers, cement and building materials, and mining, minerals and metals, and is trusted by 7 of the 10 largest U.S. refiners. Imubit publishes no public developer API; its GitHub organization ships open-source Python libraries for pulling data from industrial historians (OSIsoft PI, Aspen IP21) and supporting infrastructure.",
@@ -562,7 +607,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -601,7 +646,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Arkema",
@@ -621,52 +666,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Chemius",
-     "slug": "chemius",
-     "description": "Chemius is a cloud-based chemical compliance platform that automates Safety Data Sheet (SDS), Technical Data Sheet (TDS), and regulatory label creation in 38+ languages for organizations handling chemical products. The platform exposes an API suite covering SDS, TDS, ADR transport documentation, ERP integration, labels, web shop product data, and PDF generation, and offers AI-assisted authoring through the Chemius AI SDS assistant. Chemius is hosted in DIN ISO/IEC 27001-certified German data centers and supports CLP 1272/2008, REACH 1907/2006, detergents, aerosols, and US OSHA / GHS regulatory frameworks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemius/refs/heads/main/screenshots/chemius-2026-06-20T174256.png",
-     "score": 14.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 6.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -710,7 +710,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -755,7 +755,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -800,7 +800,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -845,7 +845,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -890,7 +890,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -935,7 +935,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -980,7 +980,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1032,7 +1032,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1077,7 +1077,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1122,7 +1122,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1167,7 +1167,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1212,7 +1212,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1257,7 +1257,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1302,7 +1302,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1347,7 +1347,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1399,7 +1399,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1451,7 +1451,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1496,7 +1496,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1541,7 +1541,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1586,7 +1586,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1638,7 +1638,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1673,8 +1673,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 63,
-   "shown": 63,
+   "count": 65,
+   "shown": 65,
    "providers": [
     {
      "name": "Linde",
@@ -1694,7 +1694,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1739,7 +1739,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1784,7 +1784,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1829,7 +1829,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1874,7 +1874,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1926,7 +1926,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1961,25 +1961,32 @@
      "rank": 41
     },
     {
-     "name": "Innospec",
-     "slug": "innospec",
-     "description": "Innospec is a major US corporation and Fortune 1000 company. The Innospec API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/screenshots/innospec-2026-06-20T183357.png",
-     "score": 10.2,
+     "name": "Albemarle",
+     "slug": "albemarle",
+     "description": "Albemarle Corporation is a global specialty chemicals company and leading provider of lithium, bromine, and other essential elements. Operating from its global headquarters in Charlotte, NC, Albemarle serves customers in approximately 70 countries with world-class hard-rock and brine lithium resources, state-of-the-art lithium conversion facilities, advanced lithium material and process development, bromine production facilities, and the US's only producing lithium resource in Silver Peak, NV. The company serves critical markets including electric vehicle batteries, energy storage, flame retardants, pharmaceutical ingredients, catalysts, and specialty chemicals, employing approximately 7,800 people and holding over 1,500 active patents worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/screenshots/albemarle-2026-06-20T171503.png",
+     "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 18.9,
+      "matched_via": "tags"
+     },
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2006,23 +2013,24 @@
      "rank": 42
     },
     {
-     "name": "A. Schulman",
-     "slug": "a-schulman",
-     "description": "A. Schulman was a global supplier of high-performance plastic compounds, composites, and powders used by manufacturers across packaging, automotive, electronics, and consumer goods industries. The company was acquired by LyondellBasell in 2018 and now operates as the Advanced Polymer Solutions division, continuing to supply engineered plastics, masterbatches, compounds, and specialty powders to global manufacturers.",
-     "score": 10.0,
+     "name": "Innospec",
+     "slug": "innospec",
+     "description": "Innospec is a major US corporation and Fortune 1000 company. The Innospec API provides programmatic access to its platform services, data, and integrations for enterprise customers and partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/innospec/refs/heads/main/screenshots/innospec-2026-06-20T183357.png",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 66.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 9.5,
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2050,6 +2058,50 @@
      "rank": 43
     },
     {
+     "name": "A. Schulman",
+     "slug": "a-schulman",
+     "description": "A. Schulman was a global supplier of high-performance plastic compounds, composites, and powders used by manufacturers across packaging, automotive, electronics, and consumer goods industries. The company was acquired by LyondellBasell in 2018 and now operates as the Advanced Polymer Solutions division, continuing to supply engineered plastics, masterbatches, compounds, and specialty powders to global manufacturers.",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 13.2,
+      "contract_governance": 0.0,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 44
+    },
+    {
      "name": "LanzaJet",
      "slug": "lanzajet",
      "description": "LanzaJet is a sustainable fuels technology company, headquartered at 520 Lake Cook Road, Deerfield, Illinois, that produces and licenses sustainable aviation fuel (SAF) and renewable diesel. Founded in 2020 as a spin-out of LanzaTech with Suncor and Mitsui, and later backed by Shell, British Airways, Southwest Airlines, Microsoft's Climate Innovation Fund, Breakthrough Energy, Groupe ADP, MUFG and All Nippon Airways, the company commercializes a patented Alcohol-to-Jet (ATJ) process that converts ethanol into synthetic paraffinic kerosene through a continuous catalytic reaction, reaching roughly 90% hydrocarbon selectivity to jet fuel and converting about 98% of the ethanol carbon into salable product. The ATJ pathway was approved by ASTM International in 2018. LanzaJet Freedom Pines Fuels in Soperton, Georgia — opened in 2024 — is the world's first commercial ethanol-to-jet SAF plant, producing roughly 10 million gallons of SAF and renewable diesel a year, and the company is developing Project Speedbird in the UK alongside a CirculAir joint solution with LanzaTech that widens the feedstock base to municipal solid waste, agricultural residues and industrial off-gases via gas fermentation. LanzaJet sells technology licenses, project development and engineering services and fuel offtake rather than software: as of this profiling pass it publishes no public developer portal, no API reference, no SDKs, and no machine-readable API contract of any kind, and every /.well-known/ discovery probe against its web host returned 404.",
@@ -2067,7 +2119,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2099,7 +2151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 45
     },
     {
      "name": "Monolith Materials",
@@ -2119,7 +2171,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2151,7 +2203,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 46
     },
     {
      "name": "OCSiAl",
@@ -2171,7 +2223,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2185,58 +2237,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "Albemarle",
-     "slug": "albemarle",
-     "description": "Albemarle Corporation is a global specialty chemicals company and leading provider of lithium, bromine, and other essential elements. Operating from its global headquarters in Charlotte, NC, Albemarle serves customers in approximately 70 countries with world-class hard-rock and brine lithium resources, state-of-the-art lithium conversion facilities, advanced lithium material and process development, bromine production facilities, and the US's only producing lithium resource in Silver Peak, NV. The company serves critical markets including electric vehicle batteries, energy storage, flame retardants, pharmaceutical ingredients, catalysts, and specialty chemicals, employing approximately 7,800 people and holding over 1,500 active patents worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/albemarle/refs/heads/main/screenshots/albemarle-2026-06-20T171503.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 18.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -2268,7 +2268,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2320,7 +2320,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2365,7 +2365,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2409,7 +2409,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2454,7 +2454,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2499,7 +2499,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2534,32 +2534,24 @@
      "rank": 53
     },
     {
-     "name": "Genomatica",
-     "slug": "genomatica",
-     "description": "Genomatica (which markets itself as Geno) is a San Diego, California biotechnology and sustainable materials company founded in 1998 that engineers microbes and fermentation processes to make widely used chemical building blocks from plants instead of fossil fuels. Its commercialized process technology covers Geno BDO (bio-based 1,4-butanediol, licensed to partners including BASF and Novamont), Brontide butylene glycol for personal care, Avela (R)-1,3-butanediol, plant-based nylon-6 intermediates developed with lululemon and manufacturing partners such as Hyosung and Sojitz, plus palm-oil alternatives and fragrance building blocks. Genomatica licenses its process technology to chemical producers rather than operating a software platform; as of this profile it publishes no public developer portal, API documentation, machine-readable specification, or agent-facing discovery surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genomatica/refs/heads/main/screenshots/genomatica-2026-08-07T165616.png",
-     "score": 7.3,
+     "name": "AAK",
+     "slug": "aak",
+     "description": "AAK AB is a Swedish producer of value-adding plant-based oils and fats, headquartered in Malmö and listed on Nasdaq Stockholm (ticker AAK) in the Food & Beverage large-cap segment. It was formed in 2005 through the merger of Denmark's Aarhus United and Sweden's Karlshamns AB, and describes more than 150 years of combined experience in specialty vegetable oils. The company employs roughly 4,000 people across 19 production facilities, 25 regional sales offices and 16 Customer Innovation Centers, and works through a co-development model with customers in chocolate and confectionery, bakery, dairy and ice cream, plant-based foods, special nutrition, foodservice and retail, personal care, animal nutrition, candles and technical products such as fatty acids and glycerine. Its product is a physical industrial ingredient, not software: no developer program, public API, SDK, developer portal, machine-readable contract or GitHub organization could be found, and no api/developer/docs/portal hostname resolves under aak.com.",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 13.5,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2586,23 +2578,24 @@
      "rank": 54
     },
     {
-     "name": "Mitra Chem",
-     "slug": "mitra-chem",
-     "description": "Mitra Chem is an AI-enabled innovator and manufacturer of battery and critical materials for energy, AI infrastructure and defense applications, founded in 2021 and headquartered in Mountain View, California. Its first commercial product is iron-based lithium iron phosphate (LFP) and lithium manganese iron phosphate (LMFP) cathode active material produced for Western battery cell makers and energy-storage OEMs as a non-China supply source. The company operates The Foundry, an instrumented shared pilot manufacturing facility spanning wet chemistry, hydrometallurgy, particle sizing, drying and heat treatment, and runs an internal full-stack AI platform of physics-based models, digital twins and engineering co-pilots used to compress materials scale-up cost and timelines. The AI platform is internal tooling for Mitra Chem's own manufacturing operations; it is not sold or exposed as a software product, and the company publishes no public API, developer portal, SDK or machine-readable interface.",
-     "score": 6.7,
+     "name": "Genomatica",
+     "slug": "genomatica",
+     "description": "Genomatica (which markets itself as Geno) is a San Diego, California biotechnology and sustainable materials company founded in 1998 that engineers microbes and fermentation processes to make widely used chemical building blocks from plants instead of fossil fuels. Its commercialized process technology covers Geno BDO (bio-based 1,4-butanediol, licensed to partners including BASF and Novamont), Brontide butylene glycol for personal care, Avela (R)-1,3-butanediol, plant-based nylon-6 intermediates developed with lululemon and manufacturing partners such as Hyosung and Sojitz, plus palm-oil alternatives and fragrance building blocks. Genomatica licenses its process technology to chemical producers rather than operating a software platform; as of this profile it publishes no public developer portal, API documentation, machine-readable specification, or agent-facing discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/genomatica/refs/heads/main/screenshots/genomatica-2026-08-07T165616.png",
+     "score": 7.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2637,11 +2630,10 @@
      "rank": 55
     },
     {
-     "name": "LiquidLight",
-     "slug": "liquidlight",
-     "description": "LiquidLight, Inc. (Liquid Light) was an electrochemistry company based in Monmouth Junction, New Jersey that developed and licensed process technology for converting carbon dioxide into industrial chemicals. Founded in 2009 by Kyle Teamey, Emily Cole, Andrew Bocarsly, Fouad Elnaggar and Nety Krishna around technology licensed from Princeton University, the company built a portfolio of more than 100 patents covering the electrochemical production of chemicals including monoethylene glycol (MEG), propylene and acetic acid, with MEG as its lead target market. It raised seed funding from Redpoint Ventures and a $15 million Series B in September 2014 from investors including VantagePoint Capital Partners and BP Ventures, and was also a Battery Ventures portfolio investment. Avantium acquired Liquid Light on January 10, 2017 and the company ceased operating independently. LiquidLight was a materials and process-technology company: it never published a public API, developer portal, SDKs or any machine-readable developer surface, and no company web property survives the acquisition. This profile is retained in the API Evangelist network as an accurate, non-API portfolio record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/liquidlight/refs/heads/main/screenshots/liquidlight-2026-07-25T225313.png",
-     "score": 6.4,
+     "name": "Mitra Chem",
+     "slug": "mitra-chem",
+     "description": "Mitra Chem is an AI-enabled innovator and manufacturer of battery and critical materials for energy, AI infrastructure and defense applications, founded in 2021 and headquartered in Mountain View, California. Its first commercial product is iron-based lithium iron phosphate (LFP) and lithium manganese iron phosphate (LMFP) cathode active material produced for Western battery cell makers and energy-storage OEMs as a non-China supply source. The company operates The Foundry, an instrumented shared pilot manufacturing facility spanning wet chemistry, hydrometallurgy, particle sizing, drying and heat treatment, and runs an internal full-stack AI platform of physics-based models, digital twins and engineering co-pilots used to compress materials scale-up cost and timelines. The AI platform is internal tooling for Mitra Chem's own manufacturing operations; it is not sold or exposed as a software product, and the company publishes no public API, developer portal, SDK or machine-readable interface.",
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2650,101 +2642,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    },
-    {
-     "name": "RecommerceX",
-     "slug": "recommercex",
-     "description": "RecommerceX is an engineering-driven manufacturing company applying circular-economy practices to transform industrial waste into advanced engineering materials. It operates three flagship brands: RexSteel (seamless and ERW stainless steel pipes, tubes, forgings, flanges and heat-exchanger tubes), RexPol (HDPE and DWC polymer pipes, polymer compounds and engineering plastics), and RexTherm (critical infrastructure including liquid cooling, heat exchangers, power components and acoustics). It serves oil & gas, chemical, pharmaceutical, infrastructure, automotive, water, power and industrial manufacturing sectors. Surfaced as a portfolio company of accel and added to the API Evangelist network; the public site publishes no API, SDK, developer portal, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/recommercex/refs/heads/main/screenshots/recommercex-2026-09-02T153113.png",
-     "score": 6.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "Archimetis",
-     "slug": "archimetis",
-     "description": "Archimetis builds an AI-powered Operational Reasoning System for refineries, chemicals, and heavy process industries. The platform unifies data from disparate operational sources — plant historians, linear programs, advanced process control models, and digital engineering documents — into a single intelligence layer, then continuously monitors operations, performs complex engineering analysis, and applies industry best practices to surface actionable insights for operators and engineers. Marketed as \"See more. Solve smarter,\" it targets margin improvement, cost savings, and process safety across refining, chemicals, and other heavy industries. Founded in 2023, the company raised $11.5M led by Inspired Capital. Archimetis is an enterprise B2B platform engaged through guided working sessions and demos; it does not currently publish a public API, developer portal, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/archimetis/refs/heads/main/screenshots/archimetis-2026-07-25T201026.png",
-     "score": 6.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2776,27 +2678,117 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 56
     },
     {
-     "name": "Calumet",
-     "slug": "calumet",
-     "description": "Calumet is a specialty hydrocarbon and renewable fuels company that produces a broad portfolio of branded and customer-formulated specialty products including lubricating oils, white mineral oils, solvents, waxes, and renewable diesel through its Montana Renewables subsidiary. The company serves customers across consumer, industrial, and energy markets globally. Calumet does not publish a public developer API portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calumet/refs/heads/main/screenshots/calumet-2026-06-20T173915.png",
-     "score": 6.1,
+     "name": "LiquidLight",
+     "slug": "liquidlight",
+     "description": "LiquidLight, Inc. (Liquid Light) was an electrochemistry company based in Monmouth Junction, New Jersey that developed and licensed process technology for converting carbon dioxide into industrial chemicals. Founded in 2009 by Kyle Teamey, Emily Cole, Andrew Bocarsly, Fouad Elnaggar and Nety Krishna around technology licensed from Princeton University, the company built a portfolio of more than 100 patents covering the electrochemical production of chemicals including monoethylene glycol (MEG), propylene and acetic acid, with MEG as its lead target market. It raised seed funding from Redpoint Ventures and a $15 million Series B in September 2014 from investors including VantagePoint Capital Partners and BP Ventures, and was also a Battery Ventures portfolio investment. Avantium acquired Liquid Light on January 10, 2017 and the company ceased operating independently. LiquidLight was a materials and process-technology company: it never published a public API, developer portal, SDKs or any machine-readable developer surface, and no company web property survives the acquisition. This profile is retained in the API Evangelist network as an accurate, non-API portfolio record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/liquidlight/refs/heads/main/screenshots/liquidlight-2026-07-25T225313.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
+     "name": "RecommerceX",
+     "slug": "recommercex",
+     "description": "RecommerceX is an engineering-driven manufacturing company applying circular-economy practices to transform industrial waste into advanced engineering materials. It operates three flagship brands: RexSteel (seamless and ERW stainless steel pipes, tubes, forgings, flanges and heat-exchanger tubes), RexPol (HDPE and DWC polymer pipes, polymer compounds and engineering plastics), and RexTherm (critical infrastructure including liquid cooling, heat exchangers, power components and acoustics). It serves oil & gas, chemical, pharmaceutical, infrastructure, automotive, water, power and industrial manufacturing sectors. Surfaced as a portfolio company of accel and added to the API Evangelist network; the public site publishes no API, SDK, developer portal, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/recommercex/refs/heads/main/screenshots/recommercex-2026-09-02T153113.png",
+     "score": 6.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 58
+    },
+    {
+     "name": "Archimetis",
+     "slug": "archimetis",
+     "description": "Archimetis builds an AI-powered Operational Reasoning System for refineries, chemicals, and heavy process industries. The platform unifies data from disparate operational sources — plant historians, linear programs, advanced process control models, and digital engineering documents — into a single intelligence layer, then continuously monitors operations, performs complex engineering analysis, and applies industry best practices to surface actionable insights for operators and engineers. Marketed as \"See more. Solve smarter,\" it targets margin improvement, cost savings, and process safety across refining, chemicals, and other heavy industries. Founded in 2023, the company raised $11.5M led by Inspired Capital. Archimetis is an enterprise B2B platform engaged through guided working sessions and demos; it does not currently publish a public API, developer portal, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/archimetis/refs/heads/main/screenshots/archimetis-2026-07-25T201026.png",
+     "score": 6.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2831,25 +2823,32 @@
      "rank": 59
     },
     {
-     "name": "Huntsman Corporation",
-     "slug": "huntsman",
-     "description": "Huntsman Corporation is a publicly traded global chemical manufacturer of differentiated and specialty chemicals serving a diverse range of consumer and industrial end markets, with operating segments in polyurethanes, performance products, and advanced materials. Huntsman maintains a Technology Portal for partner collaborations, but no public developer APIs have been identified at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huntsman/refs/heads/main/screenshots/huntsman-2026-06-20T182949.png",
-     "score": 5.5,
+     "name": "Calumet",
+     "slug": "calumet",
+     "description": "Calumet is a specialty hydrocarbon and renewable fuels company that produces a broad portfolio of branded and customer-formulated specialty products including lubricating oils, white mineral oils, solvents, waxes, and renewable diesel through its Montana Renewables subsidiary. The company serves customers across consumer, industrial, and energy markets globally. Calumet does not publish a public developer API portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calumet/refs/heads/main/screenshots/calumet-2026-06-20T173915.png",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 13.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2876,11 +2875,10 @@
      "rank": 60
     },
     {
-     "name": "MITO Material Solutions",
-     "slug": "mito-material-solutions",
-     "description": "MITO Material Solutions (MITO Materials) is a specialty chemical company that develops patented hybrid additive technology to strengthen composite and thermoplastic materials. Its platform functionalizes graphene and biomaterials to improve strength, durability, flexibility, and sustainability without requiring changes to a manufacturer's existing process. Core products include the MITO hybrid additive platform, MITO E-GO, MITO E-GO Res-1, and MITO ACRE, serving the sports and recreation, transportation, automotive, and infrastructure industries. The company is a Techstars portfolio company and was added to the API Evangelist network for enrichment. As of this pass, MITO publishes no developer API, SDK, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mito-material-solutions/refs/heads/main/screenshots/mito-material-solutions-2026-08-07T183812.png",
-     "score": 5.5,
+     "name": "TripleW Ltd.",
+     "slug": "3plw",
+     "description": "TripleW Ltd. (Belgian operating entity TripleW NV) is an industrial biotechnology and specialty-chemicals company founded in 2016, headquartered at Innovatiestraat 1, 2030 Antwerpen, Belgium, with a US office in Shorewood, Wisconsin and R&D split between Israel and Belgium. Its patented process treats food waste as a third-generation renewable feedstock: hydrolysis, fermentation and purification yield pure lactic acid, sold under the Circulac brand in grades for personal care, home care, food and beverage and industrial use, and as the building block of polylactic acid (PLA) bioplastic. The same process chemically recycles discarded PLA back into feedstock, and can be installed inside existing waste-management infrastructure. Its flagship commercial Circulac facility is at the Port of Antwerp. TripleW sells industrial chemical product and engineering services, not software: no developer program, no public API, and no machine-readable API contract of any kind.",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2889,11 +2887,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2921,24 +2919,24 @@
      "rank": 61
     },
     {
-     "name": "Tidal Vision",
-     "slug": "tidal-vision",
-     "description": "Tidal Vision Products, Inc. is a Bellingham, Washington biotechnology and specialty-chemicals manufacturer, and the only commercial-scale US producer of chitosan — a non-toxic, non-hazmat, biodegradable industrial biopolymer upcycled from crab and shrimp shell waste. Its zero-waste Chitofining process extracts, modifies and formulates chitosan chemistries that displace PFAS, halogenated chemicals, toxic antimicrobials and persistent plastics across three business lines: Tidal Clear water and wastewater treatment, Tidal Grow AgriScience crop and soil inputs, and Tidal-Tec Biomaterial Science performance materials. The company closed an oversubscribed $140M+ Series B in 2025 and acquired Clear Water Services. It is a materials-science manufacturer and publishes no public developer program, API, or machine-readable API contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tidal-vision/refs/heads/main/screenshots/tidal-vision-2026-09-02T163718.png",
-     "score": 5.4,
+     "name": "Huntsman Corporation",
+     "slug": "huntsman",
+     "description": "Huntsman Corporation is a publicly traded global chemical manufacturer of differentiated and specialty chemicals serving a diverse range of consumer and industrial end markets, with operating segments in polyurethanes, performance products, and advanced materials. Huntsman maintains a Technology Portal for partner collaborations, but no public developer APIs have been identified at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/huntsman/refs/heads/main/screenshots/huntsman-2026-06-20T182949.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 53.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2966,11 +2964,11 @@
      "rank": 62
     },
     {
-     "name": "Axalta Coating Systems",
-     "slug": "axalta-coating-systems",
-     "description": "Axalta Coating Systems is a global supplier of liquid and powder coatings for transportation and industrial end-markets, operating through Performance Coatings (refinish and industrial) and Mobility Coatings (light vehicle and commercial vehicle) segments. Brands include Cromax, Spies Hecker, Standox, Imron, and Voltatex. In July 2024 Axalta acquired The CoverFlexx Group from Transtar Holding for $285 million to expand its economy-tier aftermarket coverage in North America. In November 2025 Axalta announced a $17 billion all-stock merger of equals with AkzoNobel that is expected to close in late 2026 or early 2027, forming a coatings company with dual headquarters in Amsterdam and Philadelphia.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axalta-coating-systems/refs/heads/main/screenshots/axalta-coating-systems-2026-06-20T172804.png",
-     "score": 5.3,
+     "name": "MITO Material Solutions",
+     "slug": "mito-material-solutions",
+     "description": "MITO Material Solutions (MITO Materials) is a specialty chemical company that develops patented hybrid additive technology to strengthen composite and thermoplastic materials. Its platform functionalizes graphene and biomaterials to improve strength, durability, flexibility, and sustainability without requiring changes to a manufacturer's existing process. Core products include the MITO hybrid additive platform, MITO E-GO, MITO E-GO Res-1, and MITO ACRE, serving the sports and recreation, transportation, automotive, and infrastructure industries. The company is a Techstars portfolio company and was added to the API Evangelist network for enrichment. As of this pass, MITO publishes no developer API, SDK, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mito-material-solutions/refs/heads/main/screenshots/mito-material-solutions-2026-08-07T183812.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2978,12 +2976,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3011,23 +3009,24 @@
      "rank": 63
     },
     {
-     "name": "LyondellBasell",
-     "slug": "lyondellbasell",
-     "description": "LyondellBasell Industries N.V. (NYSE: LYB) is one of the world's largest producers of polymers and plastic resins, including polyethylene, polypropylene, and specialty polyolefins such as Catalloy and Polybutene-1. The company also produces chemicals, fuels, polyolefin process technology, and advanced polymer solutions, and operates a Circular & Low Carbon Solutions (CLCS) business marketing CirculenRecover and CirculenRenew recycled and renewable polymers. LyondellBasell has no public developer program, no API documentation, and no source code published in its (empty) GitHub organization. In January 2025 the company began the permanent closure of its Houston Refining facility — the 263,776 bpd, full-conversion plant that was the first refinery on the Houston Ship Channel when it opened in 1918 — eliminating more than 400 jobs and exiting the refining business entirely. Profiled as a Tier 3 industrial / no-APIs provider for portfolio completeness.",
-     "score": 5.3,
+     "name": "Tidal Vision",
+     "slug": "tidal-vision",
+     "description": "Tidal Vision Products, Inc. is a Bellingham, Washington biotechnology and specialty-chemicals manufacturer, and the only commercial-scale US producer of chitosan — a non-toxic, non-hazmat, biodegradable industrial biopolymer upcycled from crab and shrimp shell waste. Its zero-waste Chitofining process extracts, modifies and formulates chitosan chemistries that displace PFAS, halogenated chemicals, toxic antimicrobials and persistent plastics across three business lines: Tidal Clear water and wastewater treatment, Tidal Grow AgriScience crop and soil inputs, and Tidal-Tec Biomaterial Science performance materials. The company closed an oversubscribed $140M+ Series B in 2025 and acquired Clear Water Services. It is a materials-science manufacturer and publishes no public developer program, API, or machine-readable API contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tidal-vision/refs/heads/main/screenshots/tidal-vision-2026-09-02T163718.png",
+     "score": 5.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 53.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3055,11 +3054,11 @@
      "rank": 64
     },
     {
-     "name": "Chemtura",
-     "slug": "chemtura",
-     "description": "Chemtura Corporation was a global specialty chemicals company that developed, manufactured, and marketed chemical intermediates, additives, specialty chemicals, urethanes, organometallics, and modern plastics. In April 2017, Chemtura was acquired by LANXESS AG, the German specialty chemicals company headquartered in Cologne, and its operations were integrated into LANXESS's Performance Materials and other business segments. Chemtura products are now marketed and supported through LANXESS, which continues to serve agriculture, animal care, mobility, consumer goods, electrical and electronics, energy, food, and healthcare end markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemtura/refs/heads/main/screenshots/chemtura-2026-06-20T174259.png",
-     "score": 5.0,
+     "name": "Axalta Coating Systems",
+     "slug": "axalta-coating-systems",
+     "description": "Axalta Coating Systems is a global supplier of liquid and powder coatings for transportation and industrial end-markets, operating through Performance Coatings (refinish and industrial) and Mobility Coatings (light vehicle and commercial vehicle) segments. Brands include Cromax, Spies Hecker, Standox, Imron, and Voltatex. In July 2024 Axalta acquired The CoverFlexx Group from Transtar Holding for $285 million to expand its economy-tier aftermarket coverage in North America. In November 2025 Axalta announced a $17 billion all-stock merger of equals with AkzoNobel that is expected to close in late 2026 or early 2027, forming a coatings company with dual headquarters in Amsterdam and Philadelphia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axalta-coating-systems/refs/heads/main/screenshots/axalta-coating-systems-2026-06-20T172804.png",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3067,12 +3066,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3100,11 +3099,10 @@
      "rank": 65
     },
     {
-     "name": "Ecolab",
-     "slug": "ecolab",
-     "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png",
-     "score": 5.0,
+     "name": "LyondellBasell",
+     "slug": "lyondellbasell",
+     "description": "LyondellBasell Industries N.V. (NYSE: LYB) is one of the world's largest producers of polymers and plastic resins, including polyethylene, polypropylene, and specialty polyolefins such as Catalloy and Polybutene-1. The company also produces chemicals, fuels, polyolefin process technology, and advanced polymer solutions, and operates a Circular & Low Carbon Solutions (CLCS) business marketing CirculenRecover and CirculenRenew recycled and renewable polymers. LyondellBasell has no public developer program, no API documentation, and no source code published in its (empty) GitHub organization. In January 2025 the company began the permanent closure of its Houston Refining facility — the 263,776 bpd, full-conversion plant that was the first refinery on the Houston Ship Channel when it opened in 1918 — eliminating more than 400 jobs and exiting the refining business entirely. Profiled as a Tier 3 industrial / no-APIs provider for portfolio completeness.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3112,12 +3110,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3145,10 +3143,10 @@
      "rank": 66
     },
     {
-     "name": "Hanqi Group",
-     "slug": "hanqigroup",
-     "description": "Beijing Hanqi Environmental Technology Co., Ltd. (Hanqi Group) is a Beijing-based environmental technology company specializing in full-process chemical and oily wastewater treatment for the petrochemical, coal-chemical, new-energy, industrial-park, and municipal sectors. With roughly 17 years of operating history, 140+ client references, and 80+ patents across physicochemical, biochemical, and oxidation process categories, Hanqi delivers engineered water-treatment technologies and services rather than software. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. Public research confirms no developer, API, SDK, or agent surface exists for this provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanqigroup/refs/heads/main/screenshots/hanqigroup-2026-07-25T220635.png",
+     "name": "Chemtura",
+     "slug": "chemtura",
+     "description": "Chemtura Corporation was a global specialty chemicals company that developed, manufactured, and marketed chemical intermediates, additives, specialty chemicals, urethanes, organometallics, and modern plastics. In April 2017, Chemtura was acquired by LANXESS AG, the German specialty chemicals company headquartered in Cologne, and its operations were integrated into LANXESS's Performance Materials and other business segments. Chemtura products are now marketed and supported through LANXESS, which continues to serve agriculture, animal care, mobility, consumer goods, electrical and electronics, energy, food, and healthcare end markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chemtura/refs/heads/main/screenshots/chemtura-2026-06-20T174259.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3162,7 +3160,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3190,10 +3188,10 @@
      "rank": 67
     },
     {
-     "name": "Hexion",
-     "slug": "hexion",
-     "description": "Hexion is a global leader in thermosetting resins, providing a broad range of adhesive, structural, and specialty resins to a wide variety of industries including coatings, construction, electronics, and automotive. Their purpose is to activate science to change our world.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hexion/refs/heads/main/screenshots/hexion-2026-06-20T182712.png",
+     "name": "Ecolab",
+     "slug": "ecolab",
+     "description": "Ecolab is a Fortune 500 global leader in water, hygiene, and infection prevention solutions and services. The company helps customers in food, healthcare, hospitality, industrial, and energy markets keep their environments clean, safe, and healthy while protecting people and vital resources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecolab/refs/heads/main/screenshots/ecolab-2026-06-20T180448.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3207,7 +3205,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3235,10 +3233,10 @@
      "rank": 68
     },
     {
-     "name": "Olin",
-     "slug": "olin",
-     "description": "Olin Corporation is a leading global manufacturer and distributor of chemical products and ammunition. Olin operates three business segments: Chlor Alkali Products and Vinyls, Epoxy, and Winchester. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/olin/refs/heads/main/screenshots/olin-2026-06-20T190659.png",
+     "name": "Hanqi Group",
+     "slug": "hanqigroup",
+     "description": "Beijing Hanqi Environmental Technology Co., Ltd. (Hanqi Group) is a Beijing-based environmental technology company specializing in full-process chemical and oily wastewater treatment for the petrochemical, coal-chemical, new-energy, industrial-park, and municipal sectors. With roughly 17 years of operating history, 140+ client references, and 80+ patents across physicochemical, biochemical, and oxidation process categories, Hanqi delivers engineered water-treatment technologies and services rather than software. It was surfaced as a portfolio company of Qiming Venture Partners and added to the API Evangelist network. Public research confirms no developer, API, SDK, or agent surface exists for this provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hanqigroup/refs/heads/main/screenshots/hanqigroup-2026-07-25T220635.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3252,7 +3250,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3280,10 +3278,10 @@
      "rank": 69
     },
     {
-     "name": "PPG Industries",
-     "slug": "ppg-industries",
-     "description": "PPG Industries is a Fortune 500 global supplier of paints, coatings, and specialty materials serving customers in construction, consumer products, industrial, transportation markets, and aftermarkets. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with PPG Industries. As of the last review, no public APIs or developer portal have been identified.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ppg-industries/refs/heads/main/screenshots/ppg-industries-2026-06-20T192035.png",
+     "name": "Hexion",
+     "slug": "hexion",
+     "description": "Hexion is a global leader in thermosetting resins, providing a broad range of adhesive, structural, and specialty resins to a wide variety of industries including coatings, construction, electronics, and automotive. Their purpose is to activate science to change our world.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hexion/refs/heads/main/screenshots/hexion-2026-06-20T182712.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3297,7 +3295,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3325,10 +3323,10 @@
      "rank": 70
     },
     {
-     "name": "Rise Reforming",
-     "slug": "rise-reforming",
-     "description": "Rise Reforming is a climate-technology company that converts underutilized and flared waste biogas into valuable chemicals such as dimethyl ether (DME) and methanol. It deploys a modular, on-site reforming process at biogas sources like wastewater treatment plants, enabling localized, supply-secure chemical production and reducing dependence on centralized, fossil-fuel-based chemical manufacturing. A Y Combinator (Summer 2026) company, it is building the first wastewater biogas-to-methanol demonstration in the Americas at a Chicagoland wastewater facility. As a hardware and chemical-process company, it currently publishes no public web API, developer portal, or software SDK surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rise-reforming/refs/heads/main/screenshots/rise-reforming-2026-09-02T153853.png",
+     "name": "Olin",
+     "slug": "olin",
+     "description": "Olin Corporation is a leading global manufacturer and distributor of chemical products and ammunition. Olin operates three business segments: Chlor Alkali Products and Vinyls, Epoxy, and Winchester. No public APIs have been documented at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/olin/refs/heads/main/screenshots/olin-2026-06-20T190659.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3342,7 +3340,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3370,10 +3368,10 @@
      "rank": 71
     },
     {
-     "name": "Rohm and Haas",
-     "slug": "rohm-and-haas",
-     "description": "Rohm and Haas Company was an American specialty chemicals manufacturer founded in 1909 and headquartered in Philadelphia, Pennsylvania. The company produced electronic materials, specialty polymers, adhesives, coatings, paints, and process chemicals. On April 1, 2009, Rohm and Haas was acquired by The Dow Chemical Company for approximately $18.8 billion in cash and stock. The Rohm and Haas brand has since been largely retired and its product lines, technologies, and businesses have been integrated into Dow (now Dow Inc., NYSE: DOW). Some legacy product brands persist under Dow but the standalone company no longer exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rohm-and-haas/refs/heads/main/screenshots/rohm-and-haas-2026-09-02T154054.png",
+     "name": "PPG Industries",
+     "slug": "ppg-industries",
+     "description": "PPG Industries is a Fortune 500 global supplier of paints, coatings, and specialty materials serving customers in construction, consumer products, industrial, transportation markets, and aftermarkets. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with PPG Industries. As of the last review, no public APIs or developer portal have been identified.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ppg-industries/refs/heads/main/screenshots/ppg-industries-2026-06-20T192035.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3387,7 +3385,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3415,10 +3413,10 @@
      "rank": 72
     },
     {
-     "name": "Solugen",
-     "slug": "solugen",
-     "description": "Solugen is a chemical manufacturing company that produces sustainable industrial chemicals through its proprietary Bioforge platform, which combines engineered enzymes, metal catalysis, and modular process design to convert renewable feedstocks into products with minimal waste. Solugen serves markets including oil and gas, renewable fuels, aerospace and defense, water treatment, cleaning, agriculture, concrete, and personal care. Backed by Founders Fund, the company was added to the API Evangelist network as a portfolio lead; as of this enrichment pass Solugen publishes no public API, developer portal, SDK, or machine-readable developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solugen/refs/heads/main/screenshots/solugen-2026-09-02T160132.png",
+     "name": "Rise Reforming",
+     "slug": "rise-reforming",
+     "description": "Rise Reforming is a climate-technology company that converts underutilized and flared waste biogas into valuable chemicals such as dimethyl ether (DME) and methanol. It deploys a modular, on-site reforming process at biogas sources like wastewater treatment plants, enabling localized, supply-secure chemical production and reducing dependence on centralized, fossil-fuel-based chemical manufacturing. A Y Combinator (Summer 2026) company, it is building the first wastewater biogas-to-methanol demonstration in the Americas at a Chicagoland wastewater facility. As a hardware and chemical-process company, it currently publishes no public web API, developer portal, or software SDK surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rise-reforming/refs/heads/main/screenshots/rise-reforming-2026-09-02T153853.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3432,7 +3430,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3460,6 +3458,96 @@
      "rank": 73
     },
     {
+     "name": "Rohm and Haas",
+     "slug": "rohm-and-haas",
+     "description": "Rohm and Haas Company was an American specialty chemicals manufacturer founded in 1909 and headquartered in Philadelphia, Pennsylvania. The company produced electronic materials, specialty polymers, adhesives, coatings, paints, and process chemicals. On April 1, 2009, Rohm and Haas was acquired by The Dow Chemical Company for approximately $18.8 billion in cash and stock. The Rohm and Haas brand has since been largely retired and its product lines, technologies, and businesses have been integrated into Dow (now Dow Inc., NYSE: DOW). Some legacy product brands persist under Dow but the standalone company no longer exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rohm-and-haas/refs/heads/main/screenshots/rohm-and-haas-2026-09-02T154054.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 74
+    },
+    {
+     "name": "Solugen",
+     "slug": "solugen",
+     "description": "Solugen is a chemical manufacturing company that produces sustainable industrial chemicals through its proprietary Bioforge platform, which combines engineered enzymes, metal catalysis, and modular process design to convert renewable feedstocks into products with minimal waste. Solugen serves markets including oil and gas, renewable fuels, aerospace and defense, water treatment, cleaning, agriculture, concrete, and personal care. Backed by Founders Fund, the company was added to the API Evangelist network as a portfolio lead; as of this enrichment pass Solugen publishes no public API, developer portal, SDK, or machine-readable developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solugen/refs/heads/main/screenshots/solugen-2026-09-02T160132.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 75
+    },
+    {
      "name": "Exxon Mobil",
      "slug": "exxon-mobil",
      "description": "Exxon Mobil Corporation is one of the world's largest publicly traded international energy companies, exploring for, producing, and refining oil and natural gas and manufacturing petroleum and chemical products. This repository tracks any APIs, developer tools, and machine-readable artifacts associated with Exxon Mobil.",
@@ -3477,7 +3565,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3509,7 +3597,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 76
     },
     {
      "name": "Entegris",
@@ -3529,96 +3617,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 75
-    },
-    {
-     "name": "MicroByre",
-     "slug": "microbyre",
-     "description": "MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and co-founder Sarah Richardson to \"domesticate\" wild-type bacteria — building an automated characterization and genetic-tool pipeline that made naturally occurring, never-before-engineered microbes tractable so they could ferment unrefined waste biomass into commodity chemicals, enzymes, food ingredients and probiotics at costs petrochemical routes could not match. It raised roughly $20.5M, including backing from Prime Coalition's Prime Impact Fund, and went out of business; Prime Coalition lists it as \"no longer active\" and C&EN reported the shutdown. MicroByre was a wet-lab platform company, not a software vendor: it published no developer program, no API, and no machine-readable contract, and its own domain no longer resolves to a web server.",
-     "score": 4.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 46.3,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 76
-    },
-    {
-     "name": "NewMarket Corporation",
-     "slug": "newmarket",
-     "description": "NewMarket Corporation (NYSE: NEU) is a publicly traded specialty chemicals holding company headquartered in Richmond, Virginia. Through subsidiaries Afton Chemical and Ethyl Corporation, NewMarket develops petroleum additives for fuels and lubricants used worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/screenshots/newmarket-2026-06-20T190240.png",
-     "score": 4.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3646,24 +3645,23 @@
      "rank": 77
     },
     {
-     "name": "Dow",
-     "slug": "dow",
-     "description": "Dow Inc. is a global materials science company headquartered in Midland, Michigan. Dow combines science and technology to develop innovative products and solutions for packaging, infrastructure, mobility, and consumer applications. This entry is an alias of dow-chemical and covers the same parent company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow/refs/heads/main/screenshots/dow-2026-06-20T180205.png",
-     "score": 4.4,
+     "name": "MicroByre",
+     "slug": "microbyre",
+     "description": "MicroByre was a Berkeley, California synthetic biology company founded in 2017 by CEO and co-founder Sarah Richardson to \"domesticate\" wild-type bacteria — building an automated characterization and genetic-tool pipeline that made naturally occurring, never-before-engineered microbes tractable so they could ferment unrefined waste biomass into commodity chemicals, enzymes, food ingredients and probiotics at costs petrochemical routes could not match. It raised roughly $20.5M, including backing from Prime Coalition's Prime Impact Fund, and went out of business; Prime Coalition lists it as \"no longer active\" and C&EN reported the shutdown. MicroByre was a wet-lab platform company, not a software vendor: it published no developer program, no API, and no machine-readable contract, and its own domain no longer resolves to a web server.",
+     "score": 4.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3691,6 +3689,147 @@
      "rank": 78
     },
     {
+     "name": "NewMarket Corporation",
+     "slug": "newmarket",
+     "description": "NewMarket Corporation (NYSE: NEU) is a publicly traded specialty chemicals holding company headquartered in Richmond, Virginia. Through subsidiaries Afton Chemical and Ethyl Corporation, NewMarket develops petroleum additives for fuels and lubricants used worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/newmarket/refs/heads/main/screenshots/newmarket-2026-06-20T190240.png",
+     "score": 4.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 79
+    },
+    {
+     "name": "Utility Global",
+     "slug": "utility-global",
+     "description": "Utility Global is a Houston, Texas industrial decarbonization company founded in 2018. Its proprietary H2Gen and eXERO platform converts water into high-purity hydrogen using the residual electrochemical energy already present in industrial off-gases and biogenic gases — driving water electrolysis without electricity — while concentrating CO2 into a separate capture-ready stream. The company sells into steel, low-carbon fuels, and refining, petrochemicals and chemicals, and has run demonstration programs on blast-furnace off-gas at commercial steel facilities. It is a hardware and process-technology business, not a software vendor: its public web presence is a marketing site with no developer program, no API documentation, and no machine-readable contract of any kind.",
+     "score": 4.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 80
+    },
+    {
+     "name": "Dow",
+     "slug": "dow",
+     "description": "Dow Inc. is a global materials science company headquartered in Midland, Michigan. Dow combines science and technology to develop innovative products and solutions for packaging, infrastructure, mobility, and consumer applications. This entry is an alias of dow-chemical and covers the same parent company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow/refs/heads/main/screenshots/dow-2026-06-20T180205.png",
+     "score": 4.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 81
+    },
+    {
      "name": "Arzeda",
      "slug": "arzeda",
      "description": "Arzeda Corp is a Seattle, Washington protein design company — \"The Protein Design Company\" — founded in 2008 by David Baker (2024 Nobel Prize in Chemistry), Alexandre Zanghellini and colleagues out of the University of Washington Institute for Protein Design. Its Intelligent Protein Design Technology combines physics-based computational protein design, generative AI and an agentic design-build-test-learn loop over fifteen years of proprietary in-house experimental data to create designer enzymes and proteins that do not exist in nature, then scale them to commercial production. Commercial programs span food and beverage (ViaLeaf Reb M / ProSweet Reb M stevia sweeteners with MANE), home and personal care enzymes (Unilever), advanced materials (W. L. Gore & Associates) and pharmaceutical biologics (Takeda), alongside DARPA and NSF funded work on AI-driven protein design and cell-free biomanufacturing. Arzeda co-founded the OpenFold consortium for open-source protein structure prediction. It sells designed molecules and joint development programs, not software, and publishes no public developer program, API or machine-readable interface.",
@@ -3708,7 +3847,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3740,7 +3879,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 82
     },
     {
      "name": "Dow Chemical",
@@ -3760,141 +3899,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 80
-    },
-    {
-     "name": "DuPont",
-     "slug": "dupont",
-     "description": "DuPont is a leading solutions provider for healthcare, water, and a broad range of industrial segments, powered by high-performance engineered products, leading-edge application development, and top-tier manufacturing. No public developer APIs or developer portal have been identified at this time; this index captures DuPont's web presence for monitoring future developer activity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dupont/refs/heads/main/screenshots/dupont-2026-06-20T180326.png",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 81
-    },
-    {
-     "name": "Momentive Performance Materials",
-     "slug": "momentive-performance-materials",
-     "description": "Momentive Performance Materials is a global silicones and advanced materials company that produces specialty silicones, urethane additives, and quartz technologies for industrial and consumer markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/momentive-performance-materials/refs/heads/main/screenshots/momentive-performance-materials-2026-06-20T185715.png",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "Nexeo Solutions Holdings",
-     "slug": "nexeo-solutions-holdings",
-     "description": "Nexeo Solutions was a leading global chemicals and plastics distributor before being acquired by Univar Solutions in 2019. This index tracks any developer resources or APIs associated with the legacy Nexeo Solutions brand.",
-     "score": 4.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3922,32 +3927,25 @@
      "rank": 83
     },
     {
-     "name": "Calumet Specialty Products Partners",
-     "slug": "calumet-specialty-products-partners",
-     "description": "Calumet, Inc. (NASDAQ: CLMT) is a publicly traded U.S. manufacturing company established in 1919, headquartered in Indianapolis, Indiana. The firm specializes in the manufacture of lubricating oils, solvents, waxes, packaged and synthetic specialty products, fuels, renewable diesel, and fuel-related products. It operates 12 production facilities across North America and serves approximately 2,700 global customers in over 90 countries through brands including Royal Purple, Bel-Ray, Penreco, Orchex, and TruFuel. Calumet does not publish a public developer API program; commercial integrations are handled via B2B portals and EDI.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/screenshots/calumet-specialty-products-partners-2026-06-20T173902.png",
-     "score": 3.8,
+     "name": "DuPont",
+     "slug": "dupont",
+     "description": "DuPont is a leading solutions provider for healthcare, water, and a broad range of industrial segments, powered by high-performance engineered products, leading-edge application development, and top-tier manufacturing. No public developer APIs or developer portal have been identified at this time; this index captures DuPont's web presence for monitoring future developer activity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dupont/refs/heads/main/screenshots/dupont-2026-06-20T180326.png",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3974,32 +3972,25 @@
      "rank": 84
     },
     {
-     "name": "Phillips 66",
-     "slug": "phillips-66",
-     "description": "Phillips 66 is a diversified energy manufacturing and logistics company with midstream, chemicals, refining, and marketing and specialties businesses. This repository captures any APIs, developer tools, and machine-readable API artifacts for Phillips 66.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png",
-     "score": 3.8,
+     "name": "Momentive Performance Materials",
+     "slug": "momentive-performance-materials",
+     "description": "Momentive Performance Materials is a global silicones and advanced materials company that produces specialty silicones, urethane additives, and quartz technologies for industrial and consumer markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/momentive-performance-materials/refs/heads/main/screenshots/momentive-performance-materials-2026-06-20T185715.png",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4026,31 +4017,24 @@
      "rank": 85
     },
     {
-     "name": "Utility Global",
-     "slug": "utility-global",
-     "description": "Utility Global is a Houston, Texas industrial decarbonization company founded in 2018. Its proprietary H2Gen and eXERO platform converts water into high-purity hydrogen using the residual electrochemical energy already present in industrial off-gases and biogenic gases — driving water electrolysis without electricity — while concentrating CO2 into a separate capture-ready stream. The company sells into steel, low-carbon fuels, and refining, petrochemicals and chemicals, and has run demonstration programs on blast-furnace off-gas at commercial steel facilities. It is a hardware and process-technology business, not a software vendor: its public web presence is a marketing site with no developer program, no API documentation, and no machine-readable contract of any kind.",
-     "score": 3.8,
+     "name": "Nexeo Solutions Holdings",
+     "slug": "nexeo-solutions-holdings",
+     "description": "Nexeo Solutions was a leading global chemicals and plastics distributor before being acquired by Univar Solutions in 2019. This index tracks any developer resources or APIs associated with the legacy Nexeo Solutions brand.",
+     "score": 4.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4077,11 +4061,11 @@
      "rank": 86
     },
     {
-     "name": "CDI Corp",
-     "slug": "cdi-corp",
-     "description": "CDI Corp (CDI Corporation) is a multidisciplinary engineering and technical resourcing firm founded in Philadelphia in 1950 as Comprehensive Designers, Inc., later listed on the NYSE from 1988 to 2017. After being taken private by AE Industrial Partners in September 2017 for approximately $176M ($8.25 per share), AE divested CDI's aerospace business to Belcan (2017), talent and technology services to Artech (2018), and architecture/engineering subsidiary L.R. Kimball to TranSystems (2021), refocusing the remaining CDI Engineering Solutions on integrated engineering, design, project support, procurement, and construction management for the energy and chemicals industries. On January 1, 2025 CDI Engineering Solutions, LLC became a wholly owned subsidiary of Tata Consulting Engineers and now trades as Tata Consulting Engineers USA, LLC, headquartered in Houston, TX with 650+ employees across ten engineering centers. CDI Corp has no public developer APIs; the company delivers engineering services and staff augmentation rather than software products. The tagline carried by the operating business is \"Quality Results. Sustainable Solutions. Safely Delivered.\"",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdi-corp/refs/heads/main/screenshots/cdi-corp-2026-06-20T174111.png",
-     "score": 3.3,
+     "name": "Calumet Specialty Products Partners",
+     "slug": "calumet-specialty-products-partners",
+     "description": "Calumet, Inc. (NASDAQ: CLMT) is a publicly traded U.S. manufacturing company established in 1919, headquartered in Indianapolis, Indiana. The firm specializes in the manufacture of lubricating oils, solvents, waxes, packaged and synthetic specialty products, fuels, renewable diesel, and fuel-related products. It operates 12 production facilities across North America and serves approximately 2,700 global customers in over 90 countries through brands including Royal Purple, Bel-Ray, Penreco, Orchex, and TruFuel. Calumet does not publish a public developer API program; commercial integrations are handled via B2B portals and EDI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/screenshots/calumet-specialty-products-partners-2026-06-20T173902.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4090,11 +4074,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4129,11 +4113,11 @@
      "rank": 87
     },
     {
-     "name": "Chevron",
-     "slug": "chevron",
-     "description": "Chevron Corporation is one of the world's largest integrated energy companies, with operations across upstream exploration and production, downstream refining and marketing, and the production and transportation of crude oil, natural gas, refined fuels, lubricants, petrochemicals, and renewable fuels. Chevron is headquartered in Houston, Texas, and operates globally under brands including Chevron, Texaco, and Caltex. Chevron does not currently publish a public consumer-facing developer API; supplier and partner integrations are handled through the Chevron Invoice and Payment Status (CIPS) system and the Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability, and IR websites.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png",
-     "score": 3.3,
+     "name": "Phillips 66",
+     "slug": "phillips-66",
+     "description": "Phillips 66 is a diversified energy manufacturing and logistics company with midstream, chemicals, refining, and marketing and specialties businesses. This repository captures any APIs, developer tools, and machine-readable API artifacts for Phillips 66.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/phillips-66/refs/heads/main/screenshots/phillips-66-2026-06-20T191638.png",
+     "score": 3.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4142,11 +4126,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4181,10 +4165,10 @@
      "rank": 88
     },
     {
-     "name": "Fujian Deer Technology",
-     "slug": "fujian-deer-technology",
-     "description": "Fujian Deer Technology (福建德尔科技股份有限公司) is a Chinese specialty-chemicals manufacturer founded in June 2014 and headquartered in the Jiaoyang Industrial Concentration Zone, Shanghang County, Longyan City, Fujian Province. The company pursues a full fluorine-chemistry industry-chain strategy, researching, producing and selling basic chemical materials, fluorine-containing electronic gases, high-purity semiconductor wet electronic chemicals, new-energy (lithium battery) materials and other fluorinated advanced materials. Its electronic-grade gases include trifluoromethane, carbon tetrafluoride, sulfur hexafluoride, hexafluoroethane, chlorine trifluoride and octafluorocyclobutane, supplied into semiconductor chips, LED chips, flat-panel displays, communications optical fibre, power and energy-storage batteries, ultra-high-voltage transmission and transformation, and photovoltaic power generation. It is a designated national high-tech enterprise and is privately held; its shares appear on secondary-market venues. It manufactures physical materials and publishes no public API, developer program or machine-readable interface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fujian-deer-technology/refs/heads/main/screenshots/fujian-deer-technology-2026-09-02T145618.png",
+     "name": "CDI Corp",
+     "slug": "cdi-corp",
+     "description": "CDI Corp (CDI Corporation) is a multidisciplinary engineering and technical resourcing firm founded in Philadelphia in 1950 as Comprehensive Designers, Inc., later listed on the NYSE from 1988 to 2017. After being taken private by AE Industrial Partners in September 2017 for approximately $176M ($8.25 per share), AE divested CDI's aerospace business to Belcan (2017), talent and technology services to Artech (2018), and architecture/engineering subsidiary L.R. Kimball to TranSystems (2021), refocusing the remaining CDI Engineering Solutions on integrated engineering, design, project support, procurement, and construction management for the energy and chemicals industries. On January 1, 2025 CDI Engineering Solutions, LLC became a wholly owned subsidiary of Tata Consulting Engineers and now trades as Tata Consulting Engineers USA, LLC, headquartered in Houston, TX with 650+ employees across ten engineering centers. CDI Corp has no public developer APIs; the company delivers engineering services and staff augmentation rather than software products. The tagline carried by the operating business is \"Quality Results. Sustainable Solutions. Safely Delivered.\"",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cdi-corp/refs/heads/main/screenshots/cdi-corp-2026-06-20T174111.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4198,7 +4182,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4233,10 +4217,10 @@
      "rank": 89
     },
     {
-     "name": "Praxair",
-     "slug": "praxair",
-     "description": "Praxair was an American multinational industrial gases company that merged with Linde AG in 2018 to form Linde plc. Praxair operations in the United States now operate as Linde. The company supplies atmospheric, process, and specialty gases, along with related equipment and services to a range of industries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/praxair/refs/heads/main/screenshots/praxair-2026-06-20T192041.png",
+     "name": "Chevron",
+     "slug": "chevron",
+     "description": "Chevron Corporation is one of the world's largest integrated energy companies, with operations across upstream exploration and production, downstream refining and marketing, and the production and transportation of crude oil, natural gas, refined fuels, lubricants, petrochemicals, and renewable fuels. Chevron is headquartered in Houston, Texas, and operates globally under brands including Chevron, Texaco, and Caltex. Chevron does not currently publish a public consumer-facing developer API; supplier and partner integrations are handled through the Chevron Invoice and Payment Status (CIPS) system and the Supplier Relations channels, and investors and stakeholders are served through corporate, sustainability, and IR websites.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4250,7 +4234,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4285,10 +4269,10 @@
      "rank": 90
     },
     {
-     "name": "sh-eco",
-     "slug": "sh-eco",
-     "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer specializing in the research, production, and customized fabrication of medical catheters and membrane materials. Its product range spans single-lumen tubing, multi-lumen tubing, composite/multi-layer tubing, and injection-molded components serving healthcare and multiple industrial applications. The company is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile. It publishes a corporate marketing website but exposes no public developer or API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sh-eco/refs/heads/main/screenshots/sh-eco-2026-09-02T155054.png",
+     "name": "Fujian Deer Technology",
+     "slug": "fujian-deer-technology",
+     "description": "Fujian Deer Technology (福建德尔科技股份有限公司) is a Chinese specialty-chemicals manufacturer founded in June 2014 and headquartered in the Jiaoyang Industrial Concentration Zone, Shanghang County, Longyan City, Fujian Province. The company pursues a full fluorine-chemistry industry-chain strategy, researching, producing and selling basic chemical materials, fluorine-containing electronic gases, high-purity semiconductor wet electronic chemicals, new-energy (lithium battery) materials and other fluorinated advanced materials. Its electronic-grade gases include trifluoromethane, carbon tetrafluoride, sulfur hexafluoride, hexafluoroethane, chlorine trifluoride and octafluorocyclobutane, supplied into semiconductor chips, LED chips, flat-panel displays, communications optical fibre, power and energy-storage batteries, ultra-high-voltage transmission and transformation, and photovoltaic power generation. It is a designated national high-tech enterprise and is privately held; its shares appear on secondary-market venues. It manufactures physical materials and publishes no public API, developer program or machine-readable interface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fujian-deer-technology/refs/heads/main/screenshots/fujian-deer-technology-2026-09-02T145618.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4302,103 +4286,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 91
-    },
-    {
-     "name": "Axiall",
-     "slug": "axiall",
-     "description": "Axiall Corporation is a manufacturer and international marketer of chemicals and building products, including chlorovinyls and aromatics, for use in industrial and consumer applications.",
-     "score": 3.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 31.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 92
-    },
-    {
-     "name": "Vertex Energy",
-     "slug": "vertex-energy",
-     "description": "Vertex Energy is an energy transition company specializing in producing and marketing high-purity refined products including conventional fuels, renewable diesel, and other specialty products. The company operates refining and processing facilities and is engaged in the recycling and recovery of used motor oil and other petroleum byproducts. No public developer API or technical documentation portal is currently available.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertex-energy/refs/heads/main/screenshots/vertex-energy-2026-06-20T200959.png",
-     "score": 2.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4430,7 +4318,207 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 91
+    },
+    {
+     "name": "Praxair",
+     "slug": "praxair",
+     "description": "Praxair was an American multinational industrial gases company that merged with Linde AG in 2018 to form Linde plc. Praxair operations in the United States now operate as Linde. The company supplies atmospheric, process, and specialty gases, along with related equipment and services to a range of industries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/praxair/refs/heads/main/screenshots/praxair-2026-06-20T192041.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 92
+    },
+    {
+     "name": "sh-eco",
+     "slug": "sh-eco",
+     "description": "SH-ECO (翊科聚合物 / Yike Polymer) is a Chinese medical-device materials manufacturer specializing in the research, production, and customized fabrication of medical catheters and membrane materials. Its product range spans single-lumen tubing, multi-lumen tubing, composite/multi-layer tubing, and injection-molded components serving healthcare and multiple industrial applications. The company is a portfolio company of Qiming Venture Partners and was added to the API Evangelist network as a company profile. It publishes a corporate marketing website but exposes no public developer or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sh-eco/refs/heads/main/screenshots/sh-eco-2026-09-02T155054.png",
+     "score": 3.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 93
+    },
+    {
+     "name": "Axiall",
+     "slug": "axiall",
+     "description": "Axiall Corporation is a manufacturer and international marketer of chemicals and building products, including chlorovinyls and aromatics, for use in industrial and consumer applications.",
+     "score": 3.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 31.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 94
+    },
+    {
+     "name": "Vertex Energy",
+     "slug": "vertex-energy",
+     "description": "Vertex Energy is an energy transition company specializing in producing and marketing high-purity refined products including conventional fuels, renewable diesel, and other specialty products. The company operates refining and processing facilities and is engaged in the recycling and recovery of used motor oil and other petroleum byproducts. No public developer API or technical documentation portal is currently available.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertex-energy/refs/heads/main/screenshots/vertex-energy-2026-06-20T200959.png",
+     "score": 2.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 95
     },
     {
      "name": "Chemours",
@@ -4450,7 +4538,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,
@@ -4479,7 +4567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 96
     },
     {
      "name": "AnalytiChem",
@@ -4499,7 +4587,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4531,7 +4619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 97
     },
     {
      "name": "ChemConnect",
@@ -4544,13 +4632,13 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4582,7 +4670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 98
     },
     {
      "name": "Downstream Energy",
@@ -4601,7 +4689,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4633,7 +4721,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 99
     },
     {
      "name": "大易有塑 (dayi35.com)",
@@ -4652,7 +4740,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4684,7 +4772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 100
     }
    ]
   }

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: Smart hospital beds, ICU beds, med-surg beds, and patient support systems including Centrella, Progressa, and VersaCare platforms. Integrates with hospital IT systems for fall risk monitoring, pressur
@@ -122,7 +122,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hill-rom-holdings/refs/heads/main/screenshots/hill-rom-holdings-2026-06-20T182736.png
 security:

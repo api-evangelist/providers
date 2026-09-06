@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The F6S API provides programmatic access to the F6S platform, the world's largest startup and founder community. It enables developers to integrate with F6S's core capabilities including application m
@@ -152,7 +152,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/screenshots/f6s-2026-06-20T181009.png
 security:

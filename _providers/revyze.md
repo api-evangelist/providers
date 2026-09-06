@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://api.revyze.fr
@@ -210,6 +210,14 @@ score:
     discoverability: 75.9
     governance: 0.0
     operational_transparency: 7.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
   previous_composite: 29.6
   provenance:
     contracts:
@@ -224,7 +232,7 @@ score:
     regime_id: education
     score: 37.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/revyze/refs/heads/main/screenshots/revyze-2026-09-02T153738.png
 security:

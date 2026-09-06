@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 10
@@ -118,7 +118,10 @@ apis:
   description: The Vulnerability Management API from Iru — 5 operation(s) for vulnerability management.
   name: Iru Vulnerability Management API
   slug: kandji-vulnerability-management-api
-artifact_total: 24
+- description: 'REST/JSON API for the Iru (formerly Kandji) endpoint management platform: read fleet data and run device actions, manage apps, Library items, Library uploads, Blueprints, tenant activity, and Automate'
+  name: Iru Endpoint Management API
+  slug: iru-endpoint-management-api
+artifact_total: 27
 collections:
 - collection_type: open
   name: Iru Endpoint Management API
@@ -307,12 +310,15 @@ modified: '2026-08-01'
 name: Iru
 nav: Providers
 network: true
-overview: 'Iru publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Behavioral Detections API, Blueprints API, and 11 more. Tagged areas include Company, Device Management, Mobile Device Management, apple-management, and Endpoint Security.
+overview: 'Iru publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Audit API, Behavioral Detections API, Blueprints API, and 12 more. Tagged areas include Company, Device Management, Mobile Device Management, apple-management, and Endpoint Security.
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 35 more developer resources.'
 random_paper: 16
 rate_limits:
+- limit_count: 1
+  name: Iru Rate Limits
+  slug: iru-rate-limits
 - limit_count: 1
   name: Kandji Rate Limits
   slug: kandji-rate-limits
@@ -348,10 +354,14 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/screenshots/kandji-2026-08-07T171059.png
 security:
+- kind: authentication
+  name: Iru Authentication
+  slug: iru-authentication
+  summary_line: http · 1 scheme
 - kind: authentication
   name: Kandji Authentication
   slug: kandji-authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 8
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the UC Research Repository, a self-hosted DSpace 7 institutional repository of theses, dissertations and research outputs. Verified live 2026-08-30: verb='
@@ -166,6 +166,11 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - anz
   previous_composite: 24.1
   provenance:
     conformance: first-party
@@ -176,7 +181,7 @@ score:
     regime_id: education
     score: 29.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-canterbury/refs/heads/main/screenshots/university-of-canterbury-2026-06-20T200141.png
 security:

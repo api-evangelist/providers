@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 6
 apis:
 - description: Mirantis enterprise Kubernetes and container platform overview, indexing product, documentation, and developer resources.
@@ -151,7 +151,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 16.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirantis/refs/heads/main/screenshots/mirantis-2026-06-20T185609.png
 security:

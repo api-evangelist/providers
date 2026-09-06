@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.5
-  scored_at: '2026-09-04'
+  score: 25.8
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -90,7 +90,13 @@ apis:
   description: Manage post-hire workers.
   name: Fountain Workers API
   slug: fountain-com-workers-api
-artifact_total: 27
+- description: REST API for the Fountain Hire product, covering applicants (create, retrieve, update, delete, list, latest applicant, duplicate detection, notes, labels, file uploads, transitions, bulk advance, bulk
+  name: Fountain Hire API v2
+  slug: hire-api
+- description: Post-hire REST API covering worker profiles (activation and deactivation), employment records, document submissions, I-9 verification processing, attendance, shift creation and assignment, demands, al
+  name: Fountain Worker API
+  slug: worker-api
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -193,7 +199,7 @@ rate_limits:
   slug: fountain-com-rate-limits
 score:
   band: thin
-  composite: 38.7
+  composite: 38.6
   coverage:
     artifact_dirs: 9
     catalog_earned: 64.0
@@ -201,17 +207,17 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -0.1
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 55.6
-    developer_ergonomics: 29.8
-    discoverability: 68.5
+    contract_quality: 54.8
+    developer_ergonomics: 23.8
+    discoverability: 75.9
     governance: 0.0
-    operational_transparency: 31.6
-  previous_composite: 39.4
+    operational_transparency: 35.5
+  previous_composite: 38.7
   provenance:
     agentic_access: derived
     contracts:
@@ -220,7 +226,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain-com/refs/heads/main/screenshots/fountain-com-2026-07-25T215044.png
 security:

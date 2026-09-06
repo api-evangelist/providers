@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 4
 common:
@@ -163,7 +163,7 @@ score:
     regime_id: health
     score: 60.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigfoot-biomedical/refs/heads/main/screenshots/bigfoot-biomedical-2026-08-07T162422.png
 security:

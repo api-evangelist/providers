@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 1
@@ -435,7 +435,7 @@ rate_limits:
   slug: figment-rate-limits
 score:
   band: developing
-  composite: 47.4
+  composite: 48.5
   coverage:
     artifact_dirs: 23
     catalog_earned: 45.0
@@ -443,7 +443,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -452,7 +452,7 @@ score:
     developer_ergonomics: 54.2
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 36.8
+    operational_transparency: 44.7
   previous_composite: 47.4
   provenance:
     agentic_access: derived
@@ -465,7 +465,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/screenshots/figment-2026-08-07T165258.png
 security:

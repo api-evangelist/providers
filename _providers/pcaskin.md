@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol agent-commerce surface for the PCA SKIN Shopify store — a hosted MCP endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) plus read-o
@@ -110,7 +110,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pcaskin/refs/heads/main/screenshots/pcaskin-2026-08-07T191713.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: REST domain-intelligence API (40+ endpoints under /v1) for availability, DNS, WHOIS/RDAP, SSL/TLS, email auth, valuation, security, and OSINT, with API-key authentication.
@@ -198,7 +198,7 @@ scopes:
   summary_line: 1 scope
 score:
   band: strong
-  composite: 56.9
+  composite: 57.4
   coverage:
     artifact_dirs: 21
     catalog_earned: 61.0
@@ -211,18 +211,12 @@ score:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 48.1
+    contract_quality: 48.5
     developer_ergonomics: 63.7
-    discoverability: 68.5
+    discoverability: 75.9
     governance: 18.2
-    operational_transparency: 60.5
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 56.4
+    operational_transparency: 57.9
+  previous_composite: 56.9
   provenance:
     conformance: first-party
     contracts:
@@ -233,7 +227,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/screenshots/domscan-2026-07-25T212249.png
 security:

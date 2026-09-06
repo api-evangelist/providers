@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: SkyWest Airlines flight data including flight status, schedules, and routes is accessible through third-party aviation APIs such as AirLabs. SkyWest operates under IATA code OO / ICAO code SKW and ser
@@ -165,7 +165,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skywest/refs/heads/main/screenshots/skywest-2026-06-20T194019.png
 security:

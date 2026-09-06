@@ -29,7 +29,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 42.3,
      "agent_band": "agent-native",
@@ -74,7 +74,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -113,7 +113,7 @@
      "slug": "talon-one",
      "description": "Talon.One is an enterprise promotion, loyalty, and incentives engine that lets teams build and run coupons, discounts, referrals, bundles, giveaways, and multi-tier loyalty programs from a single rules-based platform. It exposes two primary REST APIs. The Integration API pushes real-time customer sessions, profiles, and events into the rules engine and returns the effects (discounts, awarded loyalty points, accepted coupons) to apply in the calling application. The Management API programmatically administers applications, campaigns, rulesets, coupons, loyalty programs, audiences, custom attributes, collections, and analytics exports that back the Campaign Manager. Talon.One is delivered as a managed, per-customer deployment; each account calls its own base URL (https://yourbaseurl.talon.one) and authenticates with an API key whose prefix distinguishes the Integration key (ApiKey-v1) from the Management key (ManagementKey-v1).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/talon-one/refs/heads/main/screenshots/talon-one-2026-08-17T080429.png",
-     "score": 71.3,
+     "score": 71.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -122,11 +122,11 @@
       "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 81.6,
-      "developer_ergonomics": 78.6,
+      "developer_ergonomics": 81.0,
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 45.2,
      "agent_band": "agent-native",
@@ -172,7 +172,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -205,7 +205,7 @@
      "slug": "punchh",
      "description": "Punchh, now part of PAR Technology and offered under the PAR Engagement brand, is an enterprise loyalty, offers, and customer engagement platform for restaurants. It unifies guest data from online ordering, mobile apps, POS, and kiosks into a single view so brands can run personalized loyalty and marketing programs. PAR exposes well-documented Punchh APIs through its developer portal covering platform functions, mobile, online ordering, POS and kiosk integration, and a webhooks manager, with sample collections published to Postman. Most integration surfaces require partner certification. Over 275 restaurant brands rely on Punchh to grow customer lifetime value.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png",
-     "score": 68.0,
+     "score": 68.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -214,11 +214,11 @@
       "governance": 47.0,
       "contract_governance": 47.0,
       "operational_transparency": 92.1,
-      "developer_ergonomics": 66.1,
+      "developer_ergonomics": 68.5,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -260,8 +260,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 13,
-   "shown": 13,
+   "count": 14,
+   "shown": 14,
    "providers": [
     {
      "name": "Impact Radius",
@@ -281,7 +281,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -327,7 +327,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 54.4,
      "agent_band": "agent-ready",
@@ -372,7 +372,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -435,7 +435,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -481,7 +481,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -526,7 +526,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -572,7 +572,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -600,6 +600,51 @@
      "rank": 12
     },
     {
+     "name": "Extole",
+     "slug": "extole",
+     "description": "Extole is an enterprise referral, advocacy, and loyalty marketing platform that lets consumer brands run customer-acquisition programs powered by word-of-mouth. Its API surface spans four OpenAPI 3.0 specifications: a consumer-facing Integration API for advocate share links, referrals, and profiles; a server-side Integration API for rewards, persons, events, and files; and Management and Management Expert APIs for audiences, campaigns, components, zone rendering, reports, settings, and event webhooks. Authentication is token-based (Authorization header, extole_token cookie, or access_token query parameter) against api.extole.io, with first-party SDKs (iOS, Android, React Native), a developer CLI, published Postman collections, and an ISO 27001 / GDPR trust center. Extole also runs a first-party remote MCP server at mcp.extole.com — OAuth 2.1 with PKCE against idp.extole.com, 31 published toolsets — alongside published rate limits, a 90-code error registry, and a developer center at docs.extole.com. Surfaced originally as a Norwest Venture Partners portfolio lead and enriched from Extole's public developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png",
+     "score": 61.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 66.8,
+      "governance": 63.6,
+      "contract_governance": 63.6,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 43.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 53.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "Partnerize",
      "slug": "partnerize",
      "description": "Partnerize is a partnership-automation platform for affiliate, influencer and performance marketing, used by brands to discover and recruit partners, track clicks and conversions, calculate and pay commissions, guard against fraud, and report on channel performance. Its API is built API-first — the Partnerize console runs on top of it — and is published as two OpenAPI documents, a Brands API and a Partners API, covering 327 operations across three concurrent versions (v1, v2 and v3) on api.partnerize.com, authenticated with HTTP Basic over an application key and a user API key.",
@@ -617,7 +662,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
@@ -643,7 +688,7 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Playable",
@@ -663,7 +708,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
@@ -689,104 +734,14 @@
       "agentic_commerce": false
      },
      "tier": "Sold to the advertiser (buy side)",
-     "rank": 14
-    },
-    {
-     "name": "Extole",
-     "slug": "extole",
-     "description": "Extole is an enterprise referral, advocacy, and loyalty marketing platform that lets consumer brands run customer-acquisition programs powered by word-of-mouth. Its API surface spans four OpenAPI 3.0 specifications: a consumer-facing Integration API for advocate share links, referrals, and profiles; a server-side Integration API for rewards, persons, events, and files; and Management and Management Expert APIs for audiences, campaigns, components, zone rendering, reports, settings, and event webhooks. Authentication is token-based (Authorization header, extole_token cookie, or access_token query parameter) against api.extole.io, with first-party SDKs (iOS, Android, React Native), a developer CLI, published Postman collections, and an ISO 27001 / GDPR trust center. Extole also runs a first-party remote MCP server at mcp.extole.com — OAuth 2.1 with PKCE against idp.extole.com, 31 published toolsets — alongside published rate limits, a 90-code error registry, and a developer center at docs.extole.com. Surfaced originally as a Norwest Venture Partners portfolio lead and enriched from Extole's public developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/extole/refs/heads/main/screenshots/extole-2026-07-25T213956.png",
-     "score": 60.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 66.8,
-      "governance": 63.6,
-      "contract_governance": 63.6,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 43.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 53.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
      "rank": 15
-    },
-    {
-     "name": "Gameball",
-     "slug": "gameball",
-     "description": "Gameball is a customer loyalty and gamification platform that helps consumer brands turn one-time buyers into repeat customers through points, VIP tiers, referrals, cashback, coupons, reward campaigns and gamified experiences (spin the wheel, scratch & win, missions, stamps) plus email/SMS/push communication and automation campaigns. It exposes a RESTful API (base https://api.gameball.co/api/{version}) secured with APIKey and SecretKey headers — v4.1 \"Secure Integration Mode\" is the documented current release, though the only OpenAPI Gameball publishes is v4.0. Alongside it are server SDKs for Node.js, Python, PHP, Ruby and .NET, actively-maintained mobile client SDKs for iOS, Android, Flutter and React Native, an embeddable web widget, signed webhooks, asynchronous batch ingestion, a test/live dual-key sandbox, an official OAuth-gated remote MCP server at https://mcp.gameball.co exposing 54 dashboard tools, a published A2A agent card and a provider-authored Agent Skill. Gameball is trusted by 3,000+ brands across 70+ countries and is a 500 Global portfolio company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png",
-     "score": 58.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 57.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 78.6,
-      "commercial_clarity": 52.6,
-      "access_clarity": 52.6
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 42.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
     },
     {
      "name": "Talkable",
      "slug": "talkable",
      "description": "Talkable is a referral marketing and loyalty platform that helps e-commerce and subscription brands acquire and retain customers through referral programs, loyalty campaigns, and advocacy incentives. It provides a RESTful JSON API (v2) for origins (off-site purchase and event ingestion), offers and shares, referrals, people, coupons, loyalty members, metrics, assets, and traffic sources; native iOS and Android SDKs plus an official Ruby gem; a nine-event webhook surface; and a customer-facing hosted MCP server that lets AI agents operate a Talkable program over the Model Context Protocol using OAuth 2.1 or API keys. Talkable is backed by 500 Global.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/talkable/refs/heads/main/screenshots/talkable-2026-08-17T082242.png",
-     "score": 57.9,
+     "score": 59.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -794,12 +749,12 @@
       "contract_quality": 58.3,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 26.3,
+      "operational_transparency": 34.2,
       "developer_ergonomics": 73.2,
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -824,6 +779,51 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 16
+    },
+    {
+     "name": "Gameball",
+     "slug": "gameball",
+     "description": "Gameball is a customer loyalty and gamification platform that helps consumer brands turn one-time buyers into repeat customers through points, VIP tiers, referrals, cashback, coupons, reward campaigns and gamified experiences (spin the wheel, scratch & win, missions, stamps) plus email/SMS/push communication and automation campaigns. It exposes a RESTful API (base https://api.gameball.co/api/{version}) secured with APIKey and SecretKey headers — v4.1 \"Secure Integration Mode\" is the documented current release, though the only OpenAPI Gameball publishes is v4.0. Alongside it are server SDKs for Node.js, Python, PHP, Ruby and .NET, actively-maintained mobile client SDKs for iOS, Android, Flutter and React Native, an embeddable web widget, signed webhooks, asynchronous batch ingestion, a test/live dual-key sandbox, an official OAuth-gated remote MCP server at https://mcp.gameball.co exposing 54 dashboard tools, a published A2A agent card and a provider-authored Agent Skill. Gameball is trusted by 3,000+ brands across 70+ countries and is a 500 Global portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png",
+     "score": 58.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 57.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 78.6,
+      "commercial_clarity": 52.6,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 42.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 17
     },
     {
@@ -844,7 +844,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 59.0,
      "agent_band": "agent-ready",
@@ -870,37 +870,26 @@
       "agentic_commerce": false
      },
      "rank": 18
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 13,
-   "shown": 13,
-   "providers": [
+    },
     {
      "name": "VigLink (Sovrn Commerce)",
      "slug": "viglink",
      "description": "VigLink pioneered automatic affiliate link monetization for publishers, turning ordinary product links into revenue-generating affiliate links across a network of tens of thousands of merchants. Founded in 2009 and backed by investors including Uncork Capital, VigLink was acquired by Sovrn in early 2018 and now operates as Sovrn Commerce. The product's public APIs still run on VigLink infrastructure (api.viglink.com, rest.viglink.com, viglink.io) and cover link monetization checks, real-time bid checks, campaigns, real-time revenue reporting, merchant summaries, product recommendations, promo codes, and price comparisons, documented on the Sovrn Developer Center alongside a hosted Commerce MCP server for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/screenshots/viglink-2026-08-17T082748.png",
-     "score": 53.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 54.6,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 51.0,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 34.2,
+      "operational_transparency": 42.1,
       "developer_ergonomics": 58.9,
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -926,13 +915,24 @@
       "agentic_commerce": false
      },
      "rank": 19
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 12,
+   "shown": 12,
+   "providers": [
     {
      "name": "Hotmart",
      "slug": "hotmart",
      "description": "Hotmart is a Brazilian creator-economy platform for producing, selling and delivering digital products — online courses, ebooks, mentorships, paid communities, events and, more recently, physical products. It bundles a hosted checkout, a marketplace, an affiliate network, a members-area LMS (Hotmart Club) and payment processing as merchant of record (HotPay), and sells into more than 180 countries. Hotmart Developers is the public REST API over that platform: OAuth 2.0 client-credentials authentication, product-area path prefixes (/payments, /club, /products, /physicalproducts, /events, /accounts, /user), cursor pagination, a sparse-fieldset `select` parameter, a 500-request-per-minute rate limit, a full-parity sandbox host, and a per-product webhook (postback) event surface carrying purchase, subscription, members-area and logistics events on two independently versioned payload schemas. Hotmart publishes no OpenAPI, no SDK and no CLI — the contract an integrator works from is prose documentation plus per-endpoint cURL, Node and Java request samples.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotmart/refs/heads/main/screenshots/hotmart-2026-08-07T170326.png",
-     "score": 51.8,
+     "score": 52.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -940,12 +940,12 @@
       "contract_quality": 48.1,
       "governance": 4.5,
       "contract_governance": 4.5,
-      "operational_transparency": 57.9,
+      "operational_transparency": 65.8,
       "developer_ergonomics": 61.3,
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -997,7 +997,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1042,7 +1042,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -1075,7 +1075,7 @@
      "slug": "sovrn",
      "description": "Sovrn is an advertising technology and content monetization company that helps online publishers, advertisers, and creators earn revenue from their websites and audiences. Its platform spans Ad Exchange (an omnichannel programmatic demand pipeline connecting publisher inventory to buyers and DSPs), Signal (ad-inventory and yield optimization), Commerce (affiliate and commerce-content monetization, formerly VigLink, with access to tens of thousands of merchants), and Data solutions for first-party data activation. Sovrn publishes a ReadMe-hosted developer center at developer.sovrn.com carrying eight OpenAPI definitions across seventeen operations — affiliate link checking, real-time bid pricing on clicks, campaign management, real-time commission reporting, merchant rate summaries, product recommendations, price comparisons, promo codes, and Ad Exchange performance reporting — plus a beta hosted Commerce MCP server at mcp.sovrn.com/commerce, an Agent Skills discovery document, and llms.txt files on three hosts. Sovrn is headquartered in Boulder, Colorado.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sovrn/refs/heads/main/screenshots/sovrn-2026-08-17T082014.png",
-     "score": 48.9,
+     "score": 49.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -1083,12 +1083,12 @@
       "contract_quality": 56.0,
       "governance": 4.5,
       "contract_governance": 4.5,
-      "operational_transparency": 44.7,
+      "operational_transparency": 52.6,
       "developer_ergonomics": 54.2,
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -1133,7 +1133,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -1179,7 +1179,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -1224,7 +1224,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -1270,7 +1270,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1315,7 +1315,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1361,7 +1361,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -1407,7 +1407,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -1452,7 +1452,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -1508,7 +1508,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1561,7 +1561,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 31.9,
      "agent_band": "agent-ready",
@@ -1606,7 +1606,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
@@ -1651,7 +1651,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1704,7 +1704,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1750,7 +1750,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -1796,7 +1796,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -1841,7 +1841,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -1887,7 +1887,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
@@ -1932,7 +1932,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1992,7 +1992,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -2048,7 +2048,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -2094,7 +2094,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2140,7 +2140,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2173,7 +2173,7 @@
      "slug": "commsor",
      "description": "Commsor is a go-to-network (GTN) platform for B2B revenue teams. It maps the collective relationship graph of a company's employees, executives, investors, advisors, customers and community, then surfaces the warmest path into a target account so sellers and marketers can source pipeline through trusted introductions and referrals instead of cold outbound. The platform ingests relationship and engagement data from connected systems (HubSpot CRM, uploaded lists, and other connectors), scores network signals against company events, and routes intro requests to the person best placed to make them. Commsor previously operated a community-operations analytics platform and publishes a knowledge base, a Go-to-Network methodology curriculum (GTN University), guides and a blog. It does not currently publish a public developer portal, OpenAPI definition, or self-serve API documentation; a legacy REST API was enabled per-account on request during the community-platform era, and a Zapier app remains the documented programmatic write path. On 2026-07-23 The Swarm announced it is acquiring Commsor and winding down the Commsor products, folding selected features into The Swarm; no product sunset date has been published and the application and status page remain live.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/commsor/refs/heads/main/screenshots/commsor-2026-08-07T163708.png",
-     "score": 21.1,
+     "score": 22.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2181,12 +2181,12 @@
       "contract_quality": 0.0,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 13.2,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 7.1,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2231,7 +2231,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2277,7 +2277,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2322,7 +2322,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -2368,7 +2368,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2419,7 +2419,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2464,7 +2464,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -2520,7 +2520,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2566,7 +2566,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2618,7 +2618,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2664,7 +2664,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",

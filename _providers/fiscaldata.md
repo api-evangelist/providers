@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -21,19 +21,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.0
-  scored_at: '2026-09-04'
+  score: 29.6
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,17 @@ apis:
   description: Treasury securities auction results.
   name: U.S. Treasury Fiscal Data Securities API
   slug: fiscaldata-securities-api
-artifact_total: 18
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Federal debt, public debt outstanding, and interest rate data.
+  name: U.S. Treasury Fiscal Data National Debt API
+  slug: u-s-treasury-fiscal-data-national-debt-api
+- baseURL: https://api.fiscaldata.treasury.gov/services/api/fiscal_service
+  baseurl_source: declared
+  description: Daily and monthly Treasury financial statements.
+  name: U.S. Treasury Fiscal Data Treasury Statements API
+  slug: u-s-treasury-fiscal-data-treasury-statements-api
+artifact_total: 20
 collections:
 - collection_type: open
   name: API Collection
@@ -148,7 +158,7 @@ modified: '2026-07-11'
 name: U.S. Treasury Fiscal Data
 nav: Providers
 network: true
-overview: 'U.S. Treasury Fiscal Data publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Daily Treasury Statement API, Debt API, Exchange Rates API, and 3 more. Tagged areas include Government Data, Treasury, Economic Indicators, Interest Rates, and Open Data.
+overview: 'U.S. Treasury Fiscal Data publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Daily Treasury Statement API, Debt API, Exchange Rates API, and 5 more. Tagged areas include Government Data, Treasury, Economic Indicators, Interest Rates, and Open Data.
 
 
   U.S. Treasury Fiscal Data''s developer surface includes documentation, support, and 7 more developer resources.'
@@ -163,32 +173,32 @@ rate_limits:
   slug: fiscaldata-rate-limits
 score:
   band: thin
-  composite: 29.1
+  composite: 31.9
   coverage:
     artifact_dirs: 8
-    catalog_earned: 56.0
+    catalog_earned: 66.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 59.0
+    catalog_gap: 49.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 2.8
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 48.3
-    developer_ergonomics: 22.6
+    contract_quality: 50.3
+    developer_ergonomics: 34.5
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 29.8
+  previous_composite: 29.1
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
+      derived: 2
+      marker_coverage: 25.0
+      total: 8
   regulatory:
     applies: true
     matched_via: tags
@@ -196,7 +206,7 @@ score:
     regime_id: government
     score: 0.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiscaldata/refs/heads/main/screenshots/fiscaldata-2026-07-25T214629.png
 slug: fiscaldata

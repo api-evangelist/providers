@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,6 +270,14 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
   previous_composite: 31.6
   provenance:
     agentic_access: derived
@@ -288,7 +296,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cutiss/refs/heads/main/screenshots/cutiss-2026-09-02T145209.png
 security:

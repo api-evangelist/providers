@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 2
 common:
@@ -149,7 +149,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 30.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/certora/refs/heads/main/screenshots/certora-2026-07-25T205007.png
 security:

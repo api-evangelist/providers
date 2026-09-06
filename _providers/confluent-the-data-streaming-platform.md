@@ -12,40 +12,43 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: negotiable
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
-    openapi_examples: false
+    mcp_server: documented
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
+    rate_limit_signal: verified
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-09-04'
+  score: 49.4
+  scored_at: '2026-09-05'
 agentic_access:
-- acting_count: 9
-  human_in_the_loop: 0
+- acting_count: 269
+  human_in_the_loop: 5
   name: Confluent The Data Streaming Platform Agentic Access
-  operation_count: 19
+  operation_count: 523
   slug: confluent-the-data-streaming-platform-agentic-access
-  summary_line: 19 operations · 9 acting
+  summary_line: 523 operations · 269 acting · 5 human-in-the-loop
 api_count: 1
 apis:
-- description: The Confluent Cloud REST API is the management plane for Confluent Cloud. It is used to manage organizations, environments, Kafka and Flink clusters, service accounts, API keys, role bindings, network
+- baseURL: https://api.confluent.cloud
+  baseurl_source: declared
+  description: The Confluent Cloud REST API is the management plane for Confluent Cloud. It is used to manage organizations, environments, Kafka and Flink clusters, service accounts, API keys, role bindings, network
   name: Confluent Cloud REST API
   slug: cloud-rest-api
 - description: The Kafka REST API (Confluent REST Proxy in self-managed deployments, Kafka REST in Cloud) provides HTTP access to Apache Kafka topics, consumers, partitions, brokers, and ACLs. Clients without a nati
@@ -88,7 +91,11 @@ apis:
   description: The Service Accounts API from Confluent | the Data Streaming Platform — 2 operation(s) for service accounts.
   name: Confluent | the Data Streaming Platform Service Accounts API
   slug: confluent-the-data-streaming-platform-service-accounts-api
-artifact_total: 37
+artifact_total: 41
+asyncapis:
+- description: ''
+  name: Confluent The Data Streaming Platform Webhooks
+  slug: confluent-the-data-streaming-platform-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -112,6 +119,10 @@ collections:
   name: Confluent Cloud REST API (selected)
   slug: open-confluent-the-data-streaming-platform
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/confluent-the-data-streaming-platform-scopes.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -183,15 +194,123 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.confluent.io/terms-of-service/
+  url: https://www.confluent.io/terms-of-use/
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.confluent.io/privacy-policy/
+  url: https://www.confluent.io/legal/confluent-privacy-notice/
 - group: agent
   title: ''
   type: LlmsText
   url: https://docs.confluent.io/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/confluent-the-data-streaming-platform-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/confluent-the-data-streaming-platform-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/confluent-the-data-streaming-platform-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/confluent-the-data-streaming-platform-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/confluent-the-data-streaming-platform-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/confluent-the-data-streaming-platform-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/confluent-the-data-streaming-platform-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/confluent-the-data-streaming-platform-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.confluent.io/cloud/current/api.html#deprecation-policy
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/confluent-the-data-streaming-platform-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/confluent-the-data-streaming-platform-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.confluent.io/trust-and-security/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/confluent-the-data-streaming-platform-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.confluent.io/trust-and-security/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/confluent-the-data-streaming-platform-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/confluent-the-data-streaming-platform-well-known.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/confluent-the-data-streaming-platform-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/confluent-the-data-streaming-platform-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/confluent-the-data-streaming-platform-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/confluent-the-data-streaming-platform-rate-limits.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.confluent.io/cloud/current/api.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.confluent.io/cloud/current/get-started/index.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.confluent.io/
+- group: operate
+  title: ''
+  type: Community
+  url: https://developer.confluent.io/community/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/confluentinc
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.confluent.io/confluent-cloud/tryfree/
 created: '2025-08-19'
 description: Confluent is a fully managed data streaming platform built by the original creators of Apache Kafka. It lets organizations stream, connect, process, and govern data in motion through a cloud-native service (Confluent Cloud) and the on-prem/self-managed Confluent Platform. Confluent's developer surface includes the Confluent Cloud REST API for managing clusters, environments, and access; the Kafka REST Proxy for producing and consuming events over HTTP; the Schema Registry REST API for governance of Avro, JSON Schema, and Protobuf schemas; the Kafka Connect REST API for managing connectors; the ksqlDB REST API for stream processing; and managed Apache Flink. Authentication is API-key based (Cloud) or HTTP/mTLS/OAuth (Platform).
 finops:
@@ -200,60 +319,75 @@ finops:
   slug: confluent-the-data-streaming-platform-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confluent-the-data-streaming-platform.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Confluent managed MCP server
+  slug: confluent-managed-mcp-server
+modified: '2026-09-05'
 name: Confluent | the Data Streaming Platform
 nav: Providers
 network: true
-overview: 'Confluent | the Data Streaming Platform publishes 5 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, Clusters API, Environments API, and 2 more. Tagged areas include Apache Flink, Apache Kafka, Confluent Cloud, Connectors, and Data Streaming.
+overview: 'Confluent | the Data Streaming Platform publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Confluent Cloud REST API, API Keys API, Clusters API, and 3 more. Tagged areas include Apache Flink, Apache Kafka, Confluent Cloud, Connectors, and Data Streaming.
 
 
-  Confluent | the Data Streaming Platform''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, training material, and 14 more developer resources.'
+  The Confluent | the Data Streaming Platform catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Confluent | the Data Streaming Platform''s developer surface includes authentication, documentation, GitHub presence, engineering blog, pricing, training material, CLI, and 41 more developer resources.'
 plans:
 - name: Confluent The Data Streaming Platform Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: confluent-the-data-streaming-platform-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Confluent The Data Streaming Platform Rate Limits
   slug: confluent-the-data-streaming-platform-rate-limits
+scopes:
+- name: Confluent The Data Streaming Platform Scopes
+  scope_count: 5
+  slug: confluent-the-data-streaming-platform-scopes
+  summary_line: 5 scopes · clientCredentials
 score:
-  band: thin
-  composite: 39.1
+  band: strong
+  composite: 64.5
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 26
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 25.4
   facets:
-    access_clarity: 32.9
-    commercial_clarity: 32.9
-    contract_governance: 0.0
-    contract_quality: 50.2
-    developer_ergonomics: 47.6
-    discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 28.9
+    access_clarity: 72.4
+    commercial_clarity: 72.4
+    contract_governance: 18.2
+    contract_quality: 59.6
+    developer_ergonomics: 85.7
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 63.2
   previous_composite: 39.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 6
+    mcp: first-party
+    skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/screenshots/confluent-the-data-streaming-platform-2026-06-20T174902.png
 security:
 - kind: authentication
   name: Confluent The Data Streaming Platform Authentication
   slug: confluent-the-data-streaming-platform-authentication
-  summary_line: http · 2 schemes
+  summary_line: http/oauth2 · 3 schemes
 - kind: domain-security
   name: Confluent The Data Streaming Platform Domain Security
   slug: confluent-the-data-streaming-platform-domain-security
@@ -261,7 +395,11 @@ security:
 - kind: vulnerability-disclosure
   name: Confluent The Data Streaming Platform Vulnerability Disclosure
   slug: confluent-the-data-streaming-platform-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
+- kind: trust-center
+  name: Confluent The Data Streaming Platform Trust Center
+  slug: confluent-the-data-streaming-platform-trust-center
+  summary_line: SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27701, PCI DSS, CSA STAR Level 2, HITRUST CSF, TISAX
 skill_count: 12
 skills:
 - name: Bad_Frontmatter

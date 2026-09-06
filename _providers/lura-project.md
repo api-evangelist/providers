@@ -33,13 +33,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
-api_count: 1
+  scored_at: '2026-09-05'
+api_count: 2
 apis:
 - description: The Lura Framework is an open-source Go library for building ultra-high-performance API gateways with middleware support. It provides core packages for configuration, routing, proxying, logging, plugi
   name: Lura Framework
   slug: lura-framework
-artifact_total: 5
+- description: Lura Project is an open source framework for building ultra-performant API gateways with middlewares.
+  name: Lura Project
+  slug: lura
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -101,7 +104,7 @@ modified: '2026-03-18'
 name: Lura Project
 nav: Providers
 network: true
-overview: 'Lura Project publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Go, Linux Foundation, Microservices, and Open-Source.
+overview: 'Lura Project publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include API Gateway, Go, Linux Foundation, Microservices, and Open-Source.
 
 
   Lura Project''s developer surface includes documentation, changelog, and 10 more developer resources.'
@@ -116,27 +119,27 @@ rate_limits:
   slug: lura-project-rate-limits
 score:
   band: emerging
-  composite: 19.6
+  composite: 18.6
   coverage:
     artifact_dirs: 5
-    catalog_earned: 46.0
+    catalog_earned: 41.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
-    discoverability: 68.5
+    discoverability: 59.3
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 19.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lura-project/refs/heads/main/screenshots/lura-project-2026-06-20T184802.png
 security:

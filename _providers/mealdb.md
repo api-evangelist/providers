@@ -25,15 +25,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: partial
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.9
-  scored_at: '2026-09-04'
+  score: 25.8
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,7 +78,27 @@ apis:
   description: The Search.php API from TheMealDB — 1 operation(s) for search.php.
   name: TheMealDB Search.php API
   slug: mealdb-search-php-api
-artifact_total: 28
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Filter meals by attributes
+  name: TheMealDB Filter API
+  slug: themealdb-filter-api
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: List available categories, areas, and ingredients
+  name: TheMealDB List API
+  slug: themealdb-list-api
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Retrieve details by ID or random meal
+  name: TheMealDB Lookup API
+  slug: themealdb-lookup-api
+- baseURL: https://www.themealdb.com/api/json/v1/1
+  baseurl_source: declared
+  description: Search for meals and ingredients
+  name: TheMealDB Search API
+  slug: themealdb-search-api
+artifact_total: 35
 collections:
 - collection_type: open
   name: API Collection
@@ -184,20 +204,31 @@ json_schemas:
 - name: Meal
   property_count: 53
   slug: meal
+- name: Meal
+  property_count: 16
+  slug: themealdb-meal
+json_structures:
+- name: Themealdb Meal Structure
+  property_count: 16
+  slug: themealdb-meal-structure
 jsonld:
 - class_count: 56
   name: Mealdb Context
   property_count: 2
   slug: mealdb-context
+- class_count: 6
+  name: Themealdb Context
+  property_count: 21
+  slug: themealdb-context
 layout: provider
 modified: '2026-06-13'
 name: TheMealDB
 nav: Providers
 network: true
-overview: 'TheMealDB publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Categories.php API, Filter.php API, List.php API, and 4 more. Tagged areas include Food, Recipes, Meals, Cooking, and Ingredients.
+overview: 'TheMealDB publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Categories.php API, Filter.php API, List.php API, and 8 more. Tagged areas include Food, Recipes, Meals, Cooking, and Ingredients.
 
 
-  The TheMealDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The TheMealDB catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
   TheMealDB''s developer surface includes documentation, pricing, and 11 more developer resources.'
@@ -223,20 +254,20 @@ rules:
   slug: mealdb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 42.7
+  composite: 41.1
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 71.3
+    artifact_dirs: 14
+    catalog_earned: 80.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 43.8
+    catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.6
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 9.8
-    contract_quality: 54.5
+    contract_quality: 47.8
     developer_ergonomics: 14.3
     discoverability: 68.5
     governance: 9.8
@@ -246,9 +277,9 @@ score:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
+      derived: 4
+      marker_coverage: 36.4
+      total: 11
   regulatory:
     applies: true
     matched_via: tags
@@ -256,7 +287,7 @@ score:
     regime_id: government
     score: 35.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mealdb/refs/heads/main/screenshots/mealdb-2026-06-20T185110.png
 security:

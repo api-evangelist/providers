@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -80,7 +80,42 @@ apis:
   description: Manage webhook subscriptions for asynchronous event delivery.
   name: Persona Webhooks API
   slug: persona-webhooks-api
-artifact_total: 25
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Grouped Persona objects for manual review.
+  name: Persona Cases API
+  slug: withpersona-cases-api
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Device-intelligence records.
+  name: Persona Devices API
+  slug: withpersona-devices-api
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Files collected during verification.
+  name: Persona Documents API
+  slug: withpersona-documents-api
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Immutable record of everything that happens in an account.
+  name: Persona Events API
+  slug: withpersona-events-api
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Bulk-load data into Persona lists.
+  name: Persona Importers API
+  slug: withpersona-importers-api
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Individual sessions within an Inquiry.
+  name: Persona Inquiry Sessions API
+  slug: withpersona-inquiry-sessions-api
+- baseURL: https://api.withpersona.com/api/v1
+  baseurl_source: declared
+  description: Automation runs triggered by verification results or events.
+  name: Persona Workflows API
+  slug: withpersona-workflows-api
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -112,6 +147,9 @@ collections:
 - collection_type: open
   name: Persona API
   slug: open-persona
+- collection_type: open
+  name: Persona API
+  slug: open-withpersona
 common:
 - group: agent
   title: ''
@@ -201,7 +239,7 @@ modified: '2026-05-30'
 name: Persona
 nav: Providers
 network: true
-overview: 'Persona publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Inquiries API, Lists API, and 4 more. Tagged areas include Fraud Prevention, Identity Verification, and KYC.
+overview: 'Persona publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Inquiries API, Lists API, and 11 more. Tagged areas include Fraud Prevention, Identity Verification, and KYC.
 
 
   Persona''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, support, engineering blog, and 12 more developer resources.'
@@ -216,7 +254,7 @@ rate_limits:
   slug: persona-rate-limits
 score:
   band: developing
-  composite: 41.4
+  composite: 42.7
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.0
@@ -224,16 +262,16 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 0.0
     contract_quality: 51.6
-    developer_ergonomics: 40.5
+    developer_ergonomics: 41.7
     discoverability: 66.7
     governance: 0.0
-    operational_transparency: 10.5
+    operational_transparency: 18.4
   previous_composite: 41.4
   provenance:
     agentic_access: derived
@@ -241,9 +279,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 8
+      total: 15
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/screenshots/persona-2026-06-20T191619.png
 security:

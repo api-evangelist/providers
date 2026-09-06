@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 2
 common:
@@ -84,7 +84,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 6.9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluevoyant/refs/heads/main/screenshots/bluevoyant-2026-07-25T203508.png
 security:

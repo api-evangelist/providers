@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: FHFA provides housing finance data datasets including house price indexes and other housing market statistics.
@@ -110,7 +110,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-housing-finance-agency/refs/heads/main/screenshots/federal-housing-finance-agency-2026-06-20T181116.png
 security:

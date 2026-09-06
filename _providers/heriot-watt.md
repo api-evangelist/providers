@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 6
 apis:
 - description: The university's own institutional repository of theses and research outputs, running DSpace 8 on www.ros.hw.ac.uk — a host under Heriot-Watt's registrable domain with a matching PTR record, an open.a
@@ -194,6 +194,14 @@ score:
     discoverability: 64.8
     governance: 18.2
     operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
   previous_composite: 32.5
   provenance:
     conformance: first-party
@@ -204,7 +212,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/screenshots/heriot-watt-2026-06-20T182645.png
 security:

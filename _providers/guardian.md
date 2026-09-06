@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,10 @@ apis:
   description: Browse and search Guardian tags (keywords, series, contributors, etc.)
   name: The Guardian Tags API
   slug: guardian-tags-api
-artifact_total: 33
+- description: Access all the content the Guardian creates, categorised by tags and section
+  name: The Guardian
+  slug: the-guardian
+artifact_total: 34
 collections:
 - collection_type: open
   name: API Collection
@@ -242,7 +245,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guardian/refs/heads/main/screenshots/guardian-2026-06-20T182423.png
 security:

@@ -10,31 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: documented
+    rate_limit_signal: verified
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-04'
-api_count: 4
+  score: 36.5
+  scored_at: '2026-09-05'
+api_count: 5
 apis:
 - description: Global Privacy Control is a browser-level signal that communicates a user's opt-out preference to websites. The California Attorney General has affirmed that GPC must be treated as a valid CCPA "Do No
   name: Global Privacy Control (GPC) Specification
@@ -48,7 +48,16 @@ apis:
 - description: Official California Attorney General registry of data brokers required to register under Civil Code section 1798.99.80, providing a public list that consumers can use to submit opt-out requests.
   name: California Data Broker Registry
   slug: ca-data-broker-registry
-artifact_total: 31
+- baseURL: https://api.drop.privacy.ca.gov
+  baseurl_source: declared
+  description: The Delete Request and Opt-out Platform (DROP) Data Broker API is the statutory integration surface California's Delete Act requires of every registered data broker. Brokers call GET /data/download to
+  name: CalPrivacy DROP Data Broker API
+  slug: drop-data-broker-api
+artifact_total: 34
+asyncapis:
+- description: ''
+  name: Ccpa Drop Webhooks
+  slug: ccpa-drop-webhooks
 common:
 - group: auth
   title: ''
@@ -82,10 +91,6 @@ common:
   title: ''
   type: FAQ
   url: https://oag.ca.gov/privacy/ccpa
-- group: other
-  title: ''
-  type: Enforcement
-  url: https://cppa.ca.gov/enforcement/
 - group: start
   title: ''
   type: DataBrokerRegistry
@@ -106,6 +111,142 @@ common:
   title: ''
   type: Applicability
   url: ''
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ccpa-authentication.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/ccpa-drop-databroker-api.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/ccpa-drop-databroker-api-overlay.yaml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ccpa-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/ccpa-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/ccpa-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ccpa-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ccpa-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/ccpa-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ccpa-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/ccpa-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/ccpa-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/ccpa-drop-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/ccpa-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ccpa-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/ccpa-packages.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ccpa-llms.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ccpa-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ccpa-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/ccpa-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://privacy.ca.gov/drop-for-data-brokers/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://privacy.ca.gov/drop-for-data-brokers/technical-specifications/api-operations/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://privacy.ca.gov/drop-for-data-brokers/technical-specifications/getting-started/
+- group: operate
+  title: ''
+  type: Support
+  url: https://privacy.ca.gov/drop-for-data-brokers/help/
+- group: company
+  title: ''
+  type: Blog
+  url: https://privacy.ca.gov/about-us/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://privacy.ca.gov/drop-for-data-brokers/account-creation-fees-and-annual-registration/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://databroker.drop.privacy.ca.gov/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://privacy.ca.gov/conditions-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.ca.gov/privacy-policy/
+- group: other
+  title: ''
+  type: Complaints
+  url: https://privacy.ca.gov/submit-a-complaint/ccpa-complaints/
+- group: other
+  title: ''
+  type: LawsAndRegulations
+  url: https://privacy.ca.gov/laws-and-regulations/
+- group: other
+  title: ''
+  type: Announcements
+  url: https://cppa.ca.gov/announcements/
+- group: start
+  title: ''
+  type: DataBrokerRegistryData
+  url: https://cppa.ca.gov/data_broker_registry/complete-reg-data-brokers.csv
 created: '2025-01-01'
 description: 'The California Consumer Privacy Act (CCPA), amended by the California Privacy Rights Act (CPRA), is a state statute that grants California residents rights over their personal information: the right to know, delete, correct, opt-out of sale/sharing, limit use of sensitive personal information, and non-discrimination for exercising privacy rights. It is enforced by the California Privacy Protection Agency (CPPA) and the California Attorney General. Technical interoperability mechanisms include the Global Privacy Control (GPC) browser signal and the IAB Tech Lab US Privacy (USP) / Global Privacy Platform (GPP) signals for advertising technology. This index tracks the official regulatory resources, technical privacy signals, and commercial APIs that help businesses comply with CCPA/CPRA obligations.'
 features:
@@ -128,49 +269,65 @@ finops:
   slug: ccpa-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ccpa.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-09-05'
 name: CCPA (California Consumer Privacy Act)
 nav: Providers
 network: true
-overview: 'CCPA (California Consumer Privacy Act) publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include CPRA, California, Compliance, Data Protection, and Data Subject Rights.
+overview: 'CCPA (California Consumer Privacy Act) publishes 1 API on the [APIs.io](https://apis.io/) network: CalPrivacy DROP Data Broker API. Tagged areas include CPRA, California, Compliance, Data Protection, and Data Subject Rights.
 
 
-  CCPA (California Consumer Privacy Act)''s developer surface includes documentation, FAQ, and 10 more developer resources.'
+  The CCPA (California Consumer Privacy Act) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  CCPA (California Consumer Privacy Act)''s developer surface includes documentation, FAQ, authentication, changelog, sandbox, API reference, getting-started guide, and 38 more developer resources.'
 plans:
 - name: Ccpa Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: ccpa-plans-pricing
 random_paper: 8
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ccpa Rate Limits
   slug: ccpa-rate-limits
 score:
-  band: emerging
-  composite: 15.9
+  band: strong
+  composite: 59.8
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 44.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    artifact_dirs: 22
+    catalog_earned: 46.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 43.9
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 9.5
+    access_clarity: 73.7
+    commercial_clarity: 73.7
+    contract_governance: 18.2
+    contract_quality: 66.4
+    developer_ergonomics: 73.2
     discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 13.2
+    governance: 18.2
+    operational_transparency: 39.5
   previous_composite: 15.9
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ccpa/refs/heads/main/screenshots/ccpa-2026-06-20T174058.png
 security:
+- kind: authentication
+  name: Ccpa Authentication
+  slug: ccpa-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Ccpa Domain Security
   slug: ccpa-domain-security

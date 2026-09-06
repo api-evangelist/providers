@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: false
     idempotency: na
     mcp_server: documented
-    openapi_examples: documented
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.0
-  scored_at: '2026-09-04'
+  score: 36.5
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,21 @@ apis:
   description: List of all supported ISO 4217 currency codes with their full names.
   name: ExchangeRate-API Supported Codes API
   slug: exchangerate-api-supported-codes-api
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: API quota and account information
+  name: ExchangeRate-API Account API
+  slug: exchangerate-account-api
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Supported currency codes and metadata
+  name: ExchangeRate-API Currencies API
+  slug: exchangerate-currencies-api
+- baseURL: https://v6.exchangerate-api.com/v6
+  baseurl_source: declared
+  description: Real-time and historical currency exchange rate endpoints
+  name: ExchangeRate-API Exchange Rates API
+  slug: exchangerate-exchange-rates-api
 arazzos:
 - description: Discover supported currencies, pull latest rates, then convert a specific pair.
   name: ExchangeRate-API Codes to Conversion
@@ -98,7 +113,7 @@ arazzos:
 - description: Check remaining quota, then use the keyed endpoint or fall back to open access.
   name: ExchangeRate-API Quota Guarded Rates
   slug: exchangerate-api-quota-guarded-rates-workflow
-artifact_total: 83
+artifact_total: 91
 collections:
 - collection_type: postman
   name: ExchangeRate-API
@@ -321,6 +336,9 @@ finops:
 - name: Exchangerate Api Finops
   service_category: Financial Data
   slug: exchangerate-api-finops
+- name: Exchangerate Finops
+  service_category: ''
+  slug: exchangerate-finops
 image: https://www.exchangerate-api.com/img/logo.svg
 integrations:
 - description: Use ExchangeRate-API from Python applications via the documented HTTP API.
@@ -358,6 +376,9 @@ json_schemas:
 - name: SupportedCodesResponse
   property_count: 4
   slug: exchangerate-api-supported-codes
+- name: ExchangeRate-API Schemas
+  property_count: 0
+  slug: exchangerate
 json_structures:
 - name: Exchangerate Api Enriched Structure
   property_count: 11
@@ -388,6 +409,10 @@ jsonld:
   name: Exchangerate Api Context
   property_count: 32
   slug: exchangerate-api-context
+- class_count: 10
+  name: Exchangerate Context
+  property_count: 13
+  slug: exchangerate-context
 layout: provider
 mcp_servers:
 - description: ''
@@ -397,10 +422,10 @@ modified: '2026-05-29'
 name: ExchangeRate-API
 nav: Providers
 network: true
-overview: 'ExchangeRate-API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Enriched Data API, Historical Rates API, Latest Rates API, and 4 more. Tagged areas include Currency Exchange, Foreign Exchange, Financial Data, Forex, and Currency Conversion.
+overview: 'ExchangeRate-API publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Enriched Data API, Historical Rates API, Latest Rates API, and 7 more. Tagged areas include Currency Exchange, Foreign Exchange, Financial Data, Forex, and Currency Conversion.
 
 
-  The ExchangeRate-API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The ExchangeRate-API catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
   ExchangeRate-API''s developer surface includes authentication, documentation, API reference, code examples, pricing, signup flow, support, and 27 more developer resources.'
@@ -408,11 +433,17 @@ plans:
 - name: Exchangerate Api Plans Pricing
   plan_count: 5
   slug: exchangerate-api-plans-pricing
+- name: Exchangerate Plans Pricing
+  plan_count: 4
+  slug: exchangerate-plans-pricing
 random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Exchangerate Api Rate Limits
   slug: exchangerate-api-rate-limits
+- limit_count: 0
+  name: Exchangerate Rate Limits
+  slug: exchangerate-rate-limits
 rules:
 - effective_rule_count: 5
   extends: []
@@ -435,35 +466,35 @@ rules:
     warn: 1
   slug: exchangerate-api-rules
 score:
-  band: developing
-  composite: 52.9
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 17
-    catalog_earned: 90.3
+    catalog_earned: 93.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 24.8
+    catalog_gap: 21.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 2.7
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
     contract_governance: 25.0
-    contract_quality: 72.8
+    contract_quality: 75.5
     developer_ergonomics: 41.7
     discoverability: 68.5
     governance: 25.0
-    operational_transparency: 31.6
-  previous_composite: 53.6
+    operational_transparency: 47.4
+  previous_composite: 52.9
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 10
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:

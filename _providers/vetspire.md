@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 12
 apis:
 - description: GraphQL operations over the Accounts domain - search and read client (pet owner) records including contact details, addresses, balances, linked patients, and communication preferences, and create or u
@@ -171,7 +171,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vetspire/refs/heads/main/screenshots/vetspire-2026-09-02T165830.png
 security:

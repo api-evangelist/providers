@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://mediaruntime.com
@@ -81,7 +81,10 @@ apis:
   description: Retry delivery of signed terminal events.
   name: MediaRuntime Webhooks API
   slug: mediaruntime-webhooks-api
-artifact_total: 11
+- description: Versioned REST API (under /v1) for media-processing jobs, reports/analysis, reusable recipes, uploads/watermarking, and runtime capability discovery. Auth via X-API-Key (production) or X-Sandbox-Token
+  name: MediaRuntime API
+  slug: mediaruntime-api
+artifact_total: 12
 common:
 - group: other
   title: ''
@@ -102,7 +105,7 @@ modified: '2026-08-26'
 name: MediaRuntime
 nav: Providers
 network: true
-overview: MediaRuntime publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Job Results API, Jobs API, and 8 more. Tagged areas include Media Processing, Video, Audio, and Runtime.
+overview: MediaRuntime publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Job Results API, Jobs API, and 9 more. Tagged areas include Media Processing, Video, Audio, and Runtime.
 random_paper: 3
 score:
   band: emerging
@@ -132,7 +135,7 @@ score:
       marker_coverage: 0.0
       total: 11
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediaruntime/refs/heads/main/screenshots/mediaruntime-2026-09-02T150453.png
 slug: mediaruntime

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -109,7 +109,16 @@ apis:
   description: Live stream enumeration, statistics, and control
   name: Red5 Streams API
   slug: red5-streams-api
-artifact_total: 48
+- description: REST/JSON API embedded in the Red5 Pro media server providing server info/ping/statistics, applications, streams, recorded content (VOD), shared objects, client control, and log access. Base URL is in
+  name: Red5 Pro Server API
+  slug: red5-pro-server-api
+- description: REST/JSON API used by both Red5 Pro clusters and Red5 Cloud for Auth, Admin, Proxy, Streams, Streams Provision, Streams Mixer, and Scheduling NodeGroups. Base URL is instance-specific ({streamManagerH
+  name: Stream Manager 2.0 API
+  slug: stream-manager-20-api
+- description: Publicly hosted llms.txt providing a structured index of Red5 products, use cases, and documentation for AI agents.
+  name: Red5 Agent-Native Surface
+  slug: red5-agent-native-surface
+artifact_total: 51
 asyncapis:
 - description: 'Red5 Pro''s webhook subsystem calls a customer-supplied REST endpoint when streaming events occur. Events are grouped into six categories — CONNECT, PUBLISH, SUBSCRIBE, WEBSOCKET, MEDIA and USER — and '
   name: Red5 Pro Webhooks
@@ -479,8 +488,8 @@ rules:
     warn: 8
   slug: red5-rules
 score:
-  band: exemplar
-  composite: 66.9
+  band: strong
+  composite: 66.3
   coverage:
     artifact_dirs: 32
     catalog_earned: 69.5
@@ -488,17 +497,17 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 28.5
+  delta: -0.6
   facets:
-    access_clarity: 92.1
-    commercial_clarity: 92.1
+    access_clarity: 85.5
+    commercial_clarity: 85.5
     contract_governance: 33.3
     contract_quality: 63.4
     developer_ergonomics: 78.6
-    discoverability: 74.1
+    discoverability: 81.5
     governance: 33.3
     operational_transparency: 42.1
-  previous_composite: 38.4
+  previous_composite: 66.9
   provenance:
     agentic_access: derived
     conformance: derived
@@ -510,8 +519,8 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: rising
+  scored_at: '2026-09-05'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:
 - kind: authentication

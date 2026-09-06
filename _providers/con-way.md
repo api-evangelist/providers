@@ -8,31 +8,6 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-04'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,13 +25,29 @@ common:
   url: https://en.wikipedia.org/wiki/Con-way
 - group: other
   title: ''
-  type: Con-way Freight Wikipedia
+  type: Wikipedia
   url: https://en.wikipedia.org/wiki/Con-way_Freight
+coverage:
+  checked: '2026-09-05'
+  detail: Con-way was absorbed into XPO Logistics in 2015 and the brand was retired in 2017; con-way.com is now an XPO-owned redirect — the apex 302s to www.xpo.com and www.con-way.com 302s to XPO's LTL customer portal at ext-web.ltl-xpo.com/landing — so there is no Con-way-branded developer surface left to read, and every tracking "API" search returns third-party aggregators (AfterShip, TrackingMore, Shipway) rather than a Con-way contract.
+  evidence:
+  - status: 404
+    url: https://www.con-way.com/developers
+  - status: 302
+    url: https://www.con-way.com/
+  - status: 302
+    url: https://con-way.com/
+  - status: 404
+    url: https://www.con-way.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.con-way.com/en/
+  reason: defunct
+  state: none
 created: '2025-03-23'
 description: Con-way Inc. was a North American freight transportation and logistics company best known for its Less-Than-Truckload (LTL) carrier Con-way Freight along with Menlo Logistics, Con-way Truckload, and Con-way Multimodal. On October 30, 2015, XPO Logistics completed a $3 billion acquisition of Con-way; by May 2017 the Con-way brand had been fully retired in favor of XPO. This profile is preserved as a historical record; Con-way no longer operates under this name and modern shipping APIs are surfaced under XPO.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/con-way.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-05'
 name: Con-way
 nav: Providers
 network: true
@@ -78,38 +69,6 @@ press:
   title: XPO closes purchase of Con-way; layoffs begin within ...
   url: https://www.dcvelocity.com/articles/27607-xpo-closes-purchase-of-con-way-layoffs-begin-within-con-way-system
 random_paper: 9
-score:
-  band: minimal
-  composite: 5.0
-  coverage:
-    artifact_dirs: 4
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
-      reason: never_enriched
-  previous_composite: 5.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/con-way/refs/heads/main/screenshots/con-way-2026-06-20T174837.png
 slug: con-way
 tags:

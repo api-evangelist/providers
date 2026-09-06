@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: Java Database Connectivity driver for connecting Java applications to Oracle 11g.
@@ -109,7 +109,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-11g/refs/heads/main/screenshots/oracle-11g-2026-06-20T191117.png
 security:

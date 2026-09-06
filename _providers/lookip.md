@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://api.lookip.io
@@ -46,7 +46,10 @@ apis:
   description: Service index, liveness and this document.
   name: Lookip Service API
   slug: lookip-service-api
-artifact_total: 4
+- description: REST/HTTP IP intelligence API with LITE and MAX lookup tiers, batch lookups, and keyless public ASN endpoints. Bearer API key auth, prepaid credit metering.
+  name: Lookip API
+  slug: lookip-api
+artifact_total: 5
 common:
 - group: other
   title: ''
@@ -83,7 +86,7 @@ modified: '2026-08-26'
 name: Lookip
 nav: Providers
 network: true
-overview: 'Lookip publishes 4 APIs on the [APIs.io](https://apis.io/) network, including ASN API, Batch API, Lookup API, and 1 more. Tagged areas include IP Lookup, Geolocation, ASN, and Proxy Detection.
+overview: 'Lookip publishes 5 APIs on the [APIs.io](https://apis.io/) network, including ASN API, Batch API, Lookup API, and 2 more. Tagged areas include IP Lookup, Geolocation, ASN, and Proxy Detection.
 
 
   Lookip''s developer surface includes signup flow and 6 more developer resources.'
@@ -116,7 +119,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lookip/refs/heads/main/screenshots/lookip-2026-09-02T150318.png
 slug: lookip

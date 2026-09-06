@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,7 +84,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 7.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-funds/refs/heads/main/screenshots/solo-funds-2026-09-02T160125.png
 security:

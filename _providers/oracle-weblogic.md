@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -171,7 +171,92 @@ apis:
   description: Monitor thread pool utilization
   name: Oracle WebLogic Server Thread Pool Runtime API
   slug: oracle-weblogic-thread-pool-runtime-api
-artifact_total: 142
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Deploy, undeploy, redeploy, and manage application configurations using the edit tree
+  name: Oracle WebLogic Server APIs Application Deployments API
+  slug: weblogic-application-deployments-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Application deployment monitoring
+  name: Oracle WebLogic Server APIs Applications API
+  slug: weblogic-applications-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Cluster-level monitoring information
+  name: Oracle WebLogic Server APIs Clusters API
+  slug: weblogic-clusters-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: JDBC data source monitoring and metrics
+  name: Oracle WebLogic Server APIs Data Sources API
+  slug: weblogic-data-sources-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Runtime deployment operations using the domain runtime deployment manager
+  name: Oracle WebLogic Server APIs Deployment Operations API
+  slug: weblogic-deployment-operations-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: WebLogic Diagnostic Framework (WLDF) resources
+  name: Oracle WebLogic Server APIs Diagnostics API
+  slug: weblogic-diagnostics-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Read-only access to the domain-level configuration MBean tree including servers, clusters, data sources, JMS resources, and security realms.
+  name: Oracle WebLogic Server APIs Domain Configuration API
+  slug: weblogic-domain-configuration-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Access to domain-level runtime MBeans including server lifecycle operations, deployment operations, and domain-wide monitoring data.
+  name: Oracle WebLogic Server APIs Domain Runtime API
+  slug: weblogic-domain-runtime-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Configuration editing operations. An edit session must be started before making changes to the domain configuration. Changes are staged and then activated.
+  name: Oracle WebLogic Server APIs Edit API
+  slug: weblogic-edit-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Server and subsystem health checks
+  name: Oracle WebLogic Server APIs Health API
+  slug: weblogic-health-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: JMS subsystem monitoring
+  name: Oracle WebLogic Server APIs JMS API
+  slug: weblogic-jms-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Deploy and manage shared libraries
+  name: Oracle WebLogic Server APIs Library Deployments API
+  slug: weblogic-library-deployments-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Server lifecycle management operations including starting, stopping, suspending, and resuming servers.
+  name: Oracle WebLogic Server APIs Lifecycle API
+  slug: weblogic-lifecycle-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Read-only access to the server-level configuration MBean tree for individual managed servers.
+  name: Oracle WebLogic Server APIs Server Configuration API
+  slug: weblogic-server-configuration-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Access to server-level runtime MBeans providing monitoring data for individual server instances including thread pools, JDBC, JMS, and application runtimes.
+  name: Oracle WebLogic Server APIs Server Runtime API
+  slug: weblogic-server-runtime-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Server-level monitoring and health information
+  name: Oracle WebLogic Server APIs Servers API
+  slug: weblogic-servers-api
+- baseURL_template: https://{host}:{port}/management/weblogic/latest
+  baseurl_source: spec_template
+  description: Upload application archives to the administration server
+  name: Oracle WebLogic Server APIs Upload API
+  slug: weblogic-upload-api
+artifact_total: 167
 collections:
 - collection_type: open
   name: API Collection
@@ -580,24 +665,49 @@ json_schemas:
 - name: VirtualTargetCreateRequest
   property_count: 4
   slug: oracle-weblogic-virtualtargetcreaterequest
+- name: WebLogic Application Deployment
+  property_count: 16
+  slug: weblogic-application-deployment
+- name: WebLogic Cluster Configuration
+  property_count: 18
+  slug: weblogic-cluster-configuration
+- name: WebLogic JDBC Data Source Configuration
+  property_count: 4
+  slug: weblogic-datasource-configuration
+- name: WebLogic Domain Configuration
+  property_count: 17
+  slug: weblogic-domain-configuration
+- name: WebLogic Server Configuration
+  property_count: 22
+  slug: weblogic-server-configuration
+- name: WebLogic Server Runtime
+  property_count: 19
+  slug: weblogic-server-runtime
 json_structures:
 - name: Oracle Weblogic Structure
   property_count: 0
   slug: oracle-weblogic-structure
+- name: Weblogic Server Configuration Structure
+  property_count: 0
+  slug: weblogic-server-configuration-structure
 jsonld:
 - class_count: 40
   name: Oracle Weblogic Context
   property_count: 54
   slug: oracle-weblogic-context
+- class_count: 0
+  name: Weblogic Context
+  property_count: 9
+  slug: weblogic-context
 layout: provider
 modified: '2026-08-21'
 name: Oracle WebLogic Server
 nav: Providers
 network: true
-overview: 'Oracle WebLogic Server publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Application Deployment API, Application Deployments API, Application Runtime API, and 21 more. Tagged areas include Application Server, Enterprise, Java EE, Middleware, and Oracle.
+overview: 'Oracle WebLogic Server publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Application Deployment API, Application Deployments API, Application Runtime API, and 38 more. Tagged areas include Application Server, Enterprise, Java EE, Middleware, and Oracle.
 
 
-  The Oracle WebLogic Server catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The Oracle WebLogic Server catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
   Oracle WebLogic Server''s developer surface includes authentication, support, documentation, engineering blog, Stack Overflow tag, YouTube channel, signup flow, and 12 more developer resources.'
@@ -623,7 +733,7 @@ rules:
   slug: oracle-weblogic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 42.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 60.3
@@ -631,12 +741,12 @@ score:
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
-    contract_quality: 67.4
+    contract_quality: 69.8
     developer_ergonomics: 23.8
     discoverability: 57.4
     governance: 9.8
@@ -648,9 +758,9 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 41
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:

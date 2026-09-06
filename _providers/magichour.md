@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://api.magichour.ai
@@ -198,7 +198,7 @@ rate_limits:
   slug: magichour-rate-limits
 score:
   band: strong
-  composite: 63.8
+  composite: 62.2
   coverage:
     artifact_dirs: 21
     catalog_earned: 61.0
@@ -206,17 +206,17 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.7
+  delta: -1.6
   facets:
-    access_clarity: 76.3
-    commercial_clarity: 76.3
+    access_clarity: 69.7
+    commercial_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 63.1
     developer_ergonomics: 73.8
     discoverability: 75.9
     governance: 4.5
-    operational_transparency: 76.3
-  previous_composite: 65.5
+    operational_transparency: 73.7
+  previous_composite: 63.8
   provenance:
     conformance: derived
     contracts:
@@ -227,7 +227,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magichour/refs/heads/main/screenshots/magichour-2026-09-02T150355.png
 security:

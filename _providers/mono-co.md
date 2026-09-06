@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,11 +75,39 @@ apis:
   description: Transactions and bank statements for a linked account.
   name: Mono Transactions and Statements API
   slug: mono-co-transactions-and-statements-api
-artifact_total: 20
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Account linking authorization and re-authorization.
+  name: Mono Connect API
+  slug: mono-africa-connect-api
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Affordability and credit-decisioning analysis.
+  name: Mono Creditworthiness API
+  slug: mono-africa-creditworthiness-api
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Read financial data from a linked account.
+  name: Mono Financial Data API
+  slug: mono-africa-financial-data-api
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Investment holdings for a linked account.
+  name: Mono Investment API
+  slug: mono-africa-investment-api
+- baseURL: https://api.withmono.com/v2
+  baseurl_source: declared
+  description: Identity and data verification for KYC/KYB.
+  name: Mono Lookup API
+  slug: mono-africa-lookup-api
+artifact_total: 26
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
+- collection_type: open
+  name: Mono API
+  slug: open-mono-africa
 - collection_type: open
   name: Mono Account Information API
   slug: open-mono-co-account-information-api
@@ -162,7 +190,7 @@ modified: '2026-06-21'
 name: Mono
 nav: Providers
 network: true
-overview: 'Mono publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Linking API, Direct Debit API, and 3 more. Tagged areas include Open Banking, Financial Data, Payments, Direct Debit, and Africa.
+overview: 'Mono publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account Information API, Account Linking API, Direct Debit API, and 8 more. Tagged areas include Open Banking, Financial Data, Payments, Direct Debit, and Africa.
 
 
   Mono''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -177,7 +205,7 @@ rate_limits:
   slug: mono-co-rate-limits
 score:
   band: thin
-  composite: 37.4
+  composite: 32.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 64.0
@@ -185,24 +213,29 @@ score:
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: -4.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 0.0
-    contract_quality: 56.5
+    contract_quality: 37.3
     developer_ergonomics: 32.1
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
+  previous_composite: 37.4
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
+      derived: 5
+      marker_coverage: 45.5
+      total: 11
   regulatory:
     applies: true
     matched_via: tags
@@ -210,7 +243,7 @@ score:
     regime_id: banking_open_finance
     score: 15.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/screenshots/mono-co-2026-08-07T184212.png
 security:

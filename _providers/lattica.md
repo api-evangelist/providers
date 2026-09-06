@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The LatticaAI platform API for deploying and operating encrypted workloads. An RPC-style HTTPS surface rooted at https://api.lattica.ai/api/, authenticated with a Bearer token, covering account and fi
@@ -180,7 +180,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattica/refs/heads/main/screenshots/lattica-2026-07-25T224607.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 7
 apis:
 - baseURL: https://api.swan.io/live-partner/graphql
@@ -163,6 +163,14 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 23.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
   previous_composite: 30.7
   regulatory:
     applies: true
@@ -171,7 +179,7 @@ score:
     regime_id: payments
     score: 18.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swan-io/refs/heads/main/screenshots/swan-io-2026-09-02T161336.png
 security:

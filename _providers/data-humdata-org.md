@@ -33,13 +33,16 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
-api_count: 1
+  scored_at: '2026-09-05'
+api_count: 2
 apis:
 - description: CKAN Action API for Humanitarian Data Exchange, a consistent JSON-over-HTTP interface over a catalog of 27,880 datasets. Standard actions include package_search, package_show, package_list, organizati
   name: Humanitarian Data Exchange CKAN Action API
   slug: catalog
-artifact_total: 5
+- description: Humanitarian Data Exchange (HDX) is open platform for sharing data across crises and organisations
+  name: Humanitarian Data Exchange
+  slug: humanitarian-data-exchange
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -81,7 +84,7 @@ modified: '2026-06-04'
 name: Humanitarian Data Exchange
 nav: Providers
 network: true
-overview: 'Humanitarian Data Exchange publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Organization.
+overview: 'Humanitarian Data Exchange publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, DCAT, and Organization.
 
 
   Humanitarian Data Exchange''s developer surface includes documentation and 6 more developer resources.'
@@ -114,6 +117,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - global
   previous_composite: 15.7
   regulatory:
     applies: true
@@ -122,7 +130,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-humdata-org/refs/heads/main/screenshots/data-humdata-org-2026-06-20T175541.png
 security:

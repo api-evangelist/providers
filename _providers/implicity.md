@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Implicity markets a "comprehensive API and integration framework for seamless data exchange with core hospital systems" and bidirectional EHR integration to hospital IT teams. The API host api.implici
@@ -173,6 +173,14 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - france
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
   previous_composite: 25.5
   provenance:
     conformance: first-party
@@ -189,7 +197,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/implicity/refs/heads/main/screenshots/implicity-2026-09-02T145839.png
 security:

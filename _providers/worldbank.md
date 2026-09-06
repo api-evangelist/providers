@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,7 +84,10 @@ apis:
   description: The Topics API from World Bank — 2 operation(s) for topics.
   name: World Bank Topics API
   slug: worldbank-topics-api
-artifact_total: 26
+- description: World Data
+  name: World Bank
+  slug: world-bank
+artifact_total: 27
 collections:
 - collection_type: open
   name: API Collection
@@ -241,7 +244,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

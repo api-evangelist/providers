@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The League platform API, served from the Kong-fronted gateway at api.league.com. Unauthenticated requests return an RFC-shaped JSON:API error document (content-type application/vnd.api+json) and carry
@@ -167,7 +167,7 @@ score:
     regime_id: health
     score: 37.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/league/refs/heads/main/screenshots/league-2026-09-02T150232.png
 security:

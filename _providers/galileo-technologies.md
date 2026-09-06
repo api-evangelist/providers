@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 662
   human_in_the_loop: 9
@@ -343,7 +343,47 @@ apis:
   description: The versions API from Galileo Technologies — 1 operation(s) for versions.
   name: Galileo Technologies versions API
   slug: galileo-technologies-versions-api
-artifact_total: 127
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Annotations API from Galileo — 2 operation(s) for annotations.
+  name: Galileo Annotations API
+  slug: galileo-ai-annotations-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The ApiKeys API from Galileo — 3 operation(s) for apikeys.
+  name: Galileo ApiKeys API
+  slug: galileo-ai-apikeys-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Auth API from Galileo — 4 operation(s) for auth.
+  name: Galileo Auth API
+  slug: galileo-ai-auth-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Datasets API from Galileo — 5 operation(s) for datasets.
+  name: Galileo Datasets API
+  slug: galileo-ai-datasets-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Experiments API from Galileo — 3 operation(s) for experiments.
+  name: Galileo Experiments API
+  slug: galileo-ai-experiments-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Groups API from Galileo — 4 operation(s) for groups.
+  name: Galileo Groups API
+  slug: galileo-ai-groups-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Health API from Galileo — 1 operation(s) for health.
+  name: Galileo Health API
+  slug: galileo-ai-health-api
+- baseURL: https://api.galileo.ai
+  baseurl_source: declared
+  description: The Integrations API from Galileo — 3 operation(s) for integrations.
+  name: Galileo Integrations API
+  slug: galileo-ai-integrations-api
+artifact_total: 137
 asyncapis:
 - description: ''
   name: Galileo Technologies Webhooks
@@ -652,6 +692,11 @@ common:
 created: '2026-07-17'
 description: Galileo (Galileo Technologies Inc., formerly Rungalileo) is an AI observability and evaluation platform for teams building generative-AI applications and agents. Its REST API and Python/TypeScript SDKs let developers log traces and spans, run offline experiments and evaluations, create datasets and prompt templates, define LLM/code/preset scorers and metrics, monitor production log streams, configure alerts and generic webhooks, and apply runtime guardrails (Protect). The platform centralizes evaluation metrics, real-time observability, and runtime protection so offline evals can become production guardrails. Galileo Technologies is backed by Battery Ventures and Scale Venture Partners.
 image: https://framerusercontent.com/assets/DD0f1BMaBvpM34yUfFmGP5frAo.png
+jsonld:
+- class_count: 0
+  name: Galileo Ai Context
+  property_count: 14
+  slug: galileo-ai-context
 layout: provider
 mcp_servers:
 - description: ''
@@ -661,14 +706,26 @@ modified: '2026-07-19'
 name: Galileo Technologies
 nav: Providers
 network: true
-overview: 'Galileo Technologies publishes 60 APIs on the [APIs.io](https://apis.io/) network, including annotation API, annotation_queue API, annotation_queue_records API, and 57 more. Tagged areas include Company, AI Observability, LLM Evaluation, Generative AI, and Agents.
+overview: 'Galileo Technologies publishes 68 APIs on the [APIs.io](https://apis.io/) network, including annotation API, annotation_queue API, annotation_queue_records API, and 65 more. Tagged areas include Company, AI Observability, LLM Evaluation, Generative AI, and Agents.
 
 
-  The Galileo Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+  The Galileo Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
   Galileo Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
 random_paper: 4
+rules:
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: Galileo Technologies API Rules
+  rule_count: 6
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 0
+    warn: 4
+  slug: galileo-ai-rules
 scopes:
 - name: Galileo Technologies Scopes
   scope_count: 0
@@ -676,23 +733,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 42.5
+  composite: 48.7
   coverage:
-    artifact_dirs: 25
-    catalog_earned: 37.0
+    artifact_dirs: 28
+    catalog_earned: 52.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.2
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
-    contract_governance: 4.5
-    contract_quality: 57.1
+    contract_governance: 65.2
+    contract_quality: 62.2
     developer_ergonomics: 51.8
-    discoverability: 75.9
-    governance: 4.5
+    discoverability: 51.9
+    governance: 65.2
     operational_transparency: 26.3
   previous_composite: 42.5
   provenance:
@@ -702,12 +759,12 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 60
+      total: 68
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-technologies/refs/heads/main/screenshots/galileo-technologies-2026-08-17T123543.png
 security:
 - kind: authentication

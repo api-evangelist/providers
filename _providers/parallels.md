@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'Self-hosted administration REST API for Parallels RAS (Remote Application Server). Applications authenticate with administrator credentials to obtain an authToken, then manage infrastructure (agents, '
@@ -160,7 +160,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 27.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parallels/refs/heads/main/screenshots/parallels-2026-08-07T191426.png
 security:

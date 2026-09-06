@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -122,7 +122,37 @@ apis:
   description: Upscale video resolution and quality.
   name: Runway Video Upscale API
   slug: runway-video-upscale-api
-artifact_total: 82
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate video from an image and prompt (Gen-4 Turbo, Gen-4.5).
+  name: Runway Image-to-Video API
+  slug: runwayml-image-to-video-api
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Usage tier and credit balance for the API organization.
+  name: Runway Organization API
+  slug: runwayml-organization-api
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Generate images from a prompt (Gen-4 Image, Gen-4 Image Turbo).
+  name: Runway Text-to-Image API
+  slug: runwayml-text-to-image-api
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Synthesize speech audio from text.
+  name: Runway Text-to-Speech API
+  slug: runwayml-text-to-speech-api
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Upscale a video to higher resolution.
+  name: Runway Upscale API
+  slug: runwayml-upscale-api
+- baseURL: https://api.dev.runwayml.com/v1
+  baseurl_source: declared
+  description: Edit / restyle an existing video (Aleph).
+  name: Runway Video-to-Video API
+  slug: runwayml-video-to-video-api
+artifact_total: 89
 asyncapis:
 - description: The Runway Characters realtime event interface describes the WebRTC-based communication protocol for live conversational avatar sessions powered by GWM-1. Once a realtime session is created via the RE
   name: Runway Characters Realtime Events
@@ -224,6 +254,9 @@ collections:
 - collection_type: open
   name: Runway Characters Avatars Video Upscale API
   slug: open-runway-video-upscale-api
+- collection_type: open
+  name: Runway API
+  slug: open-runwayml
 common:
 - group: operate
   title: ''
@@ -381,7 +414,7 @@ modified: '2026-05-19'
 name: Runway
 nav: Providers
 network: true
-overview: 'Runway publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Character Performance API, Documents API, and 11 more. Tagged areas include Video Generation, Image-Generation, Artificial Intelligence, Machine-Learning, and Generative AI.
+overview: 'Runway publishes 20 APIs on the [APIs.io](https://apis.io/) network, including Avatars API, Character Performance API, Documents API, and 17 more. Tagged areas include Video Generation, Image-Generation, Artificial Intelligence, Machine-Learning, and Generative AI.
 
 
   The Runway catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
@@ -432,7 +465,7 @@ rules:
   slug: runway-rules
 score:
   band: developing
-  composite: 51.0
+  composite: 52.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 57.5
@@ -440,29 +473,29 @@ score:
     catalog_gap: 57.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.6
+  delta: 1.3
   facets:
     access_clarity: 43.4
     commercial_clarity: 43.4
     contract_governance: 28.8
     contract_quality: 67.9
-    developer_ergonomics: 32.1
+    developer_ergonomics: 39.3
     discoverability: 72.2
     governance: 28.8
     operational_transparency: 34.2
   open_source:
     applies: true
     score: 85.0
-  previous_composite: 51.6
+  previous_composite: 51.0
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 20
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:

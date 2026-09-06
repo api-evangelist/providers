@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: REST API that exposes the Jigso platform in code - query all organizational data with simple REST calls, embed insights into dashboards, chatbots, and internal applications, and trigger scheduled or e
@@ -152,7 +152,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jigso/refs/heads/main/screenshots/jigso-2026-07-25T223148.png
 security:

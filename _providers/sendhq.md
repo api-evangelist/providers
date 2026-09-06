@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://sendhq.cc/api/v1
@@ -61,7 +61,10 @@ apis:
   description: Create addresses and work with received conversations.
   name: SendHQ Inbound email API
   slug: sendhq-inbound-email-api
-artifact_total: 7
+- description: Resend-compatible REST API for transactional and inbound email, domains, templates, deliverability, and workspace administration. Base URL https://sendhq.cc/api/v1 with Bearer re_ API keys.
+  name: SendHQ REST API
+  slug: sendhq-rest-api
+artifact_total: 8
 common:
 - group: agent
   title: ''
@@ -110,7 +113,7 @@ modified: '2026-08-24'
 name: SendHQ
 nav: Providers
 network: true
-overview: 'SendHQ publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Account and billing API, Deliverability API, Domains API, and 4 more. Tagged areas include Email API, Transactional Email, inbound email, and Deliverability.
+overview: 'SendHQ publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Account and billing API, Deliverability API, Domains API, and 5 more. Tagged areas include Email API, Transactional Email, inbound email, and Deliverability.
 
 
   SendHQ''s developer surface includes developer console, tooling, support, and 7 more developer resources.'
@@ -143,7 +146,7 @@ score:
       marker_coverage: 0.0
       total: 7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendhq/refs/heads/main/screenshots/sendhq-2026-09-02T154838.png
 slug: sendhq

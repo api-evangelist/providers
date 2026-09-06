@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - baseURL: https://api.nearspacelabs.net
@@ -239,7 +239,7 @@ score:
     regime_id: insurance
     score: 31.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/near-space-labs/refs/heads/main/screenshots/near-space-labs-2026-09-02T150728.png
 security:

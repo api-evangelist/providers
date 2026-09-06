@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -150,6 +150,11 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   open_source:
     applies: true
     score: 25.0
@@ -161,7 +166,7 @@ score:
     regime_id: health
     score: 7.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alamar-biosciences/refs/heads/main/screenshots/alamar-biosciences-2026-08-07T161140.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 7
 apis:
 - description: Programmatic access to Chemius Safety Data Sheet (SDS) creation, retrieval, and version control. Supports multilingual SDS generation aligned with CLP 1272/2008, REACH 1907/2006, and GHS formats.
@@ -57,7 +57,7 @@ apis:
 - description: API for rendering Chemius SDSs, TDSs, labels, and other compliance documents as PDF artifacts for distribution and archival.
   name: Chemius PDF API
   slug: pdf-api
-artifact_total: 33
+artifact_total: 34
 common:
 - group: auth
   title: ''
@@ -74,19 +74,79 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.chemius.net/chemius-api/
+  url: https://www.chemius.net/api/
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.chemius.net/pricing/
+  url: https://www.chemius.net/our-pricing/
 - group: operate
   title: ''
   type: Contact
-  url: https://www.chemius.net/contact/
+  url: https://www.chemius.net/about-us/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.chemius.net/help-center/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.chemius.net/efficient-safety-data-sheets-start-here/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://my.chemius.net/register
+- group: start
+  title: ''
+  type: Login
+  url: https://my.chemius.net/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.chemius.net/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.chemius.net/privacy-policy/
 - group: design
   title: ''
   type: JSONLD
   url: json-ld/chemius-context.jsonld
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/chemius-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/chemius-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/chemius-finops.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/chemius-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/chemius-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/chemius-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/chemius-conventions.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chemius-llms.txt
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/chemius-mcp.yml
 - group: other
   title: ''
   type: Standards
@@ -94,9 +154,25 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: https://www.chemius.net/blog
+  url: https://www.chemius.net/blog/
+coverage:
+  checked: '2026-09-05'
+  detail: Chemius markets and separately prices seven APIs (SDS, TDS, ADR, Web Shop, Label, ERP, PDF at EUR 100-300 per month each) but publishes a reference for none of them - every per-API page ends at the call-to-action "Book a call & ask for the API documentation", so no contract, base URL, authentication scheme, parameter or error format is reachable without a sales conversation.
+  evidence:
+  - status: 200
+    url: https://www.chemius.net/safety-data-sheet-api/
+  - status: 200
+    url: https://www.chemius.net/api/
+  - status: 404
+    url: https://www.chemius.net/openapi.json
+  - status: 404
+    url: https://www.chemius.net/.well-known/api-catalog
+  - status: 404
+    url: https://my.chemius.net/.well-known/agent-card.json
+  reason: sales-gate
+  state: gated
 created: '2025-03-01'
-description: Chemius is a cloud-based chemical compliance platform that automates Safety Data Sheet (SDS), Technical Data Sheet (TDS), and regulatory label creation in 38+ languages for organizations handling chemical products. The platform exposes an API suite covering SDS, TDS, ADR transport documentation, ERP integration, labels, web shop product data, and PDF generation, and offers AI-assisted authoring through the Chemius AI SDS assistant. Chemius is hosted in DIN ISO/IEC 27001-certified German data centers and supports CLP 1272/2008, REACH 1907/2006, detergents, aerosols, and US OSHA / GHS regulatory frameworks.
+description: 'Chemius is a cloud-based chemical compliance platform that automates Safety Data Sheet (SDS), Technical Data Sheet (TDS), and regulatory label creation in 38+ languages for organizations handling chemical products. The platform exposes an API suite covering SDS, TDS, ADR transport documentation, ERP integration, labels, web shop product data, and PDF generation, and offers AI-assisted authoring through the Chemius AI SDS assistant. Chemius is hosted in a data center the company describes as DIN ISO/IEC 27001-certified, and ships the EU CLP 1272/2008 regulatory region alongside REACH 1907/2006, detergents, aerosols, ADR and UFI/PCN support. US OSHA and a general GHS region are announced on the site as "Coming Soon" rather than shipped. Chemius sells seven named APIs as separately priced monthly add-ons but publishes no reference for any of them: every API page ends at "Book a call & ask for the API documentation".'
 features:
 - name: Automated SDS Authoring
 - name: Multilingual Output (38+ Languages)
@@ -122,7 +198,7 @@ jsonld:
   property_count: 4
   slug: chemius-context
 layout: provider
-modified: '2026-04-23'
+modified: '2026-09-05'
 name: Chemius
 nav: Providers
 network: true
@@ -132,42 +208,49 @@ overview: 'Chemius publishes 7 APIs on the [APIs.io](https://apis.io/) network. 
   The Chemius catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Chemius'' developer surface includes documentation, pricing, engineering blog, and 5 more developer resources.'
+  Chemius'' developer surface includes documentation, pricing, support, getting-started guide, signup flow, engineering blog, and 17 more developer resources.'
 plans:
 - name: Chemius Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: chemius-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Chemius Rate Limits
   slug: chemius-rate-limits
 score:
-  band: emerging
-  composite: 14.7
+  band: thin
+  composite: 33.9
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 49.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 66.0
+    artifact_dirs: 15
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 19.2
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
+    access_clarity: 85.5
+    commercial_clarity: 85.5
+    contract_governance: 18.2
     contract_quality: 6.7
-    developer_ergonomics: 11.9
-    discoverability: 64.8
-    governance: 0.0
-    operational_transparency: 7.9
+    developer_ergonomics: 28.6
+    discoverability: 72.2
+    governance: 18.2
+    operational_transparency: 0.0
   previous_composite: 14.7
+  provenance:
+    conformance: first-party
+    mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chemius/refs/heads/main/screenshots/chemius-2026-06-20T174256.png
 security:
+- kind: authentication
+  name: Chemius Authentication
+  slug: chemius-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Chemius Domain Security
   slug: chemius-domain-security

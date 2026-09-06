@@ -12,38 +12,39 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-04'
+  score: 38.9
+  scored_at: '2026-09-05'
 agentic_access:
-- acting_count: 5
+- acting_count: 33
   human_in_the_loop: 0
   name: Cloudbees Agentic Access
-  operation_count: 14
+  operation_count: 79
   slug: cloudbees-agentic-access
-  summary_line: 14 operations · 5 acting
-api_count: 1
+  summary_line: 79 operations · 33 acting
+api_count: 3
 apis:
 - description: CloudBees CI is a hardened, enterprise distribution of Jenkins. The REST API is the Jenkins remote access API exposed at /api on every controller and on individual jobs, runs, queues and nodes. Caller
   name: CloudBees CI REST API
@@ -54,7 +55,9 @@ apis:
 - description: The CloudBees Feature Management REST API (formerly Rollout) provides programmatic access to applications, environments, feature flags, experiments, target groups, audit logs, and users. Authenticatio
   name: CloudBees Feature Management REST API
   slug: feature-management
-- description: CloudBees Unify is the modern, opinionated software delivery platform that unifies CI, CD, feature management, analytics, and security into a single workflow. The platform exposes APIs for managing or
+- baseURL: https://api.cloudbees.io
+  baseurl_source: declared
+  description: 'CloudBees Unify is the modern, opinionated software delivery platform that unifies CI, CD, feature management, analytics, and security into a single workflow. The CloudBees Unify Public API is served '
   name: CloudBees Unify Platform API
   slug: unify
 - description: The CloudBees CD plugin for Jenkins exposes Jenkins pipeline steps that call CloudBees CD/RO REST endpoints — triggering pipelines, running releases, deploying applications, and pulling artifacts from
@@ -95,7 +98,11 @@ apis:
   description: The Xml API from CloudBees — 1 operation(s) for xml.
   name: CloudBees Xml API
   slug: cloudbees-xml-api
-artifact_total: 31
+artifact_total: 34
+asyncapis:
+- description: ''
+  name: Cloudbees Webhooks
+  slug: cloudbees-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -168,7 +175,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.cloudbees.com/privacy
+  url: https://www.cloudbees.com/legal/privacy-policy
 - group: build
   title: ''
   type: Plugins
@@ -185,6 +192,130 @@ common:
   title: ''
   type: Blog
   url: https://www.cloudbees.com/blog/rss.xml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/cloudbees-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/cloudbees-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cloudbees-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cloudbees-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/cloudbees-security.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cloudbees-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/cloudbees-packages.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.cloudbees.com/legal/security-policy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.cloudbees.com/company/trust-center
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cloudbees-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cloudbees-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cloudbees-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cloudbees.io/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.cloudbees.com/docs/cloudbees-common/latest/maintenance-lifecycle
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cloudbees-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cloudbees-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.cloudbees.com/docs/cloudbees-unify-changelog/latest/
+- group: build
+  title: ''
+  type: CLI
+  url: cli/cloudbees-cli.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/cloudbees-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cloudbees-data-model.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cloudbees-scopes.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cloudbees-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudbees-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cloudbees-finops.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.cloudbees.com/docs/cloudbees-unify/latest/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://apidocs.cloudbees.io/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.cloudbees.com/docs/cloudbees-unify/latest/getting-started/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.cloudbees.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.cloudbees.com/company/terms-of-service
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/cloudbees/cloudbees-feature-management
 created: '2025-01-08'
 description: CloudBees provides software delivery automation across continuous integration, continuous deployment, release orchestration, and feature management. Their developer surface includes the CloudBees CI REST API (an extension of the Jenkins REST API), the CloudBees CD/RO REST API for release orchestration, the CloudBees Feature Management REST API (formerly Rollout) for feature flags and environments, and the CloudBees Unify Platform API for the modern unified delivery platform. APIs are generally JSON, token-authenticated, and follow REST conventions.
 finops:
@@ -198,24 +329,28 @@ jsonld:
   property_count: 11
   slug: cloudbees-context
 layout: provider
-modified: '2026-04-23'
+mcp_servers:
+- description: ''
+  name: CloudBees Unify MCP Server
+  slug: cloudbees-unify-mcp-server
+modified: '2026-09-05'
 name: CloudBees
 nav: Providers
 network: true
-overview: 'CloudBees publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Computer API, CreateItem API, Job API, and 4 more. Tagged areas include CI/CD, Continuous Delivery, Continuous Integration, DevOps, and Feature Flags.
+overview: 'CloudBees publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Unify Platform API, Computer API, CreateItem API, and 5 more. Tagged areas include CI/CD, Continuous Delivery, Continuous Integration, DevOps, and Feature Flags.
 
 
-  The CloudBees catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The CloudBees catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  CloudBees'' developer surface includes authentication, documentation, support, engineering blog, and 11 more developer resources.'
+  CloudBees'' developer surface includes authentication, documentation, support, engineering blog, changelog, CLI, API reference, and 39 more developer resources.'
 plans:
 - name: Cloudbees Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: cloudbees-plans-pricing
 random_paper: 5
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Cloudbees Rate Limits
   slug: cloudbees-rate-limits
 rules:
@@ -230,43 +365,51 @@ rules:
     info: 2
     warn: 6
   slug: cloudbees-rules
+scopes:
+- name: Cloudbees Scopes
+  scope_count: 4
+  slug: cloudbees-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 39.6
+  band: exemplar
+  composite: 67.3
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 67.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.0
+    artifact_dirs: 27
+    catalog_earned: 72.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 43.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 27.7
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
-    contract_governance: 54.5
-    contract_quality: 47.3
-    developer_ergonomics: 35.7
-    discoverability: 59.3
-    governance: 54.5
-    operational_transparency: 26.3
+    access_clarity: 55.3
+    commercial_clarity: 55.3
+    contract_governance: 72.7
+    contract_quality: 58.1
+    developer_ergonomics: 75.6
+    discoverability: 72.2
+    governance: 72.7
+    operational_transparency: 81.6
   previous_composite: 39.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
-      callable: 0.0
+      callable: 22.2
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 9
+    mcp: first-party
+    skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/screenshots/cloudbees-2026-06-20T174542.png
 security:
 - kind: authentication
   name: Cloudbees Authentication
   slug: cloudbees-authentication
-  summary_line: http · 1 scheme
+  summary_line: apiKey/http/oauth2/openIdConnect · 2 schemes
 - kind: domain-security
   name: Cloudbees Domain Security
   slug: cloudbees-domain-security

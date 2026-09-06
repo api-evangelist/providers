@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 9
 apis:
 - description: 'HAL-based REST API for Biblos-e Archivo, UAM''s institutional repository, running DSpace 7.6.5. Anonymously readable, HATEOAS-navigable access to communities, collections, items, bitstreams, discovery '
@@ -186,6 +186,14 @@ score:
     discoverability: 74.1
     governance: 0.0
     operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - spain
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
   previous_composite: 25.9
   provenance:
     conformance: first-party
@@ -196,7 +204,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png
 security:

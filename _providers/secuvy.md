@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: AI-driven data security and privacy platform delivering data discovery, classification, DSPM, privacy automation, and AI governance through more than 250 connectors. The platform offers an open API fr
@@ -108,7 +108,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 14.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secuvy/refs/heads/main/screenshots/secuvy-2026-06-20T193629.png
 security:

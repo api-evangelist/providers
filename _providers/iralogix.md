@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The publicly reachable OpenID Connect / OAuth 2.0 authorization server that fronts the IRALOGIX partner platform. It publishes a full OIDC discovery document at /.well-known/openid-configuration and a
@@ -149,7 +149,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iralogix/refs/heads/main/screenshots/iralogix-2026-08-07T170914.png
 security:

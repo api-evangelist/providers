@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'ProgrammableWeb maintained the world''s largest directory of open web APIs, mashups, and developer tools. The directory documented over 19,000 APIs and served as the primary resource for API discovery '
@@ -125,7 +125,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 10.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programmableweb/refs/heads/main/screenshots/programmableweb-2026-06-20T192145.png
 security:

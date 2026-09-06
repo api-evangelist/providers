@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -109,7 +109,24 @@ apis:
   description: Product component version discovery.
   name: D2L Brightspace Versions API
   slug: brightspace-versions-api
-artifact_total: 35
+- description: The core Learning Platform API provides access to organizational units, user accounts, enrollments, roles, permissions, and configuration variables. Manage courses, departments, semesters, and the ful
+  name: Brightspace Learning Platform (LP) API
+  slug: brightspace-lp-api
+- description: The Learning Environment API provides access to course content, dropbox folders, grade objects, grade values, quizzes, surveys, discussions, forums, checklists, rubrics, release conditions, and intell
+  name: Brightspace Learning Environment (LE) API
+  slug: brightspace-le-api
+- description: The ePortfolio API enables management of ePortfolio objects including artifacts, reflections, collections, activities, presentations, and objectives. Supports sharing, subscriptions, invites, comments
+  name: Brightspace ePortfolio API
+  slug: brightspace-eportfolio-api
+- baseURL: https://{yourBrightspaceHost}/d2l/api/lp
+  baseurl_source: declared
+  description: The Data Hub API provides access to bulk data export functionality, enabling institutions to extract large datasets of users, enrollments, grades, activity, and content for analytics, reporting, and d
+  name: Brightspace Data Hub (BDS) API
+  slug: brightspace-data-hub-api
+- description: The IPSIS API provides a standardized interface for Student Information System (SIS) integration with Brightspace, enabling automated provisioning and management of courses, sections, users, enrollmen
+  name: Brightspace IPSIS (SIS Integration) API
+  slug: brightspace-ipsis-api
+artifact_total: 41
 collections:
 - collection_type: open
   name: API Collection
@@ -215,13 +232,17 @@ finops:
 - name: Brightspace Finops
   service_category: Education Technology and Learning Management
   slug: brightspace-finops
+graphqls:
+- description: 'specificationVersion: "0.1.0"'
+  name: D2L Brightspace GraphQL Schema
+  slug: d2l-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brightspace.png
 layout: provider
 modified: '2026-07-03'
 name: D2L Brightspace
 nav: Providers
 network: true
-overview: 'D2L Brightspace publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendar API, Content API, and 10 more. Tagged areas include LMS, Learning Management System, EdTech, Education, and Valence.
+overview: 'D2L Brightspace publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Assignments API, Calendar API, Content API, and 12 more. Tagged areas include LMS, Learning Management System, EdTech, Education, and Valence.
 
 
   D2L Brightspace''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
@@ -243,13 +264,13 @@ score:
   band: developing
   composite: 40.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: 0.0
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -259,7 +280,7 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 41.5
+  previous_composite: 40.7
   provenance:
     agentic_access: derived
     contracts:
@@ -274,7 +295,7 @@ score:
     regime_id: education
     score: 40.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/screenshots/brightspace-2026-07-25T203856.png
 security:

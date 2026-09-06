@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://centrexion.com/wp-json
@@ -257,7 +257,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centrexion-therapeutics/refs/heads/main/screenshots/centrexion-therapeutics-2026-09-02T145027.png
 security:

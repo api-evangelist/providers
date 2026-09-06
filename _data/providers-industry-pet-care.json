@@ -1,6 +1,6 @@
 {
- "total": 34,
- "shown": 34,
+ "total": 35,
+ "shown": 35,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -74,7 +74,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -137,7 +137,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -188,7 +188,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -247,7 +247,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -292,7 +292,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -344,7 +344,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -389,7 +389,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -441,7 +441,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -486,7 +486,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -531,7 +531,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -583,7 +583,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -628,7 +628,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -673,7 +673,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -725,7 +725,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -770,7 +770,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -814,7 +814,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -849,8 +849,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
+   "count": 18,
+   "shown": 18,
    "providers": [
     {
      "name": "Smalls",
@@ -870,7 +870,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -915,7 +915,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -960,7 +960,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1005,7 +1005,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1057,7 +1057,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1092,6 +1092,50 @@
      "rank": 22
     },
     {
+     "name": "21gram",
+     "slug": "21gram",
+     "description": "21gram (21그램) is a South Korean pet end-of-life care company that operates pet funeral homes and an online booking and consultation platform for pet funerals. Founded in Seoul and led by Kwon Shin-gu, it began as an online brokerage letting owners find licensed pet funeral homes nationwide and book a service with 24-hour consultation, reservation and payment, then moved into operating its own facilities — acquiring Korea's first pet funeral hall, Arongi Cheonguk, in Gwangju, Gyeonggi Province — and now runs branches including Gwangju, Namyangju and Cheonan plus a large charnel house. Its consumer surface covers funeral procedures and pricing, cremation, memorial jewelry, hearse and non-attending funeral options, urns, flowers, temporary storage and scattering, and grief-support classes. It is venture-backed and trades on secondary markets. It publishes no developer program, API documentation, or machine-readable API contract; its website runs on the hosted imweb site builder.",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
      "name": "Felmo",
      "slug": "felmo",
      "description": "felmo (felmo GmbH) is a mobile veterinary practice (mobile Tierarztpraxis) headquartered in Berlin, Germany that brings licensed veterinarians directly to pet owners' homes for dogs and cats. Founded in 2019 by CEO Philip Trockels, felmo operates across Berlin, Hamburg, Munich, Cologne, Frankfurt, Stuttgart, Düsseldorf and 25+ additional German cities, and has treated 300,000+ animals with 8,000+ home visits per month via 140+ mobile vets. Services include preventive care and consultations, examinations and diagnostics, laboratory and imaging, surgical procedures (including a fully-equipped mobile operating vehicle / OP-Wagen), dental medicine and holistic pet care, billed per the German veterinary fee schedule (GOT). Customers book appointments, access medical records and lab results, receive reminders, and message support through the felmo iOS and Android app. felmo is backed by HV Capital and additional venture investors. No public developer API or documentation surface was found during enrichment; this profile captures the company's public identity and web properties.",
@@ -1109,59 +1153,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 10.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Petual",
-     "slug": "petual",
-     "description": "Petual is a direct-to-consumer pet wellness brand offering functional soft chews for dogs. The company sells six formulas — Thrive (daily longevity), Steady (calm & stress), Nourish (digestive & gut health), Soothe (skin & allergy), Spring (mobility & joint), and Lean (healthy weight & metabolism) — each an apothecary-style canister of 90 chews (9.5 oz) positioned as a daily ritual for a longer, healthier canine life. Backed by a16z and Cowboy Ventures. Petual publishes a consumer storefront only — no public API, developer portal, documentation, SDKs, OpenAPI, well-known discovery, or agent surface was found. This profile tracks the company as a network lead and will be enriched if and when a developer program appears.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/petual/refs/heads/main/screenshots/petual-2026-09-02T151122.png",
-     "score": 8.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1196,11 +1188,11 @@
      "rank": 24
     },
     {
-     "name": "ilovewoof",
-     "slug": "ilovewoof",
-     "description": "ilovewoof (ilovewoof.com) is a UK-focused pet-care and lifestyle content publication covering companion animals and wildlife. It publishes pet-care guides, behavioral insights, health articles, rescue stories, and animal-world news across four sections — Cats, Dogs, News, and Other pets (small and exotic animals) — with health and medical content reviewed by licensed veterinary professionals, and offers a weekly email newsletter. It is an editorial content site, not an API provider; no public API, developer documentation, SDKs, or machine-readable interface was found during enrichment. Surfaced as a qiming portfolio lead and profiled in the API Evangelist network for completeness.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ilovewoof/refs/heads/main/screenshots/ilovewoof-2026-07-25T222114.png",
-     "score": 8.5,
+     "name": "Petual",
+     "slug": "petual",
+     "description": "Petual is a direct-to-consumer pet wellness brand offering functional soft chews for dogs. The company sells six formulas — Thrive (daily longevity), Steady (calm & stress), Nourish (digestive & gut health), Soothe (skin & allergy), Spring (mobility & joint), and Lean (healthy weight & metabolism) — each an apothecary-style canister of 90 chews (9.5 oz) positioned as a daily ritual for a longer, healthier canine life. Backed by a16z and Cowboy Ventures. Petual publishes a consumer storefront only — no public API, developer portal, documentation, SDKs, OpenAPI, well-known discovery, or agent surface was found. This profile tracks the company as a network lead and will be enriched if and when a developer program appears.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/petual/refs/heads/main/screenshots/petual-2026-09-02T151122.png",
+     "score": 8.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1209,12 +1201,19 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 10.0,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1241,11 +1240,11 @@
      "rank": 25
     },
     {
-     "name": "Care.com",
-     "slug": "carecom",
-     "description": "Care.com is a two-sided online marketplace that connects families with caregivers across childcare, senior care, pet care, housekeeping, tutoring, and special-needs care, plus a \"Care for Business\" employer benefit used by companies such as Google, Starbucks, and Best Buy. Founded in 2007 by Sheila Lirio Marcelo, the company went public on the NYSE (CRCM) in 2014 and was acquired by IAC (IAC Inc.) in February 2020 for approximately $500 million, taking it private. Care.com is consumer- and enterprise-facing and does NOT publish a documented public developer API - there is no developer portal, no public API reference, and no self-service API keys. Its GitHub organization (github.com/caredotcom) contains only internal DevOps/infra tooling, not customer-facing API libraries. The only partner-facing programmatic surface is a private job-import integration inside Care.com Recruiting Solutions / Care for Business, used to sync job postings from an employer ATS; it is provisioned through a partnership agreement rather than openly documented. Note - Care.com is frequently confused with Caring.com (a separate senior-care directory owned by Caring, Inc. that DOES publish a JSON API at docs.caring.com); this entry is about care.com only. Access to the marketplace itself is via paid Basic and Premium memberships; there is no published API pricing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carecom/refs/heads/main/screenshots/carecom-2026-07-25T204535.png",
-     "score": 6.3,
+     "name": "ilovewoof",
+     "slug": "ilovewoof",
+     "description": "ilovewoof (ilovewoof.com) is a UK-focused pet-care and lifestyle content publication covering companion animals and wildlife. It publishes pet-care guides, behavioral insights, health articles, rescue stories, and animal-world news across four sections — Cats, Dogs, News, and Other pets (small and exotic animals) — with health and medical content reviewed by licensed veterinary professionals, and offers a weekly email newsletter. It is an editorial content site, not an API provider; no public API, developer documentation, SDKs, or machine-readable interface was found during enrichment. Surfaced as a qiming portfolio lead and profiled in the API Evangelist network for completeness.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ilovewoof/refs/heads/main/screenshots/ilovewoof-2026-07-25T222114.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1253,12 +1252,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1286,10 +1285,11 @@
      "rank": 26
     },
     {
-     "name": "The Farmer&#8217;s Dog",
-     "slug": "the-farmer-and-8217-s-dog",
-     "description": "The Farmer&#8217;s Dog is a New York-based direct-to-consumer pet health company that makes fresh, human-grade dog food. Founded in 2014 by Brett Podolsky and Jonathan Regev, it builds personalized meal plans from each dog's profile and delivers pre-portioned, gently cooked meals on a recurring subscription, shipping nationwide across the United States from its own food-safety-standard kitchens. The company is a consumer-brand portfolio company of Insight Partners. It operates a public marketing/commerce website and a GitHub organization (github.com/farmersdog) of internal tooling, but does not publish a public developer API; this profile was surfaced as a portfolio lead and enriched with the honest finding that there is no public API surface.",
-     "score": 5.3,
+     "name": "Care.com",
+     "slug": "carecom",
+     "description": "Care.com is a two-sided online marketplace that connects families with caregivers across childcare, senior care, pet care, housekeeping, tutoring, and special-needs care, plus a \"Care for Business\" employer benefit used by companies such as Google, Starbucks, and Best Buy. Founded in 2007 by Sheila Lirio Marcelo, the company went public on the NYSE (CRCM) in 2014 and was acquired by IAC (IAC Inc.) in February 2020 for approximately $500 million, taking it private. Care.com is consumer- and enterprise-facing and does NOT publish a documented public developer API - there is no developer portal, no public API reference, and no self-service API keys. Its GitHub organization (github.com/caredotcom) contains only internal DevOps/infra tooling, not customer-facing API libraries. The only partner-facing programmatic surface is a private job-import integration inside Care.com Recruiting Solutions / Care for Business, used to sync job postings from an employer ATS; it is provisioned through a partnership agreement rather than openly documented. Note - Care.com is frequently confused with Caring.com (a separate senior-care directory owned by Caring, Inc. that DOES publish a JSON API at docs.caring.com); this entry is about care.com only. Access to the marketplace itself is via paid Basic and Premium memberships; there is no published API pricing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/carecom/refs/heads/main/screenshots/carecom-2026-07-25T204535.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1298,11 +1298,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1330,11 +1330,10 @@
      "rank": 27
     },
     {
-     "name": "DogVacay",
-     "slug": "dogvacay",
-     "description": "DogVacay was a consumer marketplace for dog boarding, pet sitting, dog walking, and doggy daycare that connected pet owners with a network of vetted, background-checked pet sitters and hosts across the United States and Canada. Founded in 2012 and backed by Andreessen Horowitz (a16z), the company was acquired by and merged into Rover in 2017; the DogVacay brand has since been retired and dogvacay.com now redirects to Rover. No public developer API, developer portal, or API documentation was ever published, so this profile carries company identity only and no API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dogvacay/refs/heads/main/screenshots/dogvacay-2026-07-25T212233.png",
-     "score": 5.0,
+     "name": "The Farmer&#8217;s Dog",
+     "slug": "the-farmer-and-8217-s-dog",
+     "description": "The Farmer&#8217;s Dog is a New York-based direct-to-consumer pet health company that makes fresh, human-grade dog food. Founded in 2014 by Brett Podolsky and Jonathan Regev, it builds personalized meal plans from each dog's profile and delivers pre-portioned, gently cooked meals on a recurring subscription, shipping nationwide across the United States from its own food-safety-standard kitchens. The company is a consumer-brand portfolio company of Insight Partners. It operates a public marketing/commerce website and a GitHub organization (github.com/farmersdog) of internal tooling, but does not publish a public developer API; this profile was surfaced as a portfolio lead and enriched with the honest finding that there is no public API surface.",
+     "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -1342,12 +1341,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1375,10 +1374,10 @@
      "rank": 28
     },
     {
-     "name": "Itch",
-     "slug": "itch",
-     "description": "Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a recurring schedule, alongside pet health guidance and related care products. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass no public developer portal, API documentation, or machine-readable API specification could be found; the consumer website sits behind bot protection, so this profile carries provider identity plus a probed domain-security posture rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/screenshots/itch-2026-07-25T222959.png",
+     "name": "DogVacay",
+     "slug": "dogvacay",
+     "description": "DogVacay was a consumer marketplace for dog boarding, pet sitting, dog walking, and doggy daycare that connected pet owners with a network of vetted, background-checked pet sitters and hosts across the United States and Canada. Founded in 2012 and backed by Andreessen Horowitz (a16z), the company was acquired by and merged into Rover in 2017; the DogVacay brand has since been retired and dogvacay.com now redirects to Rover. No public developer API, developer portal, or API documentation was ever published, so this profile carries company identity only and no API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dogvacay/refs/heads/main/screenshots/dogvacay-2026-07-25T212233.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1392,7 +1391,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1420,10 +1419,10 @@
      "rank": 29
     },
     {
-     "name": "Pawsh",
-     "slug": "pawsh",
-     "description": "Pawsh is a consumer marketplace that connects pet owners with top-rated local dog and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or documentation surface — it is a consumer-facing booking platform with no programmable interface to catalog.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/screenshots/pawsh-2026-08-07T191615.png",
+     "name": "Itch",
+     "slug": "itch",
+     "description": "Itch is a UK direct-to-consumer pet wellness brand, backed by Seedcamp, offering a subscription service that delivers vet-approved flea, tick and worm treatments to pet owners on a recurring schedule, alongside pet health guidance and related care products. It was surfaced as a Seedcamp portfolio company and added to the API Evangelist network for enrichment. As of this pass no public developer portal, API documentation, or machine-readable API specification could be found; the consumer website sits behind bot protection, so this profile carries provider identity plus a probed domain-security posture rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/itch/refs/heads/main/screenshots/itch-2026-07-25T222959.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1437,7 +1436,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1465,10 +1464,10 @@
      "rank": 30
     },
     {
-     "name": "TellTail",
-     "slug": "telltail",
-     "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telltail/refs/heads/main/screenshots/telltail-2026-09-02T162746.png",
+     "name": "Pawsh",
+     "slug": "pawsh",
+     "description": "Pawsh is a consumer marketplace that connects pet owners with top-rated local dog and cat groomers. Pet owners browse groomer profiles, read real reviews, compare transparent pricing, and book grooming appointments online in minutes. Backed by 500 Global, Pawsh runs as a Firebase-backed web application at pawsh.app and serves 2,000+ pet owners. As of this enrichment pass the company publishes no public API, developer portal, SDKs, or documentation surface — it is a consumer-facing booking platform with no programmable interface to catalog.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawsh/refs/heads/main/screenshots/pawsh-2026-08-07T191615.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1482,7 +1481,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1510,6 +1509,51 @@
      "rank": 31
     },
     {
+     "name": "TellTail",
+     "slug": "telltail",
+     "description": "TellTail was a community-first platform providing community, education, and business support to dog breeders, connecting certified breeders with families seeking puppies. Backed by a $3.4M seed round led by General Catalyst (April 2022, with Scribble Ventures and Companion Fund). Surfaced as a General Catalyst portfolio company and added to the API Evangelist network. The company has since ceased operations (\"TellTail is closing its doors\"); it operated a consumer marketplace and community product with no public developer API, documentation, SDK, or event surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telltail/refs/heads/main/screenshots/telltail-2026-09-02T162746.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 32
+    },
+    {
      "name": "Petcube",
      "slug": "petcube",
      "description": "Petcube is a pet-technology company (a Y Combinator alum) that makes interactive Wi-Fi pet cameras and a companion mobile app for remote pet care. Its consumer hardware line includes the Petcube Cam, Bites treat-dispensing camera, and Play laser camera, offering HD video, night vision, two-way audio, motion and sound alerts, and app-controlled treat tossing and play. Petcube also sells the Care subscription (cloud video history, extended alerts) and Online Vet / Emergency Fund telehealth services. As of this enrichment pass Petcube exposes no public developer API, developer portal, or documented integration surface — the primary interface is the consumer iOS/Android app tied to its private cloud backend. This profile is maintained in the API Evangelist network as a company record.",
@@ -1527,7 +1571,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1559,7 +1603,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Elanco Animal Health",
@@ -1579,7 +1623,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,
@@ -1608,7 +1652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Patterson Companies",
@@ -1628,7 +1672,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1660,7 +1704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     }
    ]
   }

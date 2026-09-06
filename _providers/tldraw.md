@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - description: The tldraw SDK is a React component library for embedding an infinite canvas with drawing tools, shapes, text, arrows, selection, accessibility, and theming. Used in production by Google, Shopify, Cli
@@ -155,7 +155,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tldraw/refs/heads/main/screenshots/tldraw-2026-06-20T195423.png
 security:

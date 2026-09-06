@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 5
 apis:
 - description: Core Spark functionality including RDDs, SparkContext, and basic operations.
@@ -148,7 +148,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyspark/refs/heads/main/screenshots/pyspark-2026-06-20T192331.png
 security:

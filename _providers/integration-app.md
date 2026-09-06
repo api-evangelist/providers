@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -302,7 +302,7 @@ rules:
   slug: integration-app-rules
 score:
   band: developing
-  composite: 40.8
+  composite: 41.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 46.0
@@ -310,7 +310,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.1
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -319,7 +319,7 @@ score:
     developer_ergonomics: 40.5
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 13.2
+    operational_transparency: 21.1
   previous_composite: 40.8
   provenance:
     agentic_access: derived
@@ -329,7 +329,7 @@ score:
       marker_coverage: 0.0
       total: 15
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-app/refs/heads/main/screenshots/integration-app-2026-06-20T183430.png
 security:

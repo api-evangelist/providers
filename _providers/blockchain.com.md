@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -126,7 +126,47 @@ apis:
 - description: 'Partner API for embedding Blockchain.com crypto purchases. Covers authentication, eligibility (supported currencies / regions), quotes (pricing for crypto transactions), and order state. Rate-limited '
   name: Blockchain.com Pay Partner API
   slug: blockchaincom-pay-partner-api
-artifact_total: 38
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin address summaries and unspent outputs.
+  name: Blockchain.com Addresses API
+  slug: blockchain-addresses-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin block lookups and the latest block.
+  name: Blockchain.com Blocks API
+  slug: blockchain-blocks-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Historical time-series datasets for Bitcoin network metrics.
+  name: Blockchain.com Charts API
+  slug: blockchain-charts-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin exchange rates and fiat conversion.
+  name: Blockchain.com Market Data API
+  slug: blockchain-market-data-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Simple network metrics — difficulty, block height, supply, ETA, averages.
+  name: Blockchain.com Network API
+  slug: blockchain-network-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Mining pool distribution.
+  name: Blockchain.com Pools API
+  slug: blockchain-pools-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Real-time blockchain statistics.
+  name: Blockchain.com Stats API
+  slug: blockchain-stats-api
+- baseURL: https://blockchain.info
+  baseurl_source: declared
+  description: Bitcoin transaction lookups.
+  name: Blockchain.com Transactions API
+  slug: blockchain-transactions-api
+artifact_total: 46
 asyncapis:
 - description: ''
   name: Blockchain.Com Event Surface
@@ -323,7 +363,7 @@ modified: '2026-08-02'
 name: Blockchain.com
 nav: Providers
 network: true
-overview: 'Blockchain.com publishes 11 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 8 more. Tagged areas include Cryptocurrency, Bitcoin, Blockchain, Exchange, and Trading.
+overview: 'Blockchain.com publishes 19 APIs on the [APIs.io](https://apis.io/) network, including NFT Market API, Eligibility API, Nft API, and 16 more. Tagged areas include Cryptocurrency, Bitcoin, Blockchain, Exchange, and Trading.
 
 
   The Blockchain.com catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -341,8 +381,8 @@ scopes:
   slug: blockchain.com-scopes
   summary_line: 2 scopes
 score:
-  band: strong
-  composite: 57.0
+  band: developing
+  composite: 53.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 54.0
@@ -350,12 +390,12 @@ score:
     catalog_gap: 61.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -3.8
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 4.5
-    contract_quality: 57.6
+    contract_quality: 42.4
     developer_ergonomics: 66.1
     discoverability: 81.5
     governance: 4.5
@@ -366,9 +406,9 @@ score:
     conformance: derived
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      derived: 8
+      marker_coverage: 47.1
+      total: 17
     mcp: derived
     skills: derived
   regulatory:
@@ -378,7 +418,7 @@ score:
     regime_id: payments
     score: 71.9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchain.com/refs/heads/main/screenshots/blockchain.com-2026-08-07T162627.png
 security:

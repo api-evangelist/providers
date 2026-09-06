@@ -20,21 +20,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.3
-  scored_at: '2026-09-04'
+  score: 23.6
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -59,7 +59,15 @@ apis:
   description: Operations for publishing, retrieving, and listing CloudWatch metrics
   name: Amazon CloudWatch Metrics API
   slug: amazon-cloudwatch-metrics-api
-artifact_total: 65
+- description: Query API for publishing and retrieving metrics, managing alarms, and configuring dashboards in Amazon CloudWatch. Requests are authenticated with AWS Signature Version 4 (SigV4) using AWS access keys
+  name: Amazon CloudWatch API
+  slug: monitoring-api
+- baseURL: https://monitoring.us-east-1.amazonaws.com
+  baseurl_source: declared
+  description: The Amazon CloudWatch API API from Amazon CloudWatch — 1 operation(s) for amazon cloudwatch api.
+  name: Amazon CloudWatch Amazon CloudWatch API API
+  slug: aws-cloudwatch-amazon-cloudwatch-api-api
+artifact_total: 67
 collections:
 - collection_type: postman
   name: Amazon CloudWatch Alarms API
@@ -340,7 +348,7 @@ modified: '2026-06-20'
 name: Amazon CloudWatch
 nav: Providers
 network: true
-overview: 'Amazon CloudWatch publishes 3 APIs on the [APIs.io](https://apis.io/) network: Alarms API, Dashboards API, and Metrics API. Tagged areas include CloudWatch, Monitoring, Observability, Metrics, and Logs.
+overview: 'Amazon CloudWatch publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Alarms API, Dashboards API, Metrics API, and 1 more. Tagged areas include CloudWatch, Monitoring, Observability, Metrics, and Logs.
 
 
   The Amazon CloudWatch catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -372,7 +380,7 @@ rules:
   slug: amazon-cloudwatch-spectral-rules
 score:
   band: strong
-  composite: 58.4
+  composite: 58.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 67.5
@@ -380,17 +388,17 @@ score:
     catalog_gap: 47.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.8
+  delta: -0.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 33.3
-    contract_quality: 71.4
+    contract_quality: 70.7
     developer_ergonomics: 72.6
     discoverability: 75.9
     governance: 33.3
     operational_transparency: 18.4
-  previous_composite: 59.2
+  previous_composite: 58.4
   provenance:
     agentic_access: derived
     conformance: derived
@@ -398,10 +406,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 4
     mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudwatch/refs/heads/main/screenshots/amazon-cloudwatch-2026-07-25T195951.png
 security:

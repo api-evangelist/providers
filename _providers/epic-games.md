@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -104,7 +104,37 @@ apis:
   description: The TitleStorage API from Epic Games — 1 operation(s) for titlestorage.
   name: Epic Games TitleStorage API
   slug: epic-games-titlestorage-api
-artifact_total: 34
+- description: 'Epic Account Services (EAS) provides authentication and identity for players using Epic Games accounts. Supports OAuth 2.0 authorization code, device, and exchange code flows, account info retrieval, '
+  name: Epic Account Services API
+  slug: epic-account-services
+- description: The EOS Achievements API enables developers to define, unlock, and query player achievements across platforms. Supports definitions, player progress, and unlocking via the EOS SDK or Web API.
+  name: Epic Online Services Achievements API
+  slug: eos-achievements
+- description: The EOS Leaderboards API provides global and per-friend leaderboards backed by player stats. Developers configure leaderboards in the developer portal and query rankings via the EOS SDK or Web API.
+  name: Epic Online Services Leaderboards API
+  slug: eos-leaderboards
+- description: The EOS Stats API tracks player statistics over time, providing the data source that powers leaderboards and achievements. Supports ingest, increment, and query operations on stat values.
+  name: Epic Online Services Stats API
+  slug: eos-stats
+- description: The EOS Friends API exposes a player's Epic Games friends list, allowing games to surface social presence, invitations, and party formation across platforms.
+  name: Epic Online Services Friends API
+  slug: eos-friends
+- description: The EOS Ecom (Ecommerce) Interface API exposes the player's Epic Games Store entitlements, ownership, catalog offers, and checkout flows. Used by titles published on the Epic Games Store to verify pur
+  name: Epic Online Services Ecom API
+  slug: eos-ecom
+- description: The EOS Lobby and Sessions APIs provide matchmaking primitives for multiplayer games, including lobby creation, joining, attribute filtering, and dedicated session management.
+  name: Epic Online Services Lobby and Sessions API
+  slug: eos-lobby-sessions
+- description: The EOS Player Data Storage and Title Storage APIs persist per-player save data and shared title-level configuration in the cloud, with cross-platform availability and versioning.
+  name: Epic Online Services Player Data Storage API
+  slug: eos-player-data-storage
+- description: Easy Anti-Cheat (EAC) integrated into Epic Online Services provides kernel and user-mode anti-cheat protections, server-side validation, and reporting tooling for cross-platform multiplayer titles.
+  name: Epic Online Services Anti-Cheat API
+  slug: eos-anti-cheat
+- description: The EOS Voice Interface delivers in-game voice chat using Vivox backend infrastructure, with positional audio, room management, and moderation controls across platforms.
+  name: Epic Online Services Voice API
+  slug: eos-voice
+artifact_total: 44
 collections:
 - collection_type: open
   name: API Collection
@@ -280,7 +310,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 47.9
+  composite: 47.5
   coverage:
     artifact_dirs: 12
     catalog_earned: 56.0
@@ -288,7 +318,7 @@ score:
     catalog_gap: 59.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -297,7 +327,7 @@ score:
     developer_ergonomics: 64.3
     discoverability: 75.9
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 23.7
   previous_composite: 47.9
   provenance:
     agentic_access: derived
@@ -307,7 +337,7 @@ score:
       marker_coverage: 0.0
       total: 9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/screenshots/epic-games-2026-06-20T180759.png
 security:

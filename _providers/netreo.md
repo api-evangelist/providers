@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The Netreo REST API provides programmatic access to the Netreo monitoring platform, including endpoints for devices, dashboards, alerts, incidents, business services, and reporting. The API list catal
@@ -112,7 +112,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netreo/refs/heads/main/screenshots/netreo-2026-06-20T190203.png
 security:

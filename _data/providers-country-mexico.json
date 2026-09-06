@@ -1,6 +1,6 @@
 {
- "total": 121,
- "shown": 121,
+ "total": 120,
+ "shown": 120,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -144,7 +144,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -196,7 +196,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -248,7 +248,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -276,6 +276,51 @@
      "rank": 5
     },
     {
+     "name": "Palenca (Vech)",
+     "slug": "palenca-vech",
+     "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png",
+     "score": 46.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 47.1,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 50.6,
+      "commercial_clarity": 43.4,
+      "access_clarity": 43.4
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 30.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    },
+    {
      "name": "99 Minutos",
      "slug": "99-minutos",
      "description": "99minutos (99 Minutos) is a Latin American last-mile logistics and delivery platform serving ecommerce businesses across Mexico, Chile, Colombia and Peru. It offers express parcel delivery (envios99), full-truck-load and drayage freight (freight99), fulfillment and warehousing (fulfill99) and custom logistics operations (tailor99), backed by a network of pickup/delivery points (Punto99). Its public REST API v3 lets developers resolve addresses to reusable location ids, quote shipping rates and coverage, create/confirm orders (including multibox), print PDF and ZPL labels, track shipments and subscribe to real-time status webhooks. Authentication is OAuth2 client-credentials that returns a bearer JWT. Surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline from the provider's own developer portal.",
@@ -293,7 +338,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -306,51 +351,6 @@
       "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Palenca (Vech)",
-     "slug": "palenca-vech",
-     "description": "Palenca is a Latin American income and employment verification API (headquartered in Mexico, backed by 500 Global). Through a single REST API and an embeddable Widget, workers securely connect their gig-economy platform (Uber, Rappi, DiDi, inDriver, iFood, PedidosYa) and formal-economy sources (IMSS, ISSSTE, CDT/Carteira de Trabalho) to share verified income, earnings, employment history, and account data with fintechs, banks, and lenders. Palenca serves Mexico and Brazil, exposes users, accounts, logins, earnings, consents, insights, and webhooks resources, and ships a JS/CDN/ES6 widget and mobile SDKs for end-user account linking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palenca-vech/refs/heads/main/screenshots/palenca-vech-2026-08-07T191315.png",
-     "score": 45.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 47.1,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 50.6,
-      "commercial_clarity": 43.4,
-      "access_clarity": 43.4
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 30.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
@@ -383,7 +383,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
@@ -428,7 +428,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -480,7 +480,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -532,7 +532,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -595,7 +595,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -647,7 +647,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -699,7 +699,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -751,7 +751,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -803,7 +803,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -848,7 +848,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -880,7 +880,7 @@
      "slug": "tecnologico-de-monterrey",
      "description": "Tecnológico de Monterrey (ITESM) is a private Mexican multi-campus university system headquartered in Monterrey, Nuevo León, ranked #185 in the QS World University Rankings 2025. Its programmable footprint is real but narrow, and it is entirely infrastructure the institution runs rather than software it wrote. Two research surfaces are live and public: a Dataverse 5.9 research data repository at datahub.tec.mx and a DSpace 8 institutional repository (RITEC) at repositorio.tec.mx holding 86,310 works, each with a working OAI-PMH 2.0 endpoint. Its strongest institution-operated machine-readable surface is identity: two SAML 2.0 identity providers on its own domains (fs.itesm.mx AD FS, amfs.tec.mx NetIQ Access Manager) plus a Shibboleth Service Provider in front of RITEC. It is a registered DataCite consortium organization (ITESM, prefix 10.57687, three repositories), a Crossref member (25649, prefix 10.46530) and is registered in ROR as 03ayjn504. What it does NOT have is a working public API programme: the gated institutional API developer portal formerly at api.tec.mx no longer resolves in DNS, and no OpenAPI in this profile is authored by the institution — the repository contracts are generated by the Dataverse and DSpace software and are recorded here as deployments, not as the institution's engineering.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png",
-     "score": 31.7,
+     "score": 31.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -888,12 +888,12 @@
       "contract_quality": 24.7,
       "governance": 9.8,
       "contract_governance": 9.8,
-      "operational_transparency": 26.3,
+      "operational_transparency": 23.7,
       "developer_ergonomics": 11.9,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -945,7 +945,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -997,7 +997,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1049,7 +1049,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1111,7 +1111,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1163,7 +1163,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1208,7 +1208,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1259,7 +1259,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1311,7 +1311,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1363,7 +1363,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1415,7 +1415,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1467,7 +1467,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1519,7 +1519,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1564,7 +1564,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1616,7 +1616,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1651,6 +1651,58 @@
      "rank": 32
     },
     {
+     "name": "Mattilda",
+     "slug": "mattilda",
+     "description": "Mattilda is a financial management platform for private educational institutions across Latin America, operating in Mexico, Colombia, and Ecuador. It automates tuition collection and payment processing, offers tuition advances that guarantee schools receive full monthly tuition on the first day regardless of family payment rates, and provides academic operations and admissions tools under its Algebraix product line. Families can pay through multiple channels, including WhatsApp. Mattilda operates under the oversight of Mexico's financial authorities CNBV and CONDUSEF and is backed by QED Investors. Mattilda does not currently expose a public developer API, SDKs, or documentation portal; this profile captures the company's public identity, status page, and Vanta-hosted trust center.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mattilda/refs/heads/main/screenshots/mattilda-2026-07-25T230433.png",
+     "score": 14.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 35.5,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 35.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 33
+    },
+    {
      "name": "Sofia",
      "slug": "sofia",
      "description": "Sofía is a 100% Mexican digital health insurance company that modernizes traditional medical coverage for enterprises, individuals, and families. Its plans combine zero-deductible major and minor medical care, preventive care with an assigned primary-care physician, and unlimited no-cost video consultations, all managed through a mobile app and an HR administrative portal. Sofía operates its own integrated medical network (SofíaMed) of hospitals and specialists, offers add-ons such as maternity, mental health, dental, and international coverage, and reimburses claims in an average of five business days. Backed by Ribbit Capital, Sofía positions insurance as a digital-first, member-centric health experience rather than a paper policy.",
@@ -1668,7 +1720,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1700,7 +1752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Expansive",
@@ -1720,7 +1772,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1745,7 +1797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Lamudi",
@@ -1765,7 +1817,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -1790,7 +1842,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Terapify",
@@ -1810,7 +1862,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1842,7 +1894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Cometa",
@@ -1862,65 +1914,13 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
       "score": 25.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Mattilda",
-     "slug": "mattilda",
-     "description": "Mattilda is a financial management platform for private educational institutions across Latin America, operating in Mexico, Colombia, and Ecuador. It automates tuition collection and payment processing, offers tuition advances that guarantee schools receive full monthly tuition on the first day regardless of family payment rates, and provides academic operations and admissions tools under its Algebraix product line. Families can pay through multiple channels, including WhatsApp. Mattilda operates under the oversight of Mexico's financial authorities CNBV and CONDUSEF and is backed by QED Investors. Mattilda does not currently expose a public developer API, SDKs, or documentation portal; this profile captures the company's public identity, status page, and Vanta-hosted trust center.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mattilda/refs/heads/main/screenshots/mattilda-2026-07-25T230433.png",
-     "score": 13.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 35.5,
-      "access_clarity": 35.5
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 35.2,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -1966,7 +1966,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2011,7 +2011,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2063,7 +2063,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2108,7 +2108,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2153,7 +2153,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2205,7 +2205,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2257,7 +2257,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2309,7 +2309,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
@@ -2354,7 +2354,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2399,7 +2399,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2451,7 +2451,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2496,7 +2496,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2548,7 +2548,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2593,7 +2593,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2645,7 +2645,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2696,7 +2696,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2748,7 +2748,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2800,7 +2800,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2852,7 +2852,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -2904,7 +2904,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2949,7 +2949,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2983,8 +2983,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 62,
-   "shown": 62,
+   "count": 61,
+   "shown": 61,
    "providers": [
     {
      "name": "Aviva",
@@ -3004,7 +3004,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3049,7 +3049,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3093,7 +3093,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3145,7 +3145,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3190,7 +3190,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3235,7 +3235,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3280,7 +3280,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3325,7 +3325,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3370,7 +3370,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3415,7 +3415,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3460,7 +3460,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3512,7 +3512,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3564,7 +3564,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3616,7 +3616,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3668,7 +3668,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3720,7 +3720,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3765,7 +3765,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3817,7 +3817,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3869,7 +3869,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -3921,7 +3921,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3966,7 +3966,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4018,7 +4018,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4063,7 +4063,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4115,7 +4115,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4167,7 +4167,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4219,7 +4219,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4271,7 +4271,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4316,7 +4316,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4360,7 +4360,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4405,7 +4405,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4457,7 +4457,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4509,7 +4509,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4553,7 +4553,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4605,7 +4605,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4650,7 +4650,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4694,7 +4694,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4739,7 +4739,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -4774,11 +4774,10 @@
      "rank": 96
     },
     {
-     "name": "Cornershop by Uber",
-     "slug": "cornershop",
-     "description": "Cornershop is an on-demand grocery and essentials delivery service founded in 2015 in Chile by Oskar Hjertonsson, Daniel Undurraga, and Juan Pablo Cuevas, simultaneously launching in Santiago, Chile and Mexico City, Mexico. The platform connects consumers with personal shoppers who pick and deliver groceries, pharmacy items, and other goods from local supermarkets, specialty stores, and big-box retailers. After a 2018 acquisition attempt by Walmart was blocked by Mexican regulators, Uber agreed in October 2019 to acquire majority ownership, completing full acquisition in July 2021 at a reported valuation north of US$3 billion — Chile's first unicorn exit. At its peak Cornershop operated in eight countries across the Americas: Chile, Mexico, Brazil, Colombia, Costa Rica, Peru, Canada, and the United States. Beginning in 2021 Uber merged the Cornershop brand into Uber Eats, migrating the grocery vertical (\"Uber Eats Grocery\") into its main consumer app and progressively shutting down the standalone Cornershop apps and websites. As of 2026 cornershopapp.com and cornershop.io redirect to ubereats.com, the Cornershop LLC GitHub organization (archived October 2024) has zero public repositories, and there is no public developer API, SDK, partner program, or technical documentation under the Cornershop brand — Cornershop survives only as engineering history and as the LatAm backbone of Uber Eats Grocery. Community-built unofficial Python wrappers exist on GitHub but reverse-engineer the consumer mobile app and are not sanctioned by Uber.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cornershop/refs/heads/main/screenshots/cornershop-2026-06-20T175034.png",
-     "score": 5.7,
+     "name": "Scorce",
+     "slug": "scorce",
+     "description": "Scorce is a Mexico-based API aggregation platform that gives businesses a single integration point to connect to multiple Latin American and global identity APIs for customer authentication, KYC (Know Your Customer), digital identity verification, and fraud prevention. The platform lets teams connect in under 24 hours, obtain provider trials, and monitor API performance across providers from one unified dashboard. Founded in 2019 and headquartered in Puebla, Mexico, Scorce is backed by 500 Global, Finnovista, and Tenity.",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4786,12 +4785,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 7.9,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4819,10 +4818,11 @@
      "rank": 97
     },
     {
-     "name": "Kavak",
-     "slug": "kavak",
-     "description": "Kavak is a Mexico-founded digital marketplace for buying, selling, and financing pre-owned cars across Latin America, the Middle East, and Turkey. Founded in 2016 in Mexico City by Carlos Garcia Ottati, Loreanne Garcia Ottati, and Roger Laughlin, Kavak became Mexico's first unicorn in 2020 and reached an $8.7B valuation in 2021 with backing from SoftBank, Sea Ltd, and Founders Fund. The company operates an end-to-end consumer platform that combines an e-commerce site and mobile app, physical hubs, in-house vehicle reconditioning, and a financial-services arm (Kavak Capital, Kuna, and Kavak Credito). Internally, Kavak uses machine learning and proprietary pricing models to value, inspect, and route inventory across markets including Mexico, Argentina, Brazil, Chile, the United Arab Emirates, and Turkey, while sponsoring high-profile partners such as the NFL. Kavak's revenue comes from vehicle sales, financing margins, and after-sales services, and the company does not currently publish a public developer API, SDK, OpenAPI specification, or open-source GitHub organization. Customer-facing integrations are limited to the consumer web and mobile apps and partner financing channels.",
-     "score": 5.5,
+     "name": "Cornershop by Uber",
+     "slug": "cornershop",
+     "description": "Cornershop is an on-demand grocery and essentials delivery service founded in 2015 in Chile by Oskar Hjertonsson, Daniel Undurraga, and Juan Pablo Cuevas, simultaneously launching in Santiago, Chile and Mexico City, Mexico. The platform connects consumers with personal shoppers who pick and deliver groceries, pharmacy items, and other goods from local supermarkets, specialty stores, and big-box retailers. After a 2018 acquisition attempt by Walmart was blocked by Mexican regulators, Uber agreed in October 2019 to acquire majority ownership, completing full acquisition in July 2021 at a reported valuation north of US$3 billion — Chile's first unicorn exit. At its peak Cornershop operated in eight countries across the Americas: Chile, Mexico, Brazil, Colombia, Costa Rica, Peru, Canada, and the United States. Beginning in 2021 Uber merged the Cornershop brand into Uber Eats, migrating the grocery vertical (\"Uber Eats Grocery\") into its main consumer app and progressively shutting down the standalone Cornershop apps and websites. As of 2026 cornershopapp.com and cornershop.io redirect to ubereats.com, the Cornershop LLC GitHub organization (archived October 2024) has zero public repositories, and there is no public developer API, SDK, partner program, or technical documentation under the Cornershop brand — Cornershop survives only as engineering history and as the LatAm backbone of Uber Eats Grocery. Community-built unofficial Python wrappers exist on GitHub but reverse-engineer the consumer mobile app and are not sanctioned by Uber.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cornershop/refs/heads/main/screenshots/cornershop-2026-06-20T175034.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4830,12 +4830,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4863,10 +4863,10 @@
      "rank": 98
     },
     {
-     "name": "Atexto",
-     "slug": "atexto",
-     "description": "Atexto was a speech-recognition data company (self-described \"the accuracy platform for speech recognition\") based in Mexico City, founded around 2016 by Brenda Mana Pastrian and Esteban Gorupicz. It helped machine-learning and voice-assistant teams create, collect, annotate, transcribe, and benchmark audio/speech datasets, combining an enterprise data platform with a global paid crowdsourcing community that transcribed and labeled audio across roughly 24 languages and their regional accents. The company also offered a hybrid human-plus-machine audio-to-text transcription service and ASR training-data services. It was backed by 500 Global, Redwood Ventures, MC Capital, and a Start-Up Chile grant. The company now appears inactive: its former domain atexto.com has been repurposed to an unrelated third-party site, and no live developer portal, API documentation, or machine-readable API specification could be located. This profile captures verified historical identity only; no API artifacts were enriched because no live API surface exists.",
-     "score": 5.0,
+     "name": "Kavak",
+     "slug": "kavak",
+     "description": "Kavak is a Mexico-founded digital marketplace for buying, selling, and financing pre-owned cars across Latin America, the Middle East, and Turkey. Founded in 2016 in Mexico City by Carlos Garcia Ottati, Loreanne Garcia Ottati, and Roger Laughlin, Kavak became Mexico's first unicorn in 2020 and reached an $8.7B valuation in 2021 with backing from SoftBank, Sea Ltd, and Founders Fund. The company operates an end-to-end consumer platform that combines an e-commerce site and mobile app, physical hubs, in-house vehicle reconditioning, and a financial-services arm (Kavak Capital, Kuna, and Kavak Credito). Internally, Kavak uses machine learning and proprietary pricing models to value, inspect, and route inventory across markets including Mexico, Argentina, Brazil, Chile, the United Arab Emirates, and Turkey, while sponsoring high-profile partners such as the NFL. Kavak's revenue comes from vehicle sales, financing margins, and after-sales services, and the company does not currently publish a public developer API, SDK, OpenAPI specification, or open-source GitHub organization. Customer-facing integrations are limited to the consumer web and mobile apps and partner financing channels.",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4875,11 +4875,11 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4907,10 +4907,9 @@
      "rank": 99
     },
     {
-     "name": "DeporPrivé",
-     "slug": "deporpriv",
-     "description": "DeporPrivé is a Mexico-based sports e-commerce platform operating as a members-oriented \"Sport Experience & Outlet\" that runs flash sales and private, time-limited shopping events across more than 300 athletic brands including Adidas, Nike, and Salomon, with discounts reaching up to 70%. Founded in 2016 and headquartered in Mexico, the company curates footwear, apparel, and accessories for running, cycling, swimming, football, and general fitness, and has grown into one of the largest sport-specific online retailers in the country, fulfilling around 1,000 packages per day across multiple sales channels. It is tracked in the API Evangelist network as a portfolio company of 500 Global. No public developer program, API, or documentation surface has been identified for this consumer retail brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deporpriv/refs/heads/main/screenshots/deporpriv-2026-07-25T211735.png",
+     "name": "Atexto",
+     "slug": "atexto",
+     "description": "Atexto was a speech-recognition data company (self-described \"the accuracy platform for speech recognition\") based in Mexico City, founded around 2016 by Brenda Mana Pastrian and Esteban Gorupicz. It helped machine-learning and voice-assistant teams create, collect, annotate, transcribe, and benchmark audio/speech datasets, combining an enterprise data platform with a global paid crowdsourcing community that transcribed and labeled audio across roughly 24 languages and their regional accents. The company also offered a hybrid human-plus-machine audio-to-text transcription service and ASR training-data services. It was backed by 500 Global, Redwood Ventures, MC Capital, and a Start-Up Chile grant. The company now appears inactive: its former domain atexto.com has been repurposed to an unrelated third-party site, and no live developer portal, API documentation, or machine-readable API specification could be located. This profile captures verified historical identity only; no API artifacts were enriched because no live API surface exists.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4924,7 +4923,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4952,10 +4951,10 @@
      "rank": 100
     },
     {
-     "name": "Gurú de Viaje",
-     "slug": "gur-de-viaje",
-     "description": "Gurú de Viaje is a Mexico-based travel-deals company and flight-deal hunter (\"cazador de ofertas de viaje\") that publishes daily cheap-flight promotions and airfare offers so travelers can fly cheaply and see the world. Its Spanish-language consumer website and mobile/push experience surface daily discounted airline tickets and travel promotions, with a focus on departures from Mexican cities such as Guadalajara and Mexico City. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this pass Gurú de Viaje operates a consumer Next.js web property (gurudeviaje.com) and publishes no public developer program, API reference, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gur-de-viaje/refs/heads/main/screenshots/gur-de-viaje-2026-07-25T220437.png",
+     "name": "DeporPrivé",
+     "slug": "deporpriv",
+     "description": "DeporPrivé is a Mexico-based sports e-commerce platform operating as a members-oriented \"Sport Experience & Outlet\" that runs flash sales and private, time-limited shopping events across more than 300 athletic brands including Adidas, Nike, and Salomon, with discounts reaching up to 70%. Founded in 2016 and headquartered in Mexico, the company curates footwear, apparel, and accessories for running, cycling, swimming, football, and general fitness, and has grown into one of the largest sport-specific online retailers in the country, fulfilling around 1,000 packages per day across multiple sales channels. It is tracked in the API Evangelist network as a portfolio company of 500 Global. No public developer program, API, or documentation surface has been identified for this consumer retail brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deporpriv/refs/heads/main/screenshots/deporpriv-2026-07-25T211735.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4969,7 +4968,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4997,9 +4996,10 @@
      "rank": 101
     },
     {
-     "name": "Jüsto",
-     "slug": "j-sto",
-     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
+     "name": "Gurú de Viaje",
+     "slug": "gur-de-viaje",
+     "description": "Gurú de Viaje is a Mexico-based travel-deals company and flight-deal hunter (\"cazador de ofertas de viaje\") that publishes daily cheap-flight promotions and airfare offers so travelers can fly cheaply and see the world. Its Spanish-language consumer website and mobile/push experience surface daily discounted airline tickets and travel promotions, with a focus on departures from Mexican cities such as Guadalajara and Mexico City. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network. As of this pass Gurú de Viaje operates a consumer Next.js web property (gurudeviaje.com) and publishes no public developer program, API reference, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gur-de-viaje/refs/heads/main/screenshots/gur-de-viaje-2026-07-25T220437.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5013,7 +5013,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5041,10 +5041,9 @@
      "rank": 102
     },
     {
-     "name": "microTERRA",
-     "slug": "microterra",
-     "description": "microTERRA is a Mexico-based food-ingredient company that develops functional ingredients derived from Lemna (duckweed). Its MAS product line delivers natural flavor enhancers and texture modifiers for the food and beverage industry, positioned as sustainable, clean-label alternatives that support salt and sugar reduction in formulations. A Techstars-backed B2B startup, microTERRA sells to food formulators and manufacturers and does not currently expose any public developer API, SDK, CLI, or technical documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microterra/refs/heads/main/screenshots/microterra-2026-08-07T172849.png",
+     "name": "Jüsto",
+     "slug": "j-sto",
+     "description": "Jüsto is a Mexican online-only supermarket founded in 2019 by Ricardo Weder, headquartered in Mexico City. It operates a direct-to-consumer grocery e-commerce and delivery model with no physical stores, sourcing produce and pantry goods directly from farmers, producers, and brands and fulfilling orders from micro-fulfillment dark stores. The company sells its catalog through web and mobile apps and has raised venture funding from investors including General Atlantic, SoftBank, Foundation Capital, and 500 Global. Jüsto has no public developer program or documented API surface; this profile is maintained in the API Evangelist network as a company record.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5058,7 +5057,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5086,10 +5085,10 @@
      "rank": 103
     },
     {
-     "name": "Okol",
-     "slug": "okol",
-     "description": "Okol operates propiedades.com, an online real estate marketplace serving Mexico where buyers and renters search residential and commercial property listings and connect with agents, developers, and brokers. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment, the company runs its consumer-facing listings platform on AWS but publishes no public developer API, documentation, or specifications at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okol/refs/heads/main/screenshots/okol-2026-08-07T190055.png",
+     "name": "microTERRA",
+     "slug": "microterra",
+     "description": "microTERRA is a Mexico-based food-ingredient company that develops functional ingredients derived from Lemna (duckweed). Its MAS product line delivers natural flavor enhancers and texture modifiers for the food and beverage industry, positioned as sustainable, clean-label alternatives that support salt and sugar reduction in formulations. A Techstars-backed B2B startup, microTERRA sells to food formulators and manufacturers and does not currently expose any public developer API, SDK, CLI, or technical documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microterra/refs/heads/main/screenshots/microterra-2026-08-07T172849.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5103,7 +5102,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5131,9 +5130,10 @@
      "rank": 104
     },
     {
-     "name": "Plerk",
-     "slug": "plerk",
-     "description": "Plerk was a Mexican fintech startup offering an employee-benefits and perks platform (\"beneficios para colaboradores\") for companies in Mexico, backed by 500 Global. During 2023 Plerk merged with minu to consolidate the employee benefits offering in Mexico, and the standalone Plerk product was wound down. Its primary domain plerk.com no longer resolves (DNS fully lapsed; last web archive May 2023) and plerk.io redirects to the now-defunct plerk.com. Support was handled at soporte@plerk.io. This profile is retained as a defunct/acquired lead; the surviving product and any API surface live under minu. No live developer portal, API, SDK, or documentation surface exists for Plerk.",
+     "name": "Okol",
+     "slug": "okol",
+     "description": "Okol operates propiedades.com, an online real estate marketplace serving Mexico where buyers and renters search residential and commercial property listings and connect with agents, developers, and brokers. Surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment, the company runs its consumer-facing listings platform on AWS but publishes no public developer API, documentation, or specifications at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okol/refs/heads/main/screenshots/okol-2026-08-07T190055.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5147,7 +5147,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5175,10 +5175,9 @@
      "rank": 105
     },
     {
-     "name": "Portal Terreno",
-     "slug": "portal-terreno",
-     "description": "Portal Terreno is an online marketplace for land and parcels (\"terrenos\" and \"parcelas\") in Latin America, operating localized classifieds portals for Chile (portalterreno.cl) and Mexico (portalterreno.com.mx) with tens of thousands of land listings. The Next.js web platform lets buyers search, filter, and contact sellers to find land for sale, while sellers and real-estate agents publish listings. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. No public developer, API, documentation, or well-known discovery surface was found during the enrichment pass; the domain-security posture was probed live.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portal-terreno/refs/heads/main/screenshots/portal-terreno-2026-09-02T151805.png",
+     "name": "Plerk",
+     "slug": "plerk",
+     "description": "Plerk was a Mexican fintech startup offering an employee-benefits and perks platform (\"beneficios para colaboradores\") for companies in Mexico, backed by 500 Global. During 2023 Plerk merged with minu to consolidate the employee benefits offering in Mexico, and the standalone Plerk product was wound down. Its primary domain plerk.com no longer resolves (DNS fully lapsed; last web archive May 2023) and plerk.io redirects to the now-defunct plerk.com. Support was handled at soporte@plerk.io. This profile is retained as a defunct/acquired lead; the surviving product and any API surface live under minu. No live developer portal, API, SDK, or documentation surface exists for Plerk.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5186,13 +5185,13 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5220,9 +5219,10 @@
      "rank": 106
     },
     {
-     "name": "Raw Apothecary",
-     "slug": "raw-apothecary",
-     "description": "Raw Apothecary is a Mexico-based consumer brand that operated a Shopify storefront at rawapothecary.mx (Spanish-language, powered-by Shopify), surfaced in the API Evangelist network as a 500 Global portfolio company. As of this enrichment pass the storefront returns \"Tienda no disponible\" (HTTP 402, \"Store Unavailable\"), and the company publishes no public API, developer portal, documentation, or machine-readable specification surface. This profile is retained as a company record; there is no API to enrich beyond a live domain-security probe of the storefront host.",
+     "name": "Portal Terreno",
+     "slug": "portal-terreno",
+     "description": "Portal Terreno is an online marketplace for land and parcels (\"terrenos\" and \"parcelas\") in Latin America, operating localized classifieds portals for Chile (portalterreno.cl) and Mexico (portalterreno.com.mx) with tens of thousands of land listings. The Next.js web platform lets buyers search, filter, and contact sellers to find land for sale, while sellers and real-estate agents publish listings. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment. No public developer, API, documentation, or well-known discovery surface was found during the enrichment pass; the domain-security posture was probed live.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/portal-terreno/refs/heads/main/screenshots/portal-terreno-2026-09-02T151805.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5236,7 +5236,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5264,10 +5264,9 @@
      "rank": 107
     },
     {
-     "name": "RUUT",
-     "slug": "ruut",
-     "description": "RUUT (ruut.mx) is a Mexican fintech and mobile-first investment platform that lets everyday people invest in the US stock markets. Marketed as \"la plataforma de inversion para no inversionistas\" (the investment platform for non-investors), it gives users access to 8,000+ US stocks and ETFs, personalized risk-based portfolios (safe, moderate, aggressive), goal-based investing, and AI-tailored market news. Accounts are protected up to $500,000 USD via SIPC insurance through its US brokerage partner Alpaca Securities LLC (FINRA/SIPC). RUUT is registered with Mexico's CNBV as an independent investment advisor (Folio #30174) and is a portfolio company of 500 Global. RUUT is a consumer product with no public developer API; this profile was enriched from its public website and live domain probes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ruut/refs/heads/main/screenshots/ruut-2026-09-02T154229.png",
+     "name": "Raw Apothecary",
+     "slug": "raw-apothecary",
+     "description": "Raw Apothecary is a Mexico-based consumer brand that operated a Shopify storefront at rawapothecary.mx (Spanish-language, powered-by Shopify), surfaced in the API Evangelist network as a 500 Global portfolio company. As of this enrichment pass the storefront returns \"Tienda no disponible\" (HTTP 402, \"Store Unavailable\"), and the company publishes no public API, developer portal, documentation, or machine-readable specification surface. This profile is retained as a company record; there is no API to enrich beyond a live domain-security probe of the storefront host.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5281,7 +5280,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5309,9 +5308,10 @@
      "rank": 108
     },
     {
-     "name": "Scorce",
-     "slug": "scorce",
-     "description": "Scorce is a Mexico-based API aggregation platform that gives businesses a single integration point to connect to multiple Latin American and global identity APIs for customer authentication, KYC (Know Your Customer), digital identity verification, and fraud prevention. The platform lets teams connect in under 24 hours, obtain provider trials, and monitor API performance across providers from one unified dashboard. Founded in 2019 and headquartered in Puebla, Mexico, Scorce is backed by 500 Global, Finnovista, and Tenity.",
+     "name": "RUUT",
+     "slug": "ruut",
+     "description": "RUUT (ruut.mx) is a Mexican fintech and mobile-first investment platform that lets everyday people invest in the US stock markets. Marketed as \"la plataforma de inversion para no inversionistas\" (the investment platform for non-investors), it gives users access to 8,000+ US stocks and ETFs, personalized risk-based portfolios (safe, moderate, aggressive), goal-based investing, and AI-tailored market news. Accounts are protected up to $500,000 USD via SIPC insurance through its US brokerage partner Alpaca Securities LLC (FINRA/SIPC). RUUT is registered with Mexico's CNBV as an independent investment advisor (Folio #30174) and is a portfolio company of 500 Global. RUUT is a consumer product with no public developer API; this profile was enriched from its public website and live domain probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ruut/refs/heads/main/screenshots/ruut-2026-09-02T154229.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5325,7 +5325,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5370,7 +5370,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5414,7 +5414,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5459,7 +5459,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5504,7 +5504,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5556,7 +5556,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5608,7 +5608,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5659,7 +5659,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5694,15 +5694,15 @@
      "rank": 116
     },
     {
-     "name": "Ualá",
-     "slug": "uala",
-     "description": "Ualá is an Argentine financial technology company and neobank founded in 2017 by Pierpaolo Barbieri, headquartered in Buenos Aires. The company delivers a mobile-first financial ecosystem anchored by a Mastercard prepaid/debit card linked to an in-app account, with a layered product suite that includes credit cards, personal loans, savings accounts with yield, fixed-term deposits, mutual funds (FCIs), stocks, bonds, CEDEARs, insurance, bill payments, recharges, and international transfers. Its merchant arm, Ualá Bis, provides payment links, online checkout, and POS hardware (POS Mini and POS Pro) for SMBs and online stores, exposing a public Cobros Online v2 API plus SDKs and pre-built integrations for WooCommerce, Tienda Nube, Magento, and Empretienda. Ualá operates as a regulated bank in Argentina (under BCRA oversight), has acquired ABC Capital in Mexico to operate as a chartered Mexican bank, and is the first technology-based company licensed as a financing entity by Colombia's Financial Superintendence. The company reached a $3.2B valuation following $195M in new equity in 2024, and reports more than eight million users across Argentina, Mexico, and Colombia. UaláScore, the company's AI-driven credit evaluation system, powers personalized lending across markets. Public developer surface is limited to the Ualá Bis merchant payments API; the consumer banking, lending, and investing capabilities are not exposed as third-party developer APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uala/refs/heads/main/screenshots/uala-2026-06-20T195921.png",
-     "score": 2.0,
+     "name": "Konfio",
+     "slug": "konfio",
+     "description": "Konfio is a leading Mexican fintech serving small and medium businesses (SMBs) with an all-in-one platform: working-capital and term loans (Konfio Creditos), a business credit card (Konfio Tarjeta), payment terminals and acceptance (Konfio Pagos / Sirvis), and SMB management tools. Underwriting is powered by a proprietary algorithm that combines alternative data and ML to score creditworthiness in minutes. Konfio's product surface is overwhelmingly direct-to-SMB and the company does not publish a self-service public developer portal. Partner integrations (e.g. PayPal Working Capital, Goldman Sachs / Gramercy capital facilities, marketplace lending) are negotiated bilaterally.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/konfio/refs/heads/main/screenshots/konfio-2026-06-20T184130.png",
+     "score": 1.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -5711,7 +5711,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5746,58 +5746,6 @@
      "rank": 117
     },
     {
-     "name": "Konfio",
-     "slug": "konfio",
-     "description": "Konfio is a leading Mexican fintech serving small and medium businesses (SMBs) with an all-in-one platform: working-capital and term loans (Konfio Creditos), a business credit card (Konfio Tarjeta), payment terminals and acceptance (Konfio Pagos / Sirvis), and SMB management tools. Underwriting is powered by a proprietary algorithm that combines alternative data and ML to score creditworthiness in minutes. Konfio's product surface is overwhelmingly direct-to-SMB and the company does not publish a self-service public developer portal. Partner integrations (e.g. PayPal Working Capital, Goldman Sachs / Gramercy capital facilities, marketplace lending) are negotiated bilaterally.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/konfio/refs/heads/main/screenshots/konfio-2026-06-20T184130.png",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 118
-    },
-    {
      "name": "Stori",
      "slug": "stori",
      "description": "Stori is a Mexico City–headquartered fintech (operating as a regulated Sociedad Financiera Popular under CNBV and CONDUSEF oversight) on a mission to democratize credit access for the roughly 400 million underbanked consumers in Latin America. Founded in 2019, the company achieved unicorn status in 2022 and has raised over $400M from investors including GGV Capital, General Catalyst, Lightspeed Venture Partners, Goodwater Capital, Source Code Capital, Vision Plus Capital, BAI Capital, Tresalia, and GIC. Stori's flagship product is the Stori Card, an inclusive Visa credit card marketed to first-time borrowers with little or no formal credit history, alongside Stori Black (premium tier), co-branded cards (SHEIN, Farmacias Similares, sports teams), Cuenta+ (a commission-free deposit account advertising up to 15% annual returns), personal loans up to roughly $3,000 MXN-equivalent, and payment services covering bill pay, mobile recharges, and phone-based merchant collection. The platform is delivered exclusively through its iOS and Android mobile apps and serves more than five million Mexican users. Stori has no public developer API, SDK, CLI, webhook surface, or open-source release; its revenue model is interest, interchange, and fee income from consumer credit and deposit products, with operations in Mexico, Colombia, and a U.S. corporate presence in Arlington, Virginia.",
@@ -5815,7 +5763,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5847,7 +5795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 118
     },
     {
      "name": "Briko Robotics",
@@ -5860,13 +5808,13 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5898,7 +5846,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 119
     },
     {
      "name": "Kalto",
@@ -5917,7 +5865,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -5949,7 +5897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 120
     }
    ]
   }

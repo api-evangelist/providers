@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Standard Ethereum JSON-RPC 2.0 interface to the Bitfinity EVM mainnet (Chain ID 355110). Supports the standard eth_*, net_*, and web3_* method namespaces for reading chain state, submitting transactio
@@ -142,7 +142,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinityswap/refs/heads/main/screenshots/infinityswap-2026-07-25T222407.png
 security:

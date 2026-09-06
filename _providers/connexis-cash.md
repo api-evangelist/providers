@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -31,20 +31,22 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-04'
+  score: 31.5
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
   name: Connexis Cash Agentic Access
-  operation_count: 6
+  operation_count: 10
   slug: connexis-cash-agentic-access
-  summary_line: 6 operations · 1 acting
-api_count: 1
+  summary_line: 10 operations · 1 acting
+api_count: 2
 apis:
-- description: A PSD2-compliant Account Information Service (AISP) API exposed by BNP Paribas Corporate and Institutional Banking. Third-party providers consume this REST/JSON API, which follows the STET PSD2 standa
+- baseURL: https://psd2.api.cib.bnpparibas.com/gb-account-information-psd2-stet
+  baseurl_source: declared
+  description: A PSD2-compliant Account Information Service (AISP) API exposed by BNP Paribas Corporate and Institutional Banking. Third-party providers consume this REST/JSON API, which follows the STET PSD2 standa
   name: Connexis Cash PSD2 Account Information API (STET)
   slug: psd2-account-information
 - description: A documented Strong Customer Authentication flow that BNP Paribas provides for Connexis Cash to satisfy PSD2 SCA requirements. TPPs integrate the SCA flow into their PSD2 journeys so that Connexis Cas
@@ -142,6 +144,94 @@ common:
   title: ''
   type: Support
   url: ''
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.cib.bnpparibas.com/index.php/api-docs/account-information-psd2-stet-mock
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.cib.bnpparibas.com/index.php/api-docs/account-information-psd2-stet-mock
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.cib.bnpparibas.com/index.php/docs/get-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developers.cib.bnpparibas.com/index.php/user/register
+- group: start
+  title: ''
+  type: Login
+  url: https://developers.cib.bnpparibas.com/index.php/user/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developers.cib.bnpparibas.com/index.php/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://cib.bnpparibas.com/about/privacy-policy_a-38-60.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/bnpparibas
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/connexis-cash-account-information-psd2-stet-mock-openapi.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/connexis-cash-account-information-psd2-stet-mock-overlay.yaml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/connexis-cash-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/connexis-cash-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/connexis-cash-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/connexis-cash-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/connexis-cash-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/connexis-cash-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/connexis-cash-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/connexis-cash-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/connexis-cash-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/connexis-cash-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/connexis-cash-mcp.yml
 created: '2024-01-01'
 description: Connexis Cash is BNP Paribas's corporate digital banking and cash management platform. It gives multinational corporates a unified online channel for payment initiation, real-time payment tracking, account reporting, reconciliation, and liquidity management across BNP Paribas's global network. Connexis Cash also exposes PSD2-compliant Open Banking APIs through the BNP Paribas CIB developer portal so that third-party providers (TPPs) can retrieve account information and initiate payments on behalf of Connexis Cash users, as well as a Strong Customer Authentication (SCA) flow.
 finops:
@@ -150,71 +240,74 @@ finops:
   slug: connexis-cash-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/connexis-cash.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-05'
 name: Connexis Cash
 nav: Providers
 network: true
-overview: 'Connexis Cash publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Balances API, Beneficiaries API, and 2 more. Tagged areas include Account Information, BNP Paribas, Cash Management, Corporate Banking, and Digital Banking.
+overview: 'Connexis Cash publishes 6 APIs on the [APIs.io](https://apis.io/) network, including PSD2 Account Information API (STET), Accounts API, Balances API, and 3 more. Tagged areas include Account Information, BNP Paribas, Cash Management, Corporate Banking, and Digital Banking.
 
 
-  Connexis Cash''s developer surface includes authentication, support, and 7 more developer resources.'
+  Connexis Cash''s developer surface includes authentication, support, documentation, API reference, getting-started guide, signup flow, sandbox, and 24 more developer resources.'
 plans:
 - name: Connexis Cash Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: connexis-cash-plans-pricing
 random_paper: 8
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Connexis Cash Rate Limits
   slug: connexis-cash-rate-limits
 scopes:
 - name: Connexis Cash Scopes
-  scope_count: 1
+  scope_count: 3
   slug: connexis-cash-scopes
-  summary_line: 1 scope · authorizationCode/clientCredentials
+  summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
-  band: thin
-  composite: 30.0
+  band: developing
+  composite: 49.6
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 41.0
+    artifact_dirs: 22
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 19.6
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 47.6
-    developer_ergonomics: 35.7
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 18.2
+    contract_quality: 50.6
+    developer_ergonomics: 63.7
     discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    governance: 18.2
+    operational_transparency: 5.3
   previous_composite: 30.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 36.7
+    score: 67.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/screenshots/connexis-cash-2026-06-20T174906.png
 security:
 - kind: authentication
   name: Connexis Cash Authentication
   slug: connexis-cash-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Connexis Cash Domain Security
   slug: connexis-cash-domain-security

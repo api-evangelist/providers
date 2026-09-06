@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -529,7 +529,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.4
+  composite: 64.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 50.5
@@ -537,7 +537,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 1.0
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -546,11 +546,11 @@ score:
     developer_ergonomics: 89.3
     discoverability: 66.7
     governance: 13.6
-    operational_transparency: 36.8
+    operational_transparency: 44.7
   open_source:
     applies: true
     score: 50.0
-  previous_composite: 64.1
+  previous_composite: 63.4
   provenance:
     agentic_access: derived
     contracts:
@@ -565,7 +565,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:

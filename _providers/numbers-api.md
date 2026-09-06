@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,7 +73,12 @@ apis:
   description: The Year API from Numbers API — 1 operation(s) for year.
   name: Numbers API Year API
   slug: numbers-api-year-api
-artifact_total: 26
+- baseURL: http://numbersapi.com/
+  baseurl_source: declared
+  description: Multiple facts returned in a single request as a JSON map.
+  name: Numbers API Batch API
+  slug: numbers-batch-api
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -170,6 +175,24 @@ examples:
   name: Math Fact Json
   slug: math-fact-json
 - key_count: 4
+  name: Numbers Batch Facts Example
+  slug: numbers-batch-facts-example
+- key_count: 5
+  name: Numbers Date Fact Example
+  slug: numbers-date-fact-example
+- key_count: 4
+  name: Numbers Fact Example
+  slug: numbers-fact-example
+- key_count: 4
+  name: Numbers Math Fact Example
+  slug: numbers-math-fact-example
+- key_count: 4
+  name: Numbers Trivia Fact Example
+  slug: numbers-trivia-fact-example
+- key_count: 4
+  name: Numbers Year Fact Example
+  slug: numbers-year-fact-example
+- key_count: 4
   name: Trivia Fact Json
   slug: trivia-fact-json
 - key_count: 5
@@ -184,6 +207,19 @@ json_schemas:
 - name: NumberFact
   property_count: 6
   slug: number-fact
+- name: BatchFacts
+  property_count: 0
+  slug: numbers-batch-facts
+- name: Fact
+  property_count: 6
+  slug: numbers-fact
+json_structures:
+- name: Numbers Batch Facts Structure
+  property_count: 0
+  slug: numbers-batch-facts-structure
+- name: Numbers Fact Structure
+  property_count: 6
+  slug: numbers-fact-structure
 jsonld:
 - class_count: 5
   name: Numbers Api Context
@@ -194,7 +230,7 @@ modified: '2026-06-13'
 name: Numbers API
 nav: Providers
 network: true
-overview: 'Numbers API publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Date API, Math API, Numbers API API, and 3 more. Tagged areas include Numbers, Trivia, Math, Facts, and Education.
+overview: 'Numbers API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Date API, Math API, Numbers API API, and 4 more. Tagged areas include Numbers, Trivia, Math, Facts, and Education.
 
 
   The Numbers API catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -223,21 +259,21 @@ rules:
   slug: numbers-api-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 35.0
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 59.3
+    artifact_dirs: 15
+    catalog_earned: 69.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.8
+    catalog_gap: 45.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 9.8
-    contract_quality: 56.0
-    developer_ergonomics: 6.0
+    contract_quality: 65.6
+    developer_ergonomics: 15.5
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 13.2
@@ -248,7 +284,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 7
   regulatory:
     applies: true
     matched_via: tags
@@ -256,7 +292,7 @@ score:
     regime_id: education
     score: 20.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/screenshots/numbers-api-2026-06-20T190517.png
 security:

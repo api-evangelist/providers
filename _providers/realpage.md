@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 11
 apis:
 - description: RealPage's integration marketplace and partner API surface offering standardised APIs across RealPage products for ATS-like data exchange, property data, residents, leases, and financials. Access is p
@@ -154,7 +154,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/realpage/refs/heads/main/screenshots/realpage-2026-06-20T192646.png
 security:

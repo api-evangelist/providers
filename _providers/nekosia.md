@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.2
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Free keyless RESTful JSON API serving random anime/neko images across many categories with rich metadata, a tags endpoint, session mechanism, and content ratings.
@@ -216,7 +216,7 @@ rate_limits:
   slug: nekosia-rate-limits
 score:
   band: thin
-  composite: 33.1
+  composite: 34.1
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -224,7 +224,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -233,13 +233,13 @@ score:
     developer_ergonomics: 61.9
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 28.9
+    operational_transparency: 36.8
   previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nekosia/refs/heads/main/screenshots/nekosia-2026-09-02T150730.png
 security:

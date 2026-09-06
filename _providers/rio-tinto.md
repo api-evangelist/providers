@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 8
 common:
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rio-tinto/refs/heads/main/screenshots/rio-tinto-2026-06-20T193124.png
 security:

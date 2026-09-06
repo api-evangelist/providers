@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,7 +80,17 @@ apis:
   description: The Teams API from TheSportsDB — 1 operation(s) for teams.
   name: TheSportsDB Teams API
   slug: sportsdb-teams-api
-artifact_total: 22
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: List leagues, teams, players, and events.
+  name: TheSportsDB Lists API
+  slug: thesportsdb-lists-api
+- baseURL: https://www.thesportsdb.com/api/v1/json/3
+  baseurl_source: declared
+  description: Season standings and results.
+  name: TheSportsDB Seasons API
+  slug: thesportsdb-seasons-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -153,12 +163,28 @@ finops:
   service_category: Sports Data and Media
   slug: sportsdb-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sportsdb.png
+json_schemas:
+- name: TheSportsDB Team
+  property_count: 16
+  slug: thesportsdb-team
+json_structures:
+- name: Thesportsdb Structure
+  property_count: 0
+  slug: thesportsdb-structure
+jsonld:
+- class_count: 0
+  name: Thesportsdb Context
+  property_count: 4
+  slug: thesportsdb-context
 layout: provider
 modified: '2026-06-25'
 name: TheSportsDB
 nav: Providers
 network: true
-overview: 'TheSportsDB publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Events API, Leagues API, Livescores API, and 4 more. Tagged areas include Sports, Sports Data, Team, Players, and Event.
+overview: 'TheSportsDB publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Events API, Leagues API, Livescores API, and 6 more. Tagged areas include Sports, Sports Data, Team, Players, and Event.
+
+
+  The TheSportsDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
   TheSportsDB''s developer surface includes authentication, documentation, and 7 more developer resources.'
@@ -171,37 +197,48 @@ rate_limits:
 - limit_count: 4
   name: Sportsdb Rate Limits
   slug: sportsdb-rate-limits
+rules:
+- effective_rule_count: 8
+  extends: []
+  name: TheSportsDB API Rules
+  rule_count: 8
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 1
+    warn: 5
+  slug: thesportsdb-rules
 score:
-  band: thin
-  composite: 35.3
+  band: developing
+  composite: 43.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 64.0
+    artifact_dirs: 14
+    catalog_earned: 93.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 51.0
+    catalog_gap: 22.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 8.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 47.6
+    contract_governance: 54.5
+    contract_quality: 55.7
     developer_ergonomics: 22.6
     discoverability: 68.5
-    governance: 0.0
+    governance: 54.5
     operational_transparency: 31.6
-  previous_composite: 36.0
+  previous_composite: 35.3
   provenance:
     agentic_access: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportsdb/refs/heads/main/screenshots/sportsdb-2026-09-02T160548.png
 security:
 - kind: authentication

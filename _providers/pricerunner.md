@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'Product and price data API marketed by Pricerunner for retailers and businesses: product search, competitor analysis, market trend identification, price history and automatic price matching across rou'
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 security:
 - kind: domain-security

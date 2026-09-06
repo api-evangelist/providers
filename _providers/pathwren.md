@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -22,21 +22,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 28.1
-  scored_at: '2026-09-04'
+  score: 32.5
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Which crawler a User-Agent header belongs to, who operates it, whether it documents obeying robots.txt, how to verify it is genuine against the operator's own published IP ranges, and what blocking it
@@ -154,7 +154,7 @@ rate_limits:
   slug: pathwren-rate-limits
 score:
   band: developing
-  composite: 44.2
+  composite: 45.0
   coverage:
     artifact_dirs: 20
     catalog_earned: 51.0
@@ -162,14 +162,14 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 41.3
     developer_ergonomics: 56.5
-    discoverability: 75.9
+    discoverability: 83.3
     governance: 18.2
     operational_transparency: 42.1
   previous_composite: 44.2
@@ -189,7 +189,7 @@ score:
     regime_id: government
     score: 42.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pathwren/refs/heads/main/screenshots/pathwren-2026-09-02T150912.png
 security:

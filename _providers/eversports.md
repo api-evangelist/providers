@@ -35,8 +35,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-04'
-api_count: 2
+  scored_at: '2026-09-05'
+api_count: 3
 apis:
 - description: Read-only GraphQL API serving a venue's activity schedules — classes, trainings, workshops, courses, events, retreats, camps, and educations — with venue, teacher, room, sport, and availability detail
   name: Eversports Provider API
@@ -44,7 +44,10 @@ apis:
 - description: GraphQL API for aggregator partners exposing venues, classes, sessions, and reservations, plus mutations to make, cancel, and check in reservations. Separate test and production hosts. Bearer auth, Re
   name: Eversports Aggregator API
   slug: eversports-aggregator-api
-artifact_total: 4
+- description: Legacy JSON:API REST integration API used by aggregator and partner systems to manage users, venues, courts, and orders on the Eversports platform. Requests and responses follow the jsonapi.org format
+  name: Eversports Integration API (v2)
+  slug: eversports-integration-api-v2
+artifact_total: 5
 common:
 - group: company
   title: ''
@@ -138,29 +141,29 @@ modified: '2026-07-19'
 name: Eversports
 nav: Providers
 network: true
-overview: 'Eversports publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Fitness, Booking, and Scheduling.
+overview: 'Eversports publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Fitness, Booking, and Scheduling.
 
 
   Eversports'' developer surface includes documentation, support, pricing, signup flow, authentication, sandbox, and 15 more developer resources.'
 random_paper: 4
 score:
   band: thin
-  composite: 35.6
+  composite: 36.2
   coverage:
     artifact_dirs: 13
-    catalog_earned: 37.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 37.2
     developer_ergonomics: 44.6
-    discoverability: 75.9
+    discoverability: 81.5
     governance: 4.5
     operational_transparency: 2.6
   previous_composite: 35.6
@@ -169,7 +172,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eversports/refs/heads/main/screenshots/eversports-2026-07-25T213739.png
 security:

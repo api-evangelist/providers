@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://zcal.co
@@ -143,7 +143,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zcal/refs/heads/main/screenshots/zcal-2026-09-02T171458.png
 security:

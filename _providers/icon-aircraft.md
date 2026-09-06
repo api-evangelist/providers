@@ -22,21 +22,21 @@ agent_readiness:
     auth_clarity: served
     consent_identity: false
     delegated_identity: served
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: documented
+    idempotency: na
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 41.2
-  scored_at: '2026-09-04'
+  score: 44.0
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://store.iconaircraft.com
@@ -255,7 +255,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icon-aircraft/refs/heads/main/screenshots/icon-aircraft-2026-09-02T145820.png
 security:

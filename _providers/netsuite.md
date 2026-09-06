@@ -32,8 +32,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-04'
-api_count: 3
+  scored_at: '2026-09-05'
+api_count: 5
 apis:
 - description: REST-based interface to NetSuite business objects as JSON resources with CRUD operations, SuiteQL high-performance queries, and an OpenAPI 3.0 definition that provides rich object metadata for records
   name: NetSuite SuiteTalk REST Web Services
@@ -44,7 +44,13 @@ apis:
 - description: Framework for exposing custom server-side SuiteScript as REST endpoints hosted in NetSuite, enabling tailored integrations and custom business logic over HTTP.
   name: NetSuite RESTlets
   slug: restlets
-artifact_total: 5
+- description: REST Web Services API for creating, reading, updating, and deleting NetSuite records such as customers, vendors, sales orders, invoices, items, and journal entries. Authentication uses OAuth 2.0 (auth
+  name: Oracle NetSuite SuiteTalk REST Record API
+  slug: suitetalk-rest-record-api
+- description: REST endpoint for executing SuiteQL (SQL-like) queries against NetSuite records and transactions for reporting and integration use cases. Returns paginated JSON results and uses the same OAuth 2.0 flo
+  name: Oracle NetSuite SuiteQL Query API
+  slug: suiteql-query-api
+artifact_total: 8
 common:
 - group: auth
   title: ''
@@ -84,13 +90,16 @@ graphqls:
 - description: This conceptual GraphQL schema represents the Oracle NetSuite cloud ERP data model, derived from the SuiteTalk REST Web Services API, REST Record API, SuiteAnalytics Connect, and the SuiteQL query lay
   name: Oracle NetSuite GraphQL Schema
   slug: netsuite-graphql
+- description: This conceptual GraphQL schema represents the Oracle NetSuite ERP platform, covering financials, accounting, order management, inventory, CRM, HR, and professional services automation. The schema is d
+  name: Oracle NetSuite GraphQL Schema
+  slug: oracle-netsuite-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/netsuite.png
 layout: provider
 modified: '2026-05-11'
 name: Oracle NetSuite
 nav: Providers
 network: true
-overview: 'Oracle NetSuite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, CRM, Financials, Accounting, and Inventory.
+overview: 'Oracle NetSuite publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include ERP, CRM, Financials, Accounting, and Inventory.
 
 
   Oracle NetSuite''s developer surface includes documentation, signup flow, and 6 more developer resources.'
@@ -117,7 +126,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 24.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netsuite/refs/heads/main/screenshots/netsuite-2026-06-20T190208.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 artifact_total: 6
 collections:
@@ -149,7 +149,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corebridge-financial/refs/heads/main/screenshots/corebridge-financial-2026-06-20T175023.png
 security:

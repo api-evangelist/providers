@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -115,11 +115,22 @@ apis:
   description: The Webhooks API from Kit — 2 operation(s) for webhooks.
   name: Kit Webhooks API
   slug: convertkit-webhooks-api
-artifact_total: 214
+- description: The legacy ConvertKit V3 API is deprecated and slated for discontinuation; new integrations should target V4.
+  name: Kit API V3 (Deprecated)
+  slug: kit-api-v3
+- baseURL: https://api.kit.com/v4
+  baseurl_source: declared
+  description: Account, creator profile, and account-level statistics
+  name: Kit Account API
+  slug: kit-account-api
+artifact_total: 217
 asyncapis:
 - description: ''
   name: Convertkit Webhooks
   slug: convertkit-webhooks
+- description: AsyncAPI 2.6 description of the Kit (formerly ConvertKit) webhook surface. Kit delivers webhook notifications via HTTP `POST` requests with a JSON body to a `target_url` registered through the Kit API
+  name: Kit Webhooks
+  slug: kit-webhooks-asyncapi
 collections:
 - collection_type: open
   name: API Collection
@@ -1189,10 +1200,10 @@ modified: '2026-08-13'
 name: Kit
 nav: Providers
 network: true
-overview: 'Kit publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Custom Fields API, and 11 more. Tagged areas include Email Marketing, Creator Economy, Subscribers, Automation, and Newsletters.
+overview: 'Kit publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Broadcasts API, Custom Fields API, and 12 more. Tagged areas include Email Marketing, Creator Economy, Subscribers, Automation, and Newsletters.
 
 
-  The Kit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+  The Kit catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Kit''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, API reference, getting-started guide, and 114 more developer resources.'
@@ -1223,7 +1234,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 82.3
+  composite: 82.4
   coverage:
     artifact_dirs: 33
     catalog_earned: 72.3
@@ -1231,12 +1242,12 @@ score:
     catalog_gap: 42.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.1
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
     contract_governance: 43.2
-    contract_quality: 66.6
+    contract_quality: 66.9
     developer_ergonomics: 71.4
     discoverability: 75.9
     governance: 43.2
@@ -1249,7 +1260,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 14
+      total: 15
     mcp: first-party
     skills: first-party
   regulatory:
@@ -1259,7 +1270,7 @@ score:
     regime_id: telecommunications
     score: 73.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convertkit/refs/heads/main/screenshots/convertkit-2026-06-20T175000.png
 security:

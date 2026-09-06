@@ -13,28 +13,28 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.5
-  scored_at: '2026-09-04'
-api_count: 3
+  score: 26.8
+  scored_at: '2026-09-05'
+api_count: 1
 apis:
 - description: The Cardtonic Gift Card Developer API enables merchants and platforms to integrate gift card services into their websites, mobile apps, and point-of-sale systems. The API exposes a catalog of more tha
   name: Cardtonic Gift Card Developer API
@@ -45,16 +45,17 @@ apis:
 - description: Cardtonic Bill Payments cover airtime top-ups, mobile data, electricity, TV subscriptions, and betting wallets across more than 100 countries, consumed through the Cardtonic app and dashboard. Partner
   name: Cardtonic Bill Payments
   slug: bill-payments
-artifact_total: 8
+- baseURL: https://api.cardtonic.com/v1
+  baseurl_source: declared
+  description: The Cardtonic Business API is the account, credential and compliance layer of Cardtonic's developer program, and the only Cardtonic surface with a published machine-readable contract. It covers busine
+  name: Cardtonic Business API
+  slug: business-api
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
   slug: open-cardtonic
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/cardtonic-domain-security.yml
 - group: company
   title: ''
   type: Website
@@ -63,6 +64,18 @@ common:
   title: ''
   type: Developer
   url: https://cardtonic.com/developer
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://cardtonic.com/developer
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.cardtonic.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.cardtonic.com
 - group: other
   title: ''
   type: Dashboard
@@ -70,27 +83,35 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://cardtonic.com/login
+  url: https://dashboard.cardtonic.com/signin
 - group: start
   title: ''
-  type: Signup
-  url: https://cardtonic.com/register
+  type: SignUp
+  url: https://dashboard.cardtonic.com/signup
 - group: company
   title: ''
   type: About
-  url: https://cardtonic.com/about
+  url: https://thetonictech.com/about-us
 - group: company
   title: ''
   type: Blog
-  url: https://cardtonic.com/blog
+  url: https://cardtonic.com/read
 - group: operate
   title: ''
-  type: FAQ
-  url: https://cardtonic.com/faq
+  type: HelpCenter
+  url: https://help.cardtonic.com/en/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.cardtonic.com/en/
 - group: operate
   title: ''
   type: Contact
-  url: https://cardtonic.com/contact
+  url: https://cardtonic.com/contact-us
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.cardtonic.com/
 - group: commercial
   title: ''
   type: TermsOfService
@@ -106,31 +127,71 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/cardtonic
+  url: https://www.linkedin.com/company/thetonictech
 - group: company
   title: ''
   type: Instagram
-  url: https://www.instagram.com/cardtonic/
+  url: https://www.instagram.com/cardtonic
 - group: agent
   title: ''
   type: LlmsText
   url: https://cardtonic.com/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cardtonic-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cardtonic-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/cardtonic-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cardtonic-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cardtonic-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cardtonic-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cardtonic-rate-limits.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cardtonic-domain-security.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cardtonic-finops.yml
 created: '2025-02-08'
-description: Cardtonic is an Africa-focused fintech platform that lets users trade gift cards (sell unused cards for cash and buy over 14,000 local and international gift cards), issue virtual dollar cards, pay bills (airtime, data, electricity, TV, betting), purchase eSIMs in 140+ countries, and shop for gadgets through its Just Gadgets storefront. Cardtonic supports Naira and Cedi settlement for users in Nigeria and Ghana, holds PCI DSS certification, and operates under Nigeria Data Protection Commission (NDPC) oversight. For businesses, Cardtonic offers a Gift Card Developer API (currently waitlist-only) that lets merchants embed gift card purchasing, sales, bulk ordering, inventory, and redemption into websites, mobile apps, and point-of-sale systems.
+description: Cardtonic is an Africa-focused fintech platform, operated by The Tonic Technologies, that lets users trade gift cards (sell unused cards for cash and buy over 14,000 local and international gift cards), issue virtual dollar cards, pay bills (airtime, data, electricity, TV, betting), purchase eSIMs in 140+ countries, and shop for gadgets through its Just Gadgets storefront. Cardtonic supports Naira and Cedi settlement for users in Nigeria and Ghana, carries a PCI DSS certification badge, and is registered with the Nigeria Data Protection Commission (NDPC) as a Data Controller of Major Importance under the Nigeria Data Protection Act 2023. For businesses, Cardtonic advertises a Gift Card Developer API (waitlist-only, no published contract) and separately publishes a real OpenAPI 3.0.1 contract for its Business API - business signup, login, 2FA, BVN and corporate KYC, and API-key issuance - through an Apidog-hosted documentation site at docs.cardtonic.com, against the base https://api.cardtonic.com/v1.
 finops:
 - name: Cardtonic Finops
   service_category: Fintech / Gift Cards
   slug: cardtonic-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cardtonic.png
 layout: provider
-modified: '2026-04-23'
+mcp_servers:
+- description: A CANDIDATE tool list derived from Cardtonic's published OpenAPI operations. Cardtonic ships no MCP server of any kind. Nothing below is offered by the provider; each entry inherits its input schema f
+  name: Cardtonic MCP Server
+  slug: cardtonic-mcp-server
+modified: '2026-09-05'
 name: Cardtonic
 nav: Providers
 network: true
-overview: 'Cardtonic publishes 1 API on the [APIs.io](https://apis.io/) network: Gift Card Developer API. Tagged areas include Africa, Bill Payments, eSIM, Finance, and Fintech.
+overview: 'Cardtonic publishes 1 API on the [APIs.io](https://apis.io/) network: Business API. Tagged areas include Africa, Bill Payments, eSIM, Finance, and Fintech.
 
 
-  Cardtonic''s developer surface includes signup flow, engineering blog, FAQ, and 13 more developer resources.'
+  Cardtonic''s developer surface includes documentation, API reference, signup flow, engineering blog, support, and 24 more developer resources.'
 plans:
 - name: Cardtonic Plans Pricing
   plan_count: 1
@@ -141,37 +202,55 @@ rate_limits:
   name: Cardtonic Rate Limits
   slug: cardtonic-rate-limits
 score:
-  band: emerging
-  composite: 23.1
+  band: developing
+  composite: 54.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 42.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    artifact_dirs: 21
+    catalog_earned: 51.0
+    catalog_earned_first_party: 16.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 30.9
   facets:
-    access_clarity: 40.8
-    commercial_clarity: 40.8
-    contract_governance: 0.0
-    contract_quality: 26.7
-    developer_ergonomics: 9.5
-    discoverability: 72.2
-    governance: 0.0
-    operational_transparency: 5.3
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 18.2
+    contract_quality: 43.5
+    developer_ergonomics: 54.2
+    discoverability: 66.7
+    governance: 18.2
+    operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - africa
   previous_composite: 23.1
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 21.9
+    score: 68.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardtonic/refs/heads/main/screenshots/cardtonic-2026-06-20T173956.png
 security:
+- kind: authentication
+  name: Cardtonic Authentication
+  slug: cardtonic-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Cardtonic Domain Security
   slug: cardtonic-domain-security

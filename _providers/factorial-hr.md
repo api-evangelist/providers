@@ -26,15 +26,15 @@ agent_readiness:
     event_surface_described: true
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 34.2
-  scored_at: '2026-09-04'
+  score: 31.7
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,7 +114,15 @@ apis:
   description: The Core::Me API from Factorial — 1 operation(s) for core::me.
   name: Factorial Core::Me API
   slug: factorial-hr-core-me-api
-artifact_total: 57
+- description: Versioned REST API for managing employees, contracts, leaves, attendance shifts, time off, documents, and other HR resources in Factorial. Supports API key (Bearer token) and OAuth 2.0 authentication,
+  name: Factorial Developer API
+  slug: developer-api
+- baseURL: https://api.factorialhr.com
+  baseurl_source: declared
+  description: The Resources API from Factorial — 16 operation(s) for resources.
+  name: Factorial Resources API
+  slug: factorial-resources-api
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -372,7 +380,7 @@ modified: '2026-05-25'
 name: Factorial
 nav: Providers
 network: true
-overview: 'Factorial publishes 2 APIs on the [APIs.io](https://apis.io/) network: Core::Employees::V2 API and Core::Me API. Tagged areas include HR, Human Resources, Payroll, Time Off, and Time Tracking.
+overview: 'Factorial publishes 3 APIs on the [APIs.io](https://apis.io/) network: Core::Employees::V2 API, Core::Me API, and Resources API. Tagged areas include HR, Human Resources, Payroll, Time Off, and Time Tracking.
 
 
   The Factorial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -417,7 +425,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.7
+  composite: 52.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 70.5
@@ -425,16 +433,24 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 64.5
     commercial_clarity: 64.5
     contract_governance: 28.8
-    contract_quality: 63.1
-    developer_ergonomics: 53.6
+    contract_quality: 65.2
+    developer_ergonomics: 47.6
     discoverability: 59.3
     governance: 28.8
     operational_transparency: 30.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - spain
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - france-iberia
   previous_composite: 52.7
   provenance:
     agentic_access: derived
@@ -442,9 +458,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factorial-hr/refs/heads/main/screenshots/factorial-hr-2026-06-20T181038.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: Real-time GNSS corrections delivered as continuously-open NTRIP streams. A client opens an HTTP GET against a regional caster mountpoint with HTTP Basic credentials issued per device, and the caster w
@@ -923,7 +923,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift-navigation/refs/heads/main/screenshots/swift-navigation-2026-09-02T161356.png
 security:

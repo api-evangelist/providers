@@ -22,21 +22,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 18.9
-  scored_at: '2026-09-04'
+  score: 21.9
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://api.webapp.prod.blv.foodcase-services.com/BLV_WebApp_WS
@@ -203,6 +203,14 @@ score:
     discoverability: 68.5
     governance: 4.5
     operational_transparency: 26.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - switzerland
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
   previous_composite: 41.9
   provenance:
     conformance: derived
@@ -220,7 +228,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swiss-food-composition-database/refs/heads/main/screenshots/swiss-food-composition-database-2026-09-02T161420.png
 security:

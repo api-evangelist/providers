@@ -1,6 +1,6 @@
 {
- "total": 34,
- "shown": 34,
+ "total": 36,
+ "shown": 36,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -88,7 +88,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -151,7 +151,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -203,7 +203,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 27.1,
      "agent_band": "agent-aware",
@@ -235,7 +235,7 @@
      "slug": "university-of-lausanne",
      "description": "The University of Lausanne (UNIL) is a public research university in Lausanne, Switzerland, founded in 1537, with roughly 17,000 students across seven faculties and ROR identifier https://ror.org/019whta54. UNIL publishes no developer portal, no API key programme, no API terms and no changelog, and no central catalogue of its own interfaces exists — but unlike most of this cohort its small programmable footprint is genuinely its own rather than a vendor's contract wearing its name. Three surfaces answer anonymously on UNIL's own registrable domain: the SPICA single-cell / spatial atlas JSON API at spica.unil.ch; the IRIS institutional research repository's DSpace-CRIS REST API at api.unil.ch/iris/server/api, behind a Kong gateway, with 253,799 indexed objects reachable through Discovery search while /core/items and /core/bitstreams answer 401; and two anonymous OAI-PMH 2.0 harvesting contexts on the same host, one of them declaring OpenAIRE Guidelines for CRIS Managers v1.1. Beyond the contracts, UNIL operates its own Shibboleth identity provider (entityID https://aai.unil.ch/idp/shibboleth, scope unil.ch) registered in SWITCHaai and exported to eduGAIN, and holds a DataCite repository registration minting DOIs under prefix 10.48657. Everything else — student information, timetables, course registration — sits behind the my.unil.ch SSO gateway and is not documented as an API anywhere. No OpenAPI, AsyncAPI or MCP server is published by UNIL itself; every contract in this repository was written by API Evangelist from live probes and is marked as such.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-lausanne/refs/heads/main/screenshots/university-of-lausanne-2026-06-20T200157.png",
-     "score": 50.5,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -243,12 +243,12 @@
       "contract_quality": 58.9,
       "governance": 35.6,
       "contract_governance": 35.6,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 35.7,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 33.3,
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -300,7 +300,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -309,15 +309,15 @@
       "score": 50.0,
       "matched_via": "tags"
      },
-     "agent_score": 32.5,
+     "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
@@ -326,7 +326,7 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -352,7 +352,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
@@ -380,50 +380,6 @@
      "rank": 7
     },
     {
-     "name": "Wingtra",
-     "slug": "wingtra",
-     "description": "Wingtra AG is a Swiss drone manufacturer headquartered at Giesshübelstrasse 40 in Zürich, with a second office in Fort Lauderdale, Florida. It builds the WingtraOne GEN II and WingtraRAY VTOL tail-sitter mapping drones — fixed-wing aircraft that take off and land vertically — together with the RGB, multispectral and LiDAR payloads they carry, the WingtraGROUND GNSS base station, and the software that turns a flight into survey-grade output: the tablet-based Wingtra App for flight planning and capture, and the browser-based WingtraCLOUD for site organization, PPK geotagging, coordinate transformation across 6,500-plus published coordinate systems, photogrammetry processing and sharing, sold in WingtraESSENTIAL, WingtraPRO and WingtraUNLIMITED tiers. Wingtra publishes no developer portal, API reference, SDK or partner API program. Its machine-readable surface is incidental rather than offered: the customer and partner portal at my.wingtra.com is backed by a GraphQL API at api.my.wingtra.com whose schema answers anonymous introspection, and the WingtraCLOUD web client calls a versioned REST API at api.sky.wingtra.com that is closed to unauthenticated callers. Integration with the wider geospatial toolchain is delivered as file exchange — Trimble Business Center, ArcGIS Online, Propeller, Pix4D, Bentley iTwin and DroneDeploy — not as an API.",
-     "score": 43.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 37.2,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 84.2,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 33.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 8
-    },
-    {
      "name": "Coorpacademy",
      "slug": "coorpacademy",
      "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
@@ -441,7 +397,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -473,7 +429,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "EPFL",
@@ -493,7 +449,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -502,15 +458,15 @@
       "score": 75.9,
       "matched_via": "tags"
      },
-     "agent_score": 24.4,
+     "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": false,
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": "na",
+      "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "documented",
       "rate_limit_signal": "documented",
@@ -519,10 +475,54 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
+      "dry_run_mode": false,
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
+     "name": "Wingtra",
+     "slug": "wingtra",
+     "description": "Wingtra AG is a Swiss drone manufacturer headquartered at Giesshübelstrasse 40 in Zürich, with a second office in Fort Lauderdale, Florida. It builds the WingtraOne GEN II and WingtraRAY VTOL tail-sitter mapping drones — fixed-wing aircraft that take off and land vertically — together with the RGB, multispectral and LiDAR payloads they carry, the WingtraGROUND GNSS base station, and the software that turns a flight into survey-grade output: the tablet-based Wingtra App for flight planning and capture, and the browser-based WingtraCLOUD for site organization, PPK geotagging, coordinate transformation across 6,500-plus published coordinate systems, photogrammetry processing and sharing, sold in WingtraESSENTIAL, WingtraPRO and WingtraUNLIMITED tiers. Wingtra publishes no developer portal, API reference, SDK or partner API program. Its machine-readable surface is incidental rather than offered: the customer and partner portal at my.wingtra.com is backed by a GraphQL API at api.my.wingtra.com whose schema answers anonymous introspection, and the WingtraCLOUD web client calls a versioned REST API at api.sky.wingtra.com that is closed to unauthenticated callers. Integration with the wider geospatial toolchain is delivered as file exchange — Trimble Business Center, ArcGIS Online, Propeller, Pix4D, Bentley iTwin and DroneDeploy — not as an API.",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 37.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 77.6,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 33.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
       "agentic_commerce": false
      },
      "rank": 10
@@ -545,7 +545,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -554,15 +554,15 @@
       "score": 57.4,
       "matched_via": "tags"
      },
-     "agent_score": 18.9,
+     "agent_score": 21.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "na",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -571,7 +571,7 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -608,7 +608,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -660,7 +660,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -712,7 +712,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -756,7 +756,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -765,15 +765,15 @@
       "score": 31.3,
       "matched_via": "tags"
      },
-     "agent_score": 21.8,
+     "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
-      "reversibility_documented": false,
+      "reversibility_documented": "na",
       "mcp_server": false,
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "na",
       "error_semantics": "documented",
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -782,7 +782,7 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
@@ -808,7 +808,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -847,7 +847,7 @@
      "slug": "university-of-bern",
      "description": "The University of Bern (Universität Bern), founded in 1834, is a comprehensive public research university in the Swiss capital with around 16,000 students across eight faculties. It is a federation of buyers rather than an API producer: it operates no developer portal, publishes no OpenAPI, AsyncAPI, JSON Schema, apis.json, llms.txt or agent card on any host it controls, and offers no self-service API onboarding of any kind. What it does operate is protocol- and identity-shaped. Two OAI-PMH 2.0 harvesting endpoints run on its own hosts — BORIS Portal, the institutional repository and CRIS on DSpace, and BOP Serials, the Bern Open Publishing OJS platform — and both answered verb=Identify live. The University Library publishes an Upptime status page whose per-service JSON is the only genuinely open, machine-readable HTTP API in this profile. The university runs its own Shibboleth Identity Provider inside the SWITCHaai federation (entityID https://aai-idp.unibe.ch/idp/shibboleth, scope unibe.ch, 52 service providers), and it is a direct DataCite member (symbol UNIBE) with five registered repositories. Everything transactional is closed: BORIS Portal's DSpace REST API is not merely authenticated but deliberately suspended for the public — the whole host answers every anonymous request with a \"Temporary Access Restriction\" page citing automated-traffic volume and allowing only the University of Bern network, the Inselspital network and university VPN — and the OJS REST API returns api.403.unauthorized. Library discovery runs on a vendor platform under a Bern-specific tenant view (swisscovery / Ex Libris Primo VE), and the course system KSL sits behind SWITCH AAI. The library's much-linked \"APIs\" page is a curated guide to OTHER organizations' APIs (OpenAlex, Crossref, Scopus, Elsevier, IEEE), not to anything Bern operates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-bern/refs/heads/main/screenshots/university-of-bern-2026-06-20T200135.png",
-     "score": 30.8,
+     "score": 30.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -855,12 +855,12 @@
       "contract_quality": 14.3,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 26.3,
+      "operational_transparency": 23.7,
       "developer_ergonomics": 16.7,
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -912,7 +912,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -953,8 +953,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "MindMaze",
@@ -974,7 +974,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1033,7 +1033,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1085,7 +1085,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1130,7 +1130,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1193,7 +1193,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1245,7 +1245,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1296,7 +1296,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1341,7 +1341,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -1386,7 +1386,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1412,6 +1412,57 @@
       "agentic_commerce": false
      },
      "rank": 27
+    },
+    {
+     "name": "21Shares",
+     "slug": "21shares",
+     "description": "21Shares AG is a Swiss-headquartered issuer of physically backed cryptocurrency exchange-traded products (ETPs), founded in 2018 as Amun AG and part of the 21.co group. It runs the largest suite of crypto ETPs in the world — single-asset, staking, and index/basket products covering Bitcoin, Ethereum, Solana, XRP and dozens of other assets — listed on regulated European exchanges including SIX Swiss Exchange, Xetra and Euronext, and distributed through banks and brokers. The product is a regulated financial instrument, not software: 21Shares publishes no developer program, no public API reference and no SDKs. What it does publish machine-readably is regulatory distribution data — the FinDatEx European MiFID Template (EMT V4.2), European PRIIPs Template (EPT) and European ESG Template (EET V1.1.3) spreadsheets covering its full ETP range with ISINs, costs and target-market data — plus PRIIPs KIDs, prospectuses, final terms and factsheets as PDFs, and an RSS research feed.",
+     "score": 12.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 28
     }
    ]
   },
@@ -1420,18 +1471,18 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "WayRay",
      "slug": "wayray",
      "description": "WayRay AG was a Swiss deep-tech company, founded in 2012 by Vitaly Ponomarev and headquartered in Zurich, that developed holographic augmented-reality displays for the automotive industry — the Deep Reality Display, an embedded holographic optical element laminated into a vehicle windshield, paired with an AR rendering engine and the True AR SDK for building in-vehicle AR applications. The company raised roughly $140M from Porsche, Hyundai, Alibaba and others and shipped concept integrations with Pininfarina and Karma Automotive, but the Zurich probate court declared its bankruptcy effective 14 August 2023 and its assets have been in liquidation since. The marketing site at wayray.com remains standing as a static archive; the developer surface it once advertised (the True AR SDK download at wayray.com/sdk, a C++ toolkit with an emulator, simulator, docs and samples) now returns 404, and no public web API, OpenAPI, developer portal or package registry presence survives.",
-     "score": 9.7,
+     "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1440,7 +1491,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1465,7 +1516,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Zurich Open Data",
@@ -1485,7 +1536,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1517,13 +1568,12 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
-     "name": "Bright Peak Therapeutics",
-     "slug": "bright-peak-therapeutics",
-     "description": "Bright Peak Therapeutics AG is a clinical-stage biotechnology company founded in 2018 and co-located in Allschwil, Switzerland (Switzerland Innovation Park Basel Area) and San Diego / Del Mar, California. The company engineers next-generation multi-functional immunotherapies for cancer and autoimmune disease, using a protein-engineering and site-specific chemical-conjugation platform to build multi-functional PD-1 inhibitors and cytokine immunoconjugates that combine novel and clinically validated mechanisms in a single molecule. Its lead program, BPT567, is a first-in-class PD1-IL18 immunoconjugate that entered a Phase 1/2a clinical trial. The company has raised a USD 90 million Series C led by Johnson & Johnson Innovation (JJDC) alongside Versant Ventures, RA Capital Management, Fidelity, Qatar Investment Authority, Invus, Venrock, KB Investment, Alexandria Venture Investments and Northleaf Capital Partners. Bright Peak is a therapeutics developer, not a software company: it publishes a corporate marketing site and no public developer program, API, SDK or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bright-peak-therapeutics/refs/heads/main/screenshots/bright-peak-therapeutics-2026-09-02T144943.png",
+     "name": "4D Lifetec",
+     "slug": "4dlifetec",
+     "description": "4D Lifetec AG is a Swiss in-vitro diagnostics company headquartered at Gewerbestrasse 8, 6330 Cham, Switzerland, developing the 4D Lifetest — a non-invasive, immuno-oncological blood test for the early detection of cancer. The test reads a proprietary DNA Damage Sensitivity (DDS) biomarker from a liquid biopsy using single-cell gel electrophoresis (the comet assay), run on the company's own 4D Lifechamber instrument for a fully automated and standardized procedure and scored by 4D LifeAI, its trained image analysis software. The flagship product is 4D Lifetest Lung Dx, with 4D Lifetest Breast Dx, Prostate Dx and Colon Dx as further assays in the same platform, and the company holds patent protection across the US, Europe, China and other territories. 4D Lifetec is a diagnostics manufacturer and laboratory-services company, not a software vendor. Its public web presence is an eight-page SilverStripe marketing and investor-relations site with no developer portal, no API reference, no SDKs, no public GitHub organization and no machine-readable specification of any kind; probing every documented contract location on 4dlifetec.com — /openapi.json, /swagger.json, /api-docs, /graphql, /llms.txt and the full /.well-known/ path list — returned the site's SilverStripe 404 page in every case, and no api, docs, developer, portal or app subdomain resolves in DNS. The only software the company describes, 4D LifeAI, is embedded in the instrument rather than exposed as a service.",
      "score": 9.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1537,7 +1587,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1569,7 +1619,59 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
+    },
+    {
+     "name": "Bright Peak Therapeutics",
+     "slug": "bright-peak-therapeutics",
+     "description": "Bright Peak Therapeutics AG is a clinical-stage biotechnology company founded in 2018 and co-located in Allschwil, Switzerland (Switzerland Innovation Park Basel Area) and San Diego / Del Mar, California. The company engineers next-generation multi-functional immunotherapies for cancer and autoimmune disease, using a protein-engineering and site-specific chemical-conjugation platform to build multi-functional PD-1 inhibitors and cytokine immunoconjugates that combine novel and clinically validated mechanisms in a single molecule. Its lead program, BPT567, is a first-in-class PD1-IL18 immunoconjugate that entered a Phase 1/2a clinical trial. The company has raised a USD 90 million Series C led by Johnson & Johnson Innovation (JJDC) alongside Versant Ventures, RA Capital Management, Fidelity, Qatar Investment Authority, Invus, Venrock, KB Investment, Alexandria Venture Investments and Northleaf Capital Partners. Bright Peak is a therapeutics developer, not a software company: it publishes a corporate marketing site and no public developer program, API, SDK or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bright-peak-therapeutics/refs/heads/main/screenshots/bright-peak-therapeutics-2026-09-02T144943.png",
+     "score": 9.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 32
     },
     {
      "name": "Tecost SA",
@@ -1588,7 +1690,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1620,7 +1722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "Swiss Education Group",
@@ -1640,7 +1742,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1672,7 +1774,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 34
     },
     {
      "name": "Nouscom",
@@ -1692,7 +1794,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1724,7 +1826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 35
     },
     {
      "name": "Myriad",
@@ -1743,7 +1845,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -1775,7 +1877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 36
     }
    ]
   }

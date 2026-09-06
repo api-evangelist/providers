@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://www.fbn.com
@@ -61,7 +61,16 @@ apis:
   description: 'Norm is FBN''s LLM-based AI agronomy advisor, answering members'' questions on seed selection, crop protection, pest and disease management, irrigation, fertilization, and rotation. Free for registered '
   name: Norm AI Advisor
   slug: norm-ai-advisor
-artifact_total: 11
+- description: The fbn.com member application - account, farm, and field management plus access to agronomy insights, pricing transparency, and marketplace ordering. Member-only product, not a public API.
+  name: FBN Member Platform
+  slug: member-platform
+- description: Precision-agronomy product that ingests planting, application, and harvest data from 60+ precision monitor types, normalizes it, and benchmarks performance across the FBN network. Surface is the FBN m
+  name: FBN Analytics
+  slug: analytics
+- description: Direct-to-farmer e-commerce marketplace for crop inputs - seed, crop protection, adjuvants, and animal health - with transparent pricing and direct-to-farm delivery. Member-only ordering surface.
+  name: FBN Direct Marketplace
+  slug: marketplace
+artifact_total: 14
 collections:
 - collection_type: open
   name: API Collection
@@ -145,7 +154,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 security:
 - kind: domain-security

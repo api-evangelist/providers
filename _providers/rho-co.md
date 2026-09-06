@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Rho exposes APIs for partners and customers to embed Rho banking and payments capabilities, including a Virtual Card API for programmatically issuing cards and a Vendor Onboarding API for embedding pa
@@ -110,7 +110,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/screenshots/rho-co-2026-06-20T193109.png
 security:

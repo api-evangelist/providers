@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,52 @@ apis:
   description: Returns treaty data from the API
   name: Library of Congress treaty API
   slug: loc-treaty-api
-artifact_total: 61
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Bills API from Library of Congress — 3 operation(s) for bills.
+  name: Library of Congress Bills API
+  slug: library-of-congress-bills-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Committees API from Library of Congress — 1 operation(s) for committees.
+  name: Library of Congress Committees API
+  slug: library-of-congress-committees-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Congressional Record API from Library of Congress — 1 operation(s) for congressional record.
+  name: Library of Congress Congressional Record API
+  slug: library-of-congress-congressional-record-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Issues API from Library of Congress — 1 operation(s) for issues.
+  name: Library of Congress Issues API
+  slug: library-of-congress-issues-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Laws API from Library of Congress — 1 operation(s) for laws.
+  name: Library of Congress Laws API
+  slug: library-of-congress-laws-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Members API from Library of Congress — 2 operation(s) for members.
+  name: Library of Congress Members API
+  slug: library-of-congress-members-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Pages API from Library of Congress — 1 operation(s) for pages.
+  name: Library of Congress Pages API
+  slug: library-of-congress-pages-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Resources API from Library of Congress — 1 operation(s) for resources.
+  name: Library of Congress Resources API
+  slug: library-of-congress-resources-api
+- baseURL: https://www.loc.gov
+  baseurl_source: declared
+  description: The Titles API from Library of Congress — 3 operation(s) for titles.
+  name: Library of Congress Titles API
+  slug: library-of-congress-titles-api
+artifact_total: 70
 collections:
 - collection_type: open
   name: API Collection
@@ -338,7 +383,7 @@ modified: '2026-06-13'
 name: Library of Congress
 nav: Providers
 network: true
-overview: 'Library of Congress publishes 24 APIs on the [APIs.io](https://apis.io/) network, including amendments API, bill API, bound-congressional-record API, and 21 more. Tagged areas include Library, Government, Congress, Legislative Data, and Digital Collections.
+overview: 'Library of Congress publishes 33 APIs on the [APIs.io](https://apis.io/) network, including amendments API, bill API, bound-congressional-record API, and 30 more. Tagged areas include Library, Government, Congress, Legislative Data, and Digital Collections.
 
 
   The Library of Congress catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -367,7 +412,7 @@ rules:
   slug: loc-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 43.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 66.3
@@ -375,13 +420,13 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 9.8
-    contract_quality: 54.3
-    developer_ergonomics: 23.8
+    contract_quality: 54.5
+    developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 5.3
@@ -389,10 +434,10 @@ score:
   provenance:
     agentic_access: derived
     contracts:
-      callable: 0.0
+      callable: 27.3
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 33
   regulatory:
     applies: true
     matched_via: tags
@@ -400,7 +445,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loc/refs/heads/main/screenshots/loc-2026-06-20T184630.png
 security:

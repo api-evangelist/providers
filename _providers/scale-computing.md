@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: On-appliance REST API exposed by every SC//HyperCore (HC3) clustered node for automating virtual machines, virtual disks, networks, snapshots, snapshot schedules, replication, node and cluster operati
@@ -309,7 +309,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scale-computing/refs/heads/main/screenshots/scale-computing-2026-09-02T154508.png
 security:

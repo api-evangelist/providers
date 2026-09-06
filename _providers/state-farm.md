@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -65,7 +65,25 @@ apis:
   description: Renters insurance quote operations
   name: State Farm Quotes API
   slug: state-farm-quotes-api
-artifact_total: 25
+- description: The State Farm Homeowners Insurance API enables mortgage lenders, real estate platforms, and partner networks to offer homeowners insurance quoting and policy integration. Supports closing day insuran
+  name: Homeowners Insurance API
+  slug: homeowners-insurance-api
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Coverage options and details
+  name: State Farm Insurance Coverage API
+  slug: state-farm-insurance-coverage-api
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Renters insurance policy operations
+  name: State Farm Insurance Policies API
+  slug: state-farm-insurance-policies-api
+- baseURL: https://api.statefarm.com/v1
+  baseurl_source: declared
+  description: Renters insurance quote operations
+  name: State Farm Insurance Quotes API
+  slug: state-farm-insurance-quotes-api
+artifact_total: 29
 collections:
 - collection_type: open
   name: API Collection
@@ -203,7 +221,7 @@ modified: '2026-05-19'
 name: State Farm
 nav: Providers
 network: true
-overview: 'State Farm publishes 3 APIs on the [APIs.io](https://apis.io/) network: Coverage API, Policies API, and Quotes API.
+overview: 'State Farm publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Coverage API, Policies API, Quotes API, and 3 more.
 
 
   The State Farm catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -273,12 +291,12 @@ score:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
-      total: 3
+      total: 6
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -269,7 +269,7 @@ score:
     regime_id: health
     score: 27.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/screenshots/galatea-bio-2026-08-17T080949.png
 security:

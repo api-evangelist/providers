@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'Public REST API (OpenAPI 3.1) providing access to the x402 services directory, uptime, pricing, facilitator volumes, networks, stats, rankings, and change events. Free reads (rate-limited), with x402 '
@@ -167,7 +167,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 security:
 - kind: authentication

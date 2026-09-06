@@ -29,11 +29,11 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 11.5
-  scored_at: '2026-09-04'
+  score: 24.5
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -288,8 +288,8 @@ rules:
     warn: 0
   slug: analog-devices-spectral-rules
 score:
-  band: thin
-  composite: 38.8
+  band: developing
+  composite: 42.5
   coverage:
     artifact_dirs: 26
     catalog_earned: 63.3
@@ -297,13 +297,13 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.7
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
+    access_clarity: 18.4
+    commercial_clarity: 18.4
     contract_governance: 43.2
-    contract_quality: 10.7
-    developer_ergonomics: 75.0
+    contract_quality: 37.3
+    developer_ergonomics: 65.5
     discoverability: 81.5
     governance: 43.2
     operational_transparency: 23.7
@@ -313,7 +313,7 @@ score:
     mcp: derived
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/analog-devices/refs/heads/main/screenshots/analog-devices-2026-08-07T161354.png
 security:

@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-04'
+  score: 28.1
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -71,7 +71,27 @@ apis:
   description: Manage workspaces that isolate pipelines and data.
   name: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
-artifact_total: 19
+- baseURL: http://localhost:1416
+  baseurl_source: declared
+  description: The config API from Haystack — 4 operation(s) for config.
+  name: Haystack Config API
+  slug: haystack-config-api
+- baseURL: http://localhost:1416
+  baseurl_source: declared
+  description: The dashboard API from Haystack — 5 operation(s) for dashboard.
+  name: Haystack Dashboard API
+  slug: haystack-dashboard-api
+- baseURL: http://localhost:1416
+  baseurl_source: declared
+  description: The openai API from Haystack — 8 operation(s) for openai.
+  name: Haystack Openai API
+  slug: haystack-openai-api
+- baseURL: http://localhost:1416
+  baseurl_source: declared
+  description: The status API from Haystack — 2 operation(s) for status.
+  name: Haystack Status API
+  slug: haystack-status-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -156,7 +176,7 @@ modified: '2026-08-08'
 name: Haystack / deepset
 nav: Providers
 network: true
-overview: 'Haystack / deepset publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Files API, Pipelines API, Search API, and 1 more. Tagged areas include Artificial Intelligence, LLM, RAG, Open-Source, and Orchestration.
+overview: 'Haystack / deepset publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Files API, Pipelines API, Search API, and 5 more. Tagged areas include Artificial Intelligence, LLM, RAG, Open-Source, and Orchestration.
 
 
   Haystack / deepset''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
@@ -171,34 +191,34 @@ rate_limits:
   slug: haystack-ai-rate-limits
 score:
   band: thin
-  composite: 36.9
+  composite: 38.3
   coverage:
     artifact_dirs: 12
-    catalog_earned: 60.0
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 1.4
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
     contract_governance: 0.0
-    contract_quality: 53.3
-    developer_ergonomics: 28.6
-    discoverability: 75.9
+    contract_quality: 50.6
+    developer_ergonomics: 44.0
+    discoverability: 66.7
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 37.6
+  previous_composite: 36.9
   provenance:
     agentic_access: derived
     contracts:
-      callable: 100.0
+      callable: 50.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/screenshots/haystack-ai-2026-06-20T182543.png
 security:

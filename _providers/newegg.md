@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Seller integration API for the Newegg marketplaces covering item, order, shipping-label, RMA, datafeed, report, seller, and SBN management. Requests and responses are JSON or XML, authenticated with p
@@ -165,7 +165,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 29.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newegg/refs/heads/main/screenshots/newegg-2026-08-07T185106.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -40,10 +40,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/convergys-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.concentrix.com
 - group: company
   title: ''
   type: LegacyWebsite
@@ -91,7 +87,7 @@ network: true
 overview: 'Convergys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Analytics, Business Process Outsourcing, Concentrix, and Contact Center.
 
 
-  Convergys'' developer surface includes product news, engineering blog, and 9 more developer resources.'
+  Convergys'' developer surface includes product news, engineering blog, and 8 more developer resources.'
 press:
 - date: '2026-05-25'
   title: NEC to acquire Convergys data management business for US ...
@@ -129,9 +125,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 5.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/screenshots/convergys-2026-06-20T174957.png
 security:
@@ -149,5 +151,4 @@ tags:
 - Customer Experience
 - Customer Management
 - Workforce Management
-website: https://www.concentrix.com
 ---

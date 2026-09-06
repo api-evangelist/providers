@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 20
 common:
@@ -161,7 +161,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 10.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chips-alliance/refs/heads/main/screenshots/chips-alliance-2026-06-20T174320.png
 security:

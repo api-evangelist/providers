@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 3
 apis:
 - description: The Sync API bidder platform provides enterprise-grade APIs for the in-app advertising ecosystem. The platform supports real-time bidding (RTB), user acquisition optimization, LTV (Lifetime Value) for
@@ -133,7 +133,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sync-api/refs/heads/main/screenshots/sync-api-2026-06-20T194823.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: SOAP web service for the ConcreteGO cloud dispatch platform. Uses an RSA public-key credential exchange (GetPublicKey) and a session login (Login/Login2) with a Sysdyne-issued AppID/AppKey, then submi
@@ -131,7 +131,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysdyne/refs/heads/main/screenshots/sysdyne-2026-09-02T161652.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Cryptocurrency Trading Platform
@@ -110,7 +110,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kucoin/refs/heads/main/screenshots/kucoin-2026-06-20T184213.png
 security:

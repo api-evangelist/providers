@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 219
   human_in_the_loop: 24
@@ -461,6 +461,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
   previous_composite: 39.6
   provenance:
     agentic_access: derived
@@ -470,7 +475,7 @@ score:
       marker_coverage: 0.0
       total: 37
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exoscale/refs/heads/main/screenshots/exoscale-2026-08-17T123426.png
 security:

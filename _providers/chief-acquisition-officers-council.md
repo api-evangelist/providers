@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'The CAOC publishes its charter, membership roster, meeting summaries, working group output, and federal acquisition guidance through Acquisition.gov. The Council does not expose a dedicated developer '
@@ -45,10 +45,14 @@ common:
   title: ''
   type: DomainSecurity
   url: security/chief-acquisition-officers-council-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/chief-acquisition-officers-council-llms.txt
 - group: company
   title: ''
   type: Website
-  url: https://www.acquisition.gov/caoc
+  url: https://www.acquisition.gov
 - group: other
   title: ''
   type: Home
@@ -68,7 +72,7 @@ common:
 - group: other
   title: ''
   type: ParentOrganization
-  url: https://www.whitehouse.gov/omb/management/office-federal-procurement-policy/
+  url: https://www.whitehouse.gov/omb/
 - group: other
   title: ''
   type: USAGov
@@ -80,7 +84,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.acquisition.gov/privacy
+  url: https://www.acquisition.gov/Privacy_Security
 - group: other
   title: ''
   type: WorkingGroups
@@ -93,6 +97,20 @@ common:
   title: ''
   type: Blog
   url: https://www.acquisition.gov/rss.xml
+coverage:
+  checked: '2026-09-05'
+  detail: The Council is a statutory interagency forum, not a software publisher — it ships no product, operates no host of its own, and publishes through GSA's Acquisition.GOV, where its own CAOC pages now answer HTTP 403 to anonymous fetches and are absent from the site sitemap while every contract-discovery path on the host returns 404.
+  evidence:
+  - status: 403
+    url: https://www.acquisition.gov/cao-home
+  - status: 404
+    url: https://www.acquisition.gov/openapi.json
+  - status: 404
+    url: https://www.acquisition.gov/.well-known/api-catalog
+  - status: 404
+    url: https://www.acquisition.gov/developers
+  reason: not-a-software-company
+  state: none
 created: '2024-12-03'
 description: The Chief Acquisition Officers Council (CAOC) is a senior interagency forum established pursuant to Section 16 of the Office of Federal Procurement Policy Act (41 USC 1311). The Council brings together the Chief Acquisition Officers (CAOs), the Under Secretary of Defense for Acquisition and Sustainment, and the Senior Procurement Executives of Executive Branch agencies to monitor and improve the federal acquisition system, promote effective business practices, deliver best-value products and services, and further integrity, fairness, competition, and openness in federal procurement. The CAOC publishes resources, charters, working group output, and guidance through Acquisition.gov, and operates alongside the Federal Acquisition Regulatory Council and the Office of Management and Budget's Office of Federal Procurement Policy (OFPP).
 features:
@@ -109,52 +127,52 @@ finops:
   slug: chief-acquisition-officers-council-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chief-acquisition-officers-council.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-09-05'
 name: Chief Acquisition Officers Council
 nav: Providers
 network: true
 overview: 'Chief Acquisition Officers Council publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Acquisition, CAOC, FAR, Federal-Government, and GSA.
 
 
-  Chief Acquisition Officers Council''s developer surface includes engineering blog and 10 more developer resources.'
+  Chief Acquisition Officers Council''s developer surface includes engineering blog and 11 more developer resources.'
 plans:
 - name: Chief Acquisition Officers Council Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: chief-acquisition-officers-council-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Chief Acquisition Officers Council Rate Limits
   slug: chief-acquisition-officers-council-rate-limits
 score:
-  band: minimal
-  composite: 10.9
+  band: emerging
+  composite: 12.3
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
+    artifact_dirs: 8
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 18.4
+    commercial_clarity: 18.4
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 11.9
-    discoverability: 59.3
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 0.0
   previous_composite: 10.9
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
+    score: 18.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chief-acquisition-officers-council/refs/heads/main/screenshots/chief-acquisition-officers-council-2026-06-20T174313.png
 security:
@@ -181,5 +199,5 @@ use_cases:
 - name: Federal Procurement Reporting
 - name: Cross-Agency Best Practice Sharing
 - name: Industry-Government Collaboration
-website: https://www.acquisition.gov/caoc
+website: https://www.acquisition.gov
 ---

@@ -23,21 +23,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: documented
+    idempotency: na
     mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-09-04'
+  score: 42.1
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://account.shieldlabs.ai/api
@@ -61,6 +61,10 @@ asyncapis:
   name: Shieldlabs Webhooks
   slug: shieldlabs-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://shieldlabs.ai
 - group: commercial
   title: ''
   type: License
@@ -233,6 +237,18 @@ common:
   title: ''
   type: LLMsTxt
   url: llms/shieldlabs-llms.txt
+- group: agent
+  title: ''
+  type: LLMsFullTxt
+  url: https://shieldlabs.ai/llms-full.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: https://shieldlabs.ai/llms.txt
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/orgs/ShieldLabs-ai/repositories
 created: '2026-08-19'
 description: 'Anonymous visitor identification and fraud-prevention platform. A browser ES-module snippet loaded from cdn.shieldlabs.ai collects 100+ device and network signals and returns six persistent identifiers (DeviceID, VisitorID, CookieID, SessionID, RequestID and a caller-supplied hashed UserHID) plus an explainable 0-100 Risk Score built from weighted anonymity signals — VPN, proxy, Tor, privacy relay, datacenter, IP reputation, anti-detect browser, geolocation spoofing, OS mismatch, incognito, browser automation and suspicious paid clicks. ShieldLabs deliberately makes no allow/challenge/block decision: it returns the score and the signals behind it, and the customer''s own code owns the verdict. Delivery is a signed at-most-once webhook (identification.scored, HMAC-SHA256 in X-Shield-Signature, no retries), backed by two server-side REST surfaces on account.shieldlabs.ai and api.shieldlabs.ai — both read-only, neither consuming request balance — described by a public OpenAPI
   3.1 specification the company maintains in its own MIT-licensed GitHub repo and serves from its docs host. The Management API''s history path was deprecated on 2026-09-01 with a dated Sunset of 2027-01-01, a named successor, and RFC 8594 Deprecation/Sunset/Link headers. Self-serve and per-identification priced, with a 5,000-identification free tier and no sales gate.'
@@ -260,7 +276,7 @@ overview: 'ShieldLabs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
   The ShieldLabs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  ShieldLabs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
 plans:
 - name: Shieldlabs Plans Pricing
   plan_count: 4
@@ -280,7 +296,7 @@ score:
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 69.7
     commercial_clarity: 69.7
@@ -290,7 +306,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 76.3
-  previous_composite: 63.1
+  previous_composite: 64.2
   provenance:
     conformance: derived
     contracts:
@@ -301,7 +317,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/screenshots/shieldlabs-2026-09-02T155148.png
 security:
@@ -331,5 +347,5 @@ tags:
 - Webhook
 - Anti-Fraud
 - traffic-quality
-website: https://docs.shieldlabs.ai/
+website: https://shieldlabs.ai
 ---

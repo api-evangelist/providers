@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-04'
+  score: 24.1
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 4
   slug: microsoft-azure-openai-agentic-access
   summary_line: 4 operations · 4 acting
-api_count: 4
+api_count: 9
 apis:
 - baseURL: https://{resource}.openai.azure.com/
   baseurl_source: declared
@@ -64,7 +64,26 @@ apis:
   description: The Images API from Azure OpenAI Service — 1 operation(s) for images.
   name: Azure OpenAI Service Images API
   slug: microsoft-azure-openai-images-api
-artifact_total: 17
+- description: Data-plane REST API for running inference against deployed Azure OpenAI models, including chat completions, completions, embeddings, image generation, and audio transcription/translation. Authenticate
+  name: Azure OpenAI Inference REST API
+  slug: inference-api
+- description: Stateful, agent-friendly API for building multi-turn AI experiences with tool use, file inputs, and conversation state managed on the service side.
+  name: Azure OpenAI Responses API
+  slug: responses-api
+- description: Azure Resource Manager (ARM) REST API for creating and managing Azure OpenAI accounts, model deployments, network rules, and other resource configuration.
+  name: Azure OpenAI Control Plane API
+  slug: control-plane
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Audio transcription and translation (Whisper)
+  name: Azure OpenAI Service Audio API
+  slug: azure-openai-audio-api
+- baseURL: https://{your-resource-name}.openai.azure.com/openai
+  baseurl_source: declared
+  description: Chat-formatted text generation
+  name: Azure OpenAI Service Chat Completions API
+  slug: azure-openai-chat-completions-api
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -151,13 +170,17 @@ finops:
 - name: Microsoft Azure Openai Finops
   service_category: API
   slug: microsoft-azure-openai-finops
+graphqls:
+- description: Azure OpenAI Service provides REST API access to OpenAI models (GPT-4, GPT-3.5, DALL-E, Whisper, Embeddings) with enterprise SLAs, private networking, and Azure identity. The API covers completions, c
+  name: Azure OpenAI Service GraphQL API
+  slug: azure-openai-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-openai.png
 layout: provider
 modified: '2026-05-19'
 name: Azure OpenAI Service
 nav: Providers
 network: true
-overview: 'Azure OpenAI Service publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 1 more. Tagged areas include Artificial Intelligence, Embeddings, GPT, Generative AI, and Large Language Models.
+overview: 'Azure OpenAI Service publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Embeddings API, and 4 more. Tagged areas include Artificial Intelligence, Embeddings, GPT, Generative AI, and Large Language Models.
 
 
   Azure OpenAI Service''s developer surface includes authentication, developer portal, pricing, documentation, signup flow, support, and 9 more developer resources.'
@@ -177,20 +200,20 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 44.8
+  composite: 47.0
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 12
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 0.0
-    contract_quality: 49.0
+    contract_quality: 57.6
     developer_ergonomics: 54.8
     discoverability: 81.5
     governance: 0.0
@@ -202,9 +225,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
+      total: 7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-openai/refs/heads/main/screenshots/microsoft-azure-openai-2026-06-20T185429.png
 security:

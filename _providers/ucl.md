@@ -20,21 +20,21 @@ agent_readiness:
     auth_clarity: false
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: na
+    idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.9
-  scored_at: '2026-09-04'
+  score: 2.5
+  scored_at: '2026-09-05'
 api_count: 6
 apis:
 - description: UCL Discovery is UCL's open-access institutional repository of research outputs, running EPrints on UCL's own registrable domain, and it exposes an OAI-PMH 2.0 metadata-harvesting endpoint at discover
@@ -215,6 +215,14 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-kingdom
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
+    - united-kingdom-ireland
   open_source:
     applies: true
     score: 50.0
@@ -228,7 +236,7 @@ score:
     regime_id: education
     score: 27.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png
 security:

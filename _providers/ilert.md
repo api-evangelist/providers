@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -1642,7 +1642,7 @@ score:
       marker_coverage: 0.0
       total: 33
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ilert/refs/heads/main/screenshots/ilert-2026-06-20T183235.png
 security:

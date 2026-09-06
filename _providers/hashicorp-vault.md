@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,19 +24,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.5
-  scored_at: '2026-09-04'
+  score: 29.8
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 6
@@ -91,7 +91,45 @@ apis:
   description: System backend operations (init, seal, mounts, auth, audit)
   name: HashiCorp Vault System API
   slug: hashicorp-vault-system-api
-artifact_total: 26
+- description: The complete Vault HTTP API gives full access to all Vault operations via REST. Includes authentication method APIs (AppRole, LDAP, JWT, Kubernetes, AWS, Azure), secrets engine APIs (Database, AWS, PK
+  name: Vault HTTP API
+  slug: vault-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Enable, disable, list, and configure authentication methods.
+  name: HashiCorp Vault Auth Methods API
+  slug: vault-auth-methods-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Check Vault health and initialization status.
+  name: HashiCorp Vault Health API
+  slug: vault-health-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Create, read, update, delete, and list ACL policies.
+  name: HashiCorp Vault Policies API
+  slug: vault-policies-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Configure KV v2 engine settings such as max versions and CAS required.
+  name: HashiCorp Vault Secrets Config API
+  slug: vault-secrets-config-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Read, write, patch, and delete secret data versions in the KV v2 engine.
+  name: HashiCorp Vault Secrets Data API
+  slug: vault-secrets-data-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Mount, unmount, list, and configure secrets engines.
+  name: HashiCorp Vault Secrets Engines API
+  slug: vault-secrets-engines-api
+- baseURL: https://vault.example.com/v1
+  baseurl_source: declared
+  description: Manage metadata and version history for KV v2 secrets.
+  name: HashiCorp Vault Secrets Metadata API
+  slug: vault-secrets-metadata-api
+artifact_total: 43
 collections:
 - collection_type: open
   name: API Collection
@@ -189,17 +227,53 @@ common:
   url: https://developer.hashicorp.com/vault/docs/libraries
 created: '2024-01-15'
 description: HashiCorp Vault is a secrets management tool that provides secure storage, access control, and distribution of tokens, passwords, certificates, and encryption keys. It provides a unified interface to any secret while providing tight access control and recording a detailed audit log.
+examples:
+- key_count: 1
+  name: Vault Kv Secret Data Response Example
+  slug: vault-kv-secret-data-response-example
+- key_count: 6
+  name: Vault Sys Health Response Example
+  slug: vault-sys-health-response-example
 finops:
 - name: Hashicorp Vault Finops
   service_category: API
   slug: hashicorp-vault-finops
 image: https://www.datocms-assets.com/2885/1620155116-brandhcvaultprimaryattributedcolor.svg
+json_schemas:
+- name: SecretDataRequest
+  property_count: 2
+  slug: vault-kv-secret-data-request
+- name: SecretDataResponse
+  property_count: 1
+  slug: vault-kv-secret-data-response
+- name: HealthResponse
+  property_count: 6
+  slug: vault-sys-health-response
+json_structures:
+- name: Vault Kv Secret Data Request Structure
+  property_count: 2
+  slug: vault-kv-secret-data-request-structure
+- name: Vault Sys Health Response Structure
+  property_count: 6
+  slug: vault-sys-health-response-structure
+jsonld:
+- class_count: 10
+  name: Vault Kv Context
+  property_count: 15
+  slug: vault-kv-context
+- class_count: 17
+  name: Vault Sys Context
+  property_count: 19
+  slug: vault-sys-context
 layout: provider
 modified: '2026-05-19'
 name: HashiCorp Vault
 nav: Providers
 network: true
-overview: 'HashiCorp Vault publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Auth - AppRole API, Auth - Token API, Auth - Userpass API, and 6 more. Tagged areas include DevOps, Encryption, Infrastructure, Secrets Management, and Security.
+overview: 'HashiCorp Vault publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Auth - AppRole API, Auth - Token API, Auth - Userpass API, and 13 more. Tagged areas include DevOps, Encryption, Infrastructure, Secrets Management, and Security.
+
+
+  The HashiCorp Vault catalog on APIs.io includes 2 JSON-LD contexts.
 
 
   HashiCorp Vault''s developer surface includes authentication, documentation, getting-started guide, support, engineering blog, pricing, and 9 more developer resources.'
@@ -213,35 +287,35 @@ rate_limits:
   name: Hashicorp Vault Rate Limits
   slug: hashicorp-vault-rate-limits
 score:
-  band: thin
-  composite: 37.6
+  band: developing
+  composite: 40.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 46.0
+    artifact_dirs: 14
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.1
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
     contract_governance: 0.0
-    contract_quality: 46.9
+    contract_quality: 51.3
     developer_ergonomics: 46.4
     discoverability: 68.5
     governance: 0.0
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 37.6
   provenance:
     agentic_access: derived
     contracts:
       callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
+      derived: 7
+      marker_coverage: 43.8
+      total: 16
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/screenshots/hashicorp-vault-2026-06-20T182532.png
 security:

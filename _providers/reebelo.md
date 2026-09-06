@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The seller-side REST API behind Reebelo's Cobalt vendor back-office. Authenticated with a Reebelo-issued x-api-key header, it exposes offer management (list offers, look up an offer by SKU, create/upd
@@ -165,7 +165,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reebelo/refs/heads/main/screenshots/reebelo-2026-09-02T153209.png
 security:

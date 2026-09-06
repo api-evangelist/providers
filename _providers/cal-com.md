@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 66
@@ -153,7 +153,10 @@ apis:
   description: The Webhooks API from Cal.com — 2 operation(s) for webhooks.
   name: Cal.com Webhooks API
   slug: cal-com-webhooks-api
-artifact_total: 55
+- description: REST API providing full programmatic control over Cal.com resources including calendars, event types, bookings, schedules, teams, and organizations. Supports OAuth and API key authentication with rate
+  name: Cal.com REST API v2
+  slug: rest-api-v2
+artifact_total: 56
 asyncapis:
 - description: AsyncAPI definition for Cal.com's webhook surface. Cal.com webhooks are HTTP POST deliveries from Cal.com to a developer-defined `subscriberUrl` registered via the Cal.com Webhooks API (`/v2/webhooks`
   name: Cal.com Webhooks
@@ -353,7 +356,7 @@ score:
       marker_coverage: 0.0
       total: 22
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cal-com/refs/heads/main/screenshots/cal-com-2026-06-20T173857.png
 security:

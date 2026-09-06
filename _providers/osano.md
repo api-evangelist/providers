@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: Browser-side JavaScript API for the Osano Consent Management Platform, loaded from cmp.osano.com. Exposes functions (showDialog, showDrawer, getConsent, ready, addEventListener), properties (consentMo
@@ -325,6 +325,11 @@ score:
     discoverability: 81.5
     governance: 4.5
     operational_transparency: 50.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 54.4
   provenance:
     conformance: derived
@@ -336,7 +341,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/osano/refs/heads/main/screenshots/osano-2026-09-02T150857.png
 security:

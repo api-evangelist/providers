@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - description: REST API for financial and market data covering equities, ETFs, crypto, forex, derivatives, fundamentals, financial statements, news, economic indicators, and more. Responses in JSON/CSV; API-key auth
@@ -207,7 +207,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/financialdata-net/refs/heads/main/screenshots/financialdata-net-2026-09-02T145508.png
 security:

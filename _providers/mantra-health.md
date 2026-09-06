@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - description: The first-party Mantra Health API. The host api.mantrahealth.com answers 200 with the plain-text banner "Mantra Health API" and exposes a GraphQL endpoint at /graphql that is served by Apollo Server (
@@ -176,6 +176,11 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 39.5
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 24.9
   provenance:
     conformance: first-party
@@ -186,7 +191,7 @@ score:
     regime_id: health
     score: 35.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantra-health/refs/heads/main/screenshots/mantra-health-2026-09-02T150429.png
 security:

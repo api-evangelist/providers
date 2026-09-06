@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -69,7 +69,28 @@ apis:
   description: Hopper uses a unique ID to correlate API calls and events produced by a user's interaction with an airline application. The duration of the user's interactions is called a "session", and the correlati
   name: Hopper Sessions API
   slug: hopper-com-sessions-api
-artifact_total: 15
+- description: Consumer mobile and web app for booking flights, hotels, homes, and cars. Pioneered price prediction, Price Freeze, and flexible cancellation for end travelers. No public API.
+  name: Hopper Consumer App
+  slug: consumer-app
+- description: Hopper Technology Solutions lodging e-commerce platform that gives partners access to global hotel inventory with conversion-optimized UX and merchandising. Partner-gated; integration via HTS sales.
+  name: HTS Stays
+  slug: hts-stays
+- description: Car rental e-commerce platform from HTS that partners embed for global car rental inventory and booking. Partner-gated.
+  name: HTS Cars
+  slug: hts-cars
+- description: Bundled flight + hotel package product from HTS. Partner-gated.
+  name: HTS Packages
+  slug: hts-packages
+- description: 'Proprietary fintech ancillaries that partners attach to their bookings — Cancel for Any Reason (airlines and hotels), Disruption Assistance for Any Reason, and HTS Seat Upgrades. Marketed as Hopper''s '
+  name: HTS Fintech Ancillaries (Cancel for Any Reason, Disruption Assistance, Seat Upgrades)
+  slug: hts-fintech-ancillaries
+- description: Travel loyalty portals powering bank travel programs, used by partners such as Capital One Travel and RBC. Partner-gated.
+  name: HTS Travel Loyalty Portals (Banks)
+  slug: hts-loyalty-portals
+- description: Agentic AI built specifically for airline and travel customer service, delivering end-to-end autonomous resolutions via voice and chat. Sold to airlines and travel partners; integration is sales-led.
+  name: HTS Assist (Agentic AI Customer Service)
+  slug: hts-assist
+artifact_total: 22
 collections:
 - collection_type: open
   name: API Collection
@@ -206,6 +227,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 5.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 29.6
   provenance:
     agentic_access: derived
@@ -215,7 +241,7 @@ score:
       marker_coverage: 0.0
       total: 5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/screenshots/hopper-com-2026-06-20T182832.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'The REST API served by every Qumulo cluster for managing files, snapshots, quotas, replication, multi-protocol shares (NFS/SMB/S3/FTP), networking, cluster lifecycle, monitoring/analytics, and access '
@@ -179,7 +179,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qumulo/refs/heads/main/screenshots/qumulo-2026-09-02T152713.png
 security:

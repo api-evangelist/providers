@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: A customer-only HTTP API host operated by GoSecure (formerly CounterTack) behind the GoSecure Titan platform. The host answers HTTP 401 on every path probed — including /robots.txt and every /.well-kn
@@ -182,7 +182,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/countertack/refs/heads/main/screenshots/countertack-2026-09-02T145151.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: FIS Code Connect is the developer marketplace exposing FIS APIs across payments, banking, capital markets, and wealth management products. Access to most APIs requires a partner agreement and authenti
@@ -127,7 +127,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 security:
 - kind: domain-security

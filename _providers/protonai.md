@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - baseURL: https://api.proton.ai
@@ -97,7 +97,10 @@ apis:
   description: The Tracking API from Proton.ai — 2 operation(s) for tracking.
   name: Proton.ai Tracking API
   slug: protonai-tracking-api
-artifact_total: 28
+- description: AI REST API returning product recommendations and performing actions in the Proton.ai distributor platform. Authenticated with a static API key in the request header. Documented as a public Postman co
+  name: Proton API
+  slug: proton-api
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -211,7 +214,7 @@ modified: '2026-07-20'
 name: Proton.ai
 nav: Providers
 network: true
-overview: 'Proton.ai publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Call Notes API, Contacts API, Custom Fields API, and 9 more. Tagged areas include Company, CRM, Sales, Distribution, and Artificial Intelligence.
+overview: 'Proton.ai publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Call Notes API, Contacts API, Custom Fields API, and 10 more. Tagged areas include Company, CRM, Sales, Distribution, and Artificial Intelligence.
 
 
   Proton.ai''s developer surface includes authentication, documentation, API reference, support, engineering blog, signup flow, and 10 more developer resources.'
@@ -247,10 +250,14 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protonai/refs/heads/main/screenshots/protonai-2026-09-02T152230.png
 security:
+- kind: authentication
+  name: Proton Authentication
+  slug: proton-authentication
+  summary_line: apiKey · 1 scheme
 - kind: authentication
   name: Protonai Authentication
   slug: protonai-authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Android library and API to verify the safety of user devices, detect rooted devices and other risks
@@ -86,7 +86,7 @@ score:
       reason: never_enriched
   previous_composite: 6.9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/application-environment-verification/refs/heads/main/screenshots/application-environment-verification-2026-06-20T172333.png
 slug: application-environment-verification

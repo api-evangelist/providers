@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,9 +32,9 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-04'
-api_count: 3
+  score: 6.0
+  scored_at: '2026-09-05'
+api_count: 4
 apis:
 - description: The CarMax Store Locations API, discussed publicly on the CarMax Engineering Blog, exposes details about all CarMax store locations including addresses, hours, services offered, and geographic metadat
   name: CarMax Store Locations API
@@ -45,12 +45,39 @@ apis:
 - description: The CarMax Vehicle Search Server-Driven UI API controls the search filters and list layouts presented across carmax.com and CarMax's mobile apps. It was rewritten approximately three years prior to Ma
   name: CarMax Vehicle Search Server-Driven UI API
   slug: vehicle-search-sdui-api
-artifact_total: 7
+- description: On 2026-02-27 CarMax became the first U.S. auto retailer with an app in the OpenAI ChatGPT App Store, putting its nationwide inventory of more than 45,000 vehicles and its instant-offer tool inside th
+  name: CarMax in ChatGPT
+  slug: chatgpt-app
+artifact_total: 10
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/carmax-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/carmax-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.carmax.com/responsible-disclosure
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/carmax-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/carmax-well-known.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/carmax-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/carmax-llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -70,7 +97,7 @@ common:
 - group: other
   title: ''
   type: Finance
-  url: https://www.carmax.com/finance
+  url: https://www.carmax.com/car-financing
 - group: other
   title: ''
   type: Sell Your Car
@@ -86,15 +113,15 @@ common:
 - group: company
   title: ''
   type: Careers
-  url: https://jobs.carmax.com/
+  url: https://careers.carmax.com/
 - group: company
   title: ''
   type: Investor Relations
   url: https://investors.carmax.com/
 - group: operate
   title: ''
-  type: Contact
-  url: https://www.carmax.com/customer-service
+  type: Support
+  url: https://www.carmax.com/help-center
 - group: commercial
   title: ''
   type: TermsOfService
@@ -102,7 +129,7 @@ common:
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.carmax.com/privacy
+  url: https://www.carmax.com/privacy-policy
 - group: company
   title: ''
   type: LinkedIn
@@ -123,17 +150,21 @@ finops:
   slug: carmax-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carmax.png
 layout: provider
-modified: '2026-04-23'
+mcp_servers:
+- description: ''
+  name: CarMax in ChatGPT
+  slug: carmax-in-chatgpt
+modified: '2026-09-05'
 name: CarMax
 nav: Providers
 network: true
-overview: 'CarMax publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Financing, Auto Retail, Appraisals, Automotive, and Omnichannel.
+overview: 'CarMax publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Auto Financing, Auto Retail, Appraisals, Automotive, and Omnichannel.
 
 
-  CarMax''s developer surface includes engineering blog and 16 more developer resources.'
+  CarMax''s developer surface includes engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Carmax Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: carmax-plans-pricing
 press:
 - date: '2026-05-25'
@@ -153,32 +184,34 @@ press:
   url: https://uveye.com/carmax-partners-with-uveye/
 random_paper: 6
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Carmax Rate Limits
   slug: carmax-rate-limits
 score:
   band: emerging
-  composite: 16.7
+  composite: 18.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 42.0
+    artifact_dirs: 13
+    catalog_earned: 38.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 73.0
+    catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 64.8
+    developer_ergonomics: 16.7
+    discoverability: 72.2
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 13.2
   previous_composite: 16.7
+  provenance:
+    mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmax/refs/heads/main/screenshots/carmax-2026-06-20T174010.png
 security:
@@ -186,6 +219,10 @@ security:
   name: Carmax Domain Security
   slug: carmax-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Carmax Vulnerability Disclosure
+  slug: carmax-vulnerability-disclosure
+  summary_line: Hackerone
 slug: carmax
 tags:
 - Auto Financing

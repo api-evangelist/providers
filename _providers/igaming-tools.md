@@ -22,21 +22,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.3
-  scored_at: '2026-09-04'
+  score: 35.0
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://i-gaming.tools/api/v1
@@ -49,6 +49,10 @@ apis:
   slug: igaming-tools-mcp-server
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://i-gaming.tools/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -136,14 +140,14 @@ mcp_servers:
 - description: LIVE remote MCP endpoint, 17 read-only tools, no credential. Requires the MCP initialize handshake for a session id — a bare tools/list returns 400, which reads as broken but is correct protocol. Veri
   name: iGaming Tools MCP Server
   slug: igaming-tools-mcp-server-2
-modified: '2026-08-30'
+modified: '2026-09-05'
 name: iGaming Tools
 nav: Providers
 network: true
 overview: 'iGaming Tools publishes 1 API on the [APIs.io](https://apis.io/) network: iGamingScraper REST API. Tagged areas include iGaming, Online Casino, Gambling, slot games, and slot metadata.
 
 
-  iGaming Tools'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, and 14 more developer resources.'
+  iGaming Tools'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, and 15 more developer resources.'
 plans:
 - name: Igaming Tools Plans Pricing
   plan_count: 3
@@ -179,7 +183,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/igaming-tools/refs/heads/main/screenshots/igaming-tools-2026-09-02T145828.png
 security:
@@ -214,5 +218,5 @@ tags:
 - iGaming jobs
 - agent-ready API
 - read-only API
-website: https://i-gaming.tools/docs/
+website: https://i-gaming.tools/
 ---

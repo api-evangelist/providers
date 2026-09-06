@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-04'
+  score: 24.1
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -87,7 +87,25 @@ apis:
   description: Data synchronization, firehose, blob access
   name: AT Protocol sync API
   slug: atproto-sync-api
-artifact_total: 33
+- description: XRPC is the AT Protocol's HTTP-based remote procedure call layer. All protocol interactions — querying records, writing records, subscribing to streams, resolving identity, moderating content — are ex
+  name: AT Protocol XRPC API
+  slug: atproto-xrpc
+- description: Lexicon is the schema definition language for AT Protocol. Every record type, XRPC method, and event subscription on the network is described by a Lexicon document, which acts as both contract and cod
+  name: AT Protocol Lexicon Schemas
+  slug: lexicon
+- description: The PDS hosts a user's repository of signed records and exposes the com.atproto.* XRPC methods for account creation, authentication, record CRUD, blob upload, and repository sync. A PDS is the home se
+  name: Personal Data Server (PDS) API
+  slug: pds-api
+- description: The Relay aggregates the com.atproto.sync.subscribeRepos firehose across PDS hosts and re-broadcasts the combined event stream over WebSocket. AppViews and indexers subscribe to a Relay to get a near-
+  name: AT Protocol Relay & Firehose
+  slug: relay-firehose
+- description: The Bluesky AppView indexes the firehose and exposes the app.bsky.* XRPC methods that the Bluesky client (and any compatible client) uses to render timelines, threads, profiles, notifications, search,
+  name: Bluesky AppView API
+  slug: bsky-appview
+- description: 'Identity in AT Protocol is anchored in DIDs (did:plc or did:web), with human-readable handles resolved through DNS TXT records or well-known HTTP endpoints. The protocol specifies how DIDs map to PDS '
+  name: AT Protocol Identity (DID & Handles)
+  slug: identity-did
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -217,7 +235,7 @@ modified: '2026-06-12'
 name: AT Protocol
 nav: Providers
 network: true
-overview: 'AT Protocol publishes 8 APIs on the [APIs.io](https://apis.io/) network, including actor API, feed API, graph API, and 5 more. Tagged areas include Social Networking, Decentralized, Federated, Open-Source, and Bluesky.
+overview: 'AT Protocol publishes 9 APIs on the [APIs.io](https://apis.io/) network, including actor API, feed API, graph API, and 6 more. Tagged areas include Social Networking, Decentralized, Federated, Open-Source, and Bluesky.
 
 
   The AT Protocol catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -246,7 +264,7 @@ rules:
   slug: atproto-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 48.2
   coverage:
     artifact_dirs: 15
     catalog_earned: 78.3
@@ -254,13 +272,13 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.4
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 9.8
-    contract_quality: 64.5
-    developer_ergonomics: 31.0
+    contract_quality: 72.7
+    developer_ergonomics: 38.1
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 50.0
@@ -273,7 +291,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atproto/refs/heads/main/screenshots/atproto-2026-08-17T122416.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Public, unauthenticated Atlassian Statuspage v2 JSON API served on DolarApp's own status host. Exposes overall status, the ten monitored components (sign up, sign in, website, and card payments / bank
@@ -171,6 +171,11 @@ score:
     discoverability: 68.5
     governance: 0.0
     operational_transparency: 28.9
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
   previous_composite: 17.4
   regulatory:
     applies: true
@@ -179,7 +184,7 @@ score:
     regime_id: payments
     score: 31.3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolarapp/refs/heads/main/screenshots/dolarapp-2026-09-02T145251.png
 security:

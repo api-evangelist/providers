@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.9
-  scored_at: '2026-09-04'
+  score: 33.4
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -111,11 +111,39 @@ apis:
   description: Upsert, query, update, deactivate, and reactivate users.
   name: Stream Users API
   slug: getstream-users-api
-artifact_total: 38
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:chat API from Stream — 194 operation(s) for product:chat.
+  name: Stream product:chat API
+  slug: stream-io-product-chat-api
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:common API from Stream — 54 operation(s) for product:common.
+  name: Stream product:common API
+  slug: stream-io-product-common-api
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:feeds API from Stream — 69 operation(s) for product:feeds.
+  name: Stream product:feeds API
+  slug: stream-io-product-feeds-api
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:moderation API from Stream — 56 operation(s) for product:moderation.
+  name: Stream product:moderation API
+  slug: stream-io-product-moderation-api
+- baseURL: https://chat.stream-io-api.com
+  baseurl_source: declared
+  description: The product:video API from Stream — 121 operation(s) for product:video.
+  name: Stream product:video API
+  slug: stream-io-product-video-api
+artifact_total: 44
 asyncapis:
 - description: AsyncAPI 2.6 description of Stream (GetStream.io) Chat's **real-time WebSocket** surface. Unlike the request/response server-side REST API (`https://chat.stream-io-api.com`, modeled in `openapi/getstr
   name: Stream Chat Realtime WebSocket API
   slug: getstream-asyncapi
+- description: AsyncAPI description of the Stream (GetStream) Chat realtime WebSocket API. Clients connect to `wss://chat.stream-io-api.com/connect` with a JWT user token and receive a stream of JSON events. Event t
+  name: Stream Chat WebSocket API
+  slug: stream-io-asyncapi
 collections:
 - collection_type: open
   name: API Collection
@@ -228,10 +256,10 @@ modified: '2026-07-03'
 name: Stream
 nav: Providers
 network: true
-overview: 'Stream publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Application API, Campaigns API, Channels API, and 9 more. Tagged areas include Chat, Messaging, Activity Feeds, Video, and Audio.
+overview: 'Stream publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Application API, Campaigns API, Channels API, and 14 more. Tagged areas include Chat, Messaging, Activity Feeds, Video, and Audio.
 
 
-  The Stream catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+  The Stream catalog on APIs.io includes 2 event-driven AsyncAPI specifications and 1 Spectral governance ruleset.
 
 
   Stream''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
@@ -258,7 +286,7 @@ rules:
   slug: getstream-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 42.8
+  composite: 44.3
   coverage:
     artifact_dirs: 13
     catalog_earned: 67.8
@@ -266,13 +294,13 @@ score:
     catalog_gap: 47.3
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
     contract_governance: 11.4
-    contract_quality: 58.0
-    developer_ergonomics: 31.0
+    contract_quality: 58.3
+    developer_ergonomics: 38.1
     discoverability: 68.5
     governance: 11.4
     operational_transparency: 34.2
@@ -283,9 +311,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 12
+      total: 17
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/screenshots/getstream-2026-07-25T215745.png
 security:

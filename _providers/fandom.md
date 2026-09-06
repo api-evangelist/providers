@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The standard MediaWiki Action API served at /api.php on every Fandom wiki subdomain (e.g. community.fandom.com, starwars.fandom.com). Provides read/write access via 120 action modules including query,
@@ -152,7 +152,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fandom/refs/heads/main/screenshots/fandom-2026-07-25T214221.png
 security:

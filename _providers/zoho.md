@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 267
 apis:
 - description: The Zoho Inventory API allows you to perform all the operations that you do with our web client. It is built using REST principles which ensures predictable URLs for accessing resources, and uses HTTP
@@ -1329,7 +1329,7 @@ score:
       marker_coverage: 0.0
       total: 442
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho/refs/heads/main/screenshots/zoho-2026-06-20T201931.png
 security:

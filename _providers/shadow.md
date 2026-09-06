@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Shadow GPU is Shadow's sovereign GPU cloud, delivered as a curated OpenStack 2024.1 deployment rather than a bespoke REST API. Every programmatic action — launching NVIDIA RTX 2000 Ada or RTX A4500 GP
@@ -161,12 +161,17 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - europe
   previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shadow/refs/heads/main/screenshots/shadow-2026-09-02T155058.png
 security:

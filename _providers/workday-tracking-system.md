@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -699,7 +699,7 @@ rules:
   slug: workday-tracking-system-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 37.2
   coverage:
     artifact_dirs: 18
     catalog_earned: 66.5
@@ -707,7 +707,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 1.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -716,8 +716,8 @@ score:
     developer_ergonomics: 39.3
     discoverability: 68.5
     governance: 13.6
-    operational_transparency: 26.3
-  previous_composite: 36.9
+    operational_transparency: 34.2
+  previous_composite: 36.2
   provenance:
     agentic_access: derived
     contracts:
@@ -726,7 +726,7 @@ score:
       marker_coverage: 100.0
       total: 16
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:

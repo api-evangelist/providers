@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The API host point.me operates behind its consumer search product and its Gateway embedded platform. https://api.point.me/ returns HTTP 200 text/plain "Flight Search APIs"; every other path probed (/o
@@ -202,7 +202,7 @@ score:
     regime_id: banking_open_finance
     score: 59.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/point-me/refs/heads/main/screenshots/point-me-2026-09-02T151619.png
 security:

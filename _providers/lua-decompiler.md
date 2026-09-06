@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Online Lua 5.1 Decompiler
@@ -86,7 +86,7 @@ score:
       reason: never_enriched
   previous_composite: 6.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lua-decompiler/refs/heads/main/screenshots/lua-decompiler-2026-07-25T225633.png
 slug: lua-decompiler

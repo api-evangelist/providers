@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 7
@@ -182,7 +182,23 @@ apis:
   description: The Users API from Enphase Energy — 4 operation(s) for users.
   name: Enphase Energy Users API
   slug: enphase-users-api
-artifact_total: 38
+- description: The Commissioning API is the installer-facing companion to the Monitoring API. Available to Partner-plan customers (qualifying installers with 10+ installations), it allows activation creation and upd
+  name: Enphase Enlighten Commissioning API
+  slug: enphase-enlighten-commissioning-api
+- description: The Virtual Power Plant (VPP) API allows energy aggregators and utilities to create and manage VPPs that monitor, forecast, and control large fleets of distributed energy resources (DERs) including PV
+  name: Enphase VPP API
+  slug: enphase-enlighten-vpp-api
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Device Level Production Monitoring API from Enphase Energy — 3 operation(s) for device level production monitoring.
+  name: Enphase Energy Device Level Production Monitoring API
+  slug: enphase-energy-device-level-production-monitoring-api
+- baseURL: https://api.enphaseenergy.com/api/v4
+  baseurl_source: declared
+  description: The Systems API from Enphase Energy — 13 operation(s) for systems.
+  name: Enphase Energy Systems API
+  slug: enphase-energy-systems-api
+artifact_total: 42
 asyncapis:
 - description: Server-sent event stream of a single Enphase system's real-time power state. Derived by API Evangelist from the published Monitoring API operation getLiveData, which produces text/event-stream and car
   name: Enphase Enlighten Live Status Stream
@@ -407,7 +423,7 @@ modified: '2026-07-27'
 name: Enphase Energy
 nav: Providers
 network: true
-overview: 'Enphase Energy publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Activations API, Applications API, Arrays API, and 24 more. Tagged areas include Energy, United States, Solar, DER, and Renewables.
+overview: 'Enphase Energy publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Activations API, Applications API, Arrays API, and 26 more. Tagged areas include Energy, United States, Solar, DER, and Renewables.
 
 
   The Enphase Energy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -430,7 +446,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 69.0
+  composite: 69.3
   coverage:
     artifact_dirs: 24
     catalog_earned: 61.0
@@ -438,16 +454,23 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.3
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 60.4
-    developer_ergonomics: 57.7
+    contract_quality: 60.6
+    developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 68.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 69.0
   provenance:
     agentic_access: derived
@@ -456,7 +479,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 27
+      total: 29
     mcp: derived
     skills: derived
   regulatory:
@@ -466,7 +489,7 @@ score:
     regime_id: energy_utilities
     score: 75.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enphase/refs/heads/main/screenshots/enphase-2026-08-07T164929.png
 security:

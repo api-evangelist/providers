@@ -29,7 +29,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
@@ -65,8 +65,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Orderful",
@@ -86,7 +86,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -115,6 +115,52 @@
      "rank": 2
     },
     {
+     "name": "C.H. Robinson",
+     "slug": "ch-robinson-worldwide",
+     "description": "C.H. Robinson is one of the world's largest third-party logistics (3PL) providers, offering global freight transportation, supply chain management, customs brokerage, and sourcing of fresh produce. Its Navisphere transportation management system provides end-to-end supply chain planning, purchase order management, execution, freight payment, and business intelligence. C.H. Robinson exposes APIs that allow shippers and carriers to integrate quoting, booking, tracking, documents, and payment workflows directly into their own TMS or ERP platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png",
+     "score": 46.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-05",
+     "schema_version": "0.18.3",
+     "agent_score": 35.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Freight Forwarders",
+     "rank": 3
+    },
+    {
      "name": "HMRC UK Tax Authority",
      "slug": "hmrc",
      "description": "HM Revenue and Customs (HMRC) provides over 115 APIs through the HMRC Developer Hub for UK tax compliance including Making Tax Digital for VAT and Income Tax, PAYE, customs declarations, corporation tax, and construction industry scheme. APIs use OAuth 2.0 and support both REST and XML protocols with a sandbox testing environment.",
@@ -132,7 +178,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -165,7 +211,7 @@
       "agentic_commerce": false
      },
      "tier": "Regulators",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "ShipBob",
@@ -185,7 +231,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
@@ -211,7 +257,7 @@
       "agentic_commerce": false
      },
      "tier": "Fulfilment & Warehousing",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "E2open",
@@ -231,7 +277,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,
@@ -261,7 +307,7 @@
       "agentic_commerce": false
      },
      "tier": "Supply Chain Software",
-     "rank": 5
+     "rank": 6
     }
    ],
    "open": true
@@ -292,7 +338,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -318,7 +364,7 @@
       "agentic_commerce": false
      },
      "tier": "Freight Forwarders",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Magaya",
@@ -338,7 +384,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -364,7 +410,7 @@
       "agentic_commerce": false
      },
      "tier": "Supply Chain Software",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Shippeo",
@@ -384,7 +430,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -410,7 +456,7 @@
       "agentic_commerce": false
      },
      "tier": "Visibility Platforms",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "project44",
@@ -430,7 +476,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -456,7 +502,7 @@
       "agentic_commerce": false
      },
      "tier": "Visibility Platforms",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Zencargo",
@@ -476,7 +522,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -502,7 +548,7 @@
       "agentic_commerce": false
      },
      "tier": "Freight Forwarders",
-     "rank": 10
+     "rank": 11
     }
    ]
   },
@@ -511,8 +557,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 12,
-   "shown": 12,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "DB Schenker",
@@ -532,7 +578,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -558,7 +604,7 @@
       "agentic_commerce": false
      },
      "tier": "Freight Forwarders",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Forto",
@@ -578,7 +624,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -604,7 +650,7 @@
       "agentic_commerce": false
      },
      "tier": "Freight Forwarders",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Zonos",
@@ -624,7 +670,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 9.4,
      "agent_band": "agent-aware",
@@ -650,7 +696,7 @@
       "agentic_commerce": false
      },
      "tier": "Customs & Trade Tech",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Kinaxis",
@@ -670,7 +716,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -696,7 +742,7 @@
       "agentic_commerce": false
      },
      "tier": "Supply Chain Software",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Kuehne+Nagel",
@@ -716,7 +762,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -742,7 +788,7 @@
       "agentic_commerce": false
      },
      "tier": "Freight Forwarders",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "GS1",
@@ -762,7 +808,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -788,7 +834,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "AEB",
@@ -808,7 +854,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -841,7 +887,7 @@
       "agentic_commerce": false
      },
      "tier": "Customs & Trade Tech",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "FourKites",
@@ -861,7 +907,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -887,7 +933,7 @@
       "agentic_commerce": false
      },
      "tier": "Visibility Platforms",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Descartes Systems Group",
@@ -907,7 +953,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "applies": true,
@@ -940,52 +986,6 @@
       "agentic_commerce": false
      },
      "tier": "Supply Chain Software",
-     "rank": 19
-    },
-    {
-     "name": "C.H. Robinson",
-     "slug": "ch-robinson-worldwide",
-     "description": "C.H. Robinson is one of the world's largest third-party logistics (3PL) providers, offering global freight transportation, supply chain management, customs brokerage, and sourcing of fresh produce. Its Navisphere transportation management system provides end-to-end supply chain planning, purchase order management, execution, freight payment, and business intelligence. C.H. Robinson exposes APIs that allow shippers and carriers to integrate quoting, booking, tracking, documents, and payment workflows directly into their own TMS or ERP platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ch-robinson-worldwide/refs/heads/main/screenshots/ch-robinson-worldwide-2026-06-20T174153.png",
-     "score": 17.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-04",
-     "schema_version": "0.18.3",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Freight Forwarders",
      "rank": 20
     },
     {
@@ -1006,7 +1006,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1052,7 +1052,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1108,7 +1108,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1153,7 +1153,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-04",
+     "scored_at": "2026-09-05",
      "schema_version": "0.18.3",
      "regulatory": {
       "undetermined": true,

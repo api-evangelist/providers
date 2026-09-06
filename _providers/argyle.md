@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -174,7 +174,10 @@ apis:
   description: The Webhooks API from Argyle — 1 operation(s) for webhooks.
   name: Argyle Webhooks API
   slug: argyle-webhooks-api
-artifact_total: 252
+- description: Open-finance surface that pulls direct-from-bank account, balance, transaction, and institution metadata for verification of assets (VOA) and verification of assets and income (VOAI). Includes Connect
+  name: Argyle Banking API
+  slug: argyle-banking-api
+artifact_total: 253
 collections:
 - collection_type: open
   name: API Collection
@@ -953,7 +956,7 @@ rules:
   slug: argyle-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
+  composite: 48.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 78.3
@@ -961,13 +964,13 @@ score:
     catalog_gap: 36.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
     contract_governance: 25.0
     contract_quality: 69.5
-    developer_ergonomics: 23.8
+    developer_ergonomics: 26.2
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 65.8
@@ -980,7 +983,7 @@ score:
       marker_coverage: 0.0
       total: 26
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle/refs/heads/main/screenshots/argyle-2026-06-20T172423.png
 security:

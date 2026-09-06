@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Live Model Context Protocol server operated by ServiceUp at api.serviceup.com/mcp, exposing the agentic repair platform to MCP clients. The endpoint is protected by OAuth 2.1 (authorization code + PKC
@@ -176,7 +176,7 @@ score:
     regime_id: insurance
     score: 71.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serviceup/refs/heads/main/screenshots/serviceup-2026-09-02T155016.png
 security:

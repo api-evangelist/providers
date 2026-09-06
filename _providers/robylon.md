@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'Lets external systems interact with Robylon and trigger workflows, including voice and outbound automation. Operations are not enumerated here: no OpenAPI or other machine-readable contract is served,'
@@ -99,7 +99,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/robylon/refs/heads/main/screenshots/robylon-2026-09-02T154026.png
 slug: robylon

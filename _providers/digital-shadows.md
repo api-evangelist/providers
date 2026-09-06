@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'The Digital Shadows SearchLight Portal API — the REST surface behind the SearchLight / GreyMatter DRP portal. Exposes incidents, intelligence incidents, intelligence threats, data breaches and breach '
@@ -167,7 +167,7 @@ score:
   provenance:
     conformance: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digital-shadows/refs/heads/main/screenshots/digital-shadows-2026-09-02T145238.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 12
 apis:
 - baseURL: https://a7.deutsche-boerse.com/api/v1
@@ -340,6 +340,12 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - dach
+    - europe
   previous_composite: 51.7
   provenance:
     conformance: derived
@@ -357,7 +363,7 @@ score:
     regime_id: securities_market_data
     score: 51.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
 security:

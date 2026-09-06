@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. Typical FHIR resources exposed include ServiceRequest, Diagn
@@ -142,7 +142,7 @@ score:
     regime_id: health
     score: 12.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/laboratory-corp-of-america/refs/heads/main/screenshots/laboratory-corp-of-america-2026-06-20T184240.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'A production remote Model Context Protocol server operated by Persado at https://api.persado.com/mcp. Discovered by probing the API host: the RFC 9728 protected-resource document names the resource ve'
@@ -178,7 +178,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persado/refs/heads/main/screenshots/persado-2026-09-02T151105.png
 security:

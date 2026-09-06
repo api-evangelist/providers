@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'PubMatic''s Model Context Protocol (MCP) server — the company''s public agent-facing API surface for programmatic advertising. It exposes four published tools over JSON-RPC 2.0: deal_management (create '
@@ -290,13 +290,18 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 18.4
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 25.8
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubmatic/refs/heads/main/screenshots/pubmatic-2026-06-20T192244.png
 security:

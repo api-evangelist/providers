@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 4
 apis:
 - description: The Tan Sri Musa Mohamad Library runs a Koha open-source integrated library system whose OPAC is served from koha.ucsiuniversity.edu.my — UCSI's own registrable domain, so the deployment is the instit
@@ -196,6 +196,11 @@ score:
     discoverability: 64.8
     governance: 0.0
     operational_transparency: 21.1
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - southeast-asia
   previous_composite: 26.1
   provenance:
     conformance: first-party
@@ -206,7 +211,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsi/refs/heads/main/screenshots/ucsi-2026-06-20T195950.png
 security:

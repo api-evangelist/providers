@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -65,7 +65,10 @@ apis:
   description: Convert coordinates into addresses.
   name: Geocodio Reverse Geocoding API
   slug: geocodio-reverse-geocoding-api
-artifact_total: 18
+- description: Address geocoding / reverse geocoding in bulk
+  name: Geocod.io
+  slug: geocodio
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -192,7 +195,7 @@ score:
       marker_coverage: 0.0
       total: 4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/screenshots/geocodio-2026-07-25T215651.png
 security:

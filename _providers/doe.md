@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -143,7 +143,67 @@ apis:
   description: Access to Total Energy Data
   name: Department of Energy TOTAL API
   slug: doe-total-api
-artifact_total: 68
+- description: 'The DOE PAGES (Public Access Gateway for Energy and Science) REST API provides programmatic access to publications resulting from DOE-funded research, hosted by the Office of Scientific and Technical '
+  name: OSTI DOE PAGES API
+  slug: osti-pages-api
+- description: The OSTI ELINK API is the Office of Scientific and Technical Information's submission and retrieval interface for DOE research records. It supports submission of metadata and full text by DOE-funded r
+  name: OSTI ELINK API
+  slug: osti-elink-api
+- description: The National Renewable Energy Laboratory (NREL, transitioning to NLR) Developer Network publishes a portfolio of REST APIs covering solar resource and PV simulation, alternative fuels and stations, el
+  name: NREL/NLR Developer Network APIs
+  slug: nrel-developer-api
+- description: The Buildings Performance Database (BPD) is a DOE repository of anonymized empirical performance records for commercial and residential buildings. The BPD API allows partners to query aggregate distri
+  name: Buildings Performance Database API
+  slug: buildings-performance-database
+- description: The DOE participates in Data.gov by publishing thousands of dataset records under the doe-gov organization. These datasets cover energy consumption, generation, environmental impact, R&D, and more, an
+  name: Department of Energy Open Data Catalog
+  slug: open-data-catalog
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Co2 Emissions API from Department of Energy — 1 operation(s) for co2 emissions.
+  name: Department of Energy Co2 Emissions API
+  slug: department-of-energy-co2-emissions-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The EIA Open Data API V2 API from Department of Energy — 1 operation(s) for eia open data api v2.
+  name: Department of Energy EIA Open Data API V2 API
+  slug: department-of-energy-eia-open-data-api-v2-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Electricity API from Department of Energy — 2 operation(s) for electricity.
+  name: Department of Energy Electricity API
+  slug: department-of-energy-electricity-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The International API from Department of Energy — 1 operation(s) for international.
+  name: Department of Energy International API
+  slug: department-of-energy-international-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Natural Gas API from Department of Energy — 1 operation(s) for natural gas.
+  name: Department of Energy Natural Gas API
+  slug: department-of-energy-natural-gas-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Nuclear Outages API from Department of Energy — 1 operation(s) for nuclear outages.
+  name: Department of Energy Nuclear Outages API
+  slug: department-of-energy-nuclear-outages-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Petroleum API from Department of Energy — 1 operation(s) for petroleum.
+  name: Department of Energy Petroleum API
+  slug: department-of-energy-petroleum-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Seriesid API from Department of Energy — 1 operation(s) for seriesid.
+  name: Department of Energy Seriesid API
+  slug: department-of-energy-seriesid-api
+- baseURL: https://api.eia.gov/v2
+  baseurl_source: declared
+  description: The Total Energy API from Department of Energy — 1 operation(s) for total energy.
+  name: Department of Energy Total Energy API
+  slug: department-of-energy-total-energy-api
+artifact_total: 82
 collections:
 - collection_type: open
   name: API Collection
@@ -335,7 +395,7 @@ modified: '2026-06-13'
 name: Department of Energy
 nav: Providers
 network: true
-overview: 'Department of Energy publishes 16 APIs on the [APIs.io](https://apis.io/) network, including AEO API, COAL API, CRUD_IMPORTS API, and 13 more. Tagged areas include Energy, Government, Renewable Energy, Electricity, and Natural Gas.
+overview: 'Department of Energy publishes 25 APIs on the [APIs.io](https://apis.io/) network, including AEO API, COAL API, CRUD_IMPORTS API, and 22 more. Tagged areas include Energy, Government, Renewable Energy, Electricity, and Natural Gas.
 
 
   The Department of Energy catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -364,7 +424,7 @@ rules:
   slug: doe-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 45.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 63.3
@@ -372,13 +432,13 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 9.8
-    contract_quality: 47.5
-    developer_ergonomics: 23.8
+    contract_quality: 49.7
+    developer_ergonomics: 31.0
     discoverability: 68.5
     governance: 9.8
     operational_transparency: 21.1
@@ -389,7 +449,7 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 16
+      total: 25
   regulatory:
     applies: true
     matched_via: tags
@@ -397,7 +457,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/screenshots/doe-2026-06-20T180122.png
 security:

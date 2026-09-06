@@ -12,10 +12,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: verified
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-04'
+  score: 37.1
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -45,35 +45,41 @@ agentic_access:
   summary_line: 18 operations · 13 acting
 api_count: 1
 apis:
-- description: The Configure8 REST API gives platform teams programmatic access to the service catalog, scorecards, self-service actions, environments, and cost data. It is used to ingest services and resources from
+- baseURL: https://app.configure8.io/public/v1
+  baseurl_source: declared
+  description: The Configure8 REST API gives platform teams programmatic access to the service catalog, scorecards, self-service actions, environments, and cost data. It is used to ingest services and resources from
   name: Configure8 REST API
   slug: idp-rest-api
-- baseURL: https://app.configure8.io/api
+- baseURL: https://app.configure8.io/public/v1
   baseurl_source: declared
   description: The Catalog Entities API from Configure8 — 7 operation(s) for catalog entities.
   name: Configure8 Catalog Entities API
   slug: configure8-catalog-entities-api
-- baseURL: https://app.configure8.io/api
+- baseURL: https://app.configure8.io/public/v1
   baseurl_source: declared
   description: The Catalog Relations API from Configure8 — 2 operation(s) for catalog relations.
   name: Configure8 Catalog Relations API
   slug: configure8-catalog-relations-api
-- baseURL: https://app.configure8.io/api
+- baseURL: https://app.configure8.io/public/v1
   baseurl_source: declared
   description: The Deployments API from Configure8 — 1 operation(s) for deployments.
   name: Configure8 Deployments API
   slug: configure8-deployments-api
-- baseURL: https://app.configure8.io/api
+- baseURL: https://app.configure8.io/public/v1
   baseurl_source: declared
   description: The Scorecards API from Configure8 — 2 operation(s) for scorecards.
   name: Configure8 Scorecards API
   slug: configure8-scorecards-api
-- baseURL: https://app.configure8.io/api
+- baseURL: https://app.configure8.io/public/v1
   baseurl_source: declared
   description: The Users API from Configure8 — 2 operation(s) for users.
   name: Configure8 Users API
   slug: configure8-users-api
-artifact_total: 20
+artifact_total: 23
+asyncapis:
+- description: ''
+  name: Configure8 Self Service Actions Webhooks
+  slug: configure8-self-service-actions-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -107,12 +113,80 @@ common:
   url: security/configure8-vulnerability-disclosure.yml
 - group: auth
   title: ''
+  type: Security
+  url: security/configure8-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/configure8-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/configure8-trust-center.yml
+- group: auth
+  title: ''
   type: DomainSecurity
   url: security/configure8-domain-security.yml
 - group: auth
   title: ''
   type: Authentication
   url: authentication/configure8-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/configure8-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/configure8-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/configure8-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/configure8-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/configure8-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/configure8-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/configure8-rate-limits.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/configure8-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/configure8-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/configure8-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/configure8-self-service-actions-webhooks.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/configure8-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://configure8.io/docs-sub/configure8-product-docs/extras/release-notes
 - group: build
   title: ''
   type: GitHubOrganization
@@ -128,7 +202,15 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.configure8.io/
+  url: https://configure8.io/docs-sub/configure8-product-docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://configure8.readme.io/reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://configure8.io/docs-sub/configure8-product-docs/quickstart
 - group: company
   title: ''
   type: Blog
@@ -139,12 +221,20 @@ common:
   url: https://www.configure8.io/pricing
 - group: start
   title: ''
-  type: Demo
-  url: https://www.configure8.io/demo
-- group: start
+  type: SignUp
+  url: https://configure8.io/try-now
+- group: operate
   title: ''
-  type: Login
-  url: https://app.configure8.io/
+  type: Support
+  url: https://configure8.io/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://configure8.io/tos.pdf
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://configure8.io/privacy/policy
 - group: other
   title: ''
   type: Platform Engineering
@@ -157,60 +247,70 @@ finops:
   slug: configure8-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/configure8.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: 'configure8''s ReadMe-hosted API reference exposes a Model Context Protocol endpoint at https://configure8.readme.io/mcp. A POST of {"jsonrpc":"2.0","id":1,"method":"tools/list"} with Accept: applicatio'
+  name: configure8 documentation MCP server
+  slug: configure8-documentation-mcp-server
+modified: '2026-09-05'
 name: Configure8
 nav: Providers
 network: true
-overview: 'Configure8 publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Catalog Entities API, Catalog Relations API, Deployments API, and 2 more. Tagged areas include Catalog, Cloud Cost, Developer Experience, DevOps, and Internal Developer Portal.
+overview: 'Configure8 publishes 6 APIs on the [APIs.io](https://apis.io/) network, including REST API, Catalog Entities API, Catalog Relations API, and 3 more. Tagged areas include Catalog, Cloud Cost, Developer Experience, DevOps, and Internal Developer Portal.
 
 
-  Configure8''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
+  The Configure8 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Configure8''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 27 more developer resources.'
 plans:
 - name: Configure8 Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: configure8-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Configure8 Rate Limits
   slug: configure8-rate-limits
 score:
-  band: thin
-  composite: 31.5
+  band: strong
+  composite: 54.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 23.4
   facets:
-    access_clarity: 32.9
-    commercial_clarity: 32.9
-    contract_governance: 0.0
-    contract_quality: 51.6
-    developer_ergonomics: 19.0
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 10.5
+    access_clarity: 82.9
+    commercial_clarity: 82.9
+    contract_governance: 18.2
+    contract_quality: 59.5
+    developer_ergonomics: 44.6
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 36.8
   previous_composite: 31.5
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: first-party
+    skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/screenshots/configure8-2026-06-20T174854.png
 security:
 - kind: authentication
   name: Configure8 Authentication
   slug: configure8-authentication
-  summary_line: apiKey · 1 scheme
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Configure8 Domain Security
   slug: configure8-domain-security
@@ -219,6 +319,10 @@ security:
   name: Configure8 Vulnerability Disclosure
   slug: configure8-vulnerability-disclosure
   summary_line: disclosure policy published
+- kind: trust-center
+  name: Configure8 Trust Center
+  slug: configure8-trust-center
+  summary_line: SOC 2
 slug: configure8
 tags:
 - Catalog

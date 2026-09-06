@@ -12,7 +12,8 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: conformant
     agent_skills: true
@@ -21,21 +22,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: na
+    dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: na
+    idempotency: false
     mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
-    reversibility_documented: na
+    reversibility_documented: false
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 64.4
-  scored_at: '2026-09-04'
+  score: 55.6
+  scored_at: '2026-09-05'
 api_count: 3
 apis:
 - baseURL: https://api.sylvia-api.com/v1
@@ -320,7 +321,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sylvia-api/refs/heads/main/screenshots/sylvia-api-2026-09-02T161619.png
 security:

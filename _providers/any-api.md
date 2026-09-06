@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: APILayer (formerly Any-API) is a curated marketplace of reliable and scalable APIs for developers. Offers a unified dashboard, single billing subscription, API sandboxing, SDK generation, and monitori
@@ -120,7 +120,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 15.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/any-api/refs/heads/main/screenshots/any-api-2026-06-20T172031.png
 security:

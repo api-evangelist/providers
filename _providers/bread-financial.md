@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -21,20 +21,20 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
-    idempotency: false
+    idempotency: verified
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-04'
-api_count: 3
+  score: 37.8
+  scored_at: '2026-09-05'
+api_count: 13
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
   name: BreadPay Platform API
@@ -45,7 +45,55 @@ apis:
 - description: SplitPay is a short-term financing alternative for retail merchants, enabling customers to split purchases into manageable payments and helping retailers attract price-sensitive customers while increa
   name: Bread SplitPay API
   slug: split-pay-api
-artifact_total: 6
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Checkout supports the buyer's shopping journey — starting and decisioning a financing application, returning personalized payment agreement options, completing checkout in-store or online, and issuing
+  name: BreadPay Checkout API
+  slug: bread-pay-api
+- description: SplitPay is Bread's short-term, card-funded split-payment product for retail merchants. It is delivered through the same BreadPay Platform contracts and the same hosted SDK as installment financing ra
+  name: Bread SplitPay
+  slug: split-pay-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: The merchant-facing transaction lifecycle — authorize, settle, refund, cancel, rescind, extend expiration — plus carts, fulfillment detail, and settlement/funding/targeting reporting exports. Transact
+  name: BreadPay Merchant Operations API
+  slug: merchant-operations-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: The buyer's post-purchase journey — payment agreements, balances and ledger breakdowns, autopay enrollment, scheduled and ad-hoc payments, refunds, fee and principal waivers, product disputes, deferre
+  name: BreadPay Servicing API
+  slug: servicing-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Registration, lookup and management of buyers and their contacts, credit-report data, status and authorized third parties, with fraud-management capabilities around allow-listing and self cure. Handle
+  name: BreadPay Buyer Management API
+  slug: buyer-management-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Stored payment methods and their access and transient tokens, ACH account unblocking, network token retrieval, payment execution and audit, refunds and payment reversal. 21 operations.
+  name: BreadPay Payments API
+  slug: payments-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Platform foundations — service-account authorization (HTTP Basic client credentials exchanged for a bearer JWT), buyer login and token refresh, org-token exchange, one-time verification codes, org cod
+  name: BreadPay Foundations API
+  slug: foundations-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Self-service webhook subscription management — create, update and delete subscriptions with NONE, BASIC or static-bearer subscriber auth, list delivered events by status, replay failed events by id, f
+  name: BreadPay Webhook API
+  slug: webhook-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Management of public programs, payment products and the policies that determine system behaviour and execution. Only one operation is published (getPaymentProductEnrollmentByMerchantID) against 47 com
+  name: BreadPay Program API
+  slug: program-api
+- baseURL: https://api.platform.breadpayments.com
+  baseurl_source: declared
+  description: Streamlines the upgrade / trade-in flow for the Apple program — upgrade elections, trade-in payments, and linking an upgradeable loan to a payment agreement. 6 operations.
+  name: BreadPay Tradein API
+  slug: tradein-api
+artifact_total: 16
 asyncapis:
 - description: ''
   name: Bread Financial Webhooks
@@ -152,7 +200,7 @@ modified: '2026-07-18'
 name: Bread Financial
 nav: Providers
 network: true
-overview: 'Bread Financial publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Payments, Buy Now Pay Later, and Lending.
+overview: 'Bread Financial publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BreadPay Checkout API, BreadPay Merchant Operations API, BreadPay Servicing API, and 6 more. Tagged areas include Company, Fintech, Payments, Buy Now Pay Later, and Lending.
 
 
   The Bread Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -162,27 +210,32 @@ overview: 'Bread Financial publishes 3 APIs on the [APIs.io](https://apis.io/) n
 random_paper: 18
 score:
   band: thin
-  composite: 30.3
+  composite: 37.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 18
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.5
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 18.2
-    contract_quality: 41.6
-    developer_ergonomics: 50.0
+    contract_quality: 65.9
+    developer_ergonomics: 57.1
     discoverability: 72.2
     governance: 18.2
     operational_transparency: 10.5
   previous_composite: 30.3
   provenance:
     conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 9
     mcp: derived
   regulatory:
     applies: true
@@ -191,8 +244,8 @@ score:
     regime_id: payments
     score: 26.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bread-financial/refs/heads/main/screenshots/bread-financial-2026-07-25T203733.png
 security:
 - kind: authentication

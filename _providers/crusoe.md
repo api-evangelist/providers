@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 198
   human_in_the_loop: 4
@@ -883,7 +883,7 @@ overview: 'Crusoe publishes 108 APIs on the [APIs.io](https://apis.io/) network,
 random_paper: 6
 score:
   band: strong
-  composite: 55.8
+  composite: 54.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 34.0
@@ -891,16 +891,21 @@ score:
     catalog_gap: 81.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.5
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
     contract_governance: 4.5
     contract_quality: 56.0
-    developer_ergonomics: 80.4
+    developer_ergonomics: 73.2
     discoverability: 70.4
     governance: 4.5
     operational_transparency: 55.3
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 55.8
   provenance:
     agentic_access: derived
@@ -919,7 +924,7 @@ score:
     regime_id: energy_utilities
     score: 43.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crusoe/refs/heads/main/screenshots/crusoe-2026-08-07T163934.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: RESTful API and SDK for developing custom interfaces with the Cority Enviance system and integrating it with corporate and third-party systems. Use requires an express Cority Enviance Connectors licen
@@ -137,6 +137,11 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 26.7
   provenance:
     conformance: first-party
@@ -151,7 +156,7 @@ score:
     regime_id: health
     score: 30.0
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cority/refs/heads/main/screenshots/cority-2026-07-25T210437.png
 security:

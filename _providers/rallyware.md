@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The Rallyware tenant API — identity, task programs, tasks and task units, unit results, badges and KPIs for a customer's field organization. A JSON-LD / Hydra REST API on API Platform (Symfony), secur
@@ -184,7 +184,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rallyware/refs/heads/main/screenshots/rallyware-2026-09-02T152836.png
 security:

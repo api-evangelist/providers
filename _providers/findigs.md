@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ score:
     regime_id: insurance
     score: 54.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/screenshots/findigs-2026-08-17T080925.png
 security:

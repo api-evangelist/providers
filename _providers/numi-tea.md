@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Numi Tea's Universal Commerce Protocol shopping service, exposed over MCP at numitea.com/api/ucp/mcp. Thirteen tools cover catalog search and lookup, product detail, cart create/update/cancel, checkou
@@ -192,7 +192,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numi-tea/refs/heads/main/screenshots/numi-tea-2026-09-02T150814.png
 security:

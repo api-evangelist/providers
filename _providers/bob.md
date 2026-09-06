@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,14 +32,60 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.5
-  scored_at: '2026-09-04'
-api_count: 1
+  score: 18.0
+  scored_at: '2026-09-05'
+api_count: 11
 apis:
 - description: REST API for the HiBob HR platform providing programmatic access to employee data, time off management, attendance, tasks, reports, documents, goals, job catalog, workforce planning, hiring, and learn
   name: HiBob Bob API
   slug: bob-api
-artifact_total: 5
+- description: REST API for managing employee data, time off, tasks, documents, and lifecycle events in HiBob. Authentication uses HTTP Basic with an API service user ID and token (Base64-encoded).
+  name: Bob Public API
+  slug: public-api
+- description: Webhooks for receiving real-time notifications of employee lifecycle and data change events from HiBob to drive downstream automation.
+  name: Bob Webhooks
+  slug: webhooks
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Attendance API from HiBob — 4 operation(s) for attendance.
+  name: HiBob Attendance API
+  slug: hibob-attendance-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Documents API from HiBob — 3 operation(s) for documents.
+  name: HiBob Documents API
+  slug: hibob-documents-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Employee Tables API from HiBob — 4 operation(s) for employee tables.
+  name: HiBob Employee Tables API
+  slug: hibob-employee-tables-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Goals API from HiBob — 3 operation(s) for goals.
+  name: HiBob Goals API
+  slug: hibob-goals-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Hiring API from HiBob — 4 operation(s) for hiring.
+  name: HiBob Hiring API
+  slug: hibob-hiring-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Learning API from HiBob — 2 operation(s) for learning.
+  name: HiBob Learning API
+  slug: hibob-learning-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The People API from HiBob — 4 operation(s) for people.
+  name: HiBob People API
+  slug: hibob-people-api
+- baseURL: https://api.hibob.com/v1
+  baseurl_source: declared
+  description: The Projects API from HiBob — 3 operation(s) for projects.
+  name: HiBob Projects API
+  slug: hibob-projects-api
+artifact_total: 15
 common:
 - group: auth
   title: ''
@@ -101,7 +147,7 @@ modified: '2026-06-13'
 name: HiBob
 nav: Providers
 network: true
-overview: 'HiBob publishes 1 API on the [APIs.io](https://apis.io/) network: Bob API. Tagged areas include HR, Human Resources, HRIS, Employee Management, and Time Off.
+overview: 'HiBob publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bob API, Attendance API, Documents API, and 6 more. Tagged areas include HR, Human Resources, HRIS, Employee Management, and Time Off.
 
 
   HiBob''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
@@ -116,28 +162,34 @@ rate_limits:
   slug: bob-rate-limits
 score:
   band: thin
-  composite: 30.4
+  composite: 38.6
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 60.0
+    artifact_dirs: 8
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 55.0
+    catalog_gap: 52.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.2
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 0.0
-    contract_quality: 26.7
-    developer_ergonomics: 7.1
-    discoverability: 68.5
+    contract_quality: 47.6
+    developer_ergonomics: 19.0
+    discoverability: 74.1
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 30.4
+  provenance:
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/screenshots/bob-2026-06-20T173550.png
 security:
 - kind: domain-security

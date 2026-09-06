@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The agent-callable commerce surface of the PBS Biotech online store. Implemented by Shopify on the company's own shoppbsbiotech.com host and advertised by the store's own /llms.txt, /agents.md and /ro
@@ -203,7 +203,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pbs-biotech/refs/heads/main/screenshots/pbs-biotech-2026-09-02T150924.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ rules:
   slug: bifrost-spectral-rules
 score:
   band: developing
-  composite: 49.9
+  composite: 50.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 63.5
@@ -342,7 +342,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 65.8
     commercial_clarity: 65.8
@@ -351,7 +351,7 @@ score:
     developer_ergonomics: 61.9
     discoverability: 72.2
     governance: 28.8
-    operational_transparency: 44.7
+    operational_transparency: 52.6
   open_source:
     applies: true
     score: 75.0
@@ -364,7 +364,7 @@ score:
       marker_coverage: 100.0
       total: 3
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/screenshots/bifrost-2026-06-20T173231.png
 security:

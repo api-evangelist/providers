@@ -14,7 +14,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-09-04'
+  score: 23.6
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -88,7 +88,7 @@ apis:
   description: The Zones API from Apple CloudKit — 4 operation(s) for zones.
   name: Apple CloudKit Zones API
   slug: cloudkit-zones-api
-artifact_total: 24
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -134,10 +134,6 @@ common:
   title: ''
   type: Website
   url: https://www.icloud.com/
-- group: other
-  title: ''
-  type: Developer
-  url: https://developer.apple.com/icloud/cloudkit/
 - group: docs
   title: ''
   type: Documentation
@@ -158,6 +154,130 @@ common:
   title: ''
   type: Spectral
   url: rules/cloudkit-rules.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cloudkit-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/cloudkit-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cloudkit-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/cloudkit-security.txt
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/cloudkit-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cloudkit-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cloudkit-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/cloudkit-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cloudkit-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cloudkit-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/cloudkit-lifecycle.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cloudkit-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/cloudkit-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/cloudkit-trust-center.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/cloudkit-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cloudkit-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/cloudkit-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/cloudkit-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cloudkit-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cloudkit-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cloudkit-rate-limits.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.apple.com/icloud/cloudkit/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitWebServicesReference/index.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.apple.com/library/archive/documentation/DataManagement/Conceptual/CloudKitWebServicesReference/SettingUpWebServices.html
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.apple.com/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.apple.com/news/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/apple
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.apple.com/programs/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.apple.com/programs/enroll/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.apple.com/legal/internet-services/icloud/
 created: '2024-01-01'
 description: Apple CloudKit is the cloud backend for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and the web. CloudKit Web Services is the public REST surface that lets non-Apple-platform clients (web apps, servers) read and write data into a CloudKit container's public, private, or shared database. The web service is hosted at api.apple-cloudkit.com and accepts either an API token (for end-user-authenticated access) or a server-to- server ECDSA key for backend access. Operations cover records, zones, subscriptions, assets, users, and database changes.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudkit.png
@@ -167,7 +287,7 @@ jsonld:
   property_count: 8
   slug: cloudkit-context
 layout: provider
-modified: '2026-04-25'
+modified: '2026-09-05'
 name: Apple CloudKit
 nav: Providers
 network: true
@@ -177,8 +297,16 @@ overview: 'Apple CloudKit publishes 7 APIs on the [APIs.io](https://apis.io/) ne
   The Apple CloudKit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apple CloudKit''s developer surface includes authentication, documentation, developer console, and 7 more developer resources.'
+  Apple CloudKit''s developer surface includes authentication, documentation, developer console, sandbox, changelog, CLI, API reference, and 33 more developer resources.'
+plans:
+- name: Cloudkit Plans Pricing
+  plan_count: 0
+  slug: cloudkit-plans-pricing
 random_paper: 2
+rate_limits:
+- limit_count: 6
+  name: Cloudkit Rate Limits
+  slug: cloudkit-rate-limits
 rules:
 - effective_rule_count: 53
   extends:
@@ -192,46 +320,57 @@ rules:
     warn: 6
   slug: cloudkit-rules
 score:
-  band: thin
-  composite: 33.2
+  band: strong
+  composite: 65.7
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
+    artifact_dirs: 24
+    catalog_earned: 67.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 32.5
   facets:
-    access_clarity: 10.5
-    commercial_clarity: 10.5
-    contract_governance: 54.5
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 72.7
     contract_quality: 51.7
-    developer_ergonomics: 28.6
+    developer_ergonomics: 80.4
     discoverability: 59.3
-    governance: 54.5
-    operational_transparency: 0.0
+    governance: 72.7
+    operational_transparency: 76.3
   previous_composite: 33.2
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: derived
+    skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
-  trend: flat
+  scored_at: '2026-09-05'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudkit/refs/heads/main/screenshots/cloudkit-2026-06-20T174606.png
 security:
 - kind: authentication
   name: Cloudkit Authentication
   slug: cloudkit-authentication
-  summary_line: apiKey · 2 schemes
+  summary_line: apiKey/signature · 4 schemes
 - kind: domain-security
   name: Cloudkit Domain Security
   slug: cloudkit-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Cloudkit Vulnerability Disclosure
+  slug: cloudkit-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Cloudkit Trust Center
+  slug: cloudkit-trust-center
+  summary_line: ISO/IEC 27001, ISO/IEC 27018, SOC 3
 slug: cloudkit
 tags:
 - Apple

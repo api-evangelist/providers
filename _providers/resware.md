@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 7
 apis:
 - description: Modeled logical service area for the people and organizations attached to a file - buyers, sellers, lenders, agents, and vendors - and their roles and mappings to partner-side identifiers. Delivered o
@@ -123,7 +123,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resware/refs/heads/main/screenshots/resware-2026-09-02T153614.png
 security:

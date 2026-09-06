@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -88,7 +88,19 @@ apis:
 - description: Echo supports system-to-system EDI integration alongside its REST APIs via the EchoSync platform, enabling shippers, carriers, third parties, and TMS software to exchange transactional data with Echo'
   name: Echo EDI Integration
   slug: edi
-artifact_total: 34
+- description: OAuth 2.0 authorization endpoint that issues bearer tokens consumed by the EchoSync Customer API and Carrier API. Existing partners request credentials via their Echo sales representative or info@echo
+  name: EchoSync Authorizer API
+  slug: authorizer-api
+- description: Shipper-facing REST API providing rapid access to competitive truckload quotes and rates 24/7/365, load creation, tracking, and document retrieval. Authentication uses OAuth 2.0 bearer tokens issued b
+  name: EchoSync Customer API
+  slug: customer-api
+- description: 'Carrier-facing REST API enabling carriers to view available truck loads in real time, place offers, and book loads using Echo''s Book It Now feature. Authentication uses OAuth 2.0 bearer tokens issued '
+  name: EchoSync Carrier API
+  slug: carrier-api
+- description: TMS partner integration API providing seamless load creation (Truckload, LTL, and Partial), LTL freight rating, real-time tracking, and document retrieval. Aimed at third-party TMS platforms and manag
+  name: EchoSync Partner-Connect API
+  slug: partner-connect-api
+artifact_total: 38
 collections:
 - collection_type: open
   name: API Collection
@@ -226,7 +238,7 @@ modified: '2026-06-13'
 name: Echo Global Logistics
 nav: Providers
 network: true
-overview: 'Echo Global Logistics publishes 8 APIs on the [APIs.io](https://apis.io/) network, including documents API, health API, ping API, and 5 more. Tagged areas include Freight, Logistics, Shipping, LTL, and Truckload.
+overview: 'Echo Global Logistics publishes 9 APIs on the [APIs.io](https://apis.io/) network, including documents API, health API, ping API, and 6 more. Tagged areas include Freight, Logistics, Shipping, LTL, and Truckload.
 
 
   The Echo Global Logistics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
@@ -255,7 +267,7 @@ rules:
   slug: echo-global-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.9
+  composite: 44.9
   coverage:
     artifact_dirs: 15
     catalog_earned: 73.3
@@ -263,16 +275,16 @@ score:
     catalog_gap: 41.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
     contract_governance: 9.8
     contract_quality: 61.5
-    developer_ergonomics: 40.5
+    developer_ergonomics: 36.9
     discoverability: 64.8
     governance: 9.8
-    operational_transparency: 36.8
+    operational_transparency: 34.2
   previous_composite: 45.9
   provenance:
     agentic_access: derived
@@ -282,7 +294,7 @@ score:
       marker_coverage: 0.0
       total: 8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/screenshots/echo-global-2026-06-20T180419.png
 security:

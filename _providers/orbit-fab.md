@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 4.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 2.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbit-fab/refs/heads/main/screenshots/orbit-fab-2026-08-07T190841.png
 security:

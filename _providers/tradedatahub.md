@@ -23,21 +23,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.0
-  scored_at: '2026-09-04'
+  score: 26.7
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Free, unauthenticated REST discovery API for contractor/trade-business datasets, with paid CSV retrieval via x402 (testnet-only). Includes coverage stats, inventory discovery, dataset listings, pricin
@@ -207,7 +207,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/screenshots/tradedatahub-2026-09-02T164042.png
 security:

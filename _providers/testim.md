@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 3
 apis:
 - description: REST API used to trigger and manage test executions, query test run status, and retrieve results for tests authored in Testim. Authentication is via a personal access token issued from the Testim work
@@ -142,7 +142,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 22.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/testim/refs/heads/main/screenshots/testim-2026-06-20T195153.png
 security:

@@ -21,21 +21,21 @@ agent_readiness:
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.8
-  scored_at: '2026-09-04'
+  score: 25.2
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://nurabio.com/wp-json
@@ -201,6 +201,11 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 0.0
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 27.0
   provenance:
     conformance: derived
@@ -218,7 +223,7 @@ score:
     regime_id: health
     score: 38.8
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nura-bio/refs/heads/main/screenshots/nura-bio-2026-09-02T150816.png
 security:

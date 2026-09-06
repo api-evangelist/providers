@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 2
 apis:
 - baseURL: https://integrators.prod.api.tabsplatform.com
@@ -151,7 +151,45 @@ apis:
   description: The Revenue API from Tabs — 1 operation(s) for revenue.
   name: Tabs Revenue API
   slug: tabs-revenue-api
-artifact_total: 52
+- description: REST API for the Tabs revenue automation platform that exposes the core data model of customers, contracts, items, revenue categories, obligations, invoices, payments, and usage events. The API lets f
+  name: Tabs Platform API
+  slug: tabs-platform-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The BillingTerms API from Tabs — 3 operation(s) for billingterms.
+  name: Tabs BillingTerms API
+  slug: tabs-fi-billingterms-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The CreditMemos API from Tabs — 3 operation(s) for creditmemos.
+  name: Tabs CreditMemos API
+  slug: tabs-fi-creditmemos-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The CustomFields API from Tabs — 1 operation(s) for customfields.
+  name: Tabs CustomFields API
+  slug: tabs-fi-customfields-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The EventTypes API from Tabs — 2 operation(s) for eventtypes.
+  name: Tabs EventTypes API
+  slug: tabs-fi-eventtypes-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The PerformanceObligations API from Tabs — 4 operation(s) for performanceobligations.
+  name: Tabs PerformanceObligations API
+  slug: tabs-fi-performanceobligations-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The System API from Tabs — 4 operation(s) for system.
+  name: Tabs System API
+  slug: tabs-fi-system-api
+- baseURL: https://api.tabsplatform.com
+  baseurl_source: spec
+  description: The UsageEvents API from Tabs — 2 operation(s) for usageevents.
+  name: Tabs UsageEvents API
+  slug: tabs-fi-usageevents-api
+artifact_total: 60
 collections:
 - collection_type: open
   name: API Collection
@@ -374,7 +412,7 @@ modified: '2026-07-21'
 name: Tabs
 nav: Providers
 network: true
-overview: 'Tabs publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Billing Terms API, Categories API, Classes (QBO only) API, and 20 more. Tagged areas include Billing, Revenue Automation, Accounts Receivable, Revenue Recognition, and Usage-Based Billing.
+overview: 'Tabs publishes 30 APIs on the [APIs.io](https://apis.io/) network, including Billing Terms API, Categories API, Classes (QBO only) API, and 27 more. Tagged areas include Billing, Revenue Automation, Accounts Receivable, Revenue Recognition, and Usage-Based Billing.
 
 
   Tabs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 27 more developer resources.'
@@ -385,36 +423,36 @@ rate_limits:
   slug: tabs-rate-limits
 score:
   band: developing
-  composite: 47.5
+  composite: 46.5
   coverage:
     artifact_dirs: 19
-    catalog_earned: 45.0
+    catalog_earned: 40.0
     catalog_earned_first_party: 8.0
-    catalog_gap: 70.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -1.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 46.5
+    contract_quality: 46.4
     developer_ergonomics: 58.9
-    discoverability: 75.9
+    discoverability: 66.7
     governance: 4.5
     operational_transparency: 39.5
   previous_composite: 47.5
   provenance:
     conformance: derived
     contracts:
-      callable: 100.0
+      callable: 76.7
       derived: 2
-      marker_coverage: 100.0
-      total: 23
+      marker_coverage: 76.7
+      total: 30
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tabs/refs/heads/main/screenshots/tabs-2026-08-17T082234.png
 security:

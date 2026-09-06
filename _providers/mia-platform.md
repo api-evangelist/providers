@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Mia-Platform is an Internal Developer Platform that harmonizes infrastructure, applications, and data for intelligent engineering at scale, enabling teams to build and deploy cloud-native applications
@@ -124,7 +124,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mia-platform/refs/heads/main/screenshots/mia-platform-2026-06-20T185328.png
 security:

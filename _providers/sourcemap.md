@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Sourcemap describes a secure real-time RESTful API used to integrate the traceability platform with ERP and enterprise data stacks (SAP, Salesforce Net Zero Cloud, Databricks) and with customs portals
@@ -163,7 +163,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcemap/refs/heads/main/screenshots/sourcemap-2026-09-02T160303.png
 security:

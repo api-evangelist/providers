@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,7 +83,42 @@ apis:
   description: Multimodal trip planning and results
   name: Transit Trips API
   slug: transit-trips-api
-artifact_total: 31
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Available transit networks and coverage near a location.
+  name: Transit Locations API
+  slug: transitapp-locations-api
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Public transit routes near a location with real-time departures.
+  name: Transit Nearby Routes API
+  slug: transitapp-nearby-routes-api
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Public transit stops near a location.
+  name: Transit Nearby Stops API
+  slug: transitapp-nearby-stops-api
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Itineraries, stops, and geometry for a specific route.
+  name: Transit Route Details API
+  slug: transitapp-route-details-api
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Service alerts and disruptions for routes, stops, and networks.
+  name: Transit Service Alerts API
+  slug: transitapp-service-alerts-api
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Upcoming departures for a specific stop.
+  name: Transit Stop Departures API
+  slug: transitapp-stop-departures-api
+- baseURL: https://external.transitapp.com/v3
+  baseurl_source: declared
+  description: Multimodal origin-to-destination trip planning.
+  name: Transit Trip Planning API
+  slug: transitapp-trip-planning-api
+artifact_total: 39
 collections:
 - collection_type: open
   name: API Collection
@@ -112,6 +147,9 @@ collections:
 - collection_type: open
   name: Transit API
   slug: open-transit
+- collection_type: open
+  name: Transit API
+  slug: open-transitapp
 common:
 - group: agent
   title: ''
@@ -212,7 +250,7 @@ modified: '2026-05-23'
 name: Transit
 nav: Providers
 network: true
-overview: 'Transit publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Departures API, Mobility API, and 4 more. Tagged areas include Public Transit, Real-Time, Trip Planning, Multi-Modal, and GTFS.
+overview: 'Transit publishes 14 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Departures API, Mobility API, and 11 more. Tagged areas include Public Transit, Real-Time, Trip Planning, Multi-Modal, and GTFS.
 
 
   The Transit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -252,7 +290,7 @@ rules:
   slug: transit-rules
 score:
   band: developing
-  composite: 51.5
+  composite: 51.7
   coverage:
     artifact_dirs: 16
     catalog_earned: 91.5
@@ -260,13 +298,13 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.2
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
     contract_governance: 28.8
-    contract_quality: 68.3
-    developer_ergonomics: 33.3
+    contract_quality: 68.2
+    developer_ergonomics: 34.5
     discoverability: 68.5
     governance: 28.8
     operational_transparency: 36.8
@@ -277,9 +315,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
+      total: 14
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/screenshots/transit-2026-06-20T195544.png
 security:

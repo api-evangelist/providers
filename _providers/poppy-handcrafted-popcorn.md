@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface for the Poppy Hand-Crafted Popcorn storefront, implementing the Universal Commerce Protocol (UCP) 2026-04-08 over MCP. Thirteen tools cover catalog search and lookup,
@@ -172,7 +172,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poppy-handcrafted-popcorn/refs/heads/main/screenshots/poppy-handcrafted-popcorn-2026-09-02T151753.png
 security:

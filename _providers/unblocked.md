@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -223,8 +223,8 @@ overview: 'Unblocked publishes 3 APIs on the [APIs.io](https://apis.io/) network
   Unblocked''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
 random_paper: 6
 score:
-  band: developing
-  composite: 54.0
+  band: strong
+  composite: 55.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -232,7 +232,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -0.7
+  delta: 1.1
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -241,8 +241,8 @@ score:
     developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 18.2
-    operational_transparency: 18.4
-  previous_composite: 54.7
+    operational_transparency: 26.3
+  previous_composite: 54.0
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -254,7 +254,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/screenshots/unblocked-2026-08-17T082549.png
 security:

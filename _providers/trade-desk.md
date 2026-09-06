@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -86,7 +86,13 @@ apis:
   description: IP-address ingestion endpoints of the TTD Data API — upload first-party or third-party IP-address-based targeting data for use in audience targeting. Discovered 2026-08-13 in the provider-published Sw
   name: The Trade Desk IPAddress Data API
   slug: trade-desk-ipaddress-api
-artifact_total: 26
+- description: The Trade Desk Real-Time Conversions API (formerly the Real-Time Conversion Events API) allows advertisers to send conversion events server-side in real time, enabling more accurate attribution, cross
+  name: The Trade Desk Real-Time Conversions API
+  slug: the-trade-desk-real-time-conversions-api
+- description: The Trade Desk Reporting API provides programmatic access to campaign performance data including impressions, clicks, conversions, spend, win rates, viewability, effective CPM, completion rates, and 2
+  name: The Trade Desk Reporting API
+  slug: the-trade-desk-reporting-api
+artifact_total: 28
 collections:
 - collection_type: open
   name: API Collection
@@ -441,7 +447,7 @@ score:
     mcp: first-party
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trade-desk/refs/heads/main/screenshots/trade-desk-2026-06-20T195532.png
 security:

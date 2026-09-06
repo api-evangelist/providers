@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Portman is an open source CLI tool that auto-generates Postman collections with contract and variation tests from OpenAPI specifications. It converts static OpenAPI specs into dynamic, testable Postma
@@ -123,7 +123,7 @@ score:
     score: 25.0
   previous_composite: 14.9
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portman/refs/heads/main/screenshots/portman-2026-06-20T191942.png
 slug: portman

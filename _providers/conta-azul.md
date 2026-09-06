@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.4
-  scored_at: '2026-09-04'
+  score: 37.9
+  scored_at: '2026-09-05'
 api_count: 9
 apis:
 - baseURL: https://api-v2.contaazul.com
@@ -41,7 +41,10 @@ apis:
   description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
   name: Conta Azul v1 API
   slug: conta-azul-v1-api
-artifact_total: 6
+- description: 'REST/JSON API for the Conta Azul ERP, organized by functional area (Financeiro, Cobranças, Baixas, Vendas, Pessoas, Produtos, Serviços, Notas Fiscais, Contratos), secured with OAuth 2.0 Authorization '
+  name: Conta Azul API
+  slug: conta-azul-api
+artifact_total: 10
 collections:
 - collection_type: open
   name: API Collection
@@ -179,22 +182,30 @@ overview: 'Conta Azul publishes 1 API on the [APIs.io](https://apis.io/) network
 
   Conta Azul''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 22 more developer resources.'
 random_paper: 14
+rate_limits:
+- limit_count: 2
+  name: Dvpj Rate Limits
+  slug: dvpj-rate-limits
 scopes:
 - name: Conta Azul Scopes
   scope_count: 3
   slug: conta-azul-scopes
   summary_line: 3 scopes · authorizationCode
+- name: Dvpj Scopes
+  scope_count: 3
+  slug: dvpj-scopes
+  summary_line: 3 scopes · authorizationCode
 score:
-  band: developing
-  composite: 52.4
+  band: strong
+  composite: 55.1
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -203,7 +214,14 @@ score:
     developer_ergonomics: 58.9
     discoverability: 81.5
     governance: 4.5
-    operational_transparency: 42.1
+    operational_transparency: 63.2
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - brazil
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - latin-america
   previous_composite: 52.4
   provenance:
     conformance: derived
@@ -216,12 +234,16 @@ score:
     skills: derived
   regulatory:
     applies: true
+    jurisdictions:
+    - jurisdiction: BR
+      standard: lgpd
+    jurisdictions_satisfied: 1
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 54.7
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:
@@ -229,6 +251,10 @@ security:
   name: Conta Azul Authentication
   slug: conta-azul-authentication
   summary_line: oauth2/http · 2 schemes
+- kind: authentication
+  name: Dvpj Authentication
+  slug: dvpj-authentication
+  summary_line: oauth2 · 2 schemes
 - kind: domain-security
   name: Conta Azul Domain Security
   slug: conta-azul-domain-security

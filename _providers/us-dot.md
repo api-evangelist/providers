@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -186,7 +186,54 @@ apis:
   description: The VFR Helicopter Route Chart API from U.S. Department of Transportation — 4 operation(s) for vfr helicopter route chart.
   name: U.S. Department of Transportation VFR Helicopter Route Chart API
   slug: us-dot-vfr-helicopter-route-chart-api
-artifact_total: 50
+- description: 'The FMCSA SaferBus API is a RESTful service making available safety performance data for U.S. DOT-registered bus companies. It enables developers to build consumer-facing products that help travelers '
+  name: FMCSA SaferBus API
+  slug: fmcsa-saferbus-api
+- description: The NHTSA Vehicle Product Information Catalog (vPIC) API provides programmatic access to vehicle make, model, manufacturer, and type data compiled by NHTSA. Key capabilities include VIN decoding (sing
+  name: NHTSA vPIC Vehicle API
+  slug: nhtsa-vpic-api
+- description: NHTSA provides public datasets and APIs covering vehicle safety complaints, recalls, safety ratings (NCAP), and defect investigations. Complaint data entered into NHTSA's Office of Defects Investigati
+  name: NHTSA Datasets and APIs
+  slug: nhtsa-datasets-api
+- description: 'The U.S. Department of Transportation Open Data Portal provides access to transportation datasets published by DOT agencies including FMCSA, NHTSA, FTA, BTS, FAA, PHMSA, and more. The portal supports '
+  name: DOT Open Data Portal
+  slug: dot-data-portal
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Child Seat search and list endpoints
+  name: US Department of Transportation childSeats API
+  slug: dot-childseats-api
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Equipment search and list endpoints
+  name: US Department of Transportation equipment API
+  slug: dot-equipment-api
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Early Warning Report endpoints
+  name: US Department of Transportation ewr API
+  slug: dot-ewr-api
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Foreign Campaign search and list endpoints
+  name: US Department of Transportation foreignCampaigns API
+  slug: dot-foreigncampaigns-api
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Recalls, Investigations, Complaints, and Manufacturer Communications
+  name: US Department of Transportation safetyIssues API
+  slug: dot-safetyissues-api
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Tire search and list endpoints
+  name: US Department of Transportation tires API
+  slug: dot-tires-api
+- baseURL: https://mobile.fmcsa.dot.gov/qc/services
+  baseurl_source: declared
+  description: Vehicle search and list endpoints
+  name: US Department of Transportation vehicles API
+  slug: dot-vehicles-api
+artifact_total: 61
 asyncapis:
 - description: ''
   name: Us Dot Event Surfaces
@@ -470,7 +517,7 @@ modified: '2026-07-28'
 name: U.S. Department of Transportation
 nav: Providers
 network: true
-overview: 'U.S. Department of Transportation publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 21 more. Tagged areas include Travel, United States, Aviation, Airlines, and Airports.
+overview: 'U.S. Department of Transportation publishes 31 APIs on the [APIs.io](https://apis.io/) network, including Air Carrier API, Axhsubmitdiscrepancies API, Coded Instrument Flight Procedures (CIFP) API, and 28 more. Tagged areas include Travel, United States, Aviation, Airlines, and Airports.
 
 
   The U.S. Department of Transportation catalog on APIs.io includes 2 event-driven AsyncAPI specifications.
@@ -480,7 +527,7 @@ overview: 'U.S. Department of Transportation publishes 24 APIs on the [APIs.io](
 random_paper: 16
 score:
   band: developing
-  composite: 53.0
+  composite: 52.7
   coverage:
     artifact_dirs: 26
     catalog_earned: 37.0
@@ -488,25 +535,32 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.3
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
-    contract_quality: 55.9
+    contract_quality: 54.6
     developer_ergonomics: 58.9
     discoverability: 87.0
     governance: 4.5
     operational_transparency: 44.7
+  jurisdiction:
+    basis: provider tags (build_countries.py / build_regions.py)
+    countries:
+    - united-states
+    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
+    regions:
+    - north-america
   previous_composite: 53.0
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 75.0
+      callable: 80.6
       derived: 0
       marker_coverage: 0.0
-      total: 24
+      total: 31
     mcp: derived
     skills: derived
   regulatory:
@@ -516,7 +570,7 @@ score:
     regime_id: government
     score: 57.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png
 security:

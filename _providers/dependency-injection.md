@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: Rules, capabilities, vocabulary, and linked-data description for the Dependency Injection design pattern.
@@ -122,7 +122,7 @@ score:
       reason: no_resolvable_host
   previous_composite: 14.4
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dependency-injection/refs/heads/main/screenshots/dependency-injection-2026-06-20T175927.png
 slug: dependency-injection

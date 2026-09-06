@@ -33,8 +33,8 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-04'
-api_count: 8
+  scored_at: '2026-09-05'
+api_count: 13
 apis:
 - description: 'Access to Current Employment Statistics (CES), Current Population Survey (CPS), Occupational Employment Statistics Survey (OES), Quarterly Census Employment and Wage (CEW), and Consumer Price Indexes '
   name: DOL Employment Statistics API
@@ -60,7 +60,22 @@ apis:
 - description: Access the International Labor Affairs Bureau (ILAB) Sweat and Toil data covering child labor and forced labor worldwide, including goods produced with child or forced labor by country and good, sourc
   name: DOL Sweat and Toil API
   slug: dol-sweat-and-toil-api
-artifact_total: 13
+- description: The DOL Open Data API v4 is the Department of Labor's modernized REST API replacing the retired developer.dol.gov APIv1 and APIv2. It is served from the DOL Data Portal at dataportal.dol.gov and expos
+  name: DOL Open Data API V4
+  slug: dol-api-v4
+- description: The Bureau of Labor Statistics Public Data API v2 provides programmatic access to historical BLS time series data in JSON or Excel. Version 2 requires registration to obtain a registrationkey query pa
+  name: BLS Public Data API V2
+  slug: bls-public-data-api
+- description: The DOL Enforcement Data site at data.dol.gov publishes the Department's enforcement records from agencies including the Wage and Hour Division, OSHA, MSHA, OFCCP, and the Employee Benefits Security A
+  name: DOL Enforcement Data
+  slug: dol-enforcement-data
+- description: The DOL API Sampler is an interactive playground for exploring the DOL Open Data API v4 endpoints. It serves as a quick way to issue sample requests, browse parameters, and inspect responses against t
+  name: DOL API Sampler
+  slug: dol-api-sampler
+- description: The Department of Labor Open Data Catalog publishes datasets across labor statistics, enforcement, employment training, and worker protection programs. Datasets are surfaced on Data.gov under the dol-
+  name: DOL Open Data Catalog
+  slug: dol-open-data-catalog
+artifact_total: 18
 common:
 - group: auth
   title: ''
@@ -139,7 +154,7 @@ modified: '2026-06-13'
 name: Department of Labor
 nav: Providers
 network: true
-overview: 'Department of Labor publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Employment, Labor, Workforce, and OSHA.
+overview: 'Department of Labor publishes 13 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Employment, Labor, Workforce, and OSHA.
 
 
   The Department of Labor catalog on APIs.io includes 1 JSON-LD context.
@@ -156,8 +171,8 @@ rate_limits:
   name: Dol Rate Limits
   slug: dol-rate-limits
 score:
-  band: emerging
-  composite: 24.2
+  band: thin
+  composite: 26.8
   coverage:
     artifact_dirs: 8
     catalog_earned: 62.0
@@ -165,10 +180,10 @@ score:
     catalog_gap: 53.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.6
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 42.1
+    commercial_clarity: 42.1
     contract_governance: 0.0
     contract_quality: 14.7
     developer_ergonomics: 15.5
@@ -183,7 +198,7 @@ score:
     regime_id: government
     score: 31.5
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dol/refs/heads/main/screenshots/dol-2026-06-20T180132.png
 security:

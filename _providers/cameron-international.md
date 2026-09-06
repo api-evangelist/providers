@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 0
 artifact_total: 2
 common:
@@ -51,7 +51,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.slb.com/products-and-services/delivering-domain-expertise/surface/cameron-surface
+  url: https://www.slb.com/legacy-companies/cameron-products
 - group: other
   title: ''
   type: ParentCompany
@@ -68,18 +68,48 @@ common:
   title: ''
   type: News
   url: https://www.slb.com/news
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/cameron-international-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/cameron-international-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/cameron-international-vulnerability-disclosure.yml
+coverage:
+  checked: '2026-09-05'
+  detail: Cameron International no longer exists as an operating company — its own domain www.c-a-m.com and the cameron.slb.com subdomain both 301 to SLB's /legacy-companies/cameron-products page, and STEP 0b contract discovery (openapi/swagger/api-docs, GraphQL, MCP tools/list, agent-card and OGC probes) returned clean 404s on every Cameron and SLB host including the DELFI developer portal, which serves only an Angular single-page shell.
+  evidence:
+  - status: 301
+    url: https://www.c-a-m.com/
+  - status: 301
+    url: https://cameron.slb.com/
+  - status: 404
+    url: https://www.slb.com/products-and-services/delivering-domain-expertise/surface/cameron-surface
+  - status: 404
+    url: https://developer.delfi.slb.com/openapi.json
+  - status: 404
+    url: https://www.slb.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.slb.com/.well-known/security.txt
+  reason: defunct
+  state: none
 created: '2026-03-23'
 description: Cameron International (formerly Cooper Cameron Corporation) was a leading provider of flow equipment products, systems, and services to the worldwide oil, gas, and process industries. In 2016 the business was acquired by Schlumberger (now SLB) and its pressure-control, drilling, subsea, valves, measurement, and compression product lines were integrated into SLB's digital oilfield portfolio. Cameron-branded capabilities are now delivered and integrated through the SLB DELFI digital platform and its developer APIs rather than through a standalone Cameron developer program.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cameron-international.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-09-05'
 name: Cameron International
 nav: Providers
 network: true
 overview: 'Cameron International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Oil and Gas, Energy, Flow Equipment, Schlumberger, and Industrial.
 
 
-  Cameron International''s developer surface includes product news and 7 more developer resources.'
+  Cameron International''s developer surface includes product news and 10 more developer resources.'
 press:
 - date: '2026-05-25'
   title: 'Forbes Earnings Preview: Cameron International'
@@ -99,15 +129,15 @@ press:
 random_paper: 2
 score:
   band: minimal
-  composite: 6.4
+  composite: 7.8
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -116,7 +146,7 @@ score:
     developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   previous_composite: 6.4
   regulatory:
     applies: true
@@ -125,7 +155,7 @@ score:
     regime_id: energy_utilities
     score: 16.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cameron-international/refs/heads/main/screenshots/cameron-international-2026-06-20T173912.png
 security:
@@ -145,5 +175,5 @@ tags:
 - Schlumberger
 - Industrial
 - Fortune 500
-website: https://www.slb.com/products-and-services/delivering-domain-expertise/surface/cameron-surface
+website: https://www.slb.com/legacy-companies/cameron-products
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 1
 apis:
 - description: 'Programmatic access to Trellis''s state and federal trial court dataset: Smart Search over rulings, dockets and documents; docket/case data (parties, attorneys, documents, events); docket refresh; ruli'
@@ -136,7 +136,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 30.1
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellis/refs/heads/main/screenshots/trellis-2026-09-02T164206.png
 security:

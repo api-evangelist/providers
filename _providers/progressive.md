@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -76,7 +76,10 @@ apis:
 - description: Generates or retrieves a certificate of insurance (COI) for a Progressive commercial policy; used by lenders, brokers, and operations platforms that need real-time proof-of-coverage documents.
   name: Certificate of Insurance API
   slug: certificate-of-insurance
-artifact_total: 22
+- description: Quoting product for commercial auto policies; enables partners to surface Progressive commercial-lines coverage and rate options within their onboarding or fleet-management flows.
+  name: Commercial Auto Quoting API
+  slug: commercial-auto-quoting
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -186,7 +189,7 @@ rate_limits:
   slug: progressive-rate-limits
 score:
   band: thin
-  composite: 28.0
+  composite: 27.7
   coverage:
     artifact_dirs: 14
     catalog_earned: 39.0
@@ -203,8 +206,8 @@ score:
     developer_ergonomics: 31.0
     discoverability: 59.3
     governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 28.3
+    operational_transparency: 7.9
+  previous_composite: 28.0
   provenance:
     agentic_access: derived
     contracts:
@@ -219,7 +222,7 @@ score:
     regime_id: insurance
     score: 18.2
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png
 security:

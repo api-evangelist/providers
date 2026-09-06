@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 api_count: 3
 apis:
 - baseURL: https://developer.swapcard.com/event-admin/graphql
@@ -140,7 +140,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 32.6
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapcard/refs/heads/main/screenshots/swapcard-2026-09-02T161340.png
 security:

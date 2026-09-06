@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.1
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -248,8 +248,8 @@ overview: 'Figure publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
   Figure''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 21 more developer resources.'
 random_paper: 12
 score:
-  band: thin
-  composite: 38.3
+  band: developing
+  composite: 39.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 40.0
@@ -257,7 +257,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.0
   facets:
     access_clarity: 27.6
     commercial_clarity: 27.6
@@ -266,7 +266,7 @@ score:
     developer_ergonomics: 47.0
     discoverability: 81.5
     governance: 4.5
-    operational_transparency: 10.5
+    operational_transparency: 18.4
   previous_composite: 38.3
   provenance:
     agentic_access: derived
@@ -279,7 +279,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.18.3
-  scored_at: '2026-09-04'
+  scored_at: '2026-09-05'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figure/refs/heads/main/screenshots/figure-2026-07-25T214439.png
 security:
