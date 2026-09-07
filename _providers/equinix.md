@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 4
@@ -735,7 +735,7 @@ score:
   band: thin
   composite: 32.3
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 44.0
     catalog_earned_first_party: 0.0
     catalog_gap: 71.0
@@ -759,8 +759,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 74
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/equinix/refs/heads/main/screenshots/equinix-2026-07-25T213545.png
 security:

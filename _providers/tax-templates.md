@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - description: Intuit TurboTax API enables integration with TurboTax for consumer and business tax preparation workflows, including data import, tax calculation, and e-filing.
@@ -151,8 +151,8 @@ score:
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 17.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tax-templates/refs/heads/main/screenshots/tax-templates-2026-06-20T194933.png
 security:

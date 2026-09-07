@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The Pocus core API is a GraphQL endpoint at https://api.pocus.com/graphql, confirmed live and authoritatively named as POCUS_CORE_API_ENDPOINT in Pocus' own published @pocus/cli package. Introspection
@@ -197,8 +197,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocus/refs/heads/main/screenshots/pocus-2026-09-02T151605.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: First-party R package for importing, transforming, and visualizing PicnicHealth real-world research data (cohorts, medications, labs, clinical codes). Distributed via PicnicHealth's Posit/RStudio Pack
@@ -124,8 +124,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/picnicai/refs/heads/main/screenshots/picnicai-2026-09-02T151226.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -334,8 +334,8 @@ score:
       derived: 6
       marker_coverage: 100.0
       total: 6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-pdfbox/refs/heads/main/screenshots/apache-pdfbox-2026-06-20T172133.png
 security:

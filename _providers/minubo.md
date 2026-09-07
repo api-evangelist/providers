@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ score:
   band: developing
   composite: 47.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 45.0
     catalog_earned_first_party: 8.0
     catalog_gap: 70.0
@@ -242,8 +242,8 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minubo/refs/heads/main/screenshots/minubo-2026-08-07T173004.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - baseURL: https://portal.example.com/v1
@@ -582,8 +582,8 @@ score:
       total: 15
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solo-io/refs/heads/main/screenshots/solo-io-2026-06-20T194151.png
 security:

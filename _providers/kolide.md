@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - baseURL: https://api.kolide.com
@@ -362,8 +362,8 @@ score:
       total: 17
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kolide/refs/heads/main/screenshots/kolide-2026-07-25T224129.png
 security:

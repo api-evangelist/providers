@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - baseURL: https://{app}.streamsec.io/openapi
@@ -190,8 +190,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-security/refs/heads/main/screenshots/stream-security-2026-09-02T161000.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The core open-source Tuva dbt package that transforms healthcare data from the Tuva Input Layer into the Tuva Core Data Model and Data Marts, including data-quality tests, normalization, claims prepro
@@ -288,8 +288,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tuva-health/refs/heads/main/screenshots/tuva-health-2026-08-17T082502.png
 security:

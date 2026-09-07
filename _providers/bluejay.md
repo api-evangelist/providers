@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -683,7 +683,7 @@ score:
   band: developing
   composite: 45.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -710,8 +710,8 @@ score:
       total: 61
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluejay/refs/heads/main/screenshots/bluejay-2026-07-25T203452.png
 security:

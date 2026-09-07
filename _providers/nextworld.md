@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'Inbound REST endpoints into the Nextworld Platform. Every table and logic block created in the platform automatically exposes a set of endpoints for fetching, inserting, updating and deleting records '
@@ -222,8 +222,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextworld/refs/heads/main/screenshots/nextworld-2026-09-02T150753.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -397,7 +397,7 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -437,8 +437,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 81.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zai/refs/heads/main/screenshots/zai-2026-08-17T083031.png
 security:

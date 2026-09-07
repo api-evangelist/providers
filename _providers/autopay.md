@@ -11,19 +11,19 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -31,10 +31,10 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 24.4
-  scored_at: '2026-09-05'
+  score: 36.4
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 3
@@ -72,56 +72,60 @@ apis:
   name: Autopay Tap and Park API
   slug: tap-park-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Invoice export for accounting and ERP reconciliation
   name: Autopay Accounting API
   slug: autopay-accounting-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Permit booking creation, modification, status, and availability
   name: Autopay Booking API
   slug: autopay-booking-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Customer club membership management
   name: Autopay Customer Club API
   slug: autopay-customer-club-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Fleet vehicle management and parking/toll service retrieval
   name: Autopay Fleet API
   slug: autopay-fleet-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Parking session product changes
   name: Autopay Parking API
   slug: autopay-parking-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: External payment registration and parking connection
   name: Autopay Payment API
   slug: autopay-payment-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Tenant permit allocations and end-user permit lifecycle
   name: Autopay Permit API
   slug: autopay-permit-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Parking statistics export
   name: Autopay Statistics API
   slug: autopay-statistics-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Zone availability and detailed parking session status
   name: Autopay Status API
   slug: autopay-status-api
 - baseURL: https://api.autopay.io
-  baseurl_source: spec
+  baseurl_source: declared
   description: Vehicle permit and session lookups
   name: Autopay Vehicle API
   slug: autopay-vehicle-api
-artifact_total: 51
+artifact_total: 53
+asyncapis:
+- description: ''
+  name: Autopay Webhooks
+  slug: autopay-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -195,7 +199,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://autopay.no
+  url: https://autopay.io
 - group: docs
   title: ''
   type: Documentation
@@ -203,15 +207,115 @@ common:
 - group: auth
   title: ''
   type: Authentication
-  url: https://developer.autopay.io
+  url: https://developer.autopay.io/authentication/
 - group: commercial
   title: ''
   type: TermsOfService
+  url: https://developer.autopay.io/usage_agreement/
+- group: other
+  title: ''
+  type: Company
+  url: https://solutions.autopay.io
+- group: docs
+  title: ''
+  type: APIReference
   url: https://developer.autopay.io
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.autopay.io/authentication/
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.autopay.io/kb/en
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://help.autopay.io/kb/en
+- group: company
+  title: ''
+  type: Blog
+  url: https://solutions.autopay.io/latest-news
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://solutions.autopay.io/privacy-policy
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.autopay.io/api_deprecation/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/autopay-lifecycle.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/autopay-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/autopay-security.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://solutions.autopay.io/about-us/iso-certifications
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/autopay-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/autopay-conformance.yml
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://autopay.io/llms.txt
+  type: WellKnown
+  url: well-known/autopay-well-known.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/autopay-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/autopay-problem-types.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/autopay-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/autopay-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/autopay-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/autopay-packages.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/autopay-mcp.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/autopay-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/autopay-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/autopay-finops.yml
 created: '2025-02-08'
 description: Autopay is a Norwegian parking payment and management platform that provides APIs for parking operators, landlords, fleet managers, and third-party integrators. The platform enables automated parking permit management, payment processing, fleet tracking, and parking statistics with 13+ distinct API endpoints. All integrators must accept the Autopay API Usage Agreement before accessing the APIs.
 features:
@@ -238,21 +342,24 @@ integrations:
 - description: Connect corporate fleet management software with Autopay for parking cost tracking and vehicle permit assignment.
   name: Fleet Management Platforms
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-06'
 name: Autopay
 nav: Providers
 network: true
 overview: 'Autopay publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Accounting API, Booking API, Customer Club API, and 7 more. Tagged areas include Parking, Parking Payments, Fleet Management, Permits, and Parking Operators.
 
 
-  Autopay''s developer surface includes authentication, developer portal, documentation, and 10 more developer resources.'
+  The Autopay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Autopay''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 31 more developer resources.'
 plans:
 - name: Autopay Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: autopay-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Autopay Rate Limits
   slug: autopay-rate-limits
 scopes:
@@ -261,25 +368,25 @@ scopes:
   slug: autopay-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: thin
-  composite: 33.9
+  band: strong
+  composite: 57.9
   coverage:
-    artifact_dirs: 13
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 24
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 24.0
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
-    contract_quality: 48.4
-    developer_ergonomics: 31.0
-    discoverability: 66.7
-    governance: 0.0
-    operational_transparency: 7.9
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 18.2
+    contract_quality: 55.8
+    developer_ergonomics: 58.9
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 47.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -291,20 +398,23 @@ score:
   previous_composite: 33.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 10
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 50.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 81.3
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png
 security:
 - kind: authentication
@@ -319,6 +429,10 @@ security:
   name: Autopay Vulnerability Disclosure
   slug: autopay-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Autopay Trust Center
+  slug: autopay-trust-center
+  summary_line: ISO/IEC 27001, ISO 9001, ISO 14001, HSE policy
 slug: autopay
 tags:
 - Parking
@@ -336,5 +450,5 @@ use_cases:
   name: Parking Revenue Reporting
 - description: Retail, hospitality, and office tenants validate visitor parking through the Tap and Park API integrated with access control or POS systems.
   name: Visitor Parking Validation
-website: https://autopay.no
+website: https://autopay.io
 ---

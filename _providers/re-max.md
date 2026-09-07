@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - baseURL: https://api.datahub.remax.eu/external
@@ -209,8 +209,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/re-max/refs/heads/main/screenshots/re-max-2026-09-02T152939.png
 security:

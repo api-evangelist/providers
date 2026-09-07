@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - baseURL: https://api.dyno-agents.app
@@ -290,7 +290,7 @@ score:
   band: developing
   composite: 47.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -327,8 +327,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dyno/refs/heads/main/screenshots/dyno-2026-08-17T080911.png
 security:

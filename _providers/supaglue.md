@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 0
@@ -633,7 +633,7 @@ score:
   band: developing
   composite: 53.8
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 29
     catalog_earned: 63.5
     catalog_earned_first_party: 8.0
     catalog_gap: 51.5
@@ -660,8 +660,8 @@ score:
       total: 41
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/screenshots/supaglue-2026-08-17T083633.png
 security:

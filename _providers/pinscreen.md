@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Developer SDK for high-fidelity 3D avatar generation from a single photo, delivered as Unreal and Unity engine plugins backed by a deployable avatar-generation API. No public machine-readable API desc
@@ -127,8 +127,8 @@ score:
     regions:
     - north-america
   previous_composite: 8.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinscreen/refs/heads/main/screenshots/pinscreen-2026-09-02T151340.png
 security:

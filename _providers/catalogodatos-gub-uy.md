@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: CKAN Action API for datos.gub.uy - Catálogo de Datos Abiertos, a consistent JSON-over-HTTP interface over a catalog of 2,679 datasets. Standard actions include package_search, package_show, package_li
@@ -126,8 +126,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/catalogodatos-gub-uy/refs/heads/main/screenshots/catalogodatos-gub-uy-2026-06-20T174048.png
 security:

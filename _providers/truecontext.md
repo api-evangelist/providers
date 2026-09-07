@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: REST API for full programmatic access to TrueContext (ProntoForms) forms, submissions, users, and dispatch, available on the Elite tier. Supports HTTP GET/POST for bidirectional data, webhooks to push
@@ -178,8 +178,8 @@ score:
   previous_composite: 34.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truecontext/refs/heads/main/screenshots/truecontext-2026-09-02T164345.png
 security:

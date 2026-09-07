@@ -1,27 +1,28 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Free and keyless — no account required
   onboarding: unknown
-  pricing: freemium
-  public: false
+  pricing: free
+  public: true
   source:
   - plans
+  - authentication
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: true
     idempotency: false
     mcp_server: false
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.6
-  scored_at: '2026-09-05'
+  score: 30.8
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -46,42 +47,47 @@ apis:
 - description: The AsyncAPI Specification is an open standard for describing asynchronous and event-driven APIs. It provides a machine-readable format for defining messaging interfaces across protocols like Kafka, M
   name: AsyncAPI Specification
   slug: asyncapi-spec
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
+  description: 'The AsyncAPI Server API is the only callable HTTP API the AsyncAPI Initiative operates. It exposes the official AsyncAPI toolchain — validate, parse, convert, generate, bundle and diff — over HTTP at '
+  name: AsyncAPI Server API
+  slug: asyncapi-server-api
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Bundle API from AsyncAPI — 1 operation(s) for bundle.
   name: AsyncAPI Bundle API
   slug: asyncapi-bundle-api
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Convert API from AsyncAPI — 1 operation(s) for convert.
   name: AsyncAPI Convert API
   slug: asyncapi-convert-api
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Diff API from AsyncAPI — 1 operation(s) for diff.
   name: AsyncAPI Diff API
   slug: asyncapi-diff-api
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Generate API from AsyncAPI — 1 operation(s) for generate.
   name: AsyncAPI Generate API
   slug: asyncapi-generate-api
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Help API from AsyncAPI — 1 operation(s) for help.
   name: AsyncAPI Help API
   slug: asyncapi-help-api
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Parse API from AsyncAPI — 1 operation(s) for parse.
   name: AsyncAPI Parse API
   slug: asyncapi-parse-api
-- baseURL: http://localhost
-  baseurl_source: spec
+- baseURL: https://api.asyncapi.com/v1
+  baseurl_source: declared
   description: The Validate API from AsyncAPI — 1 operation(s) for validate.
   name: AsyncAPI Validate API
   slug: asyncapi-validate-api
-artifact_total: 34
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -111,6 +117,10 @@ collections:
   name: AsyncAPI Server API
   slug: open-asyncapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.asyncapi.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -139,6 +149,106 @@ common:
   title: Blog
   type: Blog
   url: https://www.asyncapi.com/blog
+- group: build
+  title: First-party packages and SDKs
+  type: Packages
+  url: packages/asyncapi-packages.yml
+- group: build
+  title: AsyncAPI client libraries and tooling packages
+  type: SDKs
+  url: packages/asyncapi-packages.yml
+- group: build
+  title: AsyncAPI CLI command surface
+  type: CLI
+  url: cli/asyncapi-cli.yml
+- group: design
+  title: Embeddable AsyncAPI document renderers
+  type: Components
+  url: components/asyncapi-components.yml
+- group: auth
+  title: Authentication profile (keyless public API)
+  type: Authentication
+  url: authentication/asyncapi-authentication.yml
+- group: design
+  title: API conventions and runtime semantics
+  type: Conventions
+  url: conventions/asyncapi-conventions.yml
+- group: design
+  title: Problem-details error catalog
+  type: ErrorCatalog
+  url: errors/asyncapi-problem-types.yml
+- group: design
+  title: Versioning and lifecycle
+  type: Lifecycle
+  url: lifecycle/asyncapi-lifecycle.yml
+- group: operate
+  title: Specification and CLI release history
+  type: ChangeLog
+  url: changelog/asyncapi-changelog.yml
+- group: design
+  title: Standards conformance
+  type: Conformance
+  url: conformance/asyncapi-conformance.yml
+- group: design
+  title: Server API data model
+  type: DataModel
+  url: data-model/asyncapi-data-model.yml
+- group: commercial
+  title: Plans and pricing (none — open source, no commercial tiers)
+  type: Plans
+  url: plans/asyncapi-plans-pricing.yml
+- group: operate
+  title: Rate limits (none published)
+  type: RateLimits
+  url: rate-limits/asyncapi-rate-limits.yml
+- group: start
+  title: AsyncAPI Studio and self-hosted API
+  type: Sandbox
+  url: sandbox/asyncapi-sandbox.yml
+- group: start
+  title: AsyncAPI Studio
+  type: Console
+  url: https://studio.asyncapi.com
+- group: other
+  title: API Evangelist enhancements overlay
+  type: Overlay
+  url: overlays/asyncapi-server-api-overlay.yaml
+- group: agent
+  title: llms.txt
+  type: LLMsTxt
+  url: llms/asyncapi-llms.txt
+- group: agent
+  title: Packaged agent skills for the AsyncAPI Server API
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: Coordinated vulnerability disclosure
+  type: VulnerabilityDisclosure
+  url: security/asyncapi-vulnerability-disclosure.yml
+- group: auth
+  title: AsyncAPI Security Policy
+  type: Security
+  url: https://github.com/asyncapi/.github/blob/master/SECURITY.md
+- group: docs
+  title: AsyncAPI Server API reference
+  type: APIReference
+  url: https://api.asyncapi.com/v1/docs
+- group: start
+  title: Getting Started
+  type: GettingStarted
+  url: https://www.asyncapi.com/docs/tutorials/getting-started
+- group: operate
+  title: Community
+  type: Support
+  url: https://www.asyncapi.com/community
+- group: commercial
+  title: LF Projects Terms of Use
+  type: TermsOfService
+  url: https://lfprojects.org/policies/terms-of-use/
+- group: commercial
+  title: LF Projects Privacy Policy
+  type: PrivacyPolicy
+  url: https://lfprojects.org/policies/privacy-policy/
 created: '2026-03-16'
 description: AsyncAPI is a Linux Foundation project that improves the state of event-driven architectures by providing an open specification and tooling ecosystem for defining asynchronous and event-driven APIs. It enables developers to document, validate, generate code, and manage message-driven APIs across protocols including Kafka, MQTT, WebSocket, AMQP, and others. The AsyncAPI specification serves as the industry standard for describing asynchronous messaging interfaces, similar to how OpenAPI serves REST APIs.
 features:
@@ -168,60 +278,71 @@ integrations:
 - description: AsyncAPI CLI integrates into continuous integration pipelines for automated validation and linting of AsyncAPI specification files.
   name: CI/CD Pipelines
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-06'
 name: AsyncAPI
 nav: Providers
 network: true
-overview: 'AsyncAPI publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Specification, Bundle API, Convert API, and 5 more. Tagged areas include Event-Driven, Linux Foundation, Messaging, Standards, and Specification.
+overview: 'AsyncAPI publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Specification, Server API, Bundle API, and 6 more. Tagged areas include Event-Driven, Linux Foundation, Messaging, Standards, and Specification.
 
 
-  AsyncAPI''s developer surface includes developer portal, documentation, engineering blog, and 4 more developer resources.'
+  AsyncAPI''s developer surface includes developer portal, documentation, engineering blog, CLI, authentication, changelog, sandbox, and 26 more developer resources.'
 plans:
 - name: Asyncapi Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: asyncapi-plans-pricing
 random_paper: 16
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Asyncapi Rate Limits
   slug: asyncapi-rate-limits
 score:
-  band: thin
-  composite: 29.1
+  band: developing
+  composite: 45.1
   coverage:
-    artifact_dirs: 18
-    catalog_earned: 41.0
+    artifact_dirs: 34
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 16.0
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 47.9
-    developer_ergonomics: 33.3
+    access_clarity: 28.9
+    commercial_clarity: 28.9
+    contract_governance: 4.5
+    contract_quality: 51.9
+    developer_ergonomics: 80.4
     discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 10.5
+    governance: 4.5
+    operational_transparency: 28.9
   previous_composite: 29.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+      total: 8
+    mcp: derived
+    skills: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/asyncapi/refs/heads/main/screenshots/asyncapi-2026-06-20T172514.png
 security:
+- kind: authentication
+  name: Asyncapi Authentication
+  slug: asyncapi-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Asyncapi Domain Security
   slug: asyncapi-domain-security
   summary_line: TLSv1.3 · HSTS
+- kind: vulnerability-disclosure
+  name: Asyncapi Vulnerability Disclosure
+  slug: asyncapi-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: asyncapi
 tags:
 - Event-Driven

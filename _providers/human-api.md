@@ -18,7 +18,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -36,8 +36,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 28.6
-  scored_at: '2026-09-05'
+  score: 30.4
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 7
+  human_in_the_loop: 0
+  name: Human Api Agentic Access
+  operation_count: 15
+  slug: human-api-agentic-access
+  summary_line: 15 operations · 7 acting
 api_count: 15
 apis:
 - description: The consumer-mediated Data API (legacy v2.1) for querying a user's normalized health data - wellness data from wearable devices and apps, and medical data (records, labs, medications, encounters) from
@@ -78,7 +85,7 @@ apis:
   description: API endpoints to manage users
   name: Human API Users API
   slug: human-api-users-api
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: Webhook notifications the Health Intelligence Platform pushes to a configured client endpoint. Notifications are delivered as JSON arrays of event objects. Enablement is per-client and arranged with a
   name: Human API HIP Notifications
@@ -100,6 +107,14 @@ collections:
   name: HAPI Auth Public
   slug: open-human-api-auth-connect-token
 common:
+- group: other
+  title: ''
+  type: ParentCompany
+  url: https://apis.io/providers/lexisnexis-risk-solutions/
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/human-api-agentic-access.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -302,7 +317,7 @@ overview: 'Human API publishes 7 APIs on the [APIs.io](https://apis.io/) network
   The Human API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Human API''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, support, and 41 more developer resources.'
+  Human API''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, support, and 43 more developer resources.'
 plans:
 - name: Human Api Plans Pricing
   plan_count: 0
@@ -316,7 +331,7 @@ score:
   band: strong
   composite: 55.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -341,6 +356,7 @@ score:
     - north-america
   previous_composite: 55.2
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -359,8 +375,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png
 security:

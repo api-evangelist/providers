@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: Firebolt is Comcast's application platform for building apps that run on TVs, set-top boxes, and other connected home devices. The Firebolt SDK exposes a family of JavaScript APIs (Lifecycle, Metrics,
@@ -264,7 +264,7 @@ score:
     catalog_gap: 77.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 13.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -274,14 +274,14 @@ score:
     discoverability: 72.2
     governance: 4.5
     operational_transparency: 36.8
-  previous_composite: 17.6
+  previous_composite: 30.6
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png
 security:
 - kind: authentication

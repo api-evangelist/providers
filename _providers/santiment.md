@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'The primary Santiment GraphQL API giving developers programmatic access to on-chain metrics, social sentiment, developer activity, and price data for 2,800+ crypto assets. Supports timeseries queries '
@@ -144,8 +144,8 @@ score:
     applies: true
     score: 0.0
   previous_composite: 25.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/santiment/refs/heads/main/screenshots/santiment-2026-06-20T193411.png
 security:

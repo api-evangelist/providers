@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - baseURL: https://{subscription}.bonitacloud.com/bonita
@@ -626,8 +626,8 @@ score:
       total: 76
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonitasoft/refs/heads/main/screenshots/bonitasoft-2026-09-02T144932.png
 security:

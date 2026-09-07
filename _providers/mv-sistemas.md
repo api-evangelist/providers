@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -443,7 +443,7 @@ score:
   band: developing
   composite: 39.8
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -483,8 +483,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mv-sistemas/refs/heads/main/screenshots/mv-sistemas-2026-08-07T184458.png
 security:

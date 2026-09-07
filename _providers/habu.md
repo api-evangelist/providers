@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://api.habu.com/v1/
@@ -392,7 +392,7 @@ score:
   band: developing
   composite: 44.1
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 36.0
     catalog_earned_first_party: 12.0
     catalog_gap: 79.0
@@ -423,8 +423,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/habu/refs/heads/main/screenshots/habu-2026-07-25T220519.png
 security:

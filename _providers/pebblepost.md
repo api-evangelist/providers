@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The PebblePost JavaScript tag is the provider's public client-side integration surface. Brands drop a script on their site that populates a window._pp array with a Brand ID (brid) and Brand Customer I
@@ -214,8 +214,8 @@ score:
   previous_composite: 28.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pebblepost/refs/heads/main/screenshots/pebblepost-2026-09-02T150929.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 7
 apis:
 - baseURL: https://api-prod.treez.io/dispensary/v3
@@ -259,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/screenshots/treez-2026-09-02T164204.png
 security:

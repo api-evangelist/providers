@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -107,6 +107,26 @@ collections:
   name: Cerebras Inference Chat Tcp Warming API
   slug: open-cerebras-systems-tcp-warming-api
 common:
+- group: other
+  title: ''
+  type: ModelZoo
+  url: https://github.com/Cerebras/modelzoo
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cerebras-systems
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/CerebrasSystems
+- group: operate
+  title: ''
+  type: Status
+  url: https://status.cerebras.ai
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://inference-docs.cerebras.ai/llms.txt
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -278,7 +298,7 @@ network: true
 overview: 'Cerebras Systems publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Completions API, Models API, and 2 more. Tagged areas include Company, AI Infrastructure, Artificial Intelligence, Machine-Learning, and Inference.
 
 
-  Cerebras Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 33 more developer resources.'
+  Cerebras Systems'' developer surface includes status page, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 38 more developer resources.'
 plans:
 - name: Cerebras Systems Plans
   plan_count: 3
@@ -319,8 +339,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerebras-systems/refs/heads/main/screenshots/cerebras-systems-2026-07-25T204949.png
 security:

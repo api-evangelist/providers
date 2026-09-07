@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 171
   human_in_the_loop: 6
@@ -1293,7 +1293,7 @@ score:
   band: developing
   composite: 46.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 76.3
     catalog_earned_first_party: 0.0
     catalog_gap: 38.8
@@ -1317,8 +1317,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupilot/refs/heads/main/screenshots/docupilot-2026-06-20T180118.png
 security:

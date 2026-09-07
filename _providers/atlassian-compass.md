@@ -11,43 +11,46 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: true
+    error_semantics: verified
+    event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-05'
+  score: 45.0
+  scored_at: '2026-09-06'
 agentic_access:
-- acting_count: 2
-  human_in_the_loop: 0
+- acting_count: 12
+  human_in_the_loop: 6
   name: Atlassian Compass Agentic Access
-  operation_count: 2
+  operation_count: 13
   slug: atlassian-compass-agentic-access
-  summary_line: 2 operations · 2 acting
-api_count: 1
+  summary_line: 13 operations · 12 acting · 6 human-in-the-loop
+api_count: 2
 apis:
 - description: 'The Compass GraphQL API enables programmatic management of software components, scorecards, metrics, relationships, custom fields, and event ingestion within the Compass developer experience platform '
   name: Atlassian Compass GraphQL API
   slug: atlassian-compass-graphql-api
-- description: The Compass REST API v1 provides operations for component management, scorecard configuration, and webhook registration via standard HTTP REST conventions with OAuth 2.0 authentication.
+- baseURL: https://api.atlassian.com/compass/v1
+  baseurl_source: declared
+  description: The Compass REST API v1 provides operations for component management, scorecard configuration, and webhook registration via standard HTTP REST conventions with OAuth 2.0 authentication.
   name: Atlassian Compass REST API
   slug: atlassian-compass-rest-api
 - baseURL: https://api.atlassian.com/graphql
@@ -60,7 +63,11 @@ apis:
   description: Ingest metric values
   name: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
-artifact_total: 37
+artifact_total: 39
+asyncapis:
+- description: ''
+  name: Atlassian Compass Webhooks
+  slug: atlassian-compass-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -75,6 +82,114 @@ collections:
   name: Atlassian Compass REST API
   slug: open-atlassian-compass
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/atlassian-compass-compass-rest-api-openapi.json
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/atlassian-compass-compass-rest-api-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/atlassian-compass-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/atlassian-compass-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/atlassian-compass-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/atlassian-compass-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/atlassian-compass-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/atlassian-compass-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/atlassian-compass-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/atlassian-compass-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/atlassian-compass-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/atlassian-compass-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/atlassian-compass-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/atlassian-compass-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/atlassian-compass-error-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/atlassian-compass-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/atlassian-compass-webhooks.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/atlassian-compass-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/atlassian-compass-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/atlassian-compass-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/atlassian-compass-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/atlassian-compass-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/atlassian-compass-finops.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.atlassian.com/cloud/compass/rest/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.atlassian.com/roadmap/cloud
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/atlassian-labs/compass-examples
 - group: agent
   title: ''
   type: AgenticAccess
@@ -114,11 +229,11 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developer.atlassian.com/cloud/compass/getting-started/
+  url: https://developer.atlassian.com/cloud/compass/integrations/get-started-integrating-with-Compass/
 - group: auth
   title: ''
   type: Authentication
-  url: https://developer.atlassian.com/cloud/compass/getting-started/
+  url: https://developer.atlassian.com/cloud/compass/integrations/get-started-integrating-with-Compass/
 - group: start
   title: ''
   type: Signup
@@ -197,21 +312,28 @@ integrations:
 - description: Manage Compass resources via the Atlassian Operations Terraform provider for infrastructure-as-code workflows.
   name: Terraform
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: The official Atlassian Model Context Protocol server. It is a cloud-hosted bridge between an Atlassian Cloud site and an MCP client, and Atlassian's own README lists Compass among the supported produc
+  name: Atlassian Rovo MCP Server
+  slug: atlassian-rovo-mcp-server
+modified: '2026-09-06'
 name: Atlassian Compass
 nav: Providers
 network: true
-overview: 'Atlassian Compass publishes 2 APIs on the [APIs.io](https://apis.io/) network: Events API and Metrics API. Tagged areas include Atlassian, Component Management, Developer Experience, Software Catalog, and GraphQL.
+overview: 'Atlassian Compass publishes 3 APIs on the [APIs.io](https://apis.io/) network: REST API, Events API, and Metrics API. Tagged areas include Atlassian, Component Management, Developer Experience, Software Catalog, and GraphQL.
 
 
-  Atlassian Compass'' developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, support, pricing, and 14 more developer resources.'
+  The Atlassian Compass catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Atlassian Compass'' developer surface includes CLI, changelog, API reference, authentication, developer portal, documentation, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Atlassian Compass Plans Pricing
   plan_count: 3
   slug: atlassian-compass-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Atlassian Compass Rate Limits
   slug: atlassian-compass-rate-limits
 scopes:
@@ -220,42 +342,45 @@ scopes:
   slug: atlassian-compass-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 43.8
+  band: strong
+  composite: 66.1
   coverage:
-    artifact_dirs: 12
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 27
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 22.3
   facets:
-    access_clarity: 63.2
-    commercial_clarity: 63.2
-    contract_governance: 0.0
-    contract_quality: 54.4
-    developer_ergonomics: 26.2
+    access_clarity: 94.7
+    commercial_clarity: 94.7
+    contract_governance: 18.2
+    contract_quality: 62.4
+    developer_ergonomics: 49.4
     discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 42.1
+    governance: 18.2
+    operational_transparency: 97.4
   previous_composite: 43.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    mcp: first-party
+    skills: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/screenshots/atlassian-compass-2026-06-20T172526.png
 security:
 - kind: authentication
   name: Atlassian Compass Authentication
   slug: atlassian-compass-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: http/oauth2 · 2 schemes
 - kind: domain-security
   name: Atlassian Compass Domain Security
   slug: atlassian-compass-domain-security
@@ -263,7 +388,7 @@ security:
 - kind: vulnerability-disclosure
   name: Atlassian Compass Vulnerability Disclosure
   slug: atlassian-compass-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Bugcrowd · security.txt · contact published
 - kind: trust-center
   name: Atlassian Compass Trust Center
   slug: atlassian-compass-trust-center

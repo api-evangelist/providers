@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - baseURL: https://app.pixee.ai/api/v1
@@ -225,8 +225,8 @@ score:
       total: 6
     mcp: derived
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pixee-ai/refs/heads/main/screenshots/pixee-ai-2026-08-17T081243.png
 security:

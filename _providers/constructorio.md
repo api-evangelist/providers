@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 34
 apis:
 - description: Remote, anonymously reachable Model Context Protocol server published by Constructor that exposes documentation search/fetch and OpenAPI endpoint discovery tools to AI coding tools such as Claude, Cur
@@ -515,7 +515,7 @@ score:
   band: developing
   composite: 49.6
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -541,8 +541,8 @@ score:
       total: 38
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constructorio/refs/heads/main/screenshots/constructorio-2026-08-07T163752.png
 security:

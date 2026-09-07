@@ -29,8 +29,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -86,8 +86,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -132,8 +132,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -178,8 +178,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -224,8 +224,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -270,8 +270,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -316,8 +316,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -362,8 +362,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -408,8 +408,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 33.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -444,8 +444,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 15,
-   "shown": 15,
+   "count": 16,
+   "shown": 16,
    "providers": [
     {
      "name": "Apidog",
@@ -465,8 +465,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 28.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -511,8 +511,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -557,8 +557,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -603,8 +603,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -649,8 +649,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -695,8 +695,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -741,8 +741,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -787,8 +787,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -833,8 +833,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -879,8 +879,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -925,8 +925,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -954,6 +954,59 @@
      "rank": 20
     },
     {
+     "name": "Apiman",
+     "slug": "apiman",
+     "description": "Apiman is an open source API management platform featuring a REST API, manager UI, and standalone developer portal with multi-tenancy, events, notifications, permissions, and approval workflows. It provides extensible API gateway capabilities through a simple Java plugin architecture with support for policies, plans, organizations, and client management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png",
+     "score": 45.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 49.9,
+      "governance": 28.0,
+      "contract_governance": 28.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 34.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 21
+    },
+    {
      "name": "Envoy",
      "slug": "envoy",
      "description": "Envoy is a high-performance, open-source edge and service proxy designed for cloud-native applications and microservice architectures. It provides advanced load balancing, observability, and traffic management features, and serves as the data plane for many service mesh implementations including Istio.",
@@ -971,8 +1024,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -997,7 +1050,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "IBM API Connect",
@@ -1017,8 +1070,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 21.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1043,7 +1096,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Traefik Labs",
@@ -1063,8 +1116,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1089,7 +1142,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "KrakenD",
@@ -1109,8 +1162,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1135,7 +1188,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 24
+     "rank": 25
     }
    ]
   },
@@ -1144,8 +1197,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "SAP API Management",
@@ -1165,8 +1218,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1191,7 +1244,7 @@
       "agentic_commerce": false
      },
      "tier": "Full-Stack API Management Platforms",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Spring Cloud Gateway",
@@ -1211,8 +1264,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1237,7 +1290,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways, Ingress and the Data Plane",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "APIIDA",
@@ -1257,54 +1310,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 27
-    },
-    {
-     "name": "Software AG",
-     "slug": "software-ag",
-     "description": "Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png",
-     "score": 34.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 63.8,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1332,6 +1339,52 @@
      "rank": 28
     },
     {
+     "name": "Software AG",
+     "slug": "software-ag",
+     "description": "Software AG provides enterprise integration and API management through webMethods, a platform for connecting applications, processes, and people across hybrid cloud and on-premises environments. The webMethods platform includes API Gateway, Developer Portal, Integration Server, and cloud-native integration services. Software AG was acquired by IBM in 2024.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/screenshots/software-ag-2026-06-20T194136.png",
+     "score": 34.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 63.8,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 26.3,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Full-Stack API Management Platforms",
+     "rank": 29
+    },
+    {
      "name": "APIPark",
      "slug": "apipark",
      "description": "APIPark is an open-source, cloud-native AI gateway and API developer portal that helps developers and enterprises manage, integrate, and deploy AI and API services. It supports 100+ AI models from all major AI providers, provides API lifecycle management, authentication, rate limiting, and cluster deployment for large-scale traffic. Teams can combine AI models with custom prompts to create new AI-powered services such as sentiment analysis, translation, or data analysis.",
@@ -1349,8 +1402,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1362,52 +1415,6 @@
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Full-Stack API Management Platforms",
-     "rank": 29
-    },
-    {
-     "name": "Apiman",
-     "slug": "apiman",
-     "description": "Apiman is an open source API management platform featuring a REST API, manager UI, and standalone developer portal with multi-tenancy, events, notifications, permissions, and approval workflows. It provides extensible API gateway capabilities through a simple Java plugin architecture with support for policies, plans, organizations, and client management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/screenshots/apiman-2026-06-20T172245.png",
-     "score": 33.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 49.9,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 17.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -1441,8 +1448,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1487,8 +1494,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1543,8 +1550,8 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1589,8 +1596,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1635,8 +1642,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1681,8 +1688,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {

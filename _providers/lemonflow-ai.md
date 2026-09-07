@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Embeddable AI chat surface for EV charging driver support. Ships as a lemonflow-chat custom element loaded from a single script tag, or as a headless iframe at /embed for teams that already operate th
@@ -172,8 +172,8 @@ score:
   previous_composite: 31.8
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonflow-ai/refs/heads/main/screenshots/lemonflow-ai-2026-07-25T224851.png
 security:

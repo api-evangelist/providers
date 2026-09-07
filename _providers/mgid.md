@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: REST API for advertisers and agencies to manage campaigns, teasers, targeting, conversion tracking, and access detailed statistics and reporting for native advertising campaigns.
@@ -219,8 +219,8 @@ score:
   previous_composite: 38.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mgid/refs/heads/main/screenshots/mgid-2026-06-20T185319.png
 security:

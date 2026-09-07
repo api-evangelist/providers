@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://api.console.tessell.com
@@ -867,7 +867,7 @@ score:
   band: developing
   composite: 40.0
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -893,8 +893,8 @@ score:
       total: 82
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tessell/refs/heads/main/screenshots/tessell-2026-08-17T082320.png
 security:

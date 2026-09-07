@@ -23,10 +23,10 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-09-05'
+  score: 27.4
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -75,7 +75,7 @@ apis:
   description: Manage team users
   name: Albato Users API
   slug: albato-users-api
-artifact_total: 71
+artifact_total: 72
 collections:
 - collection_type: postman
   name: Albato Automations API
@@ -117,6 +117,34 @@ collections:
   name: Albato Automations Users API
   slug: open-albato-users-api
 common:
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/albato-automations-overlay.yaml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/albato-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/albato-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/albato-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/albato-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/albato-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/albato-lifecycle.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -318,6 +346,10 @@ jsonld:
   property_count: 36
   slug: albato-albato-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Albato MCP Server
+  slug: albato-mcp-server
 modified: '2026-05-19'
 name: Albato
 nav: Providers
@@ -328,7 +360,7 @@ overview: 'Albato publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
   The Albato catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Albato''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, FAQ, and 16 more developer resources.'
+  Albato''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, FAQ, and 23 more developer resources.'
 plans:
 - name: Albato Plans Pricing
   plan_count: 3
@@ -362,23 +394,23 @@ rules:
   slug: albato-spectral-rules
 score:
   band: developing
-  composite: 47.1
+  composite: 49.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 25
     catalog_earned: 73.5
     catalog_earned_first_party: 0.0
     catalog_gap: 41.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
-    contract_governance: 28.8
+    contract_governance: 47.0
     contract_quality: 72.1
     developer_ergonomics: 36.9
     discoverability: 75.9
-    governance: 28.8
+    governance: 47.0
     operational_transparency: 13.2
   previous_composite: 47.1
   provenance:
@@ -388,8 +420,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/screenshots/albato-2026-06-20T171504.png
 security:

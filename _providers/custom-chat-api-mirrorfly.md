@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Token-authenticated REST API for building in-app chat, split into User APIs and Admin APIs (users, contacts, recent/history chat, groups, media, metadata, presence, block/unblock, call logs, device to
@@ -159,13 +159,13 @@ score:
   band: thin
   composite: 26.2
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -16.9
+  delta: 0.0
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -175,7 +175,7 @@ score:
     discoverability: 66.7
     governance: 18.2
     operational_transparency: 18.4
-  previous_composite: 43.1
+  previous_composite: 26.2
   provenance:
     conformance: first-party
   regulatory:
@@ -190,9 +190,9 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: falling
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/custom-chat-api-mirrorfly/refs/heads/main/screenshots/custom-chat-api-mirrorfly-2026-07-25T211005.png
 security:
 - kind: authentication

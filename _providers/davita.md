@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://www.davita.com/wp-json
@@ -43,6 +43,10 @@ apis:
   slug: davita-web-rest-api
 artifact_total: 5
 common:
+- group: operate
+  title: ''
+  type: Press Release Archive
+  url: https://newsroom.davita.com/
 - group: auth
   title: ''
   type: Authentication
@@ -130,7 +134,7 @@ network: true
 overview: 'DaVita publishes 1 API on the [APIs.io](https://apis.io/) network: Web REST API. Tagged areas include Chronic Kidney Disease, Dialysis, Fortune 500, Healthcare, and Home Dialysis.
 
 
-  DaVita''s developer surface includes authentication, engineering blog, support, and 16 more developer resources.'
+  DaVita''s developer surface includes authentication, engineering blog, support, and 17 more developer resources.'
 plans:
 - name: Davita Plans Pricing
   plan_count: 0
@@ -150,7 +154,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 27.4
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -160,7 +164,7 @@ score:
     discoverability: 68.5
     governance: 18.2
     operational_transparency: 2.6
-  previous_composite: 9.9
+  previous_composite: 37.3
   provenance:
     conformance: first-party
     contracts:
@@ -176,9 +180,9 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/davita/refs/heads/main/screenshots/davita-2026-06-20T175733.png
 security:
 - kind: authentication

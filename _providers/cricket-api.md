@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Documented cricket endpoints (fixtures, live scores, ball-by-ball, statistics, odds, predictions, WebSocket) behind a sales-gated, undisclosed base URL. No machine-readable contract is published, and '
@@ -102,7 +102,7 @@ score:
   band: emerging
   composite: 14.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 40.0
     catalog_earned_first_party: 8.0
     catalog_gap: 75.0
@@ -119,8 +119,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: domain-security

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 64.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 4
 apis:
 - baseURL: https://taskfolk.ai/api
@@ -429,8 +429,8 @@ score:
       total: 32
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/screenshots/taskfolk-2026-09-02T162549.png
 security:

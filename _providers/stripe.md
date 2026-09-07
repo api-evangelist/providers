@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -2269,7 +2269,7 @@ score:
   band: exemplar
   composite: 80.4
   coverage:
-    artifact_dirs: 41
+    artifact_dirs: 40
     catalog_earned: 45.5
     catalog_earned_first_party: 0.0
     catalog_gap: 69.5
@@ -2306,8 +2306,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 93.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-08-17T125440.png
 security:

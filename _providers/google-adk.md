@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Google Agent Development Kit (ADK) is a modular framework for building AI agents integrated with Gemini and Vertex AI.
@@ -100,8 +100,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 10.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-adk/refs/heads/main/screenshots/google-adk-2026-06-20T182003.png
 slug: google-adk

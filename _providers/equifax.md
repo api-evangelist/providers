@@ -10,18 +10,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,14 +32,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-05'
+  score: 7.9
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'The Equifax API platform provides programmatic access to Equifax''s consumer credit information, including credit reports, credit scores, identity verification, and fraud detection. APIs are organized '
   name: Equifax API
   slug: equifax
-artifact_total: 5
+artifact_total: 9
 common:
 - group: auth
   title: ''
@@ -57,14 +57,82 @@ common:
   title: ''
   type: Website
   url: https://www.equifax.com/
-- group: other
-  title: ''
-  type: Developer
-  url: https://developer.equifax.com/
 - group: company
   title: ''
   type: Blog
   url: https://www.equifax.com/newsroom/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.equifax.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.equifax.com/user/register
+- group: start
+  title: ''
+  type: Login
+  url: https://developer.equifax.com/user/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.equifax.com/contact
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.equifax.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.equifax.com/privacy/privacy-statement
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/equifax-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/equifax-packages.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/equifax-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/equifax-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/equifax-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/equifax-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/equifax-conformance.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/equifax-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/equifax-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/equifax-trust-center.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/equifax-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/equifax-finops.yml
 created: '2025-02-24'
 description: Equifax is a consumer credit reporting agency that collects and aggregates information on individuals' credit history, including borrowing and repayment habits. This information is used by lenders and creditors to assess creditworthiness and make decisions about extending credit. Equifax also offers identity theft protection, credit monitoring, and fraud detection services, plus analytics and consulting offerings to help businesses manage risk.
 finops:
@@ -73,17 +141,17 @@ finops:
   slug: equifax-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/equifax.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: Equifax
 nav: Providers
 network: true
 overview: 'Equifax publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Credit, Credit History, Credit Reporting, Identity, and Fraud Detection.
 
 
-  Equifax''s developer surface includes engineering blog and 5 more developer resources.'
+  Equifax''s developer surface includes engineering blog, signup flow, support, changelog, and 19 more developer resources.'
 plans:
 - name: Equifax Plans Pricing
-  plan_count: 4
+  plan_count: 0
   slug: equifax-plans-pricing
 press:
 - date: '2026-05-25'
@@ -103,39 +171,59 @@ press:
   url: https://www.prnewswire.com/news-releases/equifax-releases-2025-security-annual-report-302716637.html
 random_paper: 20
 rate_limits:
-- limit_count: 2
+- limit_count: 3
   name: Equifax Rate Limits
   slug: equifax-rate-limits
+scopes:
+- name: Equifax Scopes
+  scope_count: 0
+  slug: equifax-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 14.9
+  band: developing
+  composite: 43.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    artifact_dirs: 20
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 28.2
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
+    access_clarity: 57.9
+    commercial_clarity: 57.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 23.8
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    developer_ergonomics: 64.3
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 68.4
   previous_composite: 14.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/equifax/refs/heads/main/screenshots/equifax-2026-06-20T180803.png
 security:
+- kind: authentication
+  name: Equifax Authentication
+  slug: equifax-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Equifax Domain Security
   slug: equifax-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Equifax Vulnerability Disclosure
+  slug: equifax-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Equifax Trust Center
+  slug: equifax-trust-center
+  summary_line: FedRAMP, NIST Cybersecurity Framework (CSF), third-party certifications and authorizations (aggregate)
 slug: equifax
 tags:
 - Credit

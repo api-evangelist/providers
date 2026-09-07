@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Low-code iPaaS for connecting enterprise applications, automating workflows, and unifying data warehouses. Offers 200+ pre-built connectors and a drag-and-drop workflow editor.
@@ -131,8 +131,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 19.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locoia/refs/heads/main/screenshots/locoia-2026-06-20T184640.png
 security:

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The hosted Runtime Cloud API — manage sandboxed coding-agent sessions, org templates, deployments, guardrails, secrets, knowledge and skill directives, and activity telemetry. Authenticated with scope
@@ -201,8 +201,8 @@ score:
   previous_composite: 33.8
   provenance:
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runtime/refs/heads/main/screenshots/runtime-2026-09-02T154238.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://api.graphiant.com
@@ -614,7 +614,7 @@ score:
   band: strong
   composite: 54.9
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -643,8 +643,8 @@ score:
       total: 66
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphiant/refs/heads/main/screenshots/graphiant-2026-08-07T165827.png
 security:

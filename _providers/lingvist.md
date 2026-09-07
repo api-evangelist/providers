@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The OAuth 2.0 protected API behind the Lingvist learning platform. Lingvist publishes no reference documentation for it; the authorization, token and user-profile endpoints are documented in Lingvist'
@@ -173,8 +173,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lingvist/refs/heads/main/screenshots/lingvist-2026-07-25T225247.png
 security:

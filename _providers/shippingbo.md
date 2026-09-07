@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'Shippingbo''s primary REST/JSON API for managing the full e-commerce logistics lifecycle: orders, order items, products, stocks, customers, shipments, sources, and warehouse pickings. Documentation is '
@@ -197,8 +197,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingbo/refs/heads/main/screenshots/shippingbo-2026-06-20T193820.png
 security:

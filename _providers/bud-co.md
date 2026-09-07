@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -435,7 +435,7 @@ score:
   band: developing
   composite: 43.2
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 71.5
     catalog_earned_first_party: 0.0
     catalog_gap: 43.5
@@ -473,8 +473,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 48.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bud-co/refs/heads/main/screenshots/bud-co-2026-06-20T173739.png
 security:

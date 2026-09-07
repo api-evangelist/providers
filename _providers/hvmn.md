@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface for the Ketone-IQ (HVMN) Shopify store: a Universal Commerce Protocol (UCP) merchant profile and live MCP endpoint for catalog search, cart, and buyer-approved checkout, '
@@ -145,8 +145,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hvmn/refs/heads/main/screenshots/hvmn-2026-08-07T170422.png
 security:

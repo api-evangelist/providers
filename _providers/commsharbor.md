@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: REST/HTTP API (OpenAPI 3.1) for transactional email, deliverability, sending domains, permission-based marketing, CRM, and multi-tenancy governance across 96 paths. Cross-linked with a hosted MCP serv
@@ -132,7 +132,7 @@ rate_limits:
   slug: commsharbor-rate-limits
 score:
   band: developing
-  composite: 47.6
+  composite: 46.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -140,15 +140,17 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -1.3
   facets:
-    access_clarity: 65.8
-    commercial_clarity: 65.8
+    access_clarity: 59.2
+    commercial_clarity: 59.2
     contract_governance: 4.5
     contract_quality: 45.5
     developer_ergonomics: 30.4
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
+  previous_composite: 47.6
   provenance:
     conformance: derived
     mcp: first-party
@@ -159,8 +161,9 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 security:
 - kind: authentication
   name: Commsharbor Authentication

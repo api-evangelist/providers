@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Simetrik''s hosted remote Model Context Protocol server. An MCP client adds one URL and signs in with a Simetrik account over OAuth 2.1 (authorization code + PKCE, dynamic client registration) - there '
@@ -236,8 +236,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simetrik/refs/heads/main/screenshots/simetrik-2026-09-02T155523.png
 security:

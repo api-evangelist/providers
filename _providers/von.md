@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -152,8 +152,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 17.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/von/refs/heads/main/screenshots/von-2026-09-02T170229.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -149,8 +149,8 @@ score:
     regions:
     - north-america
   previous_composite: 15.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teikametrics/refs/heads/main/screenshots/teikametrics-2026-09-02T162724.png
 security:

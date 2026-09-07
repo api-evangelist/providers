@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The Nucleus platform API. Every platform capability is exposed over REST, documented with Swagger inside the authenticated customer console, and authenticated with a static API key in an x-apikey head
@@ -247,8 +247,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nucleus-security/refs/heads/main/screenshots/nucleus-security-2026-09-02T150811.png
 security:

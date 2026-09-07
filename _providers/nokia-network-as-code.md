@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -441,7 +441,7 @@ score:
   band: strong
   composite: 57.4
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 24.0
     catalog_earned_first_party: 0.0
     catalog_gap: 91.0
@@ -489,8 +489,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 93.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png
 security:

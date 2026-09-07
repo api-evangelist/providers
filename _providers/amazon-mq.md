@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -930,7 +930,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 61.5
     catalog_earned_first_party: 0.0
     catalog_gap: 53.5
@@ -954,8 +954,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-mq/refs/heads/main/screenshots/amazon-mq-2026-06-20T171747.png
 security:

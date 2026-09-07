@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 0
 common:
@@ -42,25 +42,43 @@ common:
   url: https://www.linkedin.com/company/energy-future-holdings
 - group: other
   title: ''
-  type: Successor
+  type: SuccessorProfile
   url: https://www.vistracorp.com
 - group: other
   title: ''
-  type: Successor
+  type: SuccessorProfile
   url: https://www.sempra.com
 - group: other
   title: ''
-  type: Successor
+  type: SuccessorProfile
   url: https://www.oncor.com
+coverage:
+  checked: '2026-09-06'
+  detail: Energy Future Holdings Corp. was dissolved by its 2014-2018 Chapter 11 restructuring into Vistra Energy and Sempra/Oncor, and its own domain energyfutureholdings.com now terminates TLS on a WP Engine wildcard certificate and returns the "Site Not Configured" 404 shell on every path including the root, while efhcorp.com serves only a searchvity.com domain-parking frameset — there is no company site left to carry a developer program.
+  evidence:
+  - status: 404
+    url: https://energyfutureholdings.com/
+  - status: 404
+    url: https://energyfutureholdings.com/.well-known/api-catalog
+  - status: 404
+    url: https://energyfutureholdings.com/openapi.json
+  - status: 404
+    url: https://energyfutureholdings.com/.well-known/agent-card.json
+  - status: 200
+    url: https://efhcorp.com/
+  - status: 404
+    url: https://efhcorp.com/llms.txt
+  reason: defunct
+  state: none
 created: '2026-03-24'
 description: Energy Future Holdings was a Dallas-based privately held energy company involved in electricity generation, mining, wholesale energy trading, transmission and distribution, and retail electricity through subsidiaries Luminant, Oncor, and TXU Energy. The company filed for Chapter 11 bankruptcy in 2014 and was succeeded by Vistra Corp (which absorbed Luminant and TXU Energy generation/retail operations) and Sempra Texas Utilities (which acquired Oncor). No active developer APIs are offered under the Energy Future Holdings name.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/energy-future-holdings.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: Energy Future Holdings
 nav: Providers
 network: true
-overview: Energy Future Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, and Defunct Company.
+overview: Energy Future Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Electricity, Utilities, Power Generation, and Electricity Transmission.
 press:
 - date: '2026-05-25'
   title: 'Utility 2.0: The Deep-Dive on Vistra Corp''s (VST) AI- ...'
@@ -80,22 +98,22 @@ press:
 random_paper: 16
 score:
   band: minimal
-  composite: 1.2
+  composite: 2.1
   coverage:
-    artifact_dirs: 4
-    catalog_earned: 22.0
+    artifact_dirs: 5
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   jurisdiction:
@@ -109,8 +127,6 @@ score:
     reasons:
     - owner: catalog
       reason: no_resolvable_host
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 1.2
   regulatory:
     applies: true
@@ -118,13 +134,18 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/energy-future-holdings/refs/heads/main/screenshots/energy-future-holdings-2026-06-20T180703.png
 slug: energy-future-holdings
 tags:
 - Energy
 - Electricity
+- Utilities
+- Power Generation
+- Electricity Transmission
+- Retail Energy
+- Holding Company
 - Defunct Company
 ---

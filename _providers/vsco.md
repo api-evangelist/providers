@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://workspace.vsco.co/api/v2
@@ -427,7 +427,7 @@ score:
   band: developing
   composite: 41.3
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -453,8 +453,8 @@ score:
       total: 34
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vsco/refs/heads/main/screenshots/vsco-2026-09-02T170317.png
 security:

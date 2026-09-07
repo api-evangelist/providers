@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -1305,6 +1305,14 @@ collections:
   name: Commerce Layer addresses wire_transfers API
   slug: open-commerce-layer-wire-transfers-api
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/commerce-layer
+- group: company
+  title: ''
+  type: Website
+  url: https://commercelayer.io
 - group: other
   title: ''
   type: CapabilityMap
@@ -1749,7 +1757,7 @@ overview: 'Commerce Layer publishes 148 APIs on the [APIs.io](https://apis.io/) 
   The Commerce Layer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Commerce Layer''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, pricing, and 88 more developer resources.'
+  Commerce Layer''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, pricing, and 90 more developer resources.'
 plans:
 - name: Commerce Layer Plans Pricing
   plan_count: 3
@@ -1774,7 +1782,7 @@ score:
   band: exemplar
   composite: 71.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 82.3
     catalog_earned_first_party: 0.0
     catalog_gap: 32.8
@@ -1804,8 +1812,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:

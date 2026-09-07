@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - baseURL: https://graphql-gateway.optisigns.com/graphql
@@ -155,8 +155,8 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 36.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/optisigns/refs/heads/main/screenshots/optisigns-2026-08-07T190813.png
 security:

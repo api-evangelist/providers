@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -152,8 +152,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/screenshots/rxnt-2026-09-02T154228.png
 security:

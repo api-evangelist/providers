@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Proxy API for Web scraping
@@ -56,18 +56,22 @@ common:
   title: ''
   type: Blog
   url: https://www.scrapingdog.com/blog/rss.xml
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://www.scrapingdog.com/blog/scrapingdog-mcp-server/
 created: '2026-05-28'
 description: Proxy API for Web scraping
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scrapingdog.png
 layout: provider
-modified: '2026-05-28'
+modified: '2026-09-06'
 name: ScrapingDog
 nav: Providers
 network: true
 overview: 'ScrapingDog publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
 
 
-  ScrapingDog''s developer surface includes engineering blog and 3 more developer resources.'
+  ScrapingDog''s developer surface includes engineering blog and 4 more developer resources.'
 random_paper: 14
 score:
   band: minimal
@@ -90,8 +94,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 8.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapingdog/refs/heads/main/screenshots/scrapingdog-2026-06-20T193600.png
 security:

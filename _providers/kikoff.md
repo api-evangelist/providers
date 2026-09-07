@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Unified REST API for embedding credit-building infrastructure, covering member enrollment, tradeline furnishing to the credit bureaus, and dispute status. Access is gated behind a demo/onboarding proc
@@ -147,8 +147,8 @@ score:
     regions:
     - north-america
   previous_composite: 24.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kikoff/refs/heads/main/screenshots/kikoff-2026-07-25T223738.png
 security:

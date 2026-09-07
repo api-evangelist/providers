@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -64,7 +64,14 @@ apis:
   description: List available models.
   name: Inception Models API
   slug: inception-models-api
-artifact_total: 15
+arazzos:
+- description: List the available Mercury chat models, then send a chat completion.
+  name: Inception — discover a chat model and generate a completion
+  slug: inception-chat-completion.arazzo
+- description: Confirm a FIM model then generate an inline code completion with Mercury Edit 2.
+  name: Inception — fill-in-the-middle code autocomplete
+  slug: inception-code-autocomplete.arazzo
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +89,14 @@ collections:
   name: Inception Chat Models API
   slug: open-inception-models-api
 common:
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/inception-chat-completion.arazzo.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/inception-code-autocomplete.arazzo.yml
 - group: company
   title: ''
   type: Website
@@ -221,7 +236,7 @@ network: true
 overview: 'Inception publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Chat API, Edit API, FIM API, and 1 more. Tagged areas include Company, Ai Ml, LLM, Artificial Intelligence, and Diffusion Models.
 
 
-  Inception''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
+  Inception''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 26 more developer resources.'
 plans:
 - name: Inception Plans
   plan_count: 3
@@ -235,7 +250,7 @@ score:
   band: developing
   composite: 51.2
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 52.0
     catalog_earned_first_party: 12.0
     catalog_gap: 63.0
@@ -262,8 +277,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inception/refs/heads/main/screenshots/inception-2026-07-25T222332.png
 security:

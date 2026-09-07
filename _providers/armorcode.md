@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: ArmorCode's REST API for programmatic access to findings, integrations, and remediation workflows across the unified exposure-management platform. Secured with bearer API tokens provisioned from the A
@@ -146,8 +146,8 @@ score:
   previous_composite: 27.6
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armorcode/refs/heads/main/screenshots/armorcode-2026-07-25T201224.png
 security:

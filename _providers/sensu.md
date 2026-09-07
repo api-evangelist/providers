@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'The Sensu Go backend REST API for managing observability resources: checks, events, entities, filters, handlers, mutators, hooks, pipelines, assets, silences, namespaces, roles, role bindings, cluster'
@@ -139,8 +139,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensu/refs/heads/main/screenshots/sensu-2026-09-02T154919.png
 security:

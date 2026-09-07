@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: On-device Smart Data Capture SDK for barcode, MatrixScan, ID, Smart Label, Parser and Text capture, shipped as first-party client libraries for iOS, Android, Web, React Native, Flutter, Cordova, Capac
@@ -174,8 +174,8 @@ score:
   previous_composite: 27.7
   provenance:
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/screenshots/scandit-2026-09-02T154511.png
 security:

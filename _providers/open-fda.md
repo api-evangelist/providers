@@ -10,30 +10,37 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-09-05'
+  score: 11.0
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Open Fda Agentic Access
+  operation_count: 22
+  slug: open-fda-agentic-access
+  summary_line: 22 operations
 api_count: 17
 apis:
 - description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
@@ -87,8 +94,84 @@ apis:
 - description: Access molecular-level substance information designed for internal and external applications, including the Unique Ingredient Identifier (UNII) listing.
   name: Substance Data API
   slug: other-substance-data
-artifact_total: 41
+artifact_total: 45
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/open-fda-agentic-access.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://open.fda.gov/
+- group: start
+  title: ''
+  type: Signup
+  url: https://api.data.gov/signup/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://open.fda.gov/apis/try-the-api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://open.fda.gov/apis/query-parameters/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://open.fda.gov/apis/query-syntax/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://open.fda.gov/apis/advanced-syntax/
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://open.fda.gov/apis/errors/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://open.fda.gov/updates/
+- group: operate
+  title: ''
+  type: Forums
+  url: https://open.fda.gov/community/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/FDA
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.fda.gov/about-fda/contact-fda
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://open.fda.gov/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fda.gov/about-website/website-policies
+- group: design
+  title: ''
+  type: Rules
+  url: rules/open-fda-rules.yml
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/open-fda-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/open-fda-vocabulary.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/open-fda-search-response-schema.json
+- group: build
+  title: ''
+  type: Examples
+  url: examples/open-fda-drug-event-example.json
 - group: operate
   title: ''
   type: IssueTracker
@@ -180,6 +263,9 @@ examples:
 - key_count: 2
   name: Food Enforcement Recall
   slug: food-enforcement-recall
+- key_count: 4
+  name: Open Fda Drug Event Example
+  slug: open-fda-drug-event-example
 - key_count: 2
   name: Substance Data
   slug: substance-data
@@ -210,6 +296,9 @@ json_schemas:
 - name: Food Adverse Event
   property_count: 7
   slug: food-adverse-event
+- name: openFDA Search Response
+  property_count: 2
+  slug: open-fda-search-response
 - name: Substance Data
   property_count: 21
   slug: substance-data
@@ -229,10 +318,10 @@ network: true
 overview: 'openFDA publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include FDA, Food and Drug Administration, Drug Safety, Adverse Events, and Drug Labels.
 
 
-  The openFDA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The openFDA catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  openFDA''s developer surface includes documentation, engineering blog, authentication, and 13 more developer resources.'
+  openFDA''s developer surface includes developer portal, signup flow, getting-started guide, API reference, changelog, support, code examples, and 28 more developer resources.'
 plans:
 - name: Open Fda Plans Pricing
   plan_count: 2
@@ -253,36 +342,48 @@ rules:
     info: 0
     warn: 2
   slug: open-fda-jsonschema-spectral-rules
+- effective_rule_count: 0
+  extends: []
+  name: openFDA API Rules
+  rule_count: 0
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 0
+  slug: open-fda-rules
 score:
-  band: thin
-  composite: 28.1
+  band: developing
+  composite: 49.4
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 64.5
+    artifact_dirs: 12
+    catalog_earned: 69.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 50.5
+    catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 21.3
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 7.6
-    contract_quality: 14.7
-    developer_ergonomics: 23.8
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 22.7
+    contract_quality: 21.3
+    developer_ergonomics: 57.1
     discoverability: 74.1
-    governance: 7.6
-    operational_transparency: 31.6
+    governance: 22.7
+    operational_transparency: 47.4
   previous_composite: 28.1
+  provenance:
+    agentic_access: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 31.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 46.3
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:
 - kind: domain-security

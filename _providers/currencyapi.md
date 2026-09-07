@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: CurrencyAPI
   slug: open-currencyapi
 common:
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: agent
   title: ''
   type: AgenticAccess
@@ -169,7 +173,7 @@ network: true
 overview: 'CurrencyAPI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Convert API, Currencies API, Historical API, and 3 more. Tagged areas include Foreign Exchange, Currency, Exchange Rates, FX, and Currency Conversion.
 
 
-  CurrencyAPI''s developer surface includes authentication, documentation, API reference, pricing, and 9 more developer resources.'
+  CurrencyAPI''s developer surface includes authentication, documentation, API reference, pricing, and 10 more developer resources.'
 plans:
 - name: Currencyapi Plans Pricing
   plan_count: 5
@@ -207,8 +211,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/screenshots/currencyapi-2026-07-25T210945.png
 security:

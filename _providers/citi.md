@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 118
 apis:
 - baseURL: https://tts.apib2b.citi.com/citiconnect/prod
@@ -290,13 +290,13 @@ score:
   band: strong
   composite: 60.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 56.4
+  delta: 0.0
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -306,7 +306,7 @@ score:
     discoverability: 74.1
     governance: 4.5
     operational_transparency: 44.7
-  previous_composite: 3.7
+  previous_composite: 60.1
   provenance:
     conformance: derived
     contracts:
@@ -322,9 +322,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 84.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citi/refs/heads/main/screenshots/citi-2026-06-20T174409.png
 security:
 - kind: authentication

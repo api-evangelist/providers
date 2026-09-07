@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ score:
   band: developing
   composite: 46.2
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 69.5
     catalog_earned_first_party: 0.0
     catalog_gap: 45.5
@@ -309,8 +309,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/screenshots/lancaster-2026-06-20T184256.png
 security:

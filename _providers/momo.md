@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 4
 apis:
 - description: The MoMo All-in-One (AIO v2) merchant payment gateway. One integration covers MoMo e-wallet, domestic ATM card, credit card, Apple Pay, Google Pay, Buy Now Pay Later, Quick Pay POS scanner, collection
@@ -259,8 +259,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/momo/refs/heads/main/screenshots/momo-2026-09-02T150621.png
 security:

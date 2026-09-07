@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -49,6 +49,42 @@ asyncapis:
   name: Teladoc Webhooks
   slug: teladoc-webhooks
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/teladoc-health
+- group: other
+  title: ''
+  type: ForOrganizations
+  url: https://www.teladochealth.com/organizations
+- group: other
+  title: ''
+  type: ForIndividuals
+  url: https://www.teladochealth.com/individuals
+- group: build
+  title: ''
+  type: ForClinicians
+  url: https://www.teladochealth.com/clinicians
+- group: company
+  title: ''
+  type: News
+  url: https://www.teladochealth.com/newsroom
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.teladochealth.com/careers
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://ir.teladochealth.com
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://www.teladochealth.com/security-privacy
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.teladochealth.com/contact
 - group: company
   title: ''
   type: Website
@@ -179,7 +215,7 @@ overview: 'Teladoc publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Teladoc catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Teladoc''s developer surface includes documentation, API reference, authentication, sandbox, changelog, support, engineering blog, and 22 more developer resources.'
+  Teladoc''s developer surface includes product news, documentation, API reference, authentication, sandbox, changelog, support, and 31 more developer resources.'
 plans:
 - name: Teladoc Plans Pricing
   plan_count: 0
@@ -191,7 +227,7 @@ rate_limits:
   slug: teladoc-rate-limits
 score:
   band: developing
-  composite: 49.2
+  composite: 50.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -199,10 +235,10 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
-    access_clarity: 42.1
-    commercial_clarity: 42.1
+    access_clarity: 50.0
+    commercial_clarity: 50.0
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 59.5
@@ -223,8 +259,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/teladoc/refs/heads/main/screenshots/teladoc-2026-08-17T082301.png
 security:

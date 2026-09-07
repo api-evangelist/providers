@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -340,7 +340,7 @@ score:
   band: developing
   composite: 47.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -381,8 +381,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whitespace-london/refs/heads/main/screenshots/whitespace-london-2026-08-17T082915.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -132,6 +132,14 @@ collections:
   name: Bubble Data Action Workflow API
   slug: open-bubble-workflow-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bubble.io
+- group: operate
+  title: ''
+  type: Forums
+  url: https://forum.bubble.io
 - group: agent
   title: ''
   type: AgenticAccess
@@ -446,7 +454,7 @@ overview: 'Bubble publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The Bubble catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bubble''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, signup flow, developer portal, and 48 more developer resources.'
+  Bubble''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, signup flow, developer portal, and 50 more developer resources.'
 plans:
 - name: Bubble Plans Pricing
   plan_count: 7
@@ -506,8 +514,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:
@@ -552,5 +560,5 @@ use_cases:
   name: Internal API Integrations
 - description: Authenticated portals with privacy-rule-controlled data access and document upload.
   name: Customer Portals
-website: https://bubble.io/
+website: https://bubble.io
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ apis:
   description: Site users, their reputation, badges, tags, top posts, timeline, and write surfaces.
   name: Stack Exchange Users API
   slug: stackexchange-users-api
-artifact_total: 125
+artifact_total: 128
 collections:
 - collection_type: postman
   name: Stack Exchange Access Tokens API
@@ -229,6 +229,34 @@ collections:
   name: Stack Exchange Access Tokens Users API
   slug: open-stackexchange-users-api
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/stack-exchange
+- group: start
+  title: ''
+  type: Signup
+  url: http://stackapps.com/apps/oauth/register
+- group: other
+  title: ''
+  type: Applications
+  url: http://stackapps.com/apps/oauth
+- group: build
+  title: ''
+  type: GitHub Topics
+  url: https://github.com/topics/stackexchange-api
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/stackexchange-context.jsonld
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/stackexchange-question-schema.json
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/stackexchange-rules.yml
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -458,6 +486,9 @@ json_schemas:
 - name: User
   property_count: 25
   slug: stackexchange-api-v2-3-user
+- name: Stack Exchange Question
+  property_count: 20
+  slug: stackexchange-question
 json_structures:
 - name: Stackexchange Api V2 3 Access Token Structure
   property_count: 4
@@ -530,6 +561,10 @@ jsonld:
   name: Stackexchange Api V2 3 Context
   property_count: 134
   slug: stackexchange-api-v2-3-context
+- class_count: 32
+  name: Stackexchange Context
+  property_count: 4
+  slug: stackexchange-context
 layout: provider
 modified: '2026-05-29'
 name: Stack Exchange
@@ -538,10 +573,10 @@ network: true
 overview: 'Stack Exchange publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Access Tokens API, Answers API, Badges API, and 13 more. Tagged areas include Q&A, Developer Community, Knowledge Graph, Stack Overflow, and Stack Exchange.
 
 
-  The Stack Exchange catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Stack Exchange catalog on APIs.io includes 2 JSON-LD contexts and 3 Spectral governance rulesets.
 
 
-  Stack Exchange''s developer surface includes authentication, documentation, engineering blog, tooling, and 19 more developer resources.'
+  Stack Exchange''s developer surface includes signup flow, authentication, documentation, engineering blog, tooling, and 25 more developer resources.'
 plans:
 - name: Stackexchange Plans Pricing
   plan_count: 3
@@ -562,6 +597,17 @@ rules:
     info: 1
     warn: 4
   slug: stackexchange-jsonschema-spectral-rules
+- effective_rule_count: 50
+  extends:
+  - spectral:oas
+  name: Stack Exchange API Rules
+  rule_count: 9
+  severity_counts:
+    error: 2
+    hint: 0
+    info: 2
+    warn: 5
+  slug: stackexchange-rules
 - effective_rule_count: 89
   extends:
   - spectral:oas
@@ -606,8 +652,8 @@ score:
       derived: 17
       marker_coverage: 100.0
       total: 17
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stackexchange/refs/heads/main/screenshots/stackexchange-2026-06-20T194445.png
 security:

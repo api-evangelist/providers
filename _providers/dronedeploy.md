@@ -14,9 +14,9 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,8 +32,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.5
-  scored_at: '2026-09-05'
+  score: 19.8
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 1
+  human_in_the_loop: 0
+  name: Dronedeploy Agentic Access
+  operation_count: 1
+  slug: dronedeploy-agentic-access
+  summary_line: 1 operation · 1 acting
 api_count: 7
 apis:
 - baseURL: https://www.dronedeploy.com/graphql
@@ -71,12 +78,84 @@ apis:
   description: 'Register outbound webhooks so DroneDeploy notifies your endpoint when long-running work finishes. Confirmed on the export flow, where a `webhook.url` set inside CreateExportInput parameters is called '
   name: DroneDeploy Webhooks API
   slug: dronedeploy-webhooks-api
-artifact_total: 13
+artifact_total: 15
 collections:
 - collection_type: open
   name: DroneDeploy GraphQL API
   slug: open-dronedeploy
 common:
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/dronedeploy/overview
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/dronedeploy-agentic-access.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/dronedeploy-authentication.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.dronedeploy.com
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://www.dronedeploy.com/graphiql/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dronedeploy.com
+- group: start
+  title: ''
+  type: Signup
+  url: https://www.dronedeploy.com/get-started
+- group: start
+  title: ''
+  type: Login
+  url: https://www.dronedeploy.com/app2/auth/signin
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.dronedeploy.com/hc/en-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.dronedeploy.com/legal/master-services-agreement
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dronedeploy.com/legal/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.dronedeploy.com/blog
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.dronedeploy.com/about/careers
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://www.dronedeploy.com/about
+- group: other
+  title: ''
+  type: AppMarket
+  url: https://www.dronedeploy.com/product/market
+- group: other
+  title: ''
+  type: X
+  url: https://twitter.com/dronedeploy
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/c/DroneDeploy
+- group: start
+  title: ''
+  type: Trial
+  url: https://www.dronedeploy.com/get-started
 - group: auth
   title: ''
   type: DomainSecurity
@@ -128,7 +207,7 @@ network: true
 overview: 'DroneDeploy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Projects and Plans API, Maps and Exports API, Annotations and Issues API, and 4 more. Tagged areas include Drone Mapping, Reality Capture, Aerial Analytics, Geospatial, and GraphQL.
 
 
-  DroneDeploy''s developer surface includes documentation and 7 more developer resources.'
+  DroneDeploy''s developer surface includes authentication, developer portal, sandbox, signup flow, support, engineering blog, YouTube channel, and 19 more developer resources.'
 plans:
 - name: Dronedeploy Plans Pricing
   plan_count: 3
@@ -139,31 +218,37 @@ rate_limits:
   name: Dronedeploy Rate Limits
   slug: dronedeploy-rate-limits
 score:
-  band: thin
-  composite: 33.3
+  band: developing
+  composite: 49.4
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 9
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 16.1
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
+    access_clarity: 73.7
+    commercial_clarity: 73.7
     contract_governance: 0.0
     contract_quality: 37.2
-    developer_ergonomics: 21.4
+    developer_ergonomics: 57.1
     discoverability: 74.1
     governance: 0.0
-    operational_transparency: 34.2
+    operational_transparency: 50.0
   previous_composite: 33.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  provenance:
+    agentic_access: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dronedeploy/refs/heads/main/screenshots/dronedeploy-2026-07-25T212423.png
 security:
+- kind: authentication
+  name: Dronedeploy Authentication
+  slug: dronedeploy-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Dronedeploy Domain Security
   slug: dronedeploy-domain-security

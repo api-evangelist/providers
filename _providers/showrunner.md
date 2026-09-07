@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,8 +105,8 @@ score:
   previous_composite: 10.9
   provenance:
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/showrunner/refs/heads/main/screenshots/showrunner-2026-09-02T155319.png
 security:

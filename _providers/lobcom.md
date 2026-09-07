@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -517,7 +517,7 @@ score:
   band: strong
   composite: 63.5
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 48.0
     catalog_earned_first_party: 24.0
     catalog_gap: 67.0
@@ -544,8 +544,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobcom/refs/heads/main/screenshots/lobcom-2026-07-25T225441.png
 security:

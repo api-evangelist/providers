@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 7
@@ -585,7 +585,7 @@ score:
   band: strong
   composite: 54.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 95.0
     catalog_earned_first_party: 0.0
     catalog_gap: 20.0
@@ -615,8 +615,8 @@ score:
     regime: Health
     regime_id: health
     score: 24.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrascience/refs/heads/main/screenshots/tetrascience-2026-06-20T195201.png
 security:

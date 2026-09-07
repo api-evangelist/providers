@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,8 +104,8 @@ score:
   previous_composite: 12.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequoiadb/refs/heads/main/screenshots/sequoiadb-2026-09-02T154943.png
 security:

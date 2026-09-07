@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: Enterprise Reports API for Kahoot! 360 organizations. Exposes data on games, users, participants, organizations, and kahoots created by the organization. Uses OAuth 2.0 client_credentials at https://a
@@ -180,8 +180,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kahoot/refs/heads/main/screenshots/kahoot-2026-06-20T183854.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -191,7 +191,7 @@ score:
   band: thin
   composite: 37.1
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -221,8 +221,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/badgr/refs/heads/main/screenshots/badgr-2026-07-25T202239.png
 security:

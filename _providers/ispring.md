@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -909,7 +909,7 @@ score:
   band: developing
   composite: 50.9
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 67.3
     catalog_earned_first_party: 0.0
     catalog_gap: 47.8
@@ -939,8 +939,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 37.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
 security:

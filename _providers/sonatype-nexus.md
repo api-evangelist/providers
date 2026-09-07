@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 228
   human_in_the_loop: 10
@@ -551,7 +551,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 45.5
     catalog_earned_first_party: 0.0
     catalog_gap: 69.5
@@ -575,8 +575,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 46
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonatype-nexus/refs/heads/main/screenshots/sonatype-nexus-2026-06-20T194201.png
 security:

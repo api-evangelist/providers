@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 134
   human_in_the_loop: 9
@@ -666,7 +666,7 @@ score:
   band: exemplar
   composite: 69.8
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 25
     catalog_earned: 56.0
     catalog_earned_first_party: 24.0
     catalog_gap: 59.0
@@ -693,8 +693,8 @@ score:
       total: 48
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snyk/refs/heads/main/screenshots/snyk-2026-06-20T194114.png
 security:

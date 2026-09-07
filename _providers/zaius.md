@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 11
 apis:
 - baseURL: https://api.us1.odp.optimizely.com/v3
@@ -384,8 +384,8 @@ score:
       total: 17
     mcp: derived
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zaius/refs/heads/main/screenshots/zaius-2026-08-17T083035.png
 security:

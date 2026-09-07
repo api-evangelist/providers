@@ -32,10 +32,22 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 10
 common:
+- group: other
+  title: ''
+  type: Research
+  url: https://www.regeneron.com/science/genetics-center
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/rgcgithub
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/regeneron-mpds
 - group: auth
   title: ''
   type: DomainSecurity
@@ -93,7 +105,10 @@ modified: '2026-05-16'
 name: Regeneron
 nav: Providers
 network: true
-overview: Regeneron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Healthcare, and Genomics.
+overview: 'Regeneron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Healthcare, and Genomics.
+
+
+  Regeneron''s developer surface includes GitHub presence and 11 more developer resources.'
 random_paper: 20
 score:
   band: minimal
@@ -122,8 +137,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regeneron/refs/heads/main/screenshots/regeneron-2026-06-20T192817.png
 security:

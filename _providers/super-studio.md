@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: The ecforce platform REST API. Version 2 splits into v2/admin (administrator-scoped, mirroring the ecforce management screens) and v2/customer (shopper-scoped, mirroring My Page). Responses are JSON:A
@@ -253,8 +253,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-studio/refs/heads/main/screenshots/super-studio-2026-09-02T161208.png
 security:

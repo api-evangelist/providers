@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -841,6 +841,14 @@ collections:
   name: agent-states-api-v2 AccountSet Workqueues API
   slug: open-lithium-workqueues-api
 common:
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.khoros.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://khoros.ai/feed/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1044,7 +1052,7 @@ overview: 'Lithium publishes 99 APIs on the [APIs.io](https://apis.io/) network,
   The Lithium catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 40 more developer resources.'
+  Lithium''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 42 more developer resources.'
 plans:
 - name: Lithium Plans Pricing
   plan_count: 0
@@ -1063,7 +1071,7 @@ score:
   band: strong
   composite: 57.6
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 25
     catalog_earned: 44.0
     catalog_earned_first_party: 12.0
     catalog_gap: 71.0
@@ -1089,8 +1097,8 @@ score:
       total: 99
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:

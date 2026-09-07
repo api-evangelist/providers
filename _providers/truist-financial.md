@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,6 +106,38 @@ collections:
   name: Truist Personal and Small Business Transactions API
   slug: open-truist-personal-small-business-transactions
 common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.truist.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.truist.com/api/working-with-truist
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.truist.com/api/view-api
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.truist.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://developer.truist.com/ui/login/1000
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.truist.com/support
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/truist-financial-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/truist-financial-conformance.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -239,7 +271,7 @@ overview: 'Truist Financial publishes 4 APIs on the [APIs.io](https://apis.io/) 
   The Truist Financial catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Truist Financial''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, GitHub presence, and 14 more developer resources.'
+  Truist Financial''s developer surface includes documentation, API reference, signup flow, support, authentication, developer portal, getting-started guide, and 20 more developer resources.'
 plans:
 - name: Truist Financial Plans Pricing
   plan_count: 1
@@ -278,23 +310,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 41.9
+  composite: 50.6
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 19
     catalog_earned: 62.5
     catalog_earned_first_party: 0.0
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.7
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
-    contract_governance: 13.6
+    access_clarity: 47.4
+    commercial_clarity: 47.4
+    contract_governance: 31.8
     contract_quality: 63.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 13.6
+    governance: 31.8
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -314,10 +346,10 @@ score:
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 53.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 63.3
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/screenshots/truist-financial-2026-06-20T195759.png
 security:
 - kind: authentication

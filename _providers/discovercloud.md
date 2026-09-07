@@ -26,20 +26,32 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-05'
+  score: 2.5
+  scored_at: '2026-09-06'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/discovercloud-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/discovercloud-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/discovercloud-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/discovercloud-rate-limits.yml
 - group: company
   title: ''
   type: Website
@@ -48,13 +60,9 @@ common:
   title: ''
   type: About
   url: https://www.discovercloud.com/about-us
-- group: other
-  title: ''
-  type: Categories
-  url: https://www.discovercloud.com/categories
 - group: start
   title: ''
-  type: Portal
+  type: SignUp
   url: https://www.discovercloud.com/become-a-vendor
 - group: docs
   title: ''
@@ -67,6 +75,10 @@ common:
 - group: operate
   title: ''
   type: Contact
+  url: https://www.discovercloud.com/contact-us
+- group: operate
+  title: ''
+  type: Support
   url: https://www.discovercloud.com/contact-us
 - group: commercial
   title: ''
@@ -88,42 +100,68 @@ common:
   title: ''
   type: Facebook
   url: https://www.facebook.com/DiscoverCloud
+coverage:
+  checked: '2026-09-06'
+  detail: 'DiscoverCloud is a B2B software-review marketplace with no developer program of any kind: there is no api./docs./developers. subdomain (all NXDOMAIN), no GitHub organization, no package on npm, PyPI, RubyGems or crates.io, and every conventional spec and /.well-known/ path on www.discovercloud.com — /openapi.json, /swagger.json, /api-docs, /graphql, /llms.txt, /.well-known/security.txt, /.well-known/agent-card.json — is swallowed by the ASP.NET catch-all 302 to /pagenotfound; the only JSON surface on the host is the unauthenticated, undocumented ASP.NET Web API under /api/ that its own Angular front-end calls, which exposes no swagger, no /Help page and no reference.'
+  evidence:
+  - status: 302
+    url: https://www.discovercloud.com/openapi.json
+  - status: 302
+    url: https://www.discovercloud.com/swagger/docs/v1
+  - status: 302
+    url: https://www.discovercloud.com/.well-known/agent-card.json
+  - status: 302
+    url: https://www.discovercloud.com/llms.txt
+  - status: 404
+    url: https://www.discovercloud.com/api/swagger.json
+  - status: 0
+    url: https://api.discovercloud.com/
+  reason: no-developer-program
+  state: none
 created: '2026-03-24'
 description: Discover the best SaaS solutions and B2B services on the DiscoverCloud. Our B2B marketplace features an ever-growing number of SaaS solutions and outsourced services. Operated by Chekkt Limited, DiscoverCloud aggregates crowd-sourced ratings and reviews across software categories including CRM, Project Management, Marketing Automation, Business Intelligence, eCommerce, Invoicing, Help Desk, and Security.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/discovercloud.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: DiscoverCloud
 nav: Providers
 network: true
-overview: 'DiscoverCloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Services, Marketplace, Software-as-a-Service, and Software Discovery.
+overview: 'DiscoverCloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud Services, Marketplace, Software-as-a-Service, Software Discovery, and Reviews.
 
 
-  DiscoverCloud''s developer surface includes developer portal, documentation, engineering blog, and 10 more developer resources.'
+  DiscoverCloud''s developer surface includes signup flow, documentation, engineering blog, support, and 12 more developer resources.'
+plans:
+- name: Discovercloud Plans Pricing
+  plan_count: 0
+  slug: discovercloud-plans-pricing
 random_paper: 12
+rate_limits:
+- limit_count: 0
+  name: Discovercloud Rate Limits
+  slug: discovercloud-rate-limits
 score:
   band: emerging
-  composite: 12.6
+  composite: 15.9
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 22.0
+    artifact_dirs: 7
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.3
   facets:
-    access_clarity: 21.1
-    commercial_clarity: 21.1
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 40.7
+    developer_ergonomics: 16.7
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 12.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discovercloud/refs/heads/main/screenshots/discovercloud-2026-06-20T180041.png
 security:
@@ -137,5 +175,7 @@ tags:
 - Marketplace
 - Software-as-a-Service
 - Software Discovery
+- Reviews
+- Business Software
 website: https://www.discovercloud.com/
 ---

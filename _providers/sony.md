@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 4
 apis:
 - description: NNabla is Sony's open-source deep-learning framework with Python and C++ bindings, dynamic and static computation graphs, GPU/CUDA acceleration, and a model format for training and inference. Distribu
@@ -174,8 +174,8 @@ score:
     regions:
     - japan-korea
   previous_composite: 18.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sony/refs/heads/main/screenshots/sony-2026-06-20T194211.png
 security:

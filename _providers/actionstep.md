@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -446,7 +446,7 @@ score:
   band: developing
   composite: 49.1
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 67.0
     catalog_earned_first_party: 0.0
     catalog_gap: 48.0
@@ -470,8 +470,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 35
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
 security:

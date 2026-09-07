@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 6
 apis:
 - baseURL: https://docs.waf.chaitin.com
@@ -4604,7 +4604,7 @@ score:
   band: thin
   composite: 33.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -4630,8 +4630,8 @@ score:
       total: 556
     mcp: derived
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chaitin/refs/heads/main/screenshots/chaitin-2026-07-25T205025.png
 security:

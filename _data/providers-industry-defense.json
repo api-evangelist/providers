@@ -29,8 +29,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -88,8 +88,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -140,8 +140,8 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -196,8 +196,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -248,8 +248,8 @@
       "commercial_clarity": 61.8,
       "access_clarity": 61.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 37.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -293,8 +293,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -338,8 +338,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -390,8 +390,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -435,8 +435,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -479,8 +479,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -531,8 +531,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -587,8 +587,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -632,8 +632,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -677,8 +677,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -729,8 +729,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -774,8 +774,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 36.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -818,8 +818,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -863,8 +863,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -908,8 +908,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -953,8 +953,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1005,8 +1005,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1057,8 +1057,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1109,8 +1109,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1161,8 +1161,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1213,8 +1213,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1258,8 +1258,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1303,8 +1303,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1348,8 +1348,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1393,8 +1393,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1438,8 +1438,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1483,8 +1483,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1535,8 +1535,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1587,8 +1587,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1632,8 +1632,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1694,8 +1694,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1746,8 +1746,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1790,8 +1790,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1842,8 +1842,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1894,8 +1894,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1939,8 +1939,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1991,8 +1991,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2036,8 +2036,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2088,8 +2088,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2140,8 +2140,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2192,8 +2192,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2237,8 +2237,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2282,8 +2282,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2327,8 +2327,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2379,8 +2379,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2431,8 +2431,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2483,8 +2483,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2528,8 +2528,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2573,8 +2573,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2625,8 +2625,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2670,8 +2670,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2721,8 +2721,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2766,8 +2766,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2818,8 +2818,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2863,8 +2863,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2908,8 +2908,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2960,8 +2960,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3012,8 +3012,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3064,8 +3064,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3116,8 +3116,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3161,8 +3161,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3213,8 +3213,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3265,8 +3265,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3317,8 +3317,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3362,8 +3362,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3414,8 +3414,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3466,8 +3466,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3518,8 +3518,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3570,8 +3570,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3615,8 +3615,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3667,8 +3667,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3712,8 +3712,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3757,8 +3757,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3809,8 +3809,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3861,8 +3861,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3913,8 +3913,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3958,8 +3958,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4010,8 +4010,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4054,8 +4054,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4106,8 +4106,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4151,8 +4151,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4196,8 +4196,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4241,8 +4241,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4286,8 +4286,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4331,8 +4331,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4376,8 +4376,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4428,8 +4428,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4473,8 +4473,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4517,8 +4517,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4568,8 +4568,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4620,8 +4620,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4665,8 +4665,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4710,8 +4710,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4762,8 +4762,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4814,8 +4814,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4866,8 +4866,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4911,8 +4911,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4956,8 +4956,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5001,8 +5001,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5046,8 +5046,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5091,8 +5091,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5136,8 +5136,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5188,8 +5188,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5240,8 +5240,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5285,8 +5285,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5330,8 +5330,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5375,8 +5375,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5427,8 +5427,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5479,8 +5479,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5524,8 +5524,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5569,8 +5569,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5614,8 +5614,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5669,8 +5669,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5714,8 +5714,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5766,8 +5766,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5811,8 +5811,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5856,8 +5856,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5900,8 +5900,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5945,8 +5945,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5997,8 +5997,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6049,8 +6049,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6094,8 +6094,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6139,8 +6139,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6184,8 +6184,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6229,8 +6229,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6281,8 +6281,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6333,8 +6333,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6385,8 +6385,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6430,8 +6430,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6475,8 +6475,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6527,8 +6527,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6572,8 +6572,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6624,8 +6624,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6669,8 +6669,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6721,8 +6721,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6766,8 +6766,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6811,8 +6811,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6856,8 +6856,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6901,8 +6901,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6946,8 +6946,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6991,8 +6991,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7036,8 +7036,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7081,8 +7081,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7126,8 +7126,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7171,8 +7171,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7216,8 +7216,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7268,8 +7268,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7313,8 +7313,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7358,8 +7358,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7403,8 +7403,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7447,8 +7447,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7492,8 +7492,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7537,8 +7537,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7582,8 +7582,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7634,8 +7634,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7679,8 +7679,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7724,8 +7724,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7776,8 +7776,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7828,8 +7828,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7873,8 +7873,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7918,8 +7918,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7963,8 +7963,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8008,8 +8008,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8053,8 +8053,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8098,8 +8098,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8150,8 +8150,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8195,8 +8195,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8240,8 +8240,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8285,8 +8285,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8330,8 +8330,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8375,8 +8375,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8420,8 +8420,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8465,8 +8465,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8510,8 +8510,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8555,8 +8555,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8600,8 +8600,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8645,8 +8645,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8690,8 +8690,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8735,8 +8735,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8787,8 +8787,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8832,8 +8832,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8877,8 +8877,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8929,8 +8929,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8974,8 +8974,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9026,8 +9026,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9071,8 +9071,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9115,8 +9115,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9160,8 +9160,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9205,8 +9205,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9257,8 +9257,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9309,8 +9309,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9361,8 +9361,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9406,8 +9406,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9451,8 +9451,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9496,8 +9496,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9548,8 +9548,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9593,8 +9593,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9638,8 +9638,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9690,8 +9690,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9735,8 +9735,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9779,8 +9779,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9824,8 +9824,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9869,8 +9869,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9914,8 +9914,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9959,8 +9959,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10004,8 +10004,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10049,8 +10049,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10094,8 +10094,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10139,8 +10139,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10184,8 +10184,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10229,8 +10229,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10274,8 +10274,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10319,8 +10319,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10364,8 +10364,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10408,8 +10408,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10453,8 +10453,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10498,8 +10498,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10543,8 +10543,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10587,8 +10587,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10631,8 +10631,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10676,8 +10676,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10721,8 +10721,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10766,8 +10766,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10811,8 +10811,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10856,8 +10856,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10901,8 +10901,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10946,8 +10946,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10991,8 +10991,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11036,8 +11036,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -11088,8 +11088,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11133,8 +11133,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11178,8 +11178,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -11230,8 +11230,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -11282,8 +11282,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -11334,8 +11334,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11379,8 +11379,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11424,8 +11424,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11469,8 +11469,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11514,8 +11514,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11559,8 +11559,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11603,8 +11603,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11648,8 +11648,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11693,8 +11693,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11738,8 +11738,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11783,8 +11783,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11828,8 +11828,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11873,8 +11873,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11918,8 +11918,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11963,8 +11963,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12008,8 +12008,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12052,8 +12052,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12097,8 +12097,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12141,8 +12141,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12186,8 +12186,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12231,8 +12231,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12276,8 +12276,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12320,8 +12320,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12365,8 +12365,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12409,8 +12409,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12453,8 +12453,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12498,8 +12498,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12543,8 +12543,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12588,8 +12588,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12633,8 +12633,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12678,8 +12678,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12723,8 +12723,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12768,8 +12768,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12812,8 +12812,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12857,8 +12857,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12902,8 +12902,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12947,8 +12947,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -12992,8 +12992,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13037,8 +13037,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13082,8 +13082,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13127,8 +13127,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13172,8 +13172,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13217,8 +13217,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13261,8 +13261,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13306,8 +13306,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13351,8 +13351,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13396,8 +13396,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13441,8 +13441,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -13493,8 +13493,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -13545,8 +13545,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -13597,8 +13597,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13642,8 +13642,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -13687,8 +13687,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -13739,8 +13739,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -13791,8 +13791,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -13843,8 +13843,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -13895,8 +13895,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -13947,8 +13947,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -13999,8 +13999,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14051,8 +14051,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -14086,6 +14086,57 @@
      "rank": 298
     },
     {
+     "name": "Zeno Power",
+     "slug": "zeno-power",
+     "description": "Zeno Power is a deep-tech energy company developing radioisotope power systems (nuclear batteries) that convert the heat of radioisotope decay into reliable, long-duration electricity for extreme environments where conventional power sources fail. Its compact radioisotope Stirling generators target 1-100+ watts for use cases spanning NASA lunar surface missions (americium-241 fueled), seabed and maritime sensor infrastructure, and Department of Defense / U.S. Space Force applications (strontium-90 fueled). The company works with partners including NASA, the Pentagon, Westinghouse, and Orano, with commercial market delivery targeted for 2027. Backed by DCVC, Zeno Power was added to the API Evangelist network as a portfolio lead; enrichment found no public API, developer platform, SDKs, or technical documentation surface as of this pass.",
+     "score": 3.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 299
+    },
+    {
      "name": "ManTech International",
      "slug": "mantech",
      "description": "ManTech International is a Herndon, Virginia-based federal services contractor providing cybersecurity, data and AI, digital transformation, and intelligent engineering capabilities to U.S. defense, intelligence, and federal civilian agencies. Founded in 1968 and publicly traded on NASDAQ as MANT until 2022, the company was acquired by The Carlyle Group in April 2022 in an all-cash take-private transaction valued at approximately $4.2 billion and now operates as a Carlyle portfolio company. ManTech holds positions on major federal contract vehicles including Alliant 2/3, OASIS+, SeaPort NxG, CIO-SP3, T4NG, and ICON, and does not publish any developer-facing API or public OpenAPI surface.",
@@ -14103,8 +14154,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -14135,7 +14186,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 300
     },
     {
      "name": "Nlight",
@@ -14155,60 +14206,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 0.0,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 300
-    },
-    {
-     "name": "Reach Labs",
-     "slug": "reach-labs",
-     "description": "Reach Labs (operating as Reach Power Inc.) is a wireless power transmission company that delivers electrical energy through the air without physical connections, describing its mission as \"doing for power what Wi-Fi did for data.\" Its patented approach combines energy-transmission hardware, a custom delivery algorithm, and adaptive software controls to beam power to devices across varying distances and conditions. The company targets three primary sectors: defense and intelligence (powering sensors, autonomous vehicles, and drones in remote environments), manufacturing and logistics (energizing robotics and IoT devices in industrial settings), and public safety (enabling continuous drone operations for first responders). Reach was surfaced as a portfolio company of DCVC and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, SDK, developer portal, or machine-readable metadata surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reach-labs/refs/heads/main/screenshots/reach-labs-2026-09-02T152944.png",
-     "score": 3.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14242,11 +14241,11 @@
      "rank": 301
     },
     {
-     "name": "BBN Technologies",
-     "slug": "bbn-technologies",
-     "description": "BBN Technologies is a research and development organization founded in 1948 (originally Bolt Beranek and Newman) and now operating as RTX BBN Technologies, a division of RTX (Raytheon). BBN is historically notable for pioneering the ARPANET, early network email, and packet-switched networking, and today conducts advanced defense and intelligence R&D across AI/machine learning, command and control, cyber operations, signal processing and spectrum, networking, quantum and photonics, and voice and language technologies. BBN serves government and defense customers and does not publish a public developer portal, API, or SDK surface; this profile is maintained for network identity and discovery only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbn-technologies/refs/heads/main/screenshots/bbn-technologies-2026-07-25T202523.png",
-     "score": 3.4,
+     "name": "Reach Labs",
+     "slug": "reach-labs",
+     "description": "Reach Labs (operating as Reach Power Inc.) is a wireless power transmission company that delivers electrical energy through the air without physical connections, describing its mission as \"doing for power what Wi-Fi did for data.\" Its patented approach combines energy-transmission hardware, a custom delivery algorithm, and adaptive software controls to beam power to devices across varying distances and conditions. The company targets three primary sectors: defense and intelligence (powering sensors, autonomous vehicles, and drones in remote environments), manufacturing and logistics (energizing robotics and IoT devices in industrial settings), and public safety (enabling continuous drone operations for first responders). Reach was surfaced as a portfolio company of DCVC and added to the API Evangelist network. As of this enrichment pass the company publishes no public API, SDK, developer portal, or machine-readable metadata surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reach-labs/refs/heads/main/screenshots/reach-labs-2026-09-02T152944.png",
+     "score": 3.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -14255,17 +14254,17 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 0.0,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -14294,10 +14293,10 @@
      "rank": 302
     },
     {
-     "name": "Defense Counterintelligence and Security Agency",
-     "slug": "defense-counterintelligence-and-security-agency",
-     "description": "The Defense Counterintelligence and Security Agency (DCSA) is the largest security agency in the federal government, dedicated to protecting America's trusted workforce and trusted workspaces. DCSA conducts personnel vetting and background investigations, oversees the National Industrial Security Program, delivers counterintelligence and insider threat support, and operates systems such as the Defense Information System for Security (DISS) and the National Background Investigation Services (NBIS). DCSA does not currently expose a public developer API; access to its mission systems is limited to authorized government users and cleared industry partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defense-counterintelligence-and-security-agency/refs/heads/main/screenshots/defense-counterintelligence-and-security-agency-2026-06-20T175832.png",
+     "name": "BBN Technologies",
+     "slug": "bbn-technologies",
+     "description": "BBN Technologies is a research and development organization founded in 1948 (originally Bolt Beranek and Newman) and now operating as RTX BBN Technologies, a division of RTX (Raytheon). BBN is historically notable for pioneering the ARPANET, early network email, and packet-switched networking, and today conducts advanced defense and intelligence R&D across AI/machine learning, command and control, cyber operations, signal processing and spectrum, networking, quantum and photonics, and voice and language technologies. BBN serves government and defense customers and does not publish a public developer portal, API, or SDK surface; this profile is maintained for network identity and discovery only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bbn-technologies/refs/heads/main/screenshots/bbn-technologies-2026-07-25T202523.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14311,8 +14310,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -14346,10 +14345,10 @@
      "rank": 303
     },
     {
-     "name": "KBR",
-     "slug": "kbr",
-     "description": "KBR is a Fortune 500 company that delivers science, technology, and engineering solutions to governments and companies around the world, spanning defense, intelligence, space, energy transition, and sustainable infrastructure markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kbr/refs/heads/main/screenshots/kbr-2026-06-20T183929.png",
+     "name": "Defense Counterintelligence and Security Agency",
+     "slug": "defense-counterintelligence-and-security-agency",
+     "description": "The Defense Counterintelligence and Security Agency (DCSA) is the largest security agency in the federal government, dedicated to protecting America's trusted workforce and trusted workspaces. DCSA conducts personnel vetting and background investigations, oversees the National Industrial Security Program, delivers counterintelligence and insider threat support, and operates systems such as the Defense Information System for Security (DISS) and the National Background Investigation Services (NBIS). DCSA does not currently expose a public developer API; access to its mission systems is limited to authorized government users and cleared industry partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defense-counterintelligence-and-security-agency/refs/heads/main/screenshots/defense-counterintelligence-and-security-agency-2026-06-20T175832.png",
      "score": 3.4,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14363,8 +14362,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -14398,6 +14397,58 @@
      "rank": 304
     },
     {
+     "name": "KBR",
+     "slug": "kbr",
+     "description": "KBR is a Fortune 500 company that delivers science, technology, and engineering solutions to governments and companies around the world, spanning defense, intelligence, space, energy transition, and sustainable infrastructure markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kbr/refs/heads/main/screenshots/kbr-2026-06-20T183929.png",
+     "score": 3.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 305
+    },
+    {
      "name": "Benchmark Electronics",
      "slug": "benchmark-electronics",
      "description": "Benchmark Electronics, Inc. is an advanced electronics engineering and manufacturing services (EMS) company headquartered in Tempe, Arizona. The company provides integrated design, engineering, and manufacturing services from prototypes to high-volume production, including procurement, logistics, and repair. Benchmark serves original equipment manufacturers in defense, medical technologies, commercial aerospace, industrial, next-gen communications, advanced computing, and semiconductor capital equipment markets. The company operates approximately 22 locations in 8 countries with around 13,000 employees.",
@@ -14415,8 +14466,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -14447,7 +14498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 306
     },
     {
      "name": "Chariot Defense",
@@ -14467,60 +14518,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 306
-    },
-    {
-     "name": "Curtiss-Wright",
-     "slug": "curtiss-wright",
-     "description": "Curtiss-Wright is a global integrated business that provides highly engineered products, solutions, and services mainly to the aerospace, defense, commercial power, process, and general industrial markets. Its product portfolio spans rugged embedded computing, mission-critical avionics, electronic packaging, naval propulsion, reactor coolant pumps for nuclear power, surface treatment services, industrial valves, sensors, data acquisition systems, telemetry ground stations, emergency arresting systems for military aircraft, and electronic systems for naval shipbuilding programs. The company traces its lineage to the aviation pioneers Glenn Curtiss and the Wright brothers and today operates across the Defense Electronics, Naval & Power, and Aerospace & Industrial segments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curtiss-wright/refs/heads/main/screenshots/curtiss-wright-2026-06-20T175345.png",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14554,10 +14553,10 @@
      "rank": 307
     },
     {
-     "name": "Icarus",
-     "slug": "icarus",
-     "description": "Icarus is an aerospace and defense company building autonomous, solar-powered stratospheric aircraft for persistent surveillance and connectivity. Its APOLLO platform operates continuously above 60,000 feet, delivering rapid aerial intelligence, wide-area coverage across 1,000+ square miles, and always-on, low-latency (5-10ms) direct-to-device communications for weeks-long missions without ground infrastructure. Founded in 2023 and based in El Segundo, California, Icarus was part of Y Combinator's Fall 2025 batch. The company operates in the defense/aerospace hardware space and does not currently publish any public API, developer portal, SDK, or technical developer surface; this profile captures its identity for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/icarus/refs/heads/main/screenshots/icarus-2026-07-25T222005.png",
+     "name": "Curtiss-Wright",
+     "slug": "curtiss-wright",
+     "description": "Curtiss-Wright is a global integrated business that provides highly engineered products, solutions, and services mainly to the aerospace, defense, commercial power, process, and general industrial markets. Its product portfolio spans rugged embedded computing, mission-critical avionics, electronic packaging, naval propulsion, reactor coolant pumps for nuclear power, surface treatment services, industrial valves, sensors, data acquisition systems, telemetry ground stations, emergency arresting systems for military aircraft, and electronic systems for naval shipbuilding programs. The company traces its lineage to the aviation pioneers Glenn Curtiss and the Wright brothers and today operates across the Defense Electronics, Naval & Power, and Aerospace & Industrial segments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/curtiss-wright/refs/heads/main/screenshots/curtiss-wright-2026-06-20T175345.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14571,8 +14570,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14606,10 +14605,10 @@
      "rank": 308
     },
     {
-     "name": "Linear Labs",
-     "slug": "linearlabsinc",
-     "description": "Linear Labs is an industrial motor technology company headquartered in Fort Worth, Texas, building high-torque motor systems for wind, nuclear, pumps, actuators, mining, and defense applications. Its patented Hunstable Electric Turbine (HET) permanent-magnet architecture uses a circumferential flux design the company states delivers 2x torque density, 97% peak efficiency, and 50% weight reduction versus conventional motors, scaling from 10 kW to 2.2 MW. Its PitchPro 2000 is a complete pitch-system replacement for aging GE 1.5 wind turbines, pairing the HET motor with KEBA drive electronics, a Bachmann PLC controller, and ultracapacitor backup power. Linear Labs is a hardware manufacturer and publishes no public API, developer portal, or machine-readable technical surface; this profile is maintained for network coverage and identity only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linearlabsinc/refs/heads/main/screenshots/linearlabsinc-2026-07-25T225231.png",
+     "name": "Icarus",
+     "slug": "icarus",
+     "description": "Icarus is an aerospace and defense company building autonomous, solar-powered stratospheric aircraft for persistent surveillance and connectivity. Its APOLLO platform operates continuously above 60,000 feet, delivering rapid aerial intelligence, wide-area coverage across 1,000+ square miles, and always-on, low-latency (5-10ms) direct-to-device communications for weeks-long missions without ground infrastructure. Founded in 2023 and based in El Segundo, California, Icarus was part of Y Combinator's Fall 2025 batch. The company operates in the defense/aerospace hardware space and does not currently publish any public API, developer portal, SDK, or technical developer surface; this profile captures its identity for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/icarus/refs/heads/main/screenshots/icarus-2026-07-25T222005.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14623,8 +14622,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14658,10 +14657,10 @@
      "rank": 309
     },
     {
-     "name": "Marianaminerals",
-     "slug": "marianaminerals",
-     "description": "Mariana Minerals is a software-first, vertically integrated critical-minerals company supplying the metals essential to modern energy, artificial intelligence, and defense technologies. The company currently develops copper and lithium production projects, with plans spanning cobalt, aluminum, graphite, uranium, and rare earth metals, and is headquartered in San Francisco with an engineering office in Houston. Backed by Khosla Ventures, it was added to the API Evangelist network as a portfolio lead; an enrichment pass found no public developer API, SDK, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marianaminerals/refs/heads/main/screenshots/marianaminerals-2026-07-25T230201.png",
+     "name": "Linear Labs",
+     "slug": "linearlabsinc",
+     "description": "Linear Labs is an industrial motor technology company headquartered in Fort Worth, Texas, building high-torque motor systems for wind, nuclear, pumps, actuators, mining, and defense applications. Its patented Hunstable Electric Turbine (HET) permanent-magnet architecture uses a circumferential flux design the company states delivers 2x torque density, 97% peak efficiency, and 50% weight reduction versus conventional motors, scaling from 10 kW to 2.2 MW. Its PitchPro 2000 is a complete pitch-system replacement for aging GE 1.5 wind turbines, pairing the HET motor with KEBA drive electronics, a Bachmann PLC controller, and ultracapacitor backup power. Linear Labs is a hardware manufacturer and publishes no public API, developer portal, or machine-readable technical surface; this profile is maintained for network coverage and identity only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linearlabsinc/refs/heads/main/screenshots/linearlabsinc-2026-07-25T225231.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14675,8 +14674,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14710,10 +14709,10 @@
      "rank": 310
     },
     {
-     "name": "NPco",
-     "slug": "npco",
-     "description": "NPco (NP Company) is an AI-native physics-simulation startup building AI-powered simulation for aerospace, defense, and energy engineering. Backed by Partech, it positions itself around accelerating physics simulation with AI. As of this enrichment pass the company publishes only a marketing site (careers plus a contact@npco.ai address) with no public developer portal, API, documentation, or SDKs surfaced. This profile remains a lead in the Industrial, Energy & IoT sector pending any future developer/API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/npco/refs/heads/main/screenshots/npco-2026-08-07T185714.png",
+     "name": "Marianaminerals",
+     "slug": "marianaminerals",
+     "description": "Mariana Minerals is a software-first, vertically integrated critical-minerals company supplying the metals essential to modern energy, artificial intelligence, and defense technologies. The company currently develops copper and lithium production projects, with plans spanning cobalt, aluminum, graphite, uranium, and rare earth metals, and is headquartered in San Francisco with an engineering office in Houston. Backed by Khosla Ventures, it was added to the API Evangelist network as a portfolio lead; an enrichment pass found no public developer API, SDK, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marianaminerals/refs/heads/main/screenshots/marianaminerals-2026-07-25T230201.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14727,8 +14726,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14762,9 +14761,10 @@
      "rank": 311
     },
     {
-     "name": "Zeno Power Systems",
-     "slug": "zeno-power-systems",
-     "description": "Zeno Power Systems (Zeno Power) develops radioisotope power systems — compact \"nuclear batteries\" that convert the decay heat of radioisotopes into long-duration electricity for extreme environments such as the lunar surface, deep-sea infrastructure, and remote defense installations. Backed by Techstars and other investors, Zeno is a hardware and energy-systems company; as of this enrichment pass it publishes no public web API, developer portal, documentation, SDK, or GitHub organization, so this profile is identity-only.",
+     "name": "NPco",
+     "slug": "npco",
+     "description": "NPco (NP Company) is an AI-native physics-simulation startup building AI-powered simulation for aerospace, defense, and energy engineering. Backed by Partech, it positions itself around accelerating physics simulation with AI. As of this enrichment pass the company publishes only a marketing site (careers plus a contact@npco.ai address) with no public developer portal, API, documentation, or SDKs surfaced. This profile remains a lead in the Industrial, Energy & IoT sector pending any future developer/API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/npco/refs/heads/main/screenshots/npco-2026-08-07T185714.png",
      "score": 3.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -14778,8 +14778,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -14813,11 +14813,10 @@
      "rank": 312
     },
     {
-     "name": "Sion Power",
-     "slug": "sion-power",
-     "description": "Sion Power Corporation is a Tucson, Arizona lithium-metal battery developer and manufacturer, spun out of Brookhaven National Laboratory in 1989. Its Licerion platform pairs a protected lithium-metal anode with proprietary electrolyte and cell engineering to deliver rechargeable cells with roughly double the gravimetric energy density of conventional lithium-ion, targeting defense and aerospace systems, uncrewed aircraft, and electrified mobility. The company operates a 115,000-square-foot R&D and pilot manufacturing facility, holds more than 430 international patents and applications, and has raised over $230 million from investors including LG Energy Solution. Sion Power sells physical battery cells under development agreements with OEMs; it publishes no developer program, public API, SDK, or machine-readable API contract of any kind.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sion-power/refs/heads/main/screenshots/sion-power-2026-09-02T155637.png",
-     "score": 2.9,
+     "name": "Academi",
+     "slug": "academi",
+     "description": "ACADEMI was the 2011-2014 name of the American private military, security and training company founded on 26 December 1996 in North Carolina by Erik Prince and Al Clark as Blackwater. It was renamed Blackwater Worldwide in October 2007 after the Nisour Square shooting in Baghdad, then Xe Services LLC in February 2009. In December 2010 the training business and its Moyock, North Carolina campus - the largest private training facility in the United States - were bought by USTC Holdings, an investor consortium led by Forte Capital Advisors and Manhattan Strategic Ventures, ending Erik Prince's involvement, and the company was rebranded ACADEMI in December 2011 under chairman Red McCombs. In June 2014 Academi Training Center, LLC was merged with Triple Canopy, Constellis Ltd., Strategic Social, Tidewater Global Services, National Strategic Protective Services and International Development Solutions to form Constellis Holdings, which Apollo Global Management acquired in September 2016 and which is headquartered in Herndon, Virginia. The ACADEMI brand was retired in the merger: Constellis states on its own site that \"Academi remains part of historical, legal, and contractual records, but Constellis does not operate under the Academi name\", and the Moyock campus now trades as the Constellis Training Center. The business sells physical services - firearms, driving, maritime, K-9, UAS/C-UAS and advanced security and military training, protective security details, and logistics and complex program management for United States government customers - not software. It never operated a developer program, public API, SDK, webhook surface or machine-readable API specification, and academi.com no longer serves a website: the domain is retained by Constellis for email only. This profile is retained as a historical record; there is no API surface to enrich.",
+     "score": 3.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -14830,109 +14829,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 313
-    },
-    {
-     "name": "Viasat",
-     "slug": "viasat",
-     "description": "Profile for Viasat in the API Evangelist network. Fortune F1000 (rank 972).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viasat/refs/heads/main/screenshots/viasat-2026-06-20T201040.png",
-     "score": 2.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 314
-    },
-    {
-     "name": "Navy",
-     "slug": "navy",
-     "description": "The U.S. Navy plays a crucial role in defending national security and protecting the country's interests at sea. It operates a fleet of ships and submarines, as well as aircraft and personnel, to conduct a range of missions, including maritime patrol, reconnaissance, and combat operations. The Navy also performs humanitarian missions, such as disaster relief and search and rescue efforts. No public APIs have been identified at this time. The previously listed CNATRA \"API\" reference is an Aviation Preflight Indoctrination training video library, not a programmatic API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navy/refs/heads/main/screenshots/navy-2026-06-20T190104.png",
-     "score": 2.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -14963,32 +14861,134 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 313
     },
     {
-     "name": "Zeno Power",
-     "slug": "zeno-power",
-     "description": "Zeno Power is a deep-tech energy company developing radioisotope power systems (nuclear batteries) that convert the heat of radioisotope decay into reliable, long-duration electricity for extreme environments where conventional power sources fail. Its compact radioisotope Stirling generators target 1-100+ watts for use cases spanning NASA lunar surface missions (americium-241 fueled), seabed and maritime sensor infrastructure, and Department of Defense / U.S. Space Force applications (strontium-90 fueled). The company works with partners including NASA, the Pentagon, Westinghouse, and Orano, with commercial market delivery targeted for 2027. Backed by DCVC, Zeno Power was added to the API Evangelist network as a portfolio lead; enrichment found no public API, developer platform, SDKs, or technical documentation surface as of this pass.",
-     "score": 2.6,
+     "name": "Sion Power",
+     "slug": "sion-power",
+     "description": "Sion Power Corporation is a Tucson, Arizona lithium-metal battery developer and manufacturer, spun out of Brookhaven National Laboratory in 1989. Its Licerion platform pairs a protected lithium-metal anode with proprietary electrolyte and cell engineering to deliver rechargeable cells with roughly double the gravimetric energy density of conventional lithium-ion, targeting defense and aerospace systems, uncrewed aircraft, and electrified mobility. The company operates a 115,000-square-foot R&D and pilot manufacturing facility, holds more than 430 international patents and applications, and has raised over $230 million from investors including LG Energy Solution. Sion Power sells physical battery cells under development agreements with OEMs; it publishes no developer program, public API, SDK, or machine-readable API contract of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sion-power/refs/heads/main/screenshots/sion-power-2026-09-02T155637.png",
+     "score": 2.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 46.3,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
       "regime_id": "energy_utilities",
-      "score": 0.0,
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 314
+    },
+    {
+     "name": "Viasat",
+     "slug": "viasat",
+     "description": "Profile for Viasat in the API Evangelist network. Fortune F1000 (rank 972).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/viasat/refs/heads/main/screenshots/viasat-2026-06-20T201040.png",
+     "score": 2.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 25.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "undetermined": true,
+      "note": "provider declares no identity tags; regime could not be determined"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 315
+    },
+    {
+     "name": "Navy",
+     "slug": "navy",
+     "description": "The U.S. Navy plays a crucial role in defending national security and protecting the country's interests at sea. It operates a fleet of ships and submarines, as well as aircraft and personnel, to conduct a range of missions, including maritime patrol, reconnaissance, and combat operations. The Navy also performs humanitarian missions, such as disaster relief and search and rescue efforts. No public APIs have been identified at this time. The previously listed CNATRA \"API\" reference is an Aviation Preflight Indoctrination training video library, not a programmatic API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navy/refs/heads/main/screenshots/navy-2026-06-20T190104.png",
+     "score": 2.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -15034,8 +15034,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -15137,8 +15137,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -15188,8 +15188,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -15234,14 +15234,14 @@
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
+      "contract_governance": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",

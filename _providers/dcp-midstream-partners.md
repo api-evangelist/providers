@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -169,7 +169,7 @@ rate_limits:
   slug: dcp-midstream-partners-rate-limits
 score:
   band: emerging
-  composite: 20.0
+  composite: 18.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 27.0
@@ -177,17 +177,17 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 16.7
+  delta: -1.3
   facets:
-    access_clarity: 34.2
-    commercial_clarity: 34.2
+    access_clarity: 27.6
+    commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 50.0
     governance: 18.2
     operational_transparency: 0.0
-  previous_composite: 3.3
+  previous_composite: 20.0
   provenance:
     conformance: first-party
   regulatory:
@@ -196,9 +196,9 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 33.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dcp-midstream-partners/refs/heads/main/screenshots/dcp-midstream-partners-2026-06-20T175739.png
 security:
 - kind: authentication

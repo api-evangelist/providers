@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Asynchronous document-image enhancement REST API. POST /api/enhance accepts a base64-encoded image plus a preset (document, auto-crop, photo or watermark) and returns a result_url immediately; GET /ap
@@ -176,8 +176,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onymos/refs/heads/main/screenshots/onymos-2026-09-02T150854.png
 security:

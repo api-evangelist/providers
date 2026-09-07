@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ score:
   band: developing
   composite: 41.9
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 72.3
     catalog_earned_first_party: 0.0
     catalog_gap: 42.8
@@ -304,8 +304,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lund/refs/heads/main/screenshots/lund-2026-06-20T184805.png
 security:

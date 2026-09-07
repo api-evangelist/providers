@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -260,7 +260,7 @@ score:
   band: developing
   composite: 40.4
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
@@ -284,8 +284,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-08-17T083445.png
 security:

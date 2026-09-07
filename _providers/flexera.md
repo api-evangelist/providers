@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -1258,7 +1258,7 @@ score:
   band: thin
   composite: 36.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 64.5
     catalog_earned_first_party: 0.0
     catalog_gap: 50.5
@@ -1282,8 +1282,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/screenshots/flexera-2026-06-20T181307.png
 security:

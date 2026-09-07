@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://recipe-api.com
@@ -64,7 +64,7 @@ apis:
   description: Browse recipes free. Full recipe detail costs 1 credit. Sample data shown inline.
   name: Recipe API Recipes API
   slug: recipe-api-recipes-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: API Collection
@@ -85,6 +85,14 @@ collections:
   name: Recipe Recipes API
   slug: open-recipe-api-recipes-api
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/recipe-api-domain-security.yml
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: company
   title: ''
   type: Website
@@ -148,7 +156,7 @@ network: true
 overview: 'Recipe API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Discovery API, Image Generation API, Ingredients API, and 2 more. Tagged areas include Recipes, Food, Nutrition, Ingredients, and Data.
 
 
-  Recipe API''s developer surface includes documentation, pricing, signup flow, authentication, and 8 more developer resources.'
+  Recipe API''s developer surface includes documentation, pricing, signup flow, authentication, and 10 more developer resources.'
 plans:
 - name: Recipe Api Plans
   plan_count: 4
@@ -162,7 +170,7 @@ score:
   band: developing
   composite: 43.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -186,8 +194,8 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/screenshots/recipe-api-2026-08-17T081456.png
 security:
@@ -195,6 +203,10 @@ security:
   name: Recipe Api Authentication
   slug: recipe-api-authentication
   summary_line: 1 scheme
+- kind: domain-security
+  name: Recipe Api Domain Security
+  slug: recipe-api-domain-security
+  summary_line: TLSv1.3 · HSTS
 slug: recipe-api
 tags:
 - Recipes

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -47,6 +47,30 @@ apis:
   slug: adswizz-sdk
 artifact_total: 14
 common:
+- group: other
+  title: ''
+  type: ConsumerSite
+  url: https://www.siriusxm.com/
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://investor.siriusxm.com/news-events/press-releases
+- group: other
+  title: ''
+  type: SECFilings
+  url: https://investor.siriusxm.com/financials/sec-filings/
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.siriusxm.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SiriusXM
+- group: other
+  title: ''
+  type: SubsidiaryIndex
+  url: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/apis.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -145,7 +169,7 @@ overview: 'Sirius XM publishes 3 APIs on the [APIs.io](https://apis.io/) network
   The Sirius XM catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Sirius XM''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
+  Sirius XM''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
 plans:
 - name: Sirius Xm Plans Pricing
   plan_count: 1
@@ -187,8 +211,8 @@ score:
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 23.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/screenshots/sirius-xm-2026-06-20T193948.png
 security:

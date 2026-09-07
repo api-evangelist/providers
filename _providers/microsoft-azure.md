@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: partial
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 47.5
-  scored_at: '2026-09-05'
+  score: 52.7
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -5127,7 +5127,11 @@ arazzos:
 - description: Read a resource group, apply new tags with a patch, and confirm the tags were written.
   name: Microsoft Azure Tag an Existing Resource Group
   slug: microsoft-azure-tag-resource-group-workflow
-artifact_total: 4562
+artifact_total: 4563
+asyncapis:
+- description: ''
+  name: Microsoft Azure Event Grid Webhooks
+  slug: microsoft-azure-event-grid-webhooks
 collections:
 - collection_type: postman
   name: Microsoft Azure AccessControlClient
@@ -11226,6 +11230,66 @@ collections:
   name: Microsoft Azure AccessControlClient AccessConnector Zones API
   slug: open-microsoft-azure-zones-api
 common:
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://learn.microsoft.com/en-us/rest/api/azure/
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/microsoft-azure-tool-crosswalk.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://azure.microsoft.com/en-us/updates/?updateType=retirements
+- group: design
+  title: ''
+  type: Components
+  url: components/microsoft-azure-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/microsoft-azure-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/microsoft-azure-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/microsoft-azure-event-grid-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://azure.microsoft.com/en-us/updates/?updateType=in-development
+- group: start
+  title: ''
+  type: Console
+  url: https://shell.azure.com
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/Azure/azure-rest-api-specs
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/rules/azure-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/vocabulary/azure-vocabulary.yaml
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://github.com/Azure/amg-skills
+- group: company
+  title: ''
+  type: Website
+  url: https://azure.microsoft.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -13909,10 +13973,10 @@ network: true
 overview: 'Microsoft Azure publishes 1659 APIs on the [APIs.io](https://apis.io/) network, including AccessConnector API, AccessControlRecords API, AccessPolicies API, and 1656 more. Tagged areas include API Management, Cloud, Cloud Computing, Enterprise, and Infrastructure-as-a-Service.
 
 
-  The Microsoft Azure catalog on APIs.io includes 9 JSON-LD contexts and 2 Spectral governance rulesets.
+  The Microsoft Azure catalog on APIs.io includes 1 event-driven AsyncAPI specification, 9 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Microsoft Azure''s developer surface includes authentication, CLI, pricing, getting-started guide, engineering blog, support, developer portal, and 49 more developer resources.'
+  Microsoft Azure''s developer surface includes API reference, sandbox, developer console, authentication, CLI, pricing, getting-started guide, and 64 more developer resources.'
 plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
@@ -13951,24 +14015,24 @@ scopes:
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.1
+  composite: 65.4
   coverage:
-    artifact_dirs: 29
-    catalog_earned: 57.5
+    artifact_dirs: 33
+    catalog_earned: 62.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 57.5
+    catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.3
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
-    contract_governance: 18.2
-    contract_quality: 61.9
-    developer_ergonomics: 72.6
+    contract_governance: 33.3
+    contract_quality: 69.9
+    developer_ergonomics: 81.5
     discoverability: 57.4
-    governance: 18.2
-    operational_transparency: 42.1
+    governance: 33.3
+    operational_transparency: 63.2
   previous_composite: 57.1
   provenance:
     agentic_access: derived
@@ -13979,9 +14043,10 @@ score:
       marker_coverage: 0.0
       total: 1659
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    skills: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
 - kind: authentication
@@ -14022,5 +14087,5 @@ use_cases:
   name: IoT Solutions
 - description: Connect systems and applications with Azure Logic Apps, Service Bus, API Management, and Event Grid.
   name: Enterprise Integration
-website: https://learn.microsoft.com/en-us/azure/
+website: https://azure.microsoft.com/
 ---

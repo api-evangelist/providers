@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 7
 apis:
 - baseURL: https://pathalys.com/wp-json
@@ -233,8 +233,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pathalys-pharma/refs/heads/main/screenshots/pathalys-pharma-2026-09-02T150913.png
 security:

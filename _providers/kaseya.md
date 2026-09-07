@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: The IT Glue API is a JSON:API-conformant REST interface over the IT Glue IT-documentation platform — organizations, configurations, contacts, locations, passwords, documents, flexible assets and flexi
@@ -2674,7 +2674,7 @@ score:
   band: developing
   composite: 49.7
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 39.0
     catalog_earned_first_party: 12.0
     catalog_gap: 76.0
@@ -2705,8 +2705,8 @@ score:
       total: 484
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaseya/refs/heads/main/screenshots/kaseya-2026-08-07T171103.png
 security:

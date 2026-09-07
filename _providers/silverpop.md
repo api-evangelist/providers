@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ score:
   band: strong
   composite: 64.0
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 72.5
     catalog_earned_first_party: 20.0
     catalog_gap: 42.5
@@ -345,8 +345,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 51.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/screenshots/silverpop-2026-06-20T193920.png
 security:

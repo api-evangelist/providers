@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: Enterprise API for retrieving finalized Stensul email content and distributing it to any platform in a customer's ecosystem, removing the manual export step between Stensul and the downstream ESP/MAP.
@@ -197,8 +197,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stensul/refs/heads/main/screenshots/stensul-2026-09-02T160848.png
 security:

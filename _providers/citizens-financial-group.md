@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -32,8 +32,15 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.4
-  scored_at: '2026-09-05'
+  score: 37.6
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Citizens Financial Group Agentic Access
+  operation_count: 4
+  slug: citizens-financial-group-agentic-access
+  summary_line: 4 operations
 api_count: 12
 apis:
 - description: Citizens Open Banking API is the FDX-aligned API surface launched in Q1 2025 that gives business, commercial, wealth, and private- banking customers a single endpoint to share account balances, transa
@@ -87,8 +94,12 @@ apis:
 - description: Citizens Pay is the buy-now-pay-later embedded financing platform offered by Citizens Bank. The Citizens Pay developer portal that previously exposed merchant integration, underwriting and installment
   name: Citizens Pay API
   slug: citizens-pay-api
-artifact_total: 20
+artifact_total: 21
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/citizens-financial-group-agentic-access.yml
 - group: company
   title: ''
   type: Website
@@ -256,7 +267,7 @@ overview: 'Citizens Financial Group publishes 9 APIs on the [APIs.io](https://ap
   The Citizens Financial Group catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Citizens Financial Group''s developer surface includes developer portal, documentation, API reference, sandbox, support, authentication, and 30 more developer resources.'
+  Citizens Financial Group''s developer surface includes developer portal, documentation, API reference, sandbox, support, authentication, and 31 more developer resources.'
 plans:
 - name: Citizens Financial Group Plans Pricing
   plan_count: 11
@@ -287,13 +298,13 @@ score:
   band: strong
   composite: 65.0
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 23
     catalog_earned: 85.0
     catalog_earned_first_party: 24.0
     catalog_gap: 30.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 41.2
+  delta: 0.0
   facets:
     access_clarity: 67.1
     commercial_clarity: 67.1
@@ -303,7 +314,7 @@ score:
     discoverability: 64.8
     governance: 63.6
     operational_transparency: 42.1
-  previous_composite: 23.8
+  previous_composite: 65.0
   provenance:
     conformance: first-party
     contracts:
@@ -319,9 +330,9 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 88.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/screenshots/citizens-financial-group-2026-06-20T174413.png
 security:
 - kind: authentication

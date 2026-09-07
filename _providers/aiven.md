@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 255
   human_in_the_loop: 14
@@ -501,7 +501,7 @@ score:
   band: developing
   composite: 45.0
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 75.3
     catalog_earned_first_party: 0.0
     catalog_gap: 39.8
@@ -525,8 +525,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aiven/refs/heads/main/screenshots/aiven-2026-06-20T171443.png
 security:

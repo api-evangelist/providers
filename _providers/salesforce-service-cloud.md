@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -405,7 +405,7 @@ score:
   band: developing
   composite: 50.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
@@ -429,8 +429,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-service-cloud/refs/heads/main/screenshots/salesforce-service-cloud-2026-06-20T193350.png
 security:

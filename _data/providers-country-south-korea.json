@@ -1,6 +1,6 @@
 {
- "total": 75,
- "shown": 75,
+ "total": 81,
+ "shown": 81,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -71,49 +71,49 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
-     "name": "Ab180",
-     "slug": "ab180",
-     "description": "AB180 Inc. is a Seoul, South Korea based marketing technology company and the maker of Airbridge, a mobile measurement partner (MMP) and people-based attribution platform that measures paid and organic acquisition across mobile apps, web, PC, console and CTV in one dashboard. Airbridge exposes a public REST API at api.airbridge.io covering tracking-link creation and management, server-to-server in-app and in-web event ingestion, asynchronous Actuals / Revenue / Active Users / Retention report queries, raw data export, attribution result lookup, self-serve ad-spend and metric upload, and SKAdNetwork conversion-value schema retrieval, alongside eleven first-party SDKs and a hosted, OAuth 2.1 protected Model Context Protocol server at mcp.airbridge.io for agent access to attribution data.",
-     "score": 53.7,
+     "name": "Actionpower",
+     "slug": "actionpower",
+     "description": "ActionPower Corp. (주식회사 액션파워) is a Seoul-based deep-tech AI company founded in 2016 that builds its own end-to-end speech recognition, speaker diarization, speech synthesis and small-language-model stack, and sells it two ways: as daglo, a voice-intelligence workspace that records, transcribes, summarizes and translates meetings, calls and lectures for more than two million users; and as the daglo Cloud API, a developer platform at apis.daglo.ai offering synchronous and asynchronous speech-to-text, bidirectional-streaming realtime STT over gRPC, chat completion, dialogue summarization, meeting minutes, paragraph splitting and text-to-speech. The company is ISO 27001 certified, ships an on-premise closed-network deployment for public sector, finance, healthcare and broadcast customers, and reports customers including LG Electronics, KT Skylife, NH Nonghyup Bank and the Daegu Metropolitan Government.",
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 83.3,
-      "commercial_clarity": 92.1,
-      "access_clarity": 92.1
+      "contract_quality": 25.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 84.2,
+      "access_clarity": 84.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 37.3,
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
+      "spec_presence": true,
+      "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": false,
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
+      "event_surface_described": true,
+      "agent_skills": "derived",
       "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
       "agentic_commerce": false
      },
      "rank": 2
@@ -136,8 +136,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -164,6 +164,50 @@
      "rank": 3
     },
     {
+     "name": "Ab180",
+     "slug": "ab180",
+     "description": "AB180 Inc. is a Seoul, South Korea based marketing technology company and the maker of Airbridge, a mobile measurement partner (MMP) and people-based attribution platform that measures paid and organic acquisition across mobile apps, web, PC, console and CTV in one dashboard. Airbridge exposes a public REST API at api.airbridge.io covering tracking-link creation and management, server-to-server in-app and in-web event ingestion, asynchronous Actuals / Revenue / Active Users / Retention report queries, raw data export, attribution result lookup, self-serve ad-spend and metric upload, and SKAdNetwork conversion-value schema retrieval, alongside eleven first-party SDKs and a hosted, OAuth 2.1 protected Model Context Protocol server at mcp.airbridge.io for agent access to attribution data.",
+     "score": 51.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 65.8,
+      "developer_ergonomics": 81.0,
+      "commercial_clarity": 85.5,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 37.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 4
+    },
+    {
      "name": "Seoul National University",
      "slug": "snu",
      "description": "Seoul National University (SNU) is South Korea's flagship national research university, a national university corporation in Seoul ranked in the QS World top 40 and identified by ROR as https://ror.org/04h9pn542. Like most universities it is a federation of buyers rather than a producer of APIs: it operates no developer portal, no open-data portal, no API gateway, no official GitHub organization, and no OAuth or OIDC authorization server. It publishes no API documentation of any kind, and every contract in this repository was written from live probing rather than from something SNU wrote. What it does operate — verified on its own hosts and its own address block on 2026-08-19 — is four machine-readable surfaces. Two OAI-PMH 2.0 data providers: S-Space, the SNU Open Repository and Archive (DSpace 5.5, content from 2008, twelve metadata formats, 100+ sets, three harvesting contexts including OpenAIRE and DRIVER), and KOSSDA, the Korea Social Science Data Archive (DSpace 5.6, content from 2017). An OpenSearch 1.1 search interface over S-Space. And a SAML 2.0 Identity Provider, entityID https://kafegw.snu.ac.kr/idp/simplesamlphp, registered in the KAFE national federation and exported into eduGAIN with REFEDS Research & Scholarship support and a Sirtfi assurance assertion — the single most consequential programmable surface the institution runs, and one no catalog had recorded. Two honest limits belong in the same breath. The repository hosts front everything except OAI-PMH with a JavaScript bot challenge that returns HTTP 200 and an HTML shell to any machine client, so the OpenSearch interface is gated rather than open. And SNU's library discovery runs on Ex Libris Alma and Primo under institution code 82SNU — real, but a tenancy, recorded below as such and never scored as SNU's engineering.",
@@ -181,8 +225,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -213,7 +257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "SK Telecom",
@@ -233,8 +277,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -265,7 +309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Payple",
@@ -285,8 +329,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -317,7 +361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 7
     }
    ],
    "open": true
@@ -348,8 +392,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -380,7 +424,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Barogo",
@@ -400,8 +444,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -425,7 +469,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Toss Payments",
@@ -445,8 +489,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -477,7 +521,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Sungkyunkwan University",
@@ -497,8 +541,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -529,7 +573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Mindlogic",
@@ -549,8 +593,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -574,7 +618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Bithumb",
@@ -594,8 +638,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -626,7 +670,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Pohang University of Science and Technology",
@@ -646,8 +690,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -678,7 +722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Kurly",
@@ -698,8 +742,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -723,7 +767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Kakao",
@@ -743,8 +787,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -775,7 +819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Dunamu",
@@ -795,8 +839,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -827,7 +871,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Hanyang University",
@@ -847,8 +891,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -879,7 +923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     }
    ]
   },
@@ -888,8 +932,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 19,
-   "shown": 19,
+   "count": 20,
+   "shown": 20,
    "providers": [
     {
      "name": "My Real Trip",
@@ -909,8 +953,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -934,7 +978,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Toss",
@@ -954,8 +998,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -986,7 +1030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Coupang",
@@ -1006,8 +1050,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1031,7 +1075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "KakaoBank",
@@ -1051,8 +1095,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1083,7 +1127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Wyatt",
@@ -1102,8 +1146,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1127,7 +1171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "PUBLY",
@@ -1147,8 +1191,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1172,7 +1216,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
+    },
+    {
+     "name": "A-Bio Materials",
+     "slug": "abiomaterials",
+     "description": "A-Bio Materials Co., Ltd. (에이바이오머티리얼즈) is a South Korean life-science company, founded in 2020 and led by founder and CEO Sijun Park, that develops and manufactures exosome-derived bioactive materials for cosmetics, aesthetics and medical devices. It produces plant-, human- and microbial-derived exosome formulations and PDRN raw materials through its own Exo-traction, Celltivation and Escentraction purification and cultivation processes, supplying skincare and medical-device manufacturers with ingredients for cell signalling, inflammation reduction, collagen synthesis and tissue regeneration. Its North American arm, ABio materials USA Inc. of Tustin, California, is the official importer and distributor for the region and operates the company's English-language storefront. A-Bio Materials runs no developer programme and publishes no API specification; the machine-readable surfaces recorded in this profile are the WordPress, WooCommerce and WebMCP endpoints its North American storefront serves.",
+     "score": 19.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 23.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 11.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 25
     },
     {
      "name": "Tridge",
@@ -1192,8 +1287,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1224,7 +1319,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "Naver",
@@ -1244,8 +1339,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1276,7 +1371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 27
     },
     {
      "name": "Yonsei University",
@@ -1296,8 +1391,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1328,7 +1423,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 28
     },
     {
      "name": "Simpatico Project",
@@ -1348,8 +1443,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1380,7 +1475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 29
     },
     {
      "name": "Kakao Entertainment",
@@ -1400,8 +1495,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1425,7 +1520,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 30
     },
     {
      "name": "Newneek",
@@ -1445,8 +1540,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1470,7 +1565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 31
     },
     {
      "name": "CLAP",
@@ -1490,8 +1585,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1515,7 +1610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 32
     },
     {
      "name": "3ProTV",
@@ -1534,8 +1629,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1566,7 +1661,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 33
     },
     {
      "name": "WE11DONE",
@@ -1586,98 +1681,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "Sankun",
-     "slug": "sankun",
-     "description": "Sankun (산군) is a South Korean construction-industry big data platform based in Seoul that aggregates and sells access to eight integrated construction databases covering roughly 280,000 construction companies, some 820,000 project sites, government e-procurement bids, contract awards, professional reputation reviews, and construction news. Alongside its web application and a construction sales CRM (Sankun Sales), the company markets a Sankun API (data.sankun.com) for programmatic access to its construction data, though public developer documentation is gated behind sales and login. Sankun is a portfolio company of 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sankun/refs/heads/main/screenshots/sankun-2026-09-02T154356.png",
-     "score": 12.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 33
-    },
-    {
-     "name": "VCNC",
-     "slug": "vcnc",
-     "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vcnc/refs/heads/main/screenshots/vcnc-2026-09-02T165530.png",
-     "score": 11.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1704,6 +1709,96 @@
      "rank": 34
     },
     {
+     "name": "Sankun",
+     "slug": "sankun",
+     "description": "Sankun (산군) is a South Korean construction-industry big data platform based in Seoul that aggregates and sells access to eight integrated construction databases covering roughly 280,000 construction companies, some 820,000 project sites, government e-procurement bids, contract awards, professional reputation reviews, and construction news. Alongside its web application and a construction sales CRM (Sankun Sales), the company markets a Sankun API (data.sankun.com) for programmatic access to its construction data, though public developer documentation is gated behind sales and login. Sankun is a portfolio company of 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sankun/refs/heads/main/screenshots/sankun-2026-09-02T154356.png",
+     "score": 12.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 35
+    },
+    {
+     "name": "VCNC",
+     "slug": "vcnc",
+     "description": "VCNC is a South Korean mobile technology company behind Between, a private messaging and photo-sharing app for couples, and TADA, a ride-hailing and mobility service operating in Korea. A 500 Global portfolio company, VCNC maintains an open source presence on GitHub, including Haeinsa, a multi-row transaction library for HBase published on Maven Central. The company does not currently publish a public developer API, developer portal, or API client SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vcnc/refs/heads/main/screenshots/vcnc-2026-09-02T165530.png",
+     "score": 11.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 36
+    },
+    {
      "name": "Gridwiz",
      "slug": "gridwiz",
      "description": "Gridwiz Inc. is a South Korean clean-energy software and hardware company founded in 2013 and headquartered in Seoul. It operates one of Korea's largest demand response (DR) aggregation portfolios, gathering electricity that industrial and commercial customers curtail and selling it into the national power market, and it pairs that with energy storage (ESS), renewable energy / RE100 and PPA advisory, and an e-mobility line covering EV charging controllers, CCS communication modems (EVCC/SECC), bidirectional V2G chargers and the Skyblue consumer charging service. Its e-mobility products are built to the international EV charging standards DIN SPEC 70121, ISO 15118 (including 15118-20 AC/DC) and OCPP, and its demand response management system is described as OpenADR-based. Gridwiz sells energy services and certified hardware to utilities, EVSE suppliers and enterprises; it publishes no public developer program, API reference, or machine-readable API contract.",
@@ -1721,8 +1816,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1753,7 +1848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 37
     },
     {
      "name": "KokkanLogis Co.,Ltd.",
@@ -1773,108 +1868,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 36
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 39,
-   "shown": 39,
-   "providers": [
-    {
-     "name": "B612",
-     "slug": "b612",
-     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
-     "score": 10.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Finda",
-     "slug": "finda",
-     "description": "Finda (핀다) is a South Korean fintech company founded in 2015 and headquartered in Seoul that operates a licensed online loan-comparison and financial-product marketplace. Through its mobile app and website, Finda lets consumers compare loan products from 76+ financial institutions and 400+ products in about a minute, refinance existing loans (\"갈아타기\"), aggregate accounts and cards for asset management, run financial calculators (interest, DSR, year-end tax, mortgage eligibility), and monitor and manage their credit. Registered as a loan-brokerage/loan-collection corporation under Korea's Financial Services Act, Finda earns commissions from partner financial institutions rather than charging consumers. It reports 3.47M+ cumulative members and 256T+ won in managed loan assets, and is backed by 500 Global. Finda is a consumer B2C platform and does not publish a public developer API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finda/refs/heads/main/screenshots/finda-2026-07-25T214514.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1899,17 +1894,27 @@
       "agentic_commerce": false
      },
      "rank": 38
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 43,
+   "shown": 43,
+   "providers": [
     {
-     "name": "lunchlab Corp.",
-     "slug": "lunchlab-corp",
-     "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
-     "score": 10.2,
+     "name": "B612",
+     "slug": "b612",
+     "description": "B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/screenshots/b612-2026-07-25T202145.png",
+     "score": 10.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -1918,8 +1923,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1946,6 +1951,96 @@
      "rank": 39
     },
     {
+     "name": "Finda",
+     "slug": "finda",
+     "description": "Finda (핀다) is a South Korean fintech company founded in 2015 and headquartered in Seoul that operates a licensed online loan-comparison and financial-product marketplace. Through its mobile app and website, Finda lets consumers compare loan products from 76+ financial institutions and 400+ products in about a minute, refinance existing loans (\"갈아타기\"), aggregate accounts and cards for asset management, run financial calculators (interest, DSR, year-end tax, mortgage eligibility), and monitor and manage their credit. Registered as a loan-brokerage/loan-collection corporation under Korea's Financial Services Act, Finda earns commissions from partner financial institutions rather than charging consumers. It reports 3.47M+ cumulative members and 256T+ won in managed loan assets, and is backed by 500 Global. Finda is a consumer B2C platform and does not publish a public developer API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finda/refs/heads/main/screenshots/finda-2026-07-25T214514.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "lunchlab Corp.",
+     "slug": "lunchlab-corp",
+     "description": "lunchlab Corp. (런치랩) is a Seoul-based corporate lunch subscription and delivery service that brings daily meals to office teams across South Korea. It offers two rotating meal lines — a traditional home-style Korean lunch box and a \"Fresh Meal\" line of poke bowls and sandwiches — with delivery and pickup included for a flat per-meal price, employees choosing their meals through a mobile app while administrators manage orders and billing from a web dashboard. Surfaced as a 500 Global portfolio company and added to the API Evangelist network, lunchlab operates in the food-service / corporate-catering space and does not currently publish a public developer API, developer portal, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lunchlab-corp/refs/heads/main/screenshots/lunchlab-corp-2026-07-25T225730.png",
+     "score": 10.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 41
+    },
+    {
      "name": "Comento",
      "slug": "comento",
      "description": "Comento is a South Korean career development and mentoring platform based in Seoul that connects job seekers with working professionals. The service offers a Q&A community and timeline for career discussions, free unlimited mentoring questions answered by industry practitioners, resume and cover letter (자기소개서) review, an AI resume analyzer, interview preparation, and job-focused educational programs including bootcamps (직무부트캠프) and classes for the Korean job market. It also runs corporate training and university affiliation partnerships. Comento operates as a consumer-facing web platform and does not publish a public developer API or documentation surface; this profile was surfaced as a portfolio company of 500 Global and enriched with the domain and identity signals that are publicly observable.",
@@ -1963,8 +2058,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1995,7 +2090,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 42
     },
     {
      "name": "21gram",
@@ -2014,8 +2109,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2039,7 +2134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "21 Market",
@@ -2059,98 +2154,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Veluga",
-     "slug": "veluga",
-     "description": "Veluga (Veluga Brewery Inc.) is a South Korean B2B alcohol wholesale distribution platform that connects hospitality business owners with liquor suppliers. Operating from Mapo, Seoul, the company runs a wholesale marketplace offering real-time wholesale pricing quotes for spirits and craft beverages, product recommendations for business owners, wholesale order facilitation, and partnership programs for distributors and catering services. Veluga positions itself as a transaction and information intermediary rather than a direct seller. The company began as a craft-beer and snack subscription service and is backed by 500 Global, Kakao Ventures, SparkLabs, HL Holdings, and Sema Investment. No public developer API, SDK, or developer portal is currently published; this profile captures the company identity for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veluga/refs/heads/main/screenshots/veluga-2026-09-02T165634.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
-     "name": "H2O Hospitality",
-     "slug": "h2o-hospitality",
-     "description": "H2O Hospitality is a South Korea-based hospitality digital-transformation company that connects existing hotel and leisure systems rather than replacing them, streamlining operations from booking to checkout. Its products span three areas: Connect (cloud property-management tooling including Smart CRS, Smart RMS, and Smart FMS), Maximize (revenue and guest-engagement tools such as Smart D2C and AI-based CRM), and Transform (managed operations). It offers smart mobile check-in and automated inventory management, operates across nine countries in Korea, Japan, Southeast Asia, and the Middle East, and is ISO 27001 and ISO 27701 certified. As of this enrichment pass the company publishes no public API, OpenAPI, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/h2o-hospitality/refs/heads/main/screenshots/h2o-hospitality-2026-07-25T220503.png",
-     "score": 8.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2177,113 +2182,25 @@
      "rank": 44
     },
     {
-     "name": "Woowa Brothers",
-     "slug": "woowa-brothers",
-     "description": "Woowa Brothers is the Seoul-based technology company behind Baedal Minjok (Baemin), South Korea's leading food delivery platform, alongside B-Mart quick commerce, Baemin Connect rider services, and robotics initiatives for serving and delivery robots. A subsidiary of Delivery Hero since 2021, the company runs a strong engineering culture through its Woowahan tech blog and first-party open-source libraries on GitHub (NestJS libraries, WoowahanJS, Redis tooling), but it does not publish a public developer API or developer portal.",
-     "score": 8.7,
+     "name": "Veluga",
+     "slug": "veluga",
+     "description": "Veluga (Veluga Brewery Inc.) is a South Korean B2B alcohol wholesale distribution platform that connects hospitality business owners with liquor suppliers. Operating from Mapo, Seoul, the company runs a wholesale marketplace offering real-time wholesale pricing quotes for spirits and craft beverages, product recommendations for business owners, wholesale order facilitation, and partnership programs for distributors and catering services. Veluga positions itself as a transaction and information intermediary rather than a direct seller. The company began as a craft-beer and snack subscription service and is backed by 500 Global, Kakao Ventures, SparkLabs, HL Holdings, and Sema Investment. No public developer API, SDK, or developer portal is currently published; this profile captures the company identity for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veluga/refs/heads/main/screenshots/veluga-2026-09-02T165634.png",
+     "score": 9.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 2.9,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 45
-    },
-    {
-     "name": "2bytes",
-     "slug": "2bytes",
-     "description": "2bytes Corporation (투바이트) is a South Korean game services and publishing company founded in 2020 in Seoul, providing game localization, QA testing, player support, content marketing, live operations and global launch support to more than 40 game company partners including Pearl Abyss and Kakao Games. The company also builds and operates an H5 (HTML5) game platform that runs in-app without installation, covering platform construction, global H5 game sourcing, localization and live operations, integrated by partner apps through an SDK. Its service brand is 2bytes Play. As of this profile 2bytes publishes no public developer portal, API reference, or machine-readable API contract; the H5 platform SDK is offered through a business contact channel rather than a self-serve developer program.",
-     "score": 8.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "Levit",
-     "slug": "levit",
-     "description": "Levit Inc. (레브잇) is a software company headquartered in Seoul, South Korea, best known for Alwayz (올웨이즈) — a mobile-first team-purchase commerce app launched in July 2021 that lets shoppers group together with other buyers to unlock prices below normal retail. Levit describes itself as building \"a service that everybody uses everyday,\" and previously launched Ping in March 2021. The company runs the Alwayz Seller Center for merchants selling on the platform and publishes a seller-focused commerce blog. As of this profile Levit publishes no public developer API program, no API documentation or reference, no developer portal, and no SDKs — the enrichment pipeline probed the company and product domains and found no developer surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/levit/refs/heads/main/screenshots/levit-2026-07-25T224955.png",
-     "score": 8.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2307,7 +2224,229 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 45
+    },
+    {
+     "name": "H2O Hospitality",
+     "slug": "h2o-hospitality",
+     "description": "H2O Hospitality is a South Korea-based hospitality digital-transformation company that connects existing hotel and leisure systems rather than replacing them, streamlining operations from booking to checkout. Its products span three areas: Connect (cloud property-management tooling including Smart CRS, Smart RMS, and Smart FMS), Maximize (revenue and guest-engagement tools such as Smart D2C and AI-based CRM), and Transform (managed operations). It offers smart mobile check-in and automated inventory management, operates across nine countries in Korea, Japan, Southeast Asia, and the Middle East, and is ISO 27001 and ISO 27701 certified. As of this enrichment pass the company publishes no public API, OpenAPI, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/h2o-hospitality/refs/heads/main/screenshots/h2o-hospitality-2026-07-25T220503.png",
+     "score": 8.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 46
+    },
+    {
+     "name": "Woowa Brothers",
+     "slug": "woowa-brothers",
+     "description": "Woowa Brothers is the Seoul-based technology company behind Baedal Minjok (Baemin), South Korea's leading food delivery platform, alongside B-Mart quick commerce, Baemin Connect rider services, and robotics initiatives for serving and delivery robots. A subsidiary of Delivery Hero since 2021, the company runs a strong engineering culture through its Woowahan tech blog and first-party open-source libraries on GitHub (NestJS libraries, WoowahanJS, Redis tooling), but it does not publish a public developer API or developer portal.",
+     "score": 8.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 2.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 47
+    },
+    {
+     "name": "ACTIVON Co., Ltd.",
+     "slug": "activeon8016",
+     "description": "ACTIVON Co., Ltd. (엑티브온) is a South Korean green-biotechnology materials company founded in 2009 and headquartered in Suwon, Gyeonggi-do, that develops and manufactures cosmetic ingredients and micro-encapsulation technology — skin-safe preservative alternatives, multifunctional actives, emollients, humectants and bio-converted ingredients — alongside functional pigment lines (EnergiON heat-storage, Thermon thermochromic, Photon, Fragron, Memorion, MultiON) sold into textiles, coatings, plastics and cosmetics. It is a specialty-materials manufacturer, not a software vendor: it publishes no developer portal, no API reference and no machine-readable API contract. Its only machine-readable agent surface is the Wix-platform site MCP endpoint and llms.txt served on its corporate site, both probed live by API Evangelist.",
+     "score": 8.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 6.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 48
+    },
+    {
+     "name": "2bytes",
+     "slug": "2bytes",
+     "description": "2bytes Corporation (투바이트) is a South Korean game services and publishing company founded in 2020 in Seoul, providing game localization, QA testing, player support, content marketing, live operations and global launch support to more than 40 game company partners including Pearl Abyss and Kakao Games. The company also builds and operates an H5 (HTML5) game platform that runs in-app without installation, covering platform construction, global H5 game sourcing, localization and live operations, integrated by partner apps through an SDK. Its service brand is 2bytes Play. As of this profile 2bytes publishes no public developer portal, API reference, or machine-readable API contract; the H5 platform SDK is offered through a business contact channel rather than a self-serve developer program.",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
+     "name": "Levit",
+     "slug": "levit",
+     "description": "Levit Inc. (레브잇) is a software company headquartered in Seoul, South Korea, best known for Alwayz (올웨이즈) — a mobile-first team-purchase commerce app launched in July 2021 that lets shoppers group together with other buyers to unlock prices below normal retail. Levit describes itself as building \"a service that everybody uses everyday,\" and previously launched Ping in March 2021. The company runs the Alwayz Seller Center for merchants selling on the platform and publishes a seller-focused commerce blog. As of this profile Levit publishes no public developer API program, no API documentation or reference, no developer portal, and no SDKs — the enrichment pipeline probed the company and product domains and found no developer surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/levit/refs/heads/main/screenshots/levit-2026-07-25T224955.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 50
     },
     {
      "name": "1ST Biotherapeutics",
@@ -2326,8 +2465,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2358,7 +2497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 51
     },
     {
      "name": "8percent",
@@ -2377,8 +2516,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2402,7 +2541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 52
     },
     {
      "name": "Incheon Open Data",
@@ -2422,8 +2561,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2454,7 +2593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 53
     },
     {
      "name": "3D Medivision",
@@ -2473,8 +2612,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2505,7 +2644,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 54
     },
     {
      "name": "GeoGrid",
@@ -2525,8 +2664,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2534,141 +2673,6 @@
       "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "LINSOL Co.,Ltd.",
-     "slug": "linsol-coltd",
-     "description": "LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon, South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts acoustic detection techniques originally developed for defense landmine applications into commercial real-time hazard, accident, and environmental detection. Its product line includes Karang F (driving-environment detection), Karang S (precision acoustic signal transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense security use cases. The company operates a Daejeon headquarters and research center plus a Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it publishes no public developer API, portal, SDK, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/screenshots/linsol-coltd-2026-07-25T225304.png",
-     "score": 6.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "MUSINSA",
-     "slug": "musinsa",
-     "description": "MUSINSA is South Korea's leading online fashion platform, founded in 2001 by Cho Man-ho as a streetwear community and now operating a marketplace that connects more than 10,000 brands with over 16 million members. The company reported roughly USD 3.3 billion in GMV and USD 907 million in revenue for 2024, returned to operating profit, and is pursuing a KOSPI IPO. MUSINSA runs domestic and global storefronts (musinsa.com, global.musinsa.com), a partner/seller program for K-fashion brands, and an engineering organization that publishes on the MUSINSA tech blog. It has raised funding from investors including KKR, Sequoia/Peak XV (formerly Sequoia Capital China / HongShan) and IMM Investment. No genuine public product/developer API or OpenAPI-backed developer portal was found during enrichment; a corporate CMS Swagger UI at dev-api.corp.musinsa.com is an internal tool (its public spec still points at the Swagger petstore demo), so this profile captures company identity and domain-security posture only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/musinsa/refs/heads/main/screenshots/musinsa-2026-08-07T184449.png",
-     "score": 5.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 54
-    },
-    {
-     "name": "Habitus Associates Co., Ltd.",
-     "slug": "habitus-associates-co-ltd",
-     "description": "Habitus Associates Co., Ltd. is the company behind Artue (artue.io), an AI-powered online marketplace for original artworks by Korean and international artists. Artue lets collectors discover, purchase, and resell paintings, photography, sculptures, and prints, with natural-language search that finds works by mood, color, style, room type, or budget. The platform is explicitly agent-native: it publishes an llms.txt and ships a hosted Model Context Protocol (MCP) server so AI assistants such as Claude and ChatGPT can search its collection directly. Backed by 500 Global and surfaced into the API Evangelist network from that portfolio.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habitus-associates-co-ltd/refs/heads/main/screenshots/habitus-associates-co-ltd-2026-07-25T220515.png",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -2688,15 +2692,15 @@
      "rank": 55
     },
     {
-     "name": "Boosters",
-     "slug": "boosters",
-     "description": "Boosters is a Seoul-based global commerce company and brand aggregator, founded in 2019, that acquires and accelerates the growth of emerging Korean direct-to-consumer (D2C) brands, with a particular focus on K-Beauty. Boosters takes over small and medium-sized Korean brands that have strong product potential but struggle with marketing, distribution, and inventory management, then scales them across domestic and international commerce channels. Portfolio brands include Eqqualberry and Branden. The company raised a USD 10 million Series A round in 2022 with participation from Partech and other investors. Boosters is a consumer commerce operator rather than a developer platform, and does not currently publish a public developer API, OpenAPI specification, SDK, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boosters/refs/heads/main/screenshots/boosters-2026-07-25T203637.png",
-     "score": 5.5,
+     "name": "LINSOL Co.,Ltd.",
+     "slug": "linsol-coltd",
+     "description": "LINSOL Co.,Ltd. (린솔) is a safety-technology company headquartered in Daejeon, South Korea, founded as an in-house venture spun out of Hanwha Aerospace. LINSOL adapts acoustic detection techniques originally developed for defense landmine applications into commercial real-time hazard, accident, and environmental detection. Its product line includes Karang F (driving-environment detection), Karang S (precision acoustic signal transmission), SkyShield (fall detection), BR, Acoustic Eye (aerial security), and Safety Nova (smart integrated safety platform), sold into industrial safety, ESG, and defense security use cases. The company operates a Daejeon headquarters and research center plus a Goheung branch. LINSOL ships hardware and integrated platforms; as of a 2026-07-19 probe it publishes no public developer API, portal, SDK, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linsol-coltd/refs/heads/main/screenshots/linsol-coltd-2026-07-25T225304.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -2705,8 +2709,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2733,25 +2737,31 @@
      "rank": 56
     },
     {
-     "name": "INDEX Robotics",
-     "slug": "index-robotics",
-     "description": "INDEX Robotics is a South Korean humanoid robotics startup based in Seongnam (Bundang) building high-precision actuators and upper-body humanoid robots for high-mix, low-volume industrial work. Its core products are the IA Series, a family of high-precision actuators purpose-built for humanoid joints, and INDEX01, a compact upper-body humanoid prototype that deliberately foregoes a mobile base so it can slot into constrained factory workspaces for logistics handling, machining support, and precision assembly. The company treats joint precision, responsiveness under sustained repetitive motion, and long-run performance consistency as the core unsolved problems in humanoid commercialization. In February 2026 INDEX Robotics closed a $1M (KRW 1.5B) seed round led by Futureplay with Bass Ventures and 500 Global co-investing. This is a hardware company with no public API, SDK, or developer program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/index-robotics/refs/heads/main/screenshots/index-robotics-2026-07-25T222257.png",
-     "score": 5.3,
+     "name": "Achats Group",
+     "slug": "achatsgroup",
+     "description": "Achats Group (아샤그룹) is a South Korean media-commerce company founded in February 2017 and led by CEO Vivian Eun Young Lee, with offices in Pangyo (Seongnam) and Magok (Seoul). It manufactures and sells everyday consumer goods — sanitizing and deodorizing sprays, foot care, living care, health drinks and cosmetics — under its own brands Cellomon, ND247 / Neverdie, Biotreat and BringB, marketing them through short-form video and social advertising that routes buyers into its own Cafe24 storefronts and a Naver Smart Store. Public records put total funding near USD 6.2 million through a Series B. It is a direct-to-consumer consumer-goods business, not a software vendor: as of 2026-09-06 achatsgroup.co.kr is a Cafe24-hosted brochure site still carrying unedited pages from its purchased template, with no developer portal, no API documentation, no SDK and no machine-readable API contract, and the brand storefronts are hosted Cafe24 malls whose only /api path is Cafe24's own.",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.8,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2778,11 +2788,11 @@
      "rank": 57
     },
     {
-     "name": "Chaart",
-     "slug": "chaart",
-     "description": "Chaart (주식회사 차트, Chaart Inc.) is a Seoul-based art-trading and art-asset-management platform for South Korea's art collectors and investors. Its iOS and Android apps let collectors buy and resell artworks in the secondary market with transparent price/valuation information, automatic artwork matching, authenticity checks, secure delivery, and integrated payments. Chaart reports 5,000+ registered collectors and thousands of artworks traded, and raised pre-seed funding from 500 Global. Chaart is a consumer mobile app: as of this enrichment pass it publishes no public developer API, OpenAPI, SDKs, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chaart/refs/heads/main/screenshots/chaart-2026-07-25T205017.png",
-     "score": 5.0,
+     "name": "MUSINSA",
+     "slug": "musinsa",
+     "description": "MUSINSA is South Korea's leading online fashion platform, founded in 2001 by Cho Man-ho as a streetwear community and now operating a marketplace that connects more than 10,000 brands with over 16 million members. The company reported roughly USD 3.3 billion in GMV and USD 907 million in revenue for 2024, returned to operating profit, and is pursuing a KOSPI IPO. MUSINSA runs domestic and global storefronts (musinsa.com, global.musinsa.com), a partner/seller program for K-fashion brands, and an engineering organization that publishes on the MUSINSA tech blog. It has raised funding from investors including KKR, Sequoia/Peak XV (formerly Sequoia Capital China / HongShan) and IMM Investment. No genuine public product/developer API or OpenAPI-backed developer portal was found during enrichment; a corporate CMS Swagger UI at dev-api.corp.musinsa.com is an internal tool (its public spec still points at the Swagger petstore demo), so this profile captures company identity and domain-security posture only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/musinsa/refs/heads/main/screenshots/musinsa-2026-08-07T184449.png",
+     "score": 5.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2790,13 +2800,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2823,15 +2833,15 @@
      "rank": 58
     },
     {
-     "name": "MomMom",
-     "slug": "mommom",
-     "description": "MomMom (맘맘) is a South Korean consumer parenting and family-activity platform that helps parents discover places to go with their kids and products to buy for them. The mom-mom.net website and app curate kid-friendly destinations by region, family accommodation and resort deals, restaurant and class discounts, and community-driven product rankings (국민템랭킹) covering baby and childcare essentials, alongside parenting tips. It is a B2C curation, deals, and recommendation service, backed as a 500 Global portfolio company; no public developer API, documentation, or well-known discovery surface is currently published (probed 2026-07-20).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mommom/refs/heads/main/screenshots/mommom-2026-08-07T184129.png",
-     "score": 5.0,
+     "name": "Habitus Associates Co., Ltd.",
+     "slug": "habitus-associates-co-ltd",
+     "description": "Habitus Associates Co., Ltd. is the company behind Artue (artue.io), an AI-powered online marketplace for original artworks by Korean and international artists. Artue lets collectors discover, purchase, and resell paintings, photography, sculptures, and prints, with natural-language search that finds works by mood, color, style, room type, or budget. The platform is explicitly agent-native: it publishes an llms.txt and ships a hosted Model Context Protocol (MCP) server so AI assistants such as Claude and ChatGPT can search its collection directly. Backed by 500 Global and surfaced into the API Evangelist network from that portfolio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/habitus-associates-co-ltd/refs/heads/main/screenshots/habitus-associates-co-ltd-2026-07-25T220515.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -2840,8 +2850,53 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
+    {
+     "name": "Boosters",
+     "slug": "boosters",
+     "description": "Boosters is a Seoul-based global commerce company and brand aggregator, founded in 2019, that acquires and accelerates the growth of emerging Korean direct-to-consumer (D2C) brands, with a particular focus on K-Beauty. Boosters takes over small and medium-sized Korean brands that have strong product potential but struggle with marketing, distribution, and inventory management, then scales them across domestic and international commerce channels. Portfolio brands include Eqqualberry and Branden. The company raised a USD 10 million Series A round in 2022 with participation from Partech and other investors. Boosters is a consumer commerce operator rather than a developer platform, and does not currently publish a public developer API, OpenAPI specification, SDK, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/boosters/refs/heads/main/screenshots/boosters-2026-07-25T203637.png",
+     "score": 5.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2865,7 +2920,142 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 60
+    },
+    {
+     "name": "INDEX Robotics",
+     "slug": "index-robotics",
+     "description": "INDEX Robotics is a South Korean humanoid robotics startup based in Seongnam (Bundang) building high-precision actuators and upper-body humanoid robots for high-mix, low-volume industrial work. Its core products are the IA Series, a family of high-precision actuators purpose-built for humanoid joints, and INDEX01, a compact upper-body humanoid prototype that deliberately foregoes a mobile base so it can slot into constrained factory workspaces for logistics handling, machining support, and precision assembly. The company treats joint precision, responsiveness under sustained repetitive motion, and long-run performance consistency as the core unsolved problems in humanoid commercialization. In February 2026 INDEX Robotics closed a $1M (KRW 1.5B) seed round led by Futureplay with Bass Ventures and 500 Global co-investing. This is a hardware company with no public API, SDK, or developer program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/index-robotics/refs/heads/main/screenshots/index-robotics-2026-07-25T222257.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 61
+    },
+    {
+     "name": "Chaart",
+     "slug": "chaart",
+     "description": "Chaart (주식회사 차트, Chaart Inc.) is a Seoul-based art-trading and art-asset-management platform for South Korea's art collectors and investors. Its iOS and Android apps let collectors buy and resell artworks in the secondary market with transparent price/valuation information, automatic artwork matching, authenticity checks, secure delivery, and integrated payments. Chaart reports 5,000+ registered collectors and thousands of artworks traded, and raised pre-seed funding from 500 Global. Chaart is a consumer mobile app: as of this enrichment pass it publishes no public developer API, OpenAPI, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chaart/refs/heads/main/screenshots/chaart-2026-07-25T205017.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 62
+    },
+    {
+     "name": "MomMom",
+     "slug": "mommom",
+     "description": "MomMom (맘맘) is a South Korean consumer parenting and family-activity platform that helps parents discover places to go with their kids and products to buy for them. The mom-mom.net website and app curate kid-friendly destinations by region, family accommodation and resort deals, restaurant and class discounts, and community-driven product rankings (국민템랭킹) covering baby and childcare essentials, alongside parenting tips. It is a B2C curation, deals, and recommendation service, backed as a 500 Global portfolio company; no public developer API, documentation, or well-known discovery surface is currently published (probed 2026-07-20).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mommom/refs/heads/main/screenshots/mommom-2026-08-07T184129.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 63
     },
     {
      "name": "myBOX",
@@ -2909,7 +3099,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 64
     },
     {
      "name": "NOD Games",
@@ -2929,188 +3119,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "Pawdly",
-     "slug": "pawdly",
-     "description": "Pawdly (포들리) is a South Korean pet e-commerce marketplace and mobile app operated by KCC I&C, offering pet product shopping across categories, saved/wishlist items, and pet-care service reservations, alongside pet-care tips and member benefits delivered through its app. KCC I&C operates as a payment intermediary and mail-order sales broker rather than the direct seller, with individual merchants fulfilling orders, shipping, and refunds. Pawdly was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. An enrichment pass found a consumer web/mobile marketplace with no public developer portal, API, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawdly/refs/heads/main/screenshots/pawdly-2026-08-07T191610.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 62
-    },
-    {
-     "name": "Plantner Inc.",
-     "slug": "plantner-inc",
-     "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 63
-    },
-    {
-     "name": "RareLee",
-     "slug": "rarelee",
-     "description": "RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in 2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's face shape, features, and skeletal structure across millions of type combinations to recommend personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a direct-to-consumer service with no public API, developer portal, or technical integration surface; it was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/screenshots/rarelee-2026-09-02T152911.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 64
-    },
-    {
-     "name": "RVDS Inc.",
-     "slug": "rvds-inc",
-     "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/screenshots/rvds-inc-2026-09-02T154221.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3137,9 +3147,10 @@
      "rank": 65
     },
     {
-     "name": "Storicity",
-     "slug": "storicity",
-     "description": "Storicity Inc. was a Seoul, South Korea-based travel-technology startup, founded around 2020 and backed by 500 Global, that built Yoda Trip (Korean brand \"여다\") — an AI-assisted consumer travel-planning mobile app offering customized itineraries and mobile audio guides for tourist destinations, shipped on iOS and Android. It was a consumer B2C mobile product rather than an API platform provider. An enrichment pass on 2026-07-21 (web search plus a live domain/TLS probe) found no public API, developer portal, documentation, OpenAPI specification, SDK packages, GitHub organization, or other developer surface. Public records indicate the Yoda Trip service was discontinued in April 2025 and the company is listed as out of business; the yodatrip.com domain still resolves but serves a broken TLS certificate.",
+     "name": "Pawdly",
+     "slug": "pawdly",
+     "description": "Pawdly (포들리) is a South Korean pet e-commerce marketplace and mobile app operated by KCC I&C, offering pet product shopping across categories, saved/wishlist items, and pet-care service reservations, alongside pet-care tips and member benefits delivered through its app. KCC I&C operates as a payment intermediary and mail-order sales broker rather than the direct seller, with individual merchants fulfilling orders, shipping, and refunds. Pawdly was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. An enrichment pass found a consumer web/mobile marketplace with no public developer portal, API, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pawdly/refs/heads/main/screenshots/pawdly-2026-08-07T191610.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3153,8 +3164,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3181,9 +3192,10 @@
      "rank": 66
     },
     {
-     "name": "Theres Camping",
-     "slug": "theres-camping",
-     "description": "Theres (데얼스, Theres Co., Ltd.) is a South Korean e-commerce marketplace for outdoor and camping gear, where customers buy both new and second-hand equipment in one place. The platform aggregates brands and vendors (Grape Box, Camping Khan, Ridge Mountain Gear, Matador, and others), offering product search, a shopping cart, deal notifications, a community section, and vendor/product listing tools. Based in Seoul (Seocho-gu), Theres is a portfolio company of 500 Global. The company publishes a consumer web/app storefront and does not currently expose a public developer API, documentation, or integration surface.",
+     "name": "Plantner Inc.",
+     "slug": "plantner-inc",
+     "description": "Plantner Inc. (PLANTNER) is a South Korean biotechnology company specializing in the extraction and manufacturing of alginic acid, a biodegradable marine-derived biomaterial. Operating as a bio-industry platform provider, Plantner supplies alginic acid-based solutions across medical devices (wound dressings, nutraceuticals), pharmaceuticals (gastroprotective agents, drug-delivery systems), cosmetics (modeling masks, hydrogels), advanced biotech (bio-ink, organoids, delivery carriers), and agriculture (controlled-release fertilizers, mulching films, eco-friendly herbicides). Headquartered in Seoul with an R&D center in Suwon, the company is a 500 Global portfolio company. It is a materials/biotech manufacturer and does not currently publish a developer API, documentation, or developer portal; this profile is maintained in the API Evangelist network as a company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/plantner-inc/refs/heads/main/screenshots/plantner-inc-2026-09-02T151441.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3197,8 +3209,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3225,10 +3237,10 @@
      "rank": 67
     },
     {
-     "name": "Ticketmonster",
-     "slug": "ticketmonster",
-     "description": "Ticketmonster (TMON) is a South Korean e-commerce and social-commerce platform founded in 2010 as \"Ticket Monster.\" Operating primarily at tmon.co.kr (the legacy ticketmonster.co.kr brand), TMON sells deals, daily bargains, fashion, travel, and a broad retail catalog to Korean consumers via web and mobile apps. It grew into one of Korea's leading online marketplaces and was later brought under the Qoo10 group. TMON is a consumer-facing retail/marketplace business; it does not publish a public developer program, API portal, OpenAPI specification, SDKs, or documented API surface. This profile was surfaced as a portfolio-linked company and enriched by the API Evangelist pipeline, which confirmed the absence of any public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketmonster/refs/heads/main/screenshots/ticketmonster-2026-09-02T163703.png",
+     "name": "RareLee",
+     "slug": "rarelee",
+     "description": "RareLee (Rarelee) is a Seoul-based premium personal style consulting company founded in 2017, offering data-driven hair, makeup, and fashion analysis. Its consultants classify a client's face shape, features, and skeletal structure across millions of type combinations to recommend personalized hairstyles, makeup designs, and coordinated outfits, both online and in person. Rarelee serves celebrity clientele and has collaborated with brands such as Shinsegae and Marriott. It is a direct-to-consumer service with no public API, developer portal, or technical integration surface; it was added to the API Evangelist network as a 500 Global portfolio lead for enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rarelee/refs/heads/main/screenshots/rarelee-2026-09-02T152911.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3242,8 +3254,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3270,10 +3282,10 @@
      "rank": 68
     },
     {
-     "name": "TimeBlocks",
-     "slug": "timeblocks",
-     "description": "TimeBlocks is a consumer calendar and personal scheduling mobile app developed by Day2Life Inc., a South Korean company backed by 500 Global. Marketed as Korea's #1 decoration calendar, it brings calendar, to-do, memo, and habit tracking together in a single view, with patented drag-and-drop time-block scheduling (US Patent 10,409,474 B2), roughly 1,000 customization items (themes, stickers, fonts), shared and group calendars with real-time notifications, seven home-screen widgets, and cloud sync across devices. It is a native iOS and Android app; as of this enrichment pass it publishes no public developer API, SDK, or API documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timeblocks/refs/heads/main/screenshots/timeblocks-2026-09-02T163753.png",
+     "name": "RVDS Inc.",
+     "slug": "rvds-inc",
+     "description": "RVDS Inc. is a South Korean food and beverage company that describes itself as growing into Korea's representative Multi-K-Food Brand Operator, building and operating a portfolio of consumer dining brands including Dodo Korea, Butai, and Salad Monster. Based in Cheongju-si, Chungcheongbuk-do, the company is backed by 500 Global. As a consumer food-brand operator it publishes no public API, developer portal, SDKs, or technical documentation, so this profile carries only identity and probed domain-security signals rather than API artifacts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rvds-inc/refs/heads/main/screenshots/rvds-inc-2026-09-02T154221.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3287,8 +3299,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3315,10 +3327,9 @@
      "rank": 69
     },
     {
-     "name": "Tumblbug",
-     "slug": "tumblbug",
-     "description": "Tumblbug (텀블벅) is a South Korean reward-based crowdfunding platform for creators, where makers launch projects and backers pledge funds to bring creative works — comics, games, publishing, design, music, film and more — to life. Surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network for enrichment. As of this pass Tumblbug publishes a consumer-facing web platform (help center, creator guides, pricing/advertising, terms and privacy pages) but exposes no public developer API, documentation, or open API surface; this profile therefore carries identity and domain-security signals only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tumblbug/refs/heads/main/screenshots/tumblbug-2026-09-02T164525.png",
+     "name": "Storicity",
+     "slug": "storicity",
+     "description": "Storicity Inc. was a Seoul, South Korea-based travel-technology startup, founded around 2020 and backed by 500 Global, that built Yoda Trip (Korean brand \"여다\") — an AI-assisted consumer travel-planning mobile app offering customized itineraries and mobile audio guides for tourist destinations, shipped on iOS and Android. It was a consumer B2C mobile product rather than an API platform provider. An enrichment pass on 2026-07-21 (web search plus a live domain/TLS probe) found no public API, developer portal, documentation, OpenAPI specification, SDK packages, GitHub organization, or other developer surface. Public records indicate the Yoda Trip service was discontinued in April 2025 and the company is listed as out of business; the yodatrip.com domain still resolves but serves a broken TLS certificate.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3332,8 +3343,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3360,6 +3371,185 @@
      "rank": 70
     },
     {
+     "name": "Theres Camping",
+     "slug": "theres-camping",
+     "description": "Theres (데얼스, Theres Co., Ltd.) is a South Korean e-commerce marketplace for outdoor and camping gear, where customers buy both new and second-hand equipment in one place. The platform aggregates brands and vendors (Grape Box, Camping Khan, Ridge Mountain Gear, Matador, and others), offering product search, a shopping cart, deal notifications, a community section, and vendor/product listing tools. Based in Seoul (Seocho-gu), Theres is a portfolio company of 500 Global. The company publishes a consumer web/app storefront and does not currently expose a public developer API, documentation, or integration surface.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 71
+    },
+    {
+     "name": "Ticketmonster",
+     "slug": "ticketmonster",
+     "description": "Ticketmonster (TMON) is a South Korean e-commerce and social-commerce platform founded in 2010 as \"Ticket Monster.\" Operating primarily at tmon.co.kr (the legacy ticketmonster.co.kr brand), TMON sells deals, daily bargains, fashion, travel, and a broad retail catalog to Korean consumers via web and mobile apps. It grew into one of Korea's leading online marketplaces and was later brought under the Qoo10 group. TMON is a consumer-facing retail/marketplace business; it does not publish a public developer program, API portal, OpenAPI specification, SDKs, or documented API surface. This profile was surfaced as a portfolio-linked company and enriched by the API Evangelist pipeline, which confirmed the absence of any public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ticketmonster/refs/heads/main/screenshots/ticketmonster-2026-09-02T163703.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 72
+    },
+    {
+     "name": "TimeBlocks",
+     "slug": "timeblocks",
+     "description": "TimeBlocks is a consumer calendar and personal scheduling mobile app developed by Day2Life Inc., a South Korean company backed by 500 Global. Marketed as Korea's #1 decoration calendar, it brings calendar, to-do, memo, and habit tracking together in a single view, with patented drag-and-drop time-block scheduling (US Patent 10,409,474 B2), roughly 1,000 customization items (themes, stickers, fonts), shared and group calendars with real-time notifications, seven home-screen widgets, and cloud sync across devices. It is a native iOS and Android app; as of this enrichment pass it publishes no public developer API, SDK, or API documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timeblocks/refs/heads/main/screenshots/timeblocks-2026-09-02T163753.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 73
+    },
+    {
+     "name": "Tumblbug",
+     "slug": "tumblbug",
+     "description": "Tumblbug (텀블벅) is a South Korean reward-based crowdfunding platform for creators, where makers launch projects and backers pledge funds to bring creative works — comics, games, publishing, design, music, film and more — to life. Surfaced as a portfolio company of DCM Ventures and added to the API Evangelist network for enrichment. As of this pass Tumblbug publishes a consumer-facing web platform (help center, creator guides, pricing/advertising, terms and privacy pages) but exposes no public developer API, documentation, or open API surface; this profile therefore carries identity and domain-security signals only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tumblbug/refs/heads/main/screenshots/tumblbug-2026-09-02T164525.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 74
+    },
+    {
      "name": "BAYCON",
      "slug": "baycon",
      "description": "BAYCON Inc. is a Seoul, South Korea-based mobile connectivity company, founded in 2018 and backed by 500 Global and Shorooq Partners (seed round, 2024). BAYCON operates a global data eSIM platform and a family of international communication apps: eSIM Easy (이심이지), which delivers multi-country data eSIM plans as a QR code within minutes of purchase; ModuCall (모두의 국제전화), affordable VoIP international calling that lets users place overseas calls using their domestic mobile plans; and BayTalk. The company partners with local network operators and global carrier infrastructure so international travelers and businesses can access local mobile networks without physical SIM cards, cut roaming costs, and stay connected across borders, and is expanding into travel content such as attraction tickets and transportation passes. BAYCON publishes consumer mobile apps rather than a public developer API surface.",
@@ -3377,8 +3567,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3409,7 +3599,109 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 75
+    },
+    {
+     "name": "AbTis",
+     "slug": "abtis2772",
+     "description": "AbTis Co., Ltd. (앱티스) is a South Korean biotechnology company founded in 2016 and headquartered in Yongin-si, Gyeonggi-do, inside the Dong-A Socio Holdings R&D Center. It develops AbClick, a third-generation site-selective antibody conjugation platform that attaches payloads to the Fc Lys248 residue of native IgG antibodies with no enzyme and no Fc engineering, giving a controlled drug-to-antibody ratio and batch-to-batch consistency across ADC, DAC, AOC, ARC, ISAC and dual-payload designs. AbTis licenses the platform, runs collaborative research and fee-for-service ADC development, and advances its own pipeline led by AT-211, a Claudin 18.2-targeting MMAE ADC. Acquired by Dong-A ST in 2023, it now operates as that company's ADC-specialised subsidiary. Its product is licensed chemistry and drug intellectual property, not software: it runs no developer program, public API, SDK or machine-readable contract.",
+     "score": 4.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
+     "name": "Absology",
+     "slug": "absology",
+     "description": "Absology Co., Ltd. is a South Korean in-vitro diagnostics (IVD) company founded in 2017 and headquartered in Anyang, Gyeonggi-do. It designs and manufactures point-of-care immunoassay analyzers and the reagent cartridges that run on them, built on microfluidic immunoassay and photo-oxidation-induced fluorescence amplification chemistry. Its Absol analyzer line runs rapid and ultra-sensitive quantitative blood tests — testosterone, vitamin D, PSA, TSH, free T4, PCT, cortisol and cardiac markers — for human and companion-animal use, with stated research programs in anti-cancer therapy monitoring, cardiovascular disease and neurodegenerative disease. Absology is a hardware and consumables manufacturer rather than a software vendor, and no public developer program, API, SDK or machine-readable contract has been found on its corporate site or in any public package registry or code host.",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 77
     },
     {
      "name": "PeopleFund, Perfect Technologies",
@@ -3429,8 +3721,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3461,7 +3753,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 78
     },
     {
      "name": "Playcurio",
@@ -3480,8 +3772,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3512,7 +3804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 79
     },
     {
      "name": "Socra AI",
@@ -3532,8 +3824,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3564,7 +3856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 80
     },
     {
      "name": "Medir",
@@ -3583,8 +3875,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3615,7 +3907,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 81
     }
    ]
   }

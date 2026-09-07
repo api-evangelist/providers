@@ -1,6 +1,6 @@
 {
- "total": 14,
- "shown": 14,
+ "total": 13,
+ "shown": 13,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -75,8 +75,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -118,8 +118,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 3,
+   "shown": 3,
    "providers": [
     {
      "name": "Terminal49",
@@ -139,8 +139,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -185,8 +185,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -231,8 +231,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -258,52 +258,6 @@
      },
      "tier": "Ocean Visibility",
      "rank": 5
-    },
-    {
-     "name": "MarineTraffic",
-     "slug": "marinetraffic",
-     "description": "MarineTraffic, a Kpler company, is a global provider of vessel tracking and maritime intelligence data. The platform offers AIS-based real-time vessel positions, port calls, predictive ETAs, historical voyage data, and ship registry information used for fleet monitoring, port operations, and supply chain visibility.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png",
-     "score": 34.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 55.6,
-      "contract_quality": 64.9,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Ocean Visibility",
-     "rank": 6
     }
    ],
    "open": true
@@ -334,8 +288,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -360,7 +314,7 @@
       "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "CMA CGM",
@@ -380,8 +334,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -406,7 +360,7 @@
       "agentic_commerce": false
      },
      "tier": "Ocean Carriers",
-     "rank": 8
+     "rank": 7
     }
    ]
   },
@@ -436,8 +390,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -462,7 +416,7 @@
       "agentic_commerce": false
      },
      "tier": "Ports & Terminal Operators",
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Hapag-Lloyd",
@@ -482,8 +436,54 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Ocean Carriers",
+     "rank": 9
+    },
+    {
+     "name": "MSC Mediterranean Shipping Company",
+     "slug": "msc-cargo",
+     "description": "MSC (Mediterranean Shipping Company) is a privately-held, family-owned global container shipping and logistics group headquartered in Geneva, Switzerland, founded in 1970 by Gianluigi Aponte and now led by CEO Soren Toft under the Aponte-Diamant family. MSC is the world's largest container shipping line by fleet size and capacity, operating roughly 900 cargo vessels with a combined intake of about 7 million TEU and controlling more than a fifth of global container capacity as of late 2025. The carrier offers a portfolio of digital shipment-management products through its myMSC e-business platform — including Instant Quote for online rate generation, online booking, electronic Bill of Lading and Sea Waybill issuance via eDocs, container Track & Trace, and the myMSC mobile app — and exposes a Direct Integrations program for shippers, freight forwarders, and NVOCCs that combines REST APIs and EDI message exchange. The MSC Developer Portal (developerportal.msc.com), hosted on Microsoft Azure API Management, publishes documentation and EDI message implementation guides for products such as the DCSA-aligned Track & Trace API (v1.2 and v2.2), Booking, Booking Confirmation (X12 301 / EDIFACT IFTMIN), and Shipping Instructions, alongside ANSI X12 and EDIFACT IFTMIN / IFTMBC / COPRAR reference documents. MSC also runs direct-integration partnerships with INTTRA, Infor Nexus, and CargoSmart. API and EDI access is not self-service: prospective integrators must submit a Direct Integration request, and fees may apply.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/msc-cargo/refs/heads/main/screenshots/msc-cargo-2026-08-07T184417.png",
+     "score": 6.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -511,10 +511,10 @@
      "rank": 10
     },
     {
-     "name": "MSC Mediterranean Shipping Company",
-     "slug": "msc-cargo",
-     "description": "MSC (Mediterranean Shipping Company) is a privately-held, family-owned global container shipping and logistics group headquartered in Geneva, Switzerland, founded in 1970 by Gianluigi Aponte and now led by CEO Soren Toft under the Aponte-Diamant family. MSC is the world's largest container shipping line by fleet size and capacity, operating roughly 900 cargo vessels with a combined intake of about 7 million TEU and controlling more than a fifth of global container capacity as of late 2025. The carrier offers a portfolio of digital shipment-management products through its myMSC e-business platform — including Instant Quote for online rate generation, online booking, electronic Bill of Lading and Sea Waybill issuance via eDocs, container Track & Trace, and the myMSC mobile app — and exposes a Direct Integrations program for shippers, freight forwarders, and NVOCCs that combines REST APIs and EDI message exchange. The MSC Developer Portal (developerportal.msc.com), hosted on Microsoft Azure API Management, publishes documentation and EDI message implementation guides for products such as the DCSA-aligned Track & Trace API (v1.2 and v2.2), Booking, Booking Confirmation (X12 301 / EDIFACT IFTMIN), and Shipping Instructions, alongside ANSI X12 and EDIFACT IFTMIN / IFTMBC / COPRAR reference documents. MSC also runs direct-integration partnerships with INTTRA, Infor Nexus, and CargoSmart. API and EDI access is not self-service: prospective integrators must submit a Direct Integration request, and fees may apply.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/msc-cargo/refs/heads/main/screenshots/msc-cargo-2026-08-07T184417.png",
+     "name": "ZIM Integrated Shipping Services",
+     "slug": "zim-com",
+     "description": "ZIM Integrated Shipping Services Ltd. (NYSE: ZIM) is a global container liner shipping company founded in 1945 and headquartered in Haifa, Israel. ZIM operates in more than 90 countries, serving over 30,000 customers across more than 300 ports worldwide with a differentiated global-niche strategy focused on agile fleet management and select trade lanes. The company is publicly traded on the New York Stock Exchange and, as of 2026, is the subject of a pending acquisition by Hapag-Lloyd at approximately $35.00 per share. ZIM's digital surface includes the myZIM customer area, ZIMonitor cargo visibility, an electronic Bill of Lading (eB/L) service, a Draft B/L tool, EDI integrations for booking and shipping instructions, a mobile application, and a developer API portal at api.zim.com hosted on Microsoft Azure API Management. Access to the ZIM API requires registering through ZIM API Support and obtaining a security token; rate limits are set per organization at registration. No public OpenAPI specification, SDKs, or GitHub organization are published, so ZIM is profiled here as a Tier-3 catalog entry pending spec disclosure or partner access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zim-com/refs/heads/main/screenshots/zim-com-2026-06-20T201909.png",
      "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -528,8 +528,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -557,11 +557,11 @@
      "rank": 11
     },
     {
-     "name": "ZIM Integrated Shipping Services",
-     "slug": "zim-com",
-     "description": "ZIM Integrated Shipping Services Ltd. (NYSE: ZIM) is a global container liner shipping company founded in 1945 and headquartered in Haifa, Israel. ZIM operates in more than 90 countries, serving over 30,000 customers across more than 300 ports worldwide with a differentiated global-niche strategy focused on agile fleet management and select trade lanes. The company is publicly traded on the New York Stock Exchange and, as of 2026, is the subject of a pending acquisition by Hapag-Lloyd at approximately $35.00 per share. ZIM's digital surface includes the myZIM customer area, ZIMonitor cargo visibility, an electronic Bill of Lading (eB/L) service, a Draft B/L tool, EDI integrations for booking and shipping instructions, a mobile application, and a developer API portal at api.zim.com hosted on Microsoft Azure API Management. Access to the ZIM API requires registering through ZIM API Support and obtaining a security token; rate limits are set per organization at registration. No public OpenAPI specification, SDKs, or GitHub organization are published, so ZIM is profiled here as a Tier-3 catalog entry pending spec disclosure or partner access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zim-com/refs/heads/main/screenshots/zim-com-2026-06-20T201909.png",
-     "score": 6.9,
+     "name": "Ocean Network Express",
+     "slug": "ocean-network-express",
+     "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -569,13 +569,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -603,25 +603,25 @@
      "rank": 12
     },
     {
-     "name": "Ocean Network Express",
-     "slug": "ocean-network-express",
-     "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
-     "score": 5.7,
+     "name": "COSCO Shipping",
+     "slug": "cosco-shipping",
+     "description": "A Chinese state-owned multinational shipping and logistics conglomerate and the world's largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png",
+     "score": 4.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -647,52 +647,6 @@
      },
      "tier": "Ocean Carriers",
      "rank": 13
-    },
-    {
-     "name": "COSCO Shipping",
-     "slug": "cosco-shipping",
-     "description": "A Chinese state-owned multinational shipping and logistics conglomerate and the world's largest container shipping fleet by capacity. Operates container shipping, port terminals, bulk cargo services, and digital supply chain platforms (Syncon Hub, My Reefer, Hi-Dolphin) across global trade routes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosco-shipping/refs/heads/main/screenshots/cosco-shipping-2026-06-20T175053.png",
-     "score": 4.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Ocean Carriers",
-     "rank": 14
     }
    ]
   }

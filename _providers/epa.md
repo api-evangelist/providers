@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-05'
+  score: 28.6
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 148
   human_in_the_loop: 1
@@ -711,7 +711,7 @@ apis:
   description: UV index hourly and daily forecast endpoints.
   name: EPA — U.S. Environmental Protection Agency UV Index API
   slug: epa-uv-index-api
-artifact_total: 2289
+artifact_total: 2291
 collections:
 - collection_type: postman
   name: EPA Air Quality System (AQS) Account Type Codes API
@@ -1551,6 +1551,74 @@ collections:
   name: US EPA How's My Waterway
   slug: open-mywaterway
 common:
+- group: other
+  title: ''
+  type: Developer Central
+  url: https://www.epa.gov/developers
+- group: other
+  title: ''
+  type: Web Services
+  url: https://www.epa.gov/enviro/web-services
+- group: other
+  title: ''
+  type: Open Data
+  url: https://www.data.gov/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/epa-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/epa-packages.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/epa-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/epa-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/epa-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/epa-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/epa-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/epa-sandbox.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/epa-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/epa-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/epa-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/epa-easey-emissions-mgmt-overlay.yaml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://api.data.gov/signup/
 - group: other
   title: ''
   type: CapabilityMap
@@ -3417,6 +3485,10 @@ features:
   name: State Primacy
 - description: Some surfaces (AQS, CAM, Grants) require email-or-portal-registered keys with documented rate limits.
   name: API Key Tiers
+finops:
+- name: Epa Finops
+  service_category: API
+  slug: epa-finops
 graphqls:
 - description: The U.S. Environmental Protection Agency (EPA) does not currently publish a native public GraphQL endpoint. The EPA exposes its environmental data through REST and SOAP services across programs includ
   name: EPA — U.S. Environmental Protection Agency GraphQL API
@@ -7265,7 +7337,11 @@ overview: 'EPA — U.S. Environmental Protection Agency publishes 128 APIs on th
   The EPA — U.S. Environmental Protection Agency catalog on APIs.io includes 23 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  EPA — U.S. Environmental Protection Agency''s developer surface includes authentication, API reference, getting-started guide, documentation, engineering blog, YouTube channel, support, and 22 more developer resources.'
+  EPA — U.S. Environmental Protection Agency''s developer surface includes sandbox, signup flow, authentication, API reference, getting-started guide, documentation, engineering blog, and 39 more developer resources.'
+plans:
+- name: Epa Plans Pricing
+  plan_count: 0
+  slug: epa-plans-pricing
 random_paper: 16
 rate_limits:
 - limit_count: 11
@@ -7295,41 +7371,43 @@ rules:
   slug: epa-rules
 score:
   band: strong
-  composite: 59.4
+  composite: 65.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 79.5
+    artifact_dirs: 28
+    catalog_earned: 82.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.5
+    catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 28.8
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 33.3
     contract_quality: 68.0
-    developer_ergonomics: 75.0
+    developer_ergonomics: 83.9
     discoverability: 75.9
-    governance: 28.8
+    governance: 33.3
     operational_transparency: 42.1
   previous_composite: 59.4
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 94.4
       derived: 0
       marker_coverage: 0.0
       total: 128
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa/refs/heads/main/screenshots/epa-2026-06-20T180747.png
 security:
 - kind: authentication

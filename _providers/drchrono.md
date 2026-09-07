@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -818,7 +818,7 @@ score:
   band: exemplar
   composite: 81.6
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 71.3
     catalog_earned_first_party: 20.0
     catalog_gap: 43.8
@@ -851,8 +851,8 @@ score:
     regime: Health
     regime_id: health
     score: 90.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:

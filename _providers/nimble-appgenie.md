@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: An llms.txt marketing/brand document structured to help large language models interpret Nimble AppGenie's expertise, industry verticals, compliance standards, and service capabilities. It is not a mac
@@ -78,8 +78,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nimble-appgenie/refs/heads/main/screenshots/nimble-appgenie-2026-09-02T150756.png
 slug: nimble-appgenie

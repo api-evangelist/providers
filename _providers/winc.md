@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Agentic-commerce API for the Winc storefront, implemented via the Shopify-native Universal Commerce Protocol (UCP). Agents discover capabilities at /.well-known/ucp and call commerce tools over the MC
@@ -133,8 +133,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/winc/refs/heads/main/screenshots/winc-2026-09-02T170754.png
 security:

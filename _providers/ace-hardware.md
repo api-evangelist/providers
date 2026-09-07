@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -221,8 +221,8 @@ score:
   previous_composite: 30.2
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
 security:

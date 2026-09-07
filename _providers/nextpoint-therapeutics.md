@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: About
+  url: https://nextpointtx.com/about-us/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -96,7 +100,7 @@ network: true
 overview: 'NextPoint Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Immunotherapy.
 
 
-  NextPoint Therapeutics'' developer surface includes product news and 7 more developer resources.'
+  NextPoint Therapeutics'' developer surface includes product news and 8 more developer resources.'
 random_paper: 12
 score:
   band: minimal
@@ -125,8 +129,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextpoint-therapeutics/refs/heads/main/screenshots/nextpoint-therapeutics-2026-09-02T150749.png
 security:

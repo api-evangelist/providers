@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 4
 common:
@@ -166,8 +166,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 29.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/haus/refs/heads/main/screenshots/haus-2026-07-25T220755.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 158
   human_in_the_loop: 2
@@ -1104,7 +1104,7 @@ score:
   band: strong
   composite: 61.2
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 28
     catalog_earned: 75.3
     catalog_earned_first_party: 16.0
     catalog_gap: 39.8
@@ -1131,8 +1131,8 @@ score:
       total: 104
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/partnerize/refs/heads/main/screenshots/partnerize-2026-06-20T191430.png
 security:

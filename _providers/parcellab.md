@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -505,7 +505,7 @@ score:
   band: strong
   composite: 60.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 87.5
     catalog_earned_first_party: 0.0
     catalog_gap: 27.5
@@ -537,8 +537,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:

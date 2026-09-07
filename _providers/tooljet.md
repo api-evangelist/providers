@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-05'
+  score: 23.2
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -65,7 +65,7 @@ apis:
   description: Workspace management endpoints
   name: ToolJet Workspaces API
   slug: tooljet-workspaces-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -147,6 +147,14 @@ common:
   title: ''
   type: BlogRSS
   url: https://blog.tooljet.com/rss/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/ToolJet/tooljet-mcp
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://blog.tooljet.com/tooljet-mcp-model-context-protocol/
 created: 2026-06-12
 description: ToolJet is an open-source low-code platform for building internal tools, dashboards, business applications, workflows, and AI agents. It provides a REST API (the ToolJet External API) that enables programmatic management of users, workspaces, applications, and user roles across self-hosted and cloud deployments. Authentication is handled via a static access token configured in environment variables and passed as a Basic Authorization header. ToolJet supports connecting to external data sources including REST APIs, GraphQL, databases, and cloud storage, and offers OpenAPI-spec-driven data source integration within the platform. Pricing spans a free tier up to enterprise plans with SSO, Git sync, audit logs, and SCIM provisioning.
 examples:
@@ -181,7 +189,11 @@ jsonld:
   property_count: 7
   slug: tooljet-context
 layout: provider
-modified: 2026-06-12
+mcp_servers:
+- description: ''
+  name: MCP Server Source
+  slug: mcp-server-source
+modified: '2026-09-06'
 name: ToolJet
 nav: Providers
 network: true
@@ -191,7 +203,7 @@ overview: 'ToolJet publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
   The ToolJet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ToolJet''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  ToolJet''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Tooljet Plans Pricing
   plan_count: 4
@@ -222,7 +234,7 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.1
+  delta: 0.0
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -232,7 +244,7 @@ score:
     discoverability: 68.5
     governance: 25.0
     operational_transparency: 42.1
-  previous_composite: 46.6
+  previous_composite: 47.7
   provenance:
     agentic_access: derived
     contracts:
@@ -240,8 +252,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/screenshots/tooljet-2026-06-20T195448.png
 security:

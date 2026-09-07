@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Intersection's AI-powered Order Management System for out-of-home advertising. Announced 2026-05-11, it is a single API over Intersection's digital screen inventory (LinkNYC and other street, transit,
@@ -176,8 +176,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intersection/refs/heads/main/screenshots/intersection-2026-09-02T145908.png
 security:

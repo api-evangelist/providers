@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -277,6 +277,10 @@ collections:
   name: Bright Data API (Index)
   slug: open-bright-data
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://brightdata.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -519,7 +523,7 @@ overview: 'Bright Data publishes 15 APIs on the [APIs.io](https://apis.io/) netw
   The Bright Data catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bright Data''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 40 more developer resources.'
+  Bright Data''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 41 more developer resources.'
 plans:
 - name: Bright Data Plans Pricing
   plan_count: 17
@@ -579,8 +583,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
 security:
@@ -607,5 +611,5 @@ tags:
 - Dataset Marketplace
 - MCP
 - AI Agents
-website: https://brightdata.com
+website: https://brightdata.com/
 ---

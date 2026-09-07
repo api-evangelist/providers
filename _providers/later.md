@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: Later's social media scheduling and management platform providing visual content planning, scheduling, analytics, and influencer marketing capabilities across major social platforms.
@@ -1104,7 +1104,7 @@ score:
   band: developing
   composite: 44.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -1130,8 +1130,8 @@ score:
       total: 175
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/screenshots/later-2026-06-20T184327.png
 security:

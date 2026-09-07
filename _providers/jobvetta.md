@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: REST access to live, vetted India job openings. `GET /jobs` searches by keyword (`q`), Indian city or state (`location`), posting age in days (`days`, 1–365) and result count (`limit`, 1–20, default 1
@@ -90,8 +90,8 @@ score:
     regions:
     - india-south-asia
   previous_composite: 10.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobvetta/refs/heads/main/screenshots/jobvetta-2026-08-07T171010.png
 slug: jobvetta

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Northmill Bank's PSD2 third-party-provider interface, covering Account Information Services (AIS) and Confirmation of Available Funds (CBPII/CAF), with request signing via ES256/RS256 key pairs regist
@@ -399,8 +399,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/screenshots/northmill-2026-09-02T150801.png
 security:

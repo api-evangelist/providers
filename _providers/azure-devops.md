@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -127,6 +127,30 @@ collections:
   name: Azure DevOps Pipelines Fields WorkItems API
   slug: open-azure-devops-workitems-api
 common:
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dev.azure.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://azure.microsoft.com/en-us/support/devops/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://azure.microsoft.com/en-us/support/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/rules/azure-dev-ops-spectral-rules.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -458,7 +482,7 @@ overview: 'Azure DevOps publishes 5 APIs on the [APIs.io](https://apis.io/) netw
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, documentation, developer portal, API reference, getting-started guide, changelog, CLI, and 36 more developer resources.'
+  Azure DevOps'' developer surface includes support, authentication, documentation, developer portal, API reference, getting-started guide, changelog, and 42 more developer resources.'
 plans:
 - name: Azure Devops Plans Pricing
   plan_count: 6
@@ -507,25 +531,25 @@ scopes:
   slug: azure-devops-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.2
+  band: strong
+  composite: 55.3
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.1
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 36.8
+    commercial_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 68.3
-    developer_ergonomics: 77.4
+    developer_ergonomics: 82.1
     discoverability: 55.6
     governance: 28.8
-    operational_transparency: 26.3
+    operational_transparency: 42.1
   previous_composite: 48.2
   provenance:
     agentic_access: derived
@@ -534,9 +558,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:
 - kind: authentication

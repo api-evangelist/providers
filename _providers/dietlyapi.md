@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: REST API for food & nutrition data — search, barcode lookup, food-by-id, popular foods, categories, and health probe. Bearer auth optional; read endpoints work anonymously.
@@ -160,7 +160,7 @@ score:
   band: strong
   composite: 54.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 58.0
     catalog_earned_first_party: 24.0
     catalog_gap: 57.0
@@ -192,8 +192,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/screenshots/dietlyapi-2026-07-25T211947.png
 security:

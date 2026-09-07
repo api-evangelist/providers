@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: One of the sixteen demo classification APIs Classif.io advertised, named "Fashion Style classification API" in the site navigation of the last archived capture of the homepage (2025-03-21). What the A
@@ -125,7 +125,7 @@ score:
     catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -3.6
+  delta: 0.0
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -135,9 +135,9 @@ score:
     discoverability: 59.3
     governance: 45.5
     operational_transparency: 0.0
-  previous_composite: 19.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  previous_composite: 15.6
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 slug: classif-io
 tags:

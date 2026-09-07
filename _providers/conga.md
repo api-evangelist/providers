@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 31
 apis:
 - description: A hosted, remote Model Context Protocol server on every regional Conga Advantage Platform gateway. It answers MCP JSON-RPC over Streamable HTTP, rejects anonymous calls with an RFC 6750 bearer challen
@@ -1981,7 +1981,7 @@ score:
   band: strong
   composite: 57.2
   coverage:
-    artifact_dirs: 26
+    artifact_dirs: 25
     catalog_earned: 35.0
     catalog_earned_first_party: 8.0
     catalog_gap: 80.0
@@ -2007,8 +2007,8 @@ score:
       total: 345
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conga/refs/heads/main/screenshots/conga-2026-07-25T210254.png
 security:

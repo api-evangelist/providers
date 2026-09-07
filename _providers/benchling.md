@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 234
   human_in_the_loop: 0
@@ -4106,7 +4106,7 @@ score:
   band: exemplar
   composite: 68.1
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 64.3
     catalog_earned_first_party: 24.0
     catalog_gap: 50.8
@@ -4145,8 +4145,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/benchling/refs/heads/main/screenshots/benchling-2026-06-20T173135.png
 security:

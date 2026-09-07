@@ -11,30 +11,31 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    dynamic_client_registration: true
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
-    protected_resource_metadata: false
+    protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
+    reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-05'
+  score: 47.1
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -42,7 +43,7 @@ agentic_access:
   operation_count: 15
   slug: atlassian-jira-agentic-access
   summary_line: 15 operations · 7 acting
-api_count: 1
+api_count: 4
 apis:
 - baseURL: https://your-domain.atlassian.net/rest/api/3
   baseurl_source: declared
@@ -84,7 +85,29 @@ apis:
   description: Read user information.
   name: Atlassian Jira Users API
   slug: atlassian-jira-users-api
-artifact_total: 47
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The complete first-party Jira Cloud platform REST API — 617 operations across 421 paths covering issues, projects, users, workflows, fields, screens, permissions, dashboards, filters, webhooks and adm
+  name: Atlassian Jira Cloud Platform REST API v3
+  slug: atlassian-jira-cloud-platform-api
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The first-party Jira Software (Agile) REST API at /rest/agile/1.0 — 105 operations covering boards, sprints, epics, backlogs, versions, and the development-information surface for builds, deployments,
+  name: Jira Software Cloud API
+  slug: atlassian-jira-software-cloud-api
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The first-party Jira Service Management REST API at /rest/servicedeskapi — 75 operations covering service desks, customer requests, request types, queues, SLAs, organizations, customers and the knowle
+  name: Jira Service Management REST API
+  slug: atlassian-jira-service-management-api
+- description: Atlassian's official hosted Model Context Protocol server. An OAuth 2.1 protected endpoint that exposes Jira, Jira Service Management, Confluence, Bitbucket, Compass and Loom to MCP-capable AI clients
+  name: Atlassian Remote MCP Server
+  slug: atlassian-jira-remote-mcp-server
+artifact_total: 53
+asyncapis:
+- description: ''
+  name: Atlassian Jira Webhooks
+  slug: atlassian-jira-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -144,7 +167,7 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/showcase/atlassian-jira
+  url: https://www.linkedin.com/company/atlassian
 - group: company
   title: ''
   type: Website
@@ -197,6 +220,142 @@ common:
   title: ''
   type: RateLimits
   url: https://developer.atlassian.com/cloud/jira/platform/rate-limiting/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/atlassian-jira-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/atlassian-jira-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/atlassian-jira-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/atlassian-jira-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/atlassian-jira-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/atlassian-jira-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/atlassian-jira-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/atlassian-jira-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/atlassian-jira-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/atlassian-jira-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.atlassian.com/trust/compliance
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/atlassian-jira-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/atlassian-jira-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.atlassian.com/platform/marketplace/atlassian-rest-api-policy/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/atlassian-jira-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/atlassian-jira-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/atlassian-jira-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/atlassian-jira-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/atlassian-jira-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/atlassian-jira-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/atlassian-jira-rate-limits.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/atlassian-jira-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.atlassian.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.atlassian.com/roadmap/cloud
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.atlassian.com/try/cloud/signup?bundle=jira-software
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://community.atlassian.com/
+- group: auth
+  title: ''
+  type: Trust
+  url: https://www.atlassian.com/trust
+- group: auth
+  title: ''
+  type: BugBounty
+  url: https://bugcrowd.com/atlassian
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://marketplace.atlassian.com/
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/atlassian-jira.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/atlassian-jira.opencollection.json
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/atlassian-jira-finops.yml
 created: '2024-01-01'
 description: Jira is a leading issue tracking and project management platform developed by Atlassian. It provides REST APIs for Jira Cloud Platform, Jira Software, and Jira Service Management enabling programmatic management of issues, projects, workflows, boards, sprints, users, and service desk requests with OAuth 2.0 authentication.
 features:
@@ -231,59 +390,69 @@ integrations:
 - description: Create Jira issues automatically from PagerDuty incidents for integrated incident management.
   name: PagerDuty
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: Atlassian Remote MCP Server (Rovo MCP Server)
+  slug: atlassian-remote-mcp-server-rovo-mcp-server
+modified: '2026-09-06'
 name: Atlassian Jira
 nav: Providers
 network: true
-overview: 'Atlassian Jira publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Fields API, Issue Comments API, Issue Search API, and 5 more. Tagged areas include Agile, Atlassian, Bug Tracking, Issue Tracking, and ITSM.
+overview: 'Atlassian Jira publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Fields API, Issue Comments API, Issue Search API, and 8 more. Tagged areas include Agile, Atlassian, Bug Tracking, Issue Tracking, and ITSM.
 
 
-  Atlassian Jira''s developer surface includes authentication, documentation, getting-started guide, pricing, support, engineering blog, and 14 more developer resources.'
+  The Atlassian Jira catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Atlassian Jira''s developer surface includes authentication, documentation, getting-started guide, pricing, support, engineering blog, CLI, and 47 more developer resources.'
 plans:
 - name: Atlassian Jira Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: atlassian-jira-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 9
   name: Atlassian Jira Rate Limits
   slug: atlassian-jira-rate-limits
 scopes:
 - name: Atlassian Jira Scopes
-  scope_count: 4
+  scope_count: 281
   slug: atlassian-jira-scopes
-  summary_line: 4 scopes · authorizationCode
+  summary_line: 281 scopes · authorizationCode
 score:
-  band: thin
-  composite: 28.4
+  band: strong
+  composite: 61.0
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 27
+    catalog_earned: 67.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 32.6
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 40.5
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 26.3
+    access_clarity: 94.7
+    commercial_clarity: 94.7
+    contract_governance: 18.2
+    contract_quality: 10.9
+    developer_ergonomics: 81.5
+    discoverability: 81.5
+    governance: 18.2
+    operational_transparency: 97.4
   previous_composite: 28.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    mcp: first-party
+    skills: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png
 security:
 - kind: authentication

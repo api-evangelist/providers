@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 45.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 6
 apis:
 - description: REST API for Oracle Fusion Cloud ERP providing access to financial management, procurement, and project management capabilities.
@@ -327,8 +327,8 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-platforms/refs/heads/main/screenshots/oracle-platforms-2026-06-20T191139.png
 security:

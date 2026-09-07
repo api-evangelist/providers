@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 272
   human_in_the_loop: 11
@@ -8794,7 +8794,7 @@ score:
   band: strong
   composite: 55.4
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 58.5
     catalog_earned_first_party: 0.0
     catalog_gap: 56.5
@@ -8821,8 +8821,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 73
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/auth0/refs/heads/main/screenshots/auth0-2026-06-20T172604.png
 security:

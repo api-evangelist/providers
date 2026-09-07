@@ -26,20 +26,32 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-05'
+  score: 2.5
+  scored_at: '2026-09-06'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/dillards-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dillards-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dillards-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dillards-rate-limits.yml
 - group: company
   title: ''
   type: LinkedIn
@@ -52,15 +64,48 @@ common:
   title: ''
   type: LlmsText
   url: https://www.dillards.com/llms.txt
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.dillards.com/c/customerservice
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dillards.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.dillards.com/c/faqs-notices-policies?#q=int-policies-notices-question-legal-terms-of-use
+coverage:
+  checked: '2026-09-06'
+  detail: Dillard's is a physical-goods department store with no developer program at all — every /.well-known/ and /openapi.json path on www.dillards.com returns the storefront SPA shell under HTTP 200, byte-for-byte the same class of response as a deliberate nonsense control path, and the only machine interface Dillard's actually operates is a supplier X12 EDI program whose implementation guide sits behind a vendor login on the ebiz.dillards.com extranet.
+  evidence:
+  - status: 200
+    url: https://www.dillards.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.dillards.com/openapi.json
+  - status: 403
+    url: https://ebiz.dillards.com/eBiz/
+  - status: 200
+    url: https://www.dillards.com/llms.txt
+  reason: not-a-software-company
+  state: none
 created: '2026-03-24'
-description: Dillard's is an American department store chain offering apparel, footwear, cosmetics, handbags, menswear, and home goods from top brands. The retailer operates stores across the United States and an e-commerce site, with no publicly documented developer APIs at this time.
+description: Dillard's, Inc. is a Little Rock, Arkansas department store chain selling apparel, footwear, cosmetics, handbags, menswear and home goods through its stores across the United States and dillards.com. Dillard's publishes no developer program, no OpenAPI, GraphQL, AsyncAPI, gRPC or SOAP contract, and no MCP or A2A agent surface — contract discovery on 2026-09-06 found every /.well-known/ and /openapi.json path answering with the storefront single-page-app shell under HTTP 200, matching a nonsense control path. Its two real machine-facing surfaces are a first-party llms.txt at https://www.dillards.com/llms.txt that maps the retail catalog for language models, and an ANSI ASC X12 EDI trading-partner program (810/816/820/832/850/856/860/864/997 over the OpenText/GXS VAN) whose implementation guide and vendor portal are gated behind a login on the Dillard's eBiz extranet.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dillards.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: Dillard's
 nav: Providers
 network: true
-overview: Dillard's is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Department Store, Apparel, E-Commerce, and Fortune 500.
+overview: 'Dillard''s is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Department Store, Apparel, E-Commerce, and Fortune 500.
+
+
+  Dillard''s'' developer surface includes support and 9 more developer resources.'
+plans:
+- name: Dillards Plans Pricing
+  plan_count: 0
+  slug: dillards-plans-pricing
 press:
 - date: '2026-05-25'
   title: Retail basics propel Dillard's in Q3
@@ -78,29 +123,35 @@ press:
   title: Dillard's, Inc. Reports First Quarter Results | Thu, 05/14/2026
   url: https://investor.dillards.com/news-releases/news-release-details/dillards-inc-reports-first-quarter-results-6
 random_paper: 7
+rate_limits:
+- limit_count: 0
+  name: Dillards Rate Limits
+  slug: dillards-rate-limits
 score:
   band: minimal
-  composite: 5.7
+  composite: 10.0
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 10
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 0.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 57.4
-    governance: 0.0
+    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 5.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  provenance:
+    conformance: first-party
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dillards/refs/heads/main/screenshots/dillards-2026-06-20T180028.png
 security:

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - description: Quote, create, and stop parking sessions on behalf of a driver in a Passport-managed zone - the core surface behind facilitating a paid parking session from a parking app, navigation app, or in-car ex
@@ -120,8 +120,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/passport-parking/refs/heads/main/screenshots/passport-parking-2026-08-07T191541.png
 security:

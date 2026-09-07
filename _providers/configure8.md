@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 37.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ rate_limits:
   slug: configure8-rate-limits
 score:
   band: strong
-  composite: 54.9
+  composite: 57.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 48.0
@@ -281,17 +281,17 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 23.4
+  delta: 2.3
   facets:
-    access_clarity: 82.9
-    commercial_clarity: 82.9
+    access_clarity: 89.5
+    commercial_clarity: 89.5
     contract_governance: 18.2
     contract_quality: 59.5
-    developer_ergonomics: 44.6
+    developer_ergonomics: 49.4
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 36.8
-  previous_composite: 31.5
+  previous_composite: 54.9
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -302,9 +302,9 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/configure8/refs/heads/main/screenshots/configure8-2026-06-20T174854.png
 security:
 - kind: authentication

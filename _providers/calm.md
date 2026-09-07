@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -443,7 +443,7 @@ score:
   band: strong
   composite: 54.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 48.3
     catalog_earned_first_party: 0.0
     catalog_gap: 66.8
@@ -476,8 +476,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calm/refs/heads/main/screenshots/calm-2026-07-25T204251.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 0
@@ -514,6 +514,10 @@ collections:
   name: LifeMine Website Content API (WordPress REST) Wp/v2 API
   slug: open-lifemine-wp-v2-api
 common:
+- group: operate
+  title: ''
+  type: Contact
+  url: https://lifeminetx.com/contact/
 - group: other
   title: ''
   type: Overlay
@@ -662,7 +666,7 @@ network: true
 overview: 'LifeMine publishes 58 APIs on the [APIs.io](https://apis.io/) network, including Abilities API, Block Directory API, Block Patterns API, and 55 more. Tagged areas include Company, Biotechnology, Pharmaceuticals, Drug Discovery, and Life Sciences.
 
 
-  LifeMine''s developer surface includes engineering blog, product news, support, authentication, and 22 more developer resources.'
+  LifeMine''s developer surface includes engineering blog, product news, support, authentication, and 23 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -706,8 +710,8 @@ score:
     regime: Health
     regime_id: health
     score: 35.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lifemine/refs/heads/main/screenshots/lifemine-2026-08-07T171642.png
 security:

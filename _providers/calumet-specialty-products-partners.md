@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,16 +26,24 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-05'
+  score: 5.4
+  scored_at: '2026-09-06'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
+- group: other
+  title: ''
+  type: Customers
+  url: https://calumet.com/products/
+- group: other
+  title: ''
+  type: Resources
+  url: https://calumet.com/resources/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -51,7 +59,7 @@ common:
 - group: company
   title: ''
   type: Investor Relations
-  url: https://ir.calumet.com/
+  url: https://calumet.investorroom.com/
 - group: company
   title: ''
   type: LinkedIn
@@ -72,18 +80,62 @@ common:
   title: ''
   type: Blog
   url: https://www.calumet.com/feed/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://calumet.com/termsofsale/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://calumet.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://calumet.com/contact-us/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/calumet-specialty-products-partners-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/calumet-specialty-products-partners-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/calumet-specialty-products-partners-rate-limits.yml
+coverage:
+  checked: '2026-09-06'
+  detail: 'Calumet manufactures and sells physical specialty hydrocarbons — base oils, solvents, waxes, esters, asphalt and fuels — so there is nothing to expose programmatically: api.calumet.com and developer.calumet.com are NXDOMAIN, the Customer Tools page offers a credit application and tax certificates rather than an integration, and the only machine-readable HTTP surface anywhere on calumet.com is the marketing site''s stock WordPress /wp-json/ CMS namespace.'
+  evidence:
+  - status: 404
+    url: https://calumet.com/openapi.json
+  - status: 404
+    url: https://calumet.com/.well-known/api-catalog
+  - status: 404
+    url: https://calumet.com/llms.txt
+  - status: 200
+    url: https://calumet.com/resources/customer-tools/
+  - status: 200
+    url: https://calumet.com/wp-json/
+  reason: not-a-software-company
+  state: none
 created: '2024-01-01'
 description: 'Calumet, Inc. (NASDAQ: CLMT) is a publicly traded U.S. manufacturing company established in 1919, headquartered in Indianapolis, Indiana. The firm specializes in the manufacture of lubricating oils, solvents, waxes, packaged and synthetic specialty products, fuels, renewable diesel, and fuel-related products. It operates 12 production facilities across North America and serves approximately 2,700 global customers in over 90 countries through brands including Royal Purple, Bel-Ray, Penreco, Orchex, and TruFuel. Calumet does not publish a public developer API program; commercial integrations are handled via B2B portals and EDI.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/calumet-specialty-products-partners.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-09-06'
 name: Calumet Specialty Products Partners
 nav: Providers
 network: true
 overview: 'Calumet Specialty Products Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asphalt, Fuels, Hydrocarbons, Lubricants, and Manufacturing.
 
 
-  Calumet Specialty Products Partners'' developer surface includes engineering blog and 8 more developer resources.'
+  Calumet Specialty Products Partners'' developer surface includes engineering blog, support, and 15 more developer resources.'
+plans:
+- name: Calumet Specialty Products Partners Plans Pricing
+  plan_count: 0
+  slug: calumet-specialty-products-partners-plans-pricing
 press:
 - date: '2026-05-25'
   title: Calumet Specialty Products Partners Management ...
@@ -110,23 +162,27 @@ press:
   title: Calumet Montana and Department of Revenue Finalize Property Tax Assessment
   url: https://calumet.com/calumet-montana-and-department-of-revenue-finalize-property-tax-assessment/
 random_paper: 7
+rate_limits:
+- limit_count: 0
+  name: Calumet Specialty Products Partners Rate Limits
+  slug: calumet-specialty-products-partners-rate-limits
 score:
   band: minimal
-  composite: 3.8
+  composite: 10.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 9
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.8
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -141,10 +197,10 @@ score:
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 18.9
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/calumet-specialty-products-partners/refs/heads/main/screenshots/calumet-specialty-products-partners-2026-06-20T173902.png
 security:
 - kind: domain-security

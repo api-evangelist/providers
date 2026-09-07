@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Overledger APIs provide a single unified interface for building cross-ledger applications, including endpoints for accounts, addresses, keys, balances, transactions, smart contracts (deploy, read, wri
@@ -111,8 +111,8 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 19.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/screenshots/quant-2026-06-20T192412.png
 security:

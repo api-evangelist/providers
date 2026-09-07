@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Hosted, remote Model Context Protocol server that lets an AI assistant create finished video and image ads from a plain-language brief. Streamable HTTP transport with browser-based OAuth 2.0 (PKCE + d
@@ -170,8 +170,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sesame-labs/refs/heads/main/screenshots/sesame-labs-2026-09-02T155018.png
 security:

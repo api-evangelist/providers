@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -799,7 +799,7 @@ score:
   band: exemplar
   composite: 67.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 79.5
     catalog_earned_first_party: 0.0
     catalog_gap: 35.5
@@ -829,8 +829,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
 security:

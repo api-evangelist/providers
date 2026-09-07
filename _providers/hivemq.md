@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -244,7 +244,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 35.8
     catalog_earned_first_party: 0.0
     catalog_gap: 79.3
@@ -269,8 +269,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/screenshots/hivemq-2026-07-25T221301.png
 security:

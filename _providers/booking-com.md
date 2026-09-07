@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -260,6 +260,38 @@ collections:
   name: Booking.com Car Rentals Accommodations Suppliers API
   slug: open-booking-com-suppliers-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.booking.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.booking.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.booking.com/demand/docs/getting-started/overview
+- group: other
+  title: ''
+  type: AffiliateProgram
+  url: https://www.booking.com/affiliate-program/v2/
+- group: company
+  title: ''
+  type: ConnectivityPartners
+  url: https://developers.booking.com/connectivity/docs
+- group: company
+  title: ''
+  type: About
+  url: https://www.booking.com/content/about.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.booking.com/content/privacy.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.booking.com/content/terms.html
 - group: agent
   title: ''
   type: AgenticAccess
@@ -344,7 +376,7 @@ overview: 'Booking Com publishes 24 APIs on the [APIs.io](https://apis.io/) netw
   The Booking Com catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Booking Com''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Booking Com''s developer surface includes documentation, authentication, engineering blog, and 16 more developer resources.'
 plans:
 - name: Booking Com Plans Pricing
   plan_count: 1
@@ -367,7 +399,7 @@ rules:
   slug: booking-com-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
+  composite: 38.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.3
@@ -375,13 +407,13 @@ score:
     catalog_gap: 69.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.1
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 34.2
+    commercial_clarity: 34.2
     contract_governance: 9.8
     contract_quality: 67.3
-    developer_ergonomics: 23.8
+    developer_ergonomics: 33.3
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 7.9
@@ -396,9 +428,9 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/booking-com/refs/heads/main/screenshots/booking-com-2026-06-20T173602.png
 security:
 - kind: authentication
@@ -414,4 +446,5 @@ security:
   slug: booking-com-vulnerability-disclosure
   summary_line: Hackerone · security.txt · contact published
 slug: booking-com
+website: https://www.booking.com
 ---

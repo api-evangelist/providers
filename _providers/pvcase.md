@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://core-v1.carbon.prod.andersonopt.com
@@ -222,8 +222,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 35.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pvcase/refs/heads/main/screenshots/pvcase-2026-09-02T152352.png
 security:

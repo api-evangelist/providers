@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: PlexTrac's JWT-authenticated REST API (v1 and v2) for managing clients, reports, findings, assets, and content-library writeups, along with tenant/RBAC administration and outbound webhooks. The base U
@@ -142,8 +142,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plextrac-llc/refs/heads/main/screenshots/plextrac-llc-2026-09-02T151518.png
 security:

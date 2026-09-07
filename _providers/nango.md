@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-05'
+  score: 23.2
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -73,7 +73,7 @@ apis:
   description: Manage and trigger data syncs.
   name: Nango Syncs API
   slug: nango-syncs-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: API Collection
@@ -157,6 +157,14 @@ common:
   title: ''
   type: GitHubRepository
   url: https://github.com/NangoHQ/nango
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.nango.dev/mcp
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://nango.dev/docs/reference/backend/management-mcp
 created: '2026-01-02'
 description: Nango.dev is a developer infrastructure platform that simplifies building product integrations with external APIs. It provides the infrastructure to build reliable, scalable integrations fast, including API authentication, a syncing framework, webhook handling, and observability, supporting over 400 APIs with 600+ pre-built integrations.
 features:
@@ -182,14 +190,18 @@ finops:
   slug: nango-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nango.png
 layout: provider
-modified: '2026-05-04'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-09-06'
 name: Nango
 nav: Providers
 network: true
 overview: 'Nango publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Connections API, Integrations API, and 2 more. Tagged areas include AI Agents, Integration, Authentication, Syncing, and Unified-API.
 
 
-  Nango''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, changelog, developer portal, and 8 more developer resources.'
+  Nango''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, changelog, developer portal, and 10 more developer resources.'
 plans:
 - name: Nango Plans Pricing
   plan_count: 4
@@ -227,8 +239,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/screenshots/nango-2026-08-17T083516.png
 security:

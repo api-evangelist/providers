@@ -1,54 +1,111 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Free self-service sandbox; production access by reviewed go-live request and separate agreement
   onboarding: unknown
-  pricing: freemium
-  public: false
+  pricing: unknown
+  public: true
   source:
-  - plans
-  trial: false
-  try_now: false
+  - https://developer.db.com/faq
+  - plans/deutsche-bank-plans-pricing.yml
+  trial: true
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
+    error_semantics: documented
+    event_surface_described: derived
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-05'
-api_count: 1
+  score: 39.4
+  scored_at: '2026-09-06'
+api_count: 2
 apis:
-- description: Deutsche Bank is a global financial institution that offers a wide range of banking and financial services to individuals, corporations, and institutional clients. The bank provides services such as i
+- baseURL: https://api.db.com/gw/dbapi
+  baseurl_source: declared
+  description: The Deutsche Bank API Program (dbAPI) - 30 published OpenAPI contracts covering cash accounts, transactions and transaction analysis, credit cards, SEPA credit transfer, instant credit transfer and di
   name: Deutsche Bank API Program
   slug: deutsche-bank
-artifact_total: 6
+- baseURL: https://testmerch.directpos.de/rest-api
+  baseurl_source: declared
+  description: Merchant Solutions is the payment acceptance and issuing product portfolio of Deutsche Bank - the Merchant-Server II REST platform behind Deutsche Bank's payment gateway. Three contracts are published
+  name: Deutsche Bank Merchant Solutions
+  slug: merchant-solutions
+artifact_total: 11
+asyncapis:
+- description: ''
+  name: Deutsche Bank Webhooks
+  slug: deutsche-bank-webhooks
 common:
-- group: auth
+- group: start
   title: ''
-  type: VulnerabilityDisclosure
-  url: security/deutsche-bank-vulnerability-disclosure.yml
-- group: auth
+  type: DeveloperPortal
+  url: https://developer.db.com/
+- group: docs
   title: ''
-  type: DomainSecurity
-  url: security/deutsche-bank-domain-security.yml
+  type: Documentation
+  url: https://developer.db.com/apidocumentation
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.db.com/apiexplorer
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.db.com/apidocumentation/apigettingstartedguide/introduction
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.db.com/registration
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.db.com/contact
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://developer.db.com/faq
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.db.com/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://developer.db.com/releasenotes
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/deutsche-bank-changelog.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.db.com/termsandconditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://developer.db.com/privacynotice
+- group: company
+  title: ''
+  type: Partners
+  url: https://developer.db.com/partnernetwork
 - group: build
   title: ''
   type: GitHubOrganization
@@ -57,63 +114,311 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/deutsche-bank
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://developer.db.com/
-- group: company
-  title: ''
-  type: Partners
-  url: https://developer.db.com/partnernetwork
 - group: company
   title: ''
   type: Website
   url: https://www.db.com/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/deutsche-bank-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/deutsche-bank-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/deutsche-bank-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/deutsche-bank-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/deutsche-bank-problem-types.yml
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: errors/deutsche-bank-error-codes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/deutsche-bank-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/deutsche-bank-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/deutsche-bank-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/deutsche-bank-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/deutsche-bank-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/deutsche-bank-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/deutsche-bank-packages.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/deutsche-bank-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/deutsche-bank-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/deutsche-bank-rate-limits.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/deutsche-bank-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/deutsche-bank-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/deutsche-bank-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/deutsche-bank-security.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/deutsche-bank-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/deutsche-bank-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/deutsche-bank-domain-security.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/deutsche-bank-finops.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-addresses-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-ageCertificate-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-banking-cashAccountOpenings-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-cashAccounts-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-creditCardTransactions-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-creditCards-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-customerSolvency-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-assets-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-earningTransactions-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-espSecuritiesAccounts-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-orders-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-performances-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-reports-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-securityAccounts-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-investments-securityTransactions-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-loanOffers-privatebanking-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-loanOffers-privatebanking-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-partners-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-payments-sepaInstantCreditTransfer-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-processingOrders-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-processingOrders-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-sepaCreditTransfer-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-sepaDirectDebit-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-subscriptions-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-swaggers-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-transactionAnalysis-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-transactionAuthorization-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-transactions-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-dbapi-verifyCustomer-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-merchant-solution-callback-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-merchant-solution-callback-v2_1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-merchant-solution-security-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-merchant-solution-security-v2_1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-merchant-solution-services-v2-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-merchant-solution-services-v2.1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/deutsche-bank-oneid-fakerock-v1-overlay.yaml
 created: '2025-02-08'
-description: Deutsche Bank is a global financial institution that offers a wide range of banking services to individuals, businesses, and institutions. The bank provides services such as retail banking, investment banking, asset management, and wealth management. Deutsche Bank is known for its expertise in international markets and has a strong presence in Europe, the Americas, and Asia. The Deutsche Bank Developer Portal publishes Open Banking and Beyond-PSD2 APIs for partners and developers.
+description: 'Deutsche Bank is a global financial institution headquartered in Frankfurt, providing retail, corporate and investment banking, asset management and wealth management. Its developer programme - dbAPI, published at developer.db.com - goes well beyond the PSD2 regulatory minimum: 36 first-party OpenAPI 3.0.x contracts covering 195 operations across banking, cards, payments, investments, lending, onboarding, reference data and merchant acquiring, all retrievable from Deutsche Bank''s own public swagger catalogue. The same contracts serve three tenants - Deutsche Bank, norisbank and Postbank. Access is OAuth 2.0 / OpenID Connect with 42 published scopes, PSD2 strong customer authentication exposed as its own API, a free self-service simulation gateway with persona-based test users, and a reviewed go-live process for production data.'
 finops:
 - name: Deutsche Bank Finops
   service_category: API
   slug: deutsche-bank-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/deutsche-bank.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: Deutsche Bank ships NO Model Context Protocol server. This is a DERIVED candidate tool surface, computed from the read-safe operations in Deutsche Bank's own published OpenAPI contracts so the shape o
+  name: Derived candidate tool surface (no server ships)
+  slug: derived-candidate-tool-surface-no-server-ships
+modified: '2026-09-06'
 name: Deutsche Bank
 nav: Providers
 network: true
-overview: 'Deutsche Bank publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial, Wealth Management, Open Banking, and PSD2.
+overview: 'Deutsche Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network: API Program and Merchant Solutions. Tagged areas include Banking, Financial, Wealth Management, Open Banking, and PSD2.
 
 
-  Deutsche Bank''s developer surface includes documentation and 6 more developer resources.'
+  The Deutsche Bank catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Deutsche Bank''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, changelog, and 70 more developer resources.'
 plans:
 - name: Deutsche Bank Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: deutsche-bank-plans-pricing
 random_paper: 8
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Deutsche Bank Rate Limits
   slug: deutsche-bank-rate-limits
+scopes:
+- name: Deutsche Bank Scopes
+  scope_count: 0
+  slug: deutsche-bank-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: minimal
-  composite: 10.0
+  band: developing
+  composite: 52.5
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 41.0
+    artifact_dirs: 24
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 42.5
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 10.5
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 4.5
+    contract_quality: 56.2
+    developer_ergonomics: 37.5
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 36.8
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
@@ -121,17 +426,30 @@ score:
     - dach
     - europe
   previous_composite: 10.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 11.8
+      derived: 0
+      marker_coverage: 0.0
+      total: 36
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 15.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 84.8
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/screenshots/deutsche-bank-2026-06-20T175943.png
 security:
+- kind: authentication
+  name: Deutsche Bank Authentication
+  slug: deutsche-bank-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Deutsche Bank Domain Security
   slug: deutsche-bank-domain-security
@@ -147,5 +465,12 @@ tags:
 - Wealth Management
 - Open Banking
 - PSD2
+- Payments
+- SEPA
+- Investments
+- Credit Cards
+- Merchant Solutions
+- Germany
+- Financial Services
 website: https://www.db.com/
 ---

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
@@ -658,7 +658,7 @@ score:
   band: strong
   composite: 56.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 41.0
     catalog_earned_first_party: 12.0
     catalog_gap: 74.0
@@ -690,8 +690,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corestack/refs/heads/main/screenshots/corestack-2026-08-17T080832.png
 security:

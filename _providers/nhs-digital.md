@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ score:
   band: developing
   composite: 43.3
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -306,8 +306,8 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nhs-digital/refs/heads/main/screenshots/nhs-digital-2026-08-07T185239.png
 security:

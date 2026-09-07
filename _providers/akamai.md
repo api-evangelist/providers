@@ -11,9 +11,10 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -21,19 +22,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: documented
     spec_presence: true
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 36.3
-  scored_at: '2026-09-05'
+  score: 49.1
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 243
   human_in_the_loop: 1
@@ -933,7 +934,11 @@ apis:
   description: The Watermark limits API from Akamai — 2 operation(s) for watermark limits.
   name: Akamai Watermark limits API
   slug: akamai-watermark-limits-api
-artifact_total: 998
+artifact_total: 1002
+asyncapis:
+- description: ''
+  name: Akamai Event Surface
+  slug: akamai-event-surface
 collections:
 - collection_type: open
   name: API Collection
@@ -1392,6 +1397,130 @@ collections:
   name: 'Akamai: API Endpoint Definition Access tokens Watermark limits API'
   slug: open-akamai-watermark-limits-api
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/akamai-scopes.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://techdocs.akamai.com
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://techdocs.akamai.com/home/page/apis
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://techdocs.akamai.com/developer/docs/make-your-first-api-call
+- group: start
+  title: ''
+  type: SignUp
+  url: https://login.linode.com/signup
+- group: start
+  title: ''
+  type: Login
+  url: https://control.akamai.com
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/akamai/akamai-apis
+- group: build
+  title: ''
+  type: Packages
+  url: packages/akamai-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/akamai-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/akamai-well-known.yml
+- group: other
+  title: ''
+  type: APICatalog
+  url: well-known/akamai-api-catalog.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/akamai-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/akamai-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/akamai-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/akamai-ccu-v3-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/akamai-papi-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/akamai-edgeworkers-v1-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/akamai-config-dns-v2-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/akamai-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/akamai-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/akamai-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/akamai-lifecycle.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/akamai-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/akamai-vulnerability-disclosure.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/akamai-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/akamai-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/akamai-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/akamai-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/akamai-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/akamai-event-surface.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -3326,6 +3455,10 @@ json_structures:
   property_count: 0
   slug: akamai-structure
 layout: provider
+mcp_servers:
+- description: Akamai publishes one official Model Context Protocol server, akamai-cloud-mcp, covering Akamai Cloud (Linode). It is read-only by construction - a GET-only HTTP client, an allowlist serializer and a r
+  name: Akamai Cloud MCP Server
+  slug: akamai-cloud-mcp-server
 modified: '2026-05-30'
 name: Akamai
 nav: Providers
@@ -3333,10 +3466,10 @@ network: true
 overview: 'Akamai publishes 141 APIs on the [APIs.io](https://apis.io/) network, including DataStream 2 API V2, Identity Cloud Webhooks V3 API, Access tokens API, and 138 more. Tagged areas include CDN, Cloud, Edge Computing, Networks, and Platform.
 
 
-  The Akamai catalog on APIs.io includes 2 Spectral governance rulesets.
+  The Akamai catalog on APIs.io includes 1 event-driven AsyncAPI specification and 2 Spectral governance rulesets.
 
 
-  Akamai''s developer surface includes developer portal, documentation, authentication, engineering blog, support, and 10 more developer resources.'
+  Akamai''s developer surface includes API reference, getting-started guide, signup flow, sandbox, changelog, CLI, developer portal, and 39 more developer resources.'
 plans:
 - name: Akamai Plans Pricing
   plan_count: 3
@@ -3368,26 +3501,31 @@ rules:
     info: 5
     warn: 10
   slug: akamai-spectral-rules
+scopes:
+- name: Akamai Scopes
+  scope_count: 37
+  slug: akamai-scopes
+  summary_line: 37 scopes · authorizationCode
 score:
-  band: thin
-  composite: 32.5
+  band: developing
+  composite: 50.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 32
     catalog_earned: 44.5
     catalog_earned_first_party: 0.0
     catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 18.3
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 13.6
-    contract_quality: 61.3
-    developer_ergonomics: 16.7
+    contract_quality: 60.6
+    developer_ergonomics: 69.0
     discoverability: 59.3
     governance: 13.6
-    operational_transparency: 23.7
+    operational_transparency: 65.8
   previous_composite: 32.5
   provenance:
     agentic_access: derived
@@ -3396,15 +3534,19 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 139
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/akamai/refs/heads/main/screenshots/akamai-2026-06-20T171446.png
 security:
 - kind: domain-security
   name: Akamai Domain Security
   slug: akamai-domain-security
   summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Akamai Vulnerability Disclosure
+  slug: akamai-vulnerability-disclosure
+  summary_line: Hackerone
 slug: akamai
 tags:
 - CDN

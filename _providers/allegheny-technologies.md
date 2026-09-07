@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -104,7 +104,7 @@ score:
   band: minimal
   composite: 9.7
   coverage:
-    artifact_dirs: 4
+    artifact_dirs: 5
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -126,8 +126,8 @@ score:
     regions:
     - north-america
   previous_composite: 9.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allegheny-technologies/refs/heads/main/screenshots/allegheny-technologies-2026-07-25T195653.png
 security:

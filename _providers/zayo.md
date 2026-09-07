@@ -27,13 +27,13 @@ agent_readiness:
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.3
-  scored_at: '2026-09-05'
+  score: 35.8
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -83,7 +83,7 @@ apis:
   description: Create various types of tickets, view all tickets, and create ticket comments.
   name: Zayo Ticketing API
   slug: zayo-ticketing-api
-artifact_total: 22
+artifact_total: 26
 asyncapis:
 - description: ''
   name: Zayo Notifications Webhooks
@@ -117,6 +117,50 @@ collections:
   name: Zayo APIs Maintenance Cases Ticketing API
   slug: open-zayo-ticketing-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.zayo.com
+- group: start
+  title: ''
+  type: Login
+  url: https://tranzact.zayo.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.zayo.com/feed/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/zayo-group
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.zayo.com/security/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.zayo.com/security-program/security-compliance/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/zayo-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/zayo-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/zayo-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/zayo-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/zayo-rate-limits.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -207,8 +251,16 @@ overview: 'Zayo publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
   The Zayo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zayo''s developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 13 more developer resources.'
+  Zayo''s developer surface includes engineering blog, documentation, API reference, getting-started guide, authentication, support, signup flow, and 23 more developer resources.'
+plans:
+- name: Zayo Plans Pricing
+  plan_count: 0
+  slug: zayo-plans-pricing
 random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Zayo Rate Limits
+  slug: zayo-rate-limits
 scopes:
 - name: Zayo Scopes
   scope_count: 1
@@ -216,24 +268,24 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 42.8
+  composite: 50.1
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 21
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
+    access_clarity: 28.9
+    commercial_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 68.1
-    developer_ergonomics: 56.5
+    developer_ergonomics: 58.9
     discoverability: 75.9
     governance: 4.5
-    operational_transparency: 7.9
+    operational_transparency: 18.4
   previous_composite: 42.8
   provenance:
     agentic_access: derived
@@ -250,10 +302,10 @@ score:
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
-    score: 47.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 62.5
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/zayo/refs/heads/main/screenshots/zayo-2026-08-17T083035.png
 security:
 - kind: authentication
@@ -264,6 +316,14 @@ security:
   name: Zayo Domain Security
   slug: zayo-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Zayo Vulnerability Disclosure
+  slug: zayo-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Zayo Trust Center
+  slug: zayo-trust-center
+  summary_line: trust center published
 slug: zayo
 tags:
 - Company
@@ -276,5 +336,5 @@ tags:
 - Cloud Connectivity
 - Ordering
 - Ticketing
-website: https://developer.zayo.com/
+website: https://www.zayo.com
 ---

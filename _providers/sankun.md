@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Programmatic access to Sankun's construction big-data platform — company, site, construction, bid, contract, reputation and news databases. Marketed at data.sankun.com; developer documentation is gate
@@ -101,8 +101,8 @@ score:
     regions:
     - japan-korea
   previous_composite: 12.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sankun/refs/heads/main/screenshots/sankun-2026-09-02T154356.png
 security:

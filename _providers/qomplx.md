@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: TimeEngine (package name `mdtsdb`) is QOMPLX's multi-dimensional time-series database and analytics engine. It exposes an HTTP interface for event ingestion (`/api/v1/ingest`), query-language executio
@@ -164,8 +164,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qomplx/refs/heads/main/screenshots/qomplx-2026-09-02T152534.png
 security:

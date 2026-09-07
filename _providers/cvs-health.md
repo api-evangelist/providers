@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: CVS Health does not publish a unified public REST API or developer portal. Pharmacy, PBM, and Aetna integrations are conducted via contracted partner channels using industry-standard rails such as NCP
@@ -178,8 +178,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvs-health/refs/heads/main/screenshots/cvs-health-2026-06-20T175405.png
 security:

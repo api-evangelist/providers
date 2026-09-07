@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 6
 apis:
 - baseURL: http://api.moxionpower.com/developer/v1
@@ -216,7 +216,7 @@ score:
   band: emerging
   composite: 25.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 45.0
     catalog_earned_first_party: 5.0
     catalog_gap: 70.0
@@ -248,8 +248,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moxion-power-co/refs/heads/main/screenshots/moxion-power-co-2026-08-07T184408.png
 security:

@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 6
 apis:
 - description: The Zonos Graph is the company's supported integration surface — a single GraphQL endpoint covering landed cost, classification, country of origin, export control, item and party restriction screening
@@ -170,8 +170,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 25.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zonos/refs/heads/main/screenshots/zonos-2026-09-02T171834.png
 slug: zonos

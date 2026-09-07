@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 63.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 12
 apis:
 - baseURL: https://api.plce.opengov.com/plce
@@ -1042,7 +1042,7 @@ score:
   band: developing
   composite: 46.9
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -1074,8 +1074,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 77.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opengov/refs/heads/main/screenshots/opengov-2026-08-07T190607.png
 security:

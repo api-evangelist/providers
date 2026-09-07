@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -209,6 +209,10 @@ collections:
   name: ATTOM Area All Events School API
   slug: open-attomdata-school-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.attomdata.com
 - group: other
   title: ''
   type: CapabilityMap
@@ -403,7 +407,7 @@ overview: 'ATTOM publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
   The ATTOM catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  ATTOM''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 27 more developer resources.'
+  ATTOM''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, support, GitHub presence, and 28 more developer resources.'
 plans:
 - name: Attomdata Plans Pricing
   plan_count: 4
@@ -439,7 +443,7 @@ score:
   band: developing
   composite: 50.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 77.5
     catalog_earned_first_party: 0.0
     catalog_gap: 37.5
@@ -469,8 +473,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 25.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/attomdata/refs/heads/main/screenshots/attomdata-2026-06-20T172541.png
 security:
@@ -502,5 +506,5 @@ tags:
 - Insurance
 - Mortgage Technology
 - PropTech
-website: https://api.developer.attomdata.com/
+website: https://www.attomdata.com
 ---

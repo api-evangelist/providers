@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3518
   human_in_the_loop: 147
@@ -10971,7 +10971,7 @@ score:
   band: emerging
   composite: 17.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 38.8
     catalog_earned_first_party: 0.0
     catalog_gap: 76.3
@@ -11001,8 +11001,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1804
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services/refs/heads/main/screenshots/amazon-web-services-2026-06-20T171845.png
 slug: amazon-web-services

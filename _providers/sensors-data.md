@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 58
 apis:
 - baseURL: https://{sensors_data_url}/api/v3/analytics/v1
@@ -457,7 +457,7 @@ score:
   band: developing
   composite: 42.1
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -483,8 +483,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensors-data/refs/heads/main/screenshots/sensors-data-2026-08-17T081809.png
 security:

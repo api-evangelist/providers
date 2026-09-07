@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 9.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'A remote, anonymous Model Context Protocol server served from the NeuroTherapia corporate domain at /_api/mcp. It is provisioned by the Wix website platform rather than authored by NeuroTherapia, and '
@@ -165,8 +165,8 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neurotherapia/refs/heads/main/screenshots/neurotherapia-2026-09-02T150739.png
 security:

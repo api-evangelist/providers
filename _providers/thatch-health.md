@@ -12,18 +12,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
-    agentic_access: false
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -34,9 +34,16 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 22.8
-  scored_at: '2026-09-05'
-api_count: 1
+  score: 32.9
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Thatch Health Agentic Access
+  operation_count: 19
+  slug: thatch-health-agentic-access
+  summary_line: 19 operations · 8 acting
+api_count: 2
 apis:
 - baseURL: https://partners.thatchcloud.com/api/partners/v1
   baseurl_source: declared
@@ -73,7 +80,7 @@ apis:
   description: Pay schedules model the cadence of employee paychecks for the purpose of deduction calculations.
   name: Thatch Health Pay Schedules API
   slug: thatch-health-pay-schedules-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: API Collection
@@ -100,6 +107,18 @@ collections:
   name: Thatch for Platforms Deductions Pay Schedules API
   slug: open-thatch-health-pay-schedules-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/thatch-health-partners-openapi.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/thatch-health-problem-types.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/thatch-health-agentic-access.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -235,24 +254,24 @@ network: true
 overview: 'Thatch Health publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Deductions API, Employees API, Employer onboarding sessions API, and 4 more. Tagged areas include Company, Healthcare, Health Benefits, ICHRA, and Insurance.
 
 
-  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  Thatch Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
 random_paper: 9
 score:
   band: developing
-  composite: 51.7
+  composite: 52.6
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.9
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 4.5
-    contract_quality: 52.3
+    contract_quality: 55.7
     developer_ergonomics: 66.1
     discoverability: 75.9
     governance: 4.5
@@ -273,8 +292,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thatch-health/refs/heads/main/screenshots/thatch-health-2026-08-17T082333.png
 security:

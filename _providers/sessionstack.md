@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The SessionStack REST API provides programmatic access to session recordings, user events, errors, and logs. Developers can retrieve and search sessions associated with their websites, get details abo
@@ -140,8 +140,8 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: domain-security

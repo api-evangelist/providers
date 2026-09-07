@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
@@ -120,18 +120,22 @@ common:
   title: ''
   type: StatusPage
   url: https://status.remnote.com
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://help.remnote.com/en/articles/16424066-connecting-ai-agents-to-remnote-with-mcp
 created: '2026-07-17'
 description: RemNote is an AI-powered note-taking, spaced-repetition, and PDF-annotation study platform founded at MIT and backed by General Catalyst, used by over a million students to take notes, generate flashcards, annotate PDFs and slides, and study with an integrated spaced-repetition queue and AI tutor. For developers, RemNote exposes a first-party front-end Plugin SDK (@remnote/plugin-sdk) — a React-first, sandboxed extension platform with a Rem API, hooks, widgets, and virtual embeds — rather than a hosted backend REST API. Plugins run either sandboxed in an iframe or natively on the main thread, with scoped access at the Rem, Document, and Powerup level, and are published through an in-app plugin marketplace after a code-review process.
 image: https://www.remnote.com/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-06'
 name: Remnote
 nav: Providers
 network: true
 overview: 'Remnote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Note Taking, Knowledge-Management, Spaced Repetition, and Flashcards.
 
 
-  Remnote''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 14 more developer resources.'
+  Remnote''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 15 more developer resources.'
 random_paper: 6
 score:
   band: emerging
@@ -160,8 +164,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 18.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remnote/refs/heads/main/screenshots/remnote-2026-09-02T153349.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ score:
   band: emerging
   composite: 26.0
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 52.3
     catalog_earned_first_party: 0.0
     catalog_gap: 62.8
@@ -252,8 +252,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 20.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charter-communications/refs/heads/main/screenshots/charter-communications-2026-06-20T174233.png
 security:

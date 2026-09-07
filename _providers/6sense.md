@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -108,6 +108,18 @@ collections:
   name: 6sense People Search API
   slug: open-6sense-people-search-api
 common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.6sense.com/docs/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://6sense.com/privacy-policy/
+- group: auth
+  title: ''
+  type: Trust
+  url: https://trust.6sense.com/
 - group: other
   title: ''
   type: Overlay
@@ -325,7 +337,7 @@ overview: '6sense publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
   The 6sense catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  6sense''s developer surface includes authentication, documentation, developer portal, support, engineering blog, GitHub presence, pricing, and 37 more developer resources.'
+  6sense''s developer surface includes authentication, documentation, developer portal, support, engineering blog, GitHub presence, pricing, and 40 more developer resources.'
 plans:
 - name: 6Sense Plans Pricing
   plan_count: 4
@@ -353,7 +365,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 69.2
+  composite: 71.3
   coverage:
     artifact_dirs: 31
     catalog_earned: 90.3
@@ -361,10 +373,10 @@ score:
     catalog_gap: 24.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 82.9
-    commercial_clarity: 82.9
+    access_clarity: 93.4
+    commercial_clarity: 93.4
     contract_governance: 43.2
     contract_quality: 67.7
     developer_ergonomics: 58.9
@@ -382,8 +394,8 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/screenshots/6sense-2026-06-20T162740.png
 security:

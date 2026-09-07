@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes auto-generated CRUD endpoints with optional custom re
@@ -146,8 +146,8 @@ score:
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 20.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/screenshots/mockapi-2026-06-20T185632.png
 security:

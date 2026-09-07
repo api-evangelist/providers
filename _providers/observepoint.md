@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - baseURL: https://api.observepoint.com
@@ -363,7 +363,7 @@ apis:
   description: APIs for managing Web Journeys
   name: ObservePoint Web Journeys Management API
   slug: observepoint-web-journeys-management-api
-artifact_total: 71
+artifact_total: 72
 asyncapis:
 - description: ''
   name: Observepoint Webhooks
@@ -509,6 +509,14 @@ common:
   title: ''
   type: JSONSchema
   url: json-schema/observepoint-data-dictionary-schemas.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.observepoint.ai/v1
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://help.observepoint.com/en/collections/19738264-observepoint-mcp-server
 created: '2026-08-26'
 description: ObservePoint is a web governance and digital data-quality platform that automatically scans websites, mobile web properties and email links to validate analytics tags, marketing pixels, cookies, consent banners, link integrity and WCAG accessibility. Customers configure Audits (large-scale crawls of a site) and Web Journeys (scripted multi-step user paths), run them on a schedule or on demand, and get back structured reports on tags, variables, cookies, network requests, browser logs, privacy exposure and accessibility issues. Everything in the product is available through a public REST API at api.observepoint.com across two supported versions (v2 and v3) plus a Grid Reporting API that returns any report as rows and columns with filtering, sorting, grouping, pagination and export. API access is included with every ObservePoint subscription at no additional cost, and audits and journeys can push completion webhooks (HMAC-SHA256 signed) into CI/CD pipelines, BI tools and ticketing
   systems.
@@ -518,7 +526,11 @@ json_schemas:
   property_count: 0
   slug: observepoint-data-dictionary-schemas
 layout: provider
-modified: '2026-08-26'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-09-06'
 name: ObservePoint
 nav: Providers
 network: true
@@ -528,7 +540,7 @@ overview: 'ObservePoint publishes 65 APIs on the [APIs.io](https://apis.io/) net
   The ObservePoint catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ObservePoint''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  ObservePoint''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 30 more developer resources.'
 plans:
 - name: Observepoint Plans Pricing
   plan_count: 0
@@ -568,8 +580,8 @@ score:
       total: 65
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/observepoint/refs/heads/main/screenshots/observepoint-2026-09-02T150820.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: d ACCOUNT Connect (dアカウント・コネクト) is DOCOMO's carrier identity service for businesses, offering OpenID Connect based social login backed by network line authentication and device biometrics against roug
@@ -187,8 +187,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntt-docomo/refs/heads/main/screenshots/ntt-docomo-2026-08-07T185711.png
 security:

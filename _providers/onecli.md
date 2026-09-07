@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ score:
   band: developing
   composite: 48.4
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -398,8 +398,8 @@ score:
       total: 24
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/screenshots/onecli-2026-08-07T190306.png
 security:

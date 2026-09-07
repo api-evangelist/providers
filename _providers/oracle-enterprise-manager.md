@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -957,7 +957,7 @@ score:
   band: developing
   composite: 53.3
   coverage:
-    artifact_dirs: 29
+    artifact_dirs: 28
     catalog_earned: 67.5
     catalog_earned_first_party: 0.0
     catalog_gap: 47.5
@@ -983,8 +983,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

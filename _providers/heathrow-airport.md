@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: Heathrow's Flights API provides up to date information on real time flights to and from Heathrow, covering destinations, arrivals, airlines, aircraft types, flight status, gates and terminals, with sc
@@ -193,8 +193,8 @@ score:
   previous_composite: 26.8
   provenance:
     conformance: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heathrow-airport/refs/heads/main/screenshots/heathrow-airport-2026-08-07T170046.png
 security:

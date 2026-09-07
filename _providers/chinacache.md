@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: REST API for the ChinaCache/EdgeNext CDN and edge platform — manage CDN domains, cache purge and prefetch, security (DDoS/WAF) policies, and edge configuration. Documented in the EdgeNext Document Cen
@@ -125,8 +125,8 @@ score:
     regions:
     - greater-china
   previous_composite: 17.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chinacache/refs/heads/main/screenshots/chinacache-2026-07-25T205243.png
 security:

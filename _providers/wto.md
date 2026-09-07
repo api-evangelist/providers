@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The WTO flagship API providing programmatic access to a large number of statistical indicators related to WTO issues. Data covers merchandise trade and trade in services statistics (annual, quarterly,
@@ -144,8 +144,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 22.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/screenshots/wto-2026-06-20T201642.png
 security:

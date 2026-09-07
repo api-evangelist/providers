@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://broker.pinot.celpxu.cp.s7e.startree.cloud
@@ -202,8 +202,8 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/startree-cortexdata/refs/heads/main/screenshots/startree-cortexdata-2026-08-17T082112.png
 security:

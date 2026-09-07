@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 8
 apis:
 - description: RESTful API for managing cluster resources, service groups, and cluster configuration.
@@ -156,8 +156,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 38.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/screenshots/veritas-cluster-2026-06-20T200934.png
 security:

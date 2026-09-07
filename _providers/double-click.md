@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 0
 common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/doubleclick-advertisers
 - group: other
   title: ''
   type: ParentCompany
@@ -52,11 +56,14 @@ modified: '2026-07-18'
 name: Double Click
 nav: Providers
 network: true
-overview: Double Click is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Marketing, and Ad Serving.
+overview: 'Double Click is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Marketing, and Ad Serving.
+
+
+  Double Click''s developer surface includes documentation and 2 more developer resources.'
 random_paper: 1
 score:
   band: minimal
-  composite: 5.0
+  composite: 6.9
   coverage:
     artifact_dirs: 1
     catalog_earned: 27.0
@@ -64,13 +71,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.9
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 9.5
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
@@ -81,8 +88,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/double-click/refs/heads/main/screenshots/double-click-2026-07-25T212319.png
 slug: double-click

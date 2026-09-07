@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - description: REST + WebSocket / MQTT integration surface exposed by Helium-compatible LoRaWAN Network Servers (e.g. Nova Labs Console) for provisioning IoT devices, managing organizations and labels, configuring i
@@ -53,6 +53,10 @@ apis:
   slug: docs-repo
 artifact_total: 9
 common:
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: operate
   title: ''
   type: IssueTracker
@@ -116,7 +120,7 @@ network: true
 overview: 'Helium Network publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Wireless, IoT, LoRaWAN, 5G, and DePIN.
 
 
-  Helium Network''s developer surface includes documentation, GitHub presence, and 10 more developer resources.'
+  Helium Network''s developer surface includes documentation, GitHub presence, and 11 more developer resources.'
 plans:
 - name: Helium Network Plans Pricing
   plan_count: 1
@@ -150,8 +154,8 @@ score:
     applies: true
     score: 60.0
   previous_composite: 26.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/screenshots/helium-network-2026-06-20T182625.png
 security:

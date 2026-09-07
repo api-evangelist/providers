@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Account and Transaction Information Services (AIS) as defined by the OBIE Read/Write API Standard - FAPI-secured (OAuth2/OIDC, mutual-TLS, PSD2 strong customer authentication). Represented here as the
@@ -179,7 +179,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 12
     catalog_earned: 32.0
     catalog_earned_first_party: 0.0
     catalog_gap: 68.0
@@ -217,8 +217,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skipton-building-society/refs/heads/main/screenshots/skipton-building-society-2026-09-02T155735.png
 security:

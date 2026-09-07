@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: RETIRED. JSON REST API for submitting and retrieving time-series measurements and for managing metrics, metric attributes, spaces, charts, dashboards, instruments, annotations, alerts, notification se
@@ -146,8 +146,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 18.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/librato/refs/heads/main/screenshots/librato-2026-07-25T225027.png
 security:

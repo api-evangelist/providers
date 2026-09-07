@@ -9,37 +9,85 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-05'
+  score: 13.3
+  scored_at: '2026-09-06'
 api_count: 0
-artifact_total: 1
+artifact_total: 3
 common:
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/eastman-kodak-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/eastman-kodak-well-known.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/eastman-kodak-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/eastman-kodak-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/eastman-kodak-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/eastman-kodak-rate-limits.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/eastman-kodak-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/eastman-kodak-llms.txt
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://workflowhelp.kodak.com/display/DOC/Workflow+Documentation
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.kodak.com/en/print/page/support/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kodak.com/en/company/blog/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.kodak.com/en/company/page/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kodak.com/en/company/page/site-terms/
 - group: company
   title: ''
   type: LinkedIn
@@ -48,23 +96,50 @@ common:
   title: ''
   type: Website
   url: https://www.kodak.com/en/
-- group: other
+- group: company
   title: ''
-  type: Company
-  url: https://www.kodak.com/en/company/
+  type: About
+  url: https://www.kodak.com/en/company/home/
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://www.kodak.com/en/company/press-releases/
 - group: operate
   title: ''
   type: Contact
   url: https://www.kodak.com/en/company/page/contact-us/
+coverage:
+  checked: '2026-09-06'
+  detail: Kodak ships real software (PRINERGY Workflow, PRINERGY On Demand, ColorFlow, InSite) and even names four of its own cloud APIs in public documentation, but only as firewall allow-list entries on obfuscated Azure hosts that answer 403 to the public, and no developer portal, API reference, SDK or machine-readable contract exists anywhere on kodak.com.
+  evidence:
+  - status: 0
+    url: https://developer.kodak.com/
+  - status: 0
+    url: https://api.kodak.com/
+  - status: 404
+    url: https://www.kodak.com/llms.txt
+  - status: 403
+    url: https://agentncw6dbzhv4klo.azurewebsites.net/
+  - status: 200
+    url: https://workflowhelp.kodak.com/display/POD/Prinergy+Cloud+Connectivity
+  reason: no-developer-program
+  state: none
 created: '2026-03-24'
 description: Eastman Kodak Company is a global commercial printing and imaging company that provides hardware, software, consumables, and services to customers in the print, packaging, publishing, manufacturing, and entertainment industries. Kodak does not currently publish a public developer program or API portfolio.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eastman-kodak.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: Eastman Kodak
 nav: Providers
 network: true
-overview: Eastman Kodak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Printing, Imaging, Packaging, and Manufacturing.
+overview: 'Eastman Kodak is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Printing, Imaging, Packaging, Manufacturing, and Print Workflow.
+
+
+  Eastman Kodak''s developer surface includes changelog, documentation, support, engineering blog, and 14 more developer resources.'
+plans:
+- name: Eastman Kodak Plans Pricing
+  plan_count: 0
+  slug: eastman-kodak-plans-pricing
 press:
 - date: '2026-05-25'
   title: Press Releases
@@ -82,30 +157,36 @@ press:
   title: Kodak press-release
   url: https://www.silverfast.com/show/kodak-press-release/de.html
 random_paper: 10
+rate_limits:
+- limit_count: 0
+  name: Eastman Kodak Rate Limits
+  slug: eastman-kodak-rate-limits
 score:
-  band: minimal
-  composite: 4.1
+  band: emerging
+  composite: 16.8
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 22.0
+    artifact_dirs: 12
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.7
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
-    contract_governance: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 40.7
-    governance: 0.0
-    operational_transparency: 0.0
+    developer_ergonomics: 16.7
+    discoverability: 50.0
+    governance: 18.2
+    operational_transparency: 15.8
   previous_composite: 4.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/eastman-kodak/refs/heads/main/screenshots/eastman-kodak-2026-06-20T180400.png
 security:
 - kind: domain-security
@@ -118,5 +199,8 @@ tags:
 - Imaging
 - Packaging
 - Manufacturing
+- Print Workflow
+- Photography
+- Advanced Materials
 website: https://www.kodak.com/en/
 ---

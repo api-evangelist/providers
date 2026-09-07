@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -1682,7 +1682,7 @@ score:
   band: strong
   composite: 60.2
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 63.3
     catalog_earned_first_party: 20.0
     catalog_gap: 51.8
@@ -1709,8 +1709,8 @@ score:
       total: 56
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediamath/refs/heads/main/screenshots/mediamath-2026-06-20T185115.png
 security:

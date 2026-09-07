@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Mutiny's hosted Model Context Protocol server and its only public programmatic entry point. It exposes the workspace's asset creation, template, content library and publishing capabilities to any MCP-
@@ -214,8 +214,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mutiny-hq/refs/heads/main/screenshots/mutiny-hq-2026-08-07T184453.png
 security:

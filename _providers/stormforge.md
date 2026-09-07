@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'StormForge Optimize Live is a Kubernetes resource rightsizing product that uses machine learning to automatically generate CPU and memory recommendations for container workloads. An agent deployed to '
@@ -174,8 +174,8 @@ score:
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 23.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stormforge/refs/heads/main/screenshots/stormforge-2026-06-20T194605.png
 security:

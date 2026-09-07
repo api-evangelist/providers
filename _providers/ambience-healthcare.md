@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'Partner-facing integration APIs for EHRs, telehealth platforms and healthcare applications, covering medical encounter transcription, clinical note generation, integrated CDI with ICD-10 suggestions, '
@@ -46,6 +46,30 @@ apis:
   slug: ambience-identity-oauth-20-openid-connect
 artifact_total: 6
 common:
+- group: build
+  title: ''
+  type: Clinicians
+  url: https://www.ambiencehealthcare.com/clinicians
+- group: other
+  title: ''
+  type: Business
+  url: https://www.ambiencehealthcare.com/business
+- group: other
+  title: ''
+  type: Informatics
+  url: https://www.ambiencehealthcare.com/informatics
+- group: start
+  title: ''
+  type: Demo
+  url: https://www.ambiencehealthcare.com/demo
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/ambience-healthcare
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/AmbienceHQ
 - group: auth
   title: ''
   type: Authentication
@@ -142,7 +166,7 @@ network: true
 overview: 'Ambience Healthcare publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Artificial Intelligence, Clinical Documentation, and Ambient AI.
 
 
-  Ambience Healthcare''s developer surface includes authentication, documentation, engineering blog, signup flow, and 17 more developer resources.'
+  Ambience Healthcare''s developer surface includes authentication, documentation, engineering blog, signup flow, and 23 more developer resources.'
 random_paper: 16
 scopes:
 - name: Ambience Healthcare Scopes
@@ -184,8 +208,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambience-healthcare/refs/heads/main/screenshots/ambience-healthcare-2026-08-07T161310.png
 security:

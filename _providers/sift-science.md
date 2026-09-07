@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Sift's REST API for Digital Trust & Safety — send behavioral and transaction Events, request risk Scores, apply Decisions and Labels, run Workflows, and verify users. Data is sent as JSON over HTTPS a
@@ -196,8 +196,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sift-science/refs/heads/main/screenshots/sift-science-2026-08-17T081846.png
 security:

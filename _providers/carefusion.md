@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The Alaris Infusion Interoperability solution connects the Alaris System (large-volume pump modules and syringe modules) to hospital EMR platforms so that physician infusion orders flow wirelessly int
@@ -42,40 +42,60 @@ apis:
 - description: 'Pyxis MedStation and Pyxis ES automated dispensing cabinets integrate with hospital pharmacy information systems and EMRs so that medication profiles, inventory, and dispense events are synchronized. '
   name: Pyxis Automated Dispensing Integration
   slug: pyxis-automated-dispensing
-artifact_total: 6
+artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bd.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.bd.com/en-us/support
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.bd.com/en-us/support/contact-us
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.bd.com/en-us/about-bd/policies/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bd.com/en-us/about-bd/policies/privacy-policy-statement
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.bd.com/en-us/about-bd/cybersecurity?active-tab=3
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/carefusion-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/carefusion-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/carefusion-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/carefusion-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/carefusion-lifecycle.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/carefusion-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/carefusion-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.bd.com/en-us/products-and-solutions/brand-families/carefusion
-- group: other
-  title: ''
-  type: Alaris Product Page
-  url: https://www.bd.com/en-us/products-and-solutions/products/product-families/alaris-infusion-system
-- group: other
-  title: ''
-  type: Pyxis Product Page
-  url: https://www.bd.com/en-us/products-and-solutions/products/product-families/bd-pyxis-medstation-es-system
-- group: other
-  title: ''
-  type: BD Corporate Site
-  url: https://www.bd.com/
-- group: operate
-  title: ''
-  type: Contact
-  url: https://www.bd.com/en-us/about-bd/contact-us
-- group: commercial
-  title: ''
-  type: TermsOfService
-  url: https://www.bd.com/en-us/terms-of-use
-- group: commercial
-  title: ''
-  type: PrivacyPolicy
-  url: https://www.bd.com/en-us/our-company/privacy
 - group: company
   title: ''
   type: LinkedIn
@@ -92,14 +112,17 @@ finops:
   slug: carefusion-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carefusion.png
 layout: provider
-modified: '2026-04-23'
+modified: '2026-09-06'
 name: CareFusion (BD)
 nav: Providers
 network: true
-overview: CareFusion (BD) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Dispensing, BD, CareFusion, Connected Devices, and EMR Integration.
+overview: 'CareFusion (BD) publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Automated Dispensing, BD, CareFusion, Connected Devices, and EMR Integration.
+
+
+  CareFusion (BD)''s developer surface includes support and 14 more developer resources.'
 plans:
 - name: Carefusion Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: carefusion-plans-pricing
 press:
 - date: '2026-05-25'
@@ -119,45 +142,55 @@ press:
   url: https://medcitynews.com/2017/04/5-takeaways-becton-dickinsons-24b-acquisition-c-r-bard/
 random_paper: 0
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Carefusion Rate Limits
   slug: carefusion-rate-limits
 score:
   band: emerging
-  composite: 13.2
+  composite: 23.1
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 41.0
+    artifact_dirs: 13
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.9
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    developer_ergonomics: 14.3
+    discoverability: 66.7
+    governance: 18.2
+    operational_transparency: 10.5
   previous_composite: 13.2
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 12.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 40.0
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/carefusion/refs/heads/main/screenshots/carefusion-2026-06-20T174000.png
 security:
 - kind: domain-security
   name: Carefusion Domain Security
   slug: carefusion-domain-security
-  summary_line: TLSv1.3 · HSTS · DMARC
+  summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Carefusion Vulnerability Disclosure
+  slug: carefusion-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Carefusion Trust Center
+  slug: carefusion-trust-center
+  summary_line: ISO/IEC 27001:2022, UL 2900-2-1 (UL Cybersecurity Assurance Program), SOC 2+ (Security, Availability), MDS2 (Manufacturer Disclosure Statement for Medical Device Security)
 slug: carefusion
 tags:
 - Automated Dispensing
@@ -171,5 +204,5 @@ tags:
 - Medical Devices
 - Pyxis
 - Smart Pumps
-website: https://www.bd.com/en-us/products-and-solutions/brand-families/carefusion
+website: https://www.bd.com/
 ---

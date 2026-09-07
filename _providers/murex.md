@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -352,7 +352,7 @@ score:
   band: thin
   composite: 31.0
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
@@ -382,8 +382,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/murex/refs/heads/main/screenshots/murex-2026-06-20T185859.png
 security:

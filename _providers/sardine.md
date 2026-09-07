@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The Sardine REST API enables real-time fraud detection and compliance across the customer lifecycle. Core API categories include Device APIs for device fingerprinting and behavioral biometrics, Custom
@@ -155,8 +155,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 32.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sardine/refs/heads/main/screenshots/sardine-2026-06-20T193433.png
 security:

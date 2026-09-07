@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -148,7 +148,7 @@ score:
   band: thin
   composite: 34.0
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -178,8 +178,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/payhip/refs/heads/main/screenshots/payhip-2026-08-07T191637.png
 security:

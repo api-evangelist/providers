@@ -11,8 +11,8 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.18.3
-last_updated: '2026-09-04'
+schema_version: 0.19.0
+last_updated: '2026-09-06'
 maintainer: kin@apievangelist.com
 
 # The public "what changed" note. The apis.io /rating/ page renders this rather than
@@ -22,56 +22,32 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.18.3
+  version: 0.19.0
   body: |
-    THREE PROVENANCE CORRECTIONS. No new dimensions, no weight changes, no band
-    re-cut. Each stops a score crediting work the provider did not do, or
-    penalising a provider for the only correct answer available to them.
+    STRUCTURAL ONLY. No weight change, no new check, no band re-cut, and NO SCORE
+    MOVES. This version makes a join possible; it does not yet use it.
 
-    OPERATOR-SUPPLIED HOSTS ARE NOT UNCALLABLE (roadmap#184, #249). Self-hosted
-    software cannot publish a callable host: Matomo declares
-    `https://{matomo_host}/index.php` and Grafana `http://localhost:3000/api`,
-    and both were scored as if they had failed to fill in a blank. Those are now
-    N/A in servers_resolvable — out of the numerator AND the denominator, the
-    same treatment `inbound` gets, because in both cases somebody other than the
-    vendor is the host. 439 providers were penalised this way against 137
-    publishing a genuine placeholder. Credit was the other option and is wrong:
-    it would rank Matomo's callability equal to Stripe's.
+    `industry_regulatory.*.regime_jurisdictions` gives every one of the 42 regimes a
+    jurisdiction as a FIELD. It was previously readable only as prose inside the regime
+    label, where extracting a trailing parenthetical finds 20 of 42, misses the prefix
+    forms (`UK Open Banking`, `Green Button / ESPI`) and false-positives on `CPNI`,
+    which is not a jurisdiction at all.
 
-    A POSTMAN COLLECTION WE GENERATED IS NOT THE PROVIDER'S (roadmap#208).
-    `postman_present` pays 2 points of developer_ergonomics for a runnable
-    collection — "the fastest path from reading about the API to calling it",
-    a claim about what the PROVIDER published. 1,623 providers were satisfying it
-    with a collection API Evangelist authored: 656 point at a file inside their
-    own repo, and 1,080 at `postman.com/kinlaneapi/...`, which is OUR workspace.
-    It is now provenance-graded against a new collections class, exactly as
-    `agent_skill_present` has been since 0.6. Authorship comes from the per-repo
-    manifest rather than the files, because a Postman collection is JSON an
-    importer validates and cannot carry a marker.
+    32 of 42 name one. 10 are STATED-EMPTY rather than unfilled: FDX and ISO 20022 are
+    industry bodies, PCI-DSS and card-network rules are contractual, ITU is a treaty
+    organisation. An empty list is a decision, and saying so is the point — an absent
+    field and a jurisdiction-free regime are different facts.
 
-    THE POINTER DECIDES, NOT THE DIRECTORY. Grading by the collections class
-    alone also docked 301 providers who publish their OWN collection, because
-    their repo happens to hold ones we derived. They keep full credit. The test
-    is the WORKSPACE OWNER and never the scheme: `postman.com/kinlaneapi/...` is
-    an https URL and it is ours, so "remote" would have handed the 1,080 their
-    points straight back.
+    Slugs use the SAME vocabulary as provider_countries.json and provider_regions.json
+    so the two sides can actually be joined. ISO codes would join nothing.
 
-    A SELF-CONFESSED SCAFFOLD IS 0% COVERAGE (roadmap#251, Kin 2026-09-03). A
-    spec whose own description says "modeled from the published documentation" or
-    "endpoint scaffold" states that nobody exercised the API. It shared a bucket
-    and a 0.25 credit with `derived`, so a mechanically derived contract and a
-    document admitting it was never tested counted the same — and a scaffold-tier
-    repo could read 100% covered. `scaffold` is its own tier at 0.00, so those
-    checks contribute their full points to catalog_gap.
-
-    Also in this pass, and not a rubric change: the `domain_standards` signal
-    `domain_standard_conformance` reads had no code producing it, and the script
-    owning its file rebuilt that file without the key — so the next routine run
-    would have zeroed the check for all 164 providers carrying it. The derivation
-    is rebuilt and covers 230, including 18 OGC providers whose /conformance
-    endpoints declare opengis.net classes (roadmap#81). It drops 18 entries
-    credited on a substring ("Microdata" contains "odata") and one credited by an
-    artifact that says `conforms: false`.
+    WHY THIS IS NOT THE FIX (roadmap#85). The regulatory facet is conditional on
+    industry and its regime set still falls out of the industry tag alone, so a provider
+    operating in two jurisdictions is measured against one. 8,263 providers match a
+    regulated regime, 3,210 now carry a jurisdiction signal, and 839 of those are
+    multi-region. Making the facet evaluate the UNION of applicable regimes moves those
+    scores and needs a band model, so it belongs to a later version. This is the
+    precondition, shipped on its own so that change can be attributed when it lands.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -771,6 +747,26 @@ industry_regulatory:
     label: Banking & Open Finance
     specificity: 3
     regimes: [CDR (Australia), UK Open Banking, PSD2/PSD3 (EU), 1033 (US), FDX]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms (`UK Open Banking`, `Green Button
+    # / ESPI`) and false-positives on `CPNI`, which is not a jurisdiction.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. ISO codes would join nothing.
+    #
+    # An EMPTY list is a STATED fact, not a gap: FDX and ISO 20022 are industry bodies, PCI-DSS
+    # and card-network rules are contractual, ITU is a treaty organisation. 32 of 42 name a
+    # jurisdiction; 10 genuinely do not.
+    #
+    # NOTHING READS THIS YET — it does not choose the regime set. That moves scores for 3,210
+    # providers and belongs to a later version. This makes the join possible.
+    regime_jurisdictions:
+      "CDR (Australia)": [australia]
+      "UK Open Banking": [united-kingdom]
+      "PSD2/PSD3 (EU)": [europe]
+      "1033 (US)": [united-states]
+      "FDX": []
     basis: >
       Consumer-permissioned data sharing and payment access, mandated or
       standardized: consent-scoped OAuth/OIDC (often FAPI), a named data
@@ -784,6 +780,25 @@ industry_regulatory:
     label: Securities & Market Data
     specificity: 2
     regimes: [MiFID II (EU), SEC/FINRA (US), exchange data licensing, market-data redistribution]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms (`UK Open Banking`, `Green Button
+    # / ESPI`) and false-positives on `CPNI`, which is not a jurisdiction.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. ISO codes would join nothing.
+    #
+    # An EMPTY list is a STATED fact, not a gap: FDX and ISO 20022 are industry bodies, PCI-DSS
+    # and card-network rules are contractual, ITU is a treaty organisation. 32 of 42 name a
+    # jurisdiction; 10 genuinely do not.
+    #
+    # NOTHING READS THIS YET — it does not choose the regime set. That moves scores for 3,210
+    # providers and belongs to a later version. This makes the join possible.
+    regime_jurisdictions:
+      "MiFID II (EU)": [europe]
+      "SEC/FINRA (US)": [united-states]
+      "exchange data licensing": []
+      "market-data redistribution": []
     basis: >
       Licensed market data and securities activity: entitlement and
       redistribution terms, licensing/compliance disclosure, and auditability.
@@ -813,6 +828,25 @@ industry_regulatory:
     label: Health
     specificity: 3
     regimes: [HIPAA (US), FHIR / US Core, 21st Century Cures Act, EHDS (EU)]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms (`UK Open Banking`, `Green Button
+    # / ESPI`) and false-positives on `CPNI`, which is not a jurisdiction.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. ISO codes would join nothing.
+    #
+    # An EMPTY list is a STATED fact, not a gap: FDX and ISO 20022 are industry bodies, PCI-DSS
+    # and card-network rules are contractual, ITU is a treaty organisation. 32 of 42 name a
+    # jurisdiction; 10 genuinely do not.
+    #
+    # NOTHING READS THIS YET — it does not choose the regime set. That moves scores for 3,210
+    # providers and belongs to a later version. This makes the join possible.
+    regime_jurisdictions:
+      "HIPAA (US)": [united-states]
+      "FHIR / US Core": [united-states]
+      "21st Century Cures Act": [united-states]
+      "EHDS (EU)": [europe]
     basis: >
       Protected health information and interoperability mandates: FHIR
       conformance, consent, HIPAA-grade security, and info-blocking posture.
@@ -824,6 +858,25 @@ industry_regulatory:
     label: Payments
     specificity: 3
     regimes: [PCI-DSS, card-network rules, SCA/PSD2, ISO 20022]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms (`UK Open Banking`, `Green Button
+    # / ESPI`) and false-positives on `CPNI`, which is not a jurisdiction.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. ISO codes would join nothing.
+    #
+    # An EMPTY list is a STATED fact, not a gap: FDX and ISO 20022 are industry bodies, PCI-DSS
+    # and card-network rules are contractual, ITU is a treaty organisation. 32 of 42 name a
+    # jurisdiction; 10 genuinely do not.
+    #
+    # NOTHING READS THIS YET — it does not choose the regime set. That moves scores for 3,210
+    # providers and belongs to a later version. This makes the join possible.
+    regime_jurisdictions:
+      "PCI-DSS": []
+      "card-network rules": []
+      "SCA/PSD2": [europe]
+      "ISO 20022": []
     basis: >
       Cardholder and payment data: PCI-DSS scope, strong customer
       authentication, and a security + disclosure posture.
@@ -835,6 +888,25 @@ industry_regulatory:
     label: Insurance
     specificity: 4
     regimes: [NAIC/solvency, open insurance, IDD (EU), state DOI rules]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms (`UK Open Banking`, `Green Button
+    # / ESPI`) and false-positives on `CPNI`, which is not a jurisdiction.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. ISO codes would join nothing.
+    #
+    # An EMPTY list is a STATED fact, not a gap: FDX and ISO 20022 are industry bodies, PCI-DSS
+    # and card-network rules are contractual, ITU is a treaty organisation. 32 of 42 name a
+    # jurisdiction; 10 genuinely do not.
+    #
+    # NOTHING READS THIS YET — it does not choose the regime set. That moves scores for 3,210
+    # providers and belongs to a later version. This makes the join possible.
+    regime_jurisdictions:
+      "NAIC/solvency": [united-states]
+      "open insurance": []
+      "IDD (EU)": [europe]
+      "state DOI rules": [united-states]
     basis: >
       Policyholder data and market conduct: consent, disclosure, and
       standards conformance where an open-insurance regime exists.
@@ -848,6 +920,20 @@ industry_regulatory:
     specificity: 4
     regimes: [FCC / Communications Act (CPNI), Ofcom / Communications Act 2003,
               ACMA / Telecommunications Act, ITU Constitution, ePrivacy Directive]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms and false-positives on `CPNI`.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. An EMPTY list is a STATED fact, not a gap — ITU is a treaty body.
+    #
+    # NOTHING READS THIS YET; it does not choose the regime set.
+    regime_jurisdictions:
+      "FCC / Communications Act (CPNI)": [united-states]
+      "Ofcom / Communications Act 2003": [united-kingdom]
+      "ACMA / Telecommunications Act": [australia]
+      "ITU Constitution": []
+      "ePrivacy Directive": [europe]
     basis: >
       Network capability exposed as an API, over exactly the subscriber data
       the CPNI and ePrivacy regimes restrict: number verification, SIM swap,
@@ -889,6 +975,20 @@ industry_regulatory:
     regimes: [CDR Energy (Australia), Green Button / ESPI (North America),
               Smart Energy Code + DCC (GB), Ofgem Data Best Practice,
               FERC Order 889 / OASIS (US)]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms and false-positives on `CPNI`.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. An EMPTY list is a STATED fact, not a gap — ITU is a treaty body.
+    #
+    # NOTHING READS THIS YET; it does not choose the regime set.
+    regime_jurisdictions:
+      "CDR Energy (Australia)": [australia]
+      "Green Button / ESPI (North America)": [united-states, canada]
+      "Smart Energy Code + DCC (GB)": [united-kingdom]
+      "Ofgem Data Best Practice": [united-kingdom]
+      "FERC Order 889 / OASIS (US)": [united-states]
     basis: >
       Customer energy data and network open data, both increasingly compelled:
       a consumer data right over usage and billing, and "presumed open" network
@@ -926,6 +1026,22 @@ industry_regulatory:
     specificity: 3
     regimes: ['FERPA (US)', 'Title IV / IPEDS (US)', 'UK GDPR + Equality Act 2010',
               'GDPR (EU)', 'UGC (India)', 'PIPA (Korea)', 'QAA (UK)']
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms and false-positives on `CPNI`.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. An EMPTY list is a STATED fact, not a gap — ITU is a treaty body.
+    #
+    # NOTHING READS THIS YET; it does not choose the regime set.
+    regime_jurisdictions:
+      "FERPA (US)": [united-states]
+      "Title IV / IPEDS (US)": [united-states]
+      "UK GDPR + Equality Act 2010": [united-kingdom]
+      "GDPR (EU)": [europe]
+      "UGC (India)": [india]
+      "PIPA (Korea)": [south-korea]
+      "QAA (UK)": [united-kingdom]
     basis: >
       Student records, research data and institutional accountability: student-data
       protection, accessibility obligations, provisioning between institutional
@@ -942,6 +1058,25 @@ industry_regulatory:
     label: Government & Public Sector
     specificity: 2
     regimes: [FedRAMP, eIDAS (EU), open-data standards, national gov API policy]
+    # roadmap#85 — THE JURISDICTION, AS A FIELD. `regimes` above is display prose with the
+    # jurisdiction buried in the label text, where nothing can read it: extracting a trailing
+    # parenthetical finds 20 of 42, misses the prefix forms (`UK Open Banking`, `Green Button
+    # / ESPI`) and false-positives on `CPNI`, which is not a jurisdiction.
+    #
+    # Slugs, in the SAME vocabulary as provider_countries.json / provider_regions.json, so the
+    # two can be joined. ISO codes would join nothing.
+    #
+    # An EMPTY list is a STATED fact, not a gap: FDX and ISO 20022 are industry bodies, PCI-DSS
+    # and card-network rules are contractual, ITU is a treaty organisation. 32 of 42 name a
+    # jurisdiction; 10 genuinely do not.
+    #
+    # NOTHING READS THIS YET — it does not choose the regime set. That moves scores for 3,210
+    # providers and belongs to a later version. This makes the join possible.
+    regime_jurisdictions:
+      "FedRAMP": [united-states]
+      "eIDAS (EU)": [europe]
+      "open-data standards": []
+      "national gov API policy": []
     basis: >
       Public-sector data and identity: security authorization, accessibility,
       open-data standards, and identity/eIDAS conformance.

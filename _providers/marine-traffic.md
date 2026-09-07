@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 29.8
-  scored_at: '2026-09-05'
+  score: 32.3
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ apis:
   description: The Voyage Information API from MarineTraffic — 5 operation(s) for voyage information.
   name: MarineTraffic Voyage Information API
   slug: marine-traffic-voyage-information-api
-artifact_total: 90
+artifact_total: 91
 collections:
 - collection_type: open
   name: API Collection
@@ -188,6 +188,22 @@ collections:
   name: MarineTraffic AIS Data API
   slug: open-marine-traffic
 common:
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/marine-traffic-authentication.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.kpler.com/company/terms-of-use
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/json-schema/marinetraffic-vessel-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/json-ld/marinetraffic-context.jsonld
 - group: other
   title: ''
   type: CapabilityMap
@@ -381,7 +397,7 @@ overview: 'MarineTraffic publishes 14 APIs on the [APIs.io](https://apis.io/) ne
   The MarineTraffic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MarineTraffic''s developer surface includes developer portal, documentation, API reference, support, sandbox, tooling, and 17 more developer resources.'
+  MarineTraffic''s developer surface includes authentication, developer portal, documentation, API reference, support, sandbox, tooling, and 20 more developer resources.'
 plans:
 - name: Marine Traffic Plans Pricing
   plan_count: 2
@@ -415,7 +431,7 @@ rules:
   slug: marine-traffic-rules
 score:
   band: developing
-  composite: 41.0
+  composite: 45.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 70.5
@@ -423,13 +439,13 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.5
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
     contract_governance: 28.8
     contract_quality: 67.9
-    developer_ergonomics: 38.1
+    developer_ergonomics: 50.0
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 5.3
@@ -441,11 +457,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
 security:
+- kind: authentication
+  name: Marine Traffic Authentication
+  slug: marine-traffic-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Marine Traffic Domain Security
   slug: marine-traffic-domain-security

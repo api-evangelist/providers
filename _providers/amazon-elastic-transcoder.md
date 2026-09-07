@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -1599,7 +1599,7 @@ score:
   band: strong
   composite: 56.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 71.5
     catalog_earned_first_party: 0.0
     catalog_gap: 43.5
@@ -1623,8 +1623,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/screenshots/amazon-elastic-transcoder-2026-06-20T171639.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 1
@@ -500,7 +500,7 @@ score:
   band: strong
   composite: 60.5
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 26
     catalog_earned: 51.0
     catalog_earned_first_party: 8.0
     catalog_gap: 64.0
@@ -527,8 +527,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/screenshots/mediavalet-2026-08-07T172338.png
 security:

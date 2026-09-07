@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Hivemind Enterprise is Shield AI's partner-facing autonomy SDK for developing, evaluating, testing, and deploying mission autonomy onto heterogeneous robotic platforms. It bundles EdgeOS runtime middl
@@ -131,8 +131,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shield-ai/refs/heads/main/screenshots/shield-ai-2026-06-20T193807.png
 security:

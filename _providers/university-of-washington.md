@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -527,7 +527,7 @@ score:
   band: developing
   composite: 39.5
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 67.3
     catalog_earned_first_party: 0.0
     catalog_gap: 47.8
@@ -565,8 +565,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:

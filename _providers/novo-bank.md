@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://www.novo.co
@@ -133,7 +133,7 @@ score:
   band: thin
   composite: 26.3
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 55.0
     catalog_earned_first_party: 0.0
     catalog_gap: 60.0
@@ -156,8 +156,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/screenshots/novo-bank-2026-06-20T190435.png
 security:

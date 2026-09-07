@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Access-key protected HTTP API that lets an organization or a third-party application download call recordings produced by Playbooks, and — with the second permission enabled — start and pause recordin
@@ -175,8 +175,8 @@ score:
   previous_composite: 29.5
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insidesales-com/refs/heads/main/screenshots/insidesales-com-2026-09-02T145900.png
 security:

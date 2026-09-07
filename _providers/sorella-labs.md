@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Decentralized JSON-RPC + WebSocket API for the Angstrom DEX. Every Angstrom node runs its own JSON-RPC server (there is no single central API); a load-balanced HTTPS/WebSocket endpoint is recommended '
@@ -159,8 +159,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorella-labs/refs/heads/main/screenshots/sorella-labs-2026-09-02T160233.png
 security:

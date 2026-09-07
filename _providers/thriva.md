@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ score:
   band: developing
   composite: 42.8
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
@@ -315,8 +315,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/screenshots/thriva-2026-08-17T082348.png
 security:

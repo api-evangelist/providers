@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: RESTful API for the Venzee / Jasper PIM platform. Manage products, variants, categories, brands, attributes and options, channel-specific pricing and inventory, and digital assets; subscribe to webhoo
@@ -152,8 +152,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 35.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/venzee/refs/heads/main/screenshots/venzee-2026-09-02T165653.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -125,7 +125,53 @@ apis:
   description: Identity verification requests
   name: dLocal Verifications API
   slug: dlocal-verifications-api
-artifact_total: 44
+arazzos:
+- description: Authorize a card transaction, confirm the authorization, then capture the funds.
+  name: dLocal Authorize and Capture Payment
+  slug: dlocal-authorize-and-capture-payment-workflow
+- description: Create an alternative payment, check its status, and cancel it while it is still PENDING.
+  name: dLocal Cancel Pending Payment
+  slug: dlocal-cancel-pending-payment-workflow
+- description: Create a KYC verification, confirm it persisted, then branch on its status to update state or list documents.
+  name: dLocal Create and Resolve KYC Verification
+  slug: dlocal-create-and-resolve-kyc-verification-workflow
+- description: Discover a supported payment method, create a payment, then poll its status until it settles.
+  name: dLocal Create Payment and Confirm Status
+  slug: dlocal-create-payment-and-confirm-status-workflow
+- description: Enroll a payer for Pix Automatico, confirm the enrollment is ACTIVE, then place the first recurring charge.
+  name: dLocal Enroll and Charge Recurring
+  slug: dlocal-enroll-and-charge-recurring-workflow
+- description: Preview the exchange rate for a corridor, then create a payment in the local currency.
+  name: dLocal FX Preview and Pay
+  slug: dlocal-fx-preview-and-pay-workflow
+- description: Request a payout on hold, review it, then release or cancel based on the review.
+  name: dLocal Hold and Release Payout
+  slug: dlocal-hold-and-release-payout-workflow
+- description: Confirm a payment, list all refunds raised against it, then retrieve one refund in detail.
+  name: dLocal List and Inspect Payment Refunds
+  slug: dlocal-list-payment-refunds-workflow
+- description: Add a bank account to a sub-merchant, list the account's bank accounts, retrieve one, then disable it.
+  name: dLocal Manage Account Bank Accounts
+  slug: dlocal-manage-account-bank-accounts-workflow
+- description: Create a platform sub-merchant account, attach a bank account, then confirm KYC and balance.
+  name: dLocal Onboard Sub-Merchant Account
+  slug: dlocal-onboard-submerchant-account-workflow
+- description: Check balance, lock an FX quote, request a payout against the quote, then confirm its status.
+  name: dLocal Quote and Request Payout
+  slug: dlocal-quote-and-request-payout-workflow
+- description: Confirm a payment is PAID, issue a refund against it, then verify the refund status.
+  name: dLocal Refund Payment and Confirm
+  slug: dlocal-refund-payment-and-confirm-workflow
+- description: Check the source account balance, transfer funds to another account, then confirm the transfer.
+  name: dLocal Settle Transfer Between Accounts
+  slug: dlocal-settle-transfer-between-accounts-workflow
+- description: Create a payment, simulate a chargeback against it in sandbox, then inspect the chargeback and its status.
+  name: dLocal Simulate and Inspect Chargeback
+  slug: dlocal-simulate-and-inspect-chargeback-workflow
+- description: Tokenize a card, verify the stored token, then charge it in a card payment.
+  name: dLocal Tokenize Card and Charge
+  slug: dlocal-tokenize-card-and-charge-workflow
+artifact_total: 60
 collections:
 - collection_type: open
   name: API Collection
@@ -173,6 +219,190 @@ collections:
   name: dLocal Payins Accounts Verifications API
   slug: open-dlocal-verifications-api
 common:
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-authorize-and-capture-payment-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-cancel-pending-payment-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-create-and-resolve-kyc-verification-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-create-payment-and-confirm-status-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-enroll-and-charge-recurring-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-fx-preview-and-pay-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-hold-and-release-payout-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-list-payment-refunds-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-manage-account-bank-accounts-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-onboard-submerchant-account-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-quote-and-request-payout-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-refund-payment-and-confirm-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-settle-transfer-between-accounts-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-simulate-and-inspect-chargeback-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/dlocal-tokenize-card-and-charge-workflow.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://dlocal.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.dlocal.com/reference/api
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.dlocal.com/docs/pci-compliance
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.dlocal.com/reference/postman-api-collection
+- group: start
+  title: ''
+  type: Signup
+  url: https://dlocal.com/contact-sales/
+- group: other
+  title: ''
+  type: Resources
+  url: https://dlocal.com/careers/
+- group: company
+  title: ''
+  type: Newsletter
+  url: https://dlocal.com/press-releases/
+- group: other
+  title: ''
+  type: Resources
+  url: https://investor.dlocal.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://dlocal.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://dlocal.com/privacy-policy/
+- group: operate
+  title: ''
+  type: Support
+  url: http://intercom.help/end-user-team-faqs/en
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/dlocal
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/dlocal-direct-ios-sdk
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/dlocal-direct-android-sdk
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/mobile-checkout-sdk-ios
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/mobile-checkout-sdk-android
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/web-drop-in-sdk-android
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/data-collector-sdk-ios
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/data-collector-sdk-android
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/dlocal-data-collector-capacitor-plugin
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/dlocal/dlocal-direct-js-native-integration
+- group: build
+  title: ''
+  type: CodeExamples
+  url: https://github.com/dlocal/smart-fields-examples
+- group: build
+  title: ''
+  type: CodeExamples
+  url: https://github.com/dlocal/Starter-Code-Examples
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.dlocal.com/reference/including-dlocaljs
+- group: other
+  title: ''
+  type: Troubleshooting
+  url: https://docs.dlocal.com/reference/troubleshooting-integration
+- group: other
+  title: ''
+  type: Troubleshooting
+  url: https://docs.dlocal.com/reference/troubleshooting-signature
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://docs.dlocal.com/reference/http-errors-payments
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://docs.dlocal.com/reference/http-errors-refunds
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://docs.dlocal.com/reference/http-errors-cards
+- group: design
+  title: ''
+  type: ErrorCodes
+  url: https://docs.dlocal.com/reference/error-codes-payouts-v3
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/dlocal-rules.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -275,10 +505,10 @@ network: true
 overview: 'dLocal publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Payouts API, Accounts API, Balance API, and 12 more. Tagged areas include Payments, Emerging Markets, Payins, Payouts, and Fintech.
 
 
-  The dLocal catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The dLocal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  dLocal''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, and 12 more developer resources.'
+  dLocal''s developer surface includes developer portal, API reference, signup flow, support, code examples, authentication, documentation, and 56 more developer resources.'
 plans:
 - name: Dlocal Plans Pricing
   plan_count: 1
@@ -299,25 +529,36 @@ rules:
     info: 1
     warn: 5
   slug: dlocal-jsonschema-spectral-rules
+- effective_rule_count: 47
+  extends:
+  - spectral:oas
+  name: dLocal API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 2
+    info: 0
+    warn: 4
+  slug: dlocal-rules
 score:
-  band: thin
-  composite: 38.1
+  band: strong
+  composite: 58.4
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 62.3
+    artifact_dirs: 16
+    catalog_earned: 63.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 52.8
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 20.3
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
-    contract_governance: 9.8
-    contract_quality: 60.1
-    developer_ergonomics: 23.8
+    access_clarity: 81.6
+    commercial_clarity: 81.6
+    contract_governance: 13.6
+    contract_quality: 62.9
+    developer_ergonomics: 61.9
     discoverability: 74.1
-    governance: 9.8
+    governance: 13.6
     operational_transparency: 21.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -338,10 +579,10 @@ score:
     matched_via: tags
     regime: Payments
     regime_id: payments
-    score: 26.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 46.9
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlocal/refs/heads/main/screenshots/dlocal-2026-06-20T180058.png
 security:
 - kind: authentication

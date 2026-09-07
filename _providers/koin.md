@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 8
 apis:
 - baseURL: https://api-sandbox.koin.com.br
@@ -336,7 +336,7 @@ score:
   band: developing
   composite: 52.2
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -375,8 +375,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:

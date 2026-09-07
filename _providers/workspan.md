@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 11
 apis:
 - baseURL: https://api-sandbox.workspan.com/oauth
@@ -416,8 +416,8 @@ score:
       total: 26
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workspan/refs/heads/main/screenshots/workspan-2026-08-17T082946.png
 security:

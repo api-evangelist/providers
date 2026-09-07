@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Tsenta's backend API (api.autojobs.me) powers the job-matching, resume tailoring, and application-submission agent, and is exposed to AI clients as a hosted MCP server authorized over OAuth 2.0 (autho
@@ -186,8 +186,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tsenta/refs/heads/main/screenshots/tsenta-2026-09-02T164443.png
 security:

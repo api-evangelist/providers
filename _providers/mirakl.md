@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 56.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 126
   human_in_the_loop: 0
@@ -502,7 +502,7 @@ score:
   band: strong
   composite: 65.3
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 55.0
     catalog_earned_first_party: 12.0
     catalog_gap: 60.0
@@ -529,8 +529,8 @@ score:
       total: 34
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirakl/refs/heads/main/screenshots/mirakl-2026-08-07T183712.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,6 +89,10 @@ collections:
   name: Architect of the Capitol Data Accessibility Visitor Information API
   slug: open-architect-of-the-capitol-visitor-information-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.aoc.gov/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -125,6 +129,34 @@ common:
   title: ''
   type: Blog
   url: https://www.aoc.gov/explore-capitol-campus/blog
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.aoc.gov/privacy-statement
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.aoc.gov/image-terms
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.aoc.gov/contact
+coverage:
+  checked: '2026-09-06'
+  detail: The Architect of the Capitol is a legislative-branch construction and preservation agency with no developer program at all — www.aoc.gov/developers and /api both return 404, there is no pricing, portal or reference page anywhere in its 1,092-URL sitemap, and api.aoc.gov (the host named in the scaffolded OpenAPIs this repo holds) does not resolve in DNS.
+  evidence:
+  - status: 404
+    url: https://www.aoc.gov/developers
+  - status: 404
+    url: https://www.aoc.gov/api
+  - status: 404
+    url: https://www.aoc.gov/.well-known/api-catalog
+  - status: 404
+    url: https://www.aoc.gov/llms.txt
+  - status: 0
+    url: https://api.aoc.gov/openapi.json
+  reason: no-developer-program
+  state: none
 created: '2024-11-21'
 description: The Architect of the Capitol (AOC) serves Congress and the Supreme Court as builder and steward of Capitol Hill's landmark buildings and grounds, preserving historic structures, monuments, art, and gardens across the Capitol campus.
 examples:
@@ -233,7 +265,7 @@ jsonld:
   property_count: 0
   slug: aoc-data-api-context
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-06'
 name: Architect of the Capitol
 nav: Providers
 network: true
@@ -243,14 +275,14 @@ overview: 'Architect of the Capitol publishes 5 APIs on the [APIs.io](https://ap
   The Architect of the Capitol catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Architect of the Capitol''s developer surface includes developer portal, documentation, engineering blog, and 6 more developer resources.'
+  Architect of the Capitol''s developer surface includes developer portal, documentation, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Architect Of The Capitol Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: architect-of-the-capitol-plans-pricing
 random_paper: 16
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Architect Of The Capitol Rate Limits
   slug: architect-of-the-capitol-rate-limits
 rules:
@@ -286,25 +318,25 @@ rules:
     warn: 6
   slug: architect-of-the-capitol-spectral-rules
 score:
-  band: thin
-  composite: 33.6
+  band: developing
+  composite: 47.2
   coverage:
-    artifact_dirs: 15
-    catalog_earned: 66.0
+    artifact_dirs: 16
+    catalog_earned: 63.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 34.0
+    catalog_gap: 37.0
     catalog_max: 100.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.6
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 57.1
+    commercial_clarity: 57.1
     contract_governance: 69.7
     contract_quality: 47.3
-    developer_ergonomics: 33.3
+    developer_ergonomics: 38.1
     discoverability: 59.3
     governance: 69.7
-    operational_transparency: 7.9
+    operational_transparency: 0.0
   previous_composite: 33.6
   provenance:
     agentic_access: derived
@@ -318,10 +350,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 20.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 35.2
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/screenshots/architect-of-the-capitol-2026-06-20T172408.png
 security:
 - kind: domain-security

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The stock WordPress REST API exposed by PlusMargin's marketing site. The root discovery document at /wp-json self-identifies as "Plus Margin" (url https://plusmargin.com) and registers 237 routes acro
@@ -163,8 +163,8 @@ score:
     regions:
     - southeast-asia
   previous_composite: 14.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/plusmargin/refs/heads/main/screenshots/plusmargin-2026-09-02T151555.png
 security:

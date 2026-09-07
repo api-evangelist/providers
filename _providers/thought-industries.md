@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ score:
   band: developing
   composite: 42.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 68.5
     catalog_earned_first_party: 0.0
     catalog_gap: 46.5
@@ -298,8 +298,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:

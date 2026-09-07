@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 50.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://api.getanyapi.com
@@ -33,6 +33,18 @@ apis:
   slug: anyapi-gateway-api
 artifact_total: 10
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://apilayer.com
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://apilayer.com/marketplace
+- group: start
+  title: ''
+  type: Signup
+  url: https://apilayer.com/signup
 - group: auth
   title: ''
   type: DomainSecurity
@@ -184,7 +196,7 @@ network: true
 overview: 'AnyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Gateway API. Tagged areas include developer_tools, data, search, scraping, and social_media.
 
 
-  AnyAPI''s developer surface includes authentication, CLI, changelog, sandbox, documentation, API reference, getting-started guide, and 26 more developer resources.'
+  AnyAPI''s developer surface includes developer portal, signup flow, authentication, CLI, changelog, sandbox, documentation, and 29 more developer resources.'
 plans:
 - name: Anyapi Plans Pricing
   plan_count: 0
@@ -203,13 +215,13 @@ score:
   band: developing
   composite: 51.2
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 22
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: 0.0
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -219,7 +231,7 @@ score:
     discoverability: 87.0
     governance: 18.2
     operational_transparency: 28.9
-  previous_composite: 52.5
+  previous_composite: 51.2
   provenance:
     conformance: first-party
     mcp: first-party
@@ -230,8 +242,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: authentication

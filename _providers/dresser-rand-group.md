@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 2
 common:
@@ -50,21 +50,29 @@ common:
   url: security/dresser-rand-group-domain-security.yml
 - group: company
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/dresser-rand
-- group: company
-  title: ''
   type: Website
   url: https://www.siemens-energy.com/
 - group: other
   title: ''
   type: Successor
   url: https://www.siemens-energy.com/global/en/home.html
+coverage:
+  checked: '2026-09-06'
+  detail: Dresser-Rand's own domain still resolves but answers every path — root, /robots.txt and every /.well-known/ path alike — with one blanket 301 into a Siemens Energy marketing page that is itself a 404, and HTTPS on the host does not answer at all; the brand was absorbed by Siemens in 2015 and even its LinkedIn company page is now gone.
+  evidence:
+  - status: 301
+    url: http://dresser-rand.com/.well-known/security.txt
+  - status: 404
+    url: https://www.siemens-energy.com/global/en/offerings/industrial-applications.html
+  - status: 404
+    url: https://www.linkedin.com/company/dresser-rand
+  reason: defunct
+  state: none
 created: '2026-03-24'
 description: Dresser-Rand Group was a global supplier of rotating equipment solutions to the worldwide oil, gas, petrochemical, and process industries. It was acquired by Siemens in 2015 and now operates as part of Siemens Energy.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dresser-rand-group.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: Dresser-Rand Group
 nav: Providers
 network: true
@@ -90,7 +98,7 @@ score:
   band: minimal
   composite: 3.6
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 22.0
     catalog_earned_first_party: 0.0
     catalog_gap: 93.0
@@ -113,8 +121,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 16.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dresser-rand-group/refs/heads/main/screenshots/dresser-rand-group-2026-06-20T180225.png
 security:

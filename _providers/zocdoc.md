@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -387,7 +387,7 @@ score:
   band: strong
   composite: 65.0
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 64.3
     catalog_earned_first_party: 8.0
     catalog_gap: 50.8
@@ -420,8 +420,8 @@ score:
     regime: Health
     regime_id: health
     score: 60.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zocdoc/refs/heads/main/screenshots/zocdoc-2026-06-20T201932.png
 security:

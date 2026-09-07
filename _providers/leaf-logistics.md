@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The API behind the Leaf Logistics platform. api.leaflogistics.com runs Hasura GraphQL Engine v2.35.1 (community edition, pro-lite console) and exposes a GraphQL endpoint at /v1/graphql plus a Hasura R
@@ -183,8 +183,8 @@ score:
   previous_composite: 19.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leaf-logistics/refs/heads/main/screenshots/leaf-logistics-2026-09-02T150228.png
 security:

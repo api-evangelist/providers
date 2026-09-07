@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,6 +84,10 @@ collections:
   name: Hacker News API
   slug: open-hacker-news
 common:
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: agent
   title: ''
   type: AgenticAccess
@@ -147,7 +151,7 @@ network: true
 overview: 'Hacker News publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Items API, Lists API, Live API, and 1 more. Tagged areas include Developer Community, Technology News, and Y Combinator.
 
 
-  Hacker News'' developer surface includes documentation, developer portal, and 10 more developer resources.'
+  Hacker News'' developer surface includes documentation, developer portal, and 11 more developer resources.'
 plans:
 - name: Hacker News Plans Pricing
   plan_count: 3
@@ -185,8 +189,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hacker-news/refs/heads/main/screenshots/hacker-news-2026-06-20T182448.png
 security:

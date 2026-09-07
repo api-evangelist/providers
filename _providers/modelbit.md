@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Every Modelbit deployment is exposed as a versioned REST inference endpoint. POST an inference request (single or batch) to the deployment URL and receive predictions; access can be gated with API key
@@ -143,8 +143,8 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 29.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: API to retrieve song information from Gaana
@@ -85,8 +85,8 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 6.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gaana/refs/heads/main/screenshots/gaana-2026-06-20T181633.png
 slug: gaana

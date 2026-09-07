@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 2
 common:
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.kaizenlabs.co/security-compliance/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,11 +107,11 @@ network: true
 overview: 'Kaizen Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GovTech, Public Sector, Government, and Civic Technology.
 
 
-  Kaizen Labs'' developer surface includes pricing, signup flow, support, and 11 more developer resources.'
+  Kaizen Labs'' developer surface includes pricing, signup flow, support, and 12 more developer resources.'
 random_paper: 13
 score:
-  band: minimal
-  composite: 9.7
+  band: emerging
+  composite: 11.0
   coverage:
     artifact_dirs: 3
     catalog_earned: 27.0
@@ -115,7 +119,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.3
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -124,7 +128,7 @@ score:
     developer_ergonomics: 4.8
     discoverability: 57.4
     governance: 0.0
-    operational_transparency: 0.0
+    operational_transparency: 10.5
   previous_composite: 9.7
   regulatory:
     applies: true
@@ -132,8 +136,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaizen-labs/refs/heads/main/screenshots/kaizen-labs-2026-07-25T223421.png
 security:

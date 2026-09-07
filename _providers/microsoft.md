@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -988,7 +988,7 @@ score:
   band: strong
   composite: 58.9
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -1012,8 +1012,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 59
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

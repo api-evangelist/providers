@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The Mosaic Financing API is the integration surface Solar Mosaic published for its solar installer, dealer and capital partners, documented on a ReadMe-hosted developer portal titled "Mosaic Financing
@@ -155,8 +155,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-mosaic/refs/heads/main/screenshots/solar-mosaic-2026-09-02T160117.png
 security:

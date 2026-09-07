@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Auto-generated RESTful and GraphQL APIs derived from user-defined content type definitions, enabling full CRUD operations on content objects with OpenAPI schema support.
@@ -118,8 +118,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flotiq/refs/heads/main/screenshots/flotiq-2026-06-20T181326.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -125,6 +125,14 @@ collections:
   name: Amazon DynamoDB API
   slug: open-amazon-dynamodb
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aws.amazon.com/dynamodb/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://aws.amazon.com/dynamodb/pricing/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -623,7 +631,7 @@ overview: 'Amazon DynamoDB publishes 5 APIs on the [APIs.io](https://apis.io/) n
   The Amazon DynamoDB catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Amazon DynamoDB''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 28 more developer resources.'
+  Amazon DynamoDB''s developer surface includes pricing, authentication, developer portal, documentation, support, engineering blog, developer console, and 30 more developer resources.'
 plans:
 - name: Amazon Dynamodb Plans Pricing
   plan_count: 3
@@ -683,8 +691,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/screenshots/amazon-dynamodb-2026-06-20T171630.png
 security:

@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 235
   human_in_the_loop: 25
@@ -695,7 +695,7 @@ score:
   band: exemplar
   composite: 73.9
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 31
     catalog_earned: 80.3
     catalog_earned_first_party: 24.0
     catalog_gap: 34.8
@@ -722,8 +722,8 @@ score:
       total: 61
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/treasure-data/refs/heads/main/screenshots/treasure-data-2026-06-20T195643.png
 security:

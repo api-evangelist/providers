@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -1660,13 +1660,13 @@ score:
   band: strong
   composite: 61.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 48.5
     catalog_earned_first_party: 0.0
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.9
+  delta: 0.0
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -1679,7 +1679,7 @@ score:
   open_source:
     applies: true
     score: 100.0
-  previous_composite: 60.8
+  previous_composite: 61.7
   provenance:
     agentic_access: derived
     contracts:
@@ -1690,8 +1690,8 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:

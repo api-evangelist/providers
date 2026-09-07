@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Hosted GraphQL API behind the Q-CTRL Boulder Opal and Fire Opal Python clients. Not published as a public OpenAPI/REST spec; accessed via the official SDKs with an account-issued API key.
@@ -168,8 +168,8 @@ score:
     governance: 0.0
     operational_transparency: 44.7
   previous_composite: 30.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/q-ctrl/refs/heads/main/screenshots/q-ctrl-2026-09-02T152405.png
 security:

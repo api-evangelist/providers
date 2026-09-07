@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: true
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.9
-  scored_at: '2026-09-05'
+  score: 24.4
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -124,7 +124,7 @@ apis:
 - description: The VersionService API from Argo CD — 1 operation(s) for versionservice.
   name: Argo CD VersionService API
   slug: argocd-versionservice-api
-artifact_total: 47
+artifact_total: 49
 collections:
 - collection_type: open
   name: API Collection
@@ -172,6 +172,46 @@ collections:
   name: Consolidate Services AccountService VersionService API
   slug: open-argocd-versionservice-api
 common:
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/argoproj/argo-cd/blob/master/SECURITY.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/argoproj/argo-cd/blob/master/CONTRIBUTING.md
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/argocd-authentication.yml
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/argoproj/argo-cd
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://github.com/argoproj/argo-cd/blob/master/CHANGELOG.md
+- group: build
+  title: ''
+  type: CLI
+  url: https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/argoproj/argo-cd/tree/master/pkg/apiclient
+- group: operate
+  title: ''
+  type: Support
+  url: https://github.com/argoproj/argo-cd/issues
+- group: design
+  title: ''
+  type: SpectralRules
+  url: rules/argocd-spectral-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/argocd-vocabulary.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -283,7 +323,10 @@ network: true
 overview: 'Argo CD publishes 13 APIs on the [APIs.io](https://apis.io/) network, including AccountService API, ApplicationService API, ApplicationSetService API, and 10 more. Tagged areas include DevOps, GitOps, Kubernetes, Continuous Delivery, and CNCF.
 
 
-  Argo CD''s developer surface includes documentation, API reference, getting-started guide, engineering blog, YouTube channel, release notes, and 18 more developer resources.'
+  The Argo CD catalog on APIs.io includes 1 Spectral governance ruleset.
+
+
+  Argo CD''s developer surface includes authentication, changelog, CLI, support, documentation, API reference, getting-started guide, and 27 more developer resources.'
 plans:
 - name: Argocd Plans Pricing
   plan_count: 2
@@ -293,26 +336,38 @@ rate_limits:
 - limit_count: 4
   name: Argocd Rate Limits
   slug: argocd-rate-limits
+rules:
+- effective_rule_count: 62
+  extends:
+  - spectral:oas
+  name: Argo CD API Rules
+  rule_count: 21
+  severity_counts:
+    error: 7
+    hint: 0
+    info: 3
+    warn: 11
+  slug: argocd-spectral-rules
 score:
   band: thin
-  composite: 27.8
+  composite: 38.8
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 35.0
+    artifact_dirs: 12
+    catalog_earned: 44.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
+    catalog_gap: 70.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.0
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
-    contract_governance: 0.0
+    contract_governance: 28.8
     contract_quality: 39.3
-    developer_ergonomics: 31.0
+    developer_ergonomics: 61.9
     discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 31.6
+    governance: 28.8
+    operational_transparency: 42.1
   previous_composite: 27.8
   provenance:
     agentic_access: derived
@@ -321,11 +376,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/argocd/refs/heads/main/screenshots/argocd-2026-06-20T172419.png
 security:
+- kind: authentication
+  name: Argocd Authentication
+  slug: argocd-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Argocd Domain Security
   slug: argocd-domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -1237,7 +1237,7 @@ score:
   band: exemplar
   composite: 76.1
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 34
     catalog_earned: 89.5
     catalog_earned_first_party: 0.0
     catalog_gap: 25.5
@@ -1264,8 +1264,8 @@ score:
       total: 58
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:

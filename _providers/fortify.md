@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.4
-  scored_at: '2026-09-05'
+  score: 26.8
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -255,7 +255,7 @@ apis:
   description: Access and manage vulnerability findings
   name: Fortify Vulnerabilities API
   slug: fortify-vulnerabilities-api
-artifact_total: 150
+artifact_total: 151
 collections:
 - collection_type: postman
   name: Fortify on Demand Alert Definitions API
@@ -524,6 +524,66 @@ collections:
 common:
 - group: other
   title: ''
+  type: Overlay
+  url: overlays/fortify-fod-overlay.yaml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://api.ams.fortify.com/swagger/ui/index
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.ams.fortify.com/swagger/ui/index
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/fortify-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fortify-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/fortify-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fortify-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/fortify-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fortify-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fortify-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fortify-lifecycle.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/fortify-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.opentext.com/about/security-acknowledgements
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fortify-conventions.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: other
+  title: ''
   type: CapabilityMap
   url: capabilities/fortify-capability-edges.yml
 - group: build
@@ -673,7 +733,7 @@ overview: 'Fortify publishes 42 APIs on the [APIs.io](https://apis.io/) network,
   The Fortify catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fortify''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 21 more developer resources.'
+  Fortify''s developer surface includes API reference, CLI, authentication, developer portal, documentation, getting-started guide, engineering blog, and 36 more developer resources.'
 plans:
 - name: Fortify Plans Pricing
   plan_count: 4
@@ -695,25 +755,25 @@ rules:
     warn: 3
   slug: fortify-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 52.6
+  band: strong
+  composite: 57.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 24
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
-    contract_governance: 9.8
+    contract_governance: 28.0
     contract_quality: 66.9
-    developer_ergonomics: 70.2
+    developer_ergonomics: 77.4
     discoverability: 75.9
-    governance: 9.8
-    operational_transparency: 23.7
+    governance: 28.0
+    operational_transparency: 34.2
   previous_composite: 52.6
   provenance:
     agentic_access: derived
@@ -722,9 +782,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 42
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-08-17T123433.png
 security:
 - kind: authentication
@@ -735,6 +795,10 @@ security:
   name: Fortify Domain Security
   slug: fortify-domain-security
   summary_line: TLSv1.2 · DMARC
+- kind: vulnerability-disclosure
+  name: Fortify Vulnerability Disclosure
+  slug: fortify-vulnerability-disclosure
+  summary_line: security.txt · contact published
 skill_count: 7
 skills:
 - name: fcli-common

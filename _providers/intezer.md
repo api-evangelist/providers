@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Intezer Platform API 2.0 — submit files, URLs, hashes and endpoint scans for autonomous malware analysis and code-reuse detection, poll analysis status, and retrieve verdicts, sub-analyses and IOCs. A
@@ -167,8 +167,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intezer/refs/heads/main/screenshots/intezer-2026-07-25T222717.png
 security:

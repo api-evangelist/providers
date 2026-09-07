@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -22,8 +22,8 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: derived
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 27.6
-  scored_at: '2026-09-05'
+  score: 34.6
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 30
   slug: gotowebinar-agentic-access
   summary_line: 30 operations · 13 acting
-api_count: 2
+api_count: 3
 apis:
 - baseURL: https://api.getgo.com/G2W/rest/v2
   baseurl_source: declared
@@ -104,11 +104,14 @@ apis:
   description: Create, read, update, and delete webinars.
   name: GoToWebinar Webinars API
   slug: gotowebinar-webinars-api
-artifact_total: 83
+artifact_total: 86
 asyncapis:
 - description: Outbound webhook events delivered by the GoToWebinar webhook infrastructure to a developer-supplied callback URL. All events are HTTP POSTs signed via the `X-Webhook-Signature` header so receivers can
   name: GoToWebinar Webhook Events
   slug: gotowebinar-webhooks-asyncapi
+- description: ''
+  name: Gotowebinar Webhooks
+  slug: gotowebinar-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -156,6 +159,114 @@ collections:
   name: GoToWebinar REST Attendees Webinars API
   slug: open-gotowebinar-webinars-api
 common:
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/gotowebinar-openapi.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gotowebinar-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/gotowebinar-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/gotowebinar-well-known.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/gotowebinar-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gotowebinar-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/gotowebinar-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gotowebinar-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.goto.com/company/trust/compliance
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/gotowebinar-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/gotowebinar-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.goto.com/company/trust/security-measures
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gotowebinar-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gotowebinar-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gotowebinar-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/gotowebinar-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/gotowebinar-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Postman
+  url: collections/gotowebinar-v2-provider.postman_collection.json
+- group: company
+  title: ''
+  type: Website
+  url: https://www.goto.com/webinar
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.goto.com/GoToWebinarV2
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/GoTo-Developers
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.goto.com/blog
+- group: start
+  title: ''
+  type: SignUp
+  url: https://developer.goto.com/signup
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.goto.com/company/legal/api-terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.goto.com/company/legal/privacy
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/goto
 - group: agent
   title: ''
   type: AgenticAccess
@@ -339,10 +450,10 @@ network: true
 overview: 'GoToWebinar publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Attendees API, Co-Organizers API, Panelists API, and 9 more. Tagged areas include Attendees, Collaboration, Communications, Event, and Meetings.
 
 
-  The GoToWebinar catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+  The GoToWebinar catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  GoToWebinar''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, support, signup flow, and 14 more developer resources.'
+  GoToWebinar''s developer surface includes API reference, engineering blog, signup flow, authentication, developer portal, documentation, getting-started guide, and 41 more developer resources.'
 plans:
 - name: Gotowebinar Plans Pricing
   plan_count: 4
@@ -391,36 +502,39 @@ scopes:
   slug: gotowebinar-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.9
+  band: strong
+  composite: 65.9
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 69.5
+    artifact_dirs: 28
+    catalog_earned: 72.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 45.5
+    catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 14.0
   facets:
-    access_clarity: 63.2
-    commercial_clarity: 63.2
-    contract_governance: 28.8
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 33.3
     contract_quality: 65.1
-    developer_ergonomics: 42.9
-    discoverability: 68.5
-    governance: 28.8
-    operational_transparency: 31.6
+    developer_ergonomics: 55.4
+    discoverability: 74.1
+    governance: 33.3
+    operational_transparency: 55.3
   previous_composite: 51.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gotowebinar/refs/heads/main/screenshots/gotowebinar-2026-06-20T182257.png
 security:
 - kind: authentication
@@ -431,6 +545,14 @@ security:
   name: Gotowebinar Domain Security
   slug: gotowebinar-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Gotowebinar Vulnerability Disclosure
+  slug: gotowebinar-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Gotowebinar Trust Center
+  slug: gotowebinar-trust-center
+  summary_line: SOC 2 (Type II), SOC 3, C5 (BSI Cloud Computing Compliance Criteria Catalogue)
 slug: gotowebinar
 tags:
 - Attendees
@@ -458,5 +580,5 @@ use_cases:
   name: Internal Town Halls
 - description: Professional associations deliver accredited training webinars and export attendance data for CEU credit reporting.
   name: Continuing Education
-website: https://developer.goto.com/
+website: https://www.goto.com/webinar
 ---

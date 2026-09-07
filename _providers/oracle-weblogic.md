@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 5
@@ -735,13 +735,13 @@ score:
   band: developing
   composite: 42.5
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.6
+  delta: 0.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -751,7 +751,7 @@ score:
     discoverability: 57.4
     governance: 9.8
     operational_transparency: 26.3
-  previous_composite: 41.9
+  previous_composite: 42.5
   provenance:
     agentic_access: derived
     contracts:
@@ -759,8 +759,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 41
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-weblogic/refs/heads/main/screenshots/oracle-weblogic-2026-06-20T191145.png
 security:

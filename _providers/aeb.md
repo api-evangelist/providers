@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 11
 apis:
 - baseURL: https://rz3.aeb.de/test2ici/rest
@@ -471,7 +471,7 @@ score:
   band: emerging
   composite: 22.7
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -508,8 +508,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 6.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aeb/refs/heads/main/screenshots/aeb-2026-08-07T160936.png
 slug: aeb

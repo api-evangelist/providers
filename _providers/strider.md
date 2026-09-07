@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: Strider's hosted Model Context Protocol server, published at app.striderintel.com/app-api/mcp. It advertises itself by name ("Strider MCP") in an RFC 9728 protected-resource metadata document and is p
@@ -174,8 +174,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strider/refs/heads/main/screenshots/strider-2026-09-02T161013.png
 security:

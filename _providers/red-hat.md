@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 50.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -1450,7 +1450,7 @@ score:
   band: strong
   composite: 56.0
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 41.5
     catalog_earned_first_party: 0.0
     catalog_gap: 73.5
@@ -1476,8 +1476,8 @@ score:
       marker_coverage: 0.0
       total: 34
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192726.png
 security:

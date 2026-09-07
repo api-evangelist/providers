@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: About
+  url: https://www.solace.health/about
 - group: company
   title: ''
   type: Website
@@ -83,7 +87,7 @@ network: true
 overview: 'Solace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Patient Advocacy, and Care Navigation.
 
 
-  Solace''s developer surface includes engineering blog, support, and 7 more developer resources.'
+  Solace''s developer surface includes engineering blog, support, and 8 more developer resources.'
 random_paper: 1
 score:
   band: minimal
@@ -95,7 +99,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 1.0
+  delta: 0.0
   facets:
     access_clarity: 6.6
     commercial_clarity: 6.6
@@ -105,15 +109,15 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 6.4
+  previous_composite: 7.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solace/refs/heads/main/screenshots/solace-2026-09-02T160103.png
 security:

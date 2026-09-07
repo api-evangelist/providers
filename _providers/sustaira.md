@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 5
 common:
@@ -135,8 +135,8 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sustaira/refs/heads/main/screenshots/sustaira-2026-06-20T194748.png
 security:

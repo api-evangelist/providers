@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,13 +259,13 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 24
     catalog_earned: 43.0
     catalog_earned_first_party: 0.0
     catalog_gap: 72.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 32.0
+  delta: 0.0
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -275,7 +275,7 @@ score:
     discoverability: 85.2
     governance: 18.2
     operational_transparency: 13.2
-  previous_composite: 14.5
+  previous_composite: 46.5
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -287,9 +287,9 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: rising
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-land-management/refs/heads/main/screenshots/bureau-of-land-management-2026-06-20T173814.png
 security:
 - kind: authentication

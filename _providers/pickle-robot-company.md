@@ -32,10 +32,26 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/pickle-robot-company-domain-security.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.picklerobot.com/news
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.picklerobot.com/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.picklerobot.com/privacy
 - group: company
   title: ''
   type: Website
@@ -76,25 +92,28 @@ modified: '2026-07-20'
 name: Pickle Robot Company
 nav: Providers
 network: true
-overview: Pickle Robot Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Supply Chain, and Logistics.
+overview: 'Pickle Robot Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Physical AI, Supply Chain, and Logistics.
+
+
+  Pickle Robot Company''s developer surface includes engineering blog, support, and 10 more developer resources.'
 random_paper: 15
 score:
   band: minimal
-  composite: 5.3
+  composite: 8.9
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.6
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
+    developer_ergonomics: 7.1
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 2.6
@@ -105,10 +124,15 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 5.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pickle-robot-company/refs/heads/main/screenshots/pickle-robot-company-2026-09-02T151237.png
+security:
+- kind: domain-security
+  name: Pickle Robot Company Domain Security
+  slug: pickle-robot-company-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: pickle-robot-company
 tags:
 - Company

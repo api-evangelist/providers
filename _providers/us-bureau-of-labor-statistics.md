@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -78,6 +78,34 @@ collections:
   name: BLS Public Data Popular Series Time Series API
   slug: open-us-bureau-of-labor-statistics-time-series-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bls.gov/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.bls.gov/developers/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.bls.gov/developers/home.htm
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.bls.gov/bls/bls-privacy.htm
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.bls.gov/developers/api_faqs.htm
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/rules/bls-public-data-api-rules.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/vocabulary/u-s-bureau-of-labor-statistics-vocabulary.yaml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +160,7 @@ overview: 'US Bureau of Labor Statistics publishes 3 APIs on the [APIs.io](https
   The US Bureau of Labor Statistics catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  US Bureau of Labor Statistics'' developer surface includes authentication and 3 more developer resources.'
+  US Bureau of Labor Statistics'' developer surface includes documentation, getting-started guide, FAQ, authentication, and 7 more developer resources.'
 plans:
 - name: Us Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
@@ -165,23 +193,23 @@ rules:
   slug: us-bureau-of-labor-statistics-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 41.9
+  composite: 49.3
   coverage:
     artifact_dirs: 16
-    catalog_earned: 62.0
+    catalog_earned: 67.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 53.0
+    catalog_gap: 48.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
-    contract_governance: 39.4
+    access_clarity: 50.0
+    commercial_clarity: 50.0
+    contract_governance: 54.5
     contract_quality: 61.7
-    developer_ergonomics: 21.4
+    developer_ergonomics: 33.3
     discoverability: 59.3
-    governance: 39.4
+    governance: 54.5
     operational_transparency: 7.9
   previous_composite: 41.9
   provenance:
@@ -196,10 +224,10 @@ score:
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 38.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 46.3
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-bureau-of-labor-statistics/refs/heads/main/screenshots/us-bureau-of-labor-statistics-2026-06-20T200548.png
 security:
 - kind: authentication
@@ -216,4 +244,5 @@ tags:
 - Labor Statistics
 - Economic Data
 - Open Data
+website: https://www.bls.gov/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: OpenAI-, Anthropic- and Gemini-compatible inference gateway. One API key and one base URL route requests across 131 listed models from 22 vendors, with cross-provider failover, prompt caching and per-
@@ -196,8 +196,8 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/palebluedotai/refs/heads/main/screenshots/palebluedotai-2026-09-02T150903.png
 security:

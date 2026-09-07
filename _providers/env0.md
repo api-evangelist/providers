@@ -13,10 +13,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -25,9 +25,9 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: false
-    event_surface_described: false
+    event_surface_described: true
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-05'
+  score: 31.2
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -104,7 +104,11 @@ apis:
   description: The Webhooks API from Env0 — 1 operation(s) for webhooks.
   name: Env0 Webhooks API
   slug: env0-webhooks-api
-artifact_total: 31
+artifact_total: 34
+asyncapis:
+- description: ''
+  name: Env0 Webhooks
+  slug: env0-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -165,83 +169,193 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.env0.com/
+  url: https://www.envzero.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.envzero.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://docs.env0.com/
+  url: https://docs.envzero.com/
 - group: docs
   title: ''
   type: APIReference
-  url: https://docs.env0.com/reference/api-introduction
+  url: https://docs.envzero.com/api-reference
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.envzero.com/guides/getting-started/getting-started
+- group: operate
+  title: ''
+  type: Support
+  url: https://docs.envzero.com/guides/community-and-resources/support-and-help/support
 - group: commercial
   title: ''
   type: Pricing
-  url: https://www.env0.com/pricing
+  url: https://www.envzero.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.env0.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.envzero.com/terms-and-conditions
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.envzero.com/privacy-policy
 - group: company
   title: ''
   type: Blog
-  url: https://www.env0.com/blog
+  url: https://www.envzero.com/resources
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/env0
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.env0.com
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.envzero.com/guides/overview/security-overview
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/env0-llms.txt
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/env0-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/env0-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/env0-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/env0-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/env0-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/env0-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/env0-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/env0-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/env0-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/env0-conformance.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/env0-trust-center.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/env0-webhooks.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/env0-data-model.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/env0-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/env0-rate-limits.yml
 created: '2026-03-27'
-description: env0 is an infrastructure-as-code automation platform providing cost estimation, policy enforcement, and self-service environments for Terraform, OpenTofu, Pulumi, CloudFormation, and Kubernetes workloads.
+description: env0 -- now trading as "env zero" -- is an infrastructure-as-code automation and cloud governance platform for Terraform, OpenTofu, Terragrunt, Pulumi, CloudFormation, Kubernetes and Helm. It provisions and manages cloud environments from reusable templates, orchestrates multi-environment workflows with dependencies, enforces custom approval and guardrail policies, detects and remediates infrastructure drift, runs a private module and provider registry, and adds cost estimation, actual-cost visibility and budget thresholds on top. The public REST API at https://api.env0.com publishes 327 operations across 30 areas and authenticates with HTTP Basic using an API Key ID and Secret. env zero also ships a first-party CLI, a Terraform provider, an official MCP server, a published Agent Skill and a conformant A2A agent card.
 finops:
 - name: Env0 Finops
   service_category: API
   slug: env0-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/env0.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Env0 MCP Server
+  slug: env0-mcp-server
+modified: '2026-09-06'
 name: Env0
 nav: Providers
 network: true
-overview: 'Env0 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, ApprovalPolicies API, Configuration API, and 8 more. Tagged areas include FinOps, Infrastructure as Code, DevOps, and Cloud.
+overview: 'Env0 publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Agents API, ApprovalPolicies API, Configuration API, and 8 more. Tagged areas include FinOps, Infrastructure as Code, DevOps, Cloud, and Terraform.
 
 
-  Env0''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, GitHub presence, and 4 more developer resources.'
+  The Env0 catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Env0''s developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Env0 Plans Pricing
   plan_count: 3
   slug: env0-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Env0 Rate Limits
   slug: env0-rate-limits
 score:
-  band: thin
-  composite: 33.3
+  band: strong
+  composite: 64.9
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 31.6
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
-    contract_quality: 52.9
-    developer_ergonomics: 35.7
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 13.2
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 18.2
+    contract_quality: 60.3
+    developer_ergonomics: 71.4
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 44.7
   previous_composite: 33.3
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    mcp: first-party
+    skills: first-party
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/env0/refs/heads/main/screenshots/env0-2026-06-20T180838.png
 security:
 - kind: authentication
@@ -252,11 +366,20 @@ security:
   name: Env0 Domain Security
   slug: env0-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Env0 Trust Center
+  slug: env0-trust-center
+  summary_line: SOC 2 Type II
 slug: env0
 tags:
 - FinOps
 - Infrastructure as Code
 - DevOps
 - Cloud
-website: https://www.env0.com/
+- Terraform
+- OpenTofu
+- Platform Engineering
+- Cloud Governance
+- Drift Detection
+website: https://www.envzero.com/
 ---

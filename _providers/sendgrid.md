@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 209
   human_in_the_loop: 5
@@ -1209,7 +1209,7 @@ score:
   band: exemplar
   composite: 74.6
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 29
     catalog_earned: 55.8
     catalog_earned_first_party: 12.0
     catalog_gap: 59.3
@@ -1236,8 +1236,8 @@ score:
       total: 63
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendgrid/refs/heads/main/screenshots/sendgrid-2026-06-20T193652.png
 security:

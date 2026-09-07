@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 17.3
-  scored_at: '2026-09-05'
+  score: 20.7
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
   description: Operations on records via page view endpoints
   name: Knack View Records API
   slug: knack-view-records-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: API Collection
@@ -120,18 +120,30 @@ common:
   title: ''
   type: Blog
   url: https://www.knack.com/blog/feed/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.knack.com/mcp
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://docs.knack.com/docs/mcp
 created: '2026-05-11'
 description: Knack is a no-code database and application platform that lets users build custom web applications from structured data without writing code. The platform combines a relational database, forms, search, charts, and user access controls with embeddable pages. Knack offers a resource-oriented REST API with predictable URLs for creating, retrieving, updating, and deleting records, authenticated via an Application ID and REST API key.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/knack.png
 layout: provider
-modified: '2026-05-11'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-09-06'
 name: Knack
 nav: Providers
 network: true
 overview: 'Knack publishes 2 APIs on the [APIs.io](https://apis.io/) network: Object Records API and View Records API. Tagged areas include No-Code, Database, Application Builder, Low-Code, and Web Applications.
 
 
-  Knack''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
+  Knack''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
 random_paper: 16
 score:
   band: thin
@@ -161,8 +173,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knack/refs/heads/main/screenshots/knack-2026-06-20T184106.png
 security:

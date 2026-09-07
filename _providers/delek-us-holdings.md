@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: Alias
+  url: https://raw.githubusercontent.com/api-evangelist/delek-us-holdings/refs/heads/main/apis.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -88,7 +92,7 @@ network: true
 overview: 'Delek US Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Asphalt, Convenience Stores, Downstream, Energy, and Logistics.
 
 
-  Delek US Holdings'' developer surface includes product news and 8 more developer resources.'
+  Delek US Holdings'' developer surface includes product news and 9 more developer resources.'
 plans:
 - name: Delek Us Holdings Plans Pricing
   plan_count: 1
@@ -146,8 +150,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delek-us-holdings/refs/heads/main/screenshots/delek-us-holdings-2026-08-07T180430.png
 security:

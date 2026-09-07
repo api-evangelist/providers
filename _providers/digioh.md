@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Client-side browser API exposed by the Digioh widget runtime once the Digioh JavaScript tag is installed on a site. Documented calls include DIGIOH_API.LIGHTBOX.loadLightbox(guid) to manually trigger '
@@ -216,8 +216,8 @@ score:
   previous_composite: 54.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/digioh/refs/heads/main/screenshots/digioh-2026-08-17T080859.png
 security:

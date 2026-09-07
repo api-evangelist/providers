@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 11
 apis:
 - description: Python tool that ingests infrastructure data from 30+ providers into a Neo4j graph for cross-provider security analysis.
@@ -177,8 +177,8 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 17.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartography/refs/heads/main/screenshots/cartography-2026-07-25T204658.png
 slug: cartography

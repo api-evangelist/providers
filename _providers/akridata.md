@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Programmatic access to Akridata Data Explorer via the first-party Python SDK (akride) and ingest CLI: data/dataset registration, catalog operations, explore and analyze jobs, image-based similarity se'
@@ -148,8 +148,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 26.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akridata/refs/heads/main/screenshots/akridata-2026-07-25T195516.png
 security:

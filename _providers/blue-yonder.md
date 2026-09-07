@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ score:
   band: thin
   composite: 33.0
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 42.3
     catalog_earned_first_party: 0.0
     catalog_gap: 72.8
@@ -237,8 +237,8 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blue-yonder/refs/heads/main/screenshots/blue-yonder-2026-06-20T173532.png
 security:

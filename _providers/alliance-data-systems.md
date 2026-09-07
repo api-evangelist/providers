@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ score:
   band: developing
   composite: 48.2
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 80.5
     catalog_earned_first_party: 0.0
     catalog_gap: 34.5
@@ -415,8 +415,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alliance-data-systems/refs/heads/main/screenshots/alliance-data-systems-2026-07-25T195654.png
 security:

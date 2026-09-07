@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - description: Move Money Transfer is First Horizon's RESTful payments-initiation API for Treasury Management clients, used to originate and manage funds transfers programmatically from an ERP, accounting, or treasu
@@ -53,6 +53,90 @@ apis:
   slug: bic-lookup-v1
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: AboutUs
+  url: https://www.firsthorizon.com/About-Us
+- group: other
+  title: ''
+  type: Personal
+  url: https://www.firsthorizon.com/Personal
+- group: other
+  title: ''
+  type: SmallBusiness
+  url: https://www.firsthorizon.com/Small-Business
+- group: other
+  title: ''
+  type: Commercial
+  url: https://www.firsthorizon.com/Commercial-Banking
+- group: other
+  title: ''
+  type: WealthManagement
+  url: https://www.firsthorizon.com/Wealth-Management
+- group: other
+  title: ''
+  type: TreasuryManagement
+  url: https://www.firsthorizon.com/Commercial-Banking/Treasury-Management
+- group: other
+  title: ''
+  type: CapitalMarkets
+  url: https://www.fhnfinancial.com/
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://ir.firsthorizon.com
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://newsroom.firsthorizon.com
+- group: operate
+  title: ''
+  type: PressReleases
+  url: https://newsroom.firsthorizon.com/news-releases
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.firsthorizon.com/Careers
+- group: commercial
+  title: ''
+  type: PrivacyCenter
+  url: https://www.firsthorizon.com/Privacy
+- group: auth
+  title: ''
+  type: SecurityCenter
+  url: https://www.firsthorizon.com/Security
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/First-horizon
+- group: other
+  title: ''
+  type: SECFilings
+  url: https://ir.firsthorizon.com/financial-information/sec-filings
+- group: other
+  title: ''
+  type: AggregatorPlaid
+  url: https://plaid.com/institutions/
+- group: other
+  title: ''
+  type: AggregatorMX
+  url: https://www.mx.com/
+- group: other
+  title: ''
+  type: AggregatorFinicity
+  url: https://www.finicity.com/
+- group: other
+  title: ''
+  type: AggregatorAkoya
+  url: https://akoya.com/
+- group: other
+  title: ''
+  type: FDXStandard
+  url: https://financialdataexchange.org/
+- group: other
+  title: ''
+  type: CFPB1033Rule
+  url: https://www.consumerfinance.gov/personal-financial-data-rights/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,11 +188,11 @@ network: true
 overview: 'First Horizon publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include United States, Banking, Financial-Services, Treasury Management, and API Banking.
 
 
-  First Horizon''s developer surface includes documentation, authentication, and 8 more developer resources.'
+  First Horizon''s developer surface includes documentation, authentication, and 29 more developer resources.'
 random_paper: 9
 score:
   band: emerging
-  composite: 11.1
+  composite: 11.8
   coverage:
     artifact_dirs: 5
     catalog_earned: 35.0
@@ -116,7 +200,7 @@ score:
     catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -125,7 +209,7 @@ score:
     developer_ergonomics: 15.5
     discoverability: 72.2
     governance: 18.2
-    operational_transparency: 0.0
+    operational_transparency: 5.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
     countries:
@@ -142,8 +226,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: authentication

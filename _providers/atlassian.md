@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -2260,6 +2260,10 @@ collections:
   name: Atlassian Admin Account Workspaces - Webhooks API
   slug: open-atlassian-workspaces-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.atlassian.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -10989,7 +10993,7 @@ overview: 'Atlassian publishes 144 APIs on the [APIs.io](https://apis.io/) netwo
   The Atlassian catalog on APIs.io includes 22 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Atlassian''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, YouTube channel, and 40 more developer resources.'
+  Atlassian''s developer surface includes authentication, developer portal, getting-started guide, changelog, support, engineering blog, YouTube channel, and 41 more developer resources.'
 plans:
 - name: Atlassian Plans Pricing
   plan_count: 4
@@ -11030,7 +11034,7 @@ score:
   band: strong
   composite: 56.3
   coverage:
-    artifact_dirs: 24
+    artifact_dirs: 23
     catalog_earned: 68.5
     catalog_earned_first_party: 0.0
     catalog_gap: 46.5
@@ -11054,8 +11058,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 144
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:
@@ -11105,5 +11109,5 @@ use_cases:
   name: Enterprise Administration
 - description: Detect, respond to, and resolve major incidents with JSM operations alerts, on-call schedules, and postmortem tracking.
   name: Incident Management
-website: https://developer.atlassian.com/cloud/
+website: https://www.atlassian.com/
 ---

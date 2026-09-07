@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: ANDPAD's external REST API for integrating partner services with the ANDPAD construction management platform via the ANDPAD App Market. Served from api.andpad.jp with a versioned /v1 base path, JSON r
@@ -150,8 +150,8 @@ score:
     regions:
     - japan-korea
   previous_composite: 20.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/andpad/refs/heads/main/screenshots/andpad-2026-07-25T200226.png
 security:

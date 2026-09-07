@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ score:
   band: thin
   composite: 37.6
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 9
     catalog_earned: 60.0
     catalog_earned_first_party: 0.0
     catalog_gap: 55.0
@@ -183,8 +183,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudprinter/refs/heads/main/screenshots/cloudprinter-2026-07-25T205710.png
 security:

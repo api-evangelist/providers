@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - baseURL: https://www.comet.com/opik/api/v1
@@ -530,7 +530,7 @@ score:
   band: developing
   composite: 47.9
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 13
     catalog_earned: 80.3
     catalog_earned_first_party: 0.0
     catalog_gap: 34.8
@@ -556,8 +556,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 39
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opik/refs/heads/main/screenshots/opik-2026-06-20T191101.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -48,6 +48,30 @@ asyncapis:
   name: Hihealth Webhooks
   slug: hihealth-webhooks
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://getpliant.com/en/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://getpliant.com/en/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.getpliant.com/?language=en
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://getpliant.com/en/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://getpliant.com/en/imprint
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/getpliant
 - group: company
   title: ''
   type: Website
@@ -170,7 +194,7 @@ overview: 'hi.health publishes 2 APIs on the [APIs.io](https://apis.io/) network
   The hi.health catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  hi.health''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
+  hi.health''s developer surface includes engineering blog, pricing, signup flow, documentation, API reference, getting-started guide, support, and 25 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 1
@@ -182,8 +206,8 @@ scopes:
   slug: hihealth-scopes
   summary_line: 3 scopes
 score:
-  band: developing
-  composite: 44.3
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -191,13 +215,13 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 11.3
   facets:
-    access_clarity: 7.9
-    commercial_clarity: 7.9
+    access_clarity: 52.6
+    commercial_clarity: 52.6
     contract_governance: 18.2
     contract_quality: 41.6
-    developer_ergonomics: 36.9
+    developer_ergonomics: 39.3
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 69.7
@@ -210,10 +234,10 @@ score:
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 68.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 80.3
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:
 - kind: authentication

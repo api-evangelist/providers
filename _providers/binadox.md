@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Binadox is a SaaS spend management and optimization platform providing usage monitoring, license optimization, and shadow IT discovery. The platform integrates with cloud providers and SaaS applicatio
@@ -161,8 +161,8 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 14.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binadox/refs/heads/main/screenshots/binadox-2026-06-20T173242.png
 security:

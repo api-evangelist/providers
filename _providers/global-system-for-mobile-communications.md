@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 1
@@ -435,7 +435,7 @@ score:
   band: thin
   composite: 34.7
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 11
     catalog_earned: 36.0
     catalog_earned_first_party: 0.0
     catalog_gap: 79.0
@@ -465,8 +465,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 36.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-system-for-mobile-communications/refs/heads/main/screenshots/global-system-for-mobile-communications-2026-06-20T181919.png
 security:

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: About
+  url: https://flarion.io/about-us
 - group: company
   title: ''
   type: Website
@@ -83,7 +87,7 @@ network: true
 overview: 'Flarion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Processing, Apache Spark, and Big Data.
 
 
-  Flarion''s developer surface includes engineering blog, pricing, support, and 6 more developer resources.'
+  Flarion''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
 random_paper: 12
 score:
   band: emerging
@@ -106,8 +110,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 14.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flarion/refs/heads/main/screenshots/flarion-2026-07-25T214711.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: Server-side Enterprise REST API for managing reviews (list/get/update/reply), review groups, customers and profiles, loyalty (rules, transactions, VIP tiers, coupons), survey and quiz responses, trans
@@ -161,11 +161,15 @@ common:
   title: ''
   type: AgentSkill
   url: skills/_index.yml
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://support.okendo.io/en/articles/12672009-connect-your-okendo-mcp-server-to-chatgpt-and-claude
 created: '2026-07-17'
 description: 'Okendo is a customer-marketing platform for ecommerce brands, centered on the Shopify ecosystem, that unifies product reviews and ratings, loyalty programs, referrals, quizzes and surveys to drive conversion and repeat purchases. For developers Okendo exposes two REST surfaces: a server-side Merchant (Enterprise) REST API (https://api.okendo.io/enterprise, HTTP Basic auth plus a dated okendo-api-version header) for reviews moderation, loyalty, customers, surveys, quizzes, settings and webhook management; and a public Storefront REST API for reading published reviews, aggregates, media and Q&A. It also ships embeddable on-site widgets, a Storefront Javascript API, and first-party Vue and Shopify Hydrogen component packages, plus a webhook event stream across reviews, loyalty, surveys, quizzes and referrals.'
 image: https://www.okendo.io/favicon.ico
 layout: provider
-modified: '2026-07-20'
+modified: '2026-09-06'
 name: Okendo
 nav: Providers
 network: true
@@ -175,7 +179,7 @@ overview: 'Okendo publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
   The Okendo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Okendo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
+  Okendo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
 random_paper: 10
 score:
   band: thin
@@ -202,8 +206,8 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okendo/refs/heads/main/screenshots/okendo-2026-08-07T190049.png
 security:

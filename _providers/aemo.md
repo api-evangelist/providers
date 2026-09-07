@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 560
   human_in_the_loop: 21
@@ -956,7 +956,7 @@ score:
   band: strong
   composite: 57.8
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 42.0
     catalog_earned_first_party: 5.0
     catalog_gap: 73.0
@@ -996,8 +996,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aemo/refs/heads/main/screenshots/aemo-2026-08-07T160947.png
 security:

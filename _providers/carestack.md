@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: RESTful API surface for CareStack dental practice management, covering patient resources (patient information, health conditions, payment summaries, communications, treatment codes, documents) and pra
@@ -147,8 +147,8 @@ score:
     regime: Health
     regime_id: health
     score: 30.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carestack/refs/heads/main/screenshots/carestack-2026-07-25T204559.png
 security:

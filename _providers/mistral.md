@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -656,7 +656,7 @@ score:
   band: developing
   composite: 53.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 51.5
     catalog_earned_first_party: 0.0
     catalog_gap: 63.5
@@ -683,8 +683,8 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185616.png
 security:

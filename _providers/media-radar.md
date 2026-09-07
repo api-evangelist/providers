@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The MediaRadar Client API delivers MediaRadar brand, contacts and advertising data to existing clients over REST. It is fronted by Azure API Management and documented through the MediaRadar Client API
@@ -167,8 +167,8 @@ score:
   previous_composite: 23.9
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/media-radar/refs/heads/main/screenshots/media-radar-2026-08-07T172326.png
 security:

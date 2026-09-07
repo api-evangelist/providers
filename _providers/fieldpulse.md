@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -434,7 +434,7 @@ score:
   band: strong
   composite: 62.1
   coverage:
-    artifact_dirs: 25
+    artifact_dirs: 24
     catalog_earned: 57.0
     catalog_earned_first_party: 20.0
     catalog_gap: 58.0
@@ -472,8 +472,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fieldpulse/refs/heads/main/screenshots/fieldpulse-2026-08-07T165250.png
 security:

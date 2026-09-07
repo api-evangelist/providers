@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Mock Service Worker (MSW) is an open-source library for mocking REST, GraphQL, WebSocket, and Server-Sent Events APIs at the network level. It provides setupWorker for browser environments and setupSe
@@ -170,8 +170,8 @@ score:
     governance: 9.8
     operational_transparency: 13.2
   previous_composite: 21.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/screenshots/mock-service-worker-2026-06-20T185631.png
 security:

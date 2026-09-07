@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Version 1 of the HockeyStack Revenue Agents API. Attaches AI agents to companies and deals from the connected CRM, holds conversations with those agents, manages the tasks they generate, and reads the
@@ -231,8 +231,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hockeystack/refs/heads/main/screenshots/hockeystack-2026-07-25T221312.png
 security:

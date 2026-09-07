@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Board''s storefront agent-commerce API, provided natively by Shopify via the Universal Commerce Protocol (UCP 2026-04-08). Exposes an MCP endpoint for AI agents to search the catalog, build carts, and '
@@ -140,8 +140,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/board/refs/heads/main/screenshots/board-2026-08-07T162656.png
 security:

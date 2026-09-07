@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The ogen code generator. Invoked as a build-time CLI against a local OpenAPI v3 document — `ogen [options] <spec>` — it writes a Go package containing a typed client, server, router, validators and JS
@@ -203,8 +203,8 @@ score:
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/screenshots/ogen-2026-06-20T190640.png
 security:

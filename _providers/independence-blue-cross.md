@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -483,7 +483,7 @@ score:
   band: exemplar
   composite: 67.0
   coverage:
-    artifact_dirs: 31
+    artifact_dirs: 30
     catalog_earned: 96.3
     catalog_earned_first_party: 0.0
     catalog_gap: 18.8
@@ -516,8 +516,8 @@ score:
     regime: Health
     regime_id: health
     score: 76.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:

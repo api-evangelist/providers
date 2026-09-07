@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -641,7 +641,7 @@ score:
   band: exemplar
   composite: 70.0
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 51.0
     catalog_earned_first_party: 24.0
     catalog_gap: 64.0
@@ -678,8 +678,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 72.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/getresponse/refs/heads/main/screenshots/getresponse-2026-06-20T181811.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ score:
   band: thin
   composite: 27.8
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
@@ -264,8 +264,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 40.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: authentication

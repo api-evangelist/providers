@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -201,6 +201,10 @@ common:
   title: ''
   type: Blog
   url: https://www.checkout.com/blog/rss.xml
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://www.checkout.com/docs/developer-resources/checkout-com-mcp-server
 created: '2026-05-08'
 description: Checkout.com is a global payment processor offering card acquiring, alternative payments, fraud, and connected accounts via a single API. Direct integrations with Visa, Mastercard, and APMs.
 finops:
@@ -213,14 +217,14 @@ graphqls:
   slug: checkout-com-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/checkout-com.png
 layout: provider
-modified: '2026-05-08'
+modified: '2026-09-06'
 name: Checkout.com
 nav: Providers
 network: true
 overview: 'Checkout.com publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Customers API, Instruments API, Payments API, and 2 more. Tagged areas include Fintech, Payments, Cards, Acquiring, and Cross-Border.
 
 
-  Checkout.com''s developer surface includes authentication, sandbox, engineering blog, and 15 more developer resources.'
+  Checkout.com''s developer surface includes authentication, sandbox, engineering blog, and 16 more developer resources.'
 plans:
 - name: Checkout Com Plans Pricing
   plan_count: 1
@@ -269,8 +273,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 51.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png
 security:

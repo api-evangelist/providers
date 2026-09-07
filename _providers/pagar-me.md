@@ -9,11 +9,11 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -31,8 +31,15 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-09-05'
+  score: 6.8
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 25
+  human_in_the_loop: 0
+  name: Pagar Me Agentic Access
+  operation_count: 45
+  slug: pagar-me-agentic-access
+  summary_line: 45 operations · 25 acting
 api_count: 17
 apis:
 - description: Create, list, retrieve, and manage orders — the top-level payment object in the Pagar.me Core API v5. Each order can contain one or more charges paid via credit card, debit card, Pix, boleto, voucher,
@@ -86,8 +93,28 @@ apis:
 - description: Pagar.me's drop-in hosted Checkout. Embed Pagar.me's PCI-compliant payment form to take credit card, Pix, and boleto for one-off orders and subscriptions, with first-class AI/agent integration pattern
   name: Pagar.me Hosted Checkout
   slug: pagarme-checkout-pagarme
-artifact_total: 54
+artifact_total: 57
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/pagar-me-agentic-access.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/pagarme
+- group: company
+  title: ''
+  type: Website
+  url: https://pagar.me
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/pagar-me-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/pagar-me-finops.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -226,6 +253,10 @@ features:
   name: Official SDKs in seven languages
 - description: A documented llms.txt index, OpenAPI-formatted reference, and "Checkout Skills" patterns explicitly aimed at Claude Code, Codex, Cursor, and Copilot users wiring Pagar.me into agents and coding assistants.
   name: AI-assistant-friendly docs
+finops:
+- name: Pagar Me Finops
+  service_category: Payments and Financial Services
+  slug: pagar-me-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pagar-me.png
 integrations:
 - description: Pagar.me is Stone Co.'s API-driven online payments brand; the two share regulatory infrastructure, anti-fraud rails, and the Stone API migration path documented in Pagar.me's release notes.
@@ -258,22 +289,26 @@ network: true
 overview: 'Pagar.me publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Financial-Services, Fintech, Brazil, and Latin America.
 
 
-  Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 20 more developer resources.'
+  Pagar.me''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, developer console, signup flow, and 25 more developer resources.'
+plans:
+- name: Pagar Me Plans Pricing
+  plan_count: 3
+  slug: pagar-me-plans-pricing
 random_paper: 1
 score:
   band: thin
-  composite: 27.0
+  composite: 34.9
   coverage:
-    artifact_dirs: 3
-    catalog_earned: 40.0
+    artifact_dirs: 6
+    catalog_earned: 55.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 23.7
-    commercial_clarity: 23.7
+    access_clarity: 63.2
+    commercial_clarity: 63.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 81.0
@@ -288,15 +323,17 @@ score:
     regions:
     - latin-america
   previous_composite: 27.0
+  provenance:
+    agentic_access: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagar-me/refs/heads/main/screenshots/pagar-me-2026-06-20T191321.png
 security:
 - kind: domain-security

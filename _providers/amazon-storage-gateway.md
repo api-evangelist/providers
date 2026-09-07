@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -3221,7 +3221,7 @@ score:
   band: developing
   composite: 54.1
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 63.5
     catalog_earned_first_party: 0.0
     catalog_gap: 51.5
@@ -3245,8 +3245,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 95
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:

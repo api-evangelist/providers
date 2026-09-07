@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 1382
   human_in_the_loop: 36
@@ -21979,7 +21979,7 @@ score:
   band: thin
   composite: 30.1
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 15
     catalog_earned: 32.3
     catalog_earned_first_party: 0.0
     catalog_gap: 82.8
@@ -22003,8 +22003,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 471
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/engineering-platform/refs/heads/main/screenshots/engineering-platform-2026-06-20T180718.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 10
 apis:
 - description: JSON-RPC endpoint for zkSync Era mainnet (chain ID 324). Implements standard eth_* methods plus zks_* extensions for L1 batch info, fee estimation, bridge contracts, paymaster params, token addresses,
@@ -212,8 +212,8 @@ score:
     applies: true
     score: 100.0
   previous_composite: 43.4
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zksync/refs/heads/main/screenshots/zksync-2026-06-20T201926.png
 security:

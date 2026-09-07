@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 21
 apis:
 - baseURL: https://api.dealhub.io
@@ -596,7 +596,7 @@ score:
   band: developing
   composite: 47.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 40.0
     catalog_earned_first_party: 0.0
     catalog_gap: 75.0
@@ -622,8 +622,8 @@ score:
       total: 63
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dealhub/refs/heads/main/screenshots/dealhub-2026-08-17T080848.png
 security:

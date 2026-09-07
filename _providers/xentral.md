@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - baseURL: https://xentral.xentral.biz
@@ -925,7 +925,7 @@ score:
   band: developing
   composite: 46.5
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 42.0
     catalog_earned_first_party: 8.0
     catalog_gap: 73.0
@@ -959,8 +959,8 @@ score:
       total: 90
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xentral/refs/heads/main/screenshots/xentral-2026-08-17T083012.png
 security:

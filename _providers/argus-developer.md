@@ -10,17 +10,17 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
+    dynamic_client_registration: true
     error_semantics: false
     event_surface_described: false
     idempotency: false
@@ -32,14 +32,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-05'
+  score: 17.6
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
-- description: The ARGUS Developer API provides programmatic access to development project data, feasibility models, cash flow projections, scenario analysis, and reporting within the ARGUS Developer platform. Enabl
+- description: 'Altus Group publishes no public API, OpenAPI or developer program for ARGUS Developer. Probed 2026-09-06: no spec on any Altus host, no developer or docs subdomain resolves, and cloud.altusplatform.co'
   name: ARGUS Developer API
   slug: argus-developer-api
-artifact_total: 22
+artifact_total: 23
 common:
 - group: auth
   title: ''
@@ -71,16 +71,56 @@ common:
   url: https://www.altusgroup.com/support/
 - group: commercial
   title: ''
-  type: TermsOfService
-  url: https://www.altusgroup.com/terms-of-use/
-- group: commercial
-  title: ''
   type: PrivacyPolicy
-  url: https://www.altusgroup.com/privacy-policy/
+  url: https://www.altusgroup.com/legal/privacy-policy/
 - group: learn
   title: ''
   type: Training
   url: https://www.altusgroup.com/argus/training/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/AltusGroup
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/argus-developer-well-known.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/argus-developer-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/argus-developer-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/argus-developer-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/argus-developer-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/argus-developer-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/argus-developer-changelog.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/argus-developer-llms.txt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/argus-developer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/argus-developer-rate-limits.yml
 created: '2024-01-15'
 description: ARGUS Developer is a cloud-based real estate development software platform by Altus Group that enables property developers, appraisers, consultants, and financiers to manage complex, multi-stage development projects from initial feasibility through delivery. It provides development pro forma modeling, residual land value analysis, scenario comparison, cash flow forecasting, and professional reporting. Part of the ARGUS Intelligence Platform by Altus Group, the industry-standard suite for commercial real estate.
 features:
@@ -115,53 +155,59 @@ integrations:
 - description: Connect MRI property management data with development financial models.
   name: MRI Software
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-06'
 name: ARGUS Developer
 nav: Providers
 network: true
 overview: 'ARGUS Developer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Altus Group, Commercial Real Estate, Development, Feasibility Analysis, and Real-Estate.
 
 
-  ARGUS Developer''s developer surface includes engineering blog, documentation, getting-started guide, developer portal, support, training material, and 4 more developer resources.'
+  ARGUS Developer''s developer surface includes engineering blog, documentation, getting-started guide, developer portal, support, training material, changelog, and 13 more developer resources.'
 plans:
 - name: Argus Developer Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: argus-developer-plans-pricing
 random_paper: 3
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Argus Developer Rate Limits
   slug: argus-developer-rate-limits
 score:
-  band: emerging
-  composite: 19.8
+  band: thin
+  composite: 27.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
+    artifact_dirs: 11
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.3
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 34.2
+    commercial_clarity: 34.2
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    discoverability: 66.7
+    governance: 18.2
+    operational_transparency: 28.9
   previous_composite: 19.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/screenshots/argus-developer-2026-06-20T172427.png
 security:
 - kind: domain-security
   name: Argus Developer Domain Security
   slug: argus-developer-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Argus Developer Trust Center
+  slug: argus-developer-trust-center
+  summary_line: SOC 3 Type 2, SOC 3 Type 2, SOC 3 Type 2, ISO/IEC 27001, SOC 2 Type II
 slug: argus-developer
 tags:
 - Altus Group

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: Accept cashless payments through the Seed API — debit and credit cards, mobile and digital wallets, and NFC — with Cantaloupe acting as a single gateway to the major card brands and wallet providers.
@@ -48,6 +48,10 @@ apis:
   slug: billing-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: About
+  url: https://www.cantaloupe.com/company/about/
 - group: company
   title: ''
   type: Website
@@ -170,7 +174,7 @@ network: true
 overview: 'Seed publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, Cashless Payments, Vending, Micro Markets, and Unattended Retail.
 
 
-  Seed''s developer surface includes documentation, support, engineering blog, pricing, changelog, and 18 more developer resources.'
+  Seed''s developer surface includes documentation, support, engineering blog, pricing, changelog, and 19 more developer resources.'
 plans:
 - name: Seed Platform Plans Pricing
   plan_count: 3
@@ -209,8 +213,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seed-platform/refs/heads/main/screenshots/seed-platform-2026-06-20T193637.png
 security:

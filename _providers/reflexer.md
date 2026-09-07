@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Hosted GraphQL subgraph (The Graph Protocol) indexing the RAI/GEB on-chain contracts on Ethereum mainnet. Query SAFEs, collateral, system state, redemption rate, and historical data by block. Read-onl
@@ -142,8 +142,8 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 20.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reflexer/refs/heads/main/screenshots/reflexer-2026-09-02T153229.png
 security:

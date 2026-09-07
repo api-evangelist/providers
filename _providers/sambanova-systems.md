@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -105,7 +105,7 @@ apis:
   description: The Subagents Interactive API from SambaNova Systems — 4 operation(s) for subagents interactive.
   name: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
-artifact_total: 29
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -147,6 +147,30 @@ collections:
   name: Sambanova Agents Service Audio Subagents Interactive API
   slug: open-sambanova-systems-subagents-interactive-api
 common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/sambanova-systems-trust-center.yml
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.sambanova.ai
+- group: other
+  title: ''
+  type: StarterKits
+  url: https://github.com/sambanova/ai-starter-kit
+- group: other
+  title: ''
+  type: Hardware
+  url: https://sambanova.ai/products/sn50-rdu
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/sambanova-systems
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/SambaNovaAI
 - group: other
   title: ''
   type: Overlay
@@ -282,7 +306,7 @@ network: true
 overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Audio API, Chat completions API, Completions API, and 9 more. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
-  SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
+  SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 11
@@ -290,7 +314,7 @@ rate_limits:
   slug: sambanova-systems-rate-limits
 score:
   band: developing
-  composite: 51.8
+  composite: 53.3
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -298,10 +322,10 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
-    access_clarity: 44.7
-    commercial_clarity: 44.7
+    access_clarity: 52.6
+    commercial_clarity: 52.6
     contract_governance: 4.5
     contract_quality: 55.2
     developer_ergonomics: 56.5
@@ -319,8 +343,8 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/screenshots/sambanova-systems-2026-08-17T081717.png
 security:
@@ -332,6 +356,10 @@ security:
   name: Sambanova Systems Domain Security
   slug: sambanova-systems-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: trust-center
+  name: Sambanova Systems Trust Center
+  slug: sambanova-systems-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: sambanova-systems
 tags:
 - Company

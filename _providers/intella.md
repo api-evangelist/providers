@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 0
 artifact_total: 1
 common:
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/intella-llms.txt
 - group: auth
   title: ''
   type: DomainSecurity
@@ -83,13 +87,13 @@ network: true
 overview: 'Intella is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Voice AI, Conversational AI, and Speech Recognition.
 
 
-  Intella''s developer surface includes engineering blog, support, YouTube channel, and 6 more developer resources.'
+  Intella''s developer surface includes engineering blog, support, YouTube channel, and 7 more developer resources.'
 random_paper: 10
 score:
   band: minimal
   composite: 9.8
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -106,8 +110,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intella/refs/heads/main/screenshots/intella-2026-07-25T222642.png
 security:

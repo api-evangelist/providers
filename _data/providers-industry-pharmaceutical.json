@@ -1,6 +1,6 @@
 {
- "total": 24,
- "shown": 24,
+ "total": 23,
+ "shown": 23,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -92,8 +92,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -144,8 +144,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -196,8 +196,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -248,8 +248,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -300,8 +300,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -352,8 +352,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -403,8 +403,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -455,8 +455,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -490,61 +490,9 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 15,
-   "shown": 15,
+   "count": 14,
+   "shown": 14,
    "providers": [
-    {
-     "name": "Regeneron Pharmaceuticals",
-     "slug": "regeneron-pharmaceuticals",
-     "description": "Regeneron Pharmaceuticals is a leading biotechnology company that invents, develops, and commercializes life-transforming medicines for people with serious diseases in eye disease, cancer, inflammation, infectious disease, and rare diseases. The Regeneron Genetics Center (RGC) is a wholly owned subsidiary that has sequenced over 3 million human exomes and pioneered the use of large-scale genomics to discover and validate drug targets. Regeneron open-sources bioinformatics tools including regenie (whole genome regression), CLAMMS (CNV detection), and TCRAI (T-cell receptor analysis) through its GitHub organizations at github.com/rgcgithub and github.com/regeneron-mpds.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/regeneron-pharmaceuticals/refs/heads/main/screenshots/regeneron-pharmaceuticals-2026-06-20T192815.png",
-     "score": 10.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 10.7,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 13.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
     {
      "name": "Roche",
      "slug": "roche",
@@ -563,8 +511,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -595,7 +543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Sanofi",
@@ -615,8 +563,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -647,7 +595,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Viatris",
@@ -667,8 +615,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -699,7 +647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Regeneron",
@@ -719,8 +667,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -751,7 +699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "Organon",
@@ -771,8 +719,60 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Novartis",
+     "slug": "novartis",
+     "description": "Novartis AG is a Swiss multinational pharmaceutical corporation headquartered in Basel, Switzerland, and one of the largest pharmaceutical companies in the world by revenue. The company focuses on innovative medicines across oncology, immunology, neuroscience, cardiovascular, renal, and metabolic disease areas. Novartis does not publish a public external developer API. The company does maintain an Open Source Science programme that releases scientific computing libraries, Drupal modules, and informatics tooling on GitHub for use by the research community.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novartis/refs/heads/main/screenshots/novartis-2026-06-20T190433.png",
+     "score": 3.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -806,10 +806,10 @@
      "rank": 15
     },
     {
-     "name": "Novartis",
-     "slug": "novartis",
-     "description": "Novartis AG is a Swiss multinational pharmaceutical corporation headquartered in Basel, Switzerland, and one of the largest pharmaceutical companies in the world by revenue. The company focuses on innovative medicines across oncology, immunology, neuroscience, cardiovascular, renal, and metabolic disease areas. Novartis does not publish a public external developer API. The company does maintain an Open Source Science programme that releases scientific computing libraries, Drupal modules, and informatics tooling on GitHub for use by the research community.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novartis/refs/heads/main/screenshots/novartis-2026-06-20T190433.png",
+     "name": "Novo Nordisk",
+     "slug": "novo-nordisk",
+     "description": "Novo Nordisk A/S is a Danish multinational pharmaceutical company headquartered in Bagsværd, Denmark, and the world leader in diabetes care. The company also develops treatments for obesity, rare blood disorders, and growth-hormone therapy, including its widely known GLP-1 medicines Ozempic, Wegovy, and Rybelsus. Novo Nordisk does not publish a public commercial developer API. The company maintains a research GitHub organization (novonordisk-research) that releases open-source scientific computing libraries and an SDK for the Waters Empower Web API (OptiHPLCHandler) used in pharmaceutical analytical chemistry workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novo-nordisk/refs/heads/main/screenshots/novo-nordisk-2026-06-20T190437.png",
      "score": 3.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -823,8 +823,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -858,25 +858,25 @@
      "rank": 16
     },
     {
-     "name": "Novo Nordisk",
-     "slug": "novo-nordisk",
-     "description": "Novo Nordisk A/S is a Danish multinational pharmaceutical company headquartered in Bagsværd, Denmark, and the world leader in diabetes care. The company also develops treatments for obesity, rare blood disorders, and growth-hormone therapy, including its widely known GLP-1 medicines Ozempic, Wegovy, and Rybelsus. Novo Nordisk does not publish a public commercial developer API. The company maintains a research GitHub organization (novonordisk-research) that releases open-source scientific computing libraries and an SDK for the Waters Empower Web API (OptiHPLCHandler) used in pharmaceutical analytical chemistry workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/novo-nordisk/refs/heads/main/screenshots/novo-nordisk-2026-06-20T190437.png",
-     "score": 3.7,
+     "name": "Eli Lilly",
+     "slug": "eli-lilly",
+     "description": "Eli Lilly and Company is a Fortune 500 global pharmaceutical company that discovers, develops, manufactures, and sells human pharmaceutical products in therapeutic areas including diabetes, oncology, immunology, and neuroscience. Eli Lilly does not currently publish a public developer API portal; the company exposes selected machine learning models through its Lilly TuneLab platform to partner biotechs but does not offer general purpose, self-serve APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/screenshots/eli-lilly-2026-07-25T213138.png",
+     "score": 3.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -910,32 +910,25 @@
      "rank": 17
     },
     {
-     "name": "Eli Lilly",
-     "slug": "eli-lilly",
-     "description": "Eli Lilly and Company is a Fortune 500 global pharmaceutical company that discovers, develops, manufactures, and sells human pharmaceutical products in therapeutic areas including diabetes, oncology, immunology, and neuroscience. Eli Lilly does not currently publish a public developer API portal; the company exposes selected machine learning models through its Lilly TuneLab platform to partner biotechs but does not offer general purpose, self-serve APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eli-lilly/refs/heads/main/screenshots/eli-lilly-2026-07-25T213138.png",
-     "score": 3.2,
+     "name": "Henry Schein",
+     "slug": "henry-schein",
+     "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/henry-schein/refs/heads/main/screenshots/henry-schein-2026-07-25T220959.png",
+     "score": 2.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -962,51 +955,6 @@
      "rank": 18
     },
     {
-     "name": "Henry Schein",
-     "slug": "henry-schein",
-     "description": "Henry Schein is a worldwide distributor of medical and dental supplies including vaccines, pharmaceuticals, financial services and equipment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/henry-schein/refs/heads/main/screenshots/henry-schein-2026-07-25T220959.png",
-     "score": 2.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
      "name": "Moderna",
      "slug": "moderna",
      "description": "Profile for Moderna in the API Evangelist network. Fortune 500.",
@@ -1024,8 +972,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -1053,7 +1001,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Pfizer",
@@ -1072,8 +1020,60 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Merck",
+     "slug": "merck",
+     "description": "At Merck, we're following the science to tackle some of the world's greatest health threats. Get a glimpse of how we work to improve lives. No public APIs or developer portal have been identified for Merck.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/merck/refs/heads/main/screenshots/merck-2026-06-20T185206.png",
+     "score": 2.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 7.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1100,31 +1100,28 @@
      "rank": 21
     },
     {
-     "name": "Merck",
-     "slug": "merck",
-     "description": "At Merck, we're following the science to tackle some of the world's greatest health threats. Get a glimpse of how we work to improve lives. No public APIs or developer portal have been identified for Merck.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/merck/refs/heads/main/screenshots/merck-2026-06-20T185206.png",
-     "score": 2.7,
+     "name": "Incyte",
+     "slug": "incyte",
+     "description": "Profile for Incyte in the API Evangelist network. Fortune F1000 (rank 953).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/incyte/refs/heads/main/screenshots/incyte-2026-06-20T183311.png",
+     "score": 2.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 25.9,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 7.5,
-      "matched_via": "tags"
+      "undetermined": true,
+      "note": "provider declares no identity tags; regime could not be determined"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1152,55 +1149,6 @@
      "rank": 22
     },
     {
-     "name": "Incyte",
-     "slug": "incyte",
-     "description": "Profile for Incyte in the API Evangelist network. Fortune F1000 (rank 953).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/incyte/refs/heads/main/screenshots/incyte-2026-06-20T183311.png",
-     "score": 2.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 25.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "undetermined": true,
-      "note": "provider declares no identity tags; regime could not be determined"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 23
-    },
-    {
      "name": "Gilead Sciences",
      "slug": "gilead-sciences",
      "description": "Gilead Sciences is a research-based biopharmaceutical company that discovers, develops, and commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis, oncology, and inflammatory diseases.",
@@ -1218,8 +1166,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1250,7 +1198,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 23
     }
    ]
   }

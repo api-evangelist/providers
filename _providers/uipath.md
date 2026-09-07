@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -1599,7 +1599,7 @@ score:
   band: strong
   composite: 60.7
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 76.5
     catalog_earned_first_party: 0.0
     catalog_gap: 38.5
@@ -1623,8 +1623,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:

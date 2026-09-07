@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -176,8 +176,8 @@ score:
     regions:
     - north-america
   previous_composite: 17.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/screenshots/triumph-group-2026-06-20T195738.png
 security:

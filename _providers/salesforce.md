@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -18080,7 +18080,7 @@ score:
   band: exemplar
   composite: 82.9
   coverage:
-    artifact_dirs: 43
+    artifact_dirs: 42
     catalog_earned: 91.5
     catalog_earned_first_party: 24.0
     catalog_gap: 23.5
@@ -18107,8 +18107,8 @@ score:
       total: 256
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:

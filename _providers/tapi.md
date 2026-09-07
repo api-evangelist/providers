@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Regional bill-payment and payments infrastructure API — biller directory, service/bill payments, phone recharges, subscriptions, scheduled-payment agendas and digital gift cards, with a token-based Lo
@@ -163,8 +163,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 25.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tapi/refs/heads/main/screenshots/tapi-2026-09-02T162529.png
 security:

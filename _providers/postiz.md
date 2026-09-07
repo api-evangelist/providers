@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 122
@@ -444,7 +444,7 @@ score:
   band: strong
   composite: 63.8
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 67.0
     catalog_earned_first_party: 24.0
     catalog_gap: 48.0
@@ -471,8 +471,8 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postiz/refs/heads/main/screenshots/postiz-2026-08-17T080412.png
 security:

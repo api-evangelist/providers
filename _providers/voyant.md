@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 350
   human_in_the_loop: 4
@@ -693,7 +693,7 @@ score:
   band: developing
   composite: 41.0
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 44.0
     catalog_earned_first_party: 20.0
     catalog_gap: 71.0
@@ -720,8 +720,8 @@ score:
       total: 98
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyant/refs/heads/main/screenshots/voyant-2026-08-17T082904.png
 security:

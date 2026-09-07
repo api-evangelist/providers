@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Search and retrieve English-language poems by author, title, line content, and line count. Returns structured JSON with title, author, lines array, and linecount fields. No authentication required.
@@ -41,6 +41,10 @@ apis:
   slug: poetry-db
 artifact_total: 12
 common:
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: operate
   title: ''
   type: IssueTracker
@@ -126,7 +130,7 @@ overview: 'PoetryDB publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The PoetryDB catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  PoetryDB''s developer surface includes documentation and 11 more developer resources.'
+  PoetryDB''s developer surface includes documentation and 12 more developer resources.'
 plans:
 - name: Poetry Db Plans Pricing
   plan_count: 1
@@ -183,8 +187,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poetry-db/refs/heads/main/screenshots/poetry-db-2026-06-20T191838.png
 security:

@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -32,8 +32,15 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 9.4
-  scored_at: '2026-09-05'
+  score: 16.5
+  scored_at: '2026-09-06'
+agentic_access:
+- acting_count: 2
+  human_in_the_loop: 0
+  name: Linear App Agentic Access
+  operation_count: 2
+  slug: linear-app-agentic-access
+  summary_line: 2 operations · 2 acting
 api_count: 4
 apis:
 - description: 'Single GraphQL endpoint exposing Linear''s full data model - issues, projects, initiatives, cycles, teams, users, comments, documents, customers, customer requests, and more. Auth via OAuth 2.0 Bearer '
@@ -48,8 +55,16 @@ apis:
 - description: Capabilities for AI agents to operate as first-class actors inside Linear - Agent Interaction Guidelines (AIG), signals, and best-practice patterns for interacting with users and issues.
   name: Linear Agents API
   slug: linear-agents-api
-artifact_total: 24
+artifact_total: 26
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/linear-app-agentic-access.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/linear-app-scopes.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -211,7 +226,7 @@ network: true
 overview: 'Linear publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Project Management, Issue Tracking, Productivity, Software-as-a-Service, and GraphQL.
 
 
-  Linear''s developer surface includes signup flow, documentation, API reference, authentication, pricing, changelog, engineering blog, and 25 more developer resources.'
+  Linear''s developer surface includes signup flow, documentation, API reference, authentication, pricing, changelog, engineering blog, and 27 more developer resources.'
 plans:
 - name: Linear App Plans Pricing
   plan_count: 1
@@ -221,11 +236,16 @@ rate_limits:
 - limit_count: 2
   name: Linear App Rate Limits
   slug: linear-app-rate-limits
+scopes:
+- name: Linear App Scopes
+  scope_count: 4
+  slug: linear-app-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
   band: developing
   composite: 41.1
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 10
     catalog_earned: 49.0
     catalog_earned_first_party: 0.0
     catalog_gap: 66.0
@@ -242,8 +262,8 @@ score:
     governance: 0.0
     operational_transparency: 76.3
   previous_composite: 41.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/screenshots/linear-app-2026-06-20T184548.png
 security:

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'REST API exposing 20+ resources for compliance management: Controls, Policies, Policy Versions, Programs, Risks, Proof, Test Results, Issues, Tasks, Task Statuses, Questionnaires, Custom Apps, Labels,'
@@ -130,8 +130,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 11.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperproof/refs/heads/main/screenshots/hyperproof-2026-06-20T183046.png
 security:

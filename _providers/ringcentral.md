@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 250
   human_in_the_loop: 47
@@ -1253,7 +1253,7 @@ score:
   band: developing
   composite: 54.2
   coverage:
-    artifact_dirs: 30
+    artifact_dirs: 29
     catalog_earned: 37.5
     catalog_earned_first_party: 0.0
     catalog_gap: 77.5
@@ -1285,8 +1285,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 54.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringcentral/refs/heads/main/screenshots/ringcentral-2026-06-20T193124.png
 security:

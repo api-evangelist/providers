@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -198,7 +198,7 @@ score:
   band: thin
   composite: 34.9
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 56.0
     catalog_earned_first_party: 0.0
     catalog_gap: 59.0
@@ -222,8 +222,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/printful/refs/heads/main/screenshots/printful-2026-09-02T152031.png
 security:

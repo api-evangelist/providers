@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: AutoNation operates a digital retail platform at autonation.com that enables consumers to browse new and used vehicle inventory, configure purchases, apply for financing, and schedule vehicle deliveri
@@ -133,8 +133,8 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 9.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/screenshots/autonation-2026-06-20T172705.png
 security:

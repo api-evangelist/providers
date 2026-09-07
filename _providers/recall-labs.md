@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 2
@@ -155,6 +155,18 @@ collections:
   name: Trading Simulator Admin Trade API
   slug: open-recall-labs-trade-api
 common:
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://docs.recall.network/quickstart
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/recall-labs-packages.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/recall-labs-packages.yml
 - group: other
   title: ''
   type: Overlay
@@ -262,25 +274,25 @@ network: true
 overview: 'Recall Labs publishes 13 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Agent API, Agents API, and 10 more. Tagged areas include Company, Infra Devtools, Artificial Intelligence, AI Agents, and Trading.
 
 
-  Recall Labs'' developer surface includes documentation, API reference, engineering blog, changelog, signup flow, support, authentication, and 17 more developer resources.'
+  Recall Labs'' developer surface includes quickstart, documentation, API reference, engineering blog, changelog, signup flow, support, and 20 more developer resources.'
 random_paper: 19
 score:
   band: developing
-  composite: 42.7
+  composite: 46.5
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 54.1
-    developer_ergonomics: 54.2
+    developer_ergonomics: 73.2
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
@@ -301,8 +313,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recall-labs/refs/heads/main/screenshots/recall-labs-2026-08-17T081454.png
 security:

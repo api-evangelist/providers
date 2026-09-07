@@ -1,6 +1,6 @@
 {
- "total": 95,
- "shown": 95,
+ "total": 99,
+ "shown": 99,
  "limit": 1000,
  "bands": [
   {
@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -81,8 +81,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 44.9,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -136,8 +136,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -181,8 +181,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -223,8 +223,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "JPX (Japan Exchange Group)",
@@ -244,8 +244,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -296,8 +296,8 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -348,8 +348,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -393,8 +393,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -445,8 +445,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -473,6 +473,50 @@
      "rank": 9
     },
     {
+     "name": "Acall",
+     "slug": "acall",
+     "description": "Acall Inc. (アコール株式会社) is a Japanese workplace-experience software company, founded in 2010 and headquartered in Tokyo with a Kobe office, whose Acall / WorkstyleOS platform runs the physical side of hybrid work for more than 7,000 organizations. The product is a set of check-in surfaces — Acall Reception (iPad visitor reception and entry/exit records), Acall Meeting (meeting-room booking and utilization), Acall Desktop (free-address desk and workspace \"spot\" reservation / hoteling), Acall Gate (entry-gate integration), AI Meeting, Neat device integration and a multi-tenant building mode — stitched to Microsoft 365 and Google Calendar, Teams/Slack/Chatwork notifications, and SSO/SCIM-style provisioning. Acall publishes a REST \"Acall Public API\" (v1, bearer token) covering workers, facilities, events, gate access logs, spots and spot reservations, plus an outbound Webhook surface for appointment and internal-meeting events. API access is not self-serve: a token is issued only after a request through the contact form, and the API is unavailable on the multi-tenant plan.",
+     "score": 44.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 59.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 46.1,
+      "access_clarity": 46.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 10
+    },
+    {
      "name": "Kyoto University",
      "slug": "kyoto",
      "description": "Kyoto University (京都大学) is a national research university in Kyoto, Japan, established in 1897 and ranked #36 in the QS World University Rankings. It operates no developer portal, no API gateway, no API terms of service and no OpenAPI of its own, and this profile records that plainly. What it does run, on its own hosts and its own network, is a small set of genuinely institution-operated machine-readable surfaces: KURENAI, the Kyoto University Research Information Repository, a self-hosted DSpace 7.6 with an anonymous HAL+JSON REST API and an OAI-PMH 2.0 endpoint serving 15 metadata formats including JPCOAR and junii2, holding content back to 2006; PandA, the university's Sakai Learning Support System, whose Entity Broker answers JSON on 53 registered entity prefixes and which is a live IMS LTI 1.3 platform publishing its own signing keyset alongside a working LTI 1.1 outcomes service; and its own Shibboleth SAML 2.0 identity provider, registered in GakuNin, the Japanese academic federation, which participates in eduGAIN. Those surfaces sit on hosts inside 133.3.0.0/16, registered by JPNIC to Kyoto University as KUINS, or in the university's own AWS account. Five of the twelve Kin Score education-regime standards are met with live evidence — oai-pmh, shibboleth, saml, lti and orcid — which is unusual for this cohort and entirely first-party. Everything else is a human-facing service: the KULINE library catalogue, the KDB researcher database, OpenCourseWare, and the generative-AI tooling the IIMC brokers from Google and Microsoft. Student information, course registration and timetable systems are behind campus accounts and are not public APIs.",
@@ -490,8 +534,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -522,7 +566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Paidy",
@@ -542,8 +586,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -574,7 +618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Magic Moment",
@@ -594,8 +638,8 @@
       "commercial_clarity": 64.5,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -619,7 +663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "SmartHR",
@@ -639,8 +683,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -664,7 +708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
     }
    ]
   },
@@ -694,8 +738,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -719,7 +763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Tokyo Institute of Technology",
@@ -739,8 +783,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -771,7 +815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "freee",
@@ -791,8 +835,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -816,7 +860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "KOMOJU",
@@ -836,8 +880,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -868,7 +912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "LayerX",
@@ -888,8 +932,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -920,7 +964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Nagoya University",
@@ -940,8 +984,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -972,7 +1016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Logiless",
@@ -992,8 +1036,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1017,7 +1061,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Kyushu University",
@@ -1037,8 +1081,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1069,7 +1113,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Rakuten",
@@ -1089,8 +1133,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1121,7 +1165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "TableCheck",
@@ -1141,8 +1185,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1166,7 +1210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Keio University",
@@ -1186,8 +1230,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1218,7 +1262,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "PayPay",
@@ -1238,8 +1282,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1270,7 +1314,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Tohoku University",
@@ -1290,8 +1334,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1322,7 +1366,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "MakeLeaps",
@@ -1342,8 +1386,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1374,7 +1418,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Waseda University",
@@ -1394,8 +1438,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1426,7 +1470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "JAXA",
@@ -1446,8 +1490,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1478,7 +1522,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "LegalOn",
@@ -1498,8 +1542,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1523,7 +1567,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "NTT Docomo",
@@ -1543,8 +1587,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1575,7 +1619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "J-Quants",
@@ -1595,8 +1639,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1620,7 +1664,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Unifa",
@@ -1639,8 +1683,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1671,7 +1715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Woodstock",
@@ -1691,8 +1735,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1723,7 +1767,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     }
    ]
   },
@@ -1732,8 +1776,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 22,
-   "shown": 22,
+   "count": 23,
+   "shown": 23,
    "providers": [
     {
      "name": "1→10, Inc.",
@@ -1752,8 +1796,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 6.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1777,7 +1821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Hokkaido University",
@@ -1797,8 +1841,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1829,7 +1873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Kyash",
@@ -1849,8 +1893,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1881,7 +1925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "ANDPAD",
@@ -1901,8 +1945,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1926,7 +1970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Trustdock",
@@ -1946,8 +1990,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1971,7 +2015,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "NTT",
@@ -1991,8 +2035,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2023,7 +2067,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
+    },
+    {
+     "name": "aceRNA Technologies",
+     "slug": "acerna",
+     "description": "aceRNA Technologies Co., Ltd. is a Japanese biotechnology venture founded in April 2018 to commercialize the RNA design technology (\"RNA Switch\") developed in the synthetic RNA biology laboratory of Prof. Hirohide Saito at Kyoto University. An RNA Switch is embedded into a messenger RNA so that expression of the therapeutic transgene is gated by the activity of a specific microRNA inside the cell, letting a treatment act only on the cell type and cell state that is diseased. The company applies the platform across mRNA medicines, cell therapy and gene therapy, co-develops with partners (an agreement with Nitto Denko was announced in December 2021), and closed a JPY 960M Series B in May 2024 led by DCI Partners. It is headquartered at the University of Tokyo Entrepreneur Plaza. aceRNA runs no developer programme and publishes no API reference, OpenAPI or SDK; the only machine-readable surfaces on its domain are the Wix-platform llms.txt and Site MCP endpoint, both captured here.",
+     "score": 16.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 42
     },
     {
      "name": "Graffer",
@@ -2043,8 +2138,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2075,7 +2170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 43
     },
     {
      "name": "BODIK ODCS",
@@ -2095,112 +2190,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "DATA GO JP",
-     "slug": "data-go-jp",
-     "description": "DATA GO JP is a national government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 18,366 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-go-jp/refs/heads/main/screenshots/data-go-jp-2026-06-20T175626.png",
-     "score": 15.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 11.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
-     "name": "e-Gov Data Catalog",
-     "slug": "data-e-gov-go-jp",
-     "description": "e-Gov Data Catalog is a national government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 18,366 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-e-gov-go-jp/refs/heads/main/screenshots/data-e-gov-go-jp-2026-06-20T175622.png",
-     "score": 15.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2234,10 +2225,10 @@
      "rank": 44
     },
     {
-     "name": "Gifu Prefecture Open Data",
-     "slug": "gifu-opendata-pref-gifu-lg-jp",
-     "description": "Gifu Prefecture Open Data is a regional government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,881 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gifu-opendata-pref-gifu-lg-jp/refs/heads/main/screenshots/gifu-opendata-pref-gifu-lg-jp-2026-06-20T181825.png",
+     "name": "DATA GO JP",
+     "slug": "data-go-jp",
+     "description": "DATA GO JP is a national government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 18,366 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-go-jp/refs/heads/main/screenshots/data-go-jp-2026-06-20T175626.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2251,8 +2242,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2286,10 +2277,10 @@
      "rank": 45
     },
     {
-     "name": "Tokyo Metropolitan Open Data",
-     "slug": "catalog-data-metro-tokyo-lg-jp",
-     "description": "Tokyo Metropolitan Open Data is a regional government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 9,675 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalog-data-metro-tokyo-lg-jp/refs/heads/main/screenshots/catalog-data-metro-tokyo-lg-jp-2026-06-20T174045.png",
+     "name": "e-Gov Data Catalog",
+     "slug": "data-e-gov-go-jp",
+     "description": "e-Gov Data Catalog is a national government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 18,366 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-e-gov-go-jp/refs/heads/main/screenshots/data-e-gov-go-jp-2026-06-20T175622.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2303,8 +2294,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2338,10 +2329,10 @@
      "rank": 46
     },
     {
-     "name": "Yokohama City Open Data",
-     "slug": "data-city-yokohama-lg-jp",
-     "description": "Yokohama City Open Data is a municipal government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 657 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-city-yokohama-lg-jp/refs/heads/main/screenshots/data-city-yokohama-lg-jp-2026-06-20T175517.png",
+     "name": "Gifu Prefecture Open Data",
+     "slug": "gifu-opendata-pref-gifu-lg-jp",
+     "description": "Gifu Prefecture Open Data is a regional government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 1,881 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gifu-opendata-pref-gifu-lg-jp/refs/heads/main/screenshots/gifu-opendata-pref-gifu-lg-jp-2026-06-20T181825.png",
      "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
@@ -2355,8 +2346,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2390,160 +2381,32 @@
      "rank": 47
     },
     {
-     "name": "Ulysses (Kaminashi)",
-     "slug": "ulysses",
-     "description": "Kaminashi Inc. (株式会社カミナシ) is a Tokyo-based SaaS company founded in December 2016 under its former corporate name Ulysses Inc. (ユリシーズ株式会社). It builds the Kaminashi frontline-operations DX platform for deskless workers — digital checklists and inspections, equipment maintenance (CMMS), frontline employee management, training and manuals, and reporting — serving food manufacturing, machine manufacturing, logistics, hotels, and building maintenance. Surfaced as a portfolio company of 500 Global and a16z. The company is ISMS (ISO/IEC 27001) certified and publishes no public developer API surface as of July 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ulysses/refs/heads/main/screenshots/ulysses-2026-09-02T164807.png",
-     "score": 15.5,
+     "name": "Tokyo Metropolitan Open Data",
+     "slug": "catalog-data-metro-tokyo-lg-jp",
+     "description": "Tokyo Metropolitan Open Data is a regional government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 9,675 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/catalog-data-metro-tokyo-lg-jp/refs/heads/main/screenshots/catalog-data-metro-tokyo-lg-jp-2026-06-20T174045.png",
+     "score": 15.7,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 68.5,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 32.9,
-      "access_clarity": 32.9
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
      },
-     "rank": 48
-    },
-    {
-     "name": "Souco",
-     "slug": "souco",
-     "description": "Souco (株式会社souco / souco Co., Ltd.) operates a warehouse-sharing marketplace and logistics resource optimization platform in Japan, connecting cargo owners with available space across a nationwide network of 3,000+ warehouses spanning all 47 prefectures. Businesses can secure short- or long-term storage on demand for a wide range of cargo — food ingredients, apparel, machinery, and documents — under ambient, refrigerated, frozen, or temperature-controlled conditions, with pickup and delivery coordination handled by the platform. Alongside the sharing marketplace, souco offers a rental-warehouse search portal, transportation services, and the Optis engine for optimizing logistics networks, plus consulting and DX support for the logistics industry. The company is backed by 500 Global and Sumitomo Corporation's corporate venture arm. souco is a customer-facing logistics platform and does not currently publish a public developer API, SDKs, or developer documentation; its digital surface is a login-gated web application at app.souco.space.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/souco/refs/heads/main/screenshots/souco-2026-09-02T160239.png",
-     "score": 15.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
-     "name": "Spiber",
-     "slug": "spiber",
-     "description": "Spiber Inc. is a Japanese biotechnology and advanced-materials company founded in 2007 and headquartered in Tsuruoka, Yamagata Prefecture, Japan. Spiber develops Brewed Protein materials — structural proteins produced by precision fermentation of plant-derived sugars using engineered microbes, then spun into fibers, resins, and films as animal-free, petroleum-free alternatives to silk, wool, cashmere, leather, and synthetic polymers. The company operates fermentation plants in Japan, Thailand, and the United States and supplies apparel, outdoor, automotive, and consumer brands, alongside a research program in synthetic biology, polymer science, and life-cycle assessment. Spiber is a materials manufacturer rather than a software vendor and publishes no developer program, developer portal, SDKs, or product API; the only machine-readable HTTP surface it serves is the read-only WordPress REST content API behind its corporate website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spiber/refs/heads/main/screenshots/spiber-2026-09-02T160423.png",
-     "score": 15.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 7.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 50
-    },
-    {
-     "name": "HiJoJo Partners",
-     "slug": "hijojo-partners",
-     "description": "HiJoJo Partners Inc. (HiJoJo Partners株式会社) is a Tokyo-based independent asset management and fintech group, established in November 2017 and registered with the Director of the Kanto Local Finance Bureau (No. 3065) for Type II Financial Instruments Business, Investment Management Business, and Investment Advisory and Agency Business. The firm forms, sells and manages funds that give Japanese institutional and individual investors access to late-stage private and pre-IPO companies, and works to develop Japan's secondary market for unlisted shares. It operates three lines: HiJoJo Prime (in-person advisory for investors with 100M JPY or more in investable assets), HiJoJo.com (an online fund platform for individual investors with 30M JPY or more), and HiJoJo Private Market Solution for institutional investors and startups. HiJoJo joined the Nasdaq Private Market investor consortium in 2024 to expand secondary-market access in Japan. Its investor-facing platform is delivered as an authenticated member web application; the company publishes no public API, developer portal, SDK or machine-readable specification of any kind.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/screenshots/hijojo-partners-2026-09-02T145731.png",
-     "score": 13.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2567,7 +2430,239 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 48
+    },
+    {
+     "name": "Yokohama City Open Data",
+     "slug": "data-city-yokohama-lg-jp",
+     "description": "Yokohama City Open Data is a municipal government open-data portal for Japan running CKAN. It exposes the CKAN catalog API, a standardized machine-readable interface over approximately 657 datasets, supporting programmatic dataset search, metadata retrieval, and resource access. Because it runs CKAN, it shares a consistent API surface with every other CKAN portal, making it uniformly harvestable and integrable.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/data-city-yokohama-lg-jp/refs/heads/main/screenshots/data-city-yokohama-lg-jp-2026-06-20T175517.png",
+     "score": 15.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 9.5,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 11.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
+     "name": "Ulysses (Kaminashi)",
+     "slug": "ulysses",
+     "description": "Kaminashi Inc. (株式会社カミナシ) is a Tokyo-based SaaS company founded in December 2016 under its former corporate name Ulysses Inc. (ユリシーズ株式会社). It builds the Kaminashi frontline-operations DX platform for deskless workers — digital checklists and inspections, equipment maintenance (CMMS), frontline employee management, training and manuals, and reporting — serving food manufacturing, machine manufacturing, logistics, hotels, and building maintenance. Surfaced as a portfolio company of 500 Global and a16z. The company is ISMS (ISO/IEC 27001) certified and publishes no public developer API surface as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ulysses/refs/heads/main/screenshots/ulysses-2026-09-02T164807.png",
+     "score": 15.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 32.9,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 50
+    },
+    {
+     "name": "Souco",
+     "slug": "souco",
+     "description": "Souco (株式会社souco / souco Co., Ltd.) operates a warehouse-sharing marketplace and logistics resource optimization platform in Japan, connecting cargo owners with available space across a nationwide network of 3,000+ warehouses spanning all 47 prefectures. Businesses can secure short- or long-term storage on demand for a wide range of cargo — food ingredients, apparel, machinery, and documents — under ambient, refrigerated, frozen, or temperature-controlled conditions, with pickup and delivery coordination handled by the platform. Alongside the sharing marketplace, souco offers a rental-warehouse search portal, transportation services, and the Optis engine for optimizing logistics networks, plus consulting and DX support for the logistics industry. The company is backed by 500 Global and Sumitomo Corporation's corporate venture arm. souco is a customer-facing logistics platform and does not currently publish a public developer API, SDKs, or developer documentation; its digital surface is a login-gated web application at app.souco.space.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/souco/refs/heads/main/screenshots/souco-2026-09-02T160239.png",
+     "score": 15.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 51
+    },
+    {
+     "name": "Spiber",
+     "slug": "spiber",
+     "description": "Spiber Inc. is a Japanese biotechnology and advanced-materials company founded in 2007 and headquartered in Tsuruoka, Yamagata Prefecture, Japan. Spiber develops Brewed Protein materials — structural proteins produced by precision fermentation of plant-derived sugars using engineered microbes, then spun into fibers, resins, and films as animal-free, petroleum-free alternatives to silk, wool, cashmere, leather, and synthetic polymers. The company operates fermentation plants in Japan, Thailand, and the United States and supplies apparel, outdoor, automotive, and consumer brands, alongside a research program in synthetic biology, polymer science, and life-cycle assessment. Spiber is a materials manufacturer rather than a software vendor and publishes no developer program, developer portal, SDKs, or product API; the only machine-readable HTTP surface it serves is the read-only WordPress REST content API behind its corporate website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spiber/refs/heads/main/screenshots/spiber-2026-09-02T160423.png",
+     "score": 15.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 14.3,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 7.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
+     "name": "HiJoJo Partners",
+     "slug": "hijojo-partners",
+     "description": "HiJoJo Partners Inc. (HiJoJo Partners株式会社) is a Tokyo-based independent asset management and fintech group, established in November 2017 and registered with the Director of the Kanto Local Finance Bureau (No. 3065) for Type II Financial Instruments Business, Investment Management Business, and Investment Advisory and Agency Business. The firm forms, sells and manages funds that give Japanese institutional and individual investors access to late-stage private and pre-IPO companies, and works to develop Japan's secondary market for unlisted shares. It operates three lines: HiJoJo Prime (in-person advisory for investors with 100M JPY or more in investable assets), HiJoJo.com (an online fund platform for individual investors with 30M JPY or more), and HiJoJo Private Market Solution for institutional investors and startups. HiJoJo joined the Nasdaq Private Market investor consortium in 2024 to expand secondary-market access in Japan. Its investor-facing platform is delivered as an authenticated member web application; the company publishes no public API, developer portal, SDK or machine-readable specification of any kind.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hijojo-partners/refs/heads/main/screenshots/hijojo-partners-2026-09-02T145731.png",
+     "score": 13.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
     },
     {
      "name": "Zehitomo",
@@ -2587,8 +2682,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2612,7 +2707,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 54
     },
     {
      "name": "Leaner Technologies",
@@ -2632,8 +2727,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2657,7 +2752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Life is Tech",
@@ -2677,8 +2772,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2709,7 +2804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Hokan",
@@ -2729,8 +2824,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2761,7 +2856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 57
     },
     {
      "name": "ClassAction",
@@ -2781,108 +2876,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 56
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 39,
-   "shown": 39,
-   "providers": [
-    {
-     "name": "App-CM",
-     "slug": "app-cm",
-     "description": "App-CM, Inc. (株式会社アップシーエム) is a Tokyo-based technology company that operates a proprietary video-advertising delivery platform for smartphones, using in-house compression, delivery, and targeting-algorithm technology to serve video ads smoothly in mobile environments. App-CM also develops and publishes consumer mobile apps including FriendQuiz, SunQ, and Shakin. The company is backed by 500 Global and is profiled in the API Evangelist network. It ships a publisher-side iOS/Android video ad SDK, but distributes it only through a sales conversation: there is no public API, developer portal, SDK download, package-registry release, or machine-readable specification, and every /.well-known/ discovery path returns 404. This profile captures its identity, commercial model, and security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/app-cm/refs/heads/main/screenshots/app-cm-2026-07-25T200700.png",
-     "score": 10.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "HERP",
-     "slug": "herp",
-     "description": "HERP Inc. (株式会社HERP) is a Japanese HR Tech company whose mission is \"採用を変え、日本を強く。\" (change recruiting, strengthen Japan). It builds HERP Hire, an AI-era applicant tracking and recruitment management system (ATS) known for \"scrum recruiting\", alongside ジョブミル (Jobmill) for recruiting agents and HERP Career, a startup-focused job-change service. HERP Hire integrates with job boards and tools such as Zoom, Google Calendar and Slack, and exposes the \"HERP Hire API\" (generally available from 2026-02-03 to paying customers) for member assignment and application management. HERP was surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/herp/refs/heads/main/screenshots/herp-2026-07-25T221058.png",
-     "score": 10.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2907,6 +2902,106 @@
       "agentic_commerce": false
      },
      "rank": 58
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 40,
+   "shown": 40,
+   "providers": [
+    {
+     "name": "App-CM",
+     "slug": "app-cm",
+     "description": "App-CM, Inc. (株式会社アップシーエム) is a Tokyo-based technology company that operates a proprietary video-advertising delivery platform for smartphones, using in-house compression, delivery, and targeting-algorithm technology to serve video ads smoothly in mobile environments. App-CM also develops and publishes consumer mobile apps including FriendQuiz, SunQ, and Shakin. The company is backed by 500 Global and is profiled in the API Evangelist network. It ships a publisher-side iOS/Android video ad SDK, but distributes it only through a sales conversation: there is no public API, developer portal, SDK download, package-registry release, or machine-readable specification, and every /.well-known/ discovery path returns 404. This profile captures its identity, commercial model, and security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/app-cm/refs/heads/main/screenshots/app-cm-2026-07-25T200700.png",
+     "score": 10.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 59
+    },
+    {
+     "name": "HERP",
+     "slug": "herp",
+     "description": "HERP Inc. (株式会社HERP) is a Japanese HR Tech company whose mission is \"採用を変え、日本を強く。\" (change recruiting, strengthen Japan). It builds HERP Hire, an AI-era applicant tracking and recruitment management system (ATS) known for \"scrum recruiting\", alongside ジョブミル (Jobmill) for recruiting agents and HERP Career, a startup-focused job-change service. HERP Hire integrates with job boards and tools such as Zoom, Google Calendar and Slack, and exposes the \"HERP Hire API\" (generally available from 2026-02-03 to paying customers) for member assignment and application management. HERP was surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/herp/refs/heads/main/screenshots/herp-2026-07-25T221058.png",
+     "score": 10.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 60
     },
     {
      "name": "Kuraseru",
@@ -2926,8 +3021,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2958,7 +3053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 61
     },
     {
      "name": "Dinii",
@@ -2978,98 +3073,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 60
-    },
-    {
-     "name": "Pokelabo",
-     "slug": "pokelabo",
-     "description": "Pokelabo (ポケラボ) is a Japanese mobile game development studio founded in 2007 and headquartered in Tokyo. Originally an independent social-game maker, it became a subsidiary of GREE and, as of January 1, 2025, was integrated into WFS (Wright Flyer Studios) under the GREE group. The studio develops and operates smartphone games built on licensed and original intellectual properties, including titles such as SINoALICE and Magia Exedra (Puella Magi Madoka Magica). Pokelabo is a consumer entertainment company and does not expose a public developer API; this profile captures its identity and domain-security posture for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pokelabo/refs/heads/main/screenshots/pokelabo-2026-09-02T151632.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "Gojo & Company",
-     "slug": "gojo--company",
-     "description": "Gojo & Company, Inc. is a Tokyo-headquartered financial inclusion holding company founded on 4 July 2014 by Taejun Shin and Sanjay Gandhi, with the stated ambition of becoming a \"private-sector World Bank\". Gojo raises capital from mission-aligned investors and deploys it into microfinance institutions and inclusive financial service providers across South Asia, Southeast Asia, Central Asia, the Caucasus and Africa, supplying not only equity and debt but also management, governance, risk and technology support to its group companies. It runs a Financial Diaries research programme on low-income household cashflows, the Pasio digital financial inclusion initiative, and a non-profit arm, the Gojo Foundation. Gojo is a certified B Corporation and reports under J-GAAP. It is a private company; its equity trades on secondary marketplaces such as Hiive. Gojo publishes no public developer program, API documentation, or machine-readable API contract — its digital financial infrastructure and cloud core banking work is internal to the group and its partner institutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gojo--company/refs/heads/main/screenshots/gojo--company-2026-09-02T145621.png",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3096,25 +3101,25 @@
      "rank": 62
     },
     {
-     "name": "Tyffon",
-     "slug": "tyffon",
-     "description": "Tyffon Inc. is a Japanese immersive entertainment company that combines creativity and technology to deliver memorable XR experiences. The studio builds VR, AR, and mixed-reality attractions - including Corridor, Kaiju Haven VR, Floria, and Island Mirrorge MR - operates the Tyffonium attraction brand, licenses its XR content to entertainment venues across Japan, and released the GARA AR platform app. A Techstars portfolio company, Tyffon publishes no public developer portal or API surface as of July 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyffon/refs/heads/main/screenshots/tyffon-2026-09-02T164651.png",
-     "score": 10.4,
+     "name": "Pokelabo",
+     "slug": "pokelabo",
+     "description": "Pokelabo (ポケラボ) is a Japanese mobile game development studio founded in 2007 and headquartered in Tokyo. Originally an independent social-game maker, it became a subsidiary of GREE and, as of January 1, 2025, was integrated into WFS (Wright Flyer Studios) under the GREE group. The studio develops and operates smartphone games built on licensed and original intellectual properties, including titles such as SINoALICE and Magia Exedra (Puella Magi Madoka Magica). Pokelabo is a consumer entertainment company and does not expose a public developer API; this profile captures its identity and domain-security posture for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pokelabo/refs/heads/main/screenshots/pokelabo-2026-09-02T151632.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3141,6 +3146,96 @@
      "rank": 63
     },
     {
+     "name": "Gojo & Company",
+     "slug": "gojo--company",
+     "description": "Gojo & Company, Inc. is a Tokyo-headquartered financial inclusion holding company founded on 4 July 2014 by Taejun Shin and Sanjay Gandhi, with the stated ambition of becoming a \"private-sector World Bank\". Gojo raises capital from mission-aligned investors and deploys it into microfinance institutions and inclusive financial service providers across South Asia, Southeast Asia, Central Asia, the Caucasus and Africa, supplying not only equity and debt but also management, governance, risk and technology support to its group companies. It runs a Financial Diaries research programme on low-income household cashflows, the Pasio digital financial inclusion initiative, and a non-profit arm, the Gojo Foundation. Gojo is a certified B Corporation and reports under J-GAAP. It is a private company; its equity trades on secondary marketplaces such as Hiive. Gojo publishes no public developer program, API documentation, or machine-readable API contract — its digital financial infrastructure and cloud core banking work is internal to the group and its partner institutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gojo--company/refs/heads/main/screenshots/gojo--company-2026-09-02T145621.png",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 64
+    },
+    {
+     "name": "Tyffon",
+     "slug": "tyffon",
+     "description": "Tyffon Inc. is a Japanese immersive entertainment company that combines creativity and technology to deliver memorable XR experiences. The studio builds VR, AR, and mixed-reality attractions - including Corridor, Kaiju Haven VR, Floria, and Island Mirrorge MR - operates the Tyffonium attraction brand, licenses its XR content to entertainment venues across Japan, and released the GARA AR platform app. A Techstars portfolio company, Tyffon publishes no public developer portal or API surface as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyffon/refs/heads/main/screenshots/tyffon-2026-09-02T164651.png",
+     "score": 10.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 65
+    },
+    {
      "name": "Linc'well",
      "slug": "lingxi-linc-well",
      "description": "Linc'well, Inc. (株式会社Linc'well) is a Tokyo-based healthcare technology company founded in January 2018 whose stated mission is to take healthcare one step further through technology. It operates a healthcare platform that connects medical professionals with patients across online and offline care, organized into three business lines: a telehealth platform licensed to medical institutions, where patients complete everything from booking to consultation on web, smartphone, or tablet, pay by credit card or pay-later, and have medication delivered or dispensed at a local pharmacy; a Smart Clinic clinic-DX service that digitizes core primary-care operations including appointment booking, medical intake, payment, and medical record entry; and a healthcare e-commerce business covering cosmetics, contact lenses, over-the-counter medicines, online medication guidance, and prescription dispensing. Linc'well runs the CLINIC FOR clinic brand and the miteme commerce and pharmacy properties, and is backed by DCM Ventures. It publishes no public API, developer portal, or machine-readable API specification; integration is a commercial arrangement with medical institutions.",
@@ -3158,8 +3253,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3190,7 +3285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 66
     },
     {
      "name": "Rakuten Mobile",
@@ -3210,8 +3305,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3242,51 +3337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
-    },
-    {
-     "name": "ABABA",
-     "slug": "ababa",
-     "description": "ABABA (株式会社ABABA) is a Tokyo-based Japanese HR technology company operating a new-graduate direct-recruiting platform built on an unusual premise: only students who have already reached the FINAL interview stage at another company may register, and each submits evidence of that selection history, so every candidate in the database arrives pre-qualified by someone else's hiring bar. Employers then scout those near-miss finalists into abbreviated selection flows — the company reports that 94% of adopting employers waive the entry sheet or the first interview for an ABABA candidate. A second product, REALME, runs AI mock interviews and matching. Founded 19 October 2020 and led by co-representatives Shunki Kubo (CEO) and Tatsuya Nakai, ABABA raised a 1.25 billion yen Series B in March 2025 led by DBJ Capital (1.82 billion yen total to date) and reported passing 3,000 cumulative adopting companies in November 2025. The product ships purely as an end-user web application: ABABA publishes no developer portal, API documentation, SDK, webhook catalog or machine-readable specification of any kind.",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "SkyDrive",
@@ -3306,8 +3357,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3331,14 +3382,13 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
-     "name": "Koska",
-     "slug": "koska",
-     "description": "KOSKA Corporation (株式会社KOSKA) is a Tokyo-based manufacturing technology company, founded in October 2018, that applies cost accounting and IoT to the Japanese factory floor. Its flagship product GenKan (原価管理自動化サービス) automates cost management for high-mix low-volume manufacturers: RFID and power sensors installed on existing equipment capture work progress and consumption without changing operator behavior, then make processing cost, material cost, and electricity cost visible line by line, feeding real actual-cost figures and KPI setting back to the shop floor and management. A second product, ながら記録 (Nagara Kiroku / \"vScribe\"), is an AI record-keeping app for manufacturing, construction, and logistics sites — photograph a paper form and AI generates the input form, then operators record hands-free by speaking, with the AI parsing natural speech into structured records, inspections, and reports. KOSKA is led by CEO Kenichiro Sone (Forbes 30 Under 30 Asia 2021) and advised by Hiroshi Obata, former chair of the Japan Cost Accounting Association. As of this profile the company publishes no public developer API, SDK, or developer portal — it is a sensor-and-SaaS product company, not an API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koska/refs/heads/main/screenshots/koska-2026-07-25T224233.png",
-     "score": 8.8,
+     "name": "ACROVE, Inc.",
+     "slug": "acrove",
+     "description": "ACROVE, Inc. (株式会社ACROVE) is a Tokyo e-commerce platform and brand roll-up company, founded 15 November 2018 as Anoma, Inc. and renamed ACROVE in October 2020, led by representative director Shunsuke Arai and headquartered in Nishi-Shinjuku. It runs two businesses: a Commerce Transformation practice that grows client brand sales on Amazon, Rakuten, Qoo10 and other Japanese marketplaces using its proprietary EC analytics engine ACROVE FORCE (now presented as ACROVE INSIGHT), and an EC roll-up business that acquires and operates consumer brands. It reports support for 170+ client companies and raised a Series C in September 2024. Its commerce arm — the former Digital-Free K.K., now 株式会社Acrove at commerce.acrove.co.jp — is a Magento / Adobe Commerce implementation specialist. ACROVE FORCE, ACROVE MDM and the ACROVE Knowledge Base are login-gated applications; the company publishes no public API, SDK, webhook surface, machine-readable contract or developer portal on any host it operates.",
+     "score": 9.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3346,58 +3396,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 68
-    },
-    {
-     "name": "Connected Robotics",
-     "slug": "connected-robotics",
-     "description": "Connected Robotics Inc. is a Japanese foodtech startup, founded in 2014 by Tetsuya Sawanobori and headquartered in Koganei, Tokyo, that develops specialized robotics and AI systems to automate labor-intensive work across food factories and restaurants. Its product line pairs AI image-processing and robot-control technology with purpose-built machines including the Delibot S plating robot, Delibot X filling robot, AI inspection software, a soft-serve ice-cream robot, and a french-fry cooking robot, targeting labor shortages, productivity, and food safety. The company has raised multiple rounds (including a July 2019 Series A led by Global Brain and a Series B closed in 2023 with strategic investors such as Yaskawa Electric, Hoshizaki, and Mitsubishi HC Capital) and was surfaced in the API Evangelist network as a 500 Global portfolio company. As a hardware and robotics manufacturer, Connected Robotics publishes no public web API, developer portal, or SDK at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connected-robotics/refs/heads/main/screenshots/connected-robotics-2026-07-25T210302.png",
-     "score": 8.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3424,25 +3429,25 @@
      "rank": 69
     },
     {
-     "name": "Every.tv",
-     "slug": "everytv",
-     "description": "Every, Inc. (株式会社エブリー, corp.every.tv) is a Tokyo-based Japanese video-media and advertising company that runs consumer lifestyle products including DELISH KITCHEN (recipe video media), retailHUB (a retail promotion and data platform connecting physical stores with digital channels), トモニテ / Tomonite (parenting video media and community), and MOMENTH (a professional video production and social team). Led by CEO Taissei Yoshida and headquartered in Roppongi, Minato, Tokyo, the company approached an IPO on the Tokyo Stock Exchange Growth Market. It was surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network for enrichment. Every, Inc. publishes an engineering blog and owned media but exposes no public developer API program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/everytv/refs/heads/main/screenshots/everytv-2026-07-25T213757.png",
-     "score": 8.5,
+     "name": "Koska",
+     "slug": "koska",
+     "description": "KOSKA Corporation (株式会社KOSKA) is a Tokyo-based manufacturing technology company, founded in October 2018, that applies cost accounting and IoT to the Japanese factory floor. Its flagship product GenKan (原価管理自動化サービス) automates cost management for high-mix low-volume manufacturers: RFID and power sensors installed on existing equipment capture work progress and consumption without changing operator behavior, then make processing cost, material cost, and electricity cost visible line by line, feeding real actual-cost figures and KPI setting back to the shop floor and management. A second product, ながら記録 (Nagara Kiroku / \"vScribe\"), is an AI record-keeping app for manufacturing, construction, and logistics sites — photograph a paper form and AI generates the input form, then operators record hands-free by speaking, with the AI parsing natural speech into structured records, inspections, and reports. KOSKA is led by CEO Kenichiro Sone (Forbes 30 Under 30 Asia 2021) and advised by Hiroshi Obata, former chair of the Japan Cost Accounting Association. As of this profile the company publishes no public developer API, SDK, or developer portal — it is a sensor-and-SaaS product company, not an API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koska/refs/heads/main/screenshots/koska-2026-07-25T224233.png",
+     "score": 8.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3469,10 +3474,10 @@
      "rank": 70
     },
     {
-     "name": "Spacee",
-     "slug": "spacee",
-     "description": "Spacee Inc. (株式会社スペイシー) is a Tokyo-based space-sharing and rental marketplace operator in Japan. Its consumer platforms let people discover and book temporary spaces by the hour: Yoyappin, a booking marketplace for meeting rooms, conference rooms, studios, kitchens and event venues across the Tokyo metropolitan area; THE POINT, a premium coworking and creative \"third place\" for remote workers; and Office Connect, a nationwide search service for shared offices, rental offices, coworking spaces and virtual offices. Spacee also expands via partnerships (e.g. JR West Japan) and acquisitions (GYYM pay-per-use fitness). It operates as a consumer web and mobile marketplace and does not publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spacee/refs/heads/main/screenshots/spacee-2026-09-02T160309.png",
+     "name": "Connected Robotics",
+     "slug": "connected-robotics",
+     "description": "Connected Robotics Inc. is a Japanese foodtech startup, founded in 2014 by Tetsuya Sawanobori and headquartered in Koganei, Tokyo, that develops specialized robotics and AI systems to automate labor-intensive work across food factories and restaurants. Its product line pairs AI image-processing and robot-control technology with purpose-built machines including the Delibot S plating robot, Delibot X filling robot, AI inspection software, a soft-serve ice-cream robot, and a french-fry cooking robot, targeting labor shortages, productivity, and food safety. The company has raised multiple rounds (including a July 2019 Series A led by Global Brain and a Series B closed in 2023 with strategic investors such as Yaskawa Electric, Hoshizaki, and Mitsubishi HC Capital) and was surfaced in the API Evangelist network as a 500 Global portfolio company. As a hardware and robotics manufacturer, Connected Robotics publishes no public web API, developer portal, or SDK at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/connected-robotics/refs/heads/main/screenshots/connected-robotics-2026-07-25T210302.png",
      "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3486,8 +3491,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3514,10 +3519,11 @@
      "rank": 71
     },
     {
-     "name": "TokyoOtakuMode",
-     "slug": "tokyootakumode",
-     "description": "Tokyo Otaku Mode (TOM) is a Japan-based e-commerce company and online destination for fans of Japanese pop culture, selling official anime figures, manga merchandise, apparel, and collectibles worldwide through its otakumode.com shop. Grown out of a large social-media following, TOM curates and ships Japanese otaku goods internationally. It runs a private, API-key-gated backend (api.otakumode.com) that powers its storefront, but publishes no public developer program, API documentation, OpenAPI/AsyncAPI specifications, or first-party client SDKs. This profile was surfaced as a 500 Global portfolio company and enriched from live public probes.",
-     "score": 8.4,
+     "name": "Every.tv",
+     "slug": "everytv",
+     "description": "Every, Inc. (株式会社エブリー, corp.every.tv) is a Tokyo-based Japanese video-media and advertising company that runs consumer lifestyle products including DELISH KITCHEN (recipe video media), retailHUB (a retail promotion and data platform connecting physical stores with digital channels), トモニテ / Tomonite (parenting video media and community), and MOMENTH (a professional video production and social team). Led by CEO Taissei Yoshida and headquartered in Roppongi, Minato, Tokyo, the company approached an IPO on the Tokyo Stock Exchange Growth Market. It was surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network for enrichment. Every, Inc. publishes an engineering blog and owned media but exposes no public developer API program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/everytv/refs/heads/main/screenshots/everytv-2026-07-25T213757.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3525,13 +3531,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3558,11 +3564,11 @@
      "rank": 72
     },
     {
-     "name": "Shippio",
-     "slug": "shippio",
-     "description": "Shippio is a Japanese logistics-technology company positioning itself as \"Japan's first digital forwarder.\" It provides cloud-based SaaS for visualizing and streamlining international trade and freight-forwarding operations, combining domain expertise with AI-era digital technology. Its product line includes Shippio Forwarding (a digital forwarding service), Shippio Cargo (trade-management SaaS for shippers/importers-exporters), and Shippio Works (trade-management SaaS for logistics operators), delivered through a multi-sided platform that connects shippers and operators. The company is backed by 500 Global. As of this enrichment pass Shippio publishes no public developer portal, API documentation, SDKs, or pricing; its APIs are internal platform APIs referenced only in engineering job postings, so this profile is identity-only with no public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippio/refs/heads/main/screenshots/shippio-2026-09-02T155232.png",
-     "score": 8.1,
+     "name": "Spacee",
+     "slug": "spacee",
+     "description": "Spacee Inc. (株式会社スペイシー) is a Tokyo-based space-sharing and rental marketplace operator in Japan. Its consumer platforms let people discover and book temporary spaces by the hour: Yoyappin, a booking marketplace for meeting rooms, conference rooms, studios, kitchens and event venues across the Tokyo metropolitan area; THE POINT, a premium coworking and creative \"third place\" for remote workers; and Office Connect, a nationwide search service for shared offices, rental offices, coworking spaces and virtual offices. Spacee also expands via partnerships (e.g. JR West Japan) and acquisitions (GYYM pay-per-use fitness). It operates as a consumer web and mobile marketplace and does not publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/spacee/refs/heads/main/screenshots/spacee-2026-09-02T160309.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3571,12 +3577,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 7.1,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3603,6 +3609,139 @@
      "rank": 73
     },
     {
+     "name": "TokyoOtakuMode",
+     "slug": "tokyootakumode",
+     "description": "Tokyo Otaku Mode (TOM) is a Japan-based e-commerce company and online destination for fans of Japanese pop culture, selling official anime figures, manga merchandise, apparel, and collectibles worldwide through its otakumode.com shop. Grown out of a large social-media following, TOM curates and ships Japanese otaku goods internationally. It runs a private, API-key-gated backend (api.otakumode.com) that powers its storefront, but publishes no public developer program, API documentation, OpenAPI/AsyncAPI specifications, or first-party client SDKs. This profile was surfaced as a 500 Global portfolio company and enriched from live public probes.",
+     "score": 8.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 74
+    },
+    {
+     "name": "Shippio",
+     "slug": "shippio",
+     "description": "Shippio is a Japanese logistics-technology company positioning itself as \"Japan's first digital forwarder.\" It provides cloud-based SaaS for visualizing and streamlining international trade and freight-forwarding operations, combining domain expertise with AI-era digital technology. Its product line includes Shippio Forwarding (a digital forwarding service), Shippio Cargo (trade-management SaaS for shippers/importers-exporters), and Shippio Works (trade-management SaaS for logistics operators), delivered through a multi-sided platform that connects shippers and operators. The company is backed by 500 Global. As of this enrichment pass Shippio publishes no public developer portal, API documentation, SDKs, or pricing; its APIs are internal platform APIs referenced only in engineering job postings, so this profile is identity-only with no public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippio/refs/heads/main/screenshots/shippio-2026-09-02T155232.png",
+     "score": 8.1,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 75
+    },
+    {
+     "name": "ABABA",
+     "slug": "ababa",
+     "description": "ABABA (株式会社ABABA) is a Tokyo-based Japanese HR technology company operating a new-graduate direct-recruiting platform built on an unusual premise: only students who have already reached the FINAL interview stage at another company may register, and each submits evidence of that selection history, so every candidate in the database arrives pre-qualified by someone else's hiring bar. Employers then scout those near-miss finalists into abbreviated selection flows — the company reports that 94% of adopting employers waive the entry sheet or the first interview for an ABABA candidate. A second product, REALME, runs AI mock interviews and matching. Founded 19 October 2020 and led by co-representatives Shunki Kubo (CEO) and Tatsuya Nakai, ABABA raised a 1.25 billion yen Series B in March 2025 led by DBJ Capital (1.82 billion yen total to date) and reported passing 3,000 cumulative adopting companies in November 2025. The product ships purely as an end-user web application: ABABA publishes no developer portal, API documentation, SDK, webhook catalog or machine-readable specification of any kind.",
+     "score": 7.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 76
+    },
+    {
      "name": "enechain",
      "slug": "enechain",
      "description": "enechain operates the largest energy exchange in Japan, offering trading opportunities for wholesale electricity and environmental values across an over-the-counter marketplace that connects energy market participants. Headquartered in Tokyo, the company builds energy markets that help buyers and sellers discover prices, manage risk, and trade power and environmental-value products, under the mission \"Building Energy Markets, Coloring Our Society.\" enechain was surfaced in the API Evangelist network as a portfolio company of DCM Ventures; it publishes no public developer API or documentation surface at this time.",
@@ -3620,8 +3759,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3652,7 +3791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 77
     },
     {
      "name": "EVERSTEEL",
@@ -3672,8 +3811,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3697,7 +3836,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 78
     },
     {
      "name": "Integral Geometry Science",
@@ -3717,8 +3856,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3749,7 +3888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 79
     },
     {
      "name": "newmo",
@@ -3769,156 +3908,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 77
-    },
-    {
-     "name": "CAPS",
-     "slug": "caps",
-     "description": "CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December 2014 whose mission is to maximize the total amount of happiness through health management (健康経営). CAPS operates a chain of primary-care clinics plus its Doctor365 telemedicine and urgent-care service, provides corporate health-support and wellness programs for employers, runs 24-hour IT-enabled fitness gyms, and delivers health-education programs including a Sesame Street partnership. Headquartered in Roppongi, Minato-ku, Tokyo, the company was seed-funded by 500 Startups Japan (500 Global) in 2018. This API Evangelist profile tracks CAPS as a company; enrichment found no public API, developer portal, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caps/refs/heads/main/screenshots/caps-2026-07-25T204431.png",
-     "score": 7.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 78
-    },
-    {
-     "name": "Excite Japan Co., Ltd. (JASDAQ:3754)",
-     "slug": "excite-japan-co-ltd-jasdaq-3754",
-     "description": "Excite Japan Co., Ltd. (エキサイト株式会社), listed on JASDAQ as ticker 3754, is a Tokyo-based internet media and services company founded in August 1997 and headquartered in the Azabudai Hills Mori JP Tower in Minato, Tokyo. It operates the long-running excite.co.jp web portal — offering web, image, and news search, the Excite Blog (exblog.jp) blogging platform, translation and dictionary tools, fortune-telling, recipe, and lifestyle content — alongside the BB.excite broadband/ISP business. Under parent Excite Holdings Co., Ltd., the group organizes its operations into four segments: Platform, Broadband, Medical, and SaaS/DX (including the FanGrowth customer-growth platform). The company does not currently publish a public developer API program or portal; this profile tracks its corporate and web presence within the API Evangelist network.",
-     "score": 7.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 79
-    },
-    {
-     "name": "Kakehashi",
-     "slug": "kakehashi",
-     "description": "Kakehashi is a Japanese healthcare technology company digitally transforming the country's roughly 60,000 community pharmacies, a traditionally paper-based sector. Its flagship cloud platform Musubi provides electronic medication history, automated dispensing records, and personalized patient guidance, and is used by more than 14,000 pharmacies across Japan. The product suite extends to Musubi Insight (pharmacy management analytics), Pocket Musubi (patient follow-up app), Musubi AI Stock Management (machine-learning demand forecasting and inventory optimization), and Pharmarket. Kakehashi is backed by investors including 500 Global and Goldman Sachs. No public developer API or platform is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakehashi/refs/heads/main/screenshots/kakehashi-2026-07-25T223425.png",
-     "score": 7.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3945,11 +3936,11 @@
      "rank": 80
     },
     {
-     "name": "AI Medical Service",
-     "slug": "ai-medical-service",
-     "description": "AI Medical Service Inc. (AIM) is a Tokyo-based med-tech company founded in September 2017 with the mission to save lives worldwide by eliminating gastrointestinal cancers through earlier detection. AIM develops endoscopic AI (artificial intelligence) that assists physicians in real-time diagnostic imaging of the digestive tract, drawing on joint research with more than 100 medical institutions. Its flagship gastroAI family of endoscopic image diagnosis support software has secured regulatory approval in Japan, Singapore, and Thailand, and an earlier FDA approval in the United States. The company distributes its AI on-premise today and is building an in-house cloud platform to broaden access; it currently publishes no public developer API, OpenAPI specification, or developer portal. This API Evangelist profile tracks the company as a health-tech lead backed by SoftBank Vision Fund.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ai-medical-service/refs/heads/main/screenshots/ai-medical-service-2026-07-25T195338.png",
-     "score": 6.2,
+     "name": "CAPS",
+     "slug": "caps",
+     "description": "CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December 2014 whose mission is to maximize the total amount of happiness through health management (健康経営). CAPS operates a chain of primary-care clinics plus its Doctor365 telemedicine and urgent-care service, provides corporate health-support and wellness programs for employers, runs 24-hour IT-enabled fitness gyms, and delivers health-education programs including a Sesame Street partnership. Headquartered in Roppongi, Minato-ku, Tokyo, the company was seed-funded by 500 Startups Japan (500 Global) in 2018. This API Evangelist profile tracks CAPS as a company; enrichment found no public API, developer portal, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caps/refs/heads/main/screenshots/caps-2026-07-25T204431.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -3958,12 +3949,12 @@
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3997,11 +3988,10 @@
      "rank": 81
     },
     {
-     "name": "Ocean Network Express",
-     "slug": "ocean-network-express",
-     "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
-     "score": 5.7,
+     "name": "Excite Japan Co., Ltd. (JASDAQ:3754)",
+     "slug": "excite-japan-co-ltd-jasdaq-3754",
+     "description": "Excite Japan Co., Ltd. (エキサイト株式会社), listed on JASDAQ as ticker 3754, is a Tokyo-based internet media and services company founded in August 1997 and headquartered in the Azabudai Hills Mori JP Tower in Minato, Tokyo. It operates the long-running excite.co.jp web portal — offering web, image, and news search, the Excite Blog (exblog.jp) blogging platform, translation and dictionary tools, fortune-telling, recipe, and lifestyle content — alongside the BB.excite broadband/ISP business. Under parent Excite Holdings Co., Ltd., the group organizes its operations into four segments: Platform, Broadband, Medical, and SaaS/DX (including the FanGrowth customer-growth platform). The company does not currently publish a public developer API program or portal; this profile tracks its corporate and web presence within the API Evangelist network.",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4009,13 +3999,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4042,11 +4032,11 @@
      "rank": 82
     },
     {
-     "name": "Dverse",
-     "slug": "dverse",
-     "description": "Dverse is the API Evangelist network profile for Symmetry Dimensions Inc. (株式会社SYMMETRY), a Tokyo-based technology company whose \"DVERSE\" digital-twin lineage evolved into a portfolio of DX solution services, infrastructure operations and maintenance support (インフラ維持管理支援), and SDTC data services. The company was surfaced as a 500 Global portfolio company and added to the network as an enrichment lead. The branded domain symmetry-dimensions.com now redirects to the company's live site at symmetry-inc.co.jp. As of this enrichment pass the company publishes a corporate/marketing site (a Nuxt single-page app on Google Cloud) but no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, or /.well-known discovery surface — so no machine-readable API artifacts could be harvested. This record therefore carries company identity plus a probed domain-security profile only, and remains a lead awaiting a public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dverse/refs/heads/main/screenshots/dverse-2026-07-25T212532.png",
-     "score": 5.0,
+     "name": "Kakehashi",
+     "slug": "kakehashi",
+     "description": "Kakehashi is a Japanese healthcare technology company digitally transforming the country's roughly 60,000 community pharmacies, a traditionally paper-based sector. Its flagship cloud platform Musubi provides electronic medication history, automated dispensing records, and personalized patient guidance, and is used by more than 14,000 pharmacies across Japan. The product suite extends to Musubi Insight (pharmacy management analytics), Pocket Musubi (patient follow-up app), Musubi AI Stock Management (machine-learning demand forecasting and inventory optimization), and Pharmarket. Kakehashi is backed by investors including 500 Global and Goldman Sachs. No public developer API or platform is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kakehashi/refs/heads/main/screenshots/kakehashi-2026-07-25T223425.png",
+     "score": 7.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4054,13 +4044,20 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4087,11 +4084,11 @@
      "rank": 83
     },
     {
-     "name": "Fact Base Inc.",
-     "slug": "fact-base-inc",
-     "description": "Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a mission to make manufacturing seamless by driving the digitization of small and mid-sized factories (町工場). Its corporate site presents the company mission and vision for connecting Japan's fragmented small-factory manufacturing base through digital tooling. Surfaced through the API Evangelist network as an Insight Partners portfolio company; as of this enrichment pass no public developer program, API, OpenAPI, SDK, or documentation is published on the corporate domain.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fact-base-inc/refs/heads/main/screenshots/fact-base-inc-2026-07-25T214146.png",
-     "score": 5.0,
+     "name": "AI Medical Service",
+     "slug": "ai-medical-service",
+     "description": "AI Medical Service Inc. (AIM) is a Tokyo-based med-tech company founded in September 2017 with the mission to save lives worldwide by eliminating gastrointestinal cancers through earlier detection. AIM develops endoscopic AI (artificial intelligence) that assists physicians in real-time diagnostic imaging of the digestive tract, drawing on joint research with more than 100 medical institutions. Its flagship gastroAI family of endoscopic image diagnosis support software has secured regulatory approval in Japan, Singapore, and Thailand, and an earlier FDA approval in the United States. The company distributes its AI on-premise today and is building an in-house cloud platform to broaden access; it currently publishes no public developer API, OpenAPI specification, or developer portal. This API Evangelist profile tracks the company as a health-tech lead backed by SoftBank Vision Fund.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ai-medical-service/refs/heads/main/screenshots/ai-medical-service-2026-07-25T195338.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4101,11 +4098,18 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4132,11 +4136,11 @@
      "rank": 84
     },
     {
-     "name": "Stailer",
-     "slug": "stailer",
-     "description": "Stailer (ステイラー) is a retail-commerce platform built by 10X, Inc. (株式会社10X) that lets Japanese supermarket, drugstore, and other retail chains vertically launch and operate their own branded e-commerce and online-grocery services. It provides the consumer storefront apps, order management, in-store picking and fulfillment, and delivery operations that let established brick-and-mortar retailers stand up online shopping quickly. Stailer is a B2B SaaS offering sold through direct enterprise engagement; as of this enrichment pass it exposes no public developer API, documentation portal, SDKs, or /.well-known discovery surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stailer/refs/heads/main/screenshots/stailer-2026-09-02T160725.png",
-     "score": 5.0,
+     "name": "Ocean Network Express",
+     "slug": "ocean-network-express",
+     "description": "Ocean Network Express (ONE) is a Singapore-headquartered global container liner shipping company formed in 2017 through the integration of the container shipping businesses of three Japanese carriers — Nippon Yusen Kaisha (NYK), Mitsui O.S.K. Lines (MOL), and Kawasaki Kisen Kaisha (K-Line) — with commercial operations launching on 1 April 2018. Operating under the magenta \"ONE\" brand and the Standard Carrier Alpha Code ONEY, the company runs a fleet exceeding 2,200,000 TEU across 165+ weekly service loops calling at 244+ ports worldwide, making it one of the largest ocean container carriers globally. ONE participates in THE Alliance vessel sharing agreement and offers reefer, dangerous goods, out-of-gauge, and project cargo services alongside standard dry container moves. Its customer-facing digital surface centers on the ONE eCommerce platform (ecomm.one-line.com), which provides cargo tracking, instant quotation via ONE QUOTE (powered by Descartes Kontainers), spot booking, shipping instructions, electronic bill of lading, ePayment, and demurrage/detention inquiry. A partner-facing developer portal exists at developers.one-line.com alongside EDI integration channels, but ONE does not publish a fully open, self-service OpenAPI specification, public SDK, or open-source code at either the github.com/ocean-network-express or github.com/OceanNetworkExpress organizations (both exist with zero public repositories). Tracking, booking, and schedule integrations are most commonly accessed by shippers and BCOs through third-party aggregators (Vizion, Portcast, JSONCargo, Terminal49, Tradlinx) or via DCSA-conformant carrier APIs delivered under commercial agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -4144,13 +4148,13 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4177,10 +4181,10 @@
      "rank": 85
     },
     {
-     "name": "Sumutasu",
-     "slug": "sumutasu",
-     "description": "Sumutasu Inc. (株式会社すむたす) is a Japanese property-technology (proptech) company operating under the mission \"a society where people can make ideal housing choices\" (住まいの理想的な選択ができる社会に). It runs an instant real-estate buying and selling service for used condominiums in Japan, using data and technology to give homeowners a fast, transparent alternative to the traditional brokerage process, alongside an agent-assisted sales offering. The company is backed by 500 Global. Its public presence is a corporate marketing website (About, Services, Members, News, and Careers) built on the Studio.Design no-code platform; no public developer platform, API, SDK, or documentation surface has been found.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumutasu/refs/heads/main/screenshots/sumutasu-2026-09-02T161132.png",
+     "name": "Dverse",
+     "slug": "dverse",
+     "description": "Dverse is the API Evangelist network profile for Symmetry Dimensions Inc. (株式会社SYMMETRY), a Tokyo-based technology company whose \"DVERSE\" digital-twin lineage evolved into a portfolio of DX solution services, infrastructure operations and maintenance support (インフラ維持管理支援), and SDTC data services. The company was surfaced as a 500 Global portfolio company and added to the network as an enrichment lead. The branded domain symmetry-dimensions.com now redirects to the company's live site at symmetry-inc.co.jp. As of this enrichment pass the company publishes a corporate/marketing site (a Nuxt single-page app on Google Cloud) but no public developer portal, API documentation, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, or /.well-known discovery surface — so no machine-readable API artifacts could be harvested. This record therefore carries company identity plus a probed domain-security profile only, and remains a lead awaiting a public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dverse/refs/heads/main/screenshots/dverse-2026-07-25T212532.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4194,8 +4198,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4222,10 +4226,10 @@
      "rank": 86
     },
     {
-     "name": "VisasQ",
-     "slug": "visasq",
-     "description": "VisasQ Inc. is a Tokyo-headquartered knowledge-sharing and spot-consulting platform that connects companies seeking specialized insight with a global network of roughly 800,000 experts across 190 countries and diverse industries and job functions. Its flagship \"ビザスクdirect\" service arranges one-on-one expert consultations, and it has launched \"AI Scout\" to deliver precision expert matches in under five minutes, 24/7. The company operates six global offices with multilingual support and over 600 employees, serving Japan and the United States as primary markets. VisasQ was surfaced as a portfolio company of DCM Ventures. As of this enrichment pass it publishes no public API, developer portal, OpenAPI specification, SDKs, or MCP surface; only domain-security posture could be probed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/visasq/refs/heads/main/screenshots/visasq-2026-09-02T170026.png",
+     "name": "Fact Base Inc.",
+     "slug": "fact-base-inc",
+     "description": "Fact Base Inc. (株式会社Fact Base) is a Japanese manufacturing-technology company on a mission to make manufacturing seamless by driving the digitization of small and mid-sized factories (町工場). Its corporate site presents the company mission and vision for connecting Japan's fragmented small-factory manufacturing base through digital tooling. Surfaced through the API Evangelist network as an Insight Partners portfolio company; as of this enrichment pass no public developer program, API, OpenAPI, SDK, or documentation is published on the corporate domain.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fact-base-inc/refs/heads/main/screenshots/fact-base-inc-2026-07-25T214146.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4239,8 +4243,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4267,6 +4271,141 @@
      "rank": 87
     },
     {
+     "name": "Stailer",
+     "slug": "stailer",
+     "description": "Stailer (ステイラー) is a retail-commerce platform built by 10X, Inc. (株式会社10X) that lets Japanese supermarket, drugstore, and other retail chains vertically launch and operate their own branded e-commerce and online-grocery services. It provides the consumer storefront apps, order management, in-store picking and fulfillment, and delivery operations that let established brick-and-mortar retailers stand up online shopping quickly. Stailer is a B2B SaaS offering sold through direct enterprise engagement; as of this enrichment pass it exposes no public developer API, documentation portal, SDKs, or /.well-known discovery surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stailer/refs/heads/main/screenshots/stailer-2026-09-02T160725.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 88
+    },
+    {
+     "name": "Sumutasu",
+     "slug": "sumutasu",
+     "description": "Sumutasu Inc. (株式会社すむたす) is a Japanese property-technology (proptech) company operating under the mission \"a society where people can make ideal housing choices\" (住まいの理想的な選択ができる社会に). It runs an instant real-estate buying and selling service for used condominiums in Japan, using data and technology to give homeowners a fast, transparent alternative to the traditional brokerage process, alongside an agent-assisted sales offering. The company is backed by 500 Global. Its public presence is a corporate marketing website (About, Services, Members, News, and Careers) built on the Studio.Design no-code platform; no public developer platform, API, SDK, or documentation surface has been found.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumutasu/refs/heads/main/screenshots/sumutasu-2026-09-02T161132.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 89
+    },
+    {
+     "name": "VisasQ",
+     "slug": "visasq",
+     "description": "VisasQ Inc. is a Tokyo-headquartered knowledge-sharing and spot-consulting platform that connects companies seeking specialized insight with a global network of roughly 800,000 experts across 190 countries and diverse industries and job functions. Its flagship \"ビザスクdirect\" service arranges one-on-one expert consultations, and it has launched \"AI Scout\" to deliver precision expert matches in under five minutes, 24/7. The company operates six global offices with multilingual support and over 600 employees, serving Japan and the United States as primary markets. VisasQ was surfaced as a portfolio company of DCM Ventures. As of this enrichment pass it publishes no public API, developer portal, OpenAPI specification, SDKs, or MCP surface; only domain-security posture could be probed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/visasq/refs/heads/main/screenshots/visasq-2026-09-02T170026.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 90
+    },
+    {
      "name": "Aculys",
      "slug": "aculys",
      "description": "Aculys Pharma, Inc. is a Japanese clinical-stage biopharmaceutical company focused on neurological and psychiatric diseases where there is high unmet medical need. The company works to eliminate Japan's drug lag and drug loss by bringing innovative medicines already approved in Western markets to Japanese patients as early as possible. Its lead product is Spydia (diazepam nasal spray), Japan's first domestically developed intranasal anti-seizure agent, approved in June 2025 and administrable outside medical facilities. Originally funded by SoftBank Vision Fund (Series C, March 2025), Aculys was acquired by and became part of the Viatris Group in October 2025. Aculys publishes no public developer program, API, or technical documentation surface; this profile is maintained for network completeness and identity.",
@@ -4284,8 +4423,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4316,7 +4455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 91
     },
     {
      "name": "Sansan",
@@ -4336,8 +4475,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4368,7 +4507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 92
     },
     {
      "name": "KDDI",
@@ -4388,8 +4527,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4420,7 +4559,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 93
     },
     {
      "name": "HiCustomer",
@@ -4471,7 +4610,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 94
     },
     {
      "name": "Habitto",
@@ -4491,8 +4630,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4523,7 +4662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 95
     },
     {
      "name": "Pocket Menu",
@@ -4543,8 +4682,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4575,7 +4714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 96
     },
     {
      "name": "SODA",
@@ -4595,8 +4734,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4627,7 +4766,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 97
     },
     {
      "name": "P2P, Inc.",
@@ -4647,8 +4786,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-05",
-     "schema_version": "0.18.3",
+     "scored_at": "2026-09-06",
+     "schema_version": "0.19.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4679,7 +4818,23 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 98
+    }
+   ]
+  },
+  {
+   "band": "unrated",
+   "label": "Not Yet Rated",
+   "range": "",
+   "blurb": "Providers we have not scored yet — unknown, not zero.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "ActEvolve",
+     "slug": "actevolve",
+     "description": "ActEvolve Inc. (株式会社ActEvolve) was a Tokyo virtual-reality entertainment company incorporated on 9 August 2017 by Takuya Kato, a former Capcom game developer, together with other ex-game-industry engineers. In November 2018 it launched VARK, a VR live platform on which VTuber and virtual-artist performances — most visibly the long-running \"Cinderella switch\" series with hololive — were staged as ticketed, seat-based concerts for Meta Quest, Android and iOS, paid for with in-app VARK Coin. The company took strategic investment from KLab Inc. in August 2019, renamed itself VARK Inc. (株式会社VARK) on 1 May 2020 alongside a roughly ¥200M round from ANRI, raised a further ¥600M in May 2021, and diversified into the VARK SHORTS 3D animation tool and the STAR BLOOM liver-management agency, producing metaverse events for ANYCOLOR, Avex, KADOKAWA, COVER, Dwango, Shochiku and Meta. VARK was a consumer entertainment app rather than a platform business: it never operated a developer program, and no public API, SDK, webhook catalogue or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was published on any of its hosts at any point — 1,812 archived URLs across vark.co.jp and its subdomains contain no /api, /developers, /docs, /openapi or /graphql path of any kind. The VARK metaverse service shut down on 4 March 2024 with same-day notice, refunding unused VARK Coin until 5 May 2024 under Japan's Payment Services Act; the free tier of VARK SHORTS ended on 30 September 2024; and in March 2025 the entire company was sold in an all-share transaction whose acquirer and terms were kept confidential, with founder Takuya Kato stepping down as representative director. This profile is retained as a historical record — there is no API surface to enrich.",
+     "rank": 99
     }
    ]
   }

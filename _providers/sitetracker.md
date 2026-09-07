@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Sitetracker''s programmable surface is the Salesforce Platform API over the Sitetracker managed package''s standard and custom objects. Sitetracker states: "You can build apps, automations, and integrat'
@@ -203,8 +203,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 48.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitetracker/refs/heads/main/screenshots/sitetracker-2026-09-02T155659.png
 security:

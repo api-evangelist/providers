@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Partner-facing API gateway for the Wacai open platform. Callers POST JSON to a single gateway entry, addressing operations by (apiName, apiVersion) and authenticating with appKey/appSecret HMAC reques
@@ -131,8 +131,8 @@ score:
     regions:
     - greater-china
   previous_composite: 13.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wacai/refs/heads/main/screenshots/wacai-2026-09-02T170353.png
 security:

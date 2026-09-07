@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: The RapidDeploy platform API host that backs Nimbus CAD, Radius Mapping, Lightning and Eclipse Analytics. The host is live and answers with a JSON envelope, but every anonymous path returns 404 "Resou
@@ -185,8 +185,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 64.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 security:
 - kind: authentication

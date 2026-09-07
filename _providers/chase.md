@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -297,7 +297,7 @@ score:
   band: thin
   composite: 38.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 17
     catalog_earned: 55.3
     catalog_earned_first_party: 0.0
     catalog_gap: 59.8
@@ -327,8 +327,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 53.2
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:

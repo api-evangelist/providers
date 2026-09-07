@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'A flexible, powerful standard gRPC / Protocol Buffers API for neural interface devices. The SynapseDevice service exposes device discovery, info, configuration of on-device signal chains, start/stop, '
@@ -40,6 +40,18 @@ apis:
   slug: synapse-protocol
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://science.xyz/news
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://science.xyz/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://science.xyz/legal/privacy
 - group: company
   title: ''
   type: Website
@@ -83,11 +95,11 @@ network: true
 overview: 'Science Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Neurotechnology, Brain-Computer Interface, Neural Interface, and Medical Device.
 
 
-  Science Corporation''s developer surface includes documentation, getting-started guide, changelog, support, and 4 more developer resources.'
+  Science Corporation''s developer surface includes engineering blog, documentation, getting-started guide, changelog, support, and 6 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 28.2
+  composite: 34.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -95,13 +107,13 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.2
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 26.7
-    developer_ergonomics: 58.9
+    developer_ergonomics: 61.3
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 18.4
@@ -115,10 +127,10 @@ score:
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 13.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+    score: 23.8
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-corporation/refs/heads/main/screenshots/science-corporation-2026-09-02T154534.png
 security:
 - kind: domain-security

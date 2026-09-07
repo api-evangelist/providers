@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,19 +23,19 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 25.8
-  scored_at: '2026-09-05'
+  score: 30.6
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,6 +110,90 @@ collections:
   name: MLS Grid RESO Web API
   slug: open-mlsgrid-reso-web-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mlsgrid.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.mlsgrid.com/interest-form
+- group: commercial
+  title: ''
+  type: LicenseAgreement
+  url: https://www.mlsgrid.com/s/MLS-GRID-Data-License-Agreement.pdf
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://www.mlsgrid.com/faq
+- group: other
+  title: ''
+  type: Overview
+  url: https://www.mlsgrid.com/overview
+- group: company
+  title: ''
+  type: About
+  url: https://www.mlsgrid.com/whoisthemlsgrid
+- group: other
+  title: ''
+  type: Customers
+  url: https://www.mlsgrid.com/vendors
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.mlsgrid.com/news
+- group: auth
+  title: ''
+  type: Certification
+  url: https://certification.reso.org/summary/T00000045
+- group: auth
+  title: ''
+  type: Certification
+  url: https://www.reso.org/certificates/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.mlsgrid.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/mlsgrid-changelog.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://certification.reso.org/summary/T00000045
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mlsgrid-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mlsgrid-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mlsgrid-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mlsgrid-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mlsgrid-data-model.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mlsgrid-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mlsgrid-llms.txt
 - group: agent
   title: ''
   type: AgenticAccess
@@ -244,7 +328,7 @@ overview: 'Mlsgrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Mlsgrid catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mlsgrid''s developer surface includes authentication, developer portal, documentation, support, and 17 more developer resources.'
+  Mlsgrid''s developer surface includes signup flow, FAQ, engineering blog, changelog, code examples, authentication, developer portal, and 35 more developer resources.'
 plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
@@ -277,28 +361,29 @@ rules:
     warn: 2
   slug: mlsgrid-rules
 score:
-  band: developing
-  composite: 49.1
+  band: strong
+  composite: 59.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 22
     catalog_earned: 82.5
     catalog_earned_first_party: 0.0
     catalog_gap: 32.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.5
   facets:
-    access_clarity: 50.0
-    commercial_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 71.0
-    developer_ergonomics: 35.7
-    discoverability: 59.3
-    governance: 28.8
-    operational_transparency: 36.8
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 47.0
+    contract_quality: 74.4
+    developer_ergonomics: 38.1
+    discoverability: 66.7
+    governance: 47.0
+    operational_transparency: 52.6
   previous_composite: 49.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -307,9 +392,9 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mlsgrid/refs/heads/main/screenshots/mlsgrid-2026-06-20T185627.png
 security:
 - kind: authentication
@@ -321,5 +406,5 @@ security:
   slug: mlsgrid-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: mlsgrid
-website: https://www.mlsgrid.com
+website: https://www.mlsgrid.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: CDR Banking Banking Account Balances Banking Products API
   slug: open-move-bank-banking-products-api
 common:
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: other
   title: ''
   type: CapabilityMap
@@ -225,7 +229,7 @@ network: true
 overview: 'MOVE Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Banking Account Balances API, Banking Account Direct Debits API, Banking Account Scheduled Payments API, and 4 more. Tagged areas include Financial, Banks, Open Banking, CDR, and Consumer Banking.
 
 
-  MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 21 more developer resources.'
+  MOVE Bank''s developer surface includes authentication, getting-started guide, API reference, documentation, engineering blog, and 22 more developer resources.'
 random_paper: 14
 scopes:
 - name: Move Bank Scopes
@@ -236,7 +240,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -276,8 +280,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/move-bank/refs/heads/main/screenshots/move-bank-2026-07-21T114734.png
 security:

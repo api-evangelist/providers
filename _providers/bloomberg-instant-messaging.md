@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: 'Programmatic access to Bloomberg''s secure IB messaging network for sending and receiving messages within the Bloomberg Terminal ecosystem. Supports integration with trading and compliance systems for '
@@ -131,8 +131,8 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 19.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-instant-messaging/refs/heads/main/screenshots/bloomberg-instant-messaging-2026-06-20T173443.png
 security:

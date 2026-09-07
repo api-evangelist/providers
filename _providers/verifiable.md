@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 264
   human_in_the_loop: 6
@@ -463,7 +463,7 @@ score:
   band: developing
   composite: 54.1
   coverage:
-    artifact_dirs: 21
+    artifact_dirs: 20
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -496,8 +496,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verifiable/refs/heads/main/screenshots/verifiable-2026-08-17T082730.png
 security:

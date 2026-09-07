@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -549,7 +549,7 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 40.5
     catalog_earned_first_party: 0.0
     catalog_gap: 74.5
@@ -578,8 +578,8 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temporal/refs/heads/main/screenshots/temporal-2026-06-20T195103.png
 security:

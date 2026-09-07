@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 279
   human_in_the_loop: 1
@@ -773,7 +773,7 @@ score:
   band: thin
   composite: 31.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 28.0
     catalog_earned_first_party: 0.0
     catalog_gap: 87.0
@@ -803,8 +803,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zuora/refs/heads/main/screenshots/zuora-2026-06-20T202000.png
 security:

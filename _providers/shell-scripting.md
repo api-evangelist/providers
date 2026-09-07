@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - description: A static analysis tool for shell scripts that provides API access for linting and validation.
@@ -95,8 +95,8 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 18.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell-scripting/refs/heads/main/screenshots/shell-scripting-2026-06-20T193800.png
 slug: shell-scripting

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ score:
   band: developing
   composite: 43.7
   coverage:
-    artifact_dirs: 11
+    artifact_dirs: 10
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -227,8 +227,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/screenshots/parkwhiz-2026-08-07T191441.png
 security:

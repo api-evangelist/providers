@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Miter exposes a REST API used to build custom integrations between the Miter HCM platform and construction ERPs, accounting, and workforce systems — syncing projects, cost codes, accounts, employees, '
@@ -122,8 +122,8 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 18.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/miter/refs/heads/main/screenshots/miter-2026-08-07T183806.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: REST API for volunteering partners to list Goodera volunteer opportunities inside their own platform, create volunteering events against an opportunity, register and de-register volunteers, and record
@@ -191,8 +191,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodera/refs/heads/main/screenshots/goodera-2026-09-02T145625.png
 security:

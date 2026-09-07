@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 12
@@ -828,7 +828,7 @@ score:
   band: exemplar
   composite: 74.5
   coverage:
-    artifact_dirs: 33
+    artifact_dirs: 32
     catalog_earned: 67.5
     catalog_earned_first_party: 20.0
     catalog_gap: 47.5
@@ -861,8 +861,8 @@ score:
       total: 32
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/screenshots/didomi-2026-06-20T180026.png
 security:

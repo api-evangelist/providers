@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -31,14 +31,14 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-05'
+  score: 3.5
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation
   name: CloudConvert
   slug: cloudconvert
-artifact_total: 3
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -60,18 +60,30 @@ common:
   title: ''
   type: Blog
   url: https://cloudconvert.com/blog/feed
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.cloudconvert.com
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://cloudconvert.com/blog/mcp-server
 created: '2026-05-28'
 description: Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cloudconvert.png
 layout: provider
-modified: '2026-05-28'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-09-06'
 name: CloudConvert
 nav: Providers
 network: true
 overview: 'CloudConvert publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
 
 
-  CloudConvert''s developer surface includes engineering blog and 4 more developer resources.'
+  CloudConvert''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 2
 score:
   band: minimal
@@ -94,8 +106,8 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 9.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudconvert/refs/heads/main/screenshots/cloudconvert-2026-06-20T174548.png
 security:

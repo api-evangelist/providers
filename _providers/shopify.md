@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 58.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -2289,7 +2289,7 @@ score:
   band: exemplar
   composite: 90.9
   coverage:
-    artifact_dirs: 39
+    artifact_dirs: 38
     catalog_earned: 89.5
     catalog_earned_first_party: 24.0
     catalog_gap: 25.5
@@ -2322,8 +2322,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify/refs/heads/main/screenshots/shopify-2026-06-20T165931.png
 security:

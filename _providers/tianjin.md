@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 6
 apis:
 - description: The university's own Shibboleth identity provider, and the only credential-free, machine-readable contract anywhere in this profile. https://idp.tju.edu.cn/idp/shibboleth returns HTTP 200 and 14,410 b
@@ -178,8 +178,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tianjin/refs/heads/main/screenshots/tianjin-2026-06-20T195443.png
 security:

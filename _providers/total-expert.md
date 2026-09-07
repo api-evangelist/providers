@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -440,7 +440,7 @@ score:
   band: strong
   composite: 62.4
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 50.0
     catalog_earned_first_party: 8.0
     catalog_gap: 65.0
@@ -473,8 +473,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 59.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/screenshots/total-expert-2026-08-17T082415.png
 security:

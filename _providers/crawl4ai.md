@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: 'The hosted Crawl4AI API. One key, plain JSON, one fast endpoint per job: POST /scrape turns a URL into clean Markdown or HTML, GET /search runs a browser-free multi-engine web search, GET /answer retu'
@@ -282,8 +282,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawl4ai/refs/heads/main/screenshots/crawl4ai-2026-06-20T175215.png
 security:

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 4
 apis:
 - description: 'Enigma''s primary programmatic surface: a Relay-style GraphQL API over the business knowledge graph. Query Brand, LegalEntity, OperatingLocation, Address, Person, and Industry entities via connection-b'
@@ -51,6 +51,10 @@ apis:
   slug: enigma-mcp-server
 artifact_total: 12
 common:
+- group: docs
+  title: ''
+  type: GraphQL
+  url: graphql/enigma-analytics-graphql-surface.yml
 - group: company
   title: ''
   type: Website
@@ -210,7 +214,7 @@ network: true
 overview: 'Enigma Analytics publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Data, KYB, Identity Verification, and Compliance.
 
 
-  Enigma Analytics'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 29 more developer resources.'
+  Enigma Analytics'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 30 more developer resources.'
 plans:
 - name: Enigma Analytics Plans Pricing
   plan_count: 4
@@ -250,8 +254,8 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enigma-analytics/refs/heads/main/screenshots/enigma-analytics-2026-07-25T213359.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.2
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -1766,7 +1766,7 @@ score:
   band: exemplar
   composite: 71.4
   coverage:
-    artifact_dirs: 39
+    artifact_dirs: 38
     catalog_earned: 57.5
     catalog_earned_first_party: 0.0
     catalog_gap: 57.5
@@ -1799,8 +1799,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

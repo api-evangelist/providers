@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 0
@@ -520,7 +520,7 @@ score:
   band: exemplar
   composite: 68.0
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 26
     catalog_earned: 55.0
     catalog_earned_first_party: 20.0
     catalog_gap: 60.0
@@ -553,8 +553,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:

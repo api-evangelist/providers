@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 2
 apis:
 - description: The RainFocus RESTful integration API. Requests are dispatched against api.rainfocus.com and are keyed on an apiProfile identifier - a named API Profile configured per customer in the RainFocus Integr
@@ -190,8 +190,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainfocus/refs/heads/main/screenshots/rainfocus-2026-09-02T152828.png
 security:

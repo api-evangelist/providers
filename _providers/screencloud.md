@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 6
 apis:
 - description: GraphQL operations for managing screens - pair and depair devices (pairScreen, depairScreen), list and search screens (allScreens, screen, screenByDeviceId, searchScreen), organize screen groups, assi
@@ -154,8 +154,8 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 36.8
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screencloud/refs/heads/main/screenshots/screencloud-2026-09-02T154608.png
 security:

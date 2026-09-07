@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 10
 apis:
 - description: Institutional payment initiation product listed in M&T's Banking and Treasury API group on the developer portal. Per-product reference is available after Entra login and Azure APIM subscription.
@@ -172,8 +172,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 17.7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m-t-bank/refs/heads/main/screenshots/m-t-bank-2026-07-25T225807.png
 security:

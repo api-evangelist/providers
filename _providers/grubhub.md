@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -846,7 +846,7 @@ score:
   band: thin
   composite: 35.4
   coverage:
-    artifact_dirs: 20
+    artifact_dirs: 19
     catalog_earned: 55.5
     catalog_earned_first_party: 0.0
     catalog_gap: 59.5
@@ -873,8 +873,8 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

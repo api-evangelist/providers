@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user accou
@@ -140,8 +140,8 @@ score:
     regions:
     - africa
   previous_composite: 29.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cowrywise/refs/heads/main/screenshots/cowrywise-2026-06-20T175153.png
 security:

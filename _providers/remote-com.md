@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -843,7 +843,7 @@ score:
   band: exemplar
   composite: 68.3
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 33
     catalog_earned: 87.5
     catalog_earned_first_party: 0.0
     catalog_gap: 27.5
@@ -869,8 +869,8 @@ score:
       marker_coverage: 0.0
       total: 39
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

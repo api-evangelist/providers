@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 1
 apis:
 - description: 'Real-time consumer-insights and decisioning API. Accepts consumer identifiers (phone, email, device, name, address) and returns enriched, AI-ready insights used for onboarding/KYC-AML, fraud and risk '
@@ -113,8 +113,8 @@ score:
   previous_composite: 16.7
   provenance:
     conformance: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monnai/refs/heads/main/screenshots/monnai-2026-08-07T184208.png
 security:

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 3
 apis:
 - description: 'REST API for the Epsilon3 operations platform, organized into roughly twenty API families: Builds (work orders, parts, inventory, purchase and sale orders, vendors, tooling, shipments), Chat, Commandi'
@@ -241,8 +241,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/screenshots/epsilon3-2026-08-17T080928.png
 security:

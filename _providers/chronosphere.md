@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 54.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -544,7 +544,7 @@ score:
   band: developing
   composite: 50.8
   coverage:
-    artifact_dirs: 28
+    artifact_dirs: 27
     catalog_earned: 55.0
     catalog_earned_first_party: 12.0
     catalog_gap: 60.0
@@ -571,8 +571,8 @@ score:
       total: 33
     mcp: first-party
     skills: first-party
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
 security:

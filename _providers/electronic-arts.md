@@ -16,7 +16,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -29,17 +29,23 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 15.5
-  scored_at: '2026-09-05'
-api_count: 1
+  score: 9.0
+  scored_at: '2026-09-06'
+api_count: 3
 apis:
-- description: 'Public-facing presence of Electronic Arts. Covers EA''s corporate site, consumer game services, EA app, EA Play subscription, and EA Help support surfaces. EA does not publicly publish a developer API '
+- description: Public-facing presence of Electronic Arts. Covers EA's corporate site, consumer game services, the EA app, EA Play subscription, and EA Help support surfaces. EA does not publish a developer API porta
   name: Electronic Arts
   slug: electronic-arts
-artifact_total: 7
+- description: 'EA''s account authorization server at accounts.ea.com — the single identity surface behind the EA app, EA''s web properties and the approved EA SPORTS FC Community API partners. EA serves a live OpenID '
+  name: EA Account OpenID Connect / OAuth 2.0
+  slug: ea-account-connect
+- description: 'EA''s only API programme, announced 2026-07-27. A player connects their EA Account to an approved community site through EA''s OAuth login flow and grants that site permission to make specific requests '
+  name: EA SPORTS FC Community API
+  slug: fc-community-api
+artifact_total: 10
 common:
 - group: auth
   title: ''
@@ -75,32 +81,88 @@ common:
   url: https://www.ea.com/careers
 - group: build
   title: ''
-  type: GitHub
+  type: GitHubOrganization
   url: https://github.com/electronicarts
 - group: company
   title: ''
   type: Blog
   url: https://www.ea.com/news
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/electronic-arts-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/electronic-arts-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/electronic-arts-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/electronic-arts-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/electronic-arts-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/electronic-arts-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/electronic-arts-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/electronic-arts-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/electronic-arts-llms.txt
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://help.ea.com/en/server-status/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://www.ea.com/service-updates
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.ea.com/security/disclosure
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ea.com/legal/user-agreement
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ea.com/legal/privacy-and-cookie-policy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.ea.com/ea-play
 created: '2026-03-21'
-description: Electronic Arts (EA) is a global leader in digital interactive entertainment, developing and delivering games, content, and online services for internet-connected consoles, mobile devices, and personal computers. EA's portfolio includes franchises such as EA SPORTS FC, Madden NFL, Battlefield, The Sims, Apex Legends, and Need for Speed, supported by online services like EA app, EA Play, and Origin. EA does not currently publish a public developer API portal; integrations and data exchanges are handled through partner programs and the EA Help support and account surfaces.
+description: Electronic Arts (EA) is a global leader in digital interactive entertainment, developing and delivering games, content, and online services for internet-connected consoles, mobile devices, and personal computers. EA's portfolio includes franchises such as EA SPORTS FC, Madden NFL, Battlefield, The Sims, Apex Legends, and Need for Speed, supported by online services like the EA app, EA Play, and EA Help. EA runs no public developer portal and publishes no OpenAPI, GraphQL, AsyncAPI or gRPC contract. Its one API programme is the EA SPORTS FC Community API, announced 2026-07-27, which lets a player grant an approved community site (FUT.GG, FUTBIN, FUTWIZ) delegated read access to Ultimate Team data through EA's OAuth flow; EA states it is not accepting further partner requests. The only machine-readable documents EA serves anywhere are the OpenID Connect Discovery and RFC 8414 authorization-server metadata on accounts.ea.com, plus the JWKS they reference.
 finops:
 - name: Electronic Arts Finops
   service_category: Entertainment
   slug: electronic-arts-finops
-graphqls:
-- description: 'This is a conceptual GraphQL schema for Electronic Arts (EA) gaming and player services. Electronic Arts does not currently publish a public developer API portal; this schema is derived from known EA '
-  name: Electronic Arts GraphQL Schema
-  slug: electronic-arts-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/electronic-arts.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-06'
 name: Electronic Arts
 nav: Providers
 network: true
-overview: 'Electronic Arts publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Video Games, Entertainment, Consumer, and Player Services.
+overview: 'Electronic Arts publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Video Games, Entertainment, Consumer, and Player Services.
 
 
-  Electronic Arts'' developer surface includes support, GitHub presence, engineering blog, and 7 more developer resources.'
+  Electronic Arts'' developer surface includes support, engineering blog, authentication, pricing, and 21 more developer resources.'
 plans:
 - name: Electronic Arts Plans Pricing
   plan_count: 2
@@ -123,35 +185,46 @@ press:
   url: https://www.ea.com/news/ea-partners-with-stability-ai
 random_paper: 18
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: Electronic Arts Rate Limits
   slug: electronic-arts-rate-limits
+scopes:
+- name: Electronic Arts Scopes
+  scope_count: 0
+  slug: electronic-arts-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 21.3
+  band: thin
+  composite: 31.1
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 39.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    artifact_dirs: 17
+    catalog_earned: 46.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.8
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 0.0
-    contract_quality: 41.5
-    developer_ergonomics: 4.8
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 10.5
+    access_clarity: 60.5
+    commercial_clarity: 60.5
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 26.2
+    discoverability: 64.8
+    governance: 18.2
+    operational_transparency: 39.5
   previous_composite: 21.3
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
-  trend: flat
+  provenance:
+    conformance: first-party
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/screenshots/electronic-arts-2026-06-20T180553.png
 security:
+- kind: authentication
+  name: Electronic Arts Authentication
+  slug: electronic-arts-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Electronic Arts Domain Security
   slug: electronic-arts-domain-security
@@ -159,7 +232,7 @@ security:
 - kind: vulnerability-disclosure
   name: Electronic Arts Vulnerability Disclosure
   slug: electronic-arts-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone
 slug: electronic-arts
 tags:
 - Gaming

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -1322,7 +1322,7 @@ score:
   band: strong
   composite: 56.4
   coverage:
-    artifact_dirs: 22
+    artifact_dirs: 21
     catalog_earned: 60.3
     catalog_earned_first_party: 0.0
     catalog_gap: 54.8
@@ -1346,8 +1346,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 53
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:

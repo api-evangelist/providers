@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ score:
   band: developing
   composite: 39.9
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 14
     catalog_earned: 60.5
     catalog_earned_first_party: 0.0
     catalog_gap: 54.5
@@ -263,8 +263,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/screenshots/cmic-2026-06-20T174629.png
 security:

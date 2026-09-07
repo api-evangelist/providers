@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.9
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 17
 apis:
 - baseURL: https://api.spredfast.com/v2
@@ -499,7 +499,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 22
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -530,8 +530,8 @@ score:
       total: 50
     mcp: derived
     skills: derived
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spredfast/refs/heads/main/screenshots/spredfast-2026-08-17T082041.png
 security:

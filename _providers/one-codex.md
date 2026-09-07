@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -443,8 +443,8 @@ score:
     regime: Health
     regime_id: health
     score: 45.0
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/one-codex/refs/heads/main/screenshots/one-codex-2026-08-07T190241.png
 security:

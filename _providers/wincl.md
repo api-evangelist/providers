@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.4
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -483,7 +483,7 @@ score:
   band: emerging
   composite: 23.7
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 18
     catalog_earned: 34.0
     catalog_earned_first_party: 0.0
     catalog_gap: 81.0
@@ -516,8 +516,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wincl/refs/heads/main/screenshots/wincl-2026-09-02T170801.png
 security:

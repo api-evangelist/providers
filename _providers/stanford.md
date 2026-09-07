@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 api_count: 5
 apis:
 - description: Persistent URLs into the Stanford Digital Repository. GET /{druid} returns HTML, /{druid}.xml returns the cocina publicObject document, /{druid}.mods returns MODS 3.7. Open, no credential. Verified li
@@ -414,8 +414,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 74.1
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stanford/refs/heads/main/screenshots/stanford-2026-06-20T194502.png
 security:

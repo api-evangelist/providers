@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.8
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -613,7 +613,7 @@ score:
   band: strong
   composite: 62.4
   coverage:
-    artifact_dirs: 27
+    artifact_dirs: 26
     catalog_earned: 38.8
     catalog_earned_first_party: 8.0
     catalog_gap: 76.3
@@ -646,8 +646,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keap/refs/heads/main/screenshots/keap-2026-06-20T183931.png
 security:

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-05'
+  scored_at: '2026-09-06'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -922,7 +922,7 @@ score:
   band: developing
   composite: 41.6
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 16
     catalog_earned: 68.5
     catalog_earned_first_party: 0.0
     catalog_gap: 46.5
@@ -946,8 +946,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.18.3
-  scored_at: '2026-09-05'
+  schema_version: 0.19.0
+  scored_at: '2026-09-06'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/screenshots/agstack-2026-06-20T170504.png
 security:
