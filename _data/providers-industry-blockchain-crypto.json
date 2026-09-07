@@ -1,6 +1,6 @@
 {
- "total": 1324,
- "shown": 1000,
+ "total": 1323,
+ "shown": 999,
  "limit": 1000,
  "bands": [
   {
@@ -21053,58 +21053,6 @@
       "agentic_commerce": false
      },
      "rank": 418
-    },
-    {
-     "name": "BNY (Bank of New York Mellon)",
-     "slug": "bny-bank-of-new-york-mellon",
-     "description": "BNY (rebranded from BNY Mellon in 2024, NYSE ticker changed from BK to BNY in May 2026) is the world's largest custodian bank, overseeing approximately $59.4 trillion in assets under custody and/or administration and $2.1 trillion in assets under management as of Q1 2026. BNY operates across Securities Services, Market & Wealth Services, and Investment & Wealth Management, with brand families including Pershing (clearing and custody for wealth managers, parent of NetX360+ and the Wove platform), Eagle Investment Systems (investment data management), Albridge (wealth data aggregation), BNY Markets (FX, securities finance, capital markets), and BNY Investments. BNY publishes APIs through the BNY Developer Marketplace at developer.bny.com (formerly marketplace.bnymellon.com), covering Asset Servicing, Treasury Services, Payments, Pershing, Markets, and the BNY Data On-Chain product, with registration and API reference gated behind a Nexen single sign-on.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bny-bank-of-new-york-mellon/refs/heads/main/screenshots/bny-bank-of-new-york-mellon-2026-06-20T173546.png",
-     "score": 37.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 57.1,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 42.1,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 15.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 419
     },
     {
      "name": "Classic",
