@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Aviation Edge",
@@ -29,8 +29,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -55,15 +55,26 @@
       "agentic_commerce": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 6,
+   "shown": 6,
+   "providers": [
     {
      "name": "Federal Aviation Administration",
      "slug": "faa",
      "description": "The Federal Aviation Administration (FAA) is the United States civil aviation authority, an operating administration of the U.S. Department of Transportation. It regulates and certificates aircraft, airmen, airports and air carriers, operates the National Airspace System and its air traffic control, and issues the aeronautical information the entire U.S. travel and aviation chain runs on — NOTAMs, TFRs, charts, the 28-day NASR subscription, aircraft registration and airport data. It sits upstream of commercial travel distribution rather than inside it — the FAA sells no inventory and is not a GDS, NDC or channel participant, but every airline, GDS, OTA, flight-planning app and drone service supplier in the United States consumes FAA data as a source of truth. Its API posture is genuinely mixed and honest reporting requires saying so. The Airport Status Web Service and the Aeronautic Product Release API are published under a Creative Commons Zero licence, answer unauthenticated over HTTPS, and ship real OpenAPI 3.0.1 documents through a public Gravitee developer portal at api.faa.gov. Alongside them the FAA runs a CKAN 2.11.4 catalog and two ArcGIS Open Data hubs with DCAT-US 1.1 feeds and bulk CSV/GeoJSON/KML export. But the NOTAM API, the Air Carrier Pilot Records Database API and SWIM are gated — client_id/client_secret headers, operator eligibility restricted by regulation, or an executed SWIM agreement — and LAANC drone authorization is reachable only through FAA-approved UAS Service Suppliers, never directly.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/faa/refs/heads/main/screenshots/faa-2026-08-07T165207.png",
-     "score": 54.9,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 54.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 61.1,
       "contract_quality": 52.8,
@@ -74,8 +85,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -107,23 +118,12 @@
       "agentic_commerce": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
-   "providers": [
+    },
     {
      "name": "FlightFinder",
      "slug": "flightfinder",
      "description": "Read-only JSON API over a merged aviation-safety corpus: 164,068 accident narratives aggregated from 130 official investigation authorities (NTSB, ATSB, AAIB, BEA, MAK and national agencies), deduplicated into one occurrence-level dataset, plus the FAA wildlife-strike, laser-incident and drone-sighting datasets and OurAirports reference data. Every record carries its source, attribution, licence and a deep link, and GET /sources returns the per-source licence and narrative policy. Keyless tier answers without an Authorization header at 100 requests/day/IP, and the same corpus is served to agents by an anonymous remote MCP server at https://himaxym.com/mcp with nine tools.",
-     "score": 52.6,
+     "score": 51.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -136,8 +136,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -188,8 +188,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -240,8 +240,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -272,7 +272,7 @@
      "slug": "aloft",
      "description": "Aloft (aloft.ai, formerly Kittyhawk.io) is the leading FAA-approved provider of drone airspace and fleet-management software in the United States, powering the majority of LAANC airspace authorizations and unmanned traffic management (UTM) for government, public-safety, enterprise, and recreational drone pilots. The Aloft API V1 is an http-bearer-authenticated REST API exposing 180 operations across 36 resource groups: airspace advisories and weather, LAANC / Notify & Fly, flights and flight logs, aircraft, batteries and maintenance, missions, risk assessments, checklists, incidents, alerts, files, workflows, and map tile layers. Aloft is SOC 2 Type II and ISO 27001 certified. This profile was enriched by the API Evangelist pipeline from Aloft's public OpenAPI and developer surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aloft/refs/heads/main/screenshots/aloft-2026-07-25T195743.png",
-     "score": 44.1,
+     "score": 43.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -285,8 +285,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -330,8 +330,8 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -356,14 +356,25 @@
       "agentic_commerce": false
      },
      "rank": 7
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
     {
      "name": "FlightAware",
      "slug": "flightaware",
      "description": "FlightAware is a global flight tracking and data platform that provides real-time flight tracking, mapping, and predictive technology to both individual users and commercial aviation companies. The platform collects data from a variety of sources including air traffic control systems, radar, ADS-B, and satellite data, and exposes that data to developers and commercial customers through its AeroAPI query-based REST API and its Firehose streaming feed.",
-     "score": 39.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.0,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 59.8,
@@ -374,8 +385,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -406,9 +417,9 @@
      "slug": "aerodatabox",
      "description": "AeroDataBox is an affordable aviation and flight data API platform tailored for small and medium businesses, individual developers, researchers, and students. Founded in 2019, the platform provides real-time and historical flight status, aircraft information, airport data, delay statistics, and flight alert webhooks through a RESTful API available on RapidAPI and API.Market. AeroDataBox covers global aviation data across airlines, aircraft, airports, and flight operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aerodatabox/refs/heads/main/screenshots/aerodatabox-2026-06-20T165508.png",
-     "score": 39.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 63.0,
@@ -419,8 +430,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -451,9 +462,9 @@
      "slug": "adsbexchange",
      "description": "Unfiltered flight tracking network with REST APIs for accessing real-time aircraft positions, military flights, and global ADS-B flight data without filtering. Operated by a crowdsourced global network of ADS-B and MLAT receivers providing ultra-low-latency aircraft tracking data for aviation research and applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adsbexchange/refs/heads/main/screenshots/adsbexchange-2026-06-20T165151.png",
-     "score": 39.3,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 68.0,
@@ -464,8 +475,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -490,24 +501,13 @@
       "agentic_commerce": false
      },
      "rank": 10
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+    },
     {
      "name": "Rockwell Collins",
      "slug": "rockwell-collins",
      "description": "Rockwell Collins was a major American company providing avionics and information technology systems and services to government agencies and aircraft manufacturers. In 2018, Rockwell Collins was acquired by United Technologies and became part of Collins Aerospace, a subsidiary of RTX Corporation (formerly Raytheon Technologies). Collins Aerospace provides flight deck systems, cabin electronics, mission systems, communications, and advanced data services including FlightAware AeroAPI for aviation data. The Collins Digital Exchange offers API products for aerospace and defense integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/screenshots/rockwell-collins-2026-06-20T193203.png",
-     "score": 38.8,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -520,8 +520,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -565,8 +565,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 29.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -610,8 +610,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -655,8 +655,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 6.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -700,8 +700,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -762,8 +762,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -814,8 +814,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -859,8 +859,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -904,8 +904,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -949,8 +949,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -994,8 +994,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1039,8 +1039,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1084,8 +1084,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1139,8 +1139,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1184,8 +1184,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1229,8 +1229,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1274,8 +1274,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1319,8 +1319,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1364,8 +1364,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1409,8 +1409,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1454,8 +1454,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

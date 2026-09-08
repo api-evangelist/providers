@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The REST and SOAP surface the Sepasoft Web Services module exposes. Endpoints are authored by the operator in the Ignition Designer and served from the customer's own Ignition Gateway, mounted beneath
@@ -194,9 +194,13 @@ score:
   previous_composite: 44.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sepasoft/refs/heads/main/screenshots/sepasoft-2026-09-02T154933.png
 security:
 - kind: authentication

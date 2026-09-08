@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Single GraphQL endpoint for deploying and managing StackMachine apps, custom domains and DNS, managed databases and volumes, cron jobs, secrets, transactional email, cloud storage, package publishing,
@@ -43,6 +43,10 @@ apis:
   slug: stackmachine-graphql-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.stackmachine.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -162,7 +166,7 @@ network: true
 overview: 'Stack Machine publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Serverless, WebAssembly, and Edge Compute.
 
 
-  Stack Machine''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
+  Stack Machine''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 21 more developer resources.'
 random_paper: 2
 score:
   band: developing
@@ -189,9 +193,13 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/stack-machine/refs/heads/main/screenshots/stack-machine-2026-08-17T082055.png
 security:
 - kind: authentication
@@ -216,5 +224,5 @@ tags:
 - Hosting
 - DNS
 - Databases
-website: https://docs.stackmachine.com/
+website: https://www.stackmachine.com/
 ---

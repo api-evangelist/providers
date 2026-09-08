@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -286,9 +286,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/hydrostor/refs/heads/main/screenshots/hydrostor-2026-09-02T145804.png
 security:
 - kind: authentication

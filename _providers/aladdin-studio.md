@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,6 +130,10 @@ collections:
   name: Aladdin Data Cloud Analytics Securities API
   slug: open-aladdin-studio-securities-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blackrock.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -408,7 +412,7 @@ overview: 'Aladdin Studio publishes 10 APIs on the [APIs.io](https://apis.io/) n
   The Aladdin Studio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Aladdin Studio''s developer surface includes authentication, developer portal, documentation, and 11 more developer resources.'
+  Aladdin Studio''s developer surface includes authentication, developer portal, documentation, and 12 more developer resources.'
 plans:
 - name: Aladdin Studio Plans Pricing
   plan_count: 1
@@ -447,7 +451,7 @@ scopes:
   summary_line: 7 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 31.4
+  composite: 30.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 64.5
@@ -455,7 +459,7 @@ score:
     catalog_gap: 50.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -473,9 +477,12 @@ score:
       derived: 14
       marker_coverage: 100.0
       total: 14
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Aladdin Studio Authentication
@@ -509,5 +516,5 @@ use_cases:
   name: Client Reporting Automation
 - description: Analyze portfolios across public equities, fixed income, alternatives, and private markets using Aladdin's unified data platform.
   name: Multi-Asset Class Analytics
-website: https://www.blackrock.com/aladdin/products/apis
+website: https://www.blackrock.com/
 ---

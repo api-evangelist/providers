@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'First Digital''s RESTful API suite for programmatic access to its trust and custody data and services. The provider''s product page describes seven capability areas: client onboarding (business and indi'
@@ -210,9 +210,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-digital-trust/refs/heads/main/screenshots/first-digital-trust-2026-09-02T145519.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Lucene provides a comprehensive Java API for full-text indexing, searching, faceting, hit highlighting, spatial search, vector nearest-neighbor search, and text analysis with support for custom analyz
@@ -41,6 +41,10 @@ apis:
   slug: apache-lucene
 artifact_total: 28
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: Releases
@@ -152,7 +156,7 @@ network: true
 overview: 'Apache Lucene publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Full-Text Search, Indexing, Java, Search, and Text Analysis.
 
 
-  Apache Lucene''s developer surface includes developer portal, engineering blog, and 13 more developer resources.'
+  Apache Lucene''s developer surface includes developer portal, engineering blog, and 14 more developer resources.'
 plans:
 - name: Apache Lucene Plans Pricing
   plan_count: 3
@@ -186,9 +190,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 27.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-lucene/refs/heads/main/screenshots/apache-lucene-2026-06-20T172117.png
 security:
 - kind: domain-security
@@ -218,5 +226,5 @@ use_cases:
   name: Semantic Search
 - description: Build searchable knowledge bases and documentation portals with rich query capabilities.
   name: Knowledge Base Search
-website: https://lucene.apache.org/
+website: https://www.apache.org/
 ---

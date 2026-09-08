@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic access to Stilla's capabilities. The REST API and the remote MCP server are protected by OAuth 2.0 / OIDC (WorkOS AuthKit). The OpenAPI document is served at api.stilla.ai/openapi.json bu
@@ -41,6 +41,10 @@ apis:
   slug: stilla-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.stilla.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -168,7 +172,7 @@ network: true
 overview: 'Stilla publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Agentic, and Productivity.
 
 
-  Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 21 more developer resources.'
+  Stilla''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 19
 scopes:
 - name: Stilla Scopes
@@ -199,9 +203,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/stilla/refs/heads/main/screenshots/stilla-2026-09-02T160859.png
 security:
 - kind: authentication
@@ -228,5 +236,5 @@ tags:
 - Automation
 - Developer Tools
 - Enterprise
-website: https://stilla.ai/docs
+website: https://www.stilla.ai/
 ---

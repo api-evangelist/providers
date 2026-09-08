@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'The Moz API is a JSON-RPC 2.0 API accessed through HTTP POST requests to a single universal endpoint, https://api.moz.com/jsonrpc. The method name in the request body selects the operation. 62 public '
@@ -248,9 +248,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/moz/refs/heads/main/screenshots/moz-2026-09-02T150638.png
 security:
 - kind: authentication

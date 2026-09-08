@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: Kaiko Market Data REST API
   slug: open-kaiko
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kaiko.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -265,7 +269,7 @@ network: true
 overview: 'Kaiko publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Canton Oracle API, Index Reference Data API, Indices API, and 1 more. Tagged areas include Web3, Crypto, Market Data, Institutional, and FX.
 
 
-  Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 28 more developer resources.'
+  Kaiko''s developer surface includes authentication, developer portal, documentation, changelog, pricing, engineering blog, support, and 29 more developer resources.'
 plans:
 - name: Kaiko Plans Pricing
   plan_count: 2
@@ -312,9 +316,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:
 - kind: authentication

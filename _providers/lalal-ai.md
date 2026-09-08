@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -100,6 +100,10 @@ collections:
   name: LALAL.AI Batch Stem Separation Voice Change API
   slug: open-lalal-ai-voice-change-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lalal.ai/
 - group: operate
   title: ''
   type: IssueTracker
@@ -314,7 +318,7 @@ overview: 'LALAL.AI publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The LALAL.AI catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 29 more developer resources.'
+  LALAL.AI''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 30 more developer resources.'
 plans:
 - name: Lalal Ai Plans Pricing
   plan_count: 9
@@ -348,7 +352,7 @@ rules:
   slug: lalal-ai-rules
 score:
   band: strong
-  composite: 61.9
+  composite: 64.0
   coverage:
     artifact_dirs: 29
     catalog_earned: 79.5
@@ -356,7 +360,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -377,9 +381,12 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/lalal-ai/refs/heads/main/screenshots/lalal-ai-2026-06-20T184249.png
 security:
 - kind: authentication
@@ -403,5 +410,5 @@ tags:
 - Music
 - Machine-Learning
 - DSP
-website: https://www.lalal.ai
+website: https://www.lalal.ai/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 12
 apis:
 - description: 'Seller authorization flow: a Lazada seller grants a registered Lazada Open Platform app permission to call Lazada APIs on their shop''s behalf, issuing access and refresh tokens scoped per region.'
@@ -74,6 +74,10 @@ apis:
   slug: push-message
 artifact_total: 17
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lazada.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -133,7 +137,7 @@ network: true
 overview: 'Lazada publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include E-Commerce, Marketplace, Southeast Asia, Alibaba, and Order.
 
 
-  Lazada''s developer surface includes documentation and 10 more developer resources.'
+  Lazada''s developer surface includes documentation and 11 more developer resources.'
 plans:
 - name: Lazada Plans Pricing
   plan_count: 1
@@ -169,9 +173,13 @@ score:
     regions:
     - southeast-asia
   previous_composite: 19.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lazada/refs/heads/main/screenshots/lazada-2026-06-20T184341.png
 security:
 - kind: domain-security
@@ -192,5 +200,5 @@ tags:
 - Product
 - Logistics
 - Lazada
-website: https://open.lazada.com/
+website: https://www.lazada.com/
 ---

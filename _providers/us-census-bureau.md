@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -223,6 +223,10 @@ collections:
   name: Business Dynamics Statistics 2010 Timeseries API
   slug: open-us-census-bureau-timeseries-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.census.gov/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -415,7 +419,7 @@ overview: 'US Census Bureau publishes 19 APIs on the [APIs.io](https://apis.io/)
   The US Census Bureau catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  US Census Bureau''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, changelog, tooling, and 24 more developer resources.'
+  US Census Bureau''s developer surface includes authentication, developer portal, documentation, signup flow, engineering blog, changelog, tooling, and 25 more developer resources.'
 random_paper: 6
 rate_limits:
 - limit_count: 5
@@ -445,7 +449,7 @@ rules:
   slug: us-census-bureau-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.7
+  composite: 53.0
   coverage:
     artifact_dirs: 14
     catalog_earned: 65.0
@@ -453,7 +457,7 @@ score:
     catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -477,9 +481,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-census-bureau/refs/heads/main/screenshots/us-census-bureau-2026-06-20T200557.png
 security:
 - kind: authentication
@@ -500,5 +507,5 @@ tags:
 - Geospatial
 - Open Data
 - Public Sector
-website: https://www.census.gov
+website: https://www.census.gov/
 ---

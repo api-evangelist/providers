@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -244,6 +244,10 @@ collections:
   name: Microsoft Graph Word Body Versions API
   slug: open-microsoft-word-versions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -615,7 +619,7 @@ overview: 'Microsoft Word publishes 18 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Word catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Word''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, developer console, signup flow, and 53 more developer resources.'
+  Microsoft Word''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, developer console, signup flow, and 54 more developer resources.'
 plans:
 - name: Microsoft Word Plans Pricing
   plan_count: 7
@@ -654,7 +658,7 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.1
+  composite: 55.5
   coverage:
     artifact_dirs: 32
     catalog_earned: 51.5
@@ -662,7 +666,7 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -685,9 +689,12 @@ score:
       marker_coverage: 100.0
       total: 21
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-word/refs/heads/main/screenshots/microsoft-word-2026-08-07T172841.png
 security:
 - kind: authentication
@@ -726,5 +733,5 @@ use_cases:
   name: Custom Business Add-Ins
 - description: Ensure regulatory compliance by automating document formatting, metadata tagging, and archiving.
   name: Compliance Document Management
-website: https://developer.microsoft.com/en-us/graph
+website: https://www.microsoft.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - baseURL: https://voidpet.com
@@ -58,6 +58,10 @@ collections:
   name: Voidpet Public Discovery Health API
   slug: open-voidpet-health-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.voidpet.com/
 - group: other
   title: ''
   type: Overlay
@@ -129,7 +133,7 @@ network: true
 overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Discovery API and Health API. Tagged areas include Company, Games, Gaming, Mental Health, and Wellness.
 
 
-  Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 10 more developer resources.'
+  Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 11 more developer resources.'
 random_paper: 7
 score:
   band: developing
@@ -167,9 +171,13 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/voidpet/refs/heads/main/screenshots/voidpet-2026-09-02T170212.png
 security:
 - kind: authentication
@@ -191,4 +199,5 @@ tags:
 - Agents
 - MCP
 - Read Only
+website: https://www.voidpet.com/
 ---

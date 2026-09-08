@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: Managed subgraph hosting compatible with The Graph - deploy subgraph definitions and get a hosted GraphQL endpoint per subgraph for querying indexed onchain data. Includes sync acceleration and direct
@@ -148,9 +148,13 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 19.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/goldsky/refs/heads/main/screenshots/goldsky-2026-06-20T181952.png
 security:
 - kind: domain-security

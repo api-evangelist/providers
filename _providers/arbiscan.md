@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,6 +80,10 @@ collections:
   name: Arbiscan Accounts Transactions API
   slug: open-arbiscan-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.arbiscan.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -147,7 +151,7 @@ overview: 'Arbiscan publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Arbiscan catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Arbiscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, and 6 more developer resources.'
+  Arbiscan''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, and 7 more developer resources.'
 plans:
 - name: Arbiscan Plans Pricing
   plan_count: 7
@@ -185,9 +189,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/screenshots/arbiscan-2026-06-20T172358.png
 security:
 - kind: authentication
@@ -211,5 +219,5 @@ tags:
 - EVM
 - Web3
 - L2
-website: https://arbiscan.io/
+website: https://www.arbiscan.io/
 ---

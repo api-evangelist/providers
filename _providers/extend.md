@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Extend''s REST API for product and shipping protection: manage offers, contracts, orders and line items, refunds, claims, service orders, and leads. Header-based date versioning; OAuth2 client-credenti'
@@ -45,6 +45,10 @@ asyncapis:
   name: Extend Webhooks
   slug: extend-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.extend.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -167,7 +171,7 @@ overview: 'Extend publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Extend catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Extend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 20 more developer resources.'
+  Extend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 21 more developer resources.'
 random_paper: 18
 score:
   band: developing
@@ -199,9 +203,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 37.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png
 security:
 - kind: authentication
@@ -225,5 +233,5 @@ tags:
 - Contracts
 - Retail
 - Insurance
-website: https://docs.extend.com
+website: https://www.extend.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -113,6 +113,10 @@ collections:
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
   slug: open-microsoft-power-apps-entities-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -348,7 +352,7 @@ overview: 'Microsoft Power Apps publishes 3 APIs on the [APIs.io](https://apis.i
   The Microsoft Power Apps catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Apps'' developer surface includes authentication, engineering blog, pricing, support, training material, documentation, CLI, and 18 more developer resources.'
+  Microsoft Power Apps'' developer surface includes authentication, engineering blog, pricing, support, training material, documentation, CLI, and 19 more developer resources.'
 plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 6
@@ -387,7 +391,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 59.0
+  composite: 58.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.5
@@ -395,7 +399,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -419,9 +423,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-apps/refs/heads/main/screenshots/microsoft-power-apps-2026-06-20T185522.png
 security:
 - kind: authentication
@@ -455,5 +462,5 @@ use_cases:
   name: Field Service Apps
 - description: Build CRUD applications on Dataverse for managing business data with role-based security.
   name: Data Management
-website: https://docs.microsoft.com/en-us/power-apps/developer/
+website: https://www.microsoft.com/
 ---

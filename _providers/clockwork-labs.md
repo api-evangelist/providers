@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The SpacetimeDB HTTP API lets clients and tools interact with SpacetimeDB databases: publish and delete database modules, manage database names, retrieve schema and logs, invoke reducers, run SQL quer'
@@ -42,6 +42,10 @@ apis:
   slug: spacetimedb-http-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://spacetimedb.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -165,7 +169,7 @@ network: true
 overview: 'Clockwork Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, Real-Time, WebSocket, and Game Backend.
 
 
-  Clockwork Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
+  Clockwork Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 22 more developer resources.'
 random_paper: 10
 score:
   band: thin
@@ -192,9 +196,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockwork-labs/refs/heads/main/screenshots/clockwork-labs-2026-07-25T205640.png
 security:
 - kind: authentication
@@ -217,5 +225,5 @@ tags:
 - WebAssembly
 - Developer Tools
 - Infrastructure
-website: https://spacetimedb.com/docs
+website: https://spacetimedb.com/
 ---

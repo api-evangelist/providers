@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Watershed Platform API enables programmatic ingestion of activity data, retrieval of computed emissions footprints, and integration with reporting and decarbonization workflows. API keys are manag
@@ -139,9 +139,13 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Watershed Domain Security

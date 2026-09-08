@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Alloovium's public REST API v2 for document intelligence over construction projects — vault (projects, documents, hybrid search), chat (grounded, cited answers), workflows (automation runs), and templ
@@ -41,6 +41,10 @@ apis:
   slug: alloovium-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alloovium.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -164,7 +168,7 @@ network: true
 overview: 'Alloovium publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Document Intelligence, Compliance, and Artificial Intelligence.
 
 
-  Alloovium''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, support, authentication, and 20 more developer resources.'
+  Alloovium''s developer surface includes documentation, API reference, getting-started guide, changelog, pricing, support, authentication, and 21 more developer resources.'
 random_paper: 18
 rate_limits:
 - limit_count: 0
@@ -205,9 +209,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/screenshots/alloovium-2026-07-25T195710.png
 security:
 - kind: authentication
@@ -236,5 +244,5 @@ tags:
 - Construction Technology
 - Documents
 - MCP
-website: https://www.alloovium.com/en/developers
+website: https://www.alloovium.com/
 ---

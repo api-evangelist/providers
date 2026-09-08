@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic access to LF Networking project resources, APIs, and open networking infrastructure tools.
@@ -41,6 +41,10 @@ apis:
   slug: lf-networking-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lfnetworking.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -80,7 +84,7 @@ network: true
 overview: 'LF Networking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Linux Foundation, Networking, Open-Source, and Telecom.
 
 
-  LF Networking''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  LF Networking''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 plans:
 - name: Lf Networking Plans Pricing
   plan_count: 3
@@ -117,9 +121,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-networking/refs/heads/main/screenshots/lf-networking-2026-06-20T184454.png
 security:
 - kind: domain-security
@@ -132,4 +140,5 @@ tags:
 - Networking
 - Open-Source
 - Telecom
+website: https://www.lfnetworking.org/
 ---

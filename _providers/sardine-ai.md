@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: Submit customer profile and onboarding signals (KYC, KYB, document verification, sanctions/PEP screening, identity fraud, synthetic ID detection, behavioral biometrics, device intelligence) and receiv
@@ -55,6 +55,10 @@ apis:
   slug: sardine-case-management-api
 artifact_total: 32
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sardine.ai/
 - group: auth
   title: ''
   type: TrustCenter
@@ -247,7 +251,7 @@ network: true
 overview: 'Sardine publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud Prevention, AML, Compliance, KYC, and KYB.
 
 
-  Sardine''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, tooling, pricing, and 32 more developer resources.'
+  Sardine''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, tooling, pricing, and 33 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -275,9 +279,13 @@ score:
     regions:
     - north-america
   previous_composite: 20.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sardine-ai/refs/heads/main/screenshots/sardine-ai-2026-06-20T193433.png
 security:
 - kind: domain-security
@@ -307,5 +315,5 @@ tags:
 - Financial Crime
 - Agentic AI
 - Fintech
-website: https://www.sardine.ai
+website: https://www.sardine.ai/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -268,6 +268,10 @@ collections:
   name: Figma Activity Logs Webhooks API
   slug: open-figma-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.figma.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -2021,7 +2025,7 @@ overview: 'Figma publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
   The Figma catalog on APIs.io includes 1 event-driven AsyncAPI specification, 13 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Figma''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, signup flow, pricing, and 72 more developer resources.'
+  Figma''s developer surface includes authentication, changelog, CLI, developer portal, getting-started guide, signup flow, pricing, and 73 more developer resources.'
 plans:
 - name: Figma Plans Pricing
   plan_count: 4
@@ -2071,7 +2075,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.5
+  composite: 57.8
   coverage:
     artifact_dirs: 35
     catalog_earned: 65.5
@@ -2079,7 +2083,7 @@ score:
     catalog_gap: 49.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -2102,9 +2106,12 @@ score:
       marker_coverage: 0.0
       total: 16
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:
 - kind: authentication
@@ -2145,5 +2152,5 @@ use_cases:
   name: Compliance and Audit
 - description: Programmatically back up file data and version history for disaster recovery.
   name: Design File Backup
-website: https://www.figma.com/developers
+website: https://www.figma.com/
 ---

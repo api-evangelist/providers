@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: Krea API
   slug: open-krea-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.krea.ai/
 - group: other
   title: ''
   type: CapabilityMap
@@ -322,11 +326,11 @@ network: true
 overview: 'Krea publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Assets API, General API, Image API, and 4 more. Tagged areas include Artificial Intelligence, Image-Generation, Video Generation, Generative AI, and Real-Time.
 
 
-  Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 39 more developer resources.'
+  Krea''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, sandbox, YouTube channel, and 40 more developer resources.'
 random_paper: 15
 score:
-  band: developing
-  composite: 39.3
+  band: thin
+  composite: 38.6
   coverage:
     artifact_dirs: 7
     catalog_earned: 37.0
@@ -334,7 +338,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -352,9 +356,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/screenshots/krea-ai-2026-06-20T184155.png
 security:
 - kind: authentication
@@ -380,5 +387,5 @@ tags:
 - Creative Tools
 - 3D
 - Upscaling
-website: https://www.krea.ai
+website: https://www.krea.ai/
 ---

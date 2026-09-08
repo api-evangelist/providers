@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The SignalFx REST API manages metadata and configuration objects in Splunk Observability Cloud / SignalFx: metrics and dimension metadata, detectors and alert muting rules, charts, dashboards and dash'
@@ -42,6 +42,10 @@ apis:
   slug: signalfx-rest-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.splunk.com/
 - group: other
   title: ''
   type: ParentCompany
@@ -165,7 +169,7 @@ network: true
 overview: 'SignalFx publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Observability, Monitoring, Metrics, and Time Series.
 
 
-  SignalFx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 21 more developer resources.'
+  SignalFx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, support, and 22 more developer resources.'
 random_paper: 20
 score:
   band: thin
@@ -191,9 +195,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/signalfx/refs/heads/main/screenshots/signalfx-2026-09-02T155429.png
 security:
 - kind: authentication
@@ -224,5 +232,5 @@ tags:
 - Alerting
 - DevOps
 - Splunk
-website: https://dev.splunk.com/observability
+website: https://www.splunk.com/
 ---

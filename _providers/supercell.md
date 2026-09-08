@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Read-only access to Clash of Clans game data — clan search, global and local leaderboards, clan and player profiles, leagues, war logs, capital raid seasons and the Gold Pass season. Authenticated wit
@@ -130,9 +130,13 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 16.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/supercell/refs/heads/main/screenshots/supercell-2026-09-02T161217.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: HTTP RPC-style API for age gates, age verification, verifiable parental consent, k-ID sessions, and permission management. Methods take the form https://game-api.k-id.com/api/v1/{method} with bearer A
@@ -47,6 +47,10 @@ asyncapis:
   name: K Id Webhooks
   slug: k-id-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.k-id.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -169,7 +173,7 @@ overview: 'k-ID publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The k-ID catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  k-ID''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
+  k-ID''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 21 more developer resources.'
 random_paper: 0
 score:
   band: developing
@@ -196,9 +200,13 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/k-id/refs/heads/main/screenshots/k-id-2026-08-17T123933.png
 security:
 - kind: authentication
@@ -225,5 +233,5 @@ tags:
 - Privacy
 - Regulatory Technology
 - Gaming
-website: https://portal.k-id.com
+website: https://www.k-id.com/
 ---

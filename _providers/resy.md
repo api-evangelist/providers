@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'Partner-only REST API for reservations, availability, and restaurant metadata. Access is granted through Resy''s partnerships team for approved POS, CRM, loyalty, and discovery integrations. No public '
@@ -47,6 +47,10 @@ apis:
   slug: internal-web-api
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.resy.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -126,7 +130,7 @@ network: true
 overview: 'Resy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Hospitality, Reservations, Restaurant, Dining, and Booking.
 
 
-  Resy''s developer surface includes developer portal, engineering blog, and 8 more developer resources.'
+  Resy''s developer surface includes developer portal, engineering blog, and 9 more developer resources.'
 plans:
 - name: Resy Plans Pricing
   plan_count: 2
@@ -157,9 +161,13 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 16.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/resy/refs/heads/main/screenshots/resy-2026-06-20T193036.png
 security:
 - kind: domain-security
@@ -180,5 +188,5 @@ use_cases:
   name: Sync Reservations with POS and CRM
 - description: Surface restaurant availability through Resy and partner discovery channels.
   name: Discovery and Marketing Distribution
-website: https://resy.com/
+website: https://www.resy.com/
 ---

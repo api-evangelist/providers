@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: Dragos WorldView Indicators Tags API
   slug: open-dragos-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dragos.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -211,7 +215,7 @@ network: true
 overview: 'Dragos publishes 3 APIs on the [APIs.io](https://apis.io/) network: Indicators API, Products API, and Tags API. Tagged areas include Company, Cybersecurity, OT Security, ICS, and Threat Intelligence.
 
 
-  Dragos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 24 more developer resources.'
+  Dragos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 25 more developer resources.'
 random_paper: 10
 score:
   band: developing
@@ -244,9 +248,13 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/dragos/refs/heads/main/screenshots/dragos-2026-07-25T212343.png
 security:
 - kind: authentication
@@ -273,5 +281,5 @@ tags:
 - STIX
 - Vulnerability Management
 - Security
-website: https://portal.dragos.com/
+website: https://www.dragos.com/
 ---

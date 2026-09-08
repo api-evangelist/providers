@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: 'Deposit (formerly Direct Deposit Switching) lets users redirect all or part of their paycheck to a new account. Atomic connects to thousands of payroll providers and employers, signs in on the user''s '
@@ -205,9 +205,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/atomic-financial/refs/heads/main/screenshots/atomic-financial-2026-06-20T172532.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 29
@@ -188,6 +188,10 @@ collections:
   name: MoDaC API
   slug: open-predictive-oncology-model-and-data-clearinghouse
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cancer.gov/
 - group: other
   title: ''
   type: CapabilityMap
@@ -235,7 +239,7 @@ network: true
 overview: 'Predictive Oncology Model and Data Clearinghouse publishes 17 APIs on the [APIs.io](https://apis.io/) network, including asset-details-controller API, delete-collection-controller API, delete-data-file-controller API, and 14 more. Tagged areas include Cancer Research, Clinical Data, Datasets, Machine-Learning, and Oncology.
 
 
-  Predictive Oncology Model and Data Clearinghouse''s developer surface includes developer portal and 7 more developer resources.'
+  Predictive Oncology Model and Data Clearinghouse''s developer surface includes developer portal and 8 more developer resources.'
 plans:
 - name: Predictive Oncology Model And Data Clearinghouse Plans Pricing
   plan_count: 3
@@ -247,7 +251,7 @@ rate_limits:
   slug: predictive-oncology-model-and-data-clearinghouse-rate-limits
 score:
   band: emerging
-  composite: 21.6
+  composite: 20.9
   coverage:
     artifact_dirs: 8
     catalog_earned: 41.0
@@ -255,7 +259,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -279,9 +283,12 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/predictive-oncology-model-and-data-clearinghouse/refs/heads/main/screenshots/predictive-oncology-model-and-data-clearinghouse-2026-06-20T192044.png
 security:
 - kind: domain-security
@@ -295,5 +302,5 @@ tags:
 - Datasets
 - Machine-Learning
 - Oncology
-website: https://modac.cancer.gov/
+website: https://www.cancer.gov/
 ---

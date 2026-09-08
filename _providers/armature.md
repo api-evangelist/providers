@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Armature''s programmable surface: an ingest API fed by the TypeScript/Python/Go MCP-analytics SDKs, and a read-only hosted MCP server (mcp.armature.tech) that serves reconstructed sessions, use-case cl'
@@ -41,6 +41,10 @@ apis:
   slug: armature-mcp-analytics
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.armature.tech/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -136,7 +140,7 @@ network: true
 overview: 'Armature publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agent Experience, MCP, Analytics, and Observability.
 
 
-  Armature''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 14 more developer resources.'
+  Armature''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
 random_paper: 4
 score:
   band: emerging
@@ -163,9 +167,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/armature/refs/heads/main/screenshots/armature-2026-07-25T201219.png
 security:
 - kind: authentication
@@ -186,5 +194,5 @@ tags:
 - AI Agents
 - Product Analytics
 - Developer Tools
-website: https://docs.armature.tech
+website: https://www.armature.tech/
 ---

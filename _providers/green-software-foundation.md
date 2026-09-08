@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.greensoftware.foundation/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -72,7 +76,7 @@ network: true
 overview: 'Green Software Foundation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Carbon, Linux Foundation, Software, and Sustainability.
 
 
-  Green Software Foundation''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  Green Software Foundation''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
 plans:
 - name: Green Software Foundation Plans Pricing
   plan_count: 3
@@ -103,9 +107,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 11.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/green-software-foundation/refs/heads/main/screenshots/green-software-foundation-2026-06-20T182353.png
 security:
 - kind: domain-security
@@ -118,4 +126,5 @@ tags:
 - Linux Foundation
 - Software
 - Sustainability
+website: https://www.greensoftware.foundation/
 ---

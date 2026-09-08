@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: Bitstamp Market Data API
   slug: open-bitstamp-market-data-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bitstamp.net/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -188,7 +192,7 @@ overview: 'Bitstamp publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Bitstamp catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Bitstamp''s developer surface includes authentication, support, signup flow, engineering blog, and 12 more developer resources.'
+  Bitstamp''s developer surface includes authentication, support, signup flow, engineering blog, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -243,9 +247,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 40.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitstamp/refs/heads/main/screenshots/bitstamp-2026-06-20T173325.png
 security:
 - kind: authentication
@@ -272,4 +280,5 @@ tags:
 - Market Data
 - Order Management
 - Finance
+website: https://www.bitstamp.net/
 ---

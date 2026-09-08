@@ -8,15 +8,15 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Orange Business",
      "slug": "orange-business",
      "description": "Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as \"an operator, integrator, and platform player\" and serves 30,000+ enterprise customers across 65 countries with cloud, cybersecurity, SD-WAN/SASE, 5G, IoT, data, AI, and digital-workplace services. Orange's developer surface is split across two tracks. The Orange Developer portal (developer.orange.com) publishes the Orange Open Gateway — Orange's implementation of GSMA Open Gateway / CAMARA standardised network APIs (Number Verification, SIM Swap, Device Swap, KYC Match, Device Location, Geofencing, Device Status, Quality on Demand, Population Density Data) — alongside Orange-specific APIs for IoT (Live Objects, IoT Global Connectivity), payments (Orange Money WebPay, Pay With Orange Bill, carrier billing across Orange Africa), communications (Voice, SMS MEA, Business Talk, Contact Everyone), cloud (Cloud Avenue sovereign IaaS, Evolution Platform), and identity (Live Identity Verify, Live Identity Captcha). The Orange Business Services portfolio adds a B2B TM Forum–aligned API track for ordering, billing, incident management, eligibility, and order tracking. The Orange-OpenSource GitHub org backs the developer ecosystem with 427+ repos including Hurl (the popular Rust HTTP testing CLI with 18K+ stars), the Boosted accessible Bootstrap framework, the OUDS Orange Unified Design System for iOS / Android / Flutter, and 5G Kubernetes Helm charts. Orange has also stood up Orange LiveNet, a business unit dedicated to commercialising programmable network capabilities, and is one of the founding operators of the GSMA Open Gateway initiative with the CAMARA Linux Foundation project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png",
-     "score": 68.6,
+     "score": 70.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -62,15 +62,26 @@
       "agentic_commerce": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "54.3 – 66.4",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 10,
+   "shown": 10,
+   "providers": [
     {
      "name": "Memo Bank",
      "slug": "memo-bank",
      "description": "Memo Bank is an independent French commercial bank, accredited as a credit institution by the European Central Bank and supervised by the ACPR, that serves small and mid-sized companies with current accounts, loans, savings and an API-first payments platform. Its Premium Bank API is a REST/JSON contract authenticated with RS256-signed JWT/JWS request tokens, covering accounts, transactions, bi-directional virtual IBANs, SEPA credit transfers, SEPA Direct Debit collections and mandate signature requests, SWIFT/RTGS wire transfers, bulk payment batches, attachments and account assessments, with 34 webhook event types for asynchronous reconciliation. A Marketplace API adds an OAuth 2.0 layer so third-party developers can act on customer resources, a NextGenPSD2 API implements the Berlin Group AIS/PIS interface for licensed third-party providers, and a hosted MCP server exposes read-only banking data plus attachment upload to AI assistants.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/memo-bank/refs/heads/main/screenshots/memo-bank-2026-09-02T150506.png",
-     "score": 67.1,
-     "band": "exemplar",
-     "band_label": "Exemplar",
+     "score": 66.4,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 59.5,
@@ -81,8 +92,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -133,23 +144,12 @@
       "agentic_commerce": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "54.3 – 66.4",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 7,
-   "shown": 7,
-   "providers": [
+    },
     {
      "name": "La Poste Groupe",
      "slug": "la-poste-groupe",
      "description": "La Poste Groupe is the French state-owned postal, parcel, banking and digital services group. Its public API programme runs on Okapi, the group's own API management platform, published at developer.laposte.fr: nine APIs covering shipment tracking across mail, Colissimo and Chronopost (Suivi v2), address validation and normalisation (ControlAdresse v2), forward and reverse geocoding, the Digiposte certified digital-safe partner API, online registered mail (Lettre recommandee en ligne), driving-licence exam booking (Code de la route) and an Open Data gateway over data.laposte.fr. Colissimo, the group's parcel arm, additionally publishes SOAP contracts for label generation and pickup-point lookup at ws.colissimo.fr, and GeoPost/DPDgroup sits inside the same group. Access is metered by subscription plans with published quotas and prices, and calls are authenticated with an X-Okapi-Key header against the api.laposte.fr gateway.",
-     "score": 65.2,
+     "score": 64.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -162,8 +162,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -201,7 +201,7 @@
      "slug": "jurisign",
      "description": "eIDAS electronic signature API developed in France by PCFrance and hosted in Europe. JuriSign issues Simple Electronic Signatures (SES) under eIDAS Regulation (EU) No 910/2014 only -- not advanced (AdES) and not qualified (QES). The 46-operation REST contract covers PDF upload with multi-file merge, multi-signer signature requests with email or SMS OTP verification, pixel-placed signature zones, reusable templates, bulk campaigns, shareable public self-signing forms, pay-at-signature collection through Stripe Connect, HMAC-signed webhooks across twelve events, and download of both the signed PDF and its SHA-256 chained audit proof. Signature level is Simple Electronic Signature (SES) under eIDAS Regulation (EU) 910/2014; the provider states in its own GDPR Article 28 annex that it is not a qualified trust service provider and issues neither advanced nor qualified signatures. Bearer tokens carry one of five restrictable scopes, an Idempotency-Key makes the billable write safely repeatable, and a free sandbox needs no credit card. All data stays in the European Union.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/screenshots/jurisign-2026-09-02T150005.png",
-     "score": 63.8,
+     "score": 63.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -214,8 +214,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 36.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -246,7 +246,7 @@
      "slug": "pennylane",
      "description": "Pennylane is a French financial and accounting operating system for SMEs and accounting firms. The Company API (v2) lets companies, firms, and integration partners access and sync invoicing, accounting, banking, and financial data over a REST interface, and automate end-to-end workflows. V2 is the stable version; V1 is deprecated. All amounts are in EUR and the platform is built around French accounting (FEC exports, Plateforme Agréée e-invoicing, SEPA/GoCardless mandates).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pennylane/refs/heads/main/screenshots/pennylane-2026-08-17T081155.png",
-     "score": 63.4,
+     "score": 62.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -259,8 +259,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -305,7 +305,7 @@
      "slug": "lengow",
      "description": "Lengow is a French e-commerce automation platform (Nantes, founded 2009; part of the Lengow group alongside Netrivals and NetMonitor) that connects merchant product catalogues to marketplaces, price-comparison sites and advertising channels across Europe. Its Channel Execution suite covers NetMarkets for marketplace management and NetAmplify for advertising feed management, plus NetRivals price intelligence and NetMonitor reseller monitoring. Lengow publishes a public REST API at api.lengow.io covering order retrieval and order actions (accept, refuse, ship, cancel, refund) across marketplaces, marketplace metadata, invoice and delivery documents, Zalando ZFS warehouse communication, product integration reports, and a beta v1.0 catalogue API for products and attributes. Authentication is a session token exchanged from an account access_token + secret pair. First-party e-commerce plugins are published on GitHub for PrestaShop, Magento 2, WooCommerce, Shopware 6 and Salesforce Commerce Cloud.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lengow/refs/heads/main/screenshots/lengow-2026-09-02T150237.png",
-     "score": 59.3,
+     "score": 60.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -318,8 +318,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -350,7 +350,7 @@
      "slug": "malt",
      "description": "Malt is a European freelance marketplace and Freelance Management System (FMS) founded in 2013 in Paris by Vincent Huguet and Hugo Lassiege, connecting more than a million independent consultants across tech, data, AI, design, marketing and management with enterprise buyers. Beyond matching, the platform handles the administrative spine of freelance engagement: quotes, automated contracts and NDAs, timesheets, invoicing, insured payments and compliance checks, plus an enterprise tier that consolidates an existing freelance roster (Malt Open) and plugs into 85+ ERP, procurement and HR systems including SAP Fieldglass, Coupa and Workday. Malt publishes a small, credential-gated public API surface at api.malt.com documented with Stoplight Elements: a freelancer billing API (invoices, service charge invoices, payments, invoice PDFs) and a SCIM 2.0 user-provisioning endpoint for enterprise identity lifecycle management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/screenshots/malt-2026-09-02T150425.png",
-     "score": 57.2,
+     "score": 59.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -363,8 +363,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -398,11 +398,63 @@
      "rank": 7
     },
     {
+     "name": "ETSI",
+     "slug": "etsi",
+     "description": "ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API. From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png",
+     "score": 56.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 50.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 81.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 46.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Lifen",
      "slug": "lifen",
      "description": "Lifen (Honestica SAS, Paris) is a French digital-health company whose Lifen Platform exposes FHIR R4 APIs that let e-health applications exchange health data with French hospital information systems and with healthcare professionals over the national MSSanté secure-messaging network. The platform is organised as API Services: Hospital API Services (an Identity & Encounter service giving secure access to patient administrative, coverage, encounter and appointment data inside a given hospital, and a Send-documents-to-EHR service that pushes medical documents into hospital Electronic Health Records), and National API Services (the MSS service for sending medical documents to healthcare professionals via MSSanté). Access is machine-to-machine over OAuth 2.0 client credentials, scoped by functional scopes and bound to a healthcare organisation through a database_reference. Lifen also ships an SSO/OIDC API and a signed webhook surface for patient and encounter events. The company is ISO 27001 certified and an HDS (Hebergeur de Donnees de Sante) certified health-data host.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lifen/refs/heads/main/screenshots/lifen-2026-07-25T225040.png",
-     "score": 57.1,
+     "score": 56.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -415,8 +467,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -454,79 +506,16 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
-    },
-    {
-     "name": "ETSI",
-     "slug": "etsi",
-     "description": "ETSI, the European Telecommunications Standards Institute, is a not-for-profit standards development organisation headquartered in Sophia Antipolis, France, and one of only three bodies officially recognised by the European Union as a European Standards Organisation. With over 900 member organisations from more than 60 countries it standardises ICT across mobile, fixed, broadcast, IoT, security and emerging technologies, and it hosts the 3GPP Mobile Competence Centre. In the telecom value chain ETSI sits upstream of every operator and vendor: it does not run a network or sell connectivity, it writes the specifications that the network is built from. Its API posture is unusually open for a standards body. Every ETSI deliverable is downloadable free of charge without login from etsi.org/deliver, and the machine-readable API artefacts are published as BSD-3-Clause OpenAPI on two public GitLab instances, forge.etsi.org and labs.etsi.org, both of which serve an anonymous REST API. From those ETSI publishes the ISG MEC edge service APIs, the NFV SOL lifecycle and orchestration APIs, the ISG CIM NGSI-LD context information API, and open-source implementations including OpenCAPIF for 3GPP CAPIF, OpenSlice for TM Forum Open APIs, and an Operator Platform Open Exposure Gateway that exposes northbound CAMARA APIs. What is member-gated is participation, not publication: portal.etsi.org, working documents, drafting and voting sit behind ETSI membership, while the finished standards and their OpenAPI are open to anyone. ETSI itself is not a GSMA Open Gateway operator and not a CAMARA member organisation; it reaches CAMARA through liaison and through its own open-source code.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/etsi/refs/heads/main/screenshots/etsi-2026-08-07T165027.png",
-     "score": 56.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 50.6,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 73.2,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 81.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 46.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 9
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 14,
-   "shown": 14,
-   "providers": [
+    },
     {
      "name": "Fintecture",
      "slug": "fintecture",
      "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png",
-     "score": 54.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 56.3,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 66.1,
@@ -537,8 +526,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -572,58 +561,13 @@
      "rank": 10
     },
     {
-     "name": "Qobuz",
-     "slug": "qobuz",
-     "description": "Qobuz is a French hi-res audio streaming and download platform founded in 2007 and operated by Xandrie SA. It offers lossless FLAC streaming up to 24-bit/192 kHz and a hi-res download store covering over 100 million tracks across all genres. The Qobuz REST API (v0.2) is a partner-only interface that enables third-party applications — hi-fi hardware manufacturers, DAPs, music players, and streaming integrators — to search the catalog, retrieve album and artist metadata, generate authenticated streaming URLs, manage user playlists and favorites, and process purchases from the hi-res download store. API access requires contacting Qobuz directly at api@qobuz.com to obtain an app_id and app_secret. Consumer subscription plans (Studio Solo, Studio Duo, Studio Family, Sublime) provide the underlying access entitlement; partners and integrators are subject to the Qobuz API Terms of Use governed by French law. The service is deployed across France, Germany, and Canada infrastructure nodes monitored via a public status page.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/screenshots/qobuz-2026-06-20T192346.png",
-     "score": 52.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 63.3,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 34.5,
-      "commercial_clarity": 73.7,
-      "access_clarity": 73.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 29.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
      "name": "Splio",
      "slug": "splio",
      "description": "Splio is a Paris-headquartered customer marketing platform for retail, e-commerce, restaurant and travel brands, combining a Customer Data Platform, omnichannel marketing automation (email, SMS, WhatsApp, push), loyalty and rewards programs, mobile wallet cards and Tinyclues-derived predictive AI targeting into one \"Splio Customer Platform\". Brands integrate it through a JWT-authenticated REST API on api.splio.com covering contacts, custom fields, blacklists, orders, abandoned carts, products, stores, targeting groups and filters, loyalty members, points, tiers, programs and reward grant/burn, plus separate Messaging, Campaign, Content and Interactions APIs, a Datahub SFTP/CSV import path, and packaged connectors for Shopify, Magento, PrestaShop, Meta/Google/TikTok/Snapchat Ads, Criteo, Zendesk, OneSignal and Make.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/screenshots/splio-2026-09-02T160514.png",
-     "score": 52.2,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 54.3,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 53.4,
@@ -634,8 +578,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -673,7 +617,108 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 11
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 12,
+   "shown": 12,
+   "providers": [
+    {
+     "name": "Qobuz",
+     "slug": "qobuz",
+     "description": "Qobuz is a French hi-res audio streaming and download platform founded in 2007 and operated by Xandrie SA. It offers lossless FLAC streaming up to 24-bit/192 kHz and a hi-res download store covering over 100 million tracks across all genres. The Qobuz REST API (v0.2) is a partner-only interface that enables third-party applications — hi-fi hardware manufacturers, DAPs, music players, and streaming integrators — to search the catalog, retrieve album and artist metadata, generate authenticated streaming URLs, manage user playlists and favorites, and process purchases from the hi-res download store. API access requires contacting Qobuz directly at api@qobuz.com to obtain an app_id and app_secret. Consumer subscription plans (Studio Solo, Studio Duo, Studio Family, Sublime) provide the underlying access entitlement; partners and integrators are subject to the Qobuz API Terms of Use governed by French law. The service is deployed across France, Germany, and Canada infrastructure nodes monitored via a public status page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/screenshots/qobuz-2026-06-20T192346.png",
+     "score": 52.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 63.3,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 34.5,
+      "commercial_clarity": 73.7,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 29.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 12
+    },
+    {
+     "name": "Riot",
+     "slug": "riot",
+     "description": "Riot is a Paris-based employee security posture management (human risk management) platform that helps companies reduce the human attack surface. The product suite spans phishing and smishing simulation, security awareness training courses, credential breach monitoring, employee-reported email triage (Inbox), inbound email protection (Slash), and third-party SaaS/drive exposure monitoring (Sonar), fronted by a chat assistant that runs in Slack, Microsoft Teams and the web portal. Riot publishes a public REST API (OpenAPI 3.1.1, x-api-key authentication, cursor pagination, scoped keys) that exposes organization, employee, group, course, campaign, attack, breach and inbox data, a SCIM 2.0 provisioning surface for user and group lifecycle, and Standard-Webhooks server-to-server events whose payloads follow the OCSF Detection Finding schema so they can be ingested by a SIEM or SOAR without custom mapping.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png",
+     "score": 50.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 64.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 47.0,
+      "commercial_clarity": 40.8,
+      "access_clarity": 40.8
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 36.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
     },
     {
      "name": "Allo-Media",
@@ -693,8 +738,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -718,14 +763,59 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 14
+    },
+    {
+     "name": "Lokki",
+     "slug": "lokki",
+     "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/screenshots/lokki-2026-09-02T150326.png",
+     "score": 48.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 43.5,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 71.4,
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 35.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
     },
     {
      "name": "Quandela",
      "slug": "quandela",
      "description": "Quandela is a Paris-region (Massy, France) photonic quantum computing company building modular, scalable, energy-efficient quantum systems driven by deterministic single-photon sources. Its hardware lineup includes Ascella (its first cloud-accessible system), Belenos (a 12-qubit second-generation machine), Canopus, and Mosaiq (its flagship prototyping platform), alongside Prometheus single-photon sources and the Entropy quantum random number generator. Quandela develops Perceval, the open-source Python framework for programming photonic quantum computers, distributed on PyPI as perceval-quandela with the perceval-interop bridges to Qiskit, QuTiP, cQASM and myQLM and the exqalibur native optimisation kernel. It operates Quandela Cloud, which — contrary to an earlier reading of this profile — DOES publish a real, anonymously readable REST contract: OpenAPI 3.0.3 at https://api.cloud.quandela.com/openapi.json, version v2.8.0-rc4, with 55 paths, 59 operations and 54 component schemas, plus a Quantum Toolbox sub-specification at /qt-openapi.json. The surface covers Perceval job submission (submit-then-poll, with the circuit carried as an SDK-serialised opaque payload), a self-service Cloud Job Token lifecycle with a per-platform credit ledger, five typed Quantum Toolbox primitives (Chemistry VQE, Custom VQE, CVaR VQE, Graph DSI, Graph Isomorphism) each with a paired cost estimator, and the Entropy QRNG, whose draws return CHSH and min-entropy certification. Authentication is a single declared bearer scheme covering two distinct credentials — an account token from account.quandela.com and a Cloud Job Token minted over the API. Quandela also runs a Quantum Acceleration Program for enterprise pilots in cybersecurity, pharma, chemistry, logistics, finance, energy and aerospace, and publishes a 2024-2030 roadmap to fault-tolerant quantum computing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/screenshots/quandela-2026-06-20T192405.png",
-     "score": 48.8,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -738,8 +828,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 28.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -763,14 +853,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "Defacto",
      "slug": "defacto",
      "description": "Defacto is an ACPR-authorized French fintech providing instant, embedded financing for small and medium-sized businesses across Europe. Through a single REST API, partners (marketplaces, neobanks, B2B SaaS, e-invoicing platforms) can onboard borrowers, test eligibility and credit limits, share business and bank-transaction data, create invoices, request and manage loans, handle repayments and recollection, issue credit cards, bill fees, and subscribe to webhooks. Defacto has powered over EUR 1B in financing for 12K+ SMBs through 15+ partners, with products spanning receivables, payables, pay-later, cash-in-now, and wallet financing. This profile was enriched by the API Evangelist pipeline from Defacto's public developer portal (developers.getdefacto.com).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png",
-     "score": 48.7,
+     "score": 48.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -783,8 +873,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -826,96 +916,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
-    },
-    {
-     "name": "Riot",
-     "slug": "riot",
-     "description": "Riot is a Paris-based employee security posture management (human risk management) platform that helps companies reduce the human attack surface. The product suite spans phishing and smishing simulation, security awareness training courses, credential breach monitoring, employee-reported email triage (Inbox), inbound email protection (Slash), and third-party SaaS/drive exposure monitoring (Sonar), fronted by a chat assistant that runs in Slack, Microsoft Teams and the web portal. Riot publishes a public REST API (OpenAPI 3.1.1, x-api-key authentication, cursor pagination, scoped keys) that exposes organization, employee, group, course, campaign, attack, breach and inbox data, a SCIM 2.0 provisioning surface for user and group lifecycle, and Standard-Webhooks server-to-server events whose payloads follow the OCSF Detection Finding schema so they can be ingested by a SIEM or SOAR without custom mapping.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/screenshots/riot-2026-08-17T081610.png",
-     "score": 48.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 64.2,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 47.0,
-      "commercial_clarity": 40.8,
-      "access_clarity": 40.8
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 36.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Lokki",
-     "slug": "lokki",
-     "description": "Lokki is a Grenoble, France rental-management SaaS (getlokki.com) used by 2,500+ equipment rental businesses across bikes, e-bikes, scooters, cars, ski, climbing, surf, paddle, canoe/kayak, boats, event gear, groundskeeping equipment and tooling, paired with the lokki.rent consumer rental marketplace. Lokki publishes a partner-facing read-only REST API — the Lokki External API, seven operations on https://prod.api.eu-west-3.lokki.rent covering stores (rental providers), store items with date-range pricing and stock, and the verticale/category taxonomy — documented on a Mintlify docs host at docs.getlokki.com with an OpenAPI 3.1 specification, llms.txt, an A2A agent card, a provider-authored Agent Skill and an anonymous documentation MCP server. Authentication is an environment-scoped API key in the x-api-key header (lokki_sk_test_ for staging, lokki_sk_live_ for production) issued by a Lokki representative under a partnership agreement, with scopes at domain, action and route level. The same production host also serves an unauthenticated NestJS Swagger document for the 896-operation internal Dashboard / Online Store API. Lokki has raised roughly €6.3M, led by blisce with Racine2 (Serena + makesense), 50 Partners Impact, FJ Labs and Silence VC.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lokki/refs/heads/main/screenshots/lokki-2026-09-02T150326.png",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 43.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 38.2,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 17
     },
     {
@@ -923,7 +923,7 @@
      "slug": "kelvin",
      "description": "Kelvin (kelvin°) is a Paris-based startup, founded in 2023 and backed by Seedcamp, building an AI-powered commercial platform for the home energy-renovation industry in France. Its tools help RGE-certified artisans, renovation contractors, general contractors, CEE delegatees and trade platforms find and qualify renovation prospects, generate leads through embeddable address-based simulators, automatically compute energy-efficiency scenarios and government aids (MaPrimeRenov / CEE) with remaining customer cost, and assemble complete financing packages. The AI is trained by thermal engineers and architects and uses open data plus computer vision to assess buildings without a recent DPE. More than 4,000 artisans and sales reps use Kelvin to prospect, prepare appointments and quote work.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kelvin/refs/heads/main/screenshots/kelvin-2026-07-25T223602.png",
-     "score": 45.3,
+     "score": 44.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -936,8 +936,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -971,101 +971,11 @@
      "rank": 18
     },
     {
-     "name": "ScrapingBee",
-     "slug": "scrapingbee",
-     "description": "ScrapingBee is a France-based web scraping API that handles headless browsers, proxy rotation, anti-bot defenses, and CAPTCHA solving so developers can extract data from any website with a single API call. The platform exposes a unified HTML scraping endpoint alongside dedicated APIs for Google Search, Amazon, Walmart, YouTube, and ChatGPT, with JavaScript rendering, AI-powered data extraction, screenshots, and an MCP server for agentic workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png",
-     "score": 43.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 55.1,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 52.4,
-      "commercial_clarity": 53.9,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 23.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "LaFourchette",
-     "slug": "lafourchette",
-     "description": "LA FOURCHETTE SAS, trading as TheFork, is the European restaurant-booking and restaurant-management platform founded in Paris in 2007 and acquired by TripAdvisor in 2014. It runs the consumer marketplace at thefork.com across a dozen European markets and the TheFork Manager (TFM) SaaS that restaurants use for reservations, table and floor management, reviews, loyalty (\"Yums\"), preset menus and payments. Its developer surface is published at docs.thefork.io and consists of two REST APIs: the B2B / Partners API (api.thefork.io/manager) used by restaurant groups, CRM platforms and booking-funnel partners to read customers, reservations and reviews and to drive availabilities, offers, timeslots and reservation lifecycle; and the POS API v1 (api.thefork.io/pos) used by point-of-sale vendors to register a POS instance and push closed-bill data back onto a reservation. A push webhook flow delivers customer, reservation and review events to partner endpoints. Credentials are issued by the integrations team; the B2B API uses an Auth0 client-credentials access token and the POS API an X-Api-Key header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/screenshots/lafourchette-2026-09-02T150204.png",
-     "score": 42.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 20.3,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 65.8,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 47.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
      "name": "Coorpacademy",
      "slug": "coorpacademy",
      "description": "Coorpacademy is a Swiss-French corporate digital-learning platform, founded in 2013 and acquired by Australian edtech Go1 in April 2022, now marketed as \"Coorpacademy by Go1\". It sells a B2B SaaS learning experience platform built on inverted-pedagogy, gamified micro-learning: brand-scoped learning portals, a course and certification catalogue, skills taxonomies, learner progression and adaptive review, battles/leaderboards, and HR analytics. The platform is fronted by a public Swagger UI at api.coorpacademy.com that indexes fourteen internal-but-publicly-documented REST services — content, platform/brand management, progression, progression aggregations, SCIM 2.0 user provisioning, SCORM and SCORM-content players, H5P, transactional email, mobile, review mode, media, external upload and PDF rendering. Access to every service is key-gated; there is no self-serve developer signup, no published pricing, and no partner developer portal, so the specifications are the only machine-readable public surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/coorpacademy/refs/heads/main/screenshots/coorpacademy-2026-09-02T145143.png",
-     "score": 42.6,
+     "score": 44.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -1078,8 +988,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1110,6 +1020,96 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 19
+    },
+    {
+     "name": "ScrapingBee",
+     "slug": "scrapingbee",
+     "description": "ScrapingBee is a France-based web scraping API that handles headless browsers, proxy rotation, anti-bot defenses, and CAPTCHA solving so developers can extract data from any website with a single API call. The platform exposes a unified HTML scraping endpoint alongside dedicated APIs for Google Search, Amazon, Walmart, YouTube, and ChatGPT, with JavaScript rendering, AI-powered data extraction, screenshots, and an MCP server for agentic workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png",
+     "score": 42.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 55.1,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 52.4,
+      "commercial_clarity": 53.9,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 23.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "LaFourchette",
+     "slug": "lafourchette",
+     "description": "LA FOURCHETTE SAS, trading as TheFork, is the European restaurant-booking and restaurant-management platform founded in Paris in 2007 and acquired by TripAdvisor in 2014. It runs the consumer marketplace at thefork.com across a dozen European markets and the TheFork Manager (TFM) SaaS that restaurants use for reservations, table and floor management, reviews, loyalty (\"Yums\"), preset menus and payments. Its developer surface is published at docs.thefork.io and consists of two REST APIs: the B2B / Partners API (api.thefork.io/manager) used by restaurant groups, CRM platforms and booking-funnel partners to read customers, reservations and reviews and to drive availabilities, offers, timeslots and reservation lifecycle; and the POS API v1 (api.thefork.io/pos) used by point-of-sale vendors to register a POS instance and push closed-bill data back onto a reservation. A push webhook flow delivers customer, reservation and review events to partner endpoints. Credentials are issued by the integrations team; the B2B API uses an Auth0 client-credentials access token and the POS API an X-Api-Key header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lafourchette/refs/heads/main/screenshots/lafourchette-2026-09-02T150204.png",
+     "score": 42.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 20.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 65.8,
+      "access_clarity": 65.8
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 47.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 21
     },
     {
@@ -1129,8 +1129,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1161,7 +1161,7 @@
      "slug": "probabl",
      "description": "Probabl (styled \":probabl.\") is the French, Inria-spun-out company behind scikit-learn — \"the Tabular AI company by the creators of scikit-learn\" — founded in 2023 to develop, maintain and commercially sustain the open-source Python data-science stack (scikit-learn, skrub, skore). Its commercial product is Skore: an open-source Python library (`skore`) that turns model training into structured, auditable artifacts — estimator reports, cross-validation reports, comparison reports, data and metric diagnostics — plus Skore Hub, a hosted collaboration platform where teams push, compare and track those artifacts across workspaces and projects. Skore Hub exposes a public REST API (Skore Hub, OpenAPI 3.1.0, 67 operations) covering identity/OAuth, workspaces, members and API keys, projects, estimator/cross-validation/comparison reports, artifacts, project goals, and OpenAI/Anthropic-compatible agent endpoints. Probabl also publishes a first-party Agent Skills package (probabl-skills, BSD-3-Clause) of 14 data-science skills for coding agents such as Claude Code and Cursor, a `skore` CLI, training via Skolar, and the Scikit-learn Central ecosystem explorer.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/probabl/refs/heads/main/screenshots/probabl-2026-09-02T152057.png",
-     "score": 40.4,
+     "score": 39.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -1174,8 +1174,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1216,7 +1216,7 @@
      "slug": "la-poste",
      "description": "La Poste is the French national postal service, offering a developer platform called Okapi that exposes REST APIs for parcel tracking, address validation, geolocation, registered letter ordering, certified document exchange (Digiposte), and open data access (dataNOVA). APIs require an X-Okapi-Key obtained by registering a free developer account.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/screenshots/la-poste-2026-06-20T184234.png",
-     "score": 38.1,
+     "score": 37.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1229,8 +1229,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1264,58 +1264,6 @@
      "rank": 24
     },
     {
-     "name": "SantéVet",
-     "slug": "santevet",
-     "description": "SantéVet is a French pet-insurance company, founded in 2003 and headquartered in Lyon, that insures dogs, cats and small pets (NAC) across five European markets — France, Belgium, Spain, Italy and Germany. Alongside its direct-to-consumer business it runs a B2B distribution network: brokers, retailers, affinity partners and veterinary practices embed SantéVet quoting, subscription and claims into their own channels over HTTP APIs. Three of those partner APIs serve documentation anonymously — a reference-data Toolkit API (58 operations, API Platform, Hydra/JSON-LD), a Reimbursement API behind the PayVet third-party-payment product (6 operations, OpenAPI 3.0.3), and an Acquisition API carrying the quote-to-subscribe funnel and the rating engine (14 operations, HTML reference only). SantéVet publishes no developer portal, no SDK, no pricing and no self-serve signup; credentials are issued through a sales process.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/screenshots/santevet-2026-09-02T154405.png",
-     "score": 38.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 77.8,
-      "contract_quality": 54.4,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 32.7,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 45.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 27.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 25
-    },
-    {
      "name": "Santé Académie",
      "slug": "santeacademie",
      "description": "Santé Académie is a French continuing-professional-development (DPC) training provider for healthcare professionals — physicians, nurses, pharmacists, pharmacy technicians, nursing assistants and health-facility training managers — delivering e-learning, virtual classrooms and in-person courses funded through ANDPC, FIF-PL, FAF-PM, ANFH and OPCO schemes. The company is Qualiopi-certified, registered with France Compétences and approved by the Agence Nationale du DPC, and says more than 35,000 healthcare professionals have trained on its platform. Its public technical surface is a pair of unauthenticated read-only catalog APIs served from frontstage.santeacademie.com — the API Platform \"Frontstage API\" and a swagger-php \"Connector API\" — which expose the training catalog (topics, resources, courses, trainers, funding schemes, professions/métiers, FAQs, testimonials, pharmacy and health-facility lookup) that powers its own websites and learner app.",
@@ -1333,8 +1281,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1365,6 +1313,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 25
+    },
+    {
+     "name": "SantéVet",
+     "slug": "santevet",
+     "description": "SantéVet is a French pet-insurance company, founded in 2003 and headquartered in Lyon, that insures dogs, cats and small pets (NAC) across five European markets — France, Belgium, Spain, Italy and Germany. Alongside its direct-to-consumer business it runs a B2B distribution network: brokers, retailers, affinity partners and veterinary practices embed SantéVet quoting, subscription and claims into their own channels over HTTP APIs. Three of those partner APIs serve documentation anonymously — a reference-data Toolkit API (58 operations, API Platform, Hydra/JSON-LD), a Reimbursement API behind the PayVet third-party-payment product (6 operations, OpenAPI 3.0.3), and an Acquisition API carrying the quote-to-subscribe funnel and the rating engine (14 operations, HTML reference only). SantéVet publishes no developer portal, no SDK, no pricing and no self-serve signup; credentials are issued through a sales process.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/screenshots/santevet-2026-09-02T154405.png",
+     "score": 37.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 77.8,
+      "contract_quality": 54.4,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 32.7,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 45.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 27.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 26
     },
     {
@@ -1385,8 +1385,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1437,8 +1437,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1489,8 +1489,8 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1541,8 +1541,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 32.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1586,8 +1586,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1638,8 +1638,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1677,7 +1677,7 @@
      "slug": "revyze",
      "description": "Revyze is a French EdTech mobile learning application that helps secondary and baccalaureate-level students revise by scrolling short-form educational videos and playing quizzes created by a community of young content creators. The app covers all school subjects and is oriented around exam preparation for the French brevet and baccalaureate, reporting more than two million users, a 4.8/5 app-store rating, and 15,000+ videos, all offered free of charge. Revyze is a portfolio company of Speedinvest. This profile also captures the app's publicly reachable backend at api.revyze.fr — a FastAPI service that fronts a GraphQL API, an AI study-coach streaming endpoint, and subscription/content-moderation webhooks — discovered and harvested by the API Evangelist enrichment pipeline. It is the application's own backend rather than a documented public developer program.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/revyze/refs/heads/main/screenshots/revyze-2026-09-02T153738.png",
-     "score": 29.6,
+     "score": 28.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1690,8 +1690,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1742,8 +1742,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1794,8 +1794,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1833,7 +1833,7 @@
      "slug": "devialet",
      "description": "Devialet is a French high-end audio company founded and headquartered in Paris, known for the Phantom active loudspeaker range, the Dione soundbar, the Mania portable speaker, the Gemini earbuds, and the Expert Pro amplifier line, and for patented acoustic technologies including ADH (Analog Digital Hybrid), SAM (Speaker Active Matching), and the EVO embedded platform. Its developer-facing surface is the Devialet IP Control API — an unauthenticated HTTP API served by the speakers themselves on the local network under the /ipcontrol/v1 path, introduced with DOS 2.14 firmware and documented by Devialet as a PDF reference for system integrators. It exposes device, system, and group state plus playback, volume, equalizer, night mode, Bluetooth pairing, and power and factory-reset commands, with mDNS/DNS-SD discovery. Devialet also ships certified home-automation drivers for Crestron and Control4 alongside the raw API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/devialet/refs/heads/main/screenshots/devialet-2026-08-07T164327.png",
-     "score": 27.2,
+     "score": 26.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1846,8 +1846,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1901,8 +1901,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1964,8 +1964,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2023,8 +2023,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2065,50 +2065,6 @@
      "rank": 39
     },
     {
-     "name": "La Ruche qui dit Oui!",
-     "slug": "la-ruche-qui-dit-oui",
-     "description": "La Ruche qui dit Oui! is a French direct-from-farmer food marketplace, founded in Paris in 2010 and known in English-speaking markets as The Food Assembly. It connects members with local and European producers through neighbourhood assemblies (\"ruches\" / hives) and, since a May 2025 merger with CrowdFarming, through direct home delivery of seasonal boxes, subscriptions and harvest \"adoptions\" in which a member reserves the output of a specific tree, hive or plot for a season. The company operated a public member-facing REST API documented as the Food Assembly API — OAuth 2 token issuance, assembly membership, distribution product and offer listings, and the basket/order payment flow — published as an API Blueprint in the lrqdo/developer repository. That developer documentation has not been updated since 2017, and there is no current developer portal, but the API host remains live behind bearer authentication.",
-     "score": 24.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 13.6,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 27.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    },
-    {
      "name": "Lucky Cart",
      "slug": "lucky-cart",
      "description": "Lucky Cart is a French MarTech company specializing in retail media and smart commerce for grocery and consumer-goods retailers. It combines first-party transactional data with e-retail media, machine learning, and AI to power personalized shopper engagement, gamified promotions, and the monetization of retailer audiences at scale. Lucky Cart works with major French grocery retailers and CPG brands to activate transactional data into targeted advertising, loyalty, and measurable campaigns. Its integration surface is a set of HTTP APIs consumed through three first-party SDKs published on GitHub — a shopper-event ingest, a promotional banner displayer, a cart-to-ticket endpoint that mints the post-purchase game, and a hosted game experience. Lucky Cart publishes no OpenAPI, no developer portal and no self-service signup: API keys are issued manually by its integration team to contracted retailers, and its Help Centre is access-restricted.",
@@ -2126,8 +2082,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2142,6 +2098,50 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 40
+    },
+    {
+     "name": "La Ruche qui dit Oui!",
+     "slug": "la-ruche-qui-dit-oui",
+     "description": "La Ruche qui dit Oui! is a French direct-from-farmer food marketplace, founded in Paris in 2010 and known in English-speaking markets as The Food Assembly. It connects members with local and European producers through neighbourhood assemblies (\"ruches\" / hives) and, since a May 2025 merger with CrowdFarming, through direct home delivery of seasonal boxes, subscriptions and harvest \"adoptions\" in which a member reserves the output of a specific tree, hive or plot for a season. The company operated a public member-facing REST API documented as the Food Assembly API — OAuth 2 token issuance, assembly membership, distribution product and offer listings, and the basket/order payment flow — published as an API Blueprint in the lrqdo/developer repository. That developer documentation has not been updated since 2017, and there is no current developer portal, but the API host remains live behind bearer authentication.",
+     "score": 24.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 13.6,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 27.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -2171,8 +2171,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2223,8 +2223,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2282,8 +2282,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2327,8 +2327,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2372,8 +2372,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2424,8 +2424,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2463,7 +2463,7 @@
      "slug": "habiteo",
      "description": "Habiteo is a French PropTech company founded in 2014 in Paris that builds full-web 3D sales and marketing technology for new-build real estate. Its products let developers, house builders, commercial-property operators and their agencies model a programme in 3D before it is built: 3D floor plans and perspectives, virtual tours, drone-based site insertions and neighbourhood views (Modelisation and myHabiteo Studio), an interior configurator that lets a buyer choose materials and options in place of a physical showroom (Configurateur), a mobile on-site sales unit (Habiteo Truck), and the MegaWidget, a hosted mini-site that gathers every 3D asset for a programme behind a single link. myHabiteo is the operator platform that binds the 3D layer to commercialisation with a CRM, a reservation module, programme management and sales and marketing dashboards. More than 350 developers, including Nexity, Kaufman & Broad and Immobiliere 3F, have used the technology. Habiteo was acquired by the French listings portal Bien'ici in May 2022 and continues to operate under its own brand. Habiteo publishes no public developer programme, no API documentation and no machine-readable API contract for any of these products; the only anonymously readable machine surface on its domain is the WordPress REST API behind its marketing site.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png",
-     "score": 21.6,
+     "score": 20.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -2476,8 +2476,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2521,8 +2521,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2573,8 +2573,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2618,8 +2618,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2663,8 +2663,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2708,8 +2708,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2760,8 +2760,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2805,8 +2805,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2864,8 +2864,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2909,8 +2909,8 @@
       "commercial_clarity": 59.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2961,8 +2961,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3006,8 +3006,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3051,8 +3051,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3103,8 +3103,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3155,8 +3155,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3199,8 +3199,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3244,8 +3244,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3289,8 +3289,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3341,8 +3341,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3386,8 +3386,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3445,8 +3445,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3490,8 +3490,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3535,8 +3535,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3587,8 +3587,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3646,8 +3646,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3691,8 +3691,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3750,8 +3750,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3802,8 +3802,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3846,8 +3846,8 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3898,8 +3898,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3950,8 +3950,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4002,8 +4002,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4054,8 +4054,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4099,8 +4099,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4144,8 +4144,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4189,8 +4189,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4234,8 +4234,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4279,8 +4279,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4324,8 +4324,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4369,8 +4369,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4421,8 +4421,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4473,8 +4473,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4518,8 +4518,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4570,8 +4570,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4632,8 +4632,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4677,8 +4677,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4729,8 +4729,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4781,8 +4781,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4826,8 +4826,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4871,8 +4871,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4916,8 +4916,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4961,8 +4961,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5006,8 +5006,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5058,8 +5058,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5109,8 +5109,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5160,8 +5160,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5212,8 +5212,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5264,8 +5264,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5316,8 +5316,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5367,8 +5367,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5419,8 +5419,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5464,8 +5464,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5509,8 +5509,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5561,8 +5561,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5613,8 +5613,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5658,8 +5658,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5702,8 +5702,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5754,8 +5754,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5799,8 +5799,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5850,8 +5850,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5895,8 +5895,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5947,8 +5947,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5992,8 +5992,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6044,8 +6044,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6089,8 +6089,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6141,8 +6141,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6186,8 +6186,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6231,8 +6231,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6276,8 +6276,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6328,8 +6328,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6372,8 +6372,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6417,8 +6417,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6462,8 +6462,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6514,8 +6514,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6559,8 +6559,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6604,8 +6604,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6648,8 +6648,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6693,8 +6693,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6737,8 +6737,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6782,8 +6782,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6872,8 +6872,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6917,8 +6917,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6961,8 +6961,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7049,8 +7049,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7094,8 +7094,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -7146,8 +7146,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -7197,8 +7197,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7241,8 +7241,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7285,8 +7285,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7329,8 +7329,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7374,8 +7374,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -7425,8 +7425,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",

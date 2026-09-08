@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -88,6 +88,10 @@ collections:
   name: Hotel Ratings category-rated-areas Search API
   slug: open-amadeus-traveler-media-search-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amadeus.com/
 - group: other
   title: ''
   type: Overlay
@@ -602,7 +606,7 @@ overview: 'Amadeus Traveler Media publishes 5 APIs on the [APIs.io](https://apis
   The Amadeus Traveler Media catalog on APIs.io includes 21 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amadeus Traveler Media''s developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 23 more developer resources.'
+  Amadeus Traveler Media''s developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 24 more developer resources.'
 random_paper: 2
 rules:
 - effective_rule_count: 5
@@ -656,9 +660,13 @@ score:
       marker_coverage: 0.0
       total: 5
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-traveler-media/refs/heads/main/screenshots/amadeus-traveler-media-2026-07-25T195907.png
 security:
 - kind: domain-security
@@ -689,5 +697,5 @@ use_cases:
   name: Neighborhood Explorer
 - description: Enable AI travel assistants to recommend attractions, rate hotels, and suggest destinations based on traveler interests.
   name: AI Travel Concierge
-website: https://developers.amadeus.com/
+website: https://www.amadeus.com/
 ---

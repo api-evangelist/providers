@@ -10,10 +10,10 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
     auth_clarity: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-06'
+  score: 6.1
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Crawlee JavaScript SDK is a Node.js/TypeScript library for building reliable web scrapers and crawlers. It provides a family of crawler classes - BasicCrawler, HttpCrawler, CheerioCrawler, JSDOMCr
@@ -91,7 +91,7 @@ common:
 - group: operate
   title: ''
   type: Community
-  url: https://crawlee.dev/discord
+  url: https://discord.gg/jyEM2PRvMU
 - group: commercial
   title: ''
   type: License
@@ -100,55 +100,107 @@ common:
   title: ''
   type: Apify
   url: https://apify.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://crawlee.dev/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/crawlee-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/crawlee-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/crawlee-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/crawlee-cli.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/crawlee-changelog.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/crawlee-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/crawlee-lifecycle.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/crawlee-conventions.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/crawlee-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
 created: '2025-02-08'
 description: Crawlee is an open-source web scraping and crawling library maintained by Apify, providing a unified set of crawler classes, request queues, datasets, and key-value stores for building reliable scrapers. It is available for both JavaScript/TypeScript (Node.js) and Python, offering HTTP, Cheerio, JSDOM, LinkeDOM, Puppeteer, Playwright, and Stagehand crawler implementations along with proxy and session management utilities for production-grade scraping.
 finops:
 - name: Crawlee Finops
-  service_category: API
+  service_category: Open Source Library
   slug: crawlee-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crawlee.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-07'
 name: Crawlee
 nav: Providers
 network: true
 overview: 'Crawlee publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache 2.0, Apify, Browser Automation, Crawlers, and Harvesting.
 
 
-  Crawlee''s developer surface includes documentation, engineering blog, changelog, and 11 more developer resources.'
+  Crawlee''s developer surface includes documentation, engineering blog, changelog, CLI, and 21 more developer resources.'
 plans:
 - name: Crawlee Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: crawlee-plans-pricing
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Crawlee Rate Limits
   slug: crawlee-rate-limits
 score:
-  band: emerging
-  composite: 19.2
+  band: thin
+  composite: 26.7
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
+    artifact_dirs: 16
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.5
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
+    access_clarity: 7.9
+    commercial_clarity: 7.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 59.3
-    governance: 0.0
+    developer_ergonomics: 64.3
+    discoverability: 66.7
+    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 19.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/crawlee/refs/heads/main/screenshots/crawlee-2026-06-20T175215.png
 security:
 - kind: domain-security

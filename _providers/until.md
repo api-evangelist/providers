@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/until-domain-security.yml
+- group: company
+  title: ''
+  type: About
+  url: https://www.untillabs.com/science-technology
 - group: company
   title: ''
   type: Website
@@ -83,19 +91,19 @@ network: true
 overview: 'Until is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Health, Cryopreservation, and Cryobiology.
 
 
-  Until''s developer surface includes engineering blog, support, FAQ, and 6 more developer resources.'
+  Until''s developer surface includes engineering blog, support, FAQ, and 8 more developer resources.'
 random_paper: 10
 score:
   band: minimal
-  composite: 4.6
+  composite: 5.8
   coverage:
-    artifact_dirs: 1
+    artifact_dirs: 2
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
@@ -105,22 +113,25 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 7.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
   previous_composite: 4.6
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 0.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+    score: 7.5
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Until Domain Security
+  slug: until-domain-security
+  summary_line: TLSv1.3 · HSTS
 slug: until
 tags:
 - Company

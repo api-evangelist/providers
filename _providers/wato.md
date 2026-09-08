@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Wato exposes each team's reviewed memory and approved connector tools through a single remote MCP (Model Context Protocol) gateway over Streamable HTTP with OAuth. Any MCP-capable client (Claude Code,
@@ -42,6 +42,10 @@ apis:
   slug: wato-mcp-gateway
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.watolabs.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -141,7 +145,7 @@ network: true
 overview: 'Wato publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Agent Governance, and Team Memory.
 
 
-  Wato''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, pricing, and 14 more developer resources.'
+  Wato''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, pricing, and 15 more developer resources.'
 plans:
 - name: Wato Plans
   plan_count: 3
@@ -182,9 +186,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wato/refs/heads/main/screenshots/wato-2026-09-02T170454.png
 security:
 - kind: authentication
@@ -207,5 +215,5 @@ tags:
 - Automation
 - Developer Tools
 - Y Combinator
-website: https://docs.watolabs.com/
+website: https://www.watolabs.com/
 ---

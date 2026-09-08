@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -169,9 +169,13 @@ score:
     governance: 11.4
     operational_transparency: 26.3
   previous_composite: 34.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/screenshots/bitquery-2026-06-20T173319.png
 security:
 - kind: domain-security

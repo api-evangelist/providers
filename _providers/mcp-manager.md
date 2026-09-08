@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Control-plane surface that lets an agent or script manage MCP Manager configuration — servers, gateways, identities, hosts, teams, roles, logs, and integrations — with the same actions as the app, sco
@@ -194,9 +194,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-manager/refs/heads/main/screenshots/mcp-manager-2026-08-07T172245.png
 security:
 - kind: authentication

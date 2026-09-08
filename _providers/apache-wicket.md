@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Wicket Component API provides the core Java classes for building web UIs. Pages extend WebPage, components extend Panel, Form, Link, Button, and other base classes. The model system uses IModel<T>
@@ -41,6 +41,10 @@ apis:
   slug: apache-wicket-component-api
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -134,7 +138,7 @@ network: true
 overview: 'Apache Wicket publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open-Source.
 
 
-  Apache Wicket''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 8 more developer resources.'
+  Apache Wicket''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Apache Wicket Plans Pricing
   plan_count: 3
@@ -168,9 +172,13 @@ score:
     applies: true
     score: 50.0
   previous_composite: 27.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-wicket/refs/heads/main/screenshots/apache-wicket-2026-06-20T172157.png
 security:
 - kind: domain-security
@@ -196,5 +204,5 @@ use_cases:
   name: Form-Intensive Applications
 - description: CMS backends with hierarchical content management and editorial workflows.
   name: Content Management Systems
-website: https://wicket.apache.org/
+website: https://www.apache.org/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Distroless images by Google contain only the application and its runtime dependencies, stripping out package managers, shells, and other OS-level utilities to minimize attack surface and image size.
@@ -115,9 +115,13 @@ score:
     applies: true
     score: 60.0
   previous_composite: 20.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/distroless/refs/heads/main/screenshots/distroless-2026-06-20T180057.png
 slug: distroless
 tags:

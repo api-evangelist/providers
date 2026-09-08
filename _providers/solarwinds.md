@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -350,6 +350,10 @@ collections:
   name: SolarWinds Loggly Account Users API
   slug: open-solarwinds-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.solarwinds.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1139,7 +1143,7 @@ overview: 'SolarWinds publishes 24 APIs on the [APIs.io](https://apis.io/) netwo
   The SolarWinds catalog on APIs.io includes 6 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  SolarWinds'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, and 17 more developer resources.'
+  SolarWinds'' developer surface includes authentication, developer portal, documentation, support, engineering blog, CLI, and 18 more developer resources.'
 plans:
 - name: Solarwinds Plans Pricing
   plan_count: 1
@@ -1173,7 +1177,7 @@ rules:
   slug: solarwinds-spectral-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 52.2
   coverage:
     artifact_dirs: 17
     catalog_earned: 48.5
@@ -1181,7 +1185,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -1199,9 +1203,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 24
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/screenshots/solarwinds-2026-06-20T194153.png
 security:
 - kind: authentication
@@ -1230,5 +1237,5 @@ use_cases:
 - Centralized Log Management and Search
 - Website and API Uptime Monitoring
 - Database Query Performance Tuning
-website: https://www.solarwinds.com
+website: https://www.solarwinds.com/
 ---

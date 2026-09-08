@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Customer-facing REST API for the Medigate (now Claroty xDome for Healthcare) device-security platform. Documents two versions — V1 (HTTP basic auth) and V2 (API token) — used to pull the Device List, '
@@ -127,9 +127,13 @@ score:
     regime: Health
     regime_id: health
     score: 33.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/medigate/refs/heads/main/screenshots/medigate-2026-08-07T172351.png
 security:
 - kind: authentication

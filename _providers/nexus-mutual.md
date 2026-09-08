@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ collections:
   name: Cover Router Capacity Quote API
   slug: open-nexus-mutual-quote-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nexusmutual.io/
 - group: operate
   title: ''
   type: IssueTracker
@@ -206,7 +210,7 @@ overview: 'Nexus Mutual publishes 3 APIs on the [APIs.io](https://apis.io/) netw
   The Nexus Mutual catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Nexus Mutual''s developer surface includes documentation, engineering blog, and 18 more developer resources.'
+  Nexus Mutual''s developer surface includes documentation, engineering blog, and 19 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -264,9 +268,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/nexus-mutual/refs/heads/main/screenshots/nexus-mutual-2026-06-20T190302.png
 security:
 - kind: domain-security
@@ -283,5 +291,5 @@ tags:
 - Protocol Protection
 - Staking
 - Claims
-website: https://nexusmutual.io
+website: https://www.nexusmutual.io/
 ---

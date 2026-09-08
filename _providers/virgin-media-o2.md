@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The anonymous read surface of the Virgin Media O2 press newsroom, served by WordPress at news.virginmediao2.co.uk/wp-json/. It is the only callable, self-describing API Virgin Media O2 serves on a hos
@@ -184,9 +184,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/virgin-media-o2/refs/heads/main/screenshots/virgin-media-o2-2026-09-02T170000.png
 security:
 - kind: domain-security

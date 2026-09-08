@@ -16,7 +16,7 @@
      "slug": "twilio",
      "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
-     "score": 71.4,
+     "score": 72.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -79,7 +79,7 @@
      "slug": "verizon",
      "description": "Verizon is a leading telecommunications company providing wireless, wireline, broadband, and global enterprise services. Verizon offers developer APIs for IoT device management via ThingSpace, 5G edge computing, TM Forum service management, dynamic network bandwidth, and communications platform APIs for contact center and SMS solutions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/screenshots/verizon-2026-06-20T200943.png",
-     "score": 63.9,
+     "score": 63.2,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -92,8 +92,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -130,7 +130,7 @@
      "name": "AT&T",
      "slug": "att",
      "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
-     "score": 54.4,
+     "score": 56.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -143,8 +143,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -193,7 +193,7 @@
      "slug": "zoom",
      "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
-     "score": 54.1,
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -206,8 +206,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -261,8 +261,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 15.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -315,8 +315,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -377,8 +377,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

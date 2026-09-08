@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: Griffith's SAML 2.0 Shibboleth Identity Provider, entityID https://idp1.griffith.edu.au/idp/shibboleth, registered in the Australian Access Federation on 2023-03-06 and exported to eduGAIN as entity 6
@@ -217,9 +217,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/griffith/refs/heads/main/screenshots/griffith-2026-06-20T182409.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -181,9 +181,13 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The Wit.ai HTTP API extracts structured meaning (intents, entities, traits) from text and audio, transcribes speech (speech / dictation), synthesizes speech (text-to-speech), and manages an app''s NLP '
@@ -42,6 +42,10 @@ apis:
   slug: witai-http-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wit.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -117,7 +121,7 @@ network: true
 overview: 'Wit.AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Natural Language Processing, NLP, Speech Recognition, and Speech-to-Text.
 
 
-  Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
+  Wit.AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 12 more developer resources.'
 random_paper: 17
 score:
   band: emerging
@@ -142,9 +146,13 @@ score:
   previous_composite: 23.6
   provenance:
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/witai/refs/heads/main/screenshots/witai-2026-09-02T170841.png
 security:
 - kind: authentication
@@ -169,5 +177,5 @@ tags:
 - Conversational AI
 - Machine-Learning
 - Meta
-website: https://wit.ai
+website: https://www.wit.ai/
 ---

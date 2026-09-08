@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -113,6 +113,10 @@ collections:
   name: Microsoft Power Platform REST Applications Licensing API
   slug: open-power-platform-licensing-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -490,7 +494,7 @@ overview: 'Microsoft Power Platform APIs publishes 4 APIs on the [APIs.io](https
   The Microsoft Power Platform APIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 17 more developer resources.'
+  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 18 more developer resources.'
 plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
@@ -529,7 +533,7 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 64.4
+  composite: 63.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 50.5
@@ -537,7 +541,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -564,9 +568,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:
 - kind: authentication
@@ -652,5 +659,5 @@ use_cases:
   name: Customer Service Bots
 - description: Connect and synchronize data across SaaS applications, on-premises systems, and cloud databases using connectors and Dataverse.
   name: Data Integration
-website: https://learn.microsoft.com/en-us/power-platform/developer/
+website: https://www.microsoft.com/
 ---

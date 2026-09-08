@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The HipChat REST API v2 was the primary developer surface for the team chat platform, exposing rooms, users, messages, notifications, emoticons, OAuth sessions, add-on capabilities, and webhook manage
@@ -48,6 +48,10 @@ asyncapis:
   name: HipChat Webhooks API
   slug: hipchat-webhooks-asyncapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.atlassian.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -146,7 +150,7 @@ overview: 'HipChat publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The HipChat catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  HipChat''s developer surface includes documentation, engineering blog, pricing, and 8 more developer resources.'
+  HipChat''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
 plans:
 - name: Hipchat Plans Pricing
   plan_count: 4
@@ -216,9 +220,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hipchat/refs/heads/main/screenshots/hipchat-2026-06-20T182747.png
 security:
 - kind: domain-security
@@ -243,5 +251,5 @@ tags:
 - Historical
 - Atlassian
 - Webhook
-website: https://developer.atlassian.com/server/hipchat/
+website: https://www.atlassian.com/
 ---

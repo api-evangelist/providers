@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The REST API behind the tvScientific Campaign Management UI, named by tvScientific's own status page as the "Campaign Management API" component running at api.tvscientific.app. Two major versions serv
@@ -159,9 +159,13 @@ score:
   previous_composite: 22.1
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tvscientific/refs/heads/main/screenshots/tvscientific-2026-09-02T164602.png
 security:
 - kind: authentication

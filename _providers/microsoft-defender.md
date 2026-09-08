@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -96,6 +96,10 @@ collections:
   name: Microsoft Defender for Endpoint Alerts Vulnerabilities API
   slug: open-microsoft-defender-vulnerabilities-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -219,7 +223,7 @@ overview: 'Microsoft Defender publishes 3 APIs on the [APIs.io](https://apis.io/
   The Microsoft Defender catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Defender''s developer surface includes authentication, developer portal, and 15 more developer resources.'
+  Microsoft Defender''s developer surface includes authentication, developer portal, and 16 more developer resources.'
 plans:
 - name: Microsoft Defender Plans Pricing
   plan_count: 17
@@ -247,7 +251,7 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 49.2
+  composite: 48.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 40.3
@@ -255,7 +259,7 @@ score:
     catalog_gap: 74.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -276,9 +280,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-08-17T124157.png
 security:
 - kind: authentication
@@ -294,5 +301,5 @@ security:
   slug: microsoft-defender-vulnerability-disclosure
   summary_line: security.txt · contact published
 slug: microsoft-defender
-website: https://security.microsoft.com
+website: https://www.microsoft.com/
 ---

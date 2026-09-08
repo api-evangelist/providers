@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The only documented Chatfuel API operation as of 2026-08-13. POST https://panel.chatfuel.com/api/contacts/{automation_id}/whatsapp/ imports a batch of up to 1,000 WhatsApp phone numbers into an automa
@@ -194,9 +194,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatfuel/refs/heads/main/screenshots/chatfuel-2026-07-25T205116.png
 security:
 - kind: authentication

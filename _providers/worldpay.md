@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -353,6 +353,10 @@ collections:
   name: 3DS 3DS actions VerifiedTokens API
   slug: open-worldpay-verifiedtokens-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.worldpay.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -456,7 +460,7 @@ network: true
 overview: 'Worldpay publishes 34 APIs on the [APIs.io](https://apis.io/) network, including FraudSight API, 3DS actions API, Accounts API, and 31 more. Tagged areas include Payments, Payment Processing, Payment Gateway, Tokenization, and Fraud Prevention.
 
 
-  Worldpay''s developer surface includes support, getting-started guide, authentication, documentation, signup flow, status page, changelog, and 13 more developer resources.'
+  Worldpay''s developer surface includes support, getting-started guide, authentication, documentation, signup flow, status page, changelog, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -468,7 +472,7 @@ rate_limits:
   slug: rate-limits
 score:
   band: developing
-  composite: 46.5
+  composite: 45.8
   coverage:
     artifact_dirs: 12
     catalog_earned: 51.0
@@ -476,7 +480,7 @@ score:
     catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -500,9 +504,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldpay/refs/heads/main/screenshots/worldpay-2026-08-17T130436.png
 security:
 - kind: authentication
@@ -525,5 +532,5 @@ tags:
 - Foreign Exchange
 - Financial-Services
 - Fintech
-website: https://developer.worldpay.com/
+website: https://www.worldpay.com/
 ---

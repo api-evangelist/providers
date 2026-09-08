@@ -11,6 +11,10 @@ access_model:
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.adobe.com/
 - group: other
   title: ''
   type: Wikipedia
@@ -34,7 +38,7 @@ network: true
 overview: 'MXML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Adobe Flex, Markup Language, MXML, UI Framework, and XML.
 
 
-  MXML''s developer surface includes documentation and 2 more developer resources.'
+  MXML''s developer surface includes documentation and 3 more developer resources.'
 random_paper: 5
 screenshot: https://raw.githubusercontent.com/api-evangelist/mxml/refs/heads/main/screenshots/mxml-2026-06-20T185912.png
 slug: mxml
@@ -44,5 +48,5 @@ tags:
 - MXML
 - UI Framework
 - XML
-website: https://en.wikipedia.org/wiki/MXML
+website: https://www.adobe.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Check's REST API for embedding full-service payroll — companies, employees, contractors, pay schedules, payrolls, payments, tax filings, documents, bank accounts, and webhooks — into a platform produc
@@ -45,6 +45,10 @@ asyncapis:
   name: Check Technologies Webhooks
   slug: check-technologies-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.checkhq.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -179,7 +183,7 @@ overview: 'Check Technologies publishes 1 API on the [APIs.io](https://apis.io/)
   The Check Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Check Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 22 more developer resources.'
+  Check Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 23 more developer resources.'
 random_paper: 12
 score:
   band: developing
@@ -211,9 +215,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/check-technologies/refs/heads/main/screenshots/check-technologies-2026-07-25T205128.png
 security:
 - kind: authentication
@@ -239,5 +247,5 @@ tags:
 - Tax
 - Compliance
 - Developer Tools
-website: https://docs.checkhq.com/
+website: https://www.checkhq.com/
 ---

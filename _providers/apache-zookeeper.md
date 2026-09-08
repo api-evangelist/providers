@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,6 +95,10 @@ collections:
   name: Apache ZooKeeper Admin Server API
   slug: open-zookeeper-admin-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -201,7 +205,7 @@ overview: 'Apache ZooKeeper publishes 5 APIs on the [APIs.io](https://apis.io/) 
   The Apache ZooKeeper catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apache ZooKeeper''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
+  Apache ZooKeeper''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 11 more developer resources.'
 plans:
 - name: Apache Zookeeper Plans Pricing
   plan_count: 3
@@ -251,9 +255,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:
 - kind: domain-security
@@ -282,5 +290,5 @@ use_cases:
   name: Distributed Locking
 - description: Kafka broker coordination, HBase region server management, and Hadoop NameNode fencing.
   name: Cluster Coordination
-website: https://zookeeper.apache.org/
+website: https://www.apache.org/
 ---

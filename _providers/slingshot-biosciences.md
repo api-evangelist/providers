@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The Shopify Storefront GraphQL API for the Slingshot Bio online store, declared by the company in its own /.well-known/api-catalog. Serves products, collections, cart and checkout operations for the c
@@ -180,9 +180,13 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/slingshot-biosciences/refs/heads/main/screenshots/slingshot-biosciences-2026-09-02T155853.png
 security:
 - kind: authentication

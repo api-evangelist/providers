@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,6 +113,10 @@ collections:
   name: Tenor Autocomplete Trending Terms API
   slug: open-tenor-trending-terms-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -205,7 +209,7 @@ overview: 'Tenor publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Tenor catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Tenor''s developer surface includes documentation, getting-started guide, authentication, support, status page, and 5 more developer resources.'
+  Tenor''s developer surface includes documentation, getting-started guide, authentication, support, status page, and 6 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -254,9 +258,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/screenshots/tenor-2026-06-20T195116.png
 security:
 - kind: domain-security
@@ -274,4 +282,5 @@ tags:
 - Search
 - Media
 - Google
+website: https://www.google.com/
 ---

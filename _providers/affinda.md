@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -315,6 +315,10 @@ collections:
   name: Affinda Annotations Add x-hidden to endpoints Workspaces API
   slug: open-affinda-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.affinda.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -664,7 +668,7 @@ overview: 'Affinda publishes 16 APIs on the [APIs.io](https://apis.io/) network,
   The Affinda catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Affinda''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, pricing, signup flow, and 59 more developer resources.'
+  Affinda''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, pricing, signup flow, and 60 more developer resources.'
 plans:
 - name: Affinda Plans Pricing
   plan_count: 3
@@ -698,7 +702,7 @@ rules:
   slug: affinda-rules
 score:
   band: strong
-  composite: 63.8
+  composite: 63.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 76.5
@@ -706,7 +710,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 72.4
     commercial_clarity: 72.4
@@ -730,9 +734,12 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 33.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:
 - kind: authentication
@@ -766,5 +773,5 @@ tags:
 - Logistics
 - Healthcare
 - Government
-website: https://www.affinda.com
+website: https://www.affinda.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The RegScale REST API is the primary programmable surface of the RegScale platform. It is served from each customer's own RegScale tenant under the /api path, authenticated with a JSON Web Token obtai
@@ -234,9 +234,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 66.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/regscale/refs/heads/main/screenshots/regscale-2026-09-02T153250.png
 security:
 - kind: authentication

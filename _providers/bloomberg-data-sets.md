@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Bloomberg Open API (BLPAPI) provides programmatic access to Bloomberg's market data, reference data, historical data and intraday tick data. It is an event-driven session protocol rather than an H
@@ -225,9 +225,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-data-sets/refs/heads/main/screenshots/bloomberg-data-sets-2026-06-20T173438.png
 security:
 - kind: authentication

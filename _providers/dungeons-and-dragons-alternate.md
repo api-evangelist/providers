@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Includes all monsters and spells from the SRD (System Reference Document) as well as a search API
@@ -83,9 +83,13 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dungeons-and-dragons-alternate/refs/heads/main/screenshots/dungeons-and-dragons-alternate-2026-06-20T180322.png
 security:
 - kind: domain-security

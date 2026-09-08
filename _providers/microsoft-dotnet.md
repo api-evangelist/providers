@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Comprehensive reference documentation for all .NET APIs including the .NET Runtime, base class libraries, ASP.NET Core, Entity Framework, and Azure SDK libraries. Browse types, members, namespaces, an
@@ -44,6 +44,10 @@ apis:
   slug: aspnet-core-web-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -103,7 +107,7 @@ network: true
 overview: 'Microsoft .NET publishes 1 API on the [APIs.io](https://apis.io/) network: ASP.NET Core Web API. Tagged areas include .NET, ASP.NET Core, Azure SDK, Cross-Platform, and Framework.
 
 
-  Microsoft .NET''s developer surface includes developer portal, getting-started guide, documentation, engineering blog, support, and 6 more developer resources.'
+  Microsoft .NET''s developer surface includes developer portal, getting-started guide, documentation, engineering blog, support, and 7 more developer resources.'
 plans:
 - name: Microsoft Dotnet Plans Pricing
   plan_count: 3
@@ -134,9 +138,13 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dotnet/refs/heads/main/screenshots/microsoft-dotnet-2026-06-20T185454.png
 security:
 - kind: domain-security
@@ -156,5 +164,5 @@ tags:
 - Framework
 - Runtime
 - Web API
-website: https://dotnet.microsoft.com/
+website: https://www.microsoft.com/
 ---

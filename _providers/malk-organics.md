@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: MALK Organics's agent-facing commerce API, implemented via the Shopify Universal Commerce Protocol (UCP) over MCP and served from MALK's own host. Agents can search and look up the MALK product catalo
@@ -183,9 +183,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: unknown
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/malk-organics/refs/heads/main/screenshots/malk-organics-2026-09-02T150422.png
 security:
 - kind: authentication

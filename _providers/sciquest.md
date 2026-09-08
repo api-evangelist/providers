@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'REST/JSON API surface for the JAGGAER (formerly SciQuest) Advanced Sourcing Optimizer, secured with OAuth 2.0 client-credentials. Grouped into the Customer Host Entity Service (query ASO events for a '
@@ -124,9 +124,13 @@ score:
   previous_composite: 33.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sciquest/refs/heads/main/screenshots/sciquest-2026-09-02T154539.png
 security:
 - kind: authentication

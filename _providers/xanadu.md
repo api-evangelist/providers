@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: PennyLane is the cross-platform Python framework for quantum computing, quantum machine learning, and quantum chemistry maintained by Xanadu. It provides automatic differentiation of hybrid quantum-cl
@@ -67,6 +67,10 @@ apis:
   slug: xanadu-cloud-client
 artifact_total: 37
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pennylane.ai/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -202,7 +206,7 @@ overview: 'Xanadu publishes 10 APIs on the [APIs.io](https://apis.io/) network. 
   The Xanadu catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Xanadu''s developer surface includes developer portal, documentation, engineering blog, YouTube channel, training material, code examples, release notes, and 12 more developer resources.'
+  Xanadu''s developer surface includes developer portal, documentation, engineering blog, YouTube channel, training material, code examples, release notes, and 13 more developer resources.'
 random_paper: 11
 rules:
 - effective_rule_count: 5
@@ -241,9 +245,13 @@ score:
     regions:
     - north-america
   previous_composite: 24.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/xanadu/refs/heads/main/screenshots/xanadu-2026-06-20T201650.png
 security:
 - kind: domain-security
@@ -274,5 +282,5 @@ use_cases:
   name: HPC-Scale Quantum Simulation
 - description: Teach undergraduates and researchers quantum computing through the Xanadu Quantum Codebook, QHack, and the pennylane.ai demo library.
   name: Quantum Education
-website: https://xanadu.ai
+website: https://www.pennylane.ai/
 ---

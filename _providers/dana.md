@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
   description: Track shipments and delivery status.
   name: Dana Shipping API
   slug: dana-shipping-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: API Collection
@@ -94,6 +94,70 @@ collections:
   name: Dana Aftermarket Availability Shipping API
   slug: open-dana-shipping-api
 common:
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dana-well-known.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/dana-scopes.yml
+- group: other
+  title: ''
+  type: OpenIDConnect
+  url: https://www.dana.com/.well-known/openid-configuration
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dana-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/dana-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dana-lifecycle.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dana-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dana-llms.txt
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.dana.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.dana.com/privacy-notice/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.dana.com/contact/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.danaaftermarket.com/MyAccount/CreateAccount
+- group: start
+  title: ''
+  type: Login
+  url: https://www.danaaftermarket.com/SignIn
+- group: company
+  title: ''
+  type: Investor Relations
+  url: https://www.dana.com/investors/
+- group: company
+  title: ''
+  type: Newsroom
+  url: https://www.dana.com/newsroom/
+- group: other
+  title: ''
+  type: Alias
+  url: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/apis.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -156,7 +220,7 @@ overview: 'Dana publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
   The Dana catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Dana''s developer surface includes authentication, developer portal, and 6 more developer resources.'
+  Dana''s developer surface includes support, signup flow, authentication, developer portal, and 20 more developer resources.'
 plans:
 - name: Dana Plans Pricing
   plan_count: 1
@@ -204,37 +268,46 @@ rules:
     info: 2
     warn: 3
   slug: dana-jsonschema-spectral-rules
+scopes:
+- name: Dana Scopes
+  scope_count: 0
+  slug: dana-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 38.4
+  band: developing
+  composite: 47.4
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 22
     catalog_earned: 85.0
     catalog_earned_first_party: 0.0
     catalog_gap: 30.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.0
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 69.7
+    access_clarity: 44.7
+    commercial_clarity: 44.7
+    contract_governance: 87.9
     contract_quality: 58.5
-    developer_ergonomics: 26.2
-    discoverability: 68.5
-    governance: 69.7
+    developer_ergonomics: 28.6
+    discoverability: 75.9
+    governance: 87.9
     operational_transparency: 5.3
   previous_composite: 38.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana/refs/heads/main/screenshots/dana-2026-06-20T175459.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: The one machine-readable contract École des Ponts ParisTech operates on its own infrastructure. A live SAML 2.0 EntityDescriptor served as application/xml from idp.enpc.fr, declaring SingleSignOnServi
@@ -256,9 +256,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png
 security:
 - kind: authentication

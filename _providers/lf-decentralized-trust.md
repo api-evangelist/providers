@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic access to LF Decentralized Trust blockchain frameworks, ledger APIs, and identity tools.
@@ -41,6 +41,10 @@ apis:
   slug: lf-decentralized-trust-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lfdecentralizedtrust.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -80,7 +84,7 @@ network: true
 overview: 'LF Decentralized Trust publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Blockchain, Decentralized Identity, Distributed Ledger, and Linux Foundation.
 
 
-  LF Decentralized Trust''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  LF Decentralized Trust''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 plans:
 - name: Lf Decentralized Trust Plans Pricing
   plan_count: 3
@@ -111,9 +115,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 12.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lf-decentralized-trust/refs/heads/main/screenshots/lf-decentralized-trust-2026-06-20T184450.png
 security:
 - kind: domain-security
@@ -126,4 +134,5 @@ tags:
 - Decentralized Identity
 - Distributed Ledger
 - Linux Foundation
+website: https://www.lfdecentralizedtrust.org/
 ---

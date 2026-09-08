@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: RESTful create, list, get, update, and delete access to Fluxx model records such as GrantRequest, Organization, and RequestTransaction under /api/rest/v2/{model}. Supports column selection (cols), rec
@@ -111,9 +111,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 11.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluxx-grants/refs/heads/main/screenshots/fluxx-grants-2026-07-25T214848.png
 security:
 - kind: domain-security

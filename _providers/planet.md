@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: Programmatically search Planet's imagery catalog by geometry, date range, cloud cover and other filters, then discover the items and downloadable assets that match. Supports item search, asset activat
@@ -56,6 +56,10 @@ apis:
   slug: planet-features-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.planet.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -203,7 +207,7 @@ network: true
 overview: 'Planet publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Satellite Imagery, Earth Observation, Geospatial, Remote Sensing, and Mapping.
 
 
-  Planet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 26 more developer resources.'
+  Planet''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, pricing, and 27 more developer resources.'
 random_paper: 14
 scopes:
 - name: Planet Scopes
@@ -234,9 +238,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/planet/refs/heads/main/screenshots/planet-2026-09-02T151406.png
 security:
 - kind: authentication
@@ -270,5 +278,5 @@ tags:
 - STAC
 - WMTS
 - Company
-website: https://docs.planet.com
+website: https://www.planet.com/
 ---

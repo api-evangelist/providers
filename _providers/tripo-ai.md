@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 9
 apis:
 - description: 'Unified task API for all Tripo generative 3D operations. A single POST creates an asynchronous task keyed by task_type (text_to_model, image_to_model, multiview_to_model, texture_model, refine_model, '
@@ -162,9 +162,13 @@ score:
     applies: true
     score: 25.0
   previous_composite: 24.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo-ai/refs/heads/main/screenshots/tripo-ai-2026-06-20T195733.png
 security:
 - kind: domain-security

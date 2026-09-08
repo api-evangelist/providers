@@ -11,6 +11,10 @@ access_model:
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.claude.com/
 - group: docs
   title: ''
   type: Specification
@@ -62,7 +66,7 @@ overview: 'CLAUDE.md is profiled on the [APIs.io](https://apis.io/) network. Tag
   The CLAUDE.md catalog on APIs.io includes 1 JSON-LD context.
 
 
-  CLAUDE.md''s developer surface includes documentation, tooling, and 6 more developer resources.'
+  CLAUDE.md''s developer surface includes documentation, tooling, and 7 more developer resources.'
 random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude-md/refs/heads/main/screenshots/claude-md-2026-06-20T174448.png
 slug: claude-md
@@ -76,4 +80,5 @@ tags:
 - Memory
 - Project Configuration
 - Standard
+website: https://www.claude.com/
 ---

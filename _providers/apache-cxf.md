@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: CXF provides Java APIs for building SOAP (JAX-WS) and REST (JAX-RS) web services with WSDL-first and code-first approaches, WS-* standards support, multiple data bindings (JAXB, Aegis, XMLBeans), plug
@@ -41,6 +41,10 @@ apis:
   slug: apache-cxf
 artifact_total: 36
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -176,7 +180,7 @@ overview: 'Apache CXF publishes 1 API on the [APIs.io](https://apis.io/) network
   The Apache CXF catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache CXF''s developer surface includes developer portal, documentation, getting-started guide, release notes, Stack Overflow tag, and 8 more developer resources.'
+  Apache CXF''s developer surface includes developer portal, documentation, getting-started guide, release notes, Stack Overflow tag, and 9 more developer resources.'
 plans:
 - name: Apache Cxf Plans Pricing
   plan_count: 3
@@ -221,9 +225,13 @@ score:
     applies: true
     score: 50.0
   previous_composite: 35.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cxf/refs/heads/main/screenshots/apache-cxf-2026-06-20T172051.png
 security:
 - kind: domain-security
@@ -256,5 +264,5 @@ use_cases:
   name: Spring Boot Microservices
 - description: Secure web services with SAML, Kerberos, PKI, or WS-Username Tokens using CXF WSS4J integration.
   name: WS-Security Integration
-website: https://cxf.apache.org/
+website: https://www.apache.org/
 ---

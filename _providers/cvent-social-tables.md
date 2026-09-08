@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -22,7 +22,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 26.5
-  scored_at: '2026-09-06'
+  score: 30.3
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 3
@@ -132,7 +132,7 @@ apis:
   description: The Users API from Cvent Social Tables — 1 operation(s) for users.
   name: Cvent Social Tables Users API
   slug: cvent-social-tables-users-api
-artifact_total: 44
+artifact_total: 46
 collections:
 - collection_type: open
   name: API Collection
@@ -223,7 +223,7 @@ common:
 - group: other
   title: ''
   type: ProductPage
-  url: https://www.cvent.com/en/diagramming-event-design
+  url: https://www.socialtables.com/product/diagram/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -235,7 +235,7 @@ common:
 - group: start
   title: ''
   type: Login
-  url: https://app.socialtables.com/login
+  url: https://login.socialtables.com/login
 - group: operate
   title: ''
   type: Support
@@ -247,7 +247,7 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.cvent.com/en/terms-of-service
+  url: https://www.cvent.com/en/product-terms-of-use
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -264,6 +264,94 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/showcase/social-tables/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.socialtables.com/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.socialtables.com/api-console
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.socialtables.com/docs/apps/tutorial
+- group: start
+  title: ''
+  type: SignUp
+  url: https://login.socialtables.com/signup
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.socialtables.com/pricing/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cvent-social-tables-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cvent-social-tables-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cvent-social-tables-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/cvent-social-tables-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/cvent-social-tables-packages.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/cvent-social-tables-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/cvent-social-tables-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/cvent-social-tables-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/cvent-social-tables-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/cvent-social-tables-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/cvent-social-tables-sandbox.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/cvent-social-tables-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/cvent-social-tables-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/cvent-social-tables-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/cvent-social-tables-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cvent-social-tables-vulnerability-disclosure.yml
 created: '2025-03-14'
 description: Social Tables, a Cvent product, is event diagramming, room-design, and seating software for hospitality venues, hotels, and meeting planners. Planners design 2D / 3D floor plans, manage seating arrangements, build attendee guest lists, and collaborate with venues. Social Tables has been integrated into the Cvent Hospitality Cloud and Diagramming product line. The legacy Social Tables developer portal exposed a REST API for events, floor plans, and diagrams; new programmatic integration is generally delivered through the Cvent Platform REST API and the Cvent Diagramming product.
 finops:
@@ -272,21 +360,21 @@ finops:
   slug: cvent-social-tables-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cvent-social-tables.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-07'
 name: Cvent Social Tables
 nav: Providers
 network: true
-overview: 'Cvent Social Tables publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Authentication API, Diagram Favorites API, Diagram Layouts API, and 14 more. Tagged areas include 3D Design, Catering, Diagramming, Event Design, and Event Management.
+overview: 'Cvent Social Tables publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Social Tables Events API (Legacy), Authentication API, Diagram Favorites API, and 15 more. Tagged areas include 3D Design, Catering, Diagramming, Event Design, and Event Management.
 
 
-  Cvent Social Tables'' developer surface includes authentication, support, engineering blog, and 15 more developer resources.'
+  Cvent Social Tables'' developer surface includes authentication, support, engineering blog, documentation, API reference, getting-started guide, signup flow, and 33 more developer resources.'
 plans:
 - name: Cvent Social Tables Plans Pricing
-  plan_count: 3
+  plan_count: 5
   slug: cvent-social-tables-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Cvent Social Tables Rate Limits
   slug: cvent-social-tables-rate-limits
 scopes:
@@ -295,36 +383,42 @@ scopes:
   slug: cvent-social-tables-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.9
+  band: strong
+  composite: 59.7
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 23
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 23.8
   facets:
-    access_clarity: 32.9
-    commercial_clarity: 32.9
-    contract_governance: 0.0
+    access_clarity: 100.0
+    commercial_clarity: 100.0
+    contract_governance: 4.5
     contract_quality: 45.7
-    developer_ergonomics: 38.1
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 26.3
+    developer_ergonomics: 66.1
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 28.9
   previous_composite: 35.9
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+    mcp: derived
+    skills: derived
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent-social-tables/refs/heads/main/screenshots/cvent-social-tables-2026-06-20T175404.png
 security:
 - kind: authentication
@@ -335,6 +429,14 @@ security:
   name: Cvent Social Tables Domain Security
   slug: cvent-social-tables-domain-security
   summary_line: TLSv1.2 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Cvent Social Tables Vulnerability Disclosure
+  slug: cvent-social-tables-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Cvent Social Tables Trust Center
+  slug: cvent-social-tables-trust-center
+  summary_line: SOC 1 Type II, SOC 2 Type II, SOC 3, PCI DSS, ISO/IEC 27001:2022, ISO/IEC 27701, Cyber Essentials Plus, TX-RAMP, VPAT, SIG (Standardized Information Gathering questionnaire)
 slug: cvent-social-tables
 tags:
 - 3D Design

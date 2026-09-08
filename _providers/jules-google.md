@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Alpha REST API for Google's Jules autonomous coding agent. Exposes Sources (connected GitHub repositories), Sessions (units of work against a source with a prompt and optional plan-approval workflow),
@@ -139,9 +139,13 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jules-google/refs/heads/main/screenshots/jules-google-2026-06-20T183823.png
 security:
 - kind: domain-security

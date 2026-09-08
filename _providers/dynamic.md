@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Dynamic's REST API for wallet infrastructure — admin and environment management endpoints plus SDK-facing endpoints for auth, passkeys, embedded wallets, MPC/WaaS, users, sessions, MFA, gates, and web
@@ -46,6 +46,10 @@ asyncapis:
   name: Dynamic Webhooks
   slug: dynamic-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dynamic.xyz/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -180,7 +184,7 @@ overview: 'Dynamic publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Dynamic catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Dynamic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 22 more developer resources.'
+  Dynamic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, changelog, and 23 more developer resources.'
 random_paper: 6
 score:
   band: developing
@@ -212,9 +216,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynamic/refs/heads/main/screenshots/dynamic-2026-07-25T212559.png
 security:
 - kind: authentication
@@ -247,5 +255,5 @@ tags:
 - Developer Tools
 - Fintech
 - Blockchain
-website: https://www.dynamic.xyz/docs
+website: https://www.dynamic.xyz/
 ---

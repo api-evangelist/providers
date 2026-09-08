@@ -29,8 +29,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -98,8 +98,8 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -130,7 +130,7 @@
      "slug": "centrica",
      "description": "Centrica plc is the FTSE-listed British energy and services group behind British Gas, the United Kingdom's largest household energy supplier, along with Bord Gais Energy in Ireland, Centrica Business Solutions, Centrica Energy (its wholesale power, gas and LNG trading arm) and the Hive connected-home brand. It sits across the whole value chain — upstream gas and storage at Rough, generation and battery flexibility, wholesale trading and route-to-market, retail supply to roughly ten million UK homes, and a field-service engineering business — after exiting North America with the sale of Direct Energy to NRG in January 2021 to refocus on the UK and Ireland. Its API posture is honestly closed: Britain mandated the smart-metering INFRASTRUCTURE (the licensed Smart DCC monopoly and the SMETS2 rollout) rather than a consumer data right, so Centrica has no Consumer Data Right, no Green Button and no standards-conformant consumer usage endpoint. The DESNZ non-domestic smart meter data access requirement that does bind it is discharged by a written request answered within ten working days, not by an API. Household consumers reach their own data only through the British Gas app and account login; business customers through the Energy360 DataView portal. The single publicly reachable developer surface found is the Centrica FieldOps Azure API Management developer portal — a partner field-operations platform in its development environment — and Centrica publishes no open grid or market data of its own, leaving that to NESO, Elexon and the DNOs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/centrica/refs/heads/main/screenshots/centrica-2026-08-07T163224.png",
-     "score": 52.6,
+     "score": 51.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -143,8 +143,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -182,7 +182,7 @@
      "slug": "amcs-group",
      "description": "AMCS Group is an enterprise cloud software provider for the waste, recycling, resource and transport industries, headquartered in Ireland and backed by Insight Partners. Its flagship AMCS Platform exposes a REST API spanning Core, ERP Platform, Pay, Scale, TLV and Vision AI services, covering directory, accounting, transport, fleet, municipal and weighbridge operations. The API authenticates with a Personal Access Token exchanged for a session cookie, ships Swagger documentation, a hosted sandbox, a Node.js reference client, a Terraform provider, and an API Accelerator Program with pre-coded, MIT-licensed integration templates covering most of a typical integration project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amcs-group/refs/heads/main/screenshots/amcs-group-2026-07-25T200033.png",
-     "score": 42.5,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -195,8 +195,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -247,8 +247,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -298,8 +298,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -361,8 +361,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -423,8 +423,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -475,8 +475,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -520,8 +520,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -572,8 +572,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -617,8 +617,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -678,8 +678,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -723,8 +723,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -775,8 +775,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -827,8 +827,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -879,8 +879,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -931,8 +931,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -983,8 +983,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1035,8 +1035,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1087,8 +1087,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1139,8 +1139,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1191,8 +1191,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1243,8 +1243,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1295,8 +1295,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1346,8 +1346,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

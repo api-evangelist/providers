@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 1
@@ -737,6 +737,10 @@ collections:
   name: DistributorApi
   slug: open-mews-distributor-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mews.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1032,7 +1036,7 @@ overview: 'Mews publishes 75 APIs on the [APIs.io](https://apis.io/) network, in
   The Mews catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Mews'' developer surface includes developer portal, documentation, signup flow, support, engineering blog, pricing, changelog, and 52 more developer resources.'
+  Mews'' developer surface includes developer portal, documentation, signup flow, support, engineering blog, pricing, changelog, and 53 more developer resources.'
 plans:
 - name: Mews Com Plans Pricing
   plan_count: 5
@@ -1066,7 +1070,7 @@ rules:
   slug: mews-com-rules
 score:
   band: strong
-  composite: 59.4
+  composite: 59.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 83.5
@@ -1074,7 +1078,7 @@ score:
     catalog_gap: 31.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -1092,9 +1096,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 75
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
 security:
 - kind: domain-security

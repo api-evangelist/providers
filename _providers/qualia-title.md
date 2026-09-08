@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: 'Place title and escrow orders programmatically (into Qualia Core or to third-party systems) and track their status through the closing lifecycle. Modeled from Qualia''s public description of push/pull '
@@ -155,9 +155,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 40.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualia-title/refs/heads/main/screenshots/qualia-title-2026-09-02T152559.png
 security:
 - kind: domain-security

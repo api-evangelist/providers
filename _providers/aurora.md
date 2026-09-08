@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Ethereum-compatible JSON-RPC 2.0 API for the Aurora EVM network of virtual chains on NEAR. Exposes the standard eth_* method set over HTTPS (and WebSocket subscriptions) on public mainnet and testnet '
@@ -169,9 +169,13 @@ score:
   previous_composite: 25.3
   provenance:
     conformance: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aurora/refs/heads/main/screenshots/aurora-2026-07-25T201745.png
 security:
 - kind: authentication

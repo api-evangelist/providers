@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: DefiLlama Public API
   slug: open-defillama
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.defillama.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -166,7 +170,7 @@ network: true
 overview: 'DefiLlama publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Coins API, Fees API, Stablecoins API, and 3 more. Tagged areas include Web3, DeFi, TVL, Crypto, and Stablecoins.
 
 
-  DefiLlama''s developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, and 6 more developer resources.'
+  DefiLlama''s developer surface includes authentication, developer portal, documentation, pricing, GitHub presence, and 7 more developer resources.'
 plans:
 - name: Defillama Plans Pricing
   plan_count: 2
@@ -204,9 +208,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/defillama/refs/heads/main/screenshots/defillama-2026-06-20T175849.png
 security:
 - kind: authentication
@@ -228,5 +236,5 @@ tags:
 - Bridges
 - Aggregator
 - Open-Source
-website: https://defillama.com/
+website: https://www.defillama.com/
 ---

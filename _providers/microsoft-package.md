@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -98,6 +98,10 @@ collections:
   name: NuGet Server API (V3)
   slug: open-microsoft-package
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -145,7 +149,7 @@ network: true
 overview: 'Microsoft Package publishes 4 APIs on the [APIs.io](https://apis.io/) network, including PackageContent API, Registration API, Search API, and 1 more. Tagged areas include Azure Artifacts, Microsoft, NuGet, Package Management, and WinGet.
 
 
-  Microsoft Package''s developer surface includes authentication, developer portal, support, and 5 more developer resources.'
+  Microsoft Package''s developer surface includes authentication, developer portal, support, and 6 more developer resources.'
 plans:
 - name: Microsoft Package Plans Pricing
   plan_count: 3
@@ -183,9 +187,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/screenshots/microsoft-package-2026-06-20T185523.png
 security:
 - kind: authentication
@@ -207,5 +215,5 @@ tags:
 - NuGet
 - Package Management
 - WinGet
-website: https://developer.microsoft.com/
+website: https://www.microsoft.com/
 ---

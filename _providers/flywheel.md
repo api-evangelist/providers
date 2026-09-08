@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Full REST API for the Flywheel platform, covering the container hierarchy (groups, projects, subjects, sessions, acquisitions, files, analyses), gears and jobs, users and permissions, and search. Docu
@@ -190,9 +190,13 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flywheel/refs/heads/main/screenshots/flywheel-2026-07-25T214857.png
 security:
 - kind: authentication

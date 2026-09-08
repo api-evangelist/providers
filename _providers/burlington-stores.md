@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'Burlington''s consumer storefront: shopping, store locator, gift cards, loyalty and credit card servicing. No public API is published behind it. Every /.well-known/ path, /openapi.json and /llms.txt on'
@@ -170,9 +170,13 @@ score:
   previous_composite: 10.4
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/burlington-stores/refs/heads/main/screenshots/burlington-stores-2026-06-20T173818.png
 security:
 - kind: domain-security

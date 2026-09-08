@@ -12,21 +12,21 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-06'
+  score: 36.0
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -57,12 +57,12 @@ apis:
 - description: Dagger Cloud is the hosted control plane providing pipeline traces, checks, module observability, and team collaboration. It integrates with the local Dagger Engine for seamless trace uploads.
   name: Dagger Cloud
   slug: cloud
-- baseURL_template: http://127.0.0.1:{DAGGER_SESSION_PORT}
-  baseurl_source: spec_template
+- baseURL: http://127.0.0.1:{DAGGER_SESSION_PORT}
+  baseurl_source: declared
   description: The GraphQL API from Dagger — 1 operation(s) for graphql.
   name: Dagger GraphQL API
   slug: dagger-graphql-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -145,10 +145,18 @@ common:
 - group: start
   title: ''
   type: Signup
-  url: https://dagger.cloud/signup
+  url: https://dagger.cloud
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dagger.cloud
 - group: operate
   title: ''
   type: Discord
+  url: https://discord.gg/dagger-io
+- group: operate
+  title: ''
+  type: Community
   url: https://discord.gg/dagger-io
 - group: learn
   title: ''
@@ -174,6 +182,90 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.dagger.io/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/dagger-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/dagger-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/dagger-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/dagger-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/dagger-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/dagger-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/dagger-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/dagger-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/dagger-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.dagger.io
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/dagger-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/dagger-changelog.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://dagger.io/changelog
+- group: build
+  title: ''
+  type: CLI
+  url: cli/dagger-cli.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/dagger-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/dagger-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/dagger-rate-limits.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://dagger.io/legal_pages/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://dagger.io/legal_pages/privacy-policy
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://docs.dagger.io/faq/
 created: '2026-03-26'
 description: Dagger is an open-source programmable CI/CD engine that runs pipelines in containers using a unified, introspectable GraphQL API. Pipelines are written as code in the developer's preferred language (Go, Python, TypeScript, PHP, Java, .NET, Elixir, or Rust) using Dagger SDKs and packaged as Dagger Modules that can be published to the Daggerverse module index. The Dagger Engine exposes Container, Directory, File, Secret, and CacheVolume as first-class GraphQL types backed by a content-addressed store, enabling deterministic builds and aggressive caching. Dagger Cloud provides the hosted control plane for pipeline traces, checks, and module observability. Dagger does not expose a public REST API; clients connect to a per-session Dagger Engine GraphQL endpoint and the optional Dagger Cloud Web UI.
 finops:
@@ -191,7 +283,11 @@ jsonld:
   property_count: 0
   slug: dagger-context
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Container Use
+  slug: container-use
+modified: '2026-09-07'
 name: Dagger
 nav: Providers
 network: true
@@ -201,53 +297,60 @@ overview: 'Dagger publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
   The Dagger catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Dagger''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, YouTube channel, and 18 more developer resources.'
+  Dagger''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, signup flow, YouTube channel, and 41 more developer resources.'
 plans:
 - name: Dagger Plans Pricing
   plan_count: 3
   slug: dagger-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Dagger Rate Limits
   slug: dagger-rate-limits
 score:
-  band: developing
-  composite: 43.8
+  band: strong
+  composite: 55.9
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 54.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.0
+    artifact_dirs: 26
+    catalog_earned: 65.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 50.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.1
   facets:
-    access_clarity: 39.5
-    commercial_clarity: 39.5
-    contract_governance: 15.2
+    access_clarity: 71.1
+    commercial_clarity: 71.1
+    contract_governance: 33.3
     contract_quality: 57.8
-    developer_ergonomics: 47.6
-    discoverability: 66.7
-    governance: 15.2
+    developer_ergonomics: 61.3
+    discoverability: 75.9
+    governance: 33.3
     operational_transparency: 26.3
   previous_composite: 43.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 0.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+    mcp: first-party
+    skills: derived
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/dagger/refs/heads/main/screenshots/dagger-2026-06-20T175437.png
 security:
 - kind: authentication
   name: Dagger Authentication
   slug: dagger-authentication
-  summary_line: http · 1 scheme
+  summary_line: http/oidc · 3 schemes
 - kind: domain-security
   name: Dagger Domain Security
   slug: dagger-domain-security

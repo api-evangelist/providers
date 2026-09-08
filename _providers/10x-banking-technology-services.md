@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The REST API surface of the 10x SuperCore platform, covering parties, subscriptions, arrangements, transaction/deposit/loan/credit-card products, repayment schedules, interest overrides, cards, statem
@@ -220,9 +220,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: 10X Banking Technology Services Authentication

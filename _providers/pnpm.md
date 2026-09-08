@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: The pnpm command-line interface for managing JavaScript/Node.js packages. Provides commands for installing, updating, and removing dependencies; running package scripts; executing one-off packages via
@@ -52,6 +52,10 @@ apis:
   slug: pnpm-config
 artifact_total: 38
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pnpm.io/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -223,7 +227,7 @@ network: true
 overview: 'pnpm publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Node.js, Package Manager, Monorepo, JavaScript, and Open-Source.
 
 
-  pnpm''s developer surface includes developer portal, getting-started guide, documentation, release notes, legal docs, changelog, support, and 20 more developer resources.'
+  pnpm''s developer surface includes developer portal, getting-started guide, documentation, release notes, legal docs, changelog, support, and 21 more developer resources.'
 random_paper: 2
 score:
   band: emerging
@@ -246,9 +250,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 20.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pnpm/refs/heads/main/screenshots/pnpm-2026-06-20T191821.png
 security:
 - kind: domain-security
@@ -280,5 +288,5 @@ use_cases:
   name: Reproducible builds
 - description: Use the pnpm/setup action and pnpm env to standardize Node.js, Bun, or Deno versions across teams.
   name: Multi-runtime JavaScript projects
-website: https://pnpm.io
+website: https://www.pnpm.io/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Structured document store and query surface. Create collections with typed, indexed fields (keyword_index, semantic_index, vector index), upsert/update/delete documents by `_id`, and run hybrid querie
@@ -48,6 +48,10 @@ apis:
   slug: management-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.topk.io/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -187,7 +191,7 @@ network: true
 overview: 'Topk publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Search, Vector Search, Hybrid Search, and Multi-Vector Retrieval.
 
 
-  Topk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 24 more developer resources.'
+  Topk''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 25 more developer resources.'
 random_paper: 5
 score:
   band: developing
@@ -214,9 +218,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/topk/refs/heads/main/screenshots/topk-2026-08-17T082413.png
 security:
 - kind: authentication
@@ -250,5 +258,5 @@ tags:
 - AI Infrastructure
 - Embeddings
 - MCP
-website: https://docs.topk.io
+website: https://www.topk.io/
 ---

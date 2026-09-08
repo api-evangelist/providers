@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Ethereum-style JSON-RPC 2.0 API exposing the =nil; cluster — blocks, transactions (messages), accounts, contract calls, gas pricing, shard enumeration, tokens, and event filters. Read methods require '
@@ -166,9 +166,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nil-foundation/refs/heads/main/screenshots/nil-foundation-2026-08-07T185257.png
 security:
 - kind: authentication

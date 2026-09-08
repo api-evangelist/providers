@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ collections:
   name: ByKaranteli crypto derivatives data X402 API
   slug: open-bykaranteli-x402-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bykaranteli.com/
 - group: agent
   title: ''
   type: MCPServer
@@ -205,7 +209,7 @@ network: true
 overview: 'ByKaranteli publishes 1 API on the [APIs.io](https://apis.io/) network: X402 API. Tagged areas include Cryptocurrency, Crypto Derivatives, Market Data, Funding Rates, and Open Interest.
 
 
-  ByKaranteli''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 19 more developer resources.'
+  ByKaranteli''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
 plans:
 - name: Bykaranteli Plans
   plan_count: 5
@@ -252,9 +256,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bykaranteli/refs/heads/main/screenshots/bykaranteli-2026-08-17T080800.png
 security:
 - kind: authentication
@@ -279,5 +287,5 @@ tags:
 - MCP
 - x402
 - Agents
-website: https://bykaranteli.com/developers
+website: https://www.bykaranteli.com/
 ---

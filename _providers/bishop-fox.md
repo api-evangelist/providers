@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Authenticated REST API for the Bishop Fox Cosmos attack-surface management platform. Exposes the customer's discovered asset inventory through /v5/asset-view/* resources (domains, subdomains, dns-reco
@@ -173,9 +173,13 @@ score:
   previous_composite: 20.3
   provenance:
     conformance: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bishop-fox/refs/heads/main/screenshots/bishop-fox-2026-08-07T162514.png
 security:
 - kind: authentication

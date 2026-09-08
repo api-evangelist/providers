@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: DocSend's hosted Model Context Protocol server — the only programmatic surface DocSend publishes. An MCP client POSTs Streamable-HTTP JSON-RPC to https://docsend.com/mcp (also reachable at https://mcp
@@ -206,9 +206,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/docsend/refs/heads/main/screenshots/docsend-2026-08-17T123407.png
 security:
 - kind: authentication

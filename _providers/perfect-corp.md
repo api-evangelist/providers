@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 66
 apis:
 - baseURL: https://yce-api-01.makeupar.com
@@ -40,6 +40,10 @@ asyncapis:
   name: Perfect Corp Webhooks
   slug: perfect-corp-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.perfectcorp.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -211,7 +215,7 @@ overview: 'Perfect Corp publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Perfect Corp catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Perfect Corp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
+  Perfect Corp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
 plans:
 - name: Perfect Corp Plans Pricing
   plan_count: 0
@@ -228,7 +232,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 54.1
+  composite: 53.4
   coverage:
     artifact_dirs: 22
     catalog_earned: 48.0
@@ -236,7 +240,7 @@ score:
     catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -256,9 +260,12 @@ score:
       total: 65
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Perfect Corp Authentication
@@ -294,5 +301,5 @@ tags:
 - beauty-tech
 - retail
 - ar-try-on
-website: https://yce.perfectcorp.com/ai-api
+website: https://www.perfectcorp.com/
 ---

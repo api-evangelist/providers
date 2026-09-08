@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for full programmatic access to TrueContext (ProntoForms) forms, submissions, users, and dispatch, available on the Elite tier. Supports HTTP GET/POST for bidirectional data, webhooks to push
@@ -42,6 +42,10 @@ apis:
   slug: truecontext-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.truecontext.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -153,7 +157,7 @@ network: true
 overview: 'TrueContext publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Field Service, Mobile Forms, Workflow-Automation, and Data Collection.
 
 
-  TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -178,9 +182,13 @@ score:
   previous_composite: 34.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/truecontext/refs/heads/main/screenshots/truecontext-2026-09-02T164345.png
 security:
 - kind: authentication
@@ -207,5 +215,5 @@ tags:
 - Dispatch
 - Inspections
 - Compliance
-website: https://docs.truecontext.com/
+website: https://www.truecontext.com/
 ---

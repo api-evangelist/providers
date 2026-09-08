@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: OpenSky Network REST Flights Tracks API
   slug: open-opensky-tracks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://opensky-network.org/
 - group: other
   title: ''
   type: CapabilityMap
@@ -186,7 +190,7 @@ overview: 'OpenSky Network publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The OpenSky Network catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  OpenSky Network''s developer surface includes authentication, GitHub presence, documentation, status page, and 13 more developer resources.'
+  OpenSky Network''s developer surface includes authentication, GitHub presence, documentation, status page, and 14 more developer resources.'
 plans:
 - name: Opensky Rest Api
   plan_count: 4
@@ -244,9 +248,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/screenshots/opensky-2026-08-17T081130.png
 security:
 - kind: authentication
@@ -266,4 +274,5 @@ tags:
 - Airport
 - Real-Time
 - Historical Data
+website: https://opensky-network.org/
 ---

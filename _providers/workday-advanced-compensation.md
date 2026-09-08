@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,6 +114,10 @@ collections:
   name: Workday Advanced Compensation API
   slug: open-workday-advanced-compensation
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.workday.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -277,7 +281,7 @@ overview: 'Workday Advanced Compensation publishes 8 APIs on the [APIs.io](https
   The Workday Advanced Compensation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Advanced Compensation''s developer surface includes authentication, sandbox, and 12 more developer resources.'
+  Workday Advanced Compensation''s developer surface includes authentication, sandbox, and 13 more developer resources.'
 plans:
 - name: Workday Advanced Compensation Plans Pricing
   plan_count: 3
@@ -316,7 +320,7 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: thin
-  composite: 32.0
+  composite: 31.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 59.5
@@ -324,7 +328,7 @@ score:
     catalog_gap: 55.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -345,9 +349,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-advanced-compensation/refs/heads/main/screenshots/workday-advanced-compensation-2026-06-20T201555.png
 security:
 - kind: authentication
@@ -355,5 +362,5 @@ security:
   slug: workday-advanced-compensation-authentication
   summary_line: oauth2 · 1 scheme
 slug: workday-advanced-compensation
-website: https://developer.workday.com/
+website: https://www.workday.com/
 ---

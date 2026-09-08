@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 9
 apis:
 - description: 'The Angular Core API provides the fundamental building blocks of the Angular framework including components, directives, pipes, dependency injection, Signals for reactive state management, standalone '
@@ -171,9 +171,13 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 17.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular/refs/heads/main/screenshots/angular-2026-06-20T171952.png
 security:
 - kind: domain-security

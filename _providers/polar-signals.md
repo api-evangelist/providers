@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: gRPC/Connect API for managing Polar Signals Cloud organizations, projects, service accounts, tokens, roles/RBAC, rate limits, and billing, plus a Parca-compatible profiling data plane for uploading an
@@ -212,9 +212,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/polar-signals/refs/heads/main/screenshots/polar-signals-2026-09-02T151641.png
 security:
 - kind: authentication

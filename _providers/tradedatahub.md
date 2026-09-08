@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Free, unauthenticated REST discovery API for contractor/trade-business datasets, with paid CSV retrieval via x402 (testnet-only). Includes coverage stats, inventory discovery, dataset listings, pricin
@@ -45,6 +45,10 @@ apis:
   slug: tradedatahub-public-api
 artifact_total: 15
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tradedatahub.net/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,7 +170,7 @@ network: true
 overview: 'TradeDataHub Public API publishes 1 API on the [APIs.io](https://apis.io/) network: TradeDataHub Public API. Tagged areas include contractor data, B2B Data, Business Listings, Datasets, and CSV.
 
 
-  TradeDataHub Public API''s developer surface includes support, pricing, authentication, sandbox, code examples, and 15 more developer resources.'
+  TradeDataHub Public API''s developer surface includes support, pricing, authentication, sandbox, code examples, and 16 more developer resources.'
 plans:
 - name: Tradedatahub Plans Pricing
   plan_count: 4
@@ -206,9 +210,13 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradedatahub/refs/heads/main/screenshots/tradedatahub-2026-09-02T164042.png
 security:
 - kind: authentication
@@ -232,5 +240,5 @@ tags:
 - agent-native
 - llms-txt
 - OpenAPI
-website: https://www.tradedatahub.net/developers/
+website: https://www.tradedatahub.net/
 ---

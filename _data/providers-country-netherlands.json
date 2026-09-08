@@ -28,8 +28,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -80,8 +80,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -126,114 +126,10 @@
      "rank": 2
     },
     {
-     "name": "KPN",
-     "slug": "kpn",
-     "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png",
-     "score": 63.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 63.8,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 86.8,
-      "developer_ergonomics": 60.1,
-      "commercial_clarity": 38.2,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 78.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
-     "name": "University of Twente",
-     "slug": "university-of-twente",
-     "description": "The University of Twente (Universiteit Twente, UT), founded in 1961 in Enschede, Netherlands, is a public technical research university. Its programmable footprint is small but, unusually for this cohort, not empty and not borrowed: the university operates one API of its own. The University of Twente Energy API at energyapi.utwente.nl publishes an OpenAPI 3.0.1 contract and a Swagger UI, requires no authentication, and serves historical electricity, gas, heat, water and solar metering for 103 named campus resources — with a CO2-equivalent mode computed against the Dutch national energy mix — from the university's own network. It backs the public Energy Data Platform at energydata.utwente.nl. Around that single owned contract, everything else is a relationship rather than an engineering artifact, and is recorded as such. The university runs its own SAML 2.0 identity provider on a Microsoft Entra ID tenant, registered in the SURFconext national federation with the Shibboleth scope utwente.nl — the strongest institution-operated surface it has after the Energy API. Its library is a Crossref member in its own name (prefix 10.3990). It publishes a live Erasmus Without Paper node declaring fifteen student-mobility APIs scoped to HEI ID utwente.nl. Its research information system, learning management system, student information system and research-data repository are all tenancies on Elsevier Pure, Instructure Canvas, CACI OSIRIS and 4TU.ResearchData respectively — real institutional facts, none of them the university's contract. There is no central developer portal, no API catalog and no published terms for the one API that exists. A previously catalogued OAI-PMH endpoint on the Pure host was re-probed on 2026-09-01 and does not respond; that claim has been corrected rather than carried forward.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/screenshots/university-of-twente-2026-06-20T200328.png",
-     "score": 59.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 59.2,
-      "governance": 61.4,
-      "contract_governance": 61.4,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 90.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 29.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Nedap",
      "slug": "nedap",
      "description": "Nedap N.V. is a Dutch technology company founded in 1929 and listed on Euronext Amsterdam, headquartered in Groenlo, the Netherlands, with roughly 1,000 employees. It builds what it calls Digital Twin Technology across four markets — Healthcare (the Ons electronic health record suite and MediKIT for general practitioners), Livestock (cow monitoring), Retail (the iD Cloud RFID inventory platform and iSenseOS loss prevention) and Security (Nedap Access physical identity management and long-range vehicle/driver identification readers). Its most openly documented API surface is Ons API at ons-api.nl, a 926-operation OpenAPI 3.0.3 REST contract for the Ons care platform covering client dossiers, care planning, scheduling, rostering, payroll and finance, together with a 31-path openEHR composition and archetype surface, a webhook event service described in OpenAPI 3.1 webhooks, and a small scopes-and-clearances authorization API. A FHIR read/search surface built on the Dutch ZIB information models is documented but is not in the public specification — those endpoints sit behind the Ons API Dashboard. Access is gated on a client TLS certificate signed by Nedap's own CA and issued through the Ons API Dashboard, so the specifications are public while the runtime is not.",
-     "score": 58.0,
+     "score": 63.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -246,8 +142,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -278,13 +174,65 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 3
+    },
+    {
+     "name": "KPN",
+     "slug": "kpn",
+     "description": "Koninklijke KPN N.V. is the incumbent telecommunications and IT provider of the Netherlands, operating the country's national fixed (copper and fibre) and mobile networks and selling telephony, broadband, television, IoT connectivity and managed IT services to consumers, businesses and — through KPN Wholesale — to other operators. In the telecom API value chain KPN sits on the network-operator side, but it is a conspicuous exception to the carrier norm: rather than routing developers exclusively through aggregators, KPN runs a genuine self-serve developer portal at developer.kpn.com where anyone can register a free account, get a client ID and secret, test in a sandbox at no cost, and see per-transaction pricing, then upgrade to production via a KRN company number or an iDIN identity check. Thirty-four OpenAPI/Swagger definitions are published anonymously downloadable under KPN's public SwaggerHub organisation, all fronted by an Apigee-style gateway at api-prd.kpn.com with OAuth 2.0 client-credentials. KPN is listed in the official CAMARA landscape as an operator and, with Odido and Vodafone under the COIN association and GSMA Open Gateway, launched CAMARA-standard fraud-prevention APIs for the Dutch market in October 2025; its SIM Swap definition points explicitly at github.com/camaraproject as its product documentation. KPN is not an Aduna shareholder and does not reach developers through that JV. Notably, KPN also resells Vonage and Apidaze CPaaS products through its own portal — the aggregator layer appearing inside the carrier's own catalogue rather than the other way round.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpn/refs/heads/main/screenshots/kpn-2026-08-07T171335.png",
+     "score": 62.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 63.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 86.8,
+      "developer_ergonomics": 60.1,
+      "commercial_clarity": 38.2,
+      "access_clarity": 38.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 78.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 4
     },
     {
      "name": "Cadasto",
      "slug": "cadasto",
      "description": "Cadasto B.V. is a Dutch health-IT company (Alkmaar, Netherlands) that builds a vendor-neutral Clinical Data Repository on the openEHR standard. The Cadasto CDR stores structured care data as openEHR compositions and exposes the openEHR ITS-REST 1.0.3 API surface — EHR, Query (AQL), Definition, Demographic, Admin and System — plus a Cadasto-specific Additional API for Datamap (a simplified JSON projection of openEHR paths), episodes of care and terminology helpers, a bidirectional FHIR R3 facade, and SMART-on-openEHR app launch. Access is OAuth 2.0 client-credentials per tenant. Cadasto also publishes an unusually strong agent surface for its size: a live anonymous MCP server for openEHR modelling knowledge, eight packaged Agent Skills, a Claude Code plugin marketplace, an llms.txt, and a public openEHR conformance statement naming every specification version it does and does not implement.",
-     "score": 57.9,
+     "score": 59.4,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -297,8 +245,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -329,6 +277,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 5
+    },
+    {
+     "name": "University of Twente",
+     "slug": "university-of-twente",
+     "description": "The University of Twente (Universiteit Twente, UT), founded in 1961 in Enschede, Netherlands, is a public technical research university. Its programmable footprint is small but, unusually for this cohort, not empty and not borrowed: the university operates one API of its own. The University of Twente Energy API at energyapi.utwente.nl publishes an OpenAPI 3.0.1 contract and a Swagger UI, requires no authentication, and serves historical electricity, gas, heat, water and solar metering for 103 named campus resources — with a CO2-equivalent mode computed against the Dutch national energy mix — from the university's own network. It backs the public Energy Data Platform at energydata.utwente.nl. Around that single owned contract, everything else is a relationship rather than an engineering artifact, and is recorded as such. The university runs its own SAML 2.0 identity provider on a Microsoft Entra ID tenant, registered in the SURFconext national federation with the Shibboleth scope utwente.nl — the strongest institution-operated surface it has after the Energy API. Its library is a Crossref member in its own name (prefix 10.3990). It publishes a live Erasmus Without Paper node declaring fifteen student-mobility APIs scoped to HEI ID utwente.nl. Its research information system, learning management system, student information system and research-data repository are all tenancies on Elsevier Pure, Instructure Canvas, CACI OSIRIS and 4TU.ResearchData respectively — real institutional facts, none of them the university's contract. There is no central developer portal, no API catalog and no published terms for the one API that exists. A previously catalogued OAI-PMH endpoint on the Pure host was re-probed on 2026-09-01 and does not respond; that claim has been corrected rather than carried forward.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-twente/refs/heads/main/screenshots/university-of-twente-2026-06-20T200328.png",
+     "score": 59.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 59.2,
+      "governance": 61.4,
+      "contract_governance": 61.4,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 90.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 29.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 6
     }
    ],
@@ -339,60 +339,15 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
-    {
-     "name": "ChannelEngine",
-     "slug": "channelengine",
-     "description": "ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once and sell across 1,300+ global marketplaces, social platforms, and emerging AI commerce channels. It centralizes product listing, inventory and offer synchronization, order and fulfillment management, returns, and dynamic repricing from a single dashboard, and exposes three REST APIs: the Merchant API (integrate your own systems with ChannelEngine), the Channel API (build your own marketplace on ChannelEngine), and the Channel Management API (export marketplace categories and product attributes). The APIs use API-key authentication, JSON response envelopes, page-based pagination, header-based rate limiting, and webhooks for near-real-time events.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png",
-     "score": 53.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 41.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 73.2,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 37.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 7
-    },
     {
      "name": "Silverflow",
      "slug": "silverflow",
      "description": "Silverflow is an Amsterdam-based cloud-native card processing platform that connects acquirers, payment service providers, payment facilitators and merchants directly to the card networks (Visa, Mastercard, Amex, Discover, Diners, Maestro, Bancontact) through a single REST API. Founded in 2019, the company replaces legacy acquiring processor infrastructure with a contract-first, OpenAPI 3.0-described platform covering merchant and acceptor onboarding, 3-D Secure and BEP authentication, processor and network tokenization, authorization, clearing and settlement, incremental authorizations, reversals, refunds and payouts, terminal-to-cloud POS charges, ATM card management, dispute and chargeback handling, fraud notifications, transaction risk assessment, interchange and scheme-fee estimation, and a full reconciliation and reporting suite. The Silverflow API exposes 137 operations across 101 paths, emits 31 CloudEvents 1.0 webhook notifications through an event-subscription surface, and publishes a sandbox with amount-driven authorization test scenarios.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/silverflow/refs/heads/main/screenshots/silverflow-2026-09-02T155511.png",
-     "score": 51.8,
+     "score": 53.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -405,8 +360,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -437,13 +392,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 7
+    },
+    {
+     "name": "ChannelEngine",
+     "slug": "channelengine",
+     "description": "ChannelEngine is a marketplace integration and multichannel e-commerce platform, founded in Leiden, Netherlands and backed by General Catalyst, that lets brands, retailers, and manufacturers connect their ERP, PIM, WMS, or webstore once and sell across 1,300+ global marketplaces, social platforms, and emerging AI commerce channels. It centralizes product listing, inventory and offer synchronization, order and fulfillment management, returns, and dynamic repricing from a single dashboard, and exposes three REST APIs: the Merchant API (integrate your own systems with ChannelEngine), the Channel API (build your own marketplace on ChannelEngine), and the Channel Management API (export marketplace categories and product attributes). The APIs use API-key authentication, JSON response envelopes, page-based pagination, header-based rate limiting, and webhooks for near-real-time events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/channelengine/refs/heads/main/screenshots/channelengine-2026-07-25T205043.png",
+     "score": 53.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 41.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 37.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 8
     },
     {
      "name": "30MHz",
      "slug": "30mhz",
      "description": "30MHz is a Rotterdam-based horticulture technology company that builds a wireless sensor network and the ZENSIE data platform for greenhouse and controlled-environment growers. Battery-powered sensors capture temperature, humidity, PAR/light, CO2, substrate moisture and EC in the crop, stream it to ZENSIE over LoRa gateways, and surface it as dashboards, maps, alerts, cultivation strategies and AI-generated growing advice. The platform integrates with climate computers (Priva, Hoogendoorn, Ridder) and third-party data services such as Meteomatics weather, and exposes a public REST API — the ZENSIE API at api.30mhz.com — covering sensors, checks (data sources), data query and ingest, dashboards, widgets, organizations, notifications, locations, zones, cultivations, licensing and billing, so growers, advisors and technology partners can push data into the platform and pull it back out into their own systems.",
-     "score": 51.4,
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -456,8 +456,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -484,271 +484,11 @@
      "rank": 9
     },
     {
-     "name": "Payt",
-     "slug": "payt",
-     "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png",
-     "score": 47.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.8,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 64.9,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 48.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 31.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Utrecht University",
-     "slug": "utrecht",
-     "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, founded in 1636 and a member of the League of European Research Universities. It is one of the few universities in this catalog whose largest machine-readable surface is its OWN engineering rather than a vendor's: Utrecht authors and operates Yoda, a GPL-3.0 iRODS-based research data management platform (github.com/UtrechtUniversity/yoda-ruleset), and runs it in production at portal.yoda.uu.nl. The Yoda HTTP API is real but not open — every call redirects to SolisID login unless it carries a session cookie or a Yoda data access token — so the OpenAPIs in this repo describe a live institution-operated API that no anonymous client can call. Alongside it the University Library runs a DSpace 9.0 institutional repository whose REST API and OAI-PMH interface are both openly readable at dspace.library.uu.nl, and IT Services operates a SAML 2.0 identity provider registered in the SURFconext federation. The research information system is NOT Utrecht's: research-portal.uu.nl is an Elsevier Pure tenancy (uu.elsevierpure.com), recorded here as a tenant relationship and not as Utrecht's contract. There is no central developer portal, no api.uu.nl, no public course-catalog or campus API, and no published API terms or rate limits; OSIRIS, the student administration system, returns 403 to unauthenticated clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
-     "score": 47.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 44.4,
-      "contract_quality": 58.6,
-      "governance": 9.8,
-      "contract_governance": 9.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 21.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 11
-    },
-    {
-     "name": "Erasmus University Rotterdam",
-     "slug": "erasmus-university-rotterdam",
-     "description": "Erasmus University Rotterdam (EUR) is a Dutch public research university founded in 1913, ranked #158 in the QS World University Rankings 2025, with ROR https://ror.org/057w15z03 and the registrable domain eur.nl. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited EUR with eleven API entries and ten OpenAPI contracts. Every one of them was api.figshare.com/v2 — one Figshare document that the same pass attributed to twenty-five different universities, split by tag into ten apparent surfaces titled \"Figshare altmetric Articles API\", \"Figshare altmetric Authors API\" and so on, and it put EUR fifth in the whole 248-institution university cohort. Those contracts, and the twenty Postman and OpenCollection files, four JSON Schemas, three JSON Structures, four payload examples, the JSON-LD context, the vocabulary, the OAuth scopes, the authentication summary, the agentic-access classification, the two Spectral rulesets and the capability map derived from them, have all been removed — 51 files. The attribution was wrong twice over: EUR's Figshare tenancy ENDED on 30 October 2025, when the EUR Data Repository moved to DataverseNL hosted by DANS, and datarepository.eur.nl now has no DNS record at all. What is left is what EUR actually operates. The genuine institution-run surface is the RePub OAI-PMH 2.0 endpoint at repub.eur.nl/oai — keyless, live, correctly configured with an OpenAIRE and an NWO set and three metadata formats, on the university library's own infrastructure with @ubib.eur.nl administrative contacts and no vendor CNAME in the chain. Beside it sits api.eur.nl, a Kong API gateway EUR runs on its own address space that answers 401 with WWW-Authenticate: Basic realm=\"kong\" and publishes no route, no reference and no contract to the public internet. EUR holds its own DataCite membership (symbol DHCM, 3,722 DOIs minted) and publishes a live RFC 9116 security.txt. Everything else programmable is a tenancy that is a real institutional fact but somebody else's engineering: the EUR Research Repository on Elsevier Pure at pure.eur.nl, the EUR Data Repository on DataverseNL, the course catalogue on Caci's OSIRIS, the Canvas LMS with a live LTI 1.3 keyset, and the SURFconext/eduGAIN identity provider that is a Microsoft Entra tenant behind SURF's proxy. EUR publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
-     "score": 46.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 79.6,
-      "contract_quality": 57.9,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 26.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "University of Groningen",
-     "slug": "university-of-groningen",
-     "description": "The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, the Netherlands, founded in 1614. Measured honestly, it runs no API programme: there is no developer portal, no api.rug.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate — api.rug.nl, data.rug.nl, developer.rug.nl and status.rug.nl do not resolve at all. What it does operate, on its own domain, is a small set of real programmable surfaces: the Ocasys course and degree-programme catalog, whose JSON backend at ocasys.rug.nl/api answers unauthenticated course search, full course records, programme search, faculties and controlled option lists, and emits RFC 9457 problem details on error; a keyless OAI-PMH 2.0 endpoint at pure.rug.nl/ws/oai serving 1,521,703 identifiers across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; and its own SAML 2.0 identity provider at signon.rug.nl, registered in eduGAIN through SURFconext. Everything else that looks like a University of Groningen API is a purchase. The CRIS is Elsevier Pure, research data lives in a collection inside the shared national DataverseNL installation that DANS and SURF operate, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as the University's engineering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 54.1,
-      "governance": 22.7,
-      "contract_governance": 22.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 57.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 23.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Wageningen University & Research",
-     "slug": "wageningen-university-research",
-     "description": "Wageningen University & Research (WUR) is the Dutch public research university and research foundation for healthy food and the living environment, in Wageningen, Netherlands, and ranked #100 in the QS World University Rankings 2025. Its programmable footprint is real but small, and it sits in the research institutes rather than in a central developer platform: AgroDataCube, run by Wageningen Environmental Research at agrodatacube.wur.nl, is a token-gated REST API over an open agri-food data collection for the Netherlands; the WFBR API Portal, run by Wageningen Food & Biobased Research on its own Azure API Management instance, publishes a Food API behind registration and WUR's own terms of use; the university library operates a complete, keyless OAI-PMH 2.0 endpoint at library.wur.nl/oai over \"Wageningen University & Research Publications\", serving Dublin Core, MODS, DIDL and OpenAIRE/DataCite metadata; and Wageningen Marine Research runs an OGC WMS/WFS GeoServer at opengeodata.wmr.wur.nl. WUR also operates two SAML identity providers registered in SURFconext and therefore eduGAIN. What WUR does not have is a central API programme: there is no institution-wide developer portal, no course-catalog or registrar API (api.wur.nl and ssc.wur.nl resolve but time out from the public internet), and no published OpenAPI of its own — every OpenAPI in this repository is ours, derived from WUR's Postman collections and from live probes. The Research Portal at research.wur.nl is an Elsevier Pure tenancy: WUR's data and DOIs, Elsevier's contract, and it is recorded here as a tenant relationship rather than credited to WUR as engineering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 26.0,
-      "governance": 28.0,
-      "contract_governance": 28.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 38.1,
-      "commercial_clarity": 63.2,
-      "access_clarity": 63.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 72.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 14
-    },
-    {
      "name": "University of Amsterdam",
      "slug": "university-of-amsterdam",
      "description": "The University of Amsterdam (Universiteit van Amsterdam, UvA) is a public research university in Amsterdam, Netherlands, a LERU member and one of the two large research universities in the city. It operates no central developer portal and issues no public API keys, and the honest shape of its programmable footprint is three institution-run surfaces surrounded by six vendor platforms it is a tenant of. What it genuinely runs itself: a shared AI gateway with the Amsterdam University of Applied Sciences at llmproxy.uva.nl that serves a full OpenAPI 3.1 description and issues keys to staff, students and developers on request; a SAML 2.0 identity provider whose signed federation metadata is published on its own host and registered in SURFconext and eduGAIN; and the DataNose course and registration API on its own network, whose Swagger UI answers but whose generated description currently returns 500. Everything else that looks like a UvA API is a contract someone else wrote: the library's Linked Open Data platform is a TriplyDB tenancy, the research repository is Figshare, UvA-DARE and its OAI-PMH feed are Elsevier Pure, the archives OAI provider is LYRASIS-hosted ArchivesSpace, the central catalogue OAI endpoint is Ex Libris Alma and now returns 403 to the public, and the timetable API is Eveoh MyTimetable behind SSO. The data in those systems is the university's; the interfaces are not.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-amsterdam/refs/heads/main/screenshots/university-of-amsterdam-2026-08-17T083414.png",
-     "score": 44.7,
+     "score": 50.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -761,8 +501,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -793,52 +533,93 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
-   "providers": [
+     "rank": 10
+    },
     {
-     "name": "bunq",
-     "slug": "bunq",
-     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
-     "score": 38.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Payt",
+     "slug": "payt",
+     "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/payt/refs/heads/main/screenshots/payt-2026-08-07T191658.png",
+     "score": 49.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 56.5,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 36.8,
-      "access_clarity": 36.8
+      "discoverability": 75.9,
+      "contract_quality": 53.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 64.9,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 27.8,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 48.4,
       "matched_via": "tags"
      },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
+     "agent_score": 31.5,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Utrecht University",
+     "slug": "utrecht",
+     "description": "Utrecht University (Universiteit Utrecht) is a public research university in Utrecht, Netherlands, founded in 1636 and a member of the League of European Research Universities. It is one of the few universities in this catalog whose largest machine-readable surface is its OWN engineering rather than a vendor's: Utrecht authors and operates Yoda, a GPL-3.0 iRODS-based research data management platform (github.com/UtrechtUniversity/yoda-ruleset), and runs it in production at portal.yoda.uu.nl. The Yoda HTTP API is real but not open — every call redirects to SolisID login unless it carries a session cookie or a Yoda data access token — so the OpenAPIs in this repo describe a live institution-operated API that no anonymous client can call. Alongside it the University Library runs a DSpace 9.0 institutional repository whose REST API and OAI-PMH interface are both openly readable at dspace.library.uu.nl, and IT Services operates a SAML 2.0 identity provider registered in the SURFconext federation. The research information system is NOT Utrecht's: research-portal.uu.nl is an Elsevier Pure tenancy (uu.elsevierpure.com), recorded here as a tenant relationship and not as Utrecht's contract. There is no central developer portal, no api.uu.nl, no public course-catalog or campus API, and no published API terms or rate limits; OSIRIS, the student administration system, returns 403 to unauthenticated clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/utrecht/refs/heads/main/screenshots/utrecht-2026-06-20T200730.png",
+     "score": 47.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 44.4,
+      "contract_quality": 58.6,
+      "governance": 9.8,
+      "contract_governance": 9.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 21.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
@@ -856,88 +637,36 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 12
     },
     {
-     "name": "Rabobank Australia",
-     "slug": "rabobank-australia",
-     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
-     "score": 38.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Erasmus University Rotterdam",
+     "slug": "erasmus-university-rotterdam",
+     "description": "Erasmus University Rotterdam (EUR) is a Dutch public research university founded in 1913, ranked #158 in the QS World University Rankings 2025, with ROR https://ror.org/057w15z03 and the registrable domain eur.nl. Re-profiled on 2026-08-30 under the API Evangelist university pipeline, which settles WHO OPERATES a surface before crediting it to the institution. The June 2026 profile credited EUR with eleven API entries and ten OpenAPI contracts. Every one of them was api.figshare.com/v2 — one Figshare document that the same pass attributed to twenty-five different universities, split by tag into ten apparent surfaces titled \"Figshare altmetric Articles API\", \"Figshare altmetric Authors API\" and so on, and it put EUR fifth in the whole 248-institution university cohort. Those contracts, and the twenty Postman and OpenCollection files, four JSON Schemas, three JSON Structures, four payload examples, the JSON-LD context, the vocabulary, the OAuth scopes, the authentication summary, the agentic-access classification, the two Spectral rulesets and the capability map derived from them, have all been removed — 51 files. The attribution was wrong twice over: EUR's Figshare tenancy ENDED on 30 October 2025, when the EUR Data Repository moved to DataverseNL hosted by DANS, and datarepository.eur.nl now has no DNS record at all. What is left is what EUR actually operates. The genuine institution-run surface is the RePub OAI-PMH 2.0 endpoint at repub.eur.nl/oai — keyless, live, correctly configured with an OpenAIRE and an NWO set and three metadata formats, on the university library's own infrastructure with @ubib.eur.nl administrative contacts and no vendor CNAME in the chain. Beside it sits api.eur.nl, a Kong API gateway EUR runs on its own address space that answers 401 with WWW-Authenticate: Basic realm=\"kong\" and publishes no route, no reference and no contract to the public internet. EUR holds its own DataCite membership (symbol DHCM, 3,722 DOIs minted) and publishes a live RFC 9116 security.txt. Everything else programmable is a tenancy that is a real institutional fact but somebody else's engineering: the EUR Research Repository on Elsevier Pure at pure.eur.nl, the EUR Data Repository on DataverseNL, the course catalogue on Caci's OSIRIS, the Canvas LMS with a live LTI 1.3 keyset, and the SURFconext/eduGAIN identity provider that is a Microsoft Entra tenant behind SURF's proxy. EUR publishes no OpenAPI of its own, no developer portal, no open data portal and no llms.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png",
+     "score": 46.8,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 49.7,
+      "discoverability": 79.6,
+      "contract_quality": 57.9,
       "governance": 18.2,
       "contract_governance": 18.2,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 39.9,
-      "commercial_clarity": 18.4,
-      "access_clarity": 18.4
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "Maastricht University",
-     "slug": "maastricht",
-     "description": "Maastricht University (UM) is a public research university in Maastricht, Netherlands, founded in 1976 and known internationally for its Problem-Based Learning model. Measured honestly, UM operates no API programme: there is no developer portal, no api.maastrichtuniversity.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate. What it does operate is a small set of standards-based surfaces on its own domain — a live, keyless OAI-PMH 2.0 harvesting endpoint at cris.maastrichtuniversity.nl serving 798,420 records across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; a self-hosted GitLab whose REST API answers unauthenticated project queries; and its own ADFS identity provider publishing both OpenID Connect discovery and signed SAML 2.0 federation metadata, with its entity carried in SURFconext and thereby eduGAIN. Everything else that looks like a Maastricht API is a purchase: research data lives in a collection inside the shared national DataverseNL installation, the CRIS is Elsevier Pure, the LMS is Instructure Canvas, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as Maastricht's engineering.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png",
-     "score": 37.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 14.3,
-      "governance": 15.2,
-      "contract_governance": 15.2,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 28.6,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
       "regime_id": "education",
-      "score": 75.9,
+      "score": 57.4,
       "matched_via": "tags"
      },
-     "agent_score": 20.8,
+     "agent_score": 26.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -947,7 +676,7 @@
       "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": "verified",
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
@@ -960,16 +689,120 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 13
+    },
+    {
+     "name": "University of Groningen",
+     "slug": "university-of-groningen",
+     "description": "The University of Groningen (Rijksuniversiteit Groningen, RUG/UG) is a public research university in Groningen, the Netherlands, founded in 1614. Measured honestly, it runs no API programme: there is no developer portal, no api.rug.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate — api.rug.nl, data.rug.nl, developer.rug.nl and status.rug.nl do not resolve at all. What it does operate, on its own domain, is a small set of real programmable surfaces: the Ocasys course and degree-programme catalog, whose JSON backend at ocasys.rug.nl/api answers unauthenticated course search, full course records, programme search, faculties and controlled option lists, and emits RFC 9457 problem details on error; a keyless OAI-PMH 2.0 endpoint at pure.rug.nl/ws/oai serving 1,521,703 identifiers across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; and its own SAML 2.0 identity provider at signon.rug.nl, registered in eduGAIN through SURFconext. Everything else that looks like a University of Groningen API is a purchase. The CRIS is Elsevier Pure, research data lives in a collection inside the shared national DataverseNL installation that DANS and SURF operate, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as the University's engineering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-groningen/refs/heads/main/screenshots/university-of-groningen-2026-06-20T200155.png",
+     "score": 46.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 54.1,
+      "governance": 22.7,
+      "contract_governance": 22.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 57.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 23.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 14
+    },
+    {
+     "name": "Wageningen University & Research",
+     "slug": "wageningen-university-research",
+     "description": "Wageningen University & Research (WUR) is the Dutch public research university and research foundation for healthy food and the living environment, in Wageningen, Netherlands, and ranked #100 in the QS World University Rankings 2025. Its programmable footprint is real but small, and it sits in the research institutes rather than in a central developer platform: AgroDataCube, run by Wageningen Environmental Research at agrodatacube.wur.nl, is a token-gated REST API over an open agri-food data collection for the Netherlands; the WFBR API Portal, run by Wageningen Food & Biobased Research on its own Azure API Management instance, publishes a Food API behind registration and WUR's own terms of use; the university library operates a complete, keyless OAI-PMH 2.0 endpoint at library.wur.nl/oai over \"Wageningen University & Research Publications\", serving Dublin Core, MODS, DIDL and OpenAIRE/DataCite metadata; and Wageningen Marine Research runs an OGC WMS/WFS GeoServer at opengeodata.wmr.wur.nl. WUR also operates two SAML identity providers registered in SURFconext and therefore eduGAIN. What WUR does not have is a central API programme: there is no institution-wide developer portal, no course-catalog or registrar API (api.wur.nl and ssc.wur.nl resolve but time out from the public internet), and no published OpenAPI of its own — every OpenAPI in this repository is ours, derived from WUR's Postman collections and from live probes. The Research Portal at research.wur.nl is an Elsevier Pure tenancy: WUR's data and DOIs, Elsevier's contract, and it is recorded here as a tenant relationship rather than credited to WUR as engineering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png",
+     "score": 46.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 26.0,
+      "governance": 28.0,
+      "contract_governance": 28.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 38.1,
+      "commercial_clarity": 63.2,
+      "access_clarity": 63.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 72.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 15
     },
     {
      "name": "Virtuagym",
      "slug": "virtuagym",
      "description": "Virtuagym is a Netherlands-based fitness and health club management platform that combines member management, membership and billing administration, class and appointment scheduling, access control / check-ins, and digital coaching (workouts, nutrition, and a branded member app) into one SaaS suite for gyms, studios, personal trainers, and corporate wellness programs. Its Public API (v1) is club-scoped and lets partners and businesses read and write members, employees, membership definitions and instances, member credits, invoices, visits (check-ins), events (classes) and participants, and coaching workout assignments. v1 endpoints authenticate with an api_key plus a club_secret passed as query parameters over HTTPS. Authoritative reference documentation is access-gated (request via api@virtuagym.com); the endpoints modeled here are grounded in Virtuagym's publicly mirrored API wiki and live host probes.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/virtuagym/refs/heads/main/screenshots/virtuagym-2026-09-02T170012.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 41.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 54.6,
@@ -980,8 +813,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1012,13 +845,180 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 16
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 7,
+   "shown": 7,
+   "providers": [
+    {
+     "name": "Maastricht University",
+     "slug": "maastricht",
+     "description": "Maastricht University (UM) is a public research university in Maastricht, Netherlands, founded in 1976 and known internationally for its Problem-Based Learning model. Measured honestly, UM operates no API programme: there is no developer portal, no api.maastrichtuniversity.nl, no status page, no published versioning or deprecation policy, and no first-party OpenAPI anywhere on its estate. What it does operate is a small set of standards-based surfaces on its own domain — a live, keyless OAI-PMH 2.0 harvesting endpoint at cris.maastrichtuniversity.nl serving 798,420 records across six metadata profiles including OpenAIRE CERIF 1.2 with resolvable ORCID iDs; a self-hosted GitLab whose REST API answers unauthenticated project queries; and its own ADFS identity provider publishing both OpenID Connect discovery and signed SAML 2.0 federation metadata, with its entity carried in SURFconext and thereby eduGAIN. Everything else that looks like a Maastricht API is a purchase: research data lives in a collection inside the shared national DataverseNL installation, the CRIS is Elsevier Pure, the LMS is Instructure Canvas, and library discovery is OCLC WorldCat. Those are recorded here as tenant relationships, not as Maastricht's engineering.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maastricht/refs/heads/main/screenshots/maastricht-2026-06-20T184821.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 14.3,
+      "governance": 15.2,
+      "contract_governance": 15.2,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 75.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 20.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "bunq",
+     "slug": "bunq",
+     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 56.5,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 36.8,
+      "access_clarity": 36.8
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 27.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Rabobank Australia",
+     "slug": "rabobank-australia",
+     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
+     "score": 37.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 49.7,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 39.9,
+      "commercial_clarity": 18.4,
+      "access_clarity": 18.4
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 19
     },
     {
      "name": "Telefoon",
      "slug": "telefoon",
      "description": "Telefoon is a cloud telephony and communications platform offering programmable voice, SMS, and number management APIs tailored for European markets. Built for GDPR compliance and EU regulatory requirements, Telefoon provides developers with REST APIs to build voice calling, SMS notification, number provisioning, and interactive voice response (IVR) solutions. The platform supports Dutch, Belgian, German, and broader European telecommunications infrastructure with local number availability and EU data residency.",
-     "score": 35.0,
+     "score": 34.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1031,8 +1031,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1083,8 +1083,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1135,8 +1135,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1173,7 +1173,7 @@
      "name": "EFFECT Photonics",
      "slug": "effect-photonics",
      "description": "EFFECT Photonics is an optical-semiconductor company headquartered at High Tech Campus 37 in Eindhoven, the Netherlands, with sites in the United Kingdom, the United States and Taiwan. Spun out of Eindhoven University of Technology, it designs and manufactures coherent optical transceiver subsystems and monolithically integrated Indium Phosphide (InP) photonic integrated circuits, including its pico and nano Integrable Tunable Laser Assemblies for 100G, 400G and 800G coherent links across telecom access and metro networks, data-center interconnect and AI scale-across infrastructure. It operates no developer API programme and publishes no product, network-management or transceiver-control API, no developer portal, no SDK and no pricing. It is catalogued here because its corporate website runs a live WordPress REST API with 290 discoverable routes — including a publicly readable optical-product catalogue with hardware taxonomies (product line, form factor, output power, tuning range, operating temperature, target application, management interface) and a first-party `effect/v1` namespace — and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
-     "score": 27.4,
+     "score": 26.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1186,8 +1186,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1219,15 +1219,25 @@
       "agentic_commerce": false
      },
      "rank": 23
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 8,
+   "shown": 8,
+   "providers": [
     {
      "name": "Nmbrs",
      "slug": "nmbrs",
      "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
-     "score": 26.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.8,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
@@ -1238,8 +1248,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1266,61 +1276,6 @@
      "rank": 24
     },
     {
-     "name": "GLS Group",
-     "slug": "gls-group",
-     "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png",
-     "score": 26.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 46.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 28.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 25
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
-   "shown": 6,
-   "providers": [
-    {
      "name": "Eindhoven University of Technology",
      "slug": "eindhoven-university-of-technology",
      "description": "Eindhoven University of Technology (TU/e) is a public technical university in Eindhoven, the Netherlands, and one of the four institutions of the 4TU federation. It operates no public developer portal, publishes no institution-authored API contract, and offers no self-serve API keys — and this profile says so rather than padding the gap. Everything machine-readable that carries the TU/e name is a deployment of somebody else's software: the TU/e Research Portal and its Pure Web Service REST API are Elsevier Pure 5.35.x running at pure.tue.nl, the student mobile app at osiris.tue.nl is Caci Osiris, library discovery is OCLC WorldCat, and research datasets are minted through the 4TU.ResearchData Figshare consortium. What TU/e genuinely operates on its own domain is narrower and real: a live, fully conformant OAI-PMH 2.0 harvesting endpoint at pure.tue.nl/ws/oai serving seven metadata formats and the OpenAIRE CERIF 1.2 CRIS profile, and a SAML 2.0 identity-provider entity registered in the SURFconext federation and so reachable through eduGAIN. Thirty-seven OpenAPI documents previously attributed to TU/e in this repository were Elsevier's Pure product contract (info.title \"Pure …\", contact pure-support@elsevier.com, relative servers \"/ws/api\", shipped identically by nine other universities) and have been removed; the tenant relationships they described are recorded here instead. Departmental research groups publish open source across many separate GitHub organizations, but the university runs no single official engineering org.",
@@ -1338,8 +1293,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1370,6 +1325,51 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 25
+    },
+    {
+     "name": "GLS Group",
+     "slug": "gls-group",
+     "description": "GLS Group (General Logistics Systems B.V.) is a European ground-based parcel and freight carrier headquartered in Amsterdam-Duivendrecht, Netherlands, and owned by International Distributions Services plc. It operates a road network of more than 120 hubs and roughly 1,600 depots across some 50 countries in Europe, the United States and Canada, moving B2B and B2C parcels up to about 32 kg plus a freight/LTL and express line, with an out-of-home ParcelShop and locker network. In the supply chain it is a last-mile and middle-mile parcel integrator: the party a shipper, e-commerce platform or shipping-API aggregator hands a consignment to for pickup, linehaul, customs clearance and delivery. Its API posture is federated and contract-bound rather than unified. The GLS Group developer portal (dev-portal.gls-group.net, run by GLS IT Services GmbH on Apigee) allows self-serve account and app registration with API keys or OAuth 2.0, but its API catalog is only visible after sign-in and \"restricted\" APIs additionally require approval by a local GLS representative. National units run their own portals — GLS Netherlands publishes an Azure API Management portal at api-portal.gls.nl whose OpenAPI 3.0.1 definitions for the Label API and the Track & Trace API are anonymously readable, but calling them still requires MyGLS credentials issued to a contracted shipper. The group-wide GLS ShipIT REST/SOAP web services are fully documented in public Doxygen reference pages, yet the base URL itself is handed out only with credentials by a customer's primary GLS contact. No industry data standard — GS1/EPCIS, UPU, DCSA, IATA ONE Record, UN/EDIFACT or ANSI X12 — is referenced anywhere in the artifacts GLS publishes; every identifier and event vocabulary is GLS-proprietary.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gls-group/refs/heads/main/screenshots/gls-group-2026-08-07T165749.png",
+     "score": 25.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 61.1,
+      "contract_quality": 46.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 28.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 26
     },
     {
@@ -1389,8 +1389,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1441,8 +1441,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1493,8 +1493,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1538,8 +1538,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1590,8 +1590,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1652,8 +1652,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1697,8 +1697,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1749,8 +1749,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1801,8 +1801,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1846,8 +1846,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1898,8 +1898,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1943,8 +1943,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1988,8 +1988,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2039,8 +2039,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2084,8 +2084,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2129,8 +2129,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2173,8 +2173,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2224,8 +2224,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2275,8 +2275,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2327,8 +2327,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2379,8 +2379,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2431,8 +2431,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The University of Michigan's own Shibboleth SAML 2.0 identity provider, and the most unambiguously institution-operated machine-readable surface U-M publishes. GET https://shibboleth.umich.edu/idp/shi
@@ -351,9 +351,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 72.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: authentication
   name: University Of Michigan Ann Arbor Authentication

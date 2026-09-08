@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,6 +118,10 @@ collections:
   name: Avoca Enterprise Analytics (v1) Analytics (v1) Teams API
   slug: open-avoca-teams-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.avoca.ai/
 - group: other
   title: ''
   type: CapabilityMap
@@ -228,7 +232,7 @@ overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
   The Avoca catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 17 more developer resources.'
+  Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 18 more developer resources.'
 random_paper: 18
 score:
   band: developing
@@ -261,9 +265,13 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:
 - kind: authentication
@@ -288,5 +296,5 @@ tags:
 - Analytics
 - Webhook
 - Enterprise API
-website: https://docs.avoca.ai
+website: https://www.avoca.ai/
 ---

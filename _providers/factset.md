@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 52.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 705
   human_in_the_loop: 0
@@ -4270,6 +4270,10 @@ collections:
   name: Factset Analytics Datastore About Year API
   slug: open-factset-year-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.factset.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -18008,7 +18012,7 @@ overview: 'Factset publishes 269 APIs on the [APIs.io](https://apis.io/) network
   The Factset catalog on APIs.io includes 60 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Factset''s developer surface includes authentication, developer portal, getting-started guide, legal docs, API reference, support, sandbox, and 47 more developer resources.'
+  Factset''s developer surface includes authentication, developer portal, getting-started guide, legal docs, API reference, support, sandbox, and 48 more developer resources.'
 plans:
 - name: Factset Plans Pricing
   plan_count: 4
@@ -18046,8 +18050,8 @@ scopes:
   slug: factset-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: strong
-  composite: 63.4
+  band: exemplar
+  composite: 67.7
   coverage:
     artifact_dirs: 32
     catalog_earned: 63.5
@@ -18055,7 +18059,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -18082,9 +18086,12 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png
 security:
 - kind: authentication
@@ -18111,5 +18118,5 @@ use_cases:
 - name: Trading desks accessing real-time prices and executing orders programmatically
 - name: Data engineers building automated financial data pipelines and reports
 - name: Wealth managers generating client-facing portfolio reports and analytics
-website: https://developer.factset.com/
+website: https://www.factset.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Autofleet''s public REST API and webhook surface for its fleet and mobility optimization platform — vehicles, drivers, tasks, rides, bookings, routes and dispatch — marketed on the integration page as '
@@ -144,9 +144,13 @@ score:
   previous_composite: 17.3
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/autofleet/refs/heads/main/screenshots/autofleet-2026-08-07T161953.png
 security:
 - kind: domain-security

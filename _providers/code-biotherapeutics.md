@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Model Context Protocol server that Code Biotherapeutics' corporate website exposes at https://www.codebiotx.com/_api/mcp. It is the Wix platform site MCP server, served from the company's own host
@@ -151,9 +151,13 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-biotherapeutics/refs/heads/main/screenshots/code-biotherapeutics-2026-09-02T145118.png
 security:
 - kind: authentication

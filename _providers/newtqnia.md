@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - baseURL: https://api.newtqnia.com
@@ -47,6 +47,10 @@ apis:
   slug: newtqnia-news-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.newtqnia.com/
 - group: agent
   title: ''
   type: MCPServer
@@ -172,7 +176,7 @@ network: true
 overview: 'NewTqnia | Technology News, AI and Innovation publishes 1 API on the [APIs.io](https://apis.io/) network: News API. Tagged areas include News API, News, Technology, Artificial Intelligence, and Cybersecurity.
 
 
-  NewTqnia | Technology News, AI and Innovation''s developer surface includes getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
+  NewTqnia | Technology News, AI and Innovation''s developer surface includes getting-started guide, support, signup flow, authentication, changelog, and 21 more developer resources.'
 plans:
 - name: Newtqnia Plans Pricing
   plan_count: 3
@@ -217,9 +221,13 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/newtqnia/refs/heads/main/screenshots/newtqnia-2026-09-02T150744.png
 security:
 - kind: authentication
@@ -242,5 +250,5 @@ tags:
 - Media
 - Publishing
 - Bilingual
-website: https://newtqnia.com/en/developers
+website: https://www.newtqnia.com/
 ---

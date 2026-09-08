@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 21
 apis:
 - description: Distributed, partitioned, replicated log. The reference open-source streaming platform; durable, ordered topics with consumer groups, exactly -once semantics, and the de facto wire protocol for the st
@@ -244,9 +244,13 @@ score:
     applies: true
     score: 75.0
   previous_composite: 24.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/streaming/refs/heads/main/screenshots/streaming-2026-06-20T194618.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Akur8 Deploy auto-generates a real-time REST rating endpoint from a finalized pricing model built in Akur8 Rate. A customer's policy admin system or quoting engine calls the generated endpoint to scor
@@ -117,9 +117,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/akur8/refs/heads/main/screenshots/akur8-2026-07-25T195528.png
 security:
 - kind: domain-security

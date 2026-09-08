@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: DSpace 7.6.1 HAL/JSON REST API for the University of Adelaide institutional repository "Adelaide Research & Scholarship", exposing communities, collections, items, bundles, bitstreams, discovery searc
@@ -223,9 +223,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -714,6 +714,10 @@ collections:
   name: Mailchimp Marketing Abuse Webhooks API
   slug: open-mailchimp-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mailchimp.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1543,7 +1547,7 @@ overview: 'Mailchimp publishes 44 APIs on the [APIs.io](https://apis.io/) networ
   The Mailchimp catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 2 Spectral governance rulesets.
 
 
-  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 65 more developer resources.'
+  Mailchimp''s developer surface includes changelog, sandbox, authentication, developer portal, engineering blog, pricing, support, and 66 more developer resources.'
 plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
@@ -1577,7 +1581,7 @@ rules:
   slug: mailchimp-spectral-rules
 score:
   band: exemplar
-  composite: 76.3
+  composite: 77.8
   coverage:
     artifact_dirs: 33
     catalog_earned: 79.5
@@ -1585,7 +1589,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -1612,9 +1616,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 50.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:
 - kind: authentication
@@ -1645,5 +1652,5 @@ tags:
 - E-Commerce
 - Webhook
 - Marketing Analytics
-website: https://mailchimp.com/developer/
+website: https://www.mailchimp.com/
 ---

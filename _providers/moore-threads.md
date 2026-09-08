@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: HTTP and WebSocket speech synthesis. A non-streaming POST /api/v1/tts/generate returns a complete wav/mp3 for up to 300 characters; a WebSocket /api/v2/tts/stream_generate streams base64 PCM chunks wi
@@ -218,9 +218,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/moore-threads/refs/heads/main/screenshots/moore-threads-2026-09-02T150738.png
 security:
 - kind: authentication

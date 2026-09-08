@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Metals.Dev API
   slug: open-metals-dev
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.metals.dev/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +145,7 @@ network: true
 overview: 'Metals.Dev publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Account API, Authority API, Currency API, and 2 more. Tagged areas include Financial Data, Gold, Precious Metals, Silver, and Spot Prices.
 
 
-  Metals.Dev''s developer surface includes authentication, developer portal, pricing, signup flow, and 4 more developer resources.'
+  Metals.Dev''s developer surface includes authentication, developer portal, pricing, signup flow, and 5 more developer resources.'
 plans:
 - name: Metals Dev Plans Pricing
   plan_count: 3
@@ -179,9 +183,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/screenshots/metals-dev-2026-06-20T185246.png
 security:
 - kind: authentication
@@ -199,5 +207,5 @@ tags:
 - Precious Metals
 - Silver
 - Spot Prices
-website: https://metals.dev/
+website: https://www.metals.dev/
 ---

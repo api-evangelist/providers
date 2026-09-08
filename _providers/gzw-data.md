@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -523,6 +523,10 @@ apis:
   slug: gzw-data-version-api
 artifact_total: 206
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gzw-data.dev/
 - group: design
   title: ''
   type: Vocabulary
@@ -1011,7 +1015,7 @@ overview: 'GZW Data API publishes 95 APIs on the [APIs.io](https://apis.io/) net
   The GZW Data API catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  GZW Data API''s developer surface includes sandbox, changelog, code examples, pricing, documentation, API reference, getting-started guide, and 33 more developer resources.'
+  GZW Data API''s developer surface includes sandbox, changelog, code examples, pricing, documentation, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Gzw Data Plans Pricing
   plan_count: 1
@@ -1070,9 +1074,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/gzw-data/refs/heads/main/screenshots/gzw-data-2026-09-02T145643.png
 security:
 - kind: authentication

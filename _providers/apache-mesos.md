@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ collections:
   name: Apache Mesos Operator HTTP API
   slug: open-apache-mesos
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -156,7 +160,7 @@ network: true
 overview: 'Apache Mesos publishes 1 API on the [APIs.io](https://apis.io/) network: Apache Mesos Operator HTTP API API. Tagged areas include Cluster Management, Distributed Systems, Resource Management, Scheduling, and Retired.
 
 
-  Apache Mesos'' developer surface includes developer portal, documentation, engineering blog, and 9 more developer resources.'
+  Apache Mesos'' developer surface includes developer portal, documentation, engineering blog, and 10 more developer resources.'
 plans:
 - name: Apache Mesos Plans Pricing
   plan_count: 3
@@ -168,7 +172,7 @@ rate_limits:
   slug: apache-mesos-rate-limits
 score:
   band: thin
-  composite: 28.5
+  composite: 27.8
   coverage:
     artifact_dirs: 9
     catalog_earned: 41.0
@@ -176,7 +180,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -197,9 +201,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mesos/refs/heads/main/screenshots/apache-mesos-2026-06-20T172121.png
 security:
 - kind: domain-security
@@ -226,5 +233,5 @@ use_cases:
   name: Big Data Processing
 - description: Host microservices workloads with Marathon framework providing long-running service scheduling on Mesos.
   name: Microservices Platform
-website: https://mesos.apache.org/
+website: https://www.apache.org/
 ---

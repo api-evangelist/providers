@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: First-party REST API gateway behind the STARFIRE customer dashboard. Route prefixes observed in the provider's own published dashboard bundle include /api/v1/tasking-orders, /api/v1/images/, /api/v1/t
@@ -150,9 +150,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/turion-space/refs/heads/main/screenshots/turion-space-2026-09-02T164540.png
 security:
 - kind: authentication

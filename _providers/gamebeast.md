@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Gamebeast platform surface consumed through the engine SDKs (Roblox/Luau, Unity/C#) and a JS/TS backend SDK, plus a server-to-server key surface for analytics, query, GDPR deletion, and marker met
@@ -42,6 +42,10 @@ apis:
   slug: gamebeast-sdk-services
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.gamebeast.gg/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -133,7 +137,7 @@ network: true
 overview: 'Gamebeast publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Gaming, Game Development, and LiveOps.
 
 
-  Gamebeast''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, changelog, and 13 more developer resources.'
+  Gamebeast''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, changelog, and 14 more developer resources.'
 random_paper: 13
 score:
   band: thin
@@ -156,9 +160,13 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 29.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamebeast/refs/heads/main/screenshots/gamebeast-2026-07-25T215411.png
 security:
 - kind: authentication
@@ -182,5 +190,5 @@ tags:
 - Unity
 - Player Analytics
 - Attribution
-website: https://docs.gamebeast.gg
+website: https://www.gamebeast.gg/
 ---

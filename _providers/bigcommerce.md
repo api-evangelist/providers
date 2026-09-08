@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 341
   human_in_the_loop: 2
@@ -1301,6 +1301,10 @@ collections:
   name: BigCommerce Payment Access Token
   slug: open-payment-access-token
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bigcommerce.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -4346,7 +4350,7 @@ overview: 'BigCommerce publishes 152 APIs on the [APIs.io](https://apis.io/) net
   The BigCommerce catalog on APIs.io includes 1 event-driven AsyncAPI specification and 3 Spectral governance rulesets.
 
 
-  BigCommerce''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 10 more developer resources.'
+  BigCommerce''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 11 more developer resources.'
 plans:
 - name: Bigcommerce Plans Pricing
   plan_count: 4
@@ -4391,7 +4395,7 @@ rules:
   slug: bigcommerce-spectral-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 49.9
   coverage:
     artifact_dirs: 17
     catalog_earned: 55.5
@@ -4399,7 +4403,7 @@ score:
     catalog_gap: 59.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -4423,9 +4427,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 34.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigcommerce/refs/heads/main/screenshots/bigcommerce-2026-06-20T173231.png
 security:
 - kind: authentication
@@ -4462,5 +4469,5 @@ use_cases:
   name: Wholesale Portals
 - description: Automate order fulfillment with warehouse management and 3PL systems.
   name: Order Fulfillment Automation
-website: https://developer.bigcommerce.com/
+website: https://www.bigcommerce.com/
 ---

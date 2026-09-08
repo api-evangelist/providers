@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The REST API behind Sibel Health's ANNE cloud hubs. The base https://api.sibelhealth.com/jsn/alpha is referenced directly by the JavaScript bundle of the company's own datahub.sibelhealth.com single-p
@@ -184,9 +184,13 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sibel-health/refs/heads/main/screenshots/sibel-health-2026-09-02T155343.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: API for programmatic access to Microsoft Access databases through various interfaces including ODBC, OLE DB, and DAO.
@@ -62,6 +62,10 @@ apis:
   slug: power-automate-access-actions-api
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -156,7 +160,7 @@ overview: 'Microsoft Access publishes 1 API on the [APIs.io](https://apis.io/) n
   The Microsoft Access catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Access'' developer surface includes developer portal, support, pricing, engineering blog, documentation, and 11 more developer resources.'
+  Microsoft Access'' developer surface includes developer portal, support, pricing, engineering blog, documentation, and 12 more developer resources.'
 plans:
 - name: Microsoft Access Plans Pricing
   plan_count: 3
@@ -198,9 +202,13 @@ score:
     governance: 9.8
     operational_transparency: 10.5
   previous_composite: 35.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-access/refs/heads/main/screenshots/microsoft-access-2026-06-20T185353.png
 security:
 - kind: domain-security
@@ -222,5 +230,5 @@ tags:
 - Desktop Database
 - Microsoft
 - Relational Database
-website: https://www.microsoft.com/en-us/microsoft-365
+website: https://www.microsoft.com/
 ---

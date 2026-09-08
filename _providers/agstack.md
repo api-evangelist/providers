@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -116,6 +116,10 @@ collections:
   name: OpenAgri Weather service
   slug: open-agstack-openagri-weather-service
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.agstack.org/
 - group: other
   title: ''
   type: CapabilityMap
@@ -886,7 +890,7 @@ overview: 'AgStack Foundation publishes 7 APIs on the [APIs.io](https://apis.io/
   The AgStack Foundation catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  AgStack Foundation''s developer surface includes authentication, engineering blog, developer portal, documentation, and 9 more developer resources.'
+  AgStack Foundation''s developer surface includes authentication, engineering blog, developer portal, documentation, and 10 more developer resources.'
 plans:
 - name: Agstack Plans Pricing
   plan_count: 3
@@ -920,7 +924,7 @@ rules:
   slug: agstack-spectral-rules
 score:
   band: developing
-  composite: 41.6
+  composite: 40.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 68.5
@@ -928,7 +932,7 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -946,9 +950,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/screenshots/agstack-2026-06-20T170504.png
 security:
 - kind: authentication
@@ -980,5 +987,5 @@ use_cases:
   name: Precision Irrigation
 - description: Share agricultural data between platforms using JSON-LD/OCSM linked data format for semantic interoperability
   name: Interoperable Agtech Integration
-website: https://agstack.org/
+website: https://www.agstack.org/
 ---

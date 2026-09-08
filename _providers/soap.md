@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: SOAP Version 1.2 (W3C Recommendation, 2003/2007 Second Edition) is a lightweight protocol for exchanging structured information in a decentralized, distributed environment. It defines an XML message f
@@ -41,6 +41,10 @@ apis:
   slug: soap-protocol
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.w3.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -179,9 +183,13 @@ score:
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 22.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/soap/refs/heads/main/screenshots/soap-2026-06-20T194116.png
 security:
 - kind: domain-security
@@ -197,5 +205,5 @@ tags:
 - W3C Standard
 - Enterprise Integration
 - WS-Star
-website: https://www.w3.org/TR/soap12/
+website: https://www.w3.org/
 ---

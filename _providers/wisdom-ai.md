@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Single GraphQL endpoint for programmatic access to WisdomAI domains, tables, users, dashboards, and analytics data. Supports queries, mutations, and real-time WebSocket subscriptions. Tenant-scoped: r'
@@ -41,6 +41,10 @@ apis:
   slug: wisdomai-graphql-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wisdom.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -172,7 +176,7 @@ network: true
 overview: 'Wisdom AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Analytics, Business Intelligence, and GraphQL.
 
 
-  Wisdom AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 22 more developer resources.'
+  Wisdom AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 23 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -199,9 +203,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisdom-ai/refs/heads/main/screenshots/wisdom-ai-2026-09-02T170818.png
 security:
 - kind: authentication
@@ -231,5 +239,5 @@ tags:
 - Embedded Analytics
 - Agents
 - Data
-website: https://docs.wisdom.ai/
+website: https://www.wisdom.ai/
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.project-hami.io/
 - group: build
   title: ''
   type: GitHubOrganization
@@ -59,7 +63,7 @@ network: true
 overview: 'HAMI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Computing, CNCF, GPU Virtualization, and Kubernetes.
 
 
-  HAMI''s developer surface includes documentation, engineering blog, and 1 more developer resources.'
+  HAMI''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
 random_paper: 16
 score:
   band: minimal
@@ -88,9 +92,13 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 6.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hami/refs/heads/main/screenshots/hami-2026-06-20T182500.png
 slug: hami
 tags:
@@ -98,4 +106,5 @@ tags:
 - CNCF
 - GPU Virtualization
 - Kubernetes
+website: https://www.project-hami.io/
 ---

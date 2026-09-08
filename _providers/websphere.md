@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -396,6 +396,10 @@ collections:
   name: Open Liberty APIs Applications Vulnerabilities API
   slug: open-websphere-vulnerabilities-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ibm.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1737,7 +1741,7 @@ overview: 'IBM WebSphere publishes 34 APIs on the [APIs.io](https://apis.io/) ne
   The IBM WebSphere catalog on APIs.io includes 8 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  IBM WebSphere''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, changelog, pricing, and 23 more developer resources.'
+  IBM WebSphere''s developer surface includes authentication, developer portal, support, documentation, getting-started guide, changelog, pricing, and 24 more developer resources.'
 plans:
 - name: Websphere Plans Pricing
   plan_count: 1
@@ -1771,7 +1775,7 @@ rules:
   slug: websphere-spectral-rules
 score:
   band: strong
-  composite: 55.0
+  composite: 54.3
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.5
@@ -1779,7 +1783,7 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -1797,9 +1801,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 34
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/screenshots/websphere-2026-06-20T201348.png
 security:
 - kind: authentication
@@ -1829,5 +1836,5 @@ use_cases:
 - Automated Compliance and Security Patching
 - Batch Processing and Job Management
 - Centralized Multi-Server Administration
-website: https://developer.ibm.com/wasdev/
+website: https://www.ibm.com/
 ---

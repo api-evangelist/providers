@@ -33,14 +33,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
-- description: CommScope (formerly ARRIS) provides API and integration capabilities for network infrastructure management, including tools for managing broadband devices, DOCSIS networks, and cable plant equipment t
-  name: CommScope Developer API
+- description: 'ARRIS Group publishes no API. The entry is retained to record the measurement: probed 2026-09-07, no OpenAPI, Swagger, AsyncAPI, GraphQL SDL, MCP endpoint, agent card or Postman collection was found o'
+  name: ARRIS Group Developer Surface
   slug: commscope-api
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.commscope.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -65,6 +69,30 @@ common:
   title: Support
   type: Support
   url: https://www.commscope.com/support/
+- group: build
+  title: ARRIS-Group on GitHub
+  type: GitHubOrganization
+  url: https://github.com/ARRIS-Group
+- group: agent
+  title: llms.txt for ARRIS Group
+  type: LLMsTxt
+  url: llms/arris-group-llms.txt
+coverage:
+  checked: '2026-09-07'
+  detail: 'ARRIS Group stopped existing as a publisher in 2019 when CommScope absorbed it, and the trail ends twice more since: CommScope sold the ex-ARRIS Home Networks unit to Vantiva in 2023 and renamed itself Vistance Networks in January 2026, so arris.com and arrisi.com now 301 straight to www.vistancenetworks.com while developer.arris.com, api.arris.com and support.arris.com return NXDOMAIN.'
+  evidence:
+  - status: 301
+    url: https://www.arris.com/
+  - status: 404
+    url: https://www.commscope.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.commscope.com/openapi.json
+  - status: 404
+    url: https://www.vistancenetworks.com/.well-known/agent-card.json
+  - status: 200
+    url: https://github.com/ARRIS-Group
+  reason: defunct
+  state: none
 created: '2024-12-03'
 description: ARRIS Group was a global telecommunications equipment company providing entertainment and communications solutions including broadband, video, and wireless products for service providers and consumers. ARRIS was acquired by CommScope in 2019, combining their broadband technology expertise with CommScope's infrastructure solutions. The combined company offers cable modem equipment, set-top boxes, network infrastructure, DOCSIS technology, and related telecommunications hardware and software platforms for cable operators, telcos, and internet service providers worldwide.
 features:
@@ -87,17 +115,17 @@ integrations:
 - description: Integration with Society of Cable Telecommunications Engineers (SCTE) standards for cable network operations and maintenance.
   name: SCTE Standards
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-07'
 name: ARRIS Group
 nav: Providers
 network: true
 overview: 'ARRIS Group publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Telecommunications, Broadband, Cable, Video, and Networking.
 
 
-  ARRIS Group''s developer surface includes engineering blog, developer portal, documentation, support, and 2 more developer resources.'
+  ARRIS Group''s developer surface includes engineering blog, developer portal, documentation, support, and 5 more developer resources.'
 plans:
 - name: Arris Group Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: arris-group-plans-pricing
 press:
 - date: '2026-05-25'
@@ -117,29 +145,29 @@ press:
   url: https://www.lightreading.com/network-technology/arris-wins-4k-stb-deal-with-altice
 random_paper: 13
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Arris Group Rate Limits
   slug: arris-group-rate-limits
 score:
-  band: emerging
-  composite: 13.1
+  band: minimal
+  composite: 10.6
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 46.0
+    artifact_dirs: 11
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -2.5
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
+    access_clarity: 7.9
+    commercial_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
-    discoverability: 68.5
+    discoverability: 66.7
     governance: 0.0
-    operational_transparency: 7.9
+    operational_transparency: 2.6
   previous_composite: 13.1
   regulatory:
     applies: true
@@ -147,9 +175,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/arris-group/refs/heads/main/screenshots/arris-group-2026-06-20T172437.png
 security:
 - kind: domain-security

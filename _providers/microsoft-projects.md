@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: REST API for managing projects, tasks, resources, and assignments in Microsoft Project for the web.
@@ -47,6 +47,10 @@ apis:
   slug: microsoft-project-desktop-csom-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: start
   title: ''
   type: X-portal
@@ -90,7 +94,7 @@ network: true
 overview: 'Microsoft Project APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Enterprise, Microsoft, Portfolio-Management, and Project Management.
 
 
-  Microsoft Project APIs'' developer surface includes engineering blog and 6 more developer resources.'
+  Microsoft Project APIs'' developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Microsoft Projects Plans Pricing
   plan_count: 3
@@ -120,16 +124,14 @@ score:
     discoverability: 46.3
     governance: 0.0
     operational_transparency: 7.9
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 9.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-projects/refs/heads/main/screenshots/microsoft-projects-2026-06-20T185528.png
 slug: microsoft-projects
 tags:
@@ -140,4 +142,5 @@ tags:
 - Project Management
 - Resources
 - Task
+website: https://www.microsoft.com/
 ---

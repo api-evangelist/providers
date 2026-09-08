@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,6 +57,10 @@ collections:
   name: Seismic SRC20 Factory REST tokens API
   slug: open-seismic-systems-tokens-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.seismic.systems/
 - group: agent
   title: ''
   type: X-MCPServerCandidate
@@ -152,7 +156,7 @@ network: true
 overview: 'Seismic Systems publishes 1 API on the [APIs.io](https://apis.io/) network: tokens API. Tagged areas include Company, Blockchain, Privacy, Encryption, and Stablecoins.
 
 
-  Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 14 more developer resources.'
+  Seismic Systems'' developer surface includes documentation, API reference, getting-started guide, support, CLI, sandbox, authentication, and 15 more developer resources.'
 random_paper: 11
 score:
   band: developing
@@ -185,9 +189,13 @@ score:
       total: 1
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/seismic-systems/refs/heads/main/screenshots/seismic-systems-2026-09-02T154810.png
 security:
 - kind: authentication
@@ -211,5 +219,5 @@ tags:
 - EVM
 - Cryptography
 - Developer Tools
-website: https://docs.seismic.systems/
+website: https://www.seismic.systems/
 ---

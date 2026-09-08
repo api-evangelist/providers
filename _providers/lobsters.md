@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,6 +81,10 @@ collections:
   name: Lobsters Comments Users API
   slug: open-lobsters-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lobste.rs/
 - group: operate
   title: ''
   type: IssueTracker
@@ -170,7 +174,7 @@ overview: 'Lobsters publishes 4 APIs on the [APIs.io](https://apis.io/) network,
   The Lobsters catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lobsters'' developer surface includes GitHub presence and 9 more developer resources.'
+  Lobsters'' developer surface includes GitHub presence and 10 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -219,9 +223,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/lobsters/refs/heads/main/screenshots/lobsters-2026-06-20T184628.png
 security:
 - kind: domain-security
@@ -241,4 +249,5 @@ tags:
 - Stories
 - Comments
 - Tags
+website: https://www.lobste.rs/
 ---

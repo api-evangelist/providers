@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,6 +61,10 @@ collections:
   name: Device Specs Values API
   slug: open-device-specs-api-values-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://gtgroup.dev/
 - group: agent
   title: ''
   type: X-MCPServerCandidate
@@ -211,7 +215,7 @@ overview: 'Device Specs API publishes 1 API on the [APIs.io](https://apis.io/) n
   The Device Specs API catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Device Specs API''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 27 more developer resources.'
+  Device Specs API''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Device Specs Api Plans
   plan_count: 4
@@ -264,9 +268,13 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/device-specs-api/refs/heads/main/screenshots/device-specs-api-2026-08-17T080857.png
 security:
 - kind: authentication
@@ -290,5 +298,5 @@ tags:
 - gsmarena
 - Reference Data
 - Developer Tools
-website: https://ds.gtgroup.dev/
+website: https://gtgroup.dev/
 ---

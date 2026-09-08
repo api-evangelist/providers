@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -134,6 +134,10 @@ collections:
   name: Visio JavaScript Application Shapes API
   slug: open-visio-shapes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -251,7 +255,7 @@ overview: 'Microsoft Visio API publishes 7 APIs on the [APIs.io](https://apis.io
   The Microsoft Visio API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Visio API''s developer surface includes authentication, pricing, engineering blog, changelog, and 15 more developer resources.'
+  Microsoft Visio API''s developer surface includes authentication, pricing, engineering blog, changelog, and 16 more developer resources.'
 plans:
 - name: Visio Plans Pricing
   plan_count: 3
@@ -285,7 +289,7 @@ rules:
   slug: visio-rules
 score:
   band: developing
-  composite: 48.3
+  composite: 47.5
   coverage:
     artifact_dirs: 17
     catalog_earned: 63.5
@@ -293,7 +297,7 @@ score:
     catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -311,9 +315,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/screenshots/visio-2026-06-20T201052.png
 security:
 - kind: authentication
@@ -337,5 +344,5 @@ tags:
 - Flowcharts
 - Microsoft-365
 - Visualization
-website: https://developer.microsoft.com/en-us/microsoft-365
+website: https://www.microsoft.com/
 ---

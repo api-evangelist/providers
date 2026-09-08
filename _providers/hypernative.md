@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Hypernative REST API exposes the platform's monitoring, detection, screening and automated-response surface — including Screener address reputation (/assets/reputation/addresses), asset and watchl
@@ -156,9 +156,13 @@ score:
   previous_composite: 30.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hypernative/refs/heads/main/screenshots/hypernative-2026-09-02T145811.png
 security:
 - kind: authentication

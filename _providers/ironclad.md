@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -210,6 +210,10 @@ collections:
   name: Ironclad OAuth 2.0 Authorization Workflows API
   slug: open-ironclad-workflows-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ironcladapp.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -482,7 +486,7 @@ overview: 'Ironclad publishes 12 APIs on the [APIs.io](https://apis.io/) network
   The Ironclad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Ironclad''s developer surface includes authentication, developer portal, documentation, API reference, changelog, pricing, support, and 34 more developer resources.'
+  Ironclad''s developer surface includes authentication, developer portal, documentation, API reference, changelog, pricing, support, and 35 more developer resources.'
 plans:
 - name: Ironclad Plans Pricing
   plan_count: 5
@@ -522,7 +526,7 @@ scopes:
   summary_line: 60 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 57.6
+  composite: 56.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 88.5
@@ -530,7 +534,7 @@ score:
     catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 57.9
     commercial_clarity: 57.9
@@ -548,9 +552,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:
 - kind: authentication
@@ -608,5 +615,5 @@ use_cases:
   name: Compliance and Obligation Management
 - description: Run conversational queries ("show every MSA expiring in Q3 with auto-renew") across the contract repository using Jurist.
   name: AI-Augmented Repository Search
-website: https://developer.ironcladapp.com/
+website: https://www.ironcladapp.com/
 ---

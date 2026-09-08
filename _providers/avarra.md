@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The production Avarra API, served from api.avarra.ai behind an AWS application load balancer. Every path under /v1/ is protected and returns a JSON 401 envelope without a bearer token; tokens are issu
@@ -157,9 +157,13 @@ score:
   previous_composite: 22.3
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/avarra/refs/heads/main/screenshots/avarra-2026-07-25T201910.png
 security:
 - kind: authentication

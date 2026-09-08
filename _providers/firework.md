@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Server-to-server REST API for managing businesses, channels, videos, livestreams, playlists, products, business stores, and insights, plus HMAC-signed webhooks. Secured with OAuth 2.0 (client credenti
@@ -45,6 +45,10 @@ asyncapis:
   name: Firework Webhooks
   slug: firework-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.firework.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -163,7 +167,7 @@ overview: 'Firework publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Firework catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Firework''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
+  Firework''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
 random_paper: 12
 scopes:
 - name: Firework Scopes
@@ -193,9 +197,13 @@ score:
   previous_composite: 47.4
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/firework/refs/heads/main/screenshots/firework-2026-07-25T214557.png
 security:
 - kind: authentication
@@ -218,5 +226,5 @@ tags:
 - Video
 - SDK
 - Webhook
-website: https://docs.firework.com/firework-for-developers
+website: https://www.firework.com/
 ---

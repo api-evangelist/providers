@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'The Web API plugin of the Forescout eyeExtend Connect Open Integration Module lets external systems query and act on the Forescout platform over HTTP. Clients authenticate at POST /api/login and pass '
@@ -153,9 +153,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/forescout/refs/heads/main/screenshots/forescout-2026-07-25T214933.png
 security:
 - kind: authentication

@@ -12,58 +12,6 @@
    "shown": 2,
    "providers": [
     {
-     "name": "Autopay",
-     "slug": "autopay",
-     "description": "Autopay is a Norwegian parking payment and management platform that provides APIs for parking operators, landlords, fleet managers, and third-party integrators. The platform enables automated parking permit management, payment processing, fleet tracking, and parking statistics with 13+ distinct API endpoints. All integrators must accept the Autopay API Usage Agreement before accessing the APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png",
-     "score": 57.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 55.8,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 81.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 36.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 1
-    },
-    {
      "name": "Atmospore Pollen Forecasts",
      "slug": "atmospore-pollen-forecasts",
      "description": "Atmospore is an Oslo-based provider of AI-driven global pollen and allergy forecasting. Its model combines GFS weather data with ground-truth observations from professional aerobiology networks to produce species-level forecasts on a ~28 km global grid, covering 25 individual tree, grass and weed species with multilingual metadata (English, Norwegian, Swedish) and published concentration thresholds for low/moderate/high/very-high risk. The surface is delivered three ways: a four-operation REST API at pollenapi.com with a live OpenAPI 3.0.3 contract, a hosted Model Context Protocol server at mcp.atmospore.com exposing the same capability as four agent tools, and a keyless embeddable iframe widget that consumes no API quota. Point forecasts, area averages with min/max across a radius, and severity-ranked top species are all available up to 14 days ahead; species metadata is served unauthenticated.",
@@ -81,8 +29,8 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -113,6 +61,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 1
+    },
+    {
+     "name": "Autopay",
+     "slug": "autopay",
+     "description": "Autopay is a Norwegian parking payment and management platform that provides APIs for parking operators, landlords, fleet managers, and third-party integrators. The platform enables automated parking permit management, payment processing, fleet tracking, and parking statistics with 13+ distinct API endpoints. All integrators must accept the Autopay API Usage Agreement before accessing the APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/screenshots/autopay-2026-06-20T172701.png",
+     "score": 56.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 55.8,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 81.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 36.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 2
     }
    ],
@@ -130,7 +130,7 @@
      "name": "DIPS",
      "slug": "dips",
      "description": "DIPS AS is Norway's largest supplier of electronic health record (EHR) systems to hospitals, in operation since 1987 and headquartered in Bodø. Its DIPS Arena EHR is built on the openEHR reference model and exposes standardised HL7 FHIR R4 and openEHR REST interfaces. Through Open DIPS — a public developer portal and synthetic-data sandbox at dips.developer.azure-api.net — DIPS publishes an OpenID Connect provider (DIPS Federation Service), a FHIR Patient API and a SMART on FHIR launch surface, backed by a public FHIR R4 Implementation Guide and an openEHR archetype repository on GitHub.",
-     "score": 53.7,
+     "score": 53.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -143,8 +143,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -182,7 +182,7 @@
      "slug": "opera",
      "description": "Opera is the Norway-based, Nasdaq-listed (OPRA) maker of the Opera, Opera GX, Opera Air, Opera Mini and Opera Neon web browsers, and the operator of the Opera Ads advertising and monetization platform. Opera Ads exposes six documented HTTP APIs: an advertiser Report API for daily campaign performance, a publisher Inventory Management API for apps and placements, a publisher OFP Report API for revenue and delivery, an ADX DSP Report API for exchange performance, a server-to-server Marketing API for conversion postbacks, and a TUS 1.0.0 resumable File Upload API. Around them sit Android and iOS ad SDKs with mediation adapters for AdMob, AppLovin MAX, TopOn, TradPlus and LevelPlay, an OpenRTB/ADX exchange with Prebid.js and Prebid Server adapters, a web JS ad tag, first-party Go OpenRTB and VAST libraries, and the self-serve Opera Ad Manager console. Authentication differs per API — bearer token, token query parameter, X-API-Key or HMAC signature — and every credential is issued by contacting Opera Ads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/opera/refs/heads/main/screenshots/opera-2026-08-17T083429.png",
-     "score": 44.8,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -195,8 +195,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -240,8 +240,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -299,8 +299,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -349,7 +349,7 @@
      "slug": "aquabyte",
      "description": "Aquabyte AS is a Norwegian-American aquaculture technology company, founded in 2017 with offices in Bergen (Laksevåg), Norway, San Francisco and Chile, that applies computer vision and machine learning to salmon and trout farming. Underwater cameras (Hydra 360, Hammerhead, Atlas) stream imagery into a cloud platform that produces biomass and weight estimation, sea-lice counting, welfare scoring, swim-speed and breathing-index behaviour metrics, environmental readings and feeding decision support, from smolt through harvest. Customers reach that data either through the Aquabyte customer portal at app.aquabyte.ai or through the Aquabyte Public API — a documented, API-key-authenticated REST service at api.aquabyte.ai/v3 whose OpenAPI 3.1 definition is served publicly at api.aquabyte.ai/openapi.json and rendered with ReDoc at /v3/docs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/screenshots/aquabyte-2026-08-07T161729.png",
-     "score": 36.0,
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -362,8 +362,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -407,8 +407,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -469,8 +469,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -514,8 +514,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -559,8 +559,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -604,8 +604,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -648,8 +648,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -693,8 +693,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",

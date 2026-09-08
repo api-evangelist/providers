@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the Everlane storefront, hosted on Shopify: a Model Context Protocol (MCP) server for catalog search, cart, product details, and store-policy lookup, plus a Universal'
@@ -143,9 +143,13 @@ score:
   previous_composite: 18.1
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/everlane/refs/heads/main/screenshots/everlane-2026-08-07T165037.png
 security:
 - kind: authentication

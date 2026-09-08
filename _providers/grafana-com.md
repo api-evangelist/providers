@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 20
 apis:
 - description: The full Grafana HTTP API surface for self-managed Grafana and Grafana Enterprise. Covers dashboards, folders, data sources, organizations, users, teams, service accounts, API keys, access control (RB
@@ -98,6 +98,10 @@ apis:
   slug: synthetic-monitoring-api
 artifact_total: 64
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.grafana.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -426,7 +430,7 @@ network: true
 overview: 'Grafana publishes 12 APIs on the [APIs.io](https://apis.io/) network, including HTTP API, Dashboard API, Folder and Search API, and 9 more. Tagged areas include Observability, Monitoring, Dashboards, Logs, and Metrics.
 
 
-  Grafana''s developer surface includes developer portal, documentation, authentication, tooling, pricing, engineering blog, signup flow, and 61 more developer resources.'
+  Grafana''s developer surface includes developer portal, documentation, authentication, tooling, pricing, engineering blog, signup flow, and 62 more developer resources.'
 plans:
 - name: Grafana Com Plans Pricing
   plan_count: 5
@@ -457,9 +461,13 @@ score:
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 52.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-com/refs/heads/main/screenshots/grafana-com-2026-06-20T182343.png
 security:
 - kind: domain-security
@@ -482,5 +490,5 @@ tags:
 - Alerting
 - Open-Source
 - Grafana Labs
-website: https://grafana.com
+website: https://www.grafana.com/
 ---

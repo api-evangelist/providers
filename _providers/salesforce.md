@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 172
   human_in_the_loop: 5
@@ -1773,6 +1773,10 @@ collections:
   name: Salesforce
   slug: open-salesforce
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.salesforce.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -18003,7 +18007,7 @@ overview: 'Salesforce publishes 152 APIs on the [APIs.io](https://apis.io/) netw
   The Salesforce catalog on APIs.io includes 3 event-driven AsyncAPI specifications, 4 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 120 more developer resources.'
+  Salesforce''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, documentation, getting-started guide, and 121 more developer resources.'
 plans:
 - name: Salesforce Plans Pricing
   plan_count: 6
@@ -18078,7 +18082,7 @@ scopes:
   summary_line: 36 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 82.9
+  composite: 89.4
   coverage:
     artifact_dirs: 42
     catalog_earned: 91.5
@@ -18086,7 +18090,7 @@ score:
     catalog_gap: 23.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 6.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -18107,9 +18111,12 @@ score:
       total: 256
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png
 security:
 - kind: authentication
@@ -18158,5 +18165,5 @@ use_cases:
   name: Commerce Storefront Integration
 - description: Automate metadata deployments and manage org configurations using Metadata and Tooling APIs.
   name: DevOps And CI/CD Automation
-website: https://developer.salesforce.com/
+website: https://www.salesforce.com/
 ---

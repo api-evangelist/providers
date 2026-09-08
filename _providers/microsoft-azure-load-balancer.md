@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Azure Load Balancer REST API
   slug: open-microsoft-azure-load-balancer
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -160,7 +164,7 @@ network: true
 overview: 'Azure Load Balancer publishes 2 APIs on the [APIs.io](https://apis.io/) network: Load Balancers API and Operations API. Tagged areas include Azure, High Availability, Layer 4, Load Balancing, and Network.
 
 
-  Azure Load Balancer''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 8 more developer resources.'
+  Azure Load Balancer''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Microsoft Azure Load Balancer Plans Pricing
   plan_count: 3
@@ -177,7 +181,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.3
+  composite: 47.9
   coverage:
     artifact_dirs: 12
     catalog_earned: 46.0
@@ -185,7 +189,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -203,9 +207,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-load-balancer/refs/heads/main/screenshots/microsoft-azure-load-balancer-2026-06-20T185420.png
 security:
 - kind: authentication
@@ -230,5 +237,5 @@ use_cases:
   name: VM Scale Set Load Balancing
 - description: Distribute traffic across multiple firewall or NVA instances using HA ports.
   name: Network Virtual Appliance Distribution
-website: https://portal.azure.com/
+website: https://www.microsoft.com/
 ---

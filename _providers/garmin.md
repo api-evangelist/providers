@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 17
 apis:
 - description: 'Connect IQ is Garmin''s open platform for building wearable apps that run on Garmin watches and cycling computers. Developers write apps in Monkey C — Garmin''s purpose-built object-oriented language — '
@@ -88,6 +88,10 @@ apis:
   slug: garmin-custom-maps
 artifact_total: 41
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.garmin.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -242,7 +246,7 @@ network: true
 overview: 'Garmin publishes 17 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GPS, Fitness, Wearables, Outdoor, and Connect IQ.
 
 
-  Garmin''s developer surface includes developer portal, documentation, signup flow, tooling, engineering blog, YouTube channel, and 23 more developer resources.'
+  Garmin''s developer surface includes developer portal, documentation, signup flow, tooling, engineering blog, YouTube channel, and 24 more developer resources.'
 random_paper: 8
 score:
   band: thin
@@ -271,9 +275,13 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/garmin/refs/heads/main/screenshots/garmin-2026-06-20T181648.png
 security:
 - kind: domain-security
@@ -294,5 +302,5 @@ tags:
 - Automotive
 - FIT
 - ANT
-website: https://www.garmin.com
+website: https://www.garmin.com/
 ---

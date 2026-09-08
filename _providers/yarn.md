@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The @yarnpkg/core programmatic JavaScript/TypeScript API that allows applications to interact with Yarn projects, workspaces, and dependency resolution. Used for building Yarn plugins and tooling inte
@@ -44,6 +44,10 @@ apis:
   slug: yarn-cli
 artifact_total: 33
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.yarnpkg.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -178,7 +182,7 @@ overview: 'YARN publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
   The YARN catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  YARN''s developer surface includes documentation, getting-started guide, API reference, changelog, and 14 more developer resources.'
+  YARN''s developer surface includes documentation, getting-started guide, API reference, changelog, and 15 more developer resources.'
 plans:
 - name: Yarn Plans Pricing
   plan_count: 3
@@ -223,9 +227,13 @@ score:
     applies: true
     score: 100.0
   previous_composite: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn/refs/heads/main/screenshots/yarn-2026-06-20T201731.png
 security:
 - kind: domain-security
@@ -251,4 +259,5 @@ use_cases:
   name: Package Publishing
 - description: Run scripts across workspaces, share dependencies, and enforce constraints in large multi-package projects.
   name: Workspace Coordination
+website: https://www.yarnpkg.com/
 ---

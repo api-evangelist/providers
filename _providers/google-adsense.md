@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,6 +93,10 @@ collections:
   name: Google AdSense Management API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -151,7 +155,7 @@ overview: 'Google AdSense Management publishes 5 APIs on the [APIs.io](https://a
   The Google AdSense Management catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google AdSense Management''s developer surface includes authentication, getting-started guide, pricing, and 7 more developer resources.'
+  Google AdSense Management''s developer surface includes authentication, getting-started guide, pricing, and 8 more developer resources.'
 plans:
 - name: Google Adsense Plans Pricing
   plan_count: 3
@@ -205,9 +209,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/screenshots/google-adsense-2026-06-20T182008.png
 security:
 - kind: authentication
@@ -231,4 +239,5 @@ tags:
 - Publishers
 - Reports
 - Revenue
+website: https://www.google.com/
 ---

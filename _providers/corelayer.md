@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Corelayer v1 REST API (api/v1) provides programmatic access to issues, groups, integrations, events, anomaly configs, deep research, API keys, and settings. It uses API-key authentication with rol
@@ -46,6 +46,10 @@ asyncapis:
   name: Corelayer Webhooks
   slug: corelayer-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.corelayer.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -188,7 +192,7 @@ overview: 'Corelayer publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Corelayer catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Corelayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
+  Corelayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 25 more developer resources.'
 random_paper: 0
 score:
   band: developing
@@ -215,9 +219,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/corelayer/refs/heads/main/screenshots/corelayer-2026-07-25T210427.png
 security:
 - kind: authentication
@@ -246,5 +254,5 @@ tags:
 - agent-native
 - MCP
 - Fintech
-website: https://docs.corelayer.com
+website: https://www.corelayer.com/
 ---

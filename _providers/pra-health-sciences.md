@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.iconplc.com/
 - group: other
   title: ''
   type: Acquirer
@@ -64,7 +68,7 @@ network: true
 overview: 'PRA Health Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Clinical Trials, Contract Research Organization, CRO, Life Sciences, and Pharmaceuticals.
 
 
-  PRA Health Sciences'' developer surface includes GitHub presence and 3 more developer resources.'
+  PRA Health Sciences'' developer surface includes GitHub presence and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
@@ -96,8 +100,6 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
       reason: never_enriched
   previous_composite: 2.5
   regulatory:
@@ -106,9 +108,13 @@ score:
     regime: Health
     regime_id: health
     score: 0.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pra-health-sciences/refs/heads/main/screenshots/pra-health-sciences-2026-06-20T192037.png
 slug: pra-health-sciences
 tags:
@@ -121,4 +127,5 @@ tags:
 - Healthcare
 - Defunct
 - Acquired
+website: https://www.iconplc.com/
 ---

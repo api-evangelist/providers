@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: REST API for Adobe Commerce providing access to products, catalogs, categories, customers, carts, checkout, orders, inventory, sales rules, CMS content, and store configuration. Endpoints follow the p
@@ -121,9 +121,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-commerce/refs/heads/main/screenshots/adobe-commerce-2026-06-20T164845.png
 security:
 - kind: domain-security

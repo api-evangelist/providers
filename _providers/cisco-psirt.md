@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -63,6 +63,10 @@ apis:
   slug: cisco-psirt-sunset-endpoints-api
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cisco.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -238,7 +242,7 @@ network: true
 overview: 'Cisco PSIRT openVuln API publishes 3 APIs on the [APIs.io](https://apis.io/) network: Current Endpoints API, Obsolete Endpoints API, and Sunset Endpoints API. Tagged areas include Security, Vulnerability Management, Threat Intelligence, Disclosure, and Compliance.
 
 
-  Cisco PSIRT openVuln API''s developer surface includes authentication, developer portal, documentation, API reference, CLI, getting-started guide, FAQ, and 34 more developer resources.'
+  Cisco PSIRT openVuln API''s developer surface includes authentication, developer portal, documentation, API reference, CLI, getting-started guide, FAQ, and 35 more developer resources.'
 plans:
 - name: Cisco Psirt Plans Pricing
   plan_count: 0
@@ -284,9 +288,13 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-psirt/refs/heads/main/screenshots/cisco-psirt-2026-09-02T145044.png
 security:
 - kind: authentication
@@ -313,5 +321,5 @@ tags:
 - Disclosure
 - Compliance
 - Networking
-website: https://developer.cisco.com/psirt/
+website: https://www.cisco.com/
 ---

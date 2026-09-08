@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: REST API for institutional custody (Taurus-PROTECT) and tokenization / digital asset issuance (Taurus-CAPITAL). Bearer + HMAC request signing, versioned under /api/rest/v1/, cursor-based pagination, g
@@ -52,6 +52,10 @@ asyncapis:
   name: Taurus Protect Webhooks
   slug: taurus-protect-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.taurushq.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -158,7 +162,7 @@ overview: 'Taurus publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
   The Taurus catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Taurus'' developer surface includes documentation, API reference, getting-started guide, authentication, and 19 more developer resources.'
+  Taurus'' developer surface includes documentation, API reference, getting-started guide, authentication, and 20 more developer resources.'
 random_paper: 4
 score:
   band: thin
@@ -195,9 +199,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/taurus/refs/heads/main/screenshots/taurus-2026-09-02T162612.png
 security:
 - kind: authentication
@@ -228,5 +236,5 @@ tags:
 - Financial-Services
 - Fintech
 - Institutional
-website: https://docs.taurushq.com/
+website: https://www.taurushq.com/
 ---

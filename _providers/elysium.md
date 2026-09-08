@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Elysium Health's storefront implements the Universal Commerce Protocol (UCP) for agent-driven commerce, discoverable at https://www.elysiumhealth.com/.well-known/ucp. The merchant profile advertises t
@@ -206,9 +206,13 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/elysium/refs/heads/main/screenshots/elysium-2026-07-25T213214.png
 security:
 - kind: authentication

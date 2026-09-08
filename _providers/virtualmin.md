@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: HTTP-based Remote API served from Webmin's remote.cgi on port 10000. Each call passes a `program` parameter naming one of ~200 command-line programs (create-domain, list-domains, create-user, create-a
@@ -42,6 +42,10 @@ apis:
   slug: virtualmin-remote-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.virtualmin.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -137,7 +141,7 @@ network: true
 overview: 'Virtualmin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web Hosting, Control Panel, Server Management, and Webmin.
 
 
-  Virtualmin''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 14 more developer resources.'
+  Virtualmin''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 15 more developer resources.'
 random_paper: 7
 score:
   band: thin
@@ -162,9 +166,13 @@ score:
   previous_composite: 27.9
   provenance:
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtualmin/refs/heads/main/screenshots/virtualmin-2026-09-02T170019.png
 security:
 - kind: authentication
@@ -191,5 +199,5 @@ tags:
 - WordPress
 - Open-Source
 - Linux
-website: https://www.virtualmin.com/docs/development/
+website: https://www.virtualmin.com/
 ---

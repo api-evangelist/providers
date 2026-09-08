@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 52
 apis:
 - baseURL: https://api.umbrella.com/admin/v2
@@ -468,6 +468,10 @@ apis:
   slug: cisco-umbrella-whois-information-for-a-domain-api
 artifact_total: 92
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cisco.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -743,7 +747,7 @@ network: true
 overview: 'Cisco Umbrella publishes 85 APIs on the [APIs.io](https://apis.io/) network, including Activities API, Activity API, API Keys API, and 82 more. Tagged areas include Security, DNS, Secure Web Gateway, Cloud Security, and Zero Trust.
 
 
-  Cisco Umbrella''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 59 more developer resources.'
+  Cisco Umbrella''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, support, engineering blog, and 60 more developer resources.'
 plans:
 - name: Cisco Umbrella Plans Pricing
   plan_count: 0
@@ -760,7 +764,7 @@ scopes:
   summary_line: 61 scopes
 score:
   band: strong
-  composite: 60.0
+  composite: 59.3
   coverage:
     artifact_dirs: 22
     catalog_earned: 49.0
@@ -768,7 +772,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -788,9 +792,12 @@ score:
       total: 85
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-umbrella/refs/heads/main/screenshots/cisco-umbrella-2026-09-02T145048.png
 security:
 - kind: authentication
@@ -821,5 +828,5 @@ tags:
 - Firewall
 - Threat Investigation
 - Networking
-website: https://developer.cisco.com/docs/cloud-security/
+website: https://www.cisco.com/
 ---

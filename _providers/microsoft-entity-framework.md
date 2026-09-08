@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: A lightweight, extensible, open source and cross-platform ORM for .NET. Supports SQL Server, PostgreSQL, MySQL, SQLite, Cosmos DB, and in-memory databases.
@@ -44,6 +44,10 @@ apis:
   slug: ef6
 artifact_total: 27
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -147,7 +151,7 @@ overview: 'Microsoft Entity Framework publishes 2 APIs on the [APIs.io](https://
   The Microsoft Entity Framework catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Microsoft Entity Framework''s developer surface includes developer portal, engineering blog, Stack Overflow tag, YouTube channel, support, and 11 more developer resources.'
+  Microsoft Entity Framework''s developer surface includes developer portal, engineering blog, Stack Overflow tag, YouTube channel, support, and 12 more developer resources.'
 plans:
 - name: Microsoft Entity Framework Plans Pricing
   plan_count: 3
@@ -192,9 +196,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 35.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entity-framework/refs/heads/main/screenshots/microsoft-entity-framework-2026-06-20T185456.png
 security:
 - kind: domain-security
@@ -232,5 +240,5 @@ use_cases:
   name: Domain-Driven Design
 - description: Map existing database schemas to modern .NET classes with Database First.
   name: Legacy Database Integration
-website: https://learn.microsoft.com/en-us/ef/
+website: https://www.microsoft.com/
 ---

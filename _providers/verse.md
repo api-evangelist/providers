@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Authenticated backend API for Verse, served at api.verse.inc over the Connect RPC protocol (gRPC-compatible; advertises Connect-Protocol-Version and Authorization headers, and OPTIONS/GET/POST/PATCH/D
@@ -40,6 +40,10 @@ apis:
   slug: verse-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Blog
+  url: https://verse.inc/category/guides/
 - group: company
   title: ''
   type: Website
@@ -72,7 +76,10 @@ modified: '2026-07-21'
 name: Verse
 nav: Providers
 network: true
-overview: Verse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Connect RPC, gRPC, Bessemer Portfolio, and Cloudflare.
+overview: 'Verse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Connect RPC, gRPC, Bessemer Portfolio, and Cloudflare.
+
+
+  Verse''s developer surface includes engineering blog and 6 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -95,9 +102,13 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 8.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/verse/refs/heads/main/screenshots/verse-2026-09-02T165815.png
 security:
 - kind: domain-security

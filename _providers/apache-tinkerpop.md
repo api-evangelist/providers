@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'The Gremlin Server provides WebSocket and HTTP endpoints for submitting Gremlin traversals to a remote graph database. The HTTP API accepts POST requests with Gremlin traversal strings or bytecode at '
@@ -44,6 +44,10 @@ apis:
   slug: apache-tinkerpop-gremlin-api
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -141,7 +145,7 @@ network: true
 overview: 'Apache TinkerPop publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Graph Computing, Graph Database, Gremlin, OLAP, and OLTP.
 
 
-  Apache TinkerPop''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 9 more developer resources.'
+  Apache TinkerPop''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 10 more developer resources.'
 plans:
 - name: Apache Tinkerpop Plans Pricing
   plan_count: 3
@@ -175,9 +179,13 @@ score:
     applies: true
     score: 75.0
   previous_composite: 31.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tinkerpop/refs/heads/main/screenshots/apache-tinkerpop-2026-06-20T172154.png
 security:
 - kind: domain-security
@@ -207,5 +215,5 @@ use_cases:
   name: Recommendation Engines
 - description: Model and query complex permission hierarchies and role relationships.
   name: Identity and Access Management
-website: https://tinkerpop.apache.org/
+website: https://www.apache.org/
 ---

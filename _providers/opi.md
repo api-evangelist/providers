@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: API for the Open Programmable Infrastructure project, enabling programmatic access to DPU and IPU offloading capabilities for infrastructure management services including security, load balancing, and
@@ -41,6 +41,10 @@ apis:
   slug: opi-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.opiproject.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -76,7 +80,7 @@ network: true
 overview: 'Open Programmable Infrastructure publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DPU, Infrastructure, Linux Foundation, and Networking.
 
 
-  Open Programmable Infrastructure''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
+  Open Programmable Infrastructure''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
 plans:
 - name: Opi Plans Pricing
   plan_count: 3
@@ -107,9 +111,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 12.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/opi/refs/heads/main/screenshots/opi-2026-06-20T191101.png
 security:
 - kind: domain-security
@@ -122,4 +130,5 @@ tags:
 - Infrastructure
 - Linux Foundation
 - Networking
+website: https://www.opiproject.org/
 ---

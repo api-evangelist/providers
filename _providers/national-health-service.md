@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Use this API to submit ambulance data to the NHS Data Processing Service (DPS) so that it can be made available for analysis and review by NHS England and ambulance trusts.
@@ -117,9 +117,13 @@ score:
     regime: Health
     regime_id: health
     score: 15.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-health-service/refs/heads/main/screenshots/national-health-service-2026-06-20T190024.png
 security:
 - kind: domain-security

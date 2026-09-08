@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -466,6 +466,10 @@ collections:
   name: airbyte-api
   slug: open-airbyte
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.airbyte.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -2678,7 +2682,7 @@ overview: 'Airbyte publishes 24 APIs on the [APIs.io](https://apis.io/) network,
   The Airbyte catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Airbyte''s developer surface includes authentication, changelog, CLI, developer portal, developer console, signup flow, pricing, and 49 more developer resources.'
+  Airbyte''s developer surface includes authentication, changelog, CLI, developer portal, developer console, signup flow, pricing, and 50 more developer resources.'
 plans:
 - name: Airbyte Plans Pricing
   plan_count: 5
@@ -2716,8 +2720,8 @@ scopes:
   slug: airbyte-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: strong
-  composite: 65.9
+  band: exemplar
+  composite: 67.4
   coverage:
     artifact_dirs: 34
     catalog_earned: 66.5
@@ -2725,7 +2729,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -2745,9 +2749,12 @@ score:
       marker_coverage: 0.0
       total: 24
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/airbyte/refs/heads/main/screenshots/airbyte-2026-06-20T171421.png
 security:
 - kind: authentication
@@ -2790,5 +2797,5 @@ use_cases:
   name: Database Replication
 - description: Load and embed data into vector stores for AI search and retrieval.
   name: Vector Database Population
-website: https://airbyte.com
+website: https://www.airbyte.com/
 ---

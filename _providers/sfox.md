@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: REST API for trading, order management, RFQ, account balances and transactions, transfers/deposits/withdrawals, custody (sFOX SAFE), staking, post-trade settlement, market data, and reporting. Bearer-
@@ -56,6 +56,10 @@ asyncapis:
   name: sFOX WebSocket API
   slug: sfox-websocket-asyncapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sfox.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -170,7 +174,7 @@ overview: 'Sfox publishes 2 APIs on the [APIs.io](https://apis.io/) network: RES
   The Sfox catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Sfox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 18 more developer resources.'
+  Sfox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 19 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 2
@@ -206,9 +210,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 55.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sfox/refs/heads/main/screenshots/sfox-2026-08-17T081823.png
 security:
 - kind: authentication
@@ -233,5 +241,5 @@ tags:
 - Market Data
 - WebSocket
 - FIX
-website: https://www.sfox.com/api/
+website: https://www.sfox.com/
 ---

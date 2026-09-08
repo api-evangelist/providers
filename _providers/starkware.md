@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: The Starknet full-node JSON-RPC API (OpenRPC), covering read methods (blocks, transactions, state, classes, events, fees), write methods (add invoke/declare/deploy-account transactions), trace methods
@@ -201,9 +201,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/starkware/refs/heads/main/screenshots/starkware-2026-09-02T160805.png
 security:
 - kind: authentication

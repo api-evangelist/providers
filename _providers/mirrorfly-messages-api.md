@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'REST/HTTP API for chat and messaging (User and Admin APIs) with JSON payloads. Production base URL is tenant-specific; a public preprod sandbox is available for testing. Auth via username/password to '
@@ -43,6 +43,10 @@ apis:
   slug: mirrorfly-chat-platform-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mirrorfly.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -158,7 +162,7 @@ network: true
 overview: 'MirrorFly Messages API publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include CPaaS, Communications, Chat / Messaging API, Voice API, and Video API.
 
 
-  MirrorFly Messages API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  MirrorFly Messages API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 11
 score:
   band: thin
@@ -189,9 +193,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 41.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirrorfly-messages-api/refs/heads/main/screenshots/mirrorfly-messages-api-2026-09-02T150554.png
 security:
 - kind: authentication
@@ -215,5 +223,5 @@ tags:
 - Self-hosted / On-premise
 - AI Agents / Chatbots
 - Contact Center
-website: https://www.mirrorfly.com/docs/
+website: https://www.mirrorfly.com/
 ---

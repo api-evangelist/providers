@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -102,6 +102,10 @@ collections:
   name: Microsoft Active Directory (via Microsoft Graph)
   slug: open-microsoft-active-directory
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -161,7 +165,7 @@ network: true
 overview: 'Microsoft Active Directory publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Directory Roles API, Groups API, and 2 more. Tagged areas include Authentication, Authorization, Directory Services, Enterprise, and Identity.
 
 
-  Microsoft Active Directory''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
+  Microsoft Active Directory''s developer surface includes authentication, engineering blog, support, and 9 more developer resources.'
 plans:
 - name: Microsoft Active Directory Plans Pricing
   plan_count: 3
@@ -178,7 +182,7 @@ scopes:
   summary_line: 9 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 42.3
+  composite: 41.6
   coverage:
     artifact_dirs: 11
     catalog_earned: 41.0
@@ -186,7 +190,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -204,9 +208,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-active-directory/refs/heads/main/screenshots/microsoft-active-directory-2026-06-20T185347.png
 security:
 - kind: authentication
@@ -230,5 +237,5 @@ tags:
 - Identity
 - LDAP
 - Windows
-website: https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/
+website: https://www.microsoft.com/
 ---

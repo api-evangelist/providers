@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Swan''s Partner API is a GraphQL API for embedding banking: accounts and account holders, memberships, cards, SEPA credit transfers and direct debits, standing orders, merchant payments, onboarding, an'
@@ -45,6 +45,10 @@ asyncapis:
   name: Swan Webhooks
   slug: swan-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.swan.io/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -191,7 +195,7 @@ overview: 'Swan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The Swan catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Swan''s developer surface includes documentation, API reference, getting-started guide, developer console, support, engineering blog, pricing, and 26 more developer resources.'
+  Swan''s developer surface includes documentation, API reference, getting-started guide, developer console, support, engineering blog, pricing, and 27 more developer resources.'
 random_paper: 0
 scopes:
 - name: Swan Scopes
@@ -237,9 +241,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 62.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/swan/refs/heads/main/screenshots/swan-2026-08-17T082209.png
 security:
 - kind: authentication
@@ -262,5 +270,5 @@ tags:
 - GraphQL
 - Europe
 - Account
-website: https://docs.swan.io/
+website: https://www.swan.io/
 ---

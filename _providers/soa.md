@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Reference resources and tooling for SOA governance, service registries, and enterprise service management. Includes patterns for service discovery, versioning, SLA management, and policy enforcement i
@@ -41,6 +41,10 @@ apis:
   slug: soa-governance
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.w3.org/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -120,7 +124,7 @@ overview: 'SOA publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
   The SOA catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  SOA''s developer surface includes code examples and 10 more developer resources.'
+  SOA''s developer surface includes code examples and 11 more developer resources.'
 plans:
 - name: Soa Plans Pricing
   plan_count: 3
@@ -162,9 +166,13 @@ score:
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 20.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/soa/refs/heads/main/screenshots/soa-2026-06-20T194116.png
 security:
 - kind: domain-security
@@ -185,4 +193,5 @@ tags:
 - ESB
 - Microservices
 - API Design
+website: https://www.w3.org/
 ---

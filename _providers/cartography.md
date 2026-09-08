@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 11
 apis:
 - description: Python tool that ingests infrastructure data from 30+ providers into a Neo4j graph for cross-provider security analysis.
@@ -177,9 +177,13 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 17.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartography/refs/heads/main/screenshots/cartography-2026-07-25T204658.png
 slug: cartography
 tags:

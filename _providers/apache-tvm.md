@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and optimizing computational graphs, tvm.auto_sche
@@ -44,6 +44,10 @@ apis:
   slug: apache-tvm-rpc-api
 artifact_total: 22
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -135,7 +139,7 @@ network: true
 overview: 'Apache TVM publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Compiler, Deep Learning, Edge Computing, and Model Optimization.
 
 
-  Apache TVM''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 7 more developer resources.'
+  Apache TVM''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, engineering blog, and 8 more developer resources.'
 plans:
 - name: Apache Tvm Plans Pricing
   plan_count: 3
@@ -169,9 +173,13 @@ score:
     applies: true
     score: 40.0
   previous_composite: 25.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tvm/refs/heads/main/screenshots/apache-tvm-2026-06-20T172156.png
 security:
 - kind: domain-security
@@ -199,5 +207,5 @@ use_cases:
   name: Cross-Platform Deployment
 - description: Integrate custom AI accelerators using TVM's BYOC framework.
   name: Custom Accelerator Integration
-website: https://tvm.apache.org/
+website: https://www.apache.org/
 ---

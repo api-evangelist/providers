@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: MINA Core provides a Java NIO-based API for building high-performance network applications with support for TCP and UDP protocols, an event-driven filter chain for protocol codecs, session management,
@@ -47,6 +47,10 @@ apis:
   slug: apache-ftpserver
 artifact_total: 25
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -136,7 +140,7 @@ network: true
 overview: 'Apache MINA publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Async I/O, Java, Networking, NIO, and Protocol Framework.
 
 
-  Apache MINA''s developer surface includes developer portal and 11 more developer resources.'
+  Apache MINA''s developer surface includes developer portal and 12 more developer resources.'
 plans:
 - name: Apache Mina Plans Pricing
   plan_count: 3
@@ -170,9 +174,13 @@ score:
     applies: true
     score: 15.0
   previous_composite: 21.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mina/refs/heads/main/screenshots/apache-mina-2026-06-20T172122.png
 security:
 - kind: domain-security
@@ -202,5 +210,5 @@ use_cases:
   name: High-Concurrency Network Services
 - description: Implement lightweight IoT device communication protocols over TCP/UDP using MINA's framework.
   name: IoT Device Communication
-website: https://mina.apache.org/
+website: https://www.apache.org/
 ---

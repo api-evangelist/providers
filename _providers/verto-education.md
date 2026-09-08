@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: A remote Model Context Protocol endpoint served from Verto Education's own WordPress installation and advertised through RFC 9728 protected-resource metadata. Access requires an OAuth 2.0 access token
@@ -175,9 +175,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Verto Education Authentication

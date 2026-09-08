@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: The BitMart Spot Trading REST API provides programmatic access to spot trading on the BitMart global cryptocurrency exchange. Developers can place and manage limit, market, and algorithmic orders, que
@@ -56,6 +56,10 @@ apis:
   slug: account-wallet-api
 artifact_total: 30
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bitmart.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -145,7 +149,7 @@ overview: 'BitMart publishes 6 APIs on the [APIs.io](https://apis.io/) network. 
   The BitMart catalog on APIs.io includes 1 JSON-LD context.
 
 
-  BitMart''s developer surface includes developer portal, documentation, getting-started guide, and 6 more developer resources.'
+  BitMart''s developer surface includes developer portal, documentation, getting-started guide, and 7 more developer resources.'
 plans:
 - name: Bitmart Plans Pricing
   plan_count: 5
@@ -182,9 +186,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmart/refs/heads/main/screenshots/bitmart-2026-06-20T173312.png
 security:
 - kind: domain-security
@@ -211,5 +219,5 @@ use_cases:
   name: Futures Strategy Execution
 - description: Exploit price differences across BitMart spot, margin, and futures markets.
   name: Arbitrage Trading
-website: https://developer-pro.bitmart.com/
+website: https://bitmart.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -642,6 +642,10 @@ collections:
   name: Google Ads Ad Groups Reporting API
   slug: open-google-ads-reporting-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -896,7 +900,7 @@ overview: 'Google Ads publishes 108 APIs on the [APIs.io](https://apis.io/) netw
   The Google Ads catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Ads'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, Stack Overflow tag, developer console, and 47 more developer resources.'
+  Google Ads'' developer surface includes authentication, developer portal, getting-started guide, engineering blog, support, Stack Overflow tag, developer console, and 48 more developer resources.'
 plans:
 - name: Google Ads Plans Pricing
   plan_count: 4
@@ -924,7 +928,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 67.2
+  composite: 71.5
   coverage:
     artifact_dirs: 32
     catalog_earned: 75.3
@@ -932,7 +936,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -953,9 +957,12 @@ score:
       total: 108
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png
 security:
 - kind: authentication
@@ -978,5 +985,5 @@ tags:
 - Google
 - Marketing
 - PPC
-website: https://developers.google.com/google-ads/api
+website: https://www.google.com/
 ---

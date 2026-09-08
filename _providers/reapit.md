@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: 'The core Foundations REST API over the Reapit agency CRM data platform. It is documented as a hypermedia REST API with date-based versioning (the `api-version: 2020-01-31` header is required), optimis'
@@ -311,9 +311,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/reapit/refs/heads/main/screenshots/reapit-2026-08-17T081459.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -608,7 +608,7 @@ rules:
   slug: eth-zurich-rules
 score:
   band: developing
-  composite: 45.4
+  composite: 44.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 62.3
@@ -616,7 +616,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -649,9 +649,12 @@ score:
     regime: Education & Research
     regime_id: education
     score: 50.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/eth-zurich/refs/heads/main/screenshots/eth-zurich-2026-06-20T180834.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for the Runscope (now BlazeMeter API Monitoring) platform. Manages buckets, API tests, environments, scheduled runs, and test results, plus account administration. Authenticated with OAuth2 b
@@ -41,6 +41,10 @@ apis:
   slug: runscope-api-monitoring-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blazemeter.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -96,7 +100,7 @@ network: true
 overview: 'Runscope publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Monitoring, API Testing, Observability, and Synthetic Monitoring.
 
 
-  Runscope''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 5 more developer resources.'
+  Runscope''s developer surface includes documentation, API reference, support, engineering blog, pricing, authentication, and 6 more developer resources.'
 random_paper: 18
 score:
   band: emerging
@@ -119,9 +123,13 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 20.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/runscope/refs/heads/main/screenshots/runscope-2026-09-02T154210.png
 security:
 - kind: authentication
@@ -141,5 +149,5 @@ tags:
 - Synthetic Monitoring
 - Developer Tools
 - Quality Assurance
-website: https://www.blazemeter.com/product/api-monitoring
+website: https://www.blazemeter.com/
 ---

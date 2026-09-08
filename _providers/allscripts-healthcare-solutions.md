@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: HL7 FHIR R4 (4.0.1) REST API for Veradigm EHR, aligned to USCDI for 21st Century Cures Act patient and provider access. The live CapabilityStatement declares 31 resource types (Patient, Encounter, Obs
@@ -249,9 +249,13 @@ score:
     regime: Health
     regime_id: health
     score: 70.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts-healthcare-solutions/refs/heads/main/screenshots/allscripts-healthcare-solutions-2026-06-20T171537.png
 security:
 - kind: authentication

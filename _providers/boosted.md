@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The Boosted.ai (Alfa) API delivers personalized, autonomous market insights and conversational investment research to platforms via API, SDK, or embedded UI. Documented endpoints let a client execute '
@@ -42,6 +42,10 @@ apis:
   slug: boostedai-api-alfa
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.boosted.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -133,7 +137,7 @@ network: true
 overview: 'Boosted.ai publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Finance, Investment Management, and Financial-Services.
 
 
-  Boosted.ai''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 15 more developer resources.'
+  Boosted.ai''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, and 16 more developer resources.'
 random_paper: 17
 score:
   band: thin
@@ -164,9 +168,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/boosted/refs/heads/main/screenshots/boosted-2026-07-25T203622.png
 security:
 - kind: authentication
@@ -196,5 +204,5 @@ tags:
 - Machine-Learning
 - Research
 - Fintech
-website: https://www.boosted.ai/api
+website: https://www.boosted.ai/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 13.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 11
 apis:
 - description: Unified, multi-chain REST data API (formerly Ubiquity) providing fully indexed blockchain data across 50+ networks. Lookup blocks by number or hash, fetch transactions, account balances for one or man
@@ -71,6 +71,10 @@ apis:
   slug: blockdaemon-institutional-vault
 artifact_total: 50
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blockdaemon.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -398,7 +402,7 @@ overview: 'Blockdaemon publishes 11 APIs on the [APIs.io](https://apis.io/) netw
   The Blockdaemon catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Blockdaemon''s developer surface includes developer portal, documentation, getting-started guide, authentication, support, engineering blog, tooling, and 57 more developer resources.'
+  Blockdaemon''s developer surface includes developer portal, documentation, getting-started guide, authentication, support, engineering blog, tooling, and 58 more developer resources.'
 plans:
 - name: Blockdaemon Plans Pricing
   plan_count: 4
@@ -446,9 +450,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockdaemon/refs/heads/main/screenshots/blockdaemon-2026-06-20T173357.png
 security:
 - kind: domain-security
@@ -475,5 +483,5 @@ tags:
 - Tokenization
 - Institutional
 - Crypto
-website: https://www.blockdaemon.com
+website: https://www.blockdaemon.com/
 ---

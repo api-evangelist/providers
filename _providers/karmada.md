@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Karmada extends the Kubernetes API with custom resources for multi-cluster management including PropagationPolicy for distributing resources across clusters, OverridePolicy for cluster-specific custom
@@ -41,6 +41,10 @@ apis:
   slug: karmada-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.karmada.io/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -72,7 +76,7 @@ network: true
 overview: 'Karmada publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Federation, Incubating, Kubernetes, and Multi-Cluster.
 
 
-  Karmada''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
+  Karmada''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
 plans:
 - name: Karmada Plans Pricing
   plan_count: 3
@@ -103,9 +107,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 13.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/karmada/refs/heads/main/screenshots/karmada-2026-06-20T183921.png
 security:
 - kind: domain-security
@@ -120,5 +128,5 @@ tags:
 - Kubernetes
 - Multi-Cluster
 - Scheduling
-website: https://karmada.io
+website: https://www.karmada.io/
 ---

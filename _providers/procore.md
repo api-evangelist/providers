@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Procore API provides programmatic access to Procore's construction management platform, enabling developers to build custom applications and integrations. The API exposes endpoints for projects, c
@@ -41,6 +41,10 @@ apis:
   slug: procore-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.procore.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -80,7 +84,7 @@ network: true
 overview: 'Procore publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Construction, Project Management, Construction Management, Field Productivity, and Financial Management.
 
 
-  Procore''s developer surface includes engineering blog and 4 more developer resources.'
+  Procore''s developer surface includes engineering blog and 5 more developer resources.'
 plans:
 - name: Procore Plans Pricing
   plan_count: 3
@@ -111,9 +115,13 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 39.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/procore/refs/heads/main/screenshots/procore-2026-06-20T192130.png
 security:
 - kind: domain-security
@@ -131,4 +139,5 @@ tags:
 - Construction Management
 - Field Productivity
 - Financial Management
+website: https://www.procore.com/
 ---

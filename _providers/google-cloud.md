@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -61,6 +61,10 @@ collections:
   name: Google Compute Engine API
   slug: open-google-cloud
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,7 +219,7 @@ network: true
 overview: 'Google Cloud Platform publishes 1 API on the [APIs.io](https://apis.io/) network: Projects API. Tagged areas include Cloud Computing, Data Analytics, Infrastructure, Machine-Learning, and Platform-as-a-Service.
 
 
-  Google Cloud Platform''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, pricing, engineering blog, and 16 more developer resources.'
+  Google Cloud Platform''s developer surface includes authentication, developer portal, documentation, getting-started guide, support, pricing, engineering blog, and 17 more developer resources.'
 plans:
 - name: Google Cloud Plans Pricing
   plan_count: 3
@@ -232,7 +236,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 44.8
+  composite: 44.1
   coverage:
     artifact_dirs: 12
     catalog_earned: 40.0
@@ -240,7 +244,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -258,9 +262,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud/refs/heads/main/screenshots/google-cloud-2026-08-17T082807.png
 security:
 - kind: authentication
@@ -282,5 +289,5 @@ tags:
 - Infrastructure
 - Machine-Learning
 - Platform-as-a-Service
-website: https://console.cloud.google.com
+website: https://www.google.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,6 +150,10 @@ collections:
   name: MBTA V3 Alerts Vehicles API
   slug: open-mbta-vehicles-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mbta.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -201,7 +205,7 @@ network: true
 overview: 'MBTA publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Alerts API, Facilities API, Lines API, and 9 more. Tagged areas include Boston, Massachusetts, Public Transportation, Real-Time, and Transit.
 
 
-  MBTA''s developer surface includes authentication, developer portal, signup flow, engineering blog, and 5 more developer resources.'
+  MBTA''s developer surface includes authentication, developer portal, signup flow, engineering blog, and 6 more developer resources.'
 plans:
 - name: Mbta Plans Pricing
   plan_count: 3
@@ -239,9 +243,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/mbta/refs/heads/main/screenshots/mbta-2026-06-20T185053.png
 security:
 - kind: authentication
@@ -259,5 +267,5 @@ tags:
 - Public Transportation
 - Real-Time
 - Transit
-website: https://www.mbta.com/developers
+website: https://www.mbta.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://gateway.remote.com/v1/
@@ -723,6 +723,10 @@ collections:
   name: Remote Address Details Work Authorization API
   slug: open-remote-work-authorization-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.remote.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -877,7 +881,7 @@ overview: 'Remote publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
   The Remote catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
+  Remote''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
 random_paper: 1
 rate_limits:
 - limit_count: 0
@@ -890,7 +894,7 @@ scopes:
   summary_line: 86 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 47.0
+  composite: 52.4
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -898,7 +902,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -918,9 +922,12 @@ score:
       total: 14
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote/refs/heads/main/screenshots/remote-2026-08-17T081516.png
 security:
 - kind: authentication
@@ -946,5 +953,5 @@ tags:
 - Benefits
 - Compliance
 - Human Resources
-website: https://developer.remote.com/
+website: https://www.remote.com/
 ---

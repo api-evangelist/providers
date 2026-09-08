@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol (MCP) server operated by Cerapedics at mcp.cerapedics.com. The endpoint publishes RFC 9728 protected-resource metadata and RFC 8414 authorization-server metad
@@ -172,9 +172,13 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cerapedics/refs/heads/main/screenshots/cerapedics-2026-08-07T163308.png
 security:
 - kind: authentication

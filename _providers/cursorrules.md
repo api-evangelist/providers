@@ -11,6 +11,10 @@ access_model:
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cursor.com/
 - group: docs
   title: ''
   type: Cursor Documentation
@@ -58,4 +62,5 @@ tags:
 - Prompt Engineering
 - Rules
 - Standard
+website: https://www.cursor.com/
 ---

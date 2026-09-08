@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'Narrowly scoped official API that returns public Substack profile data for a given LinkedIn handle. Access requires accepting the Developer API Terms of Use, applying via form, and generating a token '
@@ -266,9 +266,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/substack/refs/heads/main/screenshots/substack-2026-06-20T194631.png
 security:
 - kind: authentication

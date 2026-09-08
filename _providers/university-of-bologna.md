@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 12
 apis:
 - description: Institution-operated CKAN open data portal serving the standard CKAN Action API over University of Bologna datasets. Verified live 2026-09-01 — https://dati.unibo.it/api/3/action/package_list returned
@@ -222,9 +222,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bologna/refs/heads/main/screenshots/university-of-bologna-2026-06-20T200136.png
 security:
 - kind: authentication

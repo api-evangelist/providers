@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Google Custom Search JSON API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -152,7 +156,7 @@ overview: 'Google Custom Search publishes 1 API on the [APIs.io](https://apis.io
   The Google Custom Search catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Custom Search''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 9 more developer resources.'
+  Google Custom Search''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
 plans:
 - name: Google Custom Search Plans Pricing
   plan_count: 3
@@ -201,9 +205,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-custom-search/refs/heads/main/screenshots/google-custom-search-2026-06-20T182152.png
 security:
 - kind: authentication
@@ -225,5 +233,5 @@ tags:
 - Image Search
 - Search
 - Web Search
-website: https://developers.google.com/custom-search
+website: https://www.google.com/
 ---

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.enosys.global/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -79,7 +83,7 @@ network: true
 overview: 'Enosys Markets is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Decentralized Exchange, and Flare Network.
 
 
-  Enosys Markets'' developer surface includes developer portal, documentation, engineering blog, support, and 4 more developer resources.'
+  Enosys Markets'' developer surface includes developer portal, documentation, engineering blog, support, and 5 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -108,9 +112,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/enosys-markets/refs/heads/main/screenshots/enosys-markets-2026-07-25T213427.png
 security:
 - kind: domain-security
@@ -128,5 +136,5 @@ tags:
 - Cryptocurrency
 - Web3
 - Lending
-website: https://enosys.global
+website: https://www.enosys.global/
 ---

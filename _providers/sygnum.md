@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: Real-time account and balance retrieval across fiat, digital assets and traditional securities held at Sygnum, with role-based permissions, exposed to B2B partners as REST.
@@ -289,9 +289,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 74.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sygnum/refs/heads/main/screenshots/sygnum-2026-09-02T161443.png
 security:
 - kind: authentication

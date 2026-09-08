@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: One REST API across the revenue surface — contacts, companies, campaigns and events — plus SDKs, a CLI and an MCP server. Preview access; a workspace endpoint is issued on request.
@@ -118,9 +118,13 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 27.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/graph8/refs/heads/main/screenshots/graph8-2026-08-07T165820.png
 slug: graph8
 tags:

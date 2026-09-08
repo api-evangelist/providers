@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -69,6 +69,10 @@ collections:
   name: Azure Cost Management REST API
   slug: open-microsoft-azure-cost-management
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -127,7 +131,7 @@ network: true
 overview: 'Azure Cost Management publishes 2 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-cost-management Exports API and microsoft-azure-cost-management Operations API.
 
 
-  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, and 7 more developer resources.'
+  Azure Cost Management''s developer surface includes authentication, developer portal, pricing, support, and 8 more developer resources.'
 plans:
 - name: Microsoft Azure Cost Management Plans Pricing
   plan_count: 3
@@ -144,7 +148,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 36.9
+  composite: 38.4
   coverage:
     artifact_dirs: 12
     catalog_earned: 41.0
@@ -152,7 +156,7 @@ score:
     catalog_gap: 74.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -173,9 +177,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cost-management/refs/heads/main/screenshots/microsoft-azure-cost-management-2026-06-20T185407.png
 security:
 - kind: authentication
@@ -187,5 +194,5 @@ security:
   slug: microsoft-azure-cost-management-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-cost-management
-website: https://portal.azure.com/
+website: https://www.microsoft.com/
 ---

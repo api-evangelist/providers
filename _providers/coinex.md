@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The primary HTTP REST API for CoinEx, providing access to spot trading, futures, perpetual contracts, account management, asset operations, market data, and referral endpoints. Authentication uses HMA
@@ -47,6 +47,10 @@ apis:
   slug: coinex-websocket-api-v2-futures
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.coinex.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -134,7 +138,7 @@ network: true
 overview: 'CoinEx publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency, Exchange, Spot Trading, Futures, and Perpetual Contracts.
 
 
-  CoinEx''s developer surface includes developer console, documentation, authentication, changelog, GitHub presence, and 13 more developer resources.'
+  CoinEx''s developer surface includes developer console, documentation, authentication, changelog, GitHub presence, and 14 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -171,9 +175,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 46.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinex/refs/heads/main/screenshots/coinex-2026-06-20T174731.png
 security:
 - kind: domain-security
@@ -194,4 +202,5 @@ tags:
 - Market Data
 - WebSocket
 - Finance
+website: https://www.coinex.com/
 ---

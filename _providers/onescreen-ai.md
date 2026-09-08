@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'OneScreen''s only API surface: a remote Model Context Protocol server over Streamable HTTP that exposes OOH audience personas, market and inventory rankings, geospatial points of interest, media-owner '
@@ -181,9 +181,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/onescreen-ai/refs/heads/main/screenshots/onescreen-ai-2026-08-07T190340.png
 security:
 - kind: authentication

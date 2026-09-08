@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface Centric Brands operates across eight of its owned-brand direct-to-consumer storefronts (Hudson Jeans, Joe's Jeans, Favorite Daughter, Buffalo David Bitton, Avirex, He
@@ -40,6 +40,10 @@ apis:
   slug: centric-brands-owned-brand-storefront-commerce-ucp-mcp
 artifact_total: 44
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.centricbrands.com/
 - group: agent
   title: ''
   type: MCPServer
@@ -235,7 +239,7 @@ network: true
 overview: 'Centric Brands publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Accessories, Footwear, Beauty, and Kids.
 
 
-  Centric Brands'' developer surface includes authentication, developer portal, engineering blog, and 24 more developer resources.'
+  Centric Brands'' developer surface includes authentication, developer portal, engineering blog, and 25 more developer resources.'
 plans:
 - name: Centric Brands Plans Pricing
   plan_count: 0
@@ -279,9 +283,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/centric-brands/refs/heads/main/screenshots/centric-brands-2026-06-20T174129.png
 security:
 - kind: authentication
@@ -336,5 +344,5 @@ use_cases:
   name: Strategic Brand Joint Ventures
 - description: Inorganic growth via brand acquisitions, e.g., Jennifer Fisher (early 2024); historic portfolio rebuilt post-Chapter 11 around higher-margin owned labels.
   name: Brand Acquisitions
-website: https://www.centricbrands.com
+website: https://www.centricbrands.com/
 ---

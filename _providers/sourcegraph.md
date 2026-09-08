@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: Versioned external REST API introduced in Sourcegraph 7.0 and intended as the stable integration surface going forward. Each Sourcegraph instance exposes its own /api-reference path where the live Ope
@@ -68,6 +68,10 @@ apis:
   slug: src-cli
 artifact_total: 37
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sourcegraph.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -201,7 +205,7 @@ network: true
 overview: 'Sourcegraph publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Intelligence, Code Search, Cody, AMP, and AI Coding Agent.
 
 
-  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 13 more developer resources.'
+  Sourcegraph''s developer surface includes developer portal, documentation, API reference, engineering blog, CLI, pricing, support, and 14 more developer resources.'
 plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
@@ -235,9 +239,13 @@ score:
     applies: true
     score: 25.0
   previous_composite: 30.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcegraph/refs/heads/main/screenshots/sourcegraph-2026-06-20T194223.png
 security:
 - kind: domain-security
@@ -273,5 +281,5 @@ use_cases:
   name: Codebase Research
 - description: Expose Sourcegraph code intelligence as MCP tools for AI agents.
   name: Agentic Code Tooling
-website: https://sourcegraph.com
+website: https://www.sourcegraph.com/
 ---

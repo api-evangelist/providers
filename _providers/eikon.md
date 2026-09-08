@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: News
+  url: https://www.eikontx.com/news/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.eikontx.com/contact/
 - group: company
   title: ''
   type: Website
@@ -91,7 +99,7 @@ network: true
 overview: 'Eikon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Drug Discovery.
 
 
-  Eikon''s developer surface includes engineering blog, support, and 9 more developer resources.'
+  Eikon''s developer surface includes product news, engineering blog, support, and 10 more developer resources.'
 random_paper: 9
 score:
   band: minimal
@@ -125,9 +133,13 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/eikon/refs/heads/main/screenshots/eikon-2026-07-25T213018.png
 security:
 - kind: domain-security

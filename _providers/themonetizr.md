@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Serves active branded campaigns/missions to games and lets a game reset campaign progress and claim rewards. Consumed by the official Monetizr Unity SDK with a per-game HTTP Bearer API key.
@@ -140,9 +140,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/themonetizr/refs/heads/main/screenshots/themonetizr-2026-09-02T163445.png
 security:
 - kind: authentication

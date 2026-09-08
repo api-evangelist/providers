@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Xbox Live Services provides APIs for achievements, leaderboards, multiplayer, matchmaking, social features, presence, and cloud saves. Game developers can integrate Xbox Live features for player ident
@@ -44,6 +44,10 @@ apis:
   slug: playfab-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -91,7 +95,7 @@ network: true
 overview: 'Microsoft Xbox publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Gaming, Microsoft, PlayFab, Xbox, and Xbox Live.
 
 
-  Microsoft Xbox''s developer surface includes developer portal, support, and 6 more developer resources.'
+  Microsoft Xbox''s developer surface includes developer portal, support, and 7 more developer resources.'
 plans:
 - name: Microsoft Xbox Plans Pricing
   plan_count: 3
@@ -122,9 +126,13 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 20.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-xbox/refs/heads/main/screenshots/microsoft-xbox-2026-06-20T185546.png
 security:
 - kind: domain-security
@@ -142,5 +150,5 @@ tags:
 - PlayFab
 - Xbox
 - Xbox Live
-website: https://developer.microsoft.com/en-us/games/
+website: https://www.microsoft.com/
 ---

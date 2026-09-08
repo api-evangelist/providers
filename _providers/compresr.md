@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -266,6 +266,10 @@ collections:
   name: Compresr Platform Admin Usage API
   slug: open-compresr-usage-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.compresr.ai/
 - group: other
   title: ''
   type: CapabilityMap
@@ -417,7 +421,7 @@ network: true
 overview: 'Compresr publishes 27 APIs on the [APIs.io](https://apis.io/) network, including Admin API, Admin - Whitelist API, API Keys API, and 24 more. Tagged areas include LLM, Context Compression, Prompt Engineering, RAG, and AI Infrastructure.
 
 
-  Compresr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 27 more developer resources.'
+  Compresr''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, changelog, and 28 more developer resources.'
 plans:
 - name: Compresr Plans
   plan_count: 2
@@ -429,7 +433,7 @@ rate_limits:
   slug: compresr-rate-limits
 score:
   band: strong
-  composite: 60.7
+  composite: 62.8
   coverage:
     artifact_dirs: 25
     catalog_earned: 60.0
@@ -437,7 +441,7 @@ score:
     catalog_gap: 55.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -458,9 +462,12 @@ score:
       total: 27
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/compresr/refs/heads/main/screenshots/compresr-2026-07-25T210203.png
 security:
 - kind: authentication
@@ -482,5 +489,5 @@ tags:
 - Agents
 - Tokens
 - Y Combinator
-website: https://compresr.ai/docs
+website: https://www.compresr.ai/
 ---

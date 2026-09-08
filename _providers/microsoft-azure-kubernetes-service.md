@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 3
@@ -118,6 +118,10 @@ collections:
   name: Azure Kubernetes Service REST Agent Pools Managed Clusters API
   slug: open-microsoft-azure-kubernetes-service-managed-clusters-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -969,7 +973,7 @@ overview: 'Azure Kubernetes Service publishes 2 APIs on the [APIs.io](https://ap
   The Azure Kubernetes Service catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Azure Kubernetes Service''s developer surface includes authentication, developer portal, getting-started guide, CLI, support, engineering blog, Stack Overflow tag, and 36 more developer resources.'
+  Azure Kubernetes Service''s developer surface includes authentication, developer portal, getting-started guide, CLI, support, engineering blog, Stack Overflow tag, and 37 more developer resources.'
 plans:
 - name: Azure Kubernetes Service Plans Pricing
   plan_count: 3
@@ -1024,7 +1028,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 70.7
+  composite: 72.2
   coverage:
     artifact_dirs: 19
     catalog_earned: 75.0
@@ -1032,7 +1036,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1053,9 +1057,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-kubernetes-service/refs/heads/main/screenshots/microsoft-azure-kubernetes-service-2026-06-20T185419.png
 security:
 - kind: authentication
@@ -1085,5 +1092,5 @@ use_cases:
   name: Machine Learning
 - description: Deploy containerized workloads to edge locations using AKS Edge Essentials and Azure IoT.
   name: Edge Computing
-website: https://portal.azure.com/
+website: https://www.microsoft.com/
 ---

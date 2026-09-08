@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,6 +82,10 @@ collections:
   name: Red Hat Security Data API
   slug: open-red-hat-enterprise-linux-8-security-data
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.redhat.com/
 - group: agent
   title: ''
   type: MCPServer
@@ -239,7 +243,7 @@ overview: 'Red Hat Enterprise Linux 8 publishes 3 APIs on the [APIs.io](https://
   The Red Hat Enterprise Linux 8 catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 19 more developer resources.'
+  Red Hat Enterprise Linux 8''s developer surface includes developer portal, documentation, support, engineering blog, release notes, training material, and 20 more developer resources.'
 plans:
 - name: Red Hat Enterprise Linux 8 Plans Pricing
   plan_count: 6
@@ -299,9 +303,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat-enterprise-linux-8/refs/heads/main/screenshots/red-hat-enterprise-linux-8-2026-06-20T192718.png
 security:
 - kind: domain-security
@@ -323,5 +331,5 @@ tags:
 - Operating System
 - Red Hat
 - RHEL
-website: https://access.redhat.com/
+website: https://www.redhat.com/
 ---

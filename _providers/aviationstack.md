@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,6 +141,10 @@ collections:
   name: AviationStack API
   slug: open-aviationstack
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.aviationstack.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -176,7 +180,7 @@ network: true
 overview: 'Aviationstack publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Aircraft Types API, Airlines API, Airplanes API, and 8 more. Tagged areas include Airlines, Airports, Aviation, Flights, and Real-Time.
 
 
-  Aviationstack''s developer surface includes developer portal and 4 more developer resources.'
+  Aviationstack''s developer surface includes developer portal and 5 more developer resources.'
 plans:
 - name: Aviationstack Plans Pricing
   plan_count: 3
@@ -214,9 +218,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/aviationstack/refs/heads/main/screenshots/aviationstack-2026-06-20T172726.png
 security:
 - kind: domain-security
@@ -230,5 +238,5 @@ tags:
 - Aviation
 - Flights
 - Real-Time
-website: https://aviationstack.com/documentation
+website: https://www.aviationstack.com/
 ---

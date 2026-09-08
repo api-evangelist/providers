@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -76,6 +76,10 @@ collections:
   name: Cloud Healthcare projects API
   slug: open-google-cloud-healthcare-projects-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -631,7 +635,7 @@ overview: 'Google Cloud Healthcare publishes 1 API on the [APIs.io](https://apis
   The Google Cloud Healthcare catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Cloud Healthcare''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, release notes, and 12 more developer resources.'
+  Google Cloud Healthcare''s developer surface includes authentication, getting-started guide, pricing, developer console, CLI, support, release notes, and 13 more developer resources.'
 plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
@@ -659,7 +663,7 @@ scopes:
   summary_line: 2 scopes · implicit/authorizationCode
 score:
   band: developing
-  composite: 52.5
+  composite: 52.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 67.3
@@ -667,7 +671,7 @@ score:
     catalog_gap: 47.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -691,9 +695,12 @@ score:
     regime: Health
     regime_id: health
     score: 43.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/screenshots/google-cloud-healthcare-2026-06-20T182114.png
 security:
 - kind: authentication
@@ -718,4 +725,5 @@ tags:
 - De-Identification
 - Interoperability
 - Cloud
+website: https://www.google.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 340
   human_in_the_loop: 5
@@ -922,6 +922,10 @@ collections:
   name: Fulcrum Public Accounting Code WorkCenter API
   slug: open-fulcrumpro-workcenter-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.fulcrumpro.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1045,11 +1049,11 @@ network: true
 overview: 'Fulcrumpro publishes 109 APIs on the [APIs.io](https://apis.io/) network, including Accounting Code API, Attachment API, Attachment Certification API, and 106 more. Tagged areas include Company, Manufacturing, ERP, MES, and Manufacturing Execution.
 
 
-  Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
+  Fulcrumpro''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 21 more developer resources.'
 random_paper: 11
 score:
   band: developing
-  composite: 41.3
+  composite: 46.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 24.0
@@ -1057,7 +1061,7 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -1083,9 +1087,12 @@ score:
       total: 109
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrumpro/refs/heads/main/screenshots/fulcrumpro-2026-07-25T215252.png
 security:
 - kind: authentication
@@ -1110,5 +1117,5 @@ tags:
 - Purchasing
 - Quoting
 - Scheduling
-website: https://developers.fulcrumpro.com/docs
+website: https://www.fulcrumpro.com/
 ---

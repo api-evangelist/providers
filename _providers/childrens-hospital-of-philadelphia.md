@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,6 +96,10 @@ collections:
   name: Children's Hospital of Philadelphia FHIR R4 API
   slug: open-chop-fhir-r4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.chop.edu/
 - group: other
   title: ''
   type: CapabilityMap
@@ -241,7 +245,7 @@ overview: 'Children''s Hospital of Philadelphia publishes 4 APIs on the [APIs.io
   The Children''s Hospital of Philadelphia catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 13 more developer resources.'
+  Children''s Hospital of Philadelphia''s developer surface includes authentication, developer portal, engineering blog, support, and 14 more developer resources.'
 random_paper: 2
 rules:
 - effective_rule_count: 5
@@ -304,9 +308,13 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/childrens-hospital-of-philadelphia/refs/heads/main/screenshots/childrens-hospital-of-philadelphia-2026-06-20T174310.png
 security:
 - kind: authentication
@@ -350,5 +358,5 @@ use_cases:
   name: Pediatric Cancer Research Collaboration
 - description: Link2CHOP gives credentialed referring physicians live access to discharge notes, labs, imaging, medications, and diagnoses for shared patients.
   name: Referring Provider Read-Only EMR Access
-website: https://fhir.epic.com
+website: https://www.chop.edu/
 ---

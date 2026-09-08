@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 24.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The UCP-conforming Model Context Protocol endpoint Virtuix serves from its own domain. Thirteen tools cover catalog search and lookup, product detail, cart create/update/cancel, checkout create/update
@@ -193,9 +193,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Virtuix Authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The AgentOps Python SDK is the primary entry point, installable via pip install agentops and initialized with two lines of code. It auto-instruments supported agent frameworks and LLM providers, suppo
@@ -209,9 +209,13 @@ score:
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 24.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/agentops/refs/heads/main/screenshots/agentops-2026-06-20T170038.png
 security:
 - kind: domain-security

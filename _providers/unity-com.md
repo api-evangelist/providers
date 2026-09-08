@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 19
 apis:
 - description: Player Authentication for Unity Gaming Services. Anonymous, social (Apple/Google/Facebook/Steam/Oculus/PlayStation/Xbox/Nintendo), username/password, and custom-ID sign-in flows that mint Unity player
@@ -95,6 +95,10 @@ apis:
   slug: unity-admin-and-iam-api
 artifact_total: 50
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.unity.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -323,7 +327,7 @@ overview: 'Unity publishes 19 APIs on the [APIs.io](https://apis.io/) network. T
   The Unity catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Unity''s developer surface includes developer portal, documentation, training material, support, changelog, signup flow, engineering blog, and 38 more developer resources.'
+  Unity''s developer surface includes developer portal, documentation, training material, support, changelog, signup flow, engineering blog, and 39 more developer resources.'
 plans:
 - name: Unity Plans Pricing
   plan_count: 8
@@ -354,9 +358,13 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 45.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity-com/refs/heads/main/screenshots/unity-com-2026-06-20T200110.png
 security:
 - kind: domain-security
@@ -383,5 +391,5 @@ tags:
 - XR
 - ML-Agents
 - Asset Pipeline
-website: https://unity.com
+website: https://www.unity.com/
 ---

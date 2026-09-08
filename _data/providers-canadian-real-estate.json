@@ -29,8 +29,8 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -87,7 +87,7 @@
      "slug": "crea",
      "description": "The Canadian Real Estate Association (CREA) is the national industry body for Canadian residential real estate, representing roughly 160,000 REALTORS through some 60 member boards and associations, owning the MLS and REALTOR trademarks in Canada, and operating REALTOR.ca - the country's single national consumer listing portal. Where the United States fragments into roughly 500 independently governed MLSs, Canada consolidates: CREA runs the REALTOR.ca Data Distribution Facility (DDF), one national syndication seam that collects listing content from member boards' MLS Systems and redistributes it to member websites, franchisor pools, and a network of Real Estate Advertising Websites. That makes CREA simultaneously the standards-setter (it writes the DDF Policy and Rules that boards must adopt and enforce), the operator of the pipe, and the gatekeeper of the data. Its API posture is unusually good for an industry body and still firmly gated. Three real machine-readable contracts are downloadable anonymously - an OpenAPI 3.0.4 document for the DDF Web API served from ddfapi.realtor.ca/swagger/v1/swagger.json and embedded in the public Redoc site at ddfapi-docs.realtor.ca, an OpenAPI 3.0.1 document for the REALTOR.ca Board API at boardapi-docs.realtor.ca, and a full OpenID Connect discovery document at identity.crea.ca. The DDF Web API is an OData v4 surface normalized to the RESO Data Dictionary and described by CREA as built on the RESO Web API specification, but CREA is RESO-aligned rather than RESO-certified - it does not appear in RESO's public certification directory of 578 organizations, where the only Canadian entries are individual boards such as the Toronto Regional Real Estate Board and Greater Vancouver REALTORS, none of them Certified Current. Nothing is self-serve. There is no signup, no sandbox and no free tier; client_id and client_secret are, in CREA's own words, provided by CREA. A REALTOR must opt in through the DDF Dashboard on CREA's member portal, and a third-party developer must enter a data access agreement with CREA as a Technology Provider operating a National Pool Website or Member Website on behalf of that opted-in member. The OData $metadata document, the actual RESO contract, returns HTTP 401 to anonymous callers. No open, unlicensed Canadian listing dataset exists behind any of it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/crea/refs/heads/main/screenshots/crea-2026-08-07T163831.png",
-     "score": 42.3,
+     "score": 41.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -100,8 +100,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -140,52 +140,6 @@
    "shown": 5,
    "providers": [
     {
-     "name": "Landcor Data",
-     "slug": "landcor",
-     "description": "Landcor Data Corporation is a New Westminster, British Columbia property data and automated valuation company, founded in 2000, that sells residential valuations, assessment detail and land title documents across the roughly 1.9 million residential properties in BC. It sits in the valuation and public-record layer of the Canadian value chain rather than the listings layer: its inputs are BC Assessment detail, Land Title and Survey Authority (LTSA) title and document search, BC Registry Services, municipal tax certificates and materials licensed from the Integrated Cadastral Information Society (ICIS), and its outputs are the Valuator AVM report, the Adjusted Value Profiler, the Property Profiler, Title Search Plus and historic valuation reports sold to lenders, appraisers, notaries, insurers and brokerages. Its API posture is the unusual case in this study: a real, live, anonymously readable machine-readable contract exists with no developer programme around it. The host api.landcor.com runs a FastAPI service on Azure App Service in Canada Central that serves a valid OpenAPI 3.1.0 document titled \"Landcor Property API\" version 0.1.0 at /openapi.json, with Swagger UI at /docs and ReDoc at /redoc, all returning HTTP 200 without credentials. Twelve operations cover property search, property detail, PDF report retrieval, valuation range, valuation history, loan-to-value checks, neighbourhood sales series, comparables, address autocomplete and an AVM narrative summary. Every operation except /health requires an HTTP Bearer token and returns 401 \"Missing token\" without one, and no route to obtain that token is published anywhere: landcor.com carries no developer, API, partner or data-licensing page, does not link api.landcor.com at all, and the store.landcor.com self-serve account is for buying individual reports through the web store, not for API credentials. RESO is absent, which is the expected Canadian answer. Landcor is not among the nineteen Canadian organizations RESO lists as members, holds no Web API or Data Dictionary certification, exposes no OData $metadata document, and uses its own PID identifier rather than the RESO Universal Property Identifier. No open, unlicensed dataset is published: the underlying assessment, title and cadastral data is licensed to Landcor from provincial bodies and resold, so the public record itself is a commercial product here.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png",
-     "score": 38.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 50.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 26.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Valuation & AVM",
-     "rank": 3
-    },
-    {
      "name": "Wahi",
      "slug": "wahi",
      "description": "Wahi is a Toronto-headquartered Canadian digital real estate platform and licensed brokerage — Wahi Inc., trading as Wahi Realty Inc., Brokerage — founded in 2021 by Benjy Katchen. It runs a consumer home search, an instant home valuation estimate, market data products (Market Pulse, House Price Index), a Wahi Select REALTOR matching service and a cashback program across Ontario, British Columbia, Alberta, Nova Scotia, Saskatchewan and New Brunswick. Wahi sits in the challenger layer of the Canadian listings value chain and does not own the data it surfaces: Canadian residential listings run through CREA, the single national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF), and Wahi reaches that data as a member brokerage and through a commercial MLS connectivity vendor (Repliers) rather than by operating a feed of its own. Wahi runs no developer programme: there is no developer portal, no api./developer./developers./docs. subdomain (all fail DNS resolution), no API key or OAuth credential path, and no RESO Web API certification, RESO Data Dictionary certification, OData service or $metadata document anywhere on its hosts — Wahi appears in neither the RESO certificates directory nor RESO's Canadian membership roster. The Terms of Use expressly forbid automated access, crawling and scraping, and forbid collecting, copying, storing or redistributing MLS data. It does, however, publish two agent-facing artifacts that a portal-shaped search misses: a 421KB llms.txt at https://wahi.com/llms.txt (Last-Updated 2025-07-20) and an OpenAI-style AI plugin manifest at /.well-known/ai-plugin.json that points to a genuine OpenAPI 3.0.1 \"Listing Search API\" at https://wahi.com/gpt/openapi.yaml — one anonymous searchListings operation with 30 typed filters over Canadian listings. The spec is still served; the server it names, api.prod.wahi.com/gpt, returns 404, so the contract is published but unserved. A live Apollo GraphQL endpoint exists at api.prod.wahi.com/graphql with introspection disabled and robots.txt disallowing it, and the stock WordPress REST API of the marketing CMS remains anonymously callable. Wahi is overwhelmingly an API consumer rather than a producer, but not a zero.",
@@ -203,8 +157,8 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -236,6 +190,52 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
+     "rank": 3
+    },
+    {
+     "name": "Landcor Data",
+     "slug": "landcor",
+     "description": "Landcor Data Corporation is a New Westminster, British Columbia property data and automated valuation company, founded in 2000, that sells residential valuations, assessment detail and land title documents across the roughly 1.9 million residential properties in BC. It sits in the valuation and public-record layer of the Canadian value chain rather than the listings layer: its inputs are BC Assessment detail, Land Title and Survey Authority (LTSA) title and document search, BC Registry Services, municipal tax certificates and materials licensed from the Integrated Cadastral Information Society (ICIS), and its outputs are the Valuator AVM report, the Adjusted Value Profiler, the Property Profiler, Title Search Plus and historic valuation reports sold to lenders, appraisers, notaries, insurers and brokerages. Its API posture is the unusual case in this study: a real, live, anonymously readable machine-readable contract exists with no developer programme around it. The host api.landcor.com runs a FastAPI service on Azure App Service in Canada Central that serves a valid OpenAPI 3.1.0 document titled \"Landcor Property API\" version 0.1.0 at /openapi.json, with Swagger UI at /docs and ReDoc at /redoc, all returning HTTP 200 without credentials. Twelve operations cover property search, property detail, PDF report retrieval, valuation range, valuation history, loan-to-value checks, neighbourhood sales series, comparables, address autocomplete and an AVM narrative summary. Every operation except /health requires an HTTP Bearer token and returns 401 \"Missing token\" without one, and no route to obtain that token is published anywhere: landcor.com carries no developer, API, partner or data-licensing page, does not link api.landcor.com at all, and the store.landcor.com self-serve account is for buying individual reports through the web store, not for API credentials. RESO is absent, which is the expected Canadian answer. Landcor is not among the nineteen Canadian organizations RESO lists as members, holds no Web API or Data Dictionary certification, exposes no OData $metadata document, and uses its own PID identifier rather than the RESO Universal Property Identifier. No open, unlicensed dataset is published: the underlying assessment, title and cadastral data is licensed to Landcor from provincial bodies and resold, so the public record itself is a commercial product here.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/landcor/refs/heads/main/screenshots/landcor-2026-08-07T171419.png",
+     "score": 37.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 50.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 26.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Valuation & AVM",
      "rank": 4
     },
     {
@@ -243,7 +243,7 @@
      "slug": "realtor-ca",
      "description": "REALTOR.ca is the national residential property listing portal of the Canadian Real Estate Association (CREA), the cooperative trade association representing roughly 160,000 REALTORS® across some 60 member boards and associations in Canada. Unlike the United States, where roughly 500 independent MLSs each run their own data pipe, Canadian listing distribution is consolidated through CREA's REALTOR.ca Data Distribution Facility (DDF®), a single national syndication service that normalizes MLS® System data from member boards and republishes it to member websites, franchisor sites, real estate advertising websites and technology providers. CREA sits squarely in the middle of the Canadian value chain — it owns the consumer portal, the national listing pool, and the syndication rails that every downstream site depends on. Its API posture is real but closed: the DDF® Web API is a genuine OData surface at https://ddfapi.realtor.ca/odata/v1 with public, browsable documentation and a downloadable OpenAPI 3.0.4 description, yet every endpoint (including the OData $metadata document) returns 401 without a Bearer token, and tokens are only issued via client_credentials against identity.crea.ca using data-feed credentials that a REALTOR® or broker owner must first create and link in the member portal. CREA is a RESO member and states its data is normalized to the RESO Data Dictionary, but no CREA entry could be confirmed in the RESO certification directory, so this profile records the DDF® Web API as RESO-aligned rather than RESO-certified. There is no self-serve developer signup, no sandbox, no open data product, and no public consumer search API for realtor.ca itself.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/realtor-ca/refs/heads/main/screenshots/realtor-ca-2026-09-02T153017.png",
-     "score": 35.8,
+     "score": 35.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -256,8 +256,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -302,8 +302,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -348,8 +348,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -411,8 +411,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -463,8 +463,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -516,8 +516,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -569,8 +569,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -621,8 +621,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -677,8 +677,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -729,8 +729,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ collections:
   name: Waodao Token Metadata API
   slug: open-waodao-token-metadata-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.waodao.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -251,7 +255,7 @@ network: true
 overview: 'WAODAO publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Art Chain API, Liquidity Pools API, Schema API, and 1 more. Tagged areas include AI Agents, ArtChain, Human and AI, NFT Metadata, and On-chain Culture.
 
 
-  WAODAO''s developer surface includes documentation, support, authentication, code examples, and 28 more developer resources.'
+  WAODAO''s developer surface includes documentation, support, authentication, code examples, and 29 more developer resources.'
 random_paper: 5
 score:
   band: thin
@@ -284,9 +288,13 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/waodao/refs/heads/main/screenshots/waodao-2026-09-02T170429.png
 security:
 - kind: authentication
@@ -311,5 +319,5 @@ tags:
 - Solana
 - agent-native
 - Digital Art
-website: https://waodao.ai/ai-agents
+website: https://www.waodao.ai/
 ---

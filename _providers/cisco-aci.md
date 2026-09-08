@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The Application Policy Infrastructure Controller REST API is the single programmatic interface into the ACI Management Information Tree. GET, POST and DELETE against /api/mo/<distinguished-name>.json '
@@ -49,6 +49,10 @@ asyncapis:
   name: Cisco Aci Event Subscriptions
   slug: cisco-aci-event-subscriptions
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cisco.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -235,7 +239,7 @@ overview: 'Cisco ACI publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Cisco ACI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cisco ACI''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, authentication, and 35 more developer resources.'
+  Cisco ACI''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, authentication, and 36 more developer resources.'
 plans:
 - name: Cisco Aci Plans Pricing
   plan_count: 0
@@ -270,9 +274,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-aci/refs/heads/main/screenshots/cisco-aci-2026-09-02T145040.png
 security:
 - kind: authentication
@@ -303,5 +311,5 @@ tags:
 - Infrastructure
 - Controller
 - REST API
-website: https://developer.cisco.com/site/aci/
+website: https://www.cisco.com/
 ---

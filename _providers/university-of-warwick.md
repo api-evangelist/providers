@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Warwick's Shibboleth SAML 2.0 identity provider. Publishes unauthenticated, machine-readable federation metadata as a SAML EntityDescriptor with entityID https://idp.warwick.ac.uk/idp/shibboleth, a sh
@@ -321,9 +321,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 90.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-warwick/refs/heads/main/screenshots/university-of-warwick-2026-06-20T200340.png
 security:
 - kind: authentication

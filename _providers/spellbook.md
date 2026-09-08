@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Spellbook is delivered primarily as a Microsoft Word add-in and a multi-document Associate agent rather than a public REST API. This entry documents the Spellbook product surface for discoverability; '
@@ -127,9 +127,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/spellbook/refs/heads/main/screenshots/spellbook-2026-06-20T194305.png
 security:
 - kind: domain-security

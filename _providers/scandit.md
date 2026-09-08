@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: On-device Smart Data Capture SDK for barcode, MatrixScan, ID, Smart Label, Parser and Text capture, shipped as first-party client libraries for iOS, Android, Web, React Native, Flutter, Cordova, Capac
@@ -174,9 +174,13 @@ score:
   previous_composite: 27.7
   provenance:
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/scandit/refs/heads/main/screenshots/scandit-2026-09-02T154511.png
 security:
 - kind: authentication

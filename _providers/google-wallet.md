@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -107,6 +107,10 @@ collections:
   name: Google Wallet API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -190,7 +194,7 @@ overview: 'Google Wallet publishes 5 APIs on the [APIs.io](https://apis.io/) net
   The Google Wallet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Wallet''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, and 9 more developer resources.'
+  Google Wallet''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, and 10 more developer resources.'
 plans:
 - name: Google Wallet Plans Pricing
   plan_count: 3
@@ -213,7 +217,7 @@ rules:
   slug: google-wallet-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.8
+  composite: 44.1
   coverage:
     artifact_dirs: 13
     catalog_earned: 63.3
@@ -221,7 +225,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -245,9 +249,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-wallet/refs/heads/main/screenshots/google-wallet-2026-06-20T182248.png
 security:
 - kind: domain-security
@@ -266,5 +273,5 @@ tags:
 - Mobile Payments
 - Passes
 - Tickets
-website: https://developers.google.com/wallet
+website: https://www.google.com/
 ---

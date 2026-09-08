@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Hosted MCP server exposing Apstal analytics via JSON-RPC 2.0 over Streamable HTTP. Public tools (login, register, server_info) and authenticated tools (execute_sql, get_analytics, list_projects, regis
@@ -52,6 +52,10 @@ asyncapis:
   name: Apstal Realtime Events
   slug: apstal-realtime-events
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apstal.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -202,7 +206,7 @@ overview: 'Apstal publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
   The Apstal catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Apstal''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 26 more developer resources.'
+  Apstal''s developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, support, engineering blog, and 27 more developer resources.'
 plans:
 - name: Apstal Plans Pricing
   plan_count: 3
@@ -242,9 +246,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apstal/refs/heads/main/screenshots/apstal-2026-07-25T200912.png
 security:
 - kind: authentication
@@ -272,5 +280,5 @@ tags:
 - Agent Skills
 - Bot Detection
 - Core Web Vitals
-website: https://apstal.com/docs
+website: https://www.apstal.com/
 ---

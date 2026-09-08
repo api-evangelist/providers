@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: REST-ish reporting API enabling publishers to pull programmatic performance data for their Sharethrough inventory. A single POST /v2/programmatic endpoint takes a query object (startDate, endDate, gro
@@ -204,9 +204,13 @@ score:
   previous_composite: 30.3
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png
 security:
 - kind: authentication

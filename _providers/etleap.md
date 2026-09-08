@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Etleap's external REST API for creating and managing connections, pipelines, models, dbt schedules, teams, and users. Uses HTTP Basic authentication.
@@ -42,6 +42,10 @@ apis:
   slug: etleap-api-v2
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.etleap.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -137,7 +141,7 @@ network: true
 overview: 'Etleap publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Integration, ETL, ELT, and Data Pipeline.
 
 
-  Etleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 15 more developer resources.'
+  Etleap''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 16 more developer resources.'
 random_paper: 5
 score:
   band: thin
@@ -163,9 +167,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/etleap/refs/heads/main/screenshots/etleap-2026-07-25T213654.png
 security:
 - kind: authentication
@@ -187,5 +195,5 @@ tags:
 - Data Lake
 - Apache Iceberg
 - Analytics
-website: https://docs.etleap.com/
+website: https://www.etleap.com/
 ---

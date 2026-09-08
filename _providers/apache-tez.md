@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Tez DAG API provides a Java programming model for defining and submitting directed-acyclic-graph (DAG) computation jobs to Apache YARN. It allows building DAGs composed of Vertex (processing units
@@ -44,6 +44,10 @@ apis:
   slug: apache-tez-ui-rest-api
 artifact_total: 19
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -115,7 +119,7 @@ network: true
 overview: 'Apache Tez publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Big Data, DAG, Execution Engine, Hadoop, and YARN.
 
 
-  Apache Tez''s developer surface includes documentation, developer portal, release notes, and 6 more developer resources.'
+  Apache Tez''s developer surface includes documentation, developer portal, release notes, and 7 more developer resources.'
 plans:
 - name: Apache Tez Plans Pricing
   plan_count: 3
@@ -146,9 +150,13 @@ score:
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 20.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tez/refs/heads/main/screenshots/apache-tez-2026-06-20T172151.png
 security:
 - kind: domain-security
@@ -174,5 +182,5 @@ use_cases:
   name: Apache Pig Script Execution
 - description: Multi-stage data transformation pipelines with in-memory data passing.
   name: Complex ETL Pipelines
-website: https://tez.apache.org/
+website: https://www.apache.org/
 ---

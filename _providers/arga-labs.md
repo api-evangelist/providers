@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -42,6 +42,10 @@ apis:
   slug: arga-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.argalabs.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -153,7 +157,7 @@ network: true
 overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API Testing, Sandboxes, Digital Twins, and AI Agents.
 
 
-  Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
+  Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 18 more developer resources.'
 random_paper: 13
 score:
   band: emerging
@@ -179,9 +183,13 @@ score:
   provenance:
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/screenshots/arga-labs-2026-07-25T201136.png
 security:
 - kind: authentication
@@ -205,5 +213,5 @@ tags:
 - Browser Testing
 - MCP
 - Mock Services
-website: https://docs.argalabs.com/
+website: https://www.argalabs.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Maven provides a Java API for programmatic build execution, a Plugin API (Mojo) for extending build capabilities, a Repository API for artifact management via Maven Artifact Resolver, and the Wagon tr
@@ -44,6 +44,10 @@ apis:
   slug: maven-central-repository
 artifact_total: 31
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -181,7 +185,7 @@ network: true
 overview: 'Apache Maven publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Build Tools, Dependency Management, Java, Project Management, and Maven.
 
 
-  Apache Maven''s developer surface includes developer portal, engineering blog, and 19 more developer resources.'
+  Apache Maven''s developer surface includes developer portal, engineering blog, and 20 more developer resources.'
 plans:
 - name: Apache Maven Plans Pricing
   plan_count: 3
@@ -215,9 +219,13 @@ score:
     applies: true
     score: 100.0
   previous_composite: 32.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-maven/refs/heads/main/screenshots/apache-maven-2026-06-20T172120.png
 security:
 - kind: domain-security
@@ -248,5 +256,5 @@ use_cases:
   name: Artifact Publishing
 - description: Develop custom Maven plugins using the Mojo API to extend build capabilities for specialized project needs.
   name: Plugin Development
-website: https://maven.apache.org/
+website: https://www.apache.org/
 ---

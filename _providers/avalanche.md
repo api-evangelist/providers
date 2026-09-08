@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -235,6 +235,10 @@ collections:
   name: Data AVAX Supply Webhooks API
   slug: open-avalanche-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.avacloud.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1148,7 +1152,7 @@ overview: 'Avalanche publishes 23 APIs on the [APIs.io](https://apis.io/) networ
   The Avalanche catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Avalanche''s developer surface includes authentication, developer portal, documentation, pricing, status page, engineering blog, signup flow, and 9 more developer resources.'
+  Avalanche''s developer surface includes authentication, developer portal, documentation, pricing, status page, engineering blog, signup flow, and 10 more developer resources.'
 plans:
 - name: Data Api
   plan_count: 8
@@ -1171,7 +1175,7 @@ rules:
   slug: avalanche-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.5
+  composite: 46.8
   coverage:
     artifact_dirs: 16
     catalog_earned: 63.3
@@ -1179,7 +1183,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -1197,9 +1201,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/screenshots/avalanche-2026-06-20T172715.png
 security:
 - kind: authentication
@@ -1218,5 +1225,5 @@ tags:
 - NFT
 - DeFi
 - Cross-Chain
-website: https://developers.avacloud.io/
+website: https://www.avacloud.io/
 ---

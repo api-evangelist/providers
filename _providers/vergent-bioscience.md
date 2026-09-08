@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: A live, anonymous Model Context Protocol endpoint served on the company's own host and advertised from its own llms.txt. Provided by the Wix Site MCP platform rather than authored by Vergent, it expos
@@ -123,9 +123,13 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Vergent Bioscience Authentication

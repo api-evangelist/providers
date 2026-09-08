@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'REST API platform for property and casualty insurance carriers enabling touchless claims automation, digital first-notice-of-loss reporting, telematics-based accident reconstruction, fraud detection, '
@@ -141,9 +141,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Metromile Domain Security

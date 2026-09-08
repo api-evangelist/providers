@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ collections:
   name: Apache ActiveMQ REST Management Messages API
   slug: open-apache-activemq-messages-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -245,7 +249,7 @@ overview: 'Apache ActiveMQ publishes 2 APIs on the [APIs.io](https://apis.io/) n
   The Apache ActiveMQ catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apache ActiveMQ''s developer surface includes authentication, documentation, getting-started guide, FAQ, support, changelog, and 17 more developer resources.'
+  Apache ActiveMQ''s developer surface includes authentication, documentation, getting-started guide, FAQ, support, changelog, and 18 more developer resources.'
 plans:
 - name: Apache Activemq Plans Pricing
   plan_count: 3
@@ -279,7 +283,7 @@ rules:
   slug: apache-activemq-spectral-rules
 score:
   band: thin
-  composite: 36.2
+  composite: 35.5
   coverage:
     artifact_dirs: 15
     catalog_earned: 58.5
@@ -287,7 +291,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 26.3
     commercial_clarity: 26.3
@@ -308,9 +312,12 @@ score:
       derived: 3
       marker_coverage: 100.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/screenshots/apache-activemq-2026-06-20T172037.png
 security:
 - kind: authentication
@@ -349,4 +356,5 @@ use_cases:
   name: Event Streaming
 - description: Bridge legacy JMS-based applications with modern services using OpenWire and JMS API support.
   name: Legacy JMS Integration
+website: https://www.apache.org/
 ---

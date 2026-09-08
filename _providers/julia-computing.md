@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The JuliaHub cloud platform for scientific and technical computing - hosted Julia compute, batch/job execution, datasets, and the Julia package registry. Accessed programmatically through the first-pa
@@ -41,6 +41,10 @@ apis:
   slug: juliahub-platform
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.juliahub.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -128,7 +132,7 @@ network: true
 overview: 'Julia Computing publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Julia, Scientific Computing, Modeling and Simulation, and High Performance Computing.
 
 
-  Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 14 more developer resources.'
+  Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 15 more developer resources.'
 random_paper: 6
 scopes:
 - name: Julia Computing Scopes
@@ -170,9 +174,13 @@ score:
     regime: Health
     regime_id: health
     score: 53.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/screenshots/julia-computing-2026-07-25T223305.png
 security:
 - kind: authentication
@@ -200,5 +208,5 @@ tags:
 - Package Registry
 - Machine-Learning
 - Pharma
-website: https://help.juliahub.com/
+website: https://www.juliahub.com/
 ---

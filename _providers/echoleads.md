@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: EchoLeads provider surfaces. The agent-native artifacts (llms.txt, llms-full.txt, security.txt) are confirmed publicly reachable and are saved verbatim in this repo. A REST API for triggering calls, r
@@ -42,6 +42,10 @@ apis:
   slug: echoleads-platform
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://echoleads.ai/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -118,7 +122,7 @@ network: true
 overview: 'EchoLeads publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI voice sales, AI Voice Agents, cold calling automation, AI SDR, and Lead Generation.
 
 
-  EchoLeads'' developer surface includes engineering blog, support, and 10 more developer resources.'
+  EchoLeads'' developer surface includes engineering blog, support, and 11 more developer resources.'
 plans:
 - name: Echoleads Plans Pricing
   plan_count: 0
@@ -158,9 +162,13 @@ score:
   previous_composite: 16.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/echoleads/refs/heads/main/screenshots/echoleads-2026-09-02T145328.png
 security:
 - kind: domain-security
@@ -186,4 +194,5 @@ tags:
 - Voice AI
 - Sales Automation
 - India
+website: https://echoleads.ai/
 ---

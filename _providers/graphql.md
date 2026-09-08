@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.graphql.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -116,7 +120,7 @@ overview: 'GraphQL is profiled on the [APIs.io](https://apis.io/) network. Tagge
   The GraphQL catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  GraphQL''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 7 more developer resources.'
+  GraphQL''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 8 more developer resources.'
 random_paper: 16
 rules:
 - effective_rule_count: 6
@@ -150,9 +154,13 @@ score:
     governance: 9.8
     operational_transparency: 2.6
   previous_composite: 15.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql/refs/heads/main/screenshots/graphql-2026-06-20T182329.png
 security:
 - kind: domain-security
@@ -165,5 +173,5 @@ tags:
 - GraphQL
 - Query Language
 - Specification
-website: https://graphql.org/
+website: https://www.graphql.org/
 ---

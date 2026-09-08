@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Flipkart Marketplace Seller API (v3) lets sellers and integration partners manage listings, orders, shipments, returns, and reports on the Flipkart marketplace programmatically. It is a REST API h
@@ -45,6 +45,10 @@ asyncapis:
   name: Flipkart Notifications Webhooks
   slug: flipkart-notifications-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.flipkart.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -123,7 +127,7 @@ overview: 'Flipkart publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Flipkart catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Flipkart''s developer surface includes documentation, API reference, support, signup flow, authentication, and 10 more developer resources.'
+  Flipkart''s developer surface includes documentation, API reference, support, signup flow, authentication, and 11 more developer resources.'
 random_paper: 0
 scopes:
 - name: Flipkart Scopes
@@ -160,9 +164,13 @@ score:
   previous_composite: 34.4
   provenance:
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipkart/refs/heads/main/screenshots/flipkart-2026-07-25T214803.png
 security:
 - kind: authentication
@@ -185,5 +193,5 @@ tags:
 - Fulfillment
 - India
 - Authentication
-website: https://seller.flipkart.com/
+website: https://www.flipkart.com/
 ---

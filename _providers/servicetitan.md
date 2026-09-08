@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -559,6 +559,10 @@ collections:
   name: ServiceTitan Accounting Adjustments Zones API
   slug: open-servicetitan-zones-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.servicetitan.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -829,7 +833,7 @@ overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) net
   The ServiceTitan catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 40 more developer resources.'
+  ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 41 more developer resources.'
 random_paper: 16
 rate_limits:
 - limit_count: 2
@@ -853,7 +857,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 52.8
+  composite: 52.1
   coverage:
     artifact_dirs: 17
     catalog_earned: 74.3
@@ -861,7 +865,7 @@ score:
     catalog_gap: 40.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -879,9 +883,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:
 - kind: authentication
@@ -907,5 +914,5 @@ tags:
 - Marketing
 - Memberships
 - Webhook
-website: https://developer.servicetitan.io/
+website: https://www.servicetitan.com/
 ---

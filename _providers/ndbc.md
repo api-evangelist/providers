@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: Provides access to the last 45 days of meteorological and oceanographic observations from NDBC moored buoys and C-MAN coastal stations. Data files are served via HTTPS at https://www.ndbc.noaa.gov/dat
@@ -52,6 +52,10 @@ apis:
   slug: hf-radar-service
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.noaa.gov/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +115,7 @@ network: true
 overview: 'NDBC — National Data Buoy Center publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include NOAA, Marine, Buoys, Ocean, and Weather.
 
 
-  NDBC — National Data Buoy Center''s developer surface includes developer portal, documentation, and 10 more developer resources.'
+  NDBC — National Data Buoy Center''s developer surface includes developer portal, documentation, and 11 more developer resources.'
 random_paper: 8
 score:
   band: emerging
@@ -140,9 +144,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 18.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ndbc/refs/heads/main/screenshots/ndbc-2026-06-20T190220.png
 security:
 - kind: domain-security
@@ -163,5 +171,5 @@ tags:
 - Historical
 - Government
 - Open Data
-website: https://www.ndbc.noaa.gov/
+website: https://www.noaa.gov/
 ---

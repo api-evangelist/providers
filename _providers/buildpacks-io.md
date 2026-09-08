@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ collections:
   name: Cloud Native Buildpacks Registry API
   slug: open-buildpacks-registry-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.buildpacks.io/
 - group: operate
   title: ''
   type: IssueTracker
@@ -345,7 +349,7 @@ overview: 'Buildpacks Io publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Buildpacks Io catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Buildpacks Io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 42 more developer resources.'
+  Buildpacks Io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 43 more developer resources.'
 random_paper: 17
 rules:
 - effective_rule_count: 5
@@ -400,9 +404,13 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:
 - kind: domain-security
@@ -410,5 +418,5 @@ security:
   slug: buildpacks-io-domain-security
   summary_line: TLSv1.3 · HSTS
 slug: buildpacks-io
-website: https://buildpacks.io
+website: https://www.buildpacks.io/
 ---

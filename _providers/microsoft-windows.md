@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: Modern API for building Windows applications with support for multiple programming languages.
@@ -62,6 +62,10 @@ apis:
   slug: windows-notification-api
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -141,7 +145,7 @@ network: true
 overview: 'Microsoft Windows publishes 1 API on the [APIs.io](https://apis.io/) network: Windows Runtime (WinRT) API. Tagged areas include Desktop, Development, Microsoft, Operating System, and Windows.
 
 
-  Microsoft Windows'' developer surface includes developer portal, engineering blog, support, and 13 more developer resources.'
+  Microsoft Windows'' developer surface includes developer portal, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Microsoft Windows Plans Pricing
   plan_count: 3
@@ -175,9 +179,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 37.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows/refs/heads/main/screenshots/microsoft-windows-2026-06-20T185544.png
 security:
 - kind: domain-security
@@ -195,5 +203,5 @@ tags:
 - Microsoft
 - Operating System
 - Windows
-website: https://developer.microsoft.com/windows
+website: https://www.microsoft.com/
 ---

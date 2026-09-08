@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint powering the Wuilt website/e-commerce builder. Introspection is enabled; the schema exposes read queries across sites, pages, sections, menus, forms, form submissions, plans, p
@@ -153,9 +153,13 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 25.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wuilt/refs/heads/main/screenshots/wuilt-2026-09-02T171015.png
 slug: wuilt
 tags:

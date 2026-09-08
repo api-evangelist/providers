@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The CARTO Cloud-Native (v3) REST API surface — SQL API (query and async SQL jobs against a connected data warehouse), Maps API (vector/tile map instantiation), Import/Export API, Location Data Service
@@ -41,6 +41,10 @@ apis:
   slug: carto-cloud-native-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.carto.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -168,7 +172,7 @@ network: true
 overview: 'CARTO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Location Intelligence, Geospatial, and Maps.
 
 
-  CARTO''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 21 more developer resources.'
+  CARTO''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 22 more developer resources.'
 random_paper: 0
 scopes:
 - name: Cartodb Scopes
@@ -200,9 +204,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cartodb/refs/heads/main/screenshots/cartodb-2026-07-25T204652.png
 security:
 - kind: authentication
@@ -228,5 +236,5 @@ tags:
 - Data Warehouse
 - GIS
 - Agents
-website: https://docs.carto.com/carto-for-developers
+website: https://www.carto.com/
 ---

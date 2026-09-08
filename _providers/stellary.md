@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Hosted remote MCP server (streamable HTTP) exposing board read/write, cockpit supervision, agent runtime, and auto-registered plugin tools. Bearer-authenticated. Listed in the official MCP registry as
@@ -48,6 +48,10 @@ apis:
   slug: stellary-rest-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.stellary.co/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,7 +186,7 @@ network: true
 overview: 'Stellary publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include project-management, productivity, AI-agents, agent-orchestration, and MCP.
 
 
-  Stellary''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 22 more developer resources.'
+  Stellary''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
 plans:
 - name: Stellary Plans Pricing
   plan_count: 2
@@ -222,9 +226,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellary/refs/heads/main/screenshots/stellary-2026-09-02T160837.png
 security:
 - kind: authentication
@@ -250,5 +258,5 @@ tags:
 - developer-tools
 - SaaS
 - collaboration
-website: https://stellary.co/docs/
+website: https://www.stellary.co/
 ---

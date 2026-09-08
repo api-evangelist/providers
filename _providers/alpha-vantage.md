@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: Alpha Vantage API
   slug: open-alpha-vantage
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.alphavantage.co/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -321,7 +325,7 @@ overview: 'Alpha Vantage publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Alpha Vantage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Alpha Vantage''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, support, and 29 more developer resources.'
+  Alpha Vantage''s developer surface includes authentication, sandbox, developer portal, documentation, API reference, getting-started guide, support, and 30 more developer resources.'
 plans:
 - name: Alpha Vantage Plans Pricing
   plan_count: 7
@@ -395,9 +399,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:
 - kind: authentication

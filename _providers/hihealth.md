@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The embedded credit-card API that powers hi.health. Partners issue and manage cards, cardholders, transactions, receipts, payments, statements and external transfers, with OAuth2 client-credentials au
@@ -206,8 +206,8 @@ scopes:
   slug: hihealth-scopes
   summary_line: 3 scopes
 score:
-  band: strong
-  composite: 55.6
+  band: developing
+  composite: 53.0
   coverage:
     artifact_dirs: 15
     catalog_earned: 45.0
@@ -215,17 +215,17 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 11.3
+  delta: -2.6
   facets:
-    access_clarity: 52.6
-    commercial_clarity: 52.6
+    access_clarity: 39.5
+    commercial_clarity: 39.5
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 39.3
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 69.7
-  previous_composite: 44.3
+  previous_composite: 55.6
   provenance:
     conformance: first-party
     mcp: first-party
@@ -235,9 +235,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: rising
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hihealth/refs/heads/main/screenshots/hihealth-2026-07-25T221215.png
 security:
 - kind: authentication

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -83,6 +83,10 @@ collections:
   name: Amadeus Hotel Content Hotels API
   slug: open-amadeus-media-hotels-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amadeus.com/
 - group: other
   title: ''
   type: Overlay
@@ -395,7 +399,7 @@ overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) net
   The Amadeus Media catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 23 more developer resources.'
+  Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 24 more developer resources.'
 random_paper: 12
 rules:
 - effective_rule_count: 5
@@ -449,9 +453,13 @@ score:
       marker_coverage: 100.0
       total: 4
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:
 - kind: authentication
@@ -484,5 +492,5 @@ use_cases:
   name: Travel App Media Display
 - description: Provide hotel content and imagery in corporate travel management systems to help business travelers make informed accommodation decisions.
   name: Corporate Travel Platform
-website: https://developers.amadeus.com/
+website: https://www.amadeus.com/
 ---

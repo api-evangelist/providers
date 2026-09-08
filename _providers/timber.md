@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Vector ships with a local gRPC API that lets you interact with a running Vector instance — inspect component topology, read internal metrics and health, and tap live events flowing through the pipelin
@@ -41,6 +41,10 @@ apis:
   slug: vector-observability-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.vector.dev/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -148,7 +152,7 @@ network: true
 overview: 'Timber publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Observability, Logs, and Metrics.
 
 
-  Timber''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, CLI, authentication, and 17 more developer resources.'
+  Timber''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, CLI, authentication, and 18 more developer resources.'
 random_paper: 13
 score:
   band: thin
@@ -174,9 +178,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/timber/refs/heads/main/screenshots/timber-2026-09-02T163748.png
 security:
 - kind: authentication
@@ -205,5 +213,5 @@ tags:
 - gRPC
 - Rust
 - Datadog
-website: https://vector.dev/docs/
+website: https://www.vector.dev/
 ---

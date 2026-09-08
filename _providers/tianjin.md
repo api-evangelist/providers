@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: The university's own Shibboleth identity provider, and the only credential-free, machine-readable contract anywhere in this profile. https://idp.tju.edu.cn/idp/shibboleth returns HTTP 200 and 14,410 b
@@ -178,9 +178,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tianjin/refs/heads/main/screenshots/tianjin-2026-06-20T195443.png
 security:
 - kind: authentication

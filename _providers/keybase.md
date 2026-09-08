@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Keybase public HTTP JSON API (v1.0). Read-oriented endpoints for user lookup and discovery by social proof, PGP public-key fetch, Merkle-tree root and block retrieval for verification, and the salt/lo
@@ -42,6 +42,10 @@ apis:
   slug: keybase-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.keybase.io/
 - group: other
   title: ''
   type: ParentCompany
@@ -105,7 +109,7 @@ network: true
 overview: 'Keybase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Encryption, Cryptography, and Identity.
 
 
-  Keybase''s developer surface includes documentation, API reference, engineering blog, support, CLI, and 8 more developer resources.'
+  Keybase''s developer surface includes documentation, API reference, engineering blog, support, CLI, and 9 more developer resources.'
 random_paper: 5
 score:
   band: emerging
@@ -132,9 +136,13 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/keybase/refs/heads/main/screenshots/keybase-2026-07-25T223641.png
 security:
 - kind: authentication
@@ -156,5 +164,5 @@ tags:
 - Key Management
 - PGP
 - Developer Tools
-website: https://keybase.io/docs
+website: https://www.keybase.io/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: List, inspect, and manage custom and base AI models available to a Scenario account. Returns training status, training progress, model type (image, video, audio, 3D), and metadata for the 500+ base mo
@@ -52,6 +52,10 @@ apis:
   slug: scenario-usage-api
 artifact_total: 23
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.scenario.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -180,7 +184,7 @@ network: true
 overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Game Assets, Game Development, Generative AI, and Image-Generation.
 
 
-  Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 18 more developer resources.'
+  Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 19 more developer resources.'
 random_paper: 11
 score:
   band: emerging
@@ -208,9 +212,13 @@ score:
     regions:
     - north-america
   previous_composite: 25.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/scenario-gg/refs/heads/main/screenshots/scenario-gg-2026-06-20T193511.png
 security:
 - kind: domain-security
@@ -236,5 +244,5 @@ tags:
 - ControlNet
 - Creative AI
 - Asset Pipeline
-website: https://www.scenario.com
+website: https://www.scenario.com/
 ---

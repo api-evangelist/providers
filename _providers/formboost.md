@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Single public unauthenticated HTTP endpoint (POST https://formboost.app/f/{alias}) that accepts JSON or form-encoded submissions. Returns 202 to JSON clients and 302 to HTML form posts. Discovery via '
@@ -35,6 +35,10 @@ asyncapis:
   name: Formboost Webhooks
   slug: formboost-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.formboost.app/
 - group: docs
   title: ''
   type: Documentation
@@ -169,7 +173,7 @@ overview: 'Formboost publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Formboost catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Formboost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
+  Formboost''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Formboost Plans Pricing
   plan_count: 4
@@ -203,9 +207,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Formboost Authentication
@@ -237,5 +245,5 @@ tags:
 - no-code
 - developer-tools
 - spam-filtering
-website: https://dashboard.formboost.app
+website: https://www.formboost.app/
 ---

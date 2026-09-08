@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Linea mainnet (chain ID 59144). Supports the standard eth_* method set plus Linea-specific extensions such as linea_estimateGas and linea_getProof.
@@ -198,9 +198,13 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 24.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea-network/refs/heads/main/screenshots/linea-network-2026-06-20T184538.png
 security:
 - kind: domain-security

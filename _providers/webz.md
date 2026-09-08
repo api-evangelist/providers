@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'Token-authenticated REST endpoints under https://api.webz.io covering seven products: News, Blogs and Forums (/api/news, /api/blogs, /api/forums plus /seg_api/* segmentation), Reviews (/reviewFilter, '
@@ -48,6 +48,10 @@ apis:
   slug: webzio-news-search-mcp-server
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.webz.io/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -194,7 +198,7 @@ network: true
 overview: 'Webz.io publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include News Data, Web Data, Web Scraping, Dark Web, and deep-web.
 
 
-  Webz.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+  Webz.io''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
 plans:
 - name: Webz Plans Pricing
   plan_count: 6
@@ -234,9 +238,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/webz/refs/heads/main/screenshots/webz-2026-09-02T170544.png
 security:
 - kind: authentication
@@ -266,5 +274,5 @@ tags:
 - reviews-data
 - AI Training Data
 - Media Monitoring
-website: https://docs.webz.io/
+website: https://www.webz.io/
 ---

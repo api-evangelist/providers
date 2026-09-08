@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,6 +110,10 @@ collections:
   name: Moon-API.com
   slug: open-moon-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.moon-api.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -157,7 +161,7 @@ network: true
 overview: 'Moon-API publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Advanced API, Astrology API, Basic API, and 4 more. Tagged areas include Astrology, Astronomy, Lunar, Moon, and Moon Phases.
 
 
-  Moon-API''s developer surface includes authentication, documentation, signup flow, and 5 more developer resources.'
+  Moon-API''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
 plans:
 - name: Moon Api Plans Pricing
   plan_count: 3
@@ -195,9 +199,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/moon-api/refs/heads/main/screenshots/moon-api-2026-06-20T185757.png
 security:
 - kind: authentication
@@ -220,5 +228,5 @@ tags:
 - Moon
 - Moon Phases
 - Space
-website: https://moon-api.com/
+website: https://www.moon-api.com/
 ---

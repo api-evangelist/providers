@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: TAL's partner-facing OpenID Connect identity tenant (Okta org talpartner-au.okta.com), and the only machine-readable API contract TAL serves anonymously. Full OIDC discovery and RFC 8414 authorization
@@ -212,9 +212,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 57.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tal-australia/refs/heads/main/screenshots/tal-australia-2026-09-02T162444.png
 security:
 - kind: authentication

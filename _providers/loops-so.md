@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -149,6 +149,10 @@ collections:
   name: Loops OpenAPI Spec
   slug: open-loops
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.loops.so/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -374,11 +378,11 @@ network: true
 overview: 'Loops publishes 12 APIs on the [APIs.io](https://apis.io/) network, including API key API, Campaigns API, Components API, and 9 more. Tagged areas include Email, Marketing Email, Transactional Email, Email Automation, and Email Campaigns.
 
 
-  Loops'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 25 more developer resources.'
+  Loops'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 26 more developer resources.'
 random_paper: 9
 score:
   band: developing
-  composite: 46.1
+  composite: 45.4
   coverage:
     artifact_dirs: 7
     catalog_earned: 32.0
@@ -386,7 +390,7 @@ score:
     catalog_gap: 83.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -404,9 +408,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 12
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/loops-so/refs/heads/main/screenshots/loops-so-2026-06-20T184721.png
 security:
 - kind: authentication
@@ -431,5 +438,5 @@ tags:
 - Webhook
 - Software-as-a-Service
 - Developer Tools
-website: https://loops.so
+website: https://www.loops.so/
 ---

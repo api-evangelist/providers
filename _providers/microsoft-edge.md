@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -133,6 +133,10 @@ collections:
   name: Microsoft Edge Add-ons Browser Targets API
   slug: open-microsoft-edge-targets-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -392,7 +396,7 @@ overview: 'Microsoft Edge publishes 6 APIs on the [APIs.io](https://apis.io/) ne
   The Microsoft Edge catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Edge''s developer surface includes authentication, documentation, engineering blog, support, release notes, changelog, signup flow, and 26 more developer resources.'
+  Microsoft Edge''s developer surface includes authentication, documentation, engineering blog, support, release notes, changelog, signup flow, and 27 more developer resources.'
 plans:
 - name: Microsoft Edge Plans Pricing
   plan_count: 2
@@ -426,7 +430,7 @@ rules:
   slug: microsoft-edge-spectral-rules
 score:
   band: developing
-  composite: 43.5
+  composite: 42.8
   coverage:
     artifact_dirs: 18
     catalog_earned: 75.5
@@ -434,7 +438,7 @@ score:
     catalog_gap: 39.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 40.8
     commercial_clarity: 40.8
@@ -452,9 +456,12 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/screenshots/microsoft-edge-2026-08-07T172849.png
 security:
 - kind: authentication
@@ -497,5 +504,5 @@ use_cases:
   name: Performance Monitoring
 - description: Build and distribute PWAs through the Microsoft Store with native-like installation and system integration.
   name: Progressive Web App Distribution
-website: https://developer.microsoft.com/microsoft-edge/
+website: https://www.microsoft.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 782
   human_in_the_loop: 122
@@ -1665,6 +1665,10 @@ common:
   title: ''
   type: LlmsText
   url: https://developer.konghq.com/llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.konghq.com/api/konnect/dev-portal/v3
 created: '2026-03-18'
 description: Kong is the AI Connectivity Company. Its platform spans Kong Gateway (the open-source API gateway built on NGINX and Lua), Kong Konnect (the SaaS control plane), Kong AI Gateway (LLM, MCP, and agent-to-agent traffic governance with semantic caching, token budgeting, and prompt firewalls), Kong Agent Gateway, Kong Event Gateway (Kafka-native governance), Kong Mesh (service mesh on Kuma and Envoy), Kong MCP Registry (centralized directory of MCP servers and tools for AI agents), Kong Context Mesh, and Kong Insomnia (API design and testing). Together they unify governance across APIs, real-time event streams, LLM calls, MCP tools, and agent-to-agent communication for the agentic era.
 examples:
@@ -5764,7 +5768,7 @@ overview: 'Kong publishes 132 APIs on the [APIs.io](https://apis.io/) network, i
   The Kong catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 27 more developer resources.'
+  Kong''s developer surface includes authentication, documentation, getting-started guide, engineering blog, changelog, CLI, support, and 28 more developer resources.'
 plans:
 - name: Kong Plans Pricing
   plan_count: 6
@@ -5798,7 +5802,7 @@ rules:
   slug: kong-spectral-rules
 score:
   band: strong
-  composite: 56.5
+  composite: 58.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 48.5
@@ -5806,7 +5810,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -5827,9 +5831,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 132
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/kong/refs/heads/main/screenshots/kong-2026-06-20T184130.png
 security:
 - kind: authentication

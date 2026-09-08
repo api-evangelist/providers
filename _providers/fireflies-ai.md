@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Public GraphQL API for Fireflies.ai — query transcripts, users, channels, bites, analytics, and AskFred threads; upload audio; control the live-meeting bot; and subscribe to webhooks. Single endpoint,
@@ -46,6 +46,10 @@ asyncapis:
   name: Fireflies Ai Webhooks
   slug: fireflies-ai-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.fireflies.ai/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -184,7 +188,7 @@ overview: 'Fireflies.ai publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Fireflies.ai catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fireflies.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
+  Fireflies.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
 random_paper: 3
 rate_limits:
 - limit_count: 5
@@ -220,9 +224,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/screenshots/fireflies-ai-2026-07-25T214552.png
 security:
 - kind: authentication
@@ -244,5 +252,5 @@ tags:
 - GraphQL
 - MCP
 - Productivity
-website: https://fireflies.ai/api
+website: https://www.fireflies.ai/
 ---

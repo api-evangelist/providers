@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,6 +123,10 @@ collections:
   name: Luciq MCP Server App Hangs Occurrences API
   slug: open-instabug-occurrences-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.luciq.ai/
 - group: operate
   title: ''
   type: IssueTracker
@@ -399,7 +403,7 @@ overview: 'Instabug (Luciq) publishes 7 APIs on the [APIs.io](https://apis.io/) 
   The Instabug (Luciq) catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Instabug (Luciq)''s developer surface includes authentication, developer portal, documentation, pricing, changelog, engineering blog, and 34 more developer resources.'
+  Instabug (Luciq)''s developer surface includes authentication, developer portal, documentation, pricing, changelog, engineering blog, and 35 more developer resources.'
 plans:
 - name: Instabug Plans Pricing
   plan_count: 3
@@ -475,9 +479,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
 security:
 - kind: authentication
@@ -500,5 +508,5 @@ tags:
 - Mobile Observability
 - Observability
 - Session Replay
-website: https://luciq.ai
+website: https://www.luciq.ai/
 ---

@@ -16,7 +16,7 @@
      "slug": "knownwell",
      "description": "Knownwell is an AI-powered commercial intelligence platform for B2B professional services firms, built around client retention and expansion rather than new-logo acquisition. The platform ingests communications, CRM records, and enterprise data through connectors to Microsoft 365, Google Workspace, Salesforce, HubSpot, Slack, Teams, and conversation intelligence tools, then synthesizes an objective Knownwell score for every client relationship. Teams use it to detect churn risk before a renewal conversation, surface growth opportunities across a portfolio, and track relationship health over time without manual data entry. Knownwell publishes a read-only public REST API at api.knownwell.com/ci/v1 that exposes client scores, score history, portfolios, streams, topics, priorities, notes, key people, and the weekly Red/Amber/Green alignment reads a client team files by hand, authenticated with an X-API-Key header. Platform pricing is published as a live per-client volume calculator rather than named tiers, with a 30-day trial and no per-seat charge. Knownwell was acquired by 2X to form a human-agentic GTM services company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/screenshots/knownwell-2026-07-25T224012.png",
-     "score": 56.2,
+     "score": 55.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -64,60 +64,15 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 6,
-   "shown": 6,
+   "count": 5,
+   "shown": 5,
    "providers": [
-    {
-     "name": "Hubflo",
-     "slug": "hubflo",
-     "description": "Hubflo is a client portal platform for service businesses — consultants, agencies, accountants, and professional-service firms — bringing client onboarding, messaging, document management, e-signatures, forms, proposals, invoicing, tasks, and project collaboration into one branded workspace. Hubflo exposes a REST API (v2) at app.hubflo.com/api/v2 with bearer-token authentication, JSON request/response bodies, UUID resource identifiers, page-based pagination, a 1000 request/minute rate limit, and a native webhook system spanning 29 event types across companies, contacts, workspaces, invoices, forms, tasks, and e-signature submissions. Hubflo also publishes official TypeScript and MCP-server packages and a hosted remote MCP server. Backed by Seedcamp.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 60.5,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 47.0,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 44.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
     {
      "name": "Laurel",
      "slug": "laurel",
      "description": "Laurel is an AI timekeeping and work-intelligence platform for professional services firms — law, accounting and advisory. Rather than asking timekeepers to record their own time, Laurel passively captures work activity across the applications people already work in, then uses machine learning to enrich each activity with the who, what, when, where and how needed to build a review-ready timesheet. Reviewed time is released into the firm's existing billing or practice-management system, and Laurel's Signal product layers operational and profitability analytics on top of the resulting time data. Laurel exposes three public APIs — Identity, Time and Ingestion — authenticated with OAuth 2.0 machine-to-machine client credentials, and documents them at developer.laurel.ai for firms and partners building connectors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/laurel/refs/heads/main/screenshots/laurel-2026-07-25T224622.png",
-     "score": 44.3,
+     "score": 49.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -130,8 +85,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -155,40 +110,40 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 3
+     "rank": 2
     },
     {
-     "name": "Coordinate",
-     "slug": "coordinate",
-     "description": "Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png",
-     "score": 42.5,
+     "name": "Hubflo",
+     "slug": "hubflo",
+     "description": "Hubflo is a client portal platform for service businesses — consultants, agencies, accountants, and professional-service firms — bringing client onboarding, messaging, document management, e-signatures, forms, proposals, invoicing, tasks, and project collaboration into one branded workspace. Hubflo exposes a REST API (v2) at app.hubflo.com/api/v2 with bearer-token authentication, JSON request/response bodies, UUID resource identifiers, page-based pagination, a 1000 request/minute rate limit, and a native webhook system spanning 29 event types across companies, contacts, workspaces, invoices, forms, tasks, and e-signature submissions. Hubflo also publishes official TypeScript and MCP-server packages and a hosted remote MCP server. Backed by Seedcamp.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubflo/refs/heads/main/screenshots/hubflo-2026-07-25T221612.png",
+     "score": 44.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
-      "contract_quality": 60.1,
+      "contract_quality": 60.5,
       "governance": 4.5,
       "contract_governance": 4.5,
-      "operational_transparency": 7.9,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 47.0,
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 23.6,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 44.4,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
       "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
@@ -200,52 +155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
-    },
-    {
-     "name": "legal.ge Public APIs",
-     "slug": "legal-ge-public-apis",
-     "description": "Georgia's (the country's) legal marketplace, exposing a public, keyless, read-only REST API that turns a natural-language description of a legal problem into matched practice areas and a ranked list of verified specialists — lawyers, law firms, accountants, tax consultants, mediators and enforcement agents — each with a canonical, locale-prefixed profile URL. The surface is deliberately agent-first: an OpenAPI 3.1 contract at /api/openapi.json, an APIs.json 0.19 index at /apis.json, an llms.txt trust contract at /llms.txt, a robots.txt that names and allows eleven AI crawlers on the public API paths, and an installable MCP server (@legalge/mcp, MIT) exposing find_legal_specialists and classify_legal_intent to Claude Desktop, Cursor and any MCP-aware client. Trilingual across Georgian, English and Russian; every specialist returned is verification-checked, and contact details are opt-in only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 52.7,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 37.5,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "verified",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
+     "rank": 3
     },
     {
      "name": "KPMG",
@@ -265,8 +175,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -290,16 +200,117 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 4
     },
+    {
+     "name": "Coordinate",
+     "slug": "coordinate",
+     "description": "Coordinate (CoordinateHQ) is a client project-execution platform and branded client portal for client-facing businesses — agencies, professional services, and B2B onboarding teams. It turns repeatable workflows into automated, interactive projects with tasks, task groups, goals, progress reports, forms, eSignatures, time tracking, and in-project chat, while giving each client a simple password-free portal. Coordinate exposes a REST API (base https://app.coordinatehq.com/api/v1) for creating and syncing projects, tasks, groups, stakeholders, goals, comments, and organizations, an /entity export firehose for bulk sync, and a webhook API for real-time create/update events, alongside bi-directional Zapier integrations. This profile was enriched by the API Evangelist pipeline from Coordinate's published API reference.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coordinate/refs/heads/main/screenshots/coordinate-2026-07-25T210404.png",
+     "score": 41.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.1,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 47.0,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 23.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "legal.ge Public APIs",
+     "slug": "legal-ge-public-apis",
+     "description": "Georgia's (the country's) legal marketplace, exposing a public, keyless, read-only REST API that turns a natural-language description of a legal problem into matched practice areas and a ranked list of verified specialists — lawyers, law firms, accountants, tax consultants, mediators and enforcement agents — each with a canonical, locale-prefixed profile URL. The surface is deliberately agent-first: an OpenAPI 3.1 contract at /api/openapi.json, an APIs.json 0.19 index at /apis.json, an llms.txt trust contract at /llms.txt, a robots.txt that names and allows eleven AI crawlers on the public API paths, and an installable MCP server (@legalge/mcp, MIT) exposing find_legal_specialists and classify_legal_intent to Claude Desktop, Cursor and any MCP-aware client. Trilingual across Georgian, English and Russian; every specialist returned is verification-checked, and contact details are opt-in only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/legal-ge-public-apis/refs/heads/main/screenshots/legal-ge-public-apis-2026-08-17T081028.png",
+     "score": 41.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 52.7,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 37.5,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "verified",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 10,
+   "shown": 10,
+   "providers": [
     {
      "name": "Cognizant Technology Solutions",
      "slug": "cognizant-technology",
      "description": "Cognizant Technology Solutions is a multinational information technology services and consulting company that provides digital, technology, consulting, and operations services to clients worldwide. Cognizant publishes no hosted, general-purpose commercial API and operates no developer portal - developer.cognizant.com and api.cognizant.com do not resolve. It does, however, publish a real machine-readable API contract: Cognizant AI Lab releases Neuro SAN (Neuro AI System of Agent Networks), an Apache-2.0 multi-agent orchestration framework whose agent service ships four .proto files defining two gRPC services, a generated OpenAPI 3.0.3 document the running server publishes at /api/v1/docs, and an MCP 2025-06-18 endpoint that exposes each public agent network as a callable tool. The framework is self-hosted - Cognizant ships the software and the operator runs the server - so there is no Cognizant-operated endpoint, no pricing, and no rate limit to publish. Six first-party Python packages are on PyPI, led by neuro-san (0.7.0, 149 releases, actively developed). The commercial Neuro AI platform family (Neuro AI Decisioning, Neuro AI Enterprise Core, Neuro AI Engineering, Neuro AI for IT Operations) and other delivered platforms are engaged through consulting rather than self-service APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cognizant-technology/refs/heads/main/screenshots/cognizant-technology-2026-06-20T174719.png",
-     "score": 39.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.0,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 42.2,
@@ -310,8 +321,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -336,62 +347,6 @@
       "agentic_commerce": false
      },
      "rank": 7
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "providers": [
-    {
-     "name": "Mosaic",
-     "slug": "mosaic-app",
-     "description": "Mosaic is a resource management, workforce planning, and AI-assisted project management platform built for architecture, engineering, and professional services firms. It plugs into the ERPs those firms already run — Deltek (Ajera, Vantagepoint, Vision, Costpoint), Unanet, BST10, BQE Core, QuickBooks, Salesforce, and Microsoft Dynamics 365 — plus project management systems (Asana, Jira, GitHub, Karbon) and HRIS (BambooHR), then unifies the data into a single forecasting, time-entry, and capacity-planning surface. Mosaic exposes an Open API for custom integrations alongside its packaged connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png",
-     "score": 38.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 50.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 47.4,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 8
     },
     {
      "name": "Concentrix",
@@ -411,8 +366,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -436,29 +391,29 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
-     "name": "Vistra",
-     "slug": "vistra",
-     "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
-     "score": 36.0,
+     "name": "Mosaic",
+     "slug": "mosaic-app",
+     "description": "Mosaic is a resource management, workforce planning, and AI-assisted project management platform built for architecture, engineering, and professional services firms. It plugs into the ERPs those firms already run — Deltek (Ajera, Vantagepoint, Vision, Costpoint), Unanet, BST10, BQE Core, QuickBooks, Salesforce, and Microsoft Dynamics 365 — plus project management systems (Asana, Jira, GitHub, Karbon) and HRIS (BambooHR), then unifies the data into a single forecasting, time-entry, and capacity-planning surface. Mosaic exposes an Open API for custom integrations alongside its packaged connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png",
+     "score": 37.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 60.2,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 5.3,
+      "discoverability": 66.7,
+      "contract_quality": 50.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 28.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "commercial_clarity": 47.4,
+      "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 25.5,
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -467,7 +422,7 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": "verified",
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -481,29 +436,74 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 9
+    },
+    {
+     "name": "COR",
+     "slug": "cor",
+     "description": "COR (COR Global Ltd., projectcor.com) is an AI-powered management platform for advertising and creative agencies that calculates and forecasts project profitability while managing finances, resources, projects, tasks, and time tracking in one real-time workspace. COR publishes a REST API (JSON or XML) for projects, tasks, hours, clients, contracts, transactions, teams, users, and more, a separate Resource Allocation API, and an official hosted MCP server so AI clients can operate a workspace with natural language. Backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png",
+     "score": 37.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 33.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 10
     },
     {
-     "name": "Harvest",
-     "slug": "harvest",
-     "description": "Harvest is a cloud-based time tracking, project management, expense tracking, and invoicing platform used by agencies, consultancies, and professional services teams to track billable hours, manage budgets, and bill clients. The platform provides reporting on team utilization, project profitability, and budget burn, and integrates with tools like Asana, Trello, Slack, and QuickBooks. Harvest's REST API v2 provides full programmatic access to clients, projects, tasks, time entries, expenses, invoices, estimates, and users using OAuth 2.0 or Personal Access Token authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/screenshots/harvest-2026-06-20T182526.png",
-     "score": 34.7,
+     "name": "Vistra",
+     "slug": "vistra",
+     "description": "Vistra is a global corporate services provider operating in over 45 jurisdictions, offering entity management, incorporation, compliance, payroll, and fund administration services. The Vistra REST API enables developers to programmatically submit company incorporation requests in supported jurisdictions (initially British Virgin Islands), upload supporting documents to pre-signed storage URLs, and integrate Vistra's corporate services into business process workflows. Authentication uses OAuth2 bearer tokens obtained through the Vistra Developer Portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png",
+     "score": 35.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
-      "contract_quality": 53.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
+      "contract_quality": 60.2,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 31.6,
-      "access_clarity": 31.6
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 17.3,
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -512,9 +512,9 @@
       "mcp_server": false,
       "auth_clarity": "bearer",
       "idempotency": false,
-      "error_semantics": false,
+      "error_semantics": "verified",
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -546,8 +546,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -574,6 +574,51 @@
      "rank": 12
     },
     {
+     "name": "Harvest",
+     "slug": "harvest",
+     "description": "Harvest is a cloud-based time tracking, project management, expense tracking, and invoicing platform used by agencies, consultancies, and professional services teams to track billable hours, manage budgets, and bill clients. The platform provides reporting on team utilization, project profitability, and budget burn, and integrates with tools like Asana, Trello, Slack, and QuickBooks. Harvest's REST API v2 provides full programmatic access to clients, projects, tasks, time entries, expenses, invoices, estimates, and users using OAuth 2.0 or Personal Access Token authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/harvest/refs/heads/main/screenshots/harvest-2026-06-20T182526.png",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 31.6,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 13
+    },
+    {
      "name": "McKinsey & Company",
      "slug": "mckinsey-and-company",
      "description": "McKinsey & Company is the senior partner of the MBB triumvirate of global strategy and management consulting firms, founded in 1926 by James O. McKinsey and headquartered in New York City. The firm operates from 130-plus cities across more than 65 countries with roughly 38,000-45,000 people serving corporations, governments, and not-for-profit organizations. McKinsey delivers through industry practices and cross-cutting capability practices: Strategy & Corporate Finance, Operations, Marketing & Sales, Risk & Resilience, Sustainability, Transformation, Implementation, Organization (formerly OrgSolutions), Growth / Marketing / Sales, McKinsey Digital, and McKinsey Technology. McKinsey Digital houses QuantumBlack (the AI division acquired in 2015), Leap (venture / business building), and the Technology practice. Internal generative-AI tooling is consolidated in Lilli, a McKinsey-built consultant assistant launched in August 2023 that indexes 100,000+ internal documents and is used by tens of thousands of firm employees. Research and thought leadership are published through McKinsey Insights, McKinsey Quarterly (the firm's flagship business journal since 1964), McKinsey Global Institute (MGI, the firm's business and economics research arm), the QuantumBlack AI report and State of AI survey, industry-specific reports, podcasts (The McKinsey Podcast, McKinsey Talks Operations, etc.), and the McKinsey on Books series. McKinsey does not publish a public commercial developer API or developer portal; all software the firm releases publicly flows through GitHub. The official `github.com/mckinsey` organization hosts a focused open-source portfolio centered on data, AI, and agentic systems — Vizro (low-code Plotly/Dash data-visualization toolkit), Agents-at-Scale ARK (Kubernetes-native framework for portable agentic applications), Agents-at-Scale Marketplace (curated Helm-chart catalog of ARK executors, MCP servers, and tools), CausalNex (Bayesian-network causal-reasoning library), QuantumBlack Design System (shadcn-based React component registry), and qbstyles (QuantumBlack Matplotlib themes). Kedro, the production-grade data and ML pipeline framework originally built inside QuantumBlack, was donated to the Linux Foundation (LF AI & Data) and is now governed at `github.com/kedro-org`.",
@@ -590,8 +635,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -606,51 +651,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "COR",
-     "slug": "cor",
-     "description": "COR (COR Global Ltd., projectcor.com) is an AI-powered management platform for advertising and creative agencies that calculates and forecasts project profitability while managing finances, resources, projects, tasks, and time tracking in one real-time workspace. COR publishes a REST API (JSON or XML) for projects, tasks, hours, clients, contracts, transactions, teams, users, and more, a separate Resource Allocation API, and an official hosted MCP server so AI clients can operate a workspace with natural language. Backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png",
-     "score": 32.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.3,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 33.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -680,8 +680,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -725,8 +725,8 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -780,8 +780,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -825,8 +825,8 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -857,7 +857,7 @@
      "slug": "advantage-solutions",
      "description": "Advantage Solutions is a leading provider of outsourced sales, marketing, merchandising, and business intelligence services to consumer goods manufacturers and retailers across North America. The company supports brand growth through retail execution, in-store demos, digital commerce enablement, and shopper insights, and publishes Advantage360 shopper and market research alongside the MRKT industry publication. Advantage Solutions does not operate a developer program, publish API documentation, or offer a commercial API product. The only machine-readable surface it serves is the standard WordPress REST API of its corporate site (youradv.com) and of MRKT (mrktblog.com), both of which return published content anonymously.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/advantage-solutions/refs/heads/main/screenshots/advantage-solutions-2026-06-20T165343.png",
-     "score": 24.0,
+     "score": 23.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -870,8 +870,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -915,8 +915,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -960,8 +960,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1011,8 +1011,8 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1056,8 +1056,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1101,8 +1101,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1146,8 +1146,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1191,8 +1191,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1236,8 +1236,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1281,8 +1281,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1326,8 +1326,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1371,8 +1371,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1416,8 +1416,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1461,8 +1461,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1506,8 +1506,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1551,8 +1551,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1596,8 +1596,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1641,8 +1641,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1686,8 +1686,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1731,8 +1731,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1776,8 +1776,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1821,8 +1821,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1865,8 +1865,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1910,8 +1910,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1954,8 +1954,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1999,8 +1999,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2054,8 +2054,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2098,8 +2098,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2143,8 +2143,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2188,8 +2188,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2233,8 +2233,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2278,8 +2278,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2330,8 +2330,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2382,8 +2382,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2426,8 +2426,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2471,8 +2471,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2516,8 +2516,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2560,8 +2560,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2612,8 +2612,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2664,8 +2664,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2709,8 +2709,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2754,8 +2754,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2799,8 +2799,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2851,8 +2851,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2896,8 +2896,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2941,8 +2941,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2986,8 +2986,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3031,8 +3031,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3075,8 +3075,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3120,8 +3120,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3165,8 +3165,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3210,8 +3210,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3255,8 +3255,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3300,8 +3300,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3345,8 +3345,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3389,8 +3389,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3434,8 +3434,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3479,8 +3479,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3523,8 +3523,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3575,8 +3575,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3620,8 +3620,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3672,8 +3672,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -3721,8 +3721,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -3770,8 +3770,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3814,8 +3814,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3866,8 +3866,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

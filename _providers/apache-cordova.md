@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Apache Cordova provides a JavaScript plugin API for accessing native device capabilities (camera, GPS, file system, contacts, etc.), a CLI for project management and multi-platform builds, a plugin de
@@ -41,6 +41,10 @@ apis:
   slug: apache-cordova
 artifact_total: 36
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -196,7 +200,7 @@ overview: 'Apache Cordova publishes 1 API on the [APIs.io](https://apis.io/) net
   The Apache Cordova catalog on APIs.io includes 3 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  Apache Cordova''s developer surface includes developer portal, engineering blog, release notes, documentation, getting-started guide, support, Stack Overflow tag, and 10 more developer resources.'
+  Apache Cordova''s developer surface includes developer portal, engineering blog, release notes, documentation, getting-started guide, support, Stack Overflow tag, and 11 more developer resources.'
 plans:
 - name: Apache Cordova Plans Pricing
   plan_count: 3
@@ -238,9 +242,13 @@ score:
     governance: 9.8
     operational_transparency: 26.3
   previous_composite: 36.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-cordova/refs/heads/main/screenshots/apache-cordova-2026-06-20T172048.png
 security:
 - kind: domain-security
@@ -271,5 +279,5 @@ use_cases:
   name: Desktop Apps via Electron
 - description: Interface with Bluetooth, sensors, and other hardware through community and custom Cordova plugins.
   name: IoT and Device Interfaces
-website: https://cordova.apache.org/
+website: https://www.apache.org/
 ---

@@ -23,10 +23,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mismo.org/
 - group: start
   title: ''
   type: Portal
@@ -128,7 +132,7 @@ network: true
 overview: 'MISMO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Standards, Data Standard, Fannie Mae, Freddie Mac, and Financial-Services.
 
 
-  MISMO''s developer surface includes developer portal, documentation, product news, and 16 more developer resources.'
+  MISMO''s developer surface includes developer portal, documentation, product news, and 17 more developer resources.'
 random_paper: 3
 score:
   band: minimal
@@ -164,9 +168,13 @@ score:
     - owner: catalog
       reason: never_enriched
   previous_composite: 8.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mismo/refs/heads/main/screenshots/mismo-2026-08-07T183743.png
 slug: mismo
 tags:

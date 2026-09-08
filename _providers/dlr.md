@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: EOC EO Products Service Capabilities STAC API
   slug: open-dlr-stac-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dlr.de/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,7 +184,7 @@ overview: 'DLR publishes 3 APIs on the [APIs.io](https://apis.io/) network: Capa
   The DLR catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  DLR''s developer surface includes developer portal, GitHub presence, and 11 more developer resources.'
+  DLR''s developer surface includes developer portal, GitHub presence, and 12 more developer resources.'
 plans:
 - name: Plans
   plan_count: 5
@@ -235,9 +239,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 34.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/dlr/refs/heads/main/screenshots/dlr-2026-06-20T180058.png
 security:
 - kind: domain-security
@@ -260,5 +268,5 @@ tags:
 - STAC
 - Atmospheric Science
 - Digital Elevation Models
-website: https://geoservice.dlr.de/web/
+website: https://www.dlr.de/
 ---

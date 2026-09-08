@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Backend API for the Tolmo cloud security platform, consumed through the Tolmo CLI (SQL/Cypher queries over the infrastructure graph, security findings management, and a secure server-side proxy for co
@@ -169,9 +169,13 @@ score:
   previous_composite: 25.7
   provenance:
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tolmo/refs/heads/main/screenshots/tolmo-2026-09-02T163853.png
 security:
 - kind: authentication

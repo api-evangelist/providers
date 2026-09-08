@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: Electronic trading API for executing trades across fixed income, derivatives, and ETF markets. Supports RFQ (Request for Quote), click-to-trade, and automated execution via AiEX (Automated Intelligent
@@ -53,6 +53,10 @@ apis:
   slug: apa-api
 artifact_total: 38
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tradeweb.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -164,7 +168,7 @@ overview: 'Tradeweb publishes 5 APIs on the [APIs.io](https://apis.io/) network.
   The Tradeweb catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Tradeweb''s developer surface includes developer portal, documentation, support, engineering blog, and 9 more developer resources.'
+  Tradeweb''s developer surface includes developer portal, documentation, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: Tradeweb Plans Pricing
   plan_count: 3
@@ -222,9 +226,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Tradeweb Domain Security

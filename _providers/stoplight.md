@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'Stoplight Platform is a SaaS collaborative API design and documentation management tool providing a visual editor for OpenAPI specifications, interactive hosted documentation, automatic mock servers, '
@@ -61,6 +61,10 @@ apis:
   slug: stoplight-versions-api
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.smartbear.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -328,7 +332,7 @@ overview: 'Stoplight publishes 1 API on the [APIs.io](https://apis.io/) network:
   The Stoplight catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 52 more developer resources.'
+  Stoplight''s developer surface includes developer portal, documentation, pricing, engineering blog, support, signup flow, getting-started guide, and 53 more developer resources.'
 plans:
 - name: Stoplight Plans Pricing
   plan_count: 5
@@ -351,7 +355,7 @@ rules:
   slug: stoplight-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 69.2
+  composite: 69.7
   coverage:
     artifact_dirs: 28
     catalog_earned: 63.3
@@ -359,7 +363,7 @@ score:
     catalog_gap: 51.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 100.0
     commercial_clarity: 100.0
@@ -382,9 +386,12 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/screenshots/stoplight-2026-06-20T194601.png
 security:
 - kind: authentication
@@ -415,5 +422,5 @@ tags:
 - OpenAPI
 - SmartBear API Hub
 - Style Guides
-website: https://stoplight.io
+website: https://www.smartbear.com/
 ---

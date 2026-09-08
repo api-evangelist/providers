@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Concentriq REST API exposes whole-slide images, annotations, regions of interest, users, and clinical/case data on Proscia's open, API-first digital pathology platform. Authentication is via a Con
@@ -44,6 +44,10 @@ apis:
   slug: concentriq-embeddings-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.proscia.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -131,7 +135,7 @@ network: true
 overview: 'Proscia publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Digital Pathology, Pathology, and Life Sciences.
 
 
-  Proscia''s developer surface includes documentation, engineering blog, signup flow, support, changelog, authentication, and 12 more developer resources.'
+  Proscia''s developer surface includes documentation, engineering blog, signup flow, support, changelog, authentication, and 13 more developer resources.'
 random_paper: 18
 score:
   band: thin
@@ -169,9 +173,13 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/proscia/refs/heads/main/screenshots/proscia-2026-09-02T152212.png
 security:
 - kind: authentication
@@ -195,5 +203,5 @@ tags:
 - Whole Slide Imaging
 - Foundation Models
 - Diagnostics
-website: https://proscia.com/build-on-concentriq/
+website: https://www.proscia.com/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: Golden API v2 Entity API Schema API API
   slug: open-golden-schema-api-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.golden.com/
 - group: other
   title: ''
   type: Overlay
@@ -192,7 +196,7 @@ network: true
 overview: 'Golden publishes 3 APIs on the [APIs.io](https://apis.io/) network: Entity API API, Query API API, and Schema API API. Tagged areas include Company, Knowledge Graph, Company Data, Data, and Entities.
 
 
-  Golden''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 19 more developer resources.'
+  Golden''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 20 more developer resources.'
 plans:
 - name: Golden Plans Pricing
   plan_count: 4
@@ -233,9 +237,13 @@ score:
       total: 3
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/golden/refs/heads/main/screenshots/golden-2026-07-25T220025.png
 security:
 - kind: authentication
@@ -256,5 +264,5 @@ tags:
 - Artificial Intelligence
 - Search
 - Business Intelligence
-website: https://docs.golden.com
+website: https://www.golden.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Credit-metered company and people data enrichment. Two entities — company (keyed on domain or LinkedIn URL) and person (keyed on LinkedIn profile URL or business email) — with a structured filter gram
@@ -206,9 +206,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tofu/refs/heads/main/screenshots/tofu-2026-09-02T163839.png
 security:
 - kind: authentication

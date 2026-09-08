@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Qumat is a unified Python API for building and executing quantum circuits across multiple quantum computing backends including Qiskit, Cirq, and Amazon Braket. It provides a hardware-agnostic interfac
@@ -44,6 +44,10 @@ apis:
   slug: apache-mahout-samsara
 artifact_total: 23
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -141,7 +145,7 @@ network: true
 overview: 'Apache Mahout publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Distributed Computing, Machine-Learning, Python, Quantum Computing, and Scala.
 
 
-  Apache Mahout''s developer surface includes developer portal, engineering blog, and 12 more developer resources.'
+  Apache Mahout''s developer surface includes developer portal, engineering blog, and 13 more developer resources.'
 plans:
 - name: Apache Mahout Plans Pricing
   plan_count: 3
@@ -175,9 +179,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 28.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mahout/refs/heads/main/screenshots/apache-mahout-2026-06-20T172120.png
 security:
 - kind: domain-security
@@ -204,5 +212,5 @@ use_cases:
   name: Large-Scale Recommendation
 - description: Cluster large datasets using distributed K-Means and other algorithms running on Apache Spark.
   name: Distributed Clustering
-website: https://mahout.apache.org/
+website: https://www.apache.org/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 64.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -291,6 +291,10 @@ collections:
   name: Adobe Analytics Annotations Server Call Estimate API
   slug: open-adobe-analytics-server-call-estimate-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.adobe.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -974,7 +978,7 @@ overview: 'Adobe Analytics publishes 29 APIs on the [APIs.io](https://apis.io/) 
   The Adobe Analytics catalog on APIs.io includes 1 event-driven AsyncAPI specification, 3 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 72 more developer resources.'
+  Adobe Analytics'' developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, developer console, support, and 73 more developer resources.'
 plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
@@ -1023,7 +1027,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.6
+  composite: 65.9
   coverage:
     artifact_dirs: 35
     catalog_earned: 66.5
@@ -1031,7 +1035,7 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.3
   facets:
     access_clarity: 71.1
     commercial_clarity: 71.1
@@ -1055,9 +1059,12 @@ score:
       total: 28
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:
 - kind: authentication
@@ -1102,5 +1109,5 @@ use_cases:
   name: Server-Side Data Collection
 - description: Combine web, mobile, and offline data for unified cross-channel analytics reporting.
   name: Cross-Channel Reporting
-website: https://developer.adobe.com/analytics-apis/docs/2.0/
+website: https://www.adobe.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: DRM, CMS, and content-monitoring API for managing rights assets, collections, and whitelists, tracking infringing copies across platforms, and running takedowns. Bearer API-key authentication; rate li
@@ -181,9 +181,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pex/refs/heads/main/screenshots/pex-2026-09-02T151123.png
 security:
 - kind: authentication

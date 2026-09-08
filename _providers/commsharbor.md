@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST/HTTP API (OpenAPI 3.1) for transactional email, deliverability, sending domains, permission-based marketing, CRM, and multi-tenancy governance across 96 paths. Cross-linked with a hosted MCP serv
@@ -132,7 +132,7 @@ rate_limits:
   slug: commsharbor-rate-limits
 score:
   band: developing
-  composite: 46.3
+  composite: 45.6
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -140,7 +140,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: -1.3
+  delta: -0.7
   facets:
     access_clarity: 59.2
     commercial_clarity: 59.2
@@ -150,7 +150,7 @@ score:
     discoverability: 75.9
     governance: 4.5
     operational_transparency: 50.0
-  previous_composite: 47.6
+  previous_composite: 46.3
   provenance:
     conformance: derived
     mcp: first-party
@@ -161,9 +161,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Commsharbor Authentication

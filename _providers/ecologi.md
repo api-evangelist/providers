@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Impact API lets developers programmatically fund climate impact on behalf of an Ecologi account. POST endpoints purchase trees, local trees in specific countries (UK, US, AU, BR), carbon avoidance
@@ -43,6 +43,10 @@ apis:
   slug: ecologi-reporting-api
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ecologi.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -188,7 +192,7 @@ network: true
 overview: 'Ecologi publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Climate, Climate Action, Carbon Offsets, Carbon Removal, and Carbon Avoidance.
 
 
-  Ecologi''s developer surface includes developer portal, documentation, getting-started guide, signup flow, support, pricing, engineering blog, and 21 more developer resources.'
+  Ecologi''s developer surface includes developer portal, documentation, getting-started guide, signup flow, support, pricing, engineering blog, and 22 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -211,9 +215,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 19.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ecologi/refs/heads/main/screenshots/ecologi-2026-06-20T180444.png
 security:
 - kind: domain-security
@@ -244,5 +252,5 @@ tags:
 - Zapier
 - Shopify
 - Webhook
-website: https://ecologi.com
+website: https://www.ecologi.com/
 ---

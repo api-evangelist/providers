@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: REST API for public Twitter/X data with X-API-Key auth, JSON responses, and 76 documented endpoints across users, tweets, posting, interactions, lists, profiles, communities, Spaces, search, auth, X C
@@ -48,6 +48,10 @@ apis:
   slug: tweetapi-hosted-mcp-server
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tweetapi.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -186,7 +190,7 @@ network: true
 overview: 'TweetAPI publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include twitter, X, Social-Media, Social Data, and Search.
 
 
-  TweetAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
+  TweetAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
 plans:
 - name: Tweetapi Plans Pricing
   plan_count: 4
@@ -226,9 +230,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tweetapi/refs/heads/main/screenshots/tweetapi-2026-08-17T082504.png
 security:
 - kind: authentication
@@ -257,5 +265,5 @@ tags:
 - agent-native
 - llms-txt
 - REST API
-website: https://tweetapi.com/docs
+website: https://www.tweetapi.com/
 ---

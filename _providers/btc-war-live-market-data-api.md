@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - baseURL: https://btcwar.net
@@ -50,6 +50,10 @@ collections:
   name: BTC War Live Market Data API
   slug: open-btc-war-live-market-data-api-market-data
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.btcwar.net/
 - group: agent
   title: ''
   type: MCPServer
@@ -227,7 +231,7 @@ overview: 'BTC War Live Market Data API publishes 1 API on the [APIs.io](https:/
   The BTC War Live Market Data API catalog on APIs.io includes 2 JSON-LD contexts.
 
 
-  BTC War Live Market Data API''s developer surface includes code examples, authentication, changelog, support, engineering blog, and 29 more developer resources.'
+  BTC War Live Market Data API''s developer surface includes code examples, authentication, changelog, support, engineering blog, and 30 more developer resources.'
 plans:
 - name: Btc War Live Market Data Api Plans Pricing
   plan_count: 1
@@ -274,9 +278,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/btc-war-live-market-data-api/refs/heads/main/screenshots/btc-war-live-market-data-api-2026-08-17T123059.png
 security:
 - kind: authentication
@@ -311,4 +319,5 @@ tags:
 - Arazzo
 - JSON-Schema
 - AgentSkill
+website: https://www.btcwar.net/
 ---

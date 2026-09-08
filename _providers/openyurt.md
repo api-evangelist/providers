@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: OpenYurt extends Kubernetes with CRDs for edge computing including NodePool for grouping edge nodes, YurtAppSet for deploying applications across node pools, YurtAppDaemon for pool-scoped daemon workl
@@ -41,6 +41,10 @@ apis:
   slug: openyurt-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.openyurt.io/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -72,7 +76,7 @@ network: true
 overview: 'OpenYurt publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cloud-Native, Cloud-Edge, Edge Computing, Incubating, and IoT.
 
 
-  OpenYurt''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
+  OpenYurt''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
 plans:
 - name: Openyurt Plans Pricing
   plan_count: 3
@@ -103,9 +107,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 13.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/openyurt/refs/heads/main/screenshots/openyurt-2026-06-20T191055.png
 security:
 - kind: domain-security
@@ -120,5 +128,5 @@ tags:
 - Incubating
 - IoT
 - Kubernetes
-website: https://openyurt.io
+website: https://www.openyurt.io/
 ---

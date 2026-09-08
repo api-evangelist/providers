@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 8
@@ -842,6 +842,10 @@ collections:
   name: Amigo Account World API
   slug: open-amigo-world-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amigo.ai/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1008,7 +1012,7 @@ overview: 'Amigo publishes 72 APIs on the [APIs.io](https://apis.io/) network, i
   The Amigo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 30 more developer resources.'
+  Amigo''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 31 more developer resources.'
 random_paper: 0
 scopes:
 - name: Amigo Scopes
@@ -1016,8 +1020,8 @@ scopes:
   slug: amigo-scopes
   summary_line: 53 scopes
 score:
-  band: strong
-  composite: 57.9
+  band: exemplar
+  composite: 67.2
   coverage:
     artifact_dirs: 23
     catalog_earned: 27.0
@@ -1025,7 +1029,7 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.3
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -1060,9 +1064,12 @@ score:
     regime: Health
     regime_id: health
     score: 63.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/amigo/refs/heads/main/screenshots/amigo-2026-07-25T200104.png
 security:
 - kind: authentication
@@ -1089,5 +1096,5 @@ tags:
 - FHIR
 - EHR
 - HIPAA
-website: https://docs.amigo.ai/developer-guide
+website: https://www.amigo.ai/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Hostfully Property Management Platform REST API v3.x covering properties (single and multi-unit), leads (inquiries, booking requests, bookings, group bookings, holds, cancellations, rebooking), orders
@@ -212,9 +212,13 @@ score:
     regions:
     - north-america
   previous_composite: 19.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostfully/refs/heads/main/screenshots/hostfully-2026-06-20T182842.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST data API exposing Grips Intelligence e-commerce analytics. Requests are HTTPS POSTs carrying a GraphQL-style query envelope (query + variables), scoped by domain, date range, and country. Endpoin
@@ -166,9 +166,13 @@ score:
   previous_composite: 25.9
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/grips-intelligence/refs/heads/main/screenshots/grips-intelligence-2026-07-25T220333.png
 security:
 - kind: authentication

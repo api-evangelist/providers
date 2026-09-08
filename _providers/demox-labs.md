@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Free public JSON-RPC 2.0 API for reading the Aleo zero-knowledge blockchain — latest blocks and heights, transactions and transitions, records, deployed programs, mapping values, public NFTs and token
@@ -41,6 +41,10 @@ apis:
   slug: aleo-rpc-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.leo.app/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -132,7 +136,7 @@ network: true
 overview: 'Demox Labs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Zero Knowledge, Cryptocurrency, and Wallets.
 
 
-  Demox Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
+  Demox Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
 random_paper: 17
 score:
   band: thin
@@ -164,9 +168,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/main/screenshots/demox-labs-2026-07-25T211716.png
 security:
 - kind: authentication
@@ -189,5 +197,5 @@ tags:
 - Developer Tools
 - SDK
 - JSON-RPC
-website: https://docs.leo.app
+website: https://www.leo.app/
 ---

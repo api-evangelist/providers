@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - baseURL: https://sbgi.net/wp-json
@@ -83,6 +83,10 @@ collections:
   name: Sinclair Corporate Content API
   slug: open-sinclair-broadcast-group-content
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sbgi.net/
 - group: other
   title: ''
   type: CapabilityMap
@@ -200,7 +204,7 @@ network: true
 overview: 'Sinclair, Inc. publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Corporate API, Embed API, Media API, and 5 more. Tagged areas include Broadcasting, Television, Local News, Sports Media, and Regional Sports Networks.
 
 
-  Sinclair, Inc.''s developer surface includes support, engineering blog, developer portal, and 16 more developer resources.'
+  Sinclair, Inc.''s developer surface includes support, engineering blog, developer portal, and 17 more developer resources.'
 plans:
 - name: Sinclair Broadcast Group Plans Pricing
   plan_count: 0
@@ -240,9 +244,13 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinclair-broadcast-group/refs/heads/main/screenshots/sinclair-broadcast-group-2026-06-20T193943.png
 security:
 - kind: authentication
@@ -293,5 +301,5 @@ use_cases:
   name: Local & National Advertising
 - description: Using ATSC 3.0 spectrum for targeted advertising, automotive telematics, public-safety datacasting, and broadcast-IP interoperability.
   name: Datacasting and NextGen TV Services
-website: https://sbgi.net
+website: https://www.sbgi.net/
 ---

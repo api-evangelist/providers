@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -594,6 +594,10 @@ collections:
   name: Multi-Apps Overview Account Invitations Users-applications Management API
   slug: open-frontegg-users-applications-management-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.frontegg.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -897,7 +901,7 @@ overview: 'Frontegg publishes 64 APIs on the [APIs.io](https://apis.io/) network
   The Frontegg catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 11 Spectral governance rulesets.
 
 
-  Frontegg''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, pricing, and 30 more developer resources.'
+  Frontegg''s developer surface includes authentication, developer portal, signup flow, documentation, API reference, getting-started guide, pricing, and 31 more developer resources.'
 plans:
 - name: Frontegg Plans Pricing
   plan_count: 2
@@ -1029,8 +1033,8 @@ rules:
     warn: 3
   slug: frontegg-tenants-rules
 score:
-  band: strong
-  composite: 62.1
+  band: exemplar
+  composite: 67.5
   coverage:
     artifact_dirs: 18
     catalog_earned: 89.0
@@ -1038,7 +1042,7 @@ score:
     catalog_gap: 26.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -1056,9 +1060,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 63
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-08-17T083542.png
 security:
 - kind: authentication
@@ -1082,5 +1089,5 @@ tags:
 - SCIM
 - Entitlements
 - OpenID Connect
-website: https://frontegg.com
+website: https://www.frontegg.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -287,6 +287,10 @@ collections:
   name: Pipedream API
   slug: open-pipedream
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pipedream.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1025,7 +1029,7 @@ overview: 'Pipedream publishes 16 APIs on the [APIs.io](https://apis.io/) networ
   The Pipedream catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Pipedream''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 51 more developer resources.'
+  Pipedream''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 52 more developer resources.'
 plans:
 - name: Pipedream Plans Pricing
   plan_count: 4
@@ -1064,7 +1068,7 @@ scopes:
   summary_line: 16 scopes · clientCredentials
 score:
   band: strong
-  composite: 55.4
+  composite: 54.7
   coverage:
     artifact_dirs: 21
     catalog_earned: 70.5
@@ -1072,7 +1076,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 22.4
     commercial_clarity: 22.4
@@ -1090,9 +1094,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pipedream/refs/heads/main/screenshots/pipedream-2026-06-20T191726.png
 security:
 - kind: authentication
@@ -1112,5 +1119,5 @@ tags:
 - Embedded Integrations
 - Managed Auth
 - AI Agents
-website: https://pipedream.com/
+website: https://www.pipedream.com/
 ---

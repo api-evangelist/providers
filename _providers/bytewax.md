@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Open-source Python library for building distributed stream processing dataflows. Provides bytewax.dataflow, bytewax.operators (including windowing), bytewax.inputs, bytewax.outputs, and a connectors p
@@ -172,9 +172,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 33.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bytewax/refs/heads/main/screenshots/bytewax-2026-06-20T173827.png
 security:
 - kind: domain-security

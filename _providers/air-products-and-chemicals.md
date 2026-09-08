@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Air Products and Chemicals provides industrial, specialty, and process gases including hydrogen, helium, nitrogen, oxygen, argon, and carbon dioxide. The company also offers gas generation equipment, '
@@ -268,9 +268,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 32.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Air Products And Chemicals Domain Security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: Apple Pay Payment Token API
   slug: open-apple-pay-payment-token
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apple.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -233,7 +237,7 @@ overview: 'Apple Pay publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The Apple Pay catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apple Pay''s developer surface includes authentication, developer portal, support, getting-started guide, and 10 more developer resources.'
+  Apple Pay''s developer surface includes authentication, developer portal, support, getting-started guide, and 11 more developer resources.'
 plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
@@ -267,7 +271,7 @@ rules:
   slug: apple-pay-spectral-rules
 score:
   band: developing
-  composite: 47.6
+  composite: 46.9
   coverage:
     artifact_dirs: 16
     catalog_earned: 72.5
@@ -275,7 +279,7 @@ score:
     catalog_gap: 42.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -299,9 +303,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 35.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/screenshots/apple-pay-2026-06-20T172320.png
 security:
 - kind: authentication
@@ -335,5 +342,5 @@ use_cases:
   name: Contactless In-Store Payments
 - description: Paying for transit and transportation with Express Mode
   name: Transit Payments
-website: https://developer.apple.com/account/
+website: https://www.apple.com/
 ---

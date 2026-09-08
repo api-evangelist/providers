@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Horizon Robotics'' hosted Model Context Protocol server for the OpenExplorer toolchain. Probed anonymously on 2026-08-22: MCP protocol version 2025-06-18, serverInfo "Open Explorer MCP Server" v3.9.0, '
@@ -209,9 +209,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/horizon-robotics/refs/heads/main/screenshots/horizon-robotics-2026-09-02T145749.png
 security:
 - kind: authentication

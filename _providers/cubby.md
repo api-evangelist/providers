@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The Cubby Operator API is a JSON HTTP API — explicitly not RESTful — oriented around actions performed on system entities rather than transfer of state. Roughly 70 POST endpoints cover access codes, l
@@ -238,9 +238,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cubby/refs/heads/main/screenshots/cubby-2026-08-17T080842.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Railinc's suite of APIs empowers customers to simplify and automate business processes essential to the lifecycle of freight rail operations, including equipment, shipment, asset health, and routing d
@@ -47,6 +47,10 @@ apis:
   slug: rigis
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.railinc.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -82,7 +86,7 @@ network: true
 overview: 'Railinc publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Rail, Freight, Logistics, Transportation, and Supply Chain.
 
 
-  Railinc''s developer surface includes documentation, signup flow, support, and 2 more developer resources.'
+  Railinc''s developer surface includes documentation, signup flow, support, and 3 more developer resources.'
 plans:
 - name: Railinc Plans Pricing
   plan_count: 3
@@ -113,9 +117,13 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 16.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/railinc/refs/heads/main/screenshots/railinc-2026-06-20T192531.png
 security:
 - kind: domain-security
@@ -129,4 +137,5 @@ tags:
 - Logistics
 - Transportation
 - Supply Chain
+website: https://www.railinc.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: Core CDP API v2 for onchain wallets, payments, trading, faucets, policies, and JSON-RPC access, authenticated with short-lived JWTs.
@@ -60,6 +60,10 @@ asyncapis:
   name: Coinbase Global Webhooks
   slug: coinbase-global-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.coinbase.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -190,7 +194,7 @@ overview: 'Coinbase Global publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The Coinbase Global catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Coinbase Global''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, changelog, and 21 more developer resources.'
+  Coinbase Global''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, changelog, and 22 more developer resources.'
 random_paper: 15
 score:
   band: developing
@@ -222,9 +226,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinbase-global/refs/heads/main/screenshots/coinbase-global-2026-07-25T210033.png
 security:
 - kind: authentication
@@ -253,5 +261,5 @@ tags:
 - Developer Platform
 - AI Agents
 - Stablecoins
-website: https://portal.cdp.coinbase.com
+website: https://www.coinbase.com/
 ---

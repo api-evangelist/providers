@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: API for accessing Overture Maps Foundation open map datasets including places, buildings, transportation networks, and administrative boundary data.
@@ -41,6 +41,10 @@ apis:
   slug: overture-maps-foundation-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.overturemaps.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -80,7 +84,7 @@ network: true
 overview: 'Overture Maps Foundation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geospatial, Linux Foundation, Maps, and Open Data.
 
 
-  Overture Maps Foundation''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  Overture Maps Foundation''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 plans:
 - name: Overture Maps Foundation Plans Pricing
   plan_count: 3
@@ -117,9 +121,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/overture-maps-foundation/refs/heads/main/screenshots/overture-maps-foundation-2026-06-20T191240.png
 security:
 - kind: domain-security
@@ -132,4 +140,5 @@ tags:
 - Linux Foundation
 - Maps
 - Open Data
+website: https://www.overturemaps.org/
 ---

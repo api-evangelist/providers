@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.thymecare.com/
 - group: company
   title: ''
   type: Blog
@@ -63,7 +67,7 @@ network: true
 overview: 'Thyme Care is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Cancer Care, and Care Navigation.
 
 
-  Thyme Care''s developer surface includes engineering blog, support, and 2 more developer resources.'
+  Thyme Care''s developer surface includes engineering blog, support, and 3 more developer resources.'
 random_paper: 20
 score:
   band: minimal
@@ -90,8 +94,6 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
       reason: never_enriched
   previous_composite: 9.3
   regulatory:
@@ -100,9 +102,13 @@ score:
     regime: Health
     regime_id: health
     score: 10.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/thyme-care/refs/heads/main/screenshots/thyme-care-2026-09-02T163649.png
 slug: thyme-care
 tags:
@@ -114,4 +120,5 @@ tags:
 - Value-Based Care
 - Digital Health
 - Health Services
+website: https://www.thymecare.com/
 ---

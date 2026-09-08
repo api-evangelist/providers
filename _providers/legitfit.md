@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: LegitFit's Model Context Protocol server — a JSON-RPC 2.0 endpoint that exposes LegitFit resources to AI agents. Protected by OAuth 2.1 (authorization_code with PKCE S256) and gated by the mcp:read an
@@ -173,9 +173,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/legitfit/refs/heads/main/screenshots/legitfit-2026-07-25T224838.png
 security:
 - kind: authentication

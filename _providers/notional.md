@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: GraphQL subgraph API for querying Notional V2 on-chain data on Ethereum Mainnet via The Graph protocol. Provides access to accounts, trades, markets, nTokens, cash groups, currencies, TVL history, exc
@@ -146,9 +146,13 @@ score:
     applies: true
     score: 25.0
   previous_composite: 23.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/notional/refs/heads/main/screenshots/notional-2026-06-20T190428.png
 security:
 - kind: domain-security

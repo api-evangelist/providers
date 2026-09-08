@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Partner-gated REST API used to trigger test runs, manage suites, and retrieve execution results from the Functionize Test Cloud. Endpoint surface, base URL, and authentication mechanism are documented
@@ -125,9 +125,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/functionize/refs/heads/main/screenshots/functionize-2026-06-20T181615.png
 security:
 - kind: domain-security

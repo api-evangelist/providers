@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Everledger Platform API — marketed as Amplify — is a suite of REST APIs that let organizations access and embed blockchain-backed provenance data in their own systems. Core APIs include the Proven
@@ -41,6 +41,10 @@ apis:
   slug: everledger-platform-api-amplify
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://everledger.io/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -125,7 +129,7 @@ network: true
 overview: 'Everledger publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Provenance, Supply Chain, and Traceability.
 
 
-  Everledger''s developer surface includes documentation, pricing, support, signup flow, changelog, and 13 more developer resources.'
+  Everledger''s developer surface includes documentation, pricing, support, signup flow, changelog, and 14 more developer resources.'
 plans:
 - name: Everledger Plans
   plan_count: 3
@@ -156,9 +160,13 @@ score:
     governance: 0.0
     operational_transparency: 50.0
   previous_composite: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/everledger/refs/heads/main/screenshots/everledger-2026-07-25T213730.png
 security:
 - kind: domain-security
@@ -182,5 +190,5 @@ tags:
 - Diamonds
 - Luxury Goods
 - Anti-Counterfeiting
-website: https://everledger.io/edc/
+website: https://everledger.io/
 ---

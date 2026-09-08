@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: REST API surface behind HUMAN's Applications Protection products (Account Defender, Bot Defender, Credential Intelligence, Code Defender / PCI DSS). Manage custom rules, custom lists, account informat
@@ -189,9 +189,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/perimeterx/refs/heads/main/screenshots/perimeterx-2026-09-02T151053.png
 security:
 - kind: authentication

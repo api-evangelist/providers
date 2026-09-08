@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -82,6 +82,10 @@ collections:
   name: Air Quality Programmatic APIs Real-time Air Quality Tile API
   slug: open-air-quality-programmatic-apis
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.aqicn.org/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -250,7 +254,7 @@ overview: 'Air Quality Programmatic APIs publishes 2 APIs on the [APIs.io](https
   The Air Quality Programmatic APIs catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Air Quality Programmatic APIs'' developer surface includes authentication, FAQ, developer portal, and 8 more developer resources.'
+  Air Quality Programmatic APIs'' developer surface includes authentication, FAQ, developer portal, and 9 more developer resources.'
 plans:
 - name: Air Quality Programmatic Apis Plans Pricing
   plan_count: 3
@@ -327,9 +331,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/air-quality-programmatic-apis/refs/heads/main/screenshots/air-quality-programmatic-apis-2026-06-20T171420.png
 security:
 - kind: authentication
@@ -361,5 +369,5 @@ use_cases:
   name: Smart City Integration
 - description: Provide air quality-based recommendations for outdoor activities in fitness and weather apps.
   name: Outdoor Activity Planning
-website: https://aqicn.org/map/
+website: https://www.aqicn.org/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: ModRetro's agent-facing commerce API. A remote Model Context Protocol server implementing the Universal Commerce Protocol shopping service (versions 2026-04-08 and 2026-01-23), exposing 13 tools acros
@@ -215,9 +215,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/modretro/refs/heads/main/screenshots/modretro-2026-09-02T150613.png
 security:
 - kind: authentication

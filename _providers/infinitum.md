@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: An HTTP/JSON API over Infinitum's Motor Selection Tool (MST) and Fan Selection Tool (FST), documented by Infinitum for third-party integration with BMS, design software and internal tools. Infinitum's
@@ -142,9 +142,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 25.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/infinitum/refs/heads/main/screenshots/infinitum-2026-09-02T145851.png
 security:
 - kind: domain-security

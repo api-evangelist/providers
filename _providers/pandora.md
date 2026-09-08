@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Pandora GraphQL API provides access to Pandora's music catalog and listener data, enabling developers to build applications with playback controls, search, user collection management, feedback (th
@@ -41,6 +41,10 @@ apis:
   slug: pandora-graphql-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pandora.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -108,7 +112,7 @@ overview: 'Pandora publishes 1 API on the [APIs.io](https://apis.io/) network: G
   The Pandora catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Pandora''s developer surface includes developer portal, documentation, authentication, getting-started guide, and 6 more developer resources.'
+  Pandora''s developer surface includes developer portal, documentation, authentication, getting-started guide, and 7 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -139,9 +143,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 38.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pandora/refs/heads/main/screenshots/pandora-2026-06-20T191335.png
 security:
 - kind: domain-security
@@ -156,5 +164,5 @@ tags:
 - Podcasts
 - Music Genome Project
 - Personalization
-website: https://developer.pandora.com/
+website: https://www.pandora.com/
 ---

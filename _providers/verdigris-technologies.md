@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.verdigris.co/data/v4
@@ -122,6 +122,10 @@ collections:
   name: Data Control Weather API
   slug: open-verdigris-technologies-weather-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.verdigris.co/
 - group: other
   title: ''
   type: CapabilityMap
@@ -233,7 +237,7 @@ network: true
 overview: 'Verdigris Technologies publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Control API, Current API, Energy API, and 7 more. Tagged areas include Company, Energy, Energy Management, Building Automation, and Smart Buildings.
 
 
-  Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 19 more developer resources.'
+  Verdigris Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, and 20 more developer resources.'
 random_paper: 15
 scopes:
 - name: Verdigris Technologies Scopes
@@ -276,9 +280,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/verdigris-technologies/refs/heads/main/screenshots/verdigris-technologies-2026-08-17T082727.png
 security:
 - kind: authentication
@@ -306,5 +314,5 @@ tags:
 - Time Series
 - Analytics
 - Electricity
-website: https://docs.verdigris.co
+website: https://www.verdigris.co/
 ---

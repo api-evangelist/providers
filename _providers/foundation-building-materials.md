@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.myfbm.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +108,7 @@ network: true
 overview: 'Foundation Building Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Building Materials, Distribution, Construction, Drywall, and Steel Framing.
 
 
-  Foundation Building Materials'' developer surface includes developer portal, documentation, engineering blog, FAQ, support, signup flow, getting-started guide, and 7 more developer resources.'
+  Foundation Building Materials'' developer surface includes developer portal, documentation, engineering blog, FAQ, support, signup flow, getting-started guide, and 8 more developer resources.'
 random_paper: 16
 score:
   band: emerging
@@ -132,9 +136,13 @@ score:
     regions:
     - north-america
   previous_composite: 11.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/foundation-building-materials/refs/heads/main/screenshots/foundation-building-materials-2026-06-20T181456.png
 security:
 - kind: domain-security
@@ -154,5 +162,5 @@ tags:
 - B2B Commerce
 - Contractor Supply
 - North America
-website: https://www.myfbm.com
+website: https://www.myfbm.com/
 ---

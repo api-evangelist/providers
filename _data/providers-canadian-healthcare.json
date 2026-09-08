@@ -1,6 +1,6 @@
 {
- "total": 10,
- "shown": 10,
+ "total": 9,
+ "shown": 9,
  "limit": 1000,
  "bands": [
   {
@@ -16,7 +16,7 @@
      "slug": "jane-app",
      "description": "Jane is a cloud-based practice management platform for health and wellness clinics, headquartered in North Vancouver, Canada, with regional data residency across Canada, the USA, the United Kingdom, and Australia. Jane combines online booking, scheduling, charting and clinical documentation (including AI-assisted notes), insurance billing, payments, patient intake, a patient mobile app, and telehealth in a single system used by interdisciplinary clinics — physiotherapy, massage therapy, chiropractic, counselling, midwifery, and more. The Jane Developer Platform (developers.jane.app) exposes a documented REST API that lets approved Technology Partners build \"Jane Extensions\" — practitioner-authorized integrations that read and write clinic data. Authentication is OAuth 2.0 with PKCE over OpenID Connect (Keycloak realms), using RS256 JWT bearer access tokens and granular scopes (e.g. observations:read). The API is date-versioned in the URL path and is per-clinic (https://<clinic>/api/YYYY-MM-DD/), covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png",
-     "score": 57.7,
+     "score": 57.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -80,7 +80,7 @@
      "slug": "canada-health-infoway",
      "description": "Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway stewards the pan-Canadian FHIR interoperability specifications - CA Core+ and the CA Baseline profiles developed with the Canadian Institute for Health Information (CIHI) - and operates the Canadian FHIR Registry, the Canadian URI Registry, and a national Terminology Gateway. Its developer-facing API surface, published through the Accelero developer portal, is a HAPI-FHIR R4 (4.0.1) Terminology Service exposing CodeSystem, ValueSet, and ConceptMap resources with $lookup, $expand, $translate, and $validate-code operations, alongside a companion RESTful Terminology API for browsing code systems, subsets, maps, and packages. Infoway is a standards steward and terminology infrastructure operator for the Canadian market rather than a commercial clinical-data platform; the terminology content APIs are gated behind free registration and a session/token login, while the FHIR CapabilityStatement is served anonymously.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png",
-     "score": 42.4,
+     "score": 41.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -93,8 +93,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -136,62 +136,9 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
-    {
-     "name": "TELUS Health",
-     "slug": "telus-health",
-     "description": "TELUS Health is the digital-health division of TELUS, one of Canada's largest telecommunications and technology companies, and the country's leading health-IT provider. It operates the PS Suite, Med Access, and cloud-native Collaborative Health Record (CHR) electronic medical records used across Canadian primary care, along with pharmacy management, virtual care, and employer/benefits health services. Its documented public integration surface is the CHR Enterprise API, a GraphQL endpoint secured with RS512-signed JWT bearer tokens that exposes clinic data (patients, appointments, encounters, clinical documents and more) for partner-built add-ons, complemented by the TELUS Patient Chart FHIR R4 implementation guide, a package of 89 published StructureDefinition profiles under the http://telus.com/fhir/patientChart canonical for standards-based patient-record exchange out of TELUS EMRs, and the Omara Health Exchange FHIR interoperability platform. Home market is Canada, where healthcare is province-fragmented and FHIR interoperability is stewarded federally by Canada Health Infoway. Both API surfaces are documented but gated behind a partner or CHR-domain agreement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telus-health/refs/heads/main/screenshots/telus-health-2026-09-02T162751.png",
-     "score": 28.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 37.2,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 51.8,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 28.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 16.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Health Data & Analytics",
-     "rank": 3
-    },
     {
      "name": "OSCAR EMR",
      "slug": "oscar-emr",
@@ -210,8 +157,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -243,7 +190,7 @@
       "agentic_commerce": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 4
+     "rank": 3
     }
    ]
   },
@@ -273,8 +220,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -306,7 +253,7 @@
       "agentic_commerce": false
      },
      "tier": "Health Data & Analytics",
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Maple",
@@ -326,8 +273,8 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -359,7 +306,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Dialogue",
@@ -379,8 +326,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -412,7 +359,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Cortico",
@@ -432,8 +379,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -465,7 +412,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Tia Health",
@@ -485,8 +432,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -518,7 +465,7 @@
       "agentic_commerce": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 9
+     "rank": 8
     }
    ]
   },
@@ -547,8 +494,8 @@
       "commercial_clarity": 5.3,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -580,7 +527,7 @@
       "agentic_commerce": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 10
+     "rank": 9
     }
    ]
   }

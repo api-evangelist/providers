@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Habitat Lab provides an overview of Habitat 2.0 with documentation, quickstart code, and reproducing benchmark results for embodied AI research in simulated 3D environments. There is no public REST or
@@ -126,9 +126,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 21.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/habitat-lab/refs/heads/main/screenshots/habitat-lab-2026-06-20T182448.png
 security:
 - kind: domain-security

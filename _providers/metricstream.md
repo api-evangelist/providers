@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: Business REST APIs over the GRC Foundation object model — Area of Compliance, Asset, Asset Class, Control, Evidence, Exception, Financial Accounts, Function, Framework/Model Reference, Objectives, Pro
@@ -212,9 +212,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/metricstream/refs/heads/main/screenshots/metricstream-2026-09-02T150529.png
 security:
 - kind: authentication

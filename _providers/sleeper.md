@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.sleeper.app/v1
@@ -106,6 +106,10 @@ collections:
   name: Sleeper Drafts Users API
   slug: open-sleeper-users-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sleeper.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -201,7 +205,7 @@ network: true
 overview: 'Sleeper publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Drafts API, Leagues API, Matchups API, and 5 more. Tagged areas include Company, Fantasy Sports, Sports, Fantasy Football, and Gaming.
 
 
-  Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
+  Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 16 more developer resources.'
 random_paper: 17
 score:
   band: thin
@@ -233,9 +237,13 @@ score:
       total: 8
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/sleeper/refs/heads/main/screenshots/sleeper-2026-09-02T155833.png
 security:
 - kind: authentication
@@ -256,5 +264,5 @@ tags:
 - Sports Data
 - Leagues
 - Consumer
-website: https://docs.sleeper.com/
+website: https://www.sleeper.com/
 ---

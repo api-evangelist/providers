@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Implements the Pusher protocol (channels, private channels, presence channels, encrypted channels) for drop-in compatibility with Pusher client SDKs. Server-side publish via REST, client-side subscrib
@@ -41,6 +41,10 @@ apis:
   slug: pusher-compatible-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://soketi.app/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -100,7 +104,7 @@ network: true
 overview: 'Soketi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Real-Time, WebSockets, Open-Source, Pusher Protocol, and Self-Host.
 
 
-  Soketi''s developer surface includes developer portal, documentation, GitHub presence, and 8 more developer resources.'
+  Soketi''s developer surface includes developer portal, documentation, GitHub presence, and 9 more developer resources.'
 plans:
 - name: Soketi Plans Pricing
   plan_count: 1
@@ -131,9 +135,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 15.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/soketi/refs/heads/main/screenshots/soketi-2026-06-20T194139.png
 security:
 - kind: domain-security

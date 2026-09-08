@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Bastion''s REST API for regulated stablecoin infrastructure: create and manage custodial wallets, issue and convert stablecoins, run on/off-ramps, and move digital assets, with built-in KYC/AML complia'
@@ -40,6 +40,10 @@ apis:
   slug: bastion-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bastion.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -123,7 +127,7 @@ network: true
 overview: 'Bastion publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Stablecoins, Payments, Wallets, and Custody.
 
 
-  Bastion''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 14 more developer resources.'
+  Bastion''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 15 more developer resources.'
 random_paper: 17
 score:
   band: thin
@@ -159,9 +163,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bastion/refs/heads/main/screenshots/bastion-2026-07-25T202432.png
 security:
 - kind: domain-security
@@ -184,5 +192,5 @@ tags:
 - Crypto Infrastructure
 - Financial-Services
 - On/Off-Ramps
-website: https://bastion.com/
+website: https://www.bastion.com/
 ---

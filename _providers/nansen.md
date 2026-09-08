@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Nansen REST API
   slug: open-nansen
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nansen.ai/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -132,7 +136,7 @@ network: true
 overview: 'Nansen publishes 1 API on the [APIs.io](https://apis.io/) network: Smart Money API. Tagged areas include Web3, Crypto, Onchain, Wallet Labels, and Smart Money.
 
 
-  Nansen''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
+  Nansen''s developer surface includes authentication, developer portal, documentation, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Nansen Plans Pricing
   plan_count: 2
@@ -176,9 +180,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/screenshots/nansen-2026-06-20T185943.png
 security:
 - kind: authentication

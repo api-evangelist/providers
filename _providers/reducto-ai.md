@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -191,6 +191,10 @@ collections:
   name: Reducto Webhooks API
   slug: open-reducto-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.reducto.ai/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -502,7 +506,7 @@ overview: 'Reducto publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The Reducto catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Reducto''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 52 more developer resources.'
+  Reducto''s developer surface includes authentication, developer portal, documentation, getting-started guide, developer console, signup flow, pricing, and 53 more developer resources.'
 plans:
 - name: Reducto Plans Pricing
   plan_count: 3
@@ -525,7 +529,7 @@ rules:
   slug: reducto-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.8
+  composite: 64.1
   coverage:
     artifact_dirs: 14
     catalog_earned: 75.3
@@ -533,7 +537,7 @@ score:
     catalog_gap: 39.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -554,9 +558,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:
 - kind: authentication
@@ -600,5 +607,5 @@ use_cases:
   name: Multilingual document processing
 - description: Produce LLM-optimized chunks (with figure summarization, embed strings, and bounding boxes) ready for vector indexing.
   name: Multimodal RAG ingestion
-website: https://reducto.ai
+website: https://www.reducto.ai/
 ---

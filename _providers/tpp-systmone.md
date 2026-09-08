@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: TPP's local client-integration interface allowing an approved third-party application to interact with a running SystmOne client. Communication is performed with XML documents (validated against publi
@@ -168,9 +168,13 @@ score:
     regime: Health
     regime_id: health
     score: 34.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tpp-systmone/refs/heads/main/screenshots/tpp-systmone-2026-09-02T164009.png
 security:
 - kind: authentication

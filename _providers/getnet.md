@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 19
 apis:
 - description: Getnet's core REST API and Single Entry Point (SEP) for direct payment integration across Argentina, Brazil, Chile, Colombia, Mexico, Portugal, Spain, and Uruguay. One contract gives merchants omnicha
@@ -169,9 +169,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/getnet/refs/heads/main/screenshots/getnet-2026-06-20T181816.png
 security:
 - kind: domain-security

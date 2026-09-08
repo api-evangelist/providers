@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Fragment's GraphQL Ledger API. Store a double-entry chart-of-accounts schema, create ledgers, post idempotent ledger entries and lines, read aggregated / historical / period / strongly-consistent bala
@@ -41,6 +41,10 @@ apis:
   slug: fragment-ledger-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://fragment.dev/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -176,7 +180,7 @@ network: true
 overview: 'Fragment publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ledger, Accounting, Payments, and Fintech.
 
 
-  Fragment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, signup flow, support, and 24 more developer resources.'
+  Fragment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, signup flow, support, and 25 more developer resources.'
 random_paper: 12
 score:
   band: developing
@@ -209,9 +213,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fragment/refs/heads/main/screenshots/fragment-2026-07-25T215102.png
 security:
 - kind: authentication
@@ -242,5 +250,5 @@ tags:
 - GraphQL
 - Financial Infrastructure
 - Reconciliation
-website: https://fragment.dev/docs
+website: https://fragment.dev/
 ---

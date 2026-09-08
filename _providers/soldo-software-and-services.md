@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 152
   human_in_the_loop: 6
@@ -555,6 +555,10 @@ collections:
   name: Soldo Business API v2.0 - OpenAPI 3.0 Accounting Classification Workflows API
   slug: open-soldo-software-and-services-workflows-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.soldo.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -689,7 +693,7 @@ overview: 'Soldo Software and Services publishes 47 APIs on the [APIs.io](https:
   The Soldo Software and Services catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 23 more developer resources.'
+  Soldo Software and Services'' developer surface includes authentication, documentation, API reference, getting-started guide, changelog, engineering blog, pricing, and 24 more developer resources.'
 random_paper: 0
 scopes:
 - name: Soldo Software And Services Scopes
@@ -698,7 +702,7 @@ scopes:
   summary_line: 59 scopes · clientCredentials
 score:
   band: strong
-  composite: 58.7
+  composite: 58.0
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -706,7 +710,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 42.1
     commercial_clarity: 42.1
@@ -737,9 +741,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 87.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/soldo-software-and-services/refs/heads/main/screenshots/soldo-software-and-services-2026-08-17T081955.png
 security:
 - kind: authentication
@@ -765,5 +772,5 @@ tags:
 - Fintech
 - Financial-Services
 - Webhook
-website: https://developer.soldo.com/
+website: https://www.soldo.com/
 ---

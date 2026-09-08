@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Kin Euphorics Shopify storefront agent-commerce surface. Its UCP discovery document (/.well-known/ucp) advertises a Universal Commerce Protocol shopping service over MCP transport, supporting cata
@@ -41,6 +41,10 @@ apis:
   slug: kin-euphorics-storefront
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.kineuphorics.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -112,7 +116,7 @@ network: true
 overview: 'Kin Euphorics publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Beverages, Non-Alcoholic, Functional Beverage, and Adaptogens.
 
 
-  Kin Euphorics'' developer surface includes developer portal, signup flow, authentication, and 11 more developer resources.'
+  Kin Euphorics'' developer surface includes developer portal, signup flow, authentication, and 12 more developer resources.'
 random_paper: 1
 scopes:
 - name: Kin Euphorics Scopes
@@ -142,9 +146,13 @@ score:
   previous_composite: 20.6
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kin-euphorics/refs/heads/main/screenshots/kin-euphorics-2026-08-07T171224.png
 security:
 - kind: authentication
@@ -170,5 +178,5 @@ tags:
 - Agentic Commerce
 - UCP
 - MCP
-website: https://www.kineuphorics.com
+website: https://www.kineuphorics.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -65,6 +65,10 @@ collections:
   name: Google Knowledge Graph Search API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -148,7 +152,7 @@ overview: 'Google Knowledge Graph Search publishes 1 API on the [APIs.io](https:
   The Google Knowledge Graph Search catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google Knowledge Graph Search''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 9 more developer resources.'
+  Google Knowledge Graph Search''s developer surface includes authentication, developer portal, getting-started guide, documentation, support, and 10 more developer resources.'
 plans:
 - name: Google Knowledge Graph Plans Pricing
   plan_count: 3
@@ -208,9 +212,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-knowledge-graph/refs/heads/main/screenshots/google-knowledge-graph-2026-06-20T182208.png
 security:
 - kind: authentication
@@ -233,5 +241,5 @@ tags:
 - Linked Data
 - Schema.org
 - Semantic Search
-website: https://developers.google.com/knowledge-graph
+website: https://www.google.com/
 ---

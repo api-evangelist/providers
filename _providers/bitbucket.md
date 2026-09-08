@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 156
   human_in_the_loop: 4
@@ -310,6 +310,10 @@ collections:
   name: Bitbucket Addon Workspaces API
   slug: open-bitbucket-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.atlassian.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -489,7 +493,7 @@ overview: 'Bitbucket publishes 23 APIs on the [APIs.io](https://apis.io/) networ
   The Bitbucket catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Bitbucket''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 15 more developer resources.'
+  Bitbucket''s developer surface includes authentication, developer portal, signup flow, engineering blog, support, and 16 more developer resources.'
 plans:
 - name: Bitbucket Plans Pricing
   plan_count: 3
@@ -538,8 +542,8 @@ scopes:
   slug: bitbucket-scopes
   summary_line: 26 scopes · authorizationCode
 score:
-  band: developing
-  composite: 51.2
+  band: strong
+  composite: 60.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 70.5
@@ -547,7 +551,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.2
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -565,9 +569,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitbucket/refs/heads/main/screenshots/bitbucket-2026-06-20T173301.png
 security:
 - kind: authentication
@@ -608,5 +615,5 @@ use_cases:
   name: Release Management
 - description: Integrate security scanning into CI/CD pipelines for vulnerability detection.
   name: Security Scanning
-website: https://developer.atlassian.com/
+website: https://www.atlassian.com/
 ---

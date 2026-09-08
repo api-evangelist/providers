@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: Read and update the events an Organizer manages. Confirmed request patterns include GET and PATCH on the events collection and nested resources such as /events/{event_id}/images/. Each API key is scop
@@ -135,9 +135,13 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 23.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/eventmobi/refs/heads/main/screenshots/eventmobi-2026-07-25T213712.png
 security:
 - kind: domain-security

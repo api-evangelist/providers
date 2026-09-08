@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Full-featured REST API for the Taiga agile project management platform, providing programmatic access to projects, milestones, epics, user stories, tasks, issues, wiki pages, webhooks, timelines, user
@@ -143,9 +143,13 @@ score:
     governance: 0.0
     operational_transparency: 34.2
   previous_composite: 24.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/taiga/refs/heads/main/screenshots/taiga-2026-06-20T194855.png
 security:
 - kind: domain-security

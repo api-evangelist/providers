@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -75,6 +75,10 @@ collections:
   name: IDRX Onboarding Transaction API
   slug: open-idrx-transaction-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://idrx.co/
 - group: other
   title: ''
   type: Overlay
@@ -177,11 +181,11 @@ overview: 'IDRX publishes 3 APIs on the [APIs.io](https://apis.io/) network: Onb
   The IDRX catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 15 more developer resources.'
+  IDRX''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 16 more developer resources.'
 random_paper: 19
 score:
   band: thin
-  composite: 36.7
+  composite: 36.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -189,7 +193,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -223,9 +227,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/screenshots/idrx-2026-07-25T222044.png
 security:
 - kind: authentication
@@ -248,5 +255,5 @@ tags:
 - Web3
 - On-Ramp
 - Digital Currency
-website: https://docs.idrx.co
+website: https://idrx.co/
 ---

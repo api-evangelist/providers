@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -196,6 +196,10 @@ collections:
   name: Freestyle Web Deployments API
   slug: open-freestyle-web-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.freestyle.sh/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -461,7 +465,7 @@ overview: 'Freestyle publishes 11 APIs on the [APIs.io](https://apis.io/) networ
   The Freestyle catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Freestyle''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 43 more developer resources.'
+  Freestyle''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, pricing, engineering blog, and 44 more developer resources.'
 plans:
 - name: Freestyle Sh Plans Pricing
   plan_count: 5
@@ -484,22 +488,22 @@ rules:
   slug: freestyle-sh-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 58.3
+  composite: 60.3
   coverage:
     artifact_dirs: 14
-    catalog_earned: 65.3
+    catalog_earned: 80.3
     catalog_earned_first_party: 0.0
-    catalog_gap: 49.8
+    catalog_gap: 34.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
     contract_governance: 9.8
-    contract_quality: 68.0
+    contract_quality: 74.8
     developer_ergonomics: 67.9
-    discoverability: 50.0
+    discoverability: 59.3
     governance: 9.8
     operational_transparency: 52.6
   previous_composite: 58.3
@@ -510,9 +514,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 11
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:
 - kind: authentication
@@ -554,5 +561,5 @@ use_cases:
 - Reinforcement learning on microVMs — fan out, train, fold in
 - Deep-research agents that spawn, suspend on idle, and resume on event
 - Hosted code playgrounds for educational and developer-tool products
-website: https://www.freestyle.sh
+website: https://www.freestyle.sh/
 ---

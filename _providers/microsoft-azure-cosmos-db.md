@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: Azure Cosmos DB REST API
   slug: open-microsoft-azure-cosmos-db
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -136,7 +140,7 @@ network: true
 overview: 'Azure Cosmos DB publishes 3 APIs on the [APIs.io](https://apis.io/) network: microsoft-azure-cosmos-db Collections API, microsoft-azure-cosmos-db Databases API, and microsoft-azure-cosmos-db Documents API.
 
 
-  Azure Cosmos DB''s developer surface includes authentication, developer portal, pricing, documentation, support, and 6 more developer resources.'
+  Azure Cosmos DB''s developer surface includes authentication, developer portal, pricing, documentation, support, and 7 more developer resources.'
 plans:
 - name: Microsoft Azure Cosmos Db Plans Pricing
   plan_count: 3
@@ -148,7 +152,7 @@ rate_limits:
   slug: microsoft-azure-cosmos-db-rate-limits
 score:
   band: thin
-  composite: 37.4
+  composite: 36.7
   coverage:
     artifact_dirs: 10
     catalog_earned: 44.0
@@ -156,7 +160,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -177,9 +181,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-cosmos-db/refs/heads/main/screenshots/microsoft-azure-cosmos-db-2026-06-20T185408.png
 security:
 - kind: authentication
@@ -191,5 +198,5 @@ security:
   slug: microsoft-azure-cosmos-db-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
 slug: microsoft-azure-cosmos-db
-website: https://portal.azure.com/
+website: https://www.microsoft.com/
 ---

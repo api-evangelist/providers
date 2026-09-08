@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST Data API (V2, May 2024) for programmatic access to U.S. state and federal trial court data — Search (Boolean/query over Cases, Documents, Rulings with filtering and sorting), Rulings, Judges, Usa
@@ -170,9 +170,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellis-research/refs/heads/main/screenshots/trellis-research-2026-08-17T082432.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for identity verification, KYC, and AML watchlist/PEP screening. JSON:API media type (application/vnd.api+json), date-based versioning via the Cognito-Version header, and HTTP request-signatu
@@ -47,6 +47,10 @@ asyncapis:
   name: Cognito Flow Webhooks
   slug: cognito-flow-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cognitohq.com/
 - group: other
   title: ''
   type: ParentCompany
@@ -173,7 +177,7 @@ overview: 'Cognito publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Cognito catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Cognito''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
+  Cognito''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 22 more developer resources.'
 random_paper: 20
 score:
   band: developing
@@ -199,9 +203,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognito/refs/heads/main/screenshots/cognito-2026-07-25T210011.png
 security:
 - kind: authentication
@@ -228,5 +236,5 @@ tags:
 - Onboarding
 - Watchlist Screening
 - Know Your Customer
-website: https://cognitohq.com/docs
+website: https://www.cognitohq.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: A single-endpoint GraphQL API for accessing and managing Meetup community data including groups, events, members, tickets (RSVPs), venues, and photos. Supports querying, mutations for event creation a
@@ -41,6 +41,10 @@ apis:
   slug: meetup-graphql-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.meetup.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -92,7 +96,7 @@ network: true
 overview: 'Meetup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Event, Community, Group, Meetups, and Social.
 
 
-  Meetup''s developer surface includes engineering blog, terms of service, privacy policy, and 5 more developer resources.'
+  Meetup''s developer surface includes engineering blog, terms of service, privacy policy, and 6 more developer resources.'
 plans:
 - name: Plans
   plan_count: 2
@@ -123,9 +127,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/meetup/refs/heads/main/screenshots/meetup-2026-06-20T185133.png
 security:
 - kind: domain-security
@@ -144,4 +152,5 @@ tags:
 - Meetups
 - Social
 - GraphQL
+website: https://www.meetup.com/
 ---

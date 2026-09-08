@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: 'OAI-PMH 2.0 metadata harvesting interface for the University of Bath Research Data Archive, an EPrints 3.4.7 repository the University runs on its own infrastructure (researchdata.bath.ac.uk resolves '
@@ -200,9 +200,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 35.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bath/refs/heads/main/screenshots/university-of-bath-2026-06-20T200134.png
 security:
 - kind: domain-security

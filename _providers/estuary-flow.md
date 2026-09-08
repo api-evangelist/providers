@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications, tenants, and role grants. Authenticated with a
@@ -176,9 +176,13 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 36.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/screenshots/estuary-flow-2026-06-20T180830.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 4.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: HTTP endpoint for invoking a single published glif (AI workflow) by ID and passing a list of named or positional string inputs. POST a JSON body with `id` and `inputs` to https://simple-api.glif.app u
@@ -44,6 +44,10 @@ apis:
   slug: glif-rest-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.glif.app/
 - group: other
   title: ''
   type: AgentCard
@@ -156,7 +160,7 @@ network: true
 overview: 'Glif publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, No-Code, Workflows, Creative AI, and Generative AI.
 
 
-  Glif''s developer surface includes developer portal, documentation, changelog, pricing, support, GitHub presence, YouTube channel, and 18 more developer resources.'
+  Glif''s developer surface includes developer portal, documentation, changelog, pricing, support, GitHub presence, YouTube channel, and 19 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -179,9 +183,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 23.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/glif-app/refs/heads/main/screenshots/glif-app-2026-06-20T181913.png
 security:
 - kind: domain-security
@@ -204,5 +212,5 @@ tags:
 - ComfyUI
 - MCP
 - LLM Apps
-website: https://glif.app
+website: https://www.glif.app/
 ---

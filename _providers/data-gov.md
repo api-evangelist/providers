@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: The CKAN Action API exposes the full Data.gov catalog programmatically. It provides read access to packages (datasets), resources (file/URL distributions), organizations (publishers — federal agencies
@@ -49,6 +49,10 @@ apis:
   slug: inventory-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.data.gov/
 - group: operate
   title: ''
   type: IssueTracker
@@ -128,7 +132,7 @@ network: true
 overview: 'Data.gov publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Government, Open Data, Catalog, CKAN, and Datasets.
 
 
-  Data.gov''s developer surface includes GitHub presence, developer portal, documentation, engineering blog, privacy policy, and 12 more developer resources.'
+  Data.gov''s developer surface includes GitHub presence, developer portal, documentation, engineering blog, privacy policy, and 13 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -157,9 +161,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 25.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/screenshots/data-gov-2026-06-20T175527.png
 security:
 - kind: domain-security
@@ -176,5 +184,5 @@ tags:
 - Federal
 - GSA
 - Open Government
-website: https://data.gov/
+website: https://www.data.gov/
 ---

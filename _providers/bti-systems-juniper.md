@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.juniper.net/
 - group: docs
   title: ''
   type: Documentation
@@ -80,7 +84,7 @@ network: true
 overview: 'BTI Systems (Juniper) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Optical Networking, Packet Optical Transport, and Telecommunications.
 
 
-  BTI Systems (Juniper)''s developer surface includes documentation, API reference, support, and 5 more developer resources.'
+  BTI Systems (Juniper)''s developer surface includes documentation, API reference, support, and 6 more developer resources.'
 random_paper: 13
 score:
   band: minimal
@@ -109,9 +113,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bti-systems-juniper/refs/heads/main/screenshots/bti-systems-juniper-2026-07-25T204022.png
 security:
 - kind: domain-security
@@ -129,4 +137,5 @@ tags:
 - SDN
 - NFV
 - Acquired
+website: https://www.juniper.net/
 ---

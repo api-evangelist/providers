@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Splunk SOAR REST API creates, updates, queries and selectively removes the objects the platform automates against — containers, artifacts, playbooks, action runs, apps, assets, CEF fields, indicat
@@ -43,6 +43,10 @@ apis:
   slug: splunk-soar-rest-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.splunk.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -194,7 +198,7 @@ network: true
 overview: 'Splunk SOAR publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Security, SOAR, Automation, Orchestration, and Incident Response.
 
 
-  Splunk SOAR''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
+  Splunk SOAR''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 29 more developer resources.'
 plans:
 - name: Splunk Soar Plans Pricing
   plan_count: 0
@@ -228,9 +232,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk-soar/refs/heads/main/screenshots/splunk-soar-2026-09-02T160631.png
 security:
 - kind: authentication
@@ -261,5 +269,5 @@ tags:
 - Playbooks
 - Case Management
 - Threat Intelligence
-website: https://help.splunk.com/en/splunk-soar/soar-cloud
+website: https://www.splunk.com/
 ---

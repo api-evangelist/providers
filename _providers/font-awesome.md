@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Public GraphQL API for programmatically querying Font Awesome releases, searching icons and their metadata (family-styles, unicode, aliases, SVG path data), and — with an access token — reading accoun
@@ -43,6 +43,10 @@ apis:
   slug: font-awesome-graphql-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.fontawesome.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -162,7 +166,7 @@ network: true
 overview: 'Font Awesome publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Icons, SVG, Fonts, Web Design, and Developer Tools.
 
 
-  Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 20 more developer resources.'
+  Font Awesome''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 21 more developer resources.'
 random_paper: 19
 scopes:
 - name: Font Awesome Scopes
@@ -200,9 +204,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 64.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/font-awesome/refs/heads/main/screenshots/font-awesome-2026-07-25T214913.png
 security:
 - kind: authentication
@@ -235,5 +243,5 @@ tags:
 - Frontend
 - Design System
 - Company
-website: https://docs.fontawesome.com/apis/
+website: https://www.fontawesome.com/
 ---

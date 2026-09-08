@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: Microsoft Bicep Template Specs API
   slug: open-microsoft-bicep-template-specs
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -188,7 +192,7 @@ overview: 'Microsoft Bicep publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Bicep catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Microsoft Bicep''s developer surface includes authentication, engineering blog, support, release notes, and 14 more developer resources.'
+  Microsoft Bicep''s developer surface includes authentication, engineering blog, support, release notes, and 15 more developer resources.'
 plans:
 - name: Microsoft Bicep Plans Pricing
   plan_count: 3
@@ -216,7 +220,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 36.0
+  composite: 37.5
   coverage:
     artifact_dirs: 14
     catalog_earned: 54.3
@@ -224,7 +228,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -242,9 +246,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
 security:
 - kind: authentication
@@ -267,4 +274,5 @@ tags:
 - Deployment
 - DevOps
 - Infrastructure as Code
+website: https://www.microsoft.com/
 ---

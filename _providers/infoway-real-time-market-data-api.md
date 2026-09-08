@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: wss://data.infoway.io/ws
@@ -80,6 +80,10 @@ collections:
   name: REST Stock API
   slug: open-infoway-real-time-market-data-api-stock-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.infoway.io/
 - group: other
   title: ''
   type: Overlay
@@ -206,7 +210,7 @@ overview: 'Infoway Real-time Market Data API publishes 4 APIs on the [APIs.io](h
   The Infoway Real-time Market Data API catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
+  Infoway Real-time Market Data API''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
 random_paper: 17
 rate_limits:
 - limit_count: 0
@@ -248,9 +252,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/infoway-real-time-market-data-api/refs/heads/main/screenshots/infoway-real-time-market-data-api-2026-08-17T081000.png
 security:
 - kind: authentication
@@ -274,5 +282,5 @@ tags:
 - Financial Data
 - Fintech
 - Historical Data
-website: https://docs.infoway.io/
+website: https://www.infoway.io/
 ---

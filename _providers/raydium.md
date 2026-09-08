@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,6 +90,10 @@ collections:
   name: Raydium REST API v3
   slug: open-raydium
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.raydium.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +153,7 @@ network: true
 overview: 'Raydium publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Farms API, Main API, Mint API, and 1 more. Tagged areas include Web3, Solana, DEX, AMM, and Liquidity.
 
 
-  Raydium''s developer surface includes developer portal, documentation, GitHub presence, and 7 more developer resources.'
+  Raydium''s developer surface includes developer portal, documentation, GitHub presence, and 8 more developer resources.'
 plans:
 - name: Raydium Plans Pricing
   plan_count: 2
@@ -187,9 +191,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/screenshots/raydium-2026-06-20T192619.png
 security:
 - kind: domain-security
@@ -206,5 +214,5 @@ tags:
 - CLMM
 - Launchpad
 - Open-Source
-website: https://raydium.io/
+website: https://www.raydium.io/
 ---

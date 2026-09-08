@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Fern transforms a single API source of truth (OpenAPI, AsyncAPI, Protobuf, OpenRPC, or the Fern Definition Language) into type-safe SDKs in nine languages, branded interactive documentation with API e
@@ -41,6 +41,10 @@ apis:
   slug: fern
 artifact_total: 54
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.buildwithfern.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -311,7 +315,7 @@ overview: 'Fern publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The Fern catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Fern''s developer surface includes documentation, CLI, pricing, engineering blog, support, getting-started guide, signup flow, and 25 more developer resources.'
+  Fern''s developer surface includes documentation, CLI, pricing, engineering blog, support, getting-started guide, signup flow, and 26 more developer resources.'
 plans:
 - name: Fern Plans Pricing
   plan_count: 3
@@ -356,9 +360,13 @@ score:
     applies: true
     score: 50.0
   previous_composite: 38.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fern/refs/heads/main/screenshots/fern-2026-06-20T181141.png
 security:
 - kind: domain-security
@@ -399,4 +407,5 @@ use_cases:
   name: Multi-Protocol Reference Docs
 - description: Migrate existing developer docs and SDK pipelines to Fern in days rather than quarters.
   name: Migration From Stainless, ReadMe, Mintlify, or GitBook
+website: https://www.buildwithfern.com/
 ---

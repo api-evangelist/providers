@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Subscribe to VCC event notifications delivered over HTTPS and signed with a Vonage-Signature header.
@@ -140,9 +140,13 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 28.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/newvoicemedia/refs/heads/main/screenshots/newvoicemedia-2026-08-07T185150.png
 security:
 - kind: authentication

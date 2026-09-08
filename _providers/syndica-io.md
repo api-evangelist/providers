@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: High-performance Solana JSON-RPC HTTP endpoints served from a fault-tolerant elastic-node architecture across four global regions (Northern Virginia, Oregon, London, Singapore). Supports the full stan
@@ -53,6 +53,10 @@ asyncapis:
   name: Syndica Solana RPC PubSub & ChainStream WebSocket API
   slug: syndica-io-asyncapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.syndica.io/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -196,7 +200,7 @@ overview: 'Syndica publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The Syndica catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Syndica''s developer surface includes developer portal, documentation, FAQ, support, engineering blog, signup flow, pricing, and 18 more developer resources.'
+  Syndica''s developer surface includes developer portal, documentation, FAQ, support, engineering blog, signup flow, pricing, and 19 more developer resources.'
 random_paper: 0
 rules:
 - effective_rule_count: 34
@@ -231,9 +235,13 @@ score:
     governance: 13.6
     operational_transparency: 21.1
   previous_composite: 37.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/syndica-io/refs/heads/main/screenshots/syndica-io-2026-06-20T194826.png
 security:
 - kind: domain-security
@@ -278,5 +286,5 @@ use_cases:
   name: Solana staking
 - description: Build on top of, or contribute to, Sig — Syndica's open-source Zig validator client — and consume its companion libraries (rocksdb-zig, lsquic, boringssl-zig).
   name: Solana protocol R&D
-website: https://syndica.io
+website: https://www.syndica.io/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Official remote Model Context Protocol server (com.1stdibs/1stDibs) for browsing and searching luxury design items on the 1stDibs marketplace. Streamable-HTTP transport, API-key authentication.
@@ -112,9 +112,13 @@ score:
   previous_composite: 13.1
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/1stdibs/refs/heads/main/screenshots/1stdibs-2026-08-07T160656.png
 security:
 - kind: domain-security

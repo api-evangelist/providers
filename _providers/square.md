@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 3
@@ -528,6 +528,10 @@ collections:
   name: Square
   slug: open-square
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.squareup.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1035,7 +1039,7 @@ overview: 'Square publishes 42 APIs on the [APIs.io](https://apis.io/) network, 
   The Square catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Square''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, sandbox, and 89 more developer resources.'
+  Square''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, changelog, sandbox, and 90 more developer resources.'
 plans:
 - name: Square Plans Pricing
   plan_count: 4
@@ -1085,7 +1089,7 @@ scopes:
   summary_line: 58 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 70.3
+  composite: 75.7
   coverage:
     artifact_dirs: 28
     catalog_earned: 50.5
@@ -1093,7 +1097,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 68.4
     commercial_clarity: 68.4
@@ -1117,9 +1121,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png
 security:
 - kind: authentication
@@ -1172,5 +1179,5 @@ use_cases:
 - name: Process Refunds and Disputes
 - name: Sell Gift Cards
 - name: Set Up Recurring Subscriptions
-website: https://developer.squareup.com/us/en
+website: https://www.squareup.com/
 ---

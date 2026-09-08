@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: REST API for retrieving end-user accounts, transactions, and balances across 3,400+ European banks via PSD2 AISP.
@@ -53,6 +53,10 @@ apis:
   slug: payments-api
 artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tink.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -116,7 +120,7 @@ network: true
 overview: 'Tink publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fintech, Open Banking, PSD2, Europe, and Visa.
 
 
-  Tink''s developer surface includes developer portal, documentation, pricing, engineering blog, and 8 more developer resources.'
+  Tink''s developer surface includes developer portal, documentation, pricing, engineering blog, and 9 more developer resources.'
 plans:
 - name: Tink Plans Pricing
   plan_count: 2
@@ -158,9 +162,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 15.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tink/refs/heads/main/screenshots/tink-2026-06-20T195408.png
 security:
 - kind: domain-security
@@ -181,5 +189,5 @@ tags:
 - Account Aggregation
 - Payments
 - KYC
-website: https://tink.com/
+website: https://www.tink.com/
 ---

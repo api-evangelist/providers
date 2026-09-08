@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The Libcloud Compute API provides a unified Python interface for managing virtual machine instances, images, sizes, and networks across AWS EC2, Azure, GCP, DigitalOcean, Linode, and 25+ other provide
@@ -47,6 +47,10 @@ apis:
   slug: dns-api
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -142,7 +146,7 @@ network: true
 overview: 'Apache Libcloud publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Abstraction Layer, Cloud, Multi-Cloud, Open-Source, and Python.
 
 
-  Apache Libcloud''s developer surface includes documentation, getting-started guide, engineering blog, and 11 more developer resources.'
+  Apache Libcloud''s developer surface includes documentation, getting-started guide, engineering blog, and 12 more developer resources.'
 plans:
 - name: Apache Libcloud Plans Pricing
   plan_count: 3
@@ -176,9 +180,13 @@ score:
     applies: true
     score: 40.0
   previous_composite: 23.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-libcloud/refs/heads/main/screenshots/apache-libcloud-2026-06-20T172117.png
 security:
 - kind: domain-security
@@ -199,4 +207,5 @@ use_cases:
   name: Cloud Provider Migration
 - description: Automate VM provisioning, storage, and DNS across cloud providers.
   name: Infrastructure Automation
+website: https://www.apache.org/
 ---

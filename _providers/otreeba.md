@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.otreeba.com/v1
@@ -162,6 +162,10 @@ collections:
   name: Otreeba Type API
   slug: open-otreeba-type-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.otreeba.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -217,7 +221,7 @@ network: true
 overview: 'Otreeba publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Brands API, Condition API, Conditions API, and 12 more. Tagged areas include Cannabis, Hemp, and Clothing.
 
 
-  Otreeba''s developer surface includes signup flow, support, and 8 more developer resources.'
+  Otreeba''s developer surface includes signup flow, support, and 9 more developer resources.'
 plans:
 - name: Otreeba Plans Pricing
   plan_count: 3
@@ -254,9 +258,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 15
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 security:
 - kind: domain-security
   name: Otreeba Domain Security
@@ -267,4 +275,5 @@ tags:
 - Cannabis
 - Hemp
 - Clothing
+website: https://www.otreeba.com/
 ---

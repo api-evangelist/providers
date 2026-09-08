@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: Consumer-facing web application for conversational AI trip planning, itinerary building, collaboration, and booking of flights, hotels, restaurants, experiences, and events.
@@ -152,9 +152,13 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 22.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Mindtrip Domain Security

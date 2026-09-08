@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -322,8 +322,8 @@ scopes:
   slug: propelplm-scopes
   summary_line: 4 scopes · implicit/authorizationCode
 score:
-  band: developing
-  composite: 54.1
+  band: strong
+  composite: 55.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 40.0
@@ -331,7 +331,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -352,9 +352,12 @@ score:
       total: 15
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelplm/refs/heads/main/screenshots/propelplm-2026-08-17T081348.png
 security:
 - kind: authentication

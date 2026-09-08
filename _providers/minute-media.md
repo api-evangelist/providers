@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The public oEmbed 1.0 provider endpoint for STN Video (formerly SendtoNews), Minute Media's online video platform. A GET with a URL-encoded `url` naming an embed.sendtonews.com resource that carries a
@@ -182,9 +182,13 @@ score:
   previous_composite: 20.6
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/minute-media/refs/heads/main/screenshots/minute-media-2026-08-07T183655.png
 security:
 - kind: authentication

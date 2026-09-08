@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The ONC-certified § 170.315(g)(10) Standardized API for Patient and Population Services. A HL7 FHIR R4 (4.0.1) RESTful server conforming to the US Core Implementation Guide v3.1.1, exposing 24 resourc
@@ -228,9 +228,13 @@ score:
     regime: Health
     regime_id: health
     score: 61.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Carefluence Authentication

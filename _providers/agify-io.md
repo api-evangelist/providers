@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -60,6 +60,10 @@ collections:
   name: Agify.io Age Prediction API
   slug: open-agify-io-age-prediction-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.agify.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -139,7 +143,7 @@ overview: 'Agify.io publishes 1 API on the [APIs.io](https://apis.io/) network: 
   The Agify.io catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Agify.io''s developer surface includes developer portal, documentation, pricing, and 3 more developer resources.'
+  Agify.io''s developer surface includes developer portal, documentation, pricing, and 4 more developer resources.'
 plans:
 - name: Agify Io Plans Pricing
   plan_count: 3
@@ -188,9 +192,13 @@ score:
       derived: 2
       marker_coverage: 100.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/agify-io/refs/heads/main/screenshots/agify-io-2026-06-20T170134.png
 security:
 - kind: domain-security
@@ -212,5 +220,5 @@ use_cases:
   name: Marketing Segmentation
 - description: Provide age-range hints during user registration to improve form completion rates and data accuracy.
   name: Form Pre-Fill Assistance
-website: https://agify.io/
+website: https://www.agify.io/
 ---

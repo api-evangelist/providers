@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: The UBIX Insights API enables programmatic access to AI-generated analytics, insights, and model outputs from the UBIX platform. Supports integration with existing business intelligence tools, CRM sys
@@ -50,6 +50,10 @@ apis:
   slug: ubix-chatubix-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ubixlabs.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -85,7 +89,7 @@ overview: 'UBIX Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
   The UBIX Labs catalog on APIs.io includes 1 JSON-LD context.
 
 
-  UBIX Labs'' developer surface includes engineering blog and 2 more developer resources.'
+  UBIX Labs'' developer surface includes engineering blog and 3 more developer resources.'
 plans:
 - name: Ubix Plans Pricing
   plan_count: 3
@@ -116,9 +120,13 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 23.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubix/refs/heads/main/screenshots/ubix-2026-06-20T195933.png
 security:
 - kind: domain-security
@@ -134,5 +142,5 @@ tags:
 - No-Code
 - Enterprise
 - Generative AI
-website: https://www.ubixlabs.com
+website: https://www.ubixlabs.com/
 ---

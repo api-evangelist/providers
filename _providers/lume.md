@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'REST API for automating data mappings and transformations with AI. Create and run Flows, manage target schemas, poll job/run status, and retrieve mapping results. Authenticated with a per-account API '
@@ -46,6 +46,10 @@ asyncapis:
   name: Lume Webhooks
   slug: lume-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lume.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -132,7 +136,7 @@ overview: 'Lume publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
   The Lume catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lume''s developer surface includes documentation, getting-started guide, authentication, signup flow, support, and 13 more developer resources.'
+  Lume''s developer surface includes documentation, getting-started guide, authentication, signup flow, support, and 14 more developer resources.'
 random_paper: 15
 score:
   band: thin
@@ -158,9 +162,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lume/refs/heads/main/screenshots/lume-2026-07-25T225704.png
 security:
 - kind: authentication
@@ -182,5 +190,5 @@ tags:
 - Schema Mapping
 - Data Quality
 - Developer Tools
-website: https://docs.lume.ai
+website: https://www.lume.ai/
 ---

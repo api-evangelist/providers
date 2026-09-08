@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Glia's REST API for managing engagements, operators, sites, and Glia Functions. Authenticates via a bearer token exchanged from a Site ID and API Key (POST /operator_authentication/tokens).
@@ -189,9 +189,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/glia-fka-salemove/refs/heads/main/screenshots/glia-fka-salemove-2026-07-25T215857.png
 security:
 - kind: authentication

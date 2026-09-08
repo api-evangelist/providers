@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 12
 apis:
 - description: The Pinwheel Deposit Switch API automates moving a customer's direct deposit allocations from one financial institution to another by connecting directly to 17,000+ payroll providers. The product comb
@@ -73,6 +73,10 @@ apis:
   slug: pinwheel-webhooks-api
 artifact_total: 47
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pinwheelapi.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -214,7 +218,7 @@ network: true
 overview: 'Pinwheel publishes 12 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Employment, Income, Payroll, Direct Deposit, and Identity.
 
 
-  Pinwheel''s developer surface includes developer portal, documentation, API reference, getting-started guide, changelog, signup flow, sandbox, and 14 more developer resources.'
+  Pinwheel''s developer surface includes developer portal, documentation, API reference, getting-started guide, changelog, signup flow, sandbox, and 15 more developer resources.'
 random_paper: 1
 score:
   band: developing
@@ -237,9 +241,13 @@ score:
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 40.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel-api/refs/heads/main/screenshots/pinwheel-api-2026-06-20T191724.png
 security:
 - kind: domain-security
@@ -287,5 +295,5 @@ use_cases:
   name: Property Management & Rental Screening
 - description: Personal finance apps and challenger banks use Bill Manager to give users a single view of recurring obligations with one-click switch and cancel.
   name: Subscription & Recurring Bill Management
-website: https://pinwheelapi.com/
+website: https://www.pinwheelapi.com/
 ---

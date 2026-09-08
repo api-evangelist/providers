@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 23.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The private HTTP API behind the Micro Connect Open Platform (滴灌通开放平台), the enterprise console brands and merchants use to register, submit daily revenue and order detail reports, review data, manage a
@@ -196,9 +196,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/micro-connect/refs/heads/main/screenshots/micro-connect-2026-09-02T150543.png
 security:
 - kind: authentication

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: OpenAI-compatible inference API for open-source AI models hosted on io.net's decentralized GPU network. Exposes /v1/models and /v1/chat/completions over the base URL https://api.intelligence.io.soluti
@@ -257,9 +257,13 @@ score:
     applies: true
     score: 100.0
   previous_composite: 35.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/io-net/refs/heads/main/screenshots/io-net-2026-06-20T183527.png
 security:
 - kind: domain-security

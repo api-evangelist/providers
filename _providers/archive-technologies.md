@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Archive''s public GraphQL API for programmatic access to creator and UGC workspace data — creators, social profiles, items (posts/reels/stories/videos), engagement history, content views, collections, '
@@ -42,6 +42,10 @@ apis:
   slug: archive-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.archive.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -182,7 +186,7 @@ network: true
 overview: 'Archive Technologies publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Creator Marketing, Influencer Marketing, Social Listening, and User Generated Content.
 
 
-  Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, getting-started guide, and 24 more developer resources.'
+  Archive Technologies'' developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, getting-started guide, and 25 more developer resources.'
 plans:
 - name: Archive Technologies Plans Pricing
   plan_count: 5
@@ -227,9 +231,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/archive-technologies/refs/heads/main/screenshots/archive-technologies-2026-07-25T201038.png
 security:
 - kind: authentication
@@ -250,5 +258,5 @@ tags:
 - E-Commerce
 - GraphQL
 - MCP
-website: https://api-docs.archive.com
+website: https://www.archive.com/
 ---

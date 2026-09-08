@@ -10,13 +10,13 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
@@ -30,17 +30,21 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
+    well_known_catalog: true
   schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-06'
+  score: 11.5
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
-- description: 'Artillery Cloud provides a hosted platform for running distributed load tests at scale, storing test results, team collaboration, and integrating with CI/CD pipelines. The Artillery Cloud API enables '
+- description: 'Artillery Cloud is the hosted platform behind the open source Artillery CLI: it runs distributed load and Playwright E2E tests at scale across AWS Lambda, AWS Fargate and Azure ACI, stores and retains'
   name: Artillery Cloud API
   slug: artillery-cloud-api
-artifact_total: 20
+artifact_total: 22
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.artillery.io/
 - group: operate
   title: ''
   type: IssueTracker
@@ -64,7 +68,7 @@ common:
 - group: commercial
   title: ''
   type: License
-  url: https://github.com/artilleryio/artillery/blob/main/LICENSE
+  url: https://github.com/artilleryio/artillery/blob/main/LICENSE.txt
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,12 +99,108 @@ common:
   url: https://github.com/artilleryio/artillery
 - group: operate
   title: Changelog
-  type: ReleaseNotes
-  url: https://github.com/artilleryio/artillery/blob/main/CHANGELOG.md
+  type: ChangeLog
+  url: https://www.artillery.io/changelog
 - group: commercial
   title: Pricing
   type: Pricing
   url: https://www.artillery.io/pricing
+- group: docs
+  title: Artillery CLI Reference
+  type: APIReference
+  url: https://www.artillery.io/docs/reference/cli
+- group: start
+  title: Run Your First Artillery Test
+  type: GettingStarted
+  url: https://www.artillery.io/docs/get-started/first-test
+- group: operate
+  title: GitHub Discussions
+  type: Support
+  url: https://github.com/artilleryio/artillery/discussions
+- group: start
+  title: Sign in to Artillery Cloud
+  type: SignUp
+  url: https://app.artillery.io/login
+- group: commercial
+  title: Terms of Service
+  type: TermsOfService
+  url: https://www.artillery.io/terms/tos
+- group: commercial
+  title: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.artillery.io/terms/privacy
+- group: auth
+  title: Security Policy
+  type: Security
+  url: https://www.artillery.io/terms/security
+- group: operate
+  title: Artillery Status
+  type: StatusPage
+  url: https://artilleryio.statuspage.datadoghq.com/
+- group: operate
+  title: Supported Versions Policy
+  type: Deprecation
+  url: https://github.com/artilleryio/artillery/blob/main/SECURITY.md
+- group: build
+  title: First-party packages
+  type: Packages
+  url: packages/artillery-packages.yml
+- group: build
+  title: Artillery client libraries
+  type: SDKs
+  url: packages/artillery-packages.yml
+- group: build
+  title: Artillery CLI surface
+  type: CLI
+  url: cli/artillery-cli.yml
+- group: agent
+  title: llms.txt
+  type: LLMsTxt
+  url: llms/artillery-llms.txt
+- group: agent
+  title: Artillery official agent skills
+  type: AgentSkill
+  url: skills/_index.yml
+- group: auth
+  title: Authentication profile
+  type: Authentication
+  url: authentication/artillery-authentication.yml
+- group: design
+  title: API conventions and reversibility
+  type: Conventions
+  url: conventions/artillery-conventions.yml
+- group: design
+  title: Lifecycle, versioning and support policy
+  type: Lifecycle
+  url: lifecycle/artillery-lifecycle.yml
+- group: operate
+  title: Structured changelog
+  type: ChangeLog
+  url: changelog/artillery-changelog.yml
+- group: design
+  title: Standards conformance
+  type: Conformance
+  url: conformance/artillery-conformance.yml
+- group: auth
+  title: Vulnerability disclosure
+  type: VulnerabilityDisclosure
+  url: security/artillery-vulnerability-disclosure.yml
+- group: auth
+  title: Security posture
+  type: TrustCenter
+  url: security/artillery-trust-center.yml
+- group: commercial
+  title: Plans and pricing
+  type: Plans
+  url: plans/artillery-plans-pricing.yml
+- group: operate
+  title: Published usage limits
+  type: RateLimits
+  url: rate-limits/artillery-rate-limits.yml
+- group: commercial
+  title: FinOps profile
+  type: FinOps
+  url: finops/artillery-finops.yml
 created: '2026-03-25'
 description: Artillery is an open source load testing and performance testing platform for APIs, microservices, and web applications. Built with Node.js and available as an npm package, Artillery supports HTTP/1, HTTP/2, WebSocket, Socket.IO, gRPC, and custom protocols through plugins. It includes a YAML-based test scenario definition language, a plugin ecosystem for extending functionality, and Artillery Cloud for distributed load testing, CI/CD integration, and centralized reporting. Artillery is used by developers, QA engineers, and SREs to run load tests, performance benchmarks, Playwright-based synthetic monitoring, and end-to-end tests at scale. The project is licensed under MPL-2.0 and maintained by Artilleryio.
 features:
@@ -120,10 +220,6 @@ finops:
 - name: Artillery Finops
   service_category: API
   slug: artillery-finops
-graphqls:
-- description: ''
-  name: Artillery GraphQL API
-  slug: artillery-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/artillery.png
 integrations:
 - description: Official Artillery GitHub Action for running load tests in CI/CD pipelines with automatic reporting and performance gate enforcement.
@@ -135,56 +231,76 @@ integrations:
 - description: Native Playwright integration for browser-based load testing and synthetic monitoring scenarios.
   name: Playwright
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-07'
 name: Artillery
 nav: Providers
 network: true
 overview: 'Artillery publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Load Testing, Performance Testing, Open-Source, Testing, and DevOps.
 
 
-  Artillery''s developer surface includes engineering blog, developer portal, documentation, release notes, pricing, and 10 more developer resources.'
+  Artillery''s developer surface includes engineering blog, developer portal, documentation, changelog, pricing, API reference, getting-started guide, and 33 more developer resources.'
 plans:
 - name: Artillery Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: artillery-plans-pricing
 random_paper: 18
 rate_limits:
-- limit_count: 5
+- limit_count: 12
   name: Artillery Rate Limits
   slug: artillery-rate-limits
 score:
-  band: thin
-  composite: 31.2
+  band: strong
+  composite: 54.7
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 17
+    catalog_earned: 64.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 51.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 23.5
   facets:
-    access_clarity: 26.3
-    commercial_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 78.9
+    commercial_clarity: 78.9
+    contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 33.3
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 36.8
+    developer_ergonomics: 76.2
+    discoverability: 75.9
+    governance: 18.2
+    operational_transparency: 68.4
   open_source:
     applies: true
     score: 100.0
   previous_composite: 31.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: first-party
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png
 security:
+- kind: authentication
+  name: Artillery Authentication
+  slug: artillery-authentication
+  summary_line: apiKey · 2 schemes
 - kind: domain-security
   name: Artillery Domain Security
   slug: artillery-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Artillery Vulnerability Disclosure
+  slug: artillery-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Artillery Trust Center
+  slug: artillery-trust-center
+  summary_line: trust center published
 slug: artillery
 tags:
 - Load Testing

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Non-custodial yield REST API to discover yields, construct unsigned transaction flows (enter/exit/manage), and read unified balances across 80+ networks.
@@ -209,9 +209,13 @@ score:
   provenance:
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/yieldxyz/refs/heads/main/screenshots/yieldxyz-2026-08-17T083017.png
 security:
 - kind: authentication

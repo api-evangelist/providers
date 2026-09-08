@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The DolphinScheduler REST API enables programmatic management of projects, workflow definitions (DAGs), workflow instances, task types, schedules, resources, data sources, alerts, tenants, and users. '
@@ -41,6 +41,10 @@ apis:
   slug: apache-dolphinscheduler-rest-api
 artifact_total: 40
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -199,7 +203,7 @@ overview: 'Apache DolphinScheduler publishes 1 API on the [APIs.io](https://apis
   The Apache DolphinScheduler catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache DolphinScheduler''s developer surface includes developer portal, documentation, getting-started guide, and 13 more developer resources.'
+  Apache DolphinScheduler''s developer surface includes developer portal, documentation, getting-started guide, and 14 more developer resources.'
 plans:
 - name: Apache Dolphinscheduler Plans Pricing
   plan_count: 3
@@ -244,9 +248,13 @@ score:
     applies: true
     score: 100.0
   previous_composite: 34.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-dolphinscheduler/refs/heads/main/screenshots/apache-dolphinscheduler-2026-06-20T172053.png
 security:
 - kind: domain-security
@@ -278,5 +286,5 @@ use_cases:
   name: SQL and Analytics Scheduling
 - description: Automate deployment workflows, data quality checks, and operational tasks with DolphinScheduler DAGs.
   name: DevOps and CI/CD Pipelines
-website: https://dolphinscheduler.apache.org/
+website: https://www.apache.org/
 ---

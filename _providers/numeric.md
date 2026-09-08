@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Numeric's close-automation toolkit to AI agents. Streamable-HTTP MCP endpoint at api.numeric.io/mcp, guarded by OAuth 2.0 / OIDC (auth.numeric.io
@@ -152,9 +152,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/numeric/refs/heads/main/screenshots/numeric-2026-08-07T185732.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: Near real-time access to a dealership's sales and deal data - deal jackets, desking, F&I products, and sold-vehicle records - through the Automotive Partner Cloud. Concrete paths and schemas are publi
@@ -143,9 +143,13 @@ score:
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 27.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tekion/refs/heads/main/screenshots/tekion-2026-09-02T162726.png
 security:
 - kind: domain-security

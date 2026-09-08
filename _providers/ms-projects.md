@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: REST API for accessing and managing Project Online data, including projects, tasks, resources, and assignments.
@@ -47,6 +47,10 @@ apis:
   slug: microsoft-project-server-csom-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -94,7 +98,7 @@ network: true
 overview: 'Microsoft Project APIs publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Collaboration, Microsoft-365, Project Management, Resources, and Scheduling.
 
 
-  Microsoft Project APIs'' developer surface includes developer portal, engineering blog, and 6 more developer resources.'
+  Microsoft Project APIs'' developer surface includes developer portal, engineering blog, and 7 more developer resources.'
 plans:
 - name: Ms Projects Plans Pricing
   plan_count: 3
@@ -125,9 +129,13 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 25.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-projects/refs/heads/main/screenshots/ms-projects-2026-06-20T185849.png
 security:
 - kind: domain-security
@@ -146,5 +154,5 @@ tags:
 - Resources
 - Scheduling
 - Task
-website: https://developer.microsoft.com/
+website: https://www.microsoft.com/
 ---

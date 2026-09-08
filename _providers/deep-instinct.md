@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Versioned REST API exposed by the Deep Instinct DSX management console (D-Appliance) at https://<your-tenant-fqdn>/api/v1. Covers devices, device groups, policies, events (including the JSON event-sea
@@ -187,9 +187,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/deep-instinct/refs/heads/main/screenshots/deep-instinct-2026-08-07T164228.png
 security:
 - kind: authentication

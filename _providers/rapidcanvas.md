@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Bearer-token REST API behind the RapidCanvas platform and the RC CLI. All CLI interactions are HTTPS calls to https://<host>/api/... No public OpenAPI reference is published; the OAuth authorization-s
@@ -168,9 +168,13 @@ score:
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 27.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/screenshots/rapidcanvas-2026-09-02T152854.png
 security:
 - kind: authentication

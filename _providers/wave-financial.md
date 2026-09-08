@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: GraphQL API providing programmatic access to Wave accounting features including businesses, customers, invoices, products, accounts, transactions, vendors, taxes, and webhooks.
@@ -145,9 +145,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wave-financial/refs/heads/main/screenshots/wave-financial-2026-06-20T201254.png
 security:
 - kind: domain-security

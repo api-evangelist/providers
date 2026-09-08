@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.enterpriseintegrationpatterns.com/
 - group: docs
   title: ''
   type: Reference
@@ -104,16 +108,14 @@ score:
     discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 6.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-patterns/refs/heads/main/screenshots/integration-patterns-2026-06-20T183430.png
 slug: integration-patterns
 tags:
@@ -131,4 +133,5 @@ tags:
 - Orchestration
 - Software Architecture
 - System Integration
+website: https://www.enterpriseintegrationpatterns.com/
 ---

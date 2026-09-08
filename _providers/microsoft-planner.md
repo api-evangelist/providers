@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -127,6 +127,10 @@ collections:
   name: Microsoft Planner Microsoft Graph Planner API
   slug: open-microsoft-planner
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -729,7 +733,7 @@ overview: 'Microsoft Planner publishes 5 APIs on the [APIs.io](https://apis.io/)
   The Microsoft Planner catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Planner''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, documentation, support, FAQ, and 30 more developer resources.'
+  Microsoft Planner''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, documentation, support, FAQ, and 31 more developer resources.'
 plans:
 - name: Microsoft Planner Plans Pricing
   plan_count: 4
@@ -768,7 +772,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: strong
-  composite: 57.8
+  composite: 57.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 61.5
@@ -776,7 +780,7 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 48.7
     commercial_clarity: 48.7
@@ -794,9 +798,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-planner/refs/heads/main/screenshots/microsoft-planner-2026-06-20T185518.png
 security:
 - kind: authentication
@@ -827,5 +834,5 @@ use_cases:
 - IT helpdesk ticket organization and tracking
 - Marketing campaign task management
 - Cross-functional team collaboration on initiatives
-website: https://developer.microsoft.com/en-us/graph
+website: https://www.microsoft.com/
 ---

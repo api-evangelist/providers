@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: Abortion Policy API
   slug: open-abortion-policy-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.abortionpolicyapi.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -230,7 +234,7 @@ overview: 'Abortion Policy API publishes 4 APIs on the [APIs.io](https://apis.io
   The Abortion Policy API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Abortion Policy API''s developer surface includes authentication, getting-started guide, API reference, support, and 9 more developer resources.'
+  Abortion Policy API''s developer surface includes authentication, getting-started guide, API reference, support, and 10 more developer resources.'
 plans:
 - name: Abortion Policy Api Plans Pricing
   plan_count: 3
@@ -296,9 +300,13 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/screenshots/abortion-policy-api-2026-06-20T161254.png
 security:
 - kind: authentication
@@ -328,4 +336,5 @@ use_cases:
   name: Chatbot Integration
 - description: Support legal aid organizations with accurate state law data for advising clients on abortion access.
   name: Legal Aid Resources
+website: https://www.abortionpolicyapi.com/
 ---

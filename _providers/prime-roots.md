@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The Prime Roots Shopify storefront''s agent-facing commerce surface: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, and read-only storefront JSON endpoints.'
@@ -112,9 +112,13 @@ score:
   previous_composite: 12.3
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/prime-roots/refs/heads/main/screenshots/prime-roots-2026-09-02T152018.png
 security:
 - kind: domain-security

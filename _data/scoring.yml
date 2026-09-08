@@ -11,7 +11,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.19.0
+schema_version: 0.20.0
 last_updated: '2026-09-06'
 maintainer: kin@apievangelist.com
 
@@ -22,32 +22,45 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.19.0
+  version: 0.20.0
   body: |
-    STRUCTURAL ONLY. No weight change, no new check, no band re-cut, and NO SCORE
-    MOVES. This version makes a join possible; it does not yet use it.
+    A SEVENTH FACET, and the first one that asks whether an API is safe to call twice.
 
-    `industry_regulatory.*.regime_jurisdictions` gives every one of the 42 regimes a
-    jurisdiction as a FIELD. It was previously readable only as prose inside the regime
-    label, where extracting a trailing parenthetical finds 20 of 42, misses the prefix
-    forms (`UK Open Banking`, `Green Button / ESPI`) and false-positives on `CPNI`,
-    which is not a jurisdiction at all.
+    `upsert` (weight 0.10, conditional) scores create-or-update ergonomics straight from
+    the 109,940 OpenAPIs in the catalog: is there a named create-or-update operation,
+    does it accept a key the CALLER already holds, and does the response say which branch
+    ran? Every existing contract facet asks whether an API is described and callable.
+    None asked what happens when the same write arrives twice — and for 82.7% of
+    providers that accept writes the answer is that you search first, and the day
+    somebody forgets, the customer's records grow a duplicate.
 
-    32 of 42 name one. 10 are STATED-EMPTY rather than unfilled: FDX and ISO 20022 are
-    industry bodies, PCI-DSS and card-network rules are contractual, ITU is a treaty
-    organisation. An empty list is a decision, and saying so is the point — an absent
-    field and a jurisdiction-free regime are different facts.
+    IT APPLIES ONLY TO PROVIDERS THAT ACCEPT WRITES, and that is the design rather than a
+    detail. 1,125 providers hold a parseable contract with no write operation in it. A
+    weather or reference API cannot upsert and is not deficient for it, so it goes N/A —
+    excluded from the denominator, never zeroed. So do the ~19,700 providers holding no
+    OpenAPI at all. 6,803 are scored, and a zero among those is a real zero.
 
-    Slugs use the SAME vocabulary as provider_countries.json and provider_regions.json
-    so the two sides can actually be joined. ISO codes would join nothing.
+    FOUR CHECKS, 36 POINTS, priced by scarcity and by what each signal commits the
+    provider to. A boolean outcome discriminator is 14 points at 1.4% coverage; a
+    caller-declared match key 10 at 9.8%; a named upsert 8 at 12.3%; duplicate handling
+    merely stated in prose or as a flag, 4 at 9.2%. Naming an operation `upsert` is a
+    claim, accepting the caller's key is a commitment, and telling the caller which
+    branch ran is the only one they can reconcile against afterwards. 20 providers earn
+    the whole set.
 
-    WHY THIS IS NOT THE FIX (roadmap#85). The regulatory facet is conditional on
-    industry and its regime set still falls out of the industry tag alone, so a provider
-    operating in two jurisdictions is measured against one. 8,263 providers match a
-    regulated regime, 3,210 now carry a jurisdiction signal, and 839 of those are
-    multi-region. Making the facet evaluate the UNION of applicable regimes moves those
-    scores and needs a band model, so it belongs to a later version. This is the
-    precondition, shipped on its own so that change can be attributed when it lands.
+    WHAT IS DELIBERATELY NOT COUNTED. A documented 200-vs-201 split is not an outcome
+    discriminator. The scanner detects it and the original specification invited counting
+    it, but a 200/201 pair is documented for many unrelated reasons and says nothing
+    about which branch actually ran. It matches 569 providers against 94 for a real
+    discriminator field; counting it would have made the top of this facet six times
+    commoner than the scarcity that justified building it.
+
+    RE-CENTRED, the way 0.12 re-centred `regulatory`. Applied raw at weight 0.10, a
+    provider with no upsert would lose a tenth of its composite — 5,635 providers docked
+    around six points each for lacking something 0.3% of the catalog has. That is a
+    rubric picking a fight, not a measurement. Scored against the observed mean of 7.06
+    instead: at the mean you are unchanged, above it you gain, below it you lose a
+    little.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -624,6 +637,44 @@ facets:
       applied to closed-source products — a company with no CONTRIBUTING.md is
       not deficient, it is differently shaped. Not applied where the repository
       could not be read, either: unreadable is not missing.
+
+  upsert:
+    weight: 0.10
+    conditional: true          # only applies where the provider ACCEPTS WRITES
+    label: Create-or-Update Ergonomics
+    # 0.20.0 (roadmap#270) — WRITE ERGONOMICS, which no other facet reaches. The
+    # contract facets ask whether an API is described and callable, never whether it
+    # is safe to call twice.
+    #
+    # WHY CONDITIONAL, and this is the whole design. 82.7% of providers that accept
+    # writes offer no create-or-update, and 1,125 providers with a parseable contract
+    # accept no writes at all. A weather or reference API cannot upsert; scoring it 0
+    # would dock it for a capability it has no business having. So the facet applies
+    # ONLY where we parsed a contract AND found write operations in it. Absent
+    # evidence is N/A, never zero — the same distinction open_source draws between
+    # `unreachable` and a provider that failed to publish, and the one this catalog
+    # gets wrong most often (roadmap#199, #216, #217, #171).
+    #
+    # RE-CENTRED, for the reason 0.12 re-centred `regulatory`. Uncentred at w=0.10 a
+    # provider with no upsert loses a tenth of its composite — 5,635 providers docked
+    # ~6 points each for lacking something 0.3% of the catalog has. That is not a
+    # measurement, it is a rubric picking a fight. Scored against the observed mean
+    # instead: a provider AT the mean is unchanged, above it gains, below it loses a
+    # little. See `recentre_mean`.
+    # Measured 2026-09-07 by the SCORER, over the 6,775 providers it actually applies the
+    # facet to — not the 6,803 the evidence file marks scorable. 28 carry a contract but no
+    # catalog page, so re-centring never touches them and averaging them in would describe a
+    # population the number is not used on.
+    recentre_mean: 7.06
+    description: >
+      For providers that ACCEPT WRITES only: can a caller create-or-update in one
+      call, keyed on an identifier the caller already holds, and does the response
+      say which branch ran? Without it every write needs a hand-rolled
+      search-and-branch in front of it, and the first time that check is skipped
+      the customer's records grow a duplicate. A provider that ships it has made a
+      checkable commitment about who owns identity resolution — them, not the
+      integrator. Not applied to read-only APIs, and not applied where no contract
+      could be parsed: a reference API is not deficient for being unable to upsert.
 
 # ---------------------------------------------------------------------------
 # Conditional composite math (schema 0.5+)
@@ -2550,6 +2601,85 @@ artifacts:
           signal in the set, frequently dropped in wholesale, and so says the
           least about the project that holds it.
 
+  upsert:
+    label: Create-or-Update Ergonomics
+    description: >
+      Whether a provider's WRITE surface lets a caller create-or-update in one
+      call, measured directly from the OpenAPIs in the catalog rather than from
+      anything we wired. Scored ONLY where a contract parsed AND carried write
+      operations: 6,803 providers of 7,955 with a parseable contract. The other
+      1,125 accept no writes and go N/A — a read-only API is not deficient for
+      being unable to upsert.
+
+      TWO TRAPS THE SCANNER AVOIDS, both found by getting them wrong first.
+      COMPONENT TITLES ARE NOT THE CONTRACT: Pipedrive names its response schemas
+      UpsertPersonResponse and UpsertOrganizationResponse on plain addPerson and
+      updatePerson — internal naming leaking outward. A naive grep credits
+      Pipedrive with an upsert it does not have on persons, organizations or
+      deals, so matching is restricted to path, operationId, summary and
+      description. And ALTERNATE-KEY LOOKUP IS NOT UPSERT: HubSpot's /batch/read
+      also takes idProperty, so read, search, query, list, export, archive,
+      delete, merge, validate, preview, clone, revert and publish paths are
+      excluded along with every non-write method.
+
+      WHAT IS DELIBERATELY NOT SCORED. The scanner also detects a documented
+      200-vs-201 split, and an earlier draft of this facet counted it as an
+      outcome discriminator. It is not one: a 200/201 pair is documented for many
+      unrelated reasons and says nothing about which branch actually ran. It
+      matches 569 providers against 94 for a real discriminator field, and
+      counting it would have made the top of this facet six times commoner than
+      the measurement that justifies the facet at all. Recorded in the evidence
+      file, worth zero points.
+
+      Reference implementation: HubSpot's POST /crm/objects/{version}/contacts/
+      batch/upsert — idProperty in, `new: true|false` per result item out,
+      200/207. The only common CRM implementation carrying the whole pattern.
+    checks:
+      - id: upsert_outcome_discriminator
+        label: The response says which branch ran
+        facet: upsert
+        points: 14
+        rule: 'a create-or-update response carries a boolean discriminator (new, created, is_new, was_created)'
+        description: >
+          The scarce one, and the one that matters: 1.4% of providers that accept
+          writes. Upsert you cannot reconcile afterwards is upsert you have to
+          trust. Without a discriminator a caller cannot tell an insert from an
+          update without re-reading, which is the search-and-branch the upsert was
+          supposed to remove. Priced highest because it is both the rarest signal
+          and the one that changes what an integrator can safely build.
+      - id: upsert_alternate_key
+        label: The caller declares the key to match on
+        facet: upsert
+        points: 10
+        rule: 'a write operation accepts a caller-named natural key (idProperty, external_id, match_on, on_conflict, id_type) or an alternate-key path shape'
+        description: >
+          9.8%. This is where identity resolution actually changes hands: the
+          provider agrees to match on an identifier the caller already owns rather
+          than making the caller discover the provider's own id first. Includes
+          Salesforce's PATCH /sobjects/{OBJECT}/{FIELD}/{value} path shape, which
+          expresses the same commitment in the URL instead of the body.
+      - id: upsert_named
+        label: A named create-or-update operation
+        facet: upsert
+        points: 8
+        rule: 'an operation is named as an upsert or a create-or-update in its path, operationId or summary'
+        description: >
+          12.3%. The capability is discoverable from the contract without reading
+          prose. Priced below the alternate key deliberately: naming an operation
+          `upsert` is a claim, whereas accepting a caller's key is a commitment.
+      - id: upsert_declared_conflict
+        label: Duplicate handling is stated at all
+        facet: upsert
+        points: 4
+        rule: 'the create endpoint carries a conflict/duplicate-handling flag, or the description states create-if-absent behaviour'
+        description: >
+          9.2%, and worth little on purpose. This is the capability existing but
+          undiscoverable — stated only in prose ("creates it if it does not
+          exist", usually on PUT /{id}), or bolted onto create as a boolean
+          (Twenty CRM's `upsert: true`). It is real and a caller can use it, but
+          it cannot be found by reading the contract's shape, so it earns a
+          fraction of a named operation.
+
 # ---------------------------------------------------------------------------
 # Output bands — used to label providers in UI / search.
 # Composite score (0–100) maps to a band; bands drive sorting tiers and badges.
@@ -2610,7 +2740,7 @@ bands:
     label: Exemplar
     min: 66.5
     range: 66.5+
-    share: 0.9%
+    share: 1.1%
     description: >
       Reference-quality API operations across every facet — a rich contract, published
       governance, transparent operations, and machine-readable commercial terms. The
@@ -2619,7 +2749,7 @@ bands:
     label: Strong
     min: 54.3
     range: 54.3 – 66.4
-    share: 4.1%
+    share: 4.3%
     description: >
       Solid contracts, transparent operations, and an easy start. Typically complete on
       four or five facets with one clear soft spot — most often governance or a missing
@@ -2628,7 +2758,7 @@ bands:
     label: Developing
     min: 39.3
     range: 39.3 – 54.2
-    share: 14.3%
+    share: 14.4%
     description: >
       Real signal across most facets with visible, nameable gaps. The contract exists
       but is thin on descriptions or examples, or the portal is good while governance
@@ -2637,7 +2767,7 @@ bands:
     label: Thin
     min: 26.2
     range: 26.2 – 39.2
-    share: 15.6%
+    share: 16.5%
     description: >
       Limited machine-readable signal and partial portal coverage. Usually a provider
       with documentation a human can read but little a machine or agent can consume
@@ -2646,7 +2776,7 @@ bands:
     label: Emerging
     min: 11.0
     range: 11 – 26.1
-    share: 24.0%
+    share: 24.6%
     description: >
       More than an index entry, but the surface is still mostly links rather than
       artifacts. These providers have started publishing — a portal, a few common
@@ -2656,7 +2786,7 @@ bands:
     label: Minimal
     min: 0
     range: 0 – 10.9
-    share: 41.0%
+    share: 39.0%
     description: >
       Index entry only; little beyond a description and a link. Nothing here is
       machine-readable enough for an agent to act on without a human first reading
@@ -3383,7 +3513,7 @@ agent_readiness:
       label: Agent-Native
       min: 38.7
       range: 38.7+
-      share: 1.3%
+      share: 1.5%
       description: >
         Built to be driven by agents, and the provider built it — a contract, a
         real agent surface the provider itself publishes, and the safety rails
@@ -3394,7 +3524,7 @@ agent_readiness:
       label: Agent-Ready
       min: 28.6
       range: 28.6 – 38.6
-      share: 10.3%
+      share: 11.4%
       description: >
         An agent can drive the core surface. A machine-readable contract and
         documented auth are in place, and there is real agent-facing work beyond
@@ -3410,7 +3540,7 @@ agent_readiness:
       label: Agent-Aware
       min: 5.1
       range: 5.1 – 28.5
-      share: 26.5%
+      share: 27.0%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
@@ -3419,7 +3549,7 @@ agent_readiness:
       label: Human-Only
       min: 0
       range: 0 – 5
-      share: 61.9%
+      share: 60.1%
       description: >
         Little an agent can consume without a human first reading the site. A
         developer can integrate it; their agent cannot yet.

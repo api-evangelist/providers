@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 14
 apis:
 - description: 'PennyLane is the flagship open-source Python framework for quantum differentiable programming — train and optimize variational quantum circuits with the same automatic differentiation engines used in '
@@ -79,6 +79,10 @@ apis:
   slug: xanadu-quantum-codebook
 artifact_total: 44
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pennylane.ai/
 - group: operate
   title: ''
   type: IssueTracker
@@ -255,7 +259,7 @@ network: true
 overview: 'Xanadu publishes 14 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Photonic Quantum, Quantum Machine Learning, Quantum Chemistry, and Differentiable Programming.
 
 
-  Xanadu''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, YouTube channel, release notes, and 22 more developer resources.'
+  Xanadu''s developer surface includes developer portal, documentation, getting-started guide, support, engineering blog, YouTube channel, release notes, and 23 more developer resources.'
 random_paper: 6
 score:
   band: thin
@@ -281,9 +285,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 31.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/xanadu-ai/refs/heads/main/screenshots/xanadu-ai-2026-09-02T171101.png
 security:
 - kind: domain-security
@@ -317,5 +325,5 @@ use_cases:
   name: Quantum Education
 - description: Cross-vendor execution and benchmarking via the plugin ecosystem (IBM, IonQ, Rigetti, AWS Braket, AQT, Quantinuum).
   name: Hardware Benchmarking
-website: https://www.xanadu.ai
+website: https://www.pennylane.ai/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: TrueVault Safe is a REST API and secure datastore for sensitive personal data. Resources include Users, Groups (with policy-based Access Grid permissions), Vaults, BLOBs, Documents, Schemas, Search (f
@@ -42,6 +42,10 @@ apis:
   slug: truevault-safe-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.truevault.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -153,7 +157,7 @@ network: true
 overview: 'TrueVault publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Privacy, Security, Compliance, and HIPAA.
 
 
-  TrueVault''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  TrueVault''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 17
 score:
   band: thin
@@ -179,9 +183,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/truevault/refs/heads/main/screenshots/truevault-2026-09-02T164359.png
 security:
 - kind: authentication
@@ -204,5 +212,5 @@ tags:
 - Identity
 - Privacy
 - PII
-website: https://console.truevault.com/
+website: https://www.truevault.com/
 ---

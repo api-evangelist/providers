@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,6 +85,10 @@ collections:
   name: SerpApi Search API
   slug: open-serpapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.serpapi.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -152,7 +156,7 @@ network: true
 overview: 'SerpApi publishes 2 APIs on the [APIs.io](https://apis.io/) network: Account API and Search API. Tagged areas include Bing, Google, Search, and Search Engines.
 
 
-  SerpApi''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
+  SerpApi''s developer surface includes authentication, engineering blog, and 11 more developer resources.'
 plans:
 - name: Serpapi Plans Pricing
   plan_count: 3
@@ -190,9 +194,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/screenshots/serpapi-2026-06-20T193722.png
 security:
 - kind: authentication
@@ -223,4 +231,5 @@ tags:
 - Google
 - Search
 - Search Engines
+website: https://www.serpapi.com/
 ---

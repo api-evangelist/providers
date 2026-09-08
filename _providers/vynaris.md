@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'REST API in OpenAI Chat Completions wire format. Primary endpoint POST /v1/chat/completions with SSE streaming and tool/function-calling passthrough. Supporting endpoints for ping, usage, ledger, and '
@@ -44,6 +44,10 @@ apis:
   slug: vynaris-gateway-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.vynaris.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -127,7 +131,7 @@ network: true
 overview: 'Vynaris publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, LLM Gateway, LLM Router / Aggregator, Inference / Model Serving, and AI Cost Management / FinOps.
 
 
-  Vynaris'' developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
+  Vynaris'' developer surface includes authentication, getting-started guide, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
 plans:
 - name: Vynaris Plans Pricing
   plan_count: 5
@@ -162,9 +166,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vynaris/refs/heads/main/screenshots/vynaris-2026-09-02T170341.png
 security:
 - kind: authentication
@@ -184,4 +192,5 @@ tags:
 - AI Cost Management / FinOps
 - Developer Tools
 - Agent Infrastructure
+website: https://www.vynaris.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Single-customer integration API for the Funnel leasing platform — create prospects in the CRM, schedule property tours/appointments, and process lease applications. Resources include Appointments, Com
@@ -156,9 +156,13 @@ score:
   previous_composite: 36.0
   provenance:
     conformance: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/funnel-leasing/refs/heads/main/screenshots/funnel-leasing-2026-07-25T215321.png
 security:
 - kind: authentication

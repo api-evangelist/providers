@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: The EoX API returns Cisco end-of-life and end-of-support milestones for hardware and software, queried by product ID, serial number, software release string, or a date range across all products. It is
@@ -66,6 +66,10 @@ apis:
   slug: cisco-service-order-return-api
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cisco.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -213,7 +217,7 @@ network: true
 overview: 'Cisco Support APIs publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Support, Lifecycle, Asset Management, Entitlement, and Enterprise.
 
 
-  Cisco Support APIs'' developer surface includes documentation, API reference, developer portal, getting-started guide, support, changelog, authentication, and 27 more developer resources.'
+  Cisco Support APIs'' developer surface includes documentation, API reference, developer portal, getting-started guide, support, changelog, authentication, and 28 more developer resources.'
 plans:
 - name: Cisco Support Apis Plans Pricing
   plan_count: 0
@@ -247,9 +251,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-support-apis/refs/heads/main/screenshots/cisco-support-apis-2026-09-02T145048.png
 security:
 - kind: authentication
@@ -282,5 +290,5 @@ tags:
 - Software Distribution
 - RMA
 - Smart Net Total Care
-website: https://developer.cisco.com/site/support-apis/
+website: https://www.cisco.com/
 ---

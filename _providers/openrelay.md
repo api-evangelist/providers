@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'OpenAI-compatible chat completions API (POST /v1/chat/completions) and, for supporting models, an Anthropic-compatible Messages API (POST /v1/messages). Drop-in: point the official OpenAI SDKs at the '
@@ -194,6 +194,10 @@ collections:
   name: OpenRelay Account Webhooks API
   slug: open-openrelay-webhooks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.openrelay.inc/
 - group: other
   title: ''
   type: CapabilityMap
@@ -340,11 +344,11 @@ overview: 'OpenRelay publishes 18 APIs on the [APIs.io](https://apis.io/) networ
   The OpenRelay catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
+  OpenRelay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 26 more developer resources.'
 random_paper: 9
 score:
   band: developing
-  composite: 48.6
+  composite: 47.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 37.0
@@ -352,7 +356,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -372,9 +376,12 @@ score:
       total: 18
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/openrelay/refs/heads/main/screenshots/openrelay-2026-08-07T190635.png
 security:
 - kind: authentication
@@ -401,5 +408,5 @@ tags:
 - OpenAI-Compatible
 - GPU Cloud
 - LLM
-website: https://app.openrelay.inc
+website: https://www.openrelay.inc/
 ---

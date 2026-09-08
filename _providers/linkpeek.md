@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: GET-based HTTP image API that returns a screenshot for any given web page URI. Embeddable directly in HTML via img/anchor tags. Supports request options such as size=original and viewport for mobile/t
@@ -114,9 +114,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 0.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkpeek/refs/heads/main/screenshots/linkpeek-2026-09-02T150301.png
 slug: linkpeek
 tags:

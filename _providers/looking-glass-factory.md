@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'Hosted GraphQL API for uploading, creating, and sharing holograms (quilt and RGBD media) on the Looking Glass Blocks platform. Authenticated via Auth0 (OAuth 2.0). Official client: @lookingglass/block'
@@ -134,9 +134,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 22.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass-factory/refs/heads/main/screenshots/looking-glass-factory-2026-07-25T225518.png
 security:
 - kind: authentication

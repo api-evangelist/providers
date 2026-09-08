@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The authentication, session, organization and admin API behind the Nickelytics / R-Ads Ad Manager. It is a Better Auth instance whose auto-generated OpenAPI 3.1.1 document is served publicly at /api/a
@@ -155,9 +155,13 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/screenshots/nickelytics-2026-08-07T185252.png
 security:
 - kind: authentication

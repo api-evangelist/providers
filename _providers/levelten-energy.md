@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The authenticated API behind the LevelTen Energy Marketplace. The host at api.levelten.energy self-identifies as "the API for LevelTen Energy" and directs callers to log in at marketplace.levelten.ene
@@ -112,9 +112,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/levelten-energy/refs/heads/main/screenshots/levelten-energy-2026-07-25T224950.png
 security:
 - kind: domain-security

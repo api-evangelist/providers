@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -73,6 +73,10 @@ collections:
   name: Mastodon Instances API
   slug: open-mastodon-instances
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://instances.social/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -108,7 +112,7 @@ network: true
 overview: 'Mastodon Instances publishes 2 APIs on the [APIs.io](https://apis.io/) network: Instances API and Versions API. Tagged areas include Fediverse, Mastodon, Search, and Social.
 
 
-  Mastodon Instances'' developer surface includes authentication, developer portal, signup flow, and 2 more developer resources.'
+  Mastodon Instances'' developer surface includes authentication, developer portal, signup flow, and 3 more developer resources.'
 plans:
 - name: Mastodon Instances Plans Pricing
   plan_count: 3
@@ -146,9 +150,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon-instances/refs/heads/main/screenshots/mastodon-instances-2026-06-20T185025.png
 security:
 - kind: authentication
@@ -165,5 +173,5 @@ tags:
 - Mastodon
 - Search
 - Social
-website: https://instances.social
+website: https://instances.social/
 ---

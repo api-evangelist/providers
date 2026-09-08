@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Numina Graph API ("Numina-Graph") is a GraphQL API, authenticated with JWT bearer tokens, that exposes Numina's anonymous, aggregated street-activity data. Core objects include Device (a Numina se
@@ -122,9 +122,13 @@ score:
     regions:
     - north-america
   previous_composite: 15.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cty/refs/heads/main/screenshots/cty-2026-07-25T210853.png
 security:
 - kind: authentication

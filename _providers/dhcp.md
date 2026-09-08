@@ -11,6 +11,10 @@ access_model:
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ietf.org/
 - group: docs
   title: ''
   type: Specification
@@ -46,5 +50,5 @@ tags:
 - Protocol
 - RFC 2131
 - TCP/IP
-website: https://www.ietf.org/rfc/rfc2131.txt
+website: https://www.ietf.org/
 ---

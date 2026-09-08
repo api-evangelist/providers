@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -151,6 +151,10 @@ collections:
   name: Workday Report Writer Workday WQL API
   slug: open-workday-report-writer-wql
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.workday.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -301,7 +305,7 @@ overview: 'Workday Report Writer publishes 8 APIs on the [APIs.io](https://apis.
   The Workday Report Writer catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 18 more developer resources.'
+  Workday Report Writer''s developer surface includes authentication, developer portal, getting-started guide, documentation, sandbox, support, engineering blog, and 19 more developer resources.'
 plans:
 - name: Workday Report Writer Plans Pricing
   plan_count: 1
@@ -324,7 +328,7 @@ rules:
   slug: workday-report-writer-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.4
+  composite: 52.4
   coverage:
     artifact_dirs: 14
     catalog_earned: 51.3
@@ -332,7 +336,7 @@ score:
     catalog_gap: 63.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 55.3
     commercial_clarity: 55.3
@@ -353,9 +357,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-report-writer/refs/heads/main/screenshots/workday-report-writer-2026-06-20T201608.png
 security:
 - kind: authentication
@@ -399,5 +406,5 @@ use_cases:
   name: Operational Integrations
 - description: Generate audit-ready extracts of personnel actions, journal entries, and security configurations for regulatory and SOX compliance.
   name: Compliance and Audit Reporting
-website: https://developer.workday.com/about
+website: https://www.workday.com/
 ---

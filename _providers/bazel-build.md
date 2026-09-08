@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -79,6 +79,10 @@ collections:
   name: Bazel Central Registry API
   slug: open-bazel-central-registry
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://bazel.build/
 - group: operate
   title: ''
   type: IssueTracker
@@ -344,7 +348,7 @@ overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mo
   The Bazel catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 44 more developer resources.'
+  Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 45 more developer resources.'
 random_paper: 7
 rules:
 - effective_rule_count: 5
@@ -396,9 +400,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:
 - kind: domain-security

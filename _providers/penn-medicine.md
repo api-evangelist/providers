@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: Penn Medicine FHIR R4 Bulk Data SMART API
   slug: open-penn-medicine-smart-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.pennmedicine.org/
 - group: other
   title: ''
   type: CapabilityMap
@@ -273,7 +277,7 @@ overview: 'Penn Medicine publishes 4 APIs on the [APIs.io](https://apis.io/) net
   The Penn Medicine catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Penn Medicine''s developer surface includes authentication, developer portal, engineering blog, support, and 20 more developer resources.'
+  Penn Medicine''s developer surface includes authentication, developer portal, engineering blog, support, and 21 more developer resources.'
 plans:
 - name: Penn Medicine Plans Pricing
   plan_count: 3
@@ -344,9 +348,13 @@ score:
     regime: Health
     regime_id: health
     score: 42.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:
 - kind: authentication
@@ -390,5 +398,5 @@ use_cases:
   name: Provider Directory Distribution
 - description: PhysicianLink gives credentialed community physicians read access to UPHS records for shared patients.
   name: Referring Provider EMR Access
-website: https://fhir.epic.com
+website: https://www.pennmedicine.org/
 ---

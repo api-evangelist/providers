@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -260,6 +260,10 @@ collections:
   name: JFrog Artifactory Query Language (AQL) AQL Search Tags API
   slug: open-artifactory-tags-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.jfrog.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -540,7 +544,7 @@ overview: 'JFrog Artifactory publishes 17 APIs on the [APIs.io](https://apis.io/
   The JFrog Artifactory catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  JFrog Artifactory''s developer surface includes authentication, changelog, CLI, pricing, engineering blog, support, developer portal, and 51 more developer resources.'
+  JFrog Artifactory''s developer surface includes authentication, changelog, CLI, pricing, engineering blog, support, developer portal, and 52 more developer resources.'
 plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
@@ -563,7 +567,7 @@ rules:
   slug: artifactory-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.9
+  composite: 49.4
   coverage:
     artifact_dirs: 26
     catalog_earned: 62.3
@@ -571,7 +575,7 @@ score:
     catalog_gap: 52.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 51.3
     commercial_clarity: 51.3
@@ -591,9 +595,12 @@ score:
       marker_coverage: 0.0
       total: 17
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication
@@ -630,5 +637,5 @@ use_cases:
   name: Dependency Proxy
 - description: Release engineers promote artifacts through staging environments using build promotion, managing the lifecycle from snapshot to release.
   name: Release Management
-website: https://jfrog.com/developers/
+website: https://www.jfrog.com/
 ---

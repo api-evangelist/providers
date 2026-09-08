@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Sally Beauty Supply's digital commerce platform powered by Salesforce Commerce Cloud, providing product catalog, shopping cart, checkout, and order management capabilities for consumer beauty supply c
@@ -177,9 +177,13 @@ score:
     governance: 9.8
     operational_transparency: 7.9
   previous_composite: 13.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png
 security:
 - kind: domain-security

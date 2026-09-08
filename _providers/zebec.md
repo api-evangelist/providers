@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Zebec''s developer platform is delivered as first-party TypeScript SDKs that interact with Zebec''s on-chain streaming, payroll, card, staking, vault, DAO and cross-chain bridge programs across Solana, '
@@ -40,6 +40,10 @@ apis:
   slug: zebec-developer-sdks
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.zebec.io/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -119,7 +123,7 @@ network: true
 overview: 'Zebec publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Payroll, Blockchain, and Cryptocurrency.
 
 
-  Zebec''s developer surface includes documentation, getting-started guide, engineering blog, support, and 13 more developer resources.'
+  Zebec''s developer surface includes documentation, getting-started guide, engineering blog, support, and 14 more developer resources.'
 random_paper: 17
 score:
   band: emerging
@@ -148,9 +152,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 23.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zebec/refs/heads/main/screenshots/zebec-2026-09-02T171504.png
 security:
 - kind: domain-security
@@ -175,5 +183,5 @@ tags:
 - Stablecoins
 - Solana
 - Cards
-website: https://docs.zebec.io
+website: https://www.zebec.io/
 ---

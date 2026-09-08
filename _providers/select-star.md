@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.production.selectstar.com
@@ -251,6 +251,10 @@ collections:
   name: Select Star Metadata bi terms API
   slug: open-select-star-terms-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.selectstar.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -378,11 +382,11 @@ network: true
 overview: 'Select Star publishes 26 APIs on the [APIs.io](https://apis.io/) network, including bi API, collections API, columns API, and 23 more. Tagged areas include Company, Data Catalog, Data Lineage, Metadata, and Data Governance.
 
 
-  Select Star''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
+  Select Star''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 22 more developer resources.'
 random_paper: 14
 score:
   band: developing
-  composite: 46.5
+  composite: 45.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 37.0
@@ -390,7 +394,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -410,9 +414,12 @@ score:
       total: 26
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/screenshots/select-star-2026-08-17T081758.png
 security:
 - kind: authentication
@@ -438,5 +445,5 @@ tags:
 - MCP
 - AI-Ready Data
 - Analytics
-website: https://docs.selectstar.com/
+website: https://www.selectstar.com/
 ---

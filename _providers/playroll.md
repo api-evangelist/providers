@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: Partner/enterprise integration surface for Playroll's Employer of Record product - hire, onboard, and manage full-time employees in 180+ countries through Playroll's owned entities without your busine
@@ -139,9 +139,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/playroll/refs/heads/main/screenshots/playroll-2026-09-02T151505.png
 security:
 - kind: domain-security

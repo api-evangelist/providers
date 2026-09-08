@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The Zephyr kernel C API exposes scheduling, threading, synchronization, memory management, and timer services for real-time embedded applications. It is the foundation that device drivers and applicat
@@ -47,6 +47,10 @@ apis:
   slug: zephyr-networking-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.zephyrproject.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -166,7 +170,7 @@ overview: 'Zephyr Project publishes 3 APIs on the [APIs.io](https://apis.io/) ne
   The Zephyr Project catalog on APIs.io includes 1 JSON-LD context.
 
 
-  Zephyr Project''s developer surface includes developer portal, documentation, API reference, getting-started guide, CLI, engineering blog, release notes, and 17 more developer resources.'
+  Zephyr Project''s developer surface includes developer portal, documentation, API reference, getting-started guide, CLI, engineering blog, release notes, and 18 more developer resources.'
 plans:
 - name: Zephyr Plans Pricing
   plan_count: 3
@@ -200,9 +204,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 36.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/screenshots/zephyr-2026-06-20T201826.png
 security:
 - kind: domain-security

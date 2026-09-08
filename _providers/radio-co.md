@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -68,6 +68,10 @@ collections:
   name: Radio.co Public API
   slug: open-radio-co
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.radio.co/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -107,7 +111,7 @@ network: true
 overview: 'Radio.co publishes 2 APIs on the [APIs.io](https://apis.io/) network: Station API and Track API. Tagged areas include Radio, Streaming, Audio, and Music.
 
 
-  Radio.co''s developer surface includes engineering blog and 5 more developer resources.'
+  Radio.co''s developer surface includes engineering blog and 6 more developer resources.'
 plans:
 - name: Radio Co Plans Pricing
   plan_count: 3
@@ -145,9 +149,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-co/refs/heads/main/screenshots/radio-co-2026-06-20T192532.png
 security:
 - kind: domain-security
@@ -160,4 +168,5 @@ tags:
 - Streaming
 - Audio
 - Music
+website: https://www.radio.co/
 ---

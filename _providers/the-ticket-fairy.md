@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The REST API behind Ticket Fairy''s ticket-buying experience: events, ticket types, time slots, add-ons, promo codes, cart, checkout, payment, orders, issued tickets and face-value resale, plus OAuth t'
@@ -189,9 +189,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-ticket-fairy/refs/heads/main/screenshots/the-ticket-fairy-2026-09-02T163419.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,6 +168,10 @@ collections:
   name: Deribit Account Management WebSocket Only API
   slug: open-deribit-websocket-only-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.deribit.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -1962,7 +1966,7 @@ overview: 'Deribit publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Deribit catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Deribit''s developer surface includes authentication, engineering blog, developer portal, status page, support, developer console, changelog, and 10 more developer resources.'
+  Deribit''s developer surface includes authentication, engineering blog, developer portal, status page, support, developer console, changelog, and 11 more developer resources.'
 plans:
 - name: Plans
   plan_count: 7
@@ -2017,9 +2021,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/screenshots/deribit-2026-06-20T175930.png
 security:
 - kind: authentication
@@ -2044,5 +2052,5 @@ tags:
 - Block Trading
 - WebSocket
 - Financial
-website: https://insights.deribit.com/dev-hub/
+website: https://www.deribit.com/
 ---

@@ -16,7 +16,7 @@
      "slug": "convoy",
      "description": "Convoy is an open-source, cloud-native webhooks gateway used to securely ingest, persist, debug, deliver, and manage events. It positions itself as \"the complete solution for secure, scalable, and reliable webhook delivery,\" covering both outbound (sending) and inbound (receiving) webhooks with retries, payload signing, fan-out, rate limiting, message broker ingestion, and customer-facing portals. Convoy is offered as a self-hosted open-source project (Elastic License v2.0, with the OpenAPI spec under MPL 2.0) and a fully managed cloud service in US and EU regions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/convoy/refs/heads/main/screenshots/convoy-2026-06-20T175006.png",
-     "score": 66.9,
+     "score": 68.9,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -73,7 +73,7 @@
      "slug": "onfleet",
      "description": "Onfleet is an AI-powered last-mile delivery management platform that orchestrates fleet operations, dispatch, route optimization, and customer experience across internal and outsourced delivery fleets. The platform powers 400M+ deliveries for brands including Eaze, Total Wine & More, Pizza Hut, Kroger, and Urbanstems across industries from prepared meals and grocery to cannabis, pharmacy, and furniture. Onfleet exposes a comprehensive REST API v2.7 for tasks, workers, route plans, route optimization, orders, recipients, destinations, organizations/teams, and webhooks — backed by official SDKs in Python, Node.js, PHP, Java, and Go, plus the 150+ courier Onfleet Connect network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png",
-     "score": 61.7,
+     "score": 61.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -86,8 +86,8 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -119,7 +119,7 @@
      "slug": "bringg",
      "description": "Bringg is a last-mile delivery and fulfillment orchestration platform headquartered in Tel Aviv (founded 2013, CEO Guy Bloch). The Bringg platform combines modular software (Shopping Experience, Plan, Dispatch, Drive, Delivery Experience, Automation Center, Intelligence, Connect) with the Bringg Carrier Network — 250+ pre-integrated third-party, crowdsourced, and autonomous carriers across 70+ countries — to give enterprise retailers and logistics providers a single integration point for orchestrating own-fleet and partner-fleet deliveries. Bringg's developer surface exposes a REST Delivery Hub API for orders/runs/customers/teams/service areas/service plans/delivery slots/blackouts/inventory/packages, a Drivers & Shifts API for users/shifts/delivery-blocks/vehicles, a Fleet Partners API for self-integrated carriers, 50+ outbound webhook event types, and JavaScript/iOS/Android SDKs powering the Dispatcher and Driver apps. All HTTP APIs use OAuth 2.0 Client Credentials Grant against region-specific GCP base URLs (US2/US3/US4, EU2/EU3) — visible on status.bringg.com. Bringg counts 800+ customers including Best Buy, AutoZone, ASDA, Wegmans, FedEx Office, Metro, uBreakiFix, and B&Q, and processes 200 million annual deliveries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png",
-     "score": 58.1,
+     "score": 59.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -132,8 +132,8 @@
       "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -179,103 +179,11 @@
    "shown": 6,
    "providers": [
     {
-     "name": "Ryder System",
-     "slug": "ryder-system",
-     "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
-     "score": 42.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 60.5,
-      "governance": 69.7,
-      "contract_governance": 69.7,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 45.2,
-      "commercial_clarity": 13.2,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Road Carriers & 3PLs",
-     "rank": 4
-    },
-    {
-     "name": "Geotab",
-     "slug": "geotab",
-     "description": "Geotab is a fleet telematics platform providing the MyGeotab SDK and REST API for vehicle tracking, driver behavior monitoring, fuel management, ELD compliance, and route optimization. The MyGeotab API uses JSON-RPC 2.0 over HTTPS with session-token authentication, exposing a single versioned endpoint at /apiv1 that supports Get, Add, Set, and Remove operations across all fleet entities including devices, trips, fault data, and status data. The MyAdmin API provides reseller and partner access to manage databases, orders, and provisioning. Native SDK clients are available for JavaScript, .NET, Java, and Python, and the full SDK and sample code are published on GitHub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/screenshots/geotab-2026-06-20T181804.png",
-     "score": 41.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 68.3,
-      "governance": 25.0,
-      "contract_governance": 25.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 31.0,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Telematics & Fleet",
-     "rank": 5
-    },
-    {
      "name": "Loadsmart",
      "slug": "loadsmart",
      "description": "Loadsmart is a digital freight technology company and 4PL that connects shippers, carriers, warehouses, and dock operations on a single platform. Founded in 2014 by Felipe Capella and Ricardo Salgado and headquartered in Chicago (with significant New York presence), Loadsmart raised more than $346M from investors including BlackRock, SoftBank Latin America Fund, Maersk Growth, TFI International, CSX, Ports America, and Connor Capital, reaching a reported $1.3B valuation. The platform spans full and partial truckload, less-than-truckload, drayage, expedited, flatbed (via Flatbed Messenger), and multimodal freight, plus the ShipperGuide TMS for procurement, planning, and execution; CarrierGuide TMS and a carrier loadboard with factoring; Opendock for dock appointment scheduling and the Nova warehouse API; and NavTrac for yard management and computer-vision gate/yard visibility. FreightIntel AI provides machine-learning powered freight recommendations across the suite. Loadsmart exposes a public Developer Portal with two production OpenAPI surfaces — the ShipperGuide API (api.loadsmart.com, JWT/RS256 authentication, with quote, book, tender, track, and webhook lanes) and the Opendock Nova / Neutron API (neutron.opendock.com, JWT bearer authentication) — and ships a Postman collection plus partner integrations with Oracle Transportation Management, MercuryGate, Blue Yonder, SAP, NetSuite, and other TMS/ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/loadsmart/refs/heads/main/screenshots/loadsmart-2026-06-20T184627.png",
-     "score": 41.1,
+     "score": 42.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -288,8 +196,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -314,6 +222,98 @@
       "agentic_commerce": false
      },
      "tier": "Digital Freight Marketplaces",
+     "rank": 4
+    },
+    {
+     "name": "Ryder System",
+     "slug": "ryder-system",
+     "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 60.5,
+      "governance": 69.7,
+      "contract_governance": 69.7,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 45.2,
+      "commercial_clarity": 13.2,
+      "access_clarity": 13.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Road Carriers & 3PLs",
+     "rank": 5
+    },
+    {
+     "name": "Geotab",
+     "slug": "geotab",
+     "description": "Geotab is a fleet telematics platform providing the MyGeotab SDK and REST API for vehicle tracking, driver behavior monitoring, fuel management, ELD compliance, and route optimization. The MyGeotab API uses JSON-RPC 2.0 over HTTPS with session-token authentication, exposing a single versioned endpoint at /apiv1 that supports Get, Add, Set, and Remove operations across all fleet entities including devices, trips, fault data, and status data. The MyAdmin API provides reseller and partner access to manage databases, orders, and provisioning. Native SDK clients are available for JavaScript, .NET, Java, and Python, and the full SDK and sample code are published on GitHub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/screenshots/geotab-2026-06-20T181804.png",
+     "score": 40.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 68.3,
+      "governance": 25.0,
+      "contract_governance": 25.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 31.0,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Telematics & Fleet",
      "rank": 6
     },
     {
@@ -321,7 +321,7 @@
      "slug": "lytx",
      "description": "Lytx is a video telematics and fleet management technology company whose Lytx Vision Platform combines machine-vision cameras (DriveCam and Surfsight), AI event detection, GPS tracking, and telematics data for commercial fleets and safety programs. Lytx exposes an open developer API at api.lytx.com that lets integrators access video, real-time GPS and location, vehicle and device data, driver and safety event data, and tracking data programmatically to build custom fleet, insurance, maintenance, and routing integrations on top of the Lytx platform. Authentication is bearer-token based (with advanced OIDC/SSO/MFA options), and the developer portal at developer.lytx.com publishes getting-started guides, authentication docs, an API reference, and webhooks documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lytx/refs/heads/main/screenshots/lytx-2026-07-25T225802.png",
-     "score": 40.6,
+     "score": 39.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -334,8 +334,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -367,7 +367,7 @@
      "slug": "dat-freight",
      "description": "DAT Freight & Analytics operates the largest truckload freight marketplace in North America - the DAT One load board - along with RateView, the industry's benchmark for spot and contract freight rates drawn from hundreds of billions of dollars in real transactions. DAT exposes these products to Transportation Management Systems (TMS) and freight platforms through the DAT Developer Portal (developer.dat.com), a RESTful API suite covering load posting and search, RateView rate lookups, BookNow instant booking, and shipment tracking. Access is subscription-gated: RESTful integration requires a DAT One load board subscription and a service (organization) account, and RateView access requires a Combo Pro or Combo Premium plan. Every request is authenticated with a two-tier token model - an organization token issued from service-account credentials plus a user token for the account making the call.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dat-freight/refs/heads/main/screenshots/dat-freight-2026-07-25T211230.png",
-     "score": 40.5,
+     "score": 39.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -380,8 +380,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -413,7 +413,7 @@
      "slug": "trimble",
      "description": "Trimble Inc. is a global technology company that provides advanced positioning, navigation, and data analytics solutions across construction, agriculture, transportation, and geospatial industries. Founded in 1978 as Trimble Navigation Limited, the company integrates GPS, laser, optical, and inertial technologies with software and services. Trimble's developer platform spans construction collaboration (Trimble Connect), commercial vehicle routing (PC*MILER, Trimble Maps), building information modeling (Tekla, SketchUp), fleet management (TruckMate, TMT, CoPilot), precision positioning (Mobile Manager, TAP Store), and construction ERP (Viewpoint). Publicly traded on NASDAQ as TRMB.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/screenshots/trimble-2026-06-20T195713.png",
-     "score": 40.1,
+     "score": 39.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -426,8 +426,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -469,7 +469,7 @@
      "slug": "samsara",
      "description": "Samsara is a leading connected operations platform for physical operations industries including transportation, logistics, construction, field services, and energy. The Samsara REST API provides programmatic access to fleet telematics, driver safety, compliance (ELD/HOS), vehicle diagnostics, route management, industrial IoT sensors, and workforce management. With over two million connected devices, the platform offers real-time GPS tracking, AI-powered safety cameras, digital inspection forms (DVIRs), IFTA reporting, and data streaming via webhooks and Kafka. Base URL: https://api.samsara.com. Authentication uses Bearer tokens with OAuth 2.0 support.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/samsara/refs/heads/main/screenshots/samsara-2026-06-20T193402.png",
-     "score": 35.7,
+     "score": 34.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -482,8 +482,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -515,7 +515,7 @@
      "slug": "turvo",
      "description": "Turvo is a collaborative cloud transportation management system (TMS) that unifies shippers, freight brokers, and carriers on a single real-time platform. Its self-service Public API is a JSON REST interface (base https://publicapi.turvo.com) secured with OAuth 2.0 plus a per-tenant API key, covering shipments, orders, locations, accounts (customers), and carriers, with event-driven webhooks for status changes and location updates. API credentials and the interactive reference are provisioned per tenant from the API profile inside the Turvo application, so the surface is self-serve for Turvo customers rather than openly public.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/turvo/refs/heads/main/screenshots/turvo-2026-09-02T164550.png",
-     "score": 34.6,
+     "score": 33.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -528,8 +528,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -568,7 +568,7 @@
      "slug": "cargomatic",
      "description": "Cargomatic is a technology-enabled marketplace for local freight and drayage that connects shippers with a network of more than 35,000 professional truck drivers across the top 20 ports in the continental United States. Its platform automates quoting, booking, dispatch, tracking, and document exchange for drayage, intermodal, less-than-truckload (LTL), full-truckload (FTL), and white-glove final-mile delivery. Cargomatic exposes a public REST API (the Cargomatic Public API) so shippers and carriers can automate the same quoting, order-creation, shipment-status, stop-management, driver-assignment, and document workflows available in the Cargomatic portal, authenticating with JWT bearer tokens issued from an authentication endpoint. The company is headquartered in Long Beach, California and is backed by Canaan Partners and the SoftBank Vision Fund.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargomatic/refs/heads/main/screenshots/cargomatic-2026-07-25T204608.png",
-     "score": 33.6,
+     "score": 32.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -581,8 +581,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -627,8 +627,8 @@
       "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -683,8 +683,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -736,8 +736,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -789,8 +789,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -829,7 +829,7 @@
      "slug": "nmfta",
      "description": "The National Motor Freight Traffic Association (NMFTA) is the nonprofit membership body that has set the standards for North American freight since 1956, and through its Digital Standards Development Council (DSDC) it publishes that industry agreement as open OpenAPI contracts. Two councils sit under the DSDC — the Digital LTL Council, founded November 2020, and the Digital FTL Council, which absorbed the Scheduling Standards Consortium — and between them they turn the paper artifacts of trucking into machine-readable APIs: the electronic bill of lading, the rate quote, the invoice and supporting documents, in-transit visibility, appointment scheduling, book and tender, and preliminary freight charges. For most of NMFTA's history its standards were classification and coding — the NMFC freight classification, ClassIT+, SCAC carrier codes, SPLC location codes — and the DSDC is the same institution doing the same job for the API layer. It is one of the clearest examples of an old, mandate-free trade association choosing specifications-as-code over another PDF behind a membership wall, and the gap between what its website advertises as released and what its public repositories actually contain is the most interesting thing about it.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmfta/refs/heads/main/screenshots/nmfta-2026-08-07T185355.png",
-     "score": 22.6,
+     "score": 21.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -842,8 +842,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -888,8 +888,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -934,8 +934,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -980,8 +980,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1036,8 +1036,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1082,8 +1082,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",

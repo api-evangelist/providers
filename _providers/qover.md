@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Qover''s REST API for embedded insurance: a Claims API (file, retrieve, track status history, and download claim reports), a Policy API (manage policies and dynamically add/remove risk items), and a Do'
@@ -47,6 +47,10 @@ asyncapis:
   name: Qover Webhooks
   slug: qover-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.qover.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -137,7 +141,7 @@ overview: 'Qover publishes 1 API on the [APIs.io](https://apis.io/) network: Emb
   The Qover catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Qover''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
+  Qover''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 13 more developer resources.'
 random_paper: 11
 score:
   band: developing
@@ -180,9 +184,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/qover/refs/heads/main/screenshots/qover-2026-08-17T081419.png
 security:
 - kind: authentication
@@ -207,5 +215,5 @@ tags:
 - Policy
 - Fintech
 - Belgium
-website: https://docs.qover.com/
+website: https://www.qover.com/
 ---

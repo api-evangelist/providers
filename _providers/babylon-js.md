@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 18
 apis:
 - description: The core Babylon.js engine and scene graph. Provides the Engine and Scene abstractions, cameras, lights, meshes, materials, textures, animation, post-processing, particle systems, physics integration,
@@ -91,6 +91,10 @@ apis:
   slug: spectorjs
 artifact_total: 41
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.babylonjs.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -297,7 +301,7 @@ network: true
 overview: 'Babylon.js publishes 18 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include 3D, Game Engine, Rendering, WebGL, and WebGPU.
 
 
-  Babylon.js'' developer surface includes developer portal, documentation, getting-started guide, changelog, release notes, engineering blog, YouTube channel, and 36 more developer resources.'
+  Babylon.js'' developer surface includes developer portal, documentation, getting-started guide, changelog, release notes, engineering blog, YouTube channel, and 37 more developer resources.'
 random_paper: 1
 score:
   band: emerging
@@ -320,9 +324,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 16.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/babylon-js/refs/heads/main/screenshots/babylon-js-2026-06-20T172915.png
 security:
 - kind: domain-security

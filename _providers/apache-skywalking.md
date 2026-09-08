@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The SkyWalking GraphQL Query API provides a comprehensive query interface for retrieving observability data including traces, metrics, logs, alarms, topology maps, and profiling results. It supports m
@@ -47,6 +47,10 @@ apis:
   slug: apache-skywalking-grpc-data-collect-protocol
 artifact_total: 32
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: Releases
@@ -184,7 +188,7 @@ network: true
 overview: 'Apache SkyWalking publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include APM, Application Performance Monitoring, Cloud-Native, Distributed Tracing, and Monitoring.
 
 
-  Apache SkyWalking''s developer surface includes documentation, developer portal, engineering blog, release notes, support, and 15 more developer resources.'
+  Apache SkyWalking''s developer surface includes documentation, developer portal, engineering blog, release notes, support, and 16 more developer resources.'
 plans:
 - name: Apache Skywalking Plans Pricing
   plan_count: 3
@@ -215,9 +219,13 @@ score:
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 22.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-skywalking/refs/heads/main/screenshots/apache-skywalking-2026-06-20T172144.png
 security:
 - kind: domain-security
@@ -249,5 +257,5 @@ use_cases:
   name: SLA Monitoring
 - description: Always-on profiling for performance optimization without overhead in production.
   name: Continuous Profiling
-website: https://skywalking.apache.org/
+website: https://www.apache.org/
 ---

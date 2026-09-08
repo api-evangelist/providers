@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Fountain's REST API for managing hiring and frontline workforce data — applicants, openings, positions, locations, interview slots and sessions, workers, secure documents, labels, notes, custom attrib
@@ -45,6 +45,10 @@ asyncapis:
   name: Fountain Webhooks
   slug: fountain-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.fountain.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -171,7 +175,7 @@ overview: 'Fountain publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Fountain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Fountain''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
+  Fountain''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 1
@@ -202,9 +206,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png
 security:
 - kind: authentication
@@ -232,5 +240,5 @@ tags:
 - Scheduling
 - HR Tech
 - Frontline
-website: https://developer.fountain.com/
+website: https://www.fountain.com/
 ---

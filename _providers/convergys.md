@@ -32,42 +32,42 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/convergys-domain-security.yml
 - group: company
   title: ''
-  type: LegacyWebsite
-  url: https://www.convergys.com
+  type: Website
+  url: https://www.concentrix.com/
 - group: company
   title: ''
   type: About
-  url: https://www.concentrix.com/about-us/
+  url: https://www.concentrix.com/about/
 - group: company
   title: ''
-  type: News
-  url: https://www.concentrix.com/insights/
+  type: Newsroom
+  url: https://www.concentrix.com/news/
 - group: operate
   title: ''
-  type: PressRelease
-  url: https://investor.concentrix.com/news-releases/news-release-details/concentrix-completes-acquisition-convergys
+  type: PressReleases
+  url: https://www.prnewswire.com/news-releases/synnex-corporation-announces-acquisition-of-convergys-to-close-on-october-5-2018-300724049.html
 - group: company
   title: ''
   type: Careers
-  url: https://careers.concentrix.com/
+  url: https://jobs.concentrix.com/
 - group: operate
   title: ''
-  type: Contact
-  url: https://www.concentrix.com/contact-us/
+  type: ContactUs
+  url: https://www.concentrix.com/contact/
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.concentrix.com/partners/
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.concentrix.com/legal/website-terms-of-use/
+  url: https://www.concentrix.com/wp-content/uploads/2024/04/Concentrix-Website-Terms-of-Use.pdf
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -76,18 +76,39 @@ common:
   title: ''
   type: Blog
   url: https://www.concentrix.com/feed/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/convergys-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/convergys-domain-security.yml
+coverage:
+  checked: '2026-09-07'
+  detail: Convergys was merged into Concentrix in October 2018 and its own web estate has since been switched off — www.convergys.com is an Azure App Service redirect app that now answers "403 Site Disabled" on every path (including a control path that cannot exist) behind an expired TLS certificate, and developer.convergys.com still resolves to a Concentrix CVG Brite Voice Systems address block with TCP 80 and 443 both closed, so there is no surviving Convergys host left to read a contract from.
+  evidence:
+  - status: 403
+    url: http://www.convergys.com/
+  - status: 403
+    url: http://www.convergys.com/.well-known/security.txt
+  - status: 404
+    url: https://www.concentrix.com/.well-known/api-catalog
+  reason: defunct
+  state: none
 created: '2026-03-23'
-description: Convergys was a global leader in customer management services, providing customer care, technology services, and analytics across industries before being acquired by Concentrix in October 2018. The legacy convergys.com domain now redirects to Concentrix, and Convergys offerings such as contact center outsourcing, workforce management, analytics, and digital customer experience platforms have been folded into the Concentrix portfolio. Concentrix itself does not publish public REST APIs or developer programs in the way SaaS vendors do. Most platform integrations are delivered through enterprise contracts and private APIs.
+description: 'Convergys Corporation was a global leader in customer management services — contact center outsourcing, workforce management, customer analytics and digital customer experience platforms — serving communications, financial services, healthcare, retail and technology clients. SYNNEX acquired Convergys in October 2018 and merged it into Concentrix; the brand was retired and its offerings were folded into the Concentrix portfolio. Convergys published no public API or developer program that survives. Probed 2026-09-07: www.convergys.com is an Azure App Service redirect app that has been switched off and now answers "403 Site Disabled" on every path with an expired TLS certificate, and developer.convergys.com still resolves to an address block registered to Concentrix CVG Brite Voice Systems LLC with both HTTP ports closed. The successor company, Concentrix, is profiled separately and delivers most platform integration through enterprise contracts rather than a public developer
+  program.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/convergys.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-07'
 name: Convergys
 nav: Providers
 network: true
 overview: 'Convergys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Analytics, Business Process Outsourcing, Concentrix, and Contact Center.
 
 
-  Convergys'' developer surface includes product news, engineering blog, and 8 more developer resources.'
+  Convergys'' developer surface includes engineering blog and 11 more developer resources.'
 press:
 - date: '2026-05-25'
   title: NEC to acquire Convergys data management business for US ...
@@ -107,34 +128,32 @@ press:
 random_paper: 5
 score:
   band: minimal
-  composite: 5.5
+  composite: 8.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 10.5
+    commercial_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 0.0
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: no_resolvable_host
   previous_composite: 5.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/screenshots/convergys-2026-06-20T174957.png
 security:
 - kind: domain-security
@@ -151,4 +170,5 @@ tags:
 - Customer Experience
 - Customer Management
 - Workforce Management
+website: https://www.concentrix.com/
 ---

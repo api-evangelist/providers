@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic access to Aristotle, Harmonic's formal reasoning agent. Over HTTPS with an API key, submit Lean 4 proofs with `sorry` placeholders, natural-language math problems, or LaTeX papers; Aristo
@@ -154,9 +154,13 @@ score:
   previous_composite: 22.4
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic/refs/heads/main/screenshots/harmonic-2026-07-25T220710.png
 security:
 - kind: authentication

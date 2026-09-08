@@ -8,15 +8,15 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "providers": [
     {
      "name": "Nokia Network as Code",
      "slug": "nokia-network-as-code",
      "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nokia-network-as-code/refs/heads/main/screenshots/nokia-network-as-code-2026-08-07T185436.png",
-     "score": 57.4,
+     "score": 56.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -69,15 +69,26 @@
       "agentic_commerce": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "39.3 – 54.2",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 6,
+   "shown": 6,
+   "providers": [
     {
      "name": "University of Helsinki",
      "slug": "university-of-helsinki",
      "description": "The University of Helsinki is Finland's oldest and largest multidisciplinary research university, founded in 1640, and it is one of the very few institutions in this cohort that operates a real, first-party API program rather than only renting vendor platforms. It runs its own Gravitee API gateway at gw.api.helsinki.fi behind a public developer portal at api.helsinki.fi, listing fifteen public APIs — organisations, buildings and spaces, employee and group directories, service management, the application-portfolio register, network registry, and the CMS behind helsinki.fi and the course pages — twelve of which publish a readable OpenAPI. Alongside that sit genuinely institution-operated scholarly and identity infrastructure: Helda (DSpace 7.6.2) and the newer HY Data Catalogue (DSpace 9.0), three live OAI-PMH endpoints, the Editori open-publishing service, the Shibboleth/OIDC identity provider at login.helsinki.fi with sixteen entities registered in the Haka federation, and the Finnish Biodiversity Information Facility (api.laji.fi, 177 paths), which is run by Luomus, a University institute. What the University does NOT author is equally important and is recorded here as tenancy rather than as its own work: Sisu/Kori is Funidata's, the research portal is Elsevier Pure, and Helka is Ex Libris Primo. The gateway is affiliation-gated — keyless access is disabled and portal self-registration is off — so the catalogue and every specification are readable by anyone, while a credential requires a university or Haka identity.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-helsinki/refs/heads/main/screenshots/university-of-helsinki-2026-06-20T200155.png",
-     "score": 54.9,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 54.1,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 63.6,
@@ -88,8 +99,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -121,24 +132,13 @@
       "agentic_commerce": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "39.3 – 54.2",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
+    },
     {
      "name": "Enable Banking",
      "slug": "enable-banking",
      "description": "Enable Banking is a Finland-based Open Banking connectivity engine and licensed PSD2 Account Information Service Provider (AISP) regulated by the Finnish Financial Supervisory Authority (FIN-FSA). Headquartered in Espoo, Enable Banking provides a single harmonized API across 2,700+ banks (ASPSPs) in 30 European countries, exposing Account Information Services (AIS) and Payment Initiation Services (PIS), TPP Infrastructure-as-a-Service for licensed Third Party Providers, and an eIDAS-backed JWT authentication model. The platform processes 25M+ API requests monthly across the EEA and maintains 1,000+ ASPSP integrations, serving accounting and ERP platforms, credit risk and KYC providers, wealth managers, and payment service providers including Qred Bank, Fimento, CapitalBox, and iDenfy. Enable Banking is GDPR and DORA compliant with an active PSD3 / FIDA roadmap.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png",
-     "score": 51.6,
+     "score": 50.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -151,8 +151,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -190,7 +190,7 @@
      "slug": "holvi",
      "description": "Holvi is a Finnish digital business-banking service for freelancers, founders and small businesses, founded in Helsinki in 2011 and operating as a regulated Authorised Payment Institution supervised by the Finnish Financial Supervisory Authority. It combines a business account with its own IBAN, a Holvi Business Mastercard, invoicing, expense tracking, VAT calculation and bookkeeping preparation in one dashboard, serving more than 150,000 businesses across Europe with a focus on Finland, Germany and Austria. For developers, Holvi publishes a PSD2 API v2.0 for licensed Third Party Providers, exposing account information (AISP) and payment initiation (PISP, SEPA / SEPA Instant / SWIFT) with Strong Customer Authentication and optional Verification of Payee.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png",
-     "score": 46.5,
+     "score": 45.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -203,8 +203,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -262,8 +262,8 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -290,57 +290,6 @@
      "rank": 5
     },
     {
-     "name": "TietoEVRY",
-     "slug": "tietoevry",
-     "description": "TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to \"Tieto\" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is published by the banking business (Tieto Banktech / Tietoevry Banking) through the Tietoevry Banking API Hub at api.tietoevry.com, which fronts three developer portals: an Open Banking PSD2/XS2A platform built on the Berlin Group NextGenPSD2 framework with a free self-service sandbox, a Financial API Aggregation service offering one integration to Nordic and Baltic banks, and a Credit Cloud platform for loan origination and loan life-cycle management. 24 machine-readable Swagger 2.0 / OpenAPI 3.0 contracts covering 211 operations are published unauthenticated from the Open Banking and Aggregation portals, including account information, payment initiation, confirmation of funds, bulk and periodic payments, payment recall, request-to-pay, signing baskets, virtual account management, card account information and a SEPA Direct Debits gateway with a webhook event-notification surface.",
-     "score": 42.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 72.2,
-      "contract_quality": 59.0,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 23.2,
-      "commercial_clarity": 27.6,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 45.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 35.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    },
-    {
      "name": "Aalto University",
      "slug": "aalto",
      "description": "Aalto University is a multidisciplinary public research university in Espoo, Finland, formed in 2010 from the merger of the Helsinki University of Technology, the Helsinki School of Economics and the University of Art and Design Helsinki. Unusually for this cohort, Aalto operates a real institution-owned API program rather than only a set of vendor tenancies: the Aalto API Gateway (Red Hat 3scale, at 3scale.apps.ocp4.aalto.fi) publishes five documented API products — facilities and room reservations, SISU course data, Acris research publications, projects and cost centres, and a deprecated Oodi-sourced course API — and its ActiveDocs index is publicly readable, exposing forty-four Aalto-authored Swagger/OpenAPI documents whose servers all sit under *.api.aalto.fi. Every one of those endpoints is API-key gated and returns 403 to an anonymous caller, so the contracts are public while the data is not. The genuinely anonymous surfaces are elsewhere: the Aaltodoc institutional repository (Aalto-hosted DSpace 9.2) serves a live OAI-PMH 2.0 endpoint with sixteen metadata formats and an open REST API, and the Linked Open Aalto Data SPARQL endpoint answers real queries — but only over POST, since GET times out. Aalto also runs its own Shibboleth SAML 2.0 identity provider and is registered in the Haka federation with forty-one entities, which is machine-readable institutional infrastructure that almost no university in this cohort catalogues. Its library discovery, research information system and research portal are vendor tenancies (Ex Libris, Elsevier Pure) and are recorded as relationships, not as Aalto's engineering.",
@@ -358,8 +307,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -390,6 +339,57 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 6
+    },
+    {
+     "name": "TietoEVRY",
+     "slug": "tietoevry",
+     "description": "TietoEVRY (Tietoevry Corporation, listed as TIETO on Nasdaq Helsinki and Stockholm, rebranded to \"Tieto\" in 2026) is a Nordic software and technology company of roughly 14,000 people operating in 20+ countries, serving banking, healthcare, public sector and industry. Its public API surface is published by the banking business (Tieto Banktech / Tietoevry Banking) through the Tietoevry Banking API Hub at api.tietoevry.com, which fronts three developer portals: an Open Banking PSD2/XS2A platform built on the Berlin Group NextGenPSD2 framework with a free self-service sandbox, a Financial API Aggregation service offering one integration to Nordic and Baltic banks, and a Credit Cloud platform for loan origination and loan life-cycle management. 24 machine-readable Swagger 2.0 / OpenAPI 3.0 contracts covering 211 operations are published unauthenticated from the Open Banking and Aggregation portals, including account information, payment initiation, confirmation of funds, bulk and periodic payments, payment recall, request-to-pay, signing baskets, virtual account management, card account information and a SEPA Direct Debits gateway with a webhook event-notification surface.",
+     "score": 41.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 59.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 23.2,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 45.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 35.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 7
     }
    ],
@@ -408,7 +408,7 @@
      "slug": "datacrunch",
      "description": "DataCrunch is a European (Finland-based) GPU cloud offering on-demand and reserved NVIDIA GPU instances (H200, H100, B200, A100, L40S, V100) plus a serverless inference and container deployment platform. Its REST API at https://api.datacrunch.io/v1 uses OAuth2 client-credentials to issue Bearer tokens and exposes instances, instance types, availability, images, SSH keys, startup scripts, volumes, balance, and serverless containers, with an OpenAI-compatible inference endpoint for deployed models.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datacrunch/refs/heads/main/screenshots/datacrunch-2026-07-25T211313.png",
-     "score": 39.0,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -421,8 +421,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -476,8 +476,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -528,8 +528,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -583,8 +583,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -628,8 +628,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -673,8 +673,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -717,8 +717,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -762,8 +762,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -807,8 +807,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -851,8 +851,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -940,8 +940,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -985,8 +985,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

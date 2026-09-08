@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: RESTful API for managing Cisco Meraki cloud-managed networking devices including wireless access points, switches, security appliances, and cameras. Supports network configuration, monitoring, and aut
@@ -85,6 +85,10 @@ collections:
   name: Cisco Meraki Dashboard Clients Organizations API
   slug: postman-cisco-organizations-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cisco.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -400,7 +404,7 @@ overview: 'Cisco publishes 8 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Cisco catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 53 more developer resources.'
+  Cisco''s developer surface includes changelog, authentication, developer portal, documentation, getting-started guide, engineering blog, support, and 54 more developer resources.'
 plans:
 - name: Cisco Plans Pricing
   plan_count: 3
@@ -456,9 +460,13 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco/refs/heads/main/screenshots/cisco-2026-07-25T205421.png
 security:
 - kind: authentication
@@ -492,5 +500,5 @@ use_cases:
   name: Cloud Infrastructure Management
 - description: Collect and analyze network telemetry data for performance monitoring and troubleshooting.
   name: Network Monitoring and Analytics
-website: https://developer.cisco.com/
+website: https://www.cisco.com/
 ---

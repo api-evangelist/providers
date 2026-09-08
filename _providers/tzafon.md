@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Lightcone API by Tzafon provides cloud browser and desktop computers operated by AI. It spans an agent Tasks API (start, stream, pause, resume, inject messages) driven by the Northstar computer-us
@@ -43,6 +43,10 @@ apis:
   slug: lightcone-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lightcone.ai/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -166,7 +170,7 @@ network: true
 overview: 'Tzafon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Computer Use Agents, Browser Automation, and AI Agents.
 
 
-  Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, code examples, and 20 more developer resources.'
+  Tzafon''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, CLI, code examples, and 21 more developer resources.'
 random_paper: 7
 rate_limits:
 - limit_count: 0
@@ -196,9 +200,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tzafon/refs/heads/main/screenshots/tzafon-2026-09-02T164705.png
 security:
 - kind: authentication
@@ -219,5 +227,5 @@ tags:
 - Vision Language Models
 - Cloud Computers
 - Automation
-website: https://lightcone.ai/dashboard
+website: https://www.lightcone.ai/
 ---

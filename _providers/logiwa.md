@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Logiwa Integration API is an RPC-over-HTTP interface with 81 documented operations covering products and kits, shipment orders and order details, purchase orders, receipt orders and receiving, inv
@@ -215,9 +215,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/logiwa/refs/heads/main/screenshots/logiwa-2026-09-02T150306.png
 security:
 - kind: authentication

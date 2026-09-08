@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Resource-oriented REST API to manage integrations, providers, sessions, portals, skills, identities and MCP access programmatically. Bearer API-key auth, cursor pagination, date-based versioning; 466 '
@@ -44,6 +44,10 @@ apis:
   slug: metorial-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.metorial.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -175,7 +179,7 @@ network: true
 overview: 'Metorial publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, MCP, AI Agents, Agentic Infrastructure, and Integration.
 
 
-  Metorial''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, CLI, and 23 more developer resources.'
+  Metorial''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, CLI, and 24 more developer resources.'
 random_paper: 0
 rate_limits:
 - limit_count: 3
@@ -206,9 +210,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/metorial/refs/heads/main/screenshots/metorial-2026-08-07T172725.png
 security:
 - kind: authentication
@@ -232,5 +240,5 @@ tags:
 - Integration
 - Developer Tools
 - Serverless
-website: https://platform.metorial.com
+website: https://www.metorial.com/
 ---

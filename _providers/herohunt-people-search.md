@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing
@@ -94,9 +94,13 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 7.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/herohunt-people-search/refs/heads/main/screenshots/herohunt-people-search-2026-06-20T182646.png
 security:
 - kind: domain-security

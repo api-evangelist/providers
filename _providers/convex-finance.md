@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Subgraph-based GraphQL API for querying Convex Finance on-chain data including pools, deposits, withdrawals, revenue, and user activity via The Graph protocol.
@@ -86,9 +86,13 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 18.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex-finance/refs/heads/main/screenshots/convex-finance-2026-07-25T210351.png
 security:
 - kind: domain-security

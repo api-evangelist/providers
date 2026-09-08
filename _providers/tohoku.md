@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: 'Public, anonymous, read-only GraphQL API for jMorp — the Japanese Multi Omics Reference Panel published by the Tohoku Medical Megabank Organization (ToMMo), an institute of Tohoku University. Runs on '
@@ -221,9 +221,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 38.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tohoku/refs/heads/main/screenshots/tohoku-2026-06-20T195441.png
 security:
 - kind: authentication

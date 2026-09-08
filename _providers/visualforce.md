@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Visualforce is the Salesforce framework for building custom user interfaces using tag-based markup and Apex server-side controllers. Developers use it to create pages, email templates, and PDF documen
@@ -41,6 +41,10 @@ apis:
   slug: visualforce-api
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.salesforce.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -124,7 +128,7 @@ network: true
 overview: 'Visualforce publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Salesforce, UI Framework, and Web Development.
 
 
-  Visualforce''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, training material, and 4 more developer resources.'
+  Visualforce''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, training material, and 5 more developer resources.'
 plans:
 - name: Visualforce Plans Pricing
   plan_count: 3
@@ -155,9 +159,13 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 22.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/screenshots/visualforce-2026-06-20T201104.png
 security:
 - kind: domain-security
@@ -180,5 +188,5 @@ use_cases:
   name: Embedded Dashboards
 - description: Create multi-step form workflows for complex data entry processes.
   name: Wizard-Style Forms
-website: https://developer.salesforce.com
+website: https://www.salesforce.com/
 ---

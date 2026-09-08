@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -109,6 +109,10 @@ collections:
   name: Lambda Cloud File Systems SSH Keys API
   slug: open-lambda-ssh-keys-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.lambda.ai/
 - group: other
   title: ''
   type: CapabilityMap
@@ -224,7 +228,7 @@ overview: 'Lambda publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
   The Lambda catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Lambda''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 13 more developer resources.'
+  Lambda''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, support, and 14 more developer resources.'
 plans:
 - name: Lambda Plans Pricing
   plan_count: 3
@@ -247,7 +251,7 @@ rules:
   slug: lambda-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.5
+  composite: 48.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 54.3
@@ -255,7 +259,7 @@ score:
     catalog_gap: 60.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -273,9 +277,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/lambda/refs/heads/main/screenshots/lambda-2026-06-20T184249.png
 security:
 - kind: authentication
@@ -308,5 +315,5 @@ use_cases:
 - Provisioning ephemeral compute for ML experiments
 - Managing persistent datasets across training runs
 - Automating GPU infrastructure with CI/CD pipelines
-website: https://lambda.ai/cloud
+website: https://www.lambda.ai/
 ---

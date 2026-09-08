@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key passed as the token query parameter, and da
@@ -42,6 +42,10 @@ apis:
   slug: cypress-cloud-data-extract-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cypress.io/
 - group: auth
   title: ''
   type: TrustCenter
@@ -157,7 +161,7 @@ network: true
 overview: 'Cypress.io publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Testing, End-to-End Testing, Test Automation, and Quality Assurance.
 
 
-  Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 6
 score:
   band: thin
@@ -180,9 +184,13 @@ score:
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 37.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/screenshots/cypressio-2026-07-25T211057.png
 security:
 - kind: authentication
@@ -208,5 +216,5 @@ tags:
 - CI/CD
 - Accessibility
 - JavaScript
-website: https://docs.cypress.io/
+website: https://www.cypress.io/
 ---

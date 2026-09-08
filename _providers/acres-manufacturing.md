@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'WebSocket streaming API onto the Foundation event bus. Two channels are documented: a real-time event streamer that pushes every event as it is collected from the floor (backed by a rolling cache of u'
@@ -141,7 +141,7 @@ rate_limits:
   slug: acres-manufacturing-rate-limits
 score:
   band: thin
-  composite: 37.0
+  composite: 36.7
   coverage:
     artifact_dirs: 12
     catalog_earned: 44.0
@@ -149,6 +149,7 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  delta: -0.3
   facets:
     access_clarity: 10.5
     commercial_clarity: 10.5
@@ -157,7 +158,8 @@ score:
     developer_ergonomics: 38.1
     discoverability: 59.3
     governance: 18.2
-    operational_transparency: 44.7
+    operational_transparency: 42.1
+  previous_composite: 37.0
   provenance:
     conformance: first-party
     mcp: derived
@@ -167,8 +169,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: authentication
   name: Acres Manufacturing Authentication

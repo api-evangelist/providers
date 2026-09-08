@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for the KASKO insurance platform. All platform functionality and data is accessible via the API, covering the Quote, Offer, Payment and Policy insurance transaction flow plus a Data API for d
@@ -185,9 +185,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kasko/refs/heads/main/screenshots/kasko-2026-07-25T223521.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Thrift Interface Definition Language (IDL) is used to define data types and service interfaces in a language-neutral format. A .thrift file defines structs, enums, exceptions, typedefs, constants,
@@ -44,6 +44,10 @@ apis:
   slug: apache-thrift-server-api
 artifact_total: 20
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -138,7 +142,7 @@ overview: 'Apache Thrift publishes 2 APIs on the [APIs.io](https://apis.io/) net
   The Apache Thrift catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Apache Thrift''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 10 more developer resources.'
+  Apache Thrift''s developer surface includes documentation, developer portal, getting-started guide, release notes, and 11 more developer resources.'
 plans:
 - name: Apache Thrift Plans Pricing
   plan_count: 3
@@ -183,9 +187,13 @@ score:
     applies: true
     score: 100.0
   previous_composite: 34.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-thrift/refs/heads/main/screenshots/apache-thrift-2026-06-20T172152.png
 security:
 - kind: domain-security
@@ -211,5 +219,5 @@ use_cases:
   name: Cross-Language APIs
 - description: Service mesh and distributed system communication with efficient binary serialization.
   name: Distributed Systems
-website: https://thrift.apache.org/
+website: https://www.apache.org/
 ---

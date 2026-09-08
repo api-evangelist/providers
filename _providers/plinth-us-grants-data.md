@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 49.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://data.useplinth.com/api
@@ -68,6 +68,10 @@ apis:
   slug: plinth-us-grants-data-sql-api
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.useplinth.com/
 - group: agent
   title: ''
   type: MCPServer
@@ -201,7 +205,7 @@ overview: 'Plinth US Grants Data publishes 5 APIs on the [APIs.io](https://apis.
   The Plinth US Grants Data catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Plinth US Grants Data''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 21 more developer resources.'
+  Plinth US Grants Data''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
 plans:
 - name: Plinth Us Grants Data Plans Pricing
   plan_count: 4
@@ -230,7 +234,7 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 67.4
+  composite: 66.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 69.0
@@ -238,7 +242,7 @@ score:
     catalog_gap: 46.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -264,9 +268,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 75.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/screenshots/plinth-us-grants-data-2026-08-17T081307.png
 security:
 - kind: authentication
@@ -296,5 +303,5 @@ tags:
 - JSON
 - MCP
 - SQL
-website: https://data.useplinth.com/developers
+website: https://www.useplinth.com/
 ---

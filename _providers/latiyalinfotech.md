@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Read-only real-time cricket data API. 51 operations on the apiv5 tier (30 on apiv3), all reads, served from https://apicricketchampion.in/apiv{3|4|5}/ with an opaque API token as the final path segmen
@@ -52,6 +52,10 @@ collections:
   name: 'API : Cricket Live Line V4 & V5'
   slug: postman-latiyalinfotech-cricket-live-line-v4-v5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.latiyalinfotech.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,7 +99,7 @@ network: true
 overview: 'Latiyal Infotech publishes 1 API on the [APIs.io](https://apis.io/) network: Cricket Live Line API. Tagged areas include Cricket, Sports, Live Scores, Sports Data, and Odds.
 
 
-  Latiyal Infotech''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
+  Latiyal Infotech''s developer surface includes engineering blog, support, pricing, and 6 more developer resources.'
 plans:
 - name: Latiyalinfotech Plans Pricing
   plan_count: 8
@@ -136,9 +140,13 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/latiyalinfotech/refs/heads/main/screenshots/latiyalinfotech-2026-09-02T150217.png
 security:
 - kind: authentication
@@ -161,4 +169,5 @@ tags:
 - Cricket API
 - India
 - Postman
+website: https://www.latiyalinfotech.com/
 ---

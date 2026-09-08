@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Tapestry Component API provides Java annotations and interfaces for building reusable web components. Components are defined by a Java class and an HTML template file. The API includes @Component,
@@ -41,6 +41,10 @@ apis:
   slug: apache-tapestry-component-api
 artifact_total: 18
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -124,7 +128,7 @@ network: true
 overview: 'Apache Tapestry publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Component-Based, Java, Web Applications, Web Framework, and Open-Source.
 
 
-  Apache Tapestry''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 7 more developer resources.'
+  Apache Tapestry''s developer surface includes documentation, developer portal, getting-started guide, release notes, support, and 8 more developer resources.'
 plans:
 - name: Apache Tapestry Plans Pricing
   plan_count: 3
@@ -158,9 +162,13 @@ score:
     applies: true
     score: 50.0
   previous_composite: 27.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tapestry/refs/heads/main/screenshots/apache-tapestry-2026-06-20T172151.png
 security:
 - kind: domain-security
@@ -186,5 +194,5 @@ use_cases:
   name: Form-Heavy Applications
 - description: Ajax-driven UIs with partial page updates via Tapestry Zone components.
   name: Single-Page Application Backends
-website: https://tapestry.apache.org/
+website: https://www.apache.org/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -132,6 +132,10 @@ collections:
   name: IIS Administration Application Pools Web Sites API
   slug: open-microsoft-windows-server-web-sites-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -609,7 +613,7 @@ overview: 'Microsoft Windows Server publishes 3 APIs on the [APIs.io](https://ap
   The Microsoft Windows Server catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Windows Server''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, and 10 more developer resources.'
+  Microsoft Windows Server''s developer surface includes authentication, developer portal, documentation, support, engineering blog, release notes, and 11 more developer resources.'
 plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
@@ -643,7 +647,7 @@ rules:
   slug: microsoft-windows-server-spectral-rules
 score:
   band: developing
-  composite: 49.0
+  composite: 48.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 50.5
@@ -651,7 +655,7 @@ score:
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -669,9 +673,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:
 - kind: authentication
@@ -703,5 +710,5 @@ use_cases:
   name: Virtual Desktop Infrastructure
 - description: Configure failover clustering and storage replication for mission-critical applications requiring zero downtime.
   name: High Availability Deployments
-website: https://portal.azure.com
+website: https://www.microsoft.com/
 ---

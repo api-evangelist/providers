@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://wealthville.net/api/v1
@@ -68,6 +68,10 @@ collections:
   name: Wealthville Public Data Track Record API
   slug: open-wealthville-defi-liquidity-pool-scores-api-solana-evm-track-record-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wealthville.net/
 - group: other
   title: ''
   type: Overlay
@@ -201,7 +205,7 @@ network: true
 overview: 'WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) publishes 3 APIs on the [APIs.io](https://apis.io/) network: Scores API, Signals API, and Track Record API. Tagged areas include DeFi, Liquidity Pools, Blockchain Analytics, Solana, and EVM.
 
 
-  WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 22 more developer resources.'
+  WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM)''s developer surface includes authentication, API reference, support, engineering blog, pricing, and 23 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 2
@@ -237,9 +241,13 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthville-defi-liquidity-pool-scores-api-solana-evm/refs/heads/main/screenshots/wealthville-defi-liquidity-pool-scores-api-solana-evm-2026-08-17T082848.png
 security:
 - kind: authentication
@@ -267,5 +275,5 @@ tags:
 - MCP
 - AI Agents
 - Financial Data
-website: https://wealthville.net/developers
+website: https://www.wealthville.net/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Ethereum-compatible JSON-RPC API for the Celo Layer 2 network, served over the public Forno endpoints. Supports the standard eth_* / net_* / web3_* method set for reading chain state, submitting trans
@@ -40,6 +40,14 @@ apis:
   slug: celo-json-rpc-api
 artifact_total: 4
 common:
+- group: other
+  title: ''
+  type: Whitepaper
+  url: https://celo.org/papers
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/celo-sandbox.yml
 - group: company
   title: ''
   type: Website
@@ -151,25 +159,25 @@ network: true
 overview: 'Celo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Ethereum L2, Web3, and Stablecoins.
 
 
-  Celo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, and 18 more developer resources.'
+  Celo''s developer surface includes sandbox, documentation, API reference, getting-started guide, engineering blog, support, CLI, and 19 more developer resources.'
 random_paper: 20
 score:
   band: thin
-  composite: 30.0
+  composite: 31.4
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 18.2
     contract_quality: 0.0
-    developer_ergonomics: 59.5
+    developer_ergonomics: 66.7
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 23.7
@@ -183,9 +191,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/celo/refs/heads/main/screenshots/celo-2026-07-25T204901.png
 security:
 - kind: domain-security

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The HTTP surface an Exonum node serves. The explorer service exposes REST endpoints under /api/explorer (blocks, block, transactions, call_status) plus a WebSocket interface for submitting signed tran
@@ -284,9 +284,13 @@ score:
   previous_composite: 41.0
   provenance:
     conformance: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitfury-group/refs/heads/main/screenshots/bitfury-group-2026-08-07T162553.png
 security:
 - kind: authentication

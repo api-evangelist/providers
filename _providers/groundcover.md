@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The groundcover platform REST API. Data query endpoints run gcQL pipelines against logs (POST /api/logs/v2/search), trace spans (POST /api/traces/v2/search) and Kubernetes events (POST /api/k8s/v2/eve
@@ -255,9 +255,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/screenshots/groundcover-2026-06-20T182415.png
 security:
 - kind: authentication

@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.smartbear.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -91,7 +95,7 @@ network: true
 overview: 'ReadyAPI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include API Testing, Functional Testing, Performance Testing, Security Testing, and API Virtualization.
 
 
-  ReadyAPI''s developer surface includes developer portal, documentation, pricing, support, and 6 more developer resources.'
+  ReadyAPI''s developer surface includes developer portal, documentation, pricing, support, and 7 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -114,9 +118,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 12.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/readyapi/refs/heads/main/screenshots/readyapi-2026-06-20T192641.png
 security:
 - kind: domain-security
@@ -136,5 +144,5 @@ tags:
 - API Virtualization
 - Automation
 - DevOps
-website: https://smartbear.com/product/ready-api/
+website: https://www.smartbear.com/
 ---

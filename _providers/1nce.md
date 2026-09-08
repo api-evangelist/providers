@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -317,6 +317,10 @@ collections:
   name: Authorization Administration Logs Volume Top Up API
   slug: open-1nce-volume-top-up-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.1nce.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -526,7 +530,7 @@ overview: '1NCE publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
   The 1NCE catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  1NCE''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, code examples, and 33 more developer resources.'
+  1NCE''s developer surface includes authentication, developer portal, documentation, getting-started guide, sandbox, signup flow, code examples, and 34 more developer resources.'
 plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
@@ -549,7 +553,7 @@ rules:
   slug: 1nce-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
+  composite: 52.2
   coverage:
     artifact_dirs: 14
     catalog_earned: 71.3
@@ -557,7 +561,7 @@ score:
     catalog_gap: 43.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 73.7
     commercial_clarity: 73.7
@@ -587,9 +591,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 43.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:
 - kind: authentication
@@ -616,5 +623,5 @@ tags:
 - Edge
 - Embedded
 - Global Roaming
-website: https://www.1nce.com/en-us/
+website: https://www.1nce.com/
 ---

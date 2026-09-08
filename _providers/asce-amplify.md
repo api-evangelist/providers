@@ -12,37 +12,138 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
+    reversibility_documented: na
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-09-06'
+  score: 25.2
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
-- description: The ASCE Hazard Tool API provides a simple interface to query locations in the United States for environmental hazard data by geographic location. It provides site-specific hazard values used in struc
+- baseURL: https://api-hazard.asce.org/v1
+  baseurl_source: declared
+  description: The ASCE Hazard Tool API provides a simple interface to query locations in the United States for environmental hazard data by geographic location. It provides site-specific hazard values used in struc
   name: ASCE Hazard Tool API
   slug: hazard-tool-api
-artifact_total: 15
+- description: The ASCE ArcGIS Server instance at gis.asce.org publishes the hazard map, image and geoprocessing services that back the ASCE Hazard Tool — ASCE 7 wind, ice, snow, seismic, tsunami and tornado layers,
+  name: ASCE GIS REST Services
+  slug: arcgis-rest-services
+artifact_total: 17
 common:
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/asce-amplify-llms.txt
+- group: agent
+  title: Packaged agent skills for the ASCE Hazard Loads API
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: Candidate MCP tool surface derived from the OpenAPI (no server exists)
+  type: X-MCPServerCandidate
+  url: mcp/asce-amplify-mcp.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/asce-amplify-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/asce-amplify-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/asce-amplify-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/asce-amplify-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/asce-amplify-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/asce-amplify-packages.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/asce-amplify-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/asce-amplify-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/asce-amplify-finops.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/asce-amplify-authentication.yml
+- group: start
+  title: ASCE API Dashboard
+  type: DeveloperPortal
+  url: https://api-hazard.asce.org/
+- group: docs
+  title: ASCE Hazard Tool API documentation
+  type: Documentation
+  url: https://www.asce.org/publications-and-news/asce-hazard-tool/api
+- group: docs
+  title: ASCE Hazard Loads API documentation (Swagger UI)
+  type: APIReference
+  url: https://api-hazard.asce.org/docs
+- group: start
+  title: About the ASCE Hazard Tool
+  type: GettingStarted
+  url: https://www.asce.org/publications-and-news/asce-hazard-tool/about
+- group: start
+  title: Interactive site for constructing and testing API calls
+  type: Console
+  url: https://api-hazard.asce.org/docs
+- group: operate
+  title: American Society of Civil Engineers Status (Atlassian Statuspage)
+  type: StatusPage
+  url: https://status.asce.org/
+- group: operate
+  title: Report a Hazard Tool data or bug issue
+  type: Support
+  url: https://www.asce.org/publications-and-news/asce-hazard-tool/report-an-issue
+- group: commercial
+  title: Request a quote / higher usage limit
+  type: Pricing
+  url: https://www.asce.org/publications-and-news/asce-hazard-tool/request-a-quote
+- group: commercial
+  title: ASCE Hazard Tool terms
+  type: TermsOfService
+  url: https://www.asce.org/publications-and-news/asce-hazard-tool/terms
+- group: commercial
+  title: ASCE privacy policy
+  type: PrivacyPolicy
+  url: https://www.asce.org/privacy-policy
+- group: company
+  title: ''
+  type: Website
+  url: https://www.asce.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -79,49 +180,66 @@ integrations:
 - description: Hazard parameters from the API align with International Building Code requirements that reference ASCE 7 for environmental load design values.
   name: IBC Building Codes
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-07'
 name: ASCE Amplify
 nav: Providers
 network: true
-overview: 'ASCE Amplify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Civil Engineering, Hazard Data, Engineering Standards, and Infrastructure.
+overview: 'ASCE Amplify publishes 1 API on the [APIs.io](https://apis.io/) network: ASCE Hazard Tool API. Tagged areas include Civil Engineering, Hazard Data, Engineering Standards, Infrastructure, and Structural Engineering.
 
 
-  ASCE Amplify''s developer surface includes developer portal and 2 more developer resources.'
+  ASCE Amplify''s developer surface includes authentication, documentation, API reference, getting-started guide, developer console, support, pricing, and 20 more developer resources.'
 plans:
 - name: Asce Amplify Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: asce-amplify-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Asce Amplify Rate Limits
   slug: asce-amplify-rate-limits
 score:
-  band: emerging
-  composite: 14.2
+  band: developing
+  composite: 44.1
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 20
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 29.9
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 20.2
-    discoverability: 59.3
-    governance: 0.0
-    operational_transparency: 7.9
+    access_clarity: 39.5
+    commercial_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 42.2
+    developer_ergonomics: 63.7
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 36.8
   previous_composite: 14.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/asce-amplify/refs/heads/main/screenshots/asce-amplify-2026-06-20T172456.png
 security:
+- kind: authentication
+  name: Asce Amplify Authentication
+  slug: asce-amplify-authentication
+  summary_line: apiKey · 1 scheme
 - kind: domain-security
   name: Asce Amplify Domain Security
   slug: asce-amplify-domain-security
@@ -132,6 +250,11 @@ tags:
 - Hazard Data
 - Engineering Standards
 - Infrastructure
+- Structural Engineering
+- Geospatial
+- Seismic
+- Building Codes
+- Standards Body
 use_cases:
 - description: Structural engineers use the ASCE Hazard Tool API to obtain site-specific hazard parameters for building and infrastructure design in compliance with ASCE 7 and building codes.
   name: Structural Design
@@ -139,5 +262,5 @@ use_cases:
   name: Site Assessment
 - description: Structural engineering software vendors integrate the ASCE Hazard Tool API to automatically populate design parameters based on project location.
   name: Software Integration
-website: https://amplify.asce.org/
+website: https://www.asce.org/
 ---

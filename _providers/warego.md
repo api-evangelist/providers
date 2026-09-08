@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: WareGo agent-native content surface. A live, well-formed llms.txt provides a curated sitemap of product, feature, industry and guide pages for LLM discovery, and is currently the only machine-readable
@@ -31,6 +31,10 @@ apis:
   slug: warego
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.warego.co/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -108,7 +112,7 @@ network: true
 overview: 'WareGo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Warehouse Management, WMS, Inventory Management, Order Management, and Fulfillment.
 
 
-  WareGo''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
+  WareGo''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
 plans:
 - name: Warego Plans Pricing
   plan_count: 0
@@ -141,9 +145,13 @@ score:
   previous_composite: 23.6
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Warego Domain Security
@@ -164,4 +172,5 @@ tags:
 - Wholesale Distribution
 - Manufacturing
 - EDI
+website: https://www.warego.co/
 ---

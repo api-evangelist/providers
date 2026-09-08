@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,6 +76,10 @@ collections:
   name: Google News RSS API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -147,7 +151,7 @@ overview: 'Google News RSS publishes 3 APIs on the [APIs.io](https://apis.io/) n
   The Google News RSS catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Google News RSS''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 7 more developer resources.'
+  Google News RSS''s developer surface includes developer portal, getting-started guide, support, engineering blog, and 8 more developer resources.'
 plans:
 - name: Google News Plans Pricing
   plan_count: 3
@@ -207,9 +211,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/screenshots/google-news-2026-06-20T182219.png
 security:
 - kind: domain-security
@@ -228,5 +236,5 @@ tags:
 - Media
 - News
 - RSS
-website: https://news.google.com
+website: https://www.google.com/
 ---

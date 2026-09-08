@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic send/receive/route over iMessage — 1:1 and group chats, attachments, rich links, tapbacks, typing indicators, location pins, webhook subscriptions and events.
@@ -47,6 +47,10 @@ asyncapis:
   name: Chert Webhooks
   slug: chert-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.trychert.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -145,7 +149,7 @@ overview: 'Chert publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Chert catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chert''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 14 more developer resources.'
+  Chert''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -170,9 +174,13 @@ score:
   previous_composite: 34.5
   provenance:
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/chert/refs/heads/main/screenshots/chert-2026-07-25T205203.png
 security:
 - kind: authentication
@@ -192,5 +200,5 @@ tags:
 - Conversational
 - Webhook
 - CRM Integration
-website: https://console.trychert.com
+website: https://www.trychert.com/
 ---

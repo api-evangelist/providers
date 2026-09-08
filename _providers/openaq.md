@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -253,6 +253,10 @@ collections:
   name: OpenAQ
   slug: open-openaq
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://openaq.org/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -296,7 +300,7 @@ network: true
 overview: 'OpenAQ publishes 23 APIs on the [APIs.io](https://apis.io/) network, including Averages API, Cities API, Countries API, and 20 more. Tagged areas include Data and Data Quality.
 
 
-  OpenAQ''s developer surface includes authentication, developer portal, and 5 more developer resources.'
+  OpenAQ''s developer surface includes authentication, developer portal, and 6 more developer resources.'
 plans:
 - name: Openaq Plans Pricing
   plan_count: 3
@@ -334,9 +338,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
 security:
 - kind: authentication
@@ -355,5 +363,5 @@ slug: openaq
 tags:
 - Data
 - Data Quality
-website: https://openaq.org/developers/platform-overview/
+website: https://openaq.org/
 ---

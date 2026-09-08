@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -310,7 +310,7 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 50.6
+  composite: 45.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 62.5
@@ -318,13 +318,13 @@ score:
     catalog_gap: 52.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 8.7
+  delta: -4.7
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
+    access_clarity: 40.8
+    commercial_clarity: 40.8
     contract_governance: 31.8
     contract_quality: 63.3
-    developer_ergonomics: 35.7
+    developer_ergonomics: 19.0
     discoverability: 81.5
     governance: 31.8
     operational_transparency: 10.5
@@ -333,9 +333,10 @@ score:
     note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
     regions:
     - north-america
-  previous_composite: 41.9
+  previous_composite: 50.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
@@ -347,9 +348,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: rising
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/screenshots/truist-financial-2026-06-20T195759.png
 security:
 - kind: authentication

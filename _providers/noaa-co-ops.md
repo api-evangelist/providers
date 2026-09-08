@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,6 +152,10 @@ collections:
   name: NOAA CO-OPS Data Retrieval Benchmarks Toptenwaterlevels API
   slug: open-noaa-co-ops-toptenwaterlevels-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.noaa.gov/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -273,7 +277,7 @@ overview: 'NOAA CO-OPS publishes 13 APIs on the [APIs.io](https://apis.io/) netw
   The NOAA CO-OPS catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 18 more developer resources.'
+  NOAA CO-OPS''s developer surface includes developer portal, documentation, code examples, and 19 more developer resources.'
 random_paper: 3
 rules:
 - effective_rule_count: 5
@@ -320,9 +324,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/noaa-co-ops/refs/heads/main/screenshots/noaa-co-ops-2026-06-20T190339.png
 security:
 - kind: domain-security
@@ -339,5 +347,5 @@ tags:
 - Weather
 - Predictions
 - Government
-website: https://tidesandcurrents.noaa.gov/
+website: https://www.noaa.gov/
 ---

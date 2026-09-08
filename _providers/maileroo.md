@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -70,6 +70,10 @@ collections:
   name: Maileroo Email Emails Scheduled API
   slug: open-maileroo-scheduled-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.maileroo.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -133,7 +137,7 @@ network: true
 overview: 'Maileroo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Emails API and Scheduled API. Tagged areas include Email, Email Delivery, Marketing Email, SMTP, and Transactional Email.
 
 
-  Maileroo''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, and 6 more developer resources.'
+  Maileroo''s developer surface includes authentication, developer portal, documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
 plans:
 - name: Maileroo Plans Pricing
   plan_count: 3
@@ -144,8 +148,8 @@ rate_limits:
   name: Maileroo Rate Limits
   slug: maileroo-rate-limits
 score:
-  band: developing
-  composite: 39.6
+  band: thin
+  composite: 38.9
   coverage:
     artifact_dirs: 11
     catalog_earned: 46.0
@@ -153,7 +157,7 @@ score:
     catalog_gap: 69.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
@@ -171,9 +175,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/screenshots/maileroo-2026-06-20T184856.png
 security:
 - kind: authentication
@@ -191,5 +198,5 @@ tags:
 - Marketing Email
 - SMTP
 - Transactional Email
-website: https://maileroo.com/email-for-developers
+website: https://www.maileroo.com/
 ---

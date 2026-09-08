@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: The university's own institutional repository of theses and research outputs, running DSpace 8 on www.ros.hw.ac.uk — a host under Heriot-Watt's registrable domain with a matching PTR record, an open.a
@@ -211,9 +211,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/heriot-watt/refs/heads/main/screenshots/heriot-watt-2026-06-20T182645.png
 security:
 - kind: domain-security

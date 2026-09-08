@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Aurora Connect (Buf) API for the SEC-registered securities-finance ATS — authentication, company/instrument reference, order management (OMS), venue order book, contract requests, contract lifecyc
@@ -46,6 +46,10 @@ asyncapis:
   name: Provable Events Webhooks
   slug: provable-events-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.provablemarkets.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -140,7 +144,7 @@ overview: 'Provable publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Provable catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Provable''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 14 more developer resources.'
+  Provable''s developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 15 more developer resources.'
 random_paper: 19
 score:
   band: thin
@@ -173,9 +177,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 63.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/provable/refs/heads/main/screenshots/provable-2026-08-17T081404.png
 security:
 - kind: authentication
@@ -197,5 +205,5 @@ tags:
 - Post-Trade
 - gRPC
 - FIX
-website: https://developer.provablemarkets.com
+website: https://www.provablemarkets.com/
 ---

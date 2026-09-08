@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for building and operating conversational voice AI agents — create and manage agents, place outbound calls, run CSV batch campaigns, wire inbound numbers and SIP trunks, purchase/search phone
@@ -47,6 +47,10 @@ asyncapis:
   name: Bolna Webhooks
   slug: bolna-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bolna.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -193,7 +197,7 @@ overview: 'Bolna publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Bolna catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bolna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
+  Bolna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
 random_paper: 20
 rate_limits:
 - limit_count: 4
@@ -224,9 +228,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/screenshots/bolna-2026-07-25T203540.png
 security:
 - kind: authentication
@@ -249,5 +257,5 @@ tags:
 - Call Automation
 - Contact Center
 - MCP
-website: https://platform.bolna.ai/
+website: https://www.bolna.ai/
 ---

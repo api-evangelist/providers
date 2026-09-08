@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'REST API for Perk travel, expense, invoice, trip, cost-center, event, and card data. Authenticate with an account API key (customers) or OAuth 2.0 (partners); send Api-Version: 1.'
@@ -48,6 +48,10 @@ asyncapis:
   name: Perk Webhooks
   slug: perk-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.perk.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -182,7 +186,7 @@ overview: 'Perk publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
   The Perk catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Perk''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 22 more developer resources.'
+  Perk''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
 random_paper: 14
 scopes:
 - name: Perk Scopes
@@ -214,9 +218,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/perk/refs/heads/main/screenshots/perk-2026-08-17T081158.png
 security:
 - kind: authentication
@@ -241,5 +249,5 @@ tags:
 - Invoices
 - Fintech
 - Software-as-a-Service
-website: https://developers.perk.com
+website: https://www.perk.com/
 ---

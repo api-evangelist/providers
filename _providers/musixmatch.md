@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,6 +99,10 @@ collections:
   name: Musixmatch Album Track API
   slug: open-musixmatch-track-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.musixmatch.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -154,7 +158,7 @@ network: true
 overview: 'Musixmatch publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Album API, Artist API, Lyrics API, and 3 more. Tagged areas include Lyrics, Music, and Translations.
 
 
-  Musixmatch''s developer surface includes authentication, developer portal, engineering blog, and 6 more developer resources.'
+  Musixmatch''s developer surface includes authentication, developer portal, engineering blog, and 7 more developer resources.'
 plans:
 - name: Musixmatch Plans Pricing
   plan_count: 3
@@ -192,9 +196,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/musixmatch/refs/heads/main/screenshots/musixmatch-2026-06-20T185906.png
 security:
 - kind: authentication
@@ -210,5 +218,5 @@ tags:
 - Lyrics
 - Music
 - Translations
-website: https://developer.musixmatch.com/
+website: https://www.musixmatch.com/
 ---

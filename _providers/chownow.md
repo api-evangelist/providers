@@ -33,10 +33,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 25
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.chownow.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -159,7 +163,7 @@ network: true
 overview: 'ChowNow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Restaurant, Online Ordering, Food and Beverage, Restaurant Technology, and Point-of-Sale.
 
 
-  ChowNow''s developer surface includes developer portal, pricing, engineering blog, support, and 14 more developer resources.'
+  ChowNow''s developer surface includes developer portal, pricing, engineering blog, support, and 15 more developer resources.'
 plans:
 - name: Chownow Plans Pricing
   plan_count: 4
@@ -191,9 +195,13 @@ score:
     regions:
     - north-america
   previous_composite: 16.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/chownow/refs/heads/main/screenshots/chownow-2026-06-20T174325.png
 security:
 - kind: domain-security
@@ -224,5 +232,5 @@ use_cases:
   name: Expanding Discovery Reach
 - description: Using Flex Delivery to offer last-mile fulfillment on a per-order fee basis instead of marketplace commission tiers.
   name: Adding Delivery Without Commission Lock-In
-website: https://get.chownow.com
+website: https://www.chownow.com/
 ---

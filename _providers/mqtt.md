@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: OASIS Standard publish/subscribe messaging protocol for IoT and M2M communication. MQTT v5.0 defines the wire format and behavior of CONNECT, PUBLISH, SUBSCRIBE, UNSUBSCRIBE, PINGREQ, DISCONNECT and o
@@ -105,9 +105,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 18.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mqtt/refs/heads/main/screenshots/mqtt-2026-06-20T185839.png
 security:
 - kind: domain-security

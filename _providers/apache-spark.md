@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -80,6 +80,10 @@ collections:
   name: Apache Spark Monitoring REST API
   slug: open-apache-spark
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -201,7 +205,7 @@ network: true
 overview: 'Apache Spark publishes 2 APIs on the [APIs.io](https://apis.io/) network: Applications API and Version API. Tagged areas include Analytics, Big Data, Distributed Computing, Machine-Learning, and Open-Source.
 
 
-  Apache Spark''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, and 13 more developer resources.'
+  Apache Spark''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, Stack Overflow tag, and 14 more developer resources.'
 plans:
 - name: Apache Spark Plans Pricing
   plan_count: 3
@@ -242,9 +246,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/screenshots/apache-spark-2026-06-20T172146.png
 security:
 - kind: domain-security
@@ -274,5 +282,5 @@ use_cases:
   name: Data Lake Processing
 - description: Interactive SQL queries on structured and semi-structured data at scale.
   name: Interactive SQL Analytics
-website: https://spark.apache.org/
+website: https://www.apache.org/
 ---

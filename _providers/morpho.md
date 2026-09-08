@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: GraphQL queries for Morpho Blue lending markets — retrieve market parameters (loan asset, collateral asset, LLTV, oracle, IRM), real-time state metrics (supply, borrow, collateral assets and USD value
@@ -59,6 +59,10 @@ apis:
   slug: historical-api
 artifact_total: 12
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.morpho.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -126,7 +130,7 @@ network: true
 overview: 'Morpho publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Collateral, and Liquidations.
 
 
-  Morpho''s developer surface includes documentation, GitHub presence, engineering blog, status page, support, and 7 more developer resources.'
+  Morpho''s developer surface includes documentation, GitHub presence, engineering blog, status page, support, and 8 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -157,9 +161,13 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/morpho/refs/heads/main/screenshots/morpho-2026-06-20T185812.png
 security:
 - kind: domain-security
@@ -177,5 +185,5 @@ tags:
 - Markets
 - Vault
 - Web3
-website: https://developers.morpho.org/
+website: https://www.morpho.org/
 ---

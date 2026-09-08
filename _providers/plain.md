@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Plain's Core GraphQL API — the same API the Plain product is built on. Manage customers, companies, tenants, threads, messaging, help center, labels, tiers/SLAs, snippets, tasks, events, and webhook t
@@ -45,6 +45,10 @@ asyncapis:
   name: Plain Webhooks
   slug: plain-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.plain.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -187,7 +191,7 @@ overview: 'Plain publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
   The Plain catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Plain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 24 more developer resources.'
+  Plain''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 25 more developer resources.'
 random_paper: 7
 score:
   band: developing
@@ -214,9 +218,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/plain/refs/heads/main/screenshots/plain-2026-08-17T081255.png
 security:
 - kind: authentication
@@ -243,5 +251,5 @@ tags:
 - Webhook
 - MCP
 - Developer Tools
-website: https://www.plain.com/docs
+website: https://www.plain.com/
 ---

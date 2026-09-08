@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: SightCall's REST API is used by application back ends to request session tokens, manage users and sessions, provision providers and pull reporting. Authentication is by API key in the Authorization he
@@ -187,9 +187,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 45.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sightcall/refs/heads/main/screenshots/sightcall-2026-09-02T155421.png
 security:
 - kind: authentication

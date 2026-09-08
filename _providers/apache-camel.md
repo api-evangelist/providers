@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: The Apache Camel Java DSL provides a fluent API for defining integration routes using Enterprise Integration Patterns. Developers define RouteBuilder subclasses to connect Camel components via endpoin
@@ -50,6 +50,10 @@ apis:
   slug: apache-camel-quarkus-api
 artifact_total: 32
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -173,7 +177,7 @@ network: true
 overview: 'Apache Camel publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Enterprise Integration, Integration, Messaging, and Open-Source.
 
 
-  Apache Camel''s developer surface includes documentation, getting-started guide, support, changelog, FAQ, engineering blog, and 12 more developer resources.'
+  Apache Camel''s developer surface includes documentation, getting-started guide, support, changelog, FAQ, engineering blog, and 13 more developer resources.'
 plans:
 - name: Apache Camel Plans Pricing
   plan_count: 3
@@ -207,9 +211,13 @@ score:
     applies: true
     score: 75.0
   previous_composite: 31.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-camel/refs/heads/main/screenshots/apache-camel-2026-06-20T172046.png
 security:
 - kind: domain-security
@@ -241,4 +249,5 @@ use_cases:
   name: Microservice Integration
 - description: Bridge legacy SOAP, FTP, and EDI systems with modern REST and cloud-native services.
   name: Legacy Modernization
+website: https://www.apache.org/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: AI application firewall classify API. A Firewall client sends each sanitized classification input (user input, tool response, model output, or system prompt) with a hook label and optional tool name t
@@ -41,6 +41,10 @@ apis:
   slug: silmaril-firewall-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.silmaril.dev/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -148,7 +152,7 @@ network: true
 overview: 'Silmaril publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, AI Firewall, Prompt Injection, and Agent Security.
 
 
-  Silmaril''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 17 more developer resources.'
+  Silmaril''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 18 more developer resources.'
 random_paper: 0
 score:
   band: thin
@@ -174,9 +178,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/silmaril/refs/heads/main/screenshots/silmaril-2026-09-02T155504.png
 security:
 - kind: authentication
@@ -203,5 +211,5 @@ tags:
 - MCP
 - LLM Security
 - Developer Tools
-website: https://silmaril.dev/docs
+website: https://www.silmaril.dev/
 ---

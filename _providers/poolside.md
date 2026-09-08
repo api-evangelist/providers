@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API for poolside's Laguna agentic-coding models. Send chat-completion and model-listing requests from your own tools, scripts, and applications using the OpenAI SDK by swit
@@ -42,6 +42,10 @@ apis:
   slug: poolside-api
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.poolside.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -169,7 +173,7 @@ network: true
 overview: 'poolside publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Artificial Intelligence, Machine-Learning, and Foundation Models.
 
 
-  poolside''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 22 more developer resources.'
+  poolside''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, support, engineering blog, and 23 more developer resources.'
 random_paper: 2
 score:
   band: thin
@@ -195,9 +199,13 @@ score:
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/poolside/refs/heads/main/screenshots/poolside-2026-09-02T151727.png
 security:
 - kind: authentication
@@ -230,5 +238,5 @@ tags:
 - Code Generation
 - Inference
 - OpenAI-Compatible
-website: https://platform.poolside.ai
+website: https://www.poolside.ai/
 ---

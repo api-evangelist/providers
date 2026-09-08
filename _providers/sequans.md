@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 11.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: A Model Context Protocol server exposed by the WordPress MCP Adapter running on the sequans.com corporate site. Two MCP endpoints are registered and enumerable anonymously through the WordPress REST r
@@ -169,9 +169,13 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 52.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sequans/refs/heads/main/screenshots/sequans-2026-09-02T154933.png
 security:
 - kind: domain-security

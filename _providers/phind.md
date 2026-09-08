@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Conceptual (modeled) surface for Phind's AI answer engine - the developer-focused conversational search that powered phind.com and the VS Code extension. Phind never published an official public or pa
@@ -99,9 +99,13 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 14.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 slug: phind
 tags:
 - AI Coding Assistant

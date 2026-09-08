@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: GraphQL API backing the Glife food-tech commerce and supply-chain platform. Exposes 535 queries, 870 mutations, and 139 subscriptions across ecommerce (customers, products, categories, orders, article
@@ -142,9 +142,13 @@ score:
   previous_composite: 23.3
   provenance:
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/glife/refs/heads/main/screenshots/glife-2026-07-25T215902.png
 security:
 - kind: authentication

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://www.farmdash.one/api
@@ -97,6 +97,10 @@ apis:
   slug: farmdash-swap-api
 artifact_total: 16
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.farmdash.one/
 - group: other
   title: ''
   type: APIsJSON
@@ -212,7 +216,7 @@ network: true
 overview: 'FarmDash Agent Hub publishes 11 APIs on the [APIs.io](https://apis.io/) network, including Account API, Autopilot API, Delegation API, and 8 more. Tagged areas include DeFi, DeFAI, AI Agents, MCP, and OpenAPI.
 
 
-  FarmDash Agent Hub''s developer surface includes documentation, API reference, getting-started guide, pricing, support, changelog, sandbox, and 18 more developer resources.'
+  FarmDash Agent Hub''s developer surface includes documentation, API reference, getting-started guide, pricing, support, changelog, sandbox, and 19 more developer resources.'
 plans:
 - name: Farmdash Plans Pricing
   plan_count: 3
@@ -224,7 +228,7 @@ rate_limits:
   slug: farmdash-rate-limits
 score:
   band: developing
-  composite: 54.2
+  composite: 53.5
   coverage:
     artifact_dirs: 20
     catalog_earned: 61.0
@@ -232,7 +236,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 63.2
     commercial_clarity: 63.2
@@ -258,9 +262,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/screenshots/farmdash-2026-09-02T145504.png
 security:
 - kind: authentication
@@ -288,5 +295,5 @@ tags:
 - Hyperliquid
 - Wallet Intelligence
 - zero custody
-website: https://www.farmdash.one/agents
+website: https://www.farmdash.one/
 ---

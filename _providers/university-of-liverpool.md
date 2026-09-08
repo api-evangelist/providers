@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 14
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the University of Liverpool Repository, an EPrints 3.4.5 open-access archive of research outputs (journal articles, conference papers, theses, reports and
@@ -264,9 +264,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 79.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-liverpool/refs/heads/main/screenshots/university-of-liverpool-2026-06-20T200201.png
 security:
 - kind: authentication

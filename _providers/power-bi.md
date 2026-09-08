@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -171,6 +171,10 @@ collections:
   name: Power BI REST API
   slug: open-power-bi-rest-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1054,7 +1058,7 @@ overview: 'Power BI publishes 6 APIs on the [APIs.io](https://apis.io/) network,
   The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 56 more developer resources.'
+  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 57 more developer resources.'
 plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
@@ -1092,8 +1096,8 @@ scopes:
   slug: power-bi-scopes
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
-  band: exemplar
-  composite: 66.8
+  band: strong
+  composite: 66.1
   coverage:
     artifact_dirs: 33
     catalog_earned: 58.5
@@ -1101,7 +1105,7 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 61.8
     commercial_clarity: 61.8
@@ -1121,9 +1125,12 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:
 - kind: authentication
@@ -1163,5 +1170,5 @@ use_cases:
   name: IoT Monitoring
 - description: Analyze workforce metrics, retention rates, and employee engagement across the organization.
   name: HR Analytics
-website: https://powerbi.microsoft.com/en-us/developers/
+website: https://www.microsoft.com/
 ---

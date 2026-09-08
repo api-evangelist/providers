@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'Third-party hosted access to Genmo''s Mochi 1 via Replicate''s predictions API (model identifier genmoai/mochi-1). Runs on Nvidia H100 hardware, ~$0.42 per run, typically completing within 5 minutes at '
@@ -113,9 +113,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/genmo-ai/refs/heads/main/screenshots/genmo-ai-2026-07-25T215625.png
 slug: genmo-ai
 tags:

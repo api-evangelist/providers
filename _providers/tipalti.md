@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'Modern RESTful API for payee onboarding, payment processing, invoice management, and procurement workflows. Uses JSON encoding, OAuth 2.0 authentication, and supports operations across 200+ countries '
@@ -175,9 +175,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tipalti/refs/heads/main/screenshots/tipalti-2026-06-20T195413.png
 security:
 - kind: domain-security

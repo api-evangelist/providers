@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.standard.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -87,7 +91,7 @@ overview: 'StanCorp Financial Group is profiled on the [APIs.io](https://apis.io
   The StanCorp Financial Group catalog on APIs.io includes 1 JSON-LD context.
 
 
-  StanCorp Financial Group''s developer surface includes developer portal, engineering blog, documentation, and 5 more developer resources.'
+  StanCorp Financial Group''s developer surface includes developer portal, engineering blog, documentation, and 6 more developer resources.'
 press:
 - date: '2026-05-25'
   title: The Standard Names Porter Orr Second Vice President ...
@@ -137,9 +141,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 16.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Stancorp Financial Group Domain Security

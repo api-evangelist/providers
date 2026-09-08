@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Auto-generated GraphQL API served at /api/graphql that provides full CRUD operations for every list in the schema. Includes single-item queries, list queries with filtering and pagination, count queri
@@ -131,9 +131,13 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 29.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/keystonejs/refs/heads/main/screenshots/keystonejs-2026-06-20T184013.png
 security:
 - kind: domain-security

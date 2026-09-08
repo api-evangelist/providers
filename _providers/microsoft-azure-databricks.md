@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 3
@@ -247,6 +247,10 @@ collections:
   name: Azure Databricks REST Clusters Workspace API
   slug: open-microsoft-azure-databricks-workspace-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -884,7 +888,7 @@ overview: 'Azure Databricks publishes 3 APIs on the [APIs.io](https://apis.io/) 
   The Azure Databricks catalog on APIs.io includes 1 JSON-LD context and 3 Spectral governance rulesets.
 
 
-  Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 48 more developer resources.'
+  Azure Databricks'' developer surface includes authentication, getting-started guide, pricing, CLI, API reference, release notes, changelog, and 49 more developer resources.'
 plans:
 - name: Azure Databricks Plans Pricing
   plan_count: 4
@@ -943,7 +947,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.3
+  composite: 62.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 75.0
@@ -951,7 +955,7 @@ score:
     catalog_gap: 40.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
@@ -972,9 +976,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-databricks/refs/heads/main/screenshots/microsoft-azure-databricks-2026-06-20T185410.png
 security:
 - kind: authentication
@@ -1005,4 +1012,5 @@ use_cases:
 - Building retrieval-augmented generation (RAG) applications
 - Data governance and compliance with Unity Catalog
 - Collaborative data science with shared notebooks
+website: https://www.microsoft.com/
 ---

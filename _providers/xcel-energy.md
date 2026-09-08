@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -282,6 +282,10 @@ collections:
   name: Xcel Energy Green Button Connect My Data ApplicationInformation UsagePoint API
   slug: open-xcel-energy-usagepoint-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.xcelenergy.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -396,7 +400,7 @@ network: true
 overview: 'Xcel Energy publishes 29 APIs on the [APIs.io](https://apis.io/) network, including ApplicationInformation API, Authorization API, Batch API, and 26 more. Tagged areas include Electric Utility, Energy, Energy Data, Green Button, and Natural Gas.
 
 
-  Xcel Energy''s developer surface includes authentication, developer portal, signup flow, support, YouTube channel, and 11 more developer resources.'
+  Xcel Energy''s developer surface includes authentication, developer portal, signup flow, support, YouTube channel, and 12 more developer resources.'
 plans:
 - name: Xcel Energy Plans Pricing
   plan_count: 1
@@ -429,7 +433,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: emerging
-  composite: 18.9
+  composite: 18.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 47.0
@@ -437,7 +441,7 @@ score:
     catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -466,9 +470,12 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 39.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/xcel-energy/refs/heads/main/screenshots/xcel-energy-2026-06-20T201656.png
 security:
 - kind: authentication
@@ -520,5 +527,5 @@ use_cases:
   name: Electric Vehicle Charging Optimization
 - description: Academic and policy research on energy consumption patterns and decarbonization.
   name: Research and Policy Analysis
-website: https://developer-apim.aws.xcelenergy.com/
+website: https://www.xcelenergy.com/
 ---

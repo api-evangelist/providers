@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -119,6 +119,10 @@ collections:
   name: USPS Tracking API
   slug: open-united-states-postal-service-tracking
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.usps.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -405,7 +409,7 @@ overview: 'United States Postal Service publishes 4 APIs on the [APIs.io](https:
   The United States Postal Service catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  United States Postal Service''s developer surface includes authentication, developer portal, getting-started guide, documentation, FAQ, support, and 8 more developer resources.'
+  United States Postal Service''s developer surface includes authentication, developer portal, getting-started guide, documentation, FAQ, support, and 9 more developer resources.'
 plans:
 - name: United States Postal Service Plans Pricing
   plan_count: 2
@@ -439,7 +443,7 @@ rules:
   slug: united-states-postal-service-spectral-rules
 score:
   band: thin
-  composite: 36.4
+  composite: 35.7
   coverage:
     artifact_dirs: 15
     catalog_earned: 77.5
@@ -447,7 +451,7 @@ score:
     catalog_gap: 37.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -471,9 +475,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-postal-service/refs/heads/main/screenshots/united-states-postal-service-2026-06-20T200056.png
 security:
 - kind: authentication
@@ -509,5 +516,5 @@ use_cases:
   name: Post Office Finder
 - description: Enhance customer engagement by adding digital content to mail pieces viewed through Informed Delivery.
   name: Informed Delivery Campaigns
-website: https://developers.usps.com/
+website: https://www.usps.com/
 ---

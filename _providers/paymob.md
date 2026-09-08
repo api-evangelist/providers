@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -215,6 +215,10 @@ collections:
   name: Paymob Accept Legacy (v2) Accounts Void API
   slug: open-paymob-void-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.paymob.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -500,7 +504,7 @@ overview: 'Paymob publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
   The Paymob catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Paymob''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 38 more developer resources.'
+  Paymob''s developer surface includes authentication, developer portal, documentation, getting-started guide, API reference, developer console, signup flow, and 39 more developer resources.'
 plans:
 - name: Paymob Plans Pricing
   plan_count: 3
@@ -534,7 +538,7 @@ rules:
   slug: paymob-rules
 score:
   band: strong
-  composite: 61.2
+  composite: 60.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 78.5
@@ -542,7 +546,7 @@ score:
     catalog_gap: 36.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 84.2
     commercial_clarity: 84.2
@@ -575,9 +579,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/paymob/refs/heads/main/screenshots/paymob-2026-06-20T191508.png
 security:
 - kind: authentication
@@ -633,5 +640,5 @@ use_cases:
   name: Omnichannel retail
 - description: Single contractual surface with regional acquiring across Egypt, KSA, UAE, Oman, Pakistan.
   name: Cross-border MENAP expansion
-website: https://developers.paymob.com
+website: https://www.paymob.com/
 ---

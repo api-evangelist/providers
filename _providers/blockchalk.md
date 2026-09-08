@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: http://blockchalk.com/api
@@ -50,6 +50,10 @@ collections:
   name: BlockChalk API (historical) chalks API
   slug: open-blockchalk-chalks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.archive.org/
 - group: other
   title: ''
   type: Overlay
@@ -90,7 +94,7 @@ network: true
 overview: 'BlockChalk publishes 1 API on the [APIs.io](https://apis.io/) network: chalks API. Tagged areas include Company, Location, Geolocation, Social, and Messaging.
 
 
-  BlockChalk''s developer surface includes documentation, API reference, and 5 more developer resources.'
+  BlockChalk''s developer surface includes documentation, API reference, and 6 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -120,9 +124,13 @@ score:
       derived: 1
       marker_coverage: 100.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockchalk/refs/heads/main/screenshots/blockchalk-2026-07-25T203346.png
 security:
 - kind: authentication
@@ -144,4 +152,5 @@ tags:
 - Neighborhood
 - Mobile
 - Retired
+website: https://www.archive.org/
 ---

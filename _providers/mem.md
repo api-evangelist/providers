@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -74,6 +74,10 @@ collections:
   name: Mem Public Client CoreApi__service-info external-v2 API
   slug: open-mem-external-v2-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mem.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -217,7 +221,7 @@ network: true
 overview: 'Mem publishes 2 APIs on the [APIs.io](https://apis.io/) network: CoreApi__service-info API and external API. Tagged areas include Company, Notes, Knowledge-Management, Productivity, and Artificial Intelligence.
 
 
-  Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
+  Mem''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 26 more developer resources.'
 random_paper: 4
 rate_limits:
 - limit_count: 4
@@ -230,7 +234,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 40.2
+  composite: 41.7
   coverage:
     artifact_dirs: 20
     catalog_earned: 49.0
@@ -238,7 +242,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 7.9
     commercial_clarity: 7.9
@@ -259,9 +263,12 @@ score:
       total: 2
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/mem/refs/heads/main/screenshots/mem-2026-08-07T172453.png
 security:
 - kind: authentication
@@ -284,5 +291,5 @@ tags:
 - MCP
 - Agents
 - Meetings
-website: https://docs.mem.ai
+website: https://www.mem.ai/
 ---

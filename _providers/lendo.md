@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Production API host backing the Lendo web and mobile applications. Discovered by probe at https://api.lendo.sa - it is live and returns a structured bilingual (Arabic/English) JSON envelope, but every
@@ -156,9 +156,13 @@ score:
   previous_composite: 27.1
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/lendo/refs/heads/main/screenshots/lendo-2026-07-25T224908.png
 security:
 - kind: domain-security

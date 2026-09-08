@@ -23,7 +23,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: documented
-    event_surface_described: false
+    event_surface_described: derived
     idempotency: false
     mcp_server: false
     openapi_examples: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 23.6
-  scored_at: '2026-09-06'
+  score: 24.6
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -69,7 +69,11 @@ apis:
   description: '<span style="background-color: #ff9500; color: white; padding: 2px 6px; border-radius: 3px; font-size: 10px; font-weight: bold; text-transform: uppercase; margin-right: 8px;">BETA</span>User managemen'
   name: Adaptive Security Users API
   slug: adaptive-security-users-api
-artifact_total: 16
+artifact_total: 18
+asyncapis:
+- description: ''
+  name: Adaptive Security Webhooks
+  slug: adaptive-security-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -90,6 +94,22 @@ collections:
   name: Adaptive Audit Logs Users API
   slug: open-adaptive-security-users-api
 common:
+- group: start
+  title: ''
+  type: Login
+  url: https://admin.adaptivesecurity.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.adaptivesecurity.com/resources/product-updates
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/adaptive-security-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/adaptive-security-webhooks.yml
 - group: company
   title: ''
   type: Website
@@ -221,32 +241,39 @@ network: true
 overview: 'Adaptive Security publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Audit Logs API, Groups API, Phishing API, and 2 more. Tagged areas include Company, Security, Cybersecurity, Security Awareness Training, and Phishing Simulation.
 
 
-  Adaptive Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
+  The Adaptive Security catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Adaptive Security''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 27 more developer resources.'
+plans:
+- name: Adaptive Security Plans Pricing
+  plan_count: 0
+  slug: adaptive-security-plans-pricing
 random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Adaptive Security Rate Limits
   slug: adaptive-security-rate-limits
 score:
-  band: thin
-  composite: 31.5
+  band: developing
+  composite: 39.5
   coverage:
-    artifact_dirs: 18
+    artifact_dirs: 20
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.0
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
+    access_clarity: 53.9
+    commercial_clarity: 53.9
     contract_governance: 4.5
-    contract_quality: 33.3
+    contract_quality: 48.1
     developer_ergonomics: 20.8
     discoverability: 75.9
     governance: 4.5
-    operational_transparency: 10.5
+    operational_transparency: 34.2
   previous_composite: 31.5
   provenance:
     agentic_access: derived
@@ -258,9 +285,13 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
 security:
 - kind: authentication

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Enterprise REST API for the Storyclash influencer marketing platform. Three documented endpoints under https://app.storyclash.com/external-api/: GET /campaigns lists the authenticated customer''s campa'
@@ -47,6 +47,10 @@ asyncapis:
   name: Storyclash Webhooks
   slug: storyclash-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.storyclash.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -166,7 +170,7 @@ overview: 'Storyclash publishes 1 API on the [APIs.io](https://apis.io/) network
   The Storyclash catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, API reference, signup flow, and 19 more developer resources.'
+  Storyclash''s developer surface includes documentation, pricing, engineering blog, support, authentication, API reference, signup flow, and 20 more developer resources.'
 plans:
 - name: Storyclash Plans Pricing
   plan_count: 3
@@ -206,9 +210,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/storyclash/refs/heads/main/screenshots/storyclash-2026-08-17T082126.png
 security:
 - kind: authentication
@@ -230,5 +238,5 @@ tags:
 - Business Intelligence
 - REST API
 - Webhook
-website: https://www.storyclash.com/integrations/api-integration
+website: https://www.storyclash.com/
 ---

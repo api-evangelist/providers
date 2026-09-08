@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'TradeBB exposes a single publicly consumable machine-readable interface: an llms.txt file designed for LLM consumption. There is no public REST/GraphQL API, MCP server, or agent skills.'
@@ -41,6 +41,10 @@ apis:
   slug: tradebb
 artifact_total: 2
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tradebb.ai/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -116,7 +120,7 @@ network: true
 overview: 'TradeBB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include trading-journal, Trade Analytics, Fintech, trading-tools, and Stocks.
 
 
-  TradeBB''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 6 more developer resources.'
+  TradeBB''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 7 more developer resources.'
 random_paper: 10
 score:
   band: emerging
@@ -141,9 +145,13 @@ score:
   previous_composite: 24.4
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tradebb/refs/heads/main/screenshots/tradebb-2026-09-02T164042.png
 security:
 - kind: domain-security
@@ -164,4 +172,5 @@ tags:
 - CFD
 - AI Assistant
 - llms-txt
+website: https://www.tradebb.ai/
 ---

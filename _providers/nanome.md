@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: REST API to create workspaces, load molecular structures, create and rename scenes, and add visualization components. Bearer-token auth. Powers the MARA workspace builder, the official Nanome MCP serv
@@ -185,9 +185,13 @@ score:
     regime: Health
     regime_id: health
     score: 31.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanome/refs/heads/main/screenshots/nanome-2026-08-07T184617.png
 security:
 - kind: authentication

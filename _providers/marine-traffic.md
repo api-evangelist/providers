@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -188,6 +188,10 @@ collections:
   name: MarineTraffic AIS Data API
   slug: open-marine-traffic
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.marinetraffic.com/
 - group: auth
   title: ''
   type: Authentication
@@ -397,7 +401,7 @@ overview: 'MarineTraffic publishes 14 APIs on the [APIs.io](https://apis.io/) ne
   The MarineTraffic catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  MarineTraffic''s developer surface includes authentication, developer portal, documentation, API reference, support, sandbox, tooling, and 20 more developer resources.'
+  MarineTraffic''s developer surface includes authentication, developer portal, documentation, API reference, support, sandbox, tooling, and 21 more developer resources.'
 plans:
 - name: Marine Traffic Plans Pricing
   plan_count: 2
@@ -431,7 +435,7 @@ rules:
   slug: marine-traffic-rules
 score:
   band: developing
-  composite: 45.5
+  composite: 44.8
   coverage:
     artifact_dirs: 14
     catalog_earned: 70.5
@@ -439,7 +443,7 @@ score:
     catalog_gap: 44.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 4.5
+  delta: -0.7
   facets:
     access_clarity: 39.5
     commercial_clarity: 39.5
@@ -449,7 +453,7 @@ score:
     discoverability: 64.8
     governance: 28.8
     operational_transparency: 5.3
-  previous_composite: 41.0
+  previous_composite: 45.5
   provenance:
     agentic_access: derived
     contracts:
@@ -457,9 +461,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 14
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png
 security:
 - kind: authentication

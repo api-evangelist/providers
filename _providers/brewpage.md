@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -153,6 +153,10 @@ collections:
   name: BrewPage API
   slug: open-brewpage
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.brewpage.app/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -323,7 +327,7 @@ overview: 'BrewPage publishes 13 APIs on the [APIs.io](https://apis.io/) network
   The BrewPage catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  BrewPage''s developer surface includes documentation, API reference, developer portal, getting-started guide, authentication, and 10 more developer resources.'
+  BrewPage''s developer surface includes documentation, API reference, developer portal, getting-started guide, authentication, and 11 more developer resources.'
 plans:
 - name: Brewpage Plans Pricing
   plan_count: 1
@@ -357,7 +361,7 @@ rules:
   slug: brewpage-rules
 score:
   band: developing
-  composite: 48.4
+  composite: 49.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 87.5
@@ -365,7 +369,7 @@ score:
     catalog_gap: 27.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 28.9
     commercial_clarity: 28.9
@@ -383,9 +387,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 13
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/screenshots/brewpage-2026-06-20T173653.png
 security:
 - kind: domain-security
@@ -424,5 +431,5 @@ use_cases:
   name: Public Knowledge Drop
 - description: Apply X-Password to a hosted page or file for lightweight access control without user accounts.
   name: Password-Gated Share
-website: https://brewpage.app/
+website: https://www.brewpage.app/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,6 +77,10 @@ collections:
   name: Google Flutter Pub.dev Documentation Packages API
   slug: open-google-flutter-packages-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.flutter.dev/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -172,7 +176,7 @@ overview: 'Google Flutter publishes 2 APIs on the [APIs.io](https://apis.io/) ne
   The Google Flutter catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 11 more developer resources.'
+  Google Flutter''s developer surface includes developer portal, getting-started guide, documentation, authentication, support, engineering blog, and 12 more developer resources.'
 plans:
 - name: Google Flutter Plans Pricing
   plan_count: 3
@@ -221,9 +225,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-flutter/refs/heads/main/screenshots/google-flutter-2026-06-20T182202.png
 security:
 - kind: domain-security
@@ -242,5 +250,5 @@ tags:
 - Mobile Development
 - Open-Source
 - UI Framework
-website: https://flutter.dev
+website: https://www.flutter.dev/
 ---

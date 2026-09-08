@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -66,6 +66,10 @@ collections:
   name: Phonely Agents API
   slug: open-phonely-agents-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.phonely.ai/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -215,7 +219,7 @@ overview: 'Phonely publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
   The Phonely catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Phonely''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 12 more developer resources.'
+  Phonely''s developer surface includes authentication, developer portal, documentation, getting-started guide, changelog, engineering blog, signup flow, and 13 more developer resources.'
 plans:
 - name: Phonely Plans Pricing
   plan_count: 4
@@ -260,7 +264,7 @@ rules:
   slug: phonely-rules
 score:
   band: developing
-  composite: 49.1
+  composite: 48.4
   coverage:
     artifact_dirs: 16
     catalog_earned: 74.5
@@ -268,7 +272,7 @@ score:
     catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 52.6
     commercial_clarity: 52.6
@@ -292,9 +296,12 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 23.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/screenshots/phonely-2026-06-20T191652.png
 security:
 - kind: authentication
@@ -331,5 +338,5 @@ use_cases:
 - Outbound sales outreach and lead qualification campaigns
 - After-hours phone answering and ticketing
 - Multilingual customer support across 100+ languages
-website: https://www.phonely.ai
+website: https://www.phonely.ai/
 ---

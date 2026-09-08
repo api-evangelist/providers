@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,6 +166,10 @@ collections:
   name: Datavant Healthjump EHR Integration Allergies Vitals API
   slug: open-roivant-sciences-vitals-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.roivant.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -281,7 +285,7 @@ overview: 'Roivant Sciences publishes 13 APIs on the [APIs.io](https://apis.io/)
   The Roivant Sciences catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Roivant Sciences'' developer surface includes authentication, developer portal, documentation, engineering blog, and 13 more developer resources.'
+  Roivant Sciences'' developer surface includes authentication, developer portal, documentation, engineering blog, and 14 more developer resources.'
 plans:
 - name: Roivant Sciences Plans Pricing
   plan_count: 3
@@ -352,9 +356,13 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/roivant-sciences/refs/heads/main/screenshots/roivant-sciences-2026-06-20T193202.png
 security:
 - kind: authentication
@@ -377,5 +385,5 @@ tags:
 - Real-World Evidence
 - Holding Company
 - Healthcare
-website: https://roivant.com
+website: https://www.roivant.com/
 ---

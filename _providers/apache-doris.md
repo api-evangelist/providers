@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Apache Doris provides a MySQL-compatible protocol for SQL queries, a REST API for cluster management and monitoring, Stream Load HTTP API for real-time bulk data ingestion, Routine Load for continuous
@@ -41,6 +41,10 @@ apis:
   slug: apache-doris
 artifact_total: 36
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -192,7 +196,7 @@ overview: 'Apache Doris publishes 1 API on the [APIs.io](https://apis.io/) netwo
   The Apache Doris catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Apache Doris'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 12 more developer resources.'
+  Apache Doris'' developer surface includes developer portal, documentation, getting-started guide, engineering blog, Stack Overflow tag, and 13 more developer resources.'
 plans:
 - name: Apache Doris Plans Pricing
   plan_count: 3
@@ -237,9 +241,13 @@ score:
     applies: true
     score: 100.0
   previous_composite: 41.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-doris/refs/heads/main/screenshots/apache-doris-2026-06-20T172056.png
 security:
 - kind: domain-security
@@ -272,5 +280,5 @@ use_cases:
   name: Data Lakehouse Analytics
 - description: Enable data analysts to run complex exploratory SQL queries on petabyte-scale datasets with fast response times.
   name: Ad-Hoc Analytics
-website: https://doris.apache.org/
+website: https://www.apache.org/
 ---

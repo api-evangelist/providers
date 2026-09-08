@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -155,6 +155,10 @@ collections:
   name: End Close Bank Account Balances Records API
   slug: open-end-close-records-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.endclose.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -253,11 +257,11 @@ overview: 'End Close publishes 13 APIs on the [APIs.io](https://apis.io/) networ
   The End Close catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  End Close''s developer surface includes authentication and 20 more developer resources.'
+  End Close''s developer surface includes authentication and 21 more developer resources.'
 random_paper: 8
 score:
-  band: thin
-  composite: 36.6
+  band: developing
+  composite: 42.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -265,7 +269,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.4
   facets:
     access_clarity: 14.5
     commercial_clarity: 14.5
@@ -291,9 +295,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 35.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/end-close/refs/heads/main/screenshots/end-close-2026-07-25T213309.png
 security:
 - kind: authentication
@@ -323,5 +330,5 @@ tags:
 - Data Integration
 - Webhook
 - Fintech
-website: https://endclose.com/docs
+website: https://www.endclose.com/
 ---

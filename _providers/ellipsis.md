@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for the Ellipsis coding-agent platform. Start and manage agent sessions, read back typed results and transcripts, manage agent configs, defaults and templates, set sandbox variables, list int
@@ -41,6 +41,10 @@ apis:
   slug: ellipsis-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ellipsis.dev/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -136,7 +140,7 @@ network: true
 overview: 'Ellipsis publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Code Review, AI Agents, Coding Agents, and Developer Tools.
 
 
-  Ellipsis'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 14 more developer resources.'
+  Ellipsis'' developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 15 more developer resources.'
 random_paper: 8
 score:
   band: thin
@@ -162,9 +166,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis/refs/heads/main/screenshots/ellipsis-2026-07-25T213149.png
 security:
 - kind: authentication
@@ -186,5 +194,5 @@ tags:
 - Automation
 - DevOps
 - Pull Requests
-website: https://app.ellipsis.dev
+website: https://www.ellipsis.dev/
 ---

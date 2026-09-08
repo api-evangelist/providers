@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The OpenBao HTTP API gives full access to every OpenBao capability over REST-like HTTP verbs. All routes are prefixed with /v1/ and the API is versioned only at that prefix. Authentication is by clien
@@ -206,9 +206,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/openbao/refs/heads/main/screenshots/openbao-2026-09-02T150850.png
 security:
 - kind: authentication

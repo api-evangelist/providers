@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Groupthink's hosted, remote Model Context Protocol (MCP) server and API, served from api.groupthink.com. Authenticated with a Bearer API token minted in the app, it lets an AI assistant join live meet
@@ -42,6 +42,10 @@ apis:
   slug: groupthink-mcp-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.groupthink.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -129,7 +133,7 @@ network: true
 overview: 'Groupthink publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Meetings, Transcription, and Note Taking.
 
 
-  Groupthink''s developer surface includes documentation, authentication, changelog, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
+  Groupthink''s developer surface includes documentation, authentication, changelog, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
 random_paper: 7
 score:
   band: thin
@@ -156,9 +160,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/groupthink/refs/heads/main/screenshots/groupthink-2026-07-25T220349.png
 security:
 - kind: authentication
@@ -181,5 +189,5 @@ tags:
 - AI Assistant
 - Productivity
 - CRM
-website: https://groupthink.com/docs/
+website: https://www.groupthink.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,6 +119,10 @@ collections:
   name: Microsoft Graph Visio Comments Shapes API
   slug: open-microsoft-visio-shapes-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -261,7 +265,7 @@ overview: 'Microsoft Visio publishes 6 APIs on the [APIs.io](https://apis.io/) n
   The Microsoft Visio catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Visio''s developer surface includes authentication, support, engineering blog, pricing, and 11 more developer resources.'
+  Microsoft Visio''s developer surface includes authentication, support, engineering blog, pricing, and 12 more developer resources.'
 plans:
 - name: Microsoft Visio Plans Pricing
   plan_count: 3
@@ -326,9 +330,13 @@ score:
       derived: 7
       marker_coverage: 100.0
       total: 7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-visio/refs/heads/main/screenshots/microsoft-visio-2026-06-20T185541.png
 security:
 - kind: authentication
@@ -357,4 +365,5 @@ use_cases:
   name: Business Process Review
 - description: Inspect diagram shapes and data for compliance validation.
   name: Compliance Auditing
+website: https://www.microsoft.com/
 ---

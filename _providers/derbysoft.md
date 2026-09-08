@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: JSON/REST API for hotels and PMS/channel-manager systems to push availability, rates and inventory (ARI), manage property, room, rate-plan and channel configuration, and exchange reservations across 5
@@ -167,9 +167,13 @@ score:
   previous_composite: 32.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/derbysoft/refs/heads/main/screenshots/derbysoft-2026-07-25T211736.png
 security:
 - kind: authentication

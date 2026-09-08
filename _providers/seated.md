@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Seated Artist API enables developers and artist teams to build custom integrations with the Seated platform. The API provides access to tour date listings and event data, supporting use cases such
@@ -131,9 +131,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/seated/refs/heads/main/screenshots/seated-2026-06-20T193617.png
 security:
 - kind: domain-security

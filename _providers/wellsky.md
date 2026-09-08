@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: Integration hub API for WellSky's CareTend home infusion and specialty pharmacy platform, providing programmatic access to patient management, billing authorizations, clinical visits, inventory, purch
@@ -50,6 +50,10 @@ apis:
   slug: personal-care-connect-api
 artifact_total: 9
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.wellsky.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -97,7 +101,7 @@ overview: 'WellSky publishes 4 APIs on the [APIs.io](https://apis.io/) network. 
   The WellSky catalog on APIs.io includes 1 JSON-LD context.
 
 
-  WellSky''s developer surface includes engineering blog, support, and 4 more developer resources.'
+  WellSky''s developer surface includes engineering blog, support, and 5 more developer resources.'
 plans:
 - name: Wellsky Plans Pricing
   plan_count: 4
@@ -134,9 +138,13 @@ score:
     regime: Health
     regime_id: health
     score: 26.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/screenshots/wellsky-2026-06-20T201350.png
 security:
 - kind: domain-security
@@ -153,4 +161,5 @@ tags:
 - Clinical Documentation
 - Billing
 - EHR
+website: https://www.wellsky.com/
 ---

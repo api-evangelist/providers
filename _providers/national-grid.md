@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Official Carbon Intensity forecast API for Great Britain, developed by NESO in partnership with EDF Europe, University of Oxford, and WWF. Provides 96+ hour ahead national and regional carbon intensit
@@ -44,6 +44,10 @@ apis:
   slug: neso-data-portal-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.neso.energy/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -103,7 +107,7 @@ network: true
 overview: 'National Grid ESO publishes 1 API on the [APIs.io](https://apis.io/) network: Carbon Intensity API. Tagged areas include Energy, Electricity, Carbon Intensity, UK, and Open Data.
 
 
-  National Grid ESO''s developer surface includes developer portal, product news, FAQ, support, and 7 more developer resources.'
+  National Grid ESO''s developer surface includes developer portal, product news, FAQ, support, and 8 more developer resources.'
 plans:
 - name: Neso Data Portal Plans
   plan_count: 1
@@ -148,9 +152,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 21.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-grid/refs/heads/main/screenshots/national-grid-2026-06-20T190017.png
 security:
 - kind: domain-security
@@ -170,5 +178,5 @@ tags:
 - Open Data
 - Sustainability
 - Grid Operations
-website: https://www.neso.energy/data-portal
+website: https://www.neso.energy/
 ---

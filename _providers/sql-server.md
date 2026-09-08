@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 21
 apis:
 - description: Native database engine APIs for connecting and executing queries against SQL Server.
@@ -102,6 +102,10 @@ apis:
   slug: sql-server-powershell-module
 artifact_total: 43
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -290,7 +294,7 @@ network: true
 overview: 'Microsoft SQL Server APIs publishes 2 APIs on the [APIs.io](https://apis.io/) network: SQL Server REST API and Azure SQL Database REST API. Tagged areas include Azure SQL, Cloud Database, Data Management, Database, and Microsoft.
 
 
-  Microsoft SQL Server APIs'' developer surface includes changelog, CLI, authentication, getting-started guide, pricing, support, engineering blog, and 30 more developer resources.'
+  Microsoft SQL Server APIs'' developer surface includes changelog, CLI, authentication, getting-started guide, pricing, support, engineering blog, and 31 more developer resources.'
 plans:
 - name: Sql Server Plans Pricing
   plan_count: 3
@@ -327,9 +331,13 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql-server/refs/heads/main/screenshots/sql-server-2026-06-20T194427.png
 security:
 - kind: authentication
@@ -368,5 +376,5 @@ use_cases:
   name: Application Backend
 - description: Build data warehouses with columnstore indexes, partitioning, and ETL pipelines.
   name: Data Warehousing
-website: https://portal.azure.com
+website: https://www.microsoft.com/
 ---

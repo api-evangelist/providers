@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Credential-gated HTTPS API behind the Nisos Ascend human risk management platform. Its existence and base URL are established from Nisos''s own production build: the Ascend console''s configuration modu'
@@ -169,9 +169,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 44.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nisos/refs/heads/main/screenshots/nisos-2026-09-02T150757.png
 security:
 - kind: domain-security

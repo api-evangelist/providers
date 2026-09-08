@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'The Restate Admin API is the HTTP control plane for a running Restate Server, exposed by default on port 9070. It manages service deployment registration, lists and introspects services and handlers, '
@@ -46,6 +46,10 @@ apis:
   slug: service-protocol
 artifact_total: 55
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.restate.dev/
 - group: operate
   title: ''
   type: IssueTracker
@@ -234,7 +238,7 @@ network: true
 overview: 'Restate publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, Durable Execution, Durable Workflows, Event-Driven, and Kafka.
 
 
-  Restate''s developer surface includes developer portal, documentation, getting-started guide, tutorials, CLI, pricing, engineering blog, and 18 more developer resources.'
+  Restate''s developer surface includes developer portal, documentation, getting-started guide, tutorials, CLI, pricing, engineering blog, and 19 more developer resources.'
 random_paper: 11
 score:
   band: thin
@@ -257,9 +261,13 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 27.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate-dev/refs/heads/main/screenshots/restate-dev-2026-06-20T193029.png
 security:
 - kind: domain-security
@@ -320,5 +328,5 @@ use_cases:
   name: Event-Driven Workflows
 - description: Pause workflows on awakeables that wait for webhook callbacks, signed URLs, or human approvals for arbitrary durations.
   name: Human-in-the-Loop Approvals
-website: https://restate.dev
+website: https://www.restate.dev/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -511,6 +511,10 @@ collections:
   name: Azure DevOps Artifacts Attachments Work Items API
   slug: open-microsoft-azure-devops-work-items-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -1073,7 +1077,7 @@ overview: 'Azure DevOps publishes 32 APIs on the [APIs.io](https://apis.io/) net
   The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 51 more developer resources.'
+  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 52 more developer resources.'
 plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
@@ -1107,7 +1111,7 @@ rules:
   slug: microsoft-azure-devops-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.2
+  composite: 62.7
   coverage:
     artifact_dirs: 19
     catalog_earned: 53.5
@@ -1115,7 +1119,7 @@ score:
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -1136,9 +1140,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:
 - kind: authentication
@@ -1156,5 +1163,5 @@ tags:
 - DevOps
 - Project Management
 - Version Control
-website: https://dev.azure.com
+website: https://www.microsoft.com/
 ---

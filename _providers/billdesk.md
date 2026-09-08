@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Pre-built hosted checkout solution for one-time and recurring online payments. Merchants redirect customers to BillDesk-hosted pages, minimizing PCI DSS scope.
@@ -154,9 +154,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 9.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/billdesk/refs/heads/main/screenshots/billdesk-2026-06-20T173307.png
 security:
 - kind: domain-security

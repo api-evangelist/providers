@@ -11,6 +11,34 @@ access_model:
 api_count: 0
 artifact_total: 2
 common:
+- group: docs
+  title: ''
+  type: Specification
+  url: https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+- group: other
+  title: ''
+  type: RFC
+  url: https://www.rfc-editor.org/rfc/rfc9110
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://spec.openapis.org/oas/latest.html
+- group: learn
+  title: ''
+  type: Tutorials
+  url: https://restfulapi.net/rest-api-tutorial/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/OAI/OpenAPI-Specification
+- group: build
+  title: ''
+  type: Tooling
+  url: https://openapi.tools
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://raw.githubusercontent.com/api-evangelist/rest/refs/heads/main/json-schema/rest-api-schema.json
 - group: auth
   title: ''
   type: DomainSecurity
@@ -51,7 +79,10 @@ network: true
 overview: 'REST Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, HTTP, Web Services, REST, and Service Design.
 
 
-  The REST Services catalog on APIs.io includes 1 JSON-LD context.'
+  The REST Services catalog on APIs.io includes 1 JSON-LD context.
+
+
+  REST Services'' developer surface includes GitHub presence and 12 more developer resources.'
 random_paper: 15
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-services/refs/heads/main/screenshots/rest-services-2026-06-20T193005.png
 security:

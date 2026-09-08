@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -179,7 +179,7 @@ rate_limits:
   slug: hookpulse-rate-limits
 score:
   band: developing
-  composite: 45.4
+  composite: 44.7
   coverage:
     artifact_dirs: 18
     catalog_earned: 57.0
@@ -197,7 +197,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 34.2
-  previous_composite: 46.1
+  previous_composite: 45.4
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -208,9 +208,12 @@ score:
       total: 1
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Hookpulse Authentication

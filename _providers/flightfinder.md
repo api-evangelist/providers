@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: REST/JSON over the merged corpus. 17 paths / 18 operations in the served OpenAPI 3.0.3. Keyless GET tier, CORS open, RateLimit-* headers on every response, per-record licence and attribution.
@@ -34,6 +34,10 @@ apis:
   slug: flightfinder-aviation-safety-mcp-server
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.himaxym.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -173,7 +177,7 @@ network: true
 overview: 'FlightFinder publishes 1 API on the [APIs.io](https://apis.io/) network: Aviation Safety Data API. Tagged areas include Aviation, Aviation Safety, Accident Data, Open Data, and Public Domain.
 
 
-  FlightFinder''s developer surface includes authentication, sandbox, API reference, getting-started guide, signup flow, support, engineering blog, and 24 more developer resources.'
+  FlightFinder''s developer surface includes authentication, sandbox, API reference, getting-started guide, signup flow, support, engineering blog, and 25 more developer resources.'
 plans:
 - name: Flightfinder Plans Pricing
   plan_count: 3
@@ -185,7 +189,7 @@ rate_limits:
   slug: flightfinder-rate-limits
 score:
   band: developing
-  composite: 52.6
+  composite: 51.9
   coverage:
     artifact_dirs: 18
     catalog_earned: 61.0
@@ -193,7 +197,7 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -214,9 +218,12 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 46.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 security:
 - kind: authentication
   name: Flightfinder Authentication
@@ -238,5 +245,5 @@ tags:
 - Research
 - Reference Data
 - Agent Ready
-website: https://himaxym.com/developers
+website: https://www.himaxym.com/
 ---

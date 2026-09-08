@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -195,6 +195,10 @@ collections:
   name: ClickUp Webhooks API
   slug: open-clickup-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.clickup.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -410,7 +414,7 @@ overview: 'Clickup publishes 13 APIs on the [APIs.io](https://apis.io/) network,
   The Clickup catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Clickup''s developer surface includes authentication, engineering blog, and 9 more developer resources.'
+  Clickup''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
 plans:
 - name: Clickup Plans Pricing
   plan_count: 4
@@ -444,7 +448,7 @@ rules:
   slug: clickup-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.1
+  composite: 34.3
   coverage:
     artifact_dirs: 19
     catalog_earned: 48.5
@@ -452,7 +456,7 @@ score:
     catalog_gap: 66.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.8
   facets:
     access_clarity: 23.7
     commercial_clarity: 23.7
@@ -473,9 +477,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png
 security:
 - kind: authentication
@@ -491,4 +498,5 @@ security:
   slug: clickup-trust-center
   summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR
 slug: clickup
+website: https://www.clickup.com/
 ---

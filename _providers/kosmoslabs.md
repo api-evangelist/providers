@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: OpenTelemetry Protocol (OTLP) ingest endpoint for sending traces, metrics and logs into the Kosmos operational intelligence platform. Accepts OTLP over HTTP (primary) and gRPC (alternative), authentic
@@ -183,9 +183,13 @@ score:
   previous_composite: 27.9
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kosmoslabs/refs/heads/main/screenshots/kosmoslabs-2026-07-25T224239.png
 security:
 - kind: authentication

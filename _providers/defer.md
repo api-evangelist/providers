@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Defer platform exposes a TypeScript SDK for declaring deferred functions and a managed control plane that schedules, queues, retries, and observes their execution. Functions are defined with decor
@@ -108,9 +108,13 @@ score:
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 11.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Defer Domain Security

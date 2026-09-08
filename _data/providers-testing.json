@@ -16,7 +16,7 @@
      "slug": "checkly",
      "description": "Checkly is a code-first reliability platform for synthetic monitoring, uptime monitoring, alerting and AI-assisted incident investigation. Engineering teams define monitors as versioned code with the Checkly CLI, Terraform or Pulumi, reuse existing Playwright suites as production browser checks, and run them from 22 global locations or from private locations inside their own network. The platform spans three modules: Detect (uptime, API and browser monitoring), Communicate (alerting, status pages and dashboards) and Resolve (OpenTelemetry tracing and Rocky AI root cause analysis). Checkly exposes a 225-operation public REST API, a hosted MCP server, four published Agent Skills and machine-readable llms.txt, docs and pricing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkly/refs/heads/main/screenshots/checkly-2026-06-20T174251.png",
-     "score": 71.8,
+     "score": 71.1,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 54.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -65,15 +65,15 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Tricentis",
      "slug": "tricentis",
      "description": "Tricentis is an enterprise continuous testing and quality engineering company, founded in Austria in 2007 and headquartered in Vienna with US operations in Austin, Texas. Its platform spans model-based UI and API test automation (Tosca, Tosca Cloud), AI-driven test management (qTest), performance testing (NeoLoad), Jira-native test management (Tricentis Test Management for Jira), SAP change impact analysis (LiveCompare), data and ETL validation (Data Integrity), regulated-industry validation (Vera), and quality analytics. Tricentis exposes machine-readable REST contracts for qTest Manager, Parameters, Pulse, Scenario, Sessions, Data Export and Analytics, for NeoLoad Web, and for Tricentis Test Management for Jira, and it was among the first enterprise quality-engineering vendors to ship remote Model Context Protocol (MCP) servers plus an open-source, Apache-2.0 catalog of agent skills for driving Tosca and qTest from AI coding assistants.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tricentis/refs/heads/main/screenshots/tricentis-2026-08-17T082438.png",
-     "score": 60.4,
+     "score": 64.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -86,8 +86,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -113,6 +113,52 @@
      },
      "tier": "Commercial Testing & Quality Platforms",
      "rank": 2
+    },
+    {
+     "name": "Artillery",
+     "slug": "artillery",
+     "description": "Artillery is an open source load testing and performance testing platform for APIs, microservices, and web applications. Built with Node.js and available as an npm package, Artillery supports HTTP/1, HTTP/2, WebSocket, Socket.IO, gRPC, and custom protocols through plugins. It includes a YAML-based test scenario definition language, a plugin ecosystem for extending functionality, and Artillery Cloud for distributed load testing, CI/CD integration, and centralized reporting. Artillery is used by developers, QA engineers, and SREs to run load tests, performance benchmarks, Playwright-based synthetic monitoring, and end-to-end tests at scale. The project is licensed under MPL-2.0 and maintained by Artilleryio.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png",
+     "score": 54.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 76.2,
+      "commercial_clarity": 78.9,
+      "access_clarity": 78.9
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 11.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Load & Performance Testing",
+     "rank": 3
     }
    ],
    "open": true
@@ -122,15 +168,15 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Assertible",
      "slug": "assertible",
      "description": "Assertible provides a reliable first line of defense against web service failures by providing simple and powerful assertions to test and monitor APIs. It enables automated API testing with assertions on response status, headers, body content, and performance, with integrations for CI/CD pipelines and notifications. Assertible supports scheduled API monitoring, deployment testing triggered via webhooks, and team collaboration for API quality assurance workflows. The platform integrates with GitHub, Slack, PagerDuty, and other tools for seamless notification and incident management.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/assertible/refs/heads/main/screenshots/assertible-2026-06-20T172506.png",
-     "score": 47.9,
+     "score": 48.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -143,8 +189,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -169,7 +215,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Testing & Quality Platforms",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "APIToolkit (Monoscope)",
@@ -189,8 +235,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -215,14 +261,14 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Testing & Quality Platforms",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "SmartBear",
      "slug": "smartbear",
      "description": "SmartBear is a software company that provides AI-powered tools for API lifecycle management including design, testing, documentation, and governance. Their product portfolio includes SwaggerHub for API design and documentation, ReadyAPI for API testing, PactFlow for contract testing, and other tools for software quality and performance. SmartBear's developer API enables programmatic access to manage API definitions, automate lifecycle workflows, and integrate SwaggerHub with CI/CD pipelines and third-party services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/screenshots/smartbear-2026-06-20T194038.png",
-     "score": 42.9,
+     "score": 44.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -235,8 +281,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -261,14 +307,14 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Testing & Quality Platforms",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Apache JMeter",
      "slug": "apache-jmeter",
      "description": "Apache JMeter is an open-source Java application designed for load testing functional behavior and measuring performance. It supports web applications, REST APIs, databases, LDAP, FTP, and other protocols. Licensed under Apache 2.0 and governed by the Apache Software Foundation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/apache-jmeter/refs/heads/main/screenshots/apache-jmeter-2026-06-20T172112.png",
-     "score": 42.7,
+     "score": 42.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -281,8 +327,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -307,210 +353,16 @@
       "agentic_commerce": false
      },
      "tier": "Load & Performance Testing",
-     "rank": 6
-    },
-    {
-     "name": "Selenium",
-     "slug": "selenium",
-     "description": "Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby and JavaScript, all released in lockstep. The suite covers WebDriver (the browser-control protocol), Selenium Grid (distributed, parallel execution across machines and platforms), Selenium Manager (a Rust CLI that resolves and downloads matching browser drivers automatically) and Selenium IDE (record and playback). Selenium is self-hosted software rather than a service: there is no vendor-operated API host, no account and no pricing — the remote end runs on infrastructure the consumer owns, at a documented default of http://localhost:4444, under Apache-2.0 and the stewardship of the Software Freedom Conservancy.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png",
-     "score": 41.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 48.2,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 73.2,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Browser & End-to-End Frameworks",
      "rank": 7
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 15,
-   "shown": 15,
-   "providers": [
-    {
-     "name": "Beeceptor",
-     "slug": "beeceptor",
-     "description": "Beeceptor is an API mocking, HTTP debugging, and proxy platform that lets developers create mock servers instantly without any coding. It supports REST, SOAP, GraphQL, and gRPC mocking, provides real-time HTTP traffic inspection, webhook testing, local tunneling, and AI-powered spec generation. Teams use Beeceptor to unblock frontend, backend, and QA workflows by simulating APIs before they are built or while avoiding dependencies on live services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/screenshots/beeceptor-2026-06-20T173119.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 54.8,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 30.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mocking & Service Virtualization",
-     "rank": 8
-    },
-    {
-     "name": "OWASP ZAP",
-     "slug": "owasp-zap",
-     "description": "OWASP ZAP (Zed Attack Proxy) is an open source web application security scanner for finding vulnerabilities in APIs and web applications during development and testing. ZAP exposes a comprehensive HTTP API for controlling and automating scans, spidering, authentication, alerts, reporting, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/screenshots/owasp-zap-2026-06-20T191246.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 36.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 22.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Security Testing Scanners",
-     "rank": 9
-    },
-    {
-     "name": "Cypress.io",
-     "slug": "cypressio",
-     "description": "Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end and component testing framework that runs tests directly in the browser with time-travel debugging, automatic waiting, and cross-browser support. Its commercial Cypress Cloud service adds test parallelization, smart orchestration, analytics, Test Replay, UI Coverage, and automated accessibility checks, plus an enterprise Data Extract API for exporting test and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across CI/CD pipelines for reliable, developer-friendly web application testing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/screenshots/cypressio-2026-07-25T211057.png",
-     "score": 37.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 71.4,
-      "commercial_clarity": 46.1,
-      "access_clarity": 46.1
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Browser & End-to-End Frameworks",
-     "rank": 10
     },
     {
      "name": "Nuclei",
      "slug": "nuclei",
      "description": "Nuclei is an open source vulnerability scanner from ProjectDiscovery that uses YAML-based templates to find security issues in APIs, web apps, and infrastructure. It supports multiple protocols (HTTP, DNS, TCP, file), parallel scanning, CI/CD integration, and ships with thousands of community-contributed templates. The ProjectDiscovery Cloud Platform exposes a REST API for managing templates, scans, vulnerabilities, leaks, asset discovery, exports, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuclei/refs/heads/main/screenshots/nuclei-2026-06-20T190508.png",
-     "score": 36.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 42.0,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.0,
@@ -521,8 +373,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -547,37 +399,139 @@
       "agentic_commerce": false
      },
      "tier": "Security Testing Scanners",
-     "rank": 11
+     "rank": 8
     },
     {
-     "name": "Mockoon",
-     "slug": "mockoon",
-     "description": "Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png",
-     "score": 34.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Selenium",
+     "slug": "selenium",
+     "description": "Selenium is the open-source browser automation project behind the W3C WebDriver and WebDriver BiDi standards. It drives real browsers through a vendor-neutral, standardised HTTP wire protocol that the browser vendors implement themselves, with official language bindings for Java, Python, C#, Ruby and JavaScript, all released in lockstep. The suite covers WebDriver (the browser-control protocol), Selenium Grid (distributed, parallel execution across machines and platforms), Selenium Manager (a Rust CLI that resolves and downloads matching browser drivers automatically) and Selenium IDE (record and playback). Selenium is self-hosted software rather than a service: there is no vendor-operated API host, no account and no pricing — the remote end runs on infrastructure the consumer owns, at a documented default of http://localhost:4444, under Apache-2.0 and the stewardship of the Software Freedom Conservancy.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/selenium/refs/heads/main/screenshots/selenium-2026-06-20T193639.png",
+     "score": 40.6,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 46.3,
-      "governance": 0.0,
-      "contract_governance": 0.0,
+      "discoverability": 74.1,
+      "contract_quality": 48.2,
+      "governance": 18.2,
+      "contract_governance": 18.2,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 23.7,
-      "access_clarity": 23.7
+      "developer_ergonomics": 73.2,
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 17.3,
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Browser & End-to-End Frameworks",
+     "rank": 9
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 13,
+   "shown": 13,
+   "providers": [
+    {
+     "name": "Beeceptor",
+     "slug": "beeceptor",
+     "description": "Beeceptor is an API mocking, HTTP debugging, and proxy platform that lets developers create mock servers instantly without any coding. It supports REST, SOAP, GraphQL, and gRPC mocking, provides real-time HTTP traffic inspection, webhook testing, local tunneling, and AI-powered spec generation. Teams use Beeceptor to unblock frontend, backend, and QA workflows by simulating APIs before they are built or while avoiding dependencies on live services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/screenshots/beeceptor-2026-06-20T173119.png",
+     "score": 39.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 54.8,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 30.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mocking & Service Virtualization",
+     "rank": 10
+    },
+    {
+     "name": "OWASP ZAP",
+     "slug": "owasp-zap",
+     "description": "OWASP ZAP (Zed Attack Proxy) is an open source web application security scanner for finding vulnerabilities in APIs and web applications during development and testing. ZAP exposes a comprehensive HTTP API for controlling and automating scans, spidering, authentication, alerts, reporting, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/owasp-zap/refs/heads/main/screenshots/owasp-zap-2026-06-20T191246.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 36.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 22.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
@@ -586,47 +540,47 @@
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
+      "dry_run_mode": "na",
       "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Mocking & Service Virtualization",
-     "rank": 12
+     "tier": "Security Testing Scanners",
+     "rank": 11
     },
     {
-     "name": "WireMock",
-     "slug": "wiremock",
-     "description": "WireMock is an open source tool for mocking HTTP services and APIs. It enables developers to build stable, predictable development environments by creating mock APIs that simulate the behavior of real services. WireMock provides a comprehensive admin API for managing stub mappings, recording real traffic, verifying requests, and modeling stateful behavior through scenarios. The project is governed by the WireMock community on GitHub and supports Java, Python, JavaScript, .NET, Go, PHP, and Kotlin clients.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/screenshots/wiremock-2026-06-20T201523.png",
-     "score": 34.0,
+     "name": "Cypress.io",
+     "slug": "cypressio",
+     "description": "Cypress.io, Inc. builds Cypress, an open-source, JavaScript-based end-to-end and component testing framework that runs tests directly in the browser with time-travel debugging, automatic waiting, and cross-browser support. Its commercial Cypress Cloud service adds test parallelization, smart orchestration, analytics, Test Replay, UI Coverage, and automated accessibility checks, plus an enterprise Data Extract API for exporting test and run analytics in CSV, JSON, or XLSX. Cypress is widely adopted across CI/CD pipelines for reliable, developer-friendly web application testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/screenshots/cypressio-2026-07-25T211057.png",
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 49.3,
-      "governance": 28.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 71.4,
+      "commercial_clarity": 46.1,
+      "access_clarity": 46.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
+      "spec_presence": false,
+      "agentic_access": false,
       "reversibility_documented": false,
       "mcp_server": false,
-      "auth_clarity": false,
+      "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": false,
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -638,15 +592,15 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "Mocking & Service Virtualization",
-     "rank": 13
+     "tier": "Browser & End-to-End Frameworks",
+     "rank": 12
     },
     {
      "name": "Pact",
      "slug": "pact",
      "description": "Pact is an open source contract testing framework that verifies API consumer-provider interactions with support for Ruby, Java, .NET, JavaScript, Go, and Python. Pact Broker provides a hypermedia-driven HAL API for storing, retrieving, and verifying contracts between services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/screenshots/pact-2026-06-20T191316.png",
-     "score": 33.5,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -659,8 +613,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -685,6 +639,52 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
+     "rank": 13
+    },
+    {
+     "name": "Mockoon",
+     "slug": "mockoon",
+     "description": "Mockoon is the easiest and quickest way to design and run mock REST APIs. Available as a free, open-source desktop application and CLI, it lets developers build, share, and serve realistic mock endpoints locally, in CI, or in containers. No remote deployment, no account required.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png",
+     "score": 34.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 46.3,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 23.7,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mocking & Service Virtualization",
      "rank": 14
     },
     {
@@ -705,8 +705,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -734,6 +734,52 @@
      "rank": 15
     },
     {
+     "name": "WireMock",
+     "slug": "wiremock",
+     "description": "WireMock is an open source tool for mocking HTTP services and APIs. It enables developers to build stable, predictable development environments by creating mock APIs that simulate the behavior of real services. WireMock provides a comprehensive admin API for managing stub mappings, recording real traffic, verifying requests, and modeling stateful behavior through scenarios. The project is governed by the WireMock community on GitHub and supports Java, Python, JavaScript, .NET, Go, PHP, and Kotlin clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/screenshots/wiremock-2026-06-20T201523.png",
+     "score": 33.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 49.3,
+      "governance": 28.8,
+      "contract_governance": 28.8,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 33.3,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mocking & Service Virtualization",
+     "rank": 16
+    },
+    {
      "name": "Schemathesis",
      "slug": "schemathesis",
      "description": "Schemathesis is a property-based API testing tool that automatically generates test cases from OpenAPI and GraphQL schemas to find bugs and specification violations. It uses the Hypothesis property-based testing framework to generate diverse, edge-case-covering test inputs from schema constraints, detecting server crashes, response schema violations, validation bypasses, and stateful bugs in multi-step workflows. Used by Netflix, SAP, Red Hat, IBM, and JetBrains.",
@@ -751,8 +797,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -777,7 +823,7 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "K6",
@@ -797,8 +843,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -823,99 +869,7 @@
       "agentic_commerce": false
      },
      "tier": "Load & Performance Testing",
-     "rank": 17
-    },
-    {
-     "name": "Artillery",
-     "slug": "artillery",
-     "description": "Artillery is an open source load testing and performance testing platform for APIs, microservices, and web applications. Built with Node.js and available as an npm package, Artillery supports HTTP/1, HTTP/2, WebSocket, Socket.IO, gRPC, and custom protocols through plugins. It includes a YAML-based test scenario definition language, a plugin ecosystem for extending functionality, and Artillery Cloud for distributed load testing, CI/CD integration, and centralized reporting. Artillery is used by developers, QA engineers, and SREs to run load tests, performance benchmarks, Playwright-based synthetic monitoring, and end-to-end tests at scale. The project is licensed under MPL-2.0 and maintained by Artilleryio.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/artillery/refs/heads/main/screenshots/artillery-2026-06-20T172444.png",
-     "score": 31.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 33.3,
-      "commercial_clarity": 26.3,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Load & Performance Testing",
      "rank": 18
-    },
-    {
-     "name": "Microcks",
-     "slug": "microcks",
-     "description": "Microcks is an open source, cloud-native tool for API mocking and testing. It provides a platform for importing API contracts (OpenAPI, AsyncAPI, Postman Collections), generating mock responses, and running test suites. It shortens the feedback loop for API development teams.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png",
-     "score": 30.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 51.1,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 28.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Mocking & Service Virtualization",
-     "rank": 19
     },
     {
      "name": "REST Assured",
@@ -935,8 +889,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -961,28 +915,74 @@
       "agentic_commerce": false
      },
      "tier": "Contract Testing & Test Frameworks",
-     "rank": 20
+     "rank": 19
     },
     {
-     "name": "MockServer",
-     "slug": "mockserver",
-     "description": "MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS (e.g. services, web sites, etc) with clients in Java, JavaScript, and Ruby and a simple REST API. MockServer can be used to mock APIs that are not yet fully developed, isolate the system under test for reliable testing, simulate slow or faulty endpoints, and record/replay requests.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png",
-     "score": 28.4,
+     "name": "Microcks",
+     "slug": "microcks",
+     "description": "Microcks is an open source, cloud-native tool for API mocking and testing. It provides a platform for importing API contracts (OpenAPI, AsyncAPI, Postman Collections), generating mock responses, and running test suites. It shortens the feedback loop for API development teams.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/screenshots/microcks-2026-06-20T185332.png",
+     "score": 29.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 38.1,
+      "discoverability": 59.3,
+      "contract_quality": 51.1,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.4,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 35.7,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 28.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Mocking & Service Virtualization",
+     "rank": 20
+    },
+    {
+     "name": "Hoverfly",
+     "slug": "hoverfly",
+     "description": "Hoverfly is an open source API simulation tool for creating realistic mock services and capturing-replaying HTTP traffic for testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/screenshots/hoverfly-2026-06-20T182852.png",
+     "score": 29.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 40.7,
+      "contract_quality": 42.7,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 15.8,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1010,25 +1010,25 @@
      "rank": 21
     },
     {
-     "name": "Hoverfly",
-     "slug": "hoverfly",
-     "description": "Hoverfly is an open source API simulation tool for creating realistic mock services and capturing-replaying HTTP traffic for testing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/screenshots/hoverfly-2026-06-20T182852.png",
-     "score": 27.5,
+     "name": "MockServer",
+     "slug": "mockserver",
+     "description": "MockServer enables easy mocking of any system you integrate with via HTTP or HTTPS (e.g. services, web sites, etc) with clients in Java, JavaScript, and Ruby and a simple REST API. MockServer can be used to mock APIs that are not yet fully developed, isolate the system under test for reliable testing, simulate slow or faulty endpoints, and record/replay requests.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/screenshots/mockserver-2026-06-20T185638.png",
+     "score": 27.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 42.7,
+      "discoverability": 66.7,
+      "contract_quality": 38.1,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 16.7,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.4,
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1083,8 +1083,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1129,8 +1129,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1175,8 +1175,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1221,8 +1221,8 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1267,8 +1267,8 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1313,8 +1313,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1359,8 +1359,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1405,8 +1405,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1451,8 +1451,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1497,8 +1497,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1543,8 +1543,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1589,8 +1589,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1642,8 +1642,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1688,8 +1688,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1734,8 +1734,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {

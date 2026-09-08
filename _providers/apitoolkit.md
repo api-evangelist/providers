@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -99,6 +99,10 @@ collections:
   name: Monoscope Platform API
   slug: open-monoscope-platform
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://monoscope.tech/
 - group: operate
   title: ''
   type: IssueTracker
@@ -382,7 +386,7 @@ overview: 'APIToolkit (Monoscope) publishes 3 APIs on the [APIs.io](https://apis
   The APIToolkit (Monoscope) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  APIToolkit (Monoscope)''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, YouTube channel, and 20 more developer resources.'
+  APIToolkit (Monoscope)''s developer surface includes authentication, documentation, getting-started guide, API reference, pricing, engineering blog, YouTube channel, and 21 more developer resources.'
 plans:
 - name: Apitoolkit Plans Pricing
   plan_count: 4
@@ -442,9 +446,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/apitoolkit/refs/heads/main/screenshots/apitoolkit-2026-06-20T172258.png
 security:
 - kind: authentication
@@ -491,4 +499,5 @@ use_cases:
   name: Agent-Driven Observability
 - description: Run Testkit YAML scenarios against APIs as part of CI pipelines and load testing.
   name: API Testing in CI
+website: https://monoscope.tech/
 ---

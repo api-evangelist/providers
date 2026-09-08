@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -301,6 +301,10 @@ collections:
   name: API Collection
   slug: open-cyclecalcs-v2-discovery
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cyclecalcs.com/
 - group: other
   title: ''
   type: Overlay
@@ -497,7 +501,7 @@ network: true
 overview: 'CycleCalcs publishes 29 APIs on the [APIs.io](https://apis.io/) network, including Apsides API, Attribution API, Conjunctions API, and 26 more. Tagged areas include Astronomy, Space, Science, Ephemeris, and Sun.
 
 
-  CycleCalcs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 28 more developer resources.'
+  CycleCalcs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, pricing, signup flow, and 29 more developer resources.'
 plans:
 - name: Cyclecalcs Plans
   plan_count: 4
@@ -538,9 +542,13 @@ score:
       total: 30
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/screenshots/cyclecalcs-2026-08-17T080843.png
 security:
 - kind: authentication
@@ -566,5 +574,5 @@ tags:
 - Geolocation
 - MCP
 - agent-native
-website: https://www.cyclecalcs.com/api.html
+website: https://www.cyclecalcs.com/
 ---

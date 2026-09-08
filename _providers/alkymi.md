@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Alkymi exposes a developer-friendly REST API with full event-based webhook support for ingesting, transforming, and delivering extracted private markets data. API access and reference documentation ar
@@ -143,9 +143,13 @@ score:
   previous_composite: 34.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/alkymi/refs/heads/main/screenshots/alkymi-2026-07-25T195636.png
 security:
 - kind: domain-security

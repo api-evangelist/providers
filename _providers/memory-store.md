@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Memory Store Model Context Protocol (MCP) server exposes shared team memory to AI clients (Claude, ChatGPT, Cursor, Raycast). It lets agents record and recall organizational context, search memory
@@ -40,6 +40,10 @@ apis:
   slug: memory-store-mcp-server
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.memory.store/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -115,7 +119,7 @@ network: true
 overview: 'Memory Store publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Memory, AI Agents, MCP, and Knowledge-Management.
 
 
-  Memory Store''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, and 9 more developer resources.'
+  Memory Store''s developer surface includes documentation, getting-started guide, signup flow, pricing, engineering blog, support, and 10 more developer resources.'
 random_paper: 7
 score:
   band: emerging
@@ -140,9 +144,13 @@ score:
   previous_composite: 22.8
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/memory-store/refs/heads/main/screenshots/memory-store-2026-08-07T172505.png
 security:
 - kind: domain-security
@@ -159,5 +167,5 @@ tags:
 - Context
 - Productivity
 - Y Combinator
-website: https://memory.store/guides
+website: https://www.memory.store/
 ---

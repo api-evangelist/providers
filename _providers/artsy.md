@@ -10,18 +10,18 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
-    agentic_access: false
+    agent_skills: derived
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -29,18 +29,38 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 5.0
-  scored_at: '2026-09-06'
+  score: 23.6
+  scored_at: '2026-09-07'
+agentic_access:
+- acting_count: 6
+  human_in_the_loop: 0
+  name: Artsy Agentic Access
+  operation_count: 53
+  slug: artsy-agentic-access
+  summary_line: 53 operations · 6 acting
 api_count: 1
 apis:
-- description: The Artsy Public API provides access to images of historic artwork and related information on artsy.net for educational and non-commercial purposes. Resources include artists, artworks, editions, fair
+- baseURL: https://api.artsy.net/api
+  baseurl_source: declared
+  description: The Artsy Public API provides access to images of historic artwork and related information on artsy.net for educational and non-commercial purposes. Resources include artists, artworks, editions, fair
   name: Artsy Public API
   slug: artsy-api
-artifact_total: 15
+- description: Metaphysics is Artsy's public GraphQL gateway — the contract that actually powers artsy.net and the Artsy iOS and Android apps. It wraps Artsy's internal services (Gravity, Exchange, Convection) behin
+  name: Artsy Metaphysics GraphQL API
+  slug: metaphysics
+artifact_total: 20
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/artsy-agentic-access.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.artsy.net/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -73,6 +93,106 @@ common:
   title: Login
   type: Login
   url: https://www.artsy.net/login
+- group: docs
+  title: Public API Reference
+  type: APIReference
+  url: https://developers.artsy.net/v2
+- group: start
+  title: Getting Started — obtain credentials and mint a token
+  type: GettingStarted
+  url: https://developers.artsy.net/v2/docs/authentication
+- group: operate
+  title: Artsy Help Center
+  type: Support
+  url: https://support.artsy.net/
+- group: commercial
+  title: Terms and Conditions
+  type: TermsOfService
+  url: https://www.artsy.net/terms
+- group: commercial
+  title: Privacy Policy
+  type: PrivacyPolicy
+  url: https://www.artsy.net/privacy
+- group: auth
+  title: Artsy Security
+  type: Security
+  url: https://www.artsy.net/security
+- group: operate
+  title: Artsy Status
+  type: StatusPage
+  url: https://status.artsy.net/
+- group: operate
+  title: Public API retirement notice
+  type: Deprecation
+  url: https://developers.artsy.net/
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/artsy-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/artsy-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/artsy-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/artsy-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/artsy-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/artsy-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/artsy-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/artsy-packages.yml
+- group: build
+  title: First-party client libraries
+  type: SDKs
+  url: packages/artsy-packages.yml
+- group: start
+  title: Staging environment and playground
+  type: Sandbox
+  url: sandbox/artsy-sandbox.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/artsy-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/artsy-plans-pricing.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/artsy-public-api-overlay.yaml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/artsy-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/artsy-mcp.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/artsy-vulnerability-disclosure.yml
 created: '2025-02-24'
 description: Artsy is the world's largest online art marketplace, connecting collectors with artists and galleries worldwide. The platform features over 1 million artworks from 100,000+ artists and provides access to galleries, art fairs, and auction houses globally. Artsy offers a Public API providing access to images of historic artwork and related information for educational and non-commercial purposes, with access limited to public domain works. The API provides resources for artists, artworks, galleries, shows, sales, and gene (classification) data. Note that the public API may be retired; partner integrations are handled through a separate partner API program.
 features:
@@ -95,53 +215,79 @@ integrations:
 - description: Gallery and auction house partners integrate directly with Artsy through the Partner API for full marketplace integration including artwork listings and collector communications.
   name: Artsy Partner Program
 layout: provider
-modified: '2026-04-19'
+modified: '2026-09-07'
 name: Artsy
 nav: Providers
 network: true
-overview: 'Artsy publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Art, Marketplace, Artists, Collectors, and Galleries.
+overview: 'Artsy publishes 1 API on the [APIs.io](https://apis.io/) network: Public API. Tagged areas include Art, Marketplace, Artists, Collectors, and Galleries.
 
 
-  Artsy''s developer surface includes developer portal, documentation, engineering blog, signup flow, and 4 more developer resources.'
+  Artsy''s developer surface includes developer portal, documentation, engineering blog, signup flow, API reference, getting-started guide, support, and 28 more developer resources.'
 plans:
 - name: Artsy Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: artsy-plans-pricing
 random_paper: 17
 rate_limits:
-- limit_count: 5
+- limit_count: 1
   name: Artsy Rate Limits
   slug: artsy-rate-limits
+scopes:
+- name: Artsy Scopes
+  scope_count: 1
+  slug: artsy-scopes
+  summary_line: 1 scope · authorizationCode/password/token-exchange
 score:
-  band: emerging
-  composite: 21.7
+  band: developing
+  composite: 49.0
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    artifact_dirs: 23
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 27.3
   facets:
-    access_clarity: 22.4
-    commercial_clarity: 22.4
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 68.5
-    governance: 0.0
-    operational_transparency: 10.5
+    access_clarity: 35.5
+    commercial_clarity: 35.5
+    contract_governance: 4.5
+    contract_quality: 49.4
+    developer_ergonomics: 73.2
+    discoverability: 75.9
+    governance: 4.5
+    operational_transparency: 57.9
   previous_composite: 21.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  provenance:
+    agentic_access: derived
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/artsy/refs/heads/main/screenshots/artsy-2026-06-20T172452.png
 security:
+- kind: authentication
+  name: Artsy Authentication
+  slug: artsy-authentication
+  summary_line: apiKey/oauth2 · 3 schemes
 - kind: domain-security
   name: Artsy Domain Security
   slug: artsy-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Artsy Vulnerability Disclosure
+  slug: artsy-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 slug: artsy
 tags:
 - Art
@@ -149,6 +295,11 @@ tags:
 - Artists
 - Collectors
 - Galleries
+- Auctions
+- Museums
+- Art Market
+- Culture
+- Images
 use_cases:
 - description: Educational platforms use the Artsy API to access public domain artwork images and artist information for art history curriculum and museum education tools.
   name: Art Education Applications

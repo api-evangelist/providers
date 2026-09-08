@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,6 +121,10 @@ collections:
   name: Tiingo API
   slug: open-tiingo
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.tiingo.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -271,7 +275,7 @@ overview: 'Tiingo publishes 13 APIs on the [APIs.io](https://apis.io/) network, 
   The Tiingo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Tiingo''s developer surface includes developer portal, documentation, pricing, engineering blog, changelog, authentication, sandbox, and 26 more developer resources.'
+  Tiingo''s developer surface includes developer portal, documentation, pricing, engineering blog, changelog, authentication, sandbox, and 27 more developer resources.'
 plans:
 - name: Tiingo Plans Pricing
   plan_count: 4
@@ -318,9 +322,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 51.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:
 - kind: authentication

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 17
 apis:
 - description: The authoritative protocol definition for the Model Context Protocol, maintained at modelcontextprotocol.io and in the modelcontextprotocol/ specification GitHub repository. The TypeScript schema (sch
@@ -89,6 +89,10 @@ apis:
   slug: chatgpt-mcp-host
 artifact_total: 66
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://modelcontextprotocol.io/
 - group: operate
   title: ''
   type: IssueTracker
@@ -262,7 +266,7 @@ overview: 'Model Context Protocol (MCP) publishes 17 APIs on the [APIs.io](https
   The Model Context Protocol (MCP) catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 12 more developer resources.'
+  Model Context Protocol (MCP)''s developer surface includes engineering blog, developer portal, documentation, and 13 more developer resources.'
 random_paper: 5
 rules:
 - effective_rule_count: 6
@@ -296,9 +300,13 @@ score:
     governance: 25.0
     operational_transparency: 28.9
   previous_composite: 27.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp/refs/heads/main/screenshots/mcp-2026-06-20T185104.png
 security:
 - kind: domain-security
@@ -340,5 +348,5 @@ use_cases:
   name: Enterprise Connectors
 - description: Local MCP servers expose filesystem, git, shell, browser, and desktop automation tools to assistants running on the same machine.
   name: Local Computer Use
-website: https://modelcontextprotocol.io
+website: https://modelcontextprotocol.io/
 ---

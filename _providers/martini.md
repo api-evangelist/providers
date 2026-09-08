@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Hosted, OAuth-secured Model Context Protocol server that lets supported AI assistants work inside Martini projects using the signed-in user''s account permissions — browse projects, canvases, subjects '
@@ -41,6 +41,10 @@ apis:
   slug: martini-mcp-connector
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.martini.film/
 - group: docs
   title: ''
   type: Documentation
@@ -128,7 +132,7 @@ network: true
 overview: 'Martini publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Video, Filmmaking, and Generative AI.
 
 
-  Martini''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 12 more developer resources.'
+  Martini''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 13 more developer resources.'
 random_paper: 0
 score:
   band: emerging
@@ -155,9 +159,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/screenshots/martini-2026-07-25T230407.png
 security:
 - kind: authentication
@@ -184,4 +192,5 @@ tags:
 - Agents
 - Collaboration
 - Media Production
+website: https://www.martini.film/
 ---

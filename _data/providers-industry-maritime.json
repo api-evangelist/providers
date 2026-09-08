@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 12,
-   "shown": 12,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "DNV",
@@ -29,8 +29,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -68,7 +68,7 @@
      "slug": "vesselfinder",
      "description": "VesselFinder is a maritime intelligence company operating a global AIS vessel-tracking network (terrestrial AIS plus satellite AIS) and offering ship positions, voyage history, vessel particulars, port-call events, sea-distance routing, and ocean-container track-and-trace through its developer APIs. The platform pairs a credit-metered AIS REST API (Vessels, PortCalls, ExpectedArrivals, MasterData, Distance, plus subscription feeds VesselsList and LiveData) with a separate Container Tracking API that returns shipment schedules and real-time vessel positions by container number. VesselFinder also runs a public web map, iOS/Android apps, an embeddable map widget, a fleet explorer, and a route planner.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/vesselfinder/refs/heads/main/screenshots/vesselfinder-2026-06-20T201006.png",
-     "score": 50.8,
+     "score": 50.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -81,8 +81,8 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -113,7 +113,7 @@
      "slug": "maersk-line",
      "description": "A.P. Moller - Maersk is the Danish integrated container shipping and logistics company. Maersk operates one of the world's largest ocean fleets and a global network of warehouses, inland transport, customs services, and air-freight capacity through Maersk Air Cargo. The Maersk Developer Portal exposes a catalogue of APIs for Track and Trace, Ocean Booking (DCSA-aligned), Schedules, Product Offers and pricing, electronic Bills of Lading, Verified Gross Mass, Demurrage and Detention, Air Booking, VGM, and container Maintenance and Repair. Many of Maersk's APIs implement Digital Container Shipping Association (DCSA) interface standards so the same client can address multiple carriers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/screenshots/maersk-line-2026-06-20T184832.png",
-     "score": 48.5,
+     "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -126,8 +126,8 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -171,8 +171,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -199,11 +199,56 @@
      "rank": 4
     },
     {
+     "name": "SERTICA",
+     "slug": "sertica",
+     "description": "SERTICA is a maritime fleet and ship management system from RINA (originally built by Logimatic in Denmark, first code written in 1989), used to run planned maintenance, procurement, HSQE, crewing, performance, logbooks and vessel reporting across a fleet. It is deployed as a per-customer site rather than a shared multi-tenant service, and it publishes a genuinely large machine-readable contract: the SERTICA Web API is an OpenAPI 3.0.4 document with 2,743 paths, 3,340 operations and 1,104 schemas, served publicly at https://docs.sertica.com/api/swagger/v1/swagger.json and browsable in a live Swagger UI. It is a REST/JSON API authenticated with a 24-hour JWT obtained by posting a SERTICA user login to /Auth, with authorization expressed as per-user SERTICA user rights rather than OAuth scopes. Beyond CRUD it carries the statutory maritime surface - MARPOL Oil, Garbage and Ballast Water electronic record books with signing and printout operations, SFI-coded components, ISM management-system documents, and PunchOut/ShipServ procurement integration.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/screenshots/sertica-2026-06-20T193727.png",
+     "score": 45.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 51.4,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 18.4,
+      "access_clarity": 18.4
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 27.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 5
+    },
+    {
      "name": "MarineTraffic",
      "slug": "marine-traffic",
      "description": "MarineTraffic is the leading maritime intelligence and AIS ship-tracking platform — now part of Kpler. The MarineTraffic AIS Data API exposes the same live + historical vessel positions, port calls, berth calls, vessel master data, voyage forecasts, predictive arrivals, port-congestion analytics, sea-lane routing, reverse geocoding, and fleet management endpoints that power the public marinetraffic.com map and the Kpler maritime data services. Data is sourced from 13,000+ terrestrial AIS receivers plus satellite AIS, served as REST/JSON (with CSV / XML / JSONO alternatives), authenticated via a per-key prepaid credit balance, and metered in credits per response row with per-service refresh-interval caching.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marine-traffic/refs/heads/main/screenshots/marine-traffic-2026-06-20T184946.png",
-     "score": 45.5,
+     "score": 44.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -216,8 +261,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -232,51 +277,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 5
-    },
-    {
-     "name": "Nortech",
-     "slug": "nortech",
-     "description": "Nortech AI is an industrial IoT and operational-data infrastructure company (Bergen, Norway and Lisbon, Portugal) serving the maritime market and other asset-heavy industries. Its edge-plus-cloud platform extracts high-frequency data directly from industrial machinery, equipment and control systems — across vendors, protocols and equipment age — and structures it into trustworthy, contextualized signals for data-driven decision-making. The Nortech Cloud API exposes a Metadata API (workspaces, assets, divisions, units, signals), a Signal Data API (historical, live and import) and a Deriver API for computed virtual signals, plus an MQTT live-data stream.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png",
-     "score": 44.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 64.9,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 58.9,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 27.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -306,8 +306,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -334,6 +334,51 @@
      "rank": 7
     },
     {
+     "name": "Nortech",
+     "slug": "nortech",
+     "description": "Nortech AI is an industrial IoT and operational-data infrastructure company (Bergen, Norway and Lisbon, Portugal) serving the maritime market and other asset-heavy industries. Its edge-plus-cloud platform extracts high-frequency data directly from industrial machinery, equipment and control systems — across vendors, protocols and equipment age — and structures it into trustworthy, contextualized signals for data-driven decision-making. The Nortech Cloud API exposes a Metadata API (workspaces, assets, divisions, units, signals), a Signal Data API (historical, live and import) and a Deriver API for computed virtual signals, plus an MQTT live-data stream.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nortech/refs/heads/main/screenshots/nortech-2026-08-07T185521.png",
+     "score": 44.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 64.9,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 58.9,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 27.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 8
+    },
+    {
      "name": "Navis (Kaleris)",
      "slug": "navis",
      "description": "Navis (now operated by Kaleris) provides terminal operating systems and supply chain software for the maritime and intermodal industries. The flagship N4 product offers APIs for container tracking, vessel planning, berth scheduling, yard management, and gate operations, serving 650+ organizations across 95+ countries.",
@@ -351,8 +396,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -376,14 +421,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Starlink",
      "slug": "starlink",
      "description": "Starlink is the low-Earth-orbit satellite internet constellation operated by SpaceX from Hawthorne, California, delivering broadband and non-terrestrial connectivity to residential, business, maritime, aviation, and government customers in the United States and roughly a hundred other markets. In the telecom value chain Starlink is an access-network operator that sells connectivity directly to end customers and wholesales capacity to airlines, shipping lines, and mobile network operators, rather than a CPaaS aggregator or a GSMA-affiliated mobile network operator. Its API posture is unusually open for an access provider and unusually narrow in scope. The Starlink Public API V2 is fully documented in public at starlink.readme.io, its OpenAPI 3.0.4 description is downloadable anonymously from starlink.com with no login, and SpaceX publishes an official gRPC protobuf for the local device API on GitHub. But the API is operational rather than developer-product, covering account, service line, user terminal, router, billing, and telemetry management, and credentials are gated behind an enterprise or business Starlink account whose admin must mint a V2 service account. No CAMARA implementation, no GSMA Open Gateway participation, and no TM Forum Open API conformance was found anywhere in Starlink's published material.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/starlink/refs/heads/main/screenshots/starlink-2026-08-17T082120.png",
-     "score": 43.0,
+     "score": 42.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -396,8 +441,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -428,14 +473,14 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Tomorrow.io",
      "slug": "tomorrow",
      "description": "Tomorrow.io is a weather and climate intelligence platform exposing a unified v4 HTTP API. The API combines real-time observations, hyperlocal forecast timelines (minutely / hourly / daily), 20+ years of historical data, climate normals, weather-on-routes, configurable insights and event detection, per-location alerts with webhook delivery, and raster map tiles. 60+ data layers cover core weather, air quality, pollen, fire, flood, soil, solar, aviation, maritime, and lightning.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tomorrow/refs/heads/main/screenshots/tomorrow-2026-06-20T195446.png",
-     "score": 40.6,
+     "score": 39.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -448,8 +493,8 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -473,16 +518,27 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
-    },
+     "rank": 11
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 12,
+   "shown": 12,
+   "providers": [
     {
      "name": "Kpler",
      "slug": "kpler",
      "description": "Kpler is a commodities intelligence and maritime data platform that tracks cargoes, vessels, and trade flows across oil, refined products, LNG, LPG, and dry bulk markets. Kpler owns MarineTraffic and FleetMon (acquired 2023) and acquired Spire's maritime AIS business (2025), giving it one of the largest terrestrial and satellite AIS vessel tracking networks in the world. Its Direct Access REST APIs deliver trades, flows, vessels, port calls, freight metrics, and inventories per commodity platform, while MarineTraffic APIs deliver live vessel positions, port calls, voyages, and vessel particulars. API access is customer-gated behind an enterprise subscription, but the documentation, Python SDK, and endpoint surface are publicly published.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kpler/refs/heads/main/screenshots/kpler-2026-07-25T224256.png",
-     "score": 39.9,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 55.8,
@@ -493,8 +549,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -525,16 +581,16 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Sinay",
      "slug": "sinay",
      "description": "Sinay is a maritime data and analytics company whose Developers Platform exposes a marketplace of REST APIs for the shipping and ocean-tech industry - vessel and port lookup from combined satellite and terrestrial AIS, metocean (weather and ocean) conditions, per-voyage CO2 emissions modeled on the GLEC Framework, ETA prediction, live port congestion, sailing schedules, and underwater noise. Every API is called over HTTPS at api.sinay.ai, authenticated with a single API_KEY header, and metered as monthly API units / credits with a free developer key to start.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sinay/refs/heads/main/screenshots/sinay-2026-09-02T155607.png",
-     "score": 39.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 55.9,
@@ -545,8 +601,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -561,62 +617,6 @@
       "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 11,
-   "shown": 11,
-   "providers": [
-    {
-     "name": "SERTICA",
-     "slug": "sertica",
-     "description": "SERTICA is a maritime fleet and ship management system from RINA (originally built by Logimatic in Denmark, first code written in 1989), used to run planned maintenance, procurement, HSQE, crewing, performance, logbooks and vessel reporting across a fleet. It is deployed as a per-customer site rather than a shared multi-tenant service, and it publishes a genuinely large machine-readable contract: the SERTICA Web API is an OpenAPI 3.0.4 document with 2,743 paths, 3,340 operations and 1,104 schemas, served publicly at https://docs.sertica.com/api/swagger/v1/swagger.json and browsable in a live Swagger UI. It is a REST/JSON API authenticated with a 24-hour JWT obtained by posting a SERTICA user login to /Auth, with authorization expressed as per-user SERTICA user rights rather than OAuth scopes. Beyond CRUD it carries the statutory maritime surface - MARPOL Oil, Garbage and Ballast Water electronic record books with signing and printout operations, SFI-coded components, ISM management-system documents, and PunchOut/ShipServ procurement integration.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sertica/refs/heads/main/screenshots/sertica-2026-06-20T193727.png",
-     "score": 39.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 51.4,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 18.4,
-      "access_clarity": 18.4
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 27.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
@@ -646,8 +646,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -691,8 +691,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -723,7 +723,7 @@
      "slug": "sedna",
      "description": "SEDNA is the operating system for shipping — a communications and workflow platform that unifies email, voyage and trade operations, and document handling for maritime, commodity trading and logistics teams. Its API (version 2019-01-01) exposes messages, contacts, teams, users, job references, category tags, events and workflows over a JSON:API-style REST interface secured with OAuth 2.0 client-credentials, letting developers automate inbox routing, tagging, subscriptions and third-party integrations. Backed by Insight Partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sedna/refs/heads/main/screenshots/sedna-2026-09-02T154729.png",
-     "score": 37.4,
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -736,8 +736,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 35.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -768,7 +768,7 @@
      "slug": "port-community-systems",
      "description": "Port Community Systems (PCS) are neutral and open electronic platforms enabling intelligent and secure exchange of information between public and private stakeholders to optimise, manage, and automate efficient port and logistics processes through a single submission of data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/screenshots/port-community-systems-2026-06-20T191927.png",
-     "score": 37.0,
+     "score": 36.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -781,8 +781,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -813,7 +813,7 @@
      "slug": "datalastic",
      "description": "Datalastic is a maritime data API providing real-time AIS vessel tracking, historical ship movements, vessel specifications, and global port data over a simple REST interface. A database of 750,000+ ships is queryable by MMSI, IMO, or UUID for live position, speed, course, heading, destination, and ETA, plus zone traffic monitoring around any coordinate or port, up to 31 days of historical track per request, vessel and port finder search, and asynchronous bulk reports. Access is subscription-based with a monthly credit model and api-key authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/screenshots/datalastic-2026-07-25T211330.png",
-     "score": 36.8,
+     "score": 36.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -826,8 +826,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -871,8 +871,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -903,7 +903,7 @@
      "slug": "cargosmart",
      "description": "CargoSmart (now operating as IQAX) is a global shipment management software provider that gives shippers, consignees, freight forwarders, and logistics service providers ocean freight booking, container tracking, vessel scheduling, and shipping documentation tools across multiple ocean carriers. CargoSmart co-founded the Global Shipping Business Network (GSBN), a blockchain-based data exchange for carriers, terminals, banks, and customs authorities, and exposes its APIs so trading partners can embed booking, visibility, schedule, and documentation workflows directly into TMS, ERP, and supply-chain platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/screenshots/cargosmart-2026-06-20T174010.png",
-     "score": 34.7,
+     "score": 34.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -916,8 +916,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -961,8 +961,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1005,8 +1005,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1044,7 +1044,7 @@
      "slug": "saildrone",
      "description": "Saildrone is an Alameda, California maritime autonomy company that designs, manufactures, and operates a global fleet of wind/solar-powered autonomous surface vehicles (USVs) for ocean science, maritime domain awareness, and defense applications. Founded in 2012 by Richard Jenkins, the company runs four USV classes — Explorer (23ft, environmental sensing), Voyager (33ft, MDA and counter-narcotics), Surveyor (65ft, deep-ocean bathymetric mapping), and the newer Spectre (ISR / anti-submarine warfare / kinetic payloads). Saildrone has logged over 2.5M nautical miles and 65,000 days at sea across customers including NOAA PMEL, NOAA SWFSC, the US Navy (Task Force 59), NASA, EUMETSAT, BOEM, and Lockheed Martin (which invested $50M in October 2025). Saildrone delivers data through two product surfaces — the Saildrone Mission Portal (secure web app for tasking and live multi-INT visualization) and the Saildrone Public Mission API (BETA) at developer-mission.saildrone.com, which exposes key/secret authenticated endpoints for health, drone access discovery, and time-series retrieval across vehicle, atmospheric, oceanographic, and biogeochemical datasets. Open ocean data from past missions is published via NOAA PMEL ERDDAP and NCEI under open-data terms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/saildrone/refs/heads/main/screenshots/saildrone-2026-06-20T193333.png",
-     "score": 28.2,
+     "score": 27.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -1057,8 +1057,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1113,8 +1113,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1158,8 +1158,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1193,51 +1193,6 @@
      "rank": 25
     },
     {
-     "name": "Searoutes",
-     "slug": "searoutes",
-     "description": "Searoutes is a maritime routing and carbon-emissions API platform for logistics, freight forwarding, and supply-chain teams. Its REST APIs compute point-to-point, port-to-point, and port-to-port sea routes with distances and durations (including SECA, HRA, and ice-area avoidance), geocode ports, airports, and places, calculate multimodal CO2e emissions (sea, road, rail, air, inland waterway) using a GLEC-accredited methodology, track vessels via AIS (positions, ETAs, traces, arrivals), look up carriers and services, and return historical, real-time, and forecasted weather along routes. All APIs are served from https://api.searoutes.com and authenticated with an x-api-key header.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/screenshots/searoutes-2026-09-02T154638.png",
-     "score": 24.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 26
-    },
-    {
      "name": "Sea Machines Robotics",
      "slug": "sea-machines",
      "description": "Sea Machines Robotics builds autonomous command-and-control systems (SM300-SP, SM300-NG) and computer-vision perception (AI-ris) for commercial and defense marine vessels. In September 2025 it announced the SMLink Streaming-API and SMLink Control-API, partner-gated interfaces that stream real-time vessel telemetry to external systems and let approved third parties command SM300 autonomy functions from their own mission software. These interfaces are embedded, vessel-side product features, not a self-service public developer platform; access is arranged through Sea Machines sales.",
@@ -1255,8 +1210,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1280,7 +1235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Arundo Analytics",
@@ -1300,8 +1255,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1332,6 +1287,51 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
+     "rank": 27
+    },
+    {
+     "name": "Searoutes",
+     "slug": "searoutes",
+     "description": "Searoutes is a maritime routing and carbon-emissions API platform for logistics, freight forwarding, and supply-chain teams. Its REST APIs compute point-to-point, port-to-point, and port-to-port sea routes with distances and durations (including SECA, HRA, and ice-area avoidance), geocode ports, airports, and places, calculate multimodal CO2e emissions (sea, road, rail, air, inland waterway) using a GLEC-accredited methodology, track vessels via AIS (positions, ETAs, traces, arrivals), look up carriers and services, and return historical, real-time, and forecasted weather along routes. All APIs are served from https://api.searoutes.com and authenticated with an x-api-key header.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/screenshots/searoutes-2026-09-02T154638.png",
+     "score": 23.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 23.8,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 28
     },
     {
@@ -1339,7 +1339,7 @@
      "slug": "fleetmon",
      "description": "FleetMon was a Rostock, Germany based vessel tracking and maritime data provider (founded 2007) that operated one of the world's largest terrestrial AIS receiver networks and a documented REST API (apiv2.fleetmon.com) for vessel search, live and historical AIS positions, port calls, expected arrivals, ETA and voyage planning. Kpler acquired FleetMon alongside MarineTraffic in 2023, the FleetMon platform and API were phased out from January 2024 and migrated into MarineTraffic, and in September 2025 the combined AIS assets were unified under the Kpler AIS brand. As of 2026 the fleetmon.com domain, developer portal, and API no longer resolve - this entry preserves the final archived API surface and points to the Kpler / MarineTraffic successor services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fleetmon/refs/heads/main/screenshots/fleetmon-2026-07-25T214742.png",
-     "score": 22.2,
+     "score": 21.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -1352,8 +1352,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1397,8 +1397,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1442,8 +1442,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1487,8 +1487,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1539,8 +1539,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1584,8 +1584,8 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1636,8 +1636,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1681,8 +1681,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1733,8 +1733,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1777,8 +1777,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1829,8 +1829,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1884,8 +1884,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1936,8 +1936,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1981,8 +1981,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2026,8 +2026,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2071,8 +2071,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2115,8 +2115,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2160,8 +2160,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2205,8 +2205,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2250,8 +2250,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2295,8 +2295,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2340,8 +2340,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2385,8 +2385,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2430,8 +2430,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2475,8 +2475,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2520,8 +2520,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2565,8 +2565,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2610,8 +2610,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2654,8 +2654,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2699,8 +2699,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2744,8 +2744,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2789,8 +2789,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2833,8 +2833,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2878,8 +2878,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2923,8 +2923,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2968,8 +2968,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3013,8 +3013,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3065,8 +3065,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3117,8 +3117,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3169,8 +3169,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"

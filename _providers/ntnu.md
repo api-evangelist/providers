@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: 'NTNU runs its own Open Journal Systems installation, "NTNU Open Access Journals", on its own registrable domain at www.ntnu.no/ojs, publishing sixteen journals including Nordic Journal of Science and '
@@ -236,9 +236,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 57.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntnu/refs/heads/main/screenshots/ntnu-2026-06-20T190500.png
 security:
 - kind: domain-security

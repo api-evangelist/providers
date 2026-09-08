@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The CrateDB Cloud REST API manages CrateDB Cloud resources — organizations, regions, projects, clusters, products, users, roles, subscriptions, and audit logs. Authentication uses HTTP Basic auth with
@@ -45,6 +45,10 @@ apis:
   slug: cratedb-http-sql-endpoint
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cratedb.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -176,7 +180,7 @@ network: true
 overview: 'Crate Io publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, SQL, Distributed Database, and Analytics.
 
 
-  Crate Io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  Crate Io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 random_paper: 11
 score:
   band: thin
@@ -202,9 +206,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/crate-io/refs/heads/main/screenshots/crate-io-2026-07-25T210645.png
 security:
 - kind: authentication
@@ -235,5 +243,5 @@ tags:
 - IoT
 - Cloud
 - Developer Tools
-website: https://console.cratedb.cloud/
+website: https://www.cratedb.com/
 ---

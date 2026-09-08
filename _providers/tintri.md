@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Tintri REST API (version v310.91, mapping to TXOS 4.5 and Tintri Global Center 4.1+) runs on each VMstore appliance and TGC instance. It is session-authenticated (POST /api/v310/session/login with
@@ -178,9 +178,13 @@ score:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tintri/refs/heads/main/screenshots/tintri-2026-09-02T163809.png
 security:
 - kind: authentication

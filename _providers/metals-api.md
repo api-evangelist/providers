@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,6 +86,10 @@ collections:
   name: Metals-API
   slug: open-metals-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.metals-api.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -129,7 +133,7 @@ network: true
 overview: 'Metals-API publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Analytics API, Conversion API, Rates API, and 1 more. Tagged areas include Currency, Financial Data, Gold, Precious Metals, and Silver.
 
 
-  Metals-API''s developer surface includes authentication, developer portal, pricing, signup flow, and 3 more developer resources.'
+  Metals-API''s developer surface includes authentication, developer portal, pricing, signup flow, and 4 more developer resources.'
 plans:
 - name: Metals Api Plans Pricing
   plan_count: 3
@@ -167,9 +171,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/metals-api/refs/heads/main/screenshots/metals-api-2026-06-20T185245.png
 security:
 - kind: authentication
@@ -187,5 +195,5 @@ tags:
 - Gold
 - Precious Metals
 - Silver
-website: https://metals-api.com/
+website: https://www.metals-api.com/
 ---

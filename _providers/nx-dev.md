@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: The Nx command-line interface — the primary surface for running, caching, and orchestrating tasks across a monorepo. Built in Rust for performance and extensible via TypeScript plugins. Supports `nx r
@@ -67,6 +67,10 @@ apis:
   slug: nx-mcp
 artifact_total: 33
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nx.dev/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -245,7 +249,7 @@ network: true
 overview: 'Nx publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Monorepo, Builds, Build System, TaskRunner, and Dependency-Graph.
 
 
-  Nx''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, and 29 more developer resources.'
+  Nx''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, pricing, signup flow, and 30 more developer resources.'
 random_paper: 6
 score:
   band: emerging
@@ -268,9 +272,13 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 25.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nx-dev/refs/heads/main/screenshots/nx-dev-2026-08-07T185821.png
 security:
 - kind: domain-security
@@ -298,5 +306,5 @@ tags:
 - JavaScript
 - Rust
 - Open-Source
-website: https://nx.dev
+website: https://www.nx.dev/
 ---

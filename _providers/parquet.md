@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: The core specification for the Parquet columnar storage format.
@@ -56,6 +56,10 @@ apis:
   slug: fastparquet
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -111,7 +115,7 @@ network: true
 overview: 'Apache Parquet publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Big Data, Columnar Storage, Data Format, and Parquet.
 
 
-  Apache Parquet''s developer surface includes engineering blog and 9 more developer resources.'
+  Apache Parquet''s developer surface includes engineering blog and 10 more developer resources.'
 plans:
 - name: Parquet Plans Pricing
   plan_count: 3
@@ -142,9 +146,13 @@ score:
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 18.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/parquet/refs/heads/main/screenshots/parquet-2026-06-20T191417.png
 security:
 - kind: domain-security
@@ -162,4 +170,5 @@ tags:
 - Columnar Storage
 - Data Format
 - Parquet
+website: https://www.apache.org/
 ---

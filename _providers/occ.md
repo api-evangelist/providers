@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Search for Community Reinvestment Act (CRA), enforcement, and institution data for OCC-regulated national banks, federal savings associations, and federal branches and agencies of foreign banking orga
@@ -159,9 +159,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/occ/refs/heads/main/screenshots/occ-2026-06-20T190555.png
 security:
 - kind: domain-security

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Apache Beam SDK provides the programming model for constructing data processing pipelines. Available in Java, Python, and Go, it provides PCollections, PTransforms, and Runners for batch and strea
@@ -44,6 +44,10 @@ apis:
   slug: apache-beam-job-service
 artifact_total: 30
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -175,7 +179,7 @@ network: true
 overview: 'Apache Beam publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Batch Processing, Data Pipeline, ETL, and Open-Source.
 
 
-  Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 15 more developer resources.'
+  Apache Beam''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 16 more developer resources.'
 plans:
 - name: Apache Beam Plans Pricing
   plan_count: 3
@@ -209,9 +213,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 29.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-beam/refs/heads/main/screenshots/apache-beam-2026-06-20T172044.png
 security:
 - kind: domain-security
@@ -245,4 +253,5 @@ use_cases:
   name: Log and Event Processing
 - description: Migrate data between cloud providers and storage systems using Beam's portable I/O connectors.
   name: Data Migration
+website: https://www.apache.org/
 ---

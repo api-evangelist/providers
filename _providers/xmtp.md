@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: Core gRPC-based API for the XMTP decentralized messaging network. Provides operations for sending and retrieving encrypted group messages, managing MLS key packages, publishing identity updates, and s
@@ -59,6 +59,10 @@ apis:
   slug: xmtp-app-chain-rpc-api
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.xmtp.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -134,7 +138,7 @@ network: true
 overview: 'XMTP publishes 1 API on the [APIs.io](https://apis.io/) network: Network gRPC API. Tagged areas include Web3, Messaging, Encryption, Decentralized, and Ethereum.
 
 
-  XMTP''s developer surface includes GitHub presence, engineering blog, status page, and 12 more developer resources.'
+  XMTP''s developer surface includes GitHub presence, engineering blog, status page, and 13 more developer resources.'
 plans:
 - name: Plans
   plan_count: 3
@@ -171,9 +175,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 21.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/xmtp/refs/heads/main/screenshots/xmtp-2026-06-20T201710.png
 security:
 - kind: domain-security
@@ -190,5 +198,5 @@ tags:
 - MLS
 - Wallets
 - Agents
-website: https://xmtp.org
+website: https://www.xmtp.org/
 ---

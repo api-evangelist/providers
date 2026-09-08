@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'REST API (apiv2) for searching and retrieving log events: initiate a search to get an RSID, then page results via the events/iterate endpoints, enumerate indexed fields with the fields/facet API, and '
@@ -45,6 +45,10 @@ apis:
   slug: loggly-https-event-endpoint
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.solarwinds.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -168,7 +172,7 @@ network: true
 overview: 'Loggly publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Logging, Log Management, and Observability.
 
 
-  Loggly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
+  Loggly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -194,9 +198,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/loggly/refs/heads/main/screenshots/loggly-2026-07-25T225459.png
 security:
 - kind: authentication
@@ -226,5 +234,5 @@ tags:
 - DevOps
 - Analytics
 - Software-as-a-Service
-website: https://documentation.solarwinds.com/en/success_center/loggly/content/loggly-documentation.htm
+website: https://www.solarwinds.com/
 ---

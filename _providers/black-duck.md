@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for Black Duck SCA (Hub) — projects, versions, components, vulnerabilities, policies, scans, and reports. Each Black Duck server publishes its own OpenAPI 3 document at /api-doc/openapi3-publ
@@ -42,6 +42,10 @@ apis:
   slug: black-duck-sca-rest-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.blackduck.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -157,7 +161,7 @@ network: true
 overview: 'Black Duck publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Application Security, Software Composition Analysis, and SAST.
 
 
-  Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
+  Black Duck''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
 random_paper: 11
 score:
   band: thin
@@ -182,9 +186,13 @@ score:
   previous_composite: 33.7
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck/refs/heads/main/screenshots/black-duck-2026-07-25T203232.png
 security:
 - kind: authentication
@@ -214,5 +222,5 @@ tags:
 - Open Source Security
 - DevSecOps
 - Vulnerability Management
-website: https://documentation.blackduck.com/
+website: https://www.blackduck.com/
 ---

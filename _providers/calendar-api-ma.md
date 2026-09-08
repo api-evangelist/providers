@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - baseURL: https://calendar-api.ma
@@ -56,6 +56,10 @@ apis:
   slug: calendar-api-ma-misc-api
 artifact_total: 7
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.calendar-api.ma/
 - group: other
   title: ''
   type: Overlay
@@ -176,7 +180,7 @@ network: true
 overview: 'API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python publishes 3 APIs on the [APIs.io](https://apis.io/) network: Business Days API, Holidays API, and Misc API. Tagged areas include Holidays, Morocco, Calendar, Business Days, and date-utilities.
 
 
-  API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 20 more developer resources.'
+  API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 21 more developer resources.'
 plans:
 - name: Calendar Api Ma Plans Pricing
   plan_count: 1
@@ -227,9 +231,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 28.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/screenshots/calendar-api-ma-2026-09-02T145004.png
 security:
 - kind: authentication
@@ -254,5 +262,5 @@ tags:
 - Reference Data
 - Public Holidays
 - Scheduling
-website: https://calendar-api.ma
+website: https://www.calendar-api.ma/
 ---

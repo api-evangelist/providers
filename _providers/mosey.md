@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -145,6 +145,10 @@ collections:
   name: Mosey Accounts Tasks API
   slug: open-mosey-tasks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mosey.com/
 - group: other
   title: ''
   type: ParentCompany
@@ -248,11 +252,11 @@ network: true
 overview: 'Mosey publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Agency Accounts API, Auth API, and 9 more. Tagged areas include Company, Compliance, Regulatory Technology, State Compliance, and Tax.
 
 
-  Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
+  Mosey''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 11
 score:
   band: thin
-  composite: 36.8
+  composite: 36.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 40.0
@@ -260,7 +264,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -281,9 +285,12 @@ score:
       total: 12
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosey/refs/heads/main/screenshots/mosey-2026-08-07T184318.png
 security:
 - kind: authentication
@@ -304,5 +311,5 @@ tags:
 - Payroll
 - HR
 - Business Operations
-website: https://docs.mosey.com
+website: https://www.mosey.com/
 ---

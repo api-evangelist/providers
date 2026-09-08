@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Publicly reachable GraphQL endpoint served by the Craft CMS instance behind level.co. Introspection is enabled anonymously, but the published public schema scope is deliberately narrow — a `ping` quer
@@ -182,9 +182,13 @@ score:
   previous_composite: 30.0
   provenance:
     conformance: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/level-home/refs/heads/main/screenshots/level-home-2026-08-07T171558.png
 security:
 - kind: authentication

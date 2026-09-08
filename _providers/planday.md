@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Planday's REST API secured by OAuth2 bearer tokens, separated into domains (HR, Absence, Pay, Payroll, Portal, Punchclock, Reports, Revenue, Schedule, Contract Rules, Security Group Membership). Reque
@@ -41,6 +41,10 @@ apis:
   slug: planday-api
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.planday.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -148,7 +152,7 @@ network: true
 overview: 'Planday publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software-as-a-Service, Workforce Management, Scheduling, and Time Tracking.
 
 
-  Planday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 17 more developer resources.'
+  Planday''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
 random_paper: 10
 scopes:
 - name: Planday Scopes
@@ -179,9 +183,13 @@ score:
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/planday/refs/heads/main/screenshots/planday-2026-09-02T151402.png
 security:
 - kind: authentication
@@ -205,5 +213,5 @@ tags:
 - Retail
 - REST
 - Authentication
-website: https://openapi.planday.com/
+website: https://www.planday.com/
 ---

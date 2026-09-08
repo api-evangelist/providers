@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: WebSocket API for AI image inference powered by the RunWare / DiffusionMaster platform. Supports text-to-image and image-to-image generation, model / LoRA selection, ControlNet, inpainting, outpaintin
@@ -42,6 +42,10 @@ apis:
   slug: picfinder-image-inference-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.picfinder.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -117,7 +121,7 @@ network: true
 overview: 'PicFinder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, Image-Generation, and Generative AI.
 
 
-  PicFinder''s developer surface includes documentation, API reference, signup flow, support, authentication, and 11 more developer resources.'
+  PicFinder''s developer surface includes documentation, API reference, signup flow, support, authentication, and 12 more developer resources.'
 random_paper: 3
 score:
   band: emerging
@@ -142,9 +146,13 @@ score:
   previous_composite: 19.7
   provenance:
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/picfinder/refs/heads/main/screenshots/picfinder-2026-09-02T151219.png
 security:
 - kind: authentication
@@ -167,5 +175,5 @@ tags:
 - Developer Tools
 - SDK
 - WebSocket
-website: https://picfinder.ai/support
+website: https://www.picfinder.ai/
 ---

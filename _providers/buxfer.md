@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://www.buxfer.com/api
@@ -83,6 +83,10 @@ collections:
   name: Buxfer Accounts Transactions API
   slug: open-buxfer-transactions-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.buxfer.com/
 - group: other
   title: ''
   type: Overlay
@@ -190,11 +194,11 @@ network: true
 overview: 'Buxfer publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Accounts API, Authentication API, Organization API, and 2 more. Tagged areas include Company, Personal Finance, Money Management, Budgeting, and Banking.
 
 
-  Buxfer''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
+  Buxfer''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
 random_paper: 1
 score:
   band: thin
-  composite: 34.0
+  composite: 33.3
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -202,7 +206,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
@@ -228,9 +232,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 38.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:
 - kind: authentication
@@ -257,5 +264,5 @@ tags:
 - Transaction
 - Investments
 - Expense Tracking
-website: https://www.buxfer.com/help/api
+website: https://www.buxfer.com/
 ---

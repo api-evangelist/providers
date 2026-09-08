@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -109,6 +109,10 @@ collections:
   name: USPTO Trademark Search API
   slug: open-uspto-trademark-search-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rapidapi.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -225,7 +229,7 @@ overview: 'USPTO Trademark Search API publishes 5 APIs on the [APIs.io](https://
   The USPTO Trademark Search API catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  USPTO Trademark Search API''s developer surface includes authentication, signup flow, documentation, pricing, FAQ, engineering blog, and 12 more developer resources.'
+  USPTO Trademark Search API''s developer surface includes authentication, signup flow, documentation, pricing, FAQ, engineering blog, and 13 more developer resources.'
 plans:
 - name: Uspto Trademark Search Api Plans Pricing
   plan_count: 3
@@ -291,9 +295,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 38.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:
 - kind: authentication
@@ -316,4 +324,5 @@ tags:
 - Search
 - Trademark
 - USPTO
+website: https://www.rapidapi.com/
 ---

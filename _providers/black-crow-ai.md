@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Live, versioned HTTP event-ingest API behind the Black Crow AI JavaScript tag. POST /v1/events/{event_name} accepts a JSON body identified by siteName, pageId and visitorId and carries the visit, purc
@@ -195,9 +195,13 @@ score:
   previous_composite: 29.3
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/black-crow-ai/refs/heads/main/screenshots/black-crow-ai-2026-07-25T203228.png
 security:
 - kind: authentication

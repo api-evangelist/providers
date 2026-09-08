@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -142,6 +142,10 @@ collections:
   name: Azure Log Analytics Ingestion Workspaces API
   slug: open-azure-log-analytics-workspaces-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: operate
   title: ''
   type: IssueTracker
@@ -443,7 +447,7 @@ overview: 'Azure Log Analytics publishes 5 APIs on the [APIs.io](https://apis.io
   The Azure Log Analytics catalog on APIs.io includes 3 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Azure Log Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 38 more developer resources.'
+  Azure Log Analytics'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, support, engineering blog, and 39 more developer resources.'
 plans:
 - name: Azure Log Analytics Plans Pricing
   plan_count: 4
@@ -482,7 +486,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: strong
-  composite: 55.8
+  composite: 57.4
   coverage:
     artifact_dirs: 19
     catalog_earned: 79.5
@@ -490,7 +494,7 @@ score:
     catalog_gap: 35.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.6
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -511,9 +515,12 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-log-analytics/refs/heads/main/screenshots/azure-log-analytics-2026-07-25T202128.png
 security:
 - kind: authentication
@@ -544,5 +551,5 @@ use_cases:
   name: Custom Data Integration
 - description: Analyze resource usage patterns and log data to identify cost-saving opportunities across Azure deployments.
   name: Cost Optimization
-website: https://portal.azure.com/
+website: https://www.microsoft.com/
 ---

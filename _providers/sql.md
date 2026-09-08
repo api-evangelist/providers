@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Open Database Connectivity (ODBC) is a standard C-language API for accessing database management systems. ODBC allows applications to connect to any ODBC-compliant database using a unified programming
@@ -157,9 +157,13 @@ score:
     governance: 25.0
     operational_transparency: 7.9
   previous_composite: 17.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sql/refs/heads/main/screenshots/sql-2026-06-20T194425.png
 slug: sql
 tags:

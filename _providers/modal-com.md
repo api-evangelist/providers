@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -214,6 +214,10 @@ collections:
   name: Modal Web Endpoints API
   slug: open-modal-web-endpoints
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.modal.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -510,7 +514,7 @@ overview: 'Modal publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
   The Modal catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Modal''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, engineering blog, changelog, and 52 more developer resources.'
+  Modal''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, engineering blog, changelog, and 53 more developer resources.'
 plans:
 - name: Modal Plans Pricing
   plan_count: 3
@@ -544,7 +548,7 @@ rules:
   slug: modal-rules
 score:
   band: strong
-  composite: 65.1
+  composite: 64.4
   coverage:
     artifact_dirs: 15
     catalog_earned: 86.5
@@ -552,7 +556,7 @@ score:
     catalog_gap: 28.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 92.1
     commercial_clarity: 92.1
@@ -570,9 +574,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal-com/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:
 - kind: authentication
@@ -596,5 +603,5 @@ tags:
 - Python
 - TypeScript
 - Go
-website: https://modal.com
+website: https://www.modal.com/
 ---

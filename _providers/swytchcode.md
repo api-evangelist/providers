@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Swytchcode''s publicly consumable surfaces: developer documentation and a published llms.txt. The primary interface is an npm-installable CLI (`swy`) plus a local MCP server (stdio/localhost, not a hos'
@@ -41,6 +41,10 @@ apis:
   slug: swytchcode-documentation-agent-surfaces
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.swytchcode.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -152,7 +156,7 @@ network: true
 overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include AI / Agent Tooling, agentic middleware, API Integration, API Orchestration, and API execution layer.
 
 
-  Swytchcode''s developer surface includes CLI, authentication, changelog, sandbox, pricing, getting-started guide, API reference, and 17 more developer resources.'
+  Swytchcode''s developer surface includes CLI, authentication, changelog, sandbox, pricing, getting-started guide, API reference, and 18 more developer resources.'
 plans:
 - name: Swytchcode Plans Pricing
   plan_count: 3
@@ -186,9 +190,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/swytchcode/refs/heads/main/screenshots/swytchcode-2026-09-02T161429.png
 security:
 - kind: authentication
@@ -211,4 +219,5 @@ tags:
 - Developer Tools
 - API Documentation
 - API playground
+website: https://www.swytchcode.com/
 ---

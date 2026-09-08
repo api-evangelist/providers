@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -97,6 +97,10 @@ collections:
   name: Workday Business Process API
   slug: open-workday-business-processes
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.workday.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -246,7 +250,7 @@ overview: 'Workday Business Processes publishes 4 APIs on the [APIs.io](https://
   The Workday Business Processes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Workday Business Processes'' developer surface includes authentication, developer portal, getting-started guide, and 12 more developer resources.'
+  Workday Business Processes'' developer surface includes authentication, developer portal, getting-started guide, and 13 more developer resources.'
 plans:
 - name: Workday Business Processes Plans Pricing
   plan_count: 3
@@ -285,7 +289,7 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 37.4
+  composite: 36.7
   coverage:
     artifact_dirs: 17
     catalog_earned: 69.5
@@ -293,7 +297,7 @@ score:
     catalog_gap: 45.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -314,9 +318,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/screenshots/workday-business-processes-2026-06-20T201558.png
 security:
 - kind: authentication
@@ -332,5 +339,5 @@ security:
   slug: workday-business-processes-trust-center
   summary_line: SOC 2, ISO 27001, FedRAMP, GDPR
 slug: workday-business-processes
-website: https://community.workday.com
+website: https://www.workday.com/
 ---

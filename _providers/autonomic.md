@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Transportation Mobility Cloud (TMC) is Autonomic's API-driven connected-vehicle cloud platform, letting developers build applications that interact with vehicles across different models and connec
@@ -92,9 +92,13 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 5.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/autonomic/refs/heads/main/screenshots/autonomic-2026-07-25T201842.png
 security:
 - kind: domain-security

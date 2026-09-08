@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
@@ -52,15 +52,29 @@ common:
   title: ''
   type: Wikipedia
   url: https://en.wikipedia.org/wiki/Exelis_Inc.
+coverage:
+  checked: '2026-09-07'
+  detail: Exelis Inc. ceased to exist as a company when Harris Corporation acquired it in 2015 and folded it into L3Harris in 2019; exelis.com now answers only an unconfigured OVHcloud "Site not installed" 404 page that L3Harris does not operate, exelisvis.com no longer resolves at all, and exelisinc.com resolves but refuses connections, so there is no Exelis-brand host left on which an API could be published.
+  evidence:
+  - status: 404
+    url: https://exelis.com/
+  - status: 404
+    url: https://exelis.com/.well-known/security.txt
+  - status: 404
+    url: https://exelis.com/apis.json
+  - status: 404
+    url: https://www.l3harris.com/.well-known/api-catalog
+  reason: defunct
+  state: none
 created: '2026-03-24'
 description: Exelis Inc. was an American global aerospace, defense, information, and services company that produced communications systems, electronic warfare products, geospatial systems, integrated structures, and night vision equipment. Headquartered in McLean, Virginia, Exelis was acquired by Harris Corporation in 2015. Harris and L3 Technologies then merged in 2019 to form L3Harris Technologies. No public APIs are published under the Exelis brand; developer resources, if any, are tracked under L3Harris.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/exelis.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-07'
 name: Exelis
 nav: Providers
 network: true
-overview: Exelis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Acquired, and L3Harris.
+overview: Exelis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aerospace, Defense, Acquired, L3Harris, and Electronic Warfare.
 press:
 - date: '2026-05-25'
   title: Generative Artificial Intelligence in the DoD Acquisition ...
@@ -80,22 +94,22 @@ press:
 random_paper: 20
 score:
   band: minimal
-  composite: 4.1
+  composite: 3.4
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 22.0
+    artifact_dirs: 6
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 0.0
     commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   jurisdiction:
@@ -104,9 +118,19 @@ score:
     regions:
     - north-america
   previous_composite: 4.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Government & Public Sector
+    regime_id: government
+    score: 11.1
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/exelis/refs/heads/main/screenshots/exelis-2026-06-20T180930.png
 security:
 - kind: domain-security
@@ -119,5 +143,10 @@ tags:
 - Defense
 - Acquired
 - L3Harris
+- Electronic Warfare
+- Geospatial
+- Night Vision
+- Government
+- Defunct
 website: https://www.l3harris.com
 ---

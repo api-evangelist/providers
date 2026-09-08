@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: 'Apache Ant provides a Java library and command-line tool for automating build processes through XML-based build files. It supports compilation, testing, packaging, and deployment of Java and non-Java '
@@ -44,6 +44,10 @@ apis:
   slug: apache-ivy
 artifact_total: 28
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -151,7 +155,7 @@ network: true
 overview: 'Apache Ant publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Automation, Build Tools, CI/CD, and Java.
 
 
-  Apache Ant''s developer surface includes documentation, getting-started guide, FAQ, support, changelog, and 10 more developer resources.'
+  Apache Ant''s developer surface includes documentation, getting-started guide, FAQ, support, changelog, and 11 more developer resources.'
 plans:
 - name: Apache Ant Plans Pricing
   plan_count: 3
@@ -182,9 +186,13 @@ score:
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 24.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-ant/refs/heads/main/screenshots/apache-ant-2026-06-20T172039.png
 security:
 - kind: domain-security
@@ -217,4 +225,5 @@ use_cases:
   name: Dependency Management with Ivy
 - description: Automate C/C++ or other non-Java project builds using Ant's exec and cc tasks.
   name: Non-Java Build Automation
+website: https://www.apache.org/
 ---

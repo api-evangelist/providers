@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.zerosettle.io/v1
@@ -140,6 +140,10 @@ collections:
   name: ZeroSettle IAP Cancel Flow User Offer API
   slug: open-zerosettle-user-offer-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.zerosettle.io/
 - group: agent
   title: ''
   type: X-MCPServerCandidate
@@ -259,11 +263,11 @@ network: true
 overview: 'ZeroSettle publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Cancel Flow API, Checkout API, Entitlements API, and 9 more. Tagged areas include Company, Payments, In-App Purchase, Subscription, and Merchant of Record.
 
 
-  ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 20 more developer resources.'
+  ZeroSettle''s developer surface includes authentication, changelog, sandbox, documentation, API reference, quickstart, signup flow, and 21 more developer resources.'
 random_paper: 13
 score:
   band: developing
-  composite: 48.7
+  composite: 48.0
   coverage:
     artifact_dirs: 18
     catalog_earned: 37.0
@@ -271,7 +275,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 38.2
     commercial_clarity: 38.2
@@ -297,9 +301,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/zerosettle/refs/heads/main/screenshots/zerosettle-2026-08-17T083101.png
 security:
 - kind: authentication
@@ -320,5 +327,5 @@ tags:
 - Billing
 - Mobile
 - Developer Tools
-website: https://docs.zerosettle.io
+website: https://www.zerosettle.io/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -79,6 +79,10 @@ collections:
   name: Axiom Ingest Controller API
   slug: open-axiom-controller
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.axiom.co/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -180,7 +184,7 @@ network: true
 overview: 'Axiom Controller publishes 3 APIs on the [APIs.io](https://apis.io/) network: Datasets API, Edge API, and Ingest API. Tagged areas include Analytics, Cloud-Native, Logging, Monitoring, and Observability.
 
 
-  Axiom Controller''s developer surface includes developer portal, authentication, engineering blog, pricing, documentation, getting-started guide, and 8 more developer resources.'
+  Axiom Controller''s developer surface includes developer portal, authentication, engineering blog, pricing, documentation, getting-started guide, and 9 more developer resources.'
 plans:
 - name: Axiom Controller Plans Pricing
   plan_count: 3
@@ -192,7 +196,7 @@ rate_limits:
   slug: axiom-controller-rate-limits
 score:
   band: thin
-  composite: 38.8
+  composite: 38.1
   coverage:
     artifact_dirs: 10
     catalog_earned: 49.0
@@ -200,7 +204,7 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 47.4
     commercial_clarity: 47.4
@@ -218,9 +222,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:
 - kind: domain-security
@@ -262,5 +269,5 @@ use_cases:
   name: Distributed Tracing
 - description: Analyze user behavior and business events stored as structured logs.
   name: Business Analytics
-website: https://axiom.co/
+website: https://www.axiom.co/
 ---

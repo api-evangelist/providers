@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic access to trigger AI-driven incident investigations, poll investigation status and results, and read/update hierarchical team configuration. Authenticated with team or admin bearer tokens
@@ -47,6 +47,10 @@ asyncapis:
   name: Brownie Webhooks
   slug: brownie-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.incidentfox.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -169,7 +173,7 @@ overview: 'IncidentFox (Brownie) publishes 1 API on the [APIs.io](https://apis.i
   The IncidentFox (Brownie) catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  IncidentFox (Brownie)''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, signup flow, authentication, and 20 more developer resources.'
+  IncidentFox (Brownie)''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, signup flow, authentication, and 21 more developer resources.'
 random_paper: 2
 rate_limits:
 - limit_count: 3
@@ -200,9 +204,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png
 security:
 - kind: authentication
@@ -233,5 +241,5 @@ tags:
 - Developer Tools
 - Automation
 - Open-Source
-website: https://docs.incidentfox.ai/
+website: https://www.incidentfox.ai/
 ---

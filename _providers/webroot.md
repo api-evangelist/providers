@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST/JSON management API for the Webroot platform. Authenticate once via OAuth2 at /auth/token, then call /service/api resources with a bearer token to provision and update product licenses, place and
@@ -137,9 +137,13 @@ score:
   previous_composite: 24.4
   provenance:
     conformance: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/webroot/refs/heads/main/screenshots/webroot-2026-09-02T170533.png
 security:
 - kind: authentication

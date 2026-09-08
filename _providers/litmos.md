@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: RESTful API for the Litmos learning management system enabling management of users, teams, courses, learning paths, enrollments, assessments, and completion records. Supports JSON and XML data formats
@@ -41,6 +41,10 @@ apis:
   slug: litmos-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.litmos.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -112,7 +116,7 @@ network: true
 overview: 'Litmos publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Learning Management System, LMS, E-Learning, Training, and SAP.
 
 
-  Litmos'' developer surface includes documentation, signup flow, engineering blog, support, pricing, release notes, and 7 more developer resources.'
+  Litmos'' developer surface includes documentation, signup flow, engineering blog, support, pricing, release notes, and 8 more developer resources.'
 plans:
 - name: Litmos Plans Pricing
   plan_count: 3
@@ -149,9 +153,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 11.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmos/refs/heads/main/screenshots/litmos-2026-06-20T184608.png
 security:
 - kind: domain-security
@@ -169,4 +177,5 @@ tags:
 - User Enrollment
 - Compliance
 - Assessments
+website: https://www.litmos.com/
 ---

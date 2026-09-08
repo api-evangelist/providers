@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: ModusToolbox is Infineon's modern embedded development ecosystem and the successor to Cypress' PSoC Creator. It is a collection of GUI and non-GUI tools, libraries, configurators, board support packag
@@ -56,6 +56,10 @@ apis:
   slug: traveo-t2g
 artifact_total: 38
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.infineon.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -205,7 +209,7 @@ overview: 'Cypress Semiconductor publishes 6 APIs on the [APIs.io](https://apis.
   The Cypress Semiconductor catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Cypress Semiconductor''s developer surface includes developer portal, documentation, support, engineering blog, product news, and 16 more developer resources.'
+  Cypress Semiconductor''s developer surface includes developer portal, documentation, support, engineering blog, product news, and 17 more developer resources.'
 plans:
 - name: Cypress Semiconductor Plans Pricing
   plan_count: 1
@@ -258,9 +262,13 @@ score:
     governance: 28.8
     operational_transparency: 34.2
   previous_composite: 32.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cypress-semiconductor/refs/heads/main/screenshots/cypress-semiconductor-2026-06-20T175414.png
 security:
 - kind: domain-security
@@ -298,5 +306,5 @@ use_cases:
   name: Secured Embedded Applications
 - description: Building USB-C PD controllers and chargers on Infineon's PD MCU family with ModusToolbox.
   name: USB-C Power Delivery
-website: https://softwaretools.infineon.com/welcome
+website: https://www.infineon.com/
 ---

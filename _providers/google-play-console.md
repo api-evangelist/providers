@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -64,6 +64,10 @@ collections:
   name: Google Play Console Developer Reporting Google Play Developer Reporting API
   slug: open-openapi
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -146,7 +150,7 @@ overview: 'Google Play Console Developer Reporting publishes 1 API on the [APIs.
   The Google Play Console Developer Reporting catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Play Console Developer Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 10 more developer resources.'
+  Google Play Console Developer Reporting''s developer surface includes authentication, developer portal, getting-started guide, documentation, pricing, support, and 11 more developer resources.'
 plans:
 - name: Google Play Console Plans Pricing
   plan_count: 3
@@ -200,9 +204,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-play-console/refs/heads/main/screenshots/google-play-console-2026-06-20T182226.png
 security:
 - kind: authentication
@@ -225,5 +233,5 @@ tags:
 - Google Play Console
 - Quality
 - Reporting
-website: https://play.google.com/console
+website: https://www.google.com/
 ---

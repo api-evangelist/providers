@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: Cytora's production REST API for digital risk processing — the "preferred method" of submission intake described in its own Risk Flow Academy. The gateway is real (api.cytora.com resolves via gateway.
@@ -206,9 +206,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 65.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cytora/refs/heads/main/screenshots/cytora-2026-07-25T211113.png
 security:
 - kind: authentication

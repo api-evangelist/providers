@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of the Deep Sentinel store. A live, anonymous Model Context Protocol endpoint exposing thirteen catalog, cart, checkout and order tools, implementing the Universal Co
@@ -192,9 +192,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/deep-sentinel/refs/heads/main/screenshots/deep-sentinel-2026-09-02T145229.png
 security:
 - kind: authentication

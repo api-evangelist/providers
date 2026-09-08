@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Codex is Defined''s unified GraphQL API for real-time blockchain data: token prices, OHLCV bars, trades, liquidity pools, holders, wallet analytics, prediction markets and launchpad data across 100+ EV'
@@ -46,6 +46,10 @@ asyncapis:
   name: Defined Webhooks
   slug: defined-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.codex.io/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -168,7 +172,7 @@ overview: 'Defined publishes 1 API on the [APIs.io](https://apis.io/) network. T
   The Defined catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 19 more developer resources.'
+  Defined''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 20 more developer resources.'
 random_paper: 5
 score:
   band: developing
@@ -201,9 +205,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/defined/refs/heads/main/screenshots/defined-2026-07-25T211823.png
 security:
 - kind: authentication

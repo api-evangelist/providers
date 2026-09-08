@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 3
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ami-labs-packages.yml
 - group: auth
   title: ''
   type: DomainSecurity
@@ -90,7 +94,7 @@ network: true
 overview: 'AMI Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Artificial Intelligence, Machine-Learning, and World Models.
 
 
-  AMI Labs'' developer surface includes engineering blog and 6 more developer resources.'
+  AMI Labs'' developer surface includes engineering blog and 7 more developer resources.'
 plans:
 - name: Ami Labs Plans Pricing
   plan_count: 0
@@ -104,7 +108,7 @@ score:
   band: minimal
   composite: 6.2
   coverage:
-    artifact_dirs: 7
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -121,9 +125,13 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ami-labs/refs/heads/main/screenshots/ami-labs-2026-07-25T200053.png
 security:
 - kind: domain-security

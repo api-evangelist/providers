@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.
@@ -58,6 +58,10 @@ apis:
   slug: bitget-margin-trading-api
 artifact_total: 8
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.bitget.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -121,7 +125,7 @@ network: true
 overview: 'Bitget publishes 1 API on the [APIs.io](https://apis.io/) network: Spot Trading API. Tagged areas include Cryptocurrency, Exchange, Spot Trading, Futures, and Perpetual Contracts.
 
 
-  Bitget''s developer surface includes authentication, changelog, support, getting-started guide, and 9 more developer resources.'
+  Bitget''s developer surface includes authentication, changelog, support, getting-started guide, and 10 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -150,9 +154,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 20.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitget/refs/heads/main/screenshots/bitget-2026-06-20T173307.png
 security:
 - kind: domain-security
@@ -169,4 +177,5 @@ tags:
 - Copy Trading
 - WebSocket
 - Finance
+website: https://www.bitget.com/
 ---

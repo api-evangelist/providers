@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Bob's Public API for HR data and workflows — employee data, time off, attendance, tasks, documents/eSign, goals, job catalog, hiring, learning, and workforce planning.
@@ -45,6 +45,10 @@ asyncapis:
   name: Hi Bob Webhooks
   slug: hi-bob-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.hibob.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -187,7 +191,7 @@ overview: 'Hi Bob publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
   The Hi Bob catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Hi Bob''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
+  Hi Bob''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 25 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 1
@@ -222,9 +226,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/hi-bob/refs/heads/main/screenshots/hi-bob-2026-07-25T221129.png
 security:
 - kind: authentication
@@ -255,5 +263,5 @@ tags:
 - Workforce Planning
 - Employees
 - HR Tech
-website: https://apidocs.hibob.com/
+website: https://www.hibob.com/
 ---

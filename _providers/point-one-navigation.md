@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Standards-based NTRIP interface to the Point One Polaris RTK corrections network. Clients connect over NTRIP 1.0 or 2.0 to a regional caster, authenticate with Basic auth using a unique per-connection
@@ -228,9 +228,13 @@ score:
   provenance:
     conformance: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/point-one-navigation/refs/heads/main/screenshots/point-one-navigation-2026-09-02T151621.png
 security:
 - kind: authentication

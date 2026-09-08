@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -94,6 +94,10 @@ collections:
   name: MeteoSource Air Quality Data API
   slug: open-meteosource-air-quality-data-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.meteosource.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -141,7 +145,7 @@ network: true
 overview: 'MeteoSource Air Quality Data API publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Air Quality API, History API, Locations API, and 2 more. Tagged areas include Air Quality, Environmental Data, Forecasting, and Weather.
 
 
-  MeteoSource Air Quality Data API''s developer surface includes authentication, developer portal, pricing, signup flow, engineering blog, and 3 more developer resources.'
+  MeteoSource Air Quality Data API''s developer surface includes authentication, developer portal, pricing, signup flow, engineering blog, and 4 more developer resources.'
 plans:
 - name: Meteosource Air Quality Data Api Plans Pricing
   plan_count: 3
@@ -179,9 +183,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/screenshots/meteosource-air-quality-data-api-2026-06-20T185257.png
 security:
 - kind: authentication

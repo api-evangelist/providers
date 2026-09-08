@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,6 +270,10 @@ collections:
   name: EODHD Financial Data Calendar User API
   slug: open-eod-historical-user-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.eodhd.com/
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -382,7 +386,7 @@ overview: 'EOD Historical Data publishes 20 APIs on the [APIs.io](https://apis.i
   The EOD Historical Data catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  EOD Historical Data''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, support, and 11 more developer resources.'
+  EOD Historical Data''s developer surface includes authentication, developer portal, documentation, pricing, signup flow, engineering blog, support, and 12 more developer resources.'
 plans:
 - name: Eod Historical Plans Pricing
   plan_count: 6
@@ -437,9 +441,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/eod-historical/refs/heads/main/screenshots/eod-historical-2026-06-20T180743.png
 security:
 - kind: authentication
@@ -465,5 +473,5 @@ tags:
 - News
 - Sentiment
 - Historical Data
-website: https://eodhd.com/
+website: https://www.eodhd.com/
 ---

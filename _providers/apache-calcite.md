@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The Apache Calcite Java API provides SQL parsing, validation, query planning, and optimization capabilities for embedding in JVM applications. It exposes a relational algebra framework and pluggable o
@@ -47,6 +47,10 @@ apis:
   slug: apache-calcite-avatica-api
 artifact_total: 30
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: auth
   title: ''
   type: SecurityPolicy
@@ -154,7 +158,7 @@ network: true
 overview: 'Apache Calcite publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Apache, Data Federation, Framework, Open-Source, and Query Optimization.
 
 
-  Apache Calcite''s developer surface includes documentation, getting-started guide, support, changelog, and 10 more developer resources.'
+  Apache Calcite''s developer surface includes documentation, getting-started guide, support, changelog, and 11 more developer resources.'
 plans:
 - name: Apache Calcite Plans Pricing
   plan_count: 3
@@ -188,9 +192,13 @@ score:
     applies: true
     score: 50.0
   previous_composite: 28.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-calcite/refs/heads/main/screenshots/apache-calcite-2026-06-20T172045.png
 security:
 - kind: domain-security
@@ -220,4 +228,5 @@ use_cases:
   name: OLAP Query Optimization
 - description: Parse SQL in one dialect and transpile it to another using Calcite's SQL generation framework.
   name: SQL Dialect Translation
+website: https://www.apache.org/
 ---

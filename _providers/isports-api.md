@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 15
 apis:
 - baseURL: https://api.isportsapi.com/
@@ -166,6 +166,10 @@ collections:
   name: iSports Football Stats API
   slug: open-isports-api-football-stats-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.isportsapi.com/
 - group: other
   title: ''
   type: Overlay
@@ -627,7 +631,7 @@ network: true
 overview: 'iSports API publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Basketball Common API API, Basketball Live animation API, Basketball Live Data API, and 12 more. Tagged areas include Sports API, Sports Data, Football, Basketball, and Odds.
 
 
-  iSports API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
+  iSports API''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
 plans:
 - name: Isports Api Plans
   plan_count: 14
@@ -666,9 +670,13 @@ score:
       marker_coverage: 100.0
       total: 16
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/isports-api/refs/heads/main/screenshots/isports-api-2026-08-17T081004.png
 security:
 - kind: authentication
@@ -691,5 +699,5 @@ tags:
 - Live Scores
 - Widgets
 - REST API
-website: https://www.isportsapi.com/en/
+website: https://www.isportsapi.com/
 ---

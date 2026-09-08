@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://concord-api.centrastage.net/api
@@ -122,6 +122,10 @@ collections:
   name: Datto RMM /v2/account /v2/account /v2/user API
   slug: open-datto-v2-user-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.datto.com/
 - group: other
   title: ''
   type: Overlay
@@ -233,7 +237,7 @@ network: true
 overview: 'Datto publishes 10 APIs on the [APIs.io](https://apis.io/) network, including /v2/account API, /v2/activity-logs API, /v2/alert API, and 7 more. Tagged areas include Company, Data Protection, Backup, Disaster Recovery, and Managed Service Providers.
 
 
-  Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 18 more developer resources.'
+  Datto''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, authentication, and 19 more developer resources.'
 random_paper: 15
 rate_limits:
 - limit_count: 2
@@ -241,7 +245,7 @@ rate_limits:
   slug: datto-rate-limits
 score:
   band: developing
-  composite: 43.8
+  composite: 43.1
   coverage:
     artifact_dirs: 20
     catalog_earned: 45.0
@@ -249,7 +253,7 @@ score:
     catalog_gap: 70.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -269,9 +273,12 @@ score:
       total: 10
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/datto/refs/heads/main/screenshots/datto-2026-07-25T211420.png
 security:
 - kind: authentication
@@ -294,5 +301,5 @@ tags:
 - Cybersecurity
 - IT Operations
 - SaaS Protection
-website: https://www.datto.com/developers/
+website: https://www.datto.com/
 ---

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -350,7 +350,7 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 68.7
+  composite: 72.9
   coverage:
     artifact_dirs: 26
     catalog_earned: 52.0
@@ -368,7 +368,7 @@ score:
     discoverability: 75.9
     governance: 18.2
     operational_transparency: 52.6
-  previous_composite: 64.5
+  previous_composite: 68.7
   provenance:
     agentic_access: derived
     conformance: first-party
@@ -379,9 +379,12 @@ score:
       total: 6
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent-the-data-streaming-platform/refs/heads/main/screenshots/confluent-the-data-streaming-platform-2026-06-20T174902.png
 security:
 - kind: authentication

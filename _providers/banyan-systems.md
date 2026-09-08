@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Banyan's OAuth2 REST API for submitting receipt and transaction data, retrieving enriched (item-level) transactions, managing card-linked-offer campaigns/offers/activations, receipt search, consumer c
@@ -45,6 +45,10 @@ asyncapis:
   name: Banyan Systems Webhooks
   slug: banyan-systems-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.banyan.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -135,7 +139,7 @@ overview: 'Banyan Systems publishes 1 API on the [APIs.io](https://apis.io/) net
   The Banyan Systems catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Banyan Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 12 more developer resources.'
+  Banyan Systems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 13 more developer resources.'
 random_paper: 0
 score:
   band: thin
@@ -167,9 +171,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/banyan-systems/refs/heads/main/screenshots/banyan-systems-2026-07-25T202351.png
 security:
 - kind: authentication
@@ -191,5 +199,5 @@ tags:
 - Payments
 - Data Collaboration
 - Webhook
-website: https://developers.banyan.com/docs
+website: https://www.banyan.com/
 ---

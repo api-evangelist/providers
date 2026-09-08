@@ -39,7 +39,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -92,6 +92,10 @@ collections:
   name: Staying Jobs API
   slug: open-stayingapi-jobs-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.stayingapi.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -267,7 +271,7 @@ network: true
 overview: 'StayingAPI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Account API, Data API, and Jobs API. Tagged areas include Travel, Hospitality, accommodation-data, hotel-api, and Vacation Rental.
 
 
-  StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 33 more developer resources.'
+  StayingAPI''s developer surface includes authentication, changelog, sandbox, developer console, documentation, API reference, getting-started guide, and 34 more developer resources.'
 plans:
 - name: Stayingapi Plans
   plan_count: 5
@@ -313,9 +317,13 @@ score:
       total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/stayingapi/refs/heads/main/screenshots/stayingapi-2026-08-17T080426.png
 security:
 - kind: authentication
@@ -345,5 +353,5 @@ tags:
 - MCP
 - agent-native
 - OpenAPI
-website: https://stayingapi.com/docs
+website: https://www.stayingapi.com/
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 43.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - baseURL: https://api.color.com/api/v1/external
@@ -59,6 +59,14 @@ collections:
   name: API Collection
   slug: open-.refine-report
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/color
+- group: other
+  title: ''
+  type: Interoperability
+  url: https://www.redoxengine.com/healthcare-product/color/
 - group: other
   title: ''
   type: CapabilityMap
@@ -202,7 +210,7 @@ network: true
 overview: 'Color publishes 3 APIs on the [APIs.io](https://apis.io/) network: Eligibility API, Populations API, and Samples API. Tagged areas include Company, Health, Healthcare, Genomics, and Oncology.
 
 
-  Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 26 more developer resources.'
+  Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 28 more developer resources.'
 plans:
 - name: Color Plans Pricing
   plan_count: 0
@@ -214,7 +222,7 @@ rate_limits:
   slug: color-rate-limits
 score:
   band: developing
-  composite: 51.3
+  composite: 53.3
   coverage:
     artifact_dirs: 21
     catalog_earned: 37.0
@@ -222,7 +230,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.0
   facets:
     access_clarity: 50.0
     commercial_clarity: 50.0
@@ -254,9 +262,12 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/color/refs/heads/main/screenshots/color-2026-07-25T210056.png
 security:
 - kind: authentication

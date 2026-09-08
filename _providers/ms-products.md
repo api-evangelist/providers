@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,6 +120,10 @@ collections:
   name: Microsoft Graph API (v1.0)
   slug: open-ms-products
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -175,7 +179,7 @@ network: true
 overview: 'Microsoft Products APIs publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calendar API, Groups API, Mail API, and 2 more. Tagged areas include Azure, Cloud, Enterprise, Microsoft, and Office 365.
 
 
-  Microsoft Products APIs'' developer surface includes authentication, engineering blog, developer portal, and 7 more developer resources.'
+  Microsoft Products APIs'' developer surface includes authentication, engineering blog, developer portal, and 8 more developer resources.'
 plans:
 - name: Ms Products Plans Pricing
   plan_count: 3
@@ -218,9 +222,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/ms-products/refs/heads/main/screenshots/ms-products-2026-06-20T185847.png
 security:
 - kind: authentication
@@ -243,5 +251,5 @@ tags:
 - Microsoft
 - Office 365
 - Productivity
-website: https://developer.microsoft.com/
+website: https://www.microsoft.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,6 +121,10 @@ collections:
   name: 'disease.sh Docs - An open API for disease-related statistics COVID-19: Apple Influenza: CDC API'
   slug: open-disease-sh-influenza-cdc-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://disease.sh/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -345,7 +349,7 @@ overview: 'disease.sh publishes 9 APIs on the [APIs.io](https://apis.io/) networ
   The disease.sh catalog on APIs.io includes 2 JSON-LD contexts and 1 Spectral governance ruleset.
 
 
-  disease.sh''s developer surface includes GitHub presence, documentation, and 4 more developer resources.'
+  disease.sh''s developer surface includes GitHub presence, documentation, and 5 more developer resources.'
 plans:
 - name: Plans
   plan_count: 1
@@ -400,9 +404,13 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/screenshots/disease-sh-2026-06-20T180044.png
 security:
 - kind: domain-security
@@ -419,4 +427,5 @@ tags:
 - Vaccine
 - Open Data
 - Public Health
+website: https://disease.sh/
 ---

@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -31,11 +31,23 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 0.0
-  scored_at: '2026-09-06'
+  score: 3.5
+  scored_at: '2026-09-07'
 api_count: 0
-artifact_total: 2
+artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.vega.io/index.xml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vega-security-conformance.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/vega-security-mcp.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -108,6 +120,10 @@ created: '2026-07-17'
 description: Vega (vega.io) is an AI-native security operations platform that bills itself as the operating system for agentic SecOps in the post-SIEM era. Its Security Analytics Mesh (SAM) federates queries across security data sources in place -- with no ingestion, migration, or egress -- and powers agentic detection engineering, autonomous alert triage, and security analytics, continuously assessing detection coverage against MITRE ATT&CK. Backed by Accel. The product app and documentation are login-gated and no public API surface has been published yet.
 image: https://cdn.prod.website-files.com/68791f04ead01339340acbbe/687e5eab154f5a8607c2f647_webclip.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Vega MCP
+  slug: vega-mcp
 modified: '2026-07-21'
 name: Vega Security
 nav: Providers
@@ -115,32 +131,39 @@ network: true
 overview: 'Vega Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security Operations, SIEM, and Agentic AI.
 
 
-  Vega Security''s developer surface includes engineering blog, documentation, and 15 more developer resources.'
+  Vega Security''s developer surface includes engineering blog, documentation, and 18 more developer resources.'
 random_paper: 8
 score:
   band: emerging
-  composite: 15.2
+  composite: 17.4
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 8
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.2
   facets:
     access_clarity: 32.9
     commercial_clarity: 32.9
-    contract_governance: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 2.4
     discoverability: 57.4
-    governance: 0.0
+    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 15.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  provenance:
+    conformance: first-party
+    mcp: first-party
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vega-security/refs/heads/main/screenshots/vega-security-2026-09-02T165558.png
 security:
 - kind: domain-security

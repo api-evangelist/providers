@@ -16,7 +16,7 @@
      "slug": "us-dot",
      "description": "The U.S. Department of Transportation (DOT) is the federal transportation regulator for the United States, the deepest travel market in the world. In aviation DOT is not a participant in the distribution chain — it is the counterweight to it: through the Office of the Secretary it writes and enforces 14 CFR Part 256 on electronic airline information systems (explicitly naming global distribution systems, corporate booking tools and internet flight search tools), Part 257 on code-share disclosure, Part 250 on oversales, Part 259 on enhanced passenger protections, Part 260 on fare and ancillary fee refunds, and 399.84 on full-fare advertising. Its Bureau of Transportation Statistics is the sole authoritative source for US airline economics — T-100 segment traffic, Form 41 financials, the Consumer Airfare Report city-pair fare tables, denied boardings and mishandled baggage — published as free Socrata SODA APIs. Its Federal Aviation Administration operates a Gravitee API portal at api.faa.gov whose public catalog is enumerable without login and serves genuinely open, unauthenticated OpenAPI 3.0.1 services for national airspace delay status and aeronautical chart product releases, alongside gated APIs for pilot records and safety reporting. Beyond aviation the operating administrations each run their own surface: NHTSA publishes anonymous vehicle, recall, complaint and safety-rating APIs; FRA publishes SOAP/WSDL rail safety services; FMCSA issues the department's only self-serve API key behind a Login.gov account. API posture, honestly: transportation.gov itself is bot-blocked (HTTP 403 to any non-browser client) and publishes no departmental OpenAPI, there is no OAuth, no idempotency key, no RFC 9457 errors, no Sunset headers and no security.txt anywhere — but the data surfaces underneath are open, unmetered, public domain and fully bulk-exportable. This is a provider with an excellent exit path and no commercial lock-in of any kind.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-dot/refs/heads/main/screenshots/us-dot-2026-08-17T082655.png",
-     "score": 52.7,
+     "score": 52.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -64,55 +64,10 @@
      "rank": 1
     },
     {
-     "name": "OpenTravel Alliance",
-     "slug": "opentravel-alliance",
-     "description": "The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001A through 2024A) and the model-driven OpenTravel 2.0 Object Model (OTM), which generates XML Schema, JSON Schema and Swagger 2.0 resource contracts — plus the OpenTravel Code Lists used across air, hospitality, car rental, cruise, rail, GDS, channel and technology-provider systems. OpenTravel does not operate a booking service or sit in the distribution chain itself; it supplies the message vocabulary that suppliers, GDSs, channel managers and OTAs implement between each other, which makes it a switching-cost reducer rather than a switching-cost holder. Its API posture is honest but thin: there is no OpenTravel-operated runtime API and no public certification registry, though it does run a free self-serve developer portal — the OpenTravel Developers Network at opentraveldevelopersnetwork.com — and, as of 2026, an OAuth 2.1 protected Model Context Protocol server on opentravel.org. Specifications are royalty-free and free of charge, but the canonical download is behind a name/company/email lead-capture form with terms acceptance, and the OTM repository and member review periods are membership-gated ($950–$11,250/yr by revenue band). A public, unlicensed GitHub mirror at github.com/OpenTravel/OpenTravel-Specifications carries the bulk of the corpus — including eight Swagger 2.0 resource contracts — and is the only ungated route to machine-readable artifacts. The organization has announced work with the Linux Foundation to form an Open Travel Foundation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png",
-     "score": 45.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 58.4,
-      "governance": 19.7,
-      "contract_governance": 19.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 54.2,
-      "commercial_clarity": 32.9,
-      "access_clarity": 32.9
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 46.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": false,
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 2
-    },
-    {
      "name": "American Express Global Business Travel",
      "slug": "amex-gbt",
      "description": "American Express Global Business Travel (Amex GBT, NYSE GBTG, headquartered in New York) is the largest business-to-business travel platform in the world, operating in more than 140 countries under the Amex GBT, Egencia and Ovation brands, with CWT acquired in September 2025. Its home market is the United States. In the travel distribution chain Amex GBT is an intermediary rather than a supplier - a travel management company that aggregates air, hotel, rail, car and ground content sourced through the GDS layer, through NDC and through direct supplier connections, then resells it to corporate travel programmes with policy, approval, duty-of-care and reporting wrapped around it. It holds no inventory of its own, but it does hold the booking record, and that is where the switching cost lives. Its API posture is genuinely open at the documentation layer and firmly closed at the runtime layer. The Egencia Developer Center publishes thirteen named APIs and SPIs, and every one of them serves a real, anonymously retrievable OpenAPI 3.1.0 document from apis.egencia.com - no login, no key, no click-through. The identity surface is standards-based (SCIM 2.0 user provisioning over OAuth 2.0 client credentials); the booking, approval, expense, receipt, duty-of-care and reporting surfaces are proprietary Egencia shapes with no OpenTravel, HTNG or IATA NDC schema anywhere in them. Runtime access is customer-account gated - Egencia's own documentation states that \"the values for client id and client secret will be provided to the Client after on-boarding to Egencia API platform\", and every production endpoint returns 401 to an anonymous caller. So - public contracts, gated runtime, a real documented bulk data export in the BI Transactions API, and API terms Egencia reserves the right to change in its sole discretion.",
-     "score": 44.5,
+     "score": 46.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -125,8 +80,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -140,6 +95,51 @@
       "openapi_examples": "partial",
       "rate_limit_signal": false,
       "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 2
+    },
+    {
+     "name": "OpenTravel Alliance",
+     "slug": "opentravel-alliance",
+     "description": "The OpenTravel Alliance is a volunteer, non-profit travel technology standards body headquartered in Melbourne, Florida, United States. Since 1999 it has published the OpenTravel Specification — the OTA 1.0 XML message suite (releases 2001A through 2024A) and the model-driven OpenTravel 2.0 Object Model (OTM), which generates XML Schema, JSON Schema and Swagger 2.0 resource contracts — plus the OpenTravel Code Lists used across air, hospitality, car rental, cruise, rail, GDS, channel and technology-provider systems. OpenTravel does not operate a booking service or sit in the distribution chain itself; it supplies the message vocabulary that suppliers, GDSs, channel managers and OTAs implement between each other, which makes it a switching-cost reducer rather than a switching-cost holder. Its API posture is honest but thin: there is no OpenTravel-operated runtime API and no public certification registry, though it does run a free self-serve developer portal — the OpenTravel Developers Network at opentraveldevelopersnetwork.com — and, as of 2026, an OAuth 2.1 protected Model Context Protocol server on opentravel.org. Specifications are royalty-free and free of charge, but the canonical download is behind a name/company/email lead-capture form with terms acceptance, and the OTM repository and member review periods are membership-gated ($950–$11,250/yr by revenue band). A public, unlicensed GitHub mirror at github.com/OpenTravel/OpenTravel-Specifications carries the bulk of the corpus — including eight Swagger 2.0 resource contracts — and is the only ungated route to machine-readable artifacts. The organization has announced work with the Linux Foundation to form an Open Travel Foundation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/opentravel-alliance/refs/heads/main/screenshots/opentravel-alliance-2026-08-07T190651.png",
+     "score": 44.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 64.8,
+      "contract_quality": 58.4,
+      "governance": 19.7,
+      "contract_governance": 19.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 54.2,
+      "commercial_clarity": 32.9,
+      "access_clarity": 32.9
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 46.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": false,
+      "event_surface_described": "derived",
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -170,8 +170,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -202,7 +202,7 @@
      "slug": "cedarai",
      "description": "Cedar AI builds ARMS (Automated Rail Management System), a cloud-native, AI-powered transportation management platform for railroads, industrial shippers, transload and intermodal terminals, and fleet/car owners. The ARMS External API exposes REST and gRPC services for railcar inventory and history, waybills and bills of lading, work orders and train movements, switching and class lists, charges, shipper invoices and quotes, truck load tenders, network structure, and threaded notes (Linda) with AI summaries — plus Ed25519-signed webhooks for real-time operational events, across US (cedarai.com) and EU (cedarai.se) regions. Backed by Felicis.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cedarai/refs/heads/main/screenshots/cedarai-2026-07-25T204839.png",
-     "score": 40.9,
+     "score": 40.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -215,8 +215,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -271,8 +271,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -334,8 +334,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -386,8 +386,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -431,8 +431,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -463,7 +463,7 @@
      "slug": "union-pacific",
      "description": "Union Pacific is one of the largest freight railroad networks in the United States, operating across 23 states in the western two-thirds of the country. The company transports a diverse range of commodities including agricultural products, automotive goods, chemicals, energy resources, and industrial materials. Union Pacific's API platform gives businesses programmatic access to real-time shipment tracking, equipment management, intermodal planning, and supply chain exception handling, enabling seamless integration with logistics and supply chain management systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/union-pacific/refs/heads/main/screenshots/union-pacific-2026-09-02T164906.png",
-     "score": 22.5,
+     "score": 21.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -476,8 +476,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -521,8 +521,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -573,8 +573,8 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -617,8 +617,8 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -662,8 +662,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -707,8 +707,8 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -759,8 +759,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -814,8 +814,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -859,8 +859,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -904,8 +904,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -949,8 +949,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -994,8 +994,8 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1046,8 +1046,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1091,8 +1091,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1136,8 +1136,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1181,8 +1181,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1225,8 +1225,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

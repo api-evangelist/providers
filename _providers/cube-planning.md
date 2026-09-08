@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 169
   human_in_the_loop: 1
@@ -385,6 +385,10 @@ collections:
   name: Cube Agents Workflow API
   slug: open-cube-planning-workflow-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cubesoftware.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -500,7 +504,7 @@ network: true
 overview: 'Cube Planning publishes 42 APIs on the [APIs.io](https://apis.io/) network, including Agents API, Attributes API, Audit Trail API, and 39 more. Tagged areas include Company, FP&A, Financial Planning, Finance, and Budgeting.
 
 
-  Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
+  Cube Planning''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
 random_paper: 13
 scopes:
 - name: Cube Planning Scopes
@@ -509,22 +513,22 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.1
+  composite: 50.1
   coverage:
     artifact_dirs: 22
-    catalog_earned: 27.0
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
     access_clarity: 60.5
     commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 52.6
     developer_ergonomics: 49.4
-    discoverability: 57.4
+    discoverability: 75.9
     governance: 18.2
     operational_transparency: 15.8
   previous_composite: 45.1
@@ -538,9 +542,12 @@ score:
       total: 42
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/cube-planning/refs/heads/main/screenshots/cube-planning-2026-07-25T210914.png
 security:
 - kind: authentication
@@ -565,4 +572,5 @@ tags:
 - Forecasting
 - Analytics
 - Planning
+website: https://www.cubesoftware.com/
 ---

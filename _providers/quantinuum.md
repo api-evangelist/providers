@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 9
 apis:
 - description: Nexus is Quantinuum's all-in-one quantum computing cloud platform. It brokers access to Quantinuum H-Series hardware (H1, H2, Helios) and to partner backends including IBM Quantum and Amazon Braket, m
@@ -64,6 +64,10 @@ apis:
   slug: qermit
 artifact_total: 30
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.quantinuum.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -208,7 +212,7 @@ network: true
 overview: 'Quantinuum publishes 9 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Quantum Computing, Trapped Ion, Quantum Hardware, Quantum Software, and Quantum Compiler.
 
 
-  Quantinuum''s developer surface includes developer portal, documentation, signup flow, getting-started guide, support, engineering blog, tooling, and 21 more developer resources.'
+  Quantinuum''s developer surface includes developer portal, documentation, signup flow, getting-started guide, support, engineering blog, tooling, and 22 more developer resources.'
 random_paper: 19
 score:
   band: emerging
@@ -231,9 +235,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 22.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/quantinuum/refs/heads/main/screenshots/quantinuum-2026-06-20T192411.png
 security:
 - kind: domain-security

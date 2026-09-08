@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: AsyncAPI specification for AMQP messaging patterns including publish/subscribe, request/reply, and point-to-point messaging via exchanges, queues, and bindings.
@@ -45,6 +45,10 @@ asyncapis:
   name: AMQP Messaging API
   slug: amqp-messaging
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amqp.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -230,7 +234,7 @@ overview: 'AMQP publishes 1 API on the [APIs.io](https://apis.io/) network: Mess
   The AMQP catalog on APIs.io includes 1 event-driven AsyncAPI specification, 6 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  AMQP''s developer surface includes developer portal, documentation, and 14 more developer resources.'
+  AMQP''s developer surface includes developer portal, documentation, and 15 more developer resources.'
 plans:
 - name: Amqp Plans Pricing
   plan_count: 3
@@ -293,9 +297,13 @@ score:
     governance: 28.8
     operational_transparency: 10.5
   previous_composite: 29.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/amqp/refs/heads/main/screenshots/amqp-2026-06-20T171940.png
 security:
 - kind: domain-security

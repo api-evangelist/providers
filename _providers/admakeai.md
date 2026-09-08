@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,6 +58,10 @@ apis:
   slug: admakeai-agent-skill
 artifact_total: 11
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.admakeai.com/
 - group: commercial
   title: ''
   type: License
@@ -184,7 +188,7 @@ network: true
 overview: 'AdMakeAI publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Advertising, Marketing, AdTech, Generative AI, and Image-Generation.
 
 
-  AdMakeAI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
+  AdMakeAI''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
 plans:
 - name: Admakeai Plans Pricing
   plan_count: 4
@@ -225,9 +229,13 @@ score:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/admakeai/refs/heads/main/screenshots/admakeai-2026-09-02T144111.png
 security:
 - kind: authentication
@@ -251,5 +259,5 @@ tags:
 - MCP
 - Agents
 - Agent Skills
-website: https://admakeai.com/agents
+website: https://www.admakeai.com/
 ---

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 9
 apis:
 - description: Enables integration of the Google Pay payment method into web applications, allowing merchants to accept payments from cards saved to Google Accounts. The API provides JavaScript client methods for im
@@ -65,6 +65,10 @@ apis:
   slug: google-universal-commerce-protocol
 artifact_total: 14
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -144,7 +148,7 @@ network: true
 overview: 'Google Pay publishes 2 APIs on the [APIs.io](https://apis.io/) network, including Google Wallet API, and 1 more. Tagged areas include Contactless Payments, Digital Wallet, Mobile Payments, and Payments.
 
 
-  Google Pay''s developer surface includes developer portal, getting-started guide, developer console, support, engineering blog, changelog, FAQ, and 9 more developer resources.'
+  Google Pay''s developer surface includes developer portal, getting-started guide, developer console, support, engineering blog, changelog, FAQ, and 10 more developer resources.'
 plans:
 - name: Google Pay Plans Pricing
   plan_count: 3
@@ -181,9 +185,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/screenshots/google-pay-2026-06-20T182221.png
 security:
 - kind: domain-security
@@ -200,5 +208,5 @@ tags:
 - Digital Wallet
 - Mobile Payments
 - Payments
-website: https://developers.google.com/pay
+website: https://www.google.com/
 ---

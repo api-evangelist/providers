@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'REST API for the Epsilon3 operations platform, organized into roughly twenty API families: Builds (work orders, parts, inventory, purchase and sale orders, vendors, tooling, shipments), Chat, Commandi'
@@ -241,9 +241,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/epsilon3/refs/heads/main/screenshots/epsilon3-2026-08-17T080928.png
 security:
 - kind: authentication

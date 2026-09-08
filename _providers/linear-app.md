@@ -14,7 +14,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: true
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
     consent_identity: false
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 16.5
-  scored_at: '2026-09-06'
+  score: 11.2
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -262,9 +262,15 @@ score:
     governance: 0.0
     operational_transparency: 76.3
   previous_composite: 41.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  provenance:
+    agentic_access: derived
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/linear-app/refs/heads/main/screenshots/linear-app-2026-06-20T184548.png
 security:
 - kind: domain-security

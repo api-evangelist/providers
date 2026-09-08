@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep learning with Keras/TensorFlow backend, and oth
@@ -41,6 +41,10 @@ apis:
   slug: apache-madlib
 artifact_total: 25
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -126,7 +130,7 @@ network: true
 overview: 'Apache MADlib publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include In-Database Analytics, Machine-Learning, PostgreSQL, SQL, and Statistics.
 
 
-  Apache MADlib''s developer surface includes developer portal and 9 more developer resources.'
+  Apache MADlib''s developer surface includes developer portal and 10 more developer resources.'
 plans:
 - name: Apache Madlib Plans Pricing
   plan_count: 3
@@ -160,9 +164,13 @@ score:
     applies: true
     score: 15.0
   previous_composite: 18.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/screenshots/apache-madlib-2026-06-20T172118.png
 security:
 - kind: domain-security
@@ -192,5 +200,5 @@ use_cases:
   name: Anomaly Detection
 - description: Analyze social networks, supply chains, and communication graphs using built-in graph algorithms.
   name: Network Analysis
-website: https://madlib.apache.org/
+website: https://www.apache.org/
 ---

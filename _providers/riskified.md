@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: Submit orders to Riskified for fraud and chargeback risk evaluation, in either a pre-authorization (Decide / Decision) or post-authorization (Submit / Decide) flow. Returns an APPROVED, DECLINED, or S
@@ -58,6 +58,10 @@ apis:
   slug: riskified-chargeback-gateway-integration-api
 artifact_total: 50
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.riskified.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -289,7 +293,7 @@ network: true
 overview: 'Riskified publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud, Fraud Prevention, Chargebacks, E-Commerce, and Payments.
 
 
-  Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 41 more developer resources.'
+  Riskified''s developer surface includes developer portal, API reference, getting-started guide, authentication, documentation, engineering blog, pricing, and 42 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -318,9 +322,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 31.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/riskified/refs/heads/main/screenshots/riskified-2026-06-20T193133.png
 security:
 - kind: domain-security
@@ -362,5 +370,5 @@ use_cases:
 - Promotion and reseller abuse detection through Policy Protect
 - High-friction step-up via OTP for high-risk recovery events
 - Cross-channel device intelligence on web, iOS, Android, React Native, and Unity surfaces
-website: https://www.riskified.com
+website: https://www.riskified.com/
 ---

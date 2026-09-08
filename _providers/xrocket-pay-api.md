@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'Bearer-authenticated REST API for crypto payments: cheques, transfers, invoices, withdrawals, mass transfers, app-info, currencies and rates. Endpoints served under /api/v1/.'
@@ -78,9 +78,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 0.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/xrocket-pay-api/refs/heads/main/screenshots/xrocket-pay-api-2026-09-02T171149.png
 slug: xrocket-pay-api
 tags:

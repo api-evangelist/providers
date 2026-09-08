@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,6 +152,10 @@ collections:
   name: USGS Water Services API
   slug: open-usgs-water-services-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.doi.gov/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -220,7 +224,7 @@ overview: 'Department of the Interior publishes 10 APIs on the [APIs.io](https:/
   The Department of the Interior catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Department of the Interior''s developer surface includes authentication, developer portal, documentation, and 5 more developer resources.'
+  Department of the Interior''s developer surface includes authentication, developer portal, documentation, and 6 more developer resources.'
 plans:
 - name: Department Of The Interior Plans Pricing
   plan_count: 1
@@ -285,9 +289,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-interior/refs/heads/main/screenshots/department-of-the-interior-2026-06-20T175924.png
 security:
 - kind: authentication

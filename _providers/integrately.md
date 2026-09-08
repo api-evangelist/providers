@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'The Integrately platform connects 1500+ SaaS applications through a catalog of 20 million+ pre-built one-click automations covering common business workflows such as lead capture, CRM sync, marketing '
@@ -41,6 +41,10 @@ apis:
   slug: platform
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.integrately.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -111,7 +115,7 @@ overview: 'Integrately publishes 1 API on the [APIs.io](https://apis.io/) networ
   The Integrately catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Integrately''s developer surface includes developer portal, documentation, pricing, engineering blog, signup flow, privacy policy, YouTube channel, and 6 more developer resources.'
+  Integrately''s developer surface includes developer portal, documentation, pricing, engineering blog, signup flow, privacy policy, YouTube channel, and 7 more developer resources.'
 plans:
 - name: Integrately Plans Pricing
   plan_count: 3
@@ -153,9 +157,13 @@ score:
     governance: 0.0
     operational_transparency: 7.9
   previous_composite: 22.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/integrately/refs/heads/main/screenshots/integrately-2026-06-20T183428.png
 security:
 - kind: domain-security
@@ -174,5 +182,5 @@ tags:
 - Webhook
 - Workflow-Automation
 - Workflows
-website: https://integrately.com
+website: https://www.integrately.com/
 ---

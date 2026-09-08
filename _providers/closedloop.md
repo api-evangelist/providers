@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 61.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.closedloop.sh/v1
@@ -57,6 +57,10 @@ asyncapis:
   name: Closedloop Webhooks
   slug: closedloop-webhooks
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.closedloop.sh/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -209,7 +213,7 @@ overview: 'ClosedLoop AI publishes 1 API on the [APIs.io](https://apis.io/) netw
   The ClosedLoop AI catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  ClosedLoop AI''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 25 more developer resources.'
+  ClosedLoop AI''s developer surface includes documentation, API reference, quickstart, pricing, engineering blog, signup flow, support, and 26 more developer resources.'
 plans:
 - name: Closedloop Plans Pricing
   plan_count: 3
@@ -254,9 +258,13 @@ score:
       total: 1
     mcp: first-party
     skills: unknown
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/closedloop/refs/heads/main/screenshots/closedloop-2026-09-02T145114.png
 security:
 - kind: authentication
@@ -283,5 +291,5 @@ tags:
 - A2A
 - SCIM
 - Product Discovery
-website: https://closedloop.sh/docs
+website: https://www.closedloop.sh/
 ---

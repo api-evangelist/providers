@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: Submit, retrieve, list, search, split, merge, bulk-download, and delete documents. DocuPanda parses files into searchable PDFs and structured page-level text, tables, and bounding boxes. Supports hand
@@ -67,6 +67,10 @@ apis:
   slug: docupanda-account-api
 artifact_total: 40
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.docupipe.ai/
 - group: auth
   title: ''
   type: TrustCenter
@@ -199,7 +203,7 @@ network: true
 overview: 'DocuPanda publishes 10 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Artificial Intelligence, Document Extraction, Document Intelligence, IDP, and OCR.
 
 
-  DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 16 more developer resources.'
+  DocuPanda''s developer surface includes developer portal, documentation, API reference, getting-started guide, authentication, signup flow, developer console, and 17 more developer resources.'
 random_paper: 19
 score:
   band: thin
@@ -222,9 +226,13 @@ score:
     governance: 0.0
     operational_transparency: 28.9
   previous_composite: 26.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/docupanda/refs/heads/main/screenshots/docupanda-2026-06-20T180119.png
 security:
 - kind: domain-security

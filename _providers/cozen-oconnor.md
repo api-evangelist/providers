@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'The Cozen O''Connor public website at cozen.com is the firm''s primary external knowledge surface, organizing attorney biographies, practice and industry pages, office locations, news and publications, '
@@ -153,9 +153,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/cozen-oconnor/refs/heads/main/screenshots/cozen-oconnor-2026-06-20T175152.png
 security:
 - kind: domain-security

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,6 +67,10 @@ collections:
   name: Konsentus Verify API
   slug: open-konsentus-verify-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.konsentus.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -200,7 +204,7 @@ network: true
 overview: 'Konsentus publishes 1 API on the [APIs.io](https://apis.io/) network: PSP Checking Service API. Tagged areas include Open Banking, Open Finance, PSD2, PSD3, and FiDA.
 
 
-  Konsentus'' developer surface includes authentication, developer portal, documentation, getting-started guide, release notes, support, FAQ, and 20 more developer resources.'
+  Konsentus'' developer surface includes authentication, developer portal, documentation, getting-started guide, release notes, support, FAQ, and 21 more developer resources.'
 random_paper: 15
 score:
   band: thin
@@ -236,9 +240,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 25.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/konsentus/refs/heads/main/screenshots/konsentus-2026-06-20T184135.png
 security:
 - kind: authentication
@@ -262,5 +270,5 @@ tags:
 - Trust Services
 - Regulatory Checking
 - Financial-Services
-website: https://www.konsentus.com
+website: https://www.konsentus.com/
 ---

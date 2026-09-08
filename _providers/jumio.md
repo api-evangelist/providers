@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -191,9 +191,13 @@ score:
     governance: 13.6
     operational_transparency: 13.2
   previous_composite: 28.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/screenshots/jumio-2026-06-20T183827.png
 security:
 - kind: domain-security

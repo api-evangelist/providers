@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 53.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -372,6 +372,10 @@ collections:
   name: Chariot FDX Accounts Verification Requests API
   slug: open-chariot-verificationrequests-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.givechariot.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -542,7 +546,7 @@ overview: 'Chariot publishes 29 APIs on the [APIs.io](https://apis.io/) network,
   The Chariot catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Chariot''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
 random_paper: 11
 scopes:
 - name: Chariot Scopes
@@ -551,7 +555,7 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.6
+  composite: 50.7
   coverage:
     artifact_dirs: 24
     catalog_earned: 37.0
@@ -559,7 +563,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -586,9 +590,12 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/chariot/refs/heads/main/screenshots/chariot-2026-07-25T205102.png
 security:
 - kind: authentication
@@ -613,5 +620,5 @@ tags:
 - FDX
 - Webhook
 - Company
-website: https://docs.givechariot.com
+website: https://www.givechariot.com/
 ---

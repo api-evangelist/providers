@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: gRPC / Protocol Buffers API for integrating a game with LinQ Wallet services. Covers geo restriction checks by IP and coordinates, anonymous and wallet-linked user authentication, account balances, de
@@ -41,6 +41,10 @@ apis:
   slug: linq-wallet-public-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.linq.gg/
 - group: agent
   title: ''
   type: X-MCPServerCandidate
@@ -168,7 +172,7 @@ network: true
 overview: 'Linq.gg publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Payments, Wallets, and Loyalty.
 
 
-  Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
+  Linq.gg''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, support, and 23 more developer resources.'
 random_paper: 12
 score:
   band: developing
@@ -201,9 +205,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/linqgg/refs/heads/main/screenshots/linqgg-2026-07-25T225259.png
 security:
 - kind: authentication
@@ -226,5 +234,5 @@ tags:
 - gRPC
 - Geolocation
 - Authentication
-website: https://docs.linq.gg/
+website: https://www.linq.gg/
 ---

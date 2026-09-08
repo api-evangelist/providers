@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://api.rapidata.ai/
@@ -485,6 +485,10 @@ collections:
   name: Rapidata Asset Workflow API
   slug: open-rapidata-workflow-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.rapidata.ai/
 - group: other
   title: ''
   type: CapabilityMap
@@ -612,7 +616,7 @@ network: true
 overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network, including Asset API, Audience API, BatchUpload API, and 52 more. Tagged areas include Company, Human Feedback, Data Labeling, Annotation, and RLHF.
 
 
-  Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 22 more developer resources.'
+  Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 23 more developer resources.'
 random_paper: 19
 scopes:
 - name: Rapidata Scopes
@@ -621,7 +625,7 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 43.8
+  composite: 43.1
   coverage:
     artifact_dirs: 19
     catalog_earned: 24.0
@@ -629,7 +633,7 @@ score:
     catalog_gap: 91.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 44.7
     commercial_clarity: 44.7
@@ -649,9 +653,12 @@ score:
       total: 55
     mcp: derived
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidata/refs/heads/main/screenshots/rapidata-2026-08-17T083202.png
 security:
 - kind: authentication
@@ -674,5 +681,5 @@ tags:
 - Artificial Intelligence
 - Crowdsourcing
 - Preference Data
-website: https://docs.rapidata.ai/developers/
+website: https://www.rapidata.ai/
 ---

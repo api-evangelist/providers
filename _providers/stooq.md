@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,6 +57,10 @@ collections:
   name: Stooq Historical Data Q API
   slug: open-stooq-q-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.stooq.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -124,7 +128,7 @@ overview: 'Stooq publishes 1 API on the [APIs.io](https://apis.io/) network: Q A
   The Stooq catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Stooq''s developer surface includes developer portal, documentation, and 6 more developer resources.'
+  Stooq''s developer surface includes developer portal, documentation, and 7 more developer resources.'
 plans:
 - name: Stooq Plans Pricing
   plan_count: 1
@@ -179,9 +183,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/screenshots/stooq-2026-06-20T194600.png
 security:
 - kind: domain-security
@@ -199,5 +207,5 @@ tags:
 - Commodities
 - Historical Data
 - Free
-website: https://stooq.com/
+website: https://www.stooq.com/
 ---

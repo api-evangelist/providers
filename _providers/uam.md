@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 9
 apis:
 - description: 'HAL-based REST API for Biblos-e Archivo, UAM''s institutional repository, running DSpace 7.6.5. Anonymously readable, HATEOAS-navigable access to communities, collections, items, bitstreams, discovery '
@@ -203,9 +203,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png
 security:
 - kind: authentication

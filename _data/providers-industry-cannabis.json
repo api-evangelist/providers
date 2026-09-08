@@ -16,7 +16,7 @@
      "slug": "leaflink",
      "description": "LeafLink is the wholesale cannabis marketplace and B2B commerce platform connecting licensed cannabis brands, distributors and retailers across roughly 30 US markets. The platform bundles a wholesale marketplace, order management, payments and net terms (LeafLink Financial), logistics and transportation, inventory management, seed-to-sale traceability integration, compliance and licensing, advertising and market insights into one system of record for regulated cannabis wholesale. LeafLink publishes a public REST API at api.leaflink.com — the current dated version 2022-10-31, authenticated with JWT bearer tokens, spanning 182 paths and 269 operations across products, orders, customers, inventory, payments, logistics, traceability, compliance, taxes and messaging — alongside a legacy Marketplace V2 API at app.leaflink.com/api/v2 with 66 paths and 111 operations. Both are documented with OpenAPI on the LeafLink Developer Hub, and the platform supports HMAC-signed webhooks for order and product events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leaflink/refs/heads/main/screenshots/leaflink-2026-08-07T171512.png",
-     "score": 57.0,
+     "score": 59.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -29,8 +29,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -71,15 +71,15 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "providers": [
     {
      "name": "Nabis",
      "slug": "nabis",
      "description": "Nabis is a licensed cannabis wholesale distributor and B2B marketplace founded in 2018 by Vince C. Ning and Jun S. Lee, operating in California, New York and Nevada. It runs distribution and fulfillment warehouses, an ordering marketplace connecting 400+ cannabis brands to licensed retailers, an analytics layer, and Nabis Capital, an invoice-based financing product, plus Nabis BillPay and Nabis Tracker for retailers. The company reports that 99% of retailers in the three states it serves receive product through Nabis and that it fulfills 3,500+ wholesale orders a week. For developers it publishes the Nabis Platform API — a read-only, API-key-authenticated JSON REST API for brands and retailers covering inventory, inventory history, orders, invoices, retailers, warehouses and the Nabis delivery calendar, with separate California and New York route trees, and an implementation of the Universal Cannabis API labeling standard for order manifests and QR-code regulator events.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nabis/refs/heads/main/screenshots/nabis-2026-09-02T150717.png",
-     "score": 49.9,
+     "score": 49.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -92,8 +92,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -124,7 +124,7 @@
      "slug": "green-check-verified",
      "description": "Green Check Verified (Green Check) is a New Haven, Connecticut specialty-banking compliance platform founded in 2017 that sits between financial institutions and the cannabis and other cash-intensive businesses they serve. Banks and credit unions use it to onboard cannabis-related businesses (CRBs), collect and review due-diligence documentation, validate that deposits trace to legally licensed sales, monitor licenses and negative news, and produce the BSA/AML oversight reporting examiners require. Its public developer product, Green Check Access, is a REST API suite that normalizes compliance, company and transactional data across more than twenty point-of-sale and seed-to-sale systems — Dutchie, Treez, Flowhub, Biotrack, Metrc, Cova, Canix, Greenbits and others — so service providers such as payroll companies, CRMs, lenders and fintechs can programmatically create and onboard CRBs and read their sales, products, inventory, customer and document data through one contract instead of one integration per POS.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/green-check-verified/refs/heads/main/screenshots/green-check-verified-2026-09-02T145630.png",
-     "score": 45.9,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -137,8 +137,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -176,7 +176,7 @@
      "slug": "treez",
      "description": "Treez is an enterprise cloud commerce platform for US cannabis retail, providing dispensary point-of-sale, retail analytics, cashless payments, ecommerce and loyalty to high-volume operators across the largest legal state markets. Its public API surface is a partner-gated REST programme documented at code.treez.io and split into two families: per-dispensary Dispensary APIs at api-prod.treez.io/dispensary/v3 covering customers, tickets/orders, inventory packages, lab results, invoices, distributors and METRC state track-and-trace package sync; and organization-level Service APIs at api-prod.treez.io/service covering the central product catalog, collections, discounts, tags and JWT validation. A legacy SellTreez v2.0 Product API remains published at api.treez.io. Treez serves an RFC 9727 API Catalog naming all seven of its OpenAPI definitions, an llms.txt documentation index, and a live anonymous MCP endpoint over those definitions. Authentication is a self-signed RSA JWT with a 30-second TTL; access requires a partner application, an MNDA and API Usage Agreement, sandbox development and certification before a mutual customer can request a production key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/treez/refs/heads/main/screenshots/treez-2026-09-02T164204.png",
-     "score": 45.9,
+     "score": 45.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -189,8 +189,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -228,7 +228,7 @@
      "slug": "confident-cannabis",
      "description": "Confident Cannabis (CC Software LLC, operating as Confident LIMS) is a cloud-based Laboratory Information Management System for analytical testing labs and their clients across cannabis and hemp, food and beverage, environmental, agriculture, nutraceuticals, cosmetics, oil and gas, and industrial chemical testing. Its public v0 REST API lets labs manage samples, orders, and the order-status lifecycle, submit per-compound test results, and upload Certificates of Analysis, while testing clients read their labs, orders, samples, and results. Authentication is API-key based with optional HMAC-SHA256 request signing. Founded 2015 and backed by Bullpen Capital, the platform serves 100+ labs and 15,000+ active testing clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/confident-cannabis/refs/heads/main/screenshots/confident-cannabis-2026-07-25T210247.png",
-     "score": 44.3,
+     "score": 43.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -241,8 +241,8 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -276,69 +276,13 @@
      "rank": 5
     },
     {
-     "name": "Canix",
-     "slug": "canix",
-     "description": "Canix is a cannabis enterprise resource planning (ERP) and seed-to-sale platform used by licensed cultivators, manufacturers and distributors to run cultivation, processing, inventory, sales and compliance operations. The product covers plant and plant-batch tracking, harvests, packages, bills of materials, manufacturing batches and runs, purchase orders, sales orders, customers, vendors, standard costing and business intelligence reporting, with deep Metrc and BioTrack track-and-trace synchronization plus RFID and scale hardware support. Canix publishes a public OpenAPI 3.0.3 contract for its REST API at api.canix.com, and in July 2026 launched a hosted Model Context Protocol (MCP) server that lets AI assistants query Canix sales and inventory data in natural language.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png",
-     "score": 40.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 60.0,
-      "governance": 4.5,
-      "contract_governance": 4.5,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 47.0,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "26.2 – 39.2",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
-   "providers": [
-    {
      "name": "Leafly",
      "slug": "leafly",
      "description": "Leafly is a cannabis discovery marketplace where consumers research strains, read reviews, and browse and order from licensed dispensaries and brands. For retailers and point-of-sale (POS) providers, Leafly exposes a documented Menu Integration API that keeps a dispensary's Leafly menu in near-real-time sync with its system of record - pushing product/item data, variants, inventory, pricing, strain, and cannabinoid information - and a partner-gated Order (Reservations) API that lets a POS system receive and manage online orders placed on Leafly. The Menu Integration API is publicly documented (OpenAPI via ReDoc) across V1, V1.1, and V2; the Order API's full specification sits behind Cloudflare Access and is available to onboarded partners. Actual use requires a paid Leafly for Retailers subscription and a Leafly-issued menu integration key - there is no self-serve public signup or consumer-facing data API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/leafly/refs/heads/main/screenshots/leafly-2026-07-25T224732.png",
-     "score": 38.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 40.1,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 50.3,
@@ -349,8 +293,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -374,14 +318,70 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
+    {
+     "name": "Canix",
+     "slug": "canix",
+     "description": "Canix is a cannabis enterprise resource planning (ERP) and seed-to-sale platform used by licensed cultivators, manufacturers and distributors to run cultivation, processing, inventory, sales and compliance operations. The product covers plant and plant-batch tracking, harvests, packages, bills of materials, manufacturing batches and runs, purchase orders, sales orders, customers, vendors, standard costing and business intelligence reporting, with deep Metrc and BioTrack track-and-trace synchronization plus RFID and scale hardware support. Canix publishes a public OpenAPI 3.0.3 contract for its REST API at api.canix.com, and in July 2026 launched a hosted Model Context Protocol (MCP) server that lets AI assistants query Canix sales and inventory data in natural language.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canix/refs/heads/main/screenshots/canix-2026-08-17T080801.png",
+     "score": 40.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 60.0,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 47.0,
+      "commercial_clarity": 34.2,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "agent_score": 48.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "26.2 – 39.2",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 4,
+   "shown": 4,
+   "providers": [
     {
      "name": "Happy Cabbage Analytics",
      "slug": "happy-cabbage-analytics",
      "description": "Happy Cabbage Analytics is a cannabis retail software company founded in 2019 and headquartered in San Francisco, California, whose Happy Buyers platform gives dispensary buyers AI-assisted inventory management, demand forecasting, replenishment and purchase-order workflows on top of data pulled from their point-of-sale system. The platform reads live sell-through from POS integrations (Dutchie, Flowhub, Blaze, Treez, Meadow) and wholesale menus (Distru, Apex Trading), then scores inventory health by store, category and brand, predicts days-on-hand, groups SKUs into product lines, and drafts vendor orders with invoices attached. Happy Cabbage sold its Happy Marketers text-marketing suite to Alpine IQ in June 2025 and now focuses on Happy Buyers. A public Happy Buyers External API entered beta in June 2026 and is documented with a Swagger UI, exposing organization metadata, inventory health, product/product-line inventory, packages, daily sales metadata and full order management to API-key holders — the same API the company's own published AI-agent workflows are built on.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/happy-cabbage-analytics/refs/heads/main/screenshots/happy-cabbage-analytics-2026-09-02T145659.png",
-     "score": 36.7,
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -394,8 +394,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -426,7 +426,7 @@
      "slug": "distru",
      "description": "Distru is a cannabis-industry ERP and seed-to-sale platform that serves as the central operating hub for cultivators, processors and manufacturers, distributors, retailers and multi-state operators. It unifies inventory management with live Metrc and BioTrack compliance synchronization, order fulfillment, wholesale sales (DistruCommerce), invoicing, procurement and purchasing, warehouse management, production and assemblies with bills of materials and cost accounting, cultivation management, label printing, and certificate-of-analysis and test-result tracking. Distru also exposes a public REST API so operators can build custom integrations against products, inventory, orders, invoices, purchases, companies, contacts, batches, packages, strains, test results and more. The API uses Bearer API-key authentication generated inside the Distru app and returns JSON with cursor- style page[number]/page[size] pagination.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/screenshots/distru-2026-07-25T212123.png",
-     "score": 32.0,
+     "score": 33.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -439,8 +439,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -484,8 +484,8 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -535,8 +535,8 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -589,8 +589,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -641,8 +641,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -685,8 +685,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -729,8 +729,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -774,8 +774,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -819,8 +819,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -881,8 +881,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -933,8 +933,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -978,8 +978,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1023,8 +1023,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1068,8 +1068,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1165,8 +1165,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1210,8 +1210,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1262,8 +1262,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1307,8 +1307,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

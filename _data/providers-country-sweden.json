@@ -15,7 +15,7 @@
      "name": "Klarna",
      "slug": "klarna",
      "description": "Klarna Bank AB is a Swedish licensed bank and payments network serving 150M+ consumers and 600k+ merchants with buy-now-pay-later, financing, cards, banking and a shopping app. For developers Klarna publishes a merchant API estate covering payment sessions and authorization (Klarna Payments), hosted checkout (Klarna Checkout and the Hosted Payment Page), post-purchase order management (capture, refund, cancel, extend due date), customer tokens for recurring purchases, settlement payouts and transaction reporting, the Merchant Card Service, and a PSD2 XS2A open-banking API for licensed TPPs. Authentication is HTTP Basic with a Klarna-issued API key; Sign in with Klarna adds a full OAuth 2.0 / OpenID Connect consumer-identity surface. Klarna publishes rate limits, a six-month deprecation policy, public service-level objectives, a self-serve playground with market-specific sample data, and an llms.txt — but no fetchable OpenAPI, no server-side SDK in any language, and no MCP server.",
-     "score": 74.3,
+     "score": 76.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -28,8 +28,8 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -78,7 +78,7 @@
      "slug": "northmill",
      "description": "Northmill Bank AB is a Swedish technology-driven bank, founded in Stockholm in 2006 and licensed by Finansinspektionen in 2019, that serves roughly 600,000 private customers and 2,500 businesses across Sweden, Norway and Finland with savings accounts, cards, personal and business lending, business accounts, Swish and card acquiring. Through its Northmill Flo business unit (formerly MoreFlo, acquired and rebranded) it also ships point-of-sale, booking, checkout and e-commerce products for retail and hospitality merchants. Its public developer surface is the Flo API - a Swagger 2.0 REST contract published at api.moreflo.com with 199 operations over articles, stock, orders, receipts, customers, bookings, campaigns, vouchers, SMS and webhooks - alongside a PSD2 open-banking interface for third-party providers documented under the Northmill Bank brand and delivered on Token.io infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/northmill/refs/heads/main/screenshots/northmill-2026-09-02T150801.png",
-     "score": 56.5,
+     "score": 55.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -91,8 +91,8 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -136,7 +136,7 @@
      "name": "Cambio Healthcare Systems",
      "slug": "cambio-healthcare-systems",
      "description": "Cambio Healthcare Systems is a Swedish health-IT company founded in 1993 in Linkoping and headquartered in Stockholm, best known for Cambio COSMIC, an electronic health record and clinical decision support platform used across Swedish regions, Denmark and the United Kingdom by well over 100,000 clinical users. Cambio runs a public developer programme, Cambio Open Services (COS), which publishes 19 REST APIs and an HL7 FHIR R4 server on Azure API Management at api.openservices.cambio.se, together with a published FHIR Implementation Guide of COSMIC-specific profiles, a Keycloak OpenID Connect authorization server with SMART-on-FHIR style scopes, and a synthetic-data sandbox. COSMIC and its clinical decision support are CE-marked and MDR-certified (notified body BSI-2797), and the company holds ISO 9001, 13485, 14001, 20000 and 27001 certifications.",
-     "score": 55.4,
+     "score": 54.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -149,8 +149,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -195,51 +195,51 @@
    "shown": 7,
    "providers": [
     {
-     "name": "Uppsala University",
-     "slug": "uppsala",
-     "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and a public research university ranked #103 in the QS World University Rankings 2025. It operates no central developer portal and no institution-wide open-data portal — data.uu.se, opendata.uu.se and api.uu.se do not resolve — so its programmable footprint is decentralized, sitting inside individual research infrastructures, the university library, and IT services. Four surfaces were verified live as institution-operated: the Uppsala Conflict Data Program (UCDP) REST API at ucdpapi.pcr.uu.se, which is the university's most substantial public API and requires a free token; the Norse World REST-API at norseworld.nordiska.uu.se, returning JSON, GeoJSON and JSON-LD; the DiVA OAI-PMH endpoint at uu.diva-portal.org, notable because Uppsala University Library builds and hosts the DiVA platform for the whole Swedish DiVA consortium rather than renting it from a vendor; and the university's SWAMID-registered Shibboleth SAML 2.0 identity provider at weblogin.uu.se, which publishes machine-readable federation metadata. No Figshare, Elsevier Pure, Ex Libris or Dataverse contract is attributed to Uppsala in this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png",
-     "score": 52.5,
+     "name": "Safello",
+     "slug": "safello",
+     "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory Authority (Finansinspektionen) and listed on Nasdaq First North Growth Market since 2021. It lets people buy, sell, trade, and store digital assets, and exposes a \"Cryptocurrency as a Service\" (CaaS) Institutional API so third-party organisations can embed crypto buying/selling, BankID customer onboarding, KYC and compliance verification, market data, order management, and wallet balances. The v2 Institutional API (base https://api.safello.com) uses OAuth2 with client-credentials, authorization-code, and a custom Swedish BankID grant, plus a staging environment at api.s4f3.io for testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/screenshots/safello-2026-08-17T081705.png",
+     "score": 53.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 56.9,
-      "governance": 35.6,
-      "contract_governance": 35.6,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
-      "access_clarity": 50.0
+      "discoverability": 75.9,
+      "contract_quality": 56.6,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 63.7,
+      "commercial_clarity": 44.7,
+      "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 64.8,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 64.1,
       "matched_via": "tags"
      },
-     "agent_score": 24.4,
-     "agent_band": "agent-aware",
+     "agent_score": 36.4,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "na",
+      "reversibility_documented": "documented",
       "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": false,
       "event_surface_described": false,
-      "agent_skills": false,
+      "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -251,7 +251,7 @@
      "slug": "university-of-gothenburg",
      "description": "The University of Gothenburg (Göteborgs universitet) is a public research university in Sweden, founded in 1891, with roughly 37,000 students and 6,000 employees. Its programmable footprint is larger and more genuinely its own than the June 2026 profile of this repository recorded, and it is concentrated in one place: Språkbanken Text, the Swedish Language Bank's text division at the Department of Swedish, Multilingualism, Language Technology. Språkbanken publishes SIX OpenAPI documents from a single documentation index at ws.spraakbanken.gu.se/docs — Korp (corpus concordance search over 1,133 corpora), Karp v7 and Karp search v1 (lexical resources), Mink (upload, annotate and publish your own corpus), Sparv (the annotation pipeline as a job service) and the Språkbanken Text Metadata API (a 1,499-resource catalogue with BibTeX export). All six run on University of Gothenburg hosts, carry sb-info@svenska.gu.se as contact, and answered anonymous requests with HTTP 200 on 2026-09-01. The Gothenburg University Library separately operates GUPEA on DSpace 8.3, exposing both an OAI-PMH 2.0 harvesting endpoint (fourteen metadata formats, including the Swedish national uppsok thesis profile) and a HAL+JSON REST API on gupea.ub.gu.se. The University also runs its own Shibboleth SAML 2.0 identity provider, published as machine-readable metadata through SWAMID and eduGAIN. What is thin here is PRODUCT, not surface. There is no central developer portal, no API programme, no changelog, no status page, no rate-limit signal, no support channel and no documented credential-issuance route for any of the write surfaces. Five of the six contracts declare a security scheme and not one explains how to obtain a credential; two of them publish relative servers[] and no contact at all. This is a research unit's engineering that happens to be excellent, published without any of the institutional scaffolding that would make it findable. Everything else that looks like a University of Gothenburg API is a relationship rather than a contract — DOI registration with DataCite through the Swedish National Data Service and with Crossref directly, a Microsoft Entra tenancy on medarbetarportalen.gu.se — and those are recorded here with x-operator and no vendor contract stored.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-gothenburg/refs/heads/main/screenshots/university-of-gothenburg-2026-06-20T200152.png",
-     "score": 52.2,
+     "score": 52.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -264,8 +264,8 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -299,51 +299,51 @@
      "rank": 5
     },
     {
-     "name": "Safello",
-     "slug": "safello",
-     "description": "Safello is a Swedish cryptocurrency brokerage founded in 2013, registered with the Swedish Financial Supervisory Authority (Finansinspektionen) and listed on Nasdaq First North Growth Market since 2021. It lets people buy, sell, trade, and store digital assets, and exposes a \"Cryptocurrency as a Service\" (CaaS) Institutional API so third-party organisations can embed crypto buying/selling, BankID customer onboarding, KYC and compliance verification, market data, order management, and wallet balances. The v2 Institutional API (base https://api.safello.com) uses OAuth2 with client-credentials, authorization-code, and a custom Swedish BankID grant, plus a staging environment at api.s4f3.io for testing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/screenshots/safello-2026-08-17T081705.png",
-     "score": 52.1,
+     "name": "Uppsala University",
+     "slug": "uppsala",
+     "description": "Uppsala University (Uppsala universitet) is Sweden's oldest university, founded in 1477, and a public research university ranked #103 in the QS World University Rankings 2025. It operates no central developer portal and no institution-wide open-data portal — data.uu.se, opendata.uu.se and api.uu.se do not resolve — so its programmable footprint is decentralized, sitting inside individual research infrastructures, the university library, and IT services. Four surfaces were verified live as institution-operated: the Uppsala Conflict Data Program (UCDP) REST API at ucdpapi.pcr.uu.se, which is the university's most substantial public API and requires a free token; the Norse World REST-API at norseworld.nordiska.uu.se, returning JSON, GeoJSON and JSON-LD; the DiVA OAI-PMH endpoint at uu.diva-portal.org, notable because Uppsala University Library builds and hosts the DiVA platform for the whole Swedish DiVA consortium rather than renting it from a vendor; and the university's SWAMID-registered Shibboleth SAML 2.0 identity provider at weblogin.uu.se, which publishes machine-readable federation metadata. No Figshare, Elsevier Pure, Ex Libris or Dataverse contract is attributed to Uppsala in this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png",
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 56.6,
-      "governance": 18.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 63.7,
-      "commercial_clarity": 44.7,
-      "access_clarity": 44.7
+      "discoverability": 68.5,
+      "contract_quality": 56.9,
+      "governance": 35.6,
+      "contract_governance": 35.6,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 35.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 64.1,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 64.8,
       "matched_via": "tags"
      },
-     "agent_score": 36.4,
-     "agent_band": "agent-ready",
+     "agent_score": 24.4,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
-      "reversibility_documented": "documented",
+      "reversibility_documented": "na",
       "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false,
       "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
+      "dry_run_mode": "na",
+      "delegated_identity": false,
       "protected_resource_metadata": false,
       "dynamic_client_registration": false,
       "agentic_commerce": false
@@ -368,8 +368,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -407,7 +407,7 @@
      "slug": "bokio",
      "description": "Bokio is a Swedish cloud accounting and bookkeeping platform (a Visma company) for small businesses, sole traders and their accountants, combining automated bookkeeping, invoicing, a business bank account and financial reporting. Its public REST API is split into a Company API (journal entries, invoices, credit notes, customers, items, suppliers and supplier invoices, uploads, bank payments, chart of accounts, fiscal years and SIE export) and a General API that handles OAuth 2.0 token issuance and connection management for public multi-tenant integrations. Authentication is OAuth 2.0 (authorization code and client credentials) with 24 fine-grained resource:action scopes; the API uses URI-path versioning (v1), page-number pagination, per-token rate limits and a documented deprecation, brownout and sunset lifecycle.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png",
-     "score": 50.8,
+     "score": 50.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
@@ -420,8 +420,8 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -455,58 +455,6 @@
      "rank": 8
     },
     {
-     "name": "Chalmers University of Technology",
-     "slug": "chalmers-university-of-technology",
-     "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, run by the Chalmers Foundation and ranked in the QS World University Rankings. Unlike most of the university cohort, Chalmers operates a genuinely institution-owned API: the Chalmers Research API at api.research.chalmers.se, a first-party CRIS interface over research projects, organizations and publications, described by a live Swagger 2.0 document and protected by HTTP Basic authentication (public reads return 401). Around it sit two institution-hosted OAI-PMH endpoints — Chalmers Research (records back to 1942) and the Chalmers Open Digital Repository, a self-hosted DSpace 8.3 whose REST API answers on odr.chalmers.se — plus a SAML 2.0 identity provider registered in SWAMID, the Swedish national federation. Chalmers is a DataCite consortium member with its own repository account, and its CRIS carries ORCID iDs. There is no consolidated, self-service developer portal, no public open-data portal and no public course-catalog API; the teaching, timetable and data-deposit layers run on vendor tenancies (Canvas, TimeEdit, SND) whose contracts belong to those vendors, not to Chalmers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
-     "score": 42.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 62.0,
-      "governance": 13.6,
-      "contract_governance": 13.6,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Education & Research",
-      "regime_id": "education",
-      "score": 38.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
-    {
      "name": "Lund University",
      "slug": "lund",
      "description": "Lund University is a public research university in Lund, Sweden, founded in 1666, with roughly 46,000 students across nine faculties and the MAX IV and ESS research infrastructures on its doorstep. Its programmable footprint is narrow, real, and almost entirely library-operated: Lund University Libraries run two self-hosted publication repositories on the university's own host — Lund University Publications (LUP) for research output and LUP Student Papers for theses and degree projects — and each exposes the same open, keyless stack of a JSON(P) search API, an OAI-PMH 2.0 repository, an SRU 1.1/CQL search service, a unAPI 1 discovery service, RSS feeds and a bulk bibliographic export. Lund also operates its own Shibboleth Identity Provider, registered in the Swedish national federation SWAMID and interfederated through eduGAIN, which is a genuinely institution-operated machine-readable surface. Outside those, there is no central developer portal, no self-service API key, no open data portal at data.lu.se, and no public JSON endpoint behind the course finder — the education search at lunduniversity.lu.se is server-rendered with nothing machine-readable underneath. The research portal at portal.research.lu.se is the LUCRIS research information system running on Elsevier Pure: the data is Lund's, the contract is Elsevier's, and its web service refuses anonymous callers. Library discovery (LUBcat, LUBsearch) and the timetable (TimeEdit) are likewise vendor platforms carrying Lund's name.",
@@ -524,8 +472,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -556,6 +504,58 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 9
+    },
+    {
+     "name": "Chalmers University of Technology",
+     "slug": "chalmers-university-of-technology",
+     "description": "Chalmers University of Technology (Chalmers tekniska hogskola) is a private technical university in Gothenburg, Sweden, run by the Chalmers Foundation and ranked in the QS World University Rankings. Unlike most of the university cohort, Chalmers operates a genuinely institution-owned API: the Chalmers Research API at api.research.chalmers.se, a first-party CRIS interface over research projects, organizations and publications, described by a live Swagger 2.0 document and protected by HTTP Basic authentication (public reads return 401). Around it sit two institution-hosted OAI-PMH endpoints — Chalmers Research (records back to 1942) and the Chalmers Open Digital Repository, a self-hosted DSpace 8.3 whose REST API answers on odr.chalmers.se — plus a SAML 2.0 identity provider registered in SWAMID, the Swedish national federation. Chalmers is a DataCite consortium member with its own repository account, and its CRIS carries ORCID iDs. There is no consolidated, self-service developer portal, no public open-data portal and no public course-catalog API; the teaching, timetable and data-deposit layers run on vendor tenancies (Canvas, TimeEdit, SND) whose contracts belong to those vendors, not to Chalmers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chalmers-university-of-technology/refs/heads/main/screenshots/chalmers-university-of-technology-2026-06-20T174208.png",
+     "score": 41.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 62.0,
+      "governance": 13.6,
+      "contract_governance": 13.6,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.6,
+      "commercial_clarity": 39.5,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Education & Research",
+      "regime_id": "education",
+      "score": 38.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 10
     }
    ]
@@ -565,15 +565,15 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Einride",
      "slug": "einride",
      "description": "Einride is a Swedish freight technology company delivering an end-to-end platform for electric and autonomous road freight, combining purpose-built autonomous trucks, electric vehicles, smart charging, and the Saga operating software. Its developer-facing product, Einride Extend, exposes open, resource-oriented APIs (designed with Google AIP) over both gRPC and HTTP for booking truck tours and creating, releasing, and tracking shipments. The Extend APIs are alpha (v1beta1) and offered to select developers during an early-access phase, with a saga CLI, Buf Schema Registry proto module, and React UI component library. Einride serves customers including PepsiCo, Heineken, and DP World across Europe, the US, and the Middle East.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/screenshots/einride-2026-07-25T213026.png",
-     "score": 39.0,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -586,8 +586,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -618,7 +618,7 @@
      "slug": "fortnox",
      "description": "Fortnox is a Swedish cloud accounting, ERP, and business-administration platform for small and medium-sized businesses and accounting bureaus. Its REST API at https://api.fortnox.se/3/ programmatically manages accounting and financial data - invoices, customers, articles, orders, offers, vouchers, accounts, suppliers, supplier invoices, projects, and financial years - authenticated with OAuth2 Authorization Code Flow. Fortnox also publishes a duplex WebSocket event stream at wss://ws.fortnox.se/topics-v1 that pushes minimal change notifications across domains so integrations can react to changes instead of polling.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png",
-     "score": 38.8,
+     "score": 38.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -631,8 +631,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -676,8 +676,8 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -728,8 +728,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -767,7 +767,7 @@
      "slug": "46elks",
      "description": "46elks is a Swedish communications platform as a service (CPaaS) offering a simple HTTP REST API for sending and receiving SMS and MMS, making and receiving voice calls with programmable call actions, provisioning virtual phone numbers, and handling media and recordings. The API uses HTTP Basic authentication with an API username and password, and is billed pay-as-you-go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png",
-     "score": 34.5,
+     "score": 33.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -780,8 +780,8 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -832,8 +832,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 7.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -877,8 +877,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -922,8 +922,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -954,7 +954,7 @@
      "slug": "fyndiq",
      "description": "Fyndiq is Sweden's largest online marketplace for bargains and deals, connecting merchants with millions of deal-seeking consumers across categories from electronics and mobile accessories to home, fashion, beauty and children's goods. Merchants list products while Fyndiq handles the storefront, customer relations and payments. Fyndiq exposes a REST Merchant API that lets sellers upload and manage product articles (create, bulk, price, quantity, delete) and retrieve, fulfil and cancel orders. The API is JSON over HTTPS, secured with HTTP Basic Authentication (Base64 merchantID:token), with a self-contained sandbox environment for integration testing and official Magento, PrestaShop and WooCommerce integration modules. Fyndiq is part of the CDON marketplace group and was originally backed by Northzone.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fyndiq/refs/heads/main/screenshots/fyndiq-2026-07-25T215343.png",
-     "score": 27.6,
+     "score": 26.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
@@ -967,8 +967,8 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -993,15 +993,25 @@
       "agentic_commerce": false
      },
      "rank": 19
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 16,
+   "shown": 16,
+   "providers": [
     {
      "name": "Nmbrs",
      "slug": "nmbrs",
      "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/screenshots/nmbrs-2026-08-07T185352.png",
-     "score": 26.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 25.8,
+     "band": "emerging",
+     "band_label": "Emerging",
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
@@ -1012,8 +1022,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1038,17 +1048,7 @@
       "agentic_commerce": false
      },
      "rank": 20
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 15,
-   "shown": 15,
-   "providers": [
+    },
     {
      "name": "KRY | LIVI",
      "slug": "kry-livi",
@@ -1067,8 +1067,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1126,8 +1126,8 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1178,8 +1178,8 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1229,8 +1229,8 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1281,8 +1281,8 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1332,8 +1332,8 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1395,8 +1395,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1440,8 +1440,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1492,8 +1492,8 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1543,8 +1543,8 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1588,8 +1588,8 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1633,8 +1633,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1685,8 +1685,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1737,8 +1737,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1782,8 +1782,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1837,8 +1837,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1882,8 +1882,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1934,8 +1934,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1986,8 +1986,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2031,8 +2031,8 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -2083,8 +2083,8 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2128,8 +2128,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2173,8 +2173,8 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2218,8 +2218,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2270,8 +2270,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2322,8 +2322,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2374,8 +2374,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2425,8 +2425,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2470,8 +2470,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2522,8 +2522,8 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2574,8 +2574,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2619,8 +2619,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2664,8 +2664,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2716,8 +2716,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2760,8 +2760,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2805,8 +2805,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2850,8 +2850,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2895,8 +2895,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2947,8 +2947,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3035,8 +3035,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3080,8 +3080,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3125,8 +3125,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3170,8 +3170,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3222,8 +3222,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3273,8 +3273,8 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-06",
-     "schema_version": "0.19.0",
+     "scored_at": "2026-09-07",
+     "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",

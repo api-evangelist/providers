@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -78,6 +78,10 @@ collections:
   name: Grapes Knowledge Base API
   slug: open-grapes-knowledge-base
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://data-grapes.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -149,7 +153,7 @@ overview: 'Grapes Knowledge Base publishes 3 APIs on the [APIs.io](https://apis.
   The Grapes Knowledge Base catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Grapes Knowledge Base''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
+  Grapes Knowledge Base''s developer surface includes authentication, documentation, engineering blog, and 9 more developer resources.'
 plans:
 - name: Grapes Knowledge Base Plans Pricing
   plan_count: 3
@@ -172,7 +176,7 @@ rules:
   slug: grapes-knowledge-base-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 30.7
+  composite: 30.0
   coverage:
     artifact_dirs: 13
     catalog_earned: 52.3
@@ -180,7 +184,7 @@ score:
     catalog_gap: 62.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 15.8
     commercial_clarity: 15.8
@@ -198,9 +202,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/screenshots/grapes-knowledge-base-2026-06-20T182323.png
 security:
 - kind: authentication
@@ -218,4 +225,5 @@ tags:
 - Data Management
 - Automation
 - HATEOAS
+website: https://data-grapes.com/
 ---

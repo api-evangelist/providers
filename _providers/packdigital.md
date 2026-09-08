@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 14.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: GraphQL API to programmatically manage Shopify Hydrogen storefront content — pages, product pages, collection pages, blogs, articles, sections, templates, site settings, schedules, and revisions — wit
@@ -184,9 +184,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/packdigital/refs/heads/main/screenshots/packdigital-2026-08-07T191242.png
 security:
 - kind: authentication

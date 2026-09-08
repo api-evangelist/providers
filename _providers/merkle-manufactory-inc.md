@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The read/write REST interface a Snapchain node serves on port 3381 under the /v1 path. Read endpoints (casts, reactions, links, user data, verifications, fids, username proofs, storage limits, on-chai
@@ -41,6 +41,10 @@ apis:
   slug: snapchain-http-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.farcaster.xyz/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,7 +108,7 @@ network: true
 overview: 'Merkle Manufactory Inc. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Decentralized Social, Protocol, and Blockchain.
 
 
-  Merkle Manufactory Inc.''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 7 more developer resources.'
+  Merkle Manufactory Inc.''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 8 more developer resources.'
 random_paper: 11
 score:
   band: thin
@@ -127,9 +131,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 28.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/merkle-manufactory-inc/refs/heads/main/screenshots/merkle-manufactory-inc-2026-08-07T172606.png
 security:
 - kind: authentication
@@ -150,5 +158,5 @@ tags:
 - Web3
 - Developer Platform
 - Farcaster
-website: https://docs.farcaster.xyz/
+website: https://www.farcaster.xyz/
 ---

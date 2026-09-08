@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: The XS2A API is the server-side endpoint set used by TPPs and merchants to create and control Open Banking sessions and flows under PSD2. The XS2A API drives Account Information Services (AIS) for ret
@@ -55,6 +55,10 @@ apis:
   slug: klarna-kosma-payments-api
 artifact_total: 23
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.klarna.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -175,7 +179,7 @@ network: true
 overview: 'Klarna Kosma publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Open Banking, PSD2, AIS, PIS, and Account Information.
 
 
-  Klarna Kosma''s developer surface includes developer portal, documentation, getting-started guide, authentication, sandbox, code examples, support, and 16 more developer resources.'
+  Klarna Kosma''s developer surface includes developer portal, documentation, getting-started guide, authentication, sandbox, code examples, support, and 17 more developer resources.'
 random_paper: 20
 score:
   band: emerging
@@ -204,9 +208,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: Klarna Kosma Domain Security
@@ -233,5 +241,5 @@ tags:
 - Lending
 - Fintech
 - Banking
-website: https://www.klarna.com/kosma/
+website: https://www.klarna.com/
 ---

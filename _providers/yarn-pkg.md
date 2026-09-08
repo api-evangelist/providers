@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: 'The Yarn command-line interface — `yarn` — provides install, add, remove, up, run, exec, dlx, info, why, pack, rebuild, dedupe, node, bin, search, upgrade-interactive, and stage commands for managing '
@@ -67,6 +67,10 @@ apis:
   slug: yarn-dlx
 artifact_total: 35
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.yarnpkg.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -256,7 +260,7 @@ overview: 'Yarn publishes 10 APIs on the [APIs.io](https://apis.io/) network. Ta
   The Yarn catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Yarn''s developer surface includes developer portal, getting-started guide, documentation, changelog, and 32 more developer resources.'
+  Yarn''s developer surface includes developer portal, getting-started guide, documentation, changelog, and 33 more developer resources.'
 random_paper: 11
 rules:
 - effective_rule_count: 5
@@ -290,9 +294,13 @@ score:
     governance: 25.0
     operational_transparency: 21.1
   previous_composite: 26.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/yarn-pkg/refs/heads/main/screenshots/yarn-pkg-2026-06-20T201737.png
 security:
 - kind: domain-security
@@ -310,5 +318,5 @@ tags:
 - Open-Source
 - Berry
 - Yarn 4
-website: https://yarnpkg.com
+website: https://www.yarnpkg.com/
 ---

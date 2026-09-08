@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Publicly served SOAP 1.1 / 1.2 web service behind the USADATA Leads Portal and Leads Module. The WSDL is served anonymously from the production API host and declares 24 operations covering the full li
@@ -192,9 +192,13 @@ score:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/usadata-inc/refs/heads/main/screenshots/usadata-inc-2026-09-02T165227.png
 security:
 - kind: authentication

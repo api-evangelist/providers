@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: The Ace Hardware Affiliate Program allows digital publishers, bloggers, and content creators to earn commissions by referring customers to acehardware.com. The program is managed through Impact's affi
@@ -221,9 +221,13 @@ score:
   previous_composite: 30.2
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ace-hardware/refs/heads/main/screenshots/ace-hardware-2026-06-20T163718.png
 security:
 - kind: authentication

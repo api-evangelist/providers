@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/oscar-health
+- group: other
+  title: ''
+  type: Corporate
+  url: https://www.oscar-health.com
 - group: auth
   title: ''
   type: DomainSecurity
@@ -95,7 +103,7 @@ network: true
 overview: 'Oscar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Insurance, Healthcare, Insurance, and Health Technology.
 
 
-  Oscar''s developer surface includes engineering blog and 11 more developer resources.'
+  Oscar''s developer surface includes engineering blog and 13 more developer resources.'
 random_paper: 11
 score:
   band: emerging
@@ -124,9 +132,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 28.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/oscar/refs/heads/main/screenshots/oscar-2026-08-07T190958.png
 security:
 - kind: domain-security

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 47.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -311,6 +311,10 @@ collections:
   name: Svix API
   slug: open-svix
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.svix.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -760,7 +764,7 @@ overview: 'Svix publishes 28 APIs on the [APIs.io](https://apis.io/) network, in
   The Svix catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Svix''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 85 more developer resources.'
+  Svix''s developer surface includes authentication, developer portal, documentation, API reference, getting-started guide, signup flow, pricing, and 86 more developer resources.'
 plans:
 - name: Svix Plans Pricing
   plan_count: 3
@@ -794,7 +798,7 @@ rules:
   slug: svix-rules
 score:
   band: exemplar
-  composite: 77.7
+  composite: 80.4
   coverage:
     artifact_dirs: 34
     catalog_earned: 76.5
@@ -802,7 +806,7 @@ score:
     catalog_gap: 38.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.7
   facets:
     access_clarity: 76.3
     commercial_clarity: 76.3
@@ -837,9 +841,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/svix/refs/heads/main/screenshots/svix-2026-06-20T194748.png
 security:
 - kind: authentication
@@ -899,5 +906,5 @@ tags:
 - Polyglot SDK
 - Terraform
 - CLI
-website: https://dashboard.svix.com
+website: https://www.svix.com/
 ---

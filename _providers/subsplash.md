@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: 'Programmatic access to an organization''s media catalog - sermons, series, podcasts, blogs, and announcements - for syncing content into external sites, AI/search pipelines, and custom apps. Endpoints '
@@ -127,9 +127,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 17.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/subsplash/refs/heads/main/screenshots/subsplash-2026-09-02T161101.png
 security:
 - kind: domain-security

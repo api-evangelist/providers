@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Securely verifies client identity and issues access tokens via OAuth 2.0 client credentials grant for authenticating requests to all G-P APIs.
@@ -141,9 +141,13 @@ score:
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 29.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/g-p/refs/heads/main/screenshots/g-p-2026-06-20T181628.png
 security:
 - kind: domain-security

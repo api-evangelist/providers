@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Public management API for the Maverics platform, automated with confidential OAuth 2.0 client-credentials API clients (private_key_jwt / JWT client assertion, ES256). Region-specific auth surfaces are
@@ -178,9 +178,13 @@ score:
   previous_composite: 35.8
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/strata-identity/refs/heads/main/screenshots/strata-identity-2026-09-02T160948.png
 security:
 - kind: authentication

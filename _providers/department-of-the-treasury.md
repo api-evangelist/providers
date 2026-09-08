@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -128,6 +128,10 @@ collections:
   name: OFAC Sanctions List Service API
   slug: open-ofac-sdn-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.treasury.gov/
 - group: other
   title: ''
   type: CapabilityMap
@@ -201,7 +205,7 @@ overview: 'Department of the Treasury publishes 8 APIs on the [APIs.io](https://
   The Department of the Treasury catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Department of the Treasury''s developer surface includes developer portal, documentation, engineering blog, and 6 more developer resources.'
+  Department of the Treasury''s developer surface includes developer portal, documentation, engineering blog, and 7 more developer resources.'
 plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
@@ -266,9 +270,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 20.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
 security:
 - kind: domain-security
@@ -281,5 +289,5 @@ tags:
 - Finance
 - Debt
 - Sanctions
-website: https://home.treasury.gov/
+website: https://www.treasury.gov/
 ---

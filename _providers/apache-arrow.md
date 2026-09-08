@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Arrow Flight is a high-performance RPC framework built on gRPC for transferring large datasets using the Arrow columnar format. It enables efficient bulk data transport between services with client li
@@ -47,6 +47,10 @@ apis:
   slug: apache-arrow-format
 artifact_total: 32
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: operate
   title: ''
   type: IssueTracker
@@ -200,7 +204,7 @@ network: true
 overview: 'Apache Arrow publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Apache, Columnar Format, Data, and gRPC.
 
 
-  Apache Arrow''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 20 more developer resources.'
+  Apache Arrow''s developer surface includes documentation, getting-started guide, support, changelog, engineering blog, and 21 more developer resources.'
 plans:
 - name: Apache Arrow Plans Pricing
   plan_count: 3
@@ -234,9 +238,13 @@ score:
     applies: true
     score: 65.0
   previous_composite: 29.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-arrow/refs/heads/main/screenshots/apache-arrow-2026-06-20T172042.png
 security:
 - kind: domain-security
@@ -271,4 +279,5 @@ use_cases:
   name: High-Throughput Data Services
 - description: Share in-memory data between Python pandas/polars, Java, and Rust applications with zero-copy semantics.
   name: Cross-Language Data Sharing
+website: https://www.apache.org/
 ---

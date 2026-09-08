@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,6 +132,10 @@ collections:
   name: Chess.com Published Data Clubs Tournaments API
   slug: open-chess-com-tournaments-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.chess.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -302,7 +306,7 @@ overview: 'Chess.com publishes 10 APIs on the [APIs.io](https://apis.io/) networ
   The Chess.com catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Chess.com''s developer surface includes developer portal, documentation, pricing, engineering blog, YouTube channel, support, and 25 more developer resources.'
+  Chess.com''s developer surface includes developer portal, documentation, pricing, engineering blog, YouTube channel, support, and 26 more developer resources.'
 plans:
 - name: Chess Com Plans Pricing
   plan_count: 5
@@ -368,9 +372,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 46.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/screenshots/chess-com-2026-06-20T174300.png
 security:
 - kind: domain-security
@@ -389,5 +397,5 @@ tags:
 - Sports
 - Community
 - Education
-website: https://www.chess.com
+website: https://www.chess.com/
 ---

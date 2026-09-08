@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: CKAN Action API for data.gov.ie, a consistent JSON-over-HTTP interface over a catalog of 22,200 datasets. Standard actions include package_search, package_show, package_list, organization_list, group_
@@ -129,9 +129,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 11.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-ie/refs/heads/main/screenshots/data-gov-ie-2026-06-20T175536.png
 security:
 - kind: domain-security

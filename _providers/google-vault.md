@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -101,6 +101,10 @@ collections:
   name: Google Vault API
   slug: open-google-vault
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.google.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -164,7 +168,7 @@ network: true
 overview: 'Google Vault publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Exports API, HeldAccounts API, Holds API, and 3 more.
 
 
-  Google Vault''s developer surface includes authentication, getting-started guide, developer console, changelog, engineering blog, and 7 more developer resources.'
+  Google Vault''s developer surface includes authentication, getting-started guide, developer console, changelog, engineering blog, and 8 more developer resources.'
 plans:
 - name: Google Vault Plans Pricing
   plan_count: 3
@@ -181,7 +185,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.1
+  composite: 35.4
   coverage:
     artifact_dirs: 11
     catalog_earned: 36.0
@@ -189,7 +193,7 @@ score:
     catalog_gap: 79.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 36.8
     commercial_clarity: 36.8
@@ -210,9 +214,12 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/screenshots/google-vault-2026-06-20T182245.png
 security:
 - kind: authentication
@@ -228,5 +235,5 @@ security:
   slug: google-vault-vulnerability-disclosure
   summary_line: security.txt · contact published
 slug: google-vault
-website: https://developers.google.com/vault
+website: https://www.google.com/
 ---

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.6
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - baseURL: https://www.newsblur.com
@@ -99,6 +99,10 @@ collections:
   name: NewsBlur authentication stories API
   slug: open-newsblur-stories-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.newsblur.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -202,11 +206,11 @@ network: true
 overview: 'NewsBlur publishes 7 APIs on the [APIs.io](https://apis.io/) network, including authentication API, classifiers API, feed-management API, and 4 more. Tagged areas include Company, RSS, News, Feed Reader, and Aggregator.
 
 
-  NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
+  NewsBlur''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
 random_paper: 0
 score:
   band: thin
-  composite: 36.6
+  composite: 35.9
   coverage:
     artifact_dirs: 19
     catalog_earned: 37.0
@@ -214,7 +218,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 34.2
     commercial_clarity: 34.2
@@ -234,9 +238,12 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/newsblur/refs/heads/main/screenshots/newsblur-2026-08-07T185129.png
 security:
 - kind: authentication
@@ -259,5 +266,5 @@ tags:
 - Media
 - Open-Source
 - MCP
-website: https://www.newsblur.com/api
+website: https://www.newsblur.com/
 ---

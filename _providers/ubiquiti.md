@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -103,6 +103,10 @@ collections:
   name: UniFi Site Manager API
   slug: open-ubiquiti-unifi-site-manager-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.ui.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -259,7 +263,7 @@ network: true
 overview: 'Ubiquiti publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Devices API, Hosts API, ISP Metrics API, and 2 more. Tagged areas include Networking, Wi-Fi, Switching, Routing, and Surveillance.
 
 
-  Ubiquiti''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 26 more developer resources.'
+  Ubiquiti''s developer surface includes authentication, developer portal, documentation, getting-started guide, signup flow, engineering blog, support, and 27 more developer resources.'
 plans:
 - name: Ubiquiti Plans Pricing
   plan_count: 3
@@ -297,9 +301,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubiquiti/refs/heads/main/screenshots/ubiquiti-2026-06-20T195930.png
 security:
 - kind: authentication
@@ -327,5 +335,5 @@ tags:
 - UniFi
 - UISP
 - AmpliFi
-website: https://www.ui.com
+website: https://www.ui.com/
 ---

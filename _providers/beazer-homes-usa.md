@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 21
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.beazer.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -102,7 +106,7 @@ network: true
 overview: 'Beazer Homes USA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Homebuilder, Real-Estate, Construction, Residential, and Energy Efficiency.
 
 
-  Beazer Homes USA''s developer surface includes developer portal, engineering blog, and 5 more developer resources.'
+  Beazer Homes USA''s developer surface includes developer portal, engineering blog, and 6 more developer resources.'
 random_paper: 17
 score:
   band: minimal
@@ -136,9 +140,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/beazer-homes-usa/refs/heads/main/screenshots/beazer-homes-usa-2026-06-20T173114.png
 security:
 - kind: domain-security
@@ -174,5 +182,5 @@ use_cases:
   name: Active Adult / Age-Targeted
 - description: Buyer selects a plan, Choice Plan structural option, and Style Choice finishes during the pre-construction period.
   name: Build-to-Order Personalization
-website: https://www.beazer.com
+website: https://www.beazer.com/
 ---

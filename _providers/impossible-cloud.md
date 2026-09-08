@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ overview: 'Impossible Cloud publishes 3 APIs on the [APIs.io](https://apis.io/) 
 random_paper: 0
 score:
   band: developing
-  composite: 46.6
+  composite: 45.9
   coverage:
     artifact_dirs: 14
     catalog_earned: 37.0
@@ -209,7 +209,7 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 53.9
     commercial_clarity: 53.9
@@ -235,9 +235,12 @@ score:
       marker_coverage: 0.0
       total: 3
     mcp: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/screenshots/impossible-cloud-2026-07-25T222158.png
 security:
 - kind: authentication

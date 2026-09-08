@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,6 +200,10 @@ collections:
   name: Weatherbit - Interactive Swagger UI Documentation 16 Day / Daily Forecast Sub-Hourly Historical Weather Data API
   slug: open-weatherbit-sub-hourly-historical-weather-data-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.weatherbit.io/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -691,7 +695,7 @@ overview: 'Weatherbit publishes 17 APIs on the [APIs.io](https://apis.io/) netwo
   The Weatherbit catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Weatherbit''s developer surface includes FAQ, engineering blog, signup flow, and 13 more developer resources.'
+  Weatherbit''s developer surface includes FAQ, engineering blog, signup flow, and 14 more developer resources.'
 plans:
 - name: Weatherbit Plans Pricing
   plan_count: 6
@@ -751,9 +755,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 17
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/weatherbit/refs/heads/main/screenshots/weatherbit-2026-06-20T201311.png
 security:
 - kind: domain-security
@@ -781,4 +789,5 @@ use_cases:
   name: Insurance and Risk
 - description: Optimize routing and operations based on weather forecasts and real-time conditions.
   name: Logistics and Transportation
+website: https://www.weatherbit.io/
 ---

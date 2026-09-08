@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: SOAP API (XML and JSON encodings) for Zimbra Collaboration — account, mail, and admin operations, POSTed to /service/soap on a Zimbra deployment. Self-hosted, so the base host is per-deployment; the r
@@ -153,9 +153,13 @@ score:
   previous_composite: 25.3
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zimbra/refs/heads/main/screenshots/zimbra-2026-09-02T171743.png
 security:
 - kind: authentication

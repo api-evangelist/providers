@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: The Avamar REST API provides a framework to develop applications and tools that interact with a stand-alone Avamar server. It exposes backup, restore, client, domain, dataset, retention, policy, plugi
@@ -41,6 +41,10 @@ apis:
   slug: avamar-rest-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dell.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -152,7 +156,7 @@ network: true
 overview: 'Avamar publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Backup, Data Protection, Deduplication, and Disaster Recovery.
 
 
-  Avamar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 18 more developer resources.'
+  Avamar''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, CLI, and 19 more developer resources.'
 random_paper: 2
 scopes:
 - name: Avamar Scopes
@@ -182,9 +186,13 @@ score:
   previous_composite: 23.4
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/avamar/refs/heads/main/screenshots/avamar-2026-07-25T201915.png
 security:
 - kind: authentication
@@ -215,5 +223,5 @@ tags:
 - Infrastructure
 - Dell Technologies
 - On-Premise
-website: https://developer.dell.com/
+website: https://www.dell.com/
 ---

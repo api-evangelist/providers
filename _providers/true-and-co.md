@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the True & Co Shopify storefront: a hosted Universal Commerce Protocol (UCP) MCP endpoint for catalog search, cart, and checkout, backed by Shopify Customer Account O'
@@ -43,6 +43,10 @@ apis:
   slug: true-co-ucp-agent-commerce
 artifact_total: 4
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.trueandco.com/
 - group: agent
   title: ''
   type: X-MCPServerCandidate
@@ -90,7 +94,7 @@ network: true
 overview: 'True & Co publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Retail, E-Commerce, and Apparel.
 
 
-  True & Co''s developer surface includes authentication and 8 more developer resources.'
+  True & Co''s developer surface includes authentication and 9 more developer resources.'
 random_paper: 5
 scopes:
 - name: True And Co Scopes
@@ -120,9 +124,13 @@ score:
   previous_composite: 14.2
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/true-and-co/refs/heads/main/screenshots/true-and-co-2026-09-02T164331.png
 security:
 - kind: authentication
@@ -144,4 +152,5 @@ tags:
 - Agentic Commerce
 - Shopify
 - MCP
+website: https://www.trueandco.com/
 ---

@@ -17,7 +17,7 @@ agent_readiness:
   dimensions:
     agent_card: false
     agent_skills: true
-    agentic_access: false
+    agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
     consent_identity: false
@@ -30,13 +30,20 @@ agent_readiness:
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 48.1
-  scored_at: '2026-09-06'
+  score: 52.4
+  scored_at: '2026-09-07'
+agentic_access:
+- acting_count: 14
+  human_in_the_loop: 0
+  name: Bolt Financial Agentic Access
+  operation_count: 16
+  slug: bolt-financial-agentic-access
+  summary_line: 16 operations · 14 acting
 api_count: 4
 apis:
 - description: 'Bolt exposes two Model Context Protocol surfaces: a hosted documentation MCP server advertised at help.boltapp.com/mcp with search_docs, get_doc_page and list_doc_sections tools, and a Speakeasy-gener'
@@ -102,7 +109,7 @@ apis:
   description: Set up webhooks to notify your backend of events within Bolt. These webhooks can communicate with your OMS or other systems to keep them up to date with Bolt. See our related guide on [Webhooks](https
   name: Bolt Financial Webhooks API
   slug: bolt-financial-webhooks-api
-artifact_total: 22
+artifact_total: 27
 asyncapis:
 - description: ''
   name: Bolt Financial Webhooks
@@ -121,6 +128,42 @@ collections:
   name: Tokenizer Endpoint
   slug: open-bolt-financial-tokenizer
 common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/bolt-financial-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/bolt-financial-trust-center.yml
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/BoltApp
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/bolt-com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/bolt
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/bolt-financial-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/bolt-financial-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/bolt-financial-finops.yml
+- group: other
+  title: ''
+  type: MerchantDashboard
+  url: https://merchant.bolt.com
 - group: other
   title: ''
   type: Overlay
@@ -275,6 +318,10 @@ common:
   url: skills/_index.yml
 created: '2026-07-31'
 description: 'Bolt Financial, Inc. is an American commerce technology company that gives retailers a one-click, identity-powered checkout backed by a shopper account network, payments processing, tokenization and fraud protection. Merchants integrate Bolt either through platform plugins (Adobe Commerce/Magento, BigCommerce, Salesforce Commerce Cloud, Shopify, WooCommerce) or directly against a REST API surface that covers shopper accounts, order tokens, transaction authorize/capture/refund/void, subscriptions, product catalog, merchant statements, webhooks and a hosted card tokenizer. Bolt publishes OpenAPI 3.0 definitions for its Bolt API, Embeddable Checkout v1 and v3, and Tokenizer endpoints, ships first-party SDKs for TypeScript, Python, C#, Go, PHP, iOS/Swift, Android/Kotlin, React Native, Unity and Unreal, and maintains an explicit agent-facing surface: an llms.txt index, a hosted documentation MCP server and two published agent skills.'
+finops:
+- name: Bolt Financial Finops
+  service_category: ''
+  slug: bolt-financial-finops
 image: https://kinlane-productions2.s3.amazonaws.com/api-evangelist-site/company-images/bolt-financial.png
 layout: provider
 mcp_servers:
@@ -291,27 +338,35 @@ overview: 'Bolt Financial publishes 12 APIs on the [APIs.io](https://apis.io/) n
   The Bolt Financial catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
+  Bolt Financial''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 40 more developer resources.'
+plans:
+- name: Bolt Financial Plans Pricing
+  plan_count: 1
+  slug: bolt-financial-plans-pricing
 random_paper: 4
+rate_limits:
+- limit_count: 0
+  name: Bolt Financial Rate Limits
+  slug: bolt-financial-rate-limits
 scopes:
 - name: Bolt Financial Scopes
   scope_count: 4
   slug: bolt-financial-scopes
   summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 60.1
+  band: exemplar
+  composite: 70.1
   coverage:
-    artifact_dirs: 22
-    catalog_earned: 40.0
+    artifact_dirs: 26
+    catalog_earned: 51.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
+    catalog_gap: 64.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.0
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
+    access_clarity: 65.8
+    commercial_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 63.0
     developer_ergonomics: 79.8
@@ -320,6 +375,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 60.1
   provenance:
+    agentic_access: derived
     conformance: first-party
     contracts:
       callable: 100.0
@@ -334,9 +390,12 @@ score:
     regime: Payments
     regime_id: payments
     score: 78.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/screenshots/bolt-financial-2026-08-07T162709.png
 security:
 - kind: authentication
@@ -347,6 +406,10 @@ security:
   name: Bolt Financial Domain Security
   slug: bolt-financial-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Bolt Financial Trust Center
+  slug: bolt-financial-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: bolt-financial
 tags:
 - Company

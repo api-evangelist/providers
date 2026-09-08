@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Vitality's production API gateway, running WSO2 API Manager at apis.vitality.co.uk (origin wso2-prd-apigw.tvc.vitality.co.uk:8243 behind an AWS load balancer in eu-west-1). The gateway is publicly res
@@ -163,9 +163,13 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 63.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vitality-uk/refs/heads/main/screenshots/vitality-uk-2026-09-02T170104.png
 security:
 - kind: authentication

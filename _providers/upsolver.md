@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'HTTP API behind the Upsolver SQLake platform, used by the first-party Python SDK (DB API 2.0), CLI, and dbt adapter to execute SQLake SQL statements (DDL, DML, continuous data loading). Authenticated '
@@ -124,9 +124,13 @@ score:
     governance: 0.0
     operational_transparency: 18.4
   previous_composite: 17.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsolver/refs/heads/main/screenshots/upsolver-2026-09-02T165119.png
 security:
 - kind: authentication

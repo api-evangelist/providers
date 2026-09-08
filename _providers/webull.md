@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -198,9 +198,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/webull/refs/heads/main/screenshots/webull-2026-09-02T170543.png
 security:
 - kind: authentication

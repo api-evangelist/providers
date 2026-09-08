@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 7
 apis:
 - description: 'The core Mercor platform that matches expert humans to AI lab and enterprise demand for RLHF, SFT, evals, agent training, and frontier research projects. Domains covered include software engineering, '
@@ -59,6 +59,10 @@ apis:
   slug: terminal-bench
 artifact_total: 24
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.mercor.com/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -142,7 +146,7 @@ network: true
 overview: 'Mercor publishes 7 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Talent Marketplace, Human Intelligence, RLHF, SFT, and AI Evals.
 
 
-  Mercor''s developer surface includes developer portal, documentation, API reference, engineering blog, signup flow, support, and 6 more developer resources.'
+  Mercor''s developer surface includes developer portal, documentation, API reference, engineering blog, signup flow, support, and 7 more developer resources.'
 plans:
 - name: Mercor Plans Pricing
   plan_count: 1
@@ -173,9 +177,13 @@ score:
     governance: 0.0
     operational_transparency: 23.7
   previous_composite: 27.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercor/refs/heads/main/screenshots/mercor-2026-06-20T185214.png
 security:
 - kind: domain-security
@@ -200,5 +208,5 @@ use_cases:
   name: AI Agent Evaluation
 - description: Stand up managed labeling and evaluation pipelines for enterprise AI programs.
   name: Enterprise Data Engineering
-website: https://www.mercor.com
+website: https://www.mercor.com/
 ---

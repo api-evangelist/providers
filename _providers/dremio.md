@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for Dremio Cloud covering the Open Catalog (sources, folders, tables, views, wikis, tags, lineage), SQL query execution and job management, Reflections, engines, projects, users, roles, grant
@@ -41,6 +41,10 @@ apis:
   slug: dremio-cloud-rest-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.dremio.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -180,7 +184,7 @@ network: true
 overview: 'Dremio publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Lakehouse, Analytics, SQL Query Engine, and Apache Iceberg.
 
 
-  Dremio''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 24 more developer resources.'
+  Dremio''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
 random_paper: 10
 score:
   band: developing
@@ -206,9 +210,13 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dremio/refs/heads/main/screenshots/dremio-2026-07-25T212402.png
 security:
 - kind: authentication
@@ -239,5 +247,5 @@ tags:
 - Semantic Layer
 - AI Agents
 - MCP
-website: https://docs.dremio.com/
+website: https://www.dremio.com/
 ---

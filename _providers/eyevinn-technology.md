@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: The Eyevinn Open Source Cloud (OSC) REST API is the management plane for provisioning and operating service instances on the OSC platform. The API uses Personal Access Tokens (PATs) issued from app.os
@@ -286,9 +286,13 @@ score:
     - europe
     - nordics
   previous_composite: 31.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/eyevinn-technology/refs/heads/main/screenshots/eyevinn-technology-2026-06-20T180953.png
 security:
 - kind: domain-security

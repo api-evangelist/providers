@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Deploy a Salt AI workflow as a production HTTP API. A POST to the deployment execution endpoint accepts a workflow_input map (per input node: value + value_type such as RAW) and an optional callback U'
@@ -44,6 +44,10 @@ asyncapis:
   name: Plai Labs Execution Webhook
   slug: plai-labs-execution-webhook
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.salt.ai/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -118,7 +122,7 @@ overview: 'Plai Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
   The Plai Labs catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Plai Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 9 more developer resources.'
+  Plai Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 10 more developer resources.'
 random_paper: 3
 score:
   band: thin
@@ -147,9 +151,13 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/plai-labs/refs/heads/main/screenshots/plai-labs-2026-09-02T151353.png
 security:
 - kind: domain-security
@@ -168,5 +176,5 @@ tags:
 - Life Sciences
 - Workflow-Automation
 - No-Code
-website: https://docs.salt.ai/
+website: https://www.salt.ai/
 ---

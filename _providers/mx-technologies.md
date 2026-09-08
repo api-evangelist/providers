@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -22,8 +22,8 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
+    error_semantics: documented
+    event_surface_described: true
     idempotency: false
     mcp_server: false
     openapi_examples: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.0
-  scored_at: '2026-09-06'
+  score: 29.1
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -189,7 +189,11 @@ apis:
   description: The widgets API from MX Technologies — 4 operation(s) for widgets.
   name: MX Technologies widgets API
   slug: mx-technologies-widgets-api
-artifact_total: 71
+artifact_total: 72
+asyncapis:
+- description: ''
+  name: Mx Technologies Webhooks
+  slug: mx-technologies-webhooks
 collections:
 - collection_type: open
   name: API Collection
@@ -273,6 +277,110 @@ collections:
   name: MX Platform accounts widgets API
   slug: open-mx-technologies-widgets-api
 common:
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/mx-technologies-mcp.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/mx-technologies-platform-api-overlay.yaml
+- group: build
+  title: ''
+  type: PostmanWorkspace
+  url: https://www.postman.com/kinlaneapi/mx/overview
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.mx.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.mx.com/terms/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.mx.com/privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.mx.com/
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.mx.com/api-reference/platform-api/overview/versioning
+- group: auth
+  title: ''
+  type: Security
+  url: https://mx.com/security-policy/
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/mx-technologies-security.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/mx-technologies-well-known.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.mx.com/trust/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/mx-technologies-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/mx-technologies-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/mx-technologies-llms.txt
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/mx-technologies-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/mx-technologies-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/mx-technologies-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/mx-technologies-changelog.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/mx-technologies-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/mx-technologies-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/mx-technologies-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/mx-technologies-conformance.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/mx-technologies-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: SignUp
+  url: https://dashboard.mx.com/sign_up
 - group: agent
   title: ''
   type: AgenticAccess
@@ -381,10 +489,10 @@ network: true
 overview: 'MX Technologies publishes 26 APIs on the [APIs.io](https://apis.io/) network, including accounts API, ach return API, budgets API, and 23 more. Tagged areas include Financial Data, Account Aggregation, Open Banking, Data Connectivity, and Fintech.
 
 
-  The MX Technologies catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+  The MX Technologies catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
 
 
-  MX Technologies'' developer surface includes authentication, documentation, engineering blog, pricing, and 15 more developer resources.'
+  MX Technologies'' developer surface includes support, changelog, sandbox, signup flow, authentication, documentation, engineering blog, and 38 more developer resources.'
 plans:
 - name: Mx Technologies Plans Pricing
   plan_count: 2
@@ -406,42 +514,48 @@ rules:
     warn: 5
   slug: mx-technologies-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 49.1
+  band: exemplar
+  composite: 75.6
   coverage:
-    artifact_dirs: 16
+    artifact_dirs: 31
     catalog_earned: 85.3
     catalog_earned_first_party: 0.0
     catalog_gap: 29.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 26.5
   facets:
-    access_clarity: 47.4
-    commercial_clarity: 47.4
-    contract_governance: 25.0
-    contract_quality: 71.6
-    developer_ergonomics: 23.8
-    discoverability: 68.5
-    governance: 25.0
-    operational_transparency: 50.0
+    access_clarity: 89.5
+    commercial_clarity: 89.5
+    contract_governance: 43.2
+    contract_quality: 77.9
+    developer_ergonomics: 45.8
+    discoverability: 75.9
+    governance: 43.2
+    operational_transparency: 92.1
   previous_composite: 49.1
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 26
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Banking & Open Finance
     regime_id: banking_open_finance
-    score: 35.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+    score: 64.6
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/screenshots/mx-technologies-2026-06-20T185910.png
 security:
 - kind: authentication

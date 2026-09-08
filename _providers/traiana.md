@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -140,6 +140,10 @@ collections:
   name: Traiana Harmony CreditLink Allocations Utilization API
   slug: open-traiana-utilization-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.osttra.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -233,7 +237,7 @@ overview: 'Traiana publishes 10 APIs on the [APIs.io](https://apis.io/) network,
   The Traiana catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Traiana''s developer surface includes authentication, documentation, support, and 7 more developer resources.'
+  Traiana''s developer surface includes authentication, documentation, support, and 8 more developer resources.'
 plans:
 - name: Traiana Plans Pricing
   plan_count: 1
@@ -266,7 +270,7 @@ rules:
   slug: traiana-rules
 score:
   band: thin
-  composite: 33.0
+  composite: 32.3
   coverage:
     artifact_dirs: 15
     catalog_earned: 66.3
@@ -274,7 +278,7 @@ score:
     catalog_gap: 48.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.7
   facets:
     access_clarity: 13.2
     commercial_clarity: 13.2
@@ -292,9 +296,12 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 10
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/traiana/refs/heads/main/screenshots/traiana-2026-06-20T195541.png
 security:
 - kind: authentication
@@ -311,4 +318,5 @@ tags:
 - Foreign Exchange
 - Post-Trade Processing
 - Risk Management
+website: https://www.osttra.com/
 ---

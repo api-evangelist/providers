@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: 'Cosmos is Augment''s unified agents platform for agentic software development at organizational scale. It bundles specialized agents — Work Dispatcher (triage), PR Author (first commit through merge), '
@@ -53,6 +53,10 @@ apis:
   slug: context-engine
 artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.augmentcode.com/
 - group: auth
   title: ''
   type: TrustCenter
@@ -131,7 +135,7 @@ network: true
 overview: 'Augment Code publishes 5 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include AI Coding Agent, Context Engine, IDE Plugin, Cosmos, and Auggie CLI.
 
 
-  Augment Code''s developer surface includes developer portal, documentation, engineering blog, signup flow, pricing, support, and 3 more developer resources.'
+  Augment Code''s developer surface includes developer portal, documentation, engineering blog, signup flow, pricing, support, and 4 more developer resources.'
 plans:
 - name: Augment Code Plans Pricing
   plan_count: 1
@@ -162,9 +166,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 27.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/augment-code/refs/heads/main/screenshots/augment-code-2026-06-20T172557.png
 security:
 - kind: domain-security
@@ -192,5 +200,5 @@ use_cases:
   name: Test Generation and Verification
 - description: IDE plugins and Auggie CLI let individual engineers code with the Context Engine in the loop.
   name: Codebase-Aware Development
-website: https://www.augmentcode.com
+website: https://www.augmentcode.com/
 ---

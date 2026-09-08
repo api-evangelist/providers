@@ -11,6 +11,10 @@ access_model:
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.openai.com/
 - group: docs
   title: ''
   type: Specification
@@ -38,7 +42,7 @@ network: true
 overview: 'CODEX.md is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Agents, AI Copilot, Coding Standards, Configuration, and Developer Workflow.
 
 
-  CODEX.md''s developer surface includes documentation, GitHub presence, and 2 more developer resources.'
+  CODEX.md''s developer surface includes documentation, GitHub presence, and 3 more developer resources.'
 random_paper: 8
 screenshot: https://raw.githubusercontent.com/api-evangelist/codex-md/refs/heads/main/screenshots/codex-md-2026-06-20T174708.png
 slug: codex-md
@@ -50,4 +54,5 @@ tags:
 - Developer Workflow
 - Memory
 - OpenAI Codex
+website: https://www.openai.com/
 ---

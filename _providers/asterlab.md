@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API from Aster serving open-weight models (gpt-oss-120b, gpt-oss-120b-fast, GLM 5.2). Authenticate with an Aster API key created in the inference console and set the base U
@@ -42,6 +42,10 @@ apis:
   slug: aster-inference-api
 artifact_total: 3
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.asterlab.ai/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -109,7 +113,7 @@ network: true
 overview: 'Asterlab publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine-Learning, LLM, and Inference.
 
 
-  Asterlab''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 7 more developer resources.'
+  Asterlab''s developer surface includes documentation, getting-started guide, pricing, signup flow, engineering blog, support, authentication, and 8 more developer resources.'
 random_paper: 6
 score:
   band: thin
@@ -132,9 +136,13 @@ score:
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 26.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/asterlab/refs/heads/main/screenshots/asterlab-2026-07-25T201459.png
 security:
 - kind: authentication
@@ -156,5 +164,5 @@ tags:
 - Autonomous Research
 - GPU
 - Developer Tools
-website: https://www.asterlab.ai/inference/console
+website: https://www.asterlab.ai/
 ---

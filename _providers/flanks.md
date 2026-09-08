@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: OAuth2-secured wealth-data API covering the Connect flow (connectors, sessions, SCA resolution), Credentials, Entities, Aggregation, and Letters, returning standardized portfolios, investments, accoun
@@ -41,6 +41,10 @@ apis:
   slug: flanks-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.flanks.io/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -172,7 +176,7 @@ network: true
 overview: 'Flanks publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Financial Data, Data Aggregation, and Fintech.
 
 
-  Flanks'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 22 more developer resources.'
+  Flanks'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 23 more developer resources.'
 random_paper: 9
 score:
   band: thin
@@ -216,9 +220,13 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 45.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flanks/refs/heads/main/screenshots/flanks-2026-07-25T214706.png
 security:
 - kind: authentication
@@ -246,5 +254,5 @@ tags:
 - Fintech
 - Investments
 - Open Banking
-website: https://docs.flanks.io/
+website: https://www.flanks.io/
 ---

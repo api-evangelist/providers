@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: 'The Nixpacks command-line interface is the primary interface for generating build plans and producing Docker images from application source. Core commands include `nixpacks plan` (emit the JSON build '
@@ -151,9 +151,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nixpacks/refs/heads/main/screenshots/nixpacks-2026-06-20T190333.png
 security:
 - kind: domain-security

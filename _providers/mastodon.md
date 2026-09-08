@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: This is an OpenAPI for the Mastodon API.
@@ -49,6 +49,10 @@ collections:
   name: Mastodon API
   slug: open-mastodon
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.joinmastodon.org/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,7 +107,7 @@ overview: 'Mastodon publishes 1 API on the [APIs.io](https://apis.io/) network. 
   The Mastodon catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  Mastodon''s developer surface includes getting-started guide, authentication, engineering blog, and 6 more developer resources.'
+  Mastodon''s developer surface includes getting-started guide, authentication, engineering blog, and 7 more developer resources.'
 plans:
 - name: Mastodon Plans Pricing
   plan_count: 3
@@ -152,9 +156,13 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastodon/refs/heads/main/screenshots/mastodon-2026-06-20T185024.png
 security:
 - kind: domain-security
@@ -165,4 +173,5 @@ slug: mastodon
 tags:
 - Open-Source
 - Social Networks
+website: https://www.joinmastodon.org/
 ---

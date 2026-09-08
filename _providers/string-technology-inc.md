@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for String's fiat-for-Web3-gaming platform — quotes and transactions (fiat on/off ramp, NFT purchase, cross-chain), plus management of API keys, contracts, platforms (games), members, organiz
@@ -171,9 +171,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-technology-inc/refs/heads/main/screenshots/string-technology-inc-2026-09-02T161015.png
 security:
 - kind: authentication

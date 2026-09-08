@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 6
 apis:
 - description: 'Core Vue.js composition and options API for building reactive user interfaces. Provides reactivity primitives (ref, reactive, computed, watch), lifecycle hooks, component system, template directives, '
@@ -56,6 +56,10 @@ apis:
   slug: nuxtjs
 artifact_total: 13
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.vuejs.org/
 - group: company
   title: ''
   type: Blog
@@ -147,7 +151,7 @@ overview: 'Vue.js publishes 6 APIs on the [APIs.io](https://apis.io/) network. T
   The Vue.js catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Vue.js'' developer surface includes engineering blog, changelog, support, and 12 more developer resources.'
+  Vue.js'' developer surface includes engineering blog, changelog, support, and 13 more developer resources.'
 plans:
 - name: Vuejs Plans Pricing
   plan_count: 3
@@ -189,9 +193,13 @@ score:
     governance: 25.0
     operational_transparency: 28.9
   previous_composite: 29.8
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/vuejs/refs/heads/main/screenshots/vuejs-2026-06-20T201149.png
 slug: vuejs
 tags:
@@ -201,5 +209,5 @@ tags:
 - JavaScript
 - Open-Source
 - UI
-website: https://vuejs.org
+website: https://www.vuejs.org/
 ---

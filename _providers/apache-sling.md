@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: 'The Sling Resource API provides RESTful access to JCR content repository nodes via HTTP. Every content node is addressable as a URL, supporting GET, POST, PUT, DELETE, and MOVE operations through the '
@@ -47,6 +47,10 @@ apis:
   slug: apache-sling-event-api
 artifact_total: 28
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.apache.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -154,7 +158,7 @@ network: true
 overview: 'Apache Sling publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Content Management, Java, JCR, OSGi, and REST.
 
 
-  Apache Sling''s developer surface includes documentation, developer portal, getting-started guide, engineering blog, support, FAQ, and 9 more developer resources.'
+  Apache Sling''s developer surface includes documentation, developer portal, getting-started guide, engineering blog, support, FAQ, and 10 more developer resources.'
 plans:
 - name: Apache Sling Plans Pricing
   plan_count: 3
@@ -188,9 +192,13 @@ score:
     applies: true
     score: 40.0
   previous_composite: 23.1
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-sling/refs/heads/main/screenshots/apache-sling-2026-06-20T172143.png
 security:
 - kind: domain-security
@@ -222,5 +230,5 @@ use_cases:
   name: Web Application Framework
 - description: Manage and serve digital assets stored in JCR with metadata and rendition support.
   name: Digital Asset Management
-website: https://sling.apache.org/
+website: https://www.apache.org/
 ---

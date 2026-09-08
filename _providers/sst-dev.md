@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 1.3
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The SST framework is an open source CLI and component library distributed via npm (`sst`) and as a Go-based CLI. Developers describe their full-stack application in a single `sst.config.ts` file using
@@ -175,9 +175,13 @@ score:
     applies: true
     score: 0.0
   previous_composite: 22.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sst-dev/refs/heads/main/screenshots/sst-dev-2026-09-02T160650.png
 security:
 - kind: domain-security

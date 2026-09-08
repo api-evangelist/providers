@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Virsec Security Platform Centralized Management Server (CMS) exposes a RESTful API for procuring information from CMS. From VSP 3.0.0 and above, the available APIs are listed by category in the CM
@@ -160,9 +160,13 @@ score:
   previous_composite: 32.5
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/virsec/refs/heads/main/screenshots/virsec-2026-09-02T170011.png
 security:
 - kind: authentication

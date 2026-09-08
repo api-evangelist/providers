@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.7
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 2
@@ -314,6 +314,10 @@ collections:
   name: SonarQube Cloud Web authentication webservices API
   slug: open-sonarsource-webservices-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.sonarsource.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -453,11 +457,11 @@ network: true
 overview: 'SonarSource publishes 33 APIs on the [APIs.io](https://apis.io/) network, including authentication API, ce API, components API, and 30 more. Tagged areas include Company, Code Quality, Static Analysis, Code Security, and SAST.
 
 
-  SonarSource''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
+  SonarSource''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 26 more developer resources.'
 random_paper: 7
 score:
   band: developing
-  composite: 39.5
+  composite: 39.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 40.0
@@ -465,7 +469,7 @@ score:
     catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.4
   facets:
     access_clarity: 31.6
     commercial_clarity: 31.6
@@ -486,9 +490,12 @@ score:
       total: 34
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: true
+    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonarsource/refs/heads/main/screenshots/sonarsource-2026-08-17T082000.png
 security:
 - kind: authentication

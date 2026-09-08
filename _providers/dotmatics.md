@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 4
 apis:
 - description: REST, GraphQL, and JDBC APIs for the Luma Scientific Intelligence Platform, enabling data access, workflow automation, instrument integration, and scientific data management for pharma and biotech R&D
@@ -154,9 +154,13 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotmatics/refs/heads/main/screenshots/dotmatics-2026-06-20T180201.png
 security:
 - kind: domain-security

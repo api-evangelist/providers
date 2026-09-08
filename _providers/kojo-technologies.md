@@ -32,10 +32,18 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 2
 common:
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.usekojo.com/hc/en-us
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kojo-technologies-conventions.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -119,13 +127,13 @@ network: true
 overview: 'Kojo Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Construction, Construction Technology, Procurement, and Supply Chain.
 
 
-  Kojo Technologies'' developer surface includes pricing, support, engineering blog, and 15 more developer resources.'
+  Kojo Technologies'' developer surface includes pricing, support, engineering blog, and 17 more developer resources.'
 random_paper: 0
 score:
   band: emerging
   composite: 21.5
   coverage:
-    artifact_dirs: 6
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -144,9 +152,13 @@ score:
   previous_composite: 21.5
   provenance:
     conformance: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kojo-technologies/refs/heads/main/screenshots/kojo-technologies-2026-07-25T224119.png
 security:
 - kind: domain-security

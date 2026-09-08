@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 10
 apis:
 - description: The University of Barcelona's own SAML 2.0 identity provider, published as a signed EntityDescriptor through RedIRIS SIR — the Spanish academic identity federation — and carried into eduGAIN. entityID
@@ -191,9 +191,13 @@ score:
     regime: Education & Research
     regime_id: education
     score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 security:
 - kind: domain-security
   name: University Of Barcelona Domain Security

@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST data-integration API for Crunchtime's Inventory Management, Labor & Scheduling, and Cruise products. GET and POST operations move employees, locations, budgets, categories, products, recipes, sal
@@ -44,6 +44,10 @@ apis:
   slug: crunchtime-inventory-labor-apis
 artifact_total: 5
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.crunchtime.com/
 - group: start
   title: ''
   type: DeveloperPortal
@@ -131,7 +135,7 @@ network: true
 overview: 'Crunchtime Information Systems publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Food Service, Hospitality, and Inventory Management.
 
 
-  Crunchtime Information Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 12 more developer resources.'
+  Crunchtime Information Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
 random_paper: 17
 rate_limits:
 - limit_count: 1
@@ -166,9 +170,13 @@ score:
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchtime-information-systems/refs/heads/main/screenshots/crunchtime-information-systems-2026-07-25T210822.png
 security:
 - kind: authentication
@@ -194,5 +202,5 @@ tags:
 - Operations Management
 - Back Office
 - Supply Chain
-website: https://developer.crunchtime.com/
+website: https://www.crunchtime.com/
 ---

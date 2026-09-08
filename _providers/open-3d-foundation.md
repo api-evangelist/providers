@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Programmatic access to O3DE engine APIs, 3D rendering tools, and game development resources.
@@ -41,6 +41,10 @@ apis:
   slug: open-3d-foundation-api
 artifact_total: 6
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.o3de.org/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -80,7 +84,7 @@ network: true
 overview: 'Open 3D Foundation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include 3D Engine, Gaming, Linux Foundation, and Simulation.
 
 
-  Open 3D Foundation''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
+  Open 3D Foundation''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
 plans:
 - name: Open 3D Foundation Plans Pricing
   plan_count: 3
@@ -111,9 +115,13 @@ score:
     governance: 0.0
     operational_transparency: 13.2
   previous_composite: 12.3
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-3d-foundation/refs/heads/main/screenshots/open-3d-foundation-2026-06-20T190730.png
 security:
 - kind: domain-security
@@ -130,4 +138,5 @@ tags:
 - Gaming
 - Linux Foundation
 - Simulation
+website: https://www.o3de.org/
 ---

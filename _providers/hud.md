@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ apis:
   description: ZIP code to geographic area crosswalk queries
   name: HUD - US Department of Housing and Urban Development ZIP Code Crosswalk API
   slug: hud-zip-code-crosswalk-api
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: API Collection
@@ -105,6 +105,106 @@ collections:
   name: HUD User CHAS ZIP Code Crosswalk API
   slug: open-hud-zip-code-crosswalk-api
 common:
+- group: other
+  title: ''
+  type: Open Data
+  url: https://data.hud.gov/
+- group: other
+  title: ''
+  type: HUD USER
+  url: https://www.huduser.gov/portal/home.html
+- group: other
+  title: ''
+  type: HUD GIS
+  url: https://hudgis-hud.opendata.arcgis.com/
+- group: other
+  title: ''
+  type: FHA
+  url: https://www.hud.gov/fha
+- group: other
+  title: ''
+  type: HUD Exchange
+  url: https://www.hudexchange.info/
+- group: company
+  title: ''
+  type: News
+  url: https://www.hud.gov/press
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.hud.gov/contactus
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hud.gov/aboutus/privacy-policy
+- group: other
+  title: ''
+  type: Data.gov HUD Catalog
+  url: https://catalog.data.gov/dataset?organization=hud-gov
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/hudgov
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.huduser.gov/hudapi/public
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.huduser.gov/portal/dataset/uspszip-api.html
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.huduser.gov/portal/dataset/fmr-api.html
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.huduser.gov/hudapi/public/register
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.huduser.gov/portal/dataset/api-terms-of-service.html
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.hud.gov/vulnerability-disclosure-policy
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hud-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hud-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hud-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hud-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hud-data-model.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hud-packages.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/hud-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/hud-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hud-llms.txt
 - group: agent
   title: ''
   type: AgenticAccess
@@ -204,7 +304,7 @@ overview: 'HUD - US Department of Housing and Urban Development publishes 5 APIs
   The HUD - US Department of Housing and Urban Development catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  HUD - US Department of Housing and Urban Development''s developer surface includes authentication, documentation, engineering blog, pricing, and 10 more developer resources.'
+  HUD - US Department of Housing and Urban Development''s developer surface includes product news, support, API reference, getting-started guide, signup flow, authentication, documentation, and 32 more developer resources.'
 plans:
 - name: Hud Plans Pricing
   plan_count: 2
@@ -226,42 +326,48 @@ rules:
     warn: 3
   slug: hud-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 38.6
+  band: strong
+  composite: 60.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 23
     catalog_earned: 70.3
     catalog_earned_first_party: 0.0
     catalog_gap: 44.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 21.7
   facets:
-    access_clarity: 28.9
-    commercial_clarity: 28.9
-    contract_governance: 9.8
+    access_clarity: 63.2
+    commercial_clarity: 63.2
+    contract_governance: 28.0
     contract_quality: 61.4
-    developer_ergonomics: 9.5
-    discoverability: 74.1
-    governance: 9.8
-    operational_transparency: 42.1
+    developer_ergonomics: 42.9
+    discoverability: 81.5
+    governance: 28.0
+    operational_transparency: 52.6
   previous_composite: 38.6
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 5
+    mcp: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
-  trend: flat
+    score: 57.4
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
+  trend: rising
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/hud/refs/heads/main/screenshots/hud-2026-06-20T182921.png
 security:
 - kind: authentication
@@ -272,6 +378,10 @@ security:
   name: Hud Domain Security
   slug: hud-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Hud Vulnerability Disclosure
+  slug: hud-vulnerability-disclosure
+  summary_line: Hackerone
 slug: hud
 tags:
 - Housing

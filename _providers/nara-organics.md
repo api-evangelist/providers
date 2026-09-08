@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.9
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the Universal Commerce Protocol (UCP) on the Nara Organics Shopify storefront — catalog search, cart, and buyer-approved checkout via a published MCP endpoint, plus an unaut
@@ -144,9 +144,13 @@ score:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/nara-organics/refs/heads/main/screenshots/nara-organics-2026-08-07T184631.png
 security:
 - kind: authentication

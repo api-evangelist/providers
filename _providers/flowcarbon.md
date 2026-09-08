@@ -32,10 +32,14 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 0
 artifact_total: 0
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.flowcarbon.com/
 - group: company
   title: ''
   type: About
@@ -67,7 +71,7 @@ network: true
 overview: 'Flowcarbon is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Carbon, Carbon Removal, and Carbon Credits.
 
 
-  Flowcarbon''s developer surface includes engineering blog, support, and 3 more developer resources.'
+  Flowcarbon''s developer surface includes engineering blog, support, and 4 more developer resources.'
 random_paper: 19
 score:
   band: minimal
@@ -94,13 +98,15 @@ score:
     owner: catalog
     reasons:
     - owner: catalog
-      reason: no_resolvable_host
-    - owner: catalog
       reason: never_enriched
   previous_composite: 8.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowcarbon/refs/heads/main/screenshots/flowcarbon-2026-07-25T214833.png
 slug: flowcarbon
 tags:
@@ -112,4 +118,5 @@ tags:
 - Project Finance
 - Sustainability
 - Web3
+website: https://www.flowcarbon.com/
 ---

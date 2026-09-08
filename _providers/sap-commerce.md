@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 2
 apis:
 - description: The Omni Commerce Connect (OCC) REST API exposes a broad set of commerce and data services, enabling integration of SAP Commerce functionality anywhere in the application landscape. OCC v2 is the defa
@@ -146,9 +146,13 @@ score:
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 26.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce/refs/heads/main/screenshots/sap-commerce-2026-06-20T193423.png
 security:
 - kind: domain-security

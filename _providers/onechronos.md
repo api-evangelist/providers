@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: Order entry and execution for the OneChronos US equities dark ATS over a modern variant of the FIX 4.2 protocol. Standard and Target orders, and Expressive Bids, are submitted electronically via FIX o
@@ -148,9 +148,13 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 25.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/onechronos/refs/heads/main/screenshots/onechronos-2026-08-07T190304.png
 security:
 - kind: domain-security

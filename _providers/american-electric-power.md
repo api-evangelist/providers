@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: American Electric Power operates an Azure API Management instance (apim-aep-prod-use2-001) fronted by the "AEP API Management" developer portal at developer.aep.com and the gateway host api.aep.com. T
@@ -197,9 +197,13 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 18.9
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-electric-power/refs/heads/main/screenshots/american-electric-power-2026-06-20T171909.png
 security:
 - kind: domain-security

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to people, companies, locations, employments, compensation, time-off, paystubs, and journal data inside a Zenefits account. Authentication uses OAuth 2.0 with sc
@@ -118,9 +118,13 @@ score:
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 22.2
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenefits/refs/heads/main/screenshots/zenefits-2026-06-20T201818.png
 security:
 - kind: domain-security

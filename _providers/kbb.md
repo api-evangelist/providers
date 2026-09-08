@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 3
 apis:
 - description: RESTful API providing access to Kelley Blue Book vehicle data, values, and content. Endpoints cover vehicle information, new and used pricing, expert and consumer ratings and reviews, cost-of-ownershi
@@ -141,9 +141,13 @@ score:
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 24.7
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/kbb/refs/heads/main/screenshots/kbb-2026-06-20T183932.png
 security:
 - kind: domain-security

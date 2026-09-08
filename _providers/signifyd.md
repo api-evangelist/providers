@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 8
 apis:
 - description: Submit checkout and sale events to Signifyd's Commerce Protection Platform for real-time fraud and chargeback risk evaluation. The Checkout flow supports pre-authorization screening, while the Sale fl
@@ -61,6 +61,10 @@ apis:
   slug: signifyd-webhooks-api
 artifact_total: 26
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.signifyd.com/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -189,7 +193,7 @@ network: true
 overview: 'Signifyd publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Fraud, Fraud Prevention, Chargebacks, E-Commerce, and Payments.
 
 
-  Signifyd''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, engineering blog, support, and 18 more developer resources.'
+  Signifyd''s developer surface includes developer portal, documentation, getting-started guide, authentication, pricing, engineering blog, support, and 19 more developer resources.'
 random_paper: 0
 score:
   band: emerging
@@ -218,9 +222,13 @@ score:
     regime: Payments
     regime_id: payments
     score: 40.6
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/signifyd/refs/heads/main/screenshots/signifyd-2026-06-20T193910.png
 security:
 - kind: domain-security
@@ -243,5 +251,5 @@ tags:
 - Commerce Protection
 - Account Protection
 - Returns
-website: https://www.signifyd.com
+website: https://www.signifyd.com/
 ---

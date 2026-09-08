@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 5
 apis:
 - description: REST + WebSocket / MQTT integration surface exposed by Helium-compatible LoRaWAN Network Servers (e.g. Nova Labs Console) for provisioning IoT devices, managing organizations and labels, configuring i
@@ -154,9 +154,13 @@ score:
     applies: true
     score: 60.0
   previous_composite: 26.4
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/helium-network/refs/heads/main/screenshots/helium-network-2026-06-20T182625.png
 security:
 - kind: domain-security

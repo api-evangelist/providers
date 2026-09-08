@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.2
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -62,6 +62,10 @@ collections:
   name: NutrientsDB Sample Foods API
   slug: open-nutrientsdb-foods-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nutrientsdb.com/
 - group: agent
   title: ''
   type: X-MCPServerCandidate
@@ -173,7 +177,7 @@ network: true
 overview: 'NutrientsDB publishes 1 API on the [APIs.io](https://apis.io/) network: Foods API. Tagged areas include Nutrition, Food, Nutrients, food-composition, and Data.
 
 
-  NutrientsDB''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 14 more developer resources.'
+  NutrientsDB''s developer surface includes authentication, documentation, API reference, engineering blog, support, pricing, and 15 more developer resources.'
 random_paper: 5
 score:
   band: thin
@@ -212,9 +216,13 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 31.5
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutrientsdb/refs/heads/main/screenshots/nutrientsdb-2026-09-02T150826.png
 security:
 - kind: authentication
@@ -239,4 +247,5 @@ tags:
 - Reference Data
 - Open Data
 - keyless-api
+website: https://www.nutrientsdb.com/
 ---

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: 'Data API delivering a constant feed of UK residential property data across Planning & Policy, Demographics, Market, Land & Ownership, and Amenities endpoints. Onboarded via the REalyse sales team; no '
@@ -122,9 +122,13 @@ score:
     - europe
     - united-kingdom-ireland
   previous_composite: 18.0
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/realyse/refs/heads/main/screenshots/realyse-2026-09-02T153018.png
 security:
 - kind: domain-security

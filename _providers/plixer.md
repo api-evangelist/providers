@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.5
-  scored_at: '2026-09-06'
+  scored_at: '2026-09-07'
 api_count: 1
 apis:
 - description: REST API for Plixer Scrutinizer flow analytics — run flow reports, manage alarms, tune detections, trigger packet captures, and work with Collections. Scrutinizer is deployed as a self-hosted applianc
@@ -137,9 +137,13 @@ score:
   previous_composite: 28.1
   provenance:
     mcp: first-party
-  schema_version: 0.19.0
-  scored_at: '2026-09-06'
+  schema_version: 0.20.0
+  scored_at: '2026-09-07'
   trend: flat
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/plixer/refs/heads/main/screenshots/plixer-2026-09-02T151521.png
 security:
 - kind: domain-security
