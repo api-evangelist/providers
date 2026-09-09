@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 4
 apis:
 - description: Integration hub API for WellSky's CareTend home infusion and specialty pharmacy platform, providing programmatic access to patient management, billing authorizations, clinical visits, inventory, purch
@@ -139,7 +139,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

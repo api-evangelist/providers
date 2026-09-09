@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: REST payment gateway for accepting online card payments in Azerbaijan. Covers payment creation and hosted checkout, card registration/tokenization and saved-card charges, refunds and reversals, pre-au
@@ -188,7 +188,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

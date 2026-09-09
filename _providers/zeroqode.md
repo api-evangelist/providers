@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 2
 apis:
 - description: Air Native is a conversion service that transforms Bubble web applications into native iOS and Android mobile apps. It delivers ready-made app builds within 24 hours (business days) at a one-time pric
@@ -119,7 +119,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 13.7
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

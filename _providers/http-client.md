@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: JetBrains HTTP Client lets developers compose, edit, and execute HTTP, gRPC, WebSocket, and GraphQL requests directly within IntelliJ-based IDEs using .http and .rest files, with environment variables
@@ -120,7 +120,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.2
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

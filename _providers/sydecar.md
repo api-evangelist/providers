@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: The Sydecar API lets developers programmatically run funding processes on Sydecar's legal, banking, and compliance rails, with the Special Purpose Vehicle (SPV) as the foundational unit — create, find
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.0
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

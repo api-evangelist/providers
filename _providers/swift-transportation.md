@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: Knight-Swift Transportation supports EDI integration for freight tendering, shipment tracking, and invoicing. Trading partners can submit load tenders (EDI 204), receive responses (EDI 990), get shipm
@@ -144,7 +144,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 10.6
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

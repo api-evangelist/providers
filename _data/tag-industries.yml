@@ -60,6 +60,8 @@
   description: ''
   tags:
   - media
+  - news
+  - broadcasting
 - slug: entertainment
   name: Entertainment
   icon: /industries/assets/icons/entertainment.png
@@ -144,6 +146,10 @@
   description: ''
   tags:
   - industrial
+  - manufacturing
+  - industrial automation
+  - industrial iot
+  - factory automation
 - slug: food-delivery
   name: Food Delivery
   icon: /industries/assets/icons/food-delivery.png
@@ -162,6 +168,9 @@
   description: ''
   tags:
   - consumer goods
+  - consumer packaged goods
+  - consumer products
+  - cpg
 - slug: mining
   name: Mining
   icon: /industries/assets/icons/mining.png
@@ -174,6 +183,7 @@
   description: ''
   tags:
   - professional services
+  - consulting
 - slug: maritime
   name: Maritime
   icon: /industries/assets/icons/maritime.png
@@ -186,6 +196,8 @@
   description: ''
   tags:
   - food service
+  - restaurant
+  - restaurants
 - slug: pet-care
   name: Pet Care
   icon: /industries/assets/icons/pet-care.png
@@ -253,6 +265,7 @@
   description: ''
   tags:
   - financial technology
+  - fintech
 - slug: video-streaming
   name: Video Streaming
   icon: /industries/assets/icons/video-streaming.png
@@ -1244,3 +1257,228 @@
   - aviation-edge
   - aviationstack
   - uk-caa
+- slug: e-commerce-platform
+  name: E-Commerce Platform
+  icon: shopping_cart
+  description: The platforms online stores run on — hosted and headless commerce, storefronts and shopping carts, catalog and checkout, and the merchant-facing tooling built around them.
+  tags:
+  - e-commerce
+  - headless commerce
+  - shopping cart
+  - online store
+- slug: pharmaceutical
+  name: Pharmaceutical
+  icon: medication
+  description: Drug makers and the pharmacy chain — branded and generic manufacturers, serialization and supply integrity, pharmacy operations and dispensing, and the commercial platforms selling into them.
+  tags:
+  - pharmaceuticals
+  - pharmaceutical
+  - pharma
+  - pharmacy
+- slug: productivity-software
+  name: Productivity Software
+  icon: task_alt
+  description: The software teams organize work in — task and project management, notes and documents, planning boards, and the personal productivity tools that carry an API.
+  tags:
+  - productivity
+  - project management
+  - task management
+  - note taking
+- slug: customer-relationship-management-crm
+  name: Customer Relationship Management (CRM)
+  icon: support_agent
+  description: Systems of record for the customer relationship — contact and account management, pipeline and deal tracking, and the sales-engagement layers built on top of them.
+  tags:
+  - crm
+- slug: communications-platform-as-a-service-cpaas
+  name: Communications Platform as a Service (CPaaS)
+  icon: forum
+  description: Programmable communications sold as an API — SMS and messaging, programmable voice and telephony, verification, and the carrier connectivity underneath.
+  tags:
+  - cpaas
+  - sms
+  - telephony
+- slug: fitness-wellness
+  name: Fitness & Wellness
+  icon: fitness_center
+  description: Gyms, studios and the wellness economy — booking and member management, connected fitness hardware and training platforms, and the mindfulness and recovery services around them.
+  tags:
+  - fitness
+  - wellness
+  - sports and fitness
+- slug: tax-compliance-software
+  name: Tax & Compliance Software
+  icon: receipt_long
+  description: Tax determination and filing — sales tax and VAT calculation, e-invoicing and clearance regimes, crypto and information reporting, and the tax authorities' own APIs.
+  tags:
+  - tax compliance
+  - tax
+  - sales tax
+  - vat
+- slug: event-management-software
+  name: Event Management Software
+  icon: event
+  description: The software events run on — registration and attendee management, event ticketing and box office, venue and attraction operations, and the virtual and hybrid event platforms.
+  tags:
+  - event management
+  - ticketing
+  - tickets
+  exclude:
+  - catch-that-bus
+  - freshservice
+  - halp
+  - harmony
+  - pylon
+  - shohoz
+  - sysaid
+  - zoho-desk
+- slug: payments
+  name: Payments & Money Movement
+  icon: payments
+  description: Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.
+  tags:
+  - payments
+  - payment gateway
+  - payment gateways
+  - payment processing
+  - payment processor
+  - payment orchestration
+  - payouts
+  - card issuing
+  - merchant services
+  - acquiring
+  - checkout
+  - point-of-sale
+  - recurring payments
+  - direct debit
+  - ach
+  - mobile payments
+  - cross-border payments
+  - money transfer
+  - remittances
+  - b2b payments
+  - corporate cards
+  - credit cards
+  - bnpl
+  - buy now pay later
+  - currency exchange
+  - foreign exchange
+- slug: accounting-finance-ops
+  name: Accounting & Finance Operations
+  icon: calculate
+  description: The finance back office — ledgers and bookkeeping, invoicing and billing, accounts payable and receivable, expense and spend management, ERP, and financial planning.
+  tags:
+  - accounting
+  - bookkeeping
+  - general ledger
+  - invoicing
+  - invoices
+  - billing
+  - subscription billing
+  - accounts payable
+  - accounts receivable
+  - expense management
+  - expenses
+  - spend management
+  - erp
+  - revenue operations
+  - financial planning
+  - personal finance
+  exclude:
+  - alayacare
+  - august-health
+  - aumet
+  - auxilius
+  - axxess
+  - bionexo
+  - centralreach
+  - condor
+  - digitail
+  - drchrono
+  - eclinicalworks
+  - healthie
+  - juleb
+  - provet-cloud
+  - wellsky
+- slug: customer-support
+  name: Customer Support & Service
+  icon: headset_mic
+  description: Serving customers after the sale — help desks and service desks, contact and call centers, live chat and messaging support, and the feedback and satisfaction layers around them.
+  tags:
+  - help desk
+  - helpdesk
+  - customer support
+  - customer service
+  - customer feedback
+  - contact center
+  - call center
+  - live chat
+- slug: content-management
+  name: Content Management & Digital Experience
+  icon: web
+  description: Where web content is authored and delivered — traditional and headless CMS, digital experience platforms, website builders, and digital asset management.
+  tags:
+  - cms
+  - headless cms
+  - content management
+  - content management system
+  - website builder
+  - digital asset management
+  - web publishing
+  exclude:
+  - columbia-sportswear
+- slug: home-field-services
+  name: Home & Field Services
+  icon: handyman
+  description: Software for work done at the customer's site — field service management, dispatch and scheduling for trades, work orders and job costing, and the home-services marketplaces above them.
+  tags:
+  - home services
+  - field service
+  - field service management
+  - field-service
+  exclude:
+  - circuit
+  - hypertrack
+  - kojo-technologies
+  - scorpion
+  - track-pod
+- slug: beauty-personal-care
+  name: Beauty & Personal Care
+  icon: face_retouching_natural
+  description: Cosmetics, skincare and haircare brands, salon and spa booking and management, and the try-on, diagnostics and personalization technology sold into them.
+  tags:
+  - beauty
+  - cosmetics
+  - skincare
+  - personal care
+  - haircare
+  - salon
+  exclude:
+  - bon-ton-stores
+  - highstock
+  - taxa
+- slug: nonprofit-social-impact
+  name: Nonprofit & Social Impact
+  icon: volunteer_activism
+  description: Fundraising and donor management, crowdfunding and giving platforms, volunteering and civic organizing, and the grant and philanthropy infrastructure behind them.
+  tags:
+  - non-profit
+  - nonprofit
+  - non profit
+  - fundraising
+  - donations
+  - philanthropy
+  - charity
+  - volunteering
+  exclude:
+  - clerky
+  - crowdcube
+  - debtbook
+  - forecastr
+  - fundable
+  - seedlegals
+  - slidebean
+  - tiaa-cref
+  - vector-legal
+  - wefunder
+  - zidisha

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: Programmatic access to Efflux asset-intelligence data — export, download, and share the assets, scans, and attributions Efflux collects. The API host is live but access-gated (early access / waitlist)
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.3
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

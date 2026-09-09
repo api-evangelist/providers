@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: Enterprise API for Jupiter's ClimateScore Global platform, delivering physical and extreme-weather climate risk metrics across perils, scenarios, and time horizons. Access is gated behind a commercial
@@ -116,7 +116,7 @@ score:
     - north-america
   previous_composite: 18.3
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: REST API for managing customer information and usage records within the PriceOps pricing infrastructure platform. Supports retrieval of subscribed customers and their active plans, posting usage recor
@@ -136,7 +136,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

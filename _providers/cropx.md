@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 3
 apis:
 - description: Cloud Farm Management Software for growers and agronomists. Modules cover farm / field / crop data, device management, irrigation scheduling, disease monitoring, nutrition tracking, effluent managemen
@@ -118,7 +118,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.4
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

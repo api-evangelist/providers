@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: Docusaurus is an open-source static site generator for documentation sites with React, MDX, versioning, i18n, and a plugin architecture. Docusaurus does not expose an HTTP API; it is a build tool cons
@@ -139,7 +139,7 @@ score:
     score: 65.0
   previous_composite: 23.8
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

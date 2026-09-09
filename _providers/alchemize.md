@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: 'Programmatic access to Alchemize customs-brokerage and trade-compliance workflows for importers (shipment status, communications, and compliance data), advertised alongside EDI and portal access. The '
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.9
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

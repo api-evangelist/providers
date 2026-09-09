@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 5
 apis:
 - description: REST APIs for the Ivanti Neurons platform covering inventory, patch management, and bots.
@@ -128,7 +128,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.0
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

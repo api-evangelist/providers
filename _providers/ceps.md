@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 2
 apis:
 - description: CEPS publishes roughly 150 working papers, policy insights, reports and commentaries a year across some 20 policy topics, listed on the public publications page and filterable by topic. This entry was
@@ -173,7 +173,7 @@ score:
     regime_id: insurance
     score: 15.2
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

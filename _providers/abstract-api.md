@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 46.9
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -1047,7 +1047,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

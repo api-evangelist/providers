@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.3
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 6
 apis:
 - description: Sungkyunkwan University's institutional identity provider, publishing machine-readable SAML 2.0 metadata through the KAFE (Korea Access Federation) aggregate and interfederated internationally through
@@ -297,7 +297,7 @@ score:
     regime_id: education
     score: 61.1
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

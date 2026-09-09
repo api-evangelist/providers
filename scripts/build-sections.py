@@ -119,6 +119,15 @@ INDUSTRY_ICONS = {
     "technology": "memory", "telecommunications": "cell_tower", "transportation": "commute",
     "travel-technology": "travel", "utilities": "water_drop", "video-streaming": "smart_display",
     "waste-management": "delete",
+    # roadmap#135 follow-on (2026-09-08). Material symbol names, NOT the
+    # `/industries/assets/icons/<slug>.png` form the roadmap#135 batch used:
+    # section-cards.html renders `card.icon` inside a `material-symbols-outlined`
+    # span, so a path renders as literal text. Those 46 entries are a separate
+    # cosmetic fix; new entries use the form that works.
+    "payments": "payments", "accounting-finance-ops": "calculate",
+    "customer-support": "headset_mic", "content-management": "web",
+    "home-field-services": "handyman", "beauty-personal-care": "face_retouching_natural",
+    "nonprofit-social-impact": "volunteer_activism",
 }
 
 # The industries whose listing page carries the two interactive market tools —
@@ -165,6 +174,26 @@ INDUSTRY_MARKET_TOOLS = {
     "chemicals",
     "hvac-building-automation",
     "air-traffic-airspace",
+    # 2026-09-08. Seven verticals added from the catalog's own uncovered tag
+    # clusters, and the eight that stopped being roster-only in the same pass.
+    # Every one of the fifteen clears MIN_COHORT (8) by an order of magnitude —
+    # the smallest, tax-compliance-software, bands 63 — so this is permission
+    # rather than a guarantee, exactly as above.
+    "payments",
+    "accounting-finance-ops",
+    "customer-support",
+    "content-management",
+    "home-field-services",
+    "beauty-personal-care",
+    "nonprofit-social-impact",
+    "e-commerce-platform",
+    "pharmaceutical",
+    "productivity-software",
+    "customer-relationship-management-crm",
+    "communications-platform-as-a-service-cpaas",
+    "fitness-wellness",
+    "tax-compliance-software",
+    "event-management-software",
 }
 
 # Providers a tag rule cannot keep out of an industry, removed by hand.
@@ -270,6 +299,64 @@ TAG_INDUSTRY_EXCLUDE = {
     # have been the third-largest member of a 128-spec roster.
     "air-traffic-airspace": {
         "vatsim",
+    },
+    # `ticketing` is a homograph and it splits almost exactly down the middle of
+    # this vertical: half the tag is event ticketing (Eventbrite, vivenu, DICE,
+    # Ticket Tailor) and half is ITSM/service-desk ticketing (Freshservice,
+    # SysAid, Zoho Desk, Halp, Pylon, Harmony) — support software that carries
+    # the word for an entirely different object. The support half is filed under
+    # the new customer-support vertical, which reaches all six on `help desk`.
+    # Shohoz (ridesharing) and Catch That Bus (intercity coach) sell transport
+    # tickets and are not event software either.
+    "event-management-software": {
+        "harmony", "pylon", "freshservice", "sysaid", "zoho-desk", "halp",
+        "shohoz", "catch-that-bus",
+    },
+    # `billing` is the leaky tag here and it leaks in one direction: CLINICAL
+    # systems whose billing is a module. Revenue cycle management is finance
+    # operations and stays (FinThrive, Cedar, Eligible, Daydream), as does legal
+    # billing (Clio, MyCase, LeanLaw, Smokeball) — an EHR is not, however much
+    # of the bill it produces. drchrono and eClinicalWorks are the two highest
+    # scores the unfiltered union returns, so left in they would have TOPPED a
+    # page about accounting.
+    "accounting-finance-ops": {
+        # electronic health records and clinical practice management
+        "drchrono", "eclinicalworks", "healthie", "august-health", "axxess",
+        "wellsky", "alayacare", "centralreach", "condor", "auxilius",
+        # veterinary practice management
+        "provet-cloud", "digitail",
+        # healthcare procurement, distribution and pharmacy — supply chain
+        "bionexo", "aumet", "juleb",
+    },
+    # `fundraising` is a homograph and both halves are large: charitable giving
+    # (GoFundMe, Donorbox, CommitChange, Chariot, Daffy, Watsi) and STARTUP
+    # fundraising — equity crowdfunding, cap tables, pitch decks and financial
+    # models, which is venture capital's business and already filed there.
+    # Kickstarter and Indiegogo stay: rewards crowdfunding is a giving market,
+    # not a securities one.
+    "nonprofit-social-impact": {
+        "wefunder", "crowdcube", "seedlegals", "clerky", "vector-legal",
+        "forecastr", "slidebean", "fundable", "zidisha",
+        # institutional finance that carries a `fundraising` or `donations` tag
+        "tiaa-cref", "debtbook",
+    },
+    # `field service` reaches last-mile DELIVERY — a driver at the customer's
+    # door, but delivering a parcel rather than performing work. Filed under
+    # Logistics. Scorpion is a marketing agency that sells to home-services
+    # contractors, which is a different side of the same buyer.
+    "home-field-services": {
+        "circuit", "hypertrack", "track-pod", "kojo-technologies", "scorpion",
+    },
+    # Columbia Sportswear is an apparel brand carrying one `Content Management`
+    # tag rolled up from an API. Box and Veeva Vault stay — cloud content
+    # management and regulated content management are what they sell.
+    "content-management": {
+        "columbia-sportswear",
+    },
+    # A defunct department store, a synthetic-biology company and a wholesale
+    # marketplace, each carrying one `cosmetics` or `personal care` tag.
+    "beauty-personal-care": {
+        "bon-ton-stores", "taxa", "highstock",
     },
 }
 
@@ -377,10 +464,13 @@ TAG_INDUSTRIES = [
     # a roster description to cover the whole cohort, would both be inventing. The copy is
     # follow-up work for a human; the membership is not.
     #
-    # Eight verticals have no exact tag match and stay roster-only: e-commerce-platform,
-    # pharmaceutical, productivity-software, customer-relationship-management-crm,
-    # communications-platform-as-a-service-cpaas, fitness-wellness, tax-compliance-software,
-    # event-management-software.
+    # Eight verticals had no exact tag match and stayed roster-only after that pass:
+    # e-commerce-platform, pharmaceutical, productivity-software,
+    # customer-relationship-management-crm, communications-platform-as-a-service-cpaas,
+    # fitness-wellness, tax-compliance-software, event-management-software.
+    # All eight were tag-backed on 2026-09-08 at the bottom of this list, from the
+    # vocabulary their members actually use rather than from the vertical's own name.
+    # NOTHING in this list is roster-only any more.
     {
         "slug": 'healthcare',
         "name": 'Healthcare',
@@ -442,7 +532,12 @@ TAG_INDUSTRIES = [
         "name": 'Media',
         "icon": '/industries/assets/icons/media.png',
         "description": "",
-        "tags": ['media'],   # roster 23 -> tag-derived 530
+        # `news` (+45) and `broadcasting` (+7) are Media's own vocabulary — Dow
+        # Jones, Bloomberg, Benzinga, Sinclair, Paramount. `music` (+119),
+        # `podcast` and `publishing` are NOT added: all three sit wholly inside
+        # creator-economy, and `publishing` additionally reaches Buffer and
+        # Sprout Social, which are social scheduling tools.
+        "tags": ['media', 'news', 'broadcasting'],   # 261 -> 313
     },
     {
         "slug": 'entertainment',
@@ -526,7 +621,13 @@ TAG_INDUSTRIES = [
         "name": 'Industrial',
         "icon": '/industries/assets/icons/industrial.png',
         "description": "",
-        "tags": ['industrial'],   # roster 137 -> tag-derived 159
+        # `manufacturing` (+306) is the vertical's own market under the name its
+        # members use; `industrial automation` (+41) and `industrial iot` (+27)
+        # sit entirely inside robotics and iot respectively, which is the right
+        # adjacency for a vertical about making things at scale rather than a
+        # theft of either cohort.
+        "tags": ['industrial', 'manufacturing', 'industrial automation',
+                 'industrial iot', 'factory automation'],   # 80 -> 431
     },
     {
         "slug": 'food-delivery',
@@ -547,7 +648,13 @@ TAG_INDUSTRIES = [
         "name": 'Consumer Goods',
         "icon": '/industries/assets/icons/consumer-goods.png',
         "description": "",
-        "tags": ['consumer goods'],   # roster 83 -> tag-derived 91
+        # The CPG vocabulary, which this vertical was missing entirely:
+        # `consumer packaged goods` (+96), `consumer products` (+39) and `cpg`
+        # (+14) reach Colgate-Palmolive, Conagra, Campbell's, IKEA, Therabody,
+        # Liquid Death and Bobbie. Clean — the only overlap is retail, which is
+        # the channel these brands sell through.
+        "tags": ['consumer goods', 'consumer packaged goods', 'consumer products',
+                 'cpg'],   # 59 -> 201
     },
     {
         "slug": 'mining',
@@ -561,7 +668,12 @@ TAG_INDUSTRIES = [
         "name": 'Professional Services',
         "icon": '/industries/assets/icons/professional-services.png',
         "description": "",
-        "tags": ['professional services'],   # roster 28 -> tag-derived 62
+        # `consulting` (+41) is KPMG, Deloitte, Cognizant, Concentrix and Tetra
+        # Tech — the vertical's largest members, reachable no other way.
+        # `staffing` (+46) and `recruiting` (+114) are deliberately left out:
+        # both sit 100% inside human-capital-management, and taking them would
+        # move that vertical's whole cohort rather than widen this one.
+        "tags": ['professional services', 'consulting'],   # 12 -> 53
     },
     {
         "slug": 'maritime',
@@ -575,7 +687,12 @@ TAG_INDUSTRIES = [
         "name": 'Food Service',
         "icon": '/industries/assets/icons/food-service.png',
         "description": "",
-        "tags": ['food service'],   # roster 16 -> tag-derived 60
+        # `restaurant` (+152) is where this market lives — Toast, Square,
+        # Lightspeed, Flipdish, Thanx. `food and beverage` is deliberately NOT
+        # here: it reaches Liquid Death, Poppi, Bobbie and Daring Foods, which
+        # are consumer packaged goods brands, and they are picked up by the
+        # consumer-goods widening in the same pass.
+        "tags": ['food service', 'restaurant', 'restaurants'],   # 35 -> 188
     },
     {
         "slug": 'pet-care',
@@ -617,7 +734,15 @@ TAG_INDUSTRIES = [
         "name": 'Financial Technology',
         "icon": '/industries/assets/icons/financial-technology.png',
         "description": "",
-        "tags": ['financial technology'],   # roster 54 -> tag-derived 16
+        # `fintech` is what the market actually calls itself: 1,099 providers
+        # carry it and SIX carry the spelled-out `financial technology` this
+        # vertical was matching, so the page has been showing 70 while the
+        # catalog held the whole sector. Airwallex, Stripe, Klarna, Qonto and
+        # PAY.JP were all absent from Financial Technology. No homograph — the
+        # overlap it brings (banking 180, financial-services 186) is adjacency
+        # between finance verticals, which is expected and already the norm
+        # between healthcare and digital-health.
+        "tags": ['financial technology', 'fintech'],   # 16 -> 1,105
     },
     {
         "slug": 'video-streaming',
@@ -1112,6 +1237,256 @@ TAG_INDUSTRIES = [
             "flight tracking", "flight data", "aviation safety",
             "unmanned traffic management",
         ],
+    },
+
+    # --- 2026-09-08: the last eight roster-only verticals -----------------------
+    # The 2026-08-25 pass took roster-only from 46 to 8 by giving each vertical its
+    # own name as a tag. These eight had no exact tag match, so the rule reached
+    # nothing and they kept publishing a Fortune-1000 research slice in the same
+    # furniture as a 2,000-member cohort: fitness-wellness listed 5, event-management
+    # -software 3, tax-compliance-software 4.
+    #
+    # Tightest width still applies, but the anchor moves: where the vertical's own
+    # name is not a tag anyone uses, the anchor is the vocabulary its MEMBERS use.
+    # Every tag below was checked for the homograph failure #127 measures — which
+    # existing verticals it already sits inside, and who the top members are — and
+    # the ones that turned out to be another vertical's cohort wearing this
+    # vertical's word were dropped rather than curated around.
+    {
+        "slug": "e-commerce-platform",
+        "name": "E-Commerce Platform",
+        "icon": "shopping_cart",
+        "description": "The platforms online stores run on — hosted and headless commerce, storefronts and shopping carts, catalog and checkout, and the merchant-facing tooling built around them.",
+        # `commerce` (141) is left out as too wide: it reaches Stripe, HubSpot and
+        # Adobe Suite, which are payments and marketing companies that sell into
+        # commerce rather than platforms merchants build a store on. `e-commerce`
+        # brings 288 providers that are already in Retail — that overlap is the
+        # channel, not an error, and Retail keeps every one of them.
+        "tags": [
+            "e-commerce", "headless commerce", "shopping cart", "online store",
+        ],   # roster 35 -> 876
+    },
+    {
+        "slug": "pharmaceutical",
+        "name": "Pharmaceutical",
+        "icon": "medication",
+        "description": "Drug makers and the pharmacy chain — branded and generic manufacturers, serialization and supply integrity, pharmacy operations and dispensing, and the commercial platforms selling into them.",
+        # `drug discovery` (125) is deliberately NOT here. It sits 100% inside
+        # Biotechnology and it is research — Boltz, ChEMBL, PubChem, A-Alpha Bio —
+        # not the pharmaceutical industry's manufacturing, distribution and pharmacy
+        # layer. `pharmaceuticals` alone already overlaps Biotechnology heavily
+        # (349 of 412); that is two adjacent verticals sharing members, which is
+        # what healthcare and digital-health already do.
+        "tags": [
+            "pharmaceuticals", "pharmaceutical", "pharma", "pharmacy",
+        ],   # roster 23 -> 462
+    },
+    {
+        "slug": "productivity-software",
+        "name": "Productivity Software",
+        "icon": "task_alt",
+        "description": "The software teams organize work in — task and project management, notes and documents, planning boards, and the personal productivity tools that carry an API.",
+        # `collaboration`, `calendar` and `scheduling` are left out on purpose:
+        # calendar and scheduling are booking infrastructure that reaches health,
+        # salon and field-service platforms, and collaboration is a word every
+        # SaaS company uses about itself.
+        "tags": [
+            "productivity", "project management", "task management", "note taking",
+        ],   # roster 17 -> 182
+    },
+    {
+        "slug": "customer-relationship-management-crm",
+        "name": "Customer Relationship Management (CRM)",
+        "icon": "support_agent",
+        "description": "Systems of record for the customer relationship — contact and account management, pipeline and deal tracking, and the sales-engagement layers built on top of them.",
+        # `crm` and nothing else. `sales enablement` (35) is 100% inside
+        # marketing-advertising and `contacts` (22) reaches Nylas, Microsoft Graph
+        # and Outlook — an address-book API is not a CRM.
+        "tags": ['crm'],   # roster 11 -> 153
+    },
+    {
+        "slug": "communications-platform-as-a-service-cpaas",
+        "name": "Communications Platform as a Service (CPaaS)",
+        "icon": "forum",
+        "description": "Programmable communications sold as an API — SMS and messaging, programmable voice and telephony, verification, and the carrier connectivity underneath.",
+        # `messaging` (179) and `voice` (89) are the wide ones and both are left
+        # out: `voice` now reaches 41 AI voice-agent startups (Inworld, Synthflow,
+        # Syllable) and `messaging` reaches marketing-automation suites like Braze
+        # and Klaviyo. Every tag here sits inside Telecommunications, which is
+        # correct — CPaaS IS the programmable slice of that market.
+        "tags": ['cpaas', 'sms', 'telephony'],   # roster 7 -> 74
+    },
+    {
+        "slug": "fitness-wellness",
+        "name": "Fitness & Wellness",
+        "icon": "fitness_center",
+        "description": "Gyms, studios and the wellness economy — booking and member management, connected fitness hardware and training platforms, and the mindfulness and recovery services around them.",
+        "tags": [
+            "fitness", "wellness", "sports and fitness",
+        ],   # roster 5 -> 180
+    },
+    {
+        "slug": "tax-compliance-software",
+        "name": "Tax & Compliance Software",
+        "icon": "receipt_long",
+        "description": "Tax determination and filing — sales tax and VAT calculation, e-invoicing and clearance regimes, crypto and information reporting, and the tax authorities' own APIs.",
+        # `e-invoicing` (11) is left out: Tradeshift, Basware and Procuros are
+        # procure-to-pay networks already filed under Supply Chain, and they would
+        # arrive here on the strength of one shared compliance obligation.
+        "tags": [
+            "tax compliance", "tax", "sales tax", "vat",
+        ],   # roster 4 -> 63
+    },
+    {
+        "slug": "event-management-software",
+        "name": "Event Management Software",
+        "icon": "event",
+        "description": "The software events run on — registration and attendee management, event ticketing and box office, venue and attraction operations, and the virtual and hybrid event platforms.",
+        # `event` (91) is the reason this vertical could not be tag-backed in
+        # August, and it is a pure homograph: it reaches Amazon EventBridge,
+        # Hookdeck, Constant Contact and every webhook and event-driven
+        # architecture company in the catalog. `event management` is the safe
+        # anchor. `ticketing` is added with the ITSM half taken out by hand above,
+        # and `booking` and `reservations` are left out — they are Zocdoc,
+        # Quandoo, Amadeus and ParkWhiz, which is healthcare, hospitality and
+        # travel, not events.
+        "tags": [
+            "event management", "ticketing", "tickets",
+        ],   # roster 3 -> 68
+    },
+
+    # --- 2026-09-08: seven verticals the catalog had no home for ----------------
+    # 7,258 providers — 26% of the catalog — matched no tag-backed vertical at all.
+    # The clusters below are what was actually sitting in that gap, and they are not
+    # niches: Payments is the second-most-common domain tag in the whole catalog and
+    # had no page. Each was measured the same way — how many providers the tag union
+    # reaches, how many of them are NEW rather than already filed elsewhere, and
+    # which existing vertical the biggest overlap belongs to — and each clears
+    # MIN_COHORT (8) by at least an order of magnitude.
+    #
+    # Same discipline as above: tags that turned out to be another vertical's cohort
+    # are named in the comments and left out, not curated around.
+    {
+        "slug": "payments",
+        "name": "Payments & Money Movement",
+        "icon": "payments",
+        "description": "Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.",
+        # The largest single hole in the taxonomy: 897 providers and 2,191 APIs,
+        # 115 of them banded exemplar or strong (Airwallex 91.4, Shopify 90.2,
+        # Stripe 79.7), and only 12% already reachable through Banking. Payments
+        # is a market of its own, not a sub-sector of financial services, and
+        # every neighbouring vertical keeps its members.
+        #
+        # `digital wallet` (20) is left out: all 20 also carry a crypto tag, so it
+        # adds no coverage and files 20 blockchain companies here. `mobile
+        # payments` reaches the same real payment members (MoMo, Google Wallet).
+        # `dispatch` and `settlement` were checked and rejected as homographs.
+        "tags": [
+            "payments", "payment gateway", "payment gateways",
+            "payment processing", "payment processor", "payment orchestration",
+            "payouts", "card issuing", "merchant services", "acquiring",
+            "checkout", "point-of-sale", "recurring payments", "direct debit",
+            "ach", "mobile payments",
+            "cross-border payments", "money transfer", "remittances",
+            "b2b payments", "corporate cards", "credit cards",
+            "bnpl", "buy now pay later",
+            "currency exchange", "foreign exchange",
+        ],   # 897 providers, 2,191 APIs
+    },
+    {
+        "slug": "accounting-finance-ops",
+        "name": "Accounting & Finance Operations",
+        "icon": "calculate",
+        "description": "The finance back office — ledgers and bookkeeping, invoicing and billing, accounts payable and receivable, expense and spend management, ERP, and financial planning.",
+        # `payroll` (81) is deliberately absent and it is the sharpest call in this
+        # entry: every one of the 81 sits inside human-capital-management, so
+        # taking it would relocate that vertical's cohort rather than build this
+        # one. Tax is absent for a different reason — it is its own published
+        # vertical (tax-compliance-software), tag-backed in this same pass, and
+        # two verticals competing for `tax` would make both wrong.
+        "tags": [
+            "accounting", "bookkeeping", "general ledger",
+            "invoicing", "invoices", "billing", "subscription billing",
+            "accounts payable", "accounts receivable",
+            "expense management", "expenses", "spend management",
+            "erp", "revenue operations", "financial planning", "personal finance",
+        ],   # 477 providers, 679 APIs
+    },
+    {
+        "slug": "customer-support",
+        "name": "Customer Support & Service",
+        "icon": "headset_mic",
+        "description": "Serving customers after the sale — help desks and service desks, contact and call centers, live chat and messaging support, and the feedback and satisfaction layers around them.",
+        # Distinct from CRM (the system of record for the relationship) and from
+        # marketing-advertising (demand generation). `customer experience` (50) is
+        # left out precisely to hold that line: it sits 100% inside
+        # marketing-advertising and reaches Adobe Campaign and Adobe Experience
+        # Cloud. `reviews` (Trustpilot, Bazaarvoice) is reputation marketing and is
+        # left out for the same reason; `knowledge base` reaches Confluence and
+        # DeveloperHub, which are documentation tools.
+        "tags": [
+            "help desk", "helpdesk", "customer support", "customer service",
+            "customer feedback", "contact center", "call center", "live chat",
+        ],   # 164 providers, 557 APIs
+    },
+    {
+        "slug": "content-management",
+        "name": "Content Management & Digital Experience",
+        "icon": "web",
+        "description": "Where web content is authored and delivered — traditional and headless CMS, digital experience platforms, website builders, and digital asset management.",
+        # The best quality density of any vertical added in this pass: 22 of 116
+        # band exemplar or strong (Salesforce Marketing Cloud 82.6, Adobe 78.5,
+        # Optimizely 77.4, Confluence 74.3, Prismic 68.9). `content` (49) is left
+        # out as too wide — it is 19 media companies and 12 creator-economy
+        # platforms that publish things, not systems that manage content.
+        "tags": [
+            "cms", "headless cms", "content management",
+            "content management system", "website builder",
+            "digital asset management", "web publishing",
+        ],   # 116 providers, 378 APIs
+    },
+    {
+        "slug": "home-field-services",
+        "name": "Home & Field Services",
+        "icon": "handyman",
+        "description": "Software for work done at the customer's site — field service management, dispatch and scheduling for trades, work orders and job costing, and the home-services marketplaces above them.",
+        # A coherent buyer the catalog had no page for: ServiceTitan, Jobber,
+        # Housecall Pro, FieldPulse, CompanyCam, Skedulo. `home improvement` (17)
+        # is left out — it reaches Lowe's, Ace Hardware and Houzz, which are
+        # retailers and a marketplace, not the contractor's software.
+        "tags": [
+            "home services", "field service", "field service management",
+            "field-service",
+        ],   # 98 providers
+    },
+    {
+        "slug": "beauty-personal-care",
+        "name": "Beauty & Personal Care",
+        "icon": "face_retouching_natural",
+        "description": "Cosmetics, skincare and haircare brands, salon and spa booking and management, and the try-on, diagnostics and personalization technology sold into them.",
+        # Published knowing the cohort is thin on APIs — 1 of 111 bands strong
+        # (Mindbody 64.2, then Perfect Corp, Booksy, Zenoti) and most band
+        # `minimal`. That is the finding, not a reason to withhold the page: this
+        # is a large consumer market that has almost no programmable surface, and
+        # the vertical is where that shows.
+        "tags": [
+            "beauty", "cosmetics", "skincare", "personal care", "haircare",
+            "salon",
+        ],   # 111 providers
+    },
+    {
+        "slug": "nonprofit-social-impact",
+        "name": "Nonprofit & Social Impact",
+        "icon": "volunteer_activism",
+        "description": "Fundraising and donor management, crowdfunding and giving platforms, volunteering and civic organizing, and the grant and philanthropy infrastructure behind them.",
+        # `grants` (15) is left out: 8 of 15 are federal grant programs already
+        # filed under Government (HHS, Plinth US Grants Data) and two more are
+        # research-funding databases. GoFundMe, Donorbox, Neon One, NationBuilder,
+        # Indiegogo and Every.org reach the page on the tags below.
+        "tags": [
+            "non-profit", "nonprofit", "non profit",
+            "fundraising", "donations", "philanthropy", "charity", "volunteering",
+        ],   # 78 providers
     },
 ]
 

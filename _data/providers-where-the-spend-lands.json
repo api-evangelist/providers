@@ -29,7 +29,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
@@ -74,7 +74,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 45.5,
      "agent_band": "agent-ready",
@@ -120,7 +120,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -173,7 +173,7 @@
       "commercial_clarity": 81.6,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -236,7 +236,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 43.7,
      "agent_band": "agent-ready",
@@ -281,7 +281,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 43.3,
      "agent_band": "agent-ready",
@@ -326,7 +326,7 @@
       "commercial_clarity": 89.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -390,7 +390,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 62.3,
      "agent_band": "agent-native",
@@ -435,7 +435,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -507,7 +507,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -571,7 +571,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -624,7 +624,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -676,7 +676,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 56.3,
      "agent_band": "agent-ready",
@@ -722,7 +722,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 52.1,
      "agent_band": "agent-ready",
@@ -768,7 +768,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -814,7 +814,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -866,7 +866,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 58.5,
      "agent_band": "agent-ready",
@@ -912,7 +912,7 @@
       "commercial_clarity": 93.4,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
@@ -958,7 +958,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1011,7 +1011,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 54.0,
      "agent_band": "agent-native",
@@ -1067,7 +1067,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -1112,7 +1112,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1175,7 +1175,7 @@
       "commercial_clarity": 96.1,
       "access_clarity": 96.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1234,7 +1234,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -1280,7 +1280,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1333,7 +1333,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 50.0,
      "agent_band": "agent-native",
@@ -1379,7 +1379,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
@@ -1425,7 +1425,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
@@ -1471,7 +1471,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -1517,7 +1517,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1569,7 +1569,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1633,7 +1633,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1693,7 +1693,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 34.6,
      "agent_band": "agent-ready",
@@ -1738,7 +1738,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -1783,7 +1783,7 @@
       "commercial_clarity": 86.8,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -1828,7 +1828,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1880,7 +1880,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
@@ -1926,7 +1926,7 @@
       "commercial_clarity": 77.6,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 59.5,
      "agent_band": "agent-ready",
@@ -1971,7 +1971,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -2017,7 +2017,7 @@
       "commercial_clarity": 100.0,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 30.3,
      "agent_band": "agent-ready",
@@ -2063,7 +2063,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -2109,7 +2109,7 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -2155,7 +2155,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 42.2,
      "agent_band": "agent-native",
@@ -2200,7 +2200,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -2256,7 +2256,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2324,7 +2324,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -2369,7 +2369,7 @@
       "commercial_clarity": 85.5,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2415,7 +2415,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2468,7 +2468,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 47.5,
      "agent_band": "agent-ready",
@@ -2514,7 +2514,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2566,7 +2566,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2612,7 +2612,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -2658,7 +2658,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
@@ -2704,7 +2704,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2757,7 +2757,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -2803,7 +2803,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 47.8,
      "agent_band": "agent-ready",
@@ -2848,7 +2848,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2901,7 +2901,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -2947,7 +2947,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -2993,7 +2993,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 35.4,
      "agent_band": "agent-ready",
@@ -3038,7 +3038,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -3084,7 +3084,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 47.7,
      "agent_band": "agent-ready",
@@ -3130,7 +3130,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3176,7 +3176,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
@@ -3221,7 +3221,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -3267,7 +3267,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3313,7 +3313,7 @@
       "commercial_clarity": 84.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -3359,7 +3359,7 @@
       "commercial_clarity": 67.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -3404,7 +3404,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -3450,7 +3450,7 @@
       "commercial_clarity": 51.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -3496,7 +3496,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3549,7 +3549,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -3594,7 +3594,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
@@ -3640,7 +3640,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -3685,7 +3685,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -3731,7 +3731,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3777,7 +3777,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -3822,7 +3822,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -3868,7 +3868,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -3914,7 +3914,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3967,7 +3967,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -4013,7 +4013,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
@@ -4058,7 +4058,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -4103,7 +4103,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -4149,7 +4149,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -4195,7 +4195,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -4241,7 +4241,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4303,7 +4303,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -4349,7 +4349,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -4395,7 +4395,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -4440,7 +4440,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4493,7 +4493,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -4539,7 +4539,7 @@
       "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
@@ -4585,7 +4585,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -4631,7 +4631,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4676,7 +4676,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -4721,7 +4721,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4780,7 +4780,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -4825,7 +4825,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4870,7 +4870,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -4915,7 +4915,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -4960,7 +4960,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -5006,7 +5006,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 35.3,
      "agent_band": "agent-ready",
@@ -5052,7 +5052,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -5097,7 +5097,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5153,7 +5153,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 24.3,
      "agent_band": "agent-aware",
@@ -5198,7 +5198,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5244,7 +5244,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5290,7 +5290,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -5336,7 +5336,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5381,7 +5381,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -5426,7 +5426,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5472,7 +5472,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -5518,7 +5518,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5564,7 +5564,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -5610,7 +5610,7 @@
       "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5655,7 +5655,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5701,7 +5701,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -5747,7 +5747,7 @@
       "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5792,7 +5792,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -5844,7 +5844,7 @@
       "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -5890,7 +5890,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5936,7 +5936,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
@@ -5982,7 +5982,7 @@
       "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6028,7 +6028,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -6081,7 +6081,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6127,7 +6127,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6173,7 +6173,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
@@ -6219,7 +6219,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -6264,7 +6264,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6309,7 +6309,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -6355,7 +6355,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6400,7 +6400,7 @@
       "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6456,7 +6456,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6502,7 +6502,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6548,7 +6548,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6594,7 +6594,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6639,7 +6639,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6684,7 +6684,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -6729,7 +6729,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6774,7 +6774,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -6819,7 +6819,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6865,7 +6865,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6911,7 +6911,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6956,7 +6956,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7001,7 +7001,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-07",
+     "scored_at": "2026-09-08",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

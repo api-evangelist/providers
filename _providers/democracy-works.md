@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 3
 apis:
 - baseURL: https://api.democracy.works/v2
@@ -284,7 +284,7 @@ score:
     catalog_gap: 34.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 14.3
+  delta: 0.0
   facets:
     access_clarity: 18.4
     commercial_clarity: 18.4
@@ -294,7 +294,7 @@ score:
     discoverability: 81.5
     governance: 87.9
     operational_transparency: 26.3
-  previous_composite: 42.3
+  previous_composite: 56.6
   provenance:
     conformance: first-party
     contracts:
@@ -311,8 +311,8 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
-  trend: rising
+  scored_at: '2026-09-08'
+  trend: flat
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'

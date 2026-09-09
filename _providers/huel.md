@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: The Huel US customer forum at discourse.huel.com runs Discourse 2026.8.0 and therefore serves the standard Discourse REST API on a Huel-controlled host. Anonymous GET requests to /site.json, /categori
@@ -168,7 +168,7 @@ score:
     regime_id: health
     score: 25.0
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

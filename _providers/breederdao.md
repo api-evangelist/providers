@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: ReadyGamer is a joint venture between Sovrun and Virtuals that enables AI-powered, autonomous decision-making for in-game NPCs through the GAME framework. The HTTP API accepts POST chat requests per g
@@ -137,7 +137,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 24.3
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

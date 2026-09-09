@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: The DistillerSR API allows technical users to interact with DistillerSR features programmatically for use in automated scripts and integrations outside of DistillerSR. It supports performing systemati
@@ -154,7 +154,7 @@ score:
     regime_id: health
     score: 23.8
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

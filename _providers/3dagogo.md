@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 protected REST API for the AstroPrint cloud 3D printing platform. Manage printers, designs, and print jobs. Confirmed live: https://api.astroprint.com/v2/printers returns HTTP 401 without a '
@@ -138,7 +138,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

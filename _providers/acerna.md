@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 8.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: A live, anonymously reachable Model Context Protocol endpoint served from aceRNA Technologies' own host and advertised in the site's llms.txt. It is provided by the Wix platform, not built by aceRNA —
@@ -134,7 +134,7 @@ score:
     regime_id: health
     score: 26.3
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 1
 apis:
 - description: Hurl is an open source command-line tool for running HTTP requests defined in a simple plain text format, with built-in assertions for API testing, response capturing, and request chaining. As a CLI u
@@ -135,7 +135,7 @@ score:
     score: 50.0
   previous_composite: 17.4
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

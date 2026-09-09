@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 3
 apis:
 - description: The UserVoice Admin API v2 provides a fast and easy way of working with your feedback data, enabling you to build client applications and custom integrations for administrative operations including da
@@ -150,7 +150,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 34.2
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false

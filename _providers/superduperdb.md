@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
 api_count: 6
 apis:
 - description: Open-source Python framework (superduper-framework) for declaring AI models, embeddings, vector indexes, RAG pipelines, and listeners directly on top of an existing database. Apache 2.0 licensed.
@@ -146,7 +146,7 @@ score:
     score: 65.0
   previous_composite: 25.9
   schema_version: 0.20.0
-  scored_at: '2026-09-07'
+  scored_at: '2026-09-08'
   trend: flat
   upsert:
     applies: false
