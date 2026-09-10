@@ -1,6 +1,6 @@
 {
- "total": 1014,
- "shown": 1000,
+ "total": 1013,
+ "shown": 999,
  "limit": 1000,
  "bands": [
   {
@@ -38220,51 +38220,6 @@
       "agentic_commerce": false
      },
      "rank": 822
-    },
-    {
-     "name": "Olin",
-     "slug": "olin",
-     "description": "Olin Corporation is a leading global manufacturer and distributor of chemical products and ammunition. Olin operates three business segments: Chlor Alkali Products and Vinyls, Epoxy, and Winchester. No public APIs have been documented at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/olin/refs/heads/main/screenshots/olin-2026-06-20T190659.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 823
     },
     {
      "name": "Omen",
