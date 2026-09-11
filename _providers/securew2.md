@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: REST API for Managed Service Providers to automate the lifecycle of their child organizations under an MSP tenant. Bearer-token authenticated; supports listing, retrieving, creating, and updating orga
@@ -137,7 +137,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 25.6
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

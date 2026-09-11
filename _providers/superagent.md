@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: SuperAgent is an open-source framework for building and deploying AI agents with APIs.
@@ -112,7 +112,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.0
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

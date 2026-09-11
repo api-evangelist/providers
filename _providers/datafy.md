@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'The Datafy Data API is a beta JSON-over-HTTP reporting API that returns aggregated visitation analytics for a destination. It is RPC-shaped rather than resource-shaped: three fixed endpoints, with the'
@@ -193,7 +193,7 @@ score:
   provenance:
     conformance: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

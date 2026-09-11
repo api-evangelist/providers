@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 6
 apis:
 - description: Manage customers, their service locations, and installed equipment records (make, model, age, and service history). Endpoint paths are modeled from FieldEdge's documented Customers & Locations module;
@@ -123,7 +123,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.1
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

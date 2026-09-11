@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Coast's stable v2 REST API for programmatic access to fleet and fuel expense data — cards, drivers, vehicles, transactions, receipts, and spending controls. The API reference is served via a gated (OI
@@ -141,7 +141,7 @@ score:
     regime_id: payments
     score: 21.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

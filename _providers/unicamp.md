@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: REDU (Repositorio de Dados de Pesquisa da Unicamp) is Unicamp's institutional research data repository, self-hosted on the open-source Dataverse platform at redu.unicamp.br - a Unicamp-owned host, not
@@ -218,7 +218,7 @@ score:
     regime_id: education
     score: 72.2
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

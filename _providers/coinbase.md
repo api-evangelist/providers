@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.1
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -698,7 +698,7 @@ score:
     regime_id: payments
     score: 48.4
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: REST API for managing global employment operations including international hiring, employee records, payroll processing, benefits administration, onboarding, offboarding, and compliance management acr
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.1
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

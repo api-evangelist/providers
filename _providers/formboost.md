@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'Single public unauthenticated HTTP endpoint (POST https://formboost.app/f/{alias}) that accepts JSON or form-encoded submissions. Returns 202 to JSON clients and 302 to HTML form posts. Discovery via '
@@ -208,7 +208,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

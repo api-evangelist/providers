@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: HTTPS event-stream ingestion API for programmatic advertising data. Customers continuously POST newline-delimited, OpenRTB-based JSON event records (gzip-compressed) to a per-customer HTTPS endpoint u
@@ -126,7 +126,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.3
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

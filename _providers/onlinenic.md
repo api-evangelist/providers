@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: OnlineNIC offers a RESTful API with JSON format response for our partners to directly manage their products and orders. We intends to help our partners automate the purchase process and enpower them t
@@ -102,7 +102,7 @@ score:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

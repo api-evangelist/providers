@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: REST API for national sex-offender screening; API-key authenticated, JSON responses, synchronous and asynchronous search across all 58 US registries.
@@ -152,7 +152,7 @@ score:
     regime_id: health
     score: 31.3
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

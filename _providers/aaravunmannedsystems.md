@@ -23,15 +23,20 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.9
-  scored_at: '2026-09-08'
-api_count: 1
+  scored_at: '2026-09-10'
+api_count: 2
 apis:
 - baseURL: https://tiles.aereo.io
   baseurl_source: declared
   description: 'A microservice for serving the map tiles behind Aereo Cloud. Publishes a FastAPI-generated OpenAPI 3.1.0 description with twelve read operations delivering Mapbox vector tiles (.pbf), Cloud Optimized '
   name: Aereo Cloud Tile Server
   slug: aaravunmannedsystems-tile-server
-artifact_total: 5
+- baseURL: https://ac-rti-server-prod.aereo.io
+  baseurl_source: declared
+  description: 'WebSocket-based real-time SAM2 (Segment Anything 2) inference service used by Aereo Cloud for interactive segmentation of drone imagery. Its HTTP contract exposes only a liveness probe; the inference '
+  name: Aereo Cloud Real-Time Inference Server
+  slug: aereo7a4d-real-time-inference-server
+artifact_total: 6
 common:
 - group: company
   title: ''
@@ -109,7 +114,7 @@ modified: '2026-09-05'
 name: Aarav Unmanned Systems (Aereo)
 nav: Providers
 network: true
-overview: 'Aarav Unmanned Systems (Aereo) publishes 1 API on the [APIs.io](https://apis.io/) network: Aereo Cloud Tile Server. Tagged areas include Drones, UAV, Geospatial, Mapping, and Remote Sensing.
+overview: 'Aarav Unmanned Systems (Aereo) publishes 2 APIs on the [APIs.io](https://apis.io/) network: Aereo Cloud Tile Server and Aereo Cloud Real-Time Inference Server. Tagged areas include Drones, UAV, Geospatial, Mapping, and Remote Sensing.
 
 
   Aarav Unmanned Systems (Aereo)''s developer surface includes developer portal, support, authentication, and 14 more developer resources.'
@@ -124,7 +129,7 @@ rate_limits:
   slug: aaravunmannedsystems-rate-limits
 score:
   band: thin
-  composite: 26.6
+  composite: 26.2
   coverage:
     artifact_dirs: 16
     catalog_earned: 37.0
@@ -132,12 +137,12 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.4
   facets:
     access_clarity: 21.1
     commercial_clarity: 21.1
     contract_governance: 4.5
-    contract_quality: 37.4
+    contract_quality: 36.1
     developer_ergonomics: 28.0
     discoverability: 68.5
     governance: 4.5
@@ -155,7 +160,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

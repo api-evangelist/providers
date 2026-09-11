@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 36.2
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -428,7 +428,7 @@ score:
     regime_id: securities_market_data
     score: 55.0
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

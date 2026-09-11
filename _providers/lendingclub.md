@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'No public contract or reference is published for this API. api.lendingclub.com is live and gated - /api/investor/v1/accounts/1/summary answers HTTP 401 and /api/investor/v1/loans/listing answers HTTP '
@@ -171,7 +171,7 @@ score:
     regime_id: banking_open_finance
     score: 7.6
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

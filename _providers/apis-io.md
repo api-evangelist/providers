@@ -16,7 +16,7 @@ access_model:
 agent_readiness:
   band: agent-native
   dimensions:
-    agent_card: false
+    agent_card: near-conformant
     agent_skills: true
     agentic_access: derived
     agentic_commerce: false
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 51.0
-  scored_at: '2026-09-08'
+  score: 54.5
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 64
   slug: apis-io-agentic-access
   summary_line: 64 operations · 1 acting
-api_count: 18
+api_count: 19
 apis:
 - baseURL: https://apis.io
   baseurl_source: declared
@@ -662,7 +662,7 @@ score:
   band: exemplar
   composite: 71.9
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 97.5
     catalog_earned_first_party: 24.0
     catalog_gap: 17.5
@@ -690,7 +690,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

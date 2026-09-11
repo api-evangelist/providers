@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 0
 artifact_total: 1
 common:
@@ -40,6 +40,10 @@ common:
   title: ''
   type: DomainSecurity
   url: security/foot-locker-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/foot-locker-llms.txt
 - group: build
   title: ''
   type: GitHubOrganization
@@ -51,11 +55,11 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.foot-locker.com
+  url: https://www.footlocker.com/
 - group: other
   title: ''
   type: CorporateSite
-  url: https://corporate.footlocker.com/
+  url: https://www.footlocker-inc.com/
 - group: company
   title: ''
   type: InvestorRelations
@@ -64,15 +68,35 @@ common:
   title: ''
   type: Careers
   url: https://careers.footlocker.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.footlocker.com/help/terms-of-use.html
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.footlocker.com/help/privacy-statement.html
 - group: other
   title: ''
   type: AffiliateProgram
-  url: https://www.foot-locker.com/help-center/affiliate-program.html
+  url: https://www.footlocker.com/affiliates.html
+coverage:
+  checked: '2026-09-10'
+  detail: Foot Locker publishes no developer site of its own — its one real API, the Foot Locker/Eastbay supplier inventory feed, is documented inside CommerceHub's Dsco platform, whose docs host answers HTTP 403 behind a TLS certificate that expired in December 2025.
+  evidence:
+  - status: 403
+    url: https://gandalf.dsco.io/platform_content/fleast-updatinginventory-api/
+  - status: 404
+    url: https://www.footlocker.com/.well-known/api-catalog
+  - status: 200
+    url: https://www.footlocker.com/openapi.json
+  reason: marketplace-only
+  state: gated
 created: '2026-03-21'
-description: Foot Locker is a global retailer of athletic footwear and apparel, operating stores under banners including Foot Locker, Kids Foot Locker, Lady Foot Locker, Champs Sports, Eastbay, and Footaction. Foot Locker does not publish a public developer portal or open API. Integrations with Foot Locker (loyalty, gift cards, retail media, e-commerce affiliate, supplier EDI) are arranged through partner programs and require commercial agreements.
+description: 'Foot Locker, Inc. is a global retailer of athletic footwear and apparel, operating the Foot Locker, Kids Foot Locker, Champs Sports, WSS and atmos banners across North America, Europe, Asia and Australia. DICK''S Sporting Goods completed its acquisition of Foot Locker, Inc. on September 8, 2025 and continues to operate the Foot Locker brand suite. Foot Locker publishes no public developer portal, API reference or machine-readable contract. Trading-partner integration runs through third-party host platforms rather than a first-party developer site: supplier inventory and dropship through CommerceHub Dsco, and the Storefronts creator/affiliate program through impact.com, each requiring a commercial agreement. The former api.footlocker.com Apigee gateway no longer resolves.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/foot-locker.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-10'
 name: Foot Locker
 nav: Providers
 network: true
@@ -96,28 +120,28 @@ press:
 random_paper: 12
 score:
   band: minimal
-  composite: 5.3
+  composite: 10.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.0
   facets:
-    access_clarity: 0.0
-    commercial_clarity: 0.0
+    access_clarity: 21.1
+    commercial_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 50.0
+    discoverability: 57.4
     governance: 0.0
     operational_transparency: 2.6
   previous_composite: 5.3
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
-  trend: flat
+  scored_at: '2026-09-10'
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -126,7 +150,7 @@ security:
 - kind: domain-security
   name: Foot Locker Domain Security
   slug: foot-locker-domain-security
-  summary_line: DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: foot-locker
 tags:
 - Fortune 500
@@ -134,5 +158,7 @@ tags:
 - Footwear
 - Apparel
 - E-Commerce
-website: https://www.foot-locker.com
+- Sneakers
+- Omnichannel
+website: https://www.footlocker.com/
 ---

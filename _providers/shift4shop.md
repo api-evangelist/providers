@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'RESTful web service for managing all aspects of a Shift4Shop online store including products, categories, orders, customers, coupons, and store configuration. Supports GET, POST, PUT, and DELETE HTTP '
@@ -136,7 +136,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 27.1
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

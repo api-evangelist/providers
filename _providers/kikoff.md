@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Unified REST API for embedding credit-building infrastructure, covering member enrollment, tradeline furnishing to the credit bureaus, and dispute status. Access is gated behind a demo/onboarding proc
@@ -148,7 +148,7 @@ score:
     - north-america
   previous_composite: 24.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

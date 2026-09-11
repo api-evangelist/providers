@@ -29,7 +29,7 @@
       "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -82,7 +82,7 @@
       "commercial_clarity": 75.0,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -146,7 +146,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -252,7 +252,7 @@
       "commercial_clarity": 30.3,
       "access_clarity": 30.3
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -320,7 +320,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -373,7 +373,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -426,7 +426,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -479,7 +479,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
@@ -529,7 +529,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -582,7 +582,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -635,7 +635,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -688,7 +688,7 @@
       "commercial_clarity": 46.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -741,7 +741,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -794,7 +794,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -847,7 +847,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -900,7 +900,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -964,7 +964,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
@@ -1014,7 +1014,7 @@
       "commercial_clarity": 21.4,
       "access_clarity": 21.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1067,7 +1067,7 @@
       "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1120,7 +1120,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1173,7 +1173,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1226,7 +1226,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1279,7 +1279,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1325,7 +1325,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1378,7 +1378,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1431,7 +1431,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1484,7 +1484,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1537,7 +1537,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1590,7 +1590,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
@@ -1640,7 +1640,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1693,7 +1693,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1746,7 +1746,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1799,7 +1799,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1852,7 +1852,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1915,7 +1915,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1968,7 +1968,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2021,7 +2021,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2074,7 +2074,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2127,7 +2127,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2180,7 +2180,7 @@
       "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2233,7 +2233,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2286,7 +2286,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2338,7 +2338,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2391,7 +2391,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2444,7 +2444,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2497,7 +2497,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2550,7 +2550,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2603,7 +2603,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2656,7 +2656,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2709,7 +2709,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2762,7 +2762,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2815,7 +2815,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2868,7 +2868,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2921,7 +2921,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2957,59 +2957,6 @@
      "rank": 55
     },
     {
-     "name": "Farmers Insurance Exchange",
-     "slug": "farmers-insurance-exchange",
-     "description": "Farmers Insurance Exchange is a Fortune 500 inter-insurance exchange and the largest of the three reciprocal exchanges that make up the Farmers Insurance Group of Companies, underwriting auto, home, specialty property, life and commercial lines across the United States and managed by Farmers Group, Inc. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Farmers Insurance Exchange. Farmers operates a developer portal at developer.farmers.com titled \"Farmers Insurance APIs\", but the entire portal is an Okta sign-in wall: no OpenAPI, API reference, quickstart or pricing page is reachable without partner credentials, and the same wall stands in front of the ePartner portal. No public API contract has been observed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/screenshots/farmers-insurance-exchange-2026-06-20T181045.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 14.3,
-      "commercial_clarity": 34.2,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "P&C / General Insurers",
-     "rank": 56
-    },
-    {
      "name": "Federato",
      "slug": "federato",
      "description": "Federato is an AI-native insurance technology platform built for the full policy lifecycle, from submission through policyholder management. Its RiskOps-style tooling spans underwriting workflow, automated submission triage, portfolio and appetite alignment, rate/price/quote, a configurable forms engine, federated data infrastructure, and producer, partner, and policyholder portals. Federato serves insurance carriers, managing general agents (MGAs), MGA aggregators, and mutual insurers. The company is backed by Emergence Capital and announced a $100M Series D led by Goldman Sachs. No public API or open developer reference was found during enrichment; the developer documentation portal (Archbee) is magic-link protected, and the GitHub organization holds only forks of third-party infrastructure tools.",
@@ -3027,7 +2974,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3060,7 +3007,7 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
-     "rank": 57
+     "rank": 56
     },
     {
      "name": "Chubb",
@@ -3080,7 +3027,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3113,7 +3060,7 @@
       "agentic_commerce": false
      },
      "tier": "P&C / General Insurers",
-     "rank": 58
+     "rank": 57
     },
     {
      "name": "Newfront",
@@ -3133,7 +3080,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3166,7 +3113,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency & Brokerage Technology",
-     "rank": 59
+     "rank": 58
     },
     {
      "name": "ERGO NEXT Insurance",
@@ -3186,7 +3133,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3219,7 +3166,7 @@
       "agentic_commerce": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
-     "rank": 60
+     "rank": 59
     },
     {
      "name": "Lockton",
@@ -3239,7 +3186,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3272,7 +3219,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokers & Intermediaries",
-     "rank": 61
+     "rank": 60
     },
     {
      "name": "Artificial Intelligence Underwriting Company",
@@ -3292,7 +3239,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3325,6 +3272,59 @@
       "agentic_commerce": false
      },
      "tier": "Underwriting AI & Submission Ingestion",
+     "rank": 61
+    },
+    {
+     "name": "Farmers Insurance Exchange",
+     "slug": "farmers-insurance-exchange",
+     "description": "Farmers Insurance Exchange is a Fortune 500 inter-insurance exchange and the largest of the three reciprocal exchanges that make up the Farmers Insurance Group of Companies, underwriting auto, home, specialty property, life and commercial lines across the United States and managed by Farmers Group, Inc. This repository captures any APIs, developer tools, and machine-readable API artifacts associated with Farmers Insurance Exchange. Farmers operates a developer portal at developer.farmers.com titled \"Farmers Insurance APIs\", but the entire portal is an Okta sign-in wall: no OpenAPI, API reference, quickstart or pricing page is reachable without partner credentials, and the same wall stands in front of the ePartner portal. No public API contract has been observed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/screenshots/farmers-insurance-exchange-2026-06-20T181045.png",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "commercial_clarity": 27.6,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "P&C / General Insurers",
      "rank": 62
     },
     {
@@ -3345,7 +3345,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3398,7 +3398,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3461,7 +3461,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3514,7 +3514,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3567,7 +3567,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3620,7 +3620,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3673,7 +3673,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3726,7 +3726,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3779,7 +3779,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3832,7 +3832,7 @@
       "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3885,7 +3885,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3931,7 +3931,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3984,7 +3984,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4036,7 +4036,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4089,7 +4089,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,

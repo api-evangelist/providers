@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 9
 apis:
 - baseURL: https://tokamakenergy.com/wp-json
@@ -260,7 +260,7 @@ score:
     regime_id: energy_utilities
     score: 28.4
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

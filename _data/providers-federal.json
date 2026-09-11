@@ -28,7 +28,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -92,7 +92,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -146,7 +146,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -200,7 +200,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -254,7 +254,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -308,7 +308,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -350,8 +350,62 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
+   "count": 6,
    "providers": [
+    {
+     "name": "Federal Housing Finance Agency (FHFA)",
+     "slug": "fhfa",
+     "url": "https://providers.apis.io/providers/fhfa/",
+     "type": "API Provider",
+     "description": "The Federal Housing Finance Agency (FHFA) is an independent federal regulator established in 2008 that supervises Fannie Mae, Freddie Mac, and the Federal Home Loan Bank System. FHFA provides publicly accessible data APIs and datasets covering house price indexes (FHFA HPI), mortgage market surveys, conforming loan limits, National Mortgage Database (NMDB) aggregate statistics, Public Use Databases (PUDB) for Fannie Mae and Freddie Mac, Uniform Appraisal Dataset (UAD) statistics, and GSE performance and duty-to-serve data. Data is available in CSV, JSON, XML, and Excel formats with open public access under FHFA's API Terms of Service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fhfa/refs/heads/main/screenshots/fhfa-2026-06-20T181144.png",
+     "score": 38.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 29.3,
+      "governance": 18.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 16.7,
+      "commercial_clarity": 50.0,
+      "access_clarity": 50.0
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 46.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
     {
      "name": "OSHA",
      "slug": "osha",
@@ -371,7 +425,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -403,7 +457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "USPTO",
@@ -424,7 +478,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -456,7 +510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Recreation.gov",
@@ -478,7 +532,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -510,7 +564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "OpenFEC",
@@ -532,7 +586,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -564,7 +618,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Zero-Trust Security Model",
@@ -586,7 +640,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -618,7 +672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     }
    ]
   },
@@ -627,62 +681,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 6,
+   "count": 5,
    "providers": [
-    {
-     "name": "Federal Housing Finance Agency (FHFA)",
-     "slug": "fhfa",
-     "url": "https://providers.apis.io/providers/fhfa/",
-     "type": "API Provider",
-     "description": "The Federal Housing Finance Agency (FHFA) is an independent federal regulator established in 2008 that supervises Fannie Mae, Freddie Mac, and the Federal Home Loan Bank System. FHFA provides publicly accessible data APIs and datasets covering house price indexes (FHFA HPI), mortgage market surveys, conforming loan limits, National Mortgage Database (NMDB) aggregate statistics, Public Use Databases (PUDB) for Fannie Mae and Freddie Mac, Uniform Appraisal Dataset (UAD) statistics, and GSE performance and duty-to-serve data. Data is available in CSV, JSON, XML, and Excel formats with open public access under FHFA's API Terms of Service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fhfa/refs/heads/main/screenshots/fhfa-2026-06-20T181144.png",
-     "score": 24.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 64.8,
-      "contract_quality": 14.7,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 11.9,
-      "commercial_clarity": 39.5,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 27.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
     {
      "name": "Public Sector",
      "slug": "public-sector",
@@ -703,7 +703,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -757,7 +757,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -811,7 +811,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -865,7 +865,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -919,7 +919,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -982,7 +982,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,

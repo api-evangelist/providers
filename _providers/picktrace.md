@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: RESTful API for integrating labor and workforce-management data into and out of the PickTrace platform. Customers and third-party developers use it to create, update, and extract objects from all Pick
@@ -115,7 +115,7 @@ score:
     operational_transparency: 2.6
   previous_composite: 15.1
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

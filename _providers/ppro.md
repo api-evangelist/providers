@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 48.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 21
 apis:
 - baseURL: https://api.eu.ppro.com
@@ -340,7 +340,7 @@ score:
     regime_id: payments
     score: 46.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

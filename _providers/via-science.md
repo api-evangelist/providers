@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'VIA''s OpenID Connect / OAuth 2.0 identity layer, operated on a VIA-run Keycloak server. It is the only machine-readable contract VIA publishes: each product realm serves an anonymous OIDC discovery do'
@@ -187,7 +187,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

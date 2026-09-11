@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 2
 apis:
 - description: 'REST service for managing the customer (cliente) records behind Atom''s WhatsApp conversations. The provider knowledge base documents three operations: create or update a customer, retrieve the list of'
@@ -185,7 +185,7 @@ score:
     conformance: derived
     mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

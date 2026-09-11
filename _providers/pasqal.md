@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 8
 apis:
 - description: REST API for Pasqal Cloud Services — submit and manage quantum Batches and Jobs on Pasqal Fresnel QPUs and on emulator backends (EMU-FREE, EMU-TN, EMU-MPS, EMU-SV), query Devices and Device Specificat
@@ -295,7 +295,7 @@ score:
     - france-iberia
   previous_composite: 19.5
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

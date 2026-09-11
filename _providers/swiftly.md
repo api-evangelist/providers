@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.2
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: The GraphQL API that backs Swiftly-built retailer mobile apps and websites. Exposes 45 queries and 11 mutations across offers and coupons, product catalog and barcode lookup, store and chain directori
@@ -183,7 +183,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

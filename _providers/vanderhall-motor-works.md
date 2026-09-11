@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 30.4
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: An OAuth-protected Model Context Protocol endpoint served from the Vanderhall Admin Portal at https://portal.vanderhallusa.com/mcp. The endpoint is live and speaks JSON-RPC 2.0, but every method — inc
@@ -163,7 +163,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

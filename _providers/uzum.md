@@ -24,7 +24,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 38.7
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 11
 apis:
 - description: Payment gateway for websites and mobile applications. Card payments (Visa, Mastercard, Uzcard, Humo), one-step and two-step authorization, back-to-back payment without the hosted form, card binding an
@@ -260,7 +260,7 @@ score:
     regime_id: payments
     score: 68.8
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

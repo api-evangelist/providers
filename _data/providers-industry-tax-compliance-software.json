@@ -1,6 +1,6 @@
 {
- "total": 116,
- "shown": 116,
+ "total": 117,
+ "shown": 117,
  "limit": 1000,
  "bands": [
   {
@@ -29,7 +29,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -81,7 +81,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 24.2,
      "agent_band": "agent-aware",
@@ -125,7 +125,7 @@
       "commercial_clarity": 78.9,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -181,7 +181,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -226,7 +226,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -278,7 +278,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -341,7 +341,7 @@
       "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -393,7 +393,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -438,7 +438,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -483,7 +483,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -535,7 +535,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 39.8,
      "agent_band": "agent-native",
@@ -579,7 +579,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -631,7 +631,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
@@ -676,7 +676,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -721,7 +721,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -766,7 +766,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -811,7 +811,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 18.2,
      "agent_band": "agent-aware",
@@ -856,7 +856,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -908,7 +908,7 @@
       "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -960,7 +960,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1012,7 +1012,7 @@
       "commercial_clarity": 14.5,
       "access_clarity": 14.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1057,7 +1057,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1109,7 +1109,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 27.4,
      "agent_band": "agent-aware",
@@ -1154,7 +1154,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1217,7 +1217,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1262,7 +1262,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1307,7 +1307,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -1352,7 +1352,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1397,7 +1397,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -1442,7 +1442,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1494,7 +1494,7 @@
       "commercial_clarity": 92.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1546,7 +1546,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1591,7 +1591,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1643,7 +1643,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1695,7 +1695,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -1740,7 +1740,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 26.5,
      "agent_band": "agent-aware",
@@ -1785,7 +1785,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -1830,7 +1830,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -1875,7 +1875,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1927,7 +1927,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1979,7 +1979,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2024,7 +2024,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2076,7 +2076,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2121,7 +2121,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 14.9,
      "agent_band": "agent-aware",
@@ -2166,7 +2166,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2211,7 +2211,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2263,7 +2263,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2308,7 +2308,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2352,7 +2352,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2403,7 +2403,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -2448,7 +2448,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -2493,7 +2493,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -2538,7 +2538,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -2583,7 +2583,7 @@
       "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2617,8 +2617,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 36,
-   "shown": 36,
+   "count": 37,
+   "shown": 37,
    "providers": [
     {
      "name": "Automatic Data Processing (ADP)",
@@ -2638,7 +2638,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -2683,7 +2683,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2728,7 +2728,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2780,7 +2780,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2825,7 +2825,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2877,7 +2877,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -2922,7 +2922,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2966,7 +2966,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3011,7 +3011,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3063,7 +3063,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3115,7 +3115,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3167,7 +3167,7 @@
       "commercial_clarity": 53.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3212,7 +3212,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3257,7 +3257,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3302,7 +3302,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3347,7 +3347,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3392,7 +3392,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 6.0,
      "agent_band": "agent-aware",
@@ -3437,7 +3437,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3482,7 +3482,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3527,7 +3527,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3579,7 +3579,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3624,7 +3624,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3669,7 +3669,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3714,7 +3714,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3759,7 +3759,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3804,7 +3804,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3849,7 +3849,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3901,7 +3901,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3946,7 +3946,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -3998,7 +3998,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4042,7 +4042,7 @@
       "commercial_clarity": 31.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4087,7 +4087,7 @@
       "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4132,7 +4132,7 @@
       "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4167,6 +4167,50 @@
      "rank": 87
     },
     {
+     "name": "Aerial Partners",
+     "slug": "aerialpartnersjapan",
+     "description": "Aerial Partners (株式会社Aerial Partners, Roppongi, Minato-ku, Tokyo) builds digital-asset accounting, tax and data-management software for the Japanese market. Its current product line is AWA (Aerial Web3 Accounting), an accounting-support tool for Web3 businesses handling crypto assets and NFTs, and ADM (Aerial Data Management), a management-accounting and statutory-ledger data platform for crypto-asset exchange operators and Type I financial instruments business operators. The company also resells Lukka Insights, the crypto data platform of its parent, Lukka, which acquired Aerial Partners in January 2025. Aerial Partners originated Gtax, the consumer and tax-accountant crypto profit-and-loss calculator, and Guardian, its tax-filing support service; both moved to 株式会社Gtax, which pafin acquired in July 2026 and is folding into Cryptact on 5 October 2026. Aerial Partners publishes no public developer portal, API reference or machine-readable contract: the only API it markets is the \"Gtax Network API\", a joint-development BtoBtoC offering for exchange operators reachable only through the corporate inquiry form.",
+     "score": 11.4,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 88
+    },
+    {
      "name": "Exactera",
      "slug": "exactera",
      "description": "Exactera is a corporate tax technology and advisory company that pairs AI-powered software with expert tax professionals to help multinational corporations manage the full corporate tax lifecycle. Its SaaS platform and services span transfer pricing compliance and benchmarking, R&D tax credits, fixed-asset depreciation, indirect (sales and use) tax advisory, tax provision, and the RoyaltyStat royalty-rate and transfer-pricing data platform. Exactera automates documentation, benchmarking studies, and regulatory reporting so tax and finance teams can reduce audit exposure and meet global compliance requirements. Backed by Insight Partners, the company serves enterprise tax departments and advisory firms worldwide.",
@@ -4184,52 +4228,7 @@
       "commercial_clarity": 25.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 88
-    },
-    {
-     "name": "Loctax",
-     "slug": "loctax",
-     "description": "Loctax is a collaborative tax compliance, risk, and governance platform built for global in-house tax teams. Founded in 2020 and based in Gent, Belgium, its Global Tax Intelligence Platform lets teams ask any tax question grounded in their own company data and IBFD's authoritative tax content spanning 220+ jurisdictions, then act on the answer with workflow, compliance-monitoring, risk, and controversy-management tooling. Loctax is backed by Index Ventures, Cavalry Ventures, and Seedcamp, and in 2026 was acquired by Tax Systems to build a combined EMEA tax-technology platform. Loctax is a closed enterprise SaaS product with no public developer API, portal, or specification at the time of this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loctax/refs/heads/main/screenshots/loctax-2026-07-25T225443.png",
-     "score": 11.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 28.9,
-      "access_clarity": 28.9
-     },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4257,10 +4256,11 @@
      "rank": 89
     },
     {
-     "name": "Alvarez & Marsal",
-     "slug": "alvarez-and-marsal",
-     "description": "Alvarez & Marsal (A&M) is a leading global professional services firm, founded in 1983 by Tony Alvarez II and Bryan Marsal and headquartered in New York City. Privately held, the firm employs more than 10,000 people across six continents and is best known for turnaround and restructuring engagements (Lehman Brothers, HealthSouth, Tribune, FTX, Arthur Andersen) and for performance improvement, tax advisory, transaction advisory, disputes and investigations, valuation, and private equity performance improvement (PEPI) services. A&M does not operate a public developer portal; technology is delivered through client engagements, internal proprietary tools, A&M Capital Partners (the firm's investment arm), and a public Insights / thought-leadership surface published on alvarezandmarsal.com.",
-     "score": 11.1,
+     "name": "Loctax",
+     "slug": "loctax",
+     "description": "Loctax is a collaborative tax compliance, risk, and governance platform built for global in-house tax teams. Founded in 2020 and based in Gent, Belgium, its Global Tax Intelligence Platform lets teams ask any tax question grounded in their own company data and IBFD's authoritative tax content spanning 220+ jurisdictions, then act on the answer with workflow, compliance-monitoring, risk, and controversy-management tooling. Loctax is backed by Index Ventures, Cavalry Ventures, and Seedcamp, and in 2026 was acquired by Tax Systems to build a combined EMEA tax-technology platform. Loctax is a closed enterprise SaaS product with no public developer API, portal, or specification at the time of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loctax/refs/heads/main/screenshots/loctax-2026-07-25T225443.png",
+     "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -4268,12 +4268,12 @@
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4299,6 +4299,50 @@
       "agentic_commerce": false
      },
      "rank": 90
+    },
+    {
+     "name": "Alvarez & Marsal",
+     "slug": "alvarez-and-marsal",
+     "description": "Alvarez & Marsal (A&M) is a leading global professional services firm, founded in 1983 by Tony Alvarez II and Bryan Marsal and headquartered in New York City. Privately held, the firm employs more than 10,000 people across six continents and is best known for turnaround and restructuring engagements (Lehman Brothers, HealthSouth, Tribune, FTX, Arthur Andersen) and for performance improvement, tax advisory, transaction advisory, disputes and investigations, valuation, and private equity performance improvement (PEPI) services. A&M does not operate a public developer portal; technology is delivered through client engagements, internal proprietary tools, A&M Capital Partners (the firm's investment arm), and a public Insights / thought-leadership surface published on alvarezandmarsal.com.",
+     "score": 11.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 91
     }
    ]
   },
@@ -4328,7 +4372,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4353,7 +4397,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 92
     },
     {
      "name": "H&R Block",
@@ -4373,7 +4417,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4398,7 +4442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 93
     },
     {
      "name": "Taxdoo",
@@ -4418,52 +4462,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 93
-    },
-    {
-     "name": "Prime Meridian",
-     "slug": "prime-meridian",
-     "description": "Prime Meridian (Prime Meridian Labs) is an AI-powered consumer tax preparation and e-filing service that files federal and state income tax returns for free. Users upload their tax documents, answer a few clarifying questions, and the platform's AI generates a plain-language return covering W-2 employment, self-employment (Schedule C), K-1 partnership income, and multi-state situations, then e-files it with the IRS and state authorities in roughly fifteen minutes. The company is backed by General Catalyst and counts former IRS Commissioner Daniel Werfel among its strategic advisors. It is a consumer web application with no public developer API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prime-meridian/refs/heads/main/screenshots/prime-meridian-2026-09-02T152014.png",
-     "score": 10.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4491,24 +4490,24 @@
      "rank": 94
     },
     {
-     "name": "Numbi",
-     "slug": "numbi",
-     "description": "Numbi is a tech-enabled accounting and payroll firm for Colombian companies — especially SAS entities, SMBs, and startups. It pairs expert accountants with automation and AI to run monthly bookkeeping, taxes, payroll, and DIAN electronic-invoicing compliance. Numbi is a service rather than software or an ERP: it operates on top of a company's existing accounting systems (Siigo and Alegra) instead of replacing them, ingesting documents (PDFs, XMLs, images) and keeping tax calendars and filings current. Founded in Bogotá and backed by Homebrew and Newtopia VC. No public developer API surface is published as of this pass.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/numbi/refs/heads/main/screenshots/numbi-2026-08-07T185727.png",
-     "score": 10.0,
+     "name": "Prime Meridian",
+     "slug": "prime-meridian",
+     "description": "Prime Meridian (Prime Meridian Labs) is an AI-powered consumer tax preparation and e-filing service that files federal and state income tax returns for free. Users upload their tax documents, answer a few clarifying questions, and the platform's AI generates a plain-language return covering W-2 employment, self-employment (Schedule C), K-1 partnership income, and multi-state situations, then e-files it with the IRS and state authorities in roughly fifteen minutes. The company is backed by General Catalyst and counts former IRS Commissioner Daniel Werfel among its strategic advisors. It is a consumer web application with no public developer API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/prime-meridian/refs/heads/main/screenshots/prime-meridian-2026-09-02T152014.png",
+     "score": 10.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4536,10 +4535,10 @@
      "rank": 95
     },
     {
-     "name": "Velotax",
-     "slug": "velotax",
-     "description": "Velotax is a Brazilian digital-credit fintech (mobile app plus velotax.com.br), operating 100% online, that offers unsecured personal loans and income-tax (IRPF) refund advances, disbursed via Pix within 30 minutes of approval — approving even \"negativado\" (poor-credit) customers because the anticipated tax refund secures repayment. Founded in 2020 by ex-J.P. Morgan bankers Eduardo Esmanhotto and Victor Savioli, it operates as a banking correspondent in partnership with VIA CAPITAL (a Brazilian Central Bank SCD), holds Reclame Aqui's top RA1000 reputation seal, has 3M+ app downloads, and raised a R$125M Series A in 2025 from QED Investors, Valor Capital and Picus Capital. Velotax is a consumer product and publishes no public developer API or OpenAPI surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/velotax/refs/heads/main/screenshots/velotax-2026-09-02T165618.png",
+     "name": "Numbi",
+     "slug": "numbi",
+     "description": "Numbi is a tech-enabled accounting and payroll firm for Colombian companies — especially SAS entities, SMBs, and startups. It pairs expert accountants with automation and AI to run monthly bookkeeping, taxes, payroll, and DIAN electronic-invoicing compliance. Numbi is a service rather than software or an ERP: it operates on top of a company's existing accounting systems (Siigo and Alegra) instead of replacing them, ingesting documents (PDFs, XMLs, images) and keeping tax calendars and filings current. Founded in Bogotá and backed by Homebrew and Newtopia VC. No public developer API surface is published as of this pass.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/numbi/refs/heads/main/screenshots/numbi-2026-08-07T185727.png",
      "score": 10.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -4553,7 +4552,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4581,6 +4580,51 @@
      "rank": 96
     },
     {
+     "name": "Velotax",
+     "slug": "velotax",
+     "description": "Velotax is a Brazilian digital-credit fintech (mobile app plus velotax.com.br), operating 100% online, that offers unsecured personal loans and income-tax (IRPF) refund advances, disbursed via Pix within 30 minutes of approval — approving even \"negativado\" (poor-credit) customers because the anticipated tax refund secures repayment. Founded in 2020 by ex-J.P. Morgan bankers Eduardo Esmanhotto and Victor Savioli, it operates as a banking correspondent in partnership with VIA CAPITAL (a Brazilian Central Bank SCD), holds Reclame Aqui's top RA1000 reputation seal, has 3M+ app downloads, and raised a R$125M Series A in 2025 from QED Investors, Valor Capital and Picus Capital. Velotax is a consumer product and publishes no public developer API or OpenAPI surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/velotax/refs/heads/main/screenshots/velotax-2026-09-02T165618.png",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 97
+    },
+    {
      "name": "Stride Health",
      "slug": "stride-health",
      "description": "Stride Health is a benefits platform that helps independent, gig, and part-time workers access portable benefits that stay with the individual regardless of where or how they work. Stride connects people to affordable health, dental, vision, and life insurance, and provides tax tools, mileage/expense tracking, and savings features for the self-employed. The company reports 4.6 million independent workers served, $8+ billion saved on insurance and taxes, and 130+ partner companies. Stride operates a private B2B partner integration (embedded in partner apps such as gig-work platforms) but publishes no public developer API, API documentation, or developer portal.",
@@ -4598,7 +4642,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4630,7 +4674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 98
     },
     {
      "name": "Taxscouts",
@@ -4649,52 +4693,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 98
-    },
-    {
-     "name": "CoinTracker",
-     "slug": "cointracker",
-     "description": "CoinTracker is a cryptocurrency portfolio tracker and crypto tax software that connects a user's exchange accounts and blockchain wallets to automatically track holdings, calculate cost basis and capital gains, and generate tax reports and IRS forms. It supports a large catalog of exchanges, wallets, and cryptocurrencies, and offers tax-loss harvesting, performance tracking, and integrations with consumer tax-filing products. For developers and partners, CoinTracker publishes a first-party JavaScript SDK (@cointracker/tax-kit) for supplying cost-basis data; its core HTTP API is offered through enterprise and partner integrations rather than a self-serve public developer program. This profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist pipeline from publicly discoverable surfaces (npm, GitHub, status page, DNS/TLS).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cointracker/refs/heads/main/screenshots/cointracker-2026-07-25T210039.png",
-     "score": 9.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 7.1,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4722,24 +4721,24 @@
      "rank": 99
     },
     {
-     "name": "Solomon",
-     "slug": "solomon",
-     "description": "Solomon (Solomon AI, solomontax.ai) is an agentic AI platform for tax preparation aimed at accounting firms, automating the preparation of review-ready individual 1040 returns for high-net-worth and ultra-high-net-worth clients. The system interprets K-1/K-3 footnotes, applies multi-state SALT rules to K-1s, reconciles rental and real estate investments, analyzes brokerage statements for foreign income, and produces workpapers and audit trails, positioning itself to replace legacy tools such as SurePrep and K1x. Backed by Bessemer Venture Partners. This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist pipeline; the company publishes no public developer/API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solomon/refs/heads/main/screenshots/solomon-2026-09-02T160125.png",
-     "score": 9.2,
+     "name": "CoinTracker",
+     "slug": "cointracker",
+     "description": "CoinTracker is a cryptocurrency portfolio tracker and crypto tax software that connects a user's exchange accounts and blockchain wallets to automatically track holdings, calculate cost basis and capital gains, and generate tax reports and IRS forms. It supports a large catalog of exchanges, wallets, and cryptocurrencies, and offers tax-loss harvesting, performance tracking, and integrations with consumer tax-filing products. For developers and partners, CoinTracker publishes a first-party JavaScript SDK (@cointracker/tax-kit) for supplying cost-basis data; its core HTTP API is offered through enterprise and partner integrations rather than a self-serve public developer program. This profile was surfaced as a VC-portfolio lead and enriched by the API Evangelist pipeline from publicly discoverable surfaces (npm, GitHub, status page, DNS/TLS).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cointracker/refs/heads/main/screenshots/cointracker-2026-07-25T210039.png",
+     "score": 9.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 21.1,
-      "access_clarity": 21.1
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 7.1,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4767,6 +4766,51 @@
      "rank": 100
     },
     {
+     "name": "Solomon",
+     "slug": "solomon",
+     "description": "Solomon (Solomon AI, solomontax.ai) is an agentic AI platform for tax preparation aimed at accounting firms, automating the preparation of review-ready individual 1040 returns for high-net-worth and ultra-high-net-worth clients. The system interprets K-1/K-3 footnotes, applies multi-state SALT rules to K-1s, reconciles rental and real estate investments, analyzes brokerage statements for foreign income, and produces workpapers and audit trails, positioning itself to replace legacy tools such as SurePrep and K1x. Backed by Bessemer Venture Partners. This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist pipeline; the company publishes no public developer/API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/solomon/refs/heads/main/screenshots/solomon-2026-09-02T160125.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 21.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 101
+    },
+    {
      "name": "CohnReznick",
      "slug": "cohnreznick",
      "description": "CohnReznick is a top-25 US accounting, tax, and advisory firm formed in 2012 by the merger of J.H. Cohn LLP and Reznick Group, P.C. The firm serves clients across more than 30 industries from offices throughout the United States and four offshore subsidiaries, with its global reach extended through membership in the Nexia International network (operating in more than 128 countries). In May 2024 CohnReznick became the first US accounting firm of its scale to receive a strategic growth investment from a private equity sponsor when funds advised by Apax Partners acquired a majority stake. As part of that transaction the firm operates under an alternative-practice structure: audit and attest services are delivered by CohnReznick LLP (a licensed CPA firm) while tax and advisory services are delivered through CohnReznick Advisory LLC. Largest practice areas include Real Estate, Renewable Energy, Government Contracting, Asset Management (private equity, hedge funds, private credit, REITs), Financial Services, Healthcare, Life Sciences, Consumer & Industrial, Technology & Media, Public Sector, and Private Clients (family offices, high net worth individuals, professional sports). CohnReznick does not publish a public software developer API; this repository documents the firm's organizational profile, practice taxonomy, and linked-data context for API catalog purposes.",
@@ -4784,7 +4828,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -4816,7 +4860,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 102
     },
     {
      "name": "ExpressSteuer (fka Express Group)",
@@ -4836,52 +4880,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 102
-    },
-    {
-     "name": "Crete Professionals Alliance",
-     "slug": "crete-professionals-alliance",
-     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "commercial_clarity": 10.5,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4909,15 +4908,15 @@
      "rank": 103
     },
     {
-     "name": "EY",
-     "slug": "ey",
-     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
-     "score": 7.0,
+     "name": "Crete Professionals Alliance",
+     "slug": "crete-professionals-alliance",
+     "description": "Crete Professionals Alliance (rebranded in 2025 as \"Current\", current.co) is a growth platform for independent accounting firms, backed by Bessemer Venture Partners. The alliance provides member firms with technology, talent, capital, and strategy to compete at enterprise scale, spanning 48 partner firms across 39 states and 3 countries with more than 2,000 employees. Service lines include accounting, advisory, audit and attest, client accounting services, and tax. This is a professional services / accounting company, not a developer-facing API provider: it publishes no developer portal, API, SDKs, or technical documentation. The record is maintained in the API Evangelist network for portfolio-graph coverage of Bessemer holdings.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crete-professionals-alliance/refs/heads/main/screenshots/crete-professionals-alliance-2026-07-25T210730.png",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 44.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
@@ -4926,7 +4925,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4954,24 +4953,24 @@
      "rank": 104
     },
     {
-     "name": "PwC (PricewaterhouseCoopers)",
-     "slug": "pricewaterhousecoopers",
-     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/screenshots/pricewaterhousecoopers-2026-06-20T192101.png",
-     "score": 6.6,
+     "name": "EY",
+     "slug": "ey",
+     "description": "One of the Big Four professional services firms providing audit, tax, consulting, and advisory services. Operates in over 150 countries helping businesses navigate regulatory and strategic challenges, and runs proprietary technology platforms such as EY Helix (analytics), EY Atlas (research), and EY Canvas (audit) for internal and engagement use.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ey/refs/heads/main/screenshots/ey-2026-06-20T180957.png",
+     "score": 7.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 44.4,
       "contract_quality": 0.0,
       "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 7.9,
-      "access_clarity": 7.9
+      "developer_ergonomics": 2.4,
+      "commercial_clarity": 10.5,
+      "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4999,11 +4998,11 @@
      "rank": 105
     },
     {
-     "name": "Carr, Riggs & Ingram (CRI)",
-     "slug": "cri",
-     "description": "Carr, Riggs & Ingram (CRI) is a top-25 nationally ranked accounting and advisory firm headquartered in Alabama, operating 70+ locations across 13 states plus Mexico. The firm delivers audit and attest, tax, and advisory services (cybersecurity, fraud and forensics, valuations, and transaction advisory) to more than 18 industries, alongside value add-on subsidiaries including CRI Advanced Analytics, CRI CFO Hub, and CRI M&A Advisors, and is a member of PrimeGlobal. It was surfaced via the VC-portfolio pipeline and enriched here; note that criadv.com is a professional-services accounting firm, not a Bessemer-backed fintech startup, so the portfolio-lead tagging is a domain false-positive. No public API, developer portal, or documentation surface exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri/refs/heads/main/screenshots/cri-2026-07-25T210735.png",
-     "score": 5.0,
+     "name": "PwC (PricewaterhouseCoopers)",
+     "slug": "pricewaterhousecoopers",
+     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms, with approximately 370,000 staff across a global network of member firms coordinated by PricewaterhouseCoopers International Limited (PwCIL). PwC organizes delivery across three primary service lines — Assurance (audit), Tax (tax compliance, planning, and reporting), and Advisory (consulting, deals, and risk). The firm operates proprietary technology platforms including PwC Halo (a suite of data analytics tools used to support audit engagements), the Trusted AI initiative (PwC's responsible-AI governance and assurance framework), and ProEdge (a workforce upskilling platform). In April 2024 PwC announced a multi-year alliance with OpenAI positioning the firm as both OpenAI's largest customer and its first reseller of ChatGPT Enterprise, supporting PwC's broader generative-AI consulting practice. PwC's research and insights surface — pwc.com/insights, the annual Global CEO Survey, the Global Workforce Hopes and Fears Survey, the Money Tree report, and regional industry outlooks — is the firm's primary public-facing knowledge product. PwC does not publish a public developer portal, OpenAPI specifications, partner API documentation, or a GitHub organization at the corporate level. The github.com/pwc handle is held by an unrelated individual user (Patrick Clearwater). Any technical integrations with PwC platforms are arranged through engagement contracts and the PwC Technology Consulting practice rather than through self-service developer credentials. PwC's content distribution is reader-facing (newsletter subscriptions, the PwC US Newsroom, LinkedIn, YouTube) with no documented public RSS feed endpoint exposing news, press releases, or insights as a syndication contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pricewaterhousecoopers/refs/heads/main/screenshots/pricewaterhousecoopers-2026-06-20T192101.png",
+     "score": 6.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -5013,10 +5012,10 @@
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
+      "commercial_clarity": 7.9,
+      "access_clarity": 7.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5044,9 +5043,10 @@
      "rank": 106
     },
     {
-     "name": "Folhamatic",
-     "slug": "folhamatic",
-     "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll, and fiscal/tax software for accounting firms and businesses, founded in 1990 and headquartered in Americana, Sao Paulo. Its product line includes Folhamatic Payroll for personnel management and electronic files, Electronic Point Control for time-clock management, the Folhamatic Accounting system for management reporting, and Folhamatic Written Tax for tax departments. At acquisition it served more than 11,000 companies with 500-plus employees. Folhamatic was acquired by the UK's Sage Group in June 2012 and now operates as part of Sage in Brazil. The company publishes no first-party public developer API, and the historic folhamatic.com.br domain no longer serves a live site.",
+     "name": "Carr, Riggs & Ingram (CRI)",
+     "slug": "cri",
+     "description": "Carr, Riggs & Ingram (CRI) is a top-25 nationally ranked accounting and advisory firm headquartered in Alabama, operating 70+ locations across 13 states plus Mexico. The firm delivers audit and attest, tax, and advisory services (cybersecurity, fraud and forensics, valuations, and transaction advisory) to more than 18 industries, alongside value add-on subsidiaries including CRI Advanced Analytics, CRI CFO Hub, and CRI M&A Advisors, and is a member of PrimeGlobal. It was surfaced via the VC-portfolio pipeline and enriched here; note that criadv.com is a professional-services accounting firm, not a Bessemer-backed fintech startup, so the portfolio-lead tagging is a domain false-positive. No public API, developer portal, or documentation surface exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cri/refs/heads/main/screenshots/cri-2026-07-25T210735.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5060,7 +5060,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5088,10 +5088,9 @@
      "rank": 107
     },
     {
-     "name": "LumaTax",
-     "slug": "lumatax",
-     "description": "LumaTax is a US and Canadian sales tax automation platform that helps businesses automate sales tax filings, manage nexus exposure, and streamline remittance across multiple state and federal jurisdictions. The product imports transaction data from sources such as Amazon, Stripe, Shopify, and Excel, validates that data and assigns correct tax jurisdictions, generates categorized return summaries, files returns automatically, and stores past filings for audit preparation. Originally an independent Seattle fintech backed by Cowboy Ventures, LumaTax was acquired and is now offered as a product line under Taxually alongside CrossTax, EcoTax, and OneTax. As of enrichment it exposes no public developer portal, API reference, SDK, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumatax/refs/heads/main/screenshots/lumatax-2026-07-25T225703.png",
+     "name": "Folhamatic",
+     "slug": "folhamatic",
+     "description": "Folhamatic (IOB Folhamatic Group) is a Brazilian developer of integrated accounting, payroll, and fiscal/tax software for accounting firms and businesses, founded in 1990 and headquartered in Americana, Sao Paulo. Its product line includes Folhamatic Payroll for personnel management and electronic files, Electronic Point Control for time-clock management, the Folhamatic Accounting system for management reporting, and Folhamatic Written Tax for tax departments. At acquisition it served more than 11,000 companies with 500-plus employees. Folhamatic was acquired by the UK's Sage Group in June 2012 and now operates as part of Sage in Brazil. The company publishes no first-party public developer API, and the historic folhamatic.com.br domain no longer serves a live site.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5105,7 +5104,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5133,10 +5132,10 @@
      "rank": 108
     },
     {
-     "name": "PwC",
-     "slug": "pwc",
-     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms providing audit and assurance, tax, and management consulting services globally. PwC operates as a network of member firms across approximately 150 countries with hundreds of thousands of professionals. Service lines include audit, deals and transactions, tax compliance and advisory, risk assurance, cybersecurity and privacy, ESG and sustainability assurance, workforce transformation, and digital/technology consulting (cloud, data, AI, ERP). PwC publishes thought-leadership content and operates client portals for engagement delivery and document exchange, but it does not publish a public developer API or open partner integration portal at the corporate level - client connectivity is bilateral and project-scoped rather than offered as a self-serve API product.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pwc/refs/heads/main/screenshots/pwc-2026-06-20T192330.png",
+     "name": "LumaTax",
+     "slug": "lumatax",
+     "description": "LumaTax is a US and Canadian sales tax automation platform that helps businesses automate sales tax filings, manage nexus exposure, and streamline remittance across multiple state and federal jurisdictions. The product imports transaction data from sources such as Amazon, Stripe, Shopify, and Excel, validates that data and assigns correct tax jurisdictions, generates categorized return summaries, files returns automatically, and stores past filings for audit preparation. Originally an independent Seattle fintech backed by Cowboy Ventures, LumaTax was acquired and is now offered as a product line under Taxually alongside CrossTax, EcoTax, and OneTax. As of enrichment it exposes no public developer portal, API reference, SDK, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lumatax/refs/heads/main/screenshots/lumatax-2026-07-25T225703.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5150,7 +5149,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5178,10 +5177,10 @@
      "rank": 109
     },
     {
-     "name": "Sabrix",
-     "slug": "sabrix",
-     "description": "Sabrix was a transaction (indirect / sales & use) tax determination and compliance software company whose engine calculated sales, use, VAT and GST taxes for enterprise ERP and billing systems. Sabrix was acquired by Thomson Reuters in 2009 and folded into the Thomson Reuters ONESOURCE Indirect Tax product line. As an independent brand Sabrix no longer operates: the sabrix.com domain is now owned by Thomson Reuters (Thomson Reuters nameservers) and issues a 301 redirect to tax.thomsonreuters.com/en/onesource/indirect-tax. This profile is retained in the API Evangelist network as a historical fintech / tax-tech lead; there is no independent Sabrix developer portal, API reference, OpenAPI definition, SDK, or well-known surface to enrich. Any live tax API surface lives under the Thomson Reuters ONESOURCE brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabrix/refs/heads/main/screenshots/sabrix-2026-09-02T154244.png",
+     "name": "PwC",
+     "slug": "pwc",
+     "description": "PricewaterhouseCoopers (PwC) is one of the Big Four professional services firms providing audit and assurance, tax, and management consulting services globally. PwC operates as a network of member firms across approximately 150 countries with hundreds of thousands of professionals. Service lines include audit, deals and transactions, tax compliance and advisory, risk assurance, cybersecurity and privacy, ESG and sustainability assurance, workforce transformation, and digital/technology consulting (cloud, data, AI, ERP). PwC publishes thought-leadership content and operates client portals for engagement delivery and document exchange, but it does not publish a public developer API or open partner integration portal at the corporate level - client connectivity is bilateral and project-scoped rather than offered as a self-serve API product.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pwc/refs/heads/main/screenshots/pwc-2026-06-20T192330.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5195,7 +5194,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5223,9 +5222,10 @@
      "rank": 110
     },
     {
-     "name": "TrustWeaver",
-     "slug": "trustweaver",
-     "description": "TrustWeaver was a Stockholm-based provider of on-demand e-invoicing and e-signature compliance services, giving multinational enterprises legally compliant electronic invoicing (VAT/tax compliance, authenticity and integrity via digital signatures) across dozens of countries. Backed by Creandum, the company was acquired by Pagero in 2018; Pagero was subsequently absorbed into Sovos (2024). The trustweaver.com domain now issues a 301 redirect to Sovos's e-invoicing compliance solution, so no independent TrustWeaver developer portal, public API, or API documentation remains online. This profile is retained as a historical/acquisition lead in the API Evangelist network; there is no standalone API surface to enrich.",
+     "name": "Sabrix",
+     "slug": "sabrix",
+     "description": "Sabrix was a transaction (indirect / sales & use) tax determination and compliance software company whose engine calculated sales, use, VAT and GST taxes for enterprise ERP and billing systems. Sabrix was acquired by Thomson Reuters in 2009 and folded into the Thomson Reuters ONESOURCE Indirect Tax product line. As an independent brand Sabrix no longer operates: the sabrix.com domain is now owned by Thomson Reuters (Thomson Reuters nameservers) and issues a 301 redirect to tax.thomsonreuters.com/en/onesource/indirect-tax. This profile is retained in the API Evangelist network as a historical fintech / tax-tech lead; there is no independent Sabrix developer portal, API reference, OpenAPI definition, SDK, or well-known surface to enrich. Any live tax API surface lives under the Thomson Reuters ONESOURCE brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabrix/refs/heads/main/screenshots/sabrix-2026-09-02T154244.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5239,7 +5239,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5267,9 +5267,9 @@
      "rank": 111
     },
     {
-     "name": "WISECRICKET HOLDING KY",
-     "slug": "wisecricket-holding-ky",
-     "description": "WiseCricket (WISECRICKET HOLDING KY) offers AI-powered fiscal and accounting audit software for businesses (\"Software de Auditoria Fiscal y Contable con IA para Empresas\"). The Spanish-language platform applies artificial intelligence to tax and accounting compliance, helping companies automate financial and tax audits and surface issues. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub; enrichment found a marketing landing page but no public developer API, documentation, developer portal, or well-known discovery surface.",
+     "name": "TrustWeaver",
+     "slug": "trustweaver",
+     "description": "TrustWeaver was a Stockholm-based provider of on-demand e-invoicing and e-signature compliance services, giving multinational enterprises legally compliant electronic invoicing (VAT/tax compliance, authenticity and integrity via digital signatures) across dozens of countries. Backed by Creandum, the company was acquired by Pagero in 2018; Pagero was subsequently absorbed into Sovos (2024). The trustweaver.com domain now issues a 301 redirect to Sovos's e-invoicing compliance solution, so no independent TrustWeaver developer portal, public API, or API documentation remains online. This profile is retained as a historical/acquisition lead in the API Evangelist network; there is no standalone API surface to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -5283,7 +5283,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5311,6 +5311,50 @@
      "rank": 112
     },
     {
+     "name": "WISECRICKET HOLDING KY",
+     "slug": "wisecricket-holding-ky",
+     "description": "WiseCricket (WISECRICKET HOLDING KY) offers AI-powered fiscal and accounting audit software for businesses (\"Software de Auditoria Fiscal y Contable con IA para Empresas\"). The Spanish-language platform applies artificial intelligence to tax and accounting compliance, helping companies automate financial and tax audits and surface issues. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network as a stub; enrichment found a marketing landing page but no public developer API, documentation, developer portal, or well-known discovery surface.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 113
+    },
+    {
      "name": "Duane Morris",
      "slug": "duane-morris",
      "description": "Duane Morris LLP is a Philadelphia-headquartered, full-service U.S. and international law firm founded in 1904 by Russell Duane, Steven Heckscher, and Roland S. Morris. Chaired by Matthew A. Taylor, the firm describes itself as \"a law firm with more than 900 attorneys in offices across the United States and internationally\" — with a U.S. footprint spanning the East Coast, Texas, the Mountain West, and California, plus international offices in London, Singapore, Vietnam (Hanoi, Ho Chi Minh City), Shanghai, Myanmar, and joint ventures/alliances reaching Mexico and Latin America. An Am Law 100 firm since 2001, Duane Morris is known for depth in intellectual property (including patent prosecution and PTAB practice), trial and appellate litigation, real estate, corporate transactions, employment, healthcare, cannabis, and life sciences. The firm publishes an extensive LexBlog-powered thought-leadership network of more than 50 practice-area blogs, all of which expose RSS 2.0 feeds via the standard WordPress /feed/ convention. Duane Morris does not expose any public developer API, SDK, OpenAPI/AsyncAPI spec, GraphQL endpoint, webhooks, status page, or developer portal; the GitHub organization github.com/duanemorris exists but has no public repositories. The firm's only machine-readable surfaces are the RSS feeds of its blog network.",
@@ -5328,7 +5372,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -5360,7 +5404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 114
     },
     {
      "name": "Blank Rome LLP",
@@ -5379,7 +5423,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -5411,7 +5455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 115
     },
     {
      "name": "Ballard Spahr",
@@ -5431,59 +5475,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 7.6,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 115
-    },
-    {
-     "name": "Dechert",
-     "slug": "dechert",
-     "description": "Dechert LLP is a global law firm founded in 1875 and headquartered in Philadelphia, Pennsylvania, with \"more than 900 lawyers\" across 22 offices in the United States, Europe, the Middle East, and Asia (Wikipedia cites roughly 1,000 attorneys in 20 offices; the firm itself emphasizes a global footprint spanning the U.S., Europe, Asia, and the Middle East). The firm is known for market-leading practices in financial services and investment management, private equity, private credit, mergers and acquisitions, international arbitration, intellectual property, life sciences, white collar enforcement, and antitrust. Dechert publishes deep thought-leadership through its OnPoint series, Crypto Bytes, FSR Radar, THE CRED, and ReTorts; produces multiple podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg); and operates proprietary information platforms including DAMITT (Dechert Antitrust Merger Investigation Timing Tracker), World Compass, World Passport, Dechert Direct, and a Box Portal. Despite these data-driven products, Dechert does not expose any public developer API, SDK, OpenAPI specification, GraphQL endpoint, webhook surface, status page, changelog, or developer portal, and does not publish an RSS feed for OnPoint or any blog series — its only public-facing subscription mechanism is an email preference form.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dechert/refs/heads/main/screenshots/dechert-2026-06-20T175751.png",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -5516,6 +5508,58 @@
       "agentic_commerce": false
      },
      "rank": 116
+    },
+    {
+     "name": "Dechert",
+     "slug": "dechert",
+     "description": "Dechert LLP is a global law firm founded in 1875 and headquartered in Philadelphia, Pennsylvania, with \"more than 900 lawyers\" across 22 offices in the United States, Europe, the Middle East, and Asia (Wikipedia cites roughly 1,000 attorneys in 20 offices; the firm itself emphasizes a global footprint spanning the U.S., Europe, Asia, and the Middle East). The firm is known for market-leading practices in financial services and investment management, private equity, private credit, mergers and acquisitions, international arbitration, intellectual property, life sciences, white collar enforcement, and antitrust. Dechert publishes deep thought-leadership through its OnPoint series, Crypto Bytes, FSR Radar, THE CRED, and ReTorts; produces multiple podcasts (Dechert 4 Real, Committed Capital, Dechert On Reg); and operates proprietary information platforms including DAMITT (Dechert Antitrust Merger Investigation Timing Tracker), World Compass, World Passport, Dechert Direct, and a Box Portal. Despite these data-driven products, Dechert does not expose any public developer API, SDK, OpenAPI specification, GraphQL endpoint, webhook surface, status page, changelog, or developer portal, and does not publish an RSS feed for OnPoint or any blog series — its only public-facing subscription mechanism is an email preference form.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dechert/refs/heads/main/screenshots/dechert-2026-06-20T175751.png",
+     "score": 1.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 7.6,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 117
     }
    ]
   }

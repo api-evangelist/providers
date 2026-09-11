@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 9
 apis:
 - description: CWRU's own Shibboleth Identity Provider, entityID urn:mace:incommon:case.edu. Every SingleSignOnService binding in the production descriptor is on CWRU's own registrable domain — https://login.case.ed
@@ -232,7 +232,7 @@ score:
     regime_id: education
     score: 38.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

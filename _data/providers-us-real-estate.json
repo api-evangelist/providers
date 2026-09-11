@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "providers": [
     {
      "name": "Spark Platform",
@@ -29,7 +29,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -75,7 +75,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -111,6 +111,59 @@
      "rank": 2
     },
     {
+     "name": "First American Financial",
+     "slug": "first-american-financial",
+     "description": "First American Financial Corporation (NYSE: FAF) is a leading provider of title insurance, settlement services, property data and risk solutions for real estate and mortgage transactions, and one of the largest title insurance underwriters in the United States. Its public API surface is the Digital Gateway (developer.firstam.io), a 3scale-managed developer portal operated by First American Mortgage Solutions and First American Data & Analytics, which publishes 16 machine-readable specifications covering 93 operations: title and escrow order management with a 21-event webhook catalogue, nationwide property and ownership data, occupancy, identity and SSN verification, bankruptcy, IRS 4506-C tax transcripts, reverse phone and address search, SCRA military-service checks, liens and judgments in separate FCRA and non-FCRA contracts, OFAC and agency watchlist screening, and NMLS license verification. A second, separate request-access portal at developer.firstam.com fronts the same title and settlement integration. Access to every API is approval-gated: an administrator reviews each account, credentials are issued per App as an App ID and App Key pair, and production access additionally requires the First American relationship team and may require a contract or SOW.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/screenshots/first-american-financial-2026-06-20T181235.png",
+     "score": 47.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 56.3,
+      "governance": 4.5,
+      "contract_governance": 4.5,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 66.1,
+      "commercial_clarity": 42.1,
+      "access_clarity": 42.1
+     },
+     "scored_at": "2026-09-10",
+     "schema_version": "0.20.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 48.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 33.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Title, Escrow & Closing",
+     "rank": 3
+    },
+    {
      "name": "Estated",
      "slug": "estated",
      "description": "Estated is a property-data company that operates a JSON REST API returning detailed U.S. residential and commercial property records — assessor data, parcel geometry, structure characteristics, taxes, assessments, market assessments, valuation (AVM), owner of record, deeds, and parcel boundaries. Lookups can be performed by split address, parsed address components, a single combined address string, or by FIPS county code + assessor parcel number (APN). The current public surface is the Property Data API v4 at `https://apis.estated.com/v4/property`, authenticated with a `token` query parameter. Estated was acquired by ATTOM Data in 2020 and its infrastructure is being migrated to ATTOM; the Estated developer documentation is scheduled to be deprecated during 2026, after which property data access will be served through ATTOM's documentation and endpoints. Existing Estated tokens continue to work through the transition and no integration changes are required during the migration window.",
@@ -128,7 +181,7 @@
       "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -154,7 +207,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Data & Analytics",
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "RESO (Real Estate Standards Organization)",
@@ -174,7 +227,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -200,7 +253,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Trestle",
@@ -220,7 +273,7 @@
       "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
@@ -246,7 +299,7 @@
       "agentic_commerce": false
      },
      "tier": "Listing Data Infrastructure",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Anywhere Real Estate",
@@ -266,7 +319,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -299,7 +352,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Redfin",
@@ -319,7 +372,7 @@
       "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -345,7 +398,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Placer",
@@ -365,7 +418,7 @@
       "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -391,7 +444,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Data & Analytics",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "VTS",
@@ -411,7 +464,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 37.2,
      "agent_band": "agent-ready",
@@ -437,7 +490,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 9
+     "rank": 10
     }
    ],
    "open": true
@@ -468,7 +521,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -501,7 +554,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "Blend Labs",
@@ -521,7 +574,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -554,7 +607,7 @@
       "agentic_commerce": false
      },
      "tier": "Mortgage Proptech",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "dotloop",
@@ -574,7 +627,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -600,7 +653,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Yardi",
@@ -620,7 +673,7 @@
       "commercial_clarity": 48.7,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -646,7 +699,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Reonomy",
@@ -666,7 +719,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -692,7 +745,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Zillow",
@@ -712,7 +765,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -745,7 +798,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "HouseCanary",
@@ -765,7 +818,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -791,7 +844,7 @@
       "agentic_commerce": false
      },
      "tier": "Valuation & AVM",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Bridge Interactive",
@@ -811,7 +864,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -837,7 +890,7 @@
       "agentic_commerce": false
      },
      "tier": "Listing Data Infrastructure",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "SkySlope",
@@ -857,7 +910,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -883,7 +936,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "CBRE",
@@ -903,7 +956,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -929,7 +982,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Encompass",
@@ -949,7 +1002,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -975,7 +1028,7 @@
       "agentic_commerce": false
      },
      "tier": "Mortgage Proptech",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Offerpad",
@@ -995,7 +1048,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1028,7 +1081,7 @@
       "agentic_commerce": false
      },
      "tier": "iBuyers & Instant Offers",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "Entrata",
@@ -1048,7 +1101,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1081,7 +1134,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Clear Capital",
@@ -1101,7 +1154,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
@@ -1127,7 +1180,7 @@
       "agentic_commerce": false
      },
      "tier": "Valuation & AVM",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "National Association of REALTORS",
@@ -1147,7 +1200,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1173,7 +1226,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "RealPage",
@@ -1193,7 +1246,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -1219,7 +1272,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Opendoor",
@@ -1239,7 +1292,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1265,7 +1318,7 @@
       "agentic_commerce": false
      },
      "tier": "iBuyers & Instant Offers",
-     "rank": 26
+     "rank": 27
     }
    ],
    "open": true
@@ -1275,8 +1328,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 12,
-   "shown": 12,
+   "count": 11,
+   "shown": 11,
    "providers": [
     {
      "name": "Jones Lang LaSalle",
@@ -1295,7 +1348,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1321,7 +1374,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Homes.com",
@@ -1341,7 +1394,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1374,7 +1427,7 @@
       "agentic_commerce": false
      },
      "tier": "Portals & Marketplaces",
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Qualia",
@@ -1394,7 +1447,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1427,7 +1480,7 @@
       "agentic_commerce": false
      },
      "tier": "Title, Escrow & Closing",
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Zumper",
@@ -1447,7 +1500,7 @@
       "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1473,7 +1526,7 @@
       "agentic_commerce": false
      },
      "tier": "Rentals & Listings",
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "CoStar Group",
@@ -1493,7 +1546,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1519,7 +1572,7 @@
       "agentic_commerce": false
      },
      "tier": "Commercial Real Estate",
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "RE/MAX",
@@ -1539,7 +1592,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1572,7 +1625,7 @@
       "agentic_commerce": false
      },
      "tier": "Brokerages & Agencies",
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Follow Up Boss",
@@ -1592,7 +1645,7 @@
       "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -1618,7 +1671,7 @@
       "agentic_commerce": false
      },
      "tier": "Agency CRM & Transaction Technology",
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Apartments.com",
@@ -1638,7 +1691,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1664,7 +1717,7 @@
       "agentic_commerce": false
      },
      "tier": "Rentals & Listings",
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "AppFolio",
@@ -1684,7 +1737,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1717,7 +1770,7 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Buildium",
@@ -1737,7 +1790,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1763,59 +1816,6 @@
       "agentic_commerce": false
      },
      "tier": "Property Management",
-     "rank": 36
-    },
-    {
-     "name": "First American Financial",
-     "slug": "first-american-financial",
-     "description": "First American Financial is a leading provider of title insurance, settlement services, and risk solutions for real estate transactions, as well as related products and services. First American operates a developer portal exposing APIs for office lookup, order management, document exchange, messaging, and webhook notifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/first-american-financial/refs/heads/main/screenshots/first-american-financial-2026-06-20T181235.png",
-     "score": 12.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-08",
-     "schema_version": "0.20.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 9.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Title, Escrow & Closing",
      "rank": 37
     },
     {
@@ -1836,7 +1836,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1899,7 +1899,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1951,7 +1951,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2004,7 +2004,7 @@
       "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2056,7 +2056,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -2109,7 +2109,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,

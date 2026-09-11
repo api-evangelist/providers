@@ -4,7 +4,7 @@
   "name": "Accounting & Finance Operations",
   "description": "The finance back office — ledgers and bookkeeping, invoicing and billing, accounts payable and receivable, expense and spend management, ERP, and financial planning.",
   "icon": "calculate",
-  "count": 898,
+  "count": 901,
   "roster_only": false
  },
  {
@@ -12,7 +12,7 @@
   "name": "Aerospace",
   "description": "",
   "icon": "/industries/assets/icons/aerospace.png",
-  "count": 367,
+  "count": 372,
   "roster_only": false
  },
  {
@@ -20,7 +20,7 @@
   "name": "Agriculture",
   "description": "",
   "icon": "/industries/assets/icons/agriculture.png",
-  "count": 258,
+  "count": 259,
   "roster_only": false
  },
  {
@@ -36,7 +36,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5470,
+  "count": 5477,
   "roster_only": false
  },
  {
@@ -44,7 +44,7 @@
   "name": "Automotive",
   "description": "",
   "icon": "/industries/assets/icons/automotive.png",
-  "count": 406,
+  "count": 408,
   "roster_only": false
  },
  {
@@ -52,7 +52,7 @@
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 864,
+  "count": 865,
   "roster_only": false
  },
  {
@@ -68,7 +68,7 @@
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1304,
+  "count": 1307,
   "roster_only": false
  },
  {
@@ -76,7 +76,7 @@
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1321,
+  "count": 1324,
   "roster_only": false
  },
  {
@@ -92,7 +92,7 @@
   "name": "Chemicals",
   "description": "Commodity, specialty and performance chemicals — the producers, the coatings and polymers makers, and the process-engineering, formulation, SDS-compliance and chemical-sourcing software sold into them.",
   "icon": "science",
-  "count": 100,
+  "count": 99,
   "roster_only": false
  },
  {
@@ -100,7 +100,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 1110,
+  "count": 1118,
   "roster_only": false
  },
  {
@@ -132,7 +132,7 @@
   "name": "Consumer Goods",
   "description": "",
   "icon": "/industries/assets/icons/consumer-goods.png",
-  "count": 390,
+  "count": 392,
   "roster_only": false
  },
  {
@@ -156,7 +156,7 @@
   "name": "Customer Relationship Management (CRM)",
   "description": "Systems of record for the customer relationship — contact and account management, pipeline and deal tracking, and the sales-engagement layers built on top of them.",
   "icon": "support_agent",
-  "count": 361,
+  "count": 362,
   "roster_only": false
  },
  {
@@ -172,7 +172,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2181,
+  "count": 2186,
   "roster_only": false
  },
  {
@@ -180,7 +180,7 @@
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2429,
+  "count": 2436,
   "roster_only": false
  },
  {
@@ -188,7 +188,7 @@
   "name": "Defense",
   "description": "",
   "icon": "/industries/assets/icons/defense.png",
-  "count": 323,
+  "count": 325,
   "roster_only": false
  },
  {
@@ -196,7 +196,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2997,
+  "count": 3001,
   "roster_only": false
  },
  {
@@ -204,7 +204,7 @@
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1952,
+  "count": 1953,
   "roster_only": false
  },
  {
@@ -220,7 +220,7 @@
   "name": "Education & EdTech",
   "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
   "icon": "school",
-  "count": 997,
+  "count": 1000,
   "roster_only": false
  },
  {
@@ -228,7 +228,7 @@
   "name": "Energy",
   "description": "",
   "icon": "/industries/assets/icons/energy.png",
-  "count": 696,
+  "count": 701,
   "roster_only": false
  },
  {
@@ -268,7 +268,7 @@
   "name": "Financial Services",
   "description": "",
   "icon": "/industries/assets/icons/financial-services.png",
-  "count": 1204,
+  "count": 1211,
   "roster_only": false
  },
  {
@@ -276,7 +276,7 @@
   "name": "Financial Technology",
   "description": "",
   "icon": "/industries/assets/icons/financial-technology.png",
-  "count": 2013,
+  "count": 2018,
   "roster_only": false
  },
  {
@@ -284,7 +284,7 @@
   "name": "Fitness & Wellness",
   "description": "Gyms, studios and the wellness economy — booking and member management, connected fitness hardware and training platforms, and the mindfulness and recovery services around them.",
   "icon": "fitness_center",
-  "count": 278,
+  "count": 279,
   "roster_only": false
  },
  {
@@ -324,7 +324,7 @@
   "name": "Healthcare",
   "description": "",
   "icon": "/industries/assets/icons/healthcare.png",
-  "count": 2098,
+  "count": 2101,
   "roster_only": false
  },
  {
@@ -332,7 +332,7 @@
   "name": "Home & Field Services",
   "description": "Software for work done at the customer's site — field service management, dispatch and scheduling for trades, work orders and job costing, and the home-services marketplaces above them.",
   "icon": "handyman",
-  "count": 168,
+  "count": 169,
   "roster_only": false
  },
  {
@@ -340,7 +340,7 @@
   "name": "Hospitality",
   "description": "",
   "icon": "/industries/assets/icons/hospitality.png",
-  "count": 299,
+  "count": 298,
   "roster_only": false
  },
  {
@@ -348,7 +348,7 @@
   "name": "Human Resources & Payroll",
   "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 877,
+  "count": 878,
   "roster_only": false
  },
  {
@@ -356,7 +356,7 @@
   "name": "HVAC & Building Automation",
   "description": "Heating, ventilation, air conditioning and refrigeration equipment, building automation and management systems, building performance and commissioning analytics, and the field-service software the contracting trade runs on.",
   "icon": "hvac",
-  "count": 69,
+  "count": 71,
   "roster_only": false
  },
  {
@@ -364,7 +364,7 @@
   "name": "Industrial",
   "description": "",
   "icon": "/industries/assets/icons/industrial.png",
-  "count": 1014,
+  "count": 1021,
   "roster_only": false
  },
  {
@@ -372,7 +372,7 @@
   "name": "Insurance",
   "description": "",
   "icon": "/industries/assets/icons/insurance.png",
-  "count": 663,
+  "count": 666,
   "roster_only": false
  },
  {
@@ -380,7 +380,7 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 943,
+  "count": 948,
   "roster_only": false
  },
  {
@@ -388,7 +388,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1149,
+  "count": 1155,
   "roster_only": false
  },
  {
@@ -396,7 +396,7 @@
   "name": "Life Sciences",
   "description": "",
   "icon": "/industries/assets/icons/life-sciences.png",
-  "count": 1084,
+  "count": 1087,
   "roster_only": false
  },
  {
@@ -404,7 +404,7 @@
   "name": "Logistics",
   "description": "",
   "icon": "/industries/assets/icons/logistics.png",
-  "count": 660,
+  "count": 664,
   "roster_only": false
  },
  {
@@ -412,7 +412,7 @@
   "name": "Maritime",
   "description": "",
   "icon": "/industries/assets/icons/maritime.png",
-  "count": 68,
+  "count": 69,
   "roster_only": false
  },
  {
@@ -420,7 +420,7 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1542,
+  "count": 1546,
   "roster_only": false
  },
  {
@@ -428,7 +428,7 @@
   "name": "Media",
   "description": "",
   "icon": "/industries/assets/icons/media.png",
-  "count": 630,
+  "count": 633,
   "roster_only": false
  },
  {
@@ -436,7 +436,7 @@
   "name": "Mining",
   "description": "",
   "icon": "/industries/assets/icons/mining.png",
-  "count": 84,
+  "count": 85,
   "roster_only": false
  },
  {
@@ -444,7 +444,7 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 678,
+  "count": 679,
   "roster_only": false
  },
  {
@@ -452,7 +452,7 @@
   "name": "Music, Audio & Creator Economy",
   "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
   "icon": "graphic_eq",
-  "count": 890,
+  "count": 892,
   "roster_only": false
  },
  {
@@ -476,7 +476,7 @@
   "name": "Payments & Money Movement",
   "description": "Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.",
   "icon": "payments",
-  "count": 1688,
+  "count": 1689,
   "roster_only": false
  },
  {
@@ -492,7 +492,7 @@
   "name": "Pharmaceutical",
   "description": "Drug makers and the pharmacy chain — branded and generic manufacturers, serialization and supply integrity, pharmacy operations and dispensing, and the commercial platforms selling into them.",
   "icon": "medication",
-  "count": 683,
+  "count": 686,
   "roster_only": false
  },
  {
@@ -500,7 +500,7 @@
   "name": "Productivity Software",
   "description": "The software teams organize work in — task and project management, notes and documents, planning boards, and the personal productivity tools that carry an API.",
   "icon": "task_alt",
-  "count": 420,
+  "count": 421,
   "roster_only": false
  },
  {
@@ -524,7 +524,7 @@
   "name": "Real Estate",
   "description": "",
   "icon": "/industries/assets/icons/real-estate.png",
-  "count": 626,
+  "count": 629,
   "roster_only": false
  },
  {
@@ -532,7 +532,7 @@
   "name": "Retail",
   "description": "",
   "icon": "/industries/assets/icons/retail.png",
-  "count": 1061,
+  "count": 1062,
   "roster_only": false
  },
  {
@@ -540,7 +540,7 @@
   "name": "Robotics & Autonomous Systems",
   "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
   "icon": "precision_manufacturing",
-  "count": 1070,
+  "count": 1075,
   "roster_only": false
  },
  {
@@ -548,7 +548,7 @@
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 1098,
+  "count": 1103,
   "roster_only": false
  },
  {
@@ -556,7 +556,7 @@
   "name": "Space & Satellite",
   "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
   "icon": "rocket_launch",
-  "count": 352,
+  "count": 354,
   "roster_only": false
  },
  {
@@ -572,7 +572,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1292,
+  "count": 1297,
   "roster_only": false
  },
  {
@@ -580,7 +580,7 @@
   "name": "Tax & Compliance Software",
   "description": "Tax determination and filing — sales tax and VAT calculation, e-invoicing and clearance regimes, crypto and information reporting, and the tax authorities' own APIs.",
   "icon": "receipt_long",
-  "count": 116,
+  "count": 117,
   "roster_only": false
  },
  {
@@ -596,7 +596,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1324,
+  "count": 1327,
   "roster_only": false
  },
  {
@@ -604,7 +604,7 @@
   "name": "Transportation",
   "description": "",
   "icon": "/industries/assets/icons/transportation.png",
-  "count": 398,
+  "count": 401,
   "roster_only": false
  },
  {
@@ -612,7 +612,7 @@
   "name": "Travel Technology",
   "description": "",
   "icon": "/industries/assets/icons/travel-technology.png",
-  "count": 55,
+  "count": 54,
   "roster_only": false
  },
  {
@@ -620,7 +620,7 @@
   "name": "Utilities",
   "description": "",
   "icon": "/industries/assets/icons/utilities.png",
-  "count": 212,
+  "count": 213,
   "roster_only": false
  },
  {
@@ -628,7 +628,7 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1133,
+  "count": 1137,
   "roster_only": false
  },
  {
@@ -652,7 +652,7 @@
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 540,
+  "count": 544,
   "roster_only": false
  }
 ]

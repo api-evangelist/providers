@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Real-time football market-intelligence API exposing valuation data (Expected Transfer Value / xTV base and development values), transfer data (availability signals, contract expiry, estimated salary b
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.6
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 2
 apis:
 - description: The university's own SAML 2.0 identity provider, entity ID http://login.uva.nl/adfs/services/trust. Signed federation metadata is served from the institution's own host and the entity is registered in
@@ -837,7 +837,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: CKAN Action API for OpenDataNI (Northern Ireland), a consistent JSON-over-HTTP interface over a catalog of 1,066 datasets. Standard actions include package_search, package_show, package_list, organiza
@@ -130,7 +130,7 @@ score:
     regime_id: government
     score: 11.1
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

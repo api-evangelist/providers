@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 6
 apis:
 - description: An OpenAI-compatible LLM inference API operated by King's e-Research for researchers, students and staff. Per King's documentation it serves chat completions against a curated set of hosted models, im
@@ -283,7 +283,7 @@ score:
     regime_id: education
     score: 46.3
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

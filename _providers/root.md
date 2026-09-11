@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -1194,7 +1194,7 @@ score:
     regime_id: insurance
     score: 34.8
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

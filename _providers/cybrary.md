@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 39.8
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ score:
     regime_id: education
     score: 75.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

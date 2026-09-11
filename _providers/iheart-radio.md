@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 3
 apis:
 - description: The iHeartRadio Catalog API provides search and discovery capabilities across the iHeartRadio content catalog, including live broadcast radio stations, digital-only stations, podcasts, artists, tracks
@@ -142,7 +142,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.8
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

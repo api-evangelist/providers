@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 6
 apis:
 - description: 'Docta Complutense is UCM''s open-access institutional repository, migrated in 2023 to DSpace 7 and self-hosted on UCM''s own domain. Probed 2026-08-30: GET https://docta.ucm.es/rest/api returns HTTP 200'
@@ -208,7 +208,7 @@ score:
     regime_id: education
     score: 42.6
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

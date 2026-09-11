@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 0
 artifact_total: 3
 common:
@@ -164,7 +164,7 @@ score:
     - north-america
   previous_composite: 10.4
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

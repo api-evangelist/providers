@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Recuro Health's member and provider identity surface, an Auth0-hosted OpenID Connect / OAuth 2.0 authorization server. The OIDC discovery document, the RFC 8414 authorization-server metadata and the J
@@ -192,7 +192,7 @@ score:
     regime_id: health
     score: 58.8
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

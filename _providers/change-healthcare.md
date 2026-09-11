@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: JSON-over-REST front end to the HIPAA X12 EDI transaction set — 270/271 eligibility, 276/277 claim status, 837P/837I claim submission and validation, 835/277 claims responses and reports, 278 prior au
@@ -155,7 +155,7 @@ score:
     regime_id: insurance
     score: 28.8
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

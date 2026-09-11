@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: The unified REST entry point for all crosschain operations on Across — request swap/bridge quotes and approval data, execute embedded crosschain actions on the destination chain, run gasless flows, en
@@ -157,7 +157,7 @@ score:
     regime_id: payments
     score: 35.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

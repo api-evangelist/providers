@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: The first-party HTTP backend behind the 1World Online publisher portal, widget frontend and loyalty applications. Its host is declared by 1World Online's own frontend configuration (URL_SERVER_API_NEW
@@ -158,7 +158,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

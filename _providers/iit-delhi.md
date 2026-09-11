@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: IIT Delhi runs its own Shibboleth identity provider at idp.iitd.ac.in and self-publishes its SAML 2.0 metadata as a machine-readable EntityDescriptor. The document names the institute as the organisat
@@ -266,7 +266,7 @@ score:
     regime_id: education
     score: 31.5
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

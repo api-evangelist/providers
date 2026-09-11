@@ -17,7 +17,7 @@ agent_readiness:
     agent_skills: false
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
     delegated_identity: documented
     dry_run_mode: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 24.8
-  scored_at: '2026-09-08'
+  score: 25.9
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -51,36 +51,36 @@ apis:
   name: Ford WLTP Emissions
   slug: ford-wltp-emissions
 - baseURL: https://api.mps.ford.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Charging API from Ford — 4 operation(s) for charging.
   name: Ford Charging API
   slug: ford-charging-api
 - baseURL: https://api.mps.ford.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Commands API from Ford — 7 operation(s) for commands.
   name: Ford Commands API
   slug: ford-commands-api
 - baseURL: https://api.mps.ford.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Images API from Ford — 2 operation(s) for images.
   name: Ford Images API
   slug: ford-images-api
 - baseURL: https://api.mps.ford.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The OAuth API from Ford — 1 operation(s) for oauth.
   name: Ford OAuth API
   slug: ford-oauth-api
 - baseURL: https://api.mps.ford.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Status API from Ford — 2 operation(s) for status.
   name: Ford Status API
   slug: ford-status-api
 - baseURL: https://api.mps.ford.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The Vehicles API from Ford — 2 operation(s) for vehicles.
   name: Ford Vehicles API
   slug: ford-vehicles-api
-artifact_total: 24
+artifact_total: 25
 collections:
 - collection_type: open
   name: API Collection
@@ -151,8 +151,68 @@ common:
   title: ''
   type: Website
   url: https://www.ford.com/
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/ford-well-known.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/ford-data-dictionary.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ford-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/ford-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/ford-conventions.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ford-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ford-llms.txt
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ford-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/ford-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ford-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/ford-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/ford-finops.yml
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.ford.com/apis
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.ford.com/contact-us
+- group: start
+  title: ''
+  type: Login
+  url: https://developer.ford.com/my-developer-account/my-dashboard
 created: '2025-02-25'
-description: Ford is a multinational automotive company that designs, manufactures, and sells a wide range of vehicles, including cars, trucks, and SUVs.
+description: 'Ford Motor Company is a multinational automotive manufacturer that designs, builds and sells cars, trucks, SUVs and commercial vehicles, and operates a partner-facing API program through the Ford Developer Marketplace at developer.ford.com. The flagship surface is FordConnect, which lets an approved application read connected-vehicle data and issue vehicle commands to enrolled Ford and Lincoln vehicles, with the vehicle owner''s consent captured as fourteen named data categories in the FordPass account-linking flow. Ford also publishes a WLTP emissions lookup for authorized parties. Access is partner-gated rather than self-serve: applications are registered in a Ford developer account and issued a client id plus two rotating secrets. Ford publishes no OpenAPI, pricing, rate limits, changelog or status page on any surface reachable without signing in.'
 finops:
 - name: Ford Finops
   service_category: Connected Vehicle / Mobility
@@ -163,58 +223,60 @@ graphqls:
   slug: ford-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ford.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-10'
 name: Ford
 nav: Providers
 network: true
-overview: 'Ford publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Charging API, Commands API, Images API, and 3 more. Tagged areas include Automobiles, Cars, and Vehicles.
+overview: 'Ford publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Charging API, Commands API, Images API, and 3 more. Tagged areas include Automobiles, Cars, Vehicles, Connected Vehicle, and Automotive.
 
 
-  Ford''s developer surface includes authentication, developer portal, and 9 more developer resources.'
+  Ford''s developer surface includes authentication, developer portal, documentation, support, and 22 more developer resources.'
 plans:
 - name: Ford Plans Pricing
-  plan_count: 2
+  plan_count: 0
   slug: ford-plans-pricing
 random_paper: 7
 rate_limits:
-- limit_count: 2
+- limit_count: 0
   name: Ford Rate Limits
   slug: ford-rate-limits
 scopes:
 - name: Ford Scopes
-  scope_count: 1
+  scope_count: 14
   slug: ford-scopes
-  summary_line: 1 scope · authorizationCode
+  summary_line: 14 scopes
 score:
-  band: emerging
-  composite: 26.0
+  band: thin
+  composite: 27.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 29.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 86.0
+    artifact_dirs: 23
+    catalog_earned: 40.0
+    catalog_earned_first_party: 5.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.2
   facets:
-    access_clarity: 13.2
-    commercial_clarity: 13.2
-    contract_governance: 0.0
-    contract_quality: 51.2
-    developer_ergonomics: 31.0
-    discoverability: 40.7
-    governance: 0.0
-    operational_transparency: 7.9
+    access_clarity: 21.1
+    commercial_clarity: 21.1
+    contract_governance: 33.3
+    contract_quality: 19.6
+    developer_ergonomics: 35.7
+    discoverability: 59.3
+    governance: 33.3
+    operational_transparency: 13.2
   previous_composite: 26.0
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
+      derived: 6
+      marker_coverage: 100.0
       total: 6
+    mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true
@@ -224,15 +286,24 @@ security:
 - kind: authentication
   name: Ford Authentication
   slug: ford-authentication
-  summary_line: http/oauth2 · 2 schemes
+  summary_line: oauth2/openIdConnect/http · 3 schemes
 - kind: domain-security
   name: Ford Domain Security
   slug: ford-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Ford Vulnerability Disclosure
+  slug: ford-vulnerability-disclosure
+  summary_line: Hackerone
 slug: ford
 tags:
 - Automobiles
 - Cars
 - Vehicles
+- Connected Vehicle
+- Automotive
+- Telematics
+- Electric Vehicles
+- Fleet
 website: https://www.ford.com/
 ---

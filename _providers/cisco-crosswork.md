@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.4
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 50
 apis:
 - baseURL: https://{crosswork-host}:{port}/crosswork/inventory/
@@ -777,7 +777,7 @@ score:
     regime_id: telecommunications
     score: 50.0
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

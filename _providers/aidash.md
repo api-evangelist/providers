@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: The only public, unauthenticated, machine-readable API surface AiDASH exposes. It is the standard Atlassian Statuspage Status API v2 served from the AiDASH status page, returning JSON for overall stat
@@ -198,7 +198,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

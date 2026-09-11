@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Launching Next provides an RSS feed for the latest startup listings published on the platform. The feed allows developers, aggregators, and readers to programmatically consume new startup entries as t
@@ -108,7 +108,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 13.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

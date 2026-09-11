@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 5.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 3
 apis:
 - description: TTB's open data surface is a set of static, anonymously downloadable files rather than a request/response API. Production and operations reports for beer, wine, distilled spirits and tobacco are publi
@@ -221,7 +221,7 @@ score:
     regime_id: government
     score: 38.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

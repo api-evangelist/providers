@@ -1,120 +1,129 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: low
+  label: Pricing not published — provider retired
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
-  - plans
+  - none
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 2.5
-  scored_at: '2026-09-08'
-api_count: 1
+api_count: 2
 apis:
-- description: Fusebit provides a code-first integration platform that enables developers to build, deploy, and manage integrations within their SaaS products. The platform is no longer actively maintained following
-  name: Fusebit API
+- baseURL: https://api.us-west-1.on.fusebit.io
+  baseurl_source: declared
+  description: 'The Fusebit HTTP API managed and executed everything on the platform across two concurrent major versions on one host. v1 (Core, 49 operations) covered accounts, subscriptions, boundaries, serverless '
+  name: Fusebit HTTP API
   slug: apis
-artifact_total: 5
+artifact_total: 6
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/fusebit-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/fusebit
-- group: company
-  title: ''
-  type: Website
-  url: https://fusebit.io
-- group: docs
-  title: ''
-  type: Documentation
-  url: https://developer.fusebit.io
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/fusebit
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/fusebit
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://fivequarters.github.io/q5/release-notes/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/fusebit-changelog.yml
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/fivequarters/q5
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/fusebit-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fusebit-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/fusebit-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fusebit-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fusebit-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fusebit-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fusebit-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/fusebit-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/fusebit-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/fusebit-components.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fusebit-llms.txt
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fusebit-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fusebit-plans-pricing.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/fusebit-domain-security.yml
 created: '2026-03-27'
-description: Fusebit is a developer-first embedded integration platform for adding third-party integrations to SaaS products. The company was acquired and the Fusebit platform and developer documentation are no longer actively maintained, but the historical API surface and SDK assets remain available via the Fusebit GitHub organization for reference.
+description: 'Fusebit was a code-first, developer-facing embedded integration platform (embedded iPaaS) founded in Seattle in 2019, letting SaaS teams build, deploy and run third-party integrations inside their own products using serverless functions, managed OAuth connectors and an embeddable browser IDE. The company was acquired and the platform is retired: as of 2026-09-10 the domain fusebit.io is still registered but publishes no DNS A record, so the API, the developer documentation, the management portal and the asset CDN all fail to resolve. What survives is substantial and first-party — two published OpenAPI 3.0 contracts covering 89 operations, four dated release-note streams served from Fusebit''s own GitHub Pages, 101 npm packages under the @fusebit and @fusebit-int scopes, and 35 public repositories across the fusebit and fivequarters GitHub organizations. This profile is a historical record of a retired API, not a callable surface.'
 finops:
 - name: Fusebit Finops
   service_category: API
   slug: fusebit-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fusebit.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-10'
 name: Fusebit
 nav: Providers
 network: true
-overview: 'Fusebit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Embedded iPaaS, Integration, and Acquired.
+overview: 'Fusebit publishes 1 API on the [APIs.io](https://apis.io/) network: HTTP API. Tagged areas include Developer Tools, Embedded iPaaS, Integration, Serverless, and OAuth.
 
 
-  Fusebit''s developer surface includes documentation and 4 more developer resources.'
+  Fusebit''s developer surface includes changelog, authentication, CLI, and 16 more developer resources.'
 plans:
 - name: Fusebit Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: fusebit-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 5
+- limit_count: 2
   name: Fusebit Rate Limits
   slug: fusebit-rate-limits
-score:
-  band: minimal
-  composite: 10.5
-  coverage:
-    artifact_dirs: 5
-    catalog_earned: 36.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 4.8
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 10.5
-  previous_composite: 10.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-08'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 security:
+- kind: authentication
+  name: Fusebit Authentication
+  slug: fusebit-authentication
+  summary_line: http · 1 scheme
 - kind: domain-security
   name: Fusebit Domain Security
   slug: fusebit-domain-security
@@ -124,6 +133,7 @@ tags:
 - Developer Tools
 - Embedded iPaaS
 - Integration
+- Serverless
+- OAuth
 - Acquired
-website: https://fusebit.io
 ---

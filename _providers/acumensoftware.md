@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 3
 apis:
 - description: Authenticated REST surface behind the Forcelink mobile field-service ERP, served from the vendor-hosted za2.forcelink.net tenant alongside the Forcelink web login and the Forcelink Android/iOS apps. E
@@ -157,7 +157,7 @@ score:
     regime_id: energy_utilities
     score: 32.4
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

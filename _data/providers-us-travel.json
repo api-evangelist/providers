@@ -29,7 +29,7 @@
       "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 32.5,
      "agent_band": "agent-ready",
@@ -86,7 +86,7 @@
       "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -139,7 +139,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -192,7 +192,7 @@
       "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 45.9,
      "agent_band": "agent-native",
@@ -237,7 +237,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
@@ -283,7 +283,7 @@
       "commercial_clarity": 32.9,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 46.8,
      "agent_band": "agent-ready",
@@ -329,7 +329,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
@@ -379,7 +379,7 @@
       "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -432,7 +432,7 @@
       "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -468,8 +468,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Sabre",
@@ -489,7 +489,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -535,7 +535,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -580,7 +580,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -633,7 +633,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
@@ -659,7 +659,7 @@
       "agentic_commerce": false
      },
      "tier": "OTAs & Metasearch",
-     "rank": 14
+     "rank": 13
     },
     {
      "name": "American Airlines",
@@ -678,7 +678,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -704,7 +704,7 @@
       "agentic_commerce": false
      },
      "tier": "Airlines",
-     "rank": 15
+     "rank": 14
     },
     {
      "name": "Southwest Airlines",
@@ -724,7 +724,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -750,7 +750,7 @@
       "agentic_commerce": false
      },
      "tier": "Airlines",
-     "rank": 16
+     "rank": 15
     },
     {
      "name": "Hilton",
@@ -769,7 +769,7 @@
       "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -795,7 +795,7 @@
       "agentic_commerce": false
      },
      "tier": "Hotel Groups",
-     "rank": 17
+     "rank": 16
     },
     {
      "name": "Booking Holdings",
@@ -815,7 +815,7 @@
       "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -841,7 +841,7 @@
       "agentic_commerce": false
      },
      "tier": "OTAs & Metasearch",
-     "rank": 18
+     "rank": 17
     },
     {
      "name": "Enterprise Mobility",
@@ -861,7 +861,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -894,7 +894,7 @@
       "agentic_commerce": false
      },
      "tier": "Car Rental",
-     "rank": 19
+     "rank": 18
     }
    ]
   },
@@ -924,7 +924,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -950,7 +950,7 @@
       "agentic_commerce": false
      },
      "tier": "Hotel Groups",
-     "rank": 20
+     "rank": 19
     },
     {
      "name": "Delta Airlines",
@@ -970,7 +970,7 @@
       "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -996,7 +996,7 @@
       "agentic_commerce": false
      },
      "tier": "Airlines",
-     "rank": 21
+     "rank": 20
     },
     {
      "name": "Amtrak",
@@ -1016,7 +1016,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "applies": true,
@@ -1049,7 +1049,7 @@
       "agentic_commerce": false
      },
      "tier": "Rail & Ground",
-     "rank": 22
+     "rank": 21
     },
     {
      "name": "Kayak",
@@ -1069,7 +1069,7 @@
       "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1095,7 +1095,7 @@
       "agentic_commerce": false
      },
      "tier": "OTAs & Metasearch",
-     "rank": 23
+     "rank": 22
     },
     {
      "name": "JetBlue",
@@ -1115,7 +1115,7 @@
       "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -1141,7 +1141,7 @@
       "agentic_commerce": false
      },
      "tier": "Airlines",
-     "rank": 24
+     "rank": 23
     },
     {
      "name": "HEDNA",
@@ -1161,7 +1161,7 @@
       "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1187,7 +1187,7 @@
       "agentic_commerce": false
      },
      "tier": "Industry Bodies & Standards",
-     "rank": 25
+     "rank": 24
     },
     {
      "name": "Choice Hotels",
@@ -1206,7 +1206,7 @@
       "commercial_clarity": 17.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1232,7 +1232,7 @@
       "agentic_commerce": false
      },
      "tier": "Hotel Groups",
-     "rank": 26
+     "rank": 25
     }
    ]
   },
@@ -1262,7 +1262,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1288,7 +1288,7 @@
       "agentic_commerce": false
      },
      "tier": "Car Rental",
-     "rank": 27
+     "rank": 26
     },
     {
      "name": "Hyatt",
@@ -1307,7 +1307,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1333,7 +1333,7 @@
       "agentic_commerce": false
      },
      "tier": "Hotel Groups",
-     "rank": 28
+     "rank": 27
     },
     {
      "name": "Hertz",
@@ -1352,7 +1352,7 @@
       "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-08",
+     "scored_at": "2026-09-10",
      "schema_version": "0.20.0",
      "regulatory": {
       "undetermined": true,
@@ -1382,7 +1382,7 @@
       "agentic_commerce": false
      },
      "tier": "Car Rental",
-     "rank": 29
+     "rank": 28
     }
    ]
   }

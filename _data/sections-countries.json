@@ -11,40 +11,40 @@
   "slug": "china",
   "name": "China",
   "flag": "🇨🇳",
-  "count": 367,
-  "by_tag": 356,
+  "count": 371,
+  "by_tag": 360,
   "by_hq": 11
  },
  {
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
-  "count": 358,
-  "by_tag": 349,
+  "count": 360,
+  "by_tag": 351,
   "by_hq": 9
  },
  {
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 319,
-  "by_tag": 297,
+  "count": 318,
+  "by_tag": 296,
   "by_hq": 22
  },
  {
   "slug": "germany",
   "name": "Germany",
   "flag": "🇩🇪",
-  "count": 224,
-  "by_tag": 214,
+  "count": 225,
+  "by_tag": 215,
   "by_hq": 10
  },
  {
   "slug": "australia",
   "name": "Australia",
   "flag": "🇦🇺",
-  "count": 206,
-  "by_tag": 206,
+  "count": 207,
+  "by_tag": 207,
   "by_hq": 0
  },
  {
@@ -83,24 +83,24 @@
   "slug": "singapore",
   "name": "Singapore",
   "flag": "🇸🇬",
-  "count": 115,
+  "count": 116,
   "by_tag": 66,
-  "by_hq": 49
+  "by_hq": 50
  },
  {
   "slug": "japan",
   "name": "Japan",
   "flag": "🇯🇵",
-  "count": 100,
-  "by_tag": 100,
+  "count": 102,
+  "by_tag": 102,
   "by_hq": 0
  },
  {
   "slug": "south-korea",
   "name": "South Korea",
   "flag": "🇰🇷",
-  "count": 84,
-  "by_tag": 83,
+  "count": 86,
+  "by_tag": 85,
   "by_hq": 1
  },
  {

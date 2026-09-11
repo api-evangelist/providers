@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.1
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Arphie's remote Model Context Protocol server. It exposes Arphie projects, workload and project-volume metrics, and the company's agentic chat engine to MCP clients such as Claude, ChatGPT, Cursor, an
@@ -192,7 +192,7 @@ score:
     conformance: first-party
     mcp: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

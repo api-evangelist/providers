@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 7
 apis:
 - description: The bp API Marketplace is a white-labelled RapidAPI Enterprise Hub developer portal for BP's digital APIs. It provides API discovery, a testing playground, documentation, usage monitoring, error and l
@@ -280,7 +280,7 @@ score:
     regime_id: energy_utilities
     score: 64.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

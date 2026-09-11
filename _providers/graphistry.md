@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: JWT-authenticated REST API on Graphistry Hub for authentication (token obtain/refresh/verify), dataset and file upload, and visualization datasets, powering GPU-accelerated graph rendering and sharing
@@ -151,7 +151,7 @@ score:
   provenance:
     mcp: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

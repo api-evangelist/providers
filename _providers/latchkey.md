@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: REST API for creating, submitting, monitoring, and cancelling ephemeral runner jobs. Each job runs one command on a fresh Ubuntu 24.04 x86_64 machine that is destroyed afterwards. Uses HTTP Bearer aut
@@ -202,7 +202,7 @@ score:
     mcp: first-party
     skills: first-party
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

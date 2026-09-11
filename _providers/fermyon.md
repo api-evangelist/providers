@@ -16,7 +16,7 @@ agent_readiness:
   band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: bearer
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-08'
+  score: 20.7
+  scored_at: '2026-09-10'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -44,78 +44,78 @@ agentic_access:
   operation_count: 62
   slug: fermyon-agentic-access
   summary_line: 62 operations · 38 acting
-api_count: 1
+api_count: 2
 apis:
 - description: Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed engine for serverless functions running on Akamai Cloud. Developers author functions with the Spin Framework and deploy them to a
   name: Fermyon Wasm Functions
   slug: fermyon
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The accounts API from Fermyon — 1 operation(s) for accounts.
   name: Fermyon accounts API
   slug: fermyon-accounts-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The apps API from Fermyon — 6 operation(s) for apps.
   name: Fermyon apps API
   slug: fermyon-apps-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The auth-tokens API from Fermyon — 2 operation(s) for auth-tokens.
   name: Fermyon auth-tokens API
   slug: fermyon-auth-tokens-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The channels API from Fermyon — 6 operation(s) for channels.
   name: Fermyon channels API
   slug: fermyon-channels-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The custom-domains API from Fermyon — 1 operation(s) for custom-domains.
   name: Fermyon custom-domains API
   slug: fermyon-custom-domains-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The device-codes API from Fermyon — 3 operation(s) for device-codes.
   name: Fermyon device-codes API
   slug: fermyon-device-codes-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The key-value-pairs API from Fermyon — 1 operation(s) for key-value-pairs.
   name: Fermyon key-value-pairs API
   slug: fermyon-key-value-pairs-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The key-value-stores API from Fermyon — 4 operation(s) for key-value-stores.
   name: Fermyon key-value-stores API
   slug: fermyon-key-value-stores-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The oci API from Fermyon — 4 operation(s) for oci.
   name: Fermyon oci API
   slug: fermyon-oci-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The payments API from Fermyon — 3 operation(s) for payments.
   name: Fermyon payments API
   slug: fermyon-payments-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The personal-access-tokens API from Fermyon — 2 operation(s) for personal-access-tokens.
   name: Fermyon personal-access-tokens API
   slug: fermyon-personal-access-tokens-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The revisions API from Fermyon — 1 operation(s) for revisions.
   name: Fermyon revisions API
   slug: fermyon-revisions-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The sql-databases API from Fermyon — 5 operation(s) for sql-databases.
   name: Fermyon sql-databases API
   slug: fermyon-sql-databases-api
 - baseURL: https://cloud.fermyon.com
-  baseurl_source: spec
+  baseurl_source: declared
   description: The variable-pairs API from Fermyon — 1 operation(s) for variable-pairs.
   name: Fermyon variable-pairs API
   slug: fermyon-variable-pairs-api
@@ -214,6 +214,114 @@ common:
   title: ''
   type: Website
   url: https://www.fermyon.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/fermyon-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/fermyon-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/fermyon-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fermyon-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/fermyon-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/fermyon-vulnerability-disclosure.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fermyon-llms.txt
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/fermyon-mcp.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fermyon-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/fermyon-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/fermyon-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/fermyon-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/fermyon-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/fermyon-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/fermyon-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/fermyon-finops.yml
+- group: build
+  title: ''
+  type: Postman
+  url: collections/fermyon.postman_collection.json
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.fermyon.com/cloud/rest-api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.fermyon.com/
+- group: start
+  title: ''
+  type: Quickstart
+  url: https://developer.fermyon.com/cloud/quickstart
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.fermyon.com/cloud/support
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.fermyon.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://cloud.fermyon.com/?signup
+- group: start
+  title: ''
+  type: Login
+  url: https://cloud.fermyon.com/login
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.fermyon.com/legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.fermyon.com/privacy-policy
 created: '2025-02-08'
 description: Fermyon Wasm Functions is a multi-tenant, hosted, globally distributed engine for serverless functions running on Akamai Cloud, the most distributed cloud network. Fermyon is the company behind the Spin Framework and SpinKube, providing tools and runtimes for building and operating WebAssembly-based serverless applications.
 finops:
@@ -222,54 +330,57 @@ finops:
   slug: fermyon-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fermyon.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-09'
 name: Fermyon
 nav: Providers
 network: true
-overview: 'Fermyon publishes 14 APIs on the [APIs.io](https://apis.io/) network, including accounts API, apps API, auth-tokens API, and 11 more. Tagged areas include Compute, Functions, WebAssembly, and Serverless.
+overview: 'Fermyon publishes 14 APIs on the [APIs.io](https://apis.io/) network, including accounts API, apps API, auth-tokens API, and 11 more. Tagged areas include Compute, Functions, WebAssembly, Serverless, and Edge Computing.
 
 
-  Fermyon''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, and 6 more developer resources.'
+  Fermyon''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, CLI, changelog, and 31 more developer resources.'
 plans:
 - name: Fermyon Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: fermyon-plans-pricing
 random_paper: 12
 rate_limits:
-- limit_count: 5
+- limit_count: 15
   name: Fermyon Rate Limits
   slug: fermyon-rate-limits
 score:
-  band: emerging
-  composite: 17.1
+  band: developing
+  composite: 41.7
   coverage:
-    artifact_dirs: 10
-    catalog_earned: 36.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    artifact_dirs: 22
+    catalog_earned: 59.0
+    catalog_earned_first_party: 24.0
+    catalog_gap: 56.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 24.6
   facets:
-    access_clarity: 15.8
-    commercial_clarity: 15.8
-    contract_governance: 0.0
+    access_clarity: 77.6
+    commercial_clarity: 77.6
+    contract_governance: 4.5
     contract_quality: 1.6
-    developer_ergonomics: 39.3
-    discoverability: 50.0
-    governance: 0.0
-    operational_transparency: 10.5
+    developer_ergonomics: 67.3
+    discoverability: 66.7
+    governance: 4.5
+    operational_transparency: 44.7
   previous_composite: 17.1
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 14
+    mcp: derived
+    skills: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
-  trend: flat
+  scored_at: '2026-09-10'
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -293,5 +404,9 @@ tags:
 - Functions
 - WebAssembly
 - Serverless
+- Edge Computing
+- Serverless Functions
+- Spin
+- Developer Tools
 website: https://www.fermyon.com/
 ---

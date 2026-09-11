@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Single JSON API for issuing, receiving, and archiving locally compliant invoices — e-invoicing, PEPPOL exchange, fiscalization, and real-time tax reporting across 30+ countries. Uses a custom IoT conn
@@ -161,7 +161,7 @@ score:
     conformance: first-party
     mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: NewsData.io API for retrieving live breaking news and historical news data from over 82,000 sources, with search, filtering, and multi-language support.
@@ -124,7 +124,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.4
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

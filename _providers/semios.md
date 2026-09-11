@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'The authenticated service behind the Semios Hub grower application at hub.semios.com. The host is live and answers on HTTPS, but every anonymous path returns an application-level "Path not Found" and '
@@ -149,7 +149,7 @@ score:
   provenance:
     mcp: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

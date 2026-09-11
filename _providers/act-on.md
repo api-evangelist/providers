@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 8
 apis:
 - description: Outgoing webhook event surface — nineteen documented event types across contacts, consent, deliverability, lead scoring, subscriptions, automated programs, messaging, forms and CRM connections. Payloa
@@ -382,7 +382,7 @@ score:
     mcp: derived
     skills: derived
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: true

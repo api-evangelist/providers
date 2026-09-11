@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: Netradyne partner/developer API, documented on a Stoplight-hosted developer portal (sign-in required). Exposes fleet, driver, vehicle, safety-event, and video-access data for integrating Driver·i tele
@@ -135,7 +135,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 22.2
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

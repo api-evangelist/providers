@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.3
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 2
 apis:
 - description: The Opus REST API. Generate a workflow from a natural-language prompt, run a workflow as a "case" with populated inputs, upload files as case inputs through a presigned-URL flow, poll or receive a cal
@@ -208,7 +208,7 @@ score:
     regime_id: insurance
     score: 37.9
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false

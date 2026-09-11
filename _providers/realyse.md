@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
 api_count: 1
 apis:
 - description: 'Data API delivering a constant feed of UK residential property data across Planning & Policy, Demographics, Market, Land & Ownership, and Amenities endpoints. Onboarded via the REalyse sales team; no '
@@ -123,7 +123,7 @@ score:
     - united-kingdom-ireland
   previous_composite: 18.0
   schema_version: 0.20.0
-  scored_at: '2026-09-08'
+  scored_at: '2026-09-10'
   trend: flat
   upsert:
     applies: false
