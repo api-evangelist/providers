@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: The Ameren Illinois Share My Usage API implements the Green Button Connect My Data program, providing authorized third parties access to up to 24 months of historical electric energy usage data for re
@@ -221,12 +221,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 35.5
-    commercial_clarity: 35.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 35.7
     discoverability: 66.7
-    governance: 18.2
     operational_transparency: 13.2
   previous_composite: 31.6
   provenance:
@@ -238,8 +236,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

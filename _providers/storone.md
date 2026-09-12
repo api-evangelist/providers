@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'The S1 REST API manages a StorONE storage system: create and manage applications, volumes, snapshots, shares, file systems and object stores; register hosts and mappings; configure NAS servers, floati'
@@ -203,20 +203,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 33.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

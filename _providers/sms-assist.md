@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: GraphQL API for clients (property owners and managers) to create and track reactive and recurrent work orders, residents, locations, service requests, invoices, proposals, Turn/Reno projects, ratings,
@@ -185,20 +185,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 34.2
-    commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 61.3
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 39.5
   previous_composite: 44.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

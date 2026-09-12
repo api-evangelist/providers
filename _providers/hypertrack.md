@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 42.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://v3.api.hypertrack.com
@@ -261,12 +261,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 69.7
-    commercial_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 65.4
     developer_ergonomics: 81.0
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 42.1
   previous_composite: 59.4
   provenance:
@@ -278,8 +276,8 @@ score:
       total: 10
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

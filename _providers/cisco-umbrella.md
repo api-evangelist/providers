@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 52
 apis:
 - baseURL: https://api.umbrella.com/admin/v2
@@ -775,12 +775,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 61.7
     developer_ergonomics: 70.8
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 84.2
   previous_composite: 59.3
   provenance:
@@ -792,8 +790,8 @@ score:
       total: 85
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

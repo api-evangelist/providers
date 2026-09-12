@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: https://btcwar.net
@@ -254,12 +254,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 21.1
-    commercial_clarity: 21.1
     contract_governance: 19.7
     contract_quality: 68.7
     developer_ergonomics: 35.7
     discoverability: 92.6
-    governance: 19.7
     operational_transparency: 44.7
   previous_composite: 47.9
   provenance:
@@ -278,8 +276,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

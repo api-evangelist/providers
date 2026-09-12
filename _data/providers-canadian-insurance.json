@@ -22,15 +22,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 62.6,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 66.1,
-      "commercial_clarity": 43.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -86,15 +84,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 45.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -146,15 +142,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 26.7,
-      "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 52.6,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -199,15 +193,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 61.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -263,15 +255,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 13.9,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 49.4,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -316,15 +306,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 32.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -369,15 +357,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 35.5,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -432,15 +418,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -485,15 +469,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -537,15 +519,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -589,15 +569,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 13.2,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -642,15 +620,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 18.4,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -695,15 +671,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -748,15 +722,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -800,15 +772,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 13.1,
-      "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -853,15 +823,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -906,15 +874,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -959,15 +925,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1022,15 +986,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1075,15 +1037,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

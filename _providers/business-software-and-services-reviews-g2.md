@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.3
-  scored_at: '2026-09-10'
+  score: 54.5
+  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: The G2 MCP (Model Context Protocol) Server enables AI assistants like Claude to access G2 data. Uses OAuth for authentication via browser sign-in. Provides access to buyer intent intelligence, competi
@@ -400,12 +400,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 44.7
-    commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 65.4
     developer_ergonomics: 56.5
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 47.4
   previous_composite: 53.0
   provenance:
@@ -417,8 +415,8 @@ score:
       total: 28
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

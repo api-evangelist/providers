@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 7
 apis:
 - description: A hosted Model Context Protocol server that wraps the CargoCONNECT endpoints as tools for AI assistants - track a shipment by AWB, search flight rates, look up airline contacts and ground handling age
@@ -175,12 +175,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 15.3
     developer_ergonomics: 22.6
     discoverability: 72.2
-    governance: 0.0
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -196,8 +194,8 @@ score:
       derived: 8
       marker_coverage: 100.0
       total: 8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

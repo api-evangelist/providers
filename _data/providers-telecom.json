@@ -22,15 +22,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 64.1,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 68.4,
       "developer_ergonomics": 68.5,
-      "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -82,15 +80,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 70.9,
-      "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 71.1,
       "developer_ergonomics": 79.8,
-      "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -135,15 +131,13 @@
      "facets": {
       "discoverability": 70.4,
       "contract_quality": 68.6,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 92.1,
       "developer_ergonomics": 73.8,
-      "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -188,15 +182,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 70.7,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 92.1,
       "developer_ergonomics": 68.5,
-      "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -252,15 +244,13 @@
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 67.2,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
       "developer_ergonomics": 75.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -312,15 +302,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 44.1,
-      "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 60.5,
       "developer_ergonomics": 80.4,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -365,15 +353,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 63.8,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 86.8,
       "developer_ergonomics": 60.1,
-      "commercial_clarity": 38.2,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -418,15 +404,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 57.2,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 28.9,
       "developer_ergonomics": 75.6,
-      "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -471,15 +455,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 61.6,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 55.3,
       "developer_ergonomics": 54.2,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -524,15 +506,13 @@
      "facets": {
       "discoverability": 53.7,
       "contract_quality": 77.2,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 34.2,
       "developer_ergonomics": 65.5,
-      "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -577,15 +557,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 71.9,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 28.9,
       "developer_ergonomics": 46.4,
-      "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -630,15 +608,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 58.7,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 73.2,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -683,15 +659,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 50.6,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 73.2,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -736,15 +710,13 @@
      "facets": {
       "discoverability": 44.4,
       "contract_quality": 63.9,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 73.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -795,15 +767,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 42.4,
-      "governance": 69.7,
       "contract_governance": 69.7,
       "operational_transparency": 23.7,
       "developer_ergonomics": 58.3,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -848,15 +818,13 @@
      "facets": {
       "discoverability": 44.4,
       "contract_quality": 62.6,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
       "developer_ergonomics": 67.9,
-      "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -901,15 +869,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 55.5,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 13.2,
       "developer_ergonomics": 63.7,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -954,15 +920,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 58.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 66.1,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1007,15 +971,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 52.3,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 85.1,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1060,15 +1022,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 71.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 34.2,
       "developer_ergonomics": 46.4,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1113,15 +1073,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 65.5,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1172,15 +1130,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 53.1,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 68.4,
       "developer_ergonomics": 68.5,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1236,15 +1192,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 60.8,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 18.4,
       "developer_ergonomics": 75.0,
-      "commercial_clarity": 56.6,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1289,15 +1243,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 53.1,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
       "developer_ergonomics": 73.2,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1342,15 +1294,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 54.9,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 63.7,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1395,15 +1345,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 75.2,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 32.1,
-      "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1448,15 +1396,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 62.1,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 73.7,
       "developer_ergonomics": 54.2,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1512,15 +1458,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 51.9,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 57.9,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1565,15 +1509,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 41.6,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 47.4,
       "developer_ergonomics": 51.2,
-      "commercial_clarity": 69.7,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1618,15 +1560,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 72.2,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 48.8,
-      "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1671,15 +1611,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 62.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 52.6,
       "developer_ergonomics": 67.3,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1724,15 +1662,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 57.8,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 35.1,
-      "commercial_clarity": 65.8,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1777,15 +1713,13 @@
      "facets": {
       "discoverability": 77.8,
       "contract_quality": 59.4,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 44.7,
       "developer_ergonomics": 61.3,
-      "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1830,15 +1764,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 41.6,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 63.2,
       "developer_ergonomics": 47.0,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1883,15 +1815,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 68.6,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 13.2,
       "developer_ergonomics": 63.1,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1936,15 +1866,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 58.5,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1989,15 +1917,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 57.7,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
       "developer_ergonomics": 63.7,
-      "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2042,15 +1968,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 54.6,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 42.1,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 10.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2095,15 +2019,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 57.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 66.1,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2148,15 +2070,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 55.8,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 31.6,
       "developer_ergonomics": 51.8,
-      "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2201,15 +2121,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 43.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
       "developer_ergonomics": 54.2,
-      "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2254,15 +2172,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 50.6,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 54.2,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2307,15 +2223,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 54.8,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 56.5,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2360,15 +2274,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 59.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 22.6,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2413,15 +2325,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 54.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 59.2,
       "developer_ergonomics": 47.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2466,15 +2376,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 59.5,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 42.1,
       "developer_ergonomics": 41.7,
-      "commercial_clarity": 40.8,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2519,15 +2427,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 70.8,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2572,15 +2478,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 43.1,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 39.9,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2625,15 +2529,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 57.9,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
       "developer_ergonomics": 32.7,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2688,15 +2590,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 66.9,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 7.9,
       "developer_ergonomics": 39.3,
-      "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2741,15 +2641,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 68.9,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 10.5,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2794,15 +2692,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2847,15 +2743,13 @@
      "facets": {
       "discoverability": 42.6,
       "contract_quality": 61.2,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2863,15 +2757,15 @@
       "score": 55.6,
       "matched_via": "tags"
      },
-     "agent_score": 36.3,
-     "agent_band": "agent-ready",
+     "agent_score": 51.4,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
-      "idempotency": false,
+      "idempotency": "verified",
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
@@ -2900,15 +2794,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 53.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2953,15 +2845,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 51.6,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 32.1,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3006,15 +2896,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 72.7,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -3056,15 +2944,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 54.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 15.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3102,15 +2988,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 48.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3155,15 +3039,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 56.1,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3208,15 +3090,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.1,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 22.4,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3261,15 +3141,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 0.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 61.3,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 15.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3307,15 +3185,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 64.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3353,15 +3229,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
       "developer_ergonomics": 41.7,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3406,15 +3280,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 48.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 18.4,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3469,15 +3341,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3522,15 +3392,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 15.8,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 2.6,
       "developer_ergonomics": 37.5,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3575,15 +3443,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 51.4,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 4.8,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3628,15 +3494,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 13.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3681,15 +3545,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 52.1,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3734,15 +3596,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3787,15 +3647,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 15.8,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3840,15 +3698,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 10.5,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3892,15 +3748,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 37.2,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3945,15 +3799,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3998,15 +3850,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4061,15 +3911,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4114,15 +3962,13 @@
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4167,15 +4013,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 6.6,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4220,15 +4064,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4273,15 +4115,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4325,15 +4165,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4371,15 +4209,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4424,15 +4260,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 2.4,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",

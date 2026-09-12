@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - description: Cucumber is the world's most popular BDD framework, supporting Java, JavaScript, Ruby, Python, and C#. It uses Gherkin syntax for writing human-readable test scenarios and provides integrations with a
@@ -157,19 +157,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 26.3
   open_source:
     applies: true
     score: 65.0
   previous_composite: 22.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

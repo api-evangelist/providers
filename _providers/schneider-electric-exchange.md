@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 3.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 11
 apis:
 - description: The EcoStruxure IT Expert API provides programmatic access to data center infrastructure management data. It enables integrations to query locations, devices, alarms, sensors, and measurements from th
@@ -190,12 +190,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 25.3
     developer_ergonomics: 31.0
     discoverability: 64.8
-    governance: 25.0
     operational_transparency: 7.9
   previous_composite: 25.5
   regulatory:
@@ -204,8 +202,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 14.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

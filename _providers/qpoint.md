@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Connect RPC / gRPC services backing Qpoint''s control plane: an event store service and the qscan scheduler service, with shared protobuf types for connections, requests, issues, PII, and tags.'
@@ -151,19 +151,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 18.4
-    commercial_clarity: 18.4
     contract_governance: 18.2
     contract_quality: 26.7
     developer_ergonomics: 66.7
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 35.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

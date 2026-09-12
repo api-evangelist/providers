@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Pro GraphQL API for on-chain DeFi and NFT market data — DEX trades, candles, lending markets, liquidity pools and positions, NFT collections and trades, token holders, transfers, transactions, contrac
@@ -136,12 +136,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 5.3
-    commercial_clarity: 5.3
     contract_governance: 4.5
     contract_quality: 31.9
     developer_ergonomics: 20.8
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 2.6
   previous_composite: 20.6
   provenance:
@@ -154,8 +152,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

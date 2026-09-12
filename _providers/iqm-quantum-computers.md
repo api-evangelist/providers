@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The REST API behind IQM Resonance, IQM's quantum cloud service. It lists the quantum computers available on a server, reports their health and calibration state, accepts circuit and sweep jobs for exe
@@ -191,12 +191,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 65.8
-    commercial_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 26.7
     developer_ergonomics: 71.4
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 23.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -210,8 +208,8 @@ score:
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

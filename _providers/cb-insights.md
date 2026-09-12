@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The original CB Insights REST API — 11 documented GET operations over organizations, deals (fundings, investments, portfolio exits), people, business relationships, expert collections and the credit l
@@ -338,12 +338,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 33.3
     contract_quality: 52.8
     developer_ergonomics: 58.9
     discoverability: 68.5
-    governance: 33.3
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -360,8 +358,8 @@ score:
       total: 11
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

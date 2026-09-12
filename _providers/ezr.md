@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 31.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: The EZR 开放平台 integration surface — 236 documented interfaces across 11 business domains (base data, member master data, loyalty points, coupons, sales data, WeChat mall, external mall distribution, me
@@ -179,12 +179,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 10.5
-    commercial_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 71.4
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 44.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -198,8 +196,8 @@ score:
     conformance: derived
     mcp: derived
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

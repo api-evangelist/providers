@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 59.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -83,7 +83,7 @@ apis:
   description: The Webhooks API from Zillapi — 3 operation(s) for webhooks.
   name: Zillapi Webhooks API
   slug: zillapi-webhooks-api
-artifact_total: 24
+artifact_total: 25
 asyncapis:
 - description: ''
   name: Zillapi Webhooks
@@ -128,8 +128,16 @@ common:
   url: skills/zillapi-get-zestimate.md
 - group: agent
   title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
   type: MCPServer
   url: mcp/zillapi-mcp.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/zillapi-server.json
 - group: other
   title: ''
   type: Overlay
@@ -221,7 +229,7 @@ common:
 - group: build
   title: ''
   type: GitHubOrganization
-  url: https://github.com/ZeroPointRepo/zillow-skills
+  url: https://github.com/ZeroPointRepo
 - group: commercial
   title: ''
   type: Pricing
@@ -254,7 +262,10 @@ mcp_servers:
 - description: ''
   name: Zillapi MCP Server
   slug: zillapi-mcp-server
-modified: '2026-08-09'
+- description: 'Zillow MCP for AI agents: property data, Zestimates & listings — 300+ fields per home. Free tier.'
+  name: MCP registry server.json (com.zillapi/zillow-mcp)
+  slug: mcp-registry-serverjson-comzillapizillow-mcp
+modified: '2026-09-11'
 name: Zillapi
 nav: Providers
 network: true
@@ -264,7 +275,7 @@ overview: 'Zillapi publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
   The Zillapi catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Zillapi''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 26 more developer resources.'
+  Zillapi''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 28 more developer resources.'
 plans:
 - name: Zillapi Plans
   plan_count: 4
@@ -283,7 +294,7 @@ score:
   band: strong
   composite: 61.7
   coverage:
-    artifact_dirs: 23
+    artifact_dirs: 25
     catalog_earned: 61.0
     catalog_earned_first_party: 24.0
     catalog_gap: 54.0
@@ -292,12 +303,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 76.3
-    commercial_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 66.3
     developer_ergonomics: 64.3
     discoverability: 87.0
-    governance: 18.2
     operational_transparency: 52.6
   previous_composite: 61.7
   provenance:
@@ -310,8 +319,8 @@ score:
       total: 7
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

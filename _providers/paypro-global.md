@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The PayPro Global API lets merchants manage subscriptions, payments, orders, customers, products, and webhooks for their Merchant of Record ecommerce flows.
@@ -119,12 +119,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 34.2
-    commercial_clarity: 34.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 13.1
     discoverability: 66.7
-    governance: 0.0
     operational_transparency: 11.8
   previous_composite: 15.4
   regulatory:
@@ -133,8 +131,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 17.2
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

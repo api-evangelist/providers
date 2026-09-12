@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 30.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.ready2order.com/v1
@@ -476,12 +476,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 44.7
-    commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 66.2
     developer_ergonomics: 51.8
     discoverability: 51.9
-    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 43.2
   provenance:
@@ -499,8 +497,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 39.1
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

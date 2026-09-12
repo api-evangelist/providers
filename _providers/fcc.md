@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 17.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: Provides information about FCC-issued licenses for use of the nation's airwaves, including snapshots of license counts across different radio services such as 700 MHz, 800 MHz Cellular, AWS, PCS, BRS,
@@ -257,12 +257,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 50.0
-    commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 48.3
     developer_ergonomics: 11.9
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 21.1
   previous_composite: 31.7
   provenance:
@@ -277,8 +275,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 13.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

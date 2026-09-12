@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: Read-optimized GraphQL API for fetching structured product data, shapes, topics, price variants, stock, and rich content for storefronts. Queries are scoped to a tenant identifier and return path-base
@@ -162,16 +162,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 35.5
-    commercial_clarity: 35.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 32.1
     discoverability: 81.5
-    governance: 0.0
     operational_transparency: 42.1
   previous_composite: 27.1
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

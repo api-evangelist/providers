@@ -38,14 +38,14 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 57.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
   name: Lacuna Agentic Access
-  operation_count: 2
+  operation_count: 3
   slug: lacuna-agentic-access
-  summary_line: 2 operations · 1 acting
+  summary_line: 3 operations · 1 acting
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server (Streamable HTTP) at https://www.lacuna.fm/mcp, protocol 2025-06-18. initialize and tools/list answer anonymously and return real input schemas; tools/call require
@@ -56,19 +56,24 @@ apis:
   slug: lacuna-a2a-agent
 - baseURL: https://www.lacuna.fm/api
   baseurl_source: declared
-  description: The Lacuna Music API API from Lacuna — 0 operation(s) for lacuna music api.
-  name: Lacuna Lacuna Music API API
+  description: The outbound event surface of the Lacuna Music API. Lacuna publishes no AsyncAPI document; it describes its events natively in the OpenAPI 3.1 `webhooks` block — four events (job.completed, job.failed
+  name: Lacuna Music API Events
   slug: lacuna-lacuna-music-api-api
 - baseURL: https://www.lacuna.fm/api
   baseurl_source: declared
   description: Music generation endpoints.
   name: Lacuna Music API
   slug: lacuna-music-api
+- baseURL: https://www.lacuna.fm/api
+  baseurl_source: declared
+  description: Free introspection of the calling credential — account id, subscription plan, credit balance (subscription vs one-time), the effective requests-per-minute and concurrent-generation limits for this key
+  name: Lacuna Account API
+  slug: lacuna-account-api
 arazzos:
 - description: Submits a music generation task to the Lacuna Music API, polls it to a terminal state, and returns the hosted audio URL of the first rendered track. Both operationIds are verified against the provider
   name: Generate a Lacuna track and collect the audio
   slug: lacuna-generate-and-collect
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: ''
   name: Lacuna Webhooks
@@ -88,10 +93,6 @@ common:
   title: ''
   type: Website
   url: https://www.lacuna.fm/
-- group: other
-  title: ''
-  type: CapabilityMap
-  url: capabilities/lacuna-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -100,6 +101,10 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://www.lacuna.fm/docs
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.lacuna.fm/ai-music-api
 - group: docs
   title: ''
   type: Documentation
@@ -257,24 +262,25 @@ common:
   type: Arazzo
   url: arazzo/lacuna-generate-and-collect.yml
 created: '2026-08-02'
-description: 'Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover art, MIDI tooling and sheet-music conversion, plus long-form AI radio for focus, sleep and ambience. Developers get a documented REST music-generation API (OpenAPI 3.1 published at /api/openapi.json), an official TypeScript SDK, a `lacuna` CLI, and an unusually complete agent surface: a hosted Streamable-HTTP MCP server at /mcp with an anonymous tools/list, an A2A JSON-RPC agent endpoint at /a2a with a published agent card, an RFC 9727 api-catalog, RFC 8414 / RFC 9728 OAuth discovery, an agent-oriented auth.md, an llms.txt, and a packaged Agent Skill. API access requires a Pro plan or above and is billed in credits per generation.'
+description: 'Lacuna (lacuna.fm), operated by JOYLINK LTD, is an AI music creation platform that turns lyrics or a plain-text style description into complete songs with vocals, alongside lyrics writing, word-level timed lyrics (LRC/SRT/VTT), lyric video export, AI mastering, mashups, stem separation, album-cover art, MIDI tooling and sheet-music conversion, plus long-form AI radio for focus, sleep and ambience. Developers get a documented REST music-generation API (OpenAPI 3.1 published at /api/openapi.json), an official TypeScript SDK, a `lacuna` CLI, and an unusually complete agent surface: a hosted Streamable-HTTP MCP server at /mcp with an anonymous tools/list, an A2A JSON-RPC agent endpoint at /a2a with a published agent card, an RFC 9727 api-catalog, RFC 8414 / RFC 9728 / RFC 7009 OAuth discovery and revocation, an agent-oriented auth.md, an llms.txt, and packaged Agent Skills. The REST contract carries three operations: submit a generation, poll it, and — added since August — a free
+  GET /v1/me that returns the calling credential''s plan, credit balance, scopes, key expiry and effective rate limits, which is the only precondition check available on an API that offers no idempotency key, no dry run and no way to cancel or refund a generation once submitted. API access requires a Pro plan or above and is billed in credits per generation.'
 image: https://www.lacuna.fm/favicon-192x192.png
 layout: provider
 mcp_servers:
 - description: Generate AI music from a style description and optional lyrics. Submit a task, poll it, collect the rendered audio.
   name: Lacuna MCP Server
   slug: lacuna-mcp-server
-modified: '2026-08-09'
+modified: '2026-09-11'
 name: Lacuna
 nav: Providers
 network: true
-overview: 'Lacuna publishes 2 APIs on the [APIs.io](https://apis.io/) network: Lacuna Music API API and Music API. Tagged areas include AI Music, Music Generation, AI Song Generator, AI Lyrics Generator, and Audio.
+overview: 'Lacuna publishes 3 APIs on the [APIs.io](https://apis.io/) network: Music API Events, Music API, and Account API. Tagged areas include AI Music, Music Generation, AI Song Generator, AI Lyrics Generator, and Audio.
 
 
   The Lacuna catalog on APIs.io includes 1 event-driven AsyncAPI specification.
 
 
-  Lacuna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 36 more developer resources.'
+  Lacuna''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 36 more developer resources.'
 plans:
 - name: Lacuna Plans
   plan_count: 4
@@ -291,7 +297,7 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.3
+  composite: 62.1
   coverage:
     artifact_dirs: 26
     catalog_earned: 61.0
@@ -299,15 +305,13 @@ score:
     catalog_gap: 54.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 76.3
-    commercial_clarity: 76.3
     contract_governance: 18.2
-    contract_quality: 52.3
+    contract_quality: 55.5
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 63.2
   previous_composite: 61.3
   provenance:
@@ -317,11 +321,11 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
+      total: 3
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true
@@ -339,7 +343,7 @@ security:
 - kind: vulnerability-disclosure
   name: Lacuna Vulnerability Disclosure
   slug: lacuna-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · contact published
 slug: lacuna
 tags:
 - AI Music
@@ -354,5 +358,7 @@ tags:
 - AgentSkill
 - A2A
 - Developer Tools
+- Account
+- OAuth
 website: https://www.lacuna.fm/
 ---

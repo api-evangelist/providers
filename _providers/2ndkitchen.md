@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: false
     event_surface_described: false
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.5
-  scored_at: '2026-09-10'
+  score: 27.0
+  scored_at: '2026-09-12'
 api_count: 9
 apis:
 - baseURL: https://auth-staging.2ndkitchen.com
@@ -194,12 +194,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 43.7
     developer_ergonomics: 28.6
     discoverability: 74.1
-    governance: 0.0
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -219,8 +217,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

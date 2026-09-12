@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -183,16 +183,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 21.1
-    commercial_clarity: 21.1
     contract_governance: 13.6
     contract_quality: 42.7
     developer_ergonomics: 11.9
     discoverability: 74.1
-    governance: 13.6
     operational_transparency: 13.2
   previous_composite: 28.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

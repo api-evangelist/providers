@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 28.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: www.wyndhambusiness.com — the Wyndham Business corporate-travel program site — runs WordPress on WP Engine behind Cloudflare and leaves the standard WordPress REST API anonymously readable at /wp-json
@@ -264,12 +264,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 21.1
-    commercial_clarity: 21.1
     contract_governance: 4.5
     contract_quality: 13.3
     developer_ergonomics: 35.7
     discoverability: 81.5
-    governance: 4.5
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -282,8 +280,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

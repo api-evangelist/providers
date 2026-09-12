@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The Corelayer v1 REST API (api/v1) provides programmatic access to issues, groups, integrations, events, anomaly configs, deep research, API keys, and settings. It uses API-key authentication with rol
@@ -207,20 +207,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 47.4
-    commercial_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 39.5
   previous_composite: 49.4
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

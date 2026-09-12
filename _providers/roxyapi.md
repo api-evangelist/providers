@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Production REST API covering 14 spiritual intelligence domains with 210+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -217,20 +217,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 77.6
-    commercial_clarity: 77.6
     contract_governance: 4.5
     contract_quality: 26.7
     developer_ergonomics: 81.0
     discoverability: 70.4
-    governance: 4.5
     operational_transparency: 76.3
   previous_composite: 55.2
   provenance:
     conformance: derived
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 49.5
-  scored_at: '2026-09-10'
+  score: 54.7
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -3262,12 +3262,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 100.0
-    commercial_clarity: 100.0
     contract_governance: 33.3
     contract_quality: 82.6
     developer_ergonomics: 89.3
     discoverability: 75.9
-    governance: 33.3
     operational_transparency: 92.1
   previous_composite: 84.7
   provenance:
@@ -3280,8 +3278,8 @@ score:
       total: 42
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

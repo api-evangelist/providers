@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: All-in-one NFT data and trading API enabling developers to get NFT data, create orders, and execute trades across 30+ EVM-compatible blockchains. Aggregates liquidity from major NFT marketplaces inclu
@@ -135,12 +135,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 44.7
-    commercial_clarity: 44.7
     contract_governance: 0.0
     contract_quality: 41.3
     developer_ergonomics: 17.9
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 13.2
   previous_composite: 31.9
   regulatory:
@@ -149,8 +147,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 38.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

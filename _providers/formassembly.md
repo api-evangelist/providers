@@ -12,6 +12,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +26,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 30.6
-  scored_at: '2026-09-10'
+  score: 39.2
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -285,7 +286,7 @@ score:
   band: developing
   composite: 53.9
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 83.3
     catalog_earned_first_party: 0.0
     catalog_gap: 31.8
@@ -294,12 +295,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 57.9
-    commercial_clarity: 57.9
     contract_governance: 25.0
     contract_quality: 60.1
     developer_ergonomics: 28.6
     discoverability: 68.5
-    governance: 25.0
     operational_transparency: 52.6
   previous_composite: 53.9
   provenance:
@@ -309,14 +308,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
     score: 59.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

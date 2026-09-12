@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The BRICK ontology v1.4.4 defines a standardized vocabulary of building system concepts, relationships, and data model for smart building analytics. Available as RDF/OWL files, BRICK describes sensors
@@ -192,12 +192,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 7.9
-    commercial_clarity: 7.9
     contract_governance: 22.0
     contract_quality: 44.2
     developer_ergonomics: 54.2
     discoverability: 75.9
-    governance: 22.0
     operational_transparency: 18.4
   open_source:
     applies: true
@@ -218,8 +216,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

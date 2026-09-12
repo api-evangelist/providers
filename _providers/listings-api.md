@@ -10,6 +10,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -23,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -31,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 36.8
-  scored_at: '2026-09-10'
+  score: 42.0
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST API (OpenAPI 3.1) for managing locations, listings, connected accounts, reviews, posts, and analytics, with a hosted MCP server and llms.txt for agent-native access.
@@ -161,12 +162,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 76.3
-    commercial_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 48.1
     developer_ergonomics: 59.5
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 52.6
   previous_composite: 53.4
   provenance:
@@ -178,8 +177,8 @@ score:
       total: 1
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

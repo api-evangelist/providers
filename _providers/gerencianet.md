@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -783,12 +783,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 84.2
-    commercial_clarity: 84.2
     contract_governance: 69.7
     contract_quality: 65.4
     developer_ergonomics: 75.0
     discoverability: 55.6
-    governance: 69.7
     operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -811,8 +809,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.2
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

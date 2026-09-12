@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 46.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -836,12 +836,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 51.3
-    commercial_clarity: 51.3
     contract_governance: 28.0
     contract_quality: 71.0
     developer_ergonomics: 67.3
     discoverability: 81.5
-    governance: 28.0
     operational_transparency: 81.6
   previous_composite: 62.9
   provenance:
@@ -854,8 +852,8 @@ score:
       total: 21
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

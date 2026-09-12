@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: false
@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: false
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.5
-  scored_at: '2026-09-10'
+  score: 39.9
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -853,12 +853,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 42.1
-    commercial_clarity: 42.1
     contract_governance: 13.6
     contract_quality: 72.9
     developer_ergonomics: 23.8
     discoverability: 63.0
-    governance: 13.6
     operational_transparency: 50.0
   previous_composite: 53.7
   provenance:
@@ -874,8 +872,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Substly is an uncomplicated and affordable SaaS management platform for SMBs, offering subscription tracking, spend optimization, user access management, and shadow IT detection. It integrates with Go
@@ -119,16 +119,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 32.9
-    commercial_clarity: 32.9
     contract_governance: 0.0
     contract_quality: 10.7
     developer_ergonomics: 11.9
     discoverability: 59.3
-    governance: 0.0
     operational_transparency: 7.9
   previous_composite: 18.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

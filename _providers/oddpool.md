@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 21.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: 'REST API for prediction market data across Kalshi and Polymarket: full-text search over markets, events, and series; historical orderbook snapshots, top-of-book timeseries, trades, and OHLCV bars; wha'
@@ -164,12 +164,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 44.7
-    commercial_clarity: 44.7
     contract_governance: 4.5
     contract_quality: 41.7
     developer_ergonomics: 54.8
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 40.5
   provenance:
@@ -181,8 +179,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

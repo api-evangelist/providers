@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Build, run and observe PolyAI voice and chat agents from your own systems. Three REST API families (Agents, Conversations, Webhooks & Alerts) plus Chat, SMS, Outbound Calling, Handoff, DNI, External E
@@ -147,18 +147,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 7.9
-    commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 35.6
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

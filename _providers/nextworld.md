@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: 'Inbound REST endpoints into the Nextworld Platform. Every table and logic block created in the platform automatically exposes a set of endpoints for fetching, inserting, updating and deleting records '
@@ -211,19 +211,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 68.4
-    commercial_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 48.8
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

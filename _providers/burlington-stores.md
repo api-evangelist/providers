@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: 'Burlington''s consumer storefront: shopping, store locator, gift cards, loyalty and credit card servicing. No public API is published behind it. Every /.well-known/ path, /openapi.json and /llms.txt on'
@@ -160,18 +160,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 7.9
-    commercial_clarity: 7.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 66.7
-    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 10.4
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

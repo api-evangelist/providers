@@ -20,15 +20,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 53.2,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 60.5,
       "developer_ergonomics": 80.4,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -74,15 +72,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 42.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 68.4,
       "developer_ergonomics": 64.9,
-      "commercial_clarity": 48.7,
       "access_clarity": 48.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -128,15 +124,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 59.9,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 31.6,
       "developer_ergonomics": 49.4,
-      "commercial_clarity": 76.3,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -151,13 +145,13 @@
        }
       ]
      },
-     "agent_score": 38.0,
-     "agent_band": "agent-ready",
+     "agent_score": 44.0,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": "na",
-      "mcp_server": "documented",
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": "na",
       "error_semantics": "documented",
@@ -189,15 +183,13 @@
      "facets": {
       "discoverability": 70.4,
       "contract_quality": 64.9,
-      "governance": 19.7,
       "contract_governance": 19.7,
       "operational_transparency": 28.9,
       "developer_ergonomics": 66.1,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -253,15 +245,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 59.9,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 58.9,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -314,15 +304,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 57.8,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 2.6,
       "developer_ergonomics": 47.0,
-      "commercial_clarity": 57.1,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -368,15 +356,13 @@
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 62.6,
-      "governance": 8.3,
       "contract_governance": 8.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 49.4,
-      "commercial_clarity": 21.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -422,15 +408,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 55.5,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 72.0,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -476,15 +460,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 59.2,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -530,15 +512,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 41.2,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 35.1,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -594,15 +574,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 47.0,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 13.7,
-      "commercial_clarity": 27.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -657,15 +635,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -711,15 +687,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -765,15 +739,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -819,15 +791,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -873,15 +843,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -927,15 +895,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -981,15 +947,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1035,15 +999,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1089,15 +1051,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1143,15 +1103,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1197,15 +1155,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1251,15 +1207,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1305,15 +1259,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1359,15 +1311,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1413,15 +1363,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1467,15 +1415,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1521,15 +1467,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1575,15 +1519,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1629,15 +1571,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1683,15 +1623,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1737,15 +1675,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1791,15 +1727,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1845,15 +1779,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1899,15 +1831,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1953,15 +1883,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2007,15 +1935,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2061,15 +1987,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2115,15 +2039,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2169,15 +2091,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2223,15 +2143,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2277,15 +2195,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2331,15 +2247,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2385,15 +2299,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2439,15 +2351,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2493,15 +2403,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2547,15 +2455,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2601,15 +2507,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2655,15 +2559,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2709,15 +2611,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2763,15 +2663,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2817,15 +2715,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2871,15 +2767,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2925,15 +2819,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -2979,15 +2871,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3033,15 +2923,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3096,15 +2984,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3150,15 +3036,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3204,15 +3088,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3258,15 +3140,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3312,15 +3192,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3366,15 +3244,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3420,15 +3296,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3474,15 +3348,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3528,15 +3400,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3582,15 +3452,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3636,15 +3504,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3690,15 +3556,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3744,15 +3608,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3798,15 +3660,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3852,15 +3712,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3906,15 +3764,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3960,15 +3816,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4014,15 +3868,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4068,15 +3920,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4122,15 +3972,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4176,15 +4024,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4230,15 +4076,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4284,15 +4128,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4338,15 +4180,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4392,15 +4232,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4446,15 +4284,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4500,15 +4336,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4554,15 +4388,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4607,15 +4439,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4661,15 +4491,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4715,15 +4543,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4769,15 +4595,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4823,15 +4647,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4877,15 +4699,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4930,15 +4750,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4984,15 +4802,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5038,15 +4854,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",

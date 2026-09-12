@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 34.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://api.reefapi.com
@@ -188,20 +188,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 76.3
-    commercial_clarity: 76.3
     contract_governance: 18.2
     contract_quality: 47.6
     developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 39.5
   previous_composite: 56.9
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

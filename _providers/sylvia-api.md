@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 55.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: https://api.sylvia-api.com/v1
@@ -303,12 +303,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 68.4
-    commercial_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 57.7
     developer_ergonomics: 59.5
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 54.1
   provenance:
@@ -320,8 +318,8 @@ score:
       total: 16
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -686,12 +686,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 65.8
-    commercial_clarity: 65.8
     contract_governance: 4.5
     contract_quality: 33.5
     developer_ergonomics: 66.1
     discoverability: 66.7
-    governance: 4.5
     operational_transparency: 52.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -717,8 +715,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 44.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Partner-gated API surface exposing Ethos's underwriting and interview engines. Partners can retrieve customized quotes, conduct interviews and instant underwriting, collect required policy and billing
@@ -124,12 +124,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 17.1
-    commercial_clarity: 17.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 66.7
-    governance: 18.2
     operational_transparency: 2.6
   previous_composite: 18.1
   provenance:
@@ -140,8 +138,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The Code payments gRPC/Protobuf API — account, currency, messaging, and transaction (intent/swap) services that power the Code wallet and SDK.
@@ -166,12 +166,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 63.7
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 33.8
   provenance:
@@ -184,8 +182,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

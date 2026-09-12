@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The JSON API behind StoryTap's embeddable video widgets. Brands load a first-party loader script from StoryTap's CDN, and that script POSTs to api.storytap.com/w/* to fetch an embed's configuration an
@@ -185,19 +185,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 46.1
-    commercial_clarity: 46.1
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 37.6
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

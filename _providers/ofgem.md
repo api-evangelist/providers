@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -195,12 +195,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 10.5
-    commercial_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 31.9
     developer_ergonomics: 38.1
     discoverability: 61.1
-    governance: 4.5
     operational_transparency: 10.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -219,8 +217,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 59.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API served from the Bulletproof store host. Anonymous introspection succeeded on 2026-08-08 (424 types, QueryRoot + Mutation), and anonymous queries against shop, produc
@@ -185,12 +185,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 34.2
-    commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 42.6
     developer_ergonomics: 30.4
     discoverability: 81.5
-    governance: 4.5
     operational_transparency: 2.6
   previous_composite: 37.7
   provenance:
@@ -203,8 +201,8 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

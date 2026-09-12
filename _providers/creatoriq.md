@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 35
 apis:
 - baseURL: https://apis.creatoriq.com
@@ -372,12 +372,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 69.4
     developer_ergonomics: 66.1
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 78.9
   previous_composite: 65.4
   provenance:
@@ -401,8 +399,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 56.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

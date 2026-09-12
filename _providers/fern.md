@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 6.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Fern transforms a single API source of truth (OpenAPI, AsyncAPI, Protobuf, OpenRPC, or the Fern Definition Language) into type-safe SDKs in nine languages, branded interactive documentation with API e
@@ -349,19 +349,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 72.4
-    commercial_clarity: 72.4
     contract_governance: 25.0
     contract_quality: 10.7
     developer_ergonomics: 50.0
     discoverability: 59.3
-    governance: 25.0
     operational_transparency: 10.5
   open_source:
     applies: true
     score: 50.0
   previous_composite: 38.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

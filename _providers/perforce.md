@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -461,12 +461,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 36.8
-    commercial_clarity: 36.8
     contract_governance: 13.6
     contract_quality: 65.2
     developer_ergonomics: 65.5
     discoverability: 57.4
-    governance: 13.6
     operational_transparency: 39.5
   open_source:
     applies: true
@@ -482,8 +480,8 @@ score:
   regulatory:
     note: provider declares no identity tags; regime could not be determined
     undetermined: true
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

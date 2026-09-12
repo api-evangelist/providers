@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-09-10'
+  score: 44.6
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST API for programmatically creating and managing Qwilr pages (proposals, quotes, contracts, reports) from templates and saved blocks, managing quote taxes, listing payment gateways and users, and s
@@ -204,19 +204,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 53.9
-    commercial_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 57.1
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 50.0
   previous_composite: 48.9
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

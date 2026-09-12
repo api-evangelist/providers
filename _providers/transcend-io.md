@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: GraphQL API and Developer Tools wrapper for non-personal data tasks such as creating data silos, account management, and other configuration operations on the Transcend platform.
@@ -344,12 +344,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 71.1
-    commercial_clarity: 71.1
     contract_governance: 28.8
     contract_quality: 64.5
     developer_ergonomics: 26.2
     discoverability: 66.7
-    governance: 28.8
     operational_transparency: 52.6
   previous_composite: 54.1
   provenance:
@@ -358,8 +356,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

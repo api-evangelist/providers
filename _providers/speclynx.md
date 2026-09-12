@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: Stop wrestling with OpenAPI specs. SpecLynx OpenAPI Toolkit delivers the most effective way to author and manage your API specs, bringing unprecedented ease, pinpoint accuracy, and unmatched power dir
@@ -178,16 +178,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 14.7
     developer_ergonomics: 19.0
     discoverability: 72.2
-    governance: 9.8
     operational_transparency: 13.2
   previous_composite: 20.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

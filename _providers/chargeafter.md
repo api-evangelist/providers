@@ -25,7 +25,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: true
-    idempotency: verified
+    idempotency: documented
     mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 60.2
-  scored_at: '2026-09-10'
+  score: 56.9
+  scored_at: '2026-09-12'
 api_count: 26
 apis:
 - baseURL: https://api.chargeafter.com
@@ -317,12 +317,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 17.1
-    commercial_clarity: 17.1
     contract_governance: 4.5
     contract_quality: 62.9
     developer_ergonomics: 54.2
     discoverability: 92.6
-    governance: 4.5
     operational_transparency: 38.2
   previous_composite: 44.1
   provenance:
@@ -340,8 +338,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 32.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

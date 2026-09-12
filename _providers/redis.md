@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 6.3
-  scored_at: '2026-09-10'
+  score: 14.9
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: Core Redis commands and data structure operations. Redis supports strings, hashes, lists, sets, sorted sets, streams, and more. The primary interface is the Redis Serialization Protocol (RESP) over TC
@@ -222,7 +222,7 @@ score:
   band: developing
   composite: 40.6
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 67.3
     catalog_earned_first_party: 0.0
     catalog_gap: 47.8
@@ -231,16 +231,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 44.7
-    commercial_clarity: 44.7
     contract_governance: 25.0
     contract_quality: 26.7
     developer_ergonomics: 54.8
     discoverability: 72.2
-    governance: 25.0
     operational_transparency: 28.9
   previous_composite: 40.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  provenance:
+    mcp: first-party
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

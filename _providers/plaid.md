@@ -13,7 +13,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,7 +26,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: documented
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: verified
     protected_resource_metadata: false
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 37.2
-  scored_at: '2026-09-10'
+  score: 40.5
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 577
   human_in_the_loop: 12
@@ -549,12 +549,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 69.7
-    commercial_clarity: 69.7
     contract_governance: 29.5
     contract_quality: 68.9
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 29.5
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -586,8 +584,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 63.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

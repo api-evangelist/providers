@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -300,20 +300,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 18.4
-    commercial_clarity: 18.4
     contract_governance: 43.2
     contract_quality: 37.3
     developer_ergonomics: 65.5
     discoverability: 81.5
-    governance: 43.2
     operational_transparency: 23.7
   previous_composite: 42.5
   provenance:
     conformance: first-party
     mcp: derived
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

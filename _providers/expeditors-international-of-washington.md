@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 16.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Read-only REST/JSON API that lets a contracted Expeditors customer pull real-time shipment, container, order-management container, consignment and cross-dock tracking data into its own enterprise and '
@@ -196,19 +196,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 44.7
   previous_composite: 31.8
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

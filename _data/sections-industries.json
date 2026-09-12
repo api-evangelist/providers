@@ -36,7 +36,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5477,
+  "count": 5480,
   "roster_only": false
  },
  {
@@ -76,7 +76,7 @@
   "name": "Blockchain, Crypto & Web3",
   "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
   "icon": "currency_bitcoin",
-  "count": 1324,
+  "count": 1325,
   "roster_only": false
  },
  {
@@ -156,7 +156,7 @@
   "name": "Customer Relationship Management (CRM)",
   "description": "Systems of record for the customer relationship — contact and account management, pipeline and deal tracking, and the sales-engagement layers built on top of them.",
   "icon": "support_agent",
-  "count": 362,
+  "count": 363,
   "roster_only": false
  },
  {
@@ -164,7 +164,7 @@
   "name": "Customer Support & Service",
   "description": "Serving customers after the sale — help desks and service desks, contact and call centers, live chat and messaging support, and the feedback and satisfaction layers around them.",
   "icon": "headset_mic",
-  "count": 272,
+  "count": 273,
   "roster_only": false
  },
  {
@@ -172,7 +172,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2186,
+  "count": 2188,
   "roster_only": false
  },
  {
@@ -180,7 +180,7 @@
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2436,
+  "count": 2437,
   "roster_only": false
  },
  {
@@ -196,7 +196,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3001,
+  "count": 3003,
   "roster_only": false
  },
  {
@@ -260,7 +260,7 @@
   "name": "Event Management Software",
   "description": "The software events run on — registration and attendee management, event ticketing and box office, venue and attraction operations, and the virtual and hybrid event platforms.",
   "icon": "event",
-  "count": 129,
+  "count": 130,
   "roster_only": false
  },
  {
@@ -388,7 +388,7 @@
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1155,
+  "count": 1156,
   "roster_only": false
  },
  {
@@ -452,7 +452,7 @@
   "name": "Music, Audio & Creator Economy",
   "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
   "icon": "graphic_eq",
-  "count": 892,
+  "count": 894,
   "roster_only": false
  },
  {
@@ -476,7 +476,7 @@
   "name": "Payments & Money Movement",
   "description": "Moving money — card acquiring and gateways, payment orchestration and checkout, payouts and disbursement, cross-border transfer and FX, issuing, BNPL and point of sale.",
   "icon": "payments",
-  "count": 1689,
+  "count": 1690,
   "roster_only": false
  },
  {
@@ -596,7 +596,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1327,
+  "count": 1328,
   "roster_only": false
  },
  {

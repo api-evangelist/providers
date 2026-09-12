@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.6
-  scored_at: '2026-09-10'
+  score: 44.8
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 233
   human_in_the_loop: 2
@@ -740,12 +740,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 72.4
-    commercial_clarity: 72.4
     contract_governance: 4.5
     contract_quality: 68.7
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 52.6
   previous_composite: 62.8
   provenance:
@@ -768,8 +766,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

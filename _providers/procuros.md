@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -205,12 +205,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 56.6
     developer_ergonomics: 61.3
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -229,8 +227,8 @@ score:
       total: 4
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

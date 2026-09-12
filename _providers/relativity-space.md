@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://www.relativityspace.com
@@ -126,21 +126,19 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 27.9
     developer_ergonomics: 9.5
     discoverability: 59.3
-    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativity-space/refs/heads/main/screenshots/relativity-space-2026-06-20T192820.png
 security:
 - kind: domain-security

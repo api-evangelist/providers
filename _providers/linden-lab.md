@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - description: Anonymous, unauthenticated feeds publishing live Second Life grid statistics (grid status, total registered accounts, avatars currently inworld) and LindeX currency-market data (limit and market buy/s
@@ -230,19 +230,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 76.3
-    commercial_clarity: 76.3
     contract_governance: 4.5
     contract_quality: 48.1
     developer_ergonomics: 71.4
     discoverability: 74.1
-    governance: 4.5
     operational_transparency: 73.7
   previous_composite: 59.1
   provenance:
     conformance: derived
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The ImandraX cloud-native automated reasoning engine, exposed as a protobuf-defined gRPC API. Services include Eval (evaluate code snippets, parse terms/types, manage artifacts), Simple (verify, test,
@@ -156,18 +156,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 26.7
     developer_ergonomics: 69.0
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 2.6
   previous_composite: 33.9
   provenance:
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

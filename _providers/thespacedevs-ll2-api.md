@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://ll.thespacedevs.com
@@ -472,12 +472,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 25.0
     contract_quality: 54.9
     developer_ergonomics: 14.3
     discoverability: 44.4
-    governance: 25.0
     operational_transparency: 13.2
   previous_composite: 28.9
   provenance:
@@ -486,8 +484,8 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

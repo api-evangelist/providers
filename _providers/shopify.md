@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: verified
+    idempotency: documented
     mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: verified
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 58.8
-  scored_at: '2026-09-10'
+  score: 55.5
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 739
   human_in_the_loop: 6
@@ -2298,12 +2298,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 100.0
-    commercial_clarity: 100.0
     contract_governance: 47.0
     contract_quality: 84.3
     developer_ergonomics: 96.4
     discoverability: 66.7
-    governance: 47.0
     operational_transparency: 94.7
   previous_composite: 90.2
   provenance:
@@ -2322,8 +2320,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 71.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

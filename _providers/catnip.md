@@ -27,7 +27,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -35,8 +35,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: true
   schema_version: 0.2
-  score: 14.2
-  scored_at: '2026-09-10'
+  score: 19.4
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: Bulk-create WhatsApp contacts inside a Chatfuel automation. POST a list of up to 1,000 E.164 phone numbers plus a contact_data.properties map of custom attributes applied to every contact in the reque
@@ -196,19 +196,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 52.6
   previous_composite: 40.7
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

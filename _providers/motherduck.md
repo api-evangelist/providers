@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 8.6
-  scored_at: '2026-09-10'
+  score: 17.3
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Clients connect to MotherDuck through DuckDB's native protocol using a connection string of the form `md:` plus an access token. Officially supported clients include DuckDB CLI, Python, Node.js, JDBC,
@@ -118,7 +118,7 @@ score:
   band: emerging
   composite: 22.3
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -127,16 +127,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 26.3
-    commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 40.5
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 10.5
   previous_composite: 22.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  provenance:
+    mcp: first-party
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

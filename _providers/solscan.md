@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: na
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.8
-  scored_at: '2026-09-10'
+  score: 30.8
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Free, lower-rate-limit public API exposing basic account, transaction, and token endpoints used by the Solscan UI.
@@ -153,7 +153,7 @@ score:
   band: thin
   composite: 30.6
   coverage:
-    artifact_dirs: 8
+    artifact_dirs: 9
     catalog_earned: 46.0
     catalog_earned_first_party: 0.0
     catalog_gap: 69.0
@@ -162,12 +162,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 26.3
-    commercial_clarity: 26.3
     contract_governance: 0.0
     contract_quality: 50.3
     developer_ergonomics: 19.0
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 10.5
   previous_composite: 30.6
   provenance:
@@ -176,8 +174,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+    mcp: first-party
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

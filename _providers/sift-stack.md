@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The gRPC contract that is Sift's primary API — 51 services and 330 RPCs defined across 66 proto3 files published under MIT in the sift-stack/sift monorepo, including the bidirectional streaming ingest
@@ -454,12 +454,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 50.0
-    commercial_clarity: 50.0
     contract_governance: 0.0
     contract_quality: 60.3
     developer_ergonomics: 73.8
     discoverability: 70.4
-    governance: 0.0
     operational_transparency: 52.6
   previous_composite: 60.6
   provenance:
@@ -477,8 +475,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 55.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

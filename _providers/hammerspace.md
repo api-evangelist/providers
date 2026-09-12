@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 17.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The management REST API served by the Hammerspace Anvil metadata server at the base path /mgmt/v1.2/rest. It is the programmatic control plane behind the Hammerspace GUI and admin CLI, covering shares
@@ -198,12 +198,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 6.6
-    commercial_clarity: 6.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 26.2
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 18.4
   open_source:
     applies: true
@@ -212,8 +210,8 @@ score:
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

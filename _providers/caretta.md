@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.5
-  scored_at: '2026-09-10'
+  score: 47.7
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol server that gives compatible AI clients OAuth-scoped access to the Caretta calls, transcripts and todos the signed-in user can already see. Seven documented tools cover l
@@ -208,20 +208,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 42.1
-    commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 52.4
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 7.9
   previous_composite: 40.1
   provenance:
     conformance: first-party
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - description: REST-based interface to NetSuite business objects as JSON resources with CRUD operations, SuiteQL high-performance queries, and an OpenAPI 3.0 definition that provides rich object metadata for records
@@ -117,16 +117,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 13.2
-    commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 41.5
     developer_ergonomics: 19.0
     discoverability: 74.1
-    governance: 0.0
     operational_transparency: 2.6
   previous_composite: 24.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

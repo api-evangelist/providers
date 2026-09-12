@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST API for programmatically uploading and processing video, managing templates/branding/output settings, retrieving results, and accessing analytics. Bearer API-key authentication with signed webhoo
@@ -122,16 +122,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 38.2
-    commercial_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 35.7
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 7.9
   previous_composite: 33.1
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

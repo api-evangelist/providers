@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 47.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 78
 apis:
 - description: The Creative External API uploads creative assets and publishes ads to ad networks programmatically, bypassing the AppsFlyer Creative Dashboard UI. It is asynchronous — a batch is submitted for upload
@@ -886,12 +886,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 92.1
-    commercial_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 60.1
     developer_ergonomics: 58.9
     discoverability: 87.0
-    governance: 4.5
     operational_transparency: 73.7
   previous_composite: 65.6
   provenance:
@@ -903,8 +901,8 @@ score:
       total: 70
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

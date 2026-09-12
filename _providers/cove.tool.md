@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 24.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - baseURL: https://app.covetool.com/api/v2
@@ -208,12 +208,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 13.2
-    commercial_clarity: 13.2
     contract_governance: 4.5
     contract_quality: 50.5
     developer_ergonomics: 56.5
     discoverability: 74.1
-    governance: 4.5
     operational_transparency: 2.6
   previous_composite: 34.7
   provenance:
@@ -231,8 +229,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 23.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

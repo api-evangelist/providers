@@ -30,7 +30,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -38,8 +38,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 45.3
-  scored_at: '2026-09-10'
+  score: 50.5
+  scored_at: '2026-09-12'
 api_count: 31
 apis:
 - description: A hosted, remote Model Context Protocol server on every regional Conga Advantage Platform gateway. It answers MCP JSON-RPC over Streamable HTTP, rejects anonymous calls with an RFC 6750 bearer challen
@@ -1990,12 +1990,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 53.9
-    commercial_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 64.3
     developer_ergonomics: 66.1
     discoverability: 57.4
-    governance: 18.2
     operational_transparency: 71.1
   previous_composite: 62.6
   provenance:
@@ -2007,8 +2005,8 @@ score:
       total: 345
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

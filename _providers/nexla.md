@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 41.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - baseURL: https://dataops.nexla.io/nexla-api
@@ -596,12 +596,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 71.1
-    commercial_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 59.0
     developer_ergonomics: 73.2
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 57.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -618,8 +616,8 @@ score:
       total: 72
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

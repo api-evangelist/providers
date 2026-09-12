@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://developer.cashflo.io
@@ -157,12 +157,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 35.5
-    commercial_clarity: 35.5
     contract_governance: 4.5
     contract_quality: 54.2
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -187,8 +185,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 46.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

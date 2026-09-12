@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 5.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 0
 artifact_total: 4
 common:
@@ -129,12 +129,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
     discoverability: 53.7
-    governance: 18.2
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -144,8 +142,8 @@ score:
   previous_composite: 10.7
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

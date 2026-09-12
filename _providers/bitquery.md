@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.1
-  scored_at: '2026-09-10'
+  score: 27.7
+  scored_at: '2026-09-12'
 api_count: 10
 apis:
 - description: Unified GraphQL endpoint for querying onchain data across 40+ supported blockchains - blocks, transactions, transfers, DEX trades, balances, holders, NFTs, prices, events, traces. Standard GraphQL POS
@@ -152,7 +152,7 @@ score:
   band: thin
   composite: 34.2
   coverage:
-    artifact_dirs: 9
+    artifact_dirs: 10
     catalog_earned: 62.8
     catalog_earned_first_party: 0.0
     catalog_gap: 52.3
@@ -161,16 +161,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 11.4
     contract_quality: 45.8
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 11.4
     operational_transparency: 26.3
   previous_composite: 34.2
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  provenance:
+    mcp: first-party
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

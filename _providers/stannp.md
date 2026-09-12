@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 38.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -354,12 +354,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 93.4
-    commercial_clarity: 93.4
     contract_governance: 43.2
     contract_quality: 75.8
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 43.2
     operational_transparency: 68.4
   previous_composite: 80.1
   provenance:
@@ -378,8 +376,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 56.9
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

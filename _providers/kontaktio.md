@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 51.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 8
 apis:
 - baseURL: https://dm-api.cloud.us.kontakt.io
@@ -387,12 +387,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 36.8
-    commercial_clarity: 36.8
     contract_governance: 4.5
     contract_quality: 66.4
     developer_ergonomics: 73.2
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 73.7
   previous_composite: 65.3
   provenance:
@@ -410,8 +408,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

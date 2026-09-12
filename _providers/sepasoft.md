@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 10.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The REST and SOAP surface the Sepasoft Web Services module exposes. Endpoints are authored by the operator in the Ignition Designer and served from the customer's own Ignition Gateway, mounted beneath
@@ -184,18 +184,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 86.8
-    commercial_clarity: 86.8
     contract_governance: 15.2
     contract_quality: 14.7
     developer_ergonomics: 47.6
     discoverability: 75.9
-    governance: 15.2
     operational_transparency: 36.8
   previous_composite: 44.8
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

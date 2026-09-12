@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: OData 4 (recommended) and legacy OData 3 access to Creatio platform entities. The OData 4 service is at /0/odata with EDMX metadata at /0/odata/$metadata; supports $filter/$select/$expand/$orderby/$to
@@ -207,19 +207,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 92.1
-    commercial_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 55.3
   previous_composite: 59.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

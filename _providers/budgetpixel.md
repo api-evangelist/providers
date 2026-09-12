@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 33.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: First-party hosted remote Model Context Protocol server (streamable HTTP, protocol 2025-06-18) giving agents 12 tools to generate images, video, music and sound effects on the signed-in account, upsca
@@ -350,12 +350,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 63.2
-    commercial_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 57.5
     developer_ergonomics: 64.3
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 56.7
   provenance:
@@ -373,8 +371,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

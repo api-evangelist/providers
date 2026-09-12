@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: Smart hospital beds, ICU beds, med-surg beds, and patient support systems including Centrella, Progressa, and VersaCare platforms. Integrates with hospital IT systems for fall risk monitoring, pressur
@@ -107,12 +107,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 9.5
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 6.7
   regulatory:
@@ -121,8 +119,8 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

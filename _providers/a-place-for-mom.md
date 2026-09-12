@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'The integration surface of You''ve Got Leads, the senior-living CRM that is a division of A Place for Mom, Inc. The public integrations page names an "application programming interface (API)" used for '
@@ -147,12 +147,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 4.8
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 10.5
   previous_composite: 25.7
   regulatory:
@@ -161,8 +159,8 @@ score:
     regime: Health
     regime_id: health
     score: 17.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: The BMW Vehicle Identification API allows users to access detailed information about BMW vehicles by inputting their unique vehicle identification number (VIN). Provides essential data about a vehicle
@@ -138,16 +138,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 36.8
-    commercial_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 41.5
     developer_ergonomics: 38.1
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 10.5
   previous_composite: 33.2
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

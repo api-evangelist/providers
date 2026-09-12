@@ -1,6 +1,6 @@
 ---
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: true
@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 3.6
-  scored_at: '2026-09-10'
+  score: 12.2
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: Xelta's REST API — 74 operations across seven tags (Auth, Models, Site Scan / Brand DNA, Community, Upload, Asset History, Contact) described by an OpenAPI 3.0.0 document served live at https://api.xe
@@ -119,7 +119,7 @@ score:
   band: emerging
   composite: 20.0
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 6
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -128,18 +128,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 38.2
-    commercial_clarity: 38.2
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 23.8
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 20.0
   provenance:
+    mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

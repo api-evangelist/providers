@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -292,12 +292,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 54.4
     developer_ergonomics: 67.3
     discoverability: 66.7
-    governance: 18.2
     operational_transparency: 31.6
   previous_composite: 55.8
   provenance:
@@ -316,8 +314,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 60.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -21,15 +21,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 56.8,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 71.1,
       "developer_ergonomics": 57.1,
-      "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -84,15 +82,13 @@
      "facets": {
       "discoverability": 79.6,
       "contract_quality": 64.1,
-      "governance": 67.4,
       "contract_governance": 67.4,
       "operational_transparency": 50.0,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -138,15 +134,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 69.3,
-      "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 47.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -191,15 +185,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 66.4,
-      "governance": 78.8,
       "contract_governance": 78.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 47.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -245,15 +237,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 59.2,
-      "governance": 61.4,
       "contract_governance": 61.4,
       "operational_transparency": 34.2,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -299,15 +289,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 66.0,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -353,15 +341,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 68.2,
-      "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 54.8,
-      "commercial_clarity": 57.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -407,15 +393,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 67.7,
-      "governance": 49.2,
       "contract_governance": 49.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -461,15 +445,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 69.0,
-      "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -515,15 +497,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 61.3,
-      "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -569,15 +549,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 47.0,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 42.1,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 73.7,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -633,15 +611,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 61.4,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 48.8,
-      "commercial_clarity": 71.1,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -687,15 +663,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 63.6,
-      "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 10.5,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -741,15 +715,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 53.1,
-      "governance": 22.0,
       "contract_governance": 22.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 57.1,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -795,15 +767,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 65.3,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -849,15 +819,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 70.2,
-      "governance": 14.4,
       "contract_governance": 14.4,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -903,15 +871,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 60.7,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -957,15 +923,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 60.7,
-      "governance": 40.9,
       "contract_governance": 40.9,
       "operational_transparency": 26.3,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1011,15 +975,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 63.7,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1065,15 +1027,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 56.9,
-      "governance": 35.6,
       "contract_governance": 35.6,
       "operational_transparency": 34.2,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1119,15 +1079,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 60.7,
-      "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 34.2,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1173,15 +1131,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 66.0,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1226,15 +1182,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 62.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1280,15 +1234,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 61.8,
-      "governance": 67.4,
       "contract_governance": 67.4,
       "operational_transparency": 21.1,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1334,15 +1286,13 @@
      "facets": {
       "discoverability": 70.4,
       "contract_quality": 46.8,
-      "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 34.2,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1388,15 +1338,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 71.3,
-      "governance": 34.1,
       "contract_governance": 34.1,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1442,15 +1390,13 @@
      "facets": {
       "discoverability": 55.6,
       "contract_quality": 64.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1496,15 +1442,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 63.4,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1550,15 +1494,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 58.9,
-      "governance": 35.6,
       "contract_governance": 35.6,
       "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1604,15 +1546,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 58.9,
-      "governance": 22.0,
       "contract_governance": 22.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 32.1,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1658,15 +1598,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 59.5,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1712,15 +1650,13 @@
      "facets": {
       "discoverability": 79.6,
       "contract_quality": 25.3,
-      "governance": 63.6,
       "contract_governance": 63.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1766,15 +1702,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 61.2,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1820,15 +1754,13 @@
      "facets": {
       "discoverability": 55.6,
       "contract_quality": 64.0,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1874,15 +1806,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 57.6,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1928,15 +1858,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 17.6,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 55.3,
       "developer_ergonomics": 66.1,
-      "commercial_clarity": 68.4,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1982,15 +1910,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 66.6,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2036,15 +1962,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 61.5,
-      "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2090,15 +2014,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 55.3,
-      "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 23.7,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2144,15 +2066,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 52.7,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2198,15 +2118,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.3,
-      "governance": 60.6,
       "contract_governance": 60.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2252,15 +2170,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 41.8,
-      "governance": 58.3,
       "contract_governance": 58.3,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2306,15 +2222,13 @@
      "facets": {
       "discoverability": 44.4,
       "contract_quality": 58.6,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2360,15 +2274,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 49.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2414,15 +2326,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 59.3,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2468,15 +2378,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 62.7,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2522,15 +2430,13 @@
      "facets": {
       "discoverability": 79.6,
       "contract_quality": 57.9,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2576,15 +2482,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 49.8,
-      "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2630,15 +2534,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 54.1,
-      "governance": 22.7,
       "contract_governance": 22.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2684,15 +2586,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 26.0,
-      "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2738,15 +2638,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 63.0,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2792,15 +2690,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 57.9,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2846,15 +2742,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 62.2,
-      "governance": 34.1,
       "contract_governance": 34.1,
       "operational_transparency": 23.7,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2900,15 +2794,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 57.6,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2954,15 +2846,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 55.9,
-      "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3008,15 +2898,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 58.5,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 52.6,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3062,15 +2950,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 64.1,
-      "governance": 22.0,
       "contract_governance": 22.0,
       "operational_transparency": 39.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3116,15 +3002,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 48.8,
-      "governance": 45.5,
       "contract_governance": 45.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3170,15 +3054,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 61.8,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 25.0,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3224,15 +3106,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 69.0,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3278,15 +3158,13 @@
      "facets": {
       "discoverability": 61.1,
       "contract_quality": 56.9,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3332,15 +3210,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 60.5,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3386,15 +3262,13 @@
      "facets": {
       "discoverability": 79.6,
       "contract_quality": 62.7,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3440,15 +3314,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 26.2,
-      "governance": 34.1,
       "contract_governance": 34.1,
       "operational_transparency": 23.7,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3494,15 +3366,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 61.2,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3548,15 +3418,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 30.6,
-      "governance": 45.5,
       "contract_governance": 45.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3602,15 +3470,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 63.2,
-      "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 10.5,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3656,15 +3522,13 @@
      "facets": {
       "discoverability": 79.6,
       "contract_quality": 30.3,
-      "governance": 19.7,
       "contract_governance": 19.7,
       "operational_transparency": 23.7,
       "developer_ergonomics": 47.6,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3710,15 +3574,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 62.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3764,15 +3626,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 29.1,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 55.3,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3818,15 +3678,13 @@
      "facets": {
       "discoverability": 63.0,
       "contract_quality": 58.6,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3872,15 +3730,13 @@
      "facets": {
       "discoverability": 53.7,
       "contract_quality": 58.8,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3926,15 +3782,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 57.5,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -3980,15 +3834,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 50.0,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4034,15 +3886,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 52.6,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4088,15 +3938,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 50.6,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 52.4,
-      "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4142,15 +3990,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 39.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4196,15 +4042,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 29.4,
-      "governance": 60.6,
       "contract_governance": 60.6,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4250,15 +4094,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 54.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4304,15 +4146,13 @@
      "facets": {
       "discoverability": 79.6,
       "contract_quality": 13.1,
-      "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 63.2,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4358,15 +4198,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 27.5,
-      "governance": 31.8,
       "contract_governance": 31.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4412,15 +4250,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 59.1,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4466,15 +4302,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.7,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4520,15 +4354,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 28.4,
-      "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4574,15 +4406,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 23.8,
-      "governance": 30.3,
       "contract_governance": 30.3,
       "operational_transparency": 23.7,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4628,15 +4458,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 40.9,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4682,15 +4510,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 49.8,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 18.4,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4736,15 +4562,13 @@
      "facets": {
       "discoverability": 55.6,
       "contract_quality": 54.7,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4790,15 +4614,13 @@
      "facets": {
       "discoverability": 44.4,
       "contract_quality": 51.9,
-      "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4844,15 +4666,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 28.1,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4898,15 +4718,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 67.1,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4952,15 +4770,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 26.8,
-      "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5006,15 +4822,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 26.8,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5060,15 +4874,13 @@
      "facets": {
       "discoverability": 63.0,
       "contract_quality": 62.0,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5114,15 +4926,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 50.9,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5167,15 +4977,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 29.3,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5221,15 +5029,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 29.1,
-      "governance": 22.7,
       "contract_governance": 22.7,
       "operational_transparency": 34.2,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5275,15 +5081,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 53.3,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5329,15 +5133,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 20.2,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 34.2,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5383,15 +5185,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 58.6,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5437,15 +5237,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 65.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5491,15 +5289,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 54.2,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5545,15 +5341,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 50.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5599,15 +5393,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 45.6,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5653,15 +5445,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 21.3,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5707,15 +5497,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 27.4,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5761,15 +5549,13 @@
      "facets": {
       "discoverability": 44.4,
       "contract_quality": 53.6,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 22.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5815,15 +5601,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 57.0,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5869,15 +5653,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 26.1,
-      "governance": 34.1,
       "contract_governance": 34.1,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5923,15 +5705,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 31.6,
-      "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5977,15 +5757,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 18.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6040,15 +5818,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 62.5,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6094,15 +5870,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6148,15 +5922,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 22.3,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6202,15 +5974,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 57.9,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6256,15 +6026,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 17.5,
-      "governance": 34.1,
       "contract_governance": 34.1,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6310,15 +6078,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 33.2,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 31.6,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6364,15 +6130,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 19.8,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6418,15 +6182,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 56.2,
-      "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6472,15 +6234,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6526,15 +6286,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 30.6,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 39.5,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6580,15 +6338,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 54.6,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6634,15 +6390,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6688,15 +6442,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 45.2,
-      "commercial_clarity": 60.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6742,15 +6494,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 20.5,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6796,15 +6546,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 34.2,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6850,15 +6598,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6904,15 +6650,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 22.0,
-      "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6958,15 +6702,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 42.9,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 39.3,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7012,15 +6754,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 22.3,
-      "governance": 19.7,
       "contract_governance": 19.7,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7066,15 +6806,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 61.5,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7120,15 +6858,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 26.8,
-      "governance": 45.5,
       "contract_governance": 45.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7174,15 +6910,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 18.9,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7228,15 +6962,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 34.2,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7282,15 +7014,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 29.2,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7336,15 +7066,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7390,15 +7118,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 26.3,
-      "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7444,15 +7170,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 26.3,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7498,15 +7222,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 26.1,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7552,15 +7274,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 27.0,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7606,15 +7326,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 20.8,
-      "governance": 29.5,
       "contract_governance": 29.5,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7659,15 +7377,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 37.2,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7713,15 +7429,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 26.7,
-      "governance": 49.2,
       "contract_governance": 49.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7767,15 +7481,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 28.2,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 22.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7821,15 +7533,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 28.9,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7875,15 +7585,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7929,15 +7637,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 24.1,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7983,15 +7689,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 19.8,
-      "governance": 7.6,
       "contract_governance": 7.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8037,15 +7741,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 23.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8091,15 +7793,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 22.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8145,15 +7845,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 27.5,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 21.1,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8199,15 +7897,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 23.8,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8253,15 +7949,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 13.2,
       "developer_ergonomics": 37.5,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8307,15 +8001,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 28.0,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8361,15 +8053,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 27.5,
-      "governance": 17.4,
       "contract_governance": 17.4,
       "operational_transparency": 10.5,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8415,15 +8105,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 51.6,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 7.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8468,15 +8156,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 25.8,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8522,15 +8208,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8576,15 +8260,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8630,15 +8312,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 20.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8684,15 +8364,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 20.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8738,15 +8416,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8792,15 +8468,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8846,15 +8520,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 17.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 52.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8900,15 +8572,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 26.5,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 32.1,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8954,15 +8624,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9008,15 +8676,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 17.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9062,15 +8728,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9116,15 +8780,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 22.8,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9170,15 +8832,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 45.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9224,15 +8884,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 20.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9278,15 +8936,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 26.9,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9332,15 +8988,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 41.9,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9386,15 +9040,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9440,15 +9092,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 20.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9494,15 +9144,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 17.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9548,15 +9196,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9602,15 +9248,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 47.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9656,15 +9300,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 24.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9710,15 +9352,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 25.1,
-      "governance": 11.4,
       "contract_governance": 11.4,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9764,15 +9404,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 10.6,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9818,15 +9456,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9872,15 +9508,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9926,15 +9560,13 @@
      "facets": {
       "discoverability": 55.6,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -9979,15 +9611,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 51.4,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10033,15 +9663,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10087,15 +9715,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 28.2,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 23.7,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10141,15 +9767,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 17.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10195,15 +9819,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10249,15 +9871,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10303,15 +9923,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10357,15 +9975,13 @@
      "facets": {
       "discoverability": 85.2,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10411,15 +10027,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 18.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10465,15 +10079,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 22.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10519,15 +10131,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10573,15 +10183,13 @@
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10627,15 +10235,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10681,15 +10287,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 19.2,
-      "governance": 28.0,
       "contract_governance": 28.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10735,15 +10339,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 26.1,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10788,15 +10390,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10842,15 +10442,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.3,
-      "governance": 8.3,
       "contract_governance": 8.3,
       "operational_transparency": 26.3,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10896,15 +10494,13 @@
      "facets": {
       "discoverability": 87.0,
       "contract_quality": 0.0,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 0.0,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -10950,15 +10546,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11004,15 +10598,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 20.5,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11058,15 +10650,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.1,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11111,15 +10701,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11165,15 +10753,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11219,15 +10805,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 17.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 29.8,
-      "commercial_clarity": 34.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11273,15 +10857,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11327,15 +10909,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11381,15 +10961,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11435,15 +11013,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 25.0,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 21.1,
       "developer_ergonomics": 13.1,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11489,15 +11065,13 @@
      "facets": {
       "discoverability": 81.5,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11543,15 +11117,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 11.7,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11597,15 +11169,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11651,15 +11221,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 30.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 7.9,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11705,15 +11273,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11759,15 +11325,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11813,15 +11377,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11867,15 +11429,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 28.1,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11921,15 +11481,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 28.6,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -11975,15 +11533,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 39.5,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12029,15 +11585,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 26.7,
-      "governance": 3.8,
       "contract_governance": 3.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12092,15 +11646,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 18.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12146,15 +11698,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 42.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12200,15 +11750,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 25.6,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12254,15 +11802,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 20.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12308,15 +11854,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 1.9,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12361,15 +11905,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 21.1,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12415,15 +11957,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 7.9,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12469,15 +12009,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 22.5,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12523,15 +12061,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 50.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12576,15 +12112,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 18.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12630,15 +12164,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12684,15 +12216,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 18.2,
       "contract_governance": 18.2,
       "operational_transparency": 23.7,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12738,15 +12268,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 14.3,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12792,15 +12320,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12846,15 +12372,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12900,15 +12424,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 17.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 14.3,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12954,15 +12476,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 17.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13007,15 +12527,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 14.3,
-      "commercial_clarity": 39.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13061,15 +12579,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 36.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13115,15 +12631,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13169,15 +12683,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13223,15 +12735,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 23.7,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13277,15 +12787,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13331,15 +12839,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 14.3,
-      "governance": 4.5,
       "contract_governance": 4.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 13.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13385,15 +12891,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 7.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13439,15 +12943,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 4.4,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13493,15 +12995,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 14.3,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 18.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13547,15 +13047,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 7.9,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 28.9,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13601,15 +13099,13 @@
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "commercial_clarity": 44.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13664,15 +13160,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13718,15 +13212,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 7.9,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13772,15 +13264,13 @@
      "facets": {
       "discoverability": 40.7,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13826,15 +13316,13 @@
      "facets": {
       "discoverability": 46.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13880,15 +13368,13 @@
      "facets": {
       "discoverability": 46.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13934,15 +13420,13 @@
      "facets": {
       "discoverability": 46.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -13988,15 +13472,13 @@
      "facets": {
       "discoverability": 46.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -14042,15 +13524,13 @@
      "facets": {
       "discoverability": 46.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -14096,15 +13576,13 @@
      "facets": {
       "discoverability": 46.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",

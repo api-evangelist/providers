@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
@@ -206,12 +206,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 42.1
-    commercial_clarity: 42.1
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 65.8
   previous_composite: 45.3
   provenance:
@@ -223,8 +221,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

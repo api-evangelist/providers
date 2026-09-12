@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - baseURL: https://api.nearspacelabs.net
@@ -215,12 +215,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 10.5
-    commercial_clarity: 10.5
     contract_governance: 4.5
     contract_quality: 40.7
     developer_ergonomics: 70.8
     discoverability: 81.5
-    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 38.5
   provenance:
@@ -238,8 +236,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 31.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

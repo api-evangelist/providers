@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Venn's tenant-facing GraphQL API, served through an Apollo Federation gateway on AWS API Gateway. Anonymous introspection returns the full contract — 1,983 types, 320 query fields, 357 mutation fields
@@ -134,12 +134,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 4.5
     contract_quality: 37.2
     developer_ergonomics: 20.8
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 18.4
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -157,8 +155,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 54.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

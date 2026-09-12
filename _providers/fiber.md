@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Fiber is an Express-inspired web framework for Go built on Fasthttp for building fast and scalable microservices and APIs.
@@ -102,16 +102,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 9.8
     contract_quality: 8.0
     developer_ergonomics: 0.0
     discoverability: 40.7
-    governance: 9.8
     operational_transparency: 7.9
   previous_composite: 11.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

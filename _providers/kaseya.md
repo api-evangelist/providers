@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 31.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: The IT Glue API is a JSON:API-conformant REST interface over the IT Glue IT-documentation platform — organizations, configurations, contacts, locations, passwords, documents, flexible assets and flexi
@@ -2683,12 +2683,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 38.2
-    commercial_clarity: 38.2
     contract_governance: 4.5
     contract_quality: 54.0
     developer_ergonomics: 63.7
     discoverability: 57.4
-    governance: 4.5
     operational_transparency: 73.7
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -2705,8 +2703,8 @@ score:
       total: 484
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

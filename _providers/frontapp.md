@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The Front Core API is a REST API over Front's shared-inbox platform. It exposes conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge base
@@ -224,19 +224,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 46.1
-    commercial_clarity: 46.1
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 53.6
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 52.6
   previous_composite: 47.0
   provenance:
     conformance: first-party
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

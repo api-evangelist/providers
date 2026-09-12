@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: The Shopify Storefront GraphQL API as served from AG1's own storefront host, shop.drinkag1.com. Anonymous schema introspection succeeds, exposing 35 query fields, 41 mutations and 416 types covering p
@@ -181,12 +181,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 17.1
-    commercial_clarity: 17.1
     contract_governance: 18.2
     contract_quality: 41.5
     developer_ergonomics: 28.0
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 34.0
   provenance:
@@ -199,8 +197,8 @@ score:
     regime: Health
     regime_id: health
     score: 47.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -11,7 +11,7 @@ access_model:
   trial: true
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
+    idempotency: verified
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.1
-  scored_at: '2026-09-10'
+  score: 39.3
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://api.usepomo.ai
@@ -649,12 +649,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 69.7
-    commercial_clarity: 69.7
     contract_governance: 4.5
     contract_quality: 61.4
     developer_ergonomics: 37.5
     discoverability: 70.4
-    governance: 4.5
     operational_transparency: 28.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -671,8 +669,8 @@ score:
       total: 100
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

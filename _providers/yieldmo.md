@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: JavaScript SDK providing publisher-side API methods for managing ad placements and requesting page views in single-page applications and infinite scroll implementations. Enables dynamic ad loading wit
@@ -265,12 +265,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 22.4
-    commercial_clarity: 22.4
     contract_governance: 4.5
     contract_quality: 43.8
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 2.6
   previous_composite: 30.0
   provenance:
@@ -282,8 +280,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

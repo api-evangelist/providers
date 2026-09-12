@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 10
 apis:
 - description: Configure the accounting structures that spend is coded against — departments, cost centers, cost accounts and cost dimensions, plus department addresses. Master data, so records are created with POST
@@ -232,19 +232,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 36.8
-    commercial_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 64.3
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 57.9
   previous_composite: 51.4
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 22.3
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 18
 apis:
 - description: The Census Management REST API allows developers to programmatically manage syncs, connections, models, segments, and destinations within Census workspaces and organizations. Supports both workspace-l
@@ -292,12 +292,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 86.8
-    commercial_clarity: 86.8
     contract_governance: 18.2
     contract_quality: 11.4
     developer_ergonomics: 66.7
     discoverability: 64.8
-    governance: 18.2
     operational_transparency: 65.8
   previous_composite: 50.1
   provenance:
@@ -308,8 +306,8 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

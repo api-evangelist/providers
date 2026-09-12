@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 0
 artifact_total: 5
 common:
@@ -127,12 +127,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 15.2
     contract_quality: 10.7
     developer_ergonomics: 9.5
     discoverability: 50.0
-    governance: 15.2
     operational_transparency: 7.9
   previous_composite: 14.9
   regulatory:
@@ -141,8 +139,8 @@ score:
     regime: Health
     regime_id: health
     score: 13.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

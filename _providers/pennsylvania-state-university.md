@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -312,12 +312,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 55.3
-    commercial_clarity: 55.3
     contract_governance: 18.2
     contract_quality: 29.1
     developer_ergonomics: 35.7
     discoverability: 74.1
-    governance: 18.2
     operational_transparency: 7.9
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -341,8 +339,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 81.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

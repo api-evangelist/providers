@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL_template: '{PARTNER_BASE_URL}'
@@ -146,12 +146,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 4.5
     contract_quality: 66.8
     developer_ergonomics: 51.8
     discoverability: 66.7
-    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 40.7
   provenance:
@@ -163,8 +161,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

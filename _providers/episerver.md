@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: GraphQL Content Graph API that indexes CMS/Commerce content for fast, federated querying across the Optimizely platform.
@@ -192,18 +192,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 47.4
-    commercial_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 51.2
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 56.6
   previous_composite: 47.8
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

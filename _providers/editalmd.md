@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 32.4
-  scored_at: '2026-09-10'
+  score: 37.6
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Public REST API over Brazil's PNCP procurement portal with full-text tender search, tender sheets and deadlines, edital markdown, eligibility extraction, alerts and watchers. Also exposes a hosted MCP
@@ -115,12 +115,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 26.3
-    commercial_clarity: 26.3
     contract_governance: 18.2
     contract_quality: 50.5
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 39.5
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -145,8 +143,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 57.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

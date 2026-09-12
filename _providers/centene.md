@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 44.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 12
 apis:
 - baseURL: https://iopc-pa.api.centene.com/iopc/pa
@@ -314,12 +314,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 53.7
     developer_ergonomics: 30.4
     discoverability: 74.1
-    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 44.6
   provenance:
@@ -337,8 +335,8 @@ score:
     regime: Health
     regime_id: health
     score: 72.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

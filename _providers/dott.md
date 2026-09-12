@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://gbfs.api.ridedott.com/public/v2
@@ -217,12 +217,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 57.1
-    commercial_clarity: 57.1
     contract_governance: 18.2
     contract_quality: 49.8
     developer_ergonomics: 47.0
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 2.6
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -240,8 +238,8 @@ score:
       total: 5
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -11,7 +11,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.20.0
+schema_version: 0.21.0
 last_updated: '2026-09-06'
 maintainer: kin@apievangelist.com
 
@@ -22,45 +22,41 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.20.0
+  version: 0.21.0
   body: |
-    A SEVENTH FACET, and the first one that asks whether an API is safe to call twice.
+    THE FACET RENAME IS FINISHED. Two facets have been emitted under TWO names since 0.12,
+    and the score block now carries one name each.
 
-    `upsert` (weight 0.10, conditional) scores create-or-update ergonomics straight from
-    the 109,940 OpenAPIs in the catalog: is there a named create-or-update operation,
-    does it accept a key the CALLER already holds, and does the response say which branch
-    ran? Every existing contract facet asks whether an API is described and callable.
-    None asked what happens when the same write arrives twice — and for 82.7% of
-    providers that accept writes the answer is that you search first, and the day
-    somebody forgets, the customer's records grow a duplicate.
+    `governance` was never about how an organisation governs itself — it scores rulesets,
+    vocabularies, conformance and overlays, which are ARTIFACTS DESCRIBING A CONTRACT. It
+    is `contract_governance`. And `commercial_clarity` described the wrong thing for a
+    third of the catalog: a statutory interface or an open-data API has no commercial
+    terms, while the questions the facet actually asks — what does it cost, what may you
+    do, how do you get in — still apply. It is `access_clarity`.
 
-    IT APPLIES ONLY TO PROVIDERS THAT ACCEPT WRITES, and that is the design rather than a
-    detail. 1,125 providers hold a parseable contract with no write operation in it. A
-    weather or reference API cannot upsert and is not deficient for it, so it goes N/A —
-    excluded from the denominator, never zeroed. So do the ~19,700 providers holding no
-    OpenAPI at all. 6,803 are scored, and a zero among those is a real zero.
+    0.12 shipped both spellings so consumers could migrate without a hard cut, and the
+    plan was to drop the old pair at 1.0. It comes forward because the dual-emit turned
+    out to be a live defect rather than a harmless kindness: `/rating/facets` served EIGHT
+    names for SIX facets, with `access_clarity` and `commercial_clarity` carrying the
+    identical number, so anyone summing the object double-counted two of them. A migration
+    aid that silently corrupts a sum is not an aid.
 
-    FOUR CHECKS, 36 POINTS, priced by scarcity and by what each signal commits the
-    provider to. A boolean outcome discriminator is 14 points at 1.4% coverage; a
-    caller-declared match key 10 at 9.8%; a named upsert 8 at 12.3%; duplicate handling
-    merely stated in prose or as a flag, 4 at 9.2%. Naming an operation `upsert` is a
-    claim, accepting the caller's key is a commitment, and telling the caller which
-    branch ran is the only one they can reconcile against afterwards. 20 providers earn
-    the whole set.
+    NO SCORE MOVES. Verified on three providers across the range before and after — the
+    composite, the band and every facet value are identical under the rename. The keys
+    changed; nothing measured changed. No band re-cut.
 
-    WHAT IS DELIBERATELY NOT COUNTED. A documented 200-vs-201 split is not an outcome
-    discriminator. The scanner detects it and the original specification invited counting
-    it, but a 200/201 pair is documented for many unrelated reasons and says nothing
-    about which branch actually ran. It matches 569 providers against 94 for a real
-    discriminator field; counting it would have made the top of this facet six times
-    commoner than the scarcity that justified building it.
+    WHAT THE OLD NAMES STILL DO. They remain ACCEPTED as input — `?sort=governance` works
+    exactly as before — because dropping a value callers already send breaks them for no
+    gain. They are simply no longer RETURNED. Reading surfaces fall back to the old key
+    where a page has not been rescored yet, so nothing renders a zero in the window
+    between the scoring pass and the deploys that follow it.
 
-    RE-CENTRED, the way 0.12 re-centred `regulatory`. Applied raw at weight 0.10, a
-    provider with no upsert would lose a tenth of its composite — 5,635 providers docked
-    around six points each for lacking something 0.3% of the catalog has. That is a
-    rubric picking a fight, not a measurement. Scored against the observed mean of 7.06
-    instead: at the mean you are unchanged, above it you gain, below it you lose a
-    little.
+    ALSO: THE STANDALONE LAYER VERSIONS ARE STRINGS NOW. `agent_readiness.schema_version`
+    and `accountability.schema_version` were unquoted two-part numbers, which YAML and JSON
+    both read as floats — so 0.2 and 0.20 were the same value and the agent-readiness layer
+    could never have reached its twentieth revision. It was also served as a NUMBER on
+    /agent-readiness and a STRING on its sibling endpoints, which no typed client can model.
+    Quoted, and nothing compares them arithmetically.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -565,10 +561,9 @@ facets:
     description: >
       Technical depth and richness of the API contract artifacts —
       OpenAPI, AsyncAPI, JSON Schema, JSON-LD.
-  governance:
+  contract_governance:
     weight: 0.12
     label: Contract Governance
-    emits_as: contract_governance
     description: >
       Artifacts that describe and constrain the CONTRACT — rulesets, vocabulary,
       declared conformance, overlays. Renamed in 0.12 from "Governance": it never
@@ -591,10 +586,9 @@ facets:
     description: >
       How easy is it to get started? SDKs, CLI, portal, getting-started,
       documentation, sandbox/console, MCP server, and authentication clarity.
-  commercial_clarity:
+  access_clarity:
     weight: 0.20
     label: Access Clarity
-    emits_as: access_clarity
     description: >
       What it costs, what you are permitted to do, and how you get in — plans,
       pricing, sign-up, terms of service, privacy, finops mapping, compliance/trust.
@@ -1893,7 +1887,7 @@ artifacts:
           the conditional facet originally proposed.
       - id: rules_present
         label: Publishes a ruleset
-        facet: governance
+        facet: contract_governance
         points: 10
         rule: 'rules[0].rule_count >= 1'
         description: >
@@ -1901,7 +1895,7 @@ artifacts:
           their API surface instead of leaving it to reviewer taste.
       - id: rules_substantial
         label: Substantial ruleset
-        facet: governance
+        facet: contract_governance
         points: 5
         rule: 'rules[0].effective_rule_count >= 20'
         description: >
@@ -1913,7 +1907,7 @@ artifacts:
           the better engineering choice and the threshold was punishing it.
       - id: balanced_severities
         label: Balanced severities
-        facet: governance
+        facet: contract_governance
         points: 3
         rule: 'warn and info both > 0'
         description: >
@@ -1921,7 +1915,7 @@ artifacts:
           an error cannot express guidance — only refusal.
       - id: vocabulary_published
         label: Publishes a vocabulary
-        facet: governance
+        facet: contract_governance
         points: 5
         rule: 'common[].type includes "Vocabulary"'
         description: >
@@ -1935,7 +1929,7 @@ artifacts:
       # demonstrates it has internalized a standard.
       - id: conformance_declared
         label: Declared conformance profile
-        facet: governance
+        facet: contract_governance
         points: 6
         provenance: conformance
         rule: 'a conformance/ artifact declares conformance to named standards'
@@ -1956,7 +1950,7 @@ artifacts:
           published lint posture — never bare membership in a programme.
       - id: overlay_published
         label: Publishes an OpenAPI Overlay
-        facet: governance
+        facet: contract_governance
         points: 4
         rule: 'overlays/ contains an OpenAPI Overlay document'
         description: >
@@ -2209,7 +2203,7 @@ artifacts:
     checks:
       - id: plans_present
         label: Plans published
-        facet: commercial_clarity
+        facet: access_clarity
         points: 8
         rule: 'plans[0].plan_count >= 1'
         description: >
@@ -2217,7 +2211,7 @@ artifacts:
           page a human has to interpret. The heaviest award in this facet.
       - id: plans_multiple
         label: Multiple plans
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'plans[0].plan_count >= 3'
         description: >
@@ -2225,14 +2219,14 @@ artifacts:
           trial tier through to production volume.
       - id: pricing_link
         label: Pricing published
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'common[].type includes "Pricing"'
         description: >
           Pricing is public. "Contact us" is an answer, but it is not this one.
       - id: sign_up_present
         label: Self-service sign-up
-        facet: commercial_clarity
+        facet: access_clarity
         points: 5
         rule: 'common[].type includes "SignUp" or "Login"'
         description: >
@@ -2240,7 +2234,7 @@ artifacts:
           between an API you can try this afternoon and one you can try next quarter.
       - id: terms_of_service
         label: Terms of service
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'common[].type includes "TermsOfService" (alias-aware)'
         description: >
@@ -2248,7 +2242,7 @@ artifacts:
           API.
       - id: privacy_policy
         label: Privacy policy
-        facet: commercial_clarity
+        facet: access_clarity
         points: 4
         rule: 'common[].type includes "PrivacyPolicy" (alias-aware)'
         description: >
@@ -2256,7 +2250,7 @@ artifacts:
           API.
       - id: finops_mapped
         label: FinOps mapping
-        facet: commercial_clarity
+        facet: access_clarity
         points: 3
         rule: 'len(finops) >= 1'
         description: >
@@ -2264,7 +2258,7 @@ artifacts:
           modelled and attributed rather than discovered on an invoice.
       - id: compliance_published
         label: Compliance published
-        facet: commercial_clarity
+        facet: access_clarity
         points: 3
         rule: 'common[].type includes "Compliance"'
         description: >
@@ -2272,7 +2266,7 @@ artifacts:
           GDPR — where a reviewer can find them without asking.
       - id: trust_center
         label: Trust center
-        facet: commercial_clarity
+        facet: access_clarity
         points: 3
         rule: 'common[].type includes "TrustCenter" or "Trust"'
         description: >
@@ -2926,7 +2920,7 @@ disclosure_states:
 accountability:
   standalone: true
   scored: false
-  schema_version: 0.1
+  schema_version: '0.1'
   label: Accountability
   description: >
     Who is answerable for this organisation's use of a technology, and what must
@@ -3015,7 +3009,7 @@ accountability:
     - {id: undeclared, label: Undeclared, note: building or teaching with no findable posture}
 
 agent_readiness:
-  schema_version: 0.2
+  schema_version: '0.2'
   standalone: true          # not part of the composite; own score + own band
   label: Agent Readiness
   description: >
@@ -3153,8 +3147,55 @@ agent_readiness:
       points: 9
       graded: true
       credit: {verified: 1.0, documented: 0.5}
-      signal: 'OpenAPI mutating operations declare an Idempotency-Key header (verified),
-               else common[].type matches /idempoten/i (documented)'
+      signal: 'OpenAPI mutating operations declare an idempotency key — a header, a
+               request-body property, or a named de-duplication token whose own
+               description says so (verified); else common[].type matches
+               /idempoten/i (documented)'
+      # -----------------------------------------------------------------------
+      # 0.20.1 (roadmap#289) — WHAT COUNTS AS A DECLARED IDEMPOTENCY KEY.
+      #
+      # Until 0.20.1 the verified arm also fired on `requestBody.to_s =~ /idempoten/i`
+      # — a substring over the stringified request body. That credited PROSE: an
+      # operation whose description said "this endpoint is NOT idempotent" earned the
+      # check it denied. Measured over 133,932 specs, 70 of 337 providers' credit
+      # rested on that arm alone.
+      #
+      # Removing it outright was wrong in the other direction. 11 of those 70 declare
+      # a real `idempotency_key` property that the reader missed only because it would
+      # not resolve a single local $ref, and 29 more ship the capability under the
+      # industry's other name. Square, Block and Moneris were all in the first group.
+      #
+      # So the vocabulary lives here rather than as a regex in score.rb, and is read
+      # in two tiers:
+      #
+      #   names            a field called this IS an idempotency key, on its own
+      #   dedup_names      a field called this counts only when its OWN description,
+      #                    example or default says it prevents duplicate execution.
+      #                    `clientToken` is AWS's idempotency convention across
+      #                    hundreds of APIs and elsewhere can mean an auth token, so
+      #                    it is never taken on the name alone.
+      #
+      # `unique_token` is in dedup_names and `unique_id` / `uniqueId` deliberately are
+      # NOT: measured, the latter are generic identifiers — 10web's sitemap id,
+      # akamai's network-list id — while shopify documents `unique_token` with the
+      # example value "client-side-idempotency-token".
+      #
+      # Net movement: 337 -> 381 providers verified (+73, -29). The 29 losses are
+      # providers whose only evidence is the word appearing in prose; shopify is one,
+      # and its request schema is literally `schema: {}` with the token appearing only
+      # inside an example payload.
+      # -----------------------------------------------------------------------
+      key_names:
+        names:
+          - /idempoten/i
+        dedup_names:
+          - /\Aclient[-_]?(request[-_]?)?token\z/i
+          - /\Adedup(e|lication)?[-_]?(key|id|token)\z/i
+          - /\Aunique[-_]?token\z/i
+        confirms: >-
+          idempoten|prevent\w*\s+(the\s+)?(accidental\s+)?(creation\s+of\s+)?duplicat|
+          avoid\w*\s+duplicat|only\s+once|exactly\s+once|no\s+more\s+than\s+once|
+          duplicate\s+(request|creation|execution|submission)
       description: >
         Mutating operations accept an idempotency key. Agents retry; without
         idempotency a retry double-charges a card, sends a message twice, or opens

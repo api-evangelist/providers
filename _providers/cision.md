@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: REST API for the Next Generation Cision Communications Cloud, Cision's earned media monitoring and analytics platform. Runs off searches already created in the platform and returns either a list of ar
@@ -244,12 +244,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 85.5
-    commercial_clarity: 85.5
     contract_governance: 18.2
     contract_quality: 24.7
     developer_ergonomics: 49.4
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 47.4
   previous_composite: 48.4
   provenance:
@@ -261,8 +259,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

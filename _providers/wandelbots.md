@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Cell-based robot-control API for the Wandelbots NOVA platform: motion planning, controller management, motion-group state, trajectory execution (WebSocket) and program running. Path-versioned (v1 lega'
@@ -164,19 +164,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 71.4
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 25.8
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

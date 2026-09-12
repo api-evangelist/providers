@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 23.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Cloud-based REST API for controlling Sonos players and groups: playback, volume, grouping, favorites, playlists, home theater, audio clips, and cloud-queue playback sessions, with OAuth 2.0 auth and e'
@@ -163,20 +163,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 6.6
-    commercial_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 37.5
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 26.3
   previous_composite: 30.0
   provenance:
     conformance: derived
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

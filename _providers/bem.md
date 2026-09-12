@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 39.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 1
@@ -374,7 +374,7 @@ overview: 'Bem publishes 22 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 14
 score:
   band: strong
-  composite: 54.3
+  composite: 58.2
   coverage:
     artifact_dirs: 20
     catalog_earned: 27.0
@@ -382,15 +382,13 @@ score:
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.9
   facets:
     access_clarity: 47.4
-    commercial_clarity: 47.4
     contract_governance: 18.2
     contract_quality: 62.3
     developer_ergonomics: 68.5
     discoverability: 57.4
-    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 54.3
   provenance:
@@ -403,12 +401,12 @@ score:
       total: 22
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true
-    score: 38.9
+    score: 77.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/bem/refs/heads/main/screenshots/bem-2026-07-25T202722.png
 security:
 - kind: authentication

@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 66.4
-  scored_at: '2026-09-10'
+  score: 71.6
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: wss://ws.rhombussystems.com:8443/websocket
@@ -589,12 +589,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 78.9
-    commercial_clarity: 78.9
     contract_governance: 18.2
     contract_quality: 64.1
     developer_ergonomics: 59.5
     discoverability: 70.4
-    governance: 18.2
     operational_transparency: 52.6
   previous_composite: 62.4
   provenance:
@@ -606,8 +604,8 @@ score:
       total: 64
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

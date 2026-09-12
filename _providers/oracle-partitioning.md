@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Oracle SQL Developer Web and SQLcl, the SQL surfaces through which partitions are actually created and maintained. Partition DDL — CREATE TABLE ... PARTITION BY, ALTER TABLE ... SPLIT/MERGE/EXCHANGE/D
@@ -363,12 +363,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 68.4
-    commercial_clarity: 68.4
     contract_governance: 4.5
     contract_quality: 45.5
     developer_ergonomics: 83.3
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 52.6
   previous_composite: 58.6
   provenance:
@@ -380,8 +378,8 @@ score:
       total: 23
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

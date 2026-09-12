@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: GraphQL API for the Sonrai Cloud Permissions Firewall platform — exempt, protect, quarantine, and disable cloud IAM access. Bearer-token authenticated; reference documentation is gated behind the Auth
@@ -131,18 +131,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 6.6
-    commercial_clarity: 6.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 34.5
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 2.6
   previous_composite: 18.3
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

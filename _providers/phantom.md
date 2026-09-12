@@ -9,7 +9,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: documented
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: false
     well_known_catalog: false
   schema_version: 0.2
-  score: 1.3
-  scored_at: '2026-09-10'
+  score: 9.9
+  scored_at: '2026-09-12'
 api_count: 10
 apis:
 - description: Solana wallet provider injected at window.phantom.solana exposing connect, disconnect, signMessage, signIn (Sign-In With Solana), signTransaction, signAllTransactions, and signAndSendTransaction. Impl
@@ -308,7 +308,7 @@ score:
   band: emerging
   composite: 23.4
   coverage:
-    artifact_dirs: 3
+    artifact_dirs: 4
     catalog_earned: 35.0
     catalog_earned_first_party: 0.0
     catalog_gap: 80.0
@@ -317,25 +317,25 @@ score:
   delta: 0.0
   facets:
     access_clarity: 13.2
-    commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 6.7
     developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 47.4
   open_source:
     applies: true
     score: 25.0
   previous_composite: 23.4
+  provenance:
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

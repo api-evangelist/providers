@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: The Hidden Road prime brokerage and clearing API suite, announced generally available on 2023-05-04. Four service surfaces are confirmed live under https://api.hiddenroad.com/v0/ — accountactivity, me
@@ -147,12 +147,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 43.4
-    commercial_clarity: 43.4
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 16.7
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 0.0
   previous_composite: 27.3
   provenance:
@@ -164,8 +162,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

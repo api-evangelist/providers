@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.gradium.ai/api
@@ -268,12 +268,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 31.6
-    commercial_clarity: 31.6
     contract_governance: 4.5
     contract_quality: 56.3
     developer_ergonomics: 78.0
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 34.2
   previous_composite: 47.9
   provenance:
@@ -285,8 +283,8 @@ score:
       total: 6
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

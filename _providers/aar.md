@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 9
 apis:
 - description: AAR's parts supply division distributes new and used aircraft and engine parts to commercial airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts in FY20
@@ -203,12 +203,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 57.9
-    commercial_clarity: 57.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 21.1
   previous_composite: 29.7
   provenance:
@@ -219,8 +217,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 55.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

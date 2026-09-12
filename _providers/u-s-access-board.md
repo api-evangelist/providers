@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 0
 artifact_total: 20
 common:
@@ -145,12 +145,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 26.3
-    commercial_clarity: 26.3
     contract_governance: 15.2
     contract_quality: 14.7
     developer_ergonomics: 14.3
     discoverability: 50.0
-    governance: 15.2
     operational_transparency: 10.5
   previous_composite: 20.9
   regulatory:
@@ -159,8 +157,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 27.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

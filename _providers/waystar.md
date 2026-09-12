@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 11.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 7
 apis:
 - description: Real-time and batch insurance eligibility and benefits verification, exchanging X12 270 inquiries and 271 responses to confirm coverage, plan details, copays, deductibles, and service-type benefits be
@@ -222,12 +222,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 63.2
-    commercial_clarity: 63.2
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 64.8
-    governance: 18.2
     operational_transparency: 60.5
   previous_composite: 46.2
   provenance:
@@ -239,8 +237,8 @@ score:
     regime: Health
     regime_id: health
     score: 46.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

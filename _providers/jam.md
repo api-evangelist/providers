@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 45.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that pipes a Jam's recording, console logs, network requests, user events, transcript, and metadata into AI coding tools (Claude, Cursor, VS Code). OAuth2 (PKCE) o
@@ -212,20 +212,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 53.9
-    commercial_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 73.2
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 21.1
   previous_composite: 48.3
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

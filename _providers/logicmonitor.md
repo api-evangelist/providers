@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 29.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://{account}.logicmonitor.com/santaba/rest
@@ -224,20 +224,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 68.4
-    commercial_clarity: 68.4
     contract_governance: 18.2
     contract_quality: 53.2
     developer_ergonomics: 73.2
     discoverability: 59.3
-    governance: 18.2
     operational_transparency: 73.7
   previous_composite: 58.6
   provenance:
     conformance: first-party
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

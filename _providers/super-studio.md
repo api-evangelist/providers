@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 41.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: The ecforce platform REST API. Version 2 splits into v2/admin (administrator-scoped, mirroring the ecforce management screens) and v2/customer (shopper-scoped, mirroring My Page). Responses are JSON:A
@@ -235,12 +235,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 92.1
-    commercial_clarity: 92.1
     contract_governance: 4.5
     contract_quality: 41.6
     developer_ergonomics: 51.2
     discoverability: 81.5
-    governance: 4.5
     operational_transparency: 26.3
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -253,8 +251,8 @@ score:
   provenance:
     conformance: derived
     mcp: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

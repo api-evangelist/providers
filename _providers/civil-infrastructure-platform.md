@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: 'The CIP Kernel is a Super Long-Term Support (SLTS) Linux kernel branch maintained for ten or more years, providing a stable base for industrial systems that must remain in service across multi-decade '
@@ -276,20 +276,18 @@ score:
   delta: 0.0
   facets:
     access_clarity: 47.4
-    commercial_clarity: 47.4
     contract_governance: 63.6
     contract_quality: 65.8
     developer_ergonomics: 37.5
     discoverability: 83.3
-    governance: 63.6
     operational_transparency: 28.9
   previous_composite: 52.4
   provenance:
     conformance: first-party
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-09-10'
+  score: 29.5
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ score:
   band: emerging
   composite: 16.8
   coverage:
-    artifact_dirs: 13
+    artifact_dirs: 14
     catalog_earned: 47.8
     catalog_earned_first_party: 0.0
     catalog_gap: 67.3
@@ -163,12 +163,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 15.8
-    commercial_clarity: 15.8
     contract_governance: 11.4
     contract_quality: 16.1
     developer_ergonomics: 11.9
     discoverability: 72.2
-    governance: 11.4
     operational_transparency: 10.5
   needs_work:
     note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
@@ -184,14 +182,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Payments
     regime_id: payments
     score: 18.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

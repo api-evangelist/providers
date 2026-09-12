@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 27.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The agent-facing commerce surface of Aptera Motors' branded merchandise storefront at shop.aptera.us. It is a Model Context Protocol server (protocol 2025-06-18) answering anonymously at /api/mcp with
@@ -173,12 +173,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 32.9
-    commercial_clarity: 32.9
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 22.6
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 0.0
   previous_composite: 24.8
   provenance:
@@ -191,8 +189,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 56.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

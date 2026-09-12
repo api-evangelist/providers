@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.verdigris.co/data/v4
@@ -257,12 +257,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 25.0
-    commercial_clarity: 25.0
     contract_governance: 4.5
     contract_quality: 56.5
     developer_ergonomics: 39.9
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 2.6
   previous_composite: 40.4
   provenance:
@@ -280,8 +278,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 51.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

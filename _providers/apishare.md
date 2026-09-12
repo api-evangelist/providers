@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: ApiShare provides a unified catalog of APIs, applications, assets, MCP servers, and AI agents with role-based visibility, configurable lifecycle workflows, subscription management, and built-in audita
@@ -189,19 +189,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 65.8
-    commercial_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 59.3
-    governance: 18.2
     operational_transparency: 15.8
   previous_composite: 29.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

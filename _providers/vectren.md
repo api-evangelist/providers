@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: Web portal for builders and developers in Vectren/CenterPoint Energy service territories in Indiana and Ohio. Provides self-service tools for ordering new gas and electric service, checking order stat
@@ -147,12 +147,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 19.7
-    commercial_clarity: 19.7
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 19.0
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 5.3
   previous_composite: 13.2
   regulatory:
@@ -161,8 +159,8 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 8.1
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Chewy provides vendor and supplier integration through the Dsco platform, enabling third-party brands and logistics providers to connect with Chewy's e-commerce marketplace. The integration supports E
@@ -154,12 +154,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 23.7
-    commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 9.5
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 10.5
   previous_composite: 24.3
   regulatory:
@@ -168,8 +166,8 @@ score:
     regime: Health
     regime_id: health
     score: 20.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

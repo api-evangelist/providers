@@ -37,7 +37,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 49.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.kargo.zone/public_graphql
@@ -251,12 +251,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 34.2
-    commercial_clarity: 34.2
     contract_governance: 18.2
     contract_quality: 69.6
     developer_ergonomics: 70.8
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 51.4
   provenance:
@@ -268,8 +266,8 @@ score:
       total: 2
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

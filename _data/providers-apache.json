@@ -21,15 +21,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 62.1,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -68,15 +66,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 59.7,
-      "governance": 33.3,
       "contract_governance": 33.3,
       "operational_transparency": 36.8,
       "developer_ergonomics": 56.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -115,15 +111,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 61.6,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 41.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -162,15 +156,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 68.4,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.3,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -209,15 +201,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 47.7,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -256,15 +246,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 54.9,
-      "governance": 69.7,
       "contract_governance": 69.7,
       "operational_transparency": 39.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -303,15 +291,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 54.9,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 28.9,
       "developer_ergonomics": 69.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -350,15 +336,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 67.0,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 41.7,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -397,15 +381,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.7,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -444,15 +426,13 @@
      "facets": {
       "discoverability": 66.7,
       "contract_quality": 30.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 57.1,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -491,15 +471,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.4,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 47.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 20.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -538,15 +516,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 37.9,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 72.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -585,15 +561,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 54.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -642,15 +616,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 20.6,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 34.5,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -689,15 +661,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 34.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 69.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -736,15 +706,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 54.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -783,15 +751,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 59.9,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 28.6,
       "access_clarity": 28.6
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -830,15 +796,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 54.5,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -884,15 +848,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 17.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 38.1,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -931,15 +893,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 54.2,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -978,15 +938,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 30.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 54.8,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1025,15 +983,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 61.1,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1072,15 +1028,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 58.5,
-      "governance": 13.6,
       "contract_governance": 13.6,
       "operational_transparency": 23.7,
       "developer_ergonomics": 35.7,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1119,15 +1073,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 51.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 31.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1166,15 +1118,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 34.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1213,15 +1163,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 46.9,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 23.7,
       "developer_ergonomics": 33.3,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1260,15 +1208,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 34.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 54.8,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1307,15 +1253,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 61.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1361,15 +1305,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 57.7,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1408,15 +1350,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1455,15 +1395,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.3,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1502,15 +1440,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 58.5,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1549,15 +1485,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 57.7,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 18.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1596,15 +1530,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 20.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 26.2,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1643,15 +1575,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 42.9,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1690,15 +1620,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 55.1,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1737,15 +1665,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.1,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 16.7,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1784,15 +1710,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 56.5,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1831,15 +1755,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 21.2,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 22.6,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1878,15 +1800,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 52.4,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1925,15 +1845,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 52.4,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1972,15 +1890,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 53.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2019,15 +1935,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 15.2,
       "contract_governance": 15.2,
       "operational_transparency": 36.8,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2066,15 +1980,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 30.7,
-      "governance": 9.8,
       "contract_governance": 9.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 47.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2113,15 +2025,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2160,15 +2070,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2207,15 +2115,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.9,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2254,15 +2160,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.9,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2301,15 +2205,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2348,15 +2250,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 52.4,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2395,15 +2295,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 20.5,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2442,15 +2340,13 @@
      "facets": {
       "discoverability": 68.5,
       "contract_quality": 22.7,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2499,15 +2395,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 40.5,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2546,15 +2440,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 19.1,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 23.8,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2593,15 +2485,13 @@
      "facets": {
       "discoverability": 72.2,
       "contract_quality": 19.1,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2640,15 +2530,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 19.3,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2687,15 +2575,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 19.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2734,15 +2620,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 19.6,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 11.9,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2781,15 +2665,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 19.0,
-      "governance": 28.8,
       "contract_governance": 28.8,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2828,15 +2710,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 39.5,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2882,15 +2762,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 28.6,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2929,15 +2807,13 @@
      "facets": {
       "discoverability": 74.1,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 28.9,
       "developer_ergonomics": 19.0,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2976,15 +2852,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 8.0,
-      "governance": 25.0,
       "contract_governance": 25.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 15.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3023,15 +2897,13 @@
      "facets": {
       "discoverability": 64.8,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 21.4,
-      "commercial_clarity": 26.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3070,15 +2942,13 @@
      "facets": {
       "discoverability": 59.3,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 10.5,
       "developer_ergonomics": 47.6,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3126,15 +2996,13 @@
      "facets": {
       "discoverability": 31.5,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 9.5,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3172,15 +3040,13 @@
      "facets": {
       "discoverability": 38.9,
       "contract_quality": 0.0,
-      "governance": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-10",
-     "schema_version": "0.20.0",
+     "scored_at": "2026-09-12",
+     "schema_version": "0.21.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

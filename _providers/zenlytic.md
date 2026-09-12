@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 21.4
-  scored_at: '2026-09-10'
+  score: 30.0
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.zenlytic.com
@@ -152,7 +152,7 @@ score:
   band: developing
   composite: 43.0
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 13
     catalog_earned: 37.0
     catalog_earned_first_party: 0.0
     catalog_gap: 78.0
@@ -161,12 +161,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 59.9
     developer_ergonomics: 66.1
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 18.4
   previous_composite: 43.0
   provenance:
@@ -175,9 +173,10 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 1
+    mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

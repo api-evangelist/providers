@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Reads normalised financial data from an institution on behalf of a consenting end user. Read-only: it never initiates payments.'
@@ -232,12 +232,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 73.7
-    commercial_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 48.1
     developer_ergonomics: 75.6
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 57.9
   previous_composite: 61.4
   provenance:
@@ -261,8 +259,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 50.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

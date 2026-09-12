@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 18.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The undocumented application GraphQL API that powers the Newoldstamp dashboard — signatures, departments, campaigns, segments, Google Workspace and Microsoft 365 deployment, and billing. Introspection
@@ -131,19 +131,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 65.8
-    commercial_clarity: 65.8
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 0.0
     operational_transparency: 0.0
   previous_composite: 36.1
   provenance:
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

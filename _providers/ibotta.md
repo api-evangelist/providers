@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://api.ibops.net/bex-api
@@ -184,12 +184,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 6.6
-    commercial_clarity: 6.6
     contract_governance: 4.5
     contract_quality: 53.1
     developer_ergonomics: 42.3
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 13.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -206,8 +204,8 @@ score:
       total: 1
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

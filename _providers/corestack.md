@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 55.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Hosted, unified Model Context Protocol server exposing 100 documented tools across five domains — Common/Auth (10), FinOps (24), Graphion (45), Assessment (15) and Workload (6) — at a single /mcp endp
@@ -667,12 +667,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 84.2
-    commercial_clarity: 84.2
     contract_governance: 4.5
     contract_quality: 56.7
     developer_ergonomics: 39.9
     discoverability: 61.1
-    governance: 4.5
     operational_transparency: 34.2
   previous_composite: 56.0
   provenance:
@@ -690,8 +688,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 71.2
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

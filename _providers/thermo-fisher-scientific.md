@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 19.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -276,12 +276,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 13.2
-    commercial_clarity: 13.2
     contract_governance: 39.4
     contract_quality: 54.4
     developer_ergonomics: 23.8
     discoverability: 68.5
-    governance: 39.4
     operational_transparency: 10.5
   previous_composite: 33.6
   provenance:
@@ -297,8 +295,8 @@ score:
     regime: Health
     regime_id: health
     score: 21.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

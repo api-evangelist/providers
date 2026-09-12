@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - description: 'GDScript is Godot''s first-class scripting language, a high-level dynamically typed (and gradually statically typed) language with Python-like syntax and tight integration with the engine, the editor, '
@@ -207,16 +207,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 39.5
-    commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 45.2
     discoverability: 81.5
-    governance: 0.0
     operational_transparency: 42.1
   previous_composite: 30.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: Cisco AI Defense is the post-acquisition home of Robust Intelligence's AI security technology. It provides runtime protection for AI applications, model validation, algorithmic red teaming, and visibi
@@ -143,16 +143,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 10.7
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 23.7
   previous_composite: 17.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -23,7 +23,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -31,8 +31,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 38.8
-  scored_at: '2026-09-10'
+  score: 44.0
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: REST API for Lightspeed Retail R-Series (formerly Vend) providing access to sales, inventory, customers, products, and reporting data for retail point-of-sale systems.
@@ -575,12 +575,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 100.0
-    commercial_clarity: 100.0
     contract_governance: 4.5
     contract_quality: 66.9
     developer_ergonomics: 85.1
     discoverability: 70.4
-    governance: 4.5
     operational_transparency: 92.1
   previous_composite: 83.7
   provenance:
@@ -598,8 +596,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 84.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

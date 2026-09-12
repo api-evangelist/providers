@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: true
@@ -24,7 +24,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: documented
+    idempotency: verified
     mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 35.8
-  scored_at: '2026-09-10'
+  score: 39.1
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://gateway.tollbit.com
@@ -248,12 +248,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 34.2
-    commercial_clarity: 34.2
     contract_governance: 4.5
     contract_quality: 57.6
     developer_ergonomics: 58.3
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 10.5
   previous_composite: 41.7
   provenance:
@@ -265,8 +263,8 @@ score:
       total: 6
     mcp: first-party
     skills: unknown
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: API-Football provides comprehensive football data including leagues, fixtures, standings, events, line-ups, players, pre-match odds, live odds, and historical statistics for 1,200+ leagues and cups wo
@@ -189,19 +189,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 77.6
-    commercial_clarity: 77.6
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 47.6
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 31.6
   previous_composite: 38.2
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

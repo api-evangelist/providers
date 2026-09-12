@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 34.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 18
 apis:
 - baseURL: https://api.antavo.com
@@ -521,12 +521,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 65.8
-    commercial_clarity: 65.8
     contract_governance: 18.2
     contract_quality: 59.8
     developer_ergonomics: 67.3
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 77.6
   previous_composite: 64.1
   provenance:
@@ -538,8 +536,8 @@ score:
       total: 29
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: Pyramid's main programmatic surface. All calls are HTTP POST against /API3/<section>/<method> on the customer's own Pyramid server, carrying a JSON body and a "paToken" security token in the HTTP head
@@ -192,19 +192,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 38.2
-    commercial_clarity: 38.2
     contract_governance: 18.2
     contract_quality: 46.8
     developer_ergonomics: 64.3
     discoverability: 68.5
-    governance: 18.2
     operational_transparency: 39.5
   previous_composite: 46.4
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

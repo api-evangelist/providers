@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 40.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 7
 apis:
 - description: 'Cross-platform video playback (formerly THEOplayer) for web, Android/Fire TV, iOS/tvOS, Roku, React Native and Flutter, with DRM, ad and analytics connectors. A client-side SDK surface: there is no pu'
@@ -301,12 +301,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 77.6
-    commercial_clarity: 77.6
     contract_governance: 4.5
     contract_quality: 60.3
     developer_ergonomics: 73.2
     discoverability: 72.2
-    governance: 4.5
     operational_transparency: 81.6
   previous_composite: 65.7
   provenance:
@@ -318,8 +316,8 @@ score:
       total: 7
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

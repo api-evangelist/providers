@@ -29,7 +29,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -37,8 +37,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-09-10'
+  score: 47.2
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: https://api.memo.bank
@@ -340,12 +340,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 73.7
-    commercial_clarity: 73.7
     contract_governance: 18.2
     contract_quality: 59.5
     developer_ergonomics: 66.1
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 42.1
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -381,8 +379,8 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

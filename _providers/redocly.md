@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-09-10'
+  score: 44.6
+  scored_at: '2026-09-12'
 api_count: 12
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
@@ -401,12 +401,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 100.0
-    commercial_clarity: 100.0
     contract_governance: 43.2
     contract_quality: 65.4
     developer_ergonomics: 61.9
     discoverability: 72.2
-    governance: 43.2
     operational_transparency: 92.1
   previous_composite: 74.6
   provenance:
@@ -418,8 +416,8 @@ score:
       total: 4
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

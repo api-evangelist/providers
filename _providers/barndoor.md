@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 28.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -672,12 +672,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 78.9
-    commercial_clarity: 78.9
     contract_governance: 28.8
     contract_quality: 65.4
     developer_ergonomics: 48.8
     discoverability: 75.9
-    governance: 28.8
     operational_transparency: 63.2
   open_source:
     applies: true
@@ -696,8 +694,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 42.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

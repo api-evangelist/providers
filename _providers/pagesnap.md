@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST API converting public URLs to Markdown, text, HTML, JSON, ARIA trees, screenshots, PDFs, link-preview metadata and normalized structured data, plus batch reads, robots-aware crawls with a 202 job
@@ -212,12 +212,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 61.8
-    commercial_clarity: 61.8
     contract_governance: 18.2
     contract_quality: 41.6
     developer_ergonomics: 58.3
     discoverability: 87.0
-    governance: 18.2
     operational_transparency: 76.3
   previous_composite: 57.1
   provenance:
@@ -230,8 +228,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 50.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

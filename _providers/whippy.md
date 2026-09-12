@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 19.8
-  scored_at: '2026-09-10'
+  score: 28.4
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ score:
   band: developing
   composite: 40.5
   coverage:
-    artifact_dirs: 10
+    artifact_dirs: 11
     catalog_earned: 64.0
     catalog_earned_first_party: 0.0
     catalog_gap: 51.0
@@ -192,12 +192,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 39.5
-    commercial_clarity: 39.5
     contract_governance: 0.0
     contract_quality: 55.2
     developer_ergonomics: 27.4
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 31.6
   previous_composite: 40.5
   provenance:
@@ -207,14 +205,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Telecommunications
     regime_id: telecommunications
     score: 16.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

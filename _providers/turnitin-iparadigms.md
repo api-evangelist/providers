@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: RESTful API for submitting files, generating Similarity Reports, and displaying integrity results inside a host learning management system or environment. Reference documentation is credential-gated t
@@ -146,12 +146,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 38.1
     discoverability: 66.7
-    governance: 18.2
     operational_transparency: 26.3
   previous_composite: 29.9
   provenance:
@@ -162,8 +160,8 @@ score:
     regime: Education & Research
     regime_id: education
     score: 55.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

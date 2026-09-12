@@ -14,7 +14,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -27,8 +27,8 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: derived
-    idempotency: documented
-    mcp_server: documented
+    idempotency: verified
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 36.7
-  scored_at: '2026-09-10'
+  score: 45.1
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.uchecker.net
@@ -217,12 +217,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 63.2
-    commercial_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 60.0
     developer_ergonomics: 44.6
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 7.9
   previous_composite: 47.8
   provenance:
@@ -234,8 +232,8 @@ score:
       total: 3
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

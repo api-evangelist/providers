@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: false
-    mcp_server: false
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 20.9
-  scored_at: '2026-09-10'
+  score: 29.5
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -449,7 +449,7 @@ score:
   band: strong
   composite: 57.8
   coverage:
-    artifact_dirs: 17
+    artifact_dirs: 18
     catalog_earned: 76.5
     catalog_earned_first_party: 0.0
     catalog_gap: 38.5
@@ -458,12 +458,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 57.9
-    commercial_clarity: 57.9
     contract_governance: 28.8
     contract_quality: 65.2
     developer_ergonomics: 57.1
     discoverability: 81.5
-    governance: 28.8
     operational_transparency: 36.8
   previous_composite: 57.8
   provenance:
@@ -473,14 +471,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 16
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 20.4
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The customer-gated Infinitus backend API. Infinitus' own AI Agent Security Guide instructs customers to allowlist https://api.infinitusai.com on TCP 443 for "portal and backend API access". Probing co
@@ -184,12 +184,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 53.9
-    commercial_clarity: 53.9
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 28.6
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 13.2
   previous_composite: 35.1
   provenance:
@@ -207,8 +205,8 @@ score:
     regime: Health
     regime_id: health
     score: 66.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

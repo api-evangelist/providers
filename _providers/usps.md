@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - description: Token endpoint for OAuth 2.0 Client Credentials authentication used to authorize requests to all USPS API products.
@@ -114,16 +114,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 13.2
-    commercial_clarity: 13.2
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 23.8
     discoverability: 74.1
-    governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

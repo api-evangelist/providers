@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 36.1
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 21
 apis:
 - baseURL: https://integrations.mavenmachines.com
@@ -351,12 +351,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 23.7
-    commercial_clarity: 23.7
     contract_governance: 4.5
     contract_quality: 65.0
     developer_ergonomics: 47.0
     discoverability: 81.5
-    governance: 4.5
     operational_transparency: 18.4
   previous_composite: 41.9
   provenance:
@@ -368,8 +366,8 @@ score:
       total: 28
     mcp: derived
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

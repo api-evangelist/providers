@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 11
 apis:
 - description: End-of-day equity analytics for Canadian and US markets - basic, daily, and advanced daily stats plus liquidity analytics and liquidity summaries - via POST endpoints such as /v1/ca/dailystats, /v1/us
@@ -206,12 +206,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 63.2
-    commercial_clarity: 63.2
     contract_governance: 4.5
     contract_quality: 0.0
     developer_ergonomics: 48.8
     discoverability: 74.1
-    governance: 4.5
     operational_transparency: 38.2
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -229,8 +227,8 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

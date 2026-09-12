@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 26.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://www.eac.gov/jsonapi
@@ -187,12 +187,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 18.4
-    commercial_clarity: 18.4
     contract_governance: 33.3
     contract_quality: 57.8
     developer_ergonomics: 30.4
     discoverability: 68.5
-    governance: 33.3
     operational_transparency: 15.8
   previous_composite: 41.4
   provenance:
@@ -210,8 +208,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

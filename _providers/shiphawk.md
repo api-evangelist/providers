@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 25.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: ShipHawk's public REST API. Key-based authentication (X-Api-Key header or api_key query parameter), JSON request and response bodies, POST used for both create and update (no PUT/PATCH). Resources cov
@@ -193,12 +193,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 27.6
-    commercial_clarity: 27.6
     contract_governance: 0.0
     contract_quality: 41.6
     developer_ergonomics: 42.9
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 34.2
   previous_composite: 36.6
   provenance:
@@ -210,8 +208,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 34.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

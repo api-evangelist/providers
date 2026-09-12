@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 12.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 17
 apis:
 - description: 'Connect IQ is Garmin''s open platform for building wearable apps that run on Garmin watches and cycling computers. Developers write apps in Monkey C — Garmin''s purpose-built object-oriented language — '
@@ -261,12 +261,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 23.7
-    commercial_clarity: 23.7
     contract_governance: 0.0
     contract_quality: 41.5
     developer_ergonomics: 42.9
     discoverability: 64.8
-    governance: 0.0
     operational_transparency: 18.4
   previous_composite: 31.6
   regulatory:
@@ -275,8 +273,8 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

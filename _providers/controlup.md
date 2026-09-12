@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 24
 apis:
 - description: Official Model Context Protocol server published by ControlUp as the npm package @controlup-ai/mcp. Runs locally over stdio via npx, authenticates with a ControlUp API key plus organization ID, and ex
@@ -785,12 +785,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 4.5
     contract_quality: 69.3
     developer_ergonomics: 58.9
     discoverability: 57.4
-    governance: 4.5
     operational_transparency: 97.4
   previous_composite: 65.6
   provenance:
@@ -802,8 +800,8 @@ score:
       total: 60
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

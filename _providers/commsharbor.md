@@ -23,7 +23,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 35.6
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST/HTTP API (OpenAPI 3.1) for transactional email, deliverability, sending domains, permission-based marketing, CRM, and multi-tenancy governance across 96 paths. Cross-linked with a hosted MCP serv
@@ -143,12 +143,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 59.2
-    commercial_clarity: 59.2
     contract_governance: 4.5
     contract_quality: 45.5
     developer_ergonomics: 30.4
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 50.0
   previous_composite: 45.6
   provenance:
@@ -161,8 +159,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

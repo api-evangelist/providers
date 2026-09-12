@@ -35,7 +35,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 35.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://partners-api.thriveglobal.com
@@ -242,12 +242,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 43.4
-    commercial_clarity: 43.4
     contract_governance: 4.5
     contract_quality: 57.7
     developer_ergonomics: 28.0
     discoverability: 68.5
-    governance: 4.5
     operational_transparency: 18.4
   previous_composite: 40.6
   provenance:
@@ -265,8 +263,8 @@ score:
     regime: Health
     regime_id: health
     score: 37.5
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

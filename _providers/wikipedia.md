@@ -34,7 +34,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 33.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -1210,12 +1210,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 50.0
-    commercial_clarity: 50.0
     contract_governance: 28.8
     contract_quality: 36.7
     developer_ergonomics: 42.9
     discoverability: 81.5
-    governance: 28.8
     operational_transparency: 34.2
   previous_composite: 49.6
   provenance:
@@ -1231,8 +1229,8 @@ score:
     regime: Government & Public Sector
     regime_id: government
     score: 42.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

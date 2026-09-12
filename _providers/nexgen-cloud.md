@@ -28,7 +28,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -36,8 +36,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.1
-  scored_at: '2026-09-10'
+  score: 47.2
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: https://infrahub-api.nexgencloud.com/v1
@@ -564,12 +564,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 92.1
-    commercial_clarity: 92.1
     contract_governance: 18.2
     contract_quality: 69.0
     developer_ergonomics: 66.1
     discoverability: 57.4
-    governance: 18.2
     operational_transparency: 63.2
   previous_composite: 64.3
   provenance:
@@ -581,8 +579,8 @@ score:
       total: 65
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

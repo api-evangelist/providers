@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 7.9
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The Aranya Client API is the library interface an application uses to talk to the Aranya daemon. It covers team creation, device onboarding and removal, role and permission management (including custo
@@ -210,19 +210,17 @@ score:
   delta: 0.0
   facets:
     access_clarity: 73.7
-    commercial_clarity: 73.7
     contract_governance: 33.3
     contract_quality: 0.0
     developer_ergonomics: 64.3
     discoverability: 66.7
-    governance: 33.3
     operational_transparency: 28.9
   previous_composite: 42.0
   provenance:
     conformance: first-party
     mcp: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

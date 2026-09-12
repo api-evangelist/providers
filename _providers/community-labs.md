@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 0.0
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Hypura is a storage-tier-aware LLM inference scheduler for Apple Silicon that places model tensors across GPU, RAM, and NVMe tiers so models larger than physical memory can run. Running `hypura serve '
@@ -118,18 +118,16 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 42.9
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 20.7
   provenance:
     conformance: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 37.8
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 13
 apis:
 - description: Next-generation Bread Pay REST API for managing buyers, merchant accounts, personalized payment options and pricing, and the merchant transaction lifecycle (authorize, capture, cancel, refund). Secure
@@ -221,12 +221,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 0.0
-    commercial_clarity: 0.0
     contract_governance: 18.2
     contract_quality: 65.9
     developer_ergonomics: 57.1
     discoverability: 72.2
-    governance: 18.2
     operational_transparency: 10.5
   previous_composite: 41.0
   provenance:
@@ -243,8 +241,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

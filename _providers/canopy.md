@@ -11,6 +11,7 @@ access_model:
   try_now: false
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -24,7 +25,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 37.4
-  scored_at: '2026-09-10'
+  score: 42.6
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://app.usecanopy.com/api/v1.0.0
@@ -229,12 +230,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 100.0
-    commercial_clarity: 100.0
     contract_governance: 18.2
     contract_quality: 61.9
     developer_ergonomics: 73.2
     discoverability: 87.0
-    governance: 18.2
     operational_transparency: 21.1
   previous_composite: 71.0
   provenance:
@@ -247,8 +246,8 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 80.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

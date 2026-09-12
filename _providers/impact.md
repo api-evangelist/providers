@@ -25,7 +25,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -33,8 +33,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 39.4
-  scored_at: '2026-09-10'
+  score: 44.5
+  scored_at: '2026-09-12'
 api_count: 138
 apis:
 - description: Remote Model Context Protocol server for impact.com. Fifteen documented tools give an AI assistant account-scoped access to performance analytics, invoices, partner and program discovery, promo codes,
@@ -606,12 +606,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 68.4
-    commercial_clarity: 68.4
     contract_governance: 4.5
     contract_quality: 63.0
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 4.5
     operational_transparency: 94.7
   previous_composite: 68.2
   provenance:
@@ -623,8 +621,8 @@ score:
       total: 61
     mcp: first-party
     skills: first-party
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -1,6 +1,7 @@
 ---
 agent_readiness:
-  band: agent-native
+  band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -13,7 +14,7 @@ agent_readiness:
     dynamic_client_registration: false
     error_semantics: verified
     event_surface_described: true
-    idempotency: verified
+    idempotency: documented
     mcp_server: false
     openapi_examples: partial
     protected_resource_metadata: false
@@ -22,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 42.6
-  scored_at: '2026-09-10'
+  score: 39.3
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://merchant-api.accruesavings.com
@@ -198,12 +199,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 18.2
     contract_quality: 57.8
     developer_ergonomics: 70.8
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 55.3
   previous_composite: 56.5
   provenance:
@@ -221,8 +220,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 53.1
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

@@ -24,7 +24,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: false
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -32,8 +32,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 33.2
-  scored_at: '2026-09-10'
+  score: 38.4
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1347,7 +1347,7 @@ score:
   band: thin
   composite: 33.5
   coverage:
-    artifact_dirs: 14
+    artifact_dirs: 15
     catalog_earned: 56.3
     catalog_earned_first_party: 0.0
     catalog_gap: 58.8
@@ -1356,12 +1356,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 28.9
-    commercial_clarity: 28.9
     contract_governance: 25.0
     contract_quality: 51.7
     developer_ergonomics: 33.3
     discoverability: 68.5
-    governance: 25.0
     operational_transparency: 0.0
   previous_composite: 33.5
   provenance:
@@ -1371,14 +1369,15 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 22
+    mcp: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 28.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

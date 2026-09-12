@@ -33,7 +33,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 2.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'ARRIS Group publishes no API. The entry is retained to record the measurement: probed 2026-09-07, no OpenAPI, Swagger, AsyncAPI, GraphQL SDL, MCP endpoint, agent card or Postman collection was found o'
@@ -161,12 +161,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 7.9
-    commercial_clarity: 7.9
     contract_governance: 0.0
     contract_quality: 0.0
     developer_ergonomics: 26.2
     discoverability: 66.7
-    governance: 0.0
     operational_transparency: 2.6
   previous_composite: 10.6
   regulatory:
@@ -175,8 +173,8 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 8.3
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

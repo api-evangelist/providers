@@ -32,7 +32,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 15.5
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST API for managing alerts, events, policies, queries, resources, datasources, integrations, and compliance reports in a Lacework FortiCNAPP tenant. Authentication uses bearer access tokens obtained
@@ -118,16 +118,14 @@ score:
   delta: 0.0
   facets:
     access_clarity: 11.8
-    commercial_clarity: 11.8
     contract_governance: 0.0
     contract_quality: 37.2
     developer_ergonomics: 39.3
     discoverability: 68.5
-    governance: 0.0
     operational_transparency: 2.6
   previous_composite: 26.7
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: false

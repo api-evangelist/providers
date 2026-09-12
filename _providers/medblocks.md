@@ -15,7 +15,7 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: verified
@@ -23,8 +23,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 59.2
-  scored_at: '2026-09-10'
+  score: 64.4
+  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://app.medblocks.com
@@ -233,12 +233,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 60.5
-    commercial_clarity: 60.5
     contract_governance: 18.2
     contract_quality: 63.5
     developer_ergonomics: 78.6
     discoverability: 75.9
-    governance: 18.2
     operational_transparency: 47.4
   previous_composite: 64.9
   provenance:
@@ -262,8 +260,8 @@ score:
     regime: Health
     regime_id: health
     score: 58.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

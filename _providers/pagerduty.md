@@ -26,7 +26,7 @@ agent_readiness:
     error_semantics: false
     event_surface_described: true
     idempotency: false
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
@@ -34,8 +34,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: false
   schema_version: 0.2
-  score: 32.6
-  scored_at: '2026-09-10'
+  score: 37.8
+  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 178
   human_in_the_loop: 2
@@ -623,7 +623,7 @@ score:
   band: thin
   composite: 36.3
   coverage:
-    artifact_dirs: 15
+    artifact_dirs: 16
     catalog_earned: 26.8
     catalog_earned_first_party: 0.0
     catalog_gap: 88.3
@@ -632,12 +632,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 43.4
-    commercial_clarity: 43.4
     contract_governance: 11.4
     contract_quality: 72.5
     developer_ergonomics: 15.5
     discoverability: 33.3
-    governance: 11.4
     operational_transparency: 18.4
   previous_composite: 36.3
   provenance:
@@ -647,8 +645,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 37
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+    mcp: first-party
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

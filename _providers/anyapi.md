@@ -14,7 +14,7 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: documented
-    mcp_server: documented
+    mcp_server: verified
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
@@ -22,8 +22,8 @@ agent_readiness:
     spec_presence: true
     well_known_catalog: true
   schema_version: 0.2
-  score: 50.2
-  scored_at: '2026-09-10'
+  score: 55.4
+  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.getanyapi.com
@@ -228,12 +228,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 44.7
-    commercial_clarity: 44.7
     contract_governance: 18.2
     contract_quality: 26.7
     developer_ergonomics: 81.0
     discoverability: 87.0
-    governance: 18.2
     operational_transparency: 28.9
   previous_composite: 50.5
   provenance:
@@ -246,8 +244,8 @@ score:
     regime: Payments
     regime_id: payments
     score: 64.1
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

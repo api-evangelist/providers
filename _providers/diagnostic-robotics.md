@@ -38,7 +38,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.2
   score: 32.2
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - baseURL: https://sandbox.precision-population-health.diagnosticrobotics.com
@@ -284,12 +284,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 36.8
-    commercial_clarity: 36.8
     contract_governance: 18.2
     contract_quality: 46.3
     developer_ergonomics: 66.1
     discoverability: 74.1
-    governance: 18.2
     operational_transparency: 18.4
   previous_composite: 51.0
   provenance:
@@ -311,8 +309,8 @@ score:
     regime: Health
     regime_id: health
     score: 68.8
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true

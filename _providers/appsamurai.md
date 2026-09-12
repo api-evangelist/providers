@@ -36,7 +36,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.2
   score: 29.7
-  scored_at: '2026-09-10'
+  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: http://api.appsamurai.com
@@ -269,12 +269,10 @@ score:
   delta: 0.0
   facets:
     access_clarity: 71.1
-    commercial_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 53.9
     developer_ergonomics: 55.4
     discoverability: 81.5
-    governance: 18.2
     operational_transparency: 34.2
   previous_composite: 52.8
   provenance:
@@ -286,8 +284,8 @@ score:
       total: 7
     mcp: first-party
     skills: derived
-  schema_version: 0.20.0
-  scored_at: '2026-09-10'
+  schema_version: 0.21.0
+  scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true
