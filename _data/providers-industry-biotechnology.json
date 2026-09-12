@@ -1,5 +1,5 @@
 {
- "total": 1307,
+ "total": 1306,
  "shown": 1000,
  "limit": 1000,
  "bands": [
@@ -18011,7 +18011,7 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 950,
+   "count": 949,
    "shown": 643,
    "providers": [
     {

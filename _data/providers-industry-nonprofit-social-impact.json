@@ -2302,7 +2302,7 @@
     {
      "name": "Givebutter",
      "slug": "givebutter",
-     "description": "The Givebutter API is organized around REST and provides a stateless interface for interacting with your Givebutter account. The Givebutter API supports JSON, and all requests return and require a valid JSON object.",
+     "description": "Givebutter is a fundraising and donor-management platform for nonprofits, offering donation forms, fundraising pages, events, auctions and a donor CRM at no subscription cost. It publishes a public REST API at api.givebutter.com/v1 described by its own OpenAPI 3.1 (70 operations across campaigns, contacts, households, transactions, funds, payouts, recurring plans, pledges, messages and webhooks), an embeddable widgets library of custom elements, a hosted MCP server at mcp.givebutter.com protected by OAuth 2.1, an A2A agent card and a provider-authored agent skill.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/screenshots/givebutter-2026-06-20T181853.png",
      "score": 25.6,
      "band": "emerging",

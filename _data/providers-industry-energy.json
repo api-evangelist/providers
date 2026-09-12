@@ -16358,7 +16358,7 @@
     {
      "name": "GE Vernova",
      "slug": "ge-vernova",
-     "description": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through its innovative portfolio of electrification, power, and decarbonization technologies. Spun off from General Electric, GE Vernova brings together the legacy GE Power, Renewable Energy, Digital, and Energy Financial Services businesses to help solve the world's energy transition challenges.",
+     "description": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through its innovative portfolio of electrification, power, and decarbonization technologies. Spun off from General Electric in April 2024, GE Vernova brings together the legacy GE Power, Renewable Energy, Digital, and Energy Financial Services businesses to help solve the world's energy transition challenges. Its software arm, GE Vernova Electrification Software (the former GE Digital), is where its API surface lives: Proficy industrial software — Historian, Plant Applications MES, Operations Hub, CSense, iFIX and CIMPLICITY — alongside Asset Performance Management (Meridium, SmartSignal) and GridOS for grid transmission, distribution and orchestration. Every one of those APIs is documented publicly and runs on infrastructure the customer operates, so each base URL is templated on the customer's own host rather than a vendor-hosted endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/screenshots/ge-vernova-2026-06-20T181707.png",
      "score": 11.7,
      "band": "emerging",
@@ -26395,7 +26395,7 @@
     {
      "name": "Global Partners LP",
      "slug": "global-partners",
-     "description": "Global Partners LP is a leading independent owner, supplier, and operator of liquid energy terminals, fueling locations, and retail experiences. The company distributes gasoline, distillates, residual oil, renewable fuels, crude oil, and propane across the Northeast United States through an integrated network of terminals, gas stations, and convenience stores.",
+     "description": "Global Partners LP is a leading independent owner, supplier, and operator of liquid energy terminals, fueling locations, and retail experiences. The company distributes gasoline, distillates, residual oil, renewable fuels, crude oil, and propane across the Northeast United States through an integrated network of terminals, gas stations, and convenience stores. Global Partners publishes no developer program, no API keys and no API documentation, but www.globalp.com runs on WordPress and serves a fully public, unauthenticated WordPress REST API whose custom content types model the company itself: 157 terminals (sw_terminal), 846 retail locations (sw_retail_location), real-estate listings, leadership profiles, and the product, service, fuel-type, fuel-brand, retail-brand, state, supply-method and ownership-status taxonomies applied to them.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-partners/refs/heads/main/screenshots/global-partners-2026-06-20T181914.png",
      "score": 3.8,
      "band": "minimal",
@@ -27143,7 +27143,7 @@
     {
      "name": "Genesis Energy",
      "slug": "genesis-energy",
-     "description": "Genesis Energy is a diversified midstream energy master limited partnership with a focus on providing services to refineries, crude oil and natural gas producers, and industrial and commercial enterprises.",
+     "description": "Genesis Energy, L.P. (NYSE: GEL) is a diversified midstream energy master limited partnership headquartered in Houston, Texas. It operates offshore crude oil and natural gas pipelines and platforms in the Gulf of Mexico, onshore pipelines and terminals, marine transportation for refined products and crude, and a sulfur services and soda ash (alkali) chemicals business serving refineries, producers, and industrial and commercial customers. It is a pipeline and chemicals operator, not a software vendor: it publishes no developer program, no API and no machine-readable API contract. Its only public machine-readable surface is the FERC-mandated informational posting website it runs for its interstate natural gas pipeline, which serves NAESB WGQ-shaped location and capacity data as anonymous file downloads.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/genesis-energy/refs/heads/main/screenshots/genesis-energy-2026-06-20T181731.png",
      "score": 3.5,
      "band": "minimal",

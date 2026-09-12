@@ -65,6 +65,20 @@ common:
   title: ''
   type: GettingStarted
   url: https://developer.gm.com/docs/getting-started
+coverage:
+  checked: '2026-09-12'
+  detail: The GM Developer Portal is a single-page app whose own router guards every /docs/* route with requireCommercialAPIAccess and whose backend at https://developer.gm.com/v1 returns 403 to every anonymous request except GET /v1/csrf-token, so the API reference and any machine-readable contract are released only to customers GM has already approved for commercial API access.
+  evidence:
+  - status: 403
+    url: https://developer.gm.com/v1/apis
+  - status: 200
+    url: https://developer.gm.com/v1/csrf-token
+  - status: 404
+    url: https://api.gm.com/openapi.json
+  - status: 404
+    url: https://api.onstarfleetintelligence.com/openapi.json
+  reason: customer-only-docs
+  state: gated
 created: '2025-02-08'
 description: You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver the content that matters, when it matters. Create an account now to start developing amazing in-vehicle experiences for your customers.
 finops:

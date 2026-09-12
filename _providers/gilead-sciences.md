@@ -48,6 +48,20 @@ common:
   title: ''
   type: Website
   url: https://www.gilead.com
+coverage:
+  checked: '2026-09-12'
+  detail: 'Gilead ships real first-party open-source software — 19 public repos under github.com/Gilead-Public, the Apache-2.0 "gsm" R suite for risk-based clinical trial monitoring — but no public API: the only host that resolves as an API surface, api.gilead.com, answers HTTP 200 with the same 321-byte "Resource not Found" page for every path including a random one that cannot exist, and developer.gilead.com / developers.gilead.com / apis.gilead.com do not resolve at all.'
+  evidence:
+  - status: 200
+    url: https://api.gilead.com/openapi.json
+  - status: 200
+    url: https://api.gilead.com/.well-known/gilead-sciences-negative-control-7f3ab91c.json
+  - status: 404
+    url: https://www.gilead.com/.well-known/api-catalog
+  - status: 404
+    url: https://www.gilead.com/llms.txt
+  reason: no-developer-program
+  state: none
 created: '2026-03-21'
 description: Gilead Sciences is a research-based biopharmaceutical company that discovers, develops, and commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis, oncology, and inflammatory diseases.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilead-sciences.png

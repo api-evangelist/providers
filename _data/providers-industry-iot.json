@@ -1,6 +1,6 @@
 {
- "total": 948,
- "shown": 948,
+ "total": 947,
+ "shown": 947,
  "limit": 1000,
  "bands": [
   {
@@ -16079,8 +16079,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 276,
-   "shown": 276,
+   "count": 275,
+   "shown": 275,
    "providers": [
     {
      "name": "Cogniac",
@@ -22717,49 +22717,6 @@
      "rank": 494
     },
     {
-     "name": "Cloudflare.com",
-     "slug": "cloudflare-com",
-     "description": "cloudflare-com is an alias profile for Cloudflare. The canonical company profile lives at the cloudflare repository in the API Evangelist Network; this entry exists so that the \".com\" form of the brand resolves into the same canonical record. Cloudflare's developer surface includes a single unified REST API at api.cloudflare.com covering DNS, zones, SSL/TLS, Workers, KV, Durable Objects, Queues, R2, Pages, Stream, Email Routing, Zero Trust, WAF, Magic Transit, Spectrum, Load Balancing, Analytics, and Account Management. Authentication is via API tokens with scoped permissions or legacy global API keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudflare-com/refs/heads/main/screenshots/cloudflare-com-2026-06-20T174554.png",
-     "score": 15.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 19.0,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 495
-    },
-    {
      "name": "Automox",
      "slug": "automox",
      "description": "Automox is a cloud-native IT operations and endpoint management platform that automates patching, configuration, and software deployment across Windows, macOS, and Linux devices from a single console. The Automox API is a REST API that gives developers programmatic access to organizations, zones, devices, groups, policies, packages, worklets, commands, events, reports, and users for building integrations and automating endpoint management workflows, authenticated with API keys.",
@@ -22800,7 +22757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 496
+     "rank": 495
     },
     {
      "name": "Fueloyal",
@@ -22843,7 +22800,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 497
+     "rank": 496
     },
     {
      "name": "DigiLens",
@@ -22886,7 +22843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 498
+     "rank": 497
     },
     {
      "name": "FlexGen Power Systems",
@@ -22936,7 +22893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 499
+     "rank": 498
     },
     {
      "name": "Blackberry",
@@ -22979,7 +22936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 500
+     "rank": 499
     },
     {
      "name": "Metromile",
@@ -23028,7 +22985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 501
+     "rank": 500
     },
     {
      "name": "Cloudpost Networks",
@@ -23078,7 +23035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 502
+     "rank": 501
     },
     {
      "name": "SkyFoundry",
@@ -23128,7 +23085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 503
+     "rank": 502
     },
     {
      "name": "Ampere Computing",
@@ -23171,7 +23128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 504
+     "rank": 503
     },
     {
      "name": "Arrcus",
@@ -23214,7 +23171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 505
+     "rank": 504
     },
     {
      "name": "Fort",
@@ -23264,7 +23221,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 506
+     "rank": 505
     },
     {
      "name": "K3s",
@@ -23307,7 +23264,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 507
+     "rank": 506
     },
     {
      "name": "Uhnder",
@@ -23350,7 +23307,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 508
+     "rank": 507
     },
     {
      "name": "Alif",
@@ -23393,7 +23350,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 509
+     "rank": 508
     },
     {
      "name": "Jala",
@@ -23436,7 +23393,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 510
+     "rank": 509
     },
     {
      "name": "Uptake",
@@ -23479,7 +23436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 511
+     "rank": 510
     },
     {
      "name": "Irhythmtech",
@@ -23529,7 +23486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 512
+     "rank": 511
     },
     {
      "name": "Ordr",
@@ -23579,7 +23536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 513
+     "rank": 512
     },
     {
      "name": "ServiceMax",
@@ -23622,7 +23579,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 514
+     "rank": 513
     },
     {
      "name": "XAG",
@@ -23665,7 +23622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 515
+     "rank": 514
     },
     {
      "name": "Metrobloks",
@@ -23708,7 +23665,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 516
+     "rank": 515
     },
     {
      "name": "Aeva",
@@ -23751,7 +23708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 517
+     "rank": 516
     },
     {
      "name": "Squadle",
@@ -23794,7 +23751,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 518
+     "rank": 517
     },
     {
      "name": "Upciti",
@@ -23837,7 +23794,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 519
+     "rank": 518
     },
     {
      "name": "Cala Health",
@@ -23887,7 +23844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 520
+     "rank": 519
     },
     {
      "name": "Josys",
@@ -23930,7 +23887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 521
+     "rank": 520
     },
     {
      "name": "Lennox International",
@@ -23973,7 +23930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 522
+     "rank": 521
     },
     {
      "name": "Monarch Tractor",
@@ -24016,7 +23973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 523
+     "rank": 522
     },
     {
      "name": "Control4",
@@ -24059,7 +24016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 524
+     "rank": 523
     },
     {
      "name": "Mero",
@@ -24102,7 +24059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 525
+     "rank": 524
     },
     {
      "name": "CoolerX",
@@ -24145,7 +24102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 526
+     "rank": 525
     },
     {
      "name": "Illumix",
@@ -24188,7 +24145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 527
+     "rank": 526
     },
     {
      "name": "Intenseye",
@@ -24231,7 +24188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 528
+     "rank": 527
     },
     {
      "name": "KubeEdge",
@@ -24274,7 +24231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 529
+     "rank": 528
     },
     {
      "name": "OpenYurt",
@@ -24317,7 +24274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 530
+     "rank": 529
     },
     {
      "name": "Retrocausal",
@@ -24360,7 +24317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 531
+     "rank": 530
     },
     {
      "name": "TE Connectivity",
@@ -24403,7 +24360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 532
+     "rank": 531
     },
     {
      "name": "Fleetmatics",
@@ -24446,7 +24403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 533
+     "rank": 532
     },
     {
      "name": "Roborock",
@@ -24489,7 +24446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 534
+     "rank": 533
     },
     {
      "name": "Silk Labs",
@@ -24532,7 +24489,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 535
+     "rank": 534
     },
     {
      "name": "Universal Electronics",
@@ -24575,7 +24532,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 536
+     "rank": 535
     },
     {
      "name": "Vodafone",
@@ -24625,7 +24582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 537
+     "rank": 536
     },
     {
      "name": "VanMoof",
@@ -24668,7 +24625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 538
+     "rank": 537
     },
     {
      "name": "Eero",
@@ -24711,7 +24668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 539
+     "rank": 538
     },
     {
      "name": "Inmarsat",
@@ -24761,7 +24718,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 540
+     "rank": 539
     },
     {
      "name": "Mill",
@@ -24804,7 +24761,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 541
+     "rank": 540
     },
     {
      "name": "Beewise",
@@ -24847,7 +24804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 542
+     "rank": 541
     },
     {
      "name": "Bosch",
@@ -24890,7 +24847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 543
+     "rank": 542
     },
     {
      "name": "Efficient Computer",
@@ -24940,7 +24897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 544
+     "rank": 543
     },
     {
      "name": "exein",
@@ -24982,7 +24939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 545
+     "rank": 544
     },
     {
      "name": "HelloTech",
@@ -25025,7 +24982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 546
+     "rank": 545
     },
     {
      "name": "Runwise",
@@ -25075,7 +25032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 547
+     "rank": 546
     },
     {
      "name": "Conservation Labs",
@@ -25118,7 +25075,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 548
+     "rank": 547
     },
     {
      "name": "Imperfect",
@@ -25168,7 +25125,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 549
+     "rank": 548
     },
     {
      "name": "Acerta",
@@ -25211,7 +25168,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 550
+     "rank": 549
     },
     {
      "name": "AtomBeam",
@@ -25254,7 +25211,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 551
+     "rank": 550
     },
     {
      "name": "Growatt",
@@ -25304,7 +25261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 552
+     "rank": 551
     },
     {
      "name": "Hesai Technology",
@@ -25347,7 +25304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 553
+     "rank": 552
     },
     {
      "name": "SAVA",
@@ -25397,7 +25354,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 554
+     "rank": 553
     },
     {
      "name": "Nirvana Tech",
@@ -25447,7 +25404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 555
+     "rank": 554
     },
     {
      "name": "Amber Box",
@@ -25490,7 +25447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 556
+     "rank": 555
     },
     {
      "name": "Bevi",
@@ -25533,7 +25490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 557
+     "rank": 556
     },
     {
      "name": "BirdBuddy",
@@ -25576,7 +25533,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 558
+     "rank": 557
     },
     {
      "name": "KITRO",
@@ -25619,7 +25576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 559
+     "rank": 558
     },
     {
      "name": "Neolink",
@@ -25662,7 +25619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 560
+     "rank": 559
     },
     {
      "name": "Sol",
@@ -25705,7 +25662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 561
+     "rank": 560
     },
     {
      "name": "Versuni",
@@ -25748,7 +25705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 562
+     "rank": 561
     },
     {
      "name": "ams OSRAM",
@@ -25791,7 +25748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 563
+     "rank": 562
     },
     {
      "name": "AutoTrac",
@@ -25834,7 +25791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 564
+     "rank": 563
     },
     {
      "name": "Cowboy",
@@ -25877,7 +25834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 565
+     "rank": 564
     },
     {
      "name": "Fightcamp",
@@ -25927,7 +25884,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 566
+     "rank": 565
     },
     {
      "name": "Fiture",
@@ -25977,7 +25934,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 567
+     "rank": 566
     },
     {
      "name": "KitchenMate",
@@ -26020,7 +25977,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 568
+     "rank": 567
     },
     {
      "name": "Somnee",
@@ -26070,7 +26027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 569
+     "rank": 568
     },
     {
      "name": "Anker Innovations",
@@ -26120,7 +26077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 570
+     "rank": 569
     },
     {
      "name": "Natural Cycles",
@@ -26170,7 +26127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 571
+     "rank": 570
     },
     {
      "name": "Utilidata",
@@ -26220,7 +26177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 572
+     "rank": 571
     },
     {
      "name": "Rex Inc",
@@ -26270,7 +26227,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 573
+     "rank": 572
     },
     {
      "name": "Highway 9 Networks",
@@ -26313,7 +26270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 574
+     "rank": 573
     },
     {
      "name": "LF Edge",
@@ -26356,7 +26313,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 575
+     "rank": 574
     },
     {
      "name": "Revivn",
@@ -26399,7 +26356,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 576
+     "rank": 575
     },
     {
      "name": "Tile (thetileapp)",
@@ -26442,7 +26399,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 577
+     "rank": 576
     },
     {
      "name": "Astera Labs",
@@ -26485,7 +26442,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 578
+     "rank": 577
     },
     {
      "name": "Rimac Automobili",
@@ -26527,7 +26484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 579
+     "rank": 578
     },
     {
      "name": "Robotiq",
@@ -26570,7 +26527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 580
+     "rank": 579
     },
     {
      "name": "Roofline",
@@ -26613,7 +26570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 581
+     "rank": 580
     },
     {
      "name": "Valmont Industries",
@@ -26656,7 +26613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 582
+     "rank": 581
     },
     {
      "name": "Halter",
@@ -26699,7 +26656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 583
+     "rank": 582
     },
     {
      "name": "Hykso",
@@ -26749,7 +26706,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 584
+     "rank": 583
     },
     {
      "name": "Myndlift",
@@ -26799,7 +26756,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 585
+     "rank": 584
     },
     {
      "name": "Optivolt Labs",
@@ -26849,7 +26806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 586
+     "rank": 585
     },
     {
      "name": "Hitachi Construction Machinery",
@@ -26891,7 +26848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 587
+     "rank": 586
     },
     {
      "name": "Biobeat",
@@ -26941,7 +26898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 588
+     "rank": 587
     },
     {
      "name": "Hidrate",
@@ -26991,7 +26948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 589
+     "rank": 588
     },
     {
      "name": "Instrumental",
@@ -27034,7 +26991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 590
+     "rank": 589
     },
     {
      "name": "N-Drip",
@@ -27077,7 +27034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 591
+     "rank": 590
     },
     {
      "name": "Smartex",
@@ -27120,7 +27077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 592
+     "rank": 591
     },
     {
      "name": "WOO Sports",
@@ -27163,7 +27120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 593
+     "rank": 592
     },
     {
      "name": "Boldr",
@@ -27213,7 +27170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 594
+     "rank": 593
     },
     {
      "name": "Gridware",
@@ -27263,7 +27220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 595
+     "rank": 594
     },
     {
      "name": "Datakrew",
@@ -27306,7 +27263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 596
+     "rank": 595
     },
     {
      "name": "Detect",
@@ -27348,7 +27305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 597
+     "rank": 596
     },
     {
      "name": "Stuf Storage",
@@ -27391,7 +27348,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 598
+     "rank": 597
     },
     {
      "name": "Verve Motion",
@@ -27434,7 +27391,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 599
+     "rank": 598
     },
     {
      "name": "Botrista",
@@ -27477,7 +27434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 600
+     "rank": 599
     },
     {
      "name": "Juxta",
@@ -27527,7 +27484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 601
+     "rank": 600
     },
     {
      "name": "Parklio",
@@ -27570,7 +27527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 602
+     "rank": 601
     },
     {
      "name": "Arrive AI",
@@ -27620,7 +27577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 603
+     "rank": 602
     },
     {
      "name": "EyeLights",
@@ -27663,7 +27620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 604
+     "rank": 603
     },
     {
      "name": "Ai Fabrik",
@@ -27706,7 +27663,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 605
+     "rank": 604
     },
     {
      "name": "Athos",
@@ -27756,7 +27713,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 606
+     "rank": 605
     },
     {
      "name": "Axiom Space",
@@ -27806,7 +27763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 607
+     "rank": 606
     },
     {
      "name": "Euler Motors",
@@ -27849,7 +27806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 608
+     "rank": 607
     },
     {
      "name": "LARQ",
@@ -27892,7 +27849,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 609
+     "rank": 608
     },
     {
      "name": "NanoLumens",
@@ -27935,7 +27892,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 610
+     "rank": 609
     },
     {
      "name": "Nix",
@@ -27985,7 +27942,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 611
+     "rank": 610
     },
     {
      "name": "str8bat",
@@ -28028,7 +27985,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": "platform"
      },
-     "rank": 612
+     "rank": 611
     },
     {
      "name": "Wakefit",
@@ -28070,7 +28027,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 613
+     "rank": 612
     },
     {
      "name": "Trackonomy",
@@ -28113,7 +28070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 614
+     "rank": 613
     },
     {
      "name": "4D Bios",
@@ -28155,7 +28112,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 615
+     "rank": 614
     },
     {
      "name": "Biofourmis",
@@ -28205,7 +28162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 616
+     "rank": 615
     },
     {
      "name": "ROMTech",
@@ -28255,7 +28212,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 617
+     "rank": 616
     },
     {
      "name": "Sensata Technologies",
@@ -28298,7 +28255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 618
+     "rank": 617
     },
     {
      "name": "Sensorum Health",
@@ -28348,7 +28305,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 619
+     "rank": 618
     },
     {
      "name": "Synapsor",
@@ -28398,7 +28355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 620
+     "rank": 619
     },
     {
      "name": "Cactos",
@@ -28448,7 +28405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 621
+     "rank": 620
     },
     {
      "name": "Hula Earth",
@@ -28491,7 +28448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 622
+     "rank": 621
     },
     {
      "name": "Moleaer",
@@ -28534,7 +28491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 623
+     "rank": 622
     },
     {
      "name": "Oriient",
@@ -28577,7 +28534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 624
+     "rank": 623
     },
     {
      "name": "Sioma",
@@ -28620,7 +28577,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 625
+     "rank": 624
     },
     {
      "name": "Sonatus",
@@ -28663,7 +28620,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 626
+     "rank": 625
     }
    ]
   },
@@ -28716,7 +28673,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 627
+     "rank": 626
     },
     {
      "name": "Pragmatic",
@@ -28759,7 +28716,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 628
+     "rank": 627
     },
     {
      "name": "Zero Motorcycles",
@@ -28802,7 +28759,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 629
+     "rank": 628
     },
     {
      "name": "Freedom Robotics",
@@ -28845,7 +28802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 630
+     "rank": 629
     },
     {
      "name": "Plumerai",
@@ -28888,7 +28845,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 631
+     "rank": 630
     },
     {
      "name": "Kepler Communications",
@@ -28931,7 +28888,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 632
+     "rank": 631
     },
     {
      "name": "Kotcha",
@@ -28981,7 +28938,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 633
+     "rank": 632
     },
     {
      "name": "Belts",
@@ -29024,7 +28981,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 634
+     "rank": 633
     },
     {
      "name": "Deako",
@@ -29074,7 +29031,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 635
+     "rank": 634
     },
     {
      "name": "Drover AI",
@@ -29117,7 +29074,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 636
+     "rank": 635
     },
     {
      "name": "E-Peas",
@@ -29167,7 +29124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 637
+     "rank": 636
     },
     {
      "name": "Epic CleanTec",
@@ -29210,7 +29167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 638
+     "rank": 637
     },
     {
      "name": "Evigence Sensors",
@@ -29253,7 +29210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 639
+     "rank": 638
     },
     {
      "name": "FiberSense",
@@ -29296,7 +29253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 640
+     "rank": 639
     },
     {
      "name": "Forterra",
@@ -29339,7 +29296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 641
+     "rank": 640
     },
     {
      "name": "Freight Farms",
@@ -29382,7 +29339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 642
+     "rank": 641
     },
     {
      "name": "INGU",
@@ -29432,7 +29389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 643
+     "rank": 642
     },
     {
      "name": "Jiobit",
@@ -29475,7 +29432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 644
+     "rank": 643
     },
     {
      "name": "Kardome Technology",
@@ -29518,7 +29475,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 645
+     "rank": 644
     },
     {
      "name": "Moj.io",
@@ -29561,7 +29518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 646
+     "rank": 645
     },
     {
      "name": "Neuron Mobility",
@@ -29604,7 +29561,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 647
+     "rank": 646
     },
     {
      "name": "Preteckt",
@@ -29647,7 +29604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 648
+     "rank": 647
     },
     {
      "name": "Prisma Photonics",
@@ -29697,7 +29654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 649
+     "rank": 648
     },
     {
      "name": "Reach",
@@ -29747,7 +29704,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 650
+     "rank": 649
     },
     {
      "name": "Stellapps",
@@ -29789,7 +29746,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 651
+     "rank": 650
     },
     {
      "name": "versatile.ai",
@@ -29832,7 +29789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 652
+     "rank": 651
     },
     {
      "name": "WINT",
@@ -29875,7 +29832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 653
+     "rank": 652
     },
     {
      "name": "Fuchsia",
@@ -29925,7 +29882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 654
+     "rank": 653
     },
     {
      "name": "Justos",
@@ -29975,7 +29932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 655
+     "rank": 654
     },
     {
      "name": "K4Connect",
@@ -30025,7 +29982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 656
+     "rank": 655
     },
     {
      "name": "REEV",
@@ -30075,7 +30032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 657
+     "rank": 656
     },
     {
      "name": "Remedee Labs",
@@ -30125,7 +30082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 658
+     "rank": 657
     },
     {
      "name": "Siren",
@@ -30175,7 +30132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 659
+     "rank": 658
     },
     {
      "name": "iBasis",
@@ -30225,7 +30182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 660
+     "rank": 659
     },
     {
      "name": "Motorq",
@@ -30268,7 +30225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 661
+     "rank": 660
     },
     {
      "name": "Skyworks Solutions",
@@ -30311,7 +30268,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 662
+     "rank": 661
     },
     {
      "name": "Stel",
@@ -30361,7 +30318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 663
+     "rank": 662
     },
     {
      "name": "Aptos Orbital",
@@ -30404,7 +30361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 664
+     "rank": 663
     },
     {
      "name": "August Home",
@@ -30447,7 +30404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 665
+     "rank": 664
     },
     {
      "name": "Blaize",
@@ -30490,7 +30447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 666
+     "rank": 665
     },
     {
      "name": "FordPass / Ford Pro",
@@ -30540,7 +30497,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 667
+     "rank": 666
     },
     {
      "name": "Karnott",
@@ -30583,7 +30540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 668
+     "rank": 667
     },
     {
      "name": "Lumos Helmet",
@@ -30626,7 +30583,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 669
+     "rank": 668
     },
     {
      "name": "Nanit",
@@ -30669,7 +30626,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 670
+     "rank": 669
     },
     {
      "name": "Sensefinity",
@@ -30712,7 +30669,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 671
+     "rank": 670
     },
     {
      "name": "Optiwatt",
@@ -30762,7 +30719,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 672
+     "rank": 671
     },
     {
      "name": "Tovala",
@@ -30805,7 +30762,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 673
+     "rank": 672
     },
     {
      "name": "Tozuda",
@@ -30848,7 +30805,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 674
+     "rank": 673
     },
     {
      "name": "Feel Therapeutics",
@@ -30898,7 +30855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 675
+     "rank": 674
     },
     {
      "name": "Iceotope",
@@ -30941,7 +30898,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 676
+     "rank": 675
     },
     {
      "name": "Inofab",
@@ -30991,7 +30948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 677
+     "rank": 676
     },
     {
      "name": "NinjaBlocks",
@@ -31036,7 +30993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 678
+     "rank": 677
     },
     {
      "name": "Open Bionics",
@@ -31086,7 +31043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 679
+     "rank": 678
     },
     {
      "name": "Prophetic",
@@ -31136,7 +31093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 680
+     "rank": 679
     },
     {
      "name": "Sleep Number",
@@ -31185,7 +31142,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 681
+     "rank": 680
     },
     {
      "name": "Spartan Radar",
@@ -31228,7 +31185,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 682
+     "rank": 681
     },
     {
      "name": "STAND+",
@@ -31278,7 +31235,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 683
+     "rank": 682
     },
     {
      "name": "Bloxtel, Inc.",
@@ -31328,7 +31285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 684
+     "rank": 683
     },
     {
      "name": "Optoscale",
@@ -31371,7 +31328,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 685
+     "rank": 684
     },
     {
      "name": "Pebble",
@@ -31414,7 +31371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 686
+     "rank": 685
     },
     {
      "name": "Plotlogic",
@@ -31457,7 +31414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 687
+     "rank": 686
     },
     {
      "name": "Frontlinewildfire",
@@ -31507,7 +31464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 688
+     "rank": 687
     },
     {
      "name": "Roost",
@@ -31557,7 +31514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 689
+     "rank": 688
     },
     {
      "name": "Wellxai",
@@ -31607,7 +31564,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 690
+     "rank": 689
     },
     {
      "name": "Carnot Fleet",
@@ -31650,7 +31607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 691
+     "rank": 690
     },
     {
      "name": "EcoG",
@@ -31700,7 +31657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 692
+     "rank": 691
     },
     {
      "name": "Humatics",
@@ -31743,7 +31700,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 693
+     "rank": 692
     },
     {
      "name": "Kace",
@@ -31786,7 +31743,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 694
+     "rank": 693
     },
     {
      "name": "Inspiren",
@@ -31836,7 +31793,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 695
+     "rank": 694
     },
     {
      "name": "Atlas5D",
@@ -31886,7 +31843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 696
+     "rank": 695
     },
     {
      "name": "Cool Planet",
@@ -31936,7 +31893,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 697
+     "rank": 696
     },
     {
      "name": "FANUC",
@@ -31979,7 +31936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 698
+     "rank": 697
     },
     {
      "name": "Pillar Technologies",
@@ -32022,7 +31979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 699
+     "rank": 698
     },
     {
      "name": "ECOVACS Robotics",
@@ -32065,7 +32022,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 700
+     "rank": 699
     },
     {
      "name": "Semios",
@@ -32108,7 +32065,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 701
+     "rank": 700
     },
     {
      "name": "Aclima",
@@ -32158,7 +32115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 702
+     "rank": 701
     },
     {
      "name": "Adasky",
@@ -32200,7 +32157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 703
+     "rank": 702
     },
     {
      "name": "Alterego",
@@ -32243,7 +32200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 704
+     "rank": 703
     },
     {
      "name": "B2X",
@@ -32286,7 +32243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 705
+     "rank": 704
     },
     {
      "name": "Scout",
@@ -32329,7 +32286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 706
+     "rank": 705
     },
     {
      "name": "Payment24",
@@ -32379,7 +32336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 707
+     "rank": 706
     },
     {
      "name": "Understory",
@@ -32429,7 +32386,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 708
+     "rank": 707
     },
     {
      "name": "Green Fusion",
@@ -32479,7 +32436,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 709
+     "rank": 708
     },
     {
      "name": "Naviday Health",
@@ -32529,7 +32486,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 710
+     "rank": 709
     },
     {
      "name": "The Travelers Companies",
@@ -32579,7 +32536,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 711
+     "rank": 710
     },
     {
      "name": "Carnival Corporation",
@@ -32622,7 +32579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 712
+     "rank": 711
     },
     {
      "name": "Code Metal",
@@ -32665,7 +32622,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 713
+     "rank": 712
     },
     {
      "name": "Feetme",
@@ -32715,7 +32672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 714
+     "rank": 713
     },
     {
      "name": "Volterra",
@@ -32758,7 +32715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 715
+     "rank": 714
     },
     {
      "name": "Koska",
@@ -32801,7 +32758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 716
+     "rank": 715
     },
     {
      "name": "Lyte",
@@ -32844,7 +32801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 717
+     "rank": 716
     },
     {
      "name": "morewis",
@@ -32886,7 +32843,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 718
+     "rank": 717
     },
     {
      "name": "Theta EdgeCloud",
@@ -32929,7 +32886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 719
+     "rank": 718
     },
     {
      "name": "Volteum",
@@ -32979,7 +32936,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 720
+     "rank": 719
     },
     {
      "name": "xiaoyi",
@@ -33022,7 +32979,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 721
+     "rank": 720
     },
     {
      "name": "BrainCo",
@@ -33072,7 +33029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 722
+     "rank": 721
     },
     {
      "name": "Philips",
@@ -33122,7 +33079,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 723
+     "rank": 722
     },
     {
      "name": "Zwift",
@@ -33165,7 +33122,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 724
+     "rank": 723
     },
     {
      "name": "Apar Infotech Corporation",
@@ -33208,7 +33165,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 725
+     "rank": 724
     },
     {
      "name": "OWLR",
@@ -33251,7 +33208,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 726
+     "rank": 725
     },
     {
      "name": "Cron Systems",
@@ -33294,7 +33251,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 727
+     "rank": 726
     },
     {
      "name": "DayOne",
@@ -33337,7 +33294,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 728
+     "rank": 727
     },
     {
      "name": "Evreka",
@@ -33380,7 +33337,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 729
+     "rank": 728
     },
     {
      "name": "Acacus Group",
@@ -33422,7 +33379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 730
+     "rank": 729
     },
     {
      "name": "ISAAC Instruments",
@@ -33465,7 +33422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 731
+     "rank": 730
     },
     {
      "name": "Cambridge Terahertz",
@@ -33508,7 +33465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 732
+     "rank": 731
     },
     {
      "name": "Hydrow",
@@ -33558,7 +33515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 733
+     "rank": 732
     },
     {
      "name": "INDOS",
@@ -33601,7 +33558,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 734
+     "rank": 733
     },
     {
      "name": "Nothing",
@@ -33644,7 +33601,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 735
+     "rank": 734
     },
     {
      "name": "Open mHealth",
@@ -33694,7 +33651,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 736
+     "rank": 735
     },
     {
      "name": "Savi Technology",
@@ -33737,7 +33694,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 737
+     "rank": 736
     },
     {
      "name": "Wisear",
@@ -33780,7 +33737,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 738
+     "rank": 737
     },
     {
      "name": "DNOW",
@@ -33830,7 +33787,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 739
+     "rank": 738
     },
     {
      "name": "EcoPlant",
@@ -33880,7 +33837,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 740
+     "rank": 739
     },
     {
      "name": "Securly",
@@ -33930,7 +33887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 741
+     "rank": 740
     },
     {
      "name": "Apex.AI",
@@ -33973,7 +33930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 742
+     "rank": 741
     },
     {
      "name": "Auradine (Velaura AI)",
@@ -34023,7 +33980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 743
+     "rank": 742
     },
     {
      "name": "Gabit",
@@ -34073,7 +34030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 744
+     "rank": 743
     },
     {
      "name": "Teradar",
@@ -34116,7 +34073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 745
+     "rank": 744
     },
     {
      "name": "INURU",
@@ -34166,7 +34123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 746
+     "rank": 745
     },
     {
      "name": "iTAC Software",
@@ -34209,7 +34166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 747
+     "rank": 746
     },
     {
      "name": "Lynq",
@@ -34252,7 +34209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 748
+     "rank": 747
     },
     {
      "name": "Nodal Industries",
@@ -34295,7 +34252,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 749
+     "rank": 748
     },
     {
      "name": "Bug Labs",
@@ -34338,7 +34295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 750
+     "rank": 749
     },
     {
      "name": "Hippo",
@@ -34388,7 +34345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 751
+     "rank": 750
     },
     {
      "name": "StackPath",
@@ -34431,7 +34388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 752
+     "rank": 751
     },
     {
      "name": "Lyten",
@@ -34481,7 +34438,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 753
+     "rank": 752
     },
     {
      "name": "Matter Intelligence",
@@ -34524,7 +34481,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 754
+     "rank": 753
     },
     {
      "name": "Praan",
@@ -34567,7 +34524,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 755
+     "rank": 754
     },
     {
      "name": "Skylo",
@@ -34617,7 +34574,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 756
+     "rank": 755
     },
     {
      "name": "Humanising Autonomy",
@@ -34659,7 +34616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 757
+     "rank": 756
     },
     {
      "name": "DRINKOTEC",
@@ -34709,7 +34666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 758
+     "rank": 757
     },
     {
      "name": "Swiftlane",
@@ -34752,7 +34709,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 759
+     "rank": 758
     },
     {
      "name": "Vayu Robotics",
@@ -34795,7 +34752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 760
+     "rank": 759
     },
     {
      "name": "Fishbit",
@@ -34838,7 +34795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 761
+     "rank": 760
     },
     {
      "name": "iRobot",
@@ -34881,7 +34838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 762
+     "rank": 761
     },
     {
      "name": "Sandbar",
@@ -34924,7 +34881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 763
+     "rank": 762
     },
     {
      "name": "4DBIM",
@@ -34966,7 +34923,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 764
+     "rank": 763
     },
     {
      "name": "Audi Connect / myAudi",
@@ -35016,7 +34973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 765
+     "rank": 764
     },
     {
      "name": "Globetouch",
@@ -35066,7 +35023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 766
+     "rank": 765
     },
     {
      "name": "Hinge Health",
@@ -35116,7 +35073,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 767
+     "rank": 766
     },
     {
      "name": "Commsignia",
@@ -35166,7 +35123,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 768
+     "rank": 767
     },
     {
      "name": "EQUIPTAL HOLDING LTD",
@@ -35209,7 +35166,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 769
+     "rank": 768
     },
     {
      "name": "Source.dev",
@@ -35252,7 +35209,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 770
+     "rank": 769
     },
     {
      "name": "Biolinq",
@@ -35302,7 +35259,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 771
+     "rank": 770
     },
     {
      "name": "Ossia",
@@ -35352,7 +35309,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 772
+     "rank": 771
     },
     {
      "name": "Vitesse",
@@ -35395,7 +35352,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 773
+     "rank": 772
     },
     {
      "name": "IKEA U.S.",
@@ -35437,7 +35394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 774
+     "rank": 773
     },
     {
      "name": "Tractive",
@@ -35487,7 +35444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 775
+     "rank": 774
     },
     {
      "name": "Sensome",
@@ -35537,7 +35494,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 776
+     "rank": 775
     },
     {
      "name": "Aerohive",
@@ -35580,7 +35537,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 777
+     "rank": 776
     },
     {
      "name": "AgroMatch",
@@ -35623,7 +35580,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 778
+     "rank": 777
     },
     {
      "name": "AliciaBots",
@@ -35666,7 +35623,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 779
+     "rank": 778
     },
     {
      "name": "Atom Semiconductor",
@@ -35709,7 +35666,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 780
+     "rank": 779
     },
     {
      "name": "Automatic",
@@ -35754,7 +35711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 781
+     "rank": 780
     },
     {
      "name": "Axera Tech",
@@ -35797,7 +35754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 782
+     "rank": 781
     },
     {
      "name": "emergen",
@@ -35840,7 +35797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 783
+     "rank": 782
     },
     {
      "name": "Fluent.ai",
@@ -35883,7 +35840,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 784
+     "rank": 783
     },
     {
      "name": "GeoGrid",
@@ -35926,7 +35883,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 785
+     "rank": 784
     },
     {
      "name": "Nofence",
@@ -35969,7 +35926,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 786
+     "rank": 785
     },
     {
      "name": "Tile",
@@ -36012,7 +35969,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 787
+     "rank": 786
     },
     {
      "name": "Avery Dennison",
@@ -36055,7 +36012,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 788
+     "rank": 787
     },
     {
      "name": "Avnet",
@@ -36098,7 +36055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 789
+     "rank": 788
     },
     {
      "name": "Lexmark International",
@@ -36141,7 +36098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 790
+     "rank": 789
     },
     {
      "name": "Ethonai",
@@ -36184,7 +36141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 791
+     "rank": 790
     },
     {
      "name": "LINSOL Co.,Ltd.",
@@ -36227,7 +36184,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 792
+     "rank": 791
     },
     {
      "name": "Anoria",
@@ -36277,7 +36234,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 793
+     "rank": 792
     },
     {
      "name": "Mauna Kea Semiconductors",
@@ -36320,7 +36277,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 794
+     "rank": 793
     },
     {
      "name": "Mira",
@@ -36363,7 +36320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 795
+     "rank": 794
     },
     {
      "name": "Autonomic",
@@ -36406,7 +36363,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 796
+     "rank": 795
     },
     {
      "name": "Ion Mobility",
@@ -36449,7 +36406,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 797
+     "rank": 796
     },
     {
      "name": "Adaps Photonics",
@@ -36491,7 +36448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 798
+     "rank": 797
     },
     {
      "name": "AgZen",
@@ -36534,7 +36491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 799
+     "rank": 798
     },
     {
      "name": "Coolso",
@@ -36577,7 +36534,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 800
+     "rank": 799
     },
     {
      "name": "GreenQ",
@@ -36619,7 +36576,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 801
+     "rank": 800
     },
     {
      "name": "Syntiant",
@@ -36662,7 +36619,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 802
+     "rank": 801
     },
     {
      "name": "Aethero",
@@ -36705,7 +36662,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 803
+     "rank": 802
     },
     {
      "name": "AI-Prime (Paidao Intelligence)",
@@ -36748,7 +36705,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 804
+     "rank": 803
     },
     {
      "name": "Arcstone",
@@ -36791,7 +36748,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 805
+     "rank": 804
     },
     {
      "name": "Aspinity",
@@ -36834,7 +36791,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 806
+     "rank": 805
     },
     {
      "name": "CIX Technology",
@@ -36877,7 +36834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 807
+     "rank": 806
     },
     {
      "name": "Colony Capital (DigitalBridge Group)",
@@ -36920,7 +36877,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 808
+     "rank": 807
     },
     {
      "name": "Fox-Tech",
@@ -36963,7 +36920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 809
+     "rank": 808
     },
     {
      "name": "PathSpot",
@@ -37006,7 +36963,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 810
+     "rank": 809
     },
     {
      "name": "SiLC",
@@ -37049,7 +37006,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 811
+     "rank": 810
     },
     {
      "name": "Limbo",
@@ -37098,7 +37055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 812
+     "rank": 811
     },
     {
      "name": "Swiftmile",
@@ -37141,7 +37098,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 813
+     "rank": 812
     },
     {
      "name": "Bouffalo Lab",
@@ -37184,7 +37141,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 814
+     "rank": 813
     },
     {
      "name": "CTRL-labs *",
@@ -37226,7 +37183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 815
+     "rank": 814
     },
     {
      "name": "Cypress",
@@ -37269,7 +37226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 816
+     "rank": 815
     },
     {
      "name": "eFishery",
@@ -37312,7 +37269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 817
+     "rank": 816
     },
     {
      "name": "houmo",
@@ -37355,7 +37312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 818
+     "rank": 817
     },
     {
      "name": "Metis Labs",
@@ -37398,7 +37355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 819
+     "rank": 818
     },
     {
      "name": "SmartRent",
@@ -37441,7 +37398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 820
+     "rank": 819
     },
     {
      "name": "Valinor",
@@ -37491,7 +37448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 821
+     "rank": 820
     },
     {
      "name": "View",
@@ -37534,7 +37491,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 822
+     "rank": 821
     },
     {
      "name": "Omate",
@@ -37583,7 +37540,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 823
+     "rank": 822
     },
     {
      "name": "500net Technology Co., Ltd.",
@@ -37632,7 +37589,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 824
+     "rank": 823
     },
     {
      "name": "6thSense",
@@ -37675,7 +37632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 825
+     "rank": 824
     },
     {
      "name": "AerNos",
@@ -37717,7 +37674,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 826
+     "rank": 825
     },
     {
      "name": "airquality",
@@ -37760,7 +37717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 827
+     "rank": 826
     },
     {
      "name": "American Aerospace Advisors",
@@ -37803,7 +37760,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 828
+     "rank": 827
     },
     {
      "name": "Apigy",
@@ -37845,7 +37802,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 829
+     "rank": 828
     },
     {
      "name": "AquaShield",
@@ -37887,7 +37844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 830
+     "rank": 829
     },
     {
      "name": "Arilinc",
@@ -37930,7 +37887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 831
+     "rank": 830
     },
     {
      "name": "Automatic Labs",
@@ -37974,7 +37931,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 832
+     "rank": 831
     },
     {
      "name": "Avegant",
@@ -38017,7 +37974,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 833
+     "rank": 832
     },
     {
      "name": "Axiometrix Solutions",
@@ -38060,7 +38017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 834
+     "rank": 833
     },
     {
      "name": "Axon",
@@ -38103,7 +38060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 835
+     "rank": 834
     },
     {
      "name": "BeBop Sensors",
@@ -38145,7 +38102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 836
+     "rank": 835
     },
     {
      "name": "Bsquare",
@@ -38188,7 +38145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 837
+     "rank": 836
     },
     {
      "name": "Bumblebee Spaces",
@@ -38231,7 +38188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 838
+     "rank": 837
     },
     {
      "name": "Chickin",
@@ -38274,7 +38231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 839
+     "rank": 838
     },
     {
      "name": "Comfy *",
@@ -38317,7 +38274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 840
+     "rank": 839
     },
     {
      "name": "Conexant Systems",
@@ -38359,7 +38316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 841
+     "rank": 840
     },
     {
      "name": "Congruent",
@@ -38402,7 +38359,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 842
+     "rank": 841
     },
     {
      "name": "Crossbar",
@@ -38445,7 +38402,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 843
+     "rank": 842
     },
     {
      "name": "Datost",
@@ -38487,7 +38444,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 844
+     "rank": 843
     },
     {
      "name": "Dimeq",
@@ -38530,7 +38487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 845
+     "rank": 844
     },
     {
      "name": "Distributedspectrum",
@@ -38573,7 +38530,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 846
+     "rank": 845
     },
     {
      "name": "Dropcam",
@@ -38616,7 +38573,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 847
+     "rank": 846
     },
     {
      "name": "EchoStar",
@@ -38659,7 +38616,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 848
+     "rank": 847
     },
     {
      "name": "eigencomm",
@@ -38701,7 +38658,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 849
+     "rank": 848
     },
     {
      "name": "Energy Micro",
@@ -38744,7 +38701,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 850
+     "rank": 849
     },
     {
      "name": "EraDrive",
@@ -38787,7 +38744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 851
+     "rank": 850
     },
     {
      "name": "Fleetsmith",
@@ -38831,7 +38788,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 852
+     "rank": 851
     },
     {
      "name": "FogHorn Systems (Johnson Controls)",
@@ -38873,7 +38830,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 853
+     "rank": 852
     },
     {
      "name": "Fossil Group",
@@ -38916,7 +38873,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 854
+     "rank": 853
     },
     {
      "name": "Freescale Semiconductor",
@@ -38960,7 +38917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 855
+     "rank": 854
     },
     {
      "name": "Geekatoo",
@@ -39002,7 +38959,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 856
+     "rank": 855
     },
     {
      "name": "General Instinct",
@@ -39045,7 +39002,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 857
+     "rank": 856
     },
     {
      "name": "General Radar",
@@ -39088,7 +39045,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 858
+     "rank": 857
     },
     {
      "name": "HUM Industries",
@@ -39131,7 +39088,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 859
+     "rank": 858
     },
     {
      "name": "Humane",
@@ -39175,7 +39132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 860
+     "rank": 859
     },
     {
      "name": "IControl Networks",
@@ -39217,7 +39174,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 861
+     "rank": 860
     },
     {
      "name": "Infiot",
@@ -39259,7 +39216,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 862
+     "rank": 861
     },
     {
      "name": "Instart Logic",
@@ -39303,7 +39260,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 863
+     "rank": 862
     },
     {
      "name": "IQI Inc (Beijing AIQI Technology)",
@@ -39346,7 +39303,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 864
+     "rank": 863
     },
     {
      "name": "Iridium",
@@ -39388,7 +39345,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 865
+     "rank": 864
     },
     {
      "name": "Kubota Corporation",
@@ -39431,7 +39388,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 866
+     "rank": 865
     },
     {
      "name": "Luma Home",
@@ -39473,7 +39430,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 867
+     "rank": 866
     },
     {
      "name": "Mantari",
@@ -39515,7 +39472,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 868
+     "rank": 867
     },
     {
      "name": "Nexite",
@@ -39558,7 +39515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 869
+     "rank": 868
     },
     {
      "name": "nomiku",
@@ -39600,7 +39557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 870
+     "rank": 869
     },
     {
      "name": "North",
@@ -39643,7 +39600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 871
+     "rank": 870
     },
     {
      "name": "Omen",
@@ -39685,7 +39642,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 872
+     "rank": 871
     },
     {
      "name": "One Raven",
@@ -39728,7 +39685,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 873
+     "rank": 872
     },
     {
      "name": "OnFarm",
@@ -39773,7 +39730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 874
+     "rank": 873
     },
     {
      "name": "Padminivna",
@@ -39816,7 +39773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 875
+     "rank": 874
     },
     {
      "name": "Parstream",
@@ -39858,7 +39815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 876
+     "rank": 875
     },
     {
      "name": "Peel",
@@ -39901,7 +39858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 877
+     "rank": 876
     },
     {
      "name": "petkit",
@@ -39944,7 +39901,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 878
+     "rank": 877
     },
     {
      "name": "Process Sensing Technologies",
@@ -39987,7 +39944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 879
+     "rank": 878
     },
     {
      "name": "Ready Robotics",
@@ -40029,7 +39986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 880
+     "rank": 879
     },
     {
      "name": "Revolv",
@@ -40072,7 +40029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 881
+     "rank": 880
     },
     {
      "name": "Riide",
@@ -40115,7 +40072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 882
+     "rank": 881
     },
     {
      "name": "Ruedata",
@@ -40158,7 +40115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 883
+     "rank": 882
     },
     {
      "name": "SIQ Basketball",
@@ -40201,7 +40158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 884
+     "rank": 883
     },
     {
      "name": "Space Runners",
@@ -40244,7 +40201,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 885
+     "rank": 884
     },
     {
      "name": "Spider Fleet",
@@ -40286,7 +40243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 886
+     "rank": 885
     },
     {
      "name": "Strella Biotechnology",
@@ -40329,7 +40286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 887
+     "rank": 886
     },
     {
      "name": "Superpedestrian",
@@ -40373,7 +40330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 888
+     "rank": 887
     },
     {
      "name": "Taascom",
@@ -40415,7 +40372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 889
+     "rank": 888
     },
     {
      "name": "Toyota Connected",
@@ -40458,7 +40415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 890
+     "rank": 889
     },
     {
      "name": "TruckLabs",
@@ -40501,7 +40458,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 891
+     "rank": 890
     },
     {
      "name": "Tule Technologies",
@@ -40544,7 +40501,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 892
+     "rank": 891
     },
     {
      "name": "Veniam",
@@ -40587,7 +40544,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 893
+     "rank": 892
     },
     {
      "name": "Weft",
@@ -40629,7 +40586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 894
+     "rank": 893
     },
     {
      "name": "AltoTech Global",
@@ -40679,7 +40636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 895
+     "rank": 894
     },
     {
      "name": "Perfumeo",
@@ -40721,7 +40678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 896
+     "rank": 895
     },
     {
      "name": "Skyfri",
@@ -40771,7 +40728,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 897
+     "rank": 896
     },
     {
      "name": "Uptime",
@@ -40813,7 +40770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 898
+     "rank": 897
     },
     {
      "name": "I Flow",
@@ -40863,7 +40820,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 899
+     "rank": 898
     },
     {
      "name": "Jewelbots",
@@ -40913,7 +40870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 900
+     "rank": 899
     },
     {
      "name": "KDDI",
@@ -40963,7 +40920,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 901
+     "rank": 900
     },
     {
      "name": "Raytheon",
@@ -41013,7 +40970,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 902
+     "rank": 901
     },
     {
      "name": "Element Science",
@@ -41063,7 +41020,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 903
+     "rank": 902
     },
     {
      "name": "OpenEyes Insurance",
@@ -41113,7 +41070,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 904
+     "rank": 903
     },
     {
      "name": "Otolith",
@@ -41163,7 +41120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 905
+     "rank": 904
     },
     {
      "name": "Qnovia",
@@ -41213,7 +41170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 906
+     "rank": 905
     },
     {
      "name": "Borqs",
@@ -41263,7 +41220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 907
+     "rank": 906
     },
     {
      "name": "GM OnStar",
@@ -41313,7 +41270,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 908
+     "rank": 907
     },
     {
      "name": "Hexing Electrical Co., Ltd.",
@@ -41363,7 +41320,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 909
+     "rank": 908
     },
     {
      "name": "LiquidStack",
@@ -41413,7 +41370,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 910
+     "rank": 909
     },
     {
      "name": "Misfit",
@@ -41462,7 +41419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 911
+     "rank": 910
     },
     {
      "name": "Inviscid AI",
@@ -41511,7 +41468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 912
+     "rank": 911
     },
     {
      "name": "PayRange",
@@ -41561,7 +41518,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 913
+     "rank": 912
     },
     {
      "name": "Bellabeat",
@@ -41611,7 +41568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 914
+     "rank": 913
     },
     {
      "name": "Cardiogram",
@@ -41660,7 +41617,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 915
+     "rank": 914
     },
     {
      "name": "Curtiss-Wright",
@@ -41710,7 +41667,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 916
+     "rank": 915
     },
     {
      "name": "Envision Energy",
@@ -41760,7 +41717,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 917
+     "rank": 916
     },
     {
      "name": "GYENNO",
@@ -41810,7 +41767,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 918
+     "rank": 917
     },
     {
      "name": "Happiest Baby",
@@ -41860,7 +41817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 919
+     "rank": 918
     },
     {
      "name": "Hyundai Bluelink",
@@ -41910,7 +41867,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 920
+     "rank": 919
     },
     {
      "name": "Illume Labs",
@@ -41960,7 +41917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 921
+     "rank": 920
     },
     {
      "name": "Instabeat",
@@ -42010,7 +41967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 922
+     "rank": 921
     },
     {
      "name": "Livongo",
@@ -42060,7 +42017,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 923
+     "rank": 922
     },
     {
      "name": "Mantis",
@@ -42110,7 +42067,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 924
+     "rank": 923
     },
     {
      "name": "OMsignal",
@@ -42160,7 +42117,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 925
+     "rank": 924
     },
     {
      "name": "Petcube",
@@ -42210,7 +42167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 926
+     "rank": 925
     },
     {
      "name": "Theranica",
@@ -42260,7 +42217,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 927
+     "rank": 926
     },
     {
      "name": "Tibo Energy",
@@ -42310,7 +42267,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 928
+     "rank": 927
     },
     {
      "name": "Wi Charge",
@@ -42359,7 +42316,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 929
+     "rank": 928
     },
     {
      "name": "Lighting",
@@ -42401,7 +42358,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 930
+     "rank": 929
     },
     {
      "name": "Endotronix",
@@ -42451,7 +42408,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 931
+     "rank": 930
     },
     {
      "name": "Neuroharmonics",
@@ -42500,7 +42457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 932
+     "rank": 931
     },
     {
      "name": "Flock",
@@ -42550,7 +42507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 933
+     "rank": 932
     },
     {
      "name": "NVE Corporation",
@@ -42600,7 +42557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 934
+     "rank": 933
     },
     {
      "name": "Amodo",
@@ -42650,7 +42607,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 935
+     "rank": 934
     },
     {
      "name": "Aeroscout",
@@ -42700,7 +42657,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 936
+     "rank": 935
     },
     {
      "name": "Atlas Wearables",
@@ -42751,7 +42708,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 937
+     "rank": 936
     },
     {
      "name": "Calibra Medical",
@@ -42800,7 +42757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 938
+     "rank": 937
     },
     {
      "name": "Corventis",
@@ -42849,7 +42806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 939
+     "rank": 938
     },
     {
      "name": "Kumu Networks",
@@ -42898,7 +42855,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 940
+     "rank": 939
     },
     {
      "name": "Millennial Fox",
@@ -42947,7 +42904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 941
+     "rank": 940
     },
     {
      "name": "Nova Metrix",
@@ -42997,7 +42954,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 942
+     "rank": 941
     },
     {
      "name": "Playbrush",
@@ -43047,7 +43004,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 943
+     "rank": 942
     },
     {
      "name": "Echelon",
@@ -43098,7 +43055,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 944
+     "rank": 943
     },
     {
      "name": "In Charge One, Inc.",
@@ -43147,7 +43104,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 945
+     "rank": 944
     },
     {
      "name": "Silver Spring Networks *",
@@ -43198,7 +43155,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 946
+     "rank": 945
     },
     {
      "name": "Proxy",
@@ -43247,7 +43204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 947
+     "rank": 946
     }
    ]
   },
@@ -43263,7 +43220,7 @@
      "name": "99degrees Custom",
      "slug": "99degreescustom",
      "description": "99Degrees (99Degrees Custom, Inc.) is a Lawrence, Massachusetts contract apparel manufacturer founded in 2013 by Brenna Nan Schneider, operating out of the historic Everett Mills. It produces performance activewear, workwear, uniforms and technology-integrated apparel for global and growth-stage brands, and runs an R&D operation focused on Design for Manufacturing, rapid prototyping and applied research — including integrating sensors, electronics, robotics and hardware into textiles for wearable medical and industrial safety products. During the COVID-19 pandemic it pivoted its Lawrence floor to medical gowns and PPE. The company raised roughly $2.35M across four rounds, won the MIT Inclusive Innovation Competition top prize and MassChallenge's $100k Diamond Prize, and entered a manufacturing partnership with Reliable Source Industrial. 99Degrees is a physical-goods manufacturer, not a software company: no source, live or archived, shows it ever published a developer program, public API, SDK, webhook surface or machine-readable specification. Its canonical host 99degreescustom.com lapsed and was re-registered by a domain broker on 2026-05-24; it now serves a \"for sale\" parking lander and is deliberately not wired as a Website pointer. This profile is retained as a historical record — there is no API surface to catalog.",
-     "rank": 948
+     "rank": 947
     }
    ]
   }

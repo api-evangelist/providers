@@ -84,6 +84,22 @@ common:
   title: ''
   type: Press Releases
   url: https://www.gnc-holdings.com/news/
+coverage:
+  checked: '2026-09-12'
+  detail: GNC is a physical-goods supplement retailer with no developer surface of any kind — api.gnc.com and developer.gnc.com do not resolve, none of the 3,819 URLs in its own sitemap is a developer or API page, and every /.well-known/ path plus /apis.json, /openapi.json and /llms.txt returns 404 on www.gnc.com, stores.gnc.com and gncfranchising.com; its storefront runs on Salesforce Commerce Cloud and its store locator on Yext, but neither vendor contract is published by GNC.
+  evidence:
+  - status: 404
+    url: https://www.gnc.com/apis.json
+  - status: 404
+    url: https://www.gnc.com/llms.txt
+  - status: 404
+    url: https://www.gnc.com/.well-known/agent-card.json
+  - status: 404
+    url: https://www.gnc.com/.well-known/api-catalog
+  - status: 404
+    url: https://stores.gnc.com/openapi.json
+  reason: not-a-software-company
+  state: none
 created: '2026-03-24'
 description: GNC Holdings, LLC (General Nutrition Centers) is an American specialty retailer of health, wellness, and performance products including vitamins, minerals, herbal supplements, sports nutrition, diet, and energy products. Founded in 1935 and headquartered in Pittsburgh, Pennsylvania, GNC is a wholly owned subsidiary of Harbin Pharmaceutical Group following its 2020 acquisition. The company operates owned and franchised retail locations, online stores, and retail partnerships across approximately 50 countries.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gnc-holdings.png

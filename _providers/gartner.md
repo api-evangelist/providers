@@ -56,6 +56,20 @@ common:
   title: ''
   type: GraphQL
   url: graphql/gartner-graphql.md
+coverage:
+  checked: '2026-09-12'
+  detail: Gartner's only live first-party API host, gapi.gartner.com, is an AWS API Gateway that answers every anonymous request with 403 "Missing Authentication Token", and no reference, contract or auth guide for it is published outside the subscription-gated client platform and the login-walled Peer Insights vendor portal.
+  evidence:
+  - status: 403
+    url: https://gapi.gartner.com/
+  - status: 404
+    url: https://api.gartner.com/openapi.json
+  - status: 200
+    url: https://gpivendorresources.gartner.com/llms.txt
+  - status: 200
+    url: https://www.gartner.com/.well-known/security.txt
+  reason: customer-only-docs
+  state: gated
 created: '2026-03-24'
 description: Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time.
 graphqls:

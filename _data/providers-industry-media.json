@@ -11941,7 +11941,7 @@
     {
      "name": "Getty Images",
      "slug": "getty-images",
-     "description": "The Getty Images API brings the best visual content straight to you and your customers, letting you integrate outstanding images, videos, and illustrations from Getty Images and iStock directly into your platform.",
+     "description": "The Getty Images API brings the best visual content straight to you and your customers, letting you integrate outstanding images, videos, and illustrations from Getty Images and iStock directly into your platform. One REST API at version 3 — 67 paths and 76 operations across creative and editorial image and video search, reverse image search, asset metadata, licensing and download, collaborative boards, pull-based catalogue synchronisation via Asset Changes, and Generative AI by Getty Images (text-to-image, refine, extend, object and background removal, reference-image influence). A remote MCP server at https://mcp.gettyimages.com/v1 exposes search, metadata and download to AI agents. Enterprise identity is served by a live SCIM 2.0 surface and SAML 2.0 SSO. Access is sales-gated: credentials are issued by a Getty Images account representative against an existing content licence agreement, with no self-service sign-up, no free tier and no published API pricing.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png",
      "score": 24.9,
      "band": "emerging",

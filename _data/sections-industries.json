@@ -36,7 +36,7 @@
   "name": "Artificial Intelligence",
   "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
   "icon": "smart_toy",
-  "count": 5480,
+  "count": 5475,
   "roster_only": false
  },
  {
@@ -68,7 +68,7 @@
   "name": "Biotechnology & Drug Discovery",
   "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
   "icon": "biotech",
-  "count": 1307,
+  "count": 1306,
   "roster_only": false
  },
  {
@@ -140,7 +140,7 @@
   "name": "Content Management & Digital Experience",
   "description": "Where web content is authored and delivered — traditional and headless CMS, digital experience platforms, website builders, and digital asset management.",
   "icon": "web",
-  "count": 192,
+  "count": 191,
   "roster_only": false
  },
  {
@@ -172,7 +172,7 @@
   "name": "Cybersecurity & Identity",
   "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 2188,
+  "count": 2186,
   "roster_only": false
  },
  {
@@ -180,7 +180,7 @@
   "name": "Data & Analytics",
   "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
   "icon": "insights",
-  "count": 2437,
+  "count": 2435,
   "roster_only": false
  },
  {
@@ -196,7 +196,7 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 3003,
+  "count": 2999,
   "roster_only": false
  },
  {
@@ -324,7 +324,7 @@
   "name": "Healthcare",
   "description": "",
   "icon": "/industries/assets/icons/healthcare.png",
-  "count": 2101,
+  "count": 2100,
   "roster_only": false
  },
  {
@@ -380,7 +380,7 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 948,
+  "count": 947,
   "roster_only": false
  },
  {
@@ -396,7 +396,7 @@
   "name": "Life Sciences",
   "description": "",
   "icon": "/industries/assets/icons/life-sciences.png",
-  "count": 1087,
+  "count": 1086,
   "roster_only": false
  },
  {
@@ -500,7 +500,7 @@
   "name": "Productivity Software",
   "description": "The software teams organize work in — task and project management, notes and documents, planning boards, and the personal productivity tools that carry an API.",
   "icon": "task_alt",
-  "count": 421,
+  "count": 416,
   "roster_only": false
  },
  {
@@ -596,7 +596,7 @@
   "name": "Telecommunications & Connectivity",
   "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 1328,
+  "count": 1326,
   "roster_only": false
  },
  {

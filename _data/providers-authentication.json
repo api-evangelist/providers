@@ -1306,7 +1306,7 @@
     {
      "name": "Gluu",
      "slug": "gluu",
-     "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources.",
+     "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources. Gluu leads the Linux Foundation Janssen Project, whose OAuth 2.0 / OpenID Connect authorization server, SCIM 2.0 service, FIDO2 server, Config API and Cedarling policy decision point are the components Gluu packages commercially as Gluu Flex and hosts as Gluu Solo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png",
      "score": 33.4,
      "band": "thin",

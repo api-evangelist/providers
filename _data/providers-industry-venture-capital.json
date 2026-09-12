@@ -22563,7 +22563,7 @@
     {
      "name": "Geneos",
      "slug": "geneos",
-     "description": "Geneos is ITRS Group's real-time monitoring platform that provides comprehensive observability for trading systems, applications, and infrastructure. Widely deployed across investment banks, hedge funds, and exchanges, Geneos collects high-frequency telemetry from custom samplers and toolkits, aggregates it through Gateways, and exposes that data through REST, XML-RPC, streaming, and SDK interfaces for programmatic access, automation, and dashboarding.",
+     "description": "Geneos is ITRS Group's real-time monitoring and observability platform for trading systems, applications and infrastructure, deployed across investment banks, hedge funds, exchanges, telcos and government. It is customer-deployed software rather than a hosted API: Netprobes collect high-frequency telemetry at the edge, Gateways aggregate and rule over it, and each tier exposes its own programmable surface. The Netprobe ships a published OpenAPI 3.0 REST plug-in for pushing dataviews and streams into monitoring, an XML-RPC Instrumentation API for in-house applications to publish custom dataviews, and the Gateway exposes a JSON/Server-Sent-Events REST command service for running commands, snoozing entities, snapshotting dataviews and validating setup. ITRS also publishes first-party Go tooling (cordial, including the geneos CLI) and a Rust toolkit library on GitHub.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/screenshots/geneos-2026-06-20T181719.png",
      "score": 17.2,
      "band": "emerging",

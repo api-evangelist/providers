@@ -69,6 +69,22 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://policies.google.com/privacy
+coverage:
+  checked: '2026-09-12'
+  detail: Google Optimize and Optimize 360 were sunset on 2023-09-30 and the product is now a tombstone — developers.google.com/optimize and optimize.google.com both redirect in full to a single Help Center sunset notice, the documented base https://www.googleapis.com/optimize/v1 returns 404, and Google's own API Discovery directory listed 530 services on 2026-09-12 with no Optimize entry among them.
+  evidence:
+  - status: 200
+    url: https://developers.google.com/optimize
+  - status: 404
+    url: https://www.googleapis.com/optimize/v1
+  - status: 404
+    url: https://optimize.googleapis.com/
+  - status: 200
+    url: https://www.googleapis.com/discovery/v1/apis?name=optimize
+  - status: 200
+    url: https://support.google.com/optimize/answer/12979939
+  reason: defunct
+  state: none
 created: '2024-01-01'
 description: Google Optimize was a website optimization and A/B testing tool that helped businesses test variations of web pages and personalize experiences. Google Optimize and Optimize 360 were sunset on September 30, 2023. Google recommends migrating to Google Analytics 4 with built-in A/B testing or third-party tools.
 features:

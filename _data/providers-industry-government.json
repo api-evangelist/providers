@@ -29439,7 +29439,7 @@
     {
      "name": "Ginnie Mae",
      "slug": "ginnie-mae",
-     "description": "The Government National Mortgage Association (Ginnie Mae) is a government corporation within the U.S. Department of Housing and Urban Development (HUD), established in 1968 following the privatization of Fannie Mae. Its mission is to expand mortgage funding insured or guaranteed by federal agencies. By providing a full-faith-and-credit guarantee on securities backed by these mortgages, Ginnie Mae reduces investor risk and broadens the market for mortgage-backed securities.",
+     "description": "The Government National Mortgage Association (Ginnie Mae) is a government corporation within the U.S. Department of Housing and Urban Development (HUD), established in 1968 following the privatization of Fannie Mae. Its mission is to expand mortgage funding insured or guaranteed by federal agencies. By providing a full-faith-and-credit guarantee on securities backed by these mortgages, Ginnie Mae reduces investor risk and broadens the market for mortgage-backed securities. Ginnie Mae runs no developer program and publishes no API documentation, but ginniemae.gov is a decoupled Drupal 10 site whose public, unauthenticated JSON:API 1.0 surface at https://www.ginniemae.gov/api/v1/ is reachable by anyone — the FAQ, glossary, press releases, All Participant Memoranda, bulletins and document library the website is built from. MBS disclosure data is distributed separately as bulk files behind a free account, and issuer systems sit behind MyGinnieMae SSO.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/screenshots/ginnie-mae-2026-06-20T181827.png",
      "score": 9.5,
      "band": "minimal",

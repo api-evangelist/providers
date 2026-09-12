@@ -15985,7 +15985,7 @@
     {
      "name": "Google Pay",
      "slug": "google-pay",
-     "description": "Google Pay APIs enable payment processing and digital wallet functionality for apps and websites.",
+     "description": "Google Pay is Google's digital wallet and payment surface, exposed to developers as a family of distinct APIs rather than one endpoint. The Google Pay API for Web and Android is a client-side payment sheet that returns a signed, ECIES-encrypted payment token for a merchant's gateway to decrypt; the Google Wallet API is a REST service on walletobjects.googleapis.com for issuing loyalty cards, event tickets, boarding passes, transit tickets, gift cards and offers; Google Standard Payments carries the integrator APIs for issuers and PSPs; and the Google Pay & Wallet Developer MCP server gives AI coding agents live access to merchant profiles, integration status and the official documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-pay/refs/heads/main/screenshots/google-pay-2026-06-20T182221.png",
      "score": 40.4,
      "band": "developing",

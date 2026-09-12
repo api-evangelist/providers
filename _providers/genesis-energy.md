@@ -52,6 +52,20 @@ common:
   title: ''
   type: LlmsText
   url: https://genesis-energy.com/llms.txt
+coverage:
+  checked: '2026-09-12'
+  detail: Genesis Energy, L.P. is a Gulf of Mexico pipeline, marine transportation and soda ash operator with no developer program; the only machine-readable thing it publishes is a FERC informational posting website at gas.genlp.com serving NAESB WGQ location data as a CSV download, and its "Customer Activities" system at quorum.genlp.com answers an empty 404 on every anonymous path.
+  evidence:
+  - status: 404
+    url: https://www.genesisenergy.com/openapi.json
+  - status: 404
+    url: https://www.genesisenergy.com/.well-known/api-catalog
+  - status: 200
+    url: https://gas.genlp.com/GNP_PRD_IPWS/IPWSFile/IPWSFileHandler?path=%5CTSP_30020%5C&fileName=Locations%2FLOCATIONDATA.CSV&d=True
+  - status: 404
+    url: https://quorum.genlp.com/
+  reason: not-a-software-company
+  state: none
 created: '2026-03-24'
 description: Genesis Energy is a diversified midstream energy master limited partnership with a focus on providing services to refineries, crude oil and natural gas producers, and industrial and commercial enterprises.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genesis-energy.png

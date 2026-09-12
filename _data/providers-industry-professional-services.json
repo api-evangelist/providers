@@ -1789,7 +1789,7 @@
     {
      "name": "Gartner",
      "slug": "gartner",
-     "description": "Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time.",
+     "description": "Gartner, Inc. (NYSE IT) is a global research and advisory firm selling syndicated research, analyst inquiry, benchmarking, peer communities and conferences to executives across IT, finance, HR, supply chain, marketing, sales, legal and customer service. Gartner publishes no public developer API, developer portal or machine-readable contract: the research library and the Peer Insights vendor portal are subscription-gated, and the one live first-party API host found by probe (gapi.gartner.com, an AWS API Gateway) rejects every anonymous request. Gartner sold its Digital Markets business - Capterra, GetApp and Software Advice, and the Buyer Discovery API that serves their intent data - to G2 in February 2026, so the only OpenAPI reachable on a gartner.com host belongs to G2. This repository tracks the company and any first-party technical artifact that surfaces over time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png",
      "score": 14.3,
      "band": "emerging",

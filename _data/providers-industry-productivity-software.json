@@ -1,6 +1,6 @@
 {
- "total": 421,
- "shown": 421,
+ "total": 416,
+ "shown": 416,
  "limit": 1000,
  "bands": [
   {
@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "66.5+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "Adobe",
@@ -105,49 +105,6 @@
      "rank": 2
     },
     {
-     "name": "Atlassian Confluence",
-     "slug": "atlassian-confluence",
-     "description": "Atlassian Confluence is a team workspace and wiki platform for creating, organizing and collaborating on documentation, project plans, meeting notes and knowledge bases. Confluence Cloud publishes two OpenAPI-described REST surfaces — a legacy v1 API under /wiki/rest/api and the recommended cursor-paginated v2 API under /wiki/api/v2, 348 operations between them — plus a public GraphQL gateway at api.atlassian.com and the official Atlassian Rovo MCP Server, whose Confluence slice exposes 60 named tools to AI agents over OAuth 2.1. Authentication is basic auth with an account API token, OAuth 2.0 three-legged authorization for apps, or JWT for Connect apps; the Forge platform is the sanctioned way to build and host Confluence apps.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian-confluence/refs/heads/main/screenshots/atlassian-confluence-2026-06-20T172532.png",
-     "score": 74.3,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 58.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 97.4,
-      "developer_ergonomics": 78.0,
-      "access_clarity": 94.7
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 55.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Postman",
      "slug": "postman",
      "description": "Postman is the world's leading API platform, used by 35+ million developers to design, build, test, document, mock, monitor, and govern APIs across the entire API lifecycle. The platform spans Collections, Workspaces, the API Client, Spec Hub, Mock Servers, Monitors, the Postman CLI, Newman, Flows, AI Agent Builder, the Postman MCP Server and MCP Generator, API Governance, the Private API Network, Live Collections, Insights, and a public Postman API Network with millions of public workspaces.",
@@ -188,7 +145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "Fireflies.ai",
@@ -231,7 +188,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Lightfield",
@@ -274,7 +231,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 6
+     "rank": 5
     },
     {
      "name": "Adobe Workfront",
@@ -317,7 +274,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 6
     },
     {
      "name": "Asana",
@@ -360,7 +317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 7
     }
    ],
    "open": true
@@ -370,52 +327,9 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 36,
-   "shown": 36,
+   "count": 35,
+   "shown": 35,
    "providers": [
-    {
-     "name": "Atlassian Jira",
-     "slug": "atlassian-jira",
-     "description": "Jira is a leading issue tracking and project management platform developed by Atlassian. It provides REST APIs for Jira Cloud Platform, Jira Software, and Jira Service Management enabling programmatic management of issues, projects, workflows, boards, sprints, users, and service desk requests with OAuth 2.0 authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/atlassian-jira/refs/heads/main/screenshots/atlassian-jira-2026-06-20T172533.png",
-     "score": 66.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 10.9,
-      "contract_governance": 18.2,
-      "operational_transparency": 97.4,
-      "developer_ergonomics": 81.5,
-      "access_clarity": 94.7
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 52.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 9
-    },
     {
      "name": "Atlassian",
      "slug": "atlassian",
@@ -457,7 +371,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 8
     },
     {
      "name": "Lucid",
@@ -500,7 +414,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 9
     },
     {
      "name": "Slack",
@@ -543,7 +457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 10
     },
     {
      "name": "GitHub Copilot",
@@ -586,7 +500,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 11
     },
     {
      "name": "Microsoft Graph",
@@ -629,7 +543,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 14
+     "rank": 12
     },
     {
      "name": "Microsoft Outlook",
@@ -672,7 +586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 15
+     "rank": 13
     },
     {
      "name": "Capsule",
@@ -715,7 +629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 16
+     "rank": 14
     },
     {
      "name": "Coda Project",
@@ -758,7 +672,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 17
+     "rank": 15
     },
     {
      "name": "Azure DevOps",
@@ -801,7 +715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 16
     },
     {
      "name": "Erxes",
@@ -844,7 +758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 17
     },
     {
      "name": "Intuit",
@@ -894,7 +808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 20
+     "rank": 18
     },
     {
      "name": "Airtable",
@@ -937,7 +851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 21
+     "rank": 19
     },
     {
      "name": "Prezent",
@@ -998,7 +912,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 20
     },
     {
      "name": "Exclaimer",
@@ -1041,7 +955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 21
     },
     {
      "name": "Taskfolk",
@@ -1084,7 +998,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": "self"
      },
-     "rank": 24
+     "rank": 22
     },
     {
      "name": "Elsevier",
@@ -1134,7 +1048,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 23
     },
     {
      "name": "LeanKit",
@@ -1177,7 +1091,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 24
     },
     {
      "name": "Fundamental Research Labs",
@@ -1220,7 +1134,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 25
     },
     {
      "name": "Agave",
@@ -1263,7 +1177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 26
     },
     {
      "name": "Microsoft",
@@ -1306,7 +1220,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 27
     },
     {
      "name": "Connecteam",
@@ -1349,7 +1263,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 28
     },
     {
      "name": "Notion",
@@ -1392,7 +1306,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 29
     },
     {
      "name": "Shortcut Software",
@@ -1435,7 +1349,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 30
     },
     {
      "name": "Epsilon3",
@@ -1478,7 +1392,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 31
     },
     {
      "name": "Fieldwire",
@@ -1520,7 +1434,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 32
     },
     {
      "name": "Microsoft Planner",
@@ -1563,7 +1477,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 33
     },
     {
      "name": "GoNitro",
@@ -1606,7 +1520,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 34
     },
     {
      "name": "Lindy",
@@ -1649,7 +1563,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 35
     },
     {
      "name": "Google Docs",
@@ -1692,7 +1606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 36
     },
     {
      "name": "Jira",
@@ -1735,7 +1649,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 37
     },
     {
      "name": "Microsoft Office 365",
@@ -1778,7 +1692,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 38
     },
     {
      "name": "Microsoft Word",
@@ -1821,7 +1735,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 41
+     "rank": 39
     },
     {
      "name": "Read AI",
@@ -1864,7 +1778,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 42
+     "rank": 40
     },
     {
      "name": "Nitro Software",
@@ -1907,7 +1821,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 41
     },
     {
      "name": "Google Slides",
@@ -1950,7 +1864,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 44
+     "rank": 42
     }
    ],
    "open": true
@@ -1960,8 +1874,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 79,
-   "shown": 79,
+   "count": 78,
+   "shown": 78,
    "providers": [
     {
      "name": "Rocketlane",
@@ -2004,7 +1918,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 45
+     "rank": 43
     },
     {
      "name": "Zoho",
@@ -2047,7 +1961,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 46
+     "rank": 44
     },
     {
      "name": "Coperniq",
@@ -2097,7 +2011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
+     "rank": 45
     },
     {
      "name": "CompanyCam",
@@ -2140,7 +2054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 48
+     "rank": 46
     },
     {
      "name": "Microsoft Teams",
@@ -2183,7 +2097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 49
+     "rank": 47
     },
     {
      "name": "D-Tools",
@@ -2226,7 +2140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 48
     },
     {
      "name": "Google Sheets",
@@ -2269,7 +2183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 49
     },
     {
      "name": "Buildxact",
@@ -2312,7 +2226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 52
+     "rank": 50
     },
     {
      "name": "Fireflies.ai",
@@ -2355,7 +2269,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 53
+     "rank": 51
     },
     {
      "name": "ZenZap",
@@ -2398,7 +2312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 52
     },
     {
      "name": "Finalcad",
@@ -2441,7 +2355,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 55
+     "rank": 53
     },
     {
      "name": "Microsoft Copilot",
@@ -2484,7 +2398,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 56
+     "rank": 54
     },
     {
      "name": "Mixmax",
@@ -2527,7 +2441,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 55
     },
     {
      "name": "Unito",
@@ -2570,7 +2484,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 58
+     "rank": 56
     },
     {
      "name": "Microsoft 365 Copilot",
@@ -2613,7 +2527,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 59
+     "rank": 57
     },
     {
      "name": "Microsoft Office",
@@ -2656,7 +2570,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 60
+     "rank": 58
     },
     {
      "name": "Fund That Flip",
@@ -2699,7 +2613,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 61
+     "rank": 59
     },
     {
      "name": "Matter",
@@ -2742,7 +2656,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 62
+     "rank": 60
     },
     {
      "name": "Mavenlink",
@@ -2785,7 +2699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 63
+     "rank": 61
     },
     {
      "name": "Autodesk Construction Cloud",
@@ -2828,7 +2742,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 64
+     "rank": 62
     },
     {
      "name": "Reload",
@@ -2871,7 +2785,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 63
     },
     {
      "name": "Padlet",
@@ -2921,7 +2835,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 64
     },
     {
      "name": "Todoist",
@@ -2964,7 +2878,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 65
     },
     {
      "name": "evernote",
@@ -3007,7 +2921,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 66
     },
     {
      "name": "Google Workspace",
@@ -3050,7 +2964,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 67
     },
     {
      "name": "Yoobic",
@@ -3093,7 +3007,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 68
     },
     {
      "name": "Wispr AI",
@@ -3136,7 +3050,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 71
+     "rank": 69
     },
     {
      "name": "HackMD",
@@ -3179,7 +3093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 70
     },
     {
      "name": "Quadratic",
@@ -3222,7 +3136,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 71
     },
     {
      "name": "ActivTrak",
@@ -3265,7 +3179,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 72
     },
     {
      "name": "Templafy",
@@ -3308,7 +3222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 73
     },
     {
      "name": "Ninety.io",
@@ -3351,7 +3265,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 74
     },
     {
      "name": "Fellow",
@@ -3394,7 +3308,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 75
     },
     {
      "name": "Ando",
@@ -3437,7 +3351,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 76
     },
     {
      "name": "Hansoft",
@@ -3480,7 +3394,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 77
     },
     {
      "name": "Favro",
@@ -3523,7 +3437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 78
     },
     {
      "name": "Oracle Fusion Cloud Applications",
@@ -3566,7 +3480,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 79
     },
     {
      "name": "tl;dv",
@@ -3609,7 +3523,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 82
+     "rank": 80
     },
     {
      "name": "Wrike",
@@ -3652,7 +3566,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 83
+     "rank": 81
     },
     {
      "name": "Google Tasks",
@@ -3695,7 +3609,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 82
     },
     {
      "name": "Nuclino",
@@ -3738,7 +3652,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 83
     },
     {
      "name": "Tana",
@@ -3781,7 +3695,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 84
     },
     {
      "name": "Process Street",
@@ -3824,7 +3738,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 85
     },
     {
      "name": "Hubflo",
@@ -3867,7 +3781,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 86
     },
     {
      "name": "Bureau of Labor Statistics",
@@ -3917,7 +3831,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 87
     },
     {
      "name": "Kumospace",
@@ -3960,7 +3874,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 88
     },
     {
      "name": "PlanRadar",
@@ -4003,7 +3917,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 89
     },
     {
      "name": "Amazon CodeStar",
@@ -4046,7 +3960,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 90
     },
     {
      "name": "Glue",
@@ -4089,7 +4003,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 91
     },
     {
      "name": "Oracle Primavera",
@@ -4132,7 +4046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 92
     },
     {
      "name": "Reclaim.ai",
@@ -4175,7 +4089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 93
     },
     {
      "name": "Microsoft Office Suite",
@@ -4218,7 +4132,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 94
     },
     {
      "name": "Basecamp",
@@ -4261,7 +4175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 95
     },
     {
      "name": "Trail",
@@ -4304,7 +4218,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 96
     },
     {
      "name": "SourceForge",
@@ -4347,7 +4261,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 97
     },
     {
      "name": "Zoho Sheet",
@@ -4390,7 +4304,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 98
     },
     {
      "name": "SAP Business ByDesign",
@@ -4433,7 +4347,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 99
     },
     {
      "name": "Trellis",
@@ -4476,7 +4390,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 100
     },
     {
      "name": "Coordinate",
@@ -4519,7 +4433,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 101
     },
     {
      "name": "Hubstaff",
@@ -4562,7 +4476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 104
+     "rank": 102
     },
     {
      "name": "Koppla",
@@ -4605,7 +4519,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 105
+     "rank": 103
     },
     {
      "name": "Mem",
@@ -4648,7 +4562,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 106
+     "rank": 104
     },
     {
      "name": "Autodesk BIM 360",
@@ -4691,7 +4605,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 107
+     "rank": 105
     },
     {
      "name": "Coda",
@@ -4734,7 +4648,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 108
+     "rank": 106
     },
     {
      "name": "Everhour",
@@ -4777,7 +4691,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 109
+     "rank": 107
     },
     {
      "name": "Reonic",
@@ -4827,7 +4741,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 110
+     "rank": 108
     },
     {
      "name": "Linear",
@@ -4870,7 +4784,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 111
+     "rank": 109
     },
     {
      "name": "Capmo",
@@ -4913,7 +4827,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 112
+     "rank": 110
     },
     {
      "name": "Screenpipe",
@@ -4956,7 +4870,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 113
+     "rank": 111
     },
     {
      "name": "Rhumbix",
@@ -4999,7 +4913,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 114
+     "rank": 112
     },
     {
      "name": "Microsoft Office Applications",
@@ -5042,50 +4956,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 115
-    },
-    {
-     "name": "Google Workspace (G Suite)",
-     "slug": "google-suite",
-     "description": "Google Workspace (formerly G Suite) is a collection of cloud computing, productivity and collaboration tools, software and products developed and marketed by Google.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-suite/refs/heads/main/screenshots/google-suite-2026-06-20T182235.png",
-     "score": 40.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 51.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 42.9,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 116
+     "rank": 113
     },
     {
      "name": "Microsoft Project",
@@ -5128,7 +4999,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 117
+     "rank": 114
     },
     {
      "name": "Cronofy",
@@ -5171,7 +5042,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 118
+     "rank": 115
     },
     {
      "name": "Calendly",
@@ -5214,7 +5085,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 119
+     "rank": 116
     },
     {
      "name": "Lightsprint",
@@ -5257,7 +5128,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 120
+     "rank": 117
     },
     {
      "name": "Procore",
@@ -5300,7 +5171,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 121
+     "rank": 118
     },
     {
      "name": "Stellary",
@@ -5343,7 +5214,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 122
+     "rank": 119
     },
     {
      "name": "Klaxoon",
@@ -5386,7 +5257,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 123
+     "rank": 120
     }
    ]
   },
@@ -5395,8 +5266,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 93,
-   "shown": 93,
+   "count": 91,
+   "shown": 91,
    "providers": [
     {
      "name": "CMiC",
@@ -5439,7 +5310,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 124
+     "rank": 121
     },
     {
      "name": "Bitrix24",
@@ -5482,7 +5353,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 125
+     "rank": 122
     },
     {
      "name": "Smartsheet",
@@ -5525,7 +5396,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 126
+     "rank": 123
     },
     {
      "name": "Chronicle",
@@ -5568,7 +5439,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 127
+     "rank": 124
     },
     {
      "name": "Ninox",
@@ -5611,7 +5482,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 128
+     "rank": 125
     },
     {
      "name": "Microsoft Products",
@@ -5654,7 +5525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 129
+     "rank": 126
     },
     {
      "name": "Microsoft OneNote",
@@ -5697,7 +5568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 130
+     "rank": 127
     },
     {
      "name": "Roadmunk",
@@ -5740,7 +5611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 131
+     "rank": 128
     },
     {
      "name": "Clockodo",
@@ -5783,7 +5654,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 129
     },
     {
      "name": "The Interaction Company Of California",
@@ -5826,7 +5697,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 130
     },
     {
      "name": "Microsoft Suite",
@@ -5869,7 +5740,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 131
     },
     {
      "name": "Grammarly",
@@ -5912,50 +5783,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 135
-    },
-    {
-     "name": "Google Workspace Suite",
-     "slug": "google-suite-docs-sheets-slides-gmail",
-     "description": "Collection of Google Workspace APIs including Docs, Sheets, Slides, and Gmail.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-suite-docs-sheets-slides-gmail/refs/heads/main/screenshots/google-suite-docs-sheets-slides-gmail-2026-06-20T182236.png",
-     "score": 37.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 51.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 31.0,
-      "access_clarity": 47.4
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 136
+     "rank": 132
     },
     {
      "name": "Microsoft Products APIs",
@@ -5998,7 +5826,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 137
+     "rank": 133
     },
     {
      "name": "TimeCamp",
@@ -6041,7 +5869,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 138
+     "rank": 134
     },
     {
      "name": "Plane",
@@ -6084,7 +5912,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 139
+     "rank": 135
     },
     {
      "name": "Mosaic",
@@ -6127,7 +5955,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 140
+     "rank": 136
     },
     {
      "name": "Teammates",
@@ -6170,7 +5998,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 137
     },
     {
      "name": "Height",
@@ -6213,7 +6041,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 138
     },
     {
      "name": "Microsoft Office APIs",
@@ -6256,7 +6084,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 139
     },
     {
      "name": "ProcessMaker",
@@ -6299,7 +6127,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 140
     },
     {
      "name": "COR",
@@ -6342,7 +6170,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 141
     },
     {
      "name": "forecast",
@@ -6385,7 +6213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 142
     },
     {
      "name": "Cal.com",
@@ -6428,7 +6256,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 143
     },
     {
      "name": "Microsoft Office Products",
@@ -6471,7 +6299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 144
     },
     {
      "name": "Microsoft 365",
@@ -6514,7 +6342,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 149
+     "rank": 145
     },
     {
      "name": "Microsoft to Do",
@@ -6557,7 +6385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 150
+     "rank": 146
     },
     {
      "name": "Noosh",
@@ -6600,7 +6428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 147
     },
     {
      "name": "Newoldstamp",
@@ -6643,7 +6471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 148
     },
     {
      "name": "Lucidchart",
@@ -6686,7 +6514,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 153
+     "rank": 149
     },
     {
      "name": "Teamwork.com",
@@ -6729,7 +6557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 154
+     "rank": 150
     },
     {
      "name": "Builder Prime",
@@ -6772,7 +6600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 151
     },
     {
      "name": "Microsoft Word API",
@@ -6815,7 +6643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 152
     },
     {
      "name": "Microsoft Applications APIs",
@@ -6858,7 +6686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 153
     },
     {
      "name": "Range",
@@ -6901,7 +6729,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 154
     },
     {
      "name": "Granola",
@@ -6944,7 +6772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 159
+     "rank": 155
     },
     {
      "name": "Newforma",
@@ -6987,7 +6815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 160
+     "rank": 156
     },
     {
      "name": "Obsidian",
@@ -7030,7 +6858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 161
+     "rank": 157
     },
     {
      "name": "supernormal",
@@ -7073,7 +6901,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 162
+     "rank": 158
     },
     {
      "name": "Office 365",
@@ -7116,7 +6944,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 163
+     "rank": 159
     },
     {
      "name": "Gamma",
@@ -7159,7 +6987,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 164
+     "rank": 160
     },
     {
      "name": "Workflowy",
@@ -7202,7 +7030,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 165
+     "rank": 161
     },
     {
      "name": "Clickup",
@@ -7249,7 +7077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 166
+     "rank": 162
     },
     {
      "name": "Podio",
@@ -7292,7 +7120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 167
+     "rank": 163
     },
     {
      "name": "Gamma.app",
@@ -7335,7 +7163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 168
+     "rank": 164
     },
     {
      "name": "Scratchpad",
@@ -7378,7 +7206,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 169
+     "rank": 165
     },
     {
      "name": "Harvest",
@@ -7421,7 +7249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 170
+     "rank": 166
     },
     {
      "name": "Nova Lima",
@@ -7464,7 +7292,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 171
+     "rank": 167
     },
     {
      "name": "Timeular",
@@ -7507,7 +7335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 172
+     "rank": 168
     },
     {
      "name": "Toggl Track",
@@ -7550,7 +7378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 173
+     "rank": 169
     },
     {
      "name": "Retail Zipline",
@@ -7593,7 +7421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 174
+     "rank": 170
     },
     {
      "name": "craft",
@@ -7636,7 +7464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 175
+     "rank": 171
     },
     {
      "name": "Kanban Tool",
@@ -7679,7 +7507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 176
+     "rank": 172
     },
     {
      "name": "Fibery",
@@ -7722,7 +7550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 177
+     "rank": 173
     },
     {
      "name": "MagicX",
@@ -7765,7 +7593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 178
+     "rank": 174
     },
     {
      "name": "Memory",
@@ -7808,7 +7636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 179
+     "rank": 175
     },
     {
      "name": "Miro",
@@ -7851,7 +7679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 180
+     "rank": 176
     },
     {
      "name": "OpenProject",
@@ -7894,7 +7722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 181
+     "rank": 177
     },
     {
      "name": "Zoho Projects",
@@ -7937,7 +7765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 182
+     "rank": 178
     },
     {
      "name": "Stilla",
@@ -7980,7 +7808,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 183
+     "rank": 179
     },
     {
      "name": "Apache Maven",
@@ -8023,50 +7851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 184
-    },
-    {
-     "name": "Google Workspace APIs",
-     "slug": "google-suites",
-     "description": "Collection of APIs for Google Workspace (formerly G Suite) services including Gmail, Calendar, Drive, Docs, Sheets, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/google-suites/refs/heads/main/screenshots/google-suites-2026-06-20T182240.png",
-     "score": 32.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 51.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 35.7,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 26.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 185
+     "rank": 180
     },
     {
      "name": "Loom",
@@ -8109,7 +7894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 181
     },
     {
      "name": "Rows",
@@ -8152,7 +7937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 182
     },
     {
      "name": "Shortcut",
@@ -8195,7 +7980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 183
     },
     {
      "name": "Apple Keynote",
@@ -8238,7 +8023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 189
+     "rank": 184
     },
     {
      "name": "Monday.com",
@@ -8281,7 +8066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 190
+     "rank": 185
     },
     {
      "name": "Clockify",
@@ -8324,7 +8109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 191
+     "rank": 186
     },
     {
      "name": "Nifty",
@@ -8367,7 +8152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 192
+     "rank": 187
     },
     {
      "name": "Google Keep",
@@ -8410,7 +8195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 193
+     "rank": 188
     },
     {
      "name": "Streak",
@@ -8453,7 +8238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 194
+     "rank": 189
     },
     {
      "name": "Winn.ai",
@@ -8496,7 +8281,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 195
+     "rank": 190
     },
     {
      "name": "Hive",
@@ -8539,7 +8324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 196
+     "rank": 191
     },
     {
      "name": "Raycast",
@@ -8582,7 +8367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 197
+     "rank": 192
     },
     {
      "name": "Superlist",
@@ -8625,7 +8410,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 198
+     "rank": 193
     },
     {
      "name": "Rhythms",
@@ -8668,7 +8453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 199
+     "rank": 194
     },
     {
      "name": "Amie",
@@ -8711,7 +8496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 200
+     "rank": 195
     },
     {
      "name": "Doodle",
@@ -8754,7 +8539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 201
+     "rank": 196
     },
     {
      "name": "Nextcloud",
@@ -8797,7 +8582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 202
+     "rank": 197
     },
     {
      "name": "Clockwise",
@@ -8840,7 +8625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 203
+     "rank": 198
     },
     {
      "name": "Huly",
@@ -8883,7 +8668,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 204
+     "rank": 199
     },
     {
      "name": "Insightly",
@@ -8926,7 +8711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 205
+     "rank": 200
     },
     {
      "name": "PowerPoint",
@@ -8969,7 +8754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 206
+     "rank": 201
     },
     {
      "name": "Sitetracker",
@@ -9019,7 +8804,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 202
     },
     {
      "name": "Unit4",
@@ -9069,7 +8854,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 203
     },
     {
      "name": "91Squarefeet",
@@ -9111,7 +8896,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 204
     },
     {
      "name": "Macro",
@@ -9154,7 +8939,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 205
     },
     {
      "name": "Groupthink",
@@ -9197,7 +8982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 206
     },
     {
      "name": "MixerBox",
@@ -9240,7 +9025,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 207
     },
     {
      "name": "Accelo",
@@ -9283,7 +9068,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 213
+     "rank": 208
     },
     {
      "name": "Chatwork",
@@ -9326,7 +9111,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 214
+     "rank": 209
     },
     {
      "name": "Sintra",
@@ -9369,7 +9154,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 215
+     "rank": 210
     },
     {
      "name": "Cluely",
@@ -9412,7 +9197,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 216
+     "rank": 211
     }
    ]
   },
@@ -9465,7 +9250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 212
     },
     {
      "name": "Superhuman",
@@ -9508,7 +9293,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 218
+     "rank": 213
     },
     {
      "name": "Replicon",
@@ -9551,7 +9336,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 219
+     "rank": 214
     },
     {
      "name": "Zimbra",
@@ -9594,7 +9379,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 220
+     "rank": 215
     },
     {
      "name": "Bonsai",
@@ -9637,7 +9422,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 221
+     "rank": 216
     },
     {
      "name": "Microsoft Applications",
@@ -9680,7 +9465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 222
+     "rank": 217
     },
     {
      "name": "Nodes and Links",
@@ -9723,7 +9508,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 223
+     "rank": 218
     },
     {
      "name": "Software Development Lifecycle",
@@ -9766,7 +9551,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 224
+     "rank": 219
     },
     {
      "name": "Taiga",
@@ -9809,7 +9594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 225
+     "rank": 220
     },
     {
      "name": "Redmine",
@@ -9852,7 +9637,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 226
+     "rank": 221
     },
     {
      "name": "Tryton",
@@ -9895,7 +9680,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 227
+     "rank": 222
     },
     {
      "name": "Remnote",
@@ -9945,7 +9730,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 228
+     "rank": 223
     },
     {
      "name": "Simpro",
@@ -9988,7 +9773,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 229
+     "rank": 224
     },
     {
      "name": "Rollstack",
@@ -10031,7 +9816,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 230
+     "rank": 225
     },
     {
      "name": "Shortwave",
@@ -10074,7 +9859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 226
     },
     {
      "name": "Voquill",
@@ -10124,7 +9909,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 227
     },
     {
      "name": "Memory Store",
@@ -10167,7 +9952,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 233
+     "rank": 228
     },
     {
      "name": "Donna",
@@ -10210,7 +9995,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 234
+     "rank": 229
     },
     {
      "name": "Pentagon",
@@ -10253,7 +10038,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 235
+     "rank": 230
     },
     {
      "name": "Prezi",
@@ -10296,7 +10081,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 236
+     "rank": 231
     },
     {
      "name": "beautiful.ai",
@@ -10339,7 +10124,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 237
+     "rank": 232
     },
     {
      "name": "Microsoft Loop",
@@ -10382,7 +10167,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 238
+     "rank": 233
     },
     {
      "name": "Logseq",
@@ -10425,7 +10210,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 239
+     "rank": 234
     },
     {
      "name": "Wispr Flow",
@@ -10468,7 +10253,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 240
+     "rank": 235
     },
     {
      "name": "Viktor",
@@ -10511,7 +10296,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 241
+     "rank": 236
     },
     {
      "name": "Scaled Agile",
@@ -10554,7 +10339,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 242
+     "rank": 237
     },
     {
      "name": "MeetAndy AI",
@@ -10597,7 +10382,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 243
+     "rank": 238
     },
     {
      "name": "Zight",
@@ -10640,7 +10425,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 244
+     "rank": 239
     },
     {
      "name": "ANDPAD",
@@ -10683,7 +10468,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 240
     },
     {
      "name": "Airtime",
@@ -10726,7 +10511,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 241
     },
     {
      "name": "Foreman",
@@ -10769,7 +10554,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 242
     },
     {
      "name": "Magical",
@@ -10819,7 +10604,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 243
     },
     {
      "name": "Rezonant",
@@ -10862,7 +10647,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 249
+     "rank": 244
     },
     {
      "name": "Framer",
@@ -10905,7 +10690,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 250
+     "rank": 245
     },
     {
      "name": "PlanGrid",
@@ -10948,7 +10733,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 251
+     "rank": 246
     },
     {
      "name": "Final Round AI",
@@ -10991,7 +10776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 252
+     "rank": 247
     },
     {
      "name": "Strawberry",
@@ -11034,7 +10819,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 253
+     "rank": 248
     },
     {
      "name": "Kosmik",
@@ -11077,7 +10862,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 254
+     "rank": 249
     },
     {
      "name": "Mela Works",
@@ -11120,7 +10905,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 255
+     "rank": 250
     },
     {
      "name": "Lavender",
@@ -11163,7 +10948,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 256
+     "rank": 251
     },
     {
      "name": "Zenput",
@@ -11206,7 +10991,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 252
     },
     {
      "name": "Athena",
@@ -11249,7 +11034,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 258
+     "rank": 253
     },
     {
      "name": "Monograph",
@@ -11292,7 +11077,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 259
+     "rank": 254
     },
     {
      "name": "Ventrilo.ai",
@@ -11335,7 +11120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 260
+     "rank": 255
     },
     {
      "name": "Ctrl",
@@ -11378,7 +11163,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 261
+     "rank": 256
     },
     {
      "name": "Supafax",
@@ -11421,7 +11206,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 257
     },
     {
      "name": "Almanac Leie1",
@@ -11464,7 +11249,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 263
+     "rank": 258
     },
     {
      "name": "Genspark",
@@ -11507,7 +11292,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 264
+     "rank": 259
     },
     {
      "name": "Sudowrite",
@@ -11550,7 +11335,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 260
     },
     {
      "name": "JobNimbus",
@@ -11593,7 +11378,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 261
     },
     {
      "name": "Osly",
@@ -11636,7 +11421,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 262
     },
     {
      "name": "Delightree",
@@ -11679,7 +11464,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 263
     },
     {
      "name": "HyperWrite",
@@ -11722,7 +11507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 264
     },
     {
      "name": "Quip",
@@ -11765,7 +11550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 270
+     "rank": 265
     },
     {
      "name": "ConstructionOnline",
@@ -11808,7 +11593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 271
+     "rank": 266
     },
     {
      "name": "Pitch",
@@ -11851,7 +11636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 272
+     "rank": 267
     },
     {
      "name": "Volt",
@@ -11894,7 +11679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 268
     },
     {
      "name": "SmartSuite",
@@ -11937,7 +11722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 274
+     "rank": 269
     },
     {
      "name": "Ellipsus",
@@ -11980,7 +11765,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 275
+     "rank": 270
     },
     {
      "name": "Cron",
@@ -12023,7 +11808,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 276
+     "rank": 271
     },
     {
      "name": "Almanac Labs",
@@ -12066,7 +11851,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 277
+     "rank": 272
     },
     {
      "name": "TransparentBusiness",
@@ -12109,7 +11894,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 278
+     "rank": 273
     },
     {
      "name": "Spike",
@@ -12152,7 +11937,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 279
+     "rank": 274
     },
     {
      "name": "Immersed",
@@ -12195,7 +11980,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 280
+     "rank": 275
     },
     {
      "name": "Buildforever",
@@ -12238,7 +12023,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 281
+     "rank": 276
     },
     {
      "name": "Dework",
@@ -12281,7 +12066,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 282
+     "rank": 277
     },
     {
      "name": "Northspyre",
@@ -12324,7 +12109,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 283
+     "rank": 278
     },
     {
      "name": "Lisan",
@@ -12367,7 +12152,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 284
+     "rank": 279
     },
     {
      "name": "Beep",
@@ -12410,7 +12195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 285
+     "rank": 280
     },
     {
      "name": "Handoff",
@@ -12453,7 +12238,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 286
+     "rank": 281
     },
     {
      "name": "Jellyfish",
@@ -12496,7 +12281,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 287
+     "rank": 282
     },
     {
      "name": "Blomma",
@@ -12539,7 +12324,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 288
+     "rank": 283
     },
     {
      "name": "Thorin",
@@ -12582,7 +12367,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 289
+     "rank": 284
     },
     {
      "name": "Granthika",
@@ -12625,7 +12410,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 290
+     "rank": 285
     },
     {
      "name": "Graneet",
@@ -12668,7 +12453,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 291
+     "rank": 286
     },
     {
      "name": "Switchyards",
@@ -12711,7 +12496,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 292
+     "rank": 287
     },
     {
      "name": "Balloon",
@@ -12754,7 +12539,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 293
+     "rank": 288
     },
     {
      "name": "IKI AI",
@@ -12797,7 +12582,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 294
+     "rank": 289
     },
     {
      "name": "Paperplane",
@@ -12840,7 +12625,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 295
+     "rank": 290
     },
     {
      "name": "Thomson Reuters",
@@ -12883,12 +12668,12 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 296
+     "rank": 291
     },
     {
      "name": "Gartner",
      "slug": "gartner",
-     "description": "Gartner is a global research and advisory firm providing information, advice, and tools to business leaders across IT, finance, HR, customer service, sales, marketing, supply chain, and legal functions. Gartner does not publish a public developer API; this repository tracks the company and any partner or technical artifacts that surface over time.",
+     "description": "Gartner, Inc. (NYSE IT) is a global research and advisory firm selling syndicated research, analyst inquiry, benchmarking, peer communities and conferences to executives across IT, finance, HR, supply chain, marketing, sales, legal and customer service. Gartner publishes no public developer API, developer portal or machine-readable contract: the research library and the Peer Insights vendor portal are subscription-gated, and the one live first-party API host found by probe (gapi.gartner.com, an AWS API Gateway) rejects every anonymous request. Gartner sold its Digital Markets business - Capterra, GetApp and Software Advice, and the Buyer Discovery API that serves their intent data - to G2 in February 2026, so the only OpenAPI reachable on a gartner.com host belongs to G2. This repository tracks the company and any first-party technical artifact that surfaces over time.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gartner/refs/heads/main/screenshots/gartner-2026-07-25T215450.png",
      "score": 14.3,
      "band": "emerging",
@@ -12926,7 +12711,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 297
+     "rank": 292
     },
     {
      "name": "Planera",
@@ -12969,7 +12754,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 298
+     "rank": 293
     },
     {
      "name": "Cabinet",
@@ -13011,7 +12796,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 299
+     "rank": 294
     },
     {
      "name": "Locale",
@@ -13054,7 +12839,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 300
+     "rank": 295
     },
     {
      "name": "Venue",
@@ -13097,7 +12882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 301
+     "rank": 296
     },
     {
      "name": "Wishup",
@@ -13140,7 +12925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 302
+     "rank": 297
     },
     {
      "name": "Alcove",
@@ -13183,7 +12968,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 303
+     "rank": 298
     },
     {
      "name": "plancraft",
@@ -13226,7 +13011,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 304
+     "rank": 299
     },
     {
      "name": "WalkMe",
@@ -13269,7 +13054,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 305
+     "rank": 300
     },
     {
      "name": "410 Labs",
@@ -13312,7 +13097,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 306
+     "rank": 301
     },
     {
      "name": "Letswork",
@@ -13355,7 +13140,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 307
+     "rank": 302
     },
     {
      "name": "AWST",
@@ -13398,7 +13183,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 308
+     "rank": 303
     },
     {
      "name": "Billables Ai",
@@ -13441,7 +13226,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 309
+     "rank": 304
     },
     {
      "name": "Pillar",
@@ -13484,7 +13269,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 310
+     "rank": 305
     },
     {
      "name": "Please",
@@ -13527,7 +13312,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 311
+     "rank": 306
     },
     {
      "name": "Corca",
@@ -13577,7 +13362,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 312
+     "rank": 307
     },
     {
      "name": "Concepts",
@@ -13620,7 +13405,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 313
+     "rank": 308
     },
     {
      "name": "Fluor",
@@ -13670,7 +13455,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 314
+     "rank": 309
     },
     {
      "name": "Presentations.ai",
@@ -13713,7 +13498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 315
+     "rank": 310
     },
     {
      "name": "Slidebean",
@@ -13756,7 +13541,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 316
+     "rank": 311
     },
     {
      "name": "Waterfall",
@@ -13801,7 +13586,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 317
+     "rank": 312
     },
     {
      "name": "Avec",
@@ -13844,7 +13629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 318
+     "rank": 313
     },
     {
      "name": "Parspec",
@@ -13887,7 +13672,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 319
+     "rank": 314
     },
     {
      "name": "Boomerang",
@@ -13930,7 +13715,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 320
+     "rank": 315
     },
     {
      "name": "Double",
@@ -13973,7 +13758,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 321
+     "rank": 316
     },
     {
      "name": "Ajax",
@@ -14016,7 +13801,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 322
+     "rank": 317
     },
     {
      "name": "Avoice",
@@ -14059,7 +13844,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 323
+     "rank": 318
     },
     {
      "name": "Foresight",
@@ -14102,7 +13887,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 324
+     "rank": 319
     },
     {
      "name": "Happy5",
@@ -14145,7 +13930,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 325
+     "rank": 320
     },
     {
      "name": "INBOTIQA",
@@ -14188,7 +13973,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 326
+     "rank": 321
     },
     {
      "name": "Magic",
@@ -14231,7 +14016,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 327
+     "rank": 322
     },
     {
      "name": "Basebuild",
@@ -14274,7 +14059,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 328
+     "rank": 323
     },
     {
      "name": "Marker",
@@ -14317,7 +14102,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 329
+     "rank": 324
     },
     {
      "name": "Ray Browser",
@@ -14360,7 +14145,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 330
+     "rank": 325
     },
     {
      "name": "Vela",
@@ -14403,7 +14188,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 331
+     "rank": 326
     },
     {
      "name": "CoConstruct",
@@ -14446,7 +14231,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 332
+     "rank": 327
     },
     {
      "name": "Nomad Homes",
@@ -14489,7 +14274,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 333
+     "rank": 328
     },
     {
      "name": "Workhelix",
@@ -14532,7 +14317,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 334
+     "rank": 329
     },
     {
      "name": "Sketchpro",
@@ -14575,7 +14360,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 335
+     "rank": 330
     },
     {
      "name": "Instruct",
@@ -14618,7 +14403,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 336
+     "rank": 331
     },
     {
      "name": "Time is Ltd",
@@ -14661,7 +14446,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 337
+     "rank": 332
     }
    ]
   },
@@ -14714,7 +14499,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 338
+     "rank": 333
     },
     {
      "name": "Agile Delivery",
@@ -14757,7 +14542,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 339
+     "rank": 334
     },
     {
      "name": "Agile SDLC",
@@ -14800,7 +14585,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 340
+     "rank": 335
     },
     {
      "name": "Google Vids",
@@ -14843,7 +14628,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 341
+     "rank": 336
     },
     {
      "name": "Poly",
@@ -14886,7 +14671,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 342
+     "rank": 337
     },
     {
      "name": "Brick&Bolt",
@@ -14929,7 +14714,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 343
+     "rank": 338
     },
     {
      "name": "Crew",
@@ -14972,7 +14757,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 344
+     "rank": 339
     },
     {
      "name": "Focused Space, Inc.",
@@ -15022,7 +14807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 345
+     "rank": 340
     },
     {
      "name": "OnsiteIQ",
@@ -15065,7 +14850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 346
+     "rank": 341
     },
     {
      "name": "Saturn",
@@ -15115,7 +14900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 347
+     "rank": 342
     },
     {
      "name": "Dooly",
@@ -15158,7 +14943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 348
+     "rank": 343
     },
     {
      "name": "Agile",
@@ -15201,7 +14986,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 349
+     "rank": 344
     },
     {
      "name": "Agile Methodology",
@@ -15244,7 +15029,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 350
+     "rank": 345
     },
     {
      "name": "Buildertrend",
@@ -15287,7 +15072,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 351
+     "rank": 346
     },
     {
      "name": "Heyclicky",
@@ -15330,7 +15115,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 352
+     "rank": 347
     },
     {
      "name": "getriff",
@@ -15373,7 +15158,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 353
+     "rank": 348
     },
     {
      "name": "Teap",
@@ -15415,7 +15200,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 354
+     "rank": 349
     },
     {
      "name": "iControl",
@@ -15458,7 +15243,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 355
+     "rank": 350
     },
     {
      "name": "Microsoft Project APIs",
@@ -15501,7 +15286,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 356
+     "rank": 351
     },
     {
      "name": "Vercept",
@@ -15544,7 +15329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 357
+     "rank": 352
     },
     {
      "name": "Knowify",
@@ -15587,7 +15372,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 358
+     "rank": 353
     },
     {
      "name": "Craftview",
@@ -15630,7 +15415,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 359
+     "rank": 354
     },
     {
      "name": "Subset",
@@ -15672,7 +15457,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 360
+     "rank": 355
     },
     {
      "name": "Jarvie",
@@ -15722,7 +15507,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 361
+     "rank": 356
     },
     {
      "name": "Lean Six Sigma Black Belt",
@@ -15765,7 +15550,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 362
+     "rank": 357
     },
     {
      "name": "Buildots",
@@ -15808,7 +15593,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 363
+     "rank": 358
     },
     {
      "name": "Stack",
@@ -15851,7 +15636,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 364
+     "rank": 359
     },
     {
      "name": "Town",
@@ -15894,7 +15679,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 365
+     "rank": 360
     },
     {
      "name": "Sandbar",
@@ -15937,7 +15722,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 366
+     "rank": 361
     },
     {
      "name": "Crunched",
@@ -15987,7 +15772,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 367
+     "rank": 362
     },
     {
      "name": "Bitacora.io",
@@ -16030,7 +15815,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 368
+     "rank": 363
     },
     {
      "name": "Buildcon",
@@ -16073,7 +15858,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 369
+     "rank": 364
     },
     {
      "name": "Alien Labs",
@@ -16118,7 +15903,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 370
+     "rank": 365
     },
     {
      "name": "Daero Group",
@@ -16161,7 +15946,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 371
+     "rank": 366
     },
     {
      "name": "Emailio",
@@ -16211,7 +15996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 372
+     "rank": 367
     },
     {
      "name": "Binary Thumbs",
@@ -16254,7 +16039,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 373
+     "rank": 368
     },
     {
      "name": "Xembly",
@@ -16298,7 +16083,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 374
+     "rank": 369
     },
     {
      "name": "Cove",
@@ -16341,7 +16126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 375
+     "rank": 370
     },
     {
      "name": "Hill International",
@@ -16384,7 +16169,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 376
+     "rank": 371
     },
     {
      "name": "Hackpad",
@@ -16428,7 +16213,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 377
+     "rank": 372
     },
     {
      "name": "Scrum",
@@ -16470,7 +16255,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 378
+     "rank": 373
     },
     {
      "name": "6 Wunderkinder",
@@ -16514,7 +16299,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 379
+     "rank": 374
     },
     {
      "name": "Acompli",
@@ -16556,7 +16341,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 380
+     "rank": 375
     },
     {
      "name": "Astrid *",
@@ -16600,7 +16385,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 381
+     "rank": 376
     },
     {
      "name": "Cofia",
@@ -16643,7 +16428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 382
+     "rank": 377
     },
     {
      "name": "Collaborate *",
@@ -16686,7 +16471,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 383
+     "rank": 378
     },
     {
      "name": "Command E",
@@ -16728,7 +16513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 384
+     "rank": 379
     },
     {
      "name": "Conjectag",
@@ -16772,7 +16557,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 385
+     "rank": 380
     },
     {
      "name": "Core Labs",
@@ -16815,7 +16600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 386
+     "rank": 381
     },
     {
      "name": "Crews By Core *",
@@ -16858,7 +16643,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 387
+     "rank": 382
     },
     {
      "name": "Dulcetta",
@@ -16901,7 +16686,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 388
+     "rank": 383
     },
     {
      "name": "Gantto",
@@ -16946,7 +16731,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 389
+     "rank": 384
     },
     {
      "name": "Huddl",
@@ -16990,7 +16775,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 390
+     "rank": 385
     },
     {
      "name": "Knote",
@@ -17032,7 +16817,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 391
+     "rank": 386
     },
     {
      "name": "Koan",
@@ -17074,7 +16859,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 392
+     "rank": 387
     },
     {
      "name": "Makelog",
@@ -17119,7 +16904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 393
+     "rank": 388
     },
     {
      "name": "Multi",
@@ -17164,7 +16949,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 394
+     "rank": 389
     },
     {
      "name": "OFF",
@@ -17207,7 +16992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 395
+     "rank": 390
     },
     {
      "name": "OSlash",
@@ -17250,7 +17035,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 396
+     "rank": 391
     },
     {
      "name": "Powerplay",
@@ -17293,7 +17078,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 397
+     "rank": 392
     },
     {
      "name": "Primavera Systems",
@@ -17335,7 +17120,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 398
+     "rank": 393
     },
     {
      "name": "Product Backlog",
@@ -17377,7 +17162,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 399
+     "rank": 394
     },
     {
      "name": "Product Backlog Items",
@@ -17419,7 +17204,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 400
+     "rank": 395
     },
     {
      "name": "Project Management Methodology",
@@ -17461,7 +17246,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 401
+     "rank": 396
     },
     {
      "name": "Quickoffice",
@@ -17505,7 +17290,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 402
+     "rank": 397
     },
     {
      "name": "RACI",
@@ -17547,7 +17332,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 403
+     "rank": 398
     },
     {
      "name": "Rodeo",
@@ -17590,7 +17375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 404
+     "rank": 399
     },
     {
      "name": "Streamonce",
@@ -17634,7 +17419,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 405
+     "rank": 400
     },
     {
      "name": "Tara Ai",
@@ -17677,7 +17462,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 406
+     "rank": 401
     },
     {
      "name": "Teamnote",
@@ -17720,7 +17505,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 407
+     "rank": 402
     },
     {
      "name": "TimeBlocks",
@@ -17763,7 +17548,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 408
+     "rank": 403
     },
     {
      "name": "Tomfoolery",
@@ -17807,7 +17592,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 409
+     "rank": 404
     },
     {
      "name": "Wikidocs",
@@ -17849,7 +17634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 410
+     "rank": 405
     },
     {
      "name": "WorkLife",
@@ -17891,7 +17676,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 411
+     "rank": 406
     },
     {
      "name": "Woven Software",
@@ -17935,7 +17720,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 412
+     "rank": 407
     },
     {
      "name": "SDLC",
@@ -17979,7 +17764,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 413
+     "rank": 408
     },
     {
      "name": "Gantt Charts",
@@ -18021,7 +17806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 414
+     "rank": 409
     },
     {
      "name": "Qube Horizon",
@@ -18063,7 +17848,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 415
+     "rank": 410
     },
     {
      "name": "Outils De Travail Digitaux",
@@ -18105,7 +17890,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 416
+     "rank": 411
     },
     {
      "name": "Outils Digitaux",
@@ -18147,7 +17932,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 417
+     "rank": 412
     },
     {
      "name": "Kwest",
@@ -18197,7 +17982,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 418
+     "rank": 413
     },
     {
      "name": "Blinkist",
@@ -18247,7 +18032,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 419
+     "rank": 414
     },
     {
      "name": "Power Tools",
@@ -18297,7 +18082,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 420
+     "rank": 415
     },
     {
      "name": "Cardmunch",
@@ -18348,7 +18133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 421
+     "rank": 416
     }
    ]
   }

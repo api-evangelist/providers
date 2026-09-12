@@ -21273,7 +21273,7 @@
     {
      "name": "GE Vernova",
      "slug": "ge-vernova",
-     "description": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through its innovative portfolio of electrification, power, and decarbonization technologies. Spun off from General Electric, GE Vernova brings together the legacy GE Power, Renewable Energy, Digital, and Energy Financial Services businesses to help solve the world's energy transition challenges.",
+     "description": "GE Vernova is accelerating the path to more reliable, affordable, and sustainable energy through its innovative portfolio of electrification, power, and decarbonization technologies. Spun off from General Electric in April 2024, GE Vernova brings together the legacy GE Power, Renewable Energy, Digital, and Energy Financial Services businesses to help solve the world's energy transition challenges. Its software arm, GE Vernova Electrification Software (the former GE Digital), is where its API surface lives: Proficy industrial software — Historian, Plant Applications MES, Operations Hub, CSense, iFIX and CIMPLICITY — alongside Asset Performance Management (Meridium, SmartSignal) and GridOS for grid transmission, distribution and orchestration. Every one of those APIs is documented publicly and runs on infrastructure the customer operates, so each base URL is templated on the customer's own host rather than a vendor-hosted endpoint.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ge-vernova/refs/heads/main/screenshots/ge-vernova-2026-06-20T181707.png",
      "score": 11.7,
      "band": "emerging",
