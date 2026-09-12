@@ -51,7 +51,7 @@
               data-band="{{ item.band }}"
               data-agent-score="{{ item.agent_score | default: 0 }}"
               data-agent-band="{{ item.agent_band | default: 'human-only' }}"
-              data-facets='{"discoverability":{{ item.facets.discoverability | default: 0 }},"contract_quality":{{ item.facets.contract_quality | default: 0 }},"governance":{{ item.facets.governance | default: 0 }},"operational_transparency":{{ item.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ item.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ item.facets.commercial_clarity | default: 0 }}}'
+              data-facets='{"discoverability":{{ item.facets.discoverability | default: 0 }},"contract_quality":{{ item.facets.contract_quality | default: 0 }},"contract_governance":{{ item.facets.contract_governance | default: item.facets.governance | default: 0 }},"operational_transparency":{{ item.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ item.facets.developer_ergonomics | default: 0 }},"access_clarity":{{ item.facets.access_clarity | default: item.facets.commercial_clarity | default: 0 }}}'
               {%- comment -%}
                 jsonify — the 0.6 graded dimensions are STRINGS (`derived`,
                 `documented`, `partial`), and hand-building the object emitted
@@ -79,7 +79,7 @@
           <div class="rd-diagram" aria-hidden="true">
             {% for fkey in facet_order %}
               {% assign f = rubric.facets[fkey] %}
-              {% assign fs = item.facets[fkey] | default: 0 %}
+              {% assign fs = item.facets[fkey] %}{% if fs == nil and fkey == "contract_governance" %}{% assign fs = item.facets.governance %}{% endif %}{% if fs == nil and fkey == "access_clarity" %}{% assign fs = item.facets.commercial_clarity %}{% endif %}{% assign fs = fs | default: 0 %}
               <div class="rd-col"><span class="rd-vnum">{{ fs | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ fs }}%;"></div></div><div class="rd-vlabel">{{ f.label }}</div></div>
             {% endfor %}
             {% if item.regulatory %}
@@ -95,7 +95,7 @@
               <div class="rd-section-title">Composite quality &mdash; {{ item.score }}/100 <span class="rd-band">&middot; {{ item.band }}</span></div>
               {% for fkey in facet_order %}
                 {% assign f = rubric.facets[fkey] %}
-                {% assign fs = item.facets[fkey] | default: 0 %}
+                {% assign fs = item.facets[fkey] %}{% if fs == nil and fkey == "contract_governance" %}{% assign fs = item.facets.governance %}{% endif %}{% if fs == nil and fkey == "access_clarity" %}{% assign fs = item.facets.commercial_clarity %}{% endif %}{% assign fs = fs | default: 0 %}
                 {% assign possible = f.weight | times: 100 %}
                 {% assign applied = fs | times: f.weight %}
                 <div class="rd-row">

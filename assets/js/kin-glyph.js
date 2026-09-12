@@ -39,10 +39,10 @@ const FACETS = [
      does, so one word could not carry both." Relabelled 0.12, roadmap#89.
      DO NOT rename the IDs to the aliases. The positional encodings key off these
      ids, and the scorer writes both names, so the short one still resolves. */
-  { id: 'governance',               label: 'Contract Governance',      light: '#1baf7a', dark: '#199e70' },
+  { id: 'contract_governance', was: 'governance',               label: 'Contract Governance',      light: '#1baf7a', dark: '#199e70' },
   { id: 'operational_transparency', label: 'Operational Transparency', light: '#eda100', dark: '#c98500' },
   { id: 'developer_ergonomics',     label: 'Developer Ergonomics',     light: '#e87ba4', dark: '#d55181' },
-  { id: 'commercial_clarity',       label: 'Access Clarity',           light: '#008300', dark: '#008300' },
+  { id: 'access_clarity', was: 'commercial_clarity',       label: 'Access Clarity',           light: '#008300', dark: '#008300' },
 ];
 
 /* One ray per agent-readiness dimension, in scoring.yml order. MUST stay in
@@ -260,7 +260,7 @@ function kinGlyph(p, opts = {}) {
   // --- facet rings --------------------------------------------------------
   // stroke-dasharray on a circle gives rounded data-ends and needs no arc maths.
   FACETS.forEach((f, i) => {
-    const raw = Number(p.facets?.[f.id] ?? 0);
+    const raw = Number(p.facets?.[f.id] ?? (f.was ? p.facets?.[f.was] : undefined) ?? 0);
     const v = Math.max(0, Math.min(100, raw));
     const r = outerR - ringW / 2 - i * (ringW + gap);
     const circ = 2 * Math.PI * r;

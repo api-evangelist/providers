@@ -274,7 +274,7 @@ nav: Providers
               data-band="{{ page.score.band }}"
               data-agent-score="{{ page.agent_readiness.score | default: 0 }}"
               data-agent-band="{{ page.agent_readiness.band | default: 'human-only' }}"
-              data-facets='{"discoverability":{{ page.score.facets.discoverability | default: 0 }},"contract_quality":{{ page.score.facets.contract_quality | default: 0 }},"governance":{{ page.score.facets.governance | default: 0 }},"operational_transparency":{{ page.score.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ page.score.facets.developer_ergonomics | default: 0 }},"commercial_clarity":{{ page.score.facets.commercial_clarity | default: 0 }}}'
+              data-facets='{"discoverability":{{ page.score.facets.discoverability | default: 0 }},"contract_quality":{{ page.score.facets.contract_quality | default: 0 }},"contract_governance":{{ page.score.facets.contract_governance | default: page.score.facets.governance | default: 0 }},"operational_transparency":{{ page.score.facets.operational_transparency | default: 0 }},"developer_ergonomics":{{ page.score.facets.developer_ergonomics | default: 0 }},"access_clarity":{{ page.score.facets.access_clarity | default: page.score.facets.commercial_clarity | default: 0 }}}'
               {%- comment -%}
                 jsonify, NOT a hand-built object. Kin Score 0.6 made seven
                 dimensions GRADED — they carry strings (`derived`, `documented`,
@@ -397,7 +397,7 @@ nav: Providers
       {%- if page.score and page.score.composite %}
       {%- assign rubric = site.data.scoring -%}
       {%- if rubric and rubric.facets %}
-      {%- assign facet_order = "contract_quality,developer_ergonomics,commercial_clarity,operational_transparency,governance,discoverability" | split: "," -%}
+      {%- assign facet_order = "contract_quality,developer_ergonomics,access_clarity,operational_transparency,contract_governance,discoverability" | split: "," -%}
       <h2 class="section-anchor" id="rating"><a href="#rating">Kin Score</a></h2>
       <p class="section-why">This is the API Evangelist rating — a single, repeatable read computed from the artifacts on this page. Green fill is points earned; the red track is points possible, so every bar shows earned-versus-possible at a glance. <strong>Every facet and dimension name is a link</strong>: it opens that measurement's page on APIs.io, where the rating runs across the whole catalog — the exact checks that feed it, how every profiled provider distributes on it, and who is at the top of it.</p>
       <div class="rating-panel">
@@ -414,7 +414,7 @@ nav: Providers
         <div class="rd-diagram" aria-hidden="true">
           {%- for fkey in facet_order -%}
             {%- assign f = rubric.facets[fkey] -%}
-            {%- assign fs = page.score.facets[fkey] | default: 0 -%}
+            {%- assign fs = page.score.facets[fkey] -%}{%- if fs == nil and fkey == "contract_governance" -%}{%- assign fs = page.score.facets.governance -%}{%- endif -%}{%- if fs == nil and fkey == "access_clarity" -%}{%- assign fs = page.score.facets.commercial_clarity -%}{%- endif -%}{%- assign fs = fs | default: 0 -%}
             <div class="rd-col"><span class="rd-vnum">{{ fs | round }}</span><div class="rd-vbar"><div class="rd-vfill" style="height:{{ fs }}%;"></div></div><div class="rd-vlabel">{{ f.label }}</div></div>
           {%- endfor -%}
           {%- if page.score.regulatory and page.score.regulatory.applies %}
@@ -429,7 +429,7 @@ nav: Providers
             <div class="rd-section-title">Composite quality &mdash; {{ page.score.composite }}/100 <span class="rd-band">&middot; {{ page.score.band }}</span></div>
             {%- for fkey in facet_order -%}
               {%- assign f = rubric.facets[fkey] -%}
-              {%- assign fs = page.score.facets[fkey] | default: 0 -%}
+              {%- assign fs = page.score.facets[fkey] -%}{%- if fs == nil and fkey == "contract_governance" -%}{%- assign fs = page.score.facets.governance -%}{%- endif -%}{%- if fs == nil and fkey == "access_clarity" -%}{%- assign fs = page.score.facets.commercial_clarity -%}{%- endif -%}{%- assign fs = fs | default: 0 -%}
               {%- assign possible = f.weight | times: 100 -%}
               {%- assign applied = fs | times: f.weight -%}
               <div class="rd-row">
