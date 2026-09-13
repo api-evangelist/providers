@@ -9,14 +9,14 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
-    agentic_access: false
+    agentic_access: true
     agentic_commerce: false
     auth_clarity: false
-    consent_identity: false
+    consent_identity: true
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
@@ -26,15 +26,22 @@ agent_readiness:
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
-  score: 0.0
+  schema_version: '0.2'
+  score: 11.9
   scored_at: '2026-09-12'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Genesco Agentic Access
+  operation_count: 0
+  slug: genesco-agentic-access
+  summary_line: 0 operations
 api_count: 0
-artifact_total: 1
+artifact_total: 4
 common:
 - group: auth
   title: ''
@@ -48,15 +55,47 @@ common:
   title: ''
   type: Website
   url: https://www.genesco.com
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/genesco-llms.txt
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/genesco-agentic-access.yml
+- group: other
+  title: ''
+  type: ContentSignal
+  url: agentic-access/genesco-agentic-access.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/genesco-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/genesco-conventions.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/genesco-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/genesco-rate-limits.yml
 created: '2026-03-24'
-description: Genesco is a specialty retailer and branded company selling footwear, apparel, and accessories through more than 1,400 retail stores and e-commerce sites under banners including Journeys, Schuh, Johnston & Murphy, and Genesco Brands.
+description: 'Genesco is a specialty retailer and branded company selling footwear, apparel, and accessories through more than 1,400 retail stores and e-commerce sites under banners including Journeys, Schuh, Johnston & Murphy, and Genesco Brands. Genesco publishes no public API, developer portal, or OpenAPI document — it says so itself in the llms.txt it serves on journeys.com. What it does publish is an agent-access posture: an llms.txt for AI assistants, a Content-Signal AI-usage declaration in robots.txt on Journeys and Johnston & Murphy, a named allow list for AI search and user-requested agents, an llm= referral attribution convention, and server-rendered schema.org ProductGroup JSON-LD on every product page.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genesco.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Genesco
 nav: Providers
 network: true
-overview: Genesco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Footwear, Apparel, and Fortune 1000.
+overview: Genesco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Footwear, Apparel, E-Commerce, and Agentic Access.
+plans:
+- name: Genesco Plans Pricing
+  plan_count: 0
+  slug: genesco-plans-pricing
 press:
 - date: '2026-05-25'
   title: Genesco Announces Strategic Transformation of Its ...
@@ -74,26 +113,33 @@ press:
   title: THOMSON REUTERS - EDITED TRANSCRIPT - Q4 2019 ...
   url: https://www.genesco.com/static-files/15de29ce-baad-457f-8d34-000574ea17fe
 random_paper: 5
+rate_limits:
+- limit_count: 0
+  name: Genesco Rate Limits
+  slug: genesco-rate-limits
 score:
   band: minimal
-  composite: 4.1
+  composite: 7.9
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 22.0
+    artifact_dirs: 12
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.8
   facets:
     access_clarity: 0.0
-    contract_governance: 0.0
+    contract_governance: 18.2
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 40.7
+    discoverability: 57.4
     operational_transparency: 0.0
   previous_composite: 4.1
-  schema_version: 0.21.0
+  provenance:
+    agentic_access: first-party
+    conformance: first-party
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -110,6 +156,8 @@ tags:
 - Retail
 - Footwear
 - Apparel
+- E-Commerce
+- Agentic Access
 - Fortune 1000
 website: https://www.genesco.com
 ---

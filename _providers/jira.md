@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -24,7 +24,7 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: true
     error_semantics: verified
-    event_surface_described: derived
+    event_surface_described: true
     idempotency: false
     mcp_server: verified
     openapi_examples: verified
@@ -33,8 +33,8 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 50.7
+  schema_version: '0.2'
+  score: 54.9
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 6
@@ -97,6 +97,9 @@ apis:
   description: Manage Jira projects including metadata, roles, and components.
   name: Jira Projects API
   slug: jira-projects-api
+- description: Atlassian's official hosted Model Context Protocol server. An OAuth 2.1 protected endpoint that exposes Jira, Jira Service Management, Confluence, Bitbucket, Compass and Loom to MCP-capable AI clients
+  name: Atlassian Remote MCP Server
+  slug: atlassian-jira-remote-mcp-server
 arazzos:
 - description: Read an issue, page through its comment thread oldest-first, then add a reply.
   name: Jira Read an Issue Comment Thread and Reply
@@ -128,11 +131,14 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 217
+artifact_total: 220
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
   slug: jira-webhooks-asyncapi
+- description: ''
+  name: Jira Webhooks
+  slug: jira-webhooks
 collections:
 - collection_type: postman
   name: Jira Cloud Platform REST Issue Comments API
@@ -188,11 +194,94 @@ collections:
 - collection_type: open
   name: Jira Cloud Platform REST Issue Comments Projects API
   slug: open-jira-projects-api
+- collection_type: open
+  name: Atlassian Jira Cloud Platform REST API v3
+  slug: open-jira
 common:
 - group: company
   title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/atlassian
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.atlassian.com/cloud/jira/platform/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.atlassian.com/software/jira/pricing
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.developer.atlassian.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/atlassian
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/jira-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.atlassian.com/trust/compliance
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://developer.atlassian.com/platform/marketplace/atlassian-rest-api-policy/
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/jira-sandbox.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/jira-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.atlassian.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.atlassian.com/roadmap/cloud
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.atlassian.com/try/cloud/signup?bundle=jira-software
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://community.atlassian.com/
+- group: auth
+  title: ''
+  type: Trust
+  url: https://www.atlassian.com/trust
+- group: auth
+  title: ''
+  type: BugBounty
+  url: https://bugcrowd.com/atlassian
+- group: build
+  title: ''
+  type: PostmanCollection
+  url: collections/jira.postman_collection.json
+- group: build
+  title: ''
+  type: OpenCollection
+  url: collections/jira.opencollection.json
+- group: company
+  title: ''
   type: Website
-  url: https://www.atlassian.com/
+  url: https://www.atlassian.com/software/jira
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -846,10 +935,10 @@ network: true
 overview: 'Jira publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Issue Comments API, Issue Priorities API, Issue Search API, and 5 more. Tagged areas include Agile, Issue Tracking, ITSM, Project Management, and Service Management.
 
 
-  The Jira catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
+  The Jira catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Jira''s developer surface includes changelog, CLI, authentication, developer portal, getting-started guide, support, engineering blog, and 41 more developer resources.'
+  Jira''s developer surface includes documentation, pricing, sandbox, API reference, signup flow, changelog, CLI, and 61 more developer resources.'
 plans:
 - name: Jira Plans Pricing
   plan_count: 4
@@ -898,23 +987,23 @@ scopes:
   slug: jira-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 56.3
+  band: exemplar
+  composite: 69.3
   coverage:
-    artifact_dirs: 34
+    artifact_dirs: 36
     catalog_earned: 53.5
     catalog_earned_first_party: 0.0
     catalog_gap: 61.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.0
   facets:
-    access_clarity: 39.5
+    access_clarity: 71.1
     contract_governance: 18.2
     contract_quality: 79.8
-    developer_ergonomics: 65.5
+    developer_ergonomics: 81.5
     discoverability: 74.1
-    operational_transparency: 50.0
+    operational_transparency: 76.3
   previous_composite: 56.3
   provenance:
     agentic_access: derived
@@ -925,9 +1014,10 @@ score:
       marker_coverage: 0.0
       total: 8
     mcp: first-party
-  schema_version: 0.21.0
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -967,5 +1057,5 @@ use_cases:
   name: Incident Management
 - description: Connect portfolio planning tools with Jira Align for cross-team dependency tracking and program-level reporting.
   name: Enterprise Agile Planning
-website: https://www.atlassian.com/
+website: https://www.atlassian.com/software/jira
 ---

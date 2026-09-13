@@ -31,7 +31,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: true
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 2.9
   scored_at: '2026-09-12'
 api_count: 0
@@ -120,7 +120,7 @@ score:
     regime: Health
     regime_id: health
     score: 7.5
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

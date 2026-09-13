@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -90,13 +90,13 @@ jsonld:
   slug: spectra-context
 layout: provider
 modified: '2026-05-23'
-name: Spectra (Defunct / Merged into OVG360)
+name: Spectra
 nav: Providers
 network: true
-overview: 'Spectra (Defunct / Merged into OVG360) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Venue Management, Food Service, Hospitality, Live Events, and Sports And Entertainment.
+overview: 'Spectra is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Venue Management, Food Service, Hospitality, Live Events, and Sports And Entertainment.
 
 
-  The Spectra (Defunct / Merged into OVG360) catalog on APIs.io includes 1 JSON-LD context.'
+  The Spectra catalog on APIs.io includes 1 JSON-LD context.'
 random_paper: 19
 score:
   band: minimal
@@ -122,7 +122,7 @@ score:
     regions:
     - north-america
   previous_composite: 10.1
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

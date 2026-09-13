@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -44,38 +44,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/reporting-templates-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.google.com/sheets/about/
-- group: company
-  title: ''
-  type: Website
-  url: https://www.tableau.com
-- group: company
-  title: ''
-  type: Website
-  url: https://powerbi.microsoft.com
-- group: company
-  title: ''
-  type: Website
-  url: https://looker.com
-- group: company
-  title: ''
-  type: Website
-  url: https://www.datadog.com
-- group: company
-  title: ''
-  type: Website
-  url: https://grafana.com
-- group: company
-  title: ''
-  type: Website
-  url: https://docs.google.com/document/u/0/
-- group: company
-  title: ''
-  type: Website
-  url: https://templatelab.com
 created: '2025-01-01'
 description: Pre-built document templates for generating standardized reports, dashboards, and data presentations with consistent formatting and structure. Organizations use reporting templates to track key metrics, identify trends, optimize business outcomes, and communicate data insights to stakeholders. This collection catalogs APIs and tools for working with report templates across business intelligence, analytics, document generation, and data visualization platforms.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reporting-templates.png
@@ -112,8 +80,14 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 0.0
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 7.7
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -137,5 +111,4 @@ tags:
 - Documentation
 - Reporting
 - Templates
-website: https://www.google.com/sheets/about/
 ---

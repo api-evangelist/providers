@@ -28,7 +28,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -86,7 +86,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -155,7 +155,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -206,7 +206,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -264,7 +264,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -322,7 +322,7 @@
       "access_clarity": 78.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -380,7 +380,7 @@
       "access_clarity": 78.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -438,7 +438,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -500,7 +500,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -551,7 +551,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -617,7 +617,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -675,7 +675,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -733,7 +733,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -791,7 +791,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -842,7 +842,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -900,7 +900,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -958,7 +958,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1016,7 +1016,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1067,7 +1067,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1125,7 +1125,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1176,7 +1176,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1238,7 +1238,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1296,7 +1296,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1354,7 +1354,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1412,7 +1412,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1470,7 +1470,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1528,7 +1528,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1586,7 +1586,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1644,7 +1644,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1702,7 +1702,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1760,7 +1760,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1818,7 +1818,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1880,7 +1880,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1938,7 +1938,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1996,7 +1996,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2058,7 +2058,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2109,7 +2109,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2167,7 +2167,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2225,7 +2225,7 @@
       "access_clarity": 21.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2287,7 +2287,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2353,7 +2353,7 @@
       "access_clarity": 28.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2411,7 +2411,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2469,7 +2469,7 @@
       "access_clarity": 30.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2520,7 +2520,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2582,7 +2582,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2632,7 +2632,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2690,7 +2690,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2741,7 +2741,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2799,7 +2799,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2857,7 +2857,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2908,7 +2908,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2969,7 +2969,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3020,7 +3020,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3071,7 +3071,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3122,7 +3122,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3173,7 +3173,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3224,7 +3224,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3285,7 +3285,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3336,7 +3336,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3387,7 +3387,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",

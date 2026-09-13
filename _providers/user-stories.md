@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -48,10 +48,6 @@ common:
   title: ''
   type: DomainSecurity
   url: security/user-stories-domain-security.yml
-- group: company
-  title: ''
-  type: Website
-  url: https://www.atlassian.com/agile/project-management/user-stories
 - group: build
   title: ''
   type: GitHub
@@ -83,7 +79,7 @@ overview: 'User Stories is profiled on the [APIs.io](https://apis.io/) network. 
   The User Stories catalog on APIs.io includes 1 JSON-LD context.
 
 
-  User Stories'' developer surface includes GitHub presence and 6 more developer resources.'
+  User Stories'' developer surface includes GitHub presence and 5 more developer resources.'
 random_paper: 9
 score:
   band: emerging
@@ -103,8 +99,14 @@ score:
     developer_ergonomics: 0.0
     discoverability: 50.0
     operational_transparency: 5.3
+  needs_work:
+    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
+    owner: catalog
+    reasons:
+    - owner: catalog
+      reason: no_resolvable_host
   previous_composite: 11.8
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -133,5 +135,4 @@ tags:
 - Product Management
 - Requirements
 - User Needs
-website: https://www.atlassian.com/agile/project-management/user-stories
 ---

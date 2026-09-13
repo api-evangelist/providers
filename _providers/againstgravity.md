@@ -1,6 +1,35 @@
 ---
 api_count: 0
-artifact_total: 0
+artifact_total: 1
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/againstgravity-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://recroom.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://recroom.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://recroom.com/privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://recroom.com/ship-notes
+- group: operate
+  title: ''
+  type: Support
+  url: https://recroom.zendesk.com/hc/en-us
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/againstgravity-lifecycle.yml
 coverage:
   checked: '2026-09-12'
   detail: Rec Room Inc. (formerly Against Gravity Corp) shut its service down on 2026-06-01 and rec.net on 2026-06-09; its Azure API Management developer portal devportal.rec.net is now a dangling CNAME to the deleted instance rr-apim-prod-001.developer.azure-api.net, and both rec.net and api.rec.net answer TLS alert 40 with no certificate, so the only host still served is the legacy recroom.com Squarespace marketing site, which 404s on every spec and /.well-known/ path.
@@ -27,7 +56,16 @@ modified: '2026-09-12'
 name: Against Gravity
 nav: Providers
 network: true
+overview: 'Against Gravity is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Virtual Reality, Social Platform, and User Generated Content.
+
+
+  Against Gravity''s developer surface includes engineering blog, support, and 5 more developer resources.'
 random_paper: 5
+security:
+- kind: domain-security
+  name: Againstgravity Domain Security
+  slug: againstgravity-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: againstgravity
 tags:
 - Company
@@ -38,4 +76,5 @@ tags:
 - Metaverse
 - Entertainment
 - Defunct
+website: https://recroom.com
 ---

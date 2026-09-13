@@ -27,7 +27,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -77,7 +77,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -120,7 +120,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -170,7 +170,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 52.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -213,7 +213,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -256,7 +256,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -317,7 +317,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -374,7 +374,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -423,7 +423,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -473,7 +473,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -538,7 +538,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -588,7 +588,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -638,7 +638,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -681,7 +681,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -738,7 +738,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -781,7 +781,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -831,7 +831,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -874,7 +874,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -924,7 +924,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -974,7 +974,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1017,7 +1017,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1060,7 +1060,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1117,7 +1117,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1167,7 +1167,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1217,7 +1217,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1267,7 +1267,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1317,7 +1317,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1367,7 +1367,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1417,7 +1417,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1467,7 +1467,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 51.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1510,7 +1510,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1553,7 +1553,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1603,7 +1603,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1646,7 +1646,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1696,7 +1696,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1746,7 +1746,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1789,7 +1789,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1850,7 +1850,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1893,7 +1893,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1943,7 +1943,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1986,7 +1986,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2029,7 +2029,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2072,7 +2072,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2122,7 +2122,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2172,7 +2172,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2222,7 +2222,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2265,7 +2265,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2315,7 +2315,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2372,7 +2372,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2422,7 +2422,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2472,7 +2472,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2521,7 +2521,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2564,7 +2564,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2607,7 +2607,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2657,7 +2657,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2707,7 +2707,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2750,7 +2750,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2800,7 +2800,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2850,7 +2850,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2893,14 +2893,14 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 30.2,
-     "agent_band": "agent-ready",
+     "schema_version": "0.22.0",
+     "agent_score": 23.7,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2936,7 +2936,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2993,7 +2993,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3035,7 +3035,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3078,7 +3078,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3138,7 +3138,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3181,7 +3181,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3224,7 +3224,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3267,7 +3267,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3310,7 +3310,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3353,7 +3353,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3403,7 +3403,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3445,7 +3445,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -3494,7 +3494,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3537,7 +3537,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3580,7 +3580,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 18.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3623,14 +3623,14 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 23.9,
+     "schema_version": "0.22.0",
+     "agent_score": 17.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -3666,7 +3666,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3709,7 +3709,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3759,7 +3759,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3809,7 +3809,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3859,7 +3859,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3909,7 +3909,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3952,7 +3952,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3995,7 +3995,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4038,7 +4038,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4088,7 +4088,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4138,7 +4138,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4188,7 +4188,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -4238,7 +4238,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4281,7 +4281,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -4331,7 +4331,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4381,7 +4381,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4431,7 +4431,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4481,7 +4481,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4538,7 +4538,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4588,7 +4588,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4631,7 +4631,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4674,7 +4674,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4717,7 +4717,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4760,7 +4760,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4802,7 +4802,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4845,7 +4845,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4888,7 +4888,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4938,7 +4938,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4981,7 +4981,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5031,7 +5031,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5074,7 +5074,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5117,7 +5117,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -5167,7 +5167,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5210,7 +5210,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5260,7 +5260,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5303,7 +5303,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5346,7 +5346,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5389,7 +5389,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5431,7 +5431,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5474,7 +5474,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5524,7 +5524,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5567,7 +5567,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5617,7 +5617,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5660,7 +5660,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5703,7 +5703,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5753,7 +5753,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5796,7 +5796,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5839,7 +5839,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5882,7 +5882,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -5932,7 +5932,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5975,7 +5975,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6027,7 +6027,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6077,7 +6077,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6120,7 +6120,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6170,7 +6170,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6213,7 +6213,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6256,7 +6256,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6299,7 +6299,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6349,7 +6349,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6392,7 +6392,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6435,7 +6435,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6478,7 +6478,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6520,7 +6520,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6563,7 +6563,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6613,7 +6613,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6663,7 +6663,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6706,7 +6706,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6749,7 +6749,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -6798,7 +6798,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6841,7 +6841,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6884,7 +6884,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6927,7 +6927,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6977,7 +6977,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7020,7 +7020,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7070,7 +7070,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7120,7 +7120,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7170,7 +7170,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7213,7 +7213,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -7263,7 +7263,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7306,7 +7306,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7356,7 +7356,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7406,7 +7406,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7456,7 +7456,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -7506,7 +7506,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7556,7 +7556,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7599,7 +7599,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7642,7 +7642,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7685,7 +7685,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7728,7 +7728,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7771,7 +7771,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7814,7 +7814,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7857,7 +7857,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7899,7 +7899,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7949,7 +7949,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7999,7 +7999,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -8048,7 +8048,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8098,7 +8098,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8141,7 +8141,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8191,7 +8191,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8241,7 +8241,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8291,7 +8291,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -8340,7 +8340,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8390,7 +8390,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8440,7 +8440,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8490,7 +8490,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8540,7 +8540,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8583,7 +8583,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8633,7 +8633,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -8683,7 +8683,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8726,7 +8726,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8776,7 +8776,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8819,7 +8819,7 @@
       "access_clarity": 5.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8861,7 +8861,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8904,7 +8904,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8947,7 +8947,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8990,7 +8990,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9033,7 +9033,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -9082,7 +9082,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9125,7 +9125,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9168,7 +9168,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9211,7 +9211,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9254,7 +9254,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9297,7 +9297,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -9347,7 +9347,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -9441,7 +9441,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9483,7 +9483,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9526,7 +9526,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9657,7 +9657,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9743,7 +9743,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9786,7 +9786,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9828,7 +9828,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9871,7 +9871,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9913,7 +9913,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10000,7 +10000,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -10050,7 +10050,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10058,13 +10058,13 @@
       "score": 7.5,
       "matched_via": "tags"
      },
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
+     "agent_score": 2.2,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -10100,7 +10100,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10150,7 +10150,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10200,7 +10200,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10250,7 +10250,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10300,7 +10300,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -10350,7 +10350,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10400,7 +10400,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -10450,7 +10450,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",

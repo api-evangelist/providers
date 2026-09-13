@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 27.3
   scored_at: '2026-09-12'
 agentic_access:
@@ -100,6 +100,20 @@ apis:
   description: The Users API from Microsoft Active Directory — 5 operation(s) for users.
   name: Microsoft Active Directory Users API
   slug: active-directory-users-api
+- description: Lightweight Directory Access Protocol interface for querying and modifying Active Directory.
+  name: LDAP Protocol Interface
+  slug: ldap-protocol-interface
+- description: PowerShell cmdlets for managing Active Directory Domain Services.
+  name: PowerShell Active Directory Module
+  slug: powershell-active-directory-module
+- description: Legacy REST API for Azure Active Directory (being replaced by Microsoft Graph).
+  name: Azure AD Graph API (Deprecated)
+  slug: azure-ad-graph-api-deprecated
+- baseURL: https://graph.microsoft.com
+  baseurl_source: declared
+  description: The Directory Roles API from Microsoft Active Directory — 2 operation(s) for directory roles.
+  name: Microsoft Active Directory Directory Roles API
+  slug: microsoft-active-directory-directory-roles-api
 arazzos:
 - description: Resolve a user by UPN, read their full profile, then list their group memberships and manager.
   name: Active Directory Audit User Group Memberships
@@ -140,7 +154,7 @@ arazzos:
 - description: Resolve an application by name, read it, then patch its web redirect URIs and description.
   name: Active Directory Update Application Redirect URIs
   slug: active-directory-update-application-redirect-uris-workflow
-artifact_total: 84
+artifact_total: 88
 collections:
 - collection_type: postman
   name: Microsoft Graph Applications and Service Principals API
@@ -176,6 +190,10 @@ collections:
   name: Microsoft Graph Applications and Service Principals App Role Assignments Users API
   slug: open-active-directory-users-api
 common:
+- group: operate
+  title: ''
+  type: Service Status
+  url: https://status.azure.com/
 - group: company
   title: ''
   type: Website
@@ -437,13 +455,13 @@ modified: '2026-05-19'
 name: Microsoft Active Directory
 nav: Providers
 network: true
-overview: 'Microsoft Active Directory publishes 7 APIs on the [APIs.io](https://apis.io/) network, including App Role Assignments API, Applications API, Groups API, and 4 more. Tagged areas include Active Directory, Authentication, Authorization, Directory Services, and Identity Management.
+overview: 'Microsoft Active Directory publishes 8 APIs on the [APIs.io](https://apis.io/) network, including App Role Assignments API, Applications API, Groups API, and 5 more. Tagged areas include Active Directory, Authentication, Authorization, Directory Services, and Identity Management.
 
 
   The Microsoft Active Directory catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Active Directory''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, CLI, engineering blog, and 36 more developer resources.'
+  Microsoft Active Directory''s developer surface includes authentication, developer portal, getting-started guide, documentation, API reference, CLI, engineering blog, and 37 more developer resources.'
 plans:
 - name: Active Directory Plans Pricing
   plan_count: 8
@@ -482,22 +500,22 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 53.6
+  composite: 54.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 76.5
+    catalog_earned: 71.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 38.5
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.5
   facets:
     access_clarity: 47.4
     contract_governance: 28.8
-    contract_quality: 77.6
+    contract_quality: 76.4
     developer_ergonomics: 60.7
-    discoverability: 74.1
-    operational_transparency: 18.4
+    discoverability: 72.2
+    operational_transparency: 26.3
   previous_composite: 53.6
   provenance:
     agentic_access: derived
@@ -505,8 +523,8 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.21.0
+      total: 8
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

@@ -9,32 +9,36 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
-  score: 0.0
+  schema_version: '0.2'
+  score: 8.8
   scored_at: '2026-09-12'
-api_count: 0
-artifact_total: 1
+api_count: 1
+apis:
+- description: Read-only HTTP JSON API serving Graphic Packaging International's open job requisitions from careers.graphicpkg.com. Four tools — search_jobs, get_job, list_departments and list_locations — are select
+  name: Graphic Packaging Career Site Job Query API
+  slug: graphic-packaging-career-site-job-query-api
+artifact_total: 6
 common:
 - group: auth
   title: ''
@@ -67,19 +71,55 @@ common:
 - group: company
   title: ''
   type: Blog
-  url: http://www.graphicpkg.com/feed
+  url: https://www.graphicpkg.com/feed/
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.graphicpkg.com/disclosures-and-company-policies/vulnerability-disclosure-policy/
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/graphic-packaging-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.graphicpkg.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.graphicpkg.com/privacy-rights-policies/global-privacy/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.graphicpkg.com/contact-us/
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/graphic-packaging-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/graphic-packaging-conformance.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/graphic-packaging-plans-pricing.yml
 created: '2026-03-21'
-description: Graphic Packaging International is a Fortune 500 global manufacturer of sustainable, paperboard-based consumer packaging. Products include folding cartons, multipack cartons, foodservice packaging (cups, lids, to-go containers), microwave and ovenable packaging, paperboard canisters, and packaging machinery. Markets served include food, beverage, foodservice, household, personal care, healthcare, pharmaceuticals, pet care, beauty, and e-commerce. No public developer APIs are documented at this time.
+description: Graphic Packaging International is a Fortune 500 global manufacturer of sustainable, paperboard-based consumer packaging. Products include folding cartons, multipack cartons, foodservice packaging (cups, lids, to-go containers), microwave and ovenable packaging, paperboard canisters, and packaging machinery. Markets served include food, beverage, foodservice, household, personal care, healthcare, pharmaceuticals, pet care, beauty, and e-commerce. Graphic Packaging publishes no developer program, no API reference and no machine-readable contract; its digital surfaces for customers and suppliers (ODS order data, ACES, GPI Fiber Furnish Tracker and the Esko WebCenter artwork portal) all sit behind logins. The one unauthenticated JSON surface on a graphicpkg.com host is the careers site job query API, which is a tenant of the AppVault career-site platform rather than a Graphic Packaging product.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/graphic-packaging.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Graphic Packaging
 nav: Providers
 network: true
-overview: 'Graphic Packaging is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Packaging, Paperboard, Sustainability, and Manufacturing.
+overview: 'Graphic Packaging publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Packaging, Paperboard, Sustainability, and Manufacturing.
 
 
-  Graphic Packaging''s developer surface includes engineering blog and 7 more developer resources.'
+  Graphic Packaging''s developer surface includes engineering blog, support, and 14 more developer resources.'
+plans:
+- name: Graphic Packaging Plans Pricing
+  plan_count: 0
+  slug: graphic-packaging-plans-pricing
 press:
 - date: '2026-05-25'
   title: Pomerantz LLP Brings Class Action Lawsuit Against ...
@@ -97,38 +137,54 @@ press:
   title: '10-K: Annual report [Section 13 and 15(d), not S-K Item 405]'
   url: https://investors.graphicpkg.com/sec-filings/all-sec-filings/content/0001408075-26-000009/gpk-20251231.htm
 random_paper: 11
+rate_limits:
+- limit_count: 0
+  name: Graphic Packaging Rate Limits
+  slug: graphic-packaging-rate-limits
 score:
-  band: minimal
-  composite: 5.5
+  band: emerging
+  composite: 20.8
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 27.0
+    artifact_dirs: 16
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.3
   facets:
-    access_clarity: 0.0
+    access_clarity: 28.9
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 50.0
-    operational_transparency: 0.0
+    developer_ergonomics: 30.4
+    discoverability: 75.9
+    operational_transparency: 10.5
   previous_composite: 5.5
-  schema_version: 0.21.0
+  provenance:
+    conformance: first-party
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphic-packaging/refs/heads/main/screenshots/graphic-packaging-2026-06-20T182327.png
 security:
+- kind: authentication
+  name: Graphic Packaging Authentication
+  slug: graphic-packaging-authentication
+  summary_line: 1 scheme
 - kind: domain-security
   name: Graphic Packaging Domain Security
   slug: graphic-packaging-domain-security
-  summary_line: TLSv1.3 · DMARC
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Graphic Packaging Vulnerability Disclosure
+  slug: graphic-packaging-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: graphic-packaging
 tags:
 - Fortune 500

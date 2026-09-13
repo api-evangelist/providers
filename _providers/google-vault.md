@@ -11,18 +11,18 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 26.5
+  schema_version: '0.2'
+  score: 33.6
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 22
@@ -74,7 +74,7 @@ apis:
   description: The SavedQueries API from Google Vault — 2 operation(s) for savedqueries.
   name: Google Vault SavedQueries API
   slug: google-vault-savedqueries-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -132,7 +132,7 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://developers.google.com/vault/quickstart
+  url: https://developers.google.com/workspace/vault/quickstart/python
 - group: auth
   title: ''
   type: Authentication
@@ -148,34 +148,166 @@ common:
 - group: operate
   title: ''
   type: ChangeLog
-  url: https://developers.google.com/vault/release-notes
+  url: https://developers.google.com/workspace/vault/release-notes
 - group: company
   title: ''
   type: Blog
   url: https://workspace.google.com/blog/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.google.com/workspace/vault
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/workspace/vault/guides
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/workspace/vault/reference/rest
+- group: operate
+  title: ''
+  type: Support
+  url: https://developers.google.com/workspace/vault/support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://knowledge.workspace.google.com/vault
+- group: start
+  title: ''
+  type: SignUp
+  url: https://workspace.google.com/business/signup/welcome
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://workspace.google.com/pricing.html
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developers.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: other
+  title: ''
+  type: Discovery
+  url: discovery/google-vault-discovery-v1.json
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-vault-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-vault-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-vault-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-vault-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/google-vault-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/google-vault-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/google-vault-trust-center.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-vault-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/google-vault-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/google-vault-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-vault-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-vault-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-vault-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/google-vault-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-vault-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-vault-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-vault-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-vault-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-vault-finops.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-vault-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/google-vault-mcp.yml
+- group: start
+  title: ''
+  type: X-SandboxAbsent
+  url: sandbox/google-vault-sandbox.yml
 created: '2025-01-01'
-description: A collection of APIs for Google Vault, an information governance and eDiscovery tool for Google Workspace.
+description: Google Vault is the information-governance, legal-hold and eDiscovery service for Google Workspace. Its REST API (vault.googleapis.com v1) lets an administrator open matters, place and lift legal holds across Gmail, Drive, Groups, Chat, Voice, Calendar and Gemini, save and count search queries, and export matching data to Google Cloud Storage. Access is OAuth 2.0 only, gated on Workspace Vault privileges, and the contract is published as a Google Discovery document rather than an OpenAPI.
 finops:
 - name: Google Vault Finops
   service_category: API
   slug: google-vault-finops
 image: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Google Vault
 nav: Providers
 network: true
-overview: 'Google Vault publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Exports API, HeldAccounts API, Holds API, and 3 more.
+overview: 'Google Vault publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Exports API, HeldAccounts API, Holds API, and 3 more. Tagged areas include eDiscovery, Legal Hold, Information Governance, Compliance, and Archiving.
 
 
-  Google Vault''s developer surface includes authentication, getting-started guide, developer console, changelog, engineering blog, and 8 more developer resources.'
+  Google Vault''s developer surface includes authentication, getting-started guide, developer console, changelog, engineering blog, documentation, API reference, and 39 more developer resources.'
 plans:
 - name: Google Vault Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: google-vault-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 10
   name: Google Vault Rate Limits
   slug: google-vault-rate-limits
 scopes:
@@ -184,37 +316,37 @@ scopes:
   slug: google-vault-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 35.4
+  band: strong
+  composite: 57.3
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 36.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    artifact_dirs: 25
+    catalog_earned: 52.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 63.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 21.9
   facets:
-    access_clarity: 36.8
-    contract_governance: 0.0
+    access_clarity: 68.4
+    contract_governance: 18.2
     contract_quality: 51.0
-    developer_ergonomics: 23.8
-    discoverability: 57.4
-    operational_transparency: 42.1
+    developer_ergonomics: 54.2
+    discoverability: 75.9
+    operational_transparency: 84.2
   previous_composite: 35.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 6
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
-  schema_version: 0.21.0
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -232,6 +364,19 @@ security:
   name: Google Vault Vulnerability Disclosure
   slug: google-vault-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Google Vault Trust Center
+  slug: google-vault-trust-center
+  summary_line: FedRAMP, CJIS, HIPAA, US Department of Defense requirements, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, SOC 2
 slug: google-vault
+tags:
+- eDiscovery
+- Legal Hold
+- Information Governance
+- Compliance
+- Archiving
+- Retention
+- Google Workspace
+- Audit
 website: https://www.google.com/
 ---

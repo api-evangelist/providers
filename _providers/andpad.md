@@ -31,7 +31,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 5.4
   scored_at: '2026-09-12'
 api_count: 1
@@ -148,7 +148,7 @@ score:
     regions:
     - japan-korea
   previous_composite: 20.4
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

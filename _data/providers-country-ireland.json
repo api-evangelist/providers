@@ -28,7 +28,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -95,7 +95,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -138,7 +138,7 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -188,7 +188,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -238,7 +238,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -287,7 +287,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -348,7 +348,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -408,7 +408,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -458,7 +458,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -501,7 +501,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -551,7 +551,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -594,7 +594,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -653,7 +653,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -696,7 +696,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -746,7 +746,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -796,7 +796,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -846,7 +846,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -896,7 +896,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -946,7 +946,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -996,7 +996,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1046,7 +1046,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1096,7 +1096,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1146,7 +1146,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1196,7 +1196,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1246,7 +1246,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1295,7 +1295,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

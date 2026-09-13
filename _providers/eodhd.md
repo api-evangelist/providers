@@ -25,15 +25,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: derived
     idempotency: na
-    mcp_server: verified
+    mcp_server: templated
     openapi_examples: verified
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 66.3
+  schema_version: '0.2'
+  score: 62.3
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
@@ -502,7 +502,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 68.3
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

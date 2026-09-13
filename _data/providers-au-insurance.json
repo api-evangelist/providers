@@ -28,7 +28,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -79,7 +79,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -141,7 +141,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -192,7 +192,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -243,7 +243,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -294,7 +294,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -345,7 +345,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -396,7 +396,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -447,7 +447,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -508,7 +508,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -559,7 +559,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -610,7 +610,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -661,7 +661,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -712,7 +712,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -763,7 +763,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -814,7 +814,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -865,7 +865,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -926,7 +926,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -977,7 +977,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1028,7 +1028,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",

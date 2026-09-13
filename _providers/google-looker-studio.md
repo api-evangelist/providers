@@ -14,15 +14,15 @@ agent_readiness:
   band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: na
     mcp_server: false
@@ -32,8 +32,8 @@ agent_readiness:
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 28.7
+  schema_version: '0.2'
+  score: 36.9
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
@@ -48,11 +48,11 @@ apis:
   name: Google Looker Studio Embedding API
   slug: google-looker-studio-embedding-api
 - baseURL: https://datastudio.googleapis.com
-  baseurl_source: spec
-  description: The Assets:search API from Google Looker Studio — 1 operation(s) for assets:search.
+  baseurl_source: declared
+  description: The REST management API for Looker Studio (Data Studio) assets. The contract captured in this repo covers one operation, assets:search, which lists the reports and data sources an authenticated Worksp
   name: Google Looker Studio Assets:search API
   slug: google-looker-studio-assets-search-api
-artifact_total: 12
+artifact_total: 15
 collections:
 - collection_type: open
   name: API Collection
@@ -64,6 +64,10 @@ collections:
   name: Google Looker Studio API
   slug: open-google-looker-studio
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-looker-studio-vulnerability-disclosure.yml
 - group: company
   title: ''
   type: Website
@@ -116,37 +120,153 @@ common:
   title: ''
   type: Data Connectors
   url: https://lookerstudio.google.com/data
-- group: company
-  title: ''
-  type: Partner Program
-  url: https://developers.google.com/looker-studio/partner
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/googledatastudio
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.google.com/looker-studio
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.google.com/looker-studio/integrate
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.google.com/looker-studio/integrate/api/reference
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://policies.google.com/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://cloud.google.com/data-studio
+- group: start
+  title: ''
+  type: SignUp
+  url: https://lookerstudio.google.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-looker-studio-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-looker-studio-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/google-looker-studio-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/google-looker-studio-components.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-looker-studio-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-looker-studio-security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/google-looker-studio-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-looker-studio-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-looker-studio-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/google-looker-studio-trust-center.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/google-looker-studio-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/google-looker-studio-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/google-looker-studio-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-looker-studio-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-looker-studio-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/google-looker-studio-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-looker-studio-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-looker-studio-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-looker-studio-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-looker-studio-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-looker-studio-rate-limits.yml
 created: '2024-01-01'
-description: A collection of APIs and resources for Google Looker Studio (formerly Google Data Studio), Google's free business intelligence and data visualization platform.
+description: 'Google Looker Studio — which Google''s own documentation now renders again as Data Studio — is Google''s self-service business intelligence and data visualization platform, free to build and view reports in, with a paid Pro tier sold per user per Google Cloud project. Three developer surfaces exist: a small REST management API at datastudio.googleapis.com for searching report and data-source assets and managing their sharing permissions, a Community Connector framework built on Google Apps Script, and a Community Visualization framework built on the @google/dscc browser library. The REST API is restricted to Google Workspace and Cloud Identity organizations and requires a Workspace admin to configure domain-wide delegation before any call succeeds.'
 finops:
 - name: Google Looker Studio Finops
   service_category: API
   slug: google-looker-studio-finops
 image: https://www.gstatic.com/analytics-suite/header/suite/v2/ic_data_studio.svg
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Google Looker Studio MCP Server
+  slug: google-looker-studio-mcp-server
+modified: '2026-09-12'
 name: Google Looker Studio
 nav: Providers
 network: true
 overview: 'Google Looker Studio publishes 1 API on the [APIs.io](https://apis.io/) network: Assets:search API. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Visualization, and Google.
 
 
-  Google Looker Studio''s developer surface includes authentication, getting-started guide, support, engineering blog, release notes, and 10 more developer resources.'
+  Google Looker Studio''s developer surface includes authentication, getting-started guide, support, engineering blog, release notes, documentation, API reference, and 37 more developer resources.'
 plans:
 - name: Google Looker Studio Plans Pricing
-  plan_count: 3
+  plan_count: 2
   slug: google-looker-studio-plans-pricing
 random_paper: 6
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Google Looker Studio Rate Limits
   slug: google-looker-studio-rate-limits
 scopes:
@@ -155,34 +275,37 @@ scopes:
   slug: google-looker-studio-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: thin
-  composite: 33.4
+  band: strong
+  composite: 55.5
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 31.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 84.0
+    artifact_dirs: 25
+    catalog_earned: 48.0
+    catalog_earned_first_party: 8.0
+    catalog_gap: 67.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 22.1
   facets:
-    access_clarity: 36.8
-    contract_governance: 0.0
+    access_clarity: 78.9
+    contract_governance: 18.2
     contract_quality: 51.7
-    developer_ergonomics: 14.3
-    discoverability: 48.1
-    operational_transparency: 42.1
+    developer_ergonomics: 47.0
+    discoverability: 83.3
+    operational_transparency: 52.6
   previous_composite: 33.4
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 1
-  schema_version: 0.21.0
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
@@ -197,6 +320,14 @@ security:
   name: Google Looker Studio Domain Security
   slug: google-looker-studio-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Google Looker Studio Vulnerability Disclosure
+  slug: google-looker-studio-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Google Looker Studio Trust Center
+  slug: google-looker-studio-trust-center
+  summary_line: source, service_row, evidence, named
 slug: google-looker-studio
 tags:
 - Analytics

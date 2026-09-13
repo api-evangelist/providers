@@ -26,14 +26,14 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 24.8
+  schema_version: '0.2'
+  score: 22.3
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 14
@@ -69,7 +69,98 @@ apis:
   description: The VirtualNetworks API from Azure Networking Services — 3 operation(s) for virtualnetworks.
   name: Azure Networking Services VirtualNetworks API
   slug: azure-networking-services-virtualnetworks-api
-artifact_total: 190
+- description: Distribute traffic across multiple virtual machines and services with Azure Load Balancer.
+  name: Azure Load Balancer API
+  slug: azure-load-balancer-api
+- description: Web traffic load balancer with application-level routing and SSL termination.
+  name: Azure Application Gateway API
+  slug: azure-application-gateway-api
+- description: Control network traffic to and from Azure resources with security rules.
+  name: Azure Network Security Groups API
+  slug: azure-network-security-groups-api
+- description: Establish secure cross-premises connectivity between Azure and on-premises networks.
+  name: Azure VPN Gateway API
+  slug: azure-vpn-gateway-api
+- description: DNS-based traffic load balancer for distributing traffic globally.
+  name: Azure Traffic Manager API
+  slug: azure-traffic-manager-api
+- description: Create private connections between Azure datacenters and on-premises infrastructure.
+  name: Azure ExpressRoute API
+  slug: azure-expressroute-api
+- description: Cloud-native network security service with built-in high availability.
+  name: Azure Firewall API
+  slug: azure-firewall-api
+- description: Host DNS zones and manage DNS records using the Azure DNS REST API. Supports creating, updating, and deleting public DNS zones and record sets for domain name resolution within Azure-managed infrastru
+  name: Azure DNS API
+  slug: azure-dns-api
+- description: Manage private DNS zones for name resolution within Azure virtual networks. Azure Private DNS provides a reliable and secure DNS service to manage and resolve domain names in a virtual network without
+  name: Azure Private DNS API
+  slug: azure-private-dns-api
+- description: Global load balancer and application delivery network that provides fast, reliable, and secure access to web applications. Azure Front Door offers layer 7 load balancing, SSL offload, URL-based routin
+  name: Azure Front Door API
+  slug: azure-front-door-api
+- description: Manage DDoS protection plans that provide enhanced DDoS mitigation capabilities for Azure Virtual Network resources. Azure DDoS Protection provides countermeasures against sophisticated DDoS threats w
+  name: Azure DDoS Protection API
+  slug: azure-ddos-protection-api
+- description: Monitor, diagnose, and gain insights into network performance and health in Azure. Network Watcher provides tools for packet capture, connection troubleshooting, NSG flow logs, and network topology vi
+  name: Azure Network Watcher API
+  slug: azure-network-watcher-api
+- description: Fully managed PaaS service that provides secure and seamless RDP and SSH connectivity to virtual machines directly through the Azure portal over TLS. Azure Bastion is deployed inside a virtual network
+  name: Azure Bastion API
+  slug: azure-bastion-api
+- description: Simplify outbound-only internet connectivity for virtual networks. When configured on a subnet, all outbound connectivity uses specified static public IP addresses. NAT Gateway provides on-demand SNAT
+  name: Azure NAT Gateway API
+  slug: azure-nat-gateway-api
+- description: Access Azure PaaS services and customer-owned services over a private endpoint in your virtual network. Azure Private Link eliminates data exposure to the public internet by keeping traffic on the Mic
+  name: Azure Private Link API
+  slug: azure-private-link-api
+- description: Networking service that provides optimized and automated branch-to-branch connectivity through Azure. Virtual WAN brings together networking, security, and routing functionalities into a single operat
+  name: Azure Virtual WAN API
+  slug: azure-virtual-wan-api
+- description: Cloud-native web application firewall service that provides centralized protection for web applications from common exploits and vulnerabilities. Azure WAF can be deployed with Application Gateway, Fr
+  name: Azure Web Application Firewall API
+  slug: azure-web-application-firewall-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing backend address pools that define the group of resources to receive load-balanced traffic.
+  name: Azure Networking Backend Address Pools API
+  slug: microsoft-azure-networking-backend-address-pools-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing health probes that monitor the health status of backend resources.
+  name: Azure Networking Load Balancer Probes API
+  slug: microsoft-azure-networking-load-balancer-probes-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for creating, updating, deleting, and listing Azure Load Balancer resources.
+  name: Azure Networking Load Balancers API
+  slug: microsoft-azure-networking-load-balancers-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing load balancing rules that define how traffic is distributed to backend pool members.
+  name: Azure Networking Load Balancing Rules API
+  slug: microsoft-azure-networking-load-balancing-rules-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations operations
+  name: Azure Networking Operations API
+  slug: microsoft-azure-networking-operations-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for managing subnets within a virtual network, including creation, configuration, and delegation.
+  name: Azure Networking Subnets API
+  slug: microsoft-azure-networking-subnets-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for creating and managing peering connections between virtual networks.
+  name: Azure Networking Virtual Network Peerings API
+  slug: microsoft-azure-networking-virtual-network-peerings-api
+- baseURL: https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/virtualNetworks
+  baseurl_source: declared
+  description: Operations for creating, updating, deleting, and listing Azure Virtual Networks within subscriptions and resource groups.
+  name: Azure Networking Virtual Networks API
+  slug: microsoft-azure-networking-virtual-networks-api
+artifact_total: 215
 collections:
 - collection_type: postman
   name: NetworkManagementClient LoadBalancers API
@@ -105,6 +196,86 @@ collections:
   name: NetworkManagementClient LoadBalancers VirtualNetworks API
   slug: open-azure-networking-services-virtualnetworks-api
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.microsoft.com/
+- group: operate
+  title: ''
+  type: IssueTracker
+  url: https://github.com/Azure/azure-rest-api-specs/issues
+- group: operate
+  title: ''
+  type: Releases
+  url: https://github.com/Azure/azure-rest-api-specs/releases
+- group: auth
+  title: ''
+  type: SecurityPolicy
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/SECURITY.md
+- group: build
+  title: ''
+  type: CodeOfConduct
+  url: https://github.com/Azure/.github/blob/main/CODE_OF_CONDUCT.md
+- group: docs
+  title: ''
+  type: ContributionGuide
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/.github/CONTRIBUTING.md
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/Azure/azure-rest-api-specs/blob/main/LICENSE
+- group: start
+  title: ''
+  type: X-portal
+  url: https://portal.azure.com
+- group: operate
+  title: ''
+  type: X-support
+  url: https://azure.microsoft.com/en-us/support/
+- group: operate
+  title: ''
+  type: X-status
+  url: https://status.azure.com/
+- group: company
+  title: ''
+  type: X-blog
+  url: https://azure.microsoft.com/en-us/blog/topics/networking/
+- group: commercial
+  title: ''
+  type: X-terms-of-service
+  url: https://azure.microsoft.com/en-us/support/legal/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://learn.microsoft.com/en-us/azure/developer/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Azure
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/Azure/azure-rest-api-specs
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/azure-virtual-network
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://azure.microsoft.com/en-us/updates/?query=networking
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/
+- group: start
+  title: ''
+  type: Signup
+  url: https://azure.microsoft.com/en-us/free/
+- group: start
+  title: ''
+  type: Login
+  url: https://portal.azure.com/#home
 - group: other
   title: ''
   type: CapabilityMap
@@ -693,13 +864,13 @@ modified: '2026-05-19'
 name: Azure Networking Services
 nav: Providers
 network: true
-overview: 'Azure Networking Services publishes 5 APIs on the [APIs.io](https://apis.io/) network, including LoadBalancers API, Subnets API, Subscriptions API, and 2 more. Tagged areas include Azure, Cloud, Infrastructure, Microsoft, and Networking.
+overview: 'Azure Networking Services publishes 13 APIs on the [APIs.io](https://apis.io/) network, including LoadBalancers API, Subnets API, Subscriptions API, and 10 more. Tagged areas include Azure, Cloud, Infrastructure, Microsoft, and Networking.
 
 
   The Azure Networking Services catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Networking Services'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 13 more developer resources.'
+  Azure Networking Services'' developer surface includes Stack Overflow tag, changelog, pricing, signup flow, authentication, developer portal, documentation, and 32 more developer resources.'
 plans:
 - name: Azure Networking Services Plans Pricing
   plan_count: 3
@@ -737,23 +908,23 @@ scopes:
   slug: azure-networking-services-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 47.5
+  band: strong
+  composite: 58.1
   coverage:
     artifact_dirs: 19
-    catalog_earned: 66.5
+    catalog_earned: 63.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
+    catalog_gap: 51.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 57.0
-    developer_ergonomics: 51.2
-    discoverability: 75.9
-    operational_transparency: 23.7
+    contract_quality: 57.8
+    developer_ergonomics: 58.3
+    discoverability: 77.8
+    operational_transparency: 55.3
   previous_composite: 47.5
   provenance:
     agentic_access: derived
@@ -761,10 +932,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
-  schema_version: 0.21.0
+      total: 12
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 22.2
@@ -785,5 +956,5 @@ tags:
 - Infrastructure
 - Microsoft
 - Networking
-website: https://portal.azure.com
+website: https://www.microsoft.com/
 ---

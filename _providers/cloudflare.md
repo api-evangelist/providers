@@ -34,7 +34,7 @@ agent_readiness:
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 49.6
   scored_at: '2026-09-12'
 agentic_access:
@@ -421,6 +421,9 @@ apis:
   description: The Zones API from Cloudflare — 265 operation(s) for zones.
   name: Cloudflare Zones API
   slug: cloudflare-zones-api
+- description: The canonical Cloudflare REST API at https://api.cloudflare.com/client/v4 covering account management, DNS and zones, SSL/TLS certificates, WAF and firewall rules, Workers and KV, R2 object storage, P
+  name: Cloudflare API (canonical)
+  slug: canonical
 arazzos:
 - description: Create a zone IP access rule, list the rules, then remove it.
   name: Cloudflare Block IP Access Rule
@@ -491,7 +494,7 @@ arazzos:
 - description: Find a DNS record by name and update it if present, otherwise create it.
   name: Cloudflare Upsert DNS Record
   slug: cloudflare-upsert-dns-record-workflow
-artifact_total: 518
+artifact_total: 519
 asyncapis:
 - description: Cloudflare Notifications sends webhook events to configured endpoints when various alerts fire across your account. Webhooks deliver JSON payloads for events including DDoS attacks, SSL certificate ex
   name: Cloudflare Notifications Webhooks
@@ -795,6 +798,14 @@ collections:
   name: Cloudflare / Accounts Zones API
   slug: open-cloudflare-zones-api
 common:
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.cloudflare.com/api/
+- group: other
+  title: ''
+  type: Canonical
+  url: https://github.com/api-evangelist/cloudflare
 - group: company
   title: ''
   type: Website
@@ -1998,7 +2009,7 @@ overview: 'Cloudflare publishes 57 APIs on the [APIs.io](https://apis.io/) netwo
   The Cloudflare catalog on APIs.io includes 2 event-driven AsyncAPI specifications, 17 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Cloudflare''s developer surface includes authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, changelog, and 90 more developer resources.'
+  Cloudflare''s developer surface includes API reference, authentication, developer portal, getting-started guide, engineering blog, signup flow, pricing, and 92 more developer resources.'
 plans:
 - name: Cloudflare Plans Pricing
   plan_count: 6
@@ -2068,7 +2079,7 @@ score:
       marker_coverage: 0.0
       total: 57
     mcp: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

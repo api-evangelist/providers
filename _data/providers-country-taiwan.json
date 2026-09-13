@@ -1,6 +1,6 @@
 {
- "total": 25,
- "shown": 25,
+ "total": 26,
+ "shown": 26,
  "limit": 1000,
  "bands": [
   {
@@ -28,7 +28,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -78,7 +78,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -139,7 +139,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -200,7 +200,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -250,7 +250,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -300,7 +300,7 @@
       "access_clarity": 59.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -333,9 +333,58 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
+    {
+     "name": "aetherAI",
+     "slug": "aetherai",
+     "description": "aetherAI (雲象科技, aetherAI Co., Ltd.) is a Taipei-based medical-imaging AI company and one of Asia's leading digital-pathology vendors. It builds regulated diagnostic software for hospitals, reference laboratories and pharmaceutical R&D: aetherSlide, an FDA-cleared (K233126), CE-marked and TFDA-approved whole-slide image management and viewing system; aetherWeb, a cloud digital pathology education platform; aetherAI Hema for bone-marrow smear differential counting; aetherAI Endo for real-time computer-aided polyp detection in colonoscopy; and aetherAI Ortho for whole-spine radiograph measurement. The company was founded in Taiwan, raised NT$765 million in Series B funding led by CDIB Capital, Quanta Computer, Taiwan Business Bank VC and Cathay Venture, listed on Taiwan's Emerging Stock Board in November 2024, holds ISO/IEC 27001 certification, and has filed for the Taiwan Innovation Board. aetherAI publishes no public developer API, no OpenAPI or other machine-readable contract, and no developer portal; its clinical software is sold and deployed through a direct enterprise motion and its application sits behind a customer login. The single publicly callable surface is a Wix-provided Site MCP endpoint on its own domain, which serves website content rather than any clinical product.",
+     "score": 22.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 31.6
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 32.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 8.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
     {
      "name": "hotcake 夯客",
      "slug": "hotcake",
@@ -353,7 +402,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -377,7 +426,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "National Cheng Kung University",
@@ -396,7 +445,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -427,7 +476,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "OEN",
@@ -446,7 +495,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -477,7 +526,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Sciket",
@@ -496,7 +545,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -520,7 +569,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     }
    ]
   },
@@ -549,7 +598,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -580,7 +629,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "TutorABC",
@@ -598,7 +647,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -629,7 +678,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "PopChill",
@@ -647,50 +696,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Fox-Tech",
-     "slug": "fox-tech",
-     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global and SparkLabs Taipei) that digitally transforms farming, logistics, cold-chain, and manufacturing operations. Its TempHawk platform pairs wireless temperature, humidity, CO2, light-intensity and soil-EC sensors over Sigfox LPWAN with web and mobile apps and cloud data analytics, helping the perishable-goods value chain monitor conditions, manage risk, and meet policy compliance. Recognized on the Forward Fooding FoodTech 500. No public API, developer portal, or SDK is currently published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/screenshots/fox-tech-2026-07-25T215055.png",
-     "score": 5.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -717,29 +723,23 @@
      "rank": 14
     },
     {
-     "name": "500net Technology Co., Ltd.",
-     "slug": "500nettechnologycoltd",
-     "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
-     "score": 5.0,
+     "name": "Fox-Tech",
+     "slug": "fox-tech",
+     "description": "FOX-TECH CO. is a New Taipei City, Taiwan IoT company (founded 2016, backed by 500 Global and SparkLabs Taipei) that digitally transforms farming, logistics, cold-chain, and manufacturing operations. Its TempHawk platform pairs wireless temperature, humidity, CO2, light-intensity and soil-EC sensors over Sigfox LPWAN with web and mobile apps and cloud data analytics, helping the perishable-goods value chain monitor conditions, manage risk, and meet policy compliance. Recognized on the Forward Fooding FoodTech 500. No public API, developer portal, or SDK is currently published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/screenshots/fox-tech-2026-07-25T215055.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -766,237 +766,22 @@
      "rank": 15
     },
     {
-     "name": "Bounty Hunter",
-     "slug": "bounty-hunter",
-     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
+     "name": "500net Technology Co., Ltd.",
+     "slug": "500nettechnologycoltd",
+     "description": "500net Technology Co., Ltd. (五百戶科技股份有限公司) is a Taipei-based systems integrator, founded in 2004, that combines telecommunications integration, electromechanical engineering, hardware design and custom software development into smart-building, smart-factory, smart-parking and AI+IoT platforms for enterprise clients. Its published solution set covers BA central-monitoring systems, smart property-management and parking operations, the 500net-EMS energy-management platform, carbon-footprint / ESG inventory reporting, digital twins, AMR robotics and AI/AOI inspection, integrated across heterogeneous controllers over RS-485/Modbus, wired, wireless and 4G/5G links. Work is delivered as project-based system integration for named enterprise customers; the company publishes a corporate site and an investor section but no public developer program, API reference, SDK or machine-readable contract.",
      "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Mutto Optronics",
-     "slug": "muttoinc",
-     "description": "Mutto Optronics (Mutto Inc) is a Taipei, Taiwan-based provider of resistive and capacitive touch panels for the mobile phone and tablet market. Formerly a Qiming Venture Partners portfolio company, it is now publicly held. It is a hardware/optronics manufacturer with no public API, developer program, or documented software surface. The registered domain (muttoinc.com) has lapsed and now resolves to a domain-parking and ad-monetization landing page across all hosts, so there is no first-party developer, docs, or API infrastructure to enrich.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/muttoinc/refs/heads/main/screenshots/muttoinc-2026-08-07T184453.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "TryTry (穿穿)",
-     "slug": "trytrytw",
-     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand (\"是妳，決定了這件衣服的表情\" — \"It's you who decides the expression of this dress\"), active around 2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated host) and no developer, API, or documentation surface exists.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trytrytw/refs/heads/main/screenshots/trytrytw-2026-09-02T164448.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "WeGrow asia CO., LTD.",
-     "slug": "wegrow-asia-co-ltd",
-     "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wegrow-asia-co-ltd/refs/heads/main/screenshots/wegrow-asia-co-ltd-2026-09-02T170556.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "ypxfood",
-     "slug": "ypxfood",
-     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in Taiwanese food and snacks, backed by Qiming Venture Partners, LionRock Capital, and Ignition Capital. It is a consumer restaurant and food business with no public developer or API surface; enrichment probes found the corporate website (Cloudflare-fronted, returning 403 to automated clients) and no documentation, OpenAPI, SDKs, or well-known discovery endpoints. This profile is retained as a network company record.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "XING Mobility",
-     "slug": "xing-mobility",
-     "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xing-mobility/refs/heads/main/screenshots/xing-mobility-2026-09-02T171152.png",
-     "score": 4.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -1027,7 +812,271 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 16
+    },
+    {
+     "name": "Bounty Hunter",
+     "slug": "bounty-hunter",
+     "description": "Bounty Hunter (獎金獵人) is Taiwan's largest creative-competition platform, founded in 2011 to help young creators discover and enter contests. It aggregates and curates design, illustration, photography, short-film, writing, music, business-planning, programming, and academic competitions from Taiwan and around the world for its several-hundred-thousand registered creator members. Through its Contest Builder (contest.bhuntr.com) and brand-services arm (desk.bhuntr.com) it also runs sponsored competitions for clients including Google, Microsoft, Lexus, McDonald's, and E.SUN. The company established a U.S. headquarters in 2014 and is backed by 500 Startups (500 Global) and Silicon Valley angel investors. It exposes no documented public developer API; api.bhuntr.com is an undocumented first-party backend.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bounty-hunter/refs/heads/main/screenshots/bounty-hunter-2026-07-25T203653.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "Mutto Optronics",
+     "slug": "muttoinc",
+     "description": "Mutto Optronics (Mutto Inc) is a Taipei, Taiwan-based provider of resistive and capacitive touch panels for the mobile phone and tablet market. Formerly a Qiming Venture Partners portfolio company, it is now publicly held. It is a hardware/optronics manufacturer with no public API, developer program, or documented software surface. The registered domain (muttoinc.com) has lapsed and now resolves to a domain-parking and ad-monetization landing page across all hosts, so there is no first-party developer, docs, or API infrastructure to enrich.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/muttoinc/refs/heads/main/screenshots/muttoinc-2026-08-07T184453.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "TryTry (穿穿)",
+     "slug": "trytrytw",
+     "description": "TryTry (穿穿, trytrytw.com) was a Taiwanese women's fashion e-commerce brand (\"是妳，決定了這件衣服的表情\" — \"It's you who decides the expression of this dress\"), active around 2015-2016 and surfaced as a Qiming portfolio company. The business appears defunct — as of 2026-07-21 trytrytw.com is domain-squatted (wildcard DNS to a parked Chinese web-design page, serving an expired TLS certificate issued for an unrelated host) and no developer, API, or documentation surface exists.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/trytrytw/refs/heads/main/screenshots/trytrytw-2026-09-02T164448.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "WeGrow asia CO., LTD.",
+     "slug": "wegrow-asia-co-ltd",
+     "description": "WeGrow asia CO., LTD. (威果) is a Taiwan-based agricultural technology company operating a franchise model for modern, technology-driven farming. It pairs 24-hour AI-assisted remote crop management with a transparent farmer profit-sharing model, specializing in high-value strawberries and cantaloupes while handling production, labor management, marketing, and logistics end to end (\"you provide the land, we provide the labor and expertise\"). WeGrow surfaced as a 500 Global portfolio company. As of this enrichment pass it publishes a bilingual (TW/EN) marketing website only and exposes no public API, developer portal, documentation, or /.well-known discovery surface — every probed developer and well-known path returned HTTP 404.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wegrow-asia-co-ltd/refs/heads/main/screenshots/wegrow-asia-co-ltd-2026-09-02T170556.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "ypxfood",
+     "slug": "ypxfood",
+     "description": "ypxfood (YPX Cayman) is a Taiwanese quick-service restaurant company specializing in Taiwanese food and snacks, backed by Qiming Venture Partners, LionRock Capital, and Ignition Capital. It is a consumer restaurant and food business with no public developer or API surface; enrichment probes found the corporate website (Cloudflare-fronted, returning 403 to automated clients) and no documentation, OpenAPI, SDKs, or well-known discovery endpoints. This profile is retained as a network company record.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 21
+    },
+    {
+     "name": "XING Mobility",
+     "slug": "xing-mobility",
+     "description": "XING Mobility (行競科技) is a Taiwan-based battery technology company building immersion-cooled lithium battery systems under the IMMERSIO brand, including cell-to-pack (CTP) battery platforms, battery backup units (BBU) for AI data centers, and the automotive-grade XBE energy storage series, serving electric mobility, energy storage (ESS), marine, and data center markets from its Taoyuan City headquarters. A 500 Global portfolio company, XING Mobility publishes no public developer API or API documentation as of July 2026.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xing-mobility/refs/heads/main/screenshots/xing-mobility-2026-09-02T171152.png",
+     "score": 4.4,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 8.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
     },
     {
      "name": "Elixiron Immunotherapeutics",
@@ -1046,7 +1095,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1077,7 +1126,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Tripplus",
@@ -1095,7 +1144,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1126,7 +1175,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "National Taiwan University",
@@ -1145,7 +1194,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1176,7 +1225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     }
    ]
   },
@@ -1192,7 +1241,7 @@
      "name": "Additive Intelligence",
      "slug": "additiveintelligencea7d2",
      "description": "Additive Intelligence was a Taipei, Taiwan startup applying machine learning to metal additive manufacturing. Its focus was the deformation and shrinkage that occurs when metal 3D printed parts are sintered — the expensive trial-and-error step that keeps metal AM from being fast, scalable and cost-competitive — and it paired hardware with software, holding provisional patents on a machine learning method, a proprietary infill topology, and a method for varying the density of infilled sections. The company was selected by Taiwan Tech Arena as one of 100 startups showcased at CES 2021, and its LinkedIn page carries the slogan \"Additive manufacturing, exponential progress.\" No first-party surface survives: the website the company itself declares on LinkedIn, www.additiveintelligence.com, holds an active registration on Google Cloud DNS but publishes no A record, so no host — apex, www, api or docs — can be connected to at all. There is no developer portal, GitHub organization, published package, or API of any kind.",
-     "rank": 25
+     "rank": 26
     }
    ]
   }

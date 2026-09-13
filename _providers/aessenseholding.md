@@ -1,6 +1,76 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.aessensegrows.com/en/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.aessensegrows.com/en/contact-us-cultivation
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.aessensegrows.com/en/resources/plant-science-test-kitchen-blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.aessensegrows.com/en/corporate/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.aessensegrows.com/en/corporate/privacy
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aessenseholding-domain-security.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/aessenseholding-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/aessenseholding-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aessenseholding-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aessenseholding-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aessenseholding-llms.txt
 coverage:
   checked: '2026-09-12'
   detail: AEssenseGrows sells aeroponic SmartFarm hardware whose Guardian Grow Manager control software ships bundled with the machines as an operator web application reached by demo request — there is no developer portal, no API reference and no GitHub organization, the public Technical Document Library is product brochures and UL/CE datasheets in PDF, and the one regulated machine interface the company is on record as touching (California Metrc seed-to-sale) is one Guardian consumes, not one it publishes.
@@ -28,7 +98,49 @@ modified: '2026-09-12'
 name: AEssenseGrows
 nav: Providers
 network: true
+overview: 'AEssenseGrows is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Aeroponics, and Hydroponics.
+
+
+  AEssenseGrows'' developer surface includes support, engineering blog, and 9 more developer resources.'
+plans:
+- name: Aessenseholding Plans Pricing
+  plan_count: 0
+  slug: aessenseholding-plans-pricing
 random_paper: 0
+rate_limits:
+- limit_count: 0
+  name: Aessenseholding Rate Limits
+  slug: aessenseholding-rate-limits
+score:
+  band: emerging
+  composite: 12.8
+  coverage:
+    artifact_dirs: 7
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 0.0
+    developer_ergonomics: 7.1
+    discoverability: 50.0
+    operational_transparency: 0.0
+  provenance:
+    conformance: first-party
+  schema_version: 0.22.0
+  scored_at: '2026-09-12'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Aessenseholding Domain Security
+  slug: aessenseholding-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: aessenseholding
 tags:
 - Company
@@ -45,4 +157,5 @@ tags:
 - Cannabis
 - Hardware
 - Manufacturing
+website: https://www.aessensegrows.com/en/
 ---

@@ -28,7 +28,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -78,7 +78,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -121,7 +121,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -174,7 +174,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -217,7 +217,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -260,7 +260,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -303,7 +303,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -346,7 +346,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -400,7 +400,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -443,7 +443,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -486,7 +486,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -529,7 +529,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -572,7 +572,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

@@ -31,7 +31,7 @@ agent_readiness:
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 22.9
   scored_at: '2026-09-12'
 agentic_access:
@@ -116,7 +116,7 @@ common:
 - group: company
   title: ''
   type: Website
-  url: https://www.google.com/
+  url: https://tenor.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -256,7 +256,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 8
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -280,5 +280,5 @@ tags:
 - Search
 - Media
 - Google
-website: https://www.google.com/
+website: https://tenor.com/
 ---

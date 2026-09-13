@@ -24,15 +24,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 17.3
+  schema_version: '0.2'
+  score: 20.7
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 6
@@ -71,7 +71,17 @@ apis:
   description: Model and deployment metadata
   name: Microsoft Azure AI Foundry Models API
   slug: azure-ai-foundry-models-api
-artifact_total: 18
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Operations operations
+  name: Microsoft Azure AI Foundry Operations API
+  slug: microsoft-azure-ai-foundry-operations-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Workspaces operations
+  name: Microsoft Azure AI Foundry Workspaces API
+  slug: microsoft-azure-ai-foundry-workspaces-api
+artifact_total: 21
 collections:
 - collection_type: open
   name: API Collection
@@ -95,6 +105,30 @@ collections:
   name: Azure AI Foundry Model Inference REST API
   slug: open-azure-ai-foundry
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.azure.com/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/Azure/ai-foundry-isv-mcp-agent
 - group: agent
   title: ''
   type: AgenticAccess
@@ -147,14 +181,18 @@ created: '2026-05-11'
 description: Microsoft Azure AI Foundry (formerly Azure AI Studio) is an end-to-end platform for building, optimizing, evaluating, and governing AI applications and agents at scale. It provides access to Foundry Models (including Azure OpenAI and open-source models), the Foundry Agent Service, content safety, observability, and responsible AI tooling. The Foundry REST APIs and Azure SDKs use Microsoft Entra ID OAuth 2.0 bearer tokens or API keys for authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/azure-ai-foundry.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Microsoft Azure AI Foundry MCP Server
+  slug: microsoft-azure-ai-foundry-mcp-server
 modified: '2026-05-11'
 name: Microsoft Azure AI Foundry
 nav: Providers
 network: true
-overview: 'Microsoft Azure AI Foundry publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 2 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine-Learning.
+overview: 'Microsoft Azure AI Foundry publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Chat Completions API, Completions API, Embeddings API, and 4 more. Tagged areas include Artificial Intelligence, Generative AI, AI Agents, Foundation Models, and Machine-Learning.
 
 
-  Microsoft Azure AI Foundry''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
+  Microsoft Azure AI Foundry''s developer surface includes developer portal, support, authentication, documentation, pricing, signup flow, engineering blog, and 11 more developer resources.'
 random_paper: 1
 scopes:
 - name: Azure Ai Foundry Scopes
@@ -162,8 +200,8 @@ scopes:
   slug: azure-ai-foundry-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: thin
-  composite: 31.2
+  band: developing
+  composite: 44.2
   coverage:
     artifact_dirs: 9
     catalog_earned: 37.0
@@ -171,14 +209,14 @@ score:
     catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.0
   facets:
-    access_clarity: 23.7
+    access_clarity: 44.7
     contract_governance: 0.0
-    contract_quality: 50.3
-    developer_ergonomics: 33.3
-    discoverability: 75.9
-    operational_transparency: 2.6
+    contract_quality: 50.0
+    developer_ergonomics: 52.4
+    discoverability: 83.3
+    operational_transparency: 18.4
   previous_composite: 31.2
   provenance:
     agentic_access: derived
@@ -186,13 +224,13 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 5
-  schema_version: 0.21.0
+      total: 7
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/screenshots/azure-ai-foundry-2026-06-20T172847.png
 security:
 - kind: authentication

@@ -11,10 +11,10 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -25,15 +25,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 27.3
+  schema_version: '0.2'
+  score: 34.4
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 6
@@ -86,7 +86,16 @@ apis:
   description: Operations on the entity definition entity set. Provides metadata about Dataverse tables (entities) including their logical names, collection names, and structural information. Read-only access via Re
   name: Microsoft Power Apps Entities API
   slug: microsoft-power-apps-entities-api
-artifact_total: 73
+- description: APIs for building custom components using the Power Apps Component Framework (PCF).
+  name: Power Apps Component Framework API
+  slug: power-apps-component-framework-api
+- description: Client API reference for model-driven apps providing JavaScript libraries for form scripting, UI manipulation, data access, and the Xrm object model including Xrm.WebApi for data operations.
+  name: Model-Driven Apps Client API
+  slug: model-driven-apps-client-api
+- description: Custom connectors allow you to create wrappers around REST or SOAP APIs for use in Power Apps, Power Automate, Logic Apps, and Copilot Studio, enabling integration with services not available as prebu
+  name: Custom Connectors API
+  slug: custom-connectors-api
+artifact_total: 77
 collections:
 - collection_type: postman
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts API
@@ -113,6 +122,46 @@ collections:
   name: Microsoft Power Apps Microsoft Dataverse Web Accounts Entities API
   slug: open-microsoft-power-apps-entities-api
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://make.powerapps.com
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft/PowerApps-Samples
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/power-platform/developer/get-started
+- group: other
+  title: ''
+  type: Resources
+  url: https://learn.microsoft.com/en-us/power-platform/alm/overview-alm
+- group: other
+  title: ''
+  type: Resources
+  url: https://learn.microsoft.com/en-us/power-apps/developer/data-platform/developer-tools
+- group: other
+  title: ''
+  type: Resources
+  url: https://learn.microsoft.com/en-us/power-platform/alm/devops-github-actions
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://learn.microsoft.com/en-us/power-platform/admin/programmability-whats-new-changed
+- group: other
+  title: ''
+  type: Resources
+  url: https://learn.microsoft.com/en-us/connectors/connector-reference/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/microsoft/powerbi-modeling-mcp
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://github.com/microsoft/power-platform-skills
 - group: company
   title: ''
   type: Website
@@ -342,6 +391,10 @@ jsonld:
   property_count: 0
   slug: microsoft-power-apps-dataverse-web-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Microsoft Power Apps MCP Server
+  slug: microsoft-power-apps-mcp-server
 modified: '2026-05-19'
 name: Microsoft Power Apps
 nav: Providers
@@ -352,7 +405,7 @@ overview: 'Microsoft Power Apps publishes 3 APIs on the [APIs.io](https://apis.i
   The Microsoft Power Apps catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Apps'' developer surface includes authentication, engineering blog, pricing, support, training material, documentation, CLI, and 19 more developer resources.'
+  Microsoft Power Apps'' developer surface includes developer portal, getting-started guide, changelog, authentication, engineering blog, pricing, support, and 29 more developer resources.'
 plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 6
@@ -391,7 +444,7 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 58.3
+  composite: 61.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 56.5
@@ -399,13 +452,13 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.8
   facets:
     access_clarity: 36.8
     contract_governance: 13.6
-    contract_quality: 68.2
-    developer_ergonomics: 70.2
-    discoverability: 59.3
+    contract_quality: 70.9
+    developer_ergonomics: 77.4
+    discoverability: 66.7
     operational_transparency: 47.4
   previous_composite: 58.3
   provenance:
@@ -421,7 +474,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 64.9
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

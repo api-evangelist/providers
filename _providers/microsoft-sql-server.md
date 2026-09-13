@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 27.4
   scored_at: '2026-09-12'
 agentic_access:
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 12
   slug: microsoft-sql-server-agentic-access
   summary_line: 12 operations · 7 acting
-api_count: 14
+api_count: 32
 apis:
 - description: .NET API for managing and administering SQL Server programmatically.
   name: SQL Server Management Objects (SMO) API
@@ -92,7 +92,61 @@ apis:
   description: The Data API Builder API from Microsoft SQL Server — 2 operation(s) for data api builder.
   name: Microsoft SQL Server Data API Builder API
   slug: microsoft-sql-server-data-api-builder-api
-artifact_total: 29
+- description: Native database engine APIs for connecting and executing queries against SQL Server.
+  name: SQL Server Database Engine API
+  slug: sql-server-database-engine-api
+- description: .NET API for programmatically managing SQL Server instances and databases.
+  name: SQL Server Management Objects (SMO)
+  slug: sql-server-management-objects-smo
+- description: REST API for managing and accessing SQL Server Reporting Services.
+  name: SQL Server Reporting Services (SSRS) API
+  slug: sql-server-reporting-services-ssrs-api
+- description: ODBC driver API for connecting applications to SQL Server.
+  name: ODBC Driver for SQL Server
+  slug: odbc-driver-for-sql-server
+- description: JDBC driver for connecting Java applications to SQL Server.
+  name: JDBC Driver for SQL Server
+  slug: jdbc-driver-for-sql-server
+- description: APIs for managing and querying SQL Server Analysis Services.
+  name: SQL Server Analysis Services (SSAS) API
+  slug: sql-server-analysis-services-ssas-api
+- description: Native T-SQL stored procedure sp_invoke_external_rest_endpoint for calling external HTTPS REST endpoints directly from SQL Server 2025 and Azure SQL.
+  name: SQL Server External REST Endpoint Invocation
+  slug: sql-server-external-rest-endpoint-invocation
+- description: Open-source tool that generates REST and GraphQL endpoints for SQL Server and Azure SQL databases from configuration, without writing custom API code.
+  name: Data API Builder for SQL Server
+  slug: data-api-builder-for-sql-server
+- description: The official .NET data provider for Microsoft SQL Server and Azure SQL databases, providing ADO.NET access to SQL Server.
+  name: ADO.NET Provider for SQL Server (Microsoft.Data.SqlClient)
+  slug: adonet-provider-for-sql-server-microsoftdatasqlclient
+- description: Stand-alone OLE DB data access API for connecting applications to SQL Server.
+  name: OLE DB Driver for SQL Server
+  slug: ole-db-driver-for-sql-server
+- description: Programmable object model for building, managing, and executing ETL data integration packages in SQL Server.
+  name: SQL Server Integration Services (SSIS) API
+  slug: sql-server-integration-services-ssis-api
+- description: Node.js driver (tedious/mssql) for connecting JavaScript and TypeScript applications to SQL Server and Azure SQL Database.
+  name: Node.js Driver for SQL Server
+  slug: nodejs-driver-for-sql-server
+- description: Python drivers for connecting to SQL Server including the first-party mssql-python driver, pyodbc, and pymssql.
+  name: Python Drivers for SQL Server
+  slug: python-drivers-for-sql-server
+- description: Microsoft Go driver (go-mssqldb) for connecting Go applications to SQL Server and Azure SQL Database using the TDS protocol.
+  name: Go Driver for SQL Server
+  slug: go-driver-for-sql-server
+- description: Microsoft Drivers for PHP for SQL Server providing SQLSRV and PDO_SQLSRV extensions for connecting PHP applications to SQL Server.
+  name: PHP Drivers for SQL Server
+  slug: php-drivers-for-sql-server
+- description: Ruby driver (TinyTDS) for connecting Ruby applications to SQL Server using FreeTDS DB-Library bindings.
+  name: Ruby Driver for SQL Server
+  slug: ruby-driver-for-sql-server
+- description: Entity Framework Core database provider enabling .NET object-relational mapping with SQL Server and Azure SQL databases.
+  name: Entity Framework Core SQL Server Provider
+  slug: entity-framework-core-sql-server-provider
+- description: PowerShell cmdlets for managing SQL Server instances, databases, and resources from the command line.
+  name: SQL Server PowerShell Module
+  slug: sql-server-powershell-module
+artifact_total: 48
 collections:
 - collection_type: open
   name: API Collection
@@ -110,6 +164,78 @@ collections:
   name: Microsoft SQL Server - Azure SQL & Data API Builder HTTP APIs
   slug: open-microsoft-sql-server
 common:
+- group: build
+  title: ''
+  type: Packages
+  url: packages/microsoft-sql-server-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/microsoft-sql-server-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/microsoft-sql-server-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/microsoft-sql-server-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/microsoft-sql-server-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/microsoft-sql-server-lifecycle.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/microsoft-sql-server-cli.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/microsoft-sql-server-conventions.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/microsoft-sql-server-trust-center.yml
+- group: other
+  title: ''
+  type: Download
+  url: https://www.microsoft.com/en-us/sql-server/sql-server-downloads
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://azure.microsoft.com/en-us/status/
+- group: other
+  title: ''
+  type: Drivers
+  url: https://learn.microsoft.com/en-us/sql/connect/sql-connection-libraries
+- group: learn
+  title: ''
+  type: Learning
+  url: https://learn.microsoft.com/en-us/sql/sql-server/educational-sql-resources
+- group: auth
+  title: ''
+  type: Certification
+  url: https://learn.microsoft.com/en-us/credentials/certifications/azure-database-administrator-associate/
+- group: build
+  title: ''
+  type: GitHubRepository
+  url: https://github.com/Azure/azure-rest-api-specs/tree/main/specification/sql
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
 - group: company
   title: ''
   type: Website
@@ -245,7 +371,7 @@ network: true
 overview: 'Microsoft SQL Server publishes 3 APIs on the [APIs.io](https://apis.io/) network: Azure SQL Databases API, Azure SQL Servers API, and Data API Builder API. Tagged areas include Cloud, Data Management, Database, Enterprise, and Relational Database.
 
 
-  Microsoft SQL Server''s developer surface includes authentication, getting-started guide, pricing, support, engineering blog, training material, release notes, and 21 more developer resources.'
+  Microsoft SQL Server''s developer surface includes CLI, developer portal, authentication, getting-started guide, pricing, support, engineering blog, and 39 more developer resources.'
 plans:
 - name: Microsoft Sql Server Plans Pricing
   plan_count: 3
@@ -261,37 +387,38 @@ scopes:
   slug: microsoft-sql-server-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 49.0
+  band: strong
+  composite: 59.6
   coverage:
-    artifact_dirs: 12
+    artifact_dirs: 19
     catalog_earned: 39.0
     catalog_earned_first_party: 0.0
     catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.6
   facets:
-    access_clarity: 26.3
-    contract_governance: 0.0
+    access_clarity: 55.3
+    contract_governance: 4.5
     contract_quality: 51.9
-    developer_ergonomics: 61.9
+    developer_ergonomics: 78.6
     discoverability: 63.0
-    operational_transparency: 36.8
+    operational_transparency: 52.6
   open_source:
     applies: true
     score: 100.0
   previous_composite: 49.0
   provenance:
     agentic_access: derived
+    conformance: derived
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 22.2
@@ -309,6 +436,10 @@ security:
   name: Microsoft Sql Server Vulnerability Disclosure
   slug: microsoft-sql-server-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Microsoft Sql Server Trust Center
+  slug: microsoft-sql-server-trust-center
+  summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA / HITRUST, FedRAMP, GDPR, CSA STAR
 slug: microsoft-sql-server
 tags:
 - Cloud

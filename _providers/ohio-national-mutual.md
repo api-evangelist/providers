@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -78,10 +78,10 @@ description: Ohio National Financial Services was a Cincinnati-based mutual life
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ohio-national-mutual.png
 layout: provider
 modified: '2026-05-23'
-name: Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar)
+name: Ohio National
 nav: Providers
 network: true
-overview: Ohio National (Acquired by Constellation Insurance / Rebranded as AuguStar) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Annuities, Demutualization, Financial-Services, and Indexed Life.
+overview: Ohio National is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Annuities, Demutualization, Financial-Services, and Indexed Life.
 random_paper: 2
 score:
   band: minimal
@@ -113,7 +113,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 9.1
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

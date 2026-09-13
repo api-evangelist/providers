@@ -10,79 +10,222 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    delegated_identity: served
+    dry_run_mode: na
+    dynamic_client_registration: true
+    error_semantics: verified
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
+    openapi_examples: verified
+    protected_resource_metadata: verified
     rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 11.2
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 66.5
   scored_at: '2026-09-12'
-api_count: 1
+api_count: 3
 apis:
-- description: 'The APILayer Marketplace API provides access to 100+ APIs across geolocation, currency, weather, dev tools, marketing, finance, security, and AI/ML categories. Individual APIs include IPstack, Fixer, '
+- description: The APILayer marketplace gateway at api.apilayer.com fronts the third-party APIs listed on marketplace.apilayer.com (Bank Data, Tax Data and others) behind a single subscription. Authentication here i
   name: APILayer Marketplace API
   slug: apilayer-api
-artifact_total: 32
+- baseURL: https://api.exchangerate.host
+  baseurl_source: declared
+  description: Real-time and historical foreign exchange rates for 168 world currencies, with live quotes, single-day historical rates, date-range time frames, change queries and currency conversion. Five GET endpoi
+  name: ExchangeRate.host API
+  slug: exchangerate-host-api
+- baseURL: https://api.exchangeratesapi.io/v1
+  baseurl_source: declared
+  description: 'Foreign exchange rate data for 170 world currencies drawn from 15+ sources: latest rates, single-date historical rates, time series, fluctuation between two dates, currency conversion and a supported-'
+  name: Exchange Rates API
+  slug: exchange-rates-api
+- baseURL: https://api.ipapi.com/api
+  baseurl_source: declared
+  description: Real-time IP to geolocation lookup returning location, connection, timezone, currency and optional threat-assessment data for an IPv4 or IPv6 address, plus a /check endpoint that resolves the caller's
+  name: ipapi
+  slug: ipapi
+artifact_total: 38
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/apilayer-domain-security.yml
-- group: build
-  title: ''
-  type: GitHubOrganization
-  url: https://github.com/apilayer
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/apilayer
 - group: company
   title: ''
   type: Website
   url: https://apilayer.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://apilayer.com/developers/
 - group: docs
   title: ''
   type: Documentation
-  url: https://apilayer.com/
-- group: commercial
+  url: https://docs.apilayer.com/apilayer/docs/api-layer-hub
+- group: docs
   title: ''
-  type: Pricing
-  url: https://apilayer.com/pricing
+  type: APIReference
+  url: https://docs.apilayer.com/
 - group: start
   title: ''
-  type: Signup
-  url: https://apilayer.com/signup
+  type: GettingStarted
+  url: https://apilayer.com/developers/suite/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://app.apilayer.com/signup
 - group: start
   title: ''
   type: Login
-  url: https://apilayer.com/login
+  url: https://app.apilayer.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://apilayer.com/support/
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://apilayer.com/contact-us/
+- group: operate
+  title: ''
+  type: Community
+  url: https://discord.com/invite/hgjA78638n
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://apilayer.com/faqs/
 - group: company
   title: ''
   type: Blog
   url: https://blog.apilayer.com/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://blog.apilayer.com/feed/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/apilayer
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/apilayer
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/apilayer
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ideracorp.com/legal/APILayer
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ideracorp.com/en/legal/privacypolicy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/apilayer-llms.txt
 - group: agent
   title: ''
   type: LlmsText
   url: https://apilayer.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/apilayer-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/apilayer-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/apilayer-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/apilayer-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/apilayer-tool-crosswalk.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/apilayer-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/apilayer-scopes.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/apilayer-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/apilayer-error-codes.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/apilayer-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/apilayer-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/apilayer-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/apilayer-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/apilayer-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/apilayer-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/apilayer-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/apilayer-finops.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/apilayer-vocabulary.yaml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/apilayer-jsonschema-spectral-rules.yml
+- group: build
+  title: ''
+  type: Examples
+  url: examples/apilayer-api-example.json
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/apilayer-domain-security.yml
 created: '2025-03-01'
-description: APILayer is an API marketplace and hub that enables developers to discover, integrate, and build with high-quality, reliable API services. The platform hosts 100+ APIs across categories including geolocation, currency, weather, dev tools, marketing, finance, security, and AI/ML, serving 445,000+ developers with 30 million+ API calls monthly.
+description: APILayer is an API marketplace and hub, an Idera, Inc. brand headquartered in Vienna, Austria, that publishes and operates a portfolio of self-service REST data APIs alongside a gateway marketplace of third-party APIs. The house products cover IP geolocation (IPstack, ipapi), foreign exchange (Fixer, Currencylayer, ExchangeRate.host, Exchange Rates API), weather (Weatherstack), market data (Marketstack), news (Mediastack), aviation (Aviationstack), scraping and SERP (Scrapestack, Serpstack), and validation utilities (Numverify, Mailboxlayer, Vatlayer, Userstack, Countrylayer, Positionstack, Pdflayer, Screenshotlayer). One account and one dashboard cover every product, each product is keyed and billed separately, and every API has a free plan. APILayer publishes 22 OpenAPI documents from its own SwaggerHub organization, an llms.txt, and an OAuth-protected hosted MCP server.
 examples:
 - key_count: 9
   name: Apilayer Api Example
@@ -134,24 +277,28 @@ jsonld:
   property_count: 1
   slug: apilayer-context
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: APILayer MCP Server
+  slug: apilayer-mcp-server
+modified: '2026-09-12'
 name: APILayer
 nav: Providers
 network: true
-overview: 'APILayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Catalog, API Discovery, API Marketplace, Developer Tools, and SaaS APIs.
+overview: 'APILayer publishes 3 APIs on the [APIs.io](https://apis.io/) network: ExchangeRate.host API, Exchange Rates API, and ipapi. Tagged areas include API Marketplace, API Catalog, API Discovery, Developer Tools, and SaaS APIs.
 
 
   The APILayer catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  APILayer''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
+  APILayer''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, FAQ, engineering blog, and 35 more developer resources.'
 plans:
 - name: Apilayer Plans Pricing
-  plan_count: 3
+  plan_count: 15
   slug: apilayer-plans-pricing
 random_paper: 15
 rate_limits:
-- limit_count: 5
+- limit_count: 8
   name: Apilayer Rate Limits
   slug: apilayer-rate-limits
 rules:
@@ -165,36 +312,52 @@ rules:
     info: 2
     warn: 3
   slug: apilayer-jsonschema-spectral-rules
+scopes:
+- name: Apilayer Scopes
+  scope_count: 0
+  slug: apilayer-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 21.4
+  band: strong
+  composite: 65.4
   coverage:
-    artifact_dirs: 14
-    catalog_earned: 63.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 51.8
+    artifact_dirs: 27
+    catalog_earned: 89.3
+    catalog_earned_first_party: 24.0
+    catalog_gap: 25.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 44.0
   facets:
-    access_clarity: 22.4
-    contract_governance: 9.8
-    contract_quality: 18.7
-    developer_ergonomics: 10.7
-    discoverability: 75.9
-    operational_transparency: 10.5
+    access_clarity: 67.1
+    contract_governance: 43.2
+    contract_quality: 64.6
+    developer_ergonomics: 69.6
+    discoverability: 81.5
+    operational_transparency: 65.8
   previous_composite: 21.4
   provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 3
     mcp: first-party
-  schema_version: 0.21.0
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/apilayer/refs/heads/main/screenshots/apilayer-2026-06-20T172242.png
 security:
+- kind: authentication
+  name: Apilayer Authentication
+  slug: apilayer-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Apilayer Domain Security
   slug: apilayer-domain-security
@@ -210,11 +373,14 @@ solutions:
 - description: Custom volume and SLA guarantees for enterprise-scale API consumption.
   name: Enterprise Plan
 tags:
+- API Marketplace
 - API Catalog
 - API Discovery
-- API Marketplace
 - Developer Tools
 - SaaS APIs
+- Geolocation
+- Currency
+- Data APIs
 use_cases:
 - description: Determine user location, timezone, and geographic data from IP addresses using IPstack or IPapi.
   name: IP Geolocation

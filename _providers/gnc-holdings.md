@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -40,38 +40,46 @@ common:
   title: ''
   type: DomainSecurity
   url: security/gnc-holdings-domain-security.yml
-- group: company
+- group: agent
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/gnc
+  type: LLMsTxt
+  url: llms/gnc-holdings-llms.txt
 - group: company
   title: ''
   type: Website
   url: https://www.gnc.com/
-- group: other
+- group: company
   title: ''
-  type: Holdings
-  url: https://www.gnc-holdings.com/
-- group: other
+  type: About
+  url: https://www.gnc.com/about-gnc/about-us.html
+- group: operate
   title: ''
-  type: Customers
-  url: https://www.gnc.com/customer-service.html
+  type: Support
+  url: https://www.gnc.com/help-center.html
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.gnc.com/learn
+- group: operate
+  title: ''
+  type: Press Releases
+  url: https://www.gnc.com/learn/newsroom
 - group: other
   title: ''
   type: Stores
-  url: https://www.gnc.com/stores/
+  url: https://stores.gnc.com/
 - group: company
   title: ''
   type: Careers
-  url: https://www.gnc.com/careers.html
+  url: https://myjobs.adp.com/gnc/cx
 - group: other
   title: ''
   type: Affiliate
-  url: https://www.gnc.com/affiliate-program/
+  url: https://www.gnc.com/affiliate.html
 - group: other
   title: ''
   type: Franchise
-  url: https://www.gnc.com/franchise/
+  url: https://gncfranchising.com/
 - group: commercial
   title: ''
   type: PrivacyPolicy
@@ -79,11 +87,11 @@ common:
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.gnc.com/terms-and-conditions.html
-- group: operate
+  url: https://www.gnc.com/help/safety-security-privacy.html
+- group: company
   title: ''
-  type: Press Releases
-  url: https://www.gnc-holdings.com/news/
+  type: LinkedIn
+  url: https://www.linkedin.com/company/gnc
 coverage:
   checked: '2026-09-12'
   detail: GNC is a physical-goods supplement retailer with no developer surface of any kind — api.gnc.com and developer.gnc.com do not resolve, none of the 3,819 URLs in its own sitemap is a developer or API page, and every /.well-known/ path plus /apis.json, /openapi.json and /llms.txt returns 404 on www.gnc.com, stores.gnc.com and gncfranchising.com; its storefront runs on Salesforce Commerce Cloud and its store locator on Yext, but neither vendor contract is published by GNC.
@@ -104,11 +112,14 @@ created: '2026-03-24'
 description: GNC Holdings, LLC (General Nutrition Centers) is an American specialty retailer of health, wellness, and performance products including vitamins, minerals, herbal supplements, sports nutrition, diet, and energy products. Founded in 1935 and headquartered in Pittsburgh, Pennsylvania, GNC is a wholly owned subsidiary of Harbin Pharmaceutical Group following its 2020 acquisition. The company operates owned and franchised retail locations, online stores, and retail partnerships across approximately 50 countries.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gnc-holdings.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: GNC Holdings
 nav: Providers
 network: true
-overview: GNC Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Diet, Health, Nutrition, Retail, and Sports Nutrition.
+overview: 'GNC Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Diet, Health, Nutrition, Retail, and Sports Nutrition.
+
+
+  GNC Holdings'' developer surface includes support, engineering blog, and 12 more developer resources.'
 press:
 - date: '2026-05-25'
   title: GNC Becomes First Major Retailer to Launch GLP-1 ...
@@ -128,21 +139,21 @@ press:
 random_paper: 16
 score:
   band: minimal
-  composite: 6.2
+  composite: 8.3
   coverage:
-    artifact_dirs: 5
+    artifact_dirs: 7
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
     access_clarity: 10.5
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    developer_ergonomics: 7.1
+    discoverability: 57.4
     operational_transparency: 0.0
   jurisdiction:
     basis: provider tags (build_countries.py / build_regions.py)
@@ -156,7 +167,7 @@ score:
     regime: Health
     regime_id: health
     score: 12.5
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

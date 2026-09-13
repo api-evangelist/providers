@@ -1,6 +1,76 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aevrobotics-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aevrobotics-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aevrobotics-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aevrobotics-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.appliedev.com/
+- group: company
+  title: ''
+  type: About
+  url: https://www.appliedev.com/about
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.appliedev.com/news
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.appliedev.com/privacy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.appliedev.com/terms
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://linkedin.com/company/applied-ev
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/appliedev
 coverage:
   checked: '2026-09-12'
   detail: Applied EV markets six named IoV Cloud Platform vehicle APIs on https://www.appliedev.com/cloud but serves no public reference for any of them; its developer portal at developer.appliedev.com and its identity host sso.appliedev.com exist in Certificate Transparency and resolve in DNS to 3.105.246.26, yet both origins silently drop public TCP connections on 443 and 80, so the contract is reachable only from a customer tenant or an allowlisted network.
@@ -24,7 +94,47 @@ modified: '2026-09-12'
 name: Applied EV
 nav: Providers
 network: true
+overview: 'Applied EV is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Autonomous Vehicles, Electric Vehicles, and Software Defined Vehicles.
+
+
+  Applied EV''s developer surface includes engineering blog and 10 more developer resources.'
+plans:
+- name: Aevrobotics Plans Pricing
+  plan_count: 0
+  slug: aevrobotics-plans-pricing
 random_paper: 9
+rate_limits:
+- limit_count: 0
+  name: Aevrobotics Rate Limits
+  slug: aevrobotics-rate-limits
+score:
+  band: emerging
+  composite: 11.1
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 57.4
+    operational_transparency: 5.3
+  schema_version: 0.22.0
+  scored_at: '2026-09-12'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Aevrobotics Domain Security
+  slug: aevrobotics-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: aevrobotics
 tags:
 - Company
@@ -38,4 +148,5 @@ tags:
 - Logistics
 - Mobility
 - Australia
+website: https://www.appliedev.com/
 ---

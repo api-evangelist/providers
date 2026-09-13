@@ -31,7 +31,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 2.5
   scored_at: '2026-09-12'
 api_count: 4
@@ -153,7 +153,7 @@ score:
     applies: true
     score: 100.0
   previous_composite: 26.8
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

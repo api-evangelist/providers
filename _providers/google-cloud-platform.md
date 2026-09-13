@@ -33,7 +33,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 42.3
   scored_at: '2026-09-12'
 agentic_access:
@@ -80,6 +80,9 @@ apis:
   description: Manage tag values associated with tag keys. Tag values are the specific labels that can be bound to resources through tag bindings.
   name: Google Cloud Platform TagValues API
   slug: google-cloud-platform-tagvalues-api
+- description: Unified AI platform for building, deploying, and scaling ML models.
+  name: Vertex AI API
+  slug: vertex-ai-api
 arazzos:
 - description: Search for a folder, fetch its record, then list the projects directly under it.
   name: Google Cloud Platform Audit Folder and Projects
@@ -147,7 +150,7 @@ arazzos:
 - description: Find an organization, list its folders, then list the projects directly under it.
   name: Google Cloud Platform Walk Resource Hierarchy
   slug: google-cloud-platform-walk-resource-hierarchy-workflow
-artifact_total: 193
+artifact_total: 195
 collections:
 - collection_type: postman
   name: Google Cloud Platform Google Cloud Resource Manager API
@@ -180,10 +183,26 @@ collections:
   name: Google Cloud Platform Google Cloud Resource Manager Folders TagValues API
   slug: open-google-cloud-platform-tagvalues-api
 common:
+- group: commercial
+  title: ''
+  type: Pricing Calculator
+  url: https://cloud.google.com/products/calculator
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://docs.cloud.google.com/mcp/overview
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cloudblog.withgoogle.com/rss/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/
 - group: company
   title: ''
   type: Website
-  url: https://www.google.com/
+  url: https://cloud.google.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -874,6 +893,10 @@ jsonld:
   property_count: 22
   slug: google-cloud-platform-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Google Cloud Platform MCP Server
+  slug: google-cloud-platform-mcp-server
 modified: '2026-06-20'
 name: Google Cloud Platform
 nav: Providers
@@ -884,7 +907,7 @@ overview: 'Google Cloud Platform publishes 7 APIs on the [APIs.io](https://apis.
   The Google Cloud Platform catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Cloud Platform''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 62 more developer resources.'
+  Google Cloud Platform''s developer surface includes authentication, changelog, CLI, sandbox, developer portal, documentation, getting-started guide, and 66 more developer resources.'
 plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
@@ -949,7 +972,7 @@ score:
       marker_coverage: 0.0
       total: 7
     mcp: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -990,5 +1013,5 @@ use_cases:
   name: Multi-Cloud Management
 - description: Deploy and manage IoT devices and edge computing workloads at scale.
   name: IoT and Edge Computing
-website: https://www.google.com/
+website: https://cloud.google.com/
 ---

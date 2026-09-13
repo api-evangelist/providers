@@ -33,7 +33,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 39.9
   scored_at: '2026-09-12'
 agentic_access:
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 55
   slug: microsoft-word-agentic-access
   summary_line: 55 operations · 27 acting
-api_count: 19
+api_count: 21
 apis:
 - description: Server-side document conversion and automation service for SharePoint. Supports batch conversion of Word documents to PDF, XPS, and other formats without user interaction.
   name: Word Automation Services (SharePoint)
@@ -138,6 +138,12 @@ apis:
   description: Operations for managing file version history
   name: Microsoft Word Versions API
   slug: microsoft-word-versions-api
+- description: JavaScript API for building Word add-ins and interacting with Word document content.
+  name: Word JavaScript API
+  slug: word-javascript-api
+- description: .NET SDK for programmatically creating and manipulating Word documents using Open XML format.
+  name: Office Open XML SDK
+  slug: office-open-xml-sdk
 arazzos:
 - description: Create a blank Word document, insert HTML content into its body, and save it.
   name: Microsoft Word Author Document from HTML
@@ -175,7 +181,7 @@ arazzos:
 - description: Upload a Word document to OneDrive, confirm its metadata, and generate an organization sharing link.
   name: Microsoft Word Upload and Share Document
   slug: microsoft-word-upload-and-share-workflow
-artifact_total: 109
+artifact_total: 111
 collections:
 - collection_type: postman
   name: Microsoft Graph Word API
@@ -658,21 +664,21 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: strong
-  composite: 55.5
+  composite: 58.5
   coverage:
     artifact_dirs: 32
-    catalog_earned: 51.5
+    catalog_earned: 66.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 3.0
   facets:
     access_clarity: 57.9
     contract_governance: 33.3
-    contract_quality: 27.1
+    contract_quality: 33.9
     developer_ergonomics: 89.3
-    discoverability: 40.7
+    discoverability: 57.4
     operational_transparency: 44.7
   open_source:
     applies: true
@@ -687,7 +693,7 @@ score:
       marker_coverage: 100.0
       total: 21
     mcp: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

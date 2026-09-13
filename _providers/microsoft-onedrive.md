@@ -33,7 +33,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 19.8
   scored_at: '2026-09-12'
 agentic_access:
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 18
   slug: microsoft-onedrive-agentic-access
   summary_line: 18 operations · 7 acting
-api_count: 4
+api_count: 5
 apis:
 - description: 'The OneDrive File Picker is a JavaScript SDK that provides a pre-built UI component for selecting files from OneDrive within web applications. It handles authentication, file browsing, and selection, '
   name: OneDrive File Picker
@@ -63,7 +63,10 @@ apis:
   description: The Sharing API from Microsoft OneDrive — 4 operation(s) for sharing.
   name: Microsoft OneDrive Sharing API
   slug: microsoft-onedrive-sharing-api
-artifact_total: 15
+- description: File Sharing and Storage
+  name: OneDrive
+  slug: onedrive
+artifact_total: 17
 collections:
 - collection_type: open
   name: API Collection
@@ -81,6 +84,14 @@ collections:
   name: Microsoft OneDrive API (Microsoft Graph)
   slug: open-microsoft-onedrive
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/microsoft-onedrive-vulnerability-disclosure.yml
+- group: other
+  title: ''
+  type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 - group: agent
   title: ''
   type: AgenticAccess
@@ -144,7 +155,7 @@ network: true
 overview: 'Microsoft OneDrive publishes 3 APIs on the [APIs.io](https://apis.io/) network: DriveItems API, Drives API, and Sharing API. Tagged areas include Cloud Storage, File Storage, File, Microsoft, and Microsoft-365.
 
 
-  Microsoft OneDrive''s developer surface includes authentication, developer portal, documentation, support, and 8 more developer resources.'
+  Microsoft OneDrive''s developer surface includes authentication, developer portal, documentation, support, and 10 more developer resources.'
 plans:
 - name: Microsoft Onedrive Plans Pricing
   plan_count: 3
@@ -156,7 +167,7 @@ rate_limits:
   slug: microsoft-onedrive-rate-limits
 score:
   band: thin
-  composite: 36.4
+  composite: 37.1
   coverage:
     artifact_dirs: 9
     catalog_earned: 44.0
@@ -164,13 +175,13 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 47.6
     developer_ergonomics: 50.0
-    discoverability: 64.8
+    discoverability: 72.2
     operational_transparency: 10.5
   previous_composite: 36.4
   provenance:
@@ -180,7 +191,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 4
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -196,6 +207,10 @@ security:
   name: Microsoft Onedrive Domain Security
   slug: microsoft-onedrive-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Microsoft Onedrive Vulnerability Disclosure
+  slug: microsoft-onedrive-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: microsoft-onedrive
 tags:
 - Cloud Storage

@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 17.3
   scored_at: '2026-09-12'
 api_count: 2
@@ -103,7 +103,7 @@ score:
     discoverability: 68.5
     operational_transparency: 2.6
   previous_composite: 18.3
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

@@ -1,6 +1,84 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_card: false
+    agent_skills: false
+    agentic_access: false
+    agentic_commerce: false
+    auth_clarity: false
+    consent_identity: false
+    delegated_identity: false
+    dry_run_mode: false
+    dynamic_client_registration: false
+    error_semantics: false
+    event_surface_described: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    protected_resource_metadata: false
+    rate_limit_signal: documented
+    reversibility_documented: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: '0.2'
+  score: 2.5
+  scored_at: '2026-09-12'
 api_count: 0
-artifact_total: 0
+artifact_total: 3
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://aeterlink.com/en/
+- group: other
+  title: ''
+  type: Company
+  url: https://aeterlink.com/en/company/
+- group: other
+  title: ''
+  type: Technology
+  url: https://aeterlink.com/en/technology/
+- group: company
+  title: ''
+  type: News
+  url: https://aeterlink.com/en/news/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://aeterlink.com/en/contact/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://aeterlink.com/en/privacy_policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://aeterlink.com/wp-content/uploads/airplug_term_of_service.pdf
+- group: company
+  title: ''
+  type: Careers
+  url: https://aeterlink.com/recruit/
+- group: company
+  title: ''
+  type: Blog
+  url: https://note.com/aeterlink
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/aeterlinkcorp-llms.txt
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/aeterlinkcorp-domain-security.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/aeterlinkcorp-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/aeterlinkcorp-rate-limits.yml
 coverage:
   checked: '2026-09-12'
   detail: Aeterlink's own engineering article names two AirPlug integration surfaces — a "Cloud API" on AirPlug Cloud and a "Direct API" on the Sumit edge computer — but neither has any public reference, base URL or spec, and the only route to technical material is the document-request form at /en/documents/, which emails brochures after a company name and email are submitted.
@@ -25,7 +103,53 @@ modified: '2026-09-12'
 name: Aeterlink Corp.
 nav: Providers
 network: true
+overview: 'Aeterlink Corp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wireless Power, Internet of Things, Hardware, and Industrial Automation.
+
+
+  Aeterlink Corp.''s developer surface includes product news, engineering blog, and 11 more developer resources.'
+plans:
+- name: Aeterlinkcorp Plans Pricing
+  plan_count: 0
+  slug: aeterlinkcorp-plans-pricing
 random_paper: 9
+rate_limits:
+- limit_count: 0
+  name: Aeterlinkcorp Rate Limits
+  slug: aeterlinkcorp-rate-limits
+score:
+  band: minimal
+  composite: 10.4
+  coverage:
+    artifact_dirs: 5
+    catalog_earned: 27.0
+    catalog_earned_first_party: 0.0
+    catalog_gap: 88.0
+    catalog_max: 115.0
+    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
+  facets:
+    access_clarity: 21.1
+    contract_governance: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 2.4
+    discoverability: 57.4
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Energy & Utilities
+    regime_id: energy_utilities
+    score: 18.9
+  schema_version: 0.22.0
+  scored_at: '2026-09-12'
+  upsert:
+    applies: false
+    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
+    reason: no_specs
+security:
+- kind: domain-security
+  name: Aeterlinkcorp Domain Security
+  slug: aeterlinkcorp-domain-security
+  summary_line: TLSv1.3
 slug: aeterlinkcorp
 tags:
 - Company
@@ -37,4 +161,5 @@ tags:
 - Medical Devices
 - Deep Tech
 - Japan
+website: https://aeterlink.com/en/
 ---

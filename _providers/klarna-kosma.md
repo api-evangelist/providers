@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 3.8
   scored_at: '2026-09-12'
 api_count: 6
@@ -206,7 +206,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 32.9
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

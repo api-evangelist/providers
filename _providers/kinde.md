@@ -13,28 +13,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: verified
+    event_surface_described: true
+    idempotency: documented
+    mcp_server: templated
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 36.7
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 48.5
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 111
@@ -45,7 +46,7 @@ agentic_access:
   summary_line: 179 operations · 111 acting · 13 human-in-the-loop
 api_count: 2
 apis:
-- description: 'The Kinde MCP (Model Context Protocol) server acts as a bridge between AI assistants and a Kinde account. It exposes a subset of the Kinde Management API as MCP tools (query organizations, check user '
+- description: The Kinde Management MCP server bridges AI agents and a Kinde account. It is TENANT-SCOPED — the endpoint is https://{subdomain}.kinde.com/mcp, one per Kinde business — and is authenticated with an En
   name: Kinde MCP Server
   slug: kinde-mcp-server
 - baseURL: https://{subdomain}.kinde.com/api/v1
@@ -226,7 +227,7 @@ arazzos:
 - description: Create an org-overridable feature flag and set its value for one organization.
   name: Kinde Roll Out Feature Flag to Organization
   slug: kinde-rollout-feature-flag-workflow
-artifact_total: 101
+artifact_total: 103
 collections:
 - collection_type: postman
   name: Kinde Account API
@@ -338,10 +339,6 @@ common:
   title: ''
   type: Website
   url: https://www.kinde.com/
-- group: other
-  title: ''
-  type: CapabilityMap
-  url: capabilities/kinde-capability-edges.yml
 - group: agent
   title: ''
   type: AgenticAccess
@@ -458,10 +455,6 @@ common:
   title: ''
   type: Support
   url: mailto:support@kinde.com
-- group: operate
-  title: ''
-  type: ContactSales
-  url: https://kinde.com/contact-us/
 - group: commercial
   title: ''
   type: Plans
@@ -646,6 +639,114 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.kinde.com/llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/kinde-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/kinde-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/kinde-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/kinde-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: security/kinde-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/kinde-conformance.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/kinde-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/kinde-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/kinde-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/kinde-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/kinde-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/kinde-lifecycle.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/kinde-scopes.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/kinde-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/kinde-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/kinde-changelog.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/kinde-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/kinde-components.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: webhooks/kinde-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: llms/kinde-www-llms.txt
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://kinde.com/support/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.kinde.com/kinde-apis/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://docs.kinde.com/trust-center/privacy-and-compliance/privacy-policy/
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://docs.kinde.com/trust-center/privacy-and-compliance/compliance/
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kinde-management-api-overlay.yaml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/kinde-account-api-overlay.yaml
 created: '2026-05-22'
 description: Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, Kinde positions itself as "the fully integrated developer platform — secure and monetize your product from day one" and is used by over 70,000 developers. The platform exposes a Management API for tenant administration and an Account API for end-user self-service flows, both backed by published OpenAPI specs and a large open-source SDK ecosystem on GitHub (TypeScript, React, Next.js, Python, Go, Java, .NET, PHP, Ruby, Elixir, Flutter, iOS, Android, Expo, React Native, SvelteKit, Nuxt, Remix, TanStack Start) plus a Go-based CLI, a Terraform provider, and a Model Context Protocol (MCP) server for AI agents.
 examples:
@@ -707,7 +808,11 @@ jsonld:
   property_count: 9
   slug: kinde-context
 layout: provider
-modified: '2026-05-22'
+mcp_servers:
+- description: 'Kinde ships TWO distinct MCP surfaces and they must not be conflated. (1) The Kinde Management MCP Server: a Kinde-authored remote MCP server exposing a read-and-create subset of the Kinde Management '
+  name: Kinde MCP Server
+  slug: kinde-mcp-server
+modified: '2026-09-12'
 name: Kinde
 nav: Providers
 network: true
@@ -717,14 +822,14 @@ overview: 'Kinde publishes 30 APIs on the [APIs.io](https://apis.io/) network, i
   The Kinde catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Kinde''s developer surface includes authentication, developer portal, signup flow, pricing, engineering blog, changelog, GitHub presence, and 71 more developer resources.'
+  Kinde''s developer surface includes authentication, developer portal, signup flow, pricing, engineering blog, changelog, GitHub presence, and 96 more developer resources.'
 plans:
 - name: Kinde Plans Pricing
   plan_count: 5
   slug: kinde-plans-pricing
 random_paper: 19
 rate_limits:
-- limit_count: 4
+- limit_count: 6
   name: Kinde Rate Limits
   slug: kinde-rate-limits
 rules:
@@ -749,36 +854,43 @@ rules:
     info: 2
     warn: 8
   slug: kinde-rules
+scopes:
+- name: Kinde Scopes
+  scope_count: 0
+  slug: kinde-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 72.8
+  composite: 86.0
   coverage:
-    artifact_dirs: 21
-    catalog_earned: 83.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 31.5
+    artifact_dirs: 36
+    catalog_earned: 88.5
+    catalog_earned_first_party: 12.0
+    catalog_gap: 26.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.2
   facets:
-    access_clarity: 75.0
-    contract_governance: 28.8
-    contract_quality: 74.8
-    developer_ergonomics: 75.0
-    discoverability: 61.1
-    operational_transparency: 65.8
+    access_clarity: 93.4
+    contract_governance: 47.0
+    contract_quality: 73.8
+    developer_ergonomics: 91.1
+    discoverability: 70.4
+    operational_transparency: 92.1
   previous_composite: 72.8
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 76.7
       derived: 0
       marker_coverage: 0.0
       total: 30
     mcp: first-party
-  schema_version: 0.21.0
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 66.7

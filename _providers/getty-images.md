@@ -10,31 +10,31 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: bearer
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: false
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 20.1
+  schema_version: '0.2'
+  score: 33.5
   scored_at: '2026-09-12'
-api_count: 1
+api_count: 2
 apis:
 - baseURL: https://api.gettyimages.com
   baseurl_source: declared
@@ -311,7 +311,13 @@ apis:
 - description: The Videos API from Getty Images — 2 operation(s) for videos.
   name: Getty Images Videos API
   slug: getty-videos-api
-artifact_total: 115
+- description: The Getty Images MCP Server is a remote Model Context Protocol endpoint at https://mcp.gettyimages.com/v1 that gives AI agents tools for authenticating with OAuth 2.0, searching images and videos with
+  name: Getty Images MCP Server
+  slug: getty-images-mcp-server
+- description: Getty Images serves a SCIM 2.0 (RFC 7643 / RFC 7644) user-provisioning surface at https://scim.gettyimages.com/v2 for enterprise customers who manage Getty Images users from their own identity provide
+  name: Getty Images SCIM API
+  slug: getty-images-scim-api
+artifact_total: 120
 collections:
 - collection_type: open
   name: API Collection
@@ -473,6 +479,14 @@ collections:
   name: Getty Images Videos API
   slug: open-getty-images-videos-api
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/getty-images-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/getty-images-authentication.yml
 - group: other
   title: ''
   type: CapabilityMap
@@ -496,7 +510,7 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://developers.gettyimages.com/
+  url: https://developer.gettyimages.com/docs/
 - group: company
   title: ''
   type: Website
@@ -505,64 +519,196 @@ common:
   title: ''
   type: DeveloperPortal
   url: https://developer.gettyimages.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/getty-images-swagger-v3-openapi.json
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://api.gettyimages.com/swagger
+- group: start
+  title: ''
+  type: Console
+  url: https://api.gettyimages.com/swagger
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.gettyimages.com/docs/gettingstarted/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/getty-images-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/getty-images-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/getty-images-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/getty-images-security.txt
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.gettyimages.com/.well-known/security.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/getty-images-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/getty-images-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/getty-images-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/getty-images-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/getty-images-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/getty-images-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://developer.gettyimages.com/status/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/getty-images-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/getty-images-changelog.yml
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://developer.gettyimages.com/release-notes/
+- group: design
+  title: ''
+  type: Components
+  url: components/getty-images-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/getty-images-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/getty-images-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/getty-images-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/getty-images-finops.yml
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.gettyimages.com/customer-support
+- group: start
+  title: ''
+  type: Login
+  url: https://www.gettyimages.com/sign-in
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gettyimages.com/company/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gettyimages.com/company/privacy-policy
 created: '2024-11-13'
-description: The Getty Images API brings the best visual content straight to you and your customers, letting you integrate outstanding images, videos, and illustrations from Getty Images and iStock directly into your platform.
+description: 'The Getty Images API brings the best visual content straight to you and your customers, letting you integrate outstanding images, videos, and illustrations from Getty Images and iStock directly into your platform. One REST API at version 3 — 67 paths and 76 operations across creative and editorial image and video search, reverse image search, asset metadata, licensing and download, collaborative boards, pull-based catalogue synchronisation via Asset Changes, and Generative AI by Getty Images (text-to-image, refine, extend, object and background removal, reference-image influence). A remote MCP server at https://mcp.gettyimages.com/v1 exposes search, metadata and download to AI agents. Enterprise identity is served by a live SCIM 2.0 surface and SAML 2.0 SSO. Access is sales-gated: credentials are issued by a Getty Images account representative against an existing content licence agreement, with no self-service sign-up, no free tier and no published API pricing.'
 finops:
 - name: Getty Images Finops
   service_category: API
   slug: getty-images-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/getty-images.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Getty Images MCP Server
+  slug: getty-images-mcp-server
+modified: '2026-09-12'
 name: Getty Images
 nav: Providers
 network: true
-overview: 'Getty Images publishes 57 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Ai Generator API, and 54 more. Tagged areas include Image, Media, Photos, and Videos.
+overview: 'Getty Images publishes 52 APIs on the [APIs.io](https://apis.io/) network, including Affiliates API, Ai API, Ai Generator API, and 49 more. Tagged areas include Image, Media, Photos, Videos, and Stock Photography.
 
 
-  Getty Images'' developer surface includes documentation and 7 more developer resources.'
+  Getty Images'' developer surface includes authentication, documentation, API reference, developer console, getting-started guide, changelog, release notes, and 32 more developer resources.'
 plans:
 - name: Getty Images Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: getty-images-plans-pricing
 random_paper: 14
 rate_limits:
-- limit_count: 5
+- limit_count: 3
   name: Getty Images Rate Limits
   slug: getty-images-rate-limits
+scopes:
+- name: Getty Images Scopes
+  scope_count: 0
+  slug: getty-images-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 24.9
+  band: developing
+  composite: 51.1
   coverage:
-    artifact_dirs: 7
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
+    artifact_dirs: 23
+    catalog_earned: 55.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 60.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 26.2
   facets:
-    access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 45.6
-    developer_ergonomics: 19.0
-    discoverability: 59.3
-    operational_transparency: 10.5
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 49.7
+    developer_ergonomics: 58.9
+    discoverability: 70.4
+    operational_transparency: 76.3
   previous_composite: 24.9
   provenance:
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 52
-  schema_version: 0.21.0
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/getty-images/refs/heads/main/screenshots/getty-images-2026-06-20T181816.png
 security:
+- kind: authentication
+  name: Getty Images Authentication
+  slug: getty-images-authentication
+  summary_line: apiKey/oauth2 · 2 schemes
 - kind: domain-security
   name: Getty Images Domain Security
   slug: getty-images-domain-security
@@ -570,12 +716,18 @@ security:
 - kind: vulnerability-disclosure
   name: Getty Images Vulnerability Disclosure
   slug: getty-images-vulnerability-disclosure
-  summary_line: security.txt · contact published
+  summary_line: Hackerone · security.txt · contact published
 slug: getty-images
 tags:
 - Image
 - Media
 - Photos
 - Videos
+- Stock Photography
+- Artificial Intelligence
+- Search
+- Content Licensing
+- Digital Asset Management
+- Model Context Protocol
 website: https://www.gettyimages.com/
 ---

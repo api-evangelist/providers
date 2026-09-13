@@ -11,7 +11,7 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.21.0
+schema_version: 0.22.0
 last_updated: '2026-09-06'
 maintainer: kin@apievangelist.com
 
@@ -22,41 +22,44 @@ maintainer: kin@apievangelist.com
 # checked against schema_version by test_rubric_record.py: a rubric cannot reach a
 # rebuild carrying the previous release's story.
 release_note:
-  version: 0.21.0
+  version: 0.22.0
   body: |
-    THE FACET RENAME IS FINISHED. Two facets have been emitted under TWO names since 0.12,
-    and the score block now carries one name each.
+    MCP SERVERS ARE NOW GRADED BY WHO BUILT THEM, not only by whether they answered.
 
-    `governance` was never about how an organisation governs itself — it scores rulesets,
-    vocabularies, conformance and overlays, which are ARTIFACTS DESCRIBING A CONTRACT. It
-    is `contract_governance`. And `commercial_clarity` described the wrong thing for a
-    third of the catalog: a statutory interface or an open-data API has no commercial
-    terms, while the questions the facet actually asks — what does it cost, what may you
-    do, how do you get in — still apply. It is `access_clarity`.
+    0.6 fixed reachability — it stopped paying twelve points for servers nobody could
+    connect to. It left authorship alone, and authorship turns out to be most of the
+    cohort. Clustering tool-name shapes across every server that enumerates (451 of the
+    472 live) finds 292 providers — 64.7% — serving a surface shared with other
+    providers. 129 share one commerce fingerprint. 62 are Wix, 37 Mintlify, 35 Shopify.
+    51 answer at /wp-json/mcp/mcp-oauth-server: one WordPress plugin installed on a
+    company marketing site, not 51 separate product decisions.
 
-    0.12 shipped both spellings so consumers could migrate without a hard cut, and the
-    plan was to drop the old pair at 1.0. It comes forward because the dual-emit turned
-    out to be a live defect rather than a harmless kindness: `/rating/facets` served EIGHT
-    names for SIX facets, with `access_clarity` and `commercial_clarity` carrying the
-    identical number, so anyone summing the object double-counted two of them. A migration
-    aid that silently corrupts a sum is not an aid.
+    Every one of those 292 held the full twelve points. That is 2,628 points paid for
+    other people's engineering, inside the layer whose entire purpose is to say whether
+    THIS provider is ready for an agent.
 
-    NO SCORE MOVES. Verified on three providers across the range before and after — the
-    composite, the band and every facet value are identical under the rename. The keys
-    changed; nothing measured changed. No band re-cut.
+    TWO NEW GRADES, and the rubric had already decided the harder of them. `agentic_commerce`
+    grades {self: 1.0, platform: 0.25} for exactly this distinction on a different
+    protocol; answering it differently for MCP was the inconsistency, and `platform` at
+    0.25 removes it. `templated` at 0.6 is for a real server whose URL an agent cannot
+    construct — https://{tenant}.mcp.example.com/mcp. That is positive evidence, so it
+    sits above `documented`, and it offers no self-service path, so it sits below
+    `verified`.
 
-    WHAT THE OLD NAMES STILL DO. They remain ACCEPTED as input — `?sort=governance` works
-    exactly as before — because dropping a value callers already send breaks them for no
-    gain. They are simply no longer RETURNED. Reading surfaces fall back to the old key
-    where a page has not been rescored yet, so nothing renders a zero in the window
-    between the scoring pass and the deploys that follow it.
+    `templated` MOVES IN BOTH DIRECTIONS, deliberately. It lowers the 5 templated
+    endpoints currently graded `verified`, because an agent cannot get in. It RAISES the
+    42 graded `claimed`, because a documented template is evidence of a real server and
+    more than a bare claim. Measured: no provider is both platform-authored and
+    templated.
 
-    ALSO: THE STANDALONE LAYER VERSIONS ARE STRINGS NOW. `agent_readiness.schema_version`
-    and `accountability.schema_version` were unquoted two-part numbers, which YAML and JSON
-    both read as floats — so 0.2 and 0.20 were the same value and the agent-readiness layer
-    could never have reached its twentieth revision. It was also served as a NUMBER on
-    /agent-readiness and a STRING on its sibling endpoints, which no typed client can model.
-    Quoted, and nothing compares them arithmetically.
+    WHAT THIS DOES NOT DO. Authorship is knowable only where a server enumerates its
+    tools. 1,055 gate tools/list behind auth and are never classified; they keep
+    `verified`, and absent authorship is never read as platform authorship. That is the
+    roadmap#125 rule pointed the other way: unknown is not a finding. The correction
+    reaches the 292 measured and no further, which is the honest reach of the evidence.
+
+    The ceiling does not move — `mcp_server` stays 12 points and the layer stays 139, so
+    nothing is rescaled. Only the credit earned within it changes.
 aliases:
   # 0.13 (roadmap#71) — the Examples family. A provider publishing a separate example
   # corpus wired `Examples` in good faith and it was read by NOTHING; four spellings of
@@ -3077,7 +3080,38 @@ agent_readiness:
       points: 12
       provenance: mcp
       graded: true
-      credit: {verified: 1.0, documented: 0.4}
+      credit: {verified: 1.0, templated: 0.6, documented: 0.4, platform: 0.25}
+      # ---------------------------------------------------------------------
+      # 0.22.0 (roadmap#317) — GRADED BY WHO BUILT IT, not only by whether it answered.
+      #
+      # 0.6 fixed REACHABILITY: it stopped paying for servers nobody could connect to.
+      # It left AUTHORSHIP unfixed, and authorship is most of the cohort. Measured by
+      # clustering tool-name shapes across every server that enumerates (451 of 472
+      # live): 292 providers — 64.7% — serve a tool surface shared with other
+      # providers. 129 share one commerce fingerprint, 62 are Wix, 37 Mintlify, 35
+      # Shopify. 51 answer at /wp-json/mcp/mcp-oauth-server: one WordPress plugin on a
+      # marketing site, not 51 product decisions.
+      #
+      # All 292 hold the full 12 points today — 2,628 points paid for other people's
+      # engineering, inside the layer whose purpose is to say whether THIS provider is
+      # ready for agents.
+      #
+      # THE RUBRIC ALREADY DECIDED THIS for a different protocol: `agentic_commerce`
+      # grades {self: 1.0, platform: 0.25}. Answering it differently for MCP was the
+      # inconsistency; this removes it.
+      #
+      #   templated 0.6  a real server whose URL an agent CANNOT CONSTRUCT —
+      #                  https://{tenant}.mcp.example.com/mcp. Positive evidence, so
+      #                  above `documented`; no self-service path, so below `verified`.
+      #   platform  0.25 the tool shape is shared with other providers. Real and
+      #                  callable, and not this provider's design.
+      #
+      # ABSENT IS NOT `provider`. Authorship is knowable only where a server enumerates;
+      # the 1,055 that gate tools/list behind auth are never classified and keep
+      # `verified`. Unknown authorship is never read as platform authorship — roadmap#125.
+      #
+      # Net across both grades: -2,551. This mostly REMOVES credit.
+      # ---------------------------------------------------------------------
       signal: 'deployment.mode + probe verdict on the mcp/ manifest, not the pointer; an unprobed slug falls back to authorship'
       description: >
         A Model Context Protocol server makes the API directly callable by agents

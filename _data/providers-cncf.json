@@ -27,7 +27,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 46.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -82,7 +82,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -127,7 +127,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -172,7 +172,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -217,7 +217,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -262,7 +262,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -307,7 +307,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -352,7 +352,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -397,7 +397,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -442,7 +442,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -487,7 +487,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -532,7 +532,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -577,7 +577,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -622,7 +622,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -667,7 +667,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -701,7 +701,7 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 20,
+   "count": 21,
    "providers": [
     {
      "name": "Argo CD",
@@ -722,7 +722,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -767,7 +767,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -794,6 +794,51 @@
      "rank": 17
     },
     {
+     "name": "HAMi",
+     "slug": "hami",
+     "url": "https://providers.apis.io/providers/hami/",
+     "type": "API Provider",
+     "description": "HAMi (Heterogeneous AI Computing Virtualization Middleware) is a CNCF incubating open-source project that brings device sharing, memory and core isolation, and topology-aware scheduling to heterogeneous AI accelerators on Kubernetes. It lets several containers share one physical GPU or NPU with hard memory limits and enforced compute quotas, across NVIDIA, Huawei Ascend, Cambricon MLU, Hygon DCU, Enflame GCU, Iluvatar, Moore Threads, MetaX, Kunlunxin and Vastai devices. HAMi ships a scheduler, a device plugin, an in-container enforcement library (HAMi-core/libvgpu), a DRA driver, and HAMi WebUI — an observability dashboard whose backend exposes a gRPC and grpc-gateway REST API over cluster GPU, node, workload and Prometheus-backed monitoring data. The project also publishes a machine-readable discovery surface on its documentation site: an RFC 9727 API catalog, an OpenAPI 3.1 service description, an Agent Skills discovery index, and Content-Signal directives in robots.txt.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hami/refs/heads/main/screenshots/hami-2026-06-20T182500.png",
+     "score": 38.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 37.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 57.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 33.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": "documented",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
      "name": "Chaos Mesh",
      "slug": "chaos-mesh",
      "url": "https://providers.apis.io/providers/chaos-mesh/",
@@ -812,7 +857,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -836,7 +881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Youki",
@@ -856,7 +901,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -880,7 +925,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Istio",
@@ -901,52 +946,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Kubescape",
-     "slug": "kubescape",
-     "url": "https://providers.apis.io/providers/kubescape/",
-     "type": "API Provider",
-     "description": "Kubescape is an open-source (Apache 2.0) Kubernetes security platform and CNCF incubating project, originally contributed by ARMO. It provides risk analysis, security and compliance posture scanning, misconfiguration detection, image and runtime vulnerability scanning, and eBPF-based runtime threat detection across the IDE, CI/CD pipelines, and live clusters. The core Kubescape is a CLI and an in-cluster Operator whose components expose OpenAPI/Swagger-documented HTTP APIs in-cluster (there is no single hosted public REST endpoint for the open-source tool). ARMO Platform is the commercial multi-cluster, multi-cloud SaaS built on Kubescape and exposes a documented hosted Customer API (base https://api.armosec.io) for posture, compliance, vulnerabilities, runtime incidents, attack paths, network policies, and registry/repository scanning, authenticated with an X-API-KEY access key.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/screenshots/kubescape-2026-07-25T224314.png",
-     "score": 37.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 53.1,
-      "contract_governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 39.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -973,6 +973,51 @@
      "rank": 21
     },
     {
+     "name": "Kubescape",
+     "slug": "kubescape",
+     "url": "https://providers.apis.io/providers/kubescape/",
+     "type": "API Provider",
+     "description": "Kubescape is an open-source (Apache 2.0) Kubernetes security platform and CNCF incubating project, originally contributed by ARMO. It provides risk analysis, security and compliance posture scanning, misconfiguration detection, image and runtime vulnerability scanning, and eBPF-based runtime threat detection across the IDE, CI/CD pipelines, and live clusters. The core Kubescape is a CLI and an in-cluster Operator whose components expose OpenAPI/Swagger-documented HTTP APIs in-cluster (there is no single hosted public REST endpoint for the open-source tool). ARMO Platform is the commercial multi-cluster, multi-cloud SaaS built on Kubescape and exposes a documented hosted Customer API (base https://api.armosec.io) for posture, compliance, vulnerabilities, runtime incidents, attack paths, network policies, and registry/repository scanning, authenticated with an X-API-KEY access key.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kubescape/refs/heads/main/screenshots/kubescape-2026-07-25T224314.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 53.1,
+      "contract_governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 39.5
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 19.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
      "name": "Prometheus",
      "slug": "prometheus-io",
      "url": "https://providers.apis.io/providers/prometheus-io/",
@@ -991,7 +1036,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1015,7 +1060,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "TiKV",
@@ -1036,7 +1081,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1060,7 +1105,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Jaeger",
@@ -1081,7 +1126,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 14.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1105,7 +1150,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "CRI-O",
@@ -1126,7 +1171,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1150,7 +1195,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Akri",
@@ -1171,7 +1216,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1195,7 +1240,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Vineyard",
@@ -1216,7 +1261,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1240,7 +1285,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "WasmEdge",
@@ -1261,7 +1306,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1285,7 +1330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "BFE",
@@ -1306,7 +1351,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1330,7 +1375,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Score",
@@ -1351,7 +1396,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1375,7 +1420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Weave Net",
@@ -1396,7 +1441,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1420,7 +1465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Meshery",
@@ -1441,7 +1486,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1465,7 +1510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Runc",
@@ -1486,7 +1531,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 3.8,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1510,7 +1555,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "The Update Framework (TUF)",
@@ -1531,7 +1576,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1555,7 +1600,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Flyte",
@@ -1576,7 +1621,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1600,7 +1645,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     }
    ]
   },
@@ -1630,7 +1675,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1654,7 +1699,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Tekton",
@@ -1675,7 +1720,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1699,7 +1744,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Werf",
@@ -1720,7 +1765,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1744,7 +1789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "OpenCost",
@@ -1765,7 +1810,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1789,7 +1834,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Service Mesh Interface (SMI)",
@@ -1810,7 +1855,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1841,7 +1886,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "SOPS",
@@ -1862,52 +1907,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 41
-    },
-    {
-     "name": "Merbridge",
-     "slug": "merbridge",
-     "url": "https://providers.apis.io/providers/merbridge/",
-     "type": "API Provider",
-     "description": "Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/merbridge/refs/heads/main/screenshots/merbridge-2026-06-20T185149.png",
-     "score": 18.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1934,6 +1934,51 @@
      "rank": 42
     },
     {
+     "name": "Merbridge",
+     "slug": "merbridge",
+     "url": "https://providers.apis.io/providers/merbridge/",
+     "type": "API Provider",
+     "description": "Merbridge is an open source, eBPF-based service mesh acceleration tool that replaces iptables rules with eBPF traffic interception and uses msg_redirect to shorten the datapath between sidecars and services. It is a CNCF Sandbox project and supports Istio, Linkerd2, and Kuma.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/merbridge/refs/heads/main/screenshots/merbridge-2026-06-20T185149.png",
+     "score": 18.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 43
+    },
+    {
      "name": "Ratify",
      "slug": "ratify",
      "url": "https://providers.apis.io/providers/ratify/",
@@ -1952,7 +1997,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1983,7 +2028,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Bootc",
@@ -2004,61 +2049,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 2,
-   "providers": [
-    {
-     "name": "Telepresence",
-     "slug": "telepresence",
-     "url": "https://providers.apis.io/providers/telepresence/",
-     "type": "API Provider",
-     "description": "Telepresence is a Cloud Native Computing Foundation (CNCF) Sandbox open source tool that enables fast local development for Kubernetes and OpenShift microservices. It creates a bidirectional network bridge between a developer's local machine and a remote Kubernetes cluster, allowing services to run locally while connecting to remote dependencies. Originally created by Ambassador Labs, Telepresence lets developers intercept traffic destined for specific cluster workloads and route it to their local environment for testing and debugging.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/screenshots/telepresence-2026-06-20T195041.png",
-     "score": 10.4,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 6.7,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2083,27 +2074,36 @@
       "agentic_commerce": false
      },
      "rank": 45
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 1,
+   "providers": [
     {
-     "name": "HAMI",
-     "slug": "hami",
-     "url": "https://providers.apis.io/providers/hami/",
+     "name": "Telepresence",
+     "slug": "telepresence",
+     "url": "https://providers.apis.io/providers/telepresence/",
      "type": "API Provider",
-     "description": "HAMI (Heterogeneous AI Computing Virtualization Middleware) is an open-source project that enables GPU virtualization and sharing for Kubernetes workloads, allowing multiple AI containers to share GPU resources efficiently.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hami/refs/heads/main/screenshots/hami-2026-06-20T182500.png",
-     "score": 6.8,
+     "description": "Telepresence is a Cloud Native Computing Foundation (CNCF) Sandbox open source tool that enables fast local development for Kubernetes and OpenShift microservices. It creates a bidirectional network bridge between a developer's local machine and a remote Kubernetes cluster, allowing services to run locally while connecting to remote dependencies. Originally created by Ambassador Labs, Telepresence lets developers intercept traffic destined for specific cluster workloads and route it to their local environment for testing and debugging.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/telepresence/refs/heads/main/screenshots/telepresence-2026-06-20T195041.png",
+     "score": 10.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
+      "discoverability": 50.0,
+      "contract_quality": 6.7,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 11.9,
+      "developer_ergonomics": 16.7,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

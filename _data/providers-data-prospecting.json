@@ -28,7 +28,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -78,7 +78,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -135,7 +135,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -178,7 +178,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -228,7 +228,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -271,7 +271,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -314,7 +314,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -357,7 +357,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -418,7 +418,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -475,7 +475,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -518,7 +518,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -579,7 +579,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 68.3,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -622,7 +622,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 65.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -665,7 +665,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -722,7 +722,7 @@
       "access_clarity": 75.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -765,7 +765,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 63.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -808,7 +808,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -858,7 +858,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -901,7 +901,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -951,7 +951,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -994,7 +994,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1037,7 +1037,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1080,7 +1080,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1123,7 +1123,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 63.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1166,7 +1166,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 61.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1209,7 +1209,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1252,7 +1252,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1306,7 +1306,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1356,7 +1356,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1399,7 +1399,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 41.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1442,7 +1442,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1485,7 +1485,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 62.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1528,7 +1528,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1571,7 +1571,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 65.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1614,14 +1614,14 @@
       "access_clarity": 81.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 57.9,
+     "schema_version": "0.22.0",
+     "agent_score": 51.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": "documented",
       "error_semantics": "verified",
@@ -1657,7 +1657,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 65.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1700,7 +1700,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1743,7 +1743,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1804,14 +1804,14 @@
       "access_clarity": 55.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 47.0,
+     "schema_version": "0.22.0",
+     "agent_score": 48.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "templated",
       "auth_clarity": "negotiable",
       "idempotency": false,
       "error_semantics": "verified",
@@ -1847,7 +1847,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 41.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1890,7 +1890,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 38.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1933,7 +1933,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1976,7 +1976,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 63.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2019,7 +2019,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 44.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2062,7 +2062,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2105,7 +2105,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2148,7 +2148,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2191,7 +2191,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2241,7 +2241,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 60.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2284,7 +2284,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2327,7 +2327,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 38.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2370,7 +2370,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2413,7 +2413,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2474,7 +2474,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.4,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2517,7 +2517,7 @@
       "access_clarity": 75.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2560,7 +2560,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2603,7 +2603,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 41.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2646,7 +2646,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2689,7 +2689,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2732,7 +2732,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 60.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2775,7 +2775,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 60.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2818,7 +2818,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 46.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2861,7 +2861,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2904,7 +2904,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2938,6 +2938,49 @@
      "rank": 64
     },
     {
+     "name": "LinkedIn Marketing API",
+     "slug": "linkedin-ads",
+     "description": "The LinkedIn Marketing API Program provides REST APIs that help businesses create LinkedIn marketing campaigns, report on campaign performance, manage leads from Lead Gen Forms, target matched audiences, and grow company Pages. It covers Advertising, Reporting and Analytics, Lead Sync, Matched Audiences, Audience Insights, Media Planning, Conversions, Community Management, Event Management, and Company Intelligence APIs. Authentication uses OAuth 2.0 three-legged (authorization code) flow with versioned API access.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/screenshots/linkedin-ads-2026-06-20T184545.png",
+     "score": 59.5,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 58.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 70.8,
+      "access_clarity": 65.8
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 34.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 65
+    },
+    {
      "name": "Zaius",
      "slug": "zaius",
      "description": "Zaius is the B2C marketing customer data platform (CDP) that Optimizely acquired in 2021 and now operates as the Optimizely Data Platform (ODP). It unifies customer, event, order, product, and custom data into a single behavioral profile, powers real-time audience segmentation, and drives personalization and orchestrated cross-channel campaigns. ODP exposes a versioned (v3) REST API surface across regional hosts (US/EU/AU) for events, customers, orders, products, objects, lists, consent, exports, schema management, recommendations, and real-time segments, plus a GraphQL query API and Web / React Native / Node SDKs. Authentication is via public (Tracker ID) and private x-api-key keys. Originally a portfolio company of Insight Partners.",
@@ -2954,7 +2997,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2978,7 +3021,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 65
+     "rank": 66
     },
     {
      "name": "Crossbeam",
@@ -2997,7 +3040,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3021,7 +3064,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 66
+     "rank": 67
     },
     {
      "name": "Salesflare",
@@ -3040,7 +3083,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3064,7 +3107,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 67
+     "rank": 68
     },
     {
      "name": "Starbridge",
@@ -3083,7 +3126,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3114,7 +3157,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 68
+     "rank": 69
     },
     {
      "name": "Syft Data",
@@ -3133,7 +3176,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3157,7 +3200,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 69
+     "rank": 70
     },
     {
      "name": "Ntropy",
@@ -3176,7 +3219,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3207,7 +3250,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Zendesk Sell",
@@ -3226,7 +3269,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3240,49 +3283,6 @@
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 71
-    },
-    {
-     "name": "LinkedIn Marketing API",
-     "slug": "linkedin-ads",
-     "description": "The LinkedIn Marketing API Program provides REST APIs that help businesses create LinkedIn marketing campaigns, report on campaign performance, manage leads from Lead Gen Forms, target matched audiences, and grow company Pages. It covers Advertising, Reporting and Analytics, Lead Sync, Matched Audiences, Audience Insights, Media Planning, Conversions, Community Management, Event Management, and Company Intelligence APIs. Authentication uses OAuth 2.0 three-legged (authorization code) flow with versioned API access.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/screenshots/linkedin-ads-2026-06-20T184545.png",
-     "score": 58.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 58.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 70.8,
-      "access_clarity": 65.8
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 34.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
       "agent_skills": "derived",
       "well_known_catalog": false,
       "consent_identity": false,
@@ -3312,7 +3312,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3355,7 +3355,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3398,7 +3398,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3441,7 +3441,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3498,7 +3498,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.1,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3541,7 +3541,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -3598,7 +3598,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3641,7 +3641,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3684,7 +3684,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3727,7 +3727,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3770,7 +3770,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3813,7 +3813,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -3870,7 +3870,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3920,7 +3920,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3963,7 +3963,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4006,7 +4006,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4063,7 +4063,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4106,7 +4106,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4149,7 +4149,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4192,7 +4192,7 @@
       "access_clarity": 67.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 61.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4235,7 +4235,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4278,7 +4278,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 48.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4321,7 +4321,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4364,7 +4364,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4407,7 +4407,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4461,7 +4461,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4504,7 +4504,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4569,7 +4569,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4612,7 +4612,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 48.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -4655,7 +4655,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -4670,13 +4670,13 @@
        }
       ]
      },
-     "agent_score": 30.4,
-     "agent_band": "agent-ready",
+     "agent_score": 23.9,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -4712,7 +4712,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4762,7 +4762,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4805,7 +4805,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4848,7 +4848,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 54.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4891,7 +4891,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 58.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4934,7 +4934,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4977,7 +4977,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5020,7 +5020,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5063,7 +5063,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5106,7 +5106,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5149,7 +5149,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5192,7 +5192,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5235,7 +5235,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5285,14 +5285,14 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 36.2,
+     "schema_version": "0.22.0",
+     "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "templated",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -5328,7 +5328,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5371,7 +5371,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5414,7 +5414,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5457,7 +5457,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5507,7 +5507,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 44.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5550,7 +5550,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5593,7 +5593,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5636,7 +5636,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 56.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5679,7 +5679,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -5729,7 +5729,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5772,7 +5772,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5815,7 +5815,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5858,7 +5858,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5901,7 +5901,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5944,7 +5944,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 65.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -5987,7 +5987,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 59.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -6030,7 +6030,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6073,7 +6073,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6116,7 +6116,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6159,7 +6159,7 @@
       "access_clarity": 75.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6202,7 +6202,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6245,7 +6245,7 @@
       "access_clarity": 75.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6288,7 +6288,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6331,7 +6331,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6374,7 +6374,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6417,7 +6417,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6460,7 +6460,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6503,7 +6503,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6546,7 +6546,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 48.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6589,7 +6589,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6632,7 +6632,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6675,7 +6675,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6718,7 +6718,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6761,7 +6761,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6804,7 +6804,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6847,7 +6847,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6890,7 +6890,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -6940,7 +6940,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6983,7 +6983,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7026,7 +7026,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7069,7 +7069,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7112,7 +7112,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7155,7 +7155,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7205,7 +7205,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7248,7 +7248,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7291,7 +7291,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -7341,7 +7341,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7384,7 +7384,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 47.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -7437,7 +7437,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7480,7 +7480,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7523,7 +7523,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7584,7 +7584,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7634,7 +7634,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7677,7 +7677,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7720,7 +7720,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7763,14 +7763,14 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 33.5,
-     "agent_band": "agent-ready",
+     "schema_version": "0.22.0",
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -7806,7 +7806,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 18.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7849,7 +7849,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7892,7 +7892,7 @@
       "access_clarity": 14.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7935,7 +7935,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7978,7 +7978,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -8021,7 +8021,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8064,7 +8064,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8114,7 +8114,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8164,7 +8164,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8214,7 +8214,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8257,7 +8257,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8300,7 +8300,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8350,7 +8350,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8393,7 +8393,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -8436,7 +8436,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -8486,7 +8486,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8529,7 +8529,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8572,14 +8572,14 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 24.0,
+     "schema_version": "0.22.0",
+     "agent_score": 25.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "templated",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -8615,7 +8615,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8658,7 +8658,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8700,7 +8700,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8743,7 +8743,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8786,7 +8786,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8839,7 +8839,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8882,7 +8882,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8932,7 +8932,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -8982,7 +8982,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9025,7 +9025,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9068,7 +9068,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9111,7 +9111,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9154,7 +9154,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9197,7 +9197,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9240,7 +9240,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9283,7 +9283,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9326,7 +9326,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9369,7 +9369,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9419,7 +9419,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9462,7 +9462,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9505,7 +9505,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9548,7 +9548,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9591,7 +9591,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -9641,7 +9641,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9684,7 +9684,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9727,7 +9727,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9770,7 +9770,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9813,7 +9813,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9856,7 +9856,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9899,7 +9899,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9942,14 +9942,14 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 14.0,
+     "schema_version": "0.22.0",
+     "agent_score": 7.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -9985,7 +9985,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10028,7 +10028,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10071,7 +10071,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10114,7 +10114,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10167,7 +10167,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10210,7 +10210,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10253,7 +10253,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10296,7 +10296,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10339,7 +10339,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10382,7 +10382,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

@@ -28,7 +28,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -71,7 +71,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -122,7 +122,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -166,7 +166,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 54.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -209,7 +209,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -253,7 +253,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 47.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -296,7 +296,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -340,7 +340,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -398,7 +398,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -442,7 +442,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -486,7 +486,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -537,7 +537,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 65.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -580,7 +580,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -630,7 +630,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -674,7 +674,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -724,7 +724,7 @@
       "access_clarity": 89.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 59.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -767,7 +767,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 45.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -811,7 +811,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -855,7 +855,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -906,7 +906,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 60.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -960,7 +960,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 40.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1003,7 +1003,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1046,7 +1046,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1089,7 +1089,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 65.6,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1133,7 +1133,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1177,7 +1177,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1228,7 +1228,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1271,7 +1271,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 63.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1314,7 +1314,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 60.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1357,7 +1357,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1400,7 +1400,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1444,7 +1444,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1488,7 +1488,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1531,7 +1531,7 @@
       "access_clarity": 72.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1589,7 +1589,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1633,7 +1633,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1676,7 +1676,7 @@
       "access_clarity": 68.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1720,7 +1720,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1771,7 +1771,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1829,7 +1829,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1873,7 +1873,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1900,187 +1900,15 @@
      "rank": 41
     },
     {
-     "name": "Creatio",
-     "slug": "creatio",
-     "description": "Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers, AI agents, and a business process engine. Creatio serves banking, insurance, manufacturing, high tech, retail, CPG, pharmaceuticals, telecom, the public sector, and other industries. For integrations, Creatio exposes platform data and processes over an OData 4 service (recommended), a legacy OData 3 service, and the RESTful DataService web service, secured with forms (cookie) authentication via AuthService.svc or OAuth 2.0 through the Creatio Identity Service. Extensions and connectors are distributed through the Creatio Marketplace. This profile was enriched by the API Evangelist enrichment pipeline from Creatio's public developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png",
-     "score": 59.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 41.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 64.3,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Syft Data",
-     "slug": "syft-data",
-     "description": "Syft Data, Inc. is a B2B lead-intelligence platform that identifies and qualifies high-intent prospects from inbound website traffic and LinkedIn engagement. Its tracking pixel reveals anonymous visitors, enriches contacts, scores them against an Ideal Customer Profile, and triggers multi-channel outreach (\"motions\") into CRM, email, LinkedIn, and ad platforms. For developers Syft ships a schema-driven analytics SDK and CLI (npm @syftdata/*), a server-side Lookup and Export REST API secured with sk_live_ keys, outbound webhooks, and an official hosted MCP server so AI agents can query visitor data and build automations from chat.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/screenshots/syft-data-2026-08-17T082227.png",
-     "score": 59.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 70.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 64.9,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
-     "name": "Navattic",
-     "slug": "navattic",
-     "description": "Navattic is an interactive product demo platform that enables marketing and sales teams to create, manage, and embed no-code product demos without engineering involvement. The platform provides a REST API and webhook integration for automating demo workflows and syncing engagement data with CRM, marketing automation, and analytics tools. Navattic supports integrations with HubSpot, Salesforce, Marketo, Segment, Gong, and dozens of other go-to-market platforms. Teams use Navattic to accelerate sales cycles, improve lead qualification, and deliver personalized demo experiences across their entire funnel.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png",
-     "score": 59.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 57.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 47.6,
-      "access_clarity": 93.4
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 45.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "na",
-      "mcp_server": "documented",
-      "auth_clarity": "bearer",
-      "idempotency": "na",
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 44
-    },
-    {
-     "name": "Sendspark",
-     "slug": "sendspark",
-     "description": "Sendspark is a video messaging and AI-personalized video platform for sales and marketing teams. Users record a single video and use AI voice cloning, lip sync, merge tags, and dynamic thumbnails to personalize it to each prospect at scale, delivered through custom landing pages with embedded booking calendars and call-to-action buttons. Sendspark ships a Chrome extension and desktop recorder, 60+ CRM/email/automation integrations (HubSpot, Salesforce, Salesloft, Clay, Zapier, Make), a public REST API for Dynamic Video campaigns, prospects, DVM bundles, and outbound webhooks, and a hosted read-only MCP server for AI assistants. It was surfaced as a portfolio company of 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/screenshots/sendspark-2026-08-17T081802.png",
-     "score": 59.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 61.6,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 64.3,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 56.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 45
-    },
-    {
      "name": "LinkedIn Marketing API",
      "slug": "linkedin-ads",
      "description": "The LinkedIn Marketing API Program provides REST APIs that help businesses create LinkedIn marketing campaigns, report on campaign performance, manage leads from Lead Gen Forms, target matched audiences, and grow company Pages. It covers Advertising, Reporting and Analytics, Lead Sync, Matched Audiences, Audience Insights, Media Planning, Conversions, Community Management, Event Management, and Company Intelligence APIs. Authentication uses OAuth 2.0 three-legged (authorization code) flow with versioned API access.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/screenshots/linkedin-ads-2026-06-20T184545.png",
-     "score": 58.8,
+     "score": 59.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 75.9,
+      "discoverability": 83.3,
       "contract_quality": 58.1,
       "contract_governance": 18.2,
       "operational_transparency": 60.5,
@@ -2088,7 +1916,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2112,6 +1940,178 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 42
+    },
+    {
+     "name": "Creatio",
+     "slug": "creatio",
+     "description": "Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers, AI agents, and a business process engine. Creatio serves banking, insurance, manufacturing, high tech, retail, CPG, pharmaceuticals, telecom, the public sector, and other industries. For integrations, Creatio exposes platform data and processes over an OData 4 service (recommended), a legacy OData 3 service, and the RESTful DataService web service, secured with forms (cookie) authentication via AuthService.svc or OAuth 2.0 through the Creatio Identity Service. Extensions and connectors are distributed through the Creatio Marketplace. This profile was enriched by the API Evangelist enrichment pipeline from Creatio's public developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png",
+     "score": 59.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 41.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 64.3,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 43
+    },
+    {
+     "name": "Syft Data",
+     "slug": "syft-data",
+     "description": "Syft Data, Inc. is a B2B lead-intelligence platform that identifies and qualifies high-intent prospects from inbound website traffic and LinkedIn engagement. Its tracking pixel reveals anonymous visitors, enriches contacts, scores them against an Ideal Customer Profile, and triggers multi-channel outreach (\"motions\") into CRM, email, LinkedIn, and ad platforms. For developers Syft ships a schema-driven analytics SDK and CLI (npm @syftdata/*), a server-side Lookup and Export REST API secured with sk_live_ keys, outbound webhooks, and an official hosted MCP server so AI agents can query visitor data and build automations from chat.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/syft-data/refs/heads/main/screenshots/syft-data-2026-08-17T082227.png",
+     "score": 59.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 70.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 64.9,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 44
+    },
+    {
+     "name": "Navattic",
+     "slug": "navattic",
+     "description": "Navattic is an interactive product demo platform that enables marketing and sales teams to create, manage, and embed no-code product demos without engineering involvement. The platform provides a REST API and webhook integration for automating demo workflows and syncing engagement data with CRM, marketing automation, and analytics tools. Navattic supports integrations with HubSpot, Salesforce, Marketo, Segment, Gong, and dozens of other go-to-market platforms. Teams use Navattic to accelerate sales cycles, improve lead qualification, and deliver personalized demo experiences across their entire funnel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png",
+     "score": 59.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 57.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 47.6,
+      "access_clarity": 93.4
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 45.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "na",
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": "na",
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 45
+    },
+    {
+     "name": "Sendspark",
+     "slug": "sendspark",
+     "description": "Sendspark is a video messaging and AI-personalized video platform for sales and marketing teams. Users record a single video and use AI voice cloning, lip sync, merge tags, and dynamic thumbnails to personalize it to each prospect at scale, delivered through custom landing pages with embedded booking calendars and call-to-action buttons. Sendspark ships a Chrome extension and desktop recorder, 60+ CRM/email/automation integrations (HubSpot, Salesforce, Salesloft, Clay, Zapier, Make), a public REST API for Dynamic Video campaigns, prospects, DVM bundles, and outbound webhooks, and a hosted read-only MCP server for AI assistants. It was surfaced as a portfolio company of 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendspark/refs/heads/main/screenshots/sendspark-2026-08-17T081802.png",
+     "score": 59.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 61.6,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 64.3,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 56.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 46
     },
     {
@@ -2131,7 +2131,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2175,7 +2175,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2218,7 +2218,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2261,7 +2261,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2305,7 +2305,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2348,7 +2348,7 @@
       "access_clarity": 81.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2392,7 +2392,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2435,7 +2435,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2478,7 +2478,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2522,7 +2522,7 @@
       "access_clarity": 67.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 61.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2565,7 +2565,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2609,7 +2609,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2653,7 +2653,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2696,7 +2696,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2750,7 +2750,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.7,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2794,7 +2794,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2838,7 +2838,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2882,7 +2882,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2925,7 +2925,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 42.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2969,7 +2969,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3013,7 +3013,7 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3056,7 +3056,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3099,7 +3099,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3142,7 +3142,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3186,7 +3186,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3230,7 +3230,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3281,7 +3281,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 53.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3324,7 +3324,7 @@
       "access_clarity": 86.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3368,7 +3368,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3412,7 +3412,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3455,7 +3455,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3499,7 +3499,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3543,7 +3543,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3586,7 +3586,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3629,7 +3629,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3672,7 +3672,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3716,7 +3716,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3759,7 +3759,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3803,7 +3803,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 52.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3847,7 +3847,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3891,7 +3891,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3935,7 +3935,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3979,7 +3979,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4023,7 +4023,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4066,7 +4066,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4110,7 +4110,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4153,7 +4153,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4196,7 +4196,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4239,7 +4239,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 46.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4283,7 +4283,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4326,7 +4326,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 11.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4369,7 +4369,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4420,7 +4420,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4464,7 +4464,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4508,7 +4508,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4552,7 +4552,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4596,7 +4596,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4639,7 +4639,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 44.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -4682,7 +4682,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4725,7 +4725,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4779,7 +4779,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4822,7 +4822,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4866,7 +4866,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4908,7 +4908,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4952,14 +4952,14 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 33.5,
-     "agent_band": "agent-ready",
+     "schema_version": "0.22.0",
+     "agent_score": 27.0,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -4995,7 +4995,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5038,7 +5038,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5081,7 +5081,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5124,7 +5124,7 @@
       "access_clarity": 22.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5167,7 +5167,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5218,7 +5218,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5269,7 +5269,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5312,7 +5312,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5356,7 +5356,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5399,7 +5399,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5442,7 +5442,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5499,7 +5499,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -5542,7 +5542,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5585,7 +5585,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5629,7 +5629,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5687,7 +5687,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5731,7 +5731,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5773,7 +5773,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5817,7 +5817,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5867,7 +5867,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5911,7 +5911,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5964,7 +5964,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6007,7 +6007,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6051,7 +6051,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6094,7 +6094,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6138,7 +6138,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6181,7 +6181,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6225,7 +6225,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6268,7 +6268,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6312,7 +6312,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6355,7 +6355,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6398,7 +6398,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -6449,7 +6449,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6493,7 +6493,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6543,7 +6543,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6586,7 +6586,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6640,7 +6640,7 @@
       "access_clarity": 22.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6683,7 +6683,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6725,7 +6725,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6767,7 +6767,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6810,7 +6810,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6853,7 +6853,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6895,7 +6895,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6938,7 +6938,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {

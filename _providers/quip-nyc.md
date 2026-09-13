@@ -28,15 +28,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 50.4
+  schema_version: '0.2'
+  score: 43.9
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 8
@@ -227,7 +227,7 @@ score:
     regime: Health
     regime_id: health
     score: 52.5
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

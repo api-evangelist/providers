@@ -33,7 +33,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 23.2
   scored_at: '2026-09-12'
 agentic_access:
@@ -60,7 +60,37 @@ apis:
   description: The service index is the entry point for the NuGet V3 API. It is a JSON document that lists all available resources and their capabilities.
   name: NuGet Service Index API
   slug: nuget-service-index-api
-artifact_total: 53
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Autocomplete API from Microsoft NuGet — 1 operation(s) for autocomplete.
+  name: Microsoft NuGet Autocomplete API
+  slug: microsoft-nuget-autocomplete-api
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Flatcontainer API from Microsoft NuGet — 3 operation(s) for flatcontainer.
+  name: Microsoft NuGet Flatcontainer API
+  slug: microsoft-nuget-flatcontainer-api
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Index.json API from Microsoft NuGet — 1 operation(s) for index.json.
+  name: Microsoft NuGet Index.json API
+  slug: microsoft-nuget-index-json-api
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Package API from Microsoft NuGet — 2 operation(s) for package.
+  name: Microsoft NuGet Package API
+  slug: microsoft-nuget-package-api
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Query API from Microsoft NuGet — 1 operation(s) for query.
+  name: Microsoft NuGet Query API
+  slug: microsoft-nuget-query-api
+- baseURL: https://api.nuget.org/v3/
+  baseurl_source: declared
+  description: The Registration5 Gz Semver2 API from Microsoft NuGet — 2 operation(s) for registration5 gz semver2.
+  name: Microsoft NuGet Registration5 Gz Semver2 API
+  slug: microsoft-nuget-registration5-gz-semver2-api
+artifact_total: 59
 collections:
 - collection_type: open
   name: API Collection
@@ -93,6 +123,22 @@ collections:
   name: NuGet Catalog Autocomplete Service Index API
   slug: open-nuget-service-index-api
 common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/NuGet
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/nuget/quickstart/install-and-use-a-package-in-visual-studio
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.nuget.org/
 - group: build
   title: ''
   type: CodeOfConduct
@@ -266,13 +312,13 @@ modified: '2026-05-19'
 name: NuGet
 nav: Providers
 network: true
-overview: 'NuGet publishes 3 APIs on the [APIs.io](https://apis.io/) network: Package Publish API, Registration API, and Service Index API. Tagged areas include Package Management, .NET, Packages, Dependencies, and Software Distribution.
+overview: 'NuGet publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Package Publish API, Registration API, Service Index API, and 6 more. Tagged areas include Package Management, .NET, Packages, Dependencies, and Software Distribution.
 
 
   The NuGet catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  NuGet''s developer surface includes authentication, developer portal, documentation, engineering blog, and 11 more developer resources.'
+  NuGet''s developer surface includes getting-started guide, support, authentication, developer portal, documentation, engineering blog, and 13 more developer resources.'
 plans:
 - name: Nuget Plans Pricing
   plan_count: 1
@@ -295,7 +341,7 @@ rules:
   slug: nuget-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 44.5
+  composite: 50.0
   coverage:
     artifact_dirs: 16
     catalog_earned: 47.3
@@ -303,14 +349,14 @@ score:
     catalog_gap: 67.8
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 5.5
   facets:
     access_clarity: 47.4
     contract_governance: 9.8
-    contract_quality: 58.0
-    developer_ergonomics: 33.3
-    discoverability: 59.3
-    operational_transparency: 10.5
+    contract_quality: 52.2
+    developer_ergonomics: 57.1
+    discoverability: 66.7
+    operational_transparency: 26.3
   open_source:
     applies: true
     score: 100.0
@@ -321,10 +367,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 7
-  schema_version: 0.21.0
+      total: 13
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0

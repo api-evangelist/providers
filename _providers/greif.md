@@ -9,32 +9,38 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: verified
     event_surface_described: false
     idempotency: false
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
-    rate_limit_signal: false
+    rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 0.0
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 30.0
   scored_at: '2026-09-12'
-api_count: 0
-artifact_total: 1
+api_count: 1
+apis:
+- baseURL: https://www.greif.com/wp-json
+  baseurl_source: declared
+  description: The WordPress REST API served by Greif's corporate website at https://www.greif.com/wp-json — 554 routes across 39 namespaces, 182 of them under wp/v2, discovered by probing the API host root on 2026-
+  name: Greif WordPress REST API
+  slug: greif-wordpress-rest-api
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -48,15 +54,102 @@ common:
   title: ''
   type: Website
   url: https://www.greif.com
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/greif-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/greif-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/greif-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/greif-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/greif-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/greif-conformance.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/greif-mcp.yml
+- group: agent
+  title: ''
+  type: x-well-known-probe
+  url: well-known/greif-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/greif-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/greif-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/greif-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/greif-rate-limits.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.greif.com/category/blog/
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.greif.com/feed/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.greif.com/contact/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.greif.com/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.greif.com/privacy-policy/
+- group: start
+  title: ''
+  type: x-customer-portal
+  url: https://www.greif.com/greif-plus/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/channel/UCFa1IzCyPcTp-ckGTcIMwNw
 created: '2026-03-24'
 description: Greif is an industrial packaging products and services leader with a vision to be the best performing customer service company in the world. Greif also offers digital tools such as the Greif Green Tool carbon footprint calculator and the Greif+ online platform for customers.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greif.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Greif
 nav: Providers
 network: true
-overview: Greif is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Packaging, Industrial, Manufacturing, Sustainability, and Fortune 1000.
+overview: 'Greif publishes 1 API on the [APIs.io](https://apis.io/) network: WordPress REST API. Tagged areas include Packaging, Industrial, Manufacturing, Sustainability, and Fortune 1000.
+
+
+  Greif''s developer surface includes authentication, engineering blog, support, YouTube channel, and 19 more developer resources.'
+plans:
+- name: Greif Plans Pricing
+  plan_count: 0
+  slug: greif-plans-pricing
 press:
 - date: '2026-05-25'
   title: Greif Inc. Acquires Reliance Products Ltd.
@@ -74,34 +167,50 @@ press:
   title: Greif Inc. Class A (GEF) reports earnings - Quartz
   url: https://qz.com/greif-inc-class-a-gef-reports-earnings-1851727534
 random_paper: 0
+rate_limits:
+- limit_count: 0
+  name: Greif Rate Limits
+  slug: greif-rate-limits
 score:
-  band: minimal
-  composite: 5.0
+  band: thin
+  composite: 28.7
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 27.0
+    artifact_dirs: 20
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 23.7
   facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
+    access_clarity: 21.1
+    contract_governance: 4.5
+    contract_quality: 54.5
+    developer_ergonomics: 20.8
+    discoverability: 68.5
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.21.0
+  provenance:
+    conformance: derived
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/greif/refs/heads/main/screenshots/greif-2026-06-20T182402.png
 security:
+- kind: authentication
+  name: Greif Authentication
+  slug: greif-authentication
+  summary_line: apiKey/http · 2 schemes
 - kind: domain-security
   name: Greif Domain Security
   slug: greif-domain-security

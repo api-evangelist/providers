@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 32.2
   scored_at: '2026-09-12'
 agentic_access:
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: microsoft-office-agentic-access
   summary_line: 15 operations · 4 acting
-api_count: 9
+api_count: 10
 apis:
 - description: API for interacting with Microsoft Word documents, including reading, writing, and formatting content.
   name: Word API
@@ -77,6 +77,9 @@ apis:
   description: The Teams API from Microsoft Office — 4 operation(s) for teams.
   name: Microsoft Office Teams API
   slug: microsoft-office-teams-api
+- description: JavaScript API for building add-ins for Word, Excel, PowerPoint, and Outlook.
+  name: Office Add-ins API
+  slug: office-add-ins-api
 arazzos:
 - description: Resolve the user's drive, browse the root, inspect an item, and download its content.
   name: Microsoft Office Discover and Download a OneDrive File
@@ -102,7 +105,7 @@ arazzos:
 - description: Resolve a joined team, check for an existing channel, create it when missing, and post a kickoff message.
   name: Microsoft Office Provision a Teams Channel and Announce It
   slug: microsoft-office-teams-channel-provisioning-workflow
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: API Collection
@@ -312,7 +315,7 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.0
+  composite: 51.8
   coverage:
     artifact_dirs: 26
     catalog_earned: 49.0
@@ -320,13 +323,13 @@ score:
     catalog_gap: 66.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.8
   facets:
     access_clarity: 55.3
     contract_governance: 4.5
     contract_quality: 50.3
     developer_ergonomics: 78.6
-    discoverability: 74.1
+    discoverability: 81.5
     operational_transparency: 34.2
   previous_composite: 51.0
   provenance:
@@ -338,7 +341,7 @@ score:
       marker_coverage: 0.0
       total: 4
     mcp: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

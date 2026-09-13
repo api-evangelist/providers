@@ -12,28 +12,29 @@ access_model:
   try_now: true
 agent_readiness:
   band: agent-ready
+  band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: true
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 30.2
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 46.8
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 10
@@ -89,7 +90,7 @@ apis:
   description: The Sinks API from Google Cloud Logging — 1 operation(s) for sinks.
   name: Google Cloud Logging Sinks API
   slug: google-cloud-logging-sinks-api
-artifact_total: 28
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -152,7 +153,7 @@ common:
 - group: start
   title: ''
   type: GettingStarted
-  url: https://cloud.google.com/logging/docs/quickstarts
+  url: https://cloud.google.com/logging/docs/quickstart
 - group: auth
   title: ''
   type: Authentication
@@ -228,65 +229,184 @@ common:
 - group: auth
   title: ''
   type: Security
-  url: https://cloud.google.com/logging/docs/access-control
+  url: https://g.co/vrp
+- group: other
+  title: ''
+  type: Discovery
+  url: discovery/google-cloud-logging-discovery-v2.json
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-cloud-logging-logging.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-cloud-logging-logging-config.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-cloud-logging-logging-metrics.proto
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/google-cloud-logging-log-entry.proto
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/google-cloud-logging-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/google-cloud-logging-tool-crosswalk.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-cloud-logging-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/google-cloud-logging-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/google-cloud-logging-cli.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-cloud-logging-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-cloud-logging-security.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-cloud-logging-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/google-cloud-logging-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/google-cloud-logging-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/google-cloud-logging-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-cloud-logging-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://cloud.google.com/terms/deprecation
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/google-cloud-logging-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://cloud.google.com/security/compliance
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/google-cloud-logging-trust-center.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/google-cloud-logging-data-model.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/google-cloud-logging-sandbox.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/google-cloud-logging-changelog.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/google-cloud-logging-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/google-cloud-logging-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/google-cloud-logging-finops.yml
 created: '2024-01-01'
-description: Google Cloud Logging is a fully-managed service that performs at scale and can ingest application and system log data from thousands of VMs. Allows you to search, monitor, and analyze log data and events from Google Cloud and AWS.
+description: Google Cloud Logging is a fully managed, real-time log management service that ingests, stores, searches, analyzes, routes and alerts on application and system log data at scale across Google Cloud, AWS and on-premises environments. The v2 API writes log entries and manages the configuration surface behind them — log buckets and views, Log Router sinks and exclusions, logs-based metrics, log scopes, linked BigQuery datasets and CMEK settings. Google publishes it as a Discovery document with 254 methods, as first-party gRPC service definitions, through seven official client libraries and the gcloud logging command group, and — since April 2026 — through a fully managed remote MCP server at logging.googleapis.com/mcp that exposes six read-only tools to agents.
 finops:
 - name: Google Cloud Logging Finops
   service_category: API
   slug: google-cloud-logging-finops
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Cloud Logging MCP server
+  slug: cloud-logging-mcp-server
+modified: '2026-09-12'
 name: Google Cloud Logging
 nav: Providers
 network: true
-overview: 'Google Cloud Logging publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bucket API, Buckets API, Entries:copy API, and 6 more. Tagged areas include Cloud, Logging, Monitoring, and Observability.
+overview: 'Google Cloud Logging publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Bucket API, Buckets API, Entries:copy API, and 6 more. Tagged areas include Cloud, Logging, Monitoring, Observability, and Telemetry.
 
 
-  Google Cloud Logging''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, changelog, documentation, and 19 more developer resources.'
+  Google Cloud Logging''s developer surface includes authentication, developer portal, getting-started guide, support, engineering blog, changelog, documentation, and 47 more developer resources.'
 plans:
 - name: Google Cloud Logging Plans Pricing
-  plan_count: 3
+  plan_count: 1
   slug: google-cloud-logging-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 5
+- limit_count: 8
   name: Google Cloud Logging Rate Limits
   slug: google-cloud-logging-rate-limits
 scopes:
 - name: Google Cloud Logging Scopes
-  scope_count: 4
+  scope_count: 5
   slug: google-cloud-logging-scopes
-  summary_line: 4 scopes · authorizationCode
+  summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 48.7
+  band: strong
+  composite: 64.2
   coverage:
-    artifact_dirs: 11
-    catalog_earned: 39.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    artifact_dirs: 27
+    catalog_earned: 58.0
+    catalog_earned_first_party: 20.0
+    catalog_gap: 57.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 15.5
   facets:
-    access_clarity: 47.4
-    contract_governance: 0.0
+    access_clarity: 76.3
+    contract_governance: 18.2
     contract_quality: 51.0
-    developer_ergonomics: 73.8
-    discoverability: 55.6
-    operational_transparency: 52.6
+    developer_ergonomics: 82.7
+    discoverability: 72.2
+    operational_transparency: 84.2
   previous_composite: 48.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.21.0
+    mcp: first-party
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -295,7 +415,7 @@ security:
 - kind: authentication
   name: Google Cloud Logging Authentication
   slug: google-cloud-logging-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 - kind: domain-security
   name: Google Cloud Logging Domain Security
   slug: google-cloud-logging-domain-security
@@ -304,11 +424,21 @@ security:
   name: Google Cloud Logging Vulnerability Disclosure
   slug: google-cloud-logging-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Google Cloud Logging Trust Center
+  slug: google-cloud-logging-trust-center
+  summary_line: SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 22301, PCI DSS, HIPAA, FedRAMP, CSA STAR, BSI C5, IRAP
 slug: google-cloud-logging
 tags:
 - Cloud
 - Logging
 - Monitoring
 - Observability
+- Telemetry
+- Log Management
+- SRE
+- DevOps
+- OpenTelemetry
+- Google Cloud
 website: https://cloud.google.com
 ---

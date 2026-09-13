@@ -1,6 +1,6 @@
 {
- "total": 273,
- "shown": 273,
+ "total": 274,
+ "shown": 274,
  "limit": 1000,
  "bands": [
   {
@@ -28,7 +28,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -71,7 +71,7 @@
       "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -121,7 +121,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -164,14 +164,14 @@
       "access_clarity": 82.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 45.5,
+     "schema_version": "0.22.0",
+     "agent_score": 47.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "templated",
       "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "verified",
@@ -207,7 +207,7 @@
       "access_clarity": 72.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -257,7 +257,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -307,7 +307,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -357,7 +357,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -407,7 +407,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -457,7 +457,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 47.2,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -511,7 +511,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -554,7 +554,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -597,7 +597,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -647,7 +647,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -697,7 +697,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -747,7 +747,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 67.9,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -790,7 +790,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -840,7 +840,7 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 49.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -883,7 +883,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -926,7 +926,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -969,7 +969,7 @@
       "access_clarity": 56.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1012,7 +1012,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1055,7 +1055,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1105,7 +1105,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1148,7 +1148,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1213,7 +1213,7 @@
       "access_clarity": 40.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1262,7 +1262,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1305,7 +1305,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1348,7 +1348,7 @@
       "access_clarity": 67.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1391,7 +1391,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1452,7 +1452,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1513,7 +1513,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 38.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1567,7 +1567,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1610,7 +1610,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1660,7 +1660,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1703,7 +1703,7 @@
       "access_clarity": 78.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1746,7 +1746,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1796,7 +1796,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 62.1,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -1839,7 +1839,7 @@
       "access_clarity": 48.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1882,7 +1882,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1925,7 +1925,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1968,7 +1968,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2011,7 +2011,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2054,7 +2054,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2104,7 +2104,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2147,7 +2147,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 54.9,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2190,7 +2190,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2233,7 +2233,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2283,7 +2283,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2326,7 +2326,7 @@
       "access_clarity": 40.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2369,7 +2369,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2412,7 +2412,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2455,7 +2455,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2498,7 +2498,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -2548,7 +2548,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2591,7 +2591,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 59.5,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -2634,7 +2634,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 35.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2677,7 +2677,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2720,7 +2720,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2763,7 +2763,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2806,7 +2806,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2849,7 +2849,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2892,7 +2892,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 39.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2935,7 +2935,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -2978,7 +2978,7 @@
       "access_clarity": 61.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3021,7 +3021,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3064,7 +3064,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3107,7 +3107,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3150,7 +3150,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3193,7 +3193,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3236,7 +3236,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3279,7 +3279,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3322,7 +3322,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3365,7 +3365,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 50.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3408,7 +3408,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3451,7 +3451,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3494,7 +3494,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3537,7 +3537,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3580,7 +3580,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 39.8,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -3623,7 +3623,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3666,7 +3666,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3709,7 +3709,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3752,7 +3752,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3795,7 +3795,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 51.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3838,7 +3838,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3881,7 +3881,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.0,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3924,7 +3924,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -3967,7 +3967,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4010,7 +4010,7 @@
       "access_clarity": 51.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4053,7 +4053,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4114,7 +4114,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -4164,14 +4164,14 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 36.7,
+     "schema_version": "0.22.0",
+     "agent_score": 30.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -4207,7 +4207,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4250,7 +4250,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4293,7 +4293,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4336,14 +4336,14 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 34.7,
+     "schema_version": "0.22.0",
+     "agent_score": 31.3,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "templated",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -4379,7 +4379,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4422,7 +4422,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4475,7 +4475,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -4525,7 +4525,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4568,7 +4568,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4611,7 +4611,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4654,7 +4654,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4697,7 +4697,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4747,7 +4747,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4790,7 +4790,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -4833,7 +4833,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4876,7 +4876,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4919,7 +4919,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4962,7 +4962,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5004,7 +5004,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5047,7 +5047,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5090,7 +5090,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5133,7 +5133,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5176,7 +5176,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5226,7 +5226,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -5269,7 +5269,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5312,7 +5312,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5355,7 +5355,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5398,7 +5398,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5441,7 +5441,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5491,7 +5491,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -5541,7 +5541,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5584,7 +5584,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5627,7 +5627,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5670,7 +5670,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5713,7 +5713,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5756,7 +5756,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5799,7 +5799,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 18.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -5842,7 +5842,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5907,7 +5907,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5972,7 +5972,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6015,7 +6015,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6058,7 +6058,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6101,7 +6101,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6144,7 +6144,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6187,7 +6187,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6230,7 +6230,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6273,7 +6273,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6316,7 +6316,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6359,7 +6359,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6402,7 +6402,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 29.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -6445,7 +6445,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6488,7 +6488,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -6538,7 +6538,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6581,7 +6581,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6624,7 +6624,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6667,7 +6667,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 4.3,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6710,7 +6710,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6753,7 +6753,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6796,7 +6796,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6861,7 +6861,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 7.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6904,7 +6904,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6954,7 +6954,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6997,7 +6997,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.2,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -7040,7 +7040,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7083,7 +7083,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 14.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7126,7 +7126,7 @@
       "access_clarity": 81.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7169,7 +7169,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7219,7 +7219,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7262,7 +7262,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7305,7 +7305,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7366,7 +7366,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7399,8 +7399,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 65,
-   "shown": 65,
+   "count": 66,
+   "shown": 66,
    "providers": [
     {
      "name": "Zoho Desk",
@@ -7419,7 +7419,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7461,7 +7461,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7504,7 +7504,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7547,7 +7547,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7590,7 +7590,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7633,7 +7633,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7676,7 +7676,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -7726,7 +7726,7 @@
       "access_clarity": 69.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7769,7 +7769,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7812,7 +7812,7 @@
       "access_clarity": 51.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7855,7 +7855,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 13.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7898,7 +7898,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7941,7 +7941,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7984,7 +7984,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8027,7 +8027,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8070,7 +8070,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -8120,7 +8120,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8181,7 +8181,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8224,7 +8224,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8267,7 +8267,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8310,7 +8310,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -8353,7 +8353,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8396,7 +8396,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8439,7 +8439,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8482,7 +8482,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8525,7 +8525,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8568,7 +8568,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8611,7 +8611,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8654,7 +8654,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8697,7 +8697,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8740,7 +8740,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8783,7 +8783,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8826,7 +8826,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8869,7 +8869,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8912,7 +8912,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8955,7 +8955,7 @@
       "access_clarity": 22.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8998,7 +8998,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9041,7 +9041,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9084,7 +9084,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9127,7 +9127,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9154,6 +9154,55 @@
      "rank": 203
     },
     {
+     "name": "AgentifAI",
+     "slug": "agentifai",
+     "description": "AgentifAI is a Portuguese enterprise conversational-AI company, headquartered in Braga, that builds AliceOS - a voice-first AI contact-center and autonomous agent platform purpose-built for the regulated banking and healthcare sectors. AliceOS is sold as a managed enterprise deployment rather than a self-serve developer product: it orchestrates multi-agent workflows across phone, WhatsApp, SMS, email and web, and integrates with core banking systems, CRMs, fraud engines, Hospital Information Systems and EMR/EHR platforms over REST, SOAP and OAuth, with SIP and CTI telephony adapters. Reference deployments include Santander, Banco BPI, Caixa Geral de Depositos, Vivalto Sante, Lusiadas Saude and Luz Saude. The company publishes a first-party llms.txt and a SafeBase trust center naming SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001:2023, PCI DSS v4.0.0 and HIPAA, but no public developer portal, API reference or machine-readable API contract.",
+     "score": 15.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 32.9,
+      "matched_via": "tags"
+     },
+     "agent_score": 5.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 204
+    },
+    {
      "name": "Dialogus",
      "slug": "dialogus",
      "description": "Dialogus is a frontier AI voice lab building infrastructure for enterprise-grade voice agents that resolve, trace, and control every live conversation across phone systems, internal workflows, and customer systems. Its platform connects voice agents to phone systems, internal tools, databases, CRMs, and messaging channels, with human escalation flows, monitoring, and compliance built in. Agents run a Listen, Reason, Act, and Report loop that detects turns, silence, and intent, constrains the model with workflow state and policies, executes approved tools, and produces auditable transcripts and outcomes. Dialogus targets live customer support, phone order-taking into the POS, and past-due collections, and positions itself as SOC 2 compliant for live operations. Founded by ex-Google, Meta, and Microsoft engineers, it is a Y Combinator Summer 2026 company based in San Francisco.",
@@ -9170,50 +9219,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 204
-    },
-    {
-     "name": "Eloquent AI",
-     "slug": "eloquentai",
-     "description": "Eloquent AI builds autonomous AI operators for financial services and other regulated industries, automating complex customer operations end-to-end without requiring engineering or custom APIs. Its agents observe standard operating procedures and team actions, then securely drive CRMs, browsers, and desktop applications to resolve inquiries, process refunds, and manage returns. Marquee products include Fixer (a 24/7 autonomous customer-service agent), Closer (an AI sales representative), Navigator (an onboarding and support co-pilot), and Custom Agent (tailored enterprise agents). The platform layers a self-healing engine and an evals framework for quality assurance and regulatory compliance, and deploys across email, chat, SMS, WhatsApp, and voice with integrations into Salesforce, Zendesk, HubSpot, and Stripe. Founded in 2025 and based in San Francisco, it serves banking, insurance, fintech, cash advance, debt recovery, and SaaS. This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist pipeline; the developer documentation portal is currently password-protected, so no public API specification is available yet.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eloquentai/refs/heads/main/screenshots/eloquentai-2026-07-25T213210.png",
-     "score": 15.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9240,23 +9246,23 @@
      "rank": 205
     },
     {
-     "name": "Chatter Research",
-     "slug": "chatter-research",
-     "description": "Chatter Research (now Chatter by Stingray) is a customer feedback and experience management platform built for modern retailers. It engages shoppers in AI-driven conversational text-message and QR-code surveys that deliver higher response rates and real-time feedback, then uses the Stingray-Chatter AI (trained on 7000+ retail topics) to categorize free-text replies into topics and sentiment. Role-based dashboards surface NPS/CSAT, benchmarks, topic explorers, and NPS boosters so store teams can save lost sales, drive loyalty enrollment, and generate online reviews. Founded in 2016 and acquired by Stingray, the company is a former 500 Global portfolio company. The product is a SaaS dashboard with a help center and CSV data exports; it publishes no public developer API at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chatter-research/refs/heads/main/screenshots/chatter-research-2026-07-25T205123.png",
-     "score": 15.2,
+     "name": "Eloquent AI",
+     "slug": "eloquentai",
+     "description": "Eloquent AI builds autonomous AI operators for financial services and other regulated industries, automating complex customer operations end-to-end without requiring engineering or custom APIs. Its agents observe standard operating procedures and team actions, then securely drive CRMs, browsers, and desktop applications to resolve inquiries, process refunds, and manage returns. Marquee products include Fixer (a 24/7 autonomous customer-service agent), Closer (an AI sales representative), Navigator (an onboarding and support co-pilot), and Custom Agent (tailored enterprise agents). The platform layers a self-healing engine and an evals framework for quality assurance and regulatory compliance, and deploys across email, chat, SMS, WhatsApp, and voice with integrations into Salesforce, Zendesk, HubSpot, and Stripe. Founded in 2025 and based in San Francisco, it serves banking, insurance, fintech, cash advance, debt recovery, and SaaS. This profile was surfaced as a portfolio-company lead and enriched by the API Evangelist pipeline; the developer documentation portal is currently password-protected, so no public API specification is available yet.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eloquentai/refs/heads/main/screenshots/eloquentai-2026-07-25T213210.png",
+     "score": 15.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 34.2
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 11.9,
+      "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9283,6 +9289,49 @@
      "rank": 206
     },
     {
+     "name": "Chatter Research",
+     "slug": "chatter-research",
+     "description": "Chatter Research (now Chatter by Stingray) is a customer feedback and experience management platform built for modern retailers. It engages shoppers in AI-driven conversational text-message and QR-code surveys that deliver higher response rates and real-time feedback, then uses the Stingray-Chatter AI (trained on 7000+ retail topics) to categorize free-text replies into topics and sentiment. Role-based dashboards surface NPS/CSAT, benchmarks, topic explorers, and NPS boosters so store teams can save lost sales, drive loyalty enrollment, and generate online reviews. Founded in 2016 and acquired by Stingray, the company is a former 500 Global portfolio company. The product is a SaaS dashboard with a help center and CSV data exports; it publishes no public developer API at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chatter-research/refs/heads/main/screenshots/chatter-research-2026-07-25T205123.png",
+     "score": 15.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 16.7,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 207
+    },
+    {
      "name": "Actium Health",
      "slug": "actium-health",
      "description": "ActiumHealth is the conversational AI platform for healthcare patient communication, operated as a division of Syllable Corporation. Its voice, SMS, chat and email agents automate inbound and outbound patient calls across appointment scheduling, prescription refill, call routing, referral management, patient surveys, care coordination and revenue cycle workflows for health systems, patient access centers, healthcare contact centers and practice groups, with more than 70 million calls reported handled. The agents integrate with Epic, Cerner and Meditech EHRs through those vendors' APIs, and the platform is marketed as built to SOC 2, HITRUST and HIPAA standards. ActiumHealth consumes EHR APIs rather than publishing one and runs no developer program on actiumhealth.com; the underlying agentic platform API, SDKs, CLI, MCP server and documentation are published by its parent at syllable.ai and catalogued here as `syllable`.",
@@ -9298,7 +9347,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9340,7 +9389,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 207
+     "rank": 208
     },
     {
      "name": "Afiniti",
@@ -9359,7 +9408,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9383,7 +9432,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 208
+     "rank": 209
     },
     {
      "name": "Callab AI",
@@ -9402,7 +9451,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9426,7 +9475,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 209
+     "rank": 210
     },
     {
      "name": "Prodigal",
@@ -9445,7 +9494,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9476,7 +9525,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 210
+     "rank": 211
     },
     {
      "name": "Kaizo",
@@ -9495,7 +9544,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9519,7 +9568,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 211
+     "rank": 212
     },
     {
      "name": "Robylon AI",
@@ -9538,7 +9587,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -9562,7 +9611,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 212
+     "rank": 213
     },
     {
      "name": "Nurix",
@@ -9581,50 +9630,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 213
-    },
-    {
-     "name": "Back",
-     "slug": "back",
-     "description": "Back is a Berlin-based employee experience and internal service platform that gives HR, IT, Finance, and Office teams one place to receive, automate, and resolve employee requests. It brings conversations from Slack, Microsoft Teams, and email into a single shared inbox, answers common questions with a self-service knowledge chatbot, and automates lifecycle journeys such as onboarding, offboarding, and leave with approvals, forms, and integrations. Founded in 2018 and backed by Point Nine and Seedcamp, Back is used by companies including Loom, Netlify, Choco, Pleo, Marley Spoon, and Statista. This profile was surfaced as a VC portfolio company and enriched by the API Evangelist pipeline; Back offers an API for custom integrations on select plans, but publishes no public developer portal, OpenAPI, or reference at time of enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/back/refs/heads/main/screenshots/back-2026-08-07T174748.png",
-     "score": 14.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 38.2
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9651,23 +9657,23 @@
      "rank": 214
     },
     {
-     "name": "Talk-A-Bot",
-     "slug": "talk-a-bot",
-     "description": "Talk-A-Bot is a Budapest-based, Techstars-backed enterprise chatbot company building compliance-first conversational AI for regulated industries including banking, healthcare, government, retail, and HR. Its platform emphasizes \"zero hallucination\" answers grounded only in verified knowledge bases, full conversation logging and audit trails, EU-based infrastructure with on-premise deployment options, and daily human review. Products include an FAQ Chatbot, an Agentic Chatbot, FeedbackHub, and the CHEQ internal-communications assistant, deployed across web, mobile, Messenger, and Viber. The company markets an API-first architecture for integrating with customer systems (CRM, ERP, payments, ticketing, HR) but publishes no public self-serve developer API, OpenAPI, or SDK; engagement is full-service. Compliance posture spans HIPAA, DORA, the EU AI Act, GDPR, and PCI DSS.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/talk-a-bot/refs/heads/main/screenshots/talk-a-bot-2026-09-02T162453.png",
-     "score": 13.3,
+     "name": "Back",
+     "slug": "back",
+     "description": "Back is a Berlin-based employee experience and internal service platform that gives HR, IT, Finance, and Office teams one place to receive, automate, and resolve employee requests. It brings conversations from Slack, Microsoft Teams, and email into a single shared inbox, answers common questions with a self-service knowledge chatbot, and automates lifecycle journeys such as onboarding, offboarding, and leave with approvals, forms, and integrations. Founded in 2018 and backed by Point Nine and Seedcamp, Back is used by companies including Loom, Netlify, Choco, Pleo, Marley Spoon, and Statista. This profile was surfaced as a VC portfolio company and enriched by the API Evangelist pipeline; Back offers an API for custom integrations on select plans, but publishes no public developer portal, OpenAPI, or reference at time of enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/back/refs/heads/main/screenshots/back-2026-08-07T174748.png",
+     "score": 14.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 36.8
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9694,66 +9700,23 @@
      "rank": 215
     },
     {
-     "name": "Imperson",
-     "slug": "imperson",
-     "description": "Imperson is an enterprise conversational-AI company and creative studio that builds turnkey, premium chatbots to automate the customer journey through natural, two-way dialogue. Its platform spans lead generation, customer support, sales and e-commerce, and engagement/entertainment, with a conversation engine, dashboard analytics, and a knowledgebase, activating across channels including Facebook Messenger, Amazon Alexa, websites, SMS, Google Assistant, native apps, and phone. Imperson operates an enterprise-sales model (no public self-serve developer API is published) and has produced chatbot experiences for brands such as Disney, Microsoft, Amazon, National Geographic, and Universal. The company was surfaced as a Techstars portfolio company and profiled into the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/imperson/refs/heads/main/screenshots/imperson-2026-07-25T222152.png",
-     "score": 13.1,
+     "name": "Talk-A-Bot",
+     "slug": "talk-a-bot",
+     "description": "Talk-A-Bot is a Budapest-based, Techstars-backed enterprise chatbot company building compliance-first conversational AI for regulated industries including banking, healthcare, government, retail, and HR. Its platform emphasizes \"zero hallucination\" answers grounded only in verified knowledge bases, full conversation logging and audit trails, EU-based infrastructure with on-premise deployment options, and daily human review. Products include an FAQ Chatbot, an Agentic Chatbot, FeedbackHub, and the CHEQ internal-communications assistant, deployed across web, mobile, Messenger, and Viber. The company markets an API-first architecture for integrating with customer systems (CRM, ERP, payments, ticketing, HR) but publishes no public self-serve developer API, OpenAPI, or SDK; engagement is full-service. Compliance posture spans HIPAA, DORA, the EU AI Act, GDPR, and PCI DSS.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/talk-a-bot/refs/heads/main/screenshots/talk-a-bot-2026-09-02T162453.png",
+     "score": 13.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 34.2
+      "developer_ergonomics": 4.8,
+      "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 14.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 216
-    },
-    {
-     "name": "Lara AI",
-     "slug": "lara-ai",
-     "description": "Lara AI is an AI agent for People and HR teams, built by SIGMA PEOPLE S.R.L. in Argentina and sold across Latin America. Lara talks to every employee in the messaging tools they already use — WhatsApp, Slack, Microsoft Teams and Google Chat — and covers five modules: Employee Experience (continuous listening, custom surveys and people analytics), Helpdesk (an AI help desk the company says automates over 80% of employee FAQs and requests), Onboarding (end-to-end automated flows for new hires), Comunicaciones (personalised, scheduled and segmented employee communications) and People Analytics (dashboards and reports built from people data). It integrates with HR platforms including SAP, BambooHR, Oracle, Buk, Humand, Mandu and Rex+, and targets retail, consumer goods, technology, consulting, banking and finance, education and manufacturing. Lara AI publishes a marketing site, a Spanish help centre and a real llms.txt, but no public API program — there is no developer portal, API reference, OpenAPI definition or SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lara-ai/refs/heads/main/screenshots/lara-ai-2026-07-25T224533.png",
-     "score": 13.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 18.2,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9777,26 +9740,69 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 217
+     "rank": 216
     },
     {
-     "name": "GoSky AI",
-     "slug": "gosky-ai",
-     "description": "GoSky AI Inc. is a Taipei-based no-code conversational marketing and social CRM platform that helps creators, brands, and enterprises automate customer engagement across Instagram, Threads, and Facebook Messenger. Founded in 2018, its product suite spans the GoSky AI Chatbot Platform (build no-code chat flows, capture leads, and auto-reply to comments and DMs in minutes), GoSky Loyal (a digital loyalty and membership points program), GoSky Ads (precision ad placement across Google, Meta, and Shopee), and GoSky AI Customer Service (generative-AI-powered 24/7 support). The company operates a hosted SaaS console at platform.goskyai.com and reports serving 400+ enterprises including Mercedes-Benz, VOGUE, and Lazada. GoSky AI is a portfolio company of 500 Global. As of this enrichment pass GoSky AI publishes no public developer API, OpenAPI, SDKs, or developer documentation surface; this profile captures its public identity, web properties, and domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gosky-ai/refs/heads/main/screenshots/gosky-ai-2026-07-25T220119.png",
-     "score": 12.9,
+     "name": "Imperson",
+     "slug": "imperson",
+     "description": "Imperson is an enterprise conversational-AI company and creative studio that builds turnkey, premium chatbots to automate the customer journey through natural, two-way dialogue. Its platform spans lead generation, customer support, sales and e-commerce, and engagement/entertainment, with a conversation engine, dashboard analytics, and a knowledgebase, activating across channels including Facebook Messenger, Amazon Alexa, websites, SMS, Google Assistant, native apps, and phone. Imperson operates an enterprise-sales model (no public self-serve developer API is published) and has produced chatbot experiences for brands such as Disney, Microsoft, Amazon, National Geographic, and Universal. The company was surfaced as a Techstars portfolio company and profiled into the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/imperson/refs/heads/main/screenshots/imperson-2026-07-25T222152.png",
+     "score": 13.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 16.7,
-      "access_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
+     "agent_score": 7.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 217
+    },
+    {
+     "name": "Lara AI",
+     "slug": "lara-ai",
+     "description": "Lara AI is an AI agent for People and HR teams, built by SIGMA PEOPLE S.R.L. in Argentina and sold across Latin America. Lara talks to every employee in the messaging tools they already use — WhatsApp, Slack, Microsoft Teams and Google Chat — and covers five modules: Employee Experience (continuous listening, custom surveys and people analytics), Helpdesk (an AI help desk the company says automates over 80% of employee FAQs and requests), Onboarding (end-to-end automated flows for new hires), Comunicaciones (personalised, scheduled and segmented employee communications) and People Analytics (dashboards and reports built from people data). It integrates with HR platforms including SAP, BambooHR, Oracle, Buk, Humand, Mandu and Rex+, and targets retail, consumer goods, technology, consulting, banking and finance, education and manufacturing. Lara AI publishes a marketing site, a Spanish help centre and a real llms.txt, but no public API program — there is no developer portal, API reference, OpenAPI definition or SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lara-ai/refs/heads/main/screenshots/lara-ai-2026-07-25T224533.png",
+     "score": 13.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9823,23 +9829,23 @@
      "rank": 218
     },
     {
-     "name": "Outverse",
-     "slug": "outverse",
-     "description": "Outverse is an enterprise \"service AI operating system\" from Outverse Limited, a UK company backed by Seedcamp and Wing Venture Capital. Its platform lets support and operations teams deploy governed AI agents across complex customer-service workflows — email, chat, voice, and API-driven actions — from a single control center. Teams define logic, policies, and human handoffs in natural language SOPs rather than rigid workflow builders, and get observability over every agent decision, tool call, workflow path, and escalation. Outverse integrates with existing CCaaS and CRM stacks (Salesforce, Freshdesk, Genesys, Twilio, Talkdesk) and offers voice agents that verify identity, retrieve data, apply policy, and resolve calls end to end. The company advertises SOC 2 and ISO 27001 certification and does not expose a public developer API at this time. Added to the API Evangelist network as a portfolio company of Seedcamp and Wing Venture Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/screenshots/outverse-2026-08-07T191119.png",
-     "score": 12.8,
+     "name": "GoSky AI",
+     "slug": "gosky-ai",
+     "description": "GoSky AI Inc. is a Taipei-based no-code conversational marketing and social CRM platform that helps creators, brands, and enterprises automate customer engagement across Instagram, Threads, and Facebook Messenger. Founded in 2018, its product suite spans the GoSky AI Chatbot Platform (build no-code chat flows, capture leads, and auto-reply to comments and DMs in minutes), GoSky Loyal (a digital loyalty and membership points program), GoSky Ads (precision ad placement across Google, Meta, and Shopee), and GoSky AI Customer Service (generative-AI-powered 24/7 support). The company operates a hosted SaaS console at platform.goskyai.com and reports serving 400+ enterprises including Mercedes-Benz, VOGUE, and Lazada. GoSky AI is a portfolio company of 500 Global. As of this enrichment pass GoSky AI publishes no public developer API, OpenAPI, SDKs, or developer documentation surface; this profile captures its public identity, web properties, and domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gosky-ai/refs/heads/main/screenshots/gosky-ai-2026-07-25T220119.png",
+     "score": 12.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 2.6,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 28.9
+      "developer_ergonomics": 16.7,
+      "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9866,23 +9872,23 @@
      "rank": 219
     },
     {
-     "name": "Cignara",
-     "slug": "cignara",
-     "description": "Cignara is an enterprise AI platform that replaces traditional customer support (FAQ bots and IVR menus) with governed voice and chat AI agents that serve, sell, and grow. Its agents handle inbound and outbound phone and chat conversations end to end across 32+ languages, pulling customer context, applying business policy, executing transactions (checkout, scheduling, refunds, retention), and offering a real-time human copilot for support teams. The platform emphasizes in-region data sovereignty and hallucination-free, policy-bound actions grounded in each enterprise's own knowledge base. Founded 2026 (Y Combinator, Spring 2026) in San Francisco; legal entity ShopAdvisor Inc.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cignara/refs/heads/main/screenshots/cignara-2026-07-25T205344.png",
-     "score": 12.6,
+     "name": "Outverse",
+     "slug": "outverse",
+     "description": "Outverse is an enterprise \"service AI operating system\" from Outverse Limited, a UK company backed by Seedcamp and Wing Venture Capital. Its platform lets support and operations teams deploy governed AI agents across complex customer-service workflows — email, chat, voice, and API-driven actions — from a single control center. Teams define logic, policies, and human handoffs in natural language SOPs rather than rigid workflow builders, and get observability over every agent decision, tool call, workflow path, and escalation. Outverse integrates with existing CCaaS and CRM stacks (Salesforce, Freshdesk, Genesys, Twilio, Talkdesk) and offers voice agents that verify identity, retrieve data, apply policy, and resolve calls end to end. The company advertises SOC 2 and ISO 27001 certification and does not expose a public developer API at this time. Added to the API Evangelist network as a portfolio company of Seedcamp and Wing Venture Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/outverse/refs/heads/main/screenshots/outverse-2026-08-07T191119.png",
+     "score": 12.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 38.2
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9909,23 +9915,23 @@
      "rank": 220
     },
     {
-     "name": "Hoop",
-     "slug": "hoop",
-     "description": "Hoop is an AI retention agent for Shopify subscription brands, built by the founding team behind Trello and backed by Index Ventures. It plugs into a brand's helpdesk (Gorgias, Zendesk, or Kustomer), intercepts every subscription-cancellation ticket, and runs a tailored save conversation in the brand's voice: it asks why the subscriber wants to leave, then matches a retention offer (pause, plan swap, discount, or skip) to the stated reason and writes the accepted change back to the billing tool (Recharge or Skio) automatically. Hoop logs every cancellation reason, offer, and outcome so brands learn why subscribers churn, and lets teams A/B test save offers through plain-English policy changes rather than macros. It is an end-user SaaS application rather than an API provider — it consumes the Shopify, Gorgias, Zendesk, Recharge, and Skio APIs and exposes no public developer API, SDK, or documentation of its own.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hoop/refs/heads/main/screenshots/hoop-2026-07-25T221415.png",
-     "score": 12.5,
+     "name": "Cignara",
+     "slug": "cignara",
+     "description": "Cignara is an enterprise AI platform that replaces traditional customer support (FAQ bots and IVR menus) with governed voice and chat AI agents that serve, sell, and grow. Its agents handle inbound and outbound phone and chat conversations end to end across 32+ languages, pulling customer context, applying business policy, executing transactions (checkout, scheduling, refunds, retention), and offering a real-time human copilot for support teams. The platform emphasizes in-region data sovereignty and hallucination-free, policy-bound actions grounded in each enterprise's own knowledge base. Founded 2026 (Y Combinator, Spring 2026) in San Francisco; legal entity ShopAdvisor Inc.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cignara/refs/heads/main/screenshots/cignara-2026-07-25T205344.png",
+     "score": 12.6,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 31.6
+      "developer_ergonomics": 0.0,
+      "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9952,23 +9958,23 @@
      "rank": 221
     },
     {
-     "name": "swivl",
-     "slug": "swivl",
-     "description": "swivl is an AI automation platform built specifically for the self-storage industry. It combines a unified CRM and contact center that consolidates calls, texts, emails, and chats with AI agents for sales, billing, support, and review management, plus a tenant mobile app (Spot) for access codes, payments, and referrals. Its self-storage natural-language model is trained on hundreds of thousands of customer conversations and serves 3,500+ locations. Founded in New York City and backed by Techstars, swivl advertises open APIs and integrations with major self-storage management systems, but publishes no public developer portal, API reference, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swivl/refs/heads/main/screenshots/swivl-2026-09-02T161420.png",
-     "score": 12.3,
+     "name": "Hoop",
+     "slug": "hoop",
+     "description": "Hoop is an AI retention agent for Shopify subscription brands, built by the founding team behind Trello and backed by Index Ventures. It plugs into a brand's helpdesk (Gorgias, Zendesk, or Kustomer), intercepts every subscription-cancellation ticket, and runs a tailored save conversation in the brand's voice: it asks why the subscriber wants to leave, then matches a retention offer (pause, plan swap, discount, or skip) to the stated reason and writes the accepted change back to the billing tool (Recharge or Skio) automatically. Hoop logs every cancellation reason, offer, and outcome so brands learn why subscribers churn, and lets teams A/B test save offers through plain-English policy changes rather than macros. It is an end-user SaaS application rather than an API provider — it consumes the Shopify, Gorgias, Zendesk, Recharge, and Skio APIs and exposes no public developer API, SDK, or documentation of its own.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hoop/refs/heads/main/screenshots/hoop-2026-07-25T221415.png",
+     "score": 12.5,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "access_clarity": 34.2
+      "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9995,11 +10001,11 @@
      "rank": 222
     },
     {
-     "name": "Zoomin",
-     "slug": "zoomin",
-     "description": "Zoomin is a content and knowledge orchestration platform that unifies unstructured product content — documentation, in-product help, knowledge base and community answers — into personalized self-service and in-app experiences across customer support, success and experience teams. Founded in Tel Aviv, Zoomin was acquired by Salesforce on November 1, 2024 and now powers the Unified Knowledge and Agentforce/Data Cloud offerings. Its products include the Content Delivery Platform, Documentation Portal, In-Product Help, Zoomin for ServiceNow, Unified Knowledge and Zoomin Analytics. Zoomin does not publish a public, self-serve developer API surface; its integrations are delivered through customer implementations and the Salesforce platform. This profile was surfaced as a Bessemer Venture Partners portfolio company.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoomin/refs/heads/main/screenshots/zoomin-2026-09-02T171838.png",
-     "score": 12.1,
+     "name": "swivl",
+     "slug": "swivl",
+     "description": "swivl is an AI automation platform built specifically for the self-storage industry. It combines a unified CRM and contact center that consolidates calls, texts, emails, and chats with AI agents for sales, billing, support, and review management, plus a tenant mobile app (Spot) for access codes, payments, and referrals. Its self-storage natural-language model is trained on hundreds of thousands of customer conversations and serves 3,500+ locations. Founded in New York City and backed by Techstars, swivl advertises open APIs and integrations with major self-storage management systems, but publishes no public developer portal, API reference, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/swivl/refs/heads/main/screenshots/swivl-2026-09-02T161420.png",
+     "score": 12.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -10007,11 +10013,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 14.3,
-      "access_clarity": 21.1
+      "developer_ergonomics": 2.4,
+      "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10038,22 +10044,23 @@
      "rank": 223
     },
     {
-     "name": "Serve First",
-     "slug": "serve-first",
-     "description": "Serve First is a UK-based AI-driven customer experience (CX) platform that unifies reviews, surveys, receipts, in-location feedback terminals, operational audits, and mystery shopping into a single dashboard. It turns real-time customer feedback into role-based, actionable insight, with sentiment analysis and unified reporting across retail, hospitality, facilities management, health & wellness, and franchise businesses. Serve First also provides Client Connect journey/workflow automation and Martyn's Law public-protection compliance management. Serve First does not currently publish a public developer API or OpenAPI specification; this profile captures company identity plus verified security and compliance posture (SOC 2 and ISO 27001 via a Sprinto-hosted trust center).",
-     "score": 12.0,
+     "name": "Zoomin",
+     "slug": "zoomin",
+     "description": "Zoomin is a content and knowledge orchestration platform that unifies unstructured product content — documentation, in-product help, knowledge base and community answers — into personalized self-service and in-app experiences across customer support, success and experience teams. Founded in Tel Aviv, Zoomin was acquired by Salesforce on November 1, 2024 and now powers the Unified Knowledge and Agentforce/Data Cloud offerings. Its products include the Content Delivery Platform, Documentation Portal, In-Product Help, Zoomin for ServiceNow, Unified Knowledge and Zoomin Analytics. Zoomin does not publish a public, self-serve developer API surface; its integrations are delivered through customer implementations and the Salesforce platform. This profile was surfaced as a Bessemer Venture Partners portfolio company.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoomin/refs/heads/main/screenshots/zoomin-2026-09-02T171838.png",
+     "score": 12.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 3.6,
-      "access_clarity": 27.6
+      "developer_ergonomics": 14.3,
+      "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10080,23 +10087,22 @@
      "rank": 224
     },
     {
-     "name": "Item",
-     "slug": "item",
-     "description": "Item is an AI-native customer relationship management (CRM) platform, part of Y Combinator's Fall 2025 batch. It replaces the traditional CRM with an AI Assistant that handles daily work in plain language and customizable Agents that autonomously execute business processes across sales, support, and account management. Item connects to 100+ customer tools, gathers and enriches context automatically, discovers leads that match an ideal customer profile, and becomes a company's single source of truth for people, companies, and deals.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/item/refs/heads/main/screenshots/item-2026-07-25T223004.png",
-     "score": 11.8,
+     "name": "Serve First",
+     "slug": "serve-first",
+     "description": "Serve First is a UK-based AI-driven customer experience (CX) platform that unifies reviews, surveys, receipts, in-location feedback terminals, operational audits, and mystery shopping into a single dashboard. It turns real-time customer feedback into role-based, actionable insight, with sentiment analysis and unified reporting across retail, hospitality, facilities management, health & wellness, and franchise businesses. Serve First also provides Client Connect journey/workflow automation and Martyn's Law public-protection compliance management. Serve First does not currently publish a public developer API or OpenAPI specification; this profile captures company identity plus verified security and compliance posture (SOC 2 and ISO 27001 via a Sprinto-hosted trust center).",
+     "score": 12.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 34.2
+      "developer_ergonomics": 3.6,
+      "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10123,23 +10129,23 @@
      "rank": 225
     },
     {
-     "name": "Lance",
-     "slug": "lance",
-     "description": "Lance (Lance AI, Inc.) is a Y Combinator Winter 2026 company building autonomous AI agents for hotel operations. Its platform handles guest interactions and back-of-house coordination end to end: a Receptionist agent answers guest calls, SMS, email, and hotel messaging platforms 24/7 in multiple languages, resolving questions and routing service requests; a Sales agent responds to booking inquiries and RFPs, qualifies leads, and follows up on opportunities; and Lance Pad is a tablet-based coordination surface that replaces walkie-talkies and tracks guest requests, housekeeping, work orders, and scheduling in real time. Lance reports use across brands including Marriott, Hilton, and Hyatt and more than 50 hotels, citing an 89% call success rate and a 30%+ reduction in front-desk call volume. Architecturally the company is notable for deliberately avoiding integration APIs: it uses computer-use and computer-vision agents to drive legacy property management, task, and reservation systems through their user interfaces rather than through vendor APIs. Lance is surfaced here as a portfolio company of Y Combinator. It publishes no public developer API, OpenAPI definition, SDKs, developer portal, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lance/refs/heads/main/screenshots/lance-2026-07-25T224604.png",
-     "score": 11.3,
+     "name": "Item",
+     "slug": "item",
+     "description": "Item is an AI-native customer relationship management (CRM) platform, part of Y Combinator's Fall 2025 batch. It replaces the traditional CRM with an AI Assistant that handles daily work in plain language and customizable Agents that autonomously execute business processes across sales, support, and account management. Item connects to 100+ customer tools, gathers and enriches context automatically, discovers leads that match an ideal customer profile, and becomes a company's single source of truth for people, companies, and deals.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/item/refs/heads/main/screenshots/item-2026-07-25T223004.png",
+     "score": 11.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 27.6
+      "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10166,23 +10172,23 @@
      "rank": 226
     },
     {
-     "name": "Omnee",
-     "slug": "omnee",
-     "description": "Omnee (Omnee AI) is a Techstars-backed startup providing an AI-powered customer care platform built for residential homebuilders. It pairs a per-home digital \"home twin\" data record with a personalized, multilingual AI assistant that handles buyer support and warranty management 24/7, claiming to increase warranty-department capacity by over 60%. Products are sold per-home (Warranty Triage, AI Customer Care, and an Enterprise Partner tier with custom integrations). The company operates a marketing and product website but does not publish a public developer API, developer portal, or API documentation; this profile was enriched from its public site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/omnee/refs/heads/main/screenshots/omnee-2026-08-07T190141.png",
+     "name": "Lance",
+     "slug": "lance",
+     "description": "Lance (Lance AI, Inc.) is a Y Combinator Winter 2026 company building autonomous AI agents for hotel operations. Its platform handles guest interactions and back-of-house coordination end to end: a Receptionist agent answers guest calls, SMS, email, and hotel messaging platforms 24/7 in multiple languages, resolving questions and routing service requests; a Sales agent responds to booking inquiries and RFPs, qualifies leads, and follows up on opportunities; and Lance Pad is a tablet-based coordination surface that replaces walkie-talkies and tracks guest requests, housekeeping, work orders, and scheduling in real time. Lance reports use across brands including Marriott, Hilton, and Hyatt and more than 50 hotels, citing an 89% call success rate and a 30%+ reduction in front-desk call volume. Architecturally the company is notable for deliberately avoiding integration APIs: it uses computer-use and computer-vision agents to drive legacy property management, task, and reservation systems through their user interfaces rather than through vendor APIs. Lance is surfaced here as a portfolio company of Y Combinator. It publishes no public developer API, OpenAPI definition, SDKs, developer portal, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lance/refs/heads/main/screenshots/lance-2026-07-25T224604.png",
      "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
-      "access_clarity": 31.6
+      "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10209,11 +10215,11 @@
      "rank": 227
     },
     {
-     "name": "Mavenoid",
-     "slug": "mavenoid",
-     "description": "Mavenoid is an AI agent platform for product support, helping hardware and consumer-electronics companies deflect and resolve customer issues through self-service troubleshooting across voice, text, image, and video. Its products include Voice Assist (AI call routing and self-service), a Dynamic Help Center that surfaces AI-powered support in search results, an embeddable Virtual Assistant, and an Insights analytics dashboard. Mavenoid connects to CRM, ticketing, ERP, e-commerce, and IoT systems. The company is backed by Creandum and Point Nine. As of this enrichment pass Mavenoid publishes no public developer API, OpenAPI/AsyncAPI specification, SDK, or well-known discovery surface; integrations are configured within its product rather than via a documented public REST API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mavenoid/refs/heads/main/screenshots/mavenoid-2026-07-25T230433.png",
-     "score": 11.2,
+     "name": "Omnee",
+     "slug": "omnee",
+     "description": "Omnee (Omnee AI) is a Techstars-backed startup providing an AI-powered customer care platform built for residential homebuilders. It pairs a per-home digital \"home twin\" data record with a personalized, multilingual AI assistant that handles buyer support and warranty management 24/7, claiming to increase warranty-department capacity by over 60%. Products are sold per-home (Warranty Triage, AI Customer Care, and an Enterprise Partner tier with custom integrations). The company operates a marketing and product website but does not publish a public developer API, developer portal, or API documentation; this profile was enriched from its public site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/omnee/refs/heads/main/screenshots/omnee-2026-08-07T190141.png",
+     "score": 11.3,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
@@ -10221,11 +10227,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 23.7
+      "developer_ergonomics": 0.0,
+      "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10250,6 +10256,49 @@
       "agentic_commerce": false
      },
      "rank": 228
+    },
+    {
+     "name": "Mavenoid",
+     "slug": "mavenoid",
+     "description": "Mavenoid is an AI agent platform for product support, helping hardware and consumer-electronics companies deflect and resolve customer issues through self-service troubleshooting across voice, text, image, and video. Its products include Voice Assist (AI call routing and self-service), a Dynamic Help Center that surfaces AI-powered support in search results, an embeddable Virtual Assistant, and an Insights analytics dashboard. Mavenoid connects to CRM, ticketing, ERP, e-commerce, and IoT systems. The company is backed by Creandum and Point Nine. As of this enrichment pass Mavenoid publishes no public developer API, OpenAPI/AsyncAPI specification, SDK, or well-known discovery surface; integrations are configured within its product rather than via a documented public REST API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mavenoid/refs/heads/main/screenshots/mavenoid-2026-07-25T230433.png",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 23.7
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 229
     }
    ]
   },
@@ -10278,50 +10327,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 229
-    },
-    {
-     "name": "Miuros",
-     "slug": "miuros",
-     "description": "Miuros is a performance platform for customer service that provides AI-powered analytics, quality assurance (Review & Insights), and agent-assist automation (Assist) for international and scaling customer support teams. Founded as a standalone startup and backed by Techstars, Miuros was acquired by Dixa and is now offered as Miuros by Dixa. The Miuros product surface — Data sync, Review & Insights, Assist, and Miuros APIs — remains operational and is tracked on a dedicated Miuros status page, while platform developer documentation is served through the Dixa developer hub.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miuros/refs/heads/main/screenshots/miuros-2026-08-07T183816.png",
-     "score": 9.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10348,6 +10354,49 @@
      "rank": 230
     },
     {
+     "name": "Miuros",
+     "slug": "miuros",
+     "description": "Miuros is a performance platform for customer service that provides AI-powered analytics, quality assurance (Review & Insights), and agent-assist automation (Assist) for international and scaling customer support teams. Founded as a standalone startup and backed by Techstars, Miuros was acquired by Dixa and is now offered as Miuros by Dixa. The Miuros product surface — Data sync, Review & Insights, Assist, and Miuros APIs — remains operational and is tracked on a dedicated Miuros status page, while platform developer documentation is served through the Dixa developer hub.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/miuros/refs/heads/main/screenshots/miuros-2026-08-07T183816.png",
+     "score": 9.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 231
+    },
+    {
      "name": "Tiyaro",
      "slug": "tiyaro",
      "description": "Tiyaro is an enterprise AI company whose product, DeepQuery, replicates complete business processes as AI agents that can be described in plain English. Rather than rules engines or brittle integration workflows, DeepQuery uses LLMs combined with enterprise-specific product and customer data to identify a solution strategy and execute it across multiple steps using built-in tools. Its flagship application targets customer support and IT service desks - an \"IT SuperAgent\" trained on hundreds of third-party product procedures that recommends and executes resolution steps for incoming tickets - alongside revenue-operations and sales/marketing automation use cases. The company was founded by a team that previously built an edge software stack for hosting AI applications, and is backed by General Catalyst. Tiyaro goes to market as an enterprise product engaged through a book-a-demo motion rather than a self-serve developer API.",
@@ -10364,7 +10413,7 @@
       "access_clarity": 5.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10388,7 +10437,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 231
+     "rank": 232
     },
     {
      "name": "All City Communications",
@@ -10407,7 +10456,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -10438,7 +10487,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 232
+     "rank": 233
     },
     {
      "name": "i2x",
@@ -10457,50 +10506,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 233
-    },
-    {
-     "name": "Level AI",
-     "slug": "level-ai",
-     "description": "Level AI (legally Ujwal Inc.) is a Mountain View, California contact center AI company founded in 2019 by Ashish Nagar, a former member of Amazon's Alexa conversational AI team. The company builds LLM-native customer experience intelligence and service automation for enterprise contact centers, with a platform spanning two product surfaces: a CX Delivery suite (AI Virtual Agent, Agent Assist, AgentGPT, Coaching, Manager Assist, Knowledge Bot, Auto Summary, Agent Screen Recording) and a CX Strategy suite (Auto-QA on 100% of interactions, Voice of the Customer theme detection, omnichannel Analytics, iCSAT, AI Workers). The proprietary full-stack AI platform includes Level AI's own ASR/Voice AI and semantic-intelligence layer trained on customer-service data, and is positioned for financial services, insurance, healthcare, retail, banking, and collections operations. Level AI exposes a public REST API for bidirectional data exchange with BI tools and existing contact center stacks, and ships native integrations across telephony, CRM, customer support, workforce management, CX management, communication, learning management, and SSO categories. The company has raised $73.1M to date (Series A 2021, Series B 2022 led by Battery Ventures, Series C $39.4M 2024 led by Adams Street Partners with Cross Creek, Brightloop, Battery Ventures and Eniac Ventures), holds a 4.7/5 rating on G2, and reports customer outcomes including 25% CSAT lift, 45% agent satisfaction improvement, and 90% time savings on manual QA. The Level AI GitHub organization (github.com/Level-AI) exists but is currently empty — there is no public OpenAPI specification, public SDK, or open-source release; the API is documented and credentialed through the customer's tenant of the Level AI platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/level-ai/refs/heads/main/screenshots/level-ai-2026-06-20T184434.png",
-     "score": 9.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 14.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10527,23 +10533,23 @@
      "rank": 234
     },
     {
-     "name": "Convergys",
-     "slug": "convergys",
-     "description": "Convergys Corporation was a global leader in customer management services — contact center outsourcing, workforce management, customer analytics and digital customer experience platforms — serving communications, financial services, healthcare, retail and technology clients. SYNNEX acquired Convergys in October 2018 and merged it into Concentrix; the brand was retired and its offerings were folded into the Concentrix portfolio. Convergys published no public API or developer program that survives. Probed 2026-09-07: www.convergys.com is an Azure App Service redirect app that has been switched off and now answers \"403 Site Disabled\" on every path with an expired TLS certificate, and developer.convergys.com still resolves to an address block registered to Concentrix CVG Brite Voice Systems LLC with both HTTP ports closed. The successor company, Concentrix, is profiled separately and delivers most platform integration through enterprise contracts rather than a public developer program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/screenshots/convergys-2026-06-20T174957.png",
-     "score": 8.3,
+     "name": "Level AI",
+     "slug": "level-ai",
+     "description": "Level AI (legally Ujwal Inc.) is a Mountain View, California contact center AI company founded in 2019 by Ashish Nagar, a former member of Amazon's Alexa conversational AI team. The company builds LLM-native customer experience intelligence and service automation for enterprise contact centers, with a platform spanning two product surfaces: a CX Delivery suite (AI Virtual Agent, Agent Assist, AgentGPT, Coaching, Manager Assist, Knowledge Bot, Auto Summary, Agent Screen Recording) and a CX Strategy suite (Auto-QA on 100% of interactions, Voice of the Customer theme detection, omnichannel Analytics, iCSAT, AI Workers). The proprietary full-stack AI platform includes Level AI's own ASR/Voice AI and semantic-intelligence layer trained on customer-service data, and is positioned for financial services, insurance, healthcare, retail, banking, and collections operations. Level AI exposes a public REST API for bidirectional data exchange with BI tools and existing contact center stacks, and ships native integrations across telephony, CRM, customer support, workforce management, CX management, communication, learning management, and SSO categories. The company has raised $73.1M to date (Series A 2021, Series B 2022 led by Battery Ventures, Series C $39.4M 2024 led by Adams Street Partners with Cross Creek, Brightloop, Battery Ventures and Eniac Ventures), holds a 4.7/5 rating on G2, and reports customer outcomes including 25% CSAT lift, 45% agent satisfaction improvement, and 90% time savings on manual QA. The Level AI GitHub organization (github.com/Level-AI) exists but is currently empty — there is no public OpenAPI specification, public SDK, or open-source release; the API is documented and credentialed through the customer's tenant of the Level AI platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/level-ai/refs/heads/main/screenshots/level-ai-2026-06-20T184434.png",
+     "score": 9.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "access_clarity": 14.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10570,23 +10576,23 @@
      "rank": 235
     },
     {
-     "name": "Wonderful",
-     "slug": "wonderful",
-     "description": "Wonderful is an applied-AI company building an enterprise AI platform for critical, high-volume workflows. It combines an AI platform (run any model, any modality, any use case, fully governed) with local deployment teams and a strategic partnership model to help large organizations accelerate AI adoption. Wonderful powers agentic automation for enterprises such as national telecom operators, energy providers, and financial-services firms, covering customer-service containment, collections across millions of clients, internal IT automation, and end-to-end billing resolution, with reported outcomes like a 91.5% containment rate across millions of customers. Backed by Bessemer Venture Partners, Index Ventures, Insight Partners, and IVP. Wonderful sells an enterprise platform with deployment services rather than a self-serve public developer API; its developer documentation is login-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wonderful/refs/heads/main/screenshots/wonderful-2026-09-02T170914.png",
+     "name": "Convergys",
+     "slug": "convergys",
+     "description": "Convergys Corporation was a global leader in customer management services — contact center outsourcing, workforce management, customer analytics and digital customer experience platforms — serving communications, financial services, healthcare, retail and technology clients. SYNNEX acquired Convergys in October 2018 and merged it into Concentrix; the brand was retired and its offerings were folded into the Concentrix portfolio. Convergys published no public API or developer program that survives. Probed 2026-09-07: www.convergys.com is an Azure App Service redirect app that has been switched off and now answers \"403 Site Disabled\" on every path with an expired TLS certificate, and developer.convergys.com still resolves to an address block registered to Concentrix CVG Brite Voice Systems LLC with both HTTP ports closed. The successor company, Concentrix, is profiled separately and delivers most platform integration through enterprise contracts rather than a public developer program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/convergys/refs/heads/main/screenshots/convergys-2026-06-20T174957.png",
      "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10613,23 +10619,23 @@
      "rank": 236
     },
     {
-     "name": "Fullcourt",
-     "slug": "japan",
-     "description": "Fullcourt is an ecommerce helpdesk built for direct-to-consumer (DTC) Shopify brands, consolidating email, Shopify, Facebook, Instagram, and TikTok into a single fast support inbox with live chat, a self-service knowledge base, AI-assisted agent and customer replies, keyboard-driven navigation (command-K search), and automation and triage rules. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network under the stub slug \"japan\"; enrichment found a Webflow marketing site plus a hosted web app but no public developer API, docs, SDKs, or MCP surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/japan/refs/heads/main/screenshots/japan-2026-07-25T223055.png",
-     "score": 8.1,
+     "name": "Wonderful",
+     "slug": "wonderful",
+     "description": "Wonderful is an applied-AI company building an enterprise AI platform for critical, high-volume workflows. It combines an AI platform (run any model, any modality, any use case, fully governed) with local deployment teams and a strategic partnership model to help large organizations accelerate AI adoption. Wonderful powers agentic automation for enterprises such as national telecom operators, energy providers, and financial-services firms, covering customer-service containment, collections across millions of clients, internal IT automation, and end-to-end billing resolution, with reported outcomes like a 91.5% containment rate across millions of customers. Backed by Bessemer Venture Partners, Index Ventures, Insight Partners, and IVP. Wonderful sells an enterprise platform with deployment services rather than a self-serve public developer API; its developer documentation is login-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wonderful/refs/heads/main/screenshots/wonderful-2026-09-02T170914.png",
+     "score": 8.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 5.3,
       "developer_ergonomics": 2.4,
-      "access_clarity": 13.2
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10656,11 +10662,11 @@
      "rank": 237
     },
     {
-     "name": "Espressive",
-     "slug": "espressive",
-     "description": "Espressive is an enterprise conversational-AI company whose flagship product, Barista, is a GenAI-based virtual support agent that automates the resolution of employee questions, issues, and requests across IT service management (ITSM), HR, and other internal help desks. Barista connects natural-language employee requests to automation by integrating with any REST-API-enabled third-party system (ServiceNow, Jira, Slack, Teams, Okta, Workday, Microsoft 365) via its Integration Designer and Barista Integration Marketplace, and reports employee adoption rates of 80-85% with 50-70% reductions in help-desk call volume. Espressive was acquired by Resolve (resolve.io) in September 2025 and folded into Resolve's agentic automation and orchestration platform; the standalone www.espressive.com surface now redirects to resolve.io. Espressive exposes no public developer API of its own -- Barista is a consumer of customer REST APIs, and product/developer documentation sits behind the Espressive support portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/espressive/refs/heads/main/screenshots/espressive-2026-07-25T213629.png",
-     "score": 7.1,
+     "name": "Fullcourt",
+     "slug": "japan",
+     "description": "Fullcourt is an ecommerce helpdesk built for direct-to-consumer (DTC) Shopify brands, consolidating email, Shopify, Facebook, Instagram, and TikTok into a single fast support inbox with live chat, a self-service knowledge base, AI-assisted agent and customer replies, keyboard-driven navigation (command-K search), and automation and triage rules. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network under the stub slug \"japan\"; enrichment found a Webflow marketing site plus a hosted web app but no public developer API, docs, SDKs, or MCP surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/japan/refs/heads/main/screenshots/japan-2026-07-25T223055.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10668,11 +10674,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
+      "developer_ergonomics": 2.4,
+      "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10699,11 +10705,11 @@
      "rank": 238
     },
     {
-     "name": "Altitude Software",
-     "slug": "altitude-software",
-     "description": "Altitude Software is a contact center and unified customer interaction (uCI) software company founded in 1993 and headquartered in Lisbon, Portugal. Its flagship Altitude uCI suite provides omnichannel contact center capabilities — inbound/outbound campaigns, IVR and self-service, routing, dialer, recording and quality management, and CRM/ERP integration — with the Altitude uAgent SDK exposing Java, C/C++, .NET, SOAP, XML-RPC and web-service APIs for on-premises and cloud deployments. Altitude Software was a portfolio company of Insight Partners and was acquired by Enghouse Systems (TSX: ENGH) on 2020-12-30; the product line is now developed and maintained by Enghouse Interactive, and the brand continues to operate regionally (e.g. Altitude Software APAC). The company does not publish a modern public REST API, developer portal, or OpenAPI specification; integration is delivered through the proprietary uAgent SDK and packaged CRM/ERP connectors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altitude-software/refs/heads/main/screenshots/altitude-software-2026-07-25T195834.png",
-     "score": 6.4,
+     "name": "Espressive",
+     "slug": "espressive",
+     "description": "Espressive is an enterprise conversational-AI company whose flagship product, Barista, is a GenAI-based virtual support agent that automates the resolution of employee questions, issues, and requests across IT service management (ITSM), HR, and other internal help desks. Barista connects natural-language employee requests to automation by integrating with any REST-API-enabled third-party system (ServiceNow, Jira, Slack, Teams, Okta, Workday, Microsoft 365) via its Integration Designer and Barista Integration Marketplace, and reports employee adoption rates of 80-85% with 50-70% reductions in help-desk call volume. Espressive was acquired by Resolve (resolve.io) in September 2025 and folded into Resolve's agentic automation and orchestration platform; the standalone www.espressive.com surface now redirects to resolve.io. Espressive exposes no public developer API of its own -- Barista is a consumer of customer REST APIs, and product/developer documentation sits behind the Espressive support portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/espressive/refs/heads/main/screenshots/espressive-2026-07-25T213629.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10711,11 +10717,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10742,23 +10748,23 @@
      "rank": 239
     },
     {
-     "name": "Avaya",
-     "slug": "avaya",
-     "description": "Avaya delivers smarter customer experiences, greater business efficiency, and lower costs through AI-powered communication and collaboration tools.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/screenshots/avaya-2026-06-20T172723.png",
-     "score": 6.3,
+     "name": "Altitude Software",
+     "slug": "altitude-software",
+     "description": "Altitude Software is a contact center and unified customer interaction (uCI) software company founded in 1993 and headquartered in Lisbon, Portugal. Its flagship Altitude uCI suite provides omnichannel contact center capabilities — inbound/outbound campaigns, IVR and self-service, routing, dialer, recording and quality management, and CRM/ERP integration — with the Altitude uAgent SDK exposing Java, C/C++, .NET, SOAP, XML-RPC and web-service APIs for on-premises and cloud deployments. Altitude Software was a portfolio company of Insight Partners and was acquired by Enghouse Systems (TSX: ENGH) on 2020-12-30; the product line is now developed and maintained by Enghouse Interactive, and the brand continues to operate regionally (e.g. Altitude Software APAC). The company does not publish a modern public REST API, developer portal, or OpenAPI specification; integration is delivered through the proprietary uAgent SDK and packaged CRM/ERP connectors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/altitude-software/refs/heads/main/screenshots/altitude-software-2026-07-25T195834.png",
+     "score": 6.4,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 40.7,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 9.5,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10785,23 +10791,23 @@
      "rank": 240
     },
     {
-     "name": "Poth Labs",
-     "slug": "poth-labs",
-     "description": "Poth Labs is a Y Combinator (Summer 2026) startup building an AI-native customer research platform that positions itself as \"the customer brain for your company.\" It aggregates scattered customer feedback from sources such as Fireflies, Slack, support tickets, CRM notes, surveys, in-app chat, docs, and product analytics into a unified, searchable system, then extracts patterns, runs thematic and root-cause analysis, generates hypotheses about user issues like churn or checkout abandonment, and validates them through adaptive user interviews and targeted follow-up surveys. Founded by Matthew Wong (CEO, ex-Palantir, Stanford) and Mojmir Horvath (CTO, ex-Tietoevry) and based between San Francisco and New York, the company targets product, growth, customer research, and analytics teams. It was added to the API Evangelist network as a portfolio lead; as of this enrichment pass Poth Labs publishes a marketing site but no public developer, API, or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/poth-labs/refs/heads/main/screenshots/poth-labs-2026-09-02T151829.png",
-     "score": 6.0,
+     "name": "Avaya",
+     "slug": "avaya",
+     "description": "Avaya delivers smarter customer experiences, greater business efficiency, and lower costs through AI-powered communication and collaboration tools.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avaya/refs/heads/main/screenshots/avaya-2026-06-20T172723.png",
+     "score": 6.3,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10828,23 +10834,23 @@
      "rank": 241
     },
     {
-     "name": "Awfar Market",
-     "slug": "awfar-market",
-     "description": "Awfar is a Cairo- and Riyadh-based digital solutions company (founded 2013) offering an integrated customer engagement and commerce platform. It combines an omnichannel Chat Center with AI agents (WhatsApp, Instagram, Facebook), a cloud Call Center, and a Commerce & Delivery platform for order, inventory, and logistics management within a single interface. Awfar serves more than 2,000 clients across retail, pharmacy, restaurant, e-commerce, tourism, healthcare, education, and real estate, and ships prebuilt integrations for Shopify, Meta, Odoo, Zid, and Salla plus custom API connections. Backed by 500 Global. No public developer portal or OpenAPI specification is published at this time; integration is arranged via the sales and demo channel.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awfar-market/refs/heads/main/screenshots/awfar-market-2026-07-25T202027.png",
-     "score": 5.7,
+     "name": "Poth Labs",
+     "slug": "poth-labs",
+     "description": "Poth Labs is a Y Combinator (Summer 2026) startup building an AI-native customer research platform that positions itself as \"the customer brain for your company.\" It aggregates scattered customer feedback from sources such as Fireflies, Slack, support tickets, CRM notes, surveys, in-app chat, docs, and product analytics into a unified, searchable system, then extracts patterns, runs thematic and root-cause analysis, generates hypotheses about user issues like churn or checkout abandonment, and validates them through adaptive user interviews and targeted follow-up surveys. Founded by Matthew Wong (CEO, ex-Palantir, Stanford) and Mojmir Horvath (CTO, ex-Tietoevry) and based between San Francisco and New York, the company targets product, growth, customer research, and analytics teams. It was added to the API Evangelist network as a portfolio lead; as of this enrichment pass Poth Labs publishes a marketing site but no public developer, API, or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/poth-labs/refs/heads/main/screenshots/poth-labs-2026-09-02T151829.png",
+     "score": 6.0,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10871,52 +10877,10 @@
      "rank": 242
     },
     {
-     "name": "Echo AI (fka Pathlight)",
-     "slug": "echo-ai-fka-pathlight",
-     "description": "Echo AI (formerly Pathlight) was an AI-driven customer conversation intelligence platform used by customer-experience and support teams to analyze support conversations, surface hidden insights, and coach agents. Founded as Pathlight and backed by Kleiner Perkins, Insight Partners and Quiet Capital, it rebranded to Echo AI in January 2024 and was acquired by contact-center workforce-engagement vendor Calabrio on 2024-12-11; the technology now ships inside Calabrio ONE, and calabrio.com itself now redirects to verint.com. The company publishes no discoverable public developer surface of its own — no API documentation, OpenAPI, GraphQL, MCP server, agent card or first-party SDK — and both brand domains are dark — pathlight.com no longer resolves and echoai.com returns a removed Framer site (HTTP 404). The Wayback index for both domains contains no /api, /docs/api or /developer path at any point in their history, only legal pages. The only verified live public asset is the Pathlight GitHub organization, whose 62 public repositories are third-party forks plus first-party Singer.io taps that INGEST other vendors' APIs (Zendesk, Gorgias, Gladly, Dialpad, Five9, Kustomer) rather than any first-party client library. This profile is retained as an identity record; no fabricated API artifacts were added, and the npm/PyPI packages that share the Pathlight and Echo AI names were verified to belong to unrelated publishers.",
-     "score": 5.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 243
-    },
-    {
-     "name": "Kiwilogic",
-     "slug": "kiwilogic",
-     "description": "Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999 in Hamburg, with a secondary office in London. It built the Lingubot platform, one of the earliest commercial natural-language dialogue engines for the web, which let online businesses deploy interactive virtual characters that acted as store greeter, customer-support agent, product specialist and entertainer across web sites and mobile messaging channels. The company was backed by Earlybird Venture Capital (approximately $5.2M reported) and won a best-German-startup award in 2000. The Lingubot business was acquired in the mid-2000s and folded into Artificial Solutions, whose Teneo conversational-AI and voice-AI platform is the commercial successor; the kiwilogic.com domain now issues a blanket redirect to teneo.ai. Kiwilogic operates no independent developer portal, documentation, or API surface today, and this profile is maintained as a historical company record within the API Evangelist network rather than as an active API provider.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/screenshots/kiwilogic-2026-07-25T223921.png",
+     "name": "Awfar Market",
+     "slug": "awfar-market",
+     "description": "Awfar is a Cairo- and Riyadh-based digital solutions company (founded 2013) offering an integrated customer engagement and commerce platform. It combines an omnichannel Chat Center with AI agents (WhatsApp, Instagram, Facebook), a cloud Call Center, and a Commerce & Delivery platform for order, inventory, and logistics management within a single interface. Awfar serves more than 2,000 clients across retail, pharmacy, restaurant, e-commerce, tourism, healthcare, education, and real estate, and ships prebuilt integrations for Shopify, Meta, Odoo, Zid, and Salla plus custom API connections. Backed by 500 Global. No public developer portal or OpenAPI specification is published at this time; integration is arranged via the sales and demo channel.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/awfar-market/refs/heads/main/screenshots/awfar-market-2026-07-25T202027.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10929,7 +10893,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10953,7 +10917,92 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 243
+    },
+    {
+     "name": "Echo AI (fka Pathlight)",
+     "slug": "echo-ai-fka-pathlight",
+     "description": "Echo AI (formerly Pathlight) was an AI-driven customer conversation intelligence platform used by customer-experience and support teams to analyze support conversations, surface hidden insights, and coach agents. Founded as Pathlight and backed by Kleiner Perkins, Insight Partners and Quiet Capital, it rebranded to Echo AI in January 2024 and was acquired by contact-center workforce-engagement vendor Calabrio on 2024-12-11; the technology now ships inside Calabrio ONE, and calabrio.com itself now redirects to verint.com. The company publishes no discoverable public developer surface of its own — no API documentation, OpenAPI, GraphQL, MCP server, agent card or first-party SDK — and both brand domains are dark — pathlight.com no longer resolves and echoai.com returns a removed Framer site (HTTP 404). The Wayback index for both domains contains no /api, /docs/api or /developer path at any point in their history, only legal pages. The only verified live public asset is the Pathlight GitHub organization, whose 62 public repositories are third-party forks plus first-party Singer.io taps that INGEST other vendors' APIs (Zendesk, Gorgias, Gladly, Dialpad, Five9, Kustomer) rather than any first-party client library. This profile is retained as an identity record; no fabricated API artifacts were added, and the npm/PyPI packages that share the Pathlight and Echo AI names were verified to belong to unrelated publishers.",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 244
+    },
+    {
+     "name": "Kiwilogic",
+     "slug": "kiwilogic",
+     "description": "Kiwilogic.com AG was a German conversational-AI pioneer founded in 1999 in Hamburg, with a secondary office in London. It built the Lingubot platform, one of the earliest commercial natural-language dialogue engines for the web, which let online businesses deploy interactive virtual characters that acted as store greeter, customer-support agent, product specialist and entertainer across web sites and mobile messaging channels. The company was backed by Earlybird Venture Capital (approximately $5.2M reported) and won a best-German-startup award in 2000. The Lingubot business was acquired in the mid-2000s and folded into Artificial Solutions, whose Teneo conversational-AI and voice-AI platform is the commercial successor; the kiwilogic.com domain now issues a blanket redirect to teneo.ai. Kiwilogic operates no independent developer portal, documentation, or API surface today, and this profile is maintained as a historical company record within the API Evangelist network rather than as an active API provider.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kiwilogic/refs/heads/main/screenshots/kiwilogic-2026-07-25T223921.png",
+     "score": 5.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 245
     },
     {
      "name": "Utopia Technology Partners",
@@ -10997,7 +11046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 245
+     "rank": 246
     },
     {
      "name": "AnswerSoft",
@@ -11016,7 +11065,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11040,7 +11089,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 246
+     "rank": 247
     },
     {
      "name": "atSpoke",
@@ -11084,7 +11133,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 247
+     "rank": 248
     },
     {
      "name": "CenterForce Technologies",
@@ -11128,7 +11177,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 248
+     "rank": 249
     },
     {
      "name": "Cogito",
@@ -11146,50 +11195,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 249
-    },
-    {
-     "name": "Dot Product",
-     "slug": "dot-product",
-     "description": "Dot Product is a San Francisco AI startup founded in 2024 by Usman Masood (former CTO of Pipe and engineering manager at Stripe) and Maksim Stepanenko (previously at Coinbase, Primer, Locu, and the MIT Media Lab). The company builds \"Operator,\" a platform of voice-first AI coworkers (agents) for operations and customer-support teams: AI agents that follow company-specific playbooks, provide 24/7 phone/voice support, and scale to fluctuating demand as an alternative to traditional call centers. Dot Product raised a $6M seed round led by Index Ventures with participation from Lachy Groom. As of this enrichment pass the company operates in stealth: the product surface (operator.xyz) does not resolve publicly and dotproduct.xyz is parked, so no public API, developer docs, SDKs, or machine-readable specifications could be verified. Sector: ai-ml.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dot-product/refs/heads/main/screenshots/dot-product-2026-07-25T212315.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11216,10 +11222,10 @@
      "rank": 250
     },
     {
-     "name": "EnjoyHQ",
-     "slug": "enjoyhq",
-     "description": "EnjoyHQ was a centralized user-research and customer-feedback repository — a single source of truth where product and UX teams stored, tagged, searched, and analyzed qualitative and quantitative research (interviews, surveys, support tickets, NPS scores, and app-store reviews). Backed by Point Nine Capital, it was acquired by UserTesting in 2021 and folded into the UserTesting Human Insight Platform. Its brand domain getenjoyhq.com now issues a permanent (HTTP 308) redirect to usertesting.com/platform/enjoyhq, and EnjoyHQ no longer operates an independent developer, documentation, or API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enjoyhq/refs/heads/main/screenshots/enjoyhq-2026-07-25T213408.png",
+     "name": "Dot Product",
+     "slug": "dot-product",
+     "description": "Dot Product is a San Francisco AI startup founded in 2024 by Usman Masood (former CTO of Pipe and engineering manager at Stripe) and Maksim Stepanenko (previously at Coinbase, Primer, Locu, and the MIT Media Lab). The company builds \"Operator,\" a platform of voice-first AI coworkers (agents) for operations and customer-support teams: AI agents that follow company-specific playbooks, provide 24/7 phone/voice support, and scale to fluctuating demand as an alternative to traditional call centers. Dot Product raised a $6M seed round led by Index Ventures with participation from Lachy Groom. As of this enrichment pass the company operates in stealth: the product surface (operator.xyz) does not resolve publicly and dotproduct.xyz is parked, so no public API, developer docs, SDKs, or machine-readable specifications could be verified. Sector: ai-ml.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dot-product/refs/heads/main/screenshots/dot-product-2026-07-25T212315.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11232,7 +11238,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11259,10 +11265,10 @@
      "rank": 251
     },
     {
-     "name": "Fuze",
-     "slug": "fuze",
-     "description": "Fuze was a cloud unified-communications-as-a-service (UCaaS) provider offering enterprise cloud voice, video conferencing, team messaging, and contact-center capabilities for the mobile and distributed workforce. Originally surfaced as a portfolio company of Bessemer Venture Partners and Insight Partners, Fuze was acquired by 8x8 in 2022; its website (www.fuze.com) now permanently redirects (HTTP 301) to 8x8.com/fuze and the Fuze product line has been folded into the 8x8 platform. No independent Fuze developer portal, API documentation, OpenAPI specification, or public API surface could be found during enrichment. This profile remains in the API Evangelist network as a stub; the only artifact that could be enriched from real signal is a live domain/DNS/TLS security probe of fuze.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuze/refs/heads/main/screenshots/fuze-2026-07-25T215335.png",
+     "name": "EnjoyHQ",
+     "slug": "enjoyhq",
+     "description": "EnjoyHQ was a centralized user-research and customer-feedback repository — a single source of truth where product and UX teams stored, tagged, searched, and analyzed qualitative and quantitative research (interviews, surveys, support tickets, NPS scores, and app-store reviews). Backed by Point Nine Capital, it was acquired by UserTesting in 2021 and folded into the UserTesting Human Insight Platform. Its brand domain getenjoyhq.com now issues a permanent (HTTP 308) redirect to usertesting.com/platform/enjoyhq, and EnjoyHQ no longer operates an independent developer, documentation, or API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enjoyhq/refs/heads/main/screenshots/enjoyhq-2026-07-25T213408.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11275,7 +11281,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11302,9 +11308,10 @@
      "rank": 252
     },
     {
-     "name": "Get Satisfaction",
-     "slug": "get-satisfaction",
-     "description": "Get Satisfaction was a customer-community and engagement SaaS platform that gave companies a hosted online community where customers, employees, and prospects could ask questions, report problems, share ideas, and offer praise in public topic threads. Founded in 2007, it popularized the customer-powered support community model and offered widgets, community moderation, and integrations that companies embedded on their websites and product pages. Get Satisfaction was acquired by the social customer experience management company Sprinklr in 2015 and folded into Sprinklr's platform; the standalone product and its developer program have since been discontinued. This profile is retained in the API Evangelist network as a historical portfolio-company record (backed by Uncork Capital); it no longer operates a live public API, developer portal, or documentation surface.",
+     "name": "Fuze",
+     "slug": "fuze",
+     "description": "Fuze was a cloud unified-communications-as-a-service (UCaaS) provider offering enterprise cloud voice, video conferencing, team messaging, and contact-center capabilities for the mobile and distributed workforce. Originally surfaced as a portfolio company of Bessemer Venture Partners and Insight Partners, Fuze was acquired by 8x8 in 2022; its website (www.fuze.com) now permanently redirects (HTTP 301) to 8x8.com/fuze and the Fuze product line has been folded into the 8x8 platform. No independent Fuze developer portal, API documentation, OpenAPI specification, or public API surface could be found during enrichment. This profile remains in the API Evangelist network as a stub; the only artifact that could be enriched from real signal is a live domain/DNS/TLS security probe of fuze.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fuze/refs/heads/main/screenshots/fuze-2026-07-25T215335.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11317,7 +11324,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11344,10 +11351,9 @@
      "rank": 253
     },
     {
-     "name": "Halp",
-     "slug": "halp",
-     "description": "Halp was a conversational ticketing and help-desk tool that let teams turn Slack and Microsoft Teams messages into trackable tickets, founded in Boulder, Colorado and backed by Techstars. Atlassian acquired Halp in February 2020 and folded its capabilities into Jira Service Management; the standalone Halp product and its API were subsequently discontinued. The halp.com domain now resolves to Atlassian and is served from Atlassian's edge, so no independent Halp developer portal, API reference, SDKs, or MCP surface remains to enrich. This profile records the company's history and the (Atlassian-operated) security posture still observable on the halp.com domain.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/halp/refs/heads/main/screenshots/halp-2026-07-25T220553.png",
+     "name": "Get Satisfaction",
+     "slug": "get-satisfaction",
+     "description": "Get Satisfaction was a customer-community and engagement SaaS platform that gave companies a hosted online community where customers, employees, and prospects could ask questions, report problems, share ideas, and offer praise in public topic threads. Founded in 2007, it popularized the customer-powered support community model and offered widgets, community moderation, and integrations that companies embedded on their websites and product pages. Get Satisfaction was acquired by the social customer experience management company Sprinklr in 2015 and folded into Sprinklr's platform; the standalone product and its developer program have since been discontinued. This profile is retained in the API Evangelist network as a historical portfolio-company record (backed by Uncork Capital); it no longer operates a live public API, developer portal, or documentation surface.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11360,7 +11366,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11387,10 +11393,10 @@
      "rank": 254
     },
     {
-     "name": "Loris",
-     "slug": "loris",
-     "description": "Loris was an AI-powered customer service and conversation intelligence platform that analyzed voice, chat, and email interactions to surface contact drivers, sentiment shifts, and quality signals for support teams. Originally a Techstars-backed startup, Loris was acquired by Contentsquare and its product has been folded into the Contentsquare Conversation Intelligence offering. The standalone loris.ai property now 301-redirects to contentsquare.com and the company no longer publishes an independent public developer API, developer portal, or API documentation surface. This profile is retained in the API Evangelist network as an acquired-company record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loris/refs/heads/main/screenshots/loris-2026-07-25T225551.png",
+     "name": "Halp",
+     "slug": "halp",
+     "description": "Halp was a conversational ticketing and help-desk tool that let teams turn Slack and Microsoft Teams messages into trackable tickets, founded in Boulder, Colorado and backed by Techstars. Atlassian acquired Halp in February 2020 and folded its capabilities into Jira Service Management; the standalone Halp product and its API were subsequently discontinued. The halp.com domain now resolves to Atlassian and is served from Atlassian's edge, so no independent Halp developer portal, API reference, SDKs, or MCP surface remains to enrich. This profile records the company's history and the (Atlassian-operated) security posture still observable on the halp.com domain.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/halp/refs/heads/main/screenshots/halp-2026-07-25T220553.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11403,7 +11409,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11430,9 +11436,10 @@
      "rank": 255
     },
     {
-     "name": "Mindsay",
-     "slug": "mindsay",
-     "description": "Mindsay (formerly Destygo) was a Paris-based conversational AI platform that built chatbot and virtual-assistant automation for customer service and support teams, with a focus on travel and hospitality use cases. It was surfaced as a portfolio company of Partech and added to the API Evangelist network. As of this enrichment pass the standalone mindsay.com brand is no longer serving a live site or developer surface (the company was acquired by Laivly), so no public API, developer portal, or documentation could be located to profile.",
+     "name": "Loris",
+     "slug": "loris",
+     "description": "Loris was an AI-powered customer service and conversation intelligence platform that analyzed voice, chat, and email interactions to surface contact drivers, sentiment shifts, and quality signals for support teams. Originally a Techstars-backed startup, Loris was acquired by Contentsquare and its product has been folded into the Contentsquare Conversation Intelligence offering. The standalone loris.ai property now 301-redirects to contentsquare.com and the company no longer publishes an independent public developer API, developer portal, or API documentation surface. This profile is retained in the API Evangelist network as an acquired-company record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loris/refs/heads/main/screenshots/loris-2026-07-25T225551.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11445,7 +11452,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11470,6 +11477,48 @@
       "agentic_commerce": false
      },
      "rank": 256
+    },
+    {
+     "name": "Mindsay",
+     "slug": "mindsay",
+     "description": "Mindsay (formerly Destygo) was a Paris-based conversational AI platform that built chatbot and virtual-assistant automation for customer service and support teams, with a focus on travel and hospitality use cases. It was surfaced as a portfolio company of Partech and added to the API Evangelist network. As of this enrichment pass the standalone mindsay.com brand is no longer serving a live site or developer surface (the company was acquired by Laivly), so no public API, developer portal, or documentation could be located to profile.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 257
     },
     {
      "name": "Parature",
@@ -11513,7 +11562,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 257
+     "rank": 258
     },
     {
      "name": "Remedy Corporation",
@@ -11531,50 +11580,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 258
-    },
-    {
-     "name": "Reply.ai",
-     "slug": "replyai",
-     "description": "Reply.ai was a conversational AI and customer-experience platform founded in 2016 in New York City, building software to automate repetitive customer-service processes and deliver instant, personalized support across a customer's preferred communication channels. The company was acquired by Kustomer in May 2020 and folded into that platform. As of this enrichment pass the reply.ai domain is a parked \"for sale\" listing with no active product, developer portal, or public API surface, so no API artifacts could be harvested.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/replyai/refs/heads/main/screenshots/replyai-2026-09-02T153510.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11601,9 +11607,10 @@
      "rank": 259
     },
     {
-     "name": "Solvvy",
-     "slug": "solvvy",
-     "description": "Solvvy was a conversational-AI and customer-support automation platform that let companies deploy self-service virtual agents to understand end-customer questions, resolve issues, and deflect support tickets across chat and web channels. Zoom announced a definitive agreement to acquire Solvvy in May 2022 and folded its natural-language and workflow-automation technology into Zoom Contact Center and the Zoom Virtual Agent product. As of this profile the standalone Solvvy brand is discontinued: solvvy.com no longer serves a site (HTTPS connection refused) and the company publishes no independent, live public API, developer portal, or documentation. This repo is retained as a historical company record; there is no active API surface to enrich.",
+     "name": "Reply.ai",
+     "slug": "replyai",
+     "description": "Reply.ai was a conversational AI and customer-experience platform founded in 2016 in New York City, building software to automate repetitive customer-service processes and deliver instant, personalized support across a customer's preferred communication channels. The company was acquired by Kustomer in May 2020 and folded into that platform. As of this enrichment pass the reply.ai domain is a parked \"for sale\" listing with no active product, developer portal, or public API surface, so no API artifacts could be harvested.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/replyai/refs/heads/main/screenshots/replyai-2026-09-02T153510.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11616,7 +11623,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11643,10 +11650,9 @@
      "rank": 260
     },
     {
-     "name": "Surfboard",
-     "slug": "surfboard",
-     "description": "Surfboard (teamsurfboard.com) was a workforce management (WFM) SaaS for customer support teams — scheduling, forecasting, and real-time staffing for contact centers — backed by Seedcamp and Speedinvest. As of this enrichment pass the standalone product no longer operates independently; teamsurfboard.com returns an HTTP 301 permanent redirect to Dialpad's workforce management software page (dialpad.com/features/workforce-management-software), indicating Surfboard was acquired by / folded into Dialpad. No standalone Surfboard developer portal, API reference, or OpenAPI surface is publicly reachable; all probed /.well-known/ discovery endpoints return 404.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/surfboard/refs/heads/main/screenshots/surfboard-2026-09-02T161318.png",
+     "name": "Solvvy",
+     "slug": "solvvy",
+     "description": "Solvvy was a conversational-AI and customer-support automation platform that let companies deploy self-service virtual agents to understand end-customer questions, resolve issues, and deflect support tickets across chat and web channels. Zoom announced a definitive agreement to acquire Solvvy in May 2022 and folded its natural-language and workflow-automation technology into Zoom Contact Center and the Zoom Virtual Agent product. As of this profile the standalone Solvvy brand is discontinued: solvvy.com no longer serves a site (HTTPS connection refused) and the company publishes no independent, live public API, developer portal, or documentation. This repo is retained as a historical company record; there is no active API surface to enrich.",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -11659,7 +11665,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11684,6 +11690,49 @@
       "agentic_commerce": false
      },
      "rank": 261
+    },
+    {
+     "name": "Surfboard",
+     "slug": "surfboard",
+     "description": "Surfboard (teamsurfboard.com) was a workforce management (WFM) SaaS for customer support teams — scheduling, forecasting, and real-time staffing for contact centers — backed by Seedcamp and Speedinvest. As of this enrichment pass the standalone product no longer operates independently; teamsurfboard.com returns an HTTP 301 permanent redirect to Dialpad's workforce management software page (dialpad.com/features/workforce-management-software), indicating Surfboard was acquired by / folded into Dialpad. No standalone Surfboard developer portal, API reference, or OpenAPI surface is publicly reachable; all probed /.well-known/ discovery endpoints return 404.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/surfboard/refs/heads/main/screenshots/surfboard-2026-09-02T161318.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 262
     },
     {
      "name": "Tello",
@@ -11727,7 +11776,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 262
+     "rank": 263
     },
     {
      "name": "Vantus",
@@ -11745,49 +11794,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 263
-    },
-    {
-     "name": "Webhelp",
-     "slug": "webhelp",
-     "description": "Webhelp is a French customer-experience and business-process-outsourcing (BPO) company founded in 2000 and headquartered in Paris, providing outsourced customer support, sales, back-office, content moderation, and payment/collections services to global brands across many languages and geographies. In 2023 Webhelp merged with Concentrix; the combined company operates under the Concentrix brand and the standalone webhelp.com domain no longer resolves to a live website. Webhelp was surfaced in the API Evangelist network as a portfolio company of Insight Partners. It is a services/BPO operator rather than an API producer and publishes no public developer portal, OpenAPI definition, or client SDKs; the enrichment pipeline found no public API surface to catalog.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11812,6 +11819,48 @@
       "agentic_commerce": false
      },
      "rank": 264
+    },
+    {
+     "name": "Webhelp",
+     "slug": "webhelp",
+     "description": "Webhelp is a French customer-experience and business-process-outsourcing (BPO) company founded in 2000 and headquartered in Paris, providing outsourced customer support, sales, back-office, content moderation, and payment/collections services to global brands across many languages and geographies. In 2023 Webhelp merged with Concentrix; the combined company operates under the Concentrix brand and the standalone webhelp.com domain no longer resolves to a live website. Webhelp was surfaced in the API Evangelist network as a portfolio company of Insight Partners. It is a services/BPO operator rather than an API producer and publishes no public developer portal, OpenAPI definition, or client SDKs; the enrichment pipeline found no public API surface to catalog.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 265
     },
     {
      "name": "Witness Systems",
@@ -11855,7 +11904,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 265
+     "rank": 266
     },
     {
      "name": "Zudo",
@@ -11873,7 +11922,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -11904,7 +11953,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 266
+     "rank": 267
     },
     {
      "name": "BryterCX",
@@ -11923,7 +11972,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11947,7 +11996,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 267
+     "rank": 268
     },
     {
      "name": "Empirix",
@@ -11966,7 +12015,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -11997,7 +12046,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 268
+     "rank": 269
     },
     {
      "name": "Talk Labs",
@@ -12016,7 +12065,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12047,7 +12096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 269
+     "rank": 270
     },
     {
      "name": "Broadsoft",
@@ -12066,57 +12115,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Telecommunications",
-      "regime_id": "telecommunications",
-      "score": 8.3,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 270
-    },
-    {
-     "name": "Enghouse",
-     "slug": "enghouse",
-     "description": "Enghouse Systems Limited (TSX: ENGH) is a publicly traded Canadian enterprise software and services company headquartered in Markham, Ontario and founded in 1984. It builds mission-critical, communications-focused software delivered on-premise and via the cloud, organized into two segments: the Interactive Management Group (Enghouse Interactive — omnichannel contact centre, customer experience, IVR, video collaboration and AI-assisted agent tooling) and the Asset Management Group (Enghouse Networks — telecom OSS/BSS, media and broadcast, and network monitoring; plus transportation, public-safety and transit systems). The company grows largely through acquisition of specialized software brands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enghouse/refs/heads/main/screenshots/enghouse-2026-07-25T213349.png",
-     "score": 1.8,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -12150,10 +12149,10 @@
      "rank": 271
     },
     {
-     "name": "Shoretel",
-     "slug": "shoretel",
-     "description": "ShoreTel was a Sunnyvale, California business communications company founded in 1996 that built IP-based unified communications (UC), VoIP phone systems, and contact-center products for the enterprise, spanning on-premises ShoreTel systems and the cloud-hosted ShoreTel Sky platform. Mitel Networks acquired ShoreTel in September 2017 for roughly USD 530 million and folded its products into the Mitel Connect line. ShoreTel no longer operates as an independent company: the shoretel.com domain now 301-redirects to mitel.com, and there is no independent ShoreTel developer portal, API reference, or OpenAPI surface. Legacy integration surfaces (for example the ShoreTel Sky Hosted API and Exchange Web Services integrations) are now documented and hosted under Mitel. This record was surfaced as a Norwest Venture Partners portfolio company and enriched to reflect its acquired, defunct-as-independent status.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shoretel/refs/heads/main/screenshots/shoretel-2026-09-02T155311.png",
+     "name": "Enghouse",
+     "slug": "enghouse",
+     "description": "Enghouse Systems Limited (TSX: ENGH) is a publicly traded Canadian enterprise software and services company headquartered in Markham, Ontario and founded in 1984. It builds mission-critical, communications-focused software delivered on-premise and via the cloud, organized into two segments: the Interactive Management Group (Enghouse Interactive — omnichannel contact centre, customer experience, IVR, video collaboration and AI-assisted agent tooling) and the Asset Management Group (Enghouse Networks — telecom OSS/BSS, media and broadcast, and network monitoring; plus transportation, public-safety and transit systems). The company grows largely through acquisition of specialized software brands.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/enghouse/refs/heads/main/screenshots/enghouse-2026-07-25T213349.png",
      "score": 1.8,
      "band": "minimal",
      "band_label": "Minimal",
@@ -12166,7 +12165,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -12200,6 +12199,56 @@
      "rank": 272
     },
     {
+     "name": "Shoretel",
+     "slug": "shoretel",
+     "description": "ShoreTel was a Sunnyvale, California business communications company founded in 1996 that built IP-based unified communications (UC), VoIP phone systems, and contact-center products for the enterprise, spanning on-premises ShoreTel systems and the cloud-hosted ShoreTel Sky platform. Mitel Networks acquired ShoreTel in September 2017 for roughly USD 530 million and folded its products into the Mitel Connect line. ShoreTel no longer operates as an independent company: the shoretel.com domain now 301-redirects to mitel.com, and there is no independent ShoreTel developer portal, API reference, or OpenAPI surface. Legacy integration surfaces (for example the ShoreTel Sky Hosted API and Exchange Web Services integrations) are now documented and hosted under Mitel. This record was surfaced as a Norwest Venture Partners portfolio company and enriched to reflect its acquired, defunct-as-independent status.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shoretel/refs/heads/main/screenshots/shoretel-2026-09-02T155311.png",
+     "score": 1.8,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Telecommunications",
+      "regime_id": "telecommunications",
+      "score": 8.3,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 273
+    },
+    {
      "name": "Echopass",
      "slug": "echopass",
      "description": "Echopass Corporation was a cloud-based (on-demand / hosted) contact center technology company, headquartered in the San Francisco Bay Area (San Ramon / Pleasanton, California) and backed by Canaan Partners among other venture investors. Its platform delivered multichannel, carrier-grade contact center and customer-interaction capabilities as a hosted service to enterprises. Echopass was acquired by Genesys in 2013 and folded into the Genesys customer-experience portfolio; it no longer operates as an independent company and publishes no live developer, API, or documentation surface. This profile is retained in the API Evangelist network for lineage and portfolio-graph purposes rather than as an active API provider.",
@@ -12215,7 +12264,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -12246,7 +12295,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 273
+     "rank": 274
     }
    ]
   }

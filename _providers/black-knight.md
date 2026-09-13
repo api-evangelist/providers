@@ -31,7 +31,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 6.3
   scored_at: '2026-09-12'
 api_count: 9
@@ -205,13 +205,13 @@ jsonld:
   slug: black-knight-context
 layout: provider
 modified: '2026-07-25'
-name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology)
+name: Black Knight
 nav: Providers
 network: true
-overview: 'Black Knight (Acquired by ICE — Now ICE Mortgage Technology) publishes 1 API on the [APIs.io](https://apis.io/) network: Encompass Developer Connect (sibling product under ICE). Tagged areas include Mortgage Technology, Loan Servicing, Loan Origination, Secondary Marketing, and Default Management.
+overview: 'Black Knight publishes 1 API on the [APIs.io](https://apis.io/) network: Encompass Developer Connect (sibling product under ICE). Tagged areas include Mortgage Technology, Loan Servicing, Loan Origination, Secondary Marketing, and Default Management.
 
 
-  The Black Knight (Acquired by ICE — Now ICE Mortgage Technology) catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
+  The Black Knight catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
 plans:
 - name: Black Knight Plans Pricing
   plan_count: 4
@@ -224,7 +224,7 @@ rate_limits:
 rules:
 - effective_rule_count: 5
   extends: []
-  name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology) API Rules
+  name: Black Knight API Rules
   rule_count: 5
   severity_counts:
     error: 0
@@ -235,7 +235,7 @@ rules:
 - effective_rule_count: 50
   extends:
   - spectral:oas
-  name: Black Knight (Acquired by ICE — Now ICE Mortgage Technology) API Rules
+  name: Black Knight API Rules
   rule_count: 9
   severity_counts:
     error: 4
@@ -267,7 +267,7 @@ score:
     regions:
     - north-america
   previous_composite: 35.2
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

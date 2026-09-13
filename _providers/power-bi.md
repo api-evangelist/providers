@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 34.2
   scored_at: '2026-09-12'
 agentic_access:
@@ -89,6 +89,59 @@ apis:
   description: Manage reports including listing, cloning, exporting, rebinding, and deleting reports. Reports are visual presentations of data from datasets.
   name: Power BI Reports API
   slug: power-bi-reports-api
+- description: Power BI Embedded enables developers to embed interactive Power BI reports, dashboards, and tiles into custom applications. It provides client-side JavaScript APIs for rendering and interacting with e
+  name: Power BI Embedded API
+  slug: embedded-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Apps API from Microsoft Power BI — 1 operation(s) for apps.
+  name: Microsoft Power BI Apps API
+  slug: microsoft-power-bi-apps-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Capacities API from Microsoft Power BI — 1 operation(s) for capacities.
+  name: Microsoft Power BI Capacities API
+  slug: microsoft-power-bi-capacities-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Dashboards API from Microsoft Power BI — 2 operation(s) for dashboards.
+  name: Microsoft Power BI Dashboards API
+  slug: microsoft-power-bi-dashboards-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Dataflows API from Microsoft Power BI — 1 operation(s) for dataflows.
+  name: Microsoft Power BI Dataflows API
+  slug: microsoft-power-bi-dataflows-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Datasets API from Microsoft Power BI — 5 operation(s) for datasets.
+  name: Microsoft Power BI Datasets API
+  slug: microsoft-power-bi-datasets-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The EmbedToken API from Microsoft Power BI — 1 operation(s) for embedtoken.
+  name: Microsoft Power BI EmbedToken API
+  slug: microsoft-power-bi-embedtoken-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Gateways API from Microsoft Power BI — 1 operation(s) for gateways.
+  name: Microsoft Power BI Gateways API
+  slug: microsoft-power-bi-gateways-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Groups API from Microsoft Power BI — 2 operation(s) for groups.
+  name: Microsoft Power BI Groups API
+  slug: microsoft-power-bi-groups-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Imports API from Microsoft Power BI — 1 operation(s) for imports.
+  name: Microsoft Power BI Imports API
+  slug: microsoft-power-bi-imports-api
+- baseURL: https://api.powerbi.com/v1.0/myorg/
+  baseurl_source: declared
+  description: The Reports API from Microsoft Power BI — 5 operation(s) for reports.
+  name: Microsoft Power BI Reports API
+  slug: microsoft-power-bi-reports-api
 arazzos:
 - description: Walk from the dashboard list down to a single tile and capture the embed URL, report, and dataset it needs.
   name: Power BI Resolve a Dashboard Tile for Embedding
@@ -126,7 +179,7 @@ arazzos:
 - description: Create a workspace, add a principal with a specific access right, and verify the resulting membership.
   name: Power BI Provision a Workspace and Grant Access
   slug: power-bi-workspace-provision-access-workflow
-artifact_total: 261
+artifact_total: 272
 collections:
 - collection_type: postman
   name: Power BI REST Dashboards API
@@ -171,6 +224,14 @@ collections:
   name: Power BI REST API
   slug: open-power-bi-rest-api
 common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/microsoft
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.fabric.microsoft.com/t5/Power-BI-forums/ct-p/pbi_english
 - group: company
   title: ''
   type: Website
@@ -1052,13 +1113,13 @@ modified: '2026-06-20'
 name: Power BI
 nav: Providers
 network: true
-overview: 'Power BI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasets API, Gateways API, and 3 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Analysis, and Reporting.
+overview: 'Power BI publishes 16 APIs on the [APIs.io](https://apis.io/) network, including Dashboards API, Datasets API, Gateways API, and 13 more. Tagged areas include Analytics, Business Intelligence, Dashboards, Data Analysis, and Reporting.
 
 
   The Power BI catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 57 more developer resources.'
+  Power BI''s developer surface includes authentication, sandbox, changelog, CLI, developer portal, engineering blog, support, and 59 more developer resources.'
 plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
@@ -1097,7 +1158,7 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 66.1
+  composite: 65.2
   coverage:
     artifact_dirs: 33
     catalog_earned: 58.5
@@ -1105,11 +1166,11 @@ score:
     catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.9
   facets:
     access_clarity: 61.8
     contract_governance: 18.2
-    contract_quality: 72.8
+    contract_quality: 69.2
     developer_ergonomics: 96.4
     discoverability: 75.9
     operational_transparency: 55.3
@@ -1121,9 +1182,9 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 6
+      total: 10
     mcp: derived
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

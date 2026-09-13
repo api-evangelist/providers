@@ -1,16 +1,17 @@
 ---
 access_model:
-  confidence: medium
-  label: Free
-  onboarding: unknown
-  pricing: free
+  confidence: high
+  label: Enterprise — approved customers and partners only
+  onboarding: approval
+  pricing: enterprise
   public: false
   source:
   - plans
+  - https://developer.gm.com/explore-apis
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -29,17 +30,17 @@ agent_readiness:
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: true
+    spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
-  score: 15.5
+  schema_version: '0.2'
+  score: 2.5
   scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: You can reach customers in their cars using GMs powerful, in-vehicle platform. Our tools can provide access to close to 200 data points, allowing you to monitor vehicle data in real-time to deliver th
   name: General Motors
   slug: general-motors
-artifact_total: 6
+artifact_total: 7
 common:
 - group: auth
   title: ''
@@ -56,15 +57,47 @@ common:
 - group: company
   title: ''
   type: Website
+  url: https://www.gm.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
   url: https://developer.gm.com/
 - group: docs
   title: ''
   type: Documentation
-  url: https://developer.gm.com/docs
-- group: start
+  url: https://developer.gm.com/docs/api-data-services
+- group: docs
   title: ''
-  type: GettingStarted
-  url: https://developer.gm.com/docs/getting-started
+  type: APIReference
+  url: https://developer.gm.com/explore-apis
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.gm.com/contact-us
+- group: company
+  title: ''
+  type: Blog
+  url: https://news.gm.com/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gm.com/privacy-statement
+- group: auth
+  title: ''
+  type: Security
+  url: security/general-motors-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/general-motors-vulnerability-disclosure.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/general-motors-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/general-motors-llms.txt
 coverage:
   checked: '2026-09-12'
   detail: The GM Developer Portal is a single-page app whose own router guards every /docs/* route with requireCommercialAPIAccess and whose backend at https://developer.gm.com/v1 returns 403 to every anonymous request except GET /v1/csrf-token, so the API reference and any machine-readable contract are released only to customers GM has already approved for commercial API access.
@@ -85,23 +118,19 @@ finops:
 - name: General Motors Finops
   service_category: Automotive & Connected Services
   slug: general-motors-finops
-graphqls:
-- description: 'General Motors provides connected vehicle APIs through its OnStar and myChevrolet/Buick/GMC/Cadillac platforms. The API covers vehicle diagnostics, remote commands (lock/unlock/start), location data, '
-  name: General Motors GraphQL API
-  slug: general-motors-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/general-motors.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: General Motors
 nav: Providers
 network: true
 overview: 'General Motors publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Automobiles, Cars, Vehicles, Connected Vehicles, and Telematics.
 
 
-  General Motors'' developer surface includes documentation, getting-started guide, and 4 more developer resources.'
+  General Motors'' developer surface includes documentation, API reference, support, engineering blog, and 10 more developer resources.'
 plans:
 - name: General Motors Plans Pricing
-  plan_count: 1
+  plan_count: 0
   slug: general-motors-plans-pricing
 press:
 - date: '2026-05-25'
@@ -121,41 +150,49 @@ press:
   url: https://news.gm.com/home.detail.html/Pages/topic/us/en/2025/mar/0311-ai.html
 random_paper: 6
 rate_limits:
-- limit_count: 1
+- limit_count: 0
   name: General Motors Rate Limits
   slug: general-motors-rate-limits
 score:
   band: emerging
-  composite: 24.3
+  composite: 18.0
   coverage:
-    artifact_dirs: 9
-    catalog_earned: 39.0
+    artifact_dirs: 12
+    catalog_earned: 35.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 76.0
+    catalog_gap: 80.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -6.3
   facets:
-    access_clarity: 13.2
+    access_clarity: 18.4
     contract_governance: 0.0
-    contract_quality: 41.5
-    developer_ergonomics: 21.4
+    contract_quality: 0.0
+    developer_ergonomics: 33.3
     discoverability: 59.3
-    operational_transparency: 7.9
+    operational_transparency: 13.2
   previous_composite: 24.3
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: falling
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-motors/refs/heads/main/screenshots/general-motors-2026-06-20T181729.png
 security:
+- kind: authentication
+  name: General Motors Authentication
+  slug: general-motors-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: General Motors Domain Security
   slug: general-motors-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: General Motors Vulnerability Disclosure
+  slug: general-motors-vulnerability-disclosure
+  summary_line: Hackerone · contact published
 slug: general-motors
 tags:
 - Automobiles
@@ -164,5 +201,5 @@ tags:
 - Connected Vehicles
 - Telematics
 - Fortune 100
-website: https://developer.gm.com/
+website: https://www.gm.com/
 ---

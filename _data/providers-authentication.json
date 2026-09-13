@@ -16,34 +16,34 @@
      "slug": "kinde",
      "description": "Kinde is a developer-first authentication and customer identity platform that bundles authentication (passwords, passwordless, social, enterprise SSO), authorization (roles, permissions, scopes), B2B organizations, billing, and feature flags into a single integrated product. Founded in Australia, Kinde positions itself as \"the fully integrated developer platform — secure and monetize your product from day one\" and is used by over 70,000 developers. The platform exposes a Management API for tenant administration and an Account API for end-user self-service flows, both backed by published OpenAPI specs and a large open-source SDK ecosystem on GitHub (TypeScript, React, Next.js, Python, Go, Java, .NET, PHP, Ruby, Elixir, Flutter, iOS, Android, Expo, React Native, SvelteKit, Nuxt, Remix, TanStack Start) plus a Go-based CLI, a Terraform provider, and a Model Context Protocol (MCP) server for AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kinde/refs/heads/main/screenshots/kinde-2026-06-20T184038.png",
-     "score": 72.8,
+     "score": 86.0,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 61.1,
-      "contract_quality": 74.8,
-      "contract_governance": 28.8,
-      "operational_transparency": 65.8,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 75.0
+      "discoverability": 70.4,
+      "contract_quality": 73.8,
+      "contract_governance": 47.0,
+      "operational_transparency": 92.1,
+      "developer_ergonomics": 91.1,
+      "access_clarity": 93.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 36.7,
+     "schema_version": "0.22.0",
+     "agent_score": 48.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
+      "mcp_server": "templated",
+      "auth_clarity": "served",
+      "idempotency": "documented",
       "error_semantics": "verified",
       "openapi_examples": "partial",
       "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
       "consent_identity": false,
       "agent_card": false,
       "dry_run_mode": false,
@@ -72,7 +72,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -116,7 +116,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -151,8 +151,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "PropelAuth",
@@ -171,7 +171,7 @@
       "access_clarity": 92.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -215,7 +215,7 @@
       "access_clarity": 61.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 30.8,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -243,6 +243,50 @@
      "rank": 5
     },
     {
+     "name": "Gluu",
+     "slug": "gluu",
+     "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources. Gluu leads the Linux Foundation Janssen Project, whose OAuth 2.0 / OpenID Connect authorization server, SCIM 2.0 service, FIDO2 server, Config API and Cedarling policy decision point are the components Gluu packages commercially as Gluu Flex and hosts as Gluu Solo.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png",
+     "score": 61.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 72.2,
+      "contract_quality": 64.9,
+      "contract_governance": 18.2,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 68.5,
+      "access_clarity": 73.7
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 33.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Open Source Identity Servers",
+     "rank": 6
+    },
+    {
      "name": "Auth0",
      "slug": "auth0",
      "description": "Auth0 (now part of Okta) is a leading identity-as-a-service platform providing authentication and authorization for applications, APIs, and AI agents. It implements OpenID Connect, OAuth 2.0, SAML 2.0, WS-Federation, and SCIM, and exposes a Management API (OpenAPI 3.1, 221 paths, 2,567 schemas), an Authentication API, a My Account API, a My Organization API, FGA (Fine-Grained Authorization, OpenFGA / Zanzibar-based), and Auth0 for AI Agents — covering Token Vault, asynchronous authorization, Auth for MCP, and FGA for RAG.",
@@ -259,7 +303,7 @@
       "access_clarity": 51.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -284,7 +328,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Beyond Identity",
@@ -303,7 +347,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -328,7 +372,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Stytch",
@@ -347,7 +391,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -372,7 +416,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Descope",
@@ -391,7 +435,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -416,7 +460,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "SailPoint",
@@ -435,7 +479,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -460,7 +504,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 10
+     "rank": 11
     }
    ],
    "open": true
@@ -490,7 +534,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -515,7 +559,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "WorkOS",
@@ -534,7 +578,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -559,7 +603,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Transmit Security",
@@ -578,7 +622,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -603,7 +647,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Zitadel",
@@ -622,7 +666,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -647,7 +691,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Authzed",
@@ -666,7 +710,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -691,7 +735,7 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "ForgeRock",
@@ -710,7 +754,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -735,7 +779,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Hanko",
@@ -754,7 +798,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -779,7 +823,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Ory",
@@ -798,7 +842,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -823,7 +867,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Oso Cloud",
@@ -842,7 +886,7 @@
       "access_clarity": 57.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -874,7 +918,7 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Permit.io",
@@ -893,7 +937,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -925,7 +969,7 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "SuperTokens",
@@ -944,7 +988,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -969,7 +1013,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "FusionAuth",
@@ -988,7 +1032,7 @@
       "access_clarity": 51.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 31.4,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1013,7 +1057,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Cerbos",
@@ -1032,7 +1076,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1064,7 +1108,7 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Corbado",
@@ -1083,7 +1127,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1108,7 +1152,7 @@
       "agentic_commerce": false
      },
      "tier": "Developer-First CIAM",
-     "rank": 24
+     "rank": 25
     }
    ]
   },
@@ -1117,8 +1161,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
+   "count": 9,
+   "shown": 9,
    "providers": [
     {
      "name": "Aserto",
@@ -1137,7 +1181,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1169,7 +1213,7 @@
       "agentic_commerce": false
      },
      "tier": "Authorization & Policy Engines",
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "CyberArk",
@@ -1188,7 +1232,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1213,7 +1257,7 @@
       "agentic_commerce": false
      },
      "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Logto",
@@ -1232,7 +1276,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1257,7 +1301,7 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Keycloak",
@@ -1276,7 +1320,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1287,50 +1331,6 @@
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Open Source Identity Servers",
-     "rank": 28
-    },
-    {
-     "name": "Gluu",
-     "slug": "gluu",
-     "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources. Gluu leads the Linux Foundation Janssen Project, whose OAuth 2.0 / OpenID Connect authorization server, SCIM 2.0 service, FIDO2 server, Config API and Cedarling policy decision point are the components Gluu packages commercially as Gluu Flex and hosts as Gluu Solo.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png",
-     "score": 33.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 50.3,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 45.2,
-      "access_clarity": 15.8
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 19.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": "documented",
       "event_surface_described": false,
@@ -1364,7 +1364,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1408,7 +1408,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1452,7 +1452,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1496,7 +1496,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1540,7 +1540,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1594,7 +1594,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1638,7 +1638,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1681,7 +1681,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1689,13 +1689,13 @@
       "score": 18.8,
       "matched_via": "tags"
      },
-     "agent_score": 28.4,
+     "agent_score": 21.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,

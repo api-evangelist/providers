@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -26,15 +26,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: false
     idempotency: na
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.2
-  score: 40.6
+  schema_version: '0.2'
+  score: 33.1
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
@@ -268,7 +268,7 @@ score:
       total: 4
     mcp: first-party
     skills: derived
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

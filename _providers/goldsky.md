@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: human-only
   dimensions:
     agent_card: false
     agent_skills: false
@@ -24,15 +24,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: false
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
-  score: 11.2
+  schema_version: '0.2'
+  score: 4.7
   scored_at: '2026-09-12'
 api_count: 8
 apis:
@@ -148,7 +148,7 @@ score:
   previous_composite: 19.7
   provenance:
     mcp: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

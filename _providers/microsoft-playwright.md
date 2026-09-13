@@ -31,10 +31,10 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 6.0
   scored_at: '2026-09-12'
-api_count: 2
+api_count: 3
 apis:
 - description: Playwright provides a cross-browser automation API for end-to-end testing of web applications. It supports Chromium, Firefox, and WebKit with a single API, enabling reliable testing with auto-wait, ne
   name: Playwright API
@@ -42,8 +42,23 @@ apis:
 - description: Azure Playwright Testing is a managed cloud service for running Playwright tests at scale. It provides browser infrastructure for parallel test execution, reducing test suite run times and enabling CI
   name: Azure Playwright Testing Service API
   slug: testing-service-api
-artifact_total: 7
+- description: Open-source framework for reliable end-to-end browser testing and web automation supporting Chromium, Firefox, and WebKit. Distributed as a library/CLI; there is no public hosted HTTP API.
+  name: Playwright
+  slug: playwright
+artifact_total: 8
 common:
+- group: operate
+  title: ''
+  type: Community
+  url: https://aka.ms/playwright/discord
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://github.com/microsoft/playwright/releases
+- group: operate
+  title: ''
+  type: Issues
+  url: https://github.com/microsoft/playwright/issues
 - group: auth
   title: ''
   type: DomainSecurity
@@ -104,10 +119,10 @@ modified: '2026-05-19'
 name: Microsoft Playwright
 nav: Providers
 network: true
-overview: 'Microsoft Playwright publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-to-End Testing, Microsoft, and Testing.
+overview: 'Microsoft Playwright publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Browser Automation, End-to-End Testing, Microsoft, and Testing.
 
 
-  Microsoft Playwright''s developer surface includes developer portal, documentation, getting-started guide, support, and 7 more developer resources.'
+  Microsoft Playwright''s developer surface includes release notes, developer portal, documentation, getting-started guide, support, and 9 more developer resources.'
 plans:
 - name: Microsoft Playwright Plans Pricing
   plan_count: 3
@@ -119,24 +134,24 @@ rate_limits:
   slug: microsoft-playwright-rate-limits
 score:
   band: emerging
-  composite: 20.3
+  composite: 25.0
   coverage:
     artifact_dirs: 5
-    catalog_earned: 36.0
+    catalog_earned: 39.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 76.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
     access_clarity: 36.8
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 50.0
-    operational_transparency: 13.2
+    developer_ergonomics: 38.1
+    discoverability: 63.0
+    operational_transparency: 28.9
   previous_composite: 20.3
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

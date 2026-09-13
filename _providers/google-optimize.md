@@ -10,7 +10,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -30,9 +30,9 @@ agent_readiness:
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 2.5
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 5.4
   scored_at: '2026-09-12'
 api_count: 1
 apis:
@@ -69,6 +69,34 @@ common:
   title: ''
   type: PrivacyPolicy
   url: https://policies.google.com/privacy
+- group: auth
+  title: ''
+  type: Security
+  url: https://g.co/vrp
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/google-optimize-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/google-optimize-security.txt
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/google-optimize-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://support.google.com/optimize/answer/12979939
+- group: build
+  title: ''
+  type: Packages
+  url: packages/google-optimize-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/google-optimize-llms.txt
 coverage:
   checked: '2026-09-12'
   detail: Google Optimize and Optimize 360 were sunset on 2023-09-30 and the product is now a tombstone — developers.google.com/optimize and optimize.google.com both redirect in full to a single Help Center sunset notice, the documented base https://www.googleapis.com/optimize/v1 returns 404, and Google's own API Discovery directory listed 530 services on 2026-09-12 with no Optimize entry among them.
@@ -106,7 +134,7 @@ finops:
   slug: google-optimize-finops
 image: https://www.gstatic.com/images/branding/product/1x/optimize_48dp.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Google Optimize
 nav: Providers
 network: true
@@ -116,14 +144,14 @@ overview: 'Google Optimize publishes 1 API on the [APIs.io](https://apis.io/) ne
   The Google Optimize catalog on APIs.io includes 1 Spectral governance ruleset.
 
 
-  Google Optimize''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
+  Google Optimize''s developer surface includes documentation, engineering blog, and 12 more developer resources.'
 plans:
 - name: Google Optimize Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: google-optimize-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Google Optimize Rate Limits
   slug: google-optimize-rate-limits
 rules:
@@ -139,24 +167,24 @@ rules:
   slug: google-optimize-spectral-rules
 score:
   band: emerging
-  composite: 20.4
+  composite: 21.0
   coverage:
-    artifact_dirs: 8
-    catalog_earned: 59.0
+    artifact_dirs: 12
+    catalog_earned: 53.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
+    catalog_gap: 62.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.6
   facets:
-    access_clarity: 36.8
+    access_clarity: 28.9
     contract_governance: 39.4
     contract_quality: 0.0
     developer_ergonomics: 2.4
-    discoverability: 68.5
-    operational_transparency: 7.9
+    discoverability: 75.9
+    operational_transparency: 18.4
   previous_composite: 20.4
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

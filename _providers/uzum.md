@@ -22,7 +22,7 @@ agent_readiness:
     reversibility_documented: verified
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 38.7
   scored_at: '2026-09-12'
 api_count: 11
@@ -257,7 +257,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 68.8
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

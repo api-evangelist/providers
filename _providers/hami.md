@@ -9,32 +9,41 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-ready
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: true
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 0.0
+    protected_resource_metadata: documented
+    rate_limit_signal: documented
+    reversibility_documented: na
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 33.8
   scored_at: '2026-09-12'
-api_count: 0
-artifact_total: 0
+api_count: 2
+apis:
+- description: The HAMi WebUI backend API. Four gRPC services — Card, Node, Container and Monitor — expose cluster accelerator inventory, node inventory, GPU-consuming workloads and Prometheus-backed range/instant/s
+  name: HAMi WebUI API
+  slug: hami-webui-api
+- baseURL: https://project-hami.io
+  baseurl_source: declared
+  description: The machine-readable discovery surface of the HAMi documentation website, described by a first-party OpenAPI 3.1.0 document that the site advertises as the service-desc of its RFC 9727 API catalog. Fo
+  name: HAMi Website Discovery API
+  slug: hami-website-discovery-api
+artifact_total: 7
 common:
 - group: company
   title: ''
@@ -52,57 +61,187 @@ common:
   title: ''
   type: Blog
   url: https://project-hami.io/blog/rss.xml
-created: '2025'
-description: HAMI (Heterogeneous AI Computing Virtualization Middleware) is an open-source project that enables GPU virtualization and sharing for Kubernetes workloads, allowing multiple AI containers to share GPU resources efficiently.
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://project-hami.io/docs/category/developer-guide
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://project-hami.io/docs/get-started/deploy-with-helm
+- group: operate
+  title: ''
+  type: Support
+  url: https://project-hami.io/community
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://project-hami.io/docs/contributor/roadmap
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://project-hami.io/changelog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://lfprojects.org/policies/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://lfprojects.org/policies/privacy-policy/
+- group: auth
+  title: ''
+  type: Security
+  url: https://github.com/Project-HAMi/HAMi/blob/master/SECURITY.md
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hami-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hami-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hami-packages.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hami-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hami-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hami-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hami-changelog.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hami-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hami-data-model.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hami-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hami-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/hami-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: X-SecurityInsights
+  url: security/hami-security-insights.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hami-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hami-plans-pricing.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/hami-mcp.yml
+created: '2025-01-01'
+description: 'HAMi (Heterogeneous AI Computing Virtualization Middleware) is a CNCF incubating open-source project that brings device sharing, memory and core isolation, and topology-aware scheduling to heterogeneous AI accelerators on Kubernetes. It lets several containers share one physical GPU or NPU with hard memory limits and enforced compute quotas, across NVIDIA, Huawei Ascend, Cambricon MLU, Hygon DCU, Enflame GCU, Iluvatar, Moore Threads, MetaX, Kunlunxin and Vastai devices. HAMi ships a scheduler, a device plugin, an in-container enforcement library (HAMi-core/libvgpu), a DRA driver, and HAMi WebUI — an observability dashboard whose backend exposes a gRPC and grpc-gateway REST API over cluster GPU, node, workload and Prometheus-backed monitoring data. The project also publishes a machine-readable discovery surface on its documentation site: an RFC 9727 API catalog, an OpenAPI 3.1 service description, an Agent Skills discovery index, and Content-Signal directives in robots.txt.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hami.png
 layout: provider
-modified: '2026-04-28'
-name: HAMI
+modified: '2026-09-12'
+name: HAMi
 nav: Providers
 network: true
-overview: 'HAMI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Computing, CNCF, GPU Virtualization, and Kubernetes.
+overview: 'HAMi publishes 1 API on the [APIs.io](https://apis.io/) network: Website Discovery API. Tagged areas include AI Computing, CNCF, GPU Virtualization, Kubernetes, and GPU Sharing.
 
 
-  HAMI''s developer surface includes documentation, engineering blog, and 2 more developer resources.'
+  HAMi''s developer surface includes documentation, engineering blog, getting-started guide, support, changelog, authentication, and 23 more developer resources.'
+plans:
+- name: Hami Plans Pricing
+  plan_count: 0
+  slug: hami-plans-pricing
 random_paper: 16
+rate_limits:
+- limit_count: 0
+  name: Hami Rate Limits
+  slug: hami-rate-limits
 score:
-  band: minimal
-  composite: 6.8
+  band: thin
+  composite: 38.5
   coverage:
-    artifact_dirs: 2
-    catalog_earned: 22.0
+    artifact_dirs: 20
+    catalog_earned: 37.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 78.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 31.7
   facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 11.9
-    discoverability: 40.7
-    operational_transparency: 2.6
-  needs_work:
-    note: Recorded so this provider's gaps can be attributed. Does not affect the composite above.
-    owner: catalog
-    reasons:
-    - owner: catalog
-      reason: never_enriched
+    access_clarity: 21.1
+    contract_governance: 18.2
+    contract_quality: 37.4
+    developer_ergonomics: 57.1
+    discoverability: 68.5
+    operational_transparency: 34.2
   previous_composite: 6.8
-  schema_version: 0.21.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: first-party
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/hami/refs/heads/main/screenshots/hami-2026-06-20T182500.png
+security:
+- kind: authentication
+  name: Hami Authentication
+  slug: hami-authentication
+  summary_line: 0 schemes
+- kind: domain-security
+  name: Hami Domain Security
+  slug: hami-domain-security
+  summary_line: TLSv1.3 · HSTS
+- kind: vulnerability-disclosure
+  name: Hami Vulnerability Disclosure
+  slug: hami-vulnerability-disclosure
+  summary_line: disclosure policy published
 slug: hami
 tags:
 - AI Computing
 - CNCF
 - GPU Virtualization
 - Kubernetes
+- GPU Sharing
+- Scheduling
+- Open Source
+- Infrastructure
+- Observability
+- Heterogeneous Computing
 website: https://www.project-hami.io/
 ---

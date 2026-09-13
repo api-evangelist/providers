@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: true
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: negotiable
@@ -24,17 +24,17 @@ agent_readiness:
     dry_run_mode: false
     dynamic_client_registration: false
     error_semantics: verified
-    event_surface_described: false
-    idempotency: false
+    event_surface_described: true
+    idempotency: documented
     mcp_server: documented
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: verified
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 40.1
+  schema_version: '0.2'
+  score: 44.9
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 5
@@ -43,7 +43,7 @@ agentic_access:
   operation_count: 13
   slug: power-platform-agentic-access
   summary_line: 13 operations · 5 acting
-api_count: 1
+api_count: 2
 apis:
 - description: OData v4.0 compliant Web API for Microsoft Dataverse, providing RESTful data storage, business logic, and entity management capabilities across the Power Platform.
   name: Dataverse API (Common Data Service)
@@ -80,7 +80,35 @@ apis:
   description: Operations for managing billing policies and licensing across the Power Platform tenant.
   name: Microsoft Power Platform APIs Licensing API
   slug: power-platform-licensing-api
-artifact_total: 149
+- description: The Microsoft Dataverse Web API provides OData v4 RESTful access to the Dataverse data platform that underpins Power Platform. Developers can perform CRUD operations on tables, execute actions and fun
+  name: Microsoft Dataverse Web API
+  slug: dataverse-api
+- description: Power Platform Connectors provide pre-built integrations with hundreds of external services and enable developers to create custom connectors using OpenAPI definitions. Connectors abstract API authent
+  name: Power Platform Connectors
+  slug: connectors-api
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2/
+  baseurl_source: declared
+  description: The Metadata API from Microsoft Power Platform — 3 operation(s) for metadata.
+  name: Microsoft Power Platform Metadata API
+  slug: microsoft-power-platform-metadata-api
+- baseURL: https://{org}.api.crm.dynamics.com/api/data/v9.2/
+  baseurl_source: declared
+  description: The Records API from Microsoft Power Platform — 2 operation(s) for records.
+  name: Microsoft Power Platform Records API
+  slug: microsoft-power-platform-records-api
+- description: The unified REST API for Power Platform administration, at https://api.powerplatform.com/{namespace}/{resource}?api-version={version}. Namespaces include licensing, appmanagement, environmentmanagemen
+  name: Power Platform API
+  slug: power-platform-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: The Microsoft.PowerPlatform Azure Resource Manager provider - 19 operations over enterprisePolicies, accounts, privateEndpointConnections and privateLinkResources, covering customer-managed encryption
+  name: Power Platform Enterprise Policies (Azure Resource Manager)
+  slug: microsoft-power-platform-enterprise-policies
+artifact_total: 157
+asyncapis:
+- description: ''
+  name: Power Platform Webhooks
+  slug: power-platform-webhooks
 collections:
 - collection_type: postman
   name: Microsoft Power Platform REST Applications API
@@ -113,6 +141,118 @@ collections:
   name: Microsoft Power Platform REST Applications Licensing API
   slug: open-power-platform-licensing-api
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://make.powerapps.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://powerapps.microsoft.com/en-us/pricing/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/power-platform/developer/get-started
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.microsoft.com/en-us/power-platform/products/power-apps/free
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://learn.microsoft.com/en-us/power-platform/release-plan/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.powerplatform.com/
+- group: build
+  title: ''
+  type: Packages
+  url: packages/power-platform-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/power-platform-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/power-platform-cli.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/power-platform-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/power-platform-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/power-platform-well-known.yml
+- group: auth
+  title: ''
+  type: SecurityTxt
+  url: well-known/power-platform-security.txt
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/power-platform-trust-center.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/power-platform-conformance.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/power-platform-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/power-platform-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/power-platform-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/power-platform-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/power-platform-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://learn.microsoft.com/en-us/power-platform/important-changes-coming
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/power-platform-changelog.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/power-platform-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/power-platform-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/power-platform-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/power-platform-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/power-platform-records-api-overlay.yaml
 - group: company
   title: ''
   type: Website
@@ -488,13 +628,13 @@ modified: '2026-05-19'
 name: Microsoft Power Platform APIs
 nav: Providers
 network: true
-overview: 'Microsoft Power Platform APIs publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Environments API, Flow Runs API, and 1 more. Tagged areas include Business Applications, Copilot Studio, Dataverse, Low-Code, and Microsoft.
+overview: 'Microsoft Power Platform APIs publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Applications API, Environments API, Flow Runs API, and 4 more. Tagged areas include Business Applications, Copilot Studio, Dataverse, Low-Code, and Microsoft.
 
 
-  The Microsoft Power Platform APIs catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+  The Microsoft Power Platform APIs catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Platform APIs'' developer surface includes authentication, documentation, engineering blog, training material, API reference, support, and 18 more developer resources.'
+  Microsoft Power Platform APIs'' developer surface includes developer portal, pricing, getting-started guide, signup flow, CLI, changelog, sandbox, and 45 more developer resources.'
 plans:
 - name: Power Platform Plans Pricing
   plan_count: 9
@@ -532,46 +672,49 @@ scopes:
   slug: power-platform-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 63.7
+  band: exemplar
+  composite: 76.4
   coverage:
-    artifact_dirs: 19
+    artifact_dirs: 34
     catalog_earned: 50.5
     catalog_earned_first_party: 0.0
     catalog_gap: 64.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 12.7
   facets:
-    access_clarity: 47.4
-    contract_governance: 13.6
-    contract_quality: 67.7
-    developer_ergonomics: 89.3
+    access_clarity: 76.3
+    contract_governance: 31.8
+    contract_quality: 71.5
+    developer_ergonomics: 83.9
     discoverability: 66.7
-    operational_transparency: 44.7
+    operational_transparency: 65.8
   open_source:
     applies: true
     score: 50.0
   previous_composite: 63.7
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
+      total: 6
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 64.9
-  schema_version: 0.21.0
+    score: 71.6
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
-    score: 0.0
+    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:
 - kind: authentication
@@ -586,6 +729,10 @@ security:
   name: Power Platform Vulnerability Disclosure
   slug: power-platform-vulnerability-disclosure
   summary_line: security.txt · contact published
+- kind: trust-center
+  name: Power Platform Trust Center
+  slug: power-platform-trust-center
+  summary_line: trust center published
 skill_count: 52
 skills:
 - name: activate-site

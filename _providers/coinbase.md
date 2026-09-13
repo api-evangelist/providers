@@ -26,15 +26,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: derived
     idempotency: verified
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 37.7
+  schema_version: '0.2'
+  score: 31.2
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 32
@@ -696,7 +696,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 48.4
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

@@ -25,15 +25,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: documented
-    mcp_server: documented
+    mcp_server: templated
     openapi_examples: partial
     protected_resource_metadata: verified
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 56.2
+  schema_version: '0.2'
+  score: 57.9
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 14
@@ -806,7 +806,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 73.6
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

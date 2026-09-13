@@ -1,19 +1,19 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Licensed, trial on request
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
-  trial: false
+  trial: true
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
     auth_clarity: bearer
@@ -21,43 +21,40 @@ agent_readiness:
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: documented
     mcp_server: false
-    openapi_examples: false
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 5.0
+  schema_version: '0.2'
+  score: 27.5
   scored_at: '2026-09-12'
-api_count: 4
+api_count: 1
 apis:
-- description: RESTful API exposed by the Geneos Gateway for retrieving monitoring data and managing dataviews, samplers, entities, and snooze states programmatically. Authenticated and typically deployed inside ent
-  name: Geneos Gateway REST API
+- baseURL: http://{netprobeHost}:7136/v1
+  baseurl_source: declared
+  description: 'OpenAPI 3.0 REST plug-in on the Geneos Netprobe. Third-party applications PUT JSON to create or update dataviews, rows and streams on a named managed entity and sampler, DELETE them, and GET a health '
+  name: Geneos Netprobe REST API
+  slug: netprobe-rest-api
+- description: 'JSON over HTTP(S) service exposed by the Geneos Gateway so third-party applications can run commands, list available commands and command targets, resolve XPath targets, snapshot a dataview, read the '
+  name: Geneos Gateway REST Command Service
   slug: gateway-rest
-- description: XML-RPC interface for programmatic control of Geneos Gateway including executing commands, managing configuration, publishing data into Gateways from external samplers, and retrieving monitoring data.
-  name: Geneos XML-RPC API
+- description: XML-RPC server exposed by the Netprobe API and API-STREAMS plug-ins so in-house applications, in any language with an XML-RPC client, can create custom dataviews, add and update headlines, rows, colum
+  name: Geneos XML-RPC Instrumentation API
   slug: xml-rpc
-- description: API for integrating with the Geneos Web Dashboard, enabling custom dashboards, data visualization, and user interface extensions on top of Geneos monitoring data.
-  name: Geneos Web Dashboard API
+- description: 'Browser-delivered dashboard server that renders Geneos Active Dashboards and dataviews without the Active Console desktop client. Managed as a Geneos component (webserver) and documented as a product '
+  name: Geneos Web Dashboard
   slug: web-dashboard
-- description: Java and Python APIs delivered through the Geneos Toolkit for building custom integrations, samplers, plugins, and automation scripts that publish data into and pull data out of Geneos.
-  name: Geneos Toolkit API
+- description: Scripting integration point where any executable that emits CSV on stdout becomes a Geneos sampler. The Toolkit is how most custom and third-party monitoring is bolted onto Geneos, and it is the targe
+  name: Geneos Toolkit (Scripting) Plug-in
   slug: toolkit
-artifact_total: 8
+artifact_total: 12
 common:
-- group: auth
-  title: ''
-  type: DomainSecurity
-  url: security/geneos-domain-security.yml
-- group: company
-  title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/geneos-therapeutics
 - group: company
   title: ''
   type: Website
@@ -65,62 +62,174 @@ common:
 - group: other
   title: ''
   type: ProductPage
-  url: https://www.itrsgroup.com/products/geneos
+  url: https://www.itrsgroup.com/platform/geneos
 - group: docs
   title: ''
   type: Documentation
   url: https://docs.itrsgroup.com/docs/geneos/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.itrsgroup.com/docs/geneos/current/index.html
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.itrsgroup.com/docs/geneos/5.14.0/api/rest-api/?v=/v1/rest-api.yaml
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.itrsgroup.com/docs/geneos/current/getting-started/quickstart/index.html
 - group: operate
   title: ''
   type: Support
-  url: https://www.itrsgroup.com/support
+  url: https://support.itrsgroup.com
 - group: operate
   title: ''
   type: Community
   url: https://community.itrsgroup.com/
-- group: other
+- group: company
   title: ''
-  type: KnowledgeBase
-  url: https://kb.itrsgroup.com/
+  type: Blog
+  url: https://www.itrsgroup.com/blog
 - group: learn
   title: ''
   type: Training
-  url: https://www.itrsgroup.com/training
+  url: https://www.itrsgroup.com/services/training/geneos
 - group: operate
   title: ''
   type: Contact
-  url: https://www.itrsgroup.com/contact
+  url: https://www.itrsgroup.com/about/contact
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.itrsgroup.com/products/free-trials
 - group: commercial
   title: ''
   type: TermsOfService
-  url: https://www.itrsgroup.com/terms
+  url: https://www.itrsgroup.com/legal/terms-of-web-use
 - group: commercial
   title: ''
   type: PrivacyPolicy
-  url: https://www.itrsgroup.com/privacy
+  url: https://www.itrsgroup.com/legal/privacy-notice
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/ITRS-Group
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/itrsgroup
+- group: build
+  title: ''
+  type: Packages
+  url: packages/geneos-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/geneos-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/geneos-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/geneos-sandbox.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/geneos-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/geneos-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/geneos-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/geneos-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/geneos-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/geneos-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/geneos-changelog.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/geneos-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/geneos-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/geneos-conformance.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/geneos-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/geneos-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/geneos-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/geneos-domain-security.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/geneos-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/geneos-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/geneos-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/geneos-finops.yml
 created: '2024-01-15'
-description: Geneos is ITRS Group's real-time monitoring platform that provides comprehensive observability for trading systems, applications, and infrastructure. Widely deployed across investment banks, hedge funds, and exchanges, Geneos collects high-frequency telemetry from custom samplers and toolkits, aggregates it through Gateways, and exposes that data through REST, XML-RPC, streaming, and SDK interfaces for programmatic access, automation, and dashboarding.
+description: 'Geneos is ITRS Group''s real-time monitoring and observability platform for trading systems, applications and infrastructure, deployed across investment banks, hedge funds, exchanges, telcos and government. It is customer-deployed software rather than a hosted API: Netprobes collect high-frequency telemetry at the edge, Gateways aggregate and rule over it, and each tier exposes its own programmable surface. The Netprobe ships a published OpenAPI 3.0 REST plug-in for pushing dataviews and streams into monitoring, an XML-RPC Instrumentation API for in-house applications to publish custom dataviews, and the Gateway exposes a JSON/Server-Sent-Events REST command service for running commands, snoozing entities, snapshotting dataviews and validating setup. ITRS also publishes first-party Go tooling (cordial, including the geneos CLI) and a Rust toolkit library on GitHub.'
 finops:
 - name: Geneos Finops
   service_category: API
   slug: geneos-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geneos.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Geneos
 nav: Providers
 network: true
-overview: 'Geneos publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include APM, Capital Markets, Infrastructure, ITRS, and Monitoring.
+overview: 'Geneos publishes 1 API on the [APIs.io](https://apis.io/) network: Netprobe REST API. Tagged areas include APM, Capital Markets, Infrastructure, ITRS, and Monitoring.
 
 
-  Geneos'' developer surface includes documentation, support, training material, and 10 more developer resources.'
+  Geneos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, training material, signup flow, and 32 more developer resources.'
 plans:
 - name: Geneos Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: geneos-plans-pricing
 random_paper: 11
 rate_limits:
@@ -128,37 +237,57 @@ rate_limits:
   name: Geneos Rate Limits
   slug: geneos-rate-limits
 score:
-  band: emerging
-  composite: 17.2
+  band: strong
+  composite: 54.8
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 44.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
+    artifact_dirs: 21
+    catalog_earned: 47.0
+    catalog_earned_first_party: 12.0
+    catalog_gap: 68.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 37.6
   facets:
-    access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 31.0
-    discoverability: 64.8
-    operational_transparency: 10.5
+    access_clarity: 36.8
+    contract_governance: 18.2
+    contract_quality: 45.8
+    developer_ergonomics: 78.0
+    discoverability: 66.7
+    operational_transparency: 68.4
   previous_composite: 17.2
-  schema_version: 0.21.0
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 0.0
+      derived: 0
+      marker_coverage: 100.0
+      total: 1
+    mcp: derived
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    applies: true
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/geneos/refs/heads/main/screenshots/geneos-2026-06-20T181719.png
 security:
+- kind: authentication
+  name: Geneos Authentication
+  slug: geneos-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Geneos Domain Security
   slug: geneos-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Geneos Vulnerability Disclosure
+  slug: geneos-vulnerability-disclosure
+  summary_line: Hackerone
+- kind: trust-center
+  name: Geneos Trust Center
+  slug: geneos-trust-center
+  summary_line: ISO/IEC 27001
 slug: geneos
 tags:
 - APM
@@ -169,5 +298,7 @@ tags:
 - Observability
 - Real-Time
 - Trading Systems
+- XML-RPC
+- OpenAPI
 website: https://www.itrsgroup.com/
 ---

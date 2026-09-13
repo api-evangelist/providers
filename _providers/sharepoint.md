@@ -26,14 +26,14 @@ agent_readiness:
     event_surface_described: false
     idempotency: false
     mcp_server: documented
-    openapi_examples: verified
+    openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 37.3
+  schema_version: '0.2'
+  score: 34.7
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 5
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 15
   slug: sharepoint-agentic-access
   summary_line: 15 operations · 5 acting
-api_count: 8
+api_count: 15
 apis:
 - description: Client-side object model for SharePoint that provides access to SharePoint objects through .NET managed or JavaScript libraries.
   name: SharePoint CSOM (Client-Side Object Model)
@@ -80,6 +80,35 @@ apis:
   description: User profile operations
   name: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
+- description: 'The Microsoft Graph SharePoint Sites API provides access to SharePoint sites, lists, and document libraries through the unified Microsoft Graph endpoint. It enables developers to manage site content, '
+  name: Microsoft Graph SharePoint Sites API
+  slug: graph-sites-api
+- description: 'The SharePoint Search REST API provides full-text search capabilities across SharePoint content including sites, lists, libraries, and documents. It supports keyword query language, query refinement, '
+  name: SharePoint Search REST API
+  slug: search-api
+- description: 'The SharePoint Framework (SPFx) is a development model for building client-side web parts, extensions, and adaptive card extensions for SharePoint and Microsoft Teams. It uses modern web technologies '
+  name: SharePoint Framework (SPFx)
+  slug: framework
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The $batch API from Microsoft SharePoint — 1 operation(s) for $batch.
+  name: Microsoft SharePoint $batch API
+  slug: microsoft-sharepoint-batch-api
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The ListItems API from Microsoft SharePoint — 2 operation(s) for listitems.
+  name: Microsoft SharePoint ListItems API
+  slug: microsoft-sharepoint-listitems-api
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The Site API from Microsoft SharePoint — 1 operation(s) for site.
+  name: Microsoft SharePoint Site API
+  slug: microsoft-sharepoint-site-api
+- baseURL: https://{tenant}.sharepoint.com/_api/
+  baseurl_source: declared
+  description: The Web API from Microsoft SharePoint — 2 operation(s) for web.
+  name: Microsoft SharePoint Web API
+  slug: microsoft-sharepoint-web-api
 arazzos:
 - description: Find an item by title and create it only when missing, then read it back.
   name: SharePoint Ensure a List Item Exists
@@ -102,7 +131,7 @@ arazzos:
 - description: Survey a library folder, upload a file with overwrite, then read the bytes back.
   name: SharePoint Upload a Document and Verify It
   slug: sharepoint-upload-document-workflow
-artifact_total: 102
+artifact_total: 109
 collections:
 - collection_type: postman
   name: SharePoint REST Files API
@@ -144,6 +173,30 @@ collections:
   name: SharePoint REST Files User Profiles API
   slug: open-sharepoint-user-profiles-api
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/en-us/sharepoint/dev/
+- group: build
+  title: ''
+  type: SDKs
+  url: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-sharepoint-rest-endpoints
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: company
+  title: ''
+  type: Blog
+  url: https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/board?board.id=SPBlog
 - group: company
   title: ''
   type: Website
@@ -455,13 +508,13 @@ modified: '2026-06-20'
 name: Microsoft SharePoint
 nav: Providers
 network: true
-overview: 'Microsoft SharePoint publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Files API, Items API, Lists API, and 3 more. Tagged areas include Collaboration, Document-Management, Enterprise Content Management, Intranet, and Microsoft.
+overview: 'Microsoft SharePoint publishes 10 APIs on the [APIs.io](https://apis.io/) network, including Files API, Items API, Lists API, and 7 more. Tagged areas include Collaboration, Document-Management, Enterprise Content Management, Intranet, and Microsoft.
 
 
   The Microsoft SharePoint catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft SharePoint''s developer surface includes authentication, sandbox, changelog, CLI, code examples, support, pricing, and 31 more developer resources.'
+  Microsoft SharePoint''s developer surface includes developer portal, documentation, engineering blog, authentication, sandbox, changelog, CLI, and 37 more developer resources.'
 plans:
 - name: Sharepoint Plans Pricing
   plan_count: 5
@@ -499,36 +552,36 @@ scopes:
   slug: sharepoint-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 37.5
+  band: developing
+  composite: 48.0
   coverage:
-    artifact_dirs: 32
+    artifact_dirs: 33
     catalog_earned: 49.5
     catalog_earned_first_party: 0.0
     catalog_gap: 65.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 10.5
   facets:
-    access_clarity: 28.9
+    access_clarity: 50.0
     contract_governance: 18.2
-    contract_quality: 25.6
-    developer_ergonomics: 70.2
-    discoverability: 53.7
+    contract_quality: 39.9
+    developer_ergonomics: 79.8
+    discoverability: 61.1
     operational_transparency: 34.2
   previous_composite: 37.5
   provenance:
     agentic_access: derived
     conformance: derived
     contracts:
-      callable: 0.0
+      callable: 100.0
       derived: 7
-      marker_coverage: 100.0
-      total: 7
+      marker_coverage: 63.6
+      total: 11
     mcp: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0

@@ -34,7 +34,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 29.7
   scored_at: '2026-09-12'
 agentic_access:
@@ -44,7 +44,7 @@ agentic_access:
   operation_count: 93
   slug: microsoft-azure-devops-agentic-access
   summary_line: 93 operations · 43 acting
-api_count: 9
+api_count: 11
 apis:
 - description: API for managing users, groups, and memberships within an Azure DevOps organization. Enables programmatic administration of identities and group membership.
   name: Azure DevOps Graph API
@@ -296,6 +296,12 @@ apis:
   description: Operations for managing work items (Bugs, Tasks, User Stories, etc.)
   name: Azure DevOps Work Items API
   slug: microsoft-azure-devops-work-items-api
+- description: The Azure DevOps Artifacts API provides REST endpoints for managing package feeds including NuGet, npm, Maven, Python, and Universal Packages. APIs support feed creation, package publishing, version m
+  name: Azure DevOps Artifacts API
+  slug: azure-devops-artifacts-api
+- description: The Azure DevOps Release API provides REST endpoints for managing release pipelines, deployments, and environments. APIs support release definition management, deployment approvals, environment config
+  name: Azure DevOps Release API
+  slug: azure-devops-release-api
 arazzos:
 - description: Query a board column with WIQL, fetch the work item type, and acknowledge the top bug.
   name: Azure DevOps Board Bug Acknowledgement
@@ -351,7 +357,7 @@ arazzos:
 - description: Create a work item, transition its state, and append a comment in one flow.
   name: Azure DevOps Create, Update, and Comment on a Work Item
   slug: microsoft-azure-devops-work-item-create-update-comment-workflow
-artifact_total: 242
+artifact_total: 247
 asyncapis:
 - description: AsyncAPI specification for Azure DevOps Service Hooks (webhooks and event subscriptions). Azure DevOps delivers event notifications via HTTP POST requests to subscriber endpoints when events occur suc
   name: Azure DevOps Service Hooks AsyncAPI
@@ -511,6 +517,62 @@ collections:
   name: Azure DevOps Artifacts Attachments Work Items API
   slug: open-microsoft-azure-devops-work-items-api
 common:
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://learn.microsoft.com/en-us/azure/devops/mcp-server/remote-mcp-server
+- group: design
+  title: ''
+  type: SpectralRules
+  url: https://raw.githubusercontent.com/api-evangelist/azure-dev-ops/refs/heads/main/rules/azure-dev-ops-spectral-rules.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/microsoft-azure-devops-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/microsoft-azure-devops-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/microsoft-azure-devops
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://learn.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-7.2
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/microsoft/azure-devops-node-api
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/microsoft/azure-devops-python-api
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/microsoft/azure-devops-go-api
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/microsoft/azure-devops-java-api
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/microsoft-azure-devops-work-items-openapi.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/microsoft-azure-devops-pipelines-openapi.yml
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/microsoft-azure-devops-vocabulary.yaml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/microsoft-azure-devops-spectral-rules.yml
 - group: company
   title: ''
   type: Website
@@ -1074,10 +1136,10 @@ network: true
 overview: 'Azure DevOps publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Attachments API, Build Artifacts API, Build Definitions API, and 29 more. Tagged areas include Agile, CI/CD, DevOps, Project Management, and Version Control.
 
 
-  The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
+  The Azure DevOps catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure DevOps'' developer surface includes authentication, developer portal, documentation, getting-started guide, support, engineering blog, pricing, and 52 more developer resources.'
+  Azure DevOps'' developer surface includes API reference, authentication, developer portal, documentation, getting-started guide, support, engineering blog, and 66 more developer resources.'
 plans:
 - name: Microsoft Azure Devops Plans Pricing
   plan_count: 6
@@ -1109,22 +1171,38 @@ rules:
     info: 2
     warn: 4
   slug: microsoft-azure-devops-jsonschema-spectral-rules
+- effective_rule_count: 57
+  extends:
+  - spectral:oas
+  name: Azure DevOps API Rules
+  rule_count: 16
+  severity_counts:
+    error: 8
+    hint: 0
+    info: 2
+    warn: 6
+  slug: microsoft-azure-devops-spectral-rules
+scopes:
+- name: Microsoft Azure Devops Scopes
+  scope_count: 4
+  slug: microsoft-azure-devops-scopes
+  summary_line: 4 scopes · authorizationCode
 score:
-  band: strong
-  composite: 62.7
+  band: exemplar
+  composite: 67.4
   coverage:
-    artifact_dirs: 19
-    catalog_earned: 53.5
+    artifact_dirs: 20
+    catalog_earned: 58.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 61.5
+    catalog_gap: 56.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
     access_clarity: 60.5
-    contract_governance: 13.6
+    contract_governance: 28.8
     contract_quality: 77.4
-    developer_ergonomics: 65.5
+    developer_ergonomics: 82.1
     discoverability: 66.7
     operational_transparency: 52.6
   open_source:
@@ -1138,7 +1216,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 32
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -1154,6 +1232,10 @@ security:
   name: Microsoft Azure Devops Domain Security
   slug: microsoft-azure-devops-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Microsoft Azure Devops Vulnerability Disclosure
+  slug: microsoft-azure-devops-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: microsoft-azure-devops
 tags:
 - Agile

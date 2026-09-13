@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -44,11 +44,25 @@ common:
   title: ''
   type: Website
   url: https://www.fda.gov/drugs/pharmaceutical-quality-resources/facts-about-current-good-manufacturing-practices-cgmps
+coverage:
+  checked: '2026-09-12'
+  detail: 'Good Manufacturing Practices is a US FDA regulatory quality regime (21 CFR 210/211), not a vendor: the only host this record names is fda.gov, whose cGMP page serves human regulatory prose while /openapi.json, /llms.txt and every /.well-known/ path return the FDA 404 page — the agency''s own openFDA contracts are profiled separately under all/food-and-drug-administration.'
+  evidence:
+  - status: 200
+    url: https://www.fda.gov/drugs/pharmaceutical-quality-resources/facts-about-current-good-manufacturing-practices-cgmps
+  - status: 404
+    url: https://www.fda.gov/openapi.json
+  - status: 404
+    url: https://www.fda.gov/.well-known/api-catalog
+  - status: 404
+    url: https://www.fda.gov/llms.txt
+  reason: not-a-software-company
+  state: none
 created: '2025-01-01'
 description: A system of processes, procedures, and documentation that ensures products are consistently produced and controlled according to quality standards, commonly used in pharmaceutical, food, and medical device manufacturing. Proper implementation reduces legal and operational risk while supporting audit readiness.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/good-manufacturing-practices.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Good Manufacturing Practices
 nav: Providers
 network: true
@@ -58,7 +72,7 @@ score:
   band: minimal
   composite: 5.0
   coverage:
-    artifact_dirs: 2
+    artifact_dirs: 3
     catalog_earned: 27.0
     catalog_earned_first_party: 0.0
     catalog_gap: 88.0
@@ -73,7 +87,7 @@ score:
     discoverability: 50.0
     operational_transparency: 0.0
   previous_composite: 5.0
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

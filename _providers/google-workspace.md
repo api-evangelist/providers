@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 26.1
   scored_at: '2026-09-12'
 agentic_access:
@@ -137,6 +137,9 @@ apis:
   description: Manage user accounts in a Google Workspace domain
   name: Google Workspace Users API
   slug: google-workspace-users-api
+- description: The Google Meet API allows developers to build applications that integrate with Google Meet.
+  name: Google Meet API
+  slug: google-meet-api
 arazzos:
 - description: Confirm a user exists, then list every group the user belongs to.
   name: Google Workspace Audit a User's Group Memberships
@@ -186,7 +189,7 @@ arazzos:
 - description: Find a recently deleted user, undelete it into an org unit, and confirm.
   name: Google Workspace Restore a Deleted User
   slug: google-workspace-restore-deleted-user-workflow
-artifact_total: 115
+artifact_total: 116
 collections:
 - collection_type: postman
   name: Google Workspace Admin SDK Directory API
@@ -207,10 +210,14 @@ collections:
   name: Google Workspace Admin SDK Directory Groups Users API
   slug: open-google-workspace-users-api
 common:
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://policies.google.com/privacy
 - group: company
   title: ''
   type: Website
-  url: https://www.google.com/
+  url: https://workspace.google.com/
 - group: other
   title: ''
   type: CapabilityMap
@@ -514,7 +521,7 @@ overview: 'Google Workspace publishes 3 APIs on the [APIs.io](https://apis.io/) 
   The Google Workspace catalog on APIs.io includes 2 JSON-LD contexts and 2 Spectral governance rulesets.
 
 
-  Google Workspace''s developer surface includes authentication, developer console, support, pricing, engineering blog, release notes, getting-started guide, and 30 more developer resources.'
+  Google Workspace''s developer surface includes authentication, developer console, support, pricing, engineering blog, release notes, getting-started guide, and 31 more developer resources.'
 plans:
 - name: Google Workspace Plans Pricing
   plan_count: 4
@@ -553,7 +560,7 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.7
+  composite: 51.8
   coverage:
     artifact_dirs: 19
     catalog_earned: 56.5
@@ -561,9 +568,9 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.1
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 13.6
     contract_quality: 71.4
     developer_ergonomics: 60.7
@@ -577,7 +584,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 3
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -616,5 +623,5 @@ use_cases:
   name: Security Monitoring
 - description: Automate email campaigns, manage support inboxes, and integrate Gmail with CRM and helpdesk systems.
   name: Customer Communication
-website: https://www.google.com/
+website: https://workspace.google.com/
 ---

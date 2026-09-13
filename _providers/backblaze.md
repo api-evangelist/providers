@@ -33,7 +33,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 32.3
   scored_at: '2026-09-12'
 agentic_access:
@@ -840,7 +840,7 @@ score:
       marker_coverage: 100.0
       total: 7
     mcp: derived
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

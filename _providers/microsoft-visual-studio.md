@@ -31,10 +31,10 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 6.1
   scored_at: '2026-09-12'
-api_count: 3
+api_count: 4
 apis:
 - description: The Visual Studio Extensibility API enables developers to create extensions that customize and extend Visual Studio IDE functionality. Extensions can add custom tool windows, commands, code analyzers,
   name: Visual Studio Extensibility API
@@ -45,8 +45,31 @@ apis:
 - description: The VS Code Extension API enables developers to build extensions for Visual Studio Code. It provides APIs for language support, debugging, source control, terminal integration, webviews, custom editor
   name: VS Code Extension API
   slug: vscode-extension-api
-artifact_total: 31
+- description: Extension-facing API (via the vsls npm module) that allows other VS Code and Visual Studio extensions to start, join, and end Live Share collaborative sessions and expose shared RPC services to guests
+  name: Visual Studio Live Share API
+  slug: live-share-api
+artifact_total: 33
 common:
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/microsoft-visual-studio-vulnerability-disclosure.yml
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://visualstudio.microsoft.com/vs/pricing
+- group: other
+  title: ''
+  type: Download
+  url: https://visualstudio.microsoft.com/downloads
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://marketplace.visualstudio.com
+- group: company
+  title: ''
+  type: Blog
+  url: https://devblogs.microsoft.com/visualstudio/feed/
 - group: auth
   title: ''
   type: DomainSecurity
@@ -99,10 +122,10 @@ modified: '2026-05-19'
 name: Microsoft Visual Studio
 nav: Providers
 network: true
-overview: 'Microsoft Visual Studio publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Extensions, IDE, Microsoft, and VS Code.
+overview: 'Microsoft Visual Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Developer Tools, Extensions, IDE, Microsoft, and VS Code.
 
 
-  Microsoft Visual Studio''s developer surface includes developer portal, documentation, support, and 7 more developer resources.'
+  Microsoft Visual Studio''s developer surface includes pricing, engineering blog, developer portal, documentation, support, and 10 more developer resources.'
 plans:
 - name: Microsoft Visual Studio Plans Pricing
   plan_count: 3
@@ -113,8 +136,8 @@ rate_limits:
   name: Microsoft Visual Studio Rate Limits
   slug: microsoft-visual-studio-rate-limits
 score:
-  band: emerging
-  composite: 23.8
+  band: thin
+  composite: 28.5
   coverage:
     artifact_dirs: 7
     catalog_earned: 44.0
@@ -122,16 +145,16 @@ score:
     catalog_gap: 71.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.7
   facets:
-    access_clarity: 36.8
+    access_clarity: 47.4
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 64.8
+    developer_ergonomics: 52.4
+    discoverability: 72.2
     operational_transparency: 10.5
   previous_composite: 23.8
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
@@ -144,6 +167,10 @@ security:
   name: Microsoft Visual Studio Domain Security
   slug: microsoft-visual-studio-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Microsoft Visual Studio Vulnerability Disclosure
+  slug: microsoft-visual-studio-vulnerability-disclosure
+  summary_line: security.txt · contact published
 skill_count: 31
 skills:
 - name: add-action

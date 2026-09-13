@@ -34,7 +34,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 48.9
   scored_at: '2026-09-12'
 api_count: 1
@@ -459,7 +459,7 @@ score:
     regime: Telecommunications
     regime_id: telecommunications
     score: 80.6
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

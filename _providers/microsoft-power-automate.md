@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 34.6
   scored_at: '2026-09-12'
 agentic_access:
@@ -42,7 +42,7 @@ agentic_access:
   operation_count: 18
   slug: microsoft-power-automate-agentic-access
   summary_line: 18 operations · 9 acting · 1 human-in-the-loop
-api_count: 6
+api_count: 10
 apis:
 - baseURL: https://api.flow.microsoft.com
   baseurl_source: declared
@@ -74,6 +74,18 @@ apis:
   description: Operations for managing cloud flows
   name: Microsoft Power Automate Flows API
   slug: microsoft-power-automate-flows-api
+- description: Microsoft Power Automate is a cloud-based workflow automation platform that lets organizations build automated workflows, robotic process automation, business process flows, and AI-assisted automation
+  name: Microsoft Power Automate
+  slug: power-automate
+- description: The Desktop Flows public API enables developers to programmatically manage, run, and monitor desktop flow automations as part of robotic process automation scenarios.
+  name: Power Automate Desktop Flows Public API
+  slug: desktop-flows-api
+- description: Programmatic access for managing cloud flows in Power Automate including creating, updating, and running flows using Dataverse and the Power Platform APIs.
+  name: Power Automate Cloud Flows API
+  slug: cloud-flows-api
+- description: Build, register, and certify custom connectors that extend Power Automate to communicate with any REST or SOAP API across the Power Platform.
+  name: Power Automate Custom Connectors
+  slug: custom-connectors-api
 arazzos:
 - description: Find a run that is still executing, confirm it is live, and cancel it.
   name: Microsoft Power Automate Cancel an In-Flight Run
@@ -102,7 +114,7 @@ arazzos:
 - description: Find a failed run in a flow's history, inspect it, and resubmit its trigger.
   name: Microsoft Power Automate Triage and Resubmit a Failed Run
   slug: microsoft-power-automate-triage-failed-run-workflow
-artifact_total: 77
+artifact_total: 81
 collections:
 - collection_type: postman
   name: Microsoft Power Automate Management Connections API
@@ -144,6 +156,38 @@ collections:
   name: Microsoft Power Automate Management Connections Flows API
   slug: open-microsoft-power-automate-flows-api
 common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/en-us/power-automate/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://learn.microsoft.com/en-us/power-automate/getting-started
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://learn.microsoft.com/en-us/power-automate/developer/dev-enterprise-intro
+- group: start
+  title: ''
+  type: Signup
+  url: https://make.powerautomate.com/
+- group: operate
+  title: ''
+  type: Community
+  url: https://powerusers.microsoft.com/t5/Power-Automate-Community/ct-p/MPACommunity
+- group: other
+  title: ''
+  type: Ideas
+  url: https://ideas.powerautomate.com/
+- group: other
+  title: ''
+  type: Templates
+  url: https://make.powerautomate.com/templates/
+- group: auth
+  title: ''
+  type: Trust
+  url: https://www.microsoft.com/en-us/trust-center
 - group: company
   title: ''
   type: Website
@@ -416,7 +460,7 @@ overview: 'Microsoft Power Automate publishes 6 APIs on the [APIs.io](https://ap
   The Microsoft Power Automate catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Microsoft Power Automate''s developer surface includes authentication, changelog, CLI, developer portal, engineering blog, support, training material, and 37 more developer resources.'
+  Microsoft Power Automate''s developer surface includes documentation, getting-started guide, signup flow, authentication, changelog, CLI, developer portal, and 45 more developer resources.'
 plans:
 - name: Microsoft Power Automate Plans Pricing
   plan_count: 3
@@ -454,22 +498,22 @@ scopes:
   slug: microsoft-power-automate-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 50.2
+  band: strong
+  composite: 54.3
   coverage:
     artifact_dirs: 32
-    catalog_earned: 79.5
+    catalog_earned: 74.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 35.5
+    catalog_gap: 40.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.1
   facets:
-    access_clarity: 44.7
+    access_clarity: 57.9
     contract_governance: 33.3
     contract_quality: 31.7
-    developer_ergonomics: 46.4
-    discoverability: 81.5
+    developer_ergonomics: 58.3
+    discoverability: 72.2
     operational_transparency: 36.8
   previous_composite: 50.2
   provenance:
@@ -487,7 +531,7 @@ score:
     regime: Energy & Utilities
     regime_id: energy_utilities
     score: 71.6
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

@@ -30,7 +30,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: false
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 0.0
   scored_at: '2026-09-12'
 api_count: 0
@@ -48,6 +48,30 @@ common:
   title: ''
   type: Website
   url: https://www.gilead.com
+- group: build
+  title: ''
+  type: Packages
+  url: packages/gilead-sciences-packages.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gilead-sciences-llms.txt
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Gilead-Public
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.gilead.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.gilead.com/privacy-statements
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.gilead.com/contact-us
 coverage:
   checked: '2026-09-12'
   detail: 'Gilead ships real first-party open-source software — 19 public repos under github.com/Gilead-Public, the Apache-2.0 "gsm" R suite for risk-based clinical trial monitoring — but no public API: the only host that resolves as an API surface, api.gilead.com, answers HTTP 200 with the same 321-byte "Resource not Found" page for every path including a random one that cannot exist, and developer.gilead.com / developers.gilead.com / apis.gilead.com do not resolve at all.'
@@ -66,11 +90,14 @@ created: '2026-03-21'
 description: Gilead Sciences is a research-based biopharmaceutical company that discovers, develops, and commercializes innovative therapeutics in areas of unmet medical need including HIV, viral hepatitis, oncology, and inflammatory diseases.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gilead-sciences.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Gilead Sciences
 nav: Providers
 network: true
-overview: Gilead Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Healthcare, and Fortune 500.
+overview: 'Gilead Sciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceuticals, Biotechnology, Healthcare, Life Sciences, and Clinical Trials.
+
+
+  Gilead Sciences'' developer surface includes support and 8 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Gilead Sciences - Two Use Cases
@@ -90,32 +117,32 @@ press:
 random_paper: 13
 score:
   band: minimal
-  composite: 2.4
+  composite: 10.7
   coverage:
-    artifact_dirs: 5
-    catalog_earned: 22.0
+    artifact_dirs: 8
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.3
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 40.7
-    operational_transparency: 0.0
+    developer_ergonomics: 4.8
+    discoverability: 50.0
+    operational_transparency: 5.3
   previous_composite: 2.4
   regulatory:
     applies: true
     matched_via: tags
     regime: Health
     regime_id: health
-    score: 7.5
-  schema_version: 0.21.0
+    score: 17.5
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -131,6 +158,9 @@ tags:
 - Pharmaceuticals
 - Biotechnology
 - Healthcare
+- Life Sciences
+- Clinical Trials
+- Open Source
 - Fortune 500
 website: https://www.gilead.com
 ---

@@ -35,7 +35,7 @@ agent_readiness:
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 37.3
   scored_at: '2026-09-12'
 agentic_access:
@@ -45,7 +45,7 @@ agentic_access:
   operation_count: 7
   slug: microsoft-net-agentic-access
   summary_line: 7 operations
-api_count: 9
+api_count: 10
 apis:
 - description: Comprehensive reference for .NET APIs across all packages, namespaces, and types in the .NET ecosystem including .NET 9, .NET Standard, and .NET Framework.
   name: Microsoft .NET API Browser
@@ -82,7 +82,10 @@ apis:
   description: The ServiceIndex API from Microsoft .NET — 1 operation(s) for serviceindex.
   name: Microsoft .NET ServiceIndex API
   slug: microsoft-net-serviceindex-api
-artifact_total: 41
+- description: Comprehensive reference documentation for all .NET APIs including the .NET Runtime, base class libraries, ASP.NET Core, Entity Framework, and Azure SDK libraries. Browse types, members, namespaces, an
+  name: .NET API Browser
+  slug: net-api-browser
+artifact_total: 42
 collections:
 - collection_type: open
   name: API Collection
@@ -360,21 +363,21 @@ rate_limits:
   slug: microsoft-net-rate-limits
 score:
   band: strong
-  composite: 61.1
+  composite: 60.9
   coverage:
     artifact_dirs: 24
-    catalog_earned: 55.0
+    catalog_earned: 50.0
     catalog_earned_first_party: 12.0
-    catalog_gap: 60.0
+    catalog_gap: 65.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: -0.2
   facets:
     access_clarity: 57.9
     contract_governance: 18.2
     contract_quality: 49.0
     developer_ergonomics: 80.4
-    discoverability: 74.1
+    discoverability: 72.2
     operational_transparency: 89.5
   previous_composite: 61.1
   provenance:
@@ -387,7 +390,7 @@ score:
       total: 5
     mcp: first-party
     skills: derived
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

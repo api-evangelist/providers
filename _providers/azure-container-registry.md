@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 19.8
   scored_at: '2026-09-12'
 agentic_access:
@@ -64,7 +64,27 @@ apis:
   description: The Webhooks API from Azure Container Registry — 5 operation(s) for webhooks.
   name: Azure Container Registry Webhooks API
   slug: azure-container-registry-webhooks-api
-artifact_total: 107
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Blobs API from microsoft-azure-container-registry — 1 operation(s) for blobs.
+  name: microsoft-azure-container-registry Blobs API
+  slug: microsoft-azure-container-registry-blobs-api
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Manifests API from microsoft-azure-container-registry — 1 operation(s) for manifests.
+  name: microsoft-azure-container-registry Manifests API
+  slug: microsoft-azure-container-registry-manifests-api
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Repositories API from microsoft-azure-container-registry — 1 operation(s) for repositories.
+  name: microsoft-azure-container-registry Repositories API
+  slug: microsoft-azure-container-registry-repositories-api
+- baseURL: https://{registry}.azurecr.io/
+  baseurl_source: declared
+  description: The Tags API from microsoft-azure-container-registry — 1 operation(s) for tags.
+  name: microsoft-azure-container-registry Tags API
+  slug: microsoft-azure-container-registry-tags-api
+artifact_total: 111
 collections:
 - collection_type: open
   name: API Collection
@@ -82,6 +102,22 @@ collections:
   name: ContainerRegistryManagementClient Operation Webhooks API
   slug: open-azure-container-registry-webhooks-api
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -427,13 +463,13 @@ modified: '2026-05-19'
 name: Azure Container Registry
 nav: Providers
 network: true
-overview: 'Azure Container Registry publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Operation API, Registries API, Replications API, and 1 more. Tagged areas include Azure, Container Images, Containers, Docker, and Registry.
+overview: 'Azure Container Registry publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Operation API, Registries API, Replications API, and 5 more. Tagged areas include Azure, Container Images, Containers, Docker, and Registry.
 
 
   The Azure Container Registry catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Container Registry''s developer surface includes authentication, documentation, getting-started guide, pricing, engineering blog, signup flow, and 10 more developer resources.'
+  Azure Container Registry''s developer surface includes developer portal, support, authentication, documentation, getting-started guide, pricing, engineering blog, and 13 more developer resources.'
 plans:
 - name: Azure Container Registry Plans Pricing
   plan_count: 3
@@ -472,7 +508,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 40.9
+  composite: 48.8
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.5
@@ -480,13 +516,13 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.9
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 55.1
-    developer_ergonomics: 35.7
-    discoverability: 59.3
+    contract_quality: 55.4
+    developer_ergonomics: 50.0
+    discoverability: 66.7
     operational_transparency: 26.3
   previous_composite: 40.9
   provenance:
@@ -495,10 +531,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.21.0
+      total: 8
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0

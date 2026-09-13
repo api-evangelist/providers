@@ -33,7 +33,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 41.9
   scored_at: '2026-09-12'
 agentic_access:
@@ -368,6 +368,37 @@ apis:
   description: APIs to stream user data for contact targeting
   name: LinkedIn User Streaming API
   slug: linkedin-user-streaming-api
+- description: The LinkedIn Marketing API enables programmatic management of LinkedIn advertising campaigns, audience targeting, creative assets, and performance reporting. Developers can create sponsored content, m
+  name: LinkedIn Marketing API
+  slug: marketing-api
+- description: The LinkedIn Talent Solutions API provides access to recruiting and talent management capabilities. It enables integration with applicant tracking systems, job posting management, candidate search, an
+  name: LinkedIn Talent Solutions API
+  slug: talent-solutions-api
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage ad accounts
+  name: Microsoft LinkedIn AdAccounts API
+  slug: microsoft-linkedin-adaccounts-api
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage ad account user permissions
+  name: Microsoft LinkedIn AdAccountUsers API
+  slug: microsoft-linkedin-adaccountusers-api
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage campaign groups
+  name: Microsoft LinkedIn AdCampaignGroups API
+  slug: microsoft-linkedin-adcampaigngroups-api
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage campaigns
+  name: Microsoft LinkedIn AdCampaigns API
+  slug: microsoft-linkedin-adcampaigns-api
+- baseURL: https://api.linkedin.com/v2/
+  baseurl_source: declared
+  description: Manage creatives
+  name: Microsoft LinkedIn AdCreatives API
+  slug: microsoft-linkedin-adcreatives-api
 arazzos:
 - description: Confirm an organization exists and then publish a text share authored by it.
   name: LinkedIn Create an Organization Share
@@ -414,7 +445,7 @@ arazzos:
 - description: Register a video upload for an owner, then confirm the resulting video asset resolves.
   name: LinkedIn Upload a Video and Verify the Asset
   slug: linkedin-upload-video-and-verify-workflow
-artifact_total: 873
+artifact_total: 880
 asyncapis:
 - description: ''
   name: Linkedin Webhooks
@@ -718,6 +749,18 @@ collections:
   name: LinkedIn Compliance Events Access Control User Streaming API
   slug: open-linkedin-user-streaming-api
 common:
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.linkedin.com/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.linkedin.com/developers/apps/new
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/linkedin-developer-apis/workspace/linkedin-marketing-solutions-versioned-apis/overview
 - group: company
   title: ''
   type: Website
@@ -3166,13 +3209,13 @@ modified: '2026-08-13'
 name: LinkedIn
 nav: Providers
 network: true
-overview: 'LinkedIn publishes 65 APIs on the [APIs.io](https://apis.io/) network, including Consumer API, Access Control API, Account Management API, and 62 more. Tagged areas include Business, Careers, Marketing, Professional Networking, and Recruiting.
+overview: 'LinkedIn publishes 70 APIs on the [APIs.io](https://apis.io/) network, including Consumer API, Access Control API, Account Management API, and 67 more. Tagged areas include Business, Careers, Marketing, Professional Networking, and Recruiting.
 
 
   The LinkedIn catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  LinkedIn''s developer surface includes getting-started guide, sandbox, code examples, changelog, authentication, documentation, developer portal, and 104 more developer resources.'
+  LinkedIn''s developer surface includes signup flow, getting-started guide, sandbox, code examples, changelog, authentication, documentation, and 107 more developer resources.'
 plans:
 - name: Linkedin Plans Pricing
   plan_count: 8
@@ -3227,21 +3270,21 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 71.8
+  composite: 74.3
   coverage:
     artifact_dirs: 38
-    catalog_earned: 56.5
+    catalog_earned: 66.5
     catalog_earned_first_party: 0.0
-    catalog_gap: 58.5
+    catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 2.5
   facets:
     access_clarity: 65.8
     contract_governance: 47.0
-    contract_quality: 78.8
+    contract_quality: 78.6
     developer_ergonomics: 87.5
-    discoverability: 50.0
+    discoverability: 75.9
     operational_transparency: 71.1
   previous_composite: 71.8
   provenance:
@@ -3251,10 +3294,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 64
+      total: 69
     mcp: derived
     skills: derived
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 25.9
   scored_at: '2026-09-12'
 agentic_access:
@@ -64,7 +64,15 @@ apis:
   description: Service Bus topic operations
   name: Azure Service Bus Topics API
   slug: azure-service-bus-topics-api
-artifact_total: 64
+- description: The management REST API enables namespace, queue, topic, and subscription configuration through Azure Resource Manager, including SKU, network rules, authorization rules, and disaster recovery configu
+  name: Azure Service Bus Management REST API
+  slug: management-api
+- baseURL: https://{namespace}.servicebus.windows.net/
+  baseurl_source: declared
+  description: The Messages API from Azure Service Bus — 3 operation(s) for messages.
+  name: Azure Service Bus Messages API
+  slug: microsoft-azure-service-bus-messages-api
+artifact_total: 66
 asyncapis:
 - description: 'Azure Service Bus is a fully managed enterprise message broker with message queues and publish-subscribe topics. This AsyncAPI spec describes the messaging patterns for sending and receiving messages '
   name: Azure Service Bus Messaging
@@ -101,6 +109,34 @@ collections:
   name: Azure Service Bus Management API
   slug: open-azure-service-bus
 common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Azure
+- group: build
+  title: ''
+  type: SDKs
+  url: https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://azure.status.microsoft/en-us/status
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.microsoft.com/
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/azureservicebus
 - group: company
   title: ''
   type: Website
@@ -297,13 +333,13 @@ modified: '2026-05-19'
 name: Azure Service Bus
 nav: Providers
 network: true
-overview: 'Azure Service Bus publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Namespaces API, Queues API, Subscriptions API, and 1 more. Tagged areas include Azure, Cloud, Enterprise, Message Broker, and Messaging.
+overview: 'Azure Service Bus publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Namespaces API, Queues API, Subscriptions API, and 2 more. Tagged areas include Azure, Cloud, Enterprise, Message Broker, and Messaging.
 
 
   The Azure Service Bus catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
 
 
-  Azure Service Bus'' developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, and 15 more developer resources.'
+  Azure Service Bus'' developer surface includes support, Stack Overflow tag, authentication, developer portal, documentation, getting-started guide, pricing, and 21 more developer resources.'
 plans:
 - name: Azure Service Bus Plans Pricing
   plan_count: 3
@@ -352,8 +388,8 @@ scopes:
   slug: azure-service-bus-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 52.2
+  band: strong
+  composite: 61.9
   coverage:
     artifact_dirs: 20
     catalog_earned: 56.5
@@ -361,14 +397,14 @@ score:
     catalog_gap: 58.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 9.7
   facets:
-    access_clarity: 26.3
+    access_clarity: 47.4
     contract_governance: 13.6
-    contract_quality: 69.0
-    developer_ergonomics: 46.4
-    discoverability: 66.7
-    operational_transparency: 39.5
+    contract_quality: 68.5
+    developer_ergonomics: 65.5
+    discoverability: 74.1
+    operational_transparency: 55.3
   open_source:
     applies: true
     score: 100.0
@@ -379,10 +415,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 4
-  schema_version: 0.21.0
+      total: 5
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 22.2

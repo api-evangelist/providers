@@ -1,6 +1,15 @@
 ---
 api_count: 0
 artifact_total: 0
+common:
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/agentsquared/
+- group: other
+  title: ''
+  type: SecondaryMarket
+  url: https://equityzen.com/company/agentsquared
 coverage:
   checked: '2026-09-12'
   detail: AgentSquared's domain agentsquared.com was re-registered in February 2026 and now serves an unrelated online-casino affiliate site (the WordPress discovery document at https://agentsquared.com/wp-json/ names the site "Online Casinos"), every page of the former real estate site returns 404, the customer login host dashboard.agentsquared.com no longer resolves, and STEP 0b contract discovery against both surviving hosts — /openapi.json, /swagger.json, /api-docs, /llms.txt, /apis.json and the full /.well-known/ set including agent-card.json and agent.json — returned only 403 Cloudflare interstitials and 404s, which is consistent with the company never having published a developer portal, API reference or machine-readable contract while it operated (it was a RESO Web API consumer, not a producer).
@@ -47,6 +56,7 @@ modified: '2026-09-12'
 name: AgentSquared
 nav: Providers
 network: true
+overview: AgentSquared is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Real Estate Technology, Marketing Automation, and MLS.
 random_paper: 3
 slug: agentsquared
 tags:

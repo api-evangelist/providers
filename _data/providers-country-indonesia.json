@@ -1,6 +1,6 @@
 {
- "total": 83,
- "shown": 83,
+ "total": 84,
+ "shown": 84,
  "limit": 1000,
  "bands": [
   {
@@ -28,7 +28,7 @@
       "access_clarity": 100.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -89,7 +89,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-native",
      "agent_dims": {
@@ -132,7 +132,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -182,7 +182,7 @@
       "access_clarity": 48.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -232,7 +232,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -282,7 +282,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -332,7 +332,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -382,7 +382,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -443,7 +443,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -493,7 +493,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -543,7 +543,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -593,7 +593,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -643,7 +643,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -693,7 +693,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -743,7 +743,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -786,7 +786,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -836,7 +836,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -886,7 +886,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -926,8 +926,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 20,
-   "shown": 20,
+   "count": 21,
+   "shown": 21,
    "providers": [
     {
      "name": "University of Indonesia",
@@ -945,7 +945,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -995,7 +995,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1038,7 +1038,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1088,7 +1088,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1138,7 +1138,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1188,7 +1188,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1238,7 +1238,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1288,7 +1288,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1338,7 +1338,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1381,7 +1381,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1424,7 +1424,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1474,7 +1474,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1517,7 +1517,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1559,7 +1559,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1602,7 +1602,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1645,7 +1645,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1688,7 +1688,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1715,6 +1715,48 @@
      "rank": 35
     },
     {
+     "name": "AgriAku",
+     "slug": "agriaku",
+     "description": "AgriAku (PT Agriaku Digital Indonesia) is a Jakarta-based agritech company founded in 2021 that digitizes the distribution of agricultural inputs - seeds, fertilizers, crop protection, nutrients and farm tools - to Indonesia's network of independent farm-supply shops (toko tani). Partner shops order from a catalog of more than 15,000 agricultural products through the AgriAku Mitra Android app, while separate vendor, seller and courier applications cover the rest of the supply chain. The company reports more than 23,390 partners across Indonesia and has raised roughly USD 46M from Alpha JWC Ventures, Go-Ventures and MDI Ventures. AgriAku operates no public developer program: every API host it runs is a private backend for its own first-party mobile and web applications.",
+     "score": 11.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 36
+    },
+    {
      "name": "Astro",
      "slug": "astro",
      "description": "Astro (PT Astro Technologies Indonesia, astronauts.id) is an Indonesian quick-commerce grocery and daily-needs delivery service that fulfills orders in as little as fifteen minutes across the Greater Jakarta (Jadetabek) area. The consumer mobile app offers more than 15,000 SKUs spanning fresh produce, meat and seafood, frozen and prepared meals, beverages, snacks, baby and maternal care, personal care and beauty, household supplies, and the private-label Astro Goods line, operating 24/7 from a network of dark stores. Astro is venture-backed by Accel, Lightspeed Venture Partners, and Redpoint Ventures. It is a consumer B2C app and publishes no public developer API; this API Evangelist profile tracks the company as a portfolio lead.",
@@ -1731,7 +1773,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1755,7 +1797,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "HD",
@@ -1774,7 +1816,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1805,7 +1847,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Bank Jago",
@@ -1824,7 +1866,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1855,7 +1897,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 38
+     "rank": 39
     }
    ]
   },
@@ -1884,7 +1926,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1915,7 +1957,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Elevarm",
@@ -1934,50 +1976,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Finku",
-     "slug": "finku",
-     "description": "Finku is an AI-based personal finance management (PFM) mobile app from Indonesia, recognized as the number-one Indonesia PFM app and a Google Play \"Best of 2025\" selection with more than one million users. It helps people track expenses, set budgets, and build better money habits through manual entry, receipt and bank e-statement scanning, and FinGPT, a chat-based AI financial assistant. The app connects multiple banks and e-wallets, generates real-time interactive dashboards and reports, and runs a freemium model with a Premium tier. Finku is registered with Indonesian regulators OJK, Kominfo, AFTECH, and AFPI, and secures user data with 256-bit AES encryption. Finku is a consumer application and does not currently publish a public developer API, SDK, or developer portal; this profile originated as a VC-portfolio lead for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finku/refs/heads/main/screenshots/finku-2026-07-25T214529.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2004,10 +2003,10 @@
      "rank": 41
     },
     {
-     "name": "Jago Coffee",
-     "slug": "jago-coffee",
-     "description": "Jago Coffee is an Indonesian mobile coffee company operating a fleet of electric-vehicle coffee carts (\"Jagoans\") that bring freshly brewed specialty coffee, tea, and seasonal drinks directly to neighborhoods across Indonesia. Billing itself as the \"#1 Cafe on Wheels,\" Jago lets customers order through its mobile app with no delivery fees or order minimums, paying with GoPay or OVO digital wallets, using Arabica beans sourced directly from local Indonesian farmers. Backed by 500 Global, the company is tracked in the API Evangelist network as a consumer coffee-delivery business; as of this enrichment pass it publishes no public API, developer portal, or SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jago-coffee/refs/heads/main/screenshots/jago-coffee-2026-07-25T223038.png",
+     "name": "Finku",
+     "slug": "finku",
+     "description": "Finku is an AI-based personal finance management (PFM) mobile app from Indonesia, recognized as the number-one Indonesia PFM app and a Google Play \"Best of 2025\" selection with more than one million users. It helps people track expenses, set budgets, and build better money habits through manual entry, receipt and bank e-statement scanning, and FinGPT, a chat-based AI financial assistant. The app connects multiple banks and e-wallets, generates real-time interactive dashboards and reports, and runs a freemium model with a Premium tier. Finku is registered with Indonesian regulators OJK, Kominfo, AFTECH, and AFPI, and secures user data with 256-bit AES encryption. Finku is a consumer application and does not currently publish a public developer API, SDK, or developer portal; this profile originated as a VC-portfolio lead for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/finku/refs/heads/main/screenshots/finku-2026-07-25T214529.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2020,7 +2019,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2047,10 +2046,10 @@
      "rank": 42
     },
     {
-     "name": "Qraved",
-     "slug": "qraved",
-     "description": "Qraved is Indonesia's leading food discovery platform, self-described as the \"No. 1 Food App for Indonesia,\" helping diners across Jakarta, Bali, Bandung, Surabaya, Medan and other cities explore restaurants, read reviews and dining guides, watch food videos, and connect with a community of food enthusiasts. Backed by 500 Global, Qraved operates a consumer web experience and iOS/Android mobile apps. As of this enrichment pass the company exposes no public developer API, developer portal, or machine-readable specification surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qraved/refs/heads/main/screenshots/qraved-2026-09-02T152553.png",
+     "name": "Jago Coffee",
+     "slug": "jago-coffee",
+     "description": "Jago Coffee is an Indonesian mobile coffee company operating a fleet of electric-vehicle coffee carts (\"Jagoans\") that bring freshly brewed specialty coffee, tea, and seasonal drinks directly to neighborhoods across Indonesia. Billing itself as the \"#1 Cafe on Wheels,\" Jago lets customers order through its mobile app with no delivery fees or order minimums, paying with GoPay or OVO digital wallets, using Arabica beans sourced directly from local Indonesian farmers. Backed by 500 Global, the company is tracked in the API Evangelist network as a consumer coffee-delivery business; as of this enrichment pass it publishes no public API, developer portal, or SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jago-coffee/refs/heads/main/screenshots/jago-coffee-2026-07-25T223038.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2063,7 +2062,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2090,10 +2089,10 @@
      "rank": 43
     },
     {
-     "name": "Travelio",
-     "slug": "travelio",
-     "description": "Travelio is one of Indonesia's largest online property rental and management platforms, operated by PT Horizon Internusa Persada. It lists furnished and unfurnished apartments, houses, villas, guest houses, and hotel residences for daily, monthly, and yearly rental across 15+ Indonesian cities including Jakarta, Bandung, Surabaya, Bali, and Yogyakarta, and offers hospitality-grade property management for owners. Backed by 500 Global, Travelio runs consumer web and mobile apps but publishes no public developer API, SDK, partner integration surface, or developer portal as of this profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelio/refs/heads/main/screenshots/travelio-2026-09-02T164147.png",
+     "name": "Qraved",
+     "slug": "qraved",
+     "description": "Qraved is Indonesia's leading food discovery platform, self-described as the \"No. 1 Food App for Indonesia,\" helping diners across Jakarta, Bali, Bandung, Surabaya, Medan and other cities explore restaurants, read reviews and dining guides, watch food videos, and connect with a community of food enthusiasts. Backed by 500 Global, Qraved operates a consumer web experience and iOS/Android mobile apps. As of this enrichment pass the company exposes no public developer API, developer portal, or machine-readable specification surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qraved/refs/heads/main/screenshots/qraved-2026-09-02T152553.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2106,7 +2105,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2133,11 +2132,11 @@
      "rank": 44
     },
     {
-     "name": "Bumame",
-     "slug": "bumame",
-     "description": "Bumame is an Indonesian healthcare provider (\"Elevating Indonesian Healthcare\") delivering global-standard health screening and preventive-care services to Indonesian families. It operates a network of clinics and offers medical check-up packages, laboratory testing, vaccination and boosters, maternal and child health services, early cancer screening and genetic DNA testing, vitamin infusions, home care, doctor consultations, and corporate health programs, with online appointment booking. Backed by 500 Global. Surfaced as a portfolio-company lead in the API Evangelist network; no public developer API surface has been found to date.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bumame/refs/heads/main/screenshots/bumame-2026-07-25T204103.png",
-     "score": 10.5,
+     "name": "Travelio",
+     "slug": "travelio",
+     "description": "Travelio is one of Indonesia's largest online property rental and management platforms, operated by PT Horizon Internusa Persada. It lists furnished and unfurnished apartments, houses, villas, guest houses, and hotel residences for daily, monthly, and yearly rental across 15+ Indonesian cities including Jakarta, Bandung, Surabaya, Bali, and Yogyakarta, and offers hospitality-grade property management for owners. Backed by 500 Global, Travelio runs consumer web and mobile apps but publishes no public developer API, SDK, partner integration surface, or developer portal as of this profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelio/refs/heads/main/screenshots/travelio-2026-09-02T164147.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2149,14 +2148,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2183,52 +2175,10 @@
      "rank": 45
     },
     {
-     "name": "GetCraft",
-     "slug": "getcraft",
-     "description": "GetCraft is a Southeast Asian creative and content-marketing marketplace, headquartered in Indonesia and backed by 500 Global, that brands itself as \"The Creative Industry's Premium Directory.\" It connects brands and agencies with a vetted network of freelance creators and production partners (\"Crafters\") for content, video, design, advertising, and marketing work, spanning a talent Directory, a Jobs board, Managed project services, and a Community. Its companion publication, MarketingCraft, is a bilingual (English/Indonesian) content hub of articles, events, tutorials, jobs, and research for marketers and creators. GetCraft exposes no public developer or API surface; this record is an identity/enrichment profile.",
-     "score": 10.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 3.6,
-      "access_clarity": 11.8
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 46
-    },
-    {
-     "name": "HijUp",
-     "slug": "hijup",
-     "description": "HijUp is an Indonesia-based modest-fashion e-commerce marketplace selling Muslim women's clothing online — abayas, blouses, dresses, tunics, printed scarves, hijabs, mukena, khimar, and related accessories — aggregating a large catalog of local Indonesian modest-wear brands (over a hundred labels listed under its brands directory) into a single storefront with international shipping. The company operates a consumer-facing shopping site (product catalog, categories, cart, checkout, and customer accounts) rather than a public developer platform; it publishes no API, SDK, or developer portal at this time. HijUp is backed by 500 Global and is tracked in the API Evangelist network as a company profile. Public contact is customer@hijup.com and +6221-78-24-001.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hijup/refs/heads/main/screenshots/hijup-2026-07-25T221222.png",
+     "name": "Bumame",
+     "slug": "bumame",
+     "description": "Bumame is an Indonesian healthcare provider (\"Elevating Indonesian Healthcare\") delivering global-standard health screening and preventive-care services to Indonesian families. It operates a network of clinics and offers medical check-up packages, laboratory testing, vaccination and boosters, maternal and child health services, early cancer screening and genetic DNA testing, vitamin infusions, home care, doctor consultations, and corporate health programs, with online appointment booking. Backed by 500 Global. Surfaced as a portfolio-company lead in the API Evangelist network; no public developer API surface has been found to date.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bumame/refs/heads/main/screenshots/bumame-2026-07-25T204103.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2237,96 +2187,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 27.6
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 47
-    },
-    {
-     "name": "99.co",
-     "slug": "99co",
-     "description": "99.co (99 Group) is a Singapore-headquartered real estate technology company and one of the largest property marketplaces in Southeast Asia. Founded in 2014 by Darius Cheung, Yan Phun and Conor McLaughlin, it operates consumer property portals across Singapore and Indonesia, including 99.co and SRX.com.sg in Singapore and 99.co/id and Rumah123.com in Indonesia. The platform lets buyers, renters and agents search HDB resale flats, executive condos, condominiums, landed homes and new-launch projects for sale and rent, with map-based search, transaction data, agent directories, mortgage tools and nearby-amenity insights (MRT, schools, commute times). 99 Group is backed by investors including Sequoia Capital, 500 Global, Golden Gate Ventures, Quest Ventures and East Ventures. This profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline; 99.co exposes consumer web products but publishes no first-party public developer API or portal at this time.",
-     "score": 10.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 48
-    },
-    {
-     "name": "Alodokter",
-     "slug": "alodokter",
-     "description": "Alodokter is Indonesia's leading digital health and telemedicine platform, founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens of millions of monthly active users with tens of thousands of licensed doctors through chat-based consultations (Tanya Dokter), online and in-person doctor appointment booking, a large library of medically reviewed health articles and a symptom and disease encyclopedia, health protection and insurance products, and a health commerce surface for medicines and health products. This API Evangelist profile was surfaced as a portfolio company of 500 Global and enriched from the provider's own public web surface; Alodokter does not publish a public developer API portal or OpenAPI at this time, so this profile focuses on company identity, legal and support surfaces, and domain security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alodokter/refs/heads/main/screenshots/alodokter-2026-07-25T195742.png",
-     "score": 10.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2357,7 +2222,184 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 46
+    },
+    {
+     "name": "GetCraft",
+     "slug": "getcraft",
+     "description": "GetCraft is a Southeast Asian creative and content-marketing marketplace, headquartered in Indonesia and backed by 500 Global, that brands itself as \"The Creative Industry's Premium Directory.\" It connects brands and agencies with a vetted network of freelance creators and production partners (\"Crafters\") for content, video, design, advertising, and marketing work, spanning a talent Directory, a Jobs board, Managed project services, and a Community. Its companion publication, MarketingCraft, is a bilingual (English/Indonesian) content hub of articles, events, tutorials, jobs, and research for marketers and creators. GetCraft exposes no public developer or API surface; this record is an identity/enrichment profile.",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 3.6,
+      "access_clarity": 11.8
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
+    {
+     "name": "HijUp",
+     "slug": "hijup",
+     "description": "HijUp is an Indonesia-based modest-fashion e-commerce marketplace selling Muslim women's clothing online — abayas, blouses, dresses, tunics, printed scarves, hijabs, mukena, khimar, and related accessories — aggregating a large catalog of local Indonesian modest-wear brands (over a hundred labels listed under its brands directory) into a single storefront with international shipping. The company operates a consumer-facing shopping site (product catalog, categories, cart, checkout, and customer accounts) rather than a public developer platform; it publishes no API, SDK, or developer portal at this time. HijUp is backed by 500 Global and is tracked in the API Evangelist network as a company profile. Public contact is customer@hijup.com and +6221-78-24-001.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hijup/refs/heads/main/screenshots/hijup-2026-07-25T221222.png",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 27.6
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 48
+    },
+    {
+     "name": "99.co",
+     "slug": "99co",
+     "description": "99.co (99 Group) is a Singapore-headquartered real estate technology company and one of the largest property marketplaces in Southeast Asia. Founded in 2014 by Darius Cheung, Yan Phun and Conor McLaughlin, it operates consumer property portals across Singapore and Indonesia, including 99.co and SRX.com.sg in Singapore and 99.co/id and Rumah123.com in Indonesia. The platform lets buyers, renters and agents search HDB resale flats, executive condos, condominiums, landed homes and new-launch projects for sale and rent, with map-based search, transaction data, agent directories, mortgage tools and nearby-amenity insights (MRT, schools, commute times). 99 Group is backed by investors including Sequoia Capital, 500 Global, Golden Gate Ventures, Quest Ventures and East Ventures. This profile was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline; 99.co exposes consumer web products but publishes no first-party public developer API or portal at this time.",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 49
+    },
+    {
+     "name": "Alodokter",
+     "slug": "alodokter",
+     "description": "Alodokter is Indonesia's leading digital health and telemedicine platform, founded in 2014 and operated by PT Alodokter Teknologi Solusi. It connects tens of millions of monthly active users with tens of thousands of licensed doctors through chat-based consultations (Tanya Dokter), online and in-person doctor appointment booking, a large library of medically reviewed health articles and a symptom and disease encyclopedia, health protection and insurance products, and a health commerce surface for medicines and health products. This API Evangelist profile was surfaced as a portfolio company of 500 Global and enriched from the provider's own public web surface; Alodokter does not publish a public developer API portal or OpenAPI at this time, so this profile focuses on company identity, legal and support surfaces, and domain security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alodokter/refs/heads/main/screenshots/alodokter-2026-07-25T195742.png",
+     "score": 10.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 50
     },
     {
      "name": "Bukalapak",
@@ -2375,7 +2417,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2406,7 +2448,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Edukita",
@@ -2425,7 +2467,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -2456,7 +2498,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Aruna",
@@ -2475,50 +2517,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "Pashouses",
-     "slug": "pashouses",
-     "description": "Pashouses (PT Pionir Alfa Sejahtera) is an Indonesian proptech company operating an end-to-end transactional marketplace for buying and selling ready-to-occupy residential homes across the Greater Jakarta (Jabodetabek) region — Jakarta, Tangerang, Tangerang Selatan, Bekasi, Bogor, and Depok. Founded in 2020 by Junghans Tasani and Bin Anindita, the platform combines an iBuyer model, brokerage, staging, and renovation with mortgage (KPR) origination through partnerships with major Indonesian banks (BCA, Mandiri, BSI, BRI). It offers consumer tools including a Smart Agent property assistant, a KPR mortgage calculator, and an affordability calculator. QED Investors led a $5M pre-Series B in November 2022 (its first Indonesian / Southeast Asian investment). The company exposes a consumer web marketplace only; no public developer, API, or documentation surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pashouses/refs/heads/main/screenshots/pashouses-2026-08-07T191525.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2545,6 +2544,49 @@
      "rank": 53
     },
     {
+     "name": "Pashouses",
+     "slug": "pashouses",
+     "description": "Pashouses (PT Pionir Alfa Sejahtera) is an Indonesian proptech company operating an end-to-end transactional marketplace for buying and selling ready-to-occupy residential homes across the Greater Jakarta (Jabodetabek) region — Jakarta, Tangerang, Tangerang Selatan, Bekasi, Bogor, and Depok. Founded in 2020 by Junghans Tasani and Bin Anindita, the platform combines an iBuyer model, brokerage, staging, and renovation with mortgage (KPR) origination through partnerships with major Indonesian banks (BCA, Mandiri, BSI, BRI). It offers consumer tools including a Smart Agent property assistant, a KPR mortgage calculator, and an affordability calculator. QED Investors led a $5M pre-Series B in November 2022 (its first Indonesian / Southeast Asian investment). The company exposes a consumer web marketplace only; no public developer, API, or documentation surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pashouses/refs/heads/main/screenshots/pashouses-2026-08-07T191525.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 54
+    },
+    {
      "name": "Amartha",
      "slug": "amartha",
      "description": "Amartha (PT Amartha Mikro Fintek, operating as Amartha Financial Group) is an Indonesian technology company founded in 2010 that builds digital financial infrastructure for the grassroots economy, connecting micro-entrepreneurs — predominantly women running micro and small businesses in rural villages — with affordable working capital from retail and institutional funders. Its consumer and agent brands include Amartha Prosper (investment), Celengan (savings), Modal (group loans), AmarthaLink (agent network) and the AmarthaFin mobile app for payments and bill purchase, alongside two business lines — Institutional Investments and Embedded Lending — that let banks, non-bank financial institutions, insurers and technology partners channel loans to Amartha borrowers. The company is headquartered at Amartha Village in South Jakarta, and runs its social impact programs through Amartha.org.",
@@ -2561,7 +2603,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2592,7 +2634,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 54
+     "rank": 55
     },
     {
      "name": "Amalan",
@@ -2611,50 +2653,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 55
-    },
-    {
-     "name": "Five Jack",
-     "slug": "five-jack",
-     "description": "Five Jack (PT. Five Jack) is the Indonesian company behind itemku, one of Southeast Asia's largest digital-goods marketplaces for gamers. Founded in 2014 as a game price-comparison and classifieds platform, itemku grew into a full marketplace where buyers and sellers trade in-game items, currency, account top-ups, game keys, and vouchers across 200+ game categories including Roblox, Genshin Impact, Mobile Legends, Dota 2, Steam, and Growtopia. The company reached one million orders in 2018, launched its Android app and gaming blog in 2020, and became part of Bukalapak (IDX: BUKA) in May 2021. Five Jack was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It operates a consumer-facing marketplace and does not currently publish a public developer API, SDKs, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/five-jack/refs/heads/main/screenshots/five-jack-2026-07-25T214640.png",
-     "score": 8.9,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 17.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2681,6 +2680,49 @@
      "rank": 56
     },
     {
+     "name": "Five Jack",
+     "slug": "five-jack",
+     "description": "Five Jack (PT. Five Jack) is the Indonesian company behind itemku, one of Southeast Asia's largest digital-goods marketplaces for gamers. Founded in 2014 as a game price-comparison and classifieds platform, itemku grew into a full marketplace where buyers and sellers trade in-game items, currency, account top-ups, game keys, and vouchers across 200+ game categories including Roblox, Genshin Impact, Mobile Legends, Dota 2, Steam, and Growtopia. The company reached one million orders in 2018, launched its Android app and gaming blog in 2020, and became part of Bukalapak (IDX: BUKA) in May 2021. Five Jack was surfaced as a portfolio company of 500 Global and added to the API Evangelist network. It operates a consumer-facing marketplace and does not currently publish a public developer API, SDKs, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/five-jack/refs/heads/main/screenshots/five-jack-2026-07-25T214640.png",
+     "score": 8.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 17.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 57
+    },
+    {
      "name": "Stockbit",
      "slug": "stockbit",
      "description": "Stockbit (PT Stockbit Sekuritas Digital) is an Indonesian retail-investing platform and social community for the Indonesia Stock Exchange (IDX), letting members discuss, analyze, and trade stocks with real-time market data, fundamentals, trading ideas, news, and sentiment. The product is delivered as consumer iOS and Android apps plus a web experience, with a separate crypto brand (Stockbit Crypto). It was surfaced as a portfolio company of 500 Global. As of this enrichment pass Stockbit publishes no public developer API, developer portal, OpenAPI/Swagger definition, SDK, or .well-known discovery surface — the profile is maintained as a consumer-app company record rather than an API provider.",
@@ -2697,7 +2739,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2728,7 +2770,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 57
+     "rank": 58
     },
     {
      "name": "Touchten",
@@ -2747,50 +2789,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "Ekomoditi",
-     "slug": "ekomoditi",
-     "description": "eKomoditi (PT Ekomoditi Solutions Indonesia) is a Southeast Asian agriculture-technology company, founded in 2015 and based in Jakarta, that builds digital plantation-management software for oil palm, rubber, sugar, and durian estates. Its flagship Electronic Plantation Control System (ePCS) replaces paper-based field recording with a mobile in-field Android app, an eGIS geographic mapping application, mills automation, and business-intelligence analytics — capturing harvesting, fertilization, pest-management, worker, and transport data for same-day reporting, labor-fraud monitoring, quality control, and traceability. eKomoditi also offers aerial-mapping drone services, a plantation marketplace, and due-diligence consulting. The company is backed by 500 Global and ZB Capital. It does not currently publish a public developer API, SDKs, or API documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ekomoditi/refs/heads/main/screenshots/ekomoditi-2026-07-25T213038.png",
-     "score": 7.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2817,23 +2816,23 @@
      "rank": 59
     },
     {
-     "name": "Fairbanc",
-     "slug": "fairbanc",
-     "description": "Fairbanc (PT Fairbanc Technologies Indonesia) is a Jakarta-based digital finance platform that uses AI/ML-powered credit scoring to deliver embedded, revolving supply-chain financing and buy-now-pay-later \"terms of payment\" to micro, small, and medium enterprises (MSMEs) across Indonesia. Working with trusted financial institutions and distributor/supply-chain ecosystems, Fairbanc provides merchants with an instant digital facility limit and short-term working-capital liquidity at the point of purchase — with no formal loan application, smartphone, or app required — plus data intelligence and consulting that help distributors reduce bad-debt risk and grow transaction value. The company reports its terms-of-payment product drove roughly 35% distributor sales growth. This is a company profile in the API Evangelist network; Fairbanc publishes a consumer-facing marketing and onboarding site but no public developer/API program at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/screenshots/fairbanc-2026-07-25T214153.png",
-     "score": 7.1,
+     "name": "Ekomoditi",
+     "slug": "ekomoditi",
+     "description": "eKomoditi (PT Ekomoditi Solutions Indonesia) is a Southeast Asian agriculture-technology company, founded in 2015 and based in Jakarta, that builds digital plantation-management software for oil palm, rubber, sugar, and durian estates. Its flagship Electronic Plantation Control System (ePCS) replaces paper-based field recording with a mobile in-field Android app, an eGIS geographic mapping application, mills automation, and business-intelligence analytics — capturing harvesting, fertilization, pest-management, worker, and transport data for same-day reporting, labor-fraud monitoring, quality control, and traceability. eKomoditi also offers aerial-mapping drone services, a plantation marketplace, and due-diligence consulting. The company is backed by 500 Global and ZB Capital. It does not currently publish a public developer API, SDKs, or API documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ekomoditi/refs/heads/main/screenshots/ekomoditi-2026-07-25T213038.png",
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 10.7,
+      "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2860,10 +2859,10 @@
      "rank": 60
     },
     {
-     "name": "Hangry",
-     "slug": "hangry",
-     "description": "Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen company founded in 2019 and backed by 500 Global. It designs, operates, and delivers a portfolio of consumer food brands - including Moon Chicken, San Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be tasty, consistent, and affordable for the mass market and sold primarily through third-party food-delivery channels. Hangry operates as a direct-to-consumer food and beverage business rather than an API or developer platform provider; it publishes no public developer portal, API documentation, or machine-readable API surface. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment tracking.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png",
+     "name": "Fairbanc",
+     "slug": "fairbanc",
+     "description": "Fairbanc (PT Fairbanc Technologies Indonesia) is a Jakarta-based digital finance platform that uses AI/ML-powered credit scoring to deliver embedded, revolving supply-chain financing and buy-now-pay-later \"terms of payment\" to micro, small, and medium enterprises (MSMEs) across Indonesia. Working with trusted financial institutions and distributor/supply-chain ecosystems, Fairbanc provides merchants with an instant digital facility limit and short-term working-capital liquidity at the point of purchase — with no formal loan application, smartphone, or app required — plus data intelligence and consulting that help distributors reduce bad-debt risk and grow transaction value. The company reports its terms-of-payment product drove roughly 35% distributor sales growth. This is a company profile in the API Evangelist network; Fairbanc publishes a consumer-facing marketing and onboarding site but no public developer/API program at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fairbanc/refs/heads/main/screenshots/fairbanc-2026-07-25T214153.png",
      "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2872,11 +2871,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
+      "developer_ergonomics": 10.7,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2903,11 +2902,11 @@
      "rank": 61
     },
     {
-     "name": "Imajin",
-     "slug": "imajin",
-     "description": "Imajin is an Indonesian online manufacturing marketplace (the \"Indonesia Manufacturing Hub\") that connects buyers with vetted manufacturers and machine shops through a project-based workflow: post a project, receive quotes, and track production through to delivery. It brokers rapid 3D printing and prototyping, high-precision mold and die making, SPM and custom part fabrication, mass production (stamping, plastics, and fabrication), CNC milling and turning at machining centers, and broader manufacturing projects. The platform offers an instant-quote tool, real-time project notifications, integrated company profiles, team and project management, and up-front payment handling for suppliers. Imajin is backed by 500 Global.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/imajin/refs/heads/main/screenshots/imajin-2026-07-25T222122.png",
-     "score": 6.8,
+     "name": "Hangry",
+     "slug": "hangry",
+     "description": "Hangry is an Indonesian multi-brand virtual restaurant and cloud-kitchen company founded in 2019 and backed by 500 Global. It designs, operates, and delivers a portfolio of consumer food brands - including Moon Chicken, San Gyu, Ayam Koplo, Dari Pada, Wai Thai, Pizza Gang, and Accha - engineered to be tasty, consistent, and affordable for the mass market and sold primarily through third-party food-delivery channels. Hangry operates as a direct-to-consumer food and beverage business rather than an API or developer platform provider; it publishes no public developer portal, API documentation, or machine-readable API surface. This profile was surfaced as a 500 Global portfolio company and added to the API Evangelist network for enrichment tracking.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hangry/refs/heads/main/screenshots/hangry-2026-07-25T220629.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -2915,11 +2914,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 6.6
+      "developer_ergonomics": 0.0,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2946,23 +2945,23 @@
      "rank": 62
     },
     {
-     "name": "Brik",
-     "slug": "brik",
-     "description": "Brik (\"[Re]Constructing Construction\") is an Indonesian construction-materials company, backed by Accel, that operates concrete batching plants and supplies ready-mix concrete for building and infrastructure projects across the Greater Jakarta region, including Bekasi, Bogor, Karawang, and Bandung. Its product line spans standard ready-mix batches and higher-performance \"Super Concrete\" variants used for mass-concrete pours. At the time of enrichment Brik publishes no public developer API, OpenAPI specification, SDKs, or webhook surface; this record is maintained in the API Evangelist network as a company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brik/refs/heads/main/screenshots/brik-2026-07-25T203915.png",
-     "score": 6.2,
+     "name": "Imajin",
+     "slug": "imajin",
+     "description": "Imajin is an Indonesian online manufacturing marketplace (the \"Indonesia Manufacturing Hub\") that connects buyers with vetted manufacturers and machine shops through a project-based workflow: post a project, receive quotes, and track production through to delivery. It brokers rapid 3D printing and prototyping, high-precision mold and die making, SPM and custom part fabrication, mass production (stamping, plastics, and fabrication), CNC milling and turning at machining centers, and broader manufacturing projects. The platform offers an instant-quote tool, real-time project notifications, integrated company profiles, team and project management, and up-front payment handling for suppliers. Imajin is backed by 500 Global.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/imajin/refs/heads/main/screenshots/imajin-2026-07-25T222122.png",
+     "score": 6.8,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 2.4,
-      "access_clarity": 0.0
+      "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2989,22 +2988,23 @@
      "rank": 63
     },
     {
-     "name": "UrbanHire",
-     "slug": "urbanhire",
-     "description": "UrbanHire was an Indonesian all-in-one hiring and assessment platform (applicant tracking system) backed by 500 Global, designed to streamline recruitment and help employers hire the right talent. The company appears defunct - urbanhire.com has been offline behind Cloudflare (HTTP 530) with the last archived homepage from January 2021 - and it never published a public API or developer documentation. Its GitHub organization and first-party npm engineering packages remain the surviving technical footprint.",
-     "score": 6.1,
+     "name": "Brik",
+     "slug": "brik",
+     "description": "Brik (\"[Re]Constructing Construction\") is an Indonesian construction-materials company, backed by Accel, that operates concrete batching plants and supplies ready-mix concrete for building and infrastructure projects across the Greater Jakarta region, including Bekasi, Bogor, Karawang, and Bandung. Its product line spans standard ready-mix batches and higher-performance \"Super Concrete\" variants used for mass-concrete pours. At the time of enrichment Brik publishes no public developer API, OpenAPI specification, SDKs, or webhook surface; this record is maintained in the API Evangelist network as a company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brik/refs/heads/main/screenshots/brik-2026-07-25T203915.png",
+     "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3031,23 +3031,22 @@
      "rank": 64
     },
     {
-     "name": "BerryKitchen",
-     "slug": "berrykitchen",
-     "description": "BerryKitchen (Berry Kitchen) was an Indonesian online catering and prepared-meal company founded in Jakarta in 2012 by Cynthia Tenggara. It took online orders for lunch boxes and bento meals aimed at office workers across Jabodetabek, and ran the full chain itself - supplier sourcing, cooking, packaging and last-mile delivery - rather than acting as a marketplace. It was backed by East Ventures and 500 Startups (now 500 Global) and was acquired by Yummy Corp in 2019, with the team folded into Yummy Corp's Yummybox unit and the founder subsequently exiting. BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes only.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png",
-     "score": 5.7,
+     "name": "UrbanHire",
+     "slug": "urbanhire",
+     "description": "UrbanHire was an Indonesian all-in-one hiring and assessment platform (applicant tracking system) backed by 500 Global, designed to streamline recruitment and help employers hire the right talent. The company appears defunct - urbanhire.com has been offline behind Cloudflare (HTTP 530) with the last archived homepage from January 2021 - and it never published a public API or developer documentation. Its GitHub organization and first-party npm engineering packages remain the surviving technical footprint.",
+     "score": 6.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3074,10 +3073,10 @@
      "rank": 65
     },
     {
-     "name": "Ula",
-     "slug": "ula",
-     "description": "Ula was a B2B wholesale commerce platform for small neighborhood retail shops (warungs), providing supply chain technology, inventory management, and credit access across Indonesia, India, and Singapore. Backed by Prosus Ventures, Ula closed its core operations in late 2023 and ula.app now hosts a retrospective of the company. No public API, developer portal, or SDKs were ever published, and no developer subdomains resolve.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ula/refs/heads/main/screenshots/ula-2026-09-02T164754.png",
+     "name": "BerryKitchen",
+     "slug": "berrykitchen",
+     "description": "BerryKitchen (Berry Kitchen) was an Indonesian online catering and prepared-meal company founded in Jakarta in 2012 by Cynthia Tenggara. It took online orders for lunch boxes and bento meals aimed at office workers across Jabodetabek, and ran the full chain itself - supplier sourcing, cooking, packaging and last-mile delivery - rather than acting as a marketplace. It was backed by East Ventures and 500 Startups (now 500 Global) and was acquired by Yummy Corp in 2019, with the team folded into Yummy Corp's Yummybox unit and the founder subsequently exiting. BerryKitchen never published a public API, developer portal or SDKs, and its domain is no longer operated by the company, so this profile is catalogued for historical and VC portfolio-graph purposes only.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/berrykitchen/refs/heads/main/screenshots/berrykitchen-2026-07-25T202748.png",
      "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3090,7 +3089,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3117,23 +3116,23 @@
      "rank": 66
     },
     {
-     "name": "Brodo",
-     "slug": "brodo",
-     "description": "Brodo (PT Brodo Ganesha Indonesia) is an Indonesian direct-to-consumer footwear and menswear brand founded in Bandung, selling shoes, apparel, and accessories through its official webstore at bro.do. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Brodo runs a consumer e-commerce storefront on a third-party commerce platform (Plugo) with local Indonesian payment rails (NicePay); it publishes no first-party developer API, OpenAPI, developer portal, SDK, or public integration surface at this time, so there are no API artifacts to enrich beyond this company profile.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brodo/refs/heads/main/screenshots/brodo-2026-07-25T203949.png",
-     "score": 5.5,
+     "name": "Ula",
+     "slug": "ula",
+     "description": "Ula was a B2B wholesale commerce platform for small neighborhood retail shops (warungs), providing supply chain technology, inventory management, and credit access across Indonesia, India, and Singapore. Backed by Prosus Ventures, Ula closed its core operations in late 2023 and ula.app now hosts a retrospective of the company. No public API, developer portal, or SDKs were ever published, and no developer subdomains resolve.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ula/refs/heads/main/screenshots/ula-2026-09-02T164754.png",
+     "score": 5.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3160,10 +3159,10 @@
      "rank": 67
     },
     {
-     "name": "Cosmart",
-     "slug": "cosmart",
-     "description": "Cosmart is an Indonesian membership-only B2B e-commerce and procurement platform, founded in 2021 by Alvin Kumarga and Robert Tan, where members (individuals and SMEs) purchase their recurring daily and business needs in larger quantities at competitive prices. The platform lists over 100,000 products across categories including office supplies, electronics, household items, automotive parts, industrial equipment, furniture, and services, with nationwide delivery, flexible payment terms, and dedicated relationship managers for corporate clients. Backed by Lightspeed Venture Partners and Lightspeed India Partners. Cosmart does not publish a public developer program, API, or SDKs; this profile captures its identity and public web properties for the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosmart/refs/heads/main/screenshots/cosmart-2026-07-25T210452.png",
+     "name": "Brodo",
+     "slug": "brodo",
+     "description": "Brodo (PT Brodo Ganesha Indonesia) is an Indonesian direct-to-consumer footwear and menswear brand founded in Bandung, selling shoes, apparel, and accessories through its official webstore at bro.do. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network. Brodo runs a consumer e-commerce storefront on a third-party commerce platform (Plugo) with local Indonesian payment rails (NicePay); it publishes no first-party developer API, OpenAPI, developer portal, SDK, or public integration surface at this time, so there are no API artifacts to enrich beyond this company profile.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/brodo/refs/heads/main/screenshots/brodo-2026-07-25T203949.png",
      "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3176,7 +3175,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3203,23 +3202,23 @@
      "rank": 68
     },
     {
-     "name": "eFishery",
-     "slug": "efishery",
-     "description": "eFishery is an Indonesian aquaculture technology (\"fishtech\") company founded in 2013 in Bandung by Gibran Huzaifah and Chrisna Aditya. Its platform combined an IoT smart auto-feeder (eFeeder) that dispenses feed to fish and shrimp ponds and streams pond telemetry to a smartphone app, with an integrated services layer: eFisheryKu / eFarm farm-management software, eFund (including the Kabayan \"pay later\" financing product) linking smallholder farmers to lenders, and eFresh / eMart marketplaces connecting farmers to feed suppliers and downstream buyers. The company raised a $90M Series C (2022) and a $200M Series D (2023) at a unicorn valuation, backed by investors including 500 Global, Aqua-Spark, SoftBank Vision Fund 2, Temasek, and Northstar. In late 2024 an audit alleged large-scale financial-statement fraud dating to 2018; both founders resigned and the company underwent multiple rounds of layoffs and restructuring through 2025. This record was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline; eFishery exposes no public developer API or developer portal, and its primary efishery.com domain currently resolves to a parked/forwarding host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/efishery/refs/heads/main/screenshots/efishery-2026-07-25T212946.png",
-     "score": 5.3,
+     "name": "Cosmart",
+     "slug": "cosmart",
+     "description": "Cosmart is an Indonesian membership-only B2B e-commerce and procurement platform, founded in 2021 by Alvin Kumarga and Robert Tan, where members (individuals and SMEs) purchase their recurring daily and business needs in larger quantities at competitive prices. The platform lists over 100,000 products across categories including office supplies, electronics, household items, automotive parts, industrial equipment, furniture, and services, with nationwide delivery, flexible payment terms, and dedicated relationship managers for corporate clients. Backed by Lightspeed Venture Partners and Lightspeed India Partners. Cosmart does not publish a public developer program, API, or SDKs; this profile captures its identity and public web properties for the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cosmart/refs/heads/main/screenshots/cosmart-2026-07-25T210452.png",
+     "score": 5.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3244,6 +3243,49 @@
       "agentic_commerce": false
      },
      "rank": 69
+    },
+    {
+     "name": "eFishery",
+     "slug": "efishery",
+     "description": "eFishery is an Indonesian aquaculture technology (\"fishtech\") company founded in 2013 in Bandung by Gibran Huzaifah and Chrisna Aditya. Its platform combined an IoT smart auto-feeder (eFeeder) that dispenses feed to fish and shrimp ponds and streams pond telemetry to a smartphone app, with an integrated services layer: eFisheryKu / eFarm farm-management software, eFund (including the Kabayan \"pay later\" financing product) linking smallholder farmers to lenders, and eFresh / eMart marketplaces connecting farmers to feed suppliers and downstream buyers. The company raised a $90M Series C (2022) and a $200M Series D (2023) at a unicorn valuation, backed by investors including 500 Global, Aqua-Spark, SoftBank Vision Fund 2, Temasek, and Northstar. In late 2024 an audit alleged large-scale financial-statement fraud dating to 2018; both founders resigned and the company underwent multiple rounds of layoffs and restructuring through 2025. This record was surfaced as a 500 Global portfolio company and enriched by the API Evangelist pipeline; eFishery exposes no public developer API or developer portal, and its primary efishery.com domain currently resolves to a parked/forwarding host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/efishery/refs/heads/main/screenshots/efishery-2026-07-25T212946.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 70
     },
     {
      "name": "Ahlijasa",
@@ -3288,7 +3330,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 70
+     "rank": 71
     },
     {
      "name": "Belanjaparts",
@@ -3307,50 +3349,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 71
-    },
-    {
-     "name": "Chickin",
-     "slug": "chickin",
-     "description": "Chickin is an Indonesian poultry-technology company operating a full-stack, integrated ecosystem for chicken farmers across Indonesia. It combines closed-house smart-farming hardware (IoT climate and environmental controllers), day-old-chick and feed supply, farmer financing, and guaranteed offtake and distribution of live birds, aiming to modernize and de-risk small and mid-scale poultry farming. Backed by 500 Global, Chickin runs its operations through a mobile and web application at chickin.id. As of this enrichment pass the company publishes no public developer program, API documentation, or machine-readable API artifacts; this profile records its public web presence and domain-security posture and remains a lead for further enrichment should a developer surface be published.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chickin/refs/heads/main/screenshots/chickin-2026-07-25T205212.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3377,10 +3376,10 @@
      "rank": 72
     },
     {
-     "name": "Eatsii",
-     "slug": "eatsii",
-     "description": "Eatsii is a Jakarta, Indonesia based foodtech startup operating a cloud kitchen platform. It runs a cloud kitchen concept that offers takeaway and delivery alongside dine-in service, and markets cloud kitchen space to F&B operators under a franchise partnership model, positioning itself as helping food and beverage companies run a more efficient kitchen in the food delivery era. The company describes itself as combining a heartfelt touch with data and business strategy, and lists 11-50 employees in Food and Beverage Services. It was surfaced through the 500 Global (500 Durians) portfolio. Eatsii publishes no developer program, public API, or technical documentation, and as of July 2026 its eatsii.com domain does not serve a live website.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eatsii/refs/heads/main/screenshots/eatsii-2026-08-07T164656.png",
+     "name": "Chickin",
+     "slug": "chickin",
+     "description": "Chickin is an Indonesian poultry-technology company operating a full-stack, integrated ecosystem for chicken farmers across Indonesia. It combines closed-house smart-farming hardware (IoT climate and environmental controllers), day-old-chick and feed supply, farmer financing, and guaranteed offtake and distribution of live birds, aiming to modernize and de-risk small and mid-scale poultry farming. Backed by 500 Global, Chickin runs its operations through a mobile and web application at chickin.id. As of this enrichment pass the company publishes no public developer program, API documentation, or machine-readable API artifacts; this profile records its public web presence and domain-security posture and remains a lead for further enrichment should a developer surface be published.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chickin/refs/heads/main/screenshots/chickin-2026-07-25T205212.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3393,7 +3392,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3418,6 +3417,49 @@
       "agentic_commerce": false
      },
      "rank": 73
+    },
+    {
+     "name": "Eatsii",
+     "slug": "eatsii",
+     "description": "Eatsii is a Jakarta, Indonesia based foodtech startup operating a cloud kitchen platform. It runs a cloud kitchen concept that offers takeaway and delivery alongside dine-in service, and markets cloud kitchen space to F&B operators under a franchise partnership model, positioning itself as helping food and beverage companies run a more efficient kitchen in the food delivery era. The company describes itself as combining a heartfelt touch with data and business strategy, and lists 11-50 employees in Food and Beverage Services. It was surfaced through the 500 Global (500 Durians) portfolio. Eatsii publishes no developer program, public API, or technical documentation, and as of July 2026 its eatsii.com domain does not serve a live website.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/eatsii/refs/heads/main/screenshots/eatsii-2026-08-07T164656.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 74
     },
     {
      "name": "mucho",
@@ -3461,7 +3503,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 75
     },
     {
      "name": "Mycotech",
@@ -3480,7 +3522,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3504,7 +3546,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 76
     },
     {
      "name": "Pazpo",
@@ -3548,7 +3590,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 77
     },
     {
      "name": "Pinhome",
@@ -3567,50 +3609,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 77
-    },
-    {
-     "name": "Qerja",
-     "slug": "qerja",
-     "description": "PT Qerja Manfaat Bangsa (Qerja) is an Indonesian human-resources company operating an end-to-end HR product ecosystem for employers, established in 2007 and later part of the PT M Cash Integrasi Tbk technology group. In 2019 it acquired Karir.com, Indonesia's first job portal (since 1998), and reports serving over 50,000 clients and 8 million member users across the country. The public presence is a corporate marketing site (qerjagroup.com) covering its HR services, clients, and user demographics; no public developer portal, API documentation, or machine-readable API surface was found during enrichment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qerja/refs/heads/main/screenshots/qerja-2026-09-02T152430.png",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3637,10 +3636,10 @@
      "rank": 78
     },
     {
-     "name": "Samastha Synergy Pte. Ltd.",
-     "slug": "samastha-synergy-pte-ltd",
-     "description": "Samastha Synergy Pte. Ltd. operates Djoin (djoin.id), positioning itself as a \"digital partner for sustainable scale\" that helps financial institutions and organizations in Indonesia grow through an adaptive product ecosystem. Djoin's named products are Coopmax (a platform aimed at cooperatives / koperasi), Kocek, and ProofyLink. The company runs a private backend API at api.djoin.id, which sits behind Cloudflare and returns 403 to unauthenticated requests; as of this profile there is no public developer portal, OpenAPI/Swagger definition, documentation, or SDK surface published. Samastha Synergy was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; this profile captures what is publicly verifiable from the djoin.id site and DNS/TLS probes.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samastha-synergy-pte-ltd/refs/heads/main/screenshots/samastha-synergy-pte-ltd-2026-09-02T154336.png",
+     "name": "Qerja",
+     "slug": "qerja",
+     "description": "PT Qerja Manfaat Bangsa (Qerja) is an Indonesian human-resources company operating an end-to-end HR product ecosystem for employers, established in 2007 and later part of the PT M Cash Integrasi Tbk technology group. In 2019 it acquired Karir.com, Indonesia's first job portal (since 1998), and reports serving over 50,000 clients and 8 million member users across the country. The public presence is a corporate marketing site (qerjagroup.com) covering its HR services, clients, and user demographics; no public developer portal, API documentation, or machine-readable API surface was found during enrichment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qerja/refs/heads/main/screenshots/qerja-2026-09-02T152430.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3653,7 +3652,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3680,10 +3679,10 @@
      "rank": 79
     },
     {
-     "name": "Saudara Ai",
-     "slug": "saudara-ai",
-     "description": "Saudara AI is an AI-native sourcing brokerage, founded in 2024 and based in Spokane, Washington, that connects American brands with vetted Indonesian manufacturers. Buyers submit requests for quotes (RFQs) and the company pairs human brokers with AI agents that scan factories, verify certifications, benchmark pricing against market data, and prepare quotes, returning vetted supplier options within 48 hours. Saudara AI also handles quality control, logistics, improved payment terms (30/70 and net-60), and vendor financing. As of its launch the company reports having sourced over $1M for 40+ brands. It operates as a brokerage service and does not publish a public developer API, documentation, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saudara-ai/refs/heads/main/screenshots/saudara-ai-2026-09-02T154435.png",
+     "name": "Samastha Synergy Pte. Ltd.",
+     "slug": "samastha-synergy-pte-ltd",
+     "description": "Samastha Synergy Pte. Ltd. operates Djoin (djoin.id), positioning itself as a \"digital partner for sustainable scale\" that helps financial institutions and organizations in Indonesia grow through an adaptive product ecosystem. Djoin's named products are Coopmax (a platform aimed at cooperatives / koperasi), Kocek, and ProofyLink. The company runs a private backend API at api.djoin.id, which sits behind Cloudflare and returns 403 to unauthenticated requests; as of this profile there is no public developer portal, OpenAPI/Swagger definition, documentation, or SDK surface published. Samastha Synergy was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; this profile captures what is publicly verifiable from the djoin.id site and DNS/TLS probes.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/samastha-synergy-pte-ltd/refs/heads/main/screenshots/samastha-synergy-pte-ltd-2026-09-02T154336.png",
      "score": 5.0,
      "band": "minimal",
      "band_label": "Minimal",
@@ -3696,7 +3695,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3723,6 +3722,49 @@
      "rank": 80
     },
     {
+     "name": "Saudara Ai",
+     "slug": "saudara-ai",
+     "description": "Saudara AI is an AI-native sourcing brokerage, founded in 2024 and based in Spokane, Washington, that connects American brands with vetted Indonesian manufacturers. Buyers submit requests for quotes (RFQs) and the company pairs human brokers with AI agents that scan factories, verify certifications, benchmark pricing against market data, and prepare quotes, returning vetted supplier options within 48 hours. Saudara AI also handles quality control, logistics, improved payment terms (30/70 and net-60), and vendor financing. As of its launch the company reports having sourced over $1M for 40+ brands. It operates as a brokerage service and does not publish a public developer API, documentation, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/saudara-ai/refs/heads/main/screenshots/saudara-ai-2026-09-02T154435.png",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 81
+    },
+    {
      "name": "Daya Medika Pratama",
      "slug": "daya-medika-pratama",
      "description": "PT Daya Medika Pratama (DMP) is an Indonesian healthcare IT company in Central Jakarta that builds and implements hospital information systems and insurance core systems. It has worked in IT since 2007 — first as a systems integrator building data-acquisition systems for textile production machinery, later as a Microsoft Business Solution Partner in healthcare and education — and today sells AFYA Better HIS (a hospital information system with an openEHR-based clinical data repository, stated as connected to BPJS Kesehatan, Kemenkes/SATUSEHAT, FHIR and Better, and in use at more than 40 Indonesian hospitals), AFYA Insurance (policy and claims management), implementation of the Better digital health platform, and Microsoft Dynamics 365 as hospital back office. It is an openEHR industry partner and a Better (better.care) partner for the Indonesian market, and runs AFYA Better Academy, an openEHR and FHIR training programme for hospital IT staff. Its positioning line is \"One Patient One Record for Better Health\". DMP publishes no public API, developer portal, SDK or machine-readable contract; the standards it names are national platforms its products consume on a hospital's behalf, not APIs it ships.",
@@ -3738,7 +3780,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3769,7 +3811,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 82
     },
     {
      "name": "GoTo",
@@ -3788,57 +3830,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 9.4,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 82
-    },
-    {
-     "name": "YourPay",
-     "slug": "yourpay",
-     "description": "YourPay is an Indonesian fintech mobile application that helps overseas workers and their families send money to Indonesia, pay bills (electricity, BPJS), buy phone credit, top up e-wallets, make QRIS payments, and shop online. It is registered with Bank Indonesia as a Payment Service Provider (Kategori Izin 1, license 23/678/DKSP/Srt/B) and monitored by KOMINFO. YourPay is a consumer-facing payments app and does not currently publish a public developer portal, API reference, or OpenAPI definition. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yourpay/refs/heads/main/screenshots/yourpay-2026-09-02T171337.png",
-     "score": 1.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3870,6 +3862,56 @@
       "agentic_commerce": false
      },
      "rank": 83
+    },
+    {
+     "name": "YourPay",
+     "slug": "yourpay",
+     "description": "YourPay is an Indonesian fintech mobile application that helps overseas workers and their families send money to Indonesia, pay bills (electricity, BPJS), buy phone credit, top up e-wallets, make QRIS payments, and shop online. It is registered with Bank Indonesia as a Payment Service Provider (Kategori Izin 1, license 23/678/DKSP/Srt/B) and monitored by KOMINFO. YourPay is a consumer-facing payments app and does not currently publish a public developer portal, API reference, or OpenAPI definition. It was surfaced as a 500 Global portfolio company and added to the API Evangelist network.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/yourpay/refs/heads/main/screenshots/yourpay-2026-09-02T171337.png",
+     "score": 1.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 9.4,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 84
     }
    ]
   }

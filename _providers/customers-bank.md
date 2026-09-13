@@ -26,15 +26,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: true
     idempotency: verified
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 50.1
+  schema_version: '0.2'
+  score: 43.6
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 84
@@ -490,7 +490,7 @@ score:
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 49.4
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

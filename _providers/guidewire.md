@@ -11,20 +11,20 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-aware
+  band: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
-    auth_clarity: negotiable
+    auth_clarity: served
     consent_identity: false
-    delegated_identity: documented
+    delegated_identity: served
     dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
+    dynamic_client_registration: true
+    error_semantics: documented
     event_surface_described: derived
-    idempotency: false
+    idempotency: documented
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
@@ -32,8 +32,8 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 25.9
+  schema_version: '0.2'
+  score: 40.5
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 5
@@ -47,47 +47,47 @@ apis:
 - description: The Guidewire BillingCenter API provides REST endpoints for payment orchestration, invoice generation, payment plans, disbursements, and collections management for insurance billing operations.
   name: Guidewire BillingCenter API
   slug: guidewire-billingcenter-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: The Guidewire Integration Gateway provides a managed API layer for connecting Guidewire Cloud applications to third-party systems, enabling event-driven integrations and REST API extensions for the Gu
   name: Guidewire Integration Gateway API
   slug: guidewire-integration-gateway-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: Customer account management
   name: Guidewire Accounts API
   slug: guidewire-accounts-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: Claims lifecycle management
   name: Guidewire Claims API
   slug: guidewire-claims-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: Claim exposure management
   name: Guidewire Exposures API
   slug: guidewire-exposures-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: First Notice of Loss intake
   name: Guidewire FNOL API
   slug: guidewire-fnol-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: Claim payment and reserves
   name: Guidewire Payments API
   slug: guidewire-payments-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: Policy lifecycle management
   name: Guidewire Policies API
   slug: guidewire-policies-api
-- baseURL: https://api.guidewire.com
+- baseURL: https://{applicationURL}/rest
   baseurl_source: declared
   description: Policy quoting and rating
   name: Guidewire Quotes API
   slug: guidewire-quotes-api
-artifact_total: 32
+artifact_total: 34
 asyncapis:
 - description: Guidewire Integration Gateway AsyncAPI specification for event-driven integrations. The gateway publishes webhook events when key policy, claim, and billing lifecycle events occur in Guidewire Cloud a
   name: Guidewire Integration Gateway Events
@@ -124,10 +124,14 @@ collections:
   name: Guidewire ClaimCenter Accounts Quotes API
   slug: open-guidewire-quotes-api
 common:
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.guidewire.com/sign-in
 - group: other
   title: ''
-  type: CapabilityMap
-  url: capabilities/guidewire-capability-edges.yml
+  type: Marketplace
+  url: https://marketplace.guidewire.com/
 - group: agent
   title: ''
   type: AgenticAccess
@@ -140,18 +144,155 @@ common:
   title: ''
   type: Authentication
   url: authentication/guidewire-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/guidewire-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/guidewire-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/guidewire-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/guidewire-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/guidewire-conformance.yml
 - group: auth
   title: ''
-  type: OAuthScopes
-  url: scopes/guidewire-scopes.yml
+  type: Compliance
+  url: conformance/guidewire-conformance.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/guidewire-trust-center.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/guidewire-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/guidewire-vulnerability-disclosure.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/guidewire-error-codes.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/guidewire-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/guidewire-well-known.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/guidewire-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/guidewire-plans-pricing.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/guidewire-finops.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.guidewire.com/developers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.guidewire.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.guidewire.com/developers
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.guidewire.com/
+- group: operate
+  title: ''
+  type: Support
+  url: https://community.guidewire.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.guidewire.com/resources/blog
+- group: company
+  title: ''
+  type: Website
+  url: https://www.guidewire.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.guidewire.com/cloud/cc/202607/apiref/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.guidewire.com/developers/apis
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.guidewire.com/legal-notices
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.guidewire.com/privacy-policy
+- group: start
+  title: ''
+  type: Login
+  url: https://www.guidewire.com/sign-in
+- group: build
+  title: ''
+  type: Developer Tools
+  url: https://marketplace.guidewire.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/guidewire-oss
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/guidewire-policycenter-openapi.yml
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/guidewire-claimcenter-openapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/guidewire-policy-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/guidewire-context.jsonld
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/guidewire-integration-gateway-asyncapi.yml
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/guidewire-software
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://docs.guidewire.com/llms.txt
+  type: LLMsTxt
+  url: llms/guidewire-llms.txt
+created: '2026-05-01'
 description: Guidewire provides the insurance industry's leading platform including PolicyCenter, ClaimCenter, and BillingCenter. REST APIs enable policy lifecycle management, claims processing, payment orchestration, and underwriting workflows for P&C insurance carriers on the Guidewire Cloud platform.
 finops:
 - name: Guidewire Finops
@@ -161,6 +302,7 @@ graphqls:
 - description: Guidewire is a cloud platform for property and casualty insurance covering policy administration, billing, and claims management. The API covers policies, quotes, billing accounts, claims, payments, a
   name: Guidewire GraphQL API
   slug: guidewire-graphql
+image: screenshots/guidewire-2026-06-20T182433.png
 json_schemas:
 - name: Guidewire Policy
   property_count: 14
@@ -171,7 +313,7 @@ jsonld:
   property_count: 17
   slug: guidewire-context
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Guidewire
 nav: Providers
 network: true
@@ -181,7 +323,7 @@ overview: 'Guidewire publishes 8 APIs on the [APIs.io](https://apis.io/) network
   The Guidewire catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Guidewire''s developer surface includes authentication and 6 more developer resources.'
+  Guidewire''s developer surface includes signup flow, authentication, changelog, developer portal, documentation, getting-started guide, support, and 35 more developer resources.'
 plans:
 - name: Guidewire Plans Pricing
   plan_count: 1
@@ -215,44 +357,47 @@ rules:
   slug: guidewire-jsonschema-spectral-rules
 scopes:
 - name: Guidewire Scopes
-  scope_count: 6
+  scope_count: 0
   slug: guidewire-scopes
-  summary_line: 6 scopes · authorizationCode
+  summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 36.9
+  band: exemplar
+  composite: 70.8
   coverage:
-    artifact_dirs: 17
-    catalog_earned: 54.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.5
+    artifact_dirs: 26
+    catalog_earned: 71.5
+    catalog_earned_first_party: 16.0
+    catalog_gap: 43.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 33.9
   facets:
-    access_clarity: 13.2
-    contract_governance: 13.6
+    access_clarity: 78.9
+    contract_governance: 31.8
     contract_quality: 70.2
-    developer_ergonomics: 23.8
-    discoverability: 66.7
-    operational_transparency: 5.3
+    developer_ergonomics: 49.4
+    discoverability: 75.9
+    operational_transparency: 68.4
   previous_composite: 36.9
   provenance:
     agentic_access: derived
+    conformance: first-party
     contracts:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
       total: 7
+    mcp: first-party
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Insurance
     regime_id: insurance
-    score: 51.5
-  schema_version: 0.21.0
+    score: 80.3
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 0.0
@@ -261,11 +406,19 @@ security:
 - kind: authentication
   name: Guidewire Authentication
   slug: guidewire-authentication
-  summary_line: oauth2 · 1 scheme
+  summary_line: http-basic/bearer-jwt · 2 schemes
 - kind: domain-security
   name: Guidewire Domain Security
   slug: guidewire-domain-security
   summary_line: TLSv1.3 · DMARC
+- kind: vulnerability-disclosure
+  name: Guidewire Vulnerability Disclosure
+  slug: guidewire-vulnerability-disclosure
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Guidewire Trust Center
+  slug: guidewire-trust-center
+  summary_line: SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27701, PCI DSS
 slug: guidewire
 tags:
 - Insurance
@@ -273,4 +426,5 @@ tags:
 - Claims
 - Billing
 - P&C
+website: https://www.guidewire.com/
 ---

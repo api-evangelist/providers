@@ -35,6 +35,7 @@ modified: '2026-09-12'
 name: AgBiome
 nav: Providers
 network: true
+overview: AgBiome is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Agriculture, AgTech, and Biotechnology.
 random_paper: 10
 slug: agbiome
 tags:

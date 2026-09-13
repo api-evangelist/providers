@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 26.5
   scored_at: '2026-09-12'
 agentic_access:
@@ -244,6 +244,15 @@ apis:
   description: Manage API versions
   name: Apigee Versions API
   slug: apigee-versions-api
+- description: Apigee is Google Cloud's API management platform enabling organizations to design, secure, publish, analyze, and scale their APIs with advanced analytics, developer portal, and monetization features.
+  name: Google Apigee
+  slug: google-apigee
+- description: The Apigee Connect API enables Apigee hybrid to connect the Apigee management plane to the customer-managed runtime plane without requiring the runtime plane to have an inbound firewall rule. It allow
+  name: Google Apigee Connect API
+  slug: google-apigee-connect-api
+- description: Apigee API Hub is a centralized repository and governance platform for discovering, managing, and analyzing APIs across an organization. It enables teams to register APIs, manage API versions and spec
+  name: Google Apigee API Hub
+  slug: google-apigee-api-hub
 arazzos:
 - description: Create an analytics datastore for export, then query environment statistics for a dimension.
   name: Apigee Set Up Analytics Export and Read Stats
@@ -320,7 +329,7 @@ arazzos:
 - description: Read an API product, then update its quota limits while preserving its existing bindings.
   name: Apigee Update an API Product Quota
   slug: apigee-update-product-quota-workflow
-artifact_total: 255
+artifact_total: 258
 collections:
 - collection_type: postman
   name: Apigee API Hub API
@@ -476,6 +485,18 @@ collections:
   name: Apigee API Hub Analytics Versions API
   slug: open-apigee-versions-api
 common:
+- group: start
+  title: ''
+  type: Console
+  url: https://console.cloud.google.com/apigee
+- group: operate
+  title: ''
+  type: StackOverflow
+  url: https://stackoverflow.com/questions/tagged/apigee
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@googlecloudtech
 - group: other
   title: ''
   type: CapabilityMap
@@ -1199,7 +1220,7 @@ overview: 'Apigee publishes 40 APIs on the [APIs.io](https://apis.io/) network, 
   The Apigee catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Apigee''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, support, signup flow, and 71 more developer resources.'
+  Apigee''s developer surface includes developer console, Stack Overflow tag, YouTube channel, authentication, developer portal, documentation, getting-started guide, and 74 more developer resources.'
 plans:
 - name: Apigee Plans Pricing
   plan_count: 5
@@ -1238,7 +1259,7 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 62.1
+  composite: 63.6
   coverage:
     artifact_dirs: 22
     catalog_earned: 68.5
@@ -1246,12 +1267,12 @@ score:
     catalog_gap: 46.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 1.5
   facets:
     access_clarity: 55.3
     contract_governance: 13.6
     contract_quality: 74.2
-    developer_ergonomics: 82.1
+    developer_ergonomics: 89.3
     discoverability: 83.3
     operational_transparency: 52.6
   previous_composite: 62.1
@@ -1262,7 +1283,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 40
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

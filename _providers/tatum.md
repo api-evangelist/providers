@@ -12,7 +12,7 @@ access_model:
   trial: false
   try_now: true
 agent_readiness:
-  band: agent-ready
+  band: agent-aware
   dimensions:
     agent_card: false
     agent_skills: false
@@ -26,15 +26,15 @@ agent_readiness:
     error_semantics: false
     event_surface_described: false
     idempotency: na
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 32.9
+  schema_version: '0.2'
+  score: 25.4
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
@@ -197,7 +197,7 @@ score:
     regime: Payments
     regime_id: payments
     score: 26.6
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

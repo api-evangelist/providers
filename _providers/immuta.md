@@ -11,7 +11,7 @@ access_model:
   trial: false
   try_now: false
 agent_readiness:
-  band: agent-native
+  band: agent-ready
   dimensions:
     agent_card: false
     agent_skills: derived
@@ -25,15 +25,15 @@ agent_readiness:
     error_semantics: documented
     event_surface_described: true
     idempotency: documented
-    mcp_server: verified
+    mcp_server: platform
     openapi_examples: partial
     protected_resource_metadata: false
     rate_limit_signal: false
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 41.5
+  schema_version: '0.2'
+  score: 35.0
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 32
@@ -324,7 +324,7 @@ score:
     regime: Insurance
     regime_id: insurance
     score: 54.5
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

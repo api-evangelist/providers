@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 26.5
   scored_at: '2026-09-12'
 agentic_access:
@@ -89,7 +89,52 @@ apis:
   description: The StorageAccounts API from Azure Storage Accounts — 11 operation(s) for storageaccounts.
   name: Azure Storage Accounts StorageAccounts API
   slug: azure-storage-accounts-storageaccounts-api
-artifact_total: 176
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The BlobContainers API from Azure Storage Account — 8 operation(s) for blobcontainers.
+  name: Azure Storage Account BlobContainers API
+  slug: azure-storage-account-blobcontainers-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The BlobService API from Azure Storage Account — 2 operation(s) for blobservice.
+  name: Azure Storage Account BlobService API
+  slug: azure-storage-account-blobservice-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The LocationUsage API from Azure Storage Account — 1 operation(s) for locationusage.
+  name: Azure Storage Account LocationUsage API
+  slug: azure-storage-account-locationusage-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The ManagementPolicies API from Azure Storage Account — 1 operation(s) for managementpolicies.
+  name: Azure Storage Account ManagementPolicies API
+  slug: azure-storage-account-managementpolicies-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The Operations API from Azure Storage Account — 1 operation(s) for operations.
+  name: Azure Storage Account Operations API
+  slug: azure-storage-account-operations-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The PrivateEndpointConnections API from Azure Storage Account — 1 operation(s) for privateendpointconnections.
+  name: Azure Storage Account PrivateEndpointConnections API
+  slug: azure-storage-account-privateendpointconnections-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The PrivateLinkResources API from Azure Storage Account — 1 operation(s) for privatelinkresources.
+  name: Azure Storage Account PrivateLinkResources API
+  slug: azure-storage-account-privatelinkresources-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The Skus API from Azure Storage Account — 1 operation(s) for skus.
+  name: Azure Storage Account Skus API
+  slug: azure-storage-account-skus-api
+- baseURL: https://{account}.blob.core.windows.net
+  baseurl_source: declared
+  description: The StorageAccounts API from Azure Storage Account — 11 operation(s) for storageaccounts.
+  name: Azure Storage Account StorageAccounts API
+  slug: azure-storage-account-storageaccounts-api
+artifact_total: 185
 collections:
 - collection_type: postman
   name: StorageManagementClient BlobContainers API
@@ -651,7 +696,7 @@ modified: '2026-05-19'
 name: Azure Storage Accounts
 nav: Providers
 network: true
-overview: 'Azure Storage Accounts publishes 9 APIs on the [APIs.io](https://apis.io/) network, including BlobContainers API, BlobService API, LocationUsage API, and 6 more. Tagged areas include Azure, Blob Storage, Cloud Storage, File Storage, and Queue Storage.
+overview: 'Azure Storage Accounts publishes 18 APIs on the [APIs.io](https://apis.io/) network, including BlobContainers API, BlobService API, LocationUsage API, and 15 more. Tagged areas include Azure, Blob Storage, Cloud Storage, File Storage, and Queue Storage.
 
 
   The Azure Storage Accounts catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -696,7 +741,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 47.7
+  composite: 48.4
   coverage:
     artifact_dirs: 17
     catalog_earned: 66.5
@@ -704,13 +749,13 @@ score:
     catalog_gap: 48.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 0.7
   facets:
     access_clarity: 36.8
     contract_governance: 28.8
     contract_quality: 56.9
     developer_ergonomics: 56.0
-    discoverability: 68.5
+    discoverability: 75.9
     operational_transparency: 23.7
   previous_composite: 47.7
   provenance:
@@ -720,7 +765,7 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 9
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

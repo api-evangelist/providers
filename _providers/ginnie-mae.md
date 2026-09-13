@@ -1,122 +1,200 @@
 ---
 access_model:
   confidence: medium
-  label: Freemium
+  label: Free — U.S. government content API, no key, no account, no published plans
   onboarding: unknown
-  pricing: freemium
-  public: false
+  pricing: free
+  public: true
   source:
+  - probe
   - plans
   trial: false
-  try_now: false
+  try_now: true
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
-    dry_run_mode: false
+    dry_run_mode: na
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
+    idempotency: na
     mcp_server: false
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
+    reversibility_documented: na
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 2.5
+  schema_version: '0.2'
+  score: 25.2
   scored_at: '2026-09-12'
-api_count: 1
+api_count: 2
 apis:
-- description: Multifamily Database is a Ginnie Mae database that contains information about Ginnie Maes multifamily mortgage-backed securities at the security and loan level.
-  name: Ginnie Mae
+- description: Ginnie Mae's security- and loan-level disclosure for its mortgage-backed securities — daily, weekly, monthly and factor files covering single-family MBS, HMBS, Multifamily, REMIC and Platinum, plus th
+  name: Ginnie Mae Disclosure Data
   slug: ginnie-mae
-artifact_total: 5
+- baseURL: https://www.ginniemae.gov/api/v1
+  baseurl_source: declared
+  description: 'The public, unauthenticated JSON:API 1.0 surface that ginniemae.gov''s Angular single-page application is built on. A Drupal 10 back end exposes 120 resource types at https://www.ginniemae.gov/api/v1/ '
+  name: Ginnie Mae Content API
+  slug: ginnie-mae-content-api
+artifact_total: 8
 common:
-- group: auth
+- group: company
   title: ''
-  type: DomainSecurity
-  url: security/ginnie-mae-domain-security.yml
+  type: Website
+  url: https://www.ginniemae.gov/
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/ginnie-mae
 - group: company
   title: ''
-  type: Website
-  url: https://www.ginniemae.gov/
+  type: Blog
+  url: https://www.ginniemae.gov/newsroom/research-insights/haps-blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.ginniemae.gov/contact-us
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.ginniemae.gov/disclosure/create-account
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.ginniemae.gov/site-policies/site-policies/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.ginniemae.gov/site-policies/site-policies/disclaimer
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.ginniemae.gov/site-policies/ginnie-mae-vulnerability-disclosure-policy
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ginnie-mae-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ginnie-mae-domain-security.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/ginnie-mae-lifecycle.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/ginnie-mae-plans-pricing.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/ginnie-mae-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/ginnie-mae-packages.yml
 created: '2024-12-03'
-description: The Government National Mortgage Association (Ginnie Mae) is a government corporation within the U.S. Department of Housing and Urban Development (HUD), established in 1968 following the privatization of Fannie Mae. Its mission is to expand mortgage funding insured or guaranteed by federal agencies. By providing a full-faith-and-credit guarantee on securities backed by these mortgages, Ginnie Mae reduces investor risk and broadens the market for mortgage-backed securities.
+description: The Government National Mortgage Association (Ginnie Mae) is a government corporation within the U.S. Department of Housing and Urban Development (HUD), established in 1968 following the privatization of Fannie Mae. Its mission is to expand mortgage funding insured or guaranteed by federal agencies. By providing a full-faith-and-credit guarantee on securities backed by these mortgages, Ginnie Mae reduces investor risk and broadens the market for mortgage-backed securities. Ginnie Mae runs no developer program and publishes no API documentation, but ginniemae.gov is a decoupled Drupal 10 site whose public, unauthenticated JSON:API 1.0 surface at https://www.ginniemae.gov/api/v1/ is reachable by anyone — the FAQ, glossary, press releases, All Participant Memoranda, bulletins and document library the website is built from. MBS disclosure data is distributed separately as bulk files behind a free account, and issuer systems sit behind MyGinnieMae SSO.
 finops:
 - name: Ginnie Mae Finops
   service_category: API
   slug: ginnie-mae-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ginnie-mae.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Ginnie Mae
 nav: Providers
 network: true
-overview: Ginnie Mae publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Federal-Government, Housing, and Mortgages.
+overview: 'Ginnie Mae publishes 1 API on the [APIs.io](https://apis.io/) network: Content API. Tagged areas include Federal-Government, Housing, Mortgages, Mortgage-Backed-Securities, and Open-Data.
+
+
+  Ginnie Mae''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
 plans:
 - name: Ginnie Mae Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: ginnie-mae-plans-pricing
 random_paper: 20
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Ginnie Mae Rate Limits
   slug: ginnie-mae-rate-limits
 score:
-  band: minimal
-  composite: 9.5
+  band: developing
+  composite: 46.5
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 36.0
+    artifact_dirs: 20
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 37.0
   facets:
-    access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 9.5
-    discoverability: 50.0
-    operational_transparency: 7.9
+    access_clarity: 42.1
+    contract_governance: 18.2
+    contract_quality: 54.4
+    developer_ergonomics: 39.9
+    discoverability: 75.9
+    operational_transparency: 10.5
   previous_composite: 9.5
+  provenance:
+    conformance: first-party
+    contracts:
+      callable: 100.0
+      derived: 0
+      marker_coverage: 0.0
+      total: 1
+    mcp: derived
+    skills: derived
   regulatory:
     applies: true
     matched_via: tags
     regime: Government & Public Sector
     regime_id: government
-    score: 11.1
-  schema_version: 0.21.0
+    score: 57.4
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
+    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/screenshots/ginnie-mae-2026-06-20T181827.png
 security:
+- kind: authentication
+  name: Ginnie Mae Authentication
+  slug: ginnie-mae-authentication
+  summary_line: 0 schemes
 - kind: domain-security
   name: Ginnie Mae Domain Security
   slug: ginnie-mae-domain-security
   summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Ginnie Mae Vulnerability Disclosure
+  slug: ginnie-mae-vulnerability-disclosure
+  summary_line: Hackerone
 slug: ginnie-mae
 tags:
 - Federal-Government
 - Housing
 - Mortgages
+- Mortgage-Backed-Securities
+- Open-Data
+- Content
+- JSON-API
 website: https://www.ginniemae.gov/
 ---

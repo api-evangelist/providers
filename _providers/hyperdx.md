@@ -28,15 +28,15 @@ agent_readiness:
     error_semantics: verified
     event_surface_described: derived
     idempotency: false
-    mcp_server: documented
+    mcp_server: templated
     openapi_examples: verified
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 34.2
+  schema_version: '0.2'
+  score: 35.9
   scored_at: '2026-09-12'
 api_count: 1
 apis:
@@ -297,7 +297,7 @@ score:
       total: 9
     mcp: first-party
     skills: derived
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

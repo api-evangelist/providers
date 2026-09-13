@@ -34,7 +34,7 @@ agent_readiness:
     reversibility_documented: na
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 55.0
   scored_at: '2026-09-12'
 api_count: 3
@@ -276,7 +276,7 @@ score:
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 48.3
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:

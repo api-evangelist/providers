@@ -35,7 +35,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: true
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 75.0
   scored_at: '2026-09-12'
 agentic_access:
@@ -201,11 +201,15 @@ common:
 - group: operate
   title: ''
   type: IssueTracker
-  url: https://github.com/apisio/apis.io/issues
+  url: https://github.com/api-evangelist/roadmap/issues
 - group: commercial
   title: ''
   type: License
-  url: https://github.com/apisio/apis.io/blob/master/LICENSE
+  url: https://github.com/api-evangelist/apis-io/blob/main/LICENSE
+- group: commercial
+  title: ''
+  type: License
+  url: https://github.com/api-evangelist/apis-io/blob/main/sdk/LICENSE
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -297,11 +301,11 @@ common:
 - group: build
   title: ''
   type: GitHubRepository
-  url: https://github.com/apisio/apis.io
+  url: https://github.com/api-evangelist/apis-io
 - group: design
   title: ''
   type: SpectralRules
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/rules/apis-io-spectral-rules.yml
+  url: https://apis.io/artifacts/rules/apis-io-spectral-rules.yml
 - group: design
   title: ''
   type: Vocabulary
@@ -333,7 +337,7 @@ common:
 - group: design
   title: ''
   type: Conformance
-  url: https://raw.githubusercontent.com/api-evangelist/apis-io/refs/heads/main/conformance/apis-io-conformance.yml
+  url: https://apis.io/artifacts/conformance/apis-io-conformance.yml
 - group: design
   title: ''
   type: ErrorCatalog
@@ -442,6 +446,14 @@ common:
   title: ''
   type: CLI
   url: https://github.com/api-evangelist/apis-io/tree/main/sdk/python#the-command-line
+- group: build
+  title: ''
+  type: JavaScript SDK
+  url: https://github.com/api-evangelist/apis-io/tree/main/sdk/javascript
+- group: build
+  title: ''
+  type: Go SDK
+  url: https://github.com/api-evangelist/apis-io/tree/main/sdk/go
 created: '2026-03-26'
 description: APIs.io is an open-source API search engine and federated discovery network built on the APIs.json specification. It indexes API providers and their individual APIs across the public internet along with the machine-readable artifacts they publish — OpenAPI, AsyncAPI, GraphQL, Arazzo workflows, Postman collections, JSON Schema, JSON-LD contexts, Spectral rulesets, vocabularies, OAuth scopes, plans, rate limits and FinOps profiles — and lets developers and agents search that catalog by keyword, capability, tag, industry, region, artifact type and quality band. As of August 2026 the network published roughly 26,414 providers, 109,100 APIs and 120,595 schemas across 71 industries and 77 curated areas. Every provider is scored with the Kin Score, a 0–100 composite across six weighted facets plus a standalone agent-readiness score. The same read-only OpenAPI 3.1 contract powers three surfaces — a REST API at https://apis.io/api/v1, a Streamable-HTTP MCP server at https://apis.io/mcp,
   and a set of published Agent Skills — alongside an RFC 9727 api-catalog linkset, an llms.txt and an APIs.json self-description. It is maintained by API Evangelist and serves both API producers submitting profiles and API consumers discovering APIs.
@@ -590,7 +602,7 @@ overview: 'APIs.io publishes 18 APIs on the [APIs.io](https://apis.io/) network,
   The APIs.io catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 56 more developer resources.'
+  APIs.io''s developer surface includes authentication, engineering blog, getting-started guide, changelog, release notes, support, sandbox, and 59 more developer resources.'
 plans:
 - name: Apis Io Plans Pricing
   plan_count: 4
@@ -629,7 +641,7 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 88.1
+  composite: 90.0
   coverage:
     artifact_dirs: 37
     catalog_earned: 101.5
@@ -637,12 +649,12 @@ score:
     catalog_gap: 13.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 16.2
+  delta: 18.1
   facets:
     access_clarity: 84.2
     contract_governance: 45.5
     contract_quality: 80.7
-    developer_ergonomics: 85.7
+    developer_ergonomics: 95.2
     discoverability: 92.6
     operational_transparency: 76.3
   previous_composite: 71.9
@@ -656,7 +668,7 @@ score:
       total: 19
     mcp: first-party
     skills: first-party
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: rising
   upsert:

@@ -15,7 +15,7 @@ agent_readiness:
   band_gated_from: agent-native
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: derived
     agentic_commerce: false
     auth_clarity: served
@@ -23,7 +23,7 @@ agent_readiness:
     delegated_identity: documented
     dry_run_mode: false
     dynamic_client_registration: true
-    error_semantics: documented
+    error_semantics: verified
     event_surface_described: derived
     idempotency: false
     mcp_server: verified
@@ -33,8 +33,8 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 47.8
+  schema_version: '0.2'
+  score: 51.6
   scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 11
@@ -257,6 +257,22 @@ apis:
   description: Retrieve and manage Confluence spaces
   name: Confluence Space API
   slug: confluence-space-api
+- baseURL: https://{your-domain}/wiki/api/v2
+  baseurl_source: declared
+  description: The recommended Confluence Cloud REST surface. 218 cursor-paginated operations under /wiki/api/v2 covering pages, blog posts, spaces, attachments, comments, labels, versions, tasks, custom content, da
+  name: Confluence Cloud REST API v2
+  slug: confluence-cloud-rest-api-v2
+- baseURL: https://your-domain.atlassian.net
+  baseurl_source: declared
+  description: The legacy Confluence Cloud REST surface under /wiki/rest/api. 130 operations, still the only place several capabilities are published — CQL search, audit records, groups and users, content restrictio
+  name: Confluence Cloud REST API v1
+  slug: confluence-cloud-rest-api-v1
+- description: The Atlassian GraphQL gateway. Anonymous introspection succeeds and returns 27,710 types, of which 1,113 are Confluence-prefixed, across 3,369 Query fields; executing most Confluence fields requires a
+  name: Confluence Cloud GraphQL API
+  slug: confluence-cloud-graphql-api
+- description: Atlassian's official remote Model Context Protocol server. The Confluence permission groups (read_confluence, write_confluence, search_confluence) expose 60 named tools over streamable HTTP at https:/
+  name: Atlassian Rovo MCP Server (Confluence tools)
+  slug: atlassian-rovo-mcp-server
 arazzos:
 - description: Find a blog post by title, archive it to preserve the record, and optionally delete it.
   name: Confluence Archive or Delete a Blog Post
@@ -297,7 +313,7 @@ arazzos:
 - description: Find a page by title within a space and update it if it exists, otherwise create it.
   name: Confluence Upsert a Page by Title
   slug: confluence-upsert-page-by-title-workflow
-artifact_total: 267
+artifact_total: 271
 asyncapis:
 - description: Asynchronous event notifications from Confluence Cloud. Webhooks allow applications to receive real-time notifications when content, spaces, or other entities are created, updated, or deleted in Confl
   name: Confluence Cloud Webhooks
@@ -346,10 +362,38 @@ collections:
   name: Confluence Cloud REST API v2 Attachment Space API
   slug: open-confluence-space-api
 common:
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/confluence-tool-crosswalk.yml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.atlassian.com/cloud/confluence/rest/v2/intro/
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.atlassian.com/
+- group: operate
+  title: ''
+  type: Roadmap
+  url: https://www.atlassian.com/roadmap/cloud
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.atlassian.com/try/cloud/signup?bundle=confluence
+- group: build
+  title: ''
+  type: Postman
+  url: https://developer.atlassian.com/cloud/confluence/confcloud.2.postman.json
 - group: company
   title: ''
   type: Website
-  url: https://www.atlassian.com/
+  url: https://www.atlassian.com/software/confluence
 - group: build
   title: ''
   type: PostmanWorkspace
@@ -1127,13 +1171,13 @@ modified: '2026-06-20'
 name: Confluence
 nav: Providers
 network: true
-overview: 'Confluence publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Space API, Attachment API, Blog Post API, and 4 more. Tagged areas include Collaboration, Content Management, Documentation, Knowledge Base, and Wiki.
+overview: 'Confluence publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Space API, Attachment API, Blog Post API, and 6 more. Tagged areas include Collaboration, Content Management, Documentation, Knowledge Base, and Wiki.
 
 
   The Confluence catalog on APIs.io includes 1 event-driven AsyncAPI specification, 2 JSON-LD contexts, and 3 Spectral governance rulesets.
 
 
-  Confluence''s developer surface includes changelog, CLI, sandbox, authentication, developer portal, documentation, getting-started guide, and 75 more developer resources.'
+  Confluence''s developer surface includes API reference, signup flow, changelog, CLI, sandbox, authentication, developer portal, and 82 more developer resources.'
 plans:
 - name: Confluence Plans Pricing
   plan_count: 4
@@ -1182,23 +1226,23 @@ scopes:
   slug: confluence-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: strong
-  composite: 62.1
+  band: exemplar
+  composite: 66.5
   coverage:
-    artifact_dirs: 35
+    artifact_dirs: 36
     catalog_earned: 46.5
     catalog_earned_first_party: 0.0
     catalog_gap: 68.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 4.4
   facets:
     access_clarity: 56.6
     contract_governance: 18.2
-    contract_quality: 77.9
-    developer_ergonomics: 89.3
+    contract_quality: 75.1
+    developer_ergonomics: 94.6
     discoverability: 68.5
-    operational_transparency: 39.5
+    operational_transparency: 44.7
   previous_composite: 62.1
   provenance:
     agentic_access: derived
@@ -1209,12 +1253,13 @@ score:
       marker_coverage: 0.0
       total: 6
     mcp: first-party
-  schema_version: 0.21.0
+    skills: derived
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
   trend: flat
   upsert:
     applies: true
-    score: 0.0
+    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:
 - kind: authentication
@@ -1251,5 +1296,5 @@ use_cases:
   name: Compliance and Auditing
 - description: Generate and publish content programmatically from CI/CD pipelines or other systems.
   name: Automated Publishing
-website: https://www.atlassian.com/
+website: https://www.atlassian.com/software/confluence
 ---

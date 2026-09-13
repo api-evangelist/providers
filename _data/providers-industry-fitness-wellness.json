@@ -28,7 +28,7 @@
       "access_clarity": 85.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -89,7 +89,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -139,7 +139,7 @@
       "access_clarity": 71.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.7,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -182,7 +182,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -232,7 +232,7 @@
       "access_clarity": 84.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -282,7 +282,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -332,7 +332,7 @@
       "access_clarity": 81.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -382,7 +382,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -432,14 +432,14 @@
       "access_clarity": 77.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 32.2,
+     "schema_version": "0.22.0",
+     "agent_score": 34.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "documented",
+      "mcp_server": "templated",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "documented",
@@ -486,7 +486,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -536,7 +536,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -586,7 +586,7 @@
       "access_clarity": 73.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -636,7 +636,7 @@
       "access_clarity": 65.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -686,7 +686,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -736,7 +736,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 34.5,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -779,7 +779,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -836,7 +836,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -893,7 +893,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -943,7 +943,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -993,7 +993,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1001,13 +1001,13 @@
       "score": 52.5,
       "matched_via": "tags"
      },
-     "agent_score": 37.6,
+     "agent_score": 31.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -1043,7 +1043,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1093,7 +1093,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1136,7 +1136,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1144,13 +1144,13 @@
       "score": 58.8,
       "matched_via": "tags"
      },
-     "agent_score": 55.0,
+     "agent_score": 47.5,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": "na",
       "error_semantics": "documented",
@@ -1186,7 +1186,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1236,7 +1236,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1286,7 +1286,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1336,7 +1336,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -1386,7 +1386,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1436,7 +1436,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1486,7 +1486,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1536,7 +1536,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1586,7 +1586,7 @@
       "access_clarity": 57.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1636,7 +1636,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1696,7 +1696,7 @@
       "access_clarity": 26.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1739,7 +1739,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1789,7 +1789,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1839,7 +1839,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1882,7 +1882,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1925,7 +1925,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1968,7 +1968,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1976,13 +1976,13 @@
       "score": 52.5,
       "matched_via": "tags"
      },
-     "agent_score": 43.9,
-     "agent_band": "agent-native",
+     "agent_score": 37.4,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": "documented",
       "error_semantics": "documented",
@@ -2018,7 +2018,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2026,13 +2026,13 @@
       "score": 47.5,
       "matched_via": "tags"
      },
-     "agent_score": 40.6,
+     "agent_score": 34.2,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": "documented",
@@ -2068,7 +2068,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2076,13 +2076,13 @@
       "score": 26.3,
       "matched_via": "tags"
      },
-     "agent_score": 32.7,
+     "agent_score": 34.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": "documented",
-      "mcp_server": "documented",
+      "mcp_server": "templated",
       "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "documented",
@@ -2118,7 +2118,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2168,7 +2168,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2218,7 +2218,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2268,7 +2268,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2318,7 +2318,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2368,7 +2368,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2418,7 +2418,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2468,7 +2468,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -2511,7 +2511,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2571,7 +2571,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2621,7 +2621,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2671,7 +2671,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2721,7 +2721,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2729,13 +2729,13 @@
       "score": 52.5,
       "matched_via": "tags"
      },
-     "agent_score": 27.5,
+     "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": true,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -2771,7 +2771,7 @@
       "access_clarity": 53.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2832,7 +2832,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2882,7 +2882,7 @@
       "access_clarity": 47.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2925,7 +2925,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2974,7 +2974,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3017,7 +3017,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3060,7 +3060,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3103,7 +3103,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3111,13 +3111,13 @@
       "score": 46.3,
       "matched_via": "tags"
      },
-     "agent_score": 20.3,
+     "agent_score": 13.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -3153,7 +3153,7 @@
       "access_clarity": 43.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3203,7 +3203,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3253,7 +3253,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3296,7 +3296,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3304,13 +3304,13 @@
       "score": 31.3,
       "matched_via": "tags"
      },
-     "agent_score": 20.3,
+     "agent_score": 13.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -3346,7 +3346,7 @@
       "access_clarity": 59.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3396,7 +3396,7 @@
       "access_clarity": 32.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3446,7 +3446,7 @@
       "access_clarity": 42.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3503,7 +3503,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3546,7 +3546,7 @@
       "access_clarity": 35.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3596,7 +3596,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -3639,7 +3639,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -3689,7 +3689,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3739,7 +3739,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3782,7 +3782,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -3832,7 +3832,7 @@
       "access_clarity": 46.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3875,7 +3875,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3924,7 +3924,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3974,7 +3974,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4017,7 +4017,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 20.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4060,7 +4060,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4103,7 +4103,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4153,7 +4153,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4203,7 +4203,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4253,7 +4253,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4303,14 +4303,14 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 27.5,
+     "schema_version": "0.22.0",
+     "agent_score": 21.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": true,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "served",
       "idempotency": false,
       "error_semantics": false,
@@ -4346,14 +4346,14 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
+     "schema_version": "0.22.0",
+     "agent_score": 2.2,
+     "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -4389,7 +4389,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -4439,7 +4439,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4489,7 +4489,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4539,7 +4539,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4589,7 +4589,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -4632,7 +4632,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4682,7 +4682,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4724,7 +4724,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4774,7 +4774,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4824,7 +4824,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4874,7 +4874,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4924,7 +4924,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4967,7 +4967,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5010,7 +5010,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5060,7 +5060,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5110,7 +5110,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5160,7 +5160,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5210,7 +5210,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5260,7 +5260,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5310,7 +5310,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5360,7 +5360,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5410,7 +5410,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5460,7 +5460,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5503,7 +5503,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5553,7 +5553,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5603,7 +5603,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5653,7 +5653,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5696,7 +5696,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5746,7 +5746,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5796,7 +5796,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5846,7 +5846,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5896,7 +5896,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5946,7 +5946,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5996,7 +5996,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6046,7 +6046,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -6096,7 +6096,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6146,7 +6146,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6189,7 +6189,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -6232,7 +6232,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6282,7 +6282,7 @@
       "access_clarity": 44.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6332,7 +6332,7 @@
       "access_clarity": 22.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6382,7 +6382,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6431,7 +6431,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6481,7 +6481,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6531,7 +6531,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6581,7 +6581,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6624,7 +6624,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6674,7 +6674,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6724,7 +6724,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6774,7 +6774,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6824,7 +6824,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6874,7 +6874,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6917,7 +6917,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -6967,7 +6967,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7017,7 +7017,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7067,7 +7067,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7110,7 +7110,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7160,7 +7160,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7210,7 +7210,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7260,7 +7260,7 @@
       "access_clarity": 31.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -7320,7 +7320,7 @@
       "access_clarity": 34.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7370,7 +7370,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7420,7 +7420,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -7463,7 +7463,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7506,7 +7506,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7556,7 +7556,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7606,7 +7606,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7656,7 +7656,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7706,7 +7706,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7756,7 +7756,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7806,7 +7806,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7856,7 +7856,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -7906,7 +7906,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -7956,7 +7956,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -7999,7 +7999,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8049,7 +8049,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8099,7 +8099,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8149,7 +8149,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8199,7 +8199,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8249,7 +8249,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8298,7 +8298,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8348,7 +8348,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8398,7 +8398,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8448,7 +8448,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8491,7 +8491,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -8541,7 +8541,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8591,7 +8591,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8641,7 +8641,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8684,7 +8684,7 @@
       "access_clarity": 7.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8727,7 +8727,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8777,7 +8777,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8827,7 +8827,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -8870,7 +8870,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8920,7 +8920,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -8970,7 +8970,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9020,7 +9020,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9054,6 +9054,56 @@
      "rank": 185
     },
     {
+     "name": "GNC Holdings",
+     "slug": "gnc-holdings",
+     "description": "GNC Holdings, LLC (General Nutrition Centers) is an American specialty retailer of health, wellness, and performance products including vitamins, minerals, herbal supplements, sports nutrition, diet, and energy products. Founded in 1935 and headquartered in Pittsburgh, Pennsylvania, GNC is a wholly owned subsidiary of Harbin Pharmaceutical Group following its 2020 acquisition. The company operates owned and franchised retail locations, online stores, and retail partnerships across approximately 50 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gnc-holdings/refs/heads/main/screenshots/gnc-holdings-2026-06-20T181935.png",
+     "score": 8.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 186
+    },
+    {
      "name": "Hydrow",
      "slug": "hydrow",
      "description": "Hydrow (legally True Rowing, Inc., Boston, Massachusetts) is a connected-fitness hardware company that makes the Hydrow indoor rowing machine and the LYQUID strength-training platform, sold with a subscription to a library of live and on-demand athlete-led workouts filmed on real water. Members interact with Hydrow through its rower touchscreens and the Hydrow iOS/Android companion apps, which sync workout summaries outward to Strava and Apple Health. Hydrow operates a real production backend for those apps, but publishes no public developer program, no API reference, no OpenAPI or other machine-readable contract, and no first-party SDK in any package registry; its developer-facing subdomains do not resolve to a service. Its public machine-readable surface is limited to an Atlassian Statuspage.",
@@ -9070,7 +9120,7 @@
       "access_clarity": 5.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9101,7 +9151,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 186
+     "rank": 187
     },
     {
      "name": "Football-Data",
@@ -9120,7 +9170,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9144,7 +9194,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 187
+     "rank": 188
     },
     {
      "name": "Open mHealth",
@@ -9163,7 +9213,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9194,7 +9244,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 188
+     "rank": 189
     },
     {
      "name": "Sportmonks Cricket",
@@ -9213,50 +9263,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 189
-    },
-    {
-     "name": "Sportmonks Football",
-     "slug": "sportmonks-football",
-     "description": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sportmonks-football/refs/heads/main/screenshots/sportmonks-football-2026-06-20T194343.png",
-     "score": 8.1,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 11.9,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9283,10 +9290,10 @@
      "rank": 190
     },
     {
-     "name": "Tredict",
-     "slug": "tredict",
-     "description": "Get and set activities, health data and more",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tredict/refs/heads/main/screenshots/tredict-2026-06-20T195644.png",
+     "name": "Sportmonks Football",
+     "slug": "sportmonks-football",
+     "description": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sportmonks-football/refs/heads/main/screenshots/sportmonks-football-2026-06-20T194343.png",
      "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9299,7 +9306,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9326,11 +9333,11 @@
      "rank": 191
     },
     {
-     "name": "Gabit",
-     "slug": "gabit",
-     "description": "Gabit is a one-stop health and wellness platform on a mission to add more healthy years to people's lives. Headquartered in Gurugram, India and founded in 2022 by Gaurav Gupta (ex-Zomato cofounder) and Arpana Shahi, Gabit treats health as an interconnected system across four pillars — fitness, nutrition, sleep, and mindfulness. Its consumer ecosystem spans the titanium Gabit Smart Ring, a smart body-composition scale, at-home Blood Work diagnostics, a continuous glucose monitor (CGM), the Sweden-born Näck nutrition supplement line, all-good-no-harm skincare, and coached Fitness & Nutrition Plans — all unified in the Gabit app, which tracks 150+ biomarkers and includes the free PEP AI health coach. India is the primary market, with Ring-only storefronts in the UAE and UK and an informational US/global page.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gabit/refs/heads/main/screenshots/gabit-2026-07-25T215351.png",
-     "score": 7.9,
+     "name": "Tredict",
+     "slug": "tredict",
+     "description": "Get and set activities, health data and more",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tredict/refs/heads/main/screenshots/tredict-2026-06-20T195644.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -9338,18 +9345,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 10.5
+      "developer_ergonomics": 11.9,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9376,10 +9376,10 @@
      "rank": 192
     },
     {
-     "name": "Gut Wellness Club",
-     "slug": "gut-wellness-club",
-     "description": "Gut Wellness Club is an India-based consumer wellness brand offering a \"Gut Reset\" program that promises to resolve digestive issues in 15-20 days using natural traditional foods, yoga, Ayurveda, and Naturopathy as an alternative to medication. The site is Wix-hosted and, notably for a consumer brand, exposes agent-native surfaces: a published /llms.txt and a live, hosted Wix Site MCP endpoint that lets AI agents retrieve business details, search the site, and access Wix REST APIs without scraping. It has no first-party developer API, OpenAPI, or SDKs. Surfaced via Accel portfolio mining and enriched from its real public agent surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gut-wellness-club/refs/heads/main/screenshots/gut-wellness-club-2026-07-25T220445.png",
+     "name": "Gabit",
+     "slug": "gabit",
+     "description": "Gabit is a one-stop health and wellness platform on a mission to add more healthy years to people's lives. Headquartered in Gurugram, India and founded in 2022 by Gaurav Gupta (ex-Zomato cofounder) and Arpana Shahi, Gabit treats health as an interconnected system across four pillars — fitness, nutrition, sleep, and mindfulness. Its consumer ecosystem spans the titanium Gabit Smart Ring, a smart body-composition scale, at-home Blood Work diagnostics, a continuous glucose monitor (CGM), the Sweden-born Näck nutrition supplement line, all-good-no-harm skincare, and coached Fitness & Nutrition Plans — all unified in the Gabit app, which tracks 150+ biomarkers and includes the free PEP AI health coach. India is the primary market, with Ring-only storefronts in the UAE and UK and an informational US/global page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gabit/refs/heads/main/screenshots/gabit-2026-07-25T215351.png",
      "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9392,7 +9392,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -9400,49 +9400,6 @@
       "score": 12.5,
       "matched_via": "tags"
      },
-     "agent_score": 8.6,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 193
-    },
-    {
-     "name": "balldontlie",
-     "slug": "balldontlie",
-     "description": "Balldontlie provides access to stats data from the NBA",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/balldontlie/refs/heads/main/screenshots/balldontlie-2026-08-07T162247.png",
-     "score": 7.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9466,13 +9423,63 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 193
+    },
+    {
+     "name": "Gut Wellness Club",
+     "slug": "gut-wellness-club",
+     "description": "Gut Wellness Club is an India-based consumer wellness brand offering a \"Gut Reset\" program that promises to resolve digestive issues in 15-20 days using natural traditional foods, yoga, Ayurveda, and Naturopathy as an alternative to medication. The site is Wix-hosted and, notably for a consumer brand, exposes agent-native surfaces: a published /llms.txt and a live, hosted Wix Site MCP endpoint that lets AI agents retrieve business details, search the site, and access Wix REST APIs without scraping. It has no first-party developer API, OpenAPI, or SDKs. Surfaced via Accel portfolio mining and enriched from its real public agent surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gut-wellness-club/refs/heads/main/screenshots/gut-wellness-club-2026-07-25T220445.png",
+     "score": 7.9,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
+      "access_clarity": 10.5
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.2,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "platform",
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 194
     },
     {
-     "name": "City Bikes",
-     "slug": "city-bikes",
-     "description": "City Bikes around the world",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-bikes/refs/heads/main/screenshots/city-bikes-2026-06-20T174417.png",
+     "name": "balldontlie",
+     "slug": "balldontlie",
+     "description": "Balldontlie provides access to stats data from the NBA",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/balldontlie/refs/heads/main/screenshots/balldontlie-2026-08-07T162247.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9485,7 +9492,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9512,10 +9519,10 @@
      "rank": 195
     },
     {
-     "name": "Cloudbet",
-     "slug": "cloudbet",
-     "description": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudbet/refs/heads/main/screenshots/cloudbet-2026-06-20T174543.png",
+     "name": "City Bikes",
+     "slug": "city-bikes",
+     "description": "City Bikes around the world",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/city-bikes/refs/heads/main/screenshots/city-bikes-2026-06-20T174417.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9528,7 +9535,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9555,10 +9562,10 @@
      "rank": 196
     },
     {
-     "name": "DiscGolf",
-     "slug": "discgolf",
-     "description": "Structured disc golf course data",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/discgolf/refs/heads/main/screenshots/discgolf-2026-06-20T180032.png",
+     "name": "Cloudbet",
+     "slug": "cloudbet",
+     "description": "Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cloudbet/refs/heads/main/screenshots/cloudbet-2026-06-20T174543.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9571,7 +9578,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9598,10 +9605,10 @@
      "rank": 197
     },
     {
-     "name": "Ergast F1",
-     "slug": "ergast-f1",
-     "description": "F1 data from the beginning of the world championships in 1950",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ergast-f1/refs/heads/main/screenshots/ergast-f1-2026-08-07T164957.png",
+     "name": "DiscGolf",
+     "slug": "discgolf",
+     "description": "Structured disc golf course data",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/discgolf/refs/heads/main/screenshots/discgolf-2026-06-20T180032.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9614,7 +9621,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9641,10 +9648,10 @@
      "rank": 198
     },
     {
-     "name": "Football",
-     "slug": "football",
-     "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football/refs/heads/main/screenshots/football-2026-06-20T181411.png",
+     "name": "Ergast F1",
+     "slug": "ergast-f1",
+     "description": "F1 data from the beginning of the world championships in 1950",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ergast-f1/refs/heads/main/screenshots/ergast-f1-2026-08-07T164957.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9657,7 +9664,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9684,10 +9691,10 @@
      "rank": 199
     },
     {
-     "name": "Football (Soccer) Videos",
-     "slug": "football-soccer-videos",
-     "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-soccer-videos/refs/heads/main/screenshots/football-soccer-videos-2026-06-20T181409.png",
+     "name": "Football",
+     "slug": "football",
+     "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football/refs/heads/main/screenshots/football-2026-06-20T181411.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9700,7 +9707,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9727,10 +9734,10 @@
      "rank": 200
     },
     {
-     "name": "JCDecaux Bike",
-     "slug": "jcdecaux-bike",
-     "description": "JCDecaux's self-service bicycles",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jcdecaux-bike/refs/heads/main/screenshots/jcdecaux-bike-2026-06-20T183709.png",
+     "name": "Football (Soccer) Videos",
+     "slug": "football-soccer-videos",
+     "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-soccer-videos/refs/heads/main/screenshots/football-soccer-videos-2026-06-20T181409.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9743,7 +9750,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9770,10 +9777,10 @@
      "rank": 201
     },
     {
-     "name": "MLB Records and Stats",
-     "slug": "mlb-records-and-stats",
-     "description": "Current and historical MLB statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mlb-records-and-stats/refs/heads/main/screenshots/mlb-records-and-stats-2026-06-20T185624.png",
+     "name": "JCDecaux Bike",
+     "slug": "jcdecaux-bike",
+     "description": "JCDecaux's self-service bicycles",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jcdecaux-bike/refs/heads/main/screenshots/jcdecaux-bike-2026-06-20T183709.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9786,7 +9793,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9813,10 +9820,10 @@
      "rank": 202
     },
     {
-     "name": "NBA Data",
-     "slug": "nba-data",
-     "description": "All NBA Stats DATA, Games, Livescore, Standings, Statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nba-data/refs/heads/main/screenshots/nba-data-2026-06-20T190108.png",
+     "name": "MLB Records and Stats",
+     "slug": "mlb-records-and-stats",
+     "description": "Current and historical MLB statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/mlb-records-and-stats/refs/heads/main/screenshots/mlb-records-and-stats-2026-06-20T185624.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9829,7 +9836,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9856,9 +9863,10 @@
      "rank": 203
     },
     {
-     "name": "Oddsmagnet",
-     "slug": "oddsmagnet",
-     "description": "Odds history from multiple UK bookmakers",
+     "name": "NBA Data",
+     "slug": "nba-data",
+     "description": "All NBA Stats DATA, Games, Livescore, Standings, Statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/nba-data/refs/heads/main/screenshots/nba-data-2026-06-20T190108.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9871,7 +9879,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9898,10 +9906,9 @@
      "rank": 204
     },
     {
-     "name": "OpenLigaDB",
-     "slug": "openligadb",
-     "description": "Crowd sourced sports league results",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openligadb/refs/heads/main/screenshots/openligadb-2026-06-20T191015.png",
+     "name": "Oddsmagnet",
+     "slug": "oddsmagnet",
+     "description": "Odds history from multiple UK bookmakers",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9914,7 +9921,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9941,10 +9948,10 @@
      "rank": 205
     },
     {
-     "name": "Premier League Standings",
-     "slug": "premier-league-standings",
-     "description": "All Current Premier League Standings and Statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/premier-league-standings/refs/heads/main/screenshots/premier-league-standings-2026-06-20T192056.png",
+     "name": "OpenLigaDB",
+     "slug": "openligadb",
+     "description": "Crowd sourced sports league results",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/openligadb/refs/heads/main/screenshots/openligadb-2026-06-20T191015.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -9957,7 +9964,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -9984,10 +9991,10 @@
      "rank": 206
     },
     {
-     "name": "RacingHub",
-     "slug": "racinghub",
-     "description": "Formula 1 historical data and statistics",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/racinghub/refs/heads/main/screenshots/racinghub-2026-06-20T192509.png",
+     "name": "Premier League Standings",
+     "slug": "premier-league-standings",
+     "description": "All Current Premier League Standings and Statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/premier-league-standings/refs/heads/main/screenshots/premier-league-standings-2026-06-20T192056.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10000,7 +10007,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10027,9 +10034,10 @@
      "rank": 207
     },
     {
-     "name": "Squiggle",
-     "slug": "squiggle",
-     "description": "Fixtures, results and predictions for Australian Football League matches",
+     "name": "RacingHub",
+     "slug": "racinghub",
+     "description": "Formula 1 historical data and statistics",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/racinghub/refs/heads/main/screenshots/racinghub-2026-06-20T192509.png",
      "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10042,7 +10050,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10069,11 +10077,10 @@
      "rank": 208
     },
     {
-     "name": "Canadian Football League (CFL)",
-     "slug": "canadian-football-league-cfl",
-     "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-football-league-cfl/refs/heads/main/screenshots/canadian-football-league-cfl-2026-07-25T204326.png",
-     "score": 7.2,
+     "name": "Squiggle",
+     "slug": "squiggle",
+     "description": "Fixtures, results and predictions for Australian Football League matches",
+     "score": 7.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10081,11 +10088,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10112,30 +10119,23 @@
      "rank": 209
     },
     {
-     "name": "CAPS",
-     "slug": "caps",
-     "description": "CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December 2014 whose mission is to maximize the total amount of happiness through health management (健康経営). CAPS operates a chain of primary-care clinics plus its Doctor365 telemedicine and urgent-care service, provides corporate health-support and wellness programs for employers, runs 24-hour IT-enabled fitness gyms, and delivers health-education programs including a Sesame Street partnership. Headquartered in Roppongi, Minato-ku, Tokyo, the company was seed-funded by 500 Startups Japan (500 Global) in 2018. This API Evangelist profile tracks CAPS as a company; enrichment found no public API, developer portal, or machine-readable specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caps/refs/heads/main/screenshots/caps-2026-07-25T204431.png",
-     "score": 7.1,
+     "name": "Canadian Football League (CFL)",
+     "slug": "canadian-football-league-cfl",
+     "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/canadian-football-league-cfl/refs/heads/main/screenshots/canadian-football-league-cfl-2026-07-25T204326.png",
+     "score": 7.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 10.5
+      "developer_ergonomics": 7.1,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10162,11 +10162,11 @@
      "rank": 210
     },
     {
-     "name": "Football Standings",
-     "slug": "football-standings",
-     "description": "Display football standings e.g epl, la liga, serie a etc. The data is based on espn site",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-standings/refs/heads/main/screenshots/football-standings-2026-06-20T181411.png",
-     "score": 6.9,
+     "name": "CAPS",
+     "slug": "caps",
+     "description": "CAPS Inc. (CAPS株式会社) is a Tokyo-based Healthcare x IT company founded in December 2014 whose mission is to maximize the total amount of happiness through health management (健康経営). CAPS operates a chain of primary-care clinics plus its Doctor365 telemedicine and urgent-care service, provides corporate health-support and wellness programs for employers, runs 24-hour IT-enabled fitness gyms, and delivers health-education programs including a Sesame Street partnership. Headquartered in Roppongi, Minato-ku, Tokyo, the company was seed-funded by 500 Startups Japan (500 Global) in 2018. This API Evangelist profile tracks CAPS as a company; enrichment found no public API, developer portal, or machine-readable specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/caps/refs/heads/main/screenshots/caps-2026-07-25T204431.png",
+     "score": 7.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10174,11 +10174,18 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 9.5,
-      "access_clarity": 0.0
+      "developer_ergonomics": 4.8,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10205,23 +10212,23 @@
      "rank": 211
     },
     {
-     "name": "ApiMedic",
-     "slug": "apimedic",
-     "description": "ApiMedic offers a medical symptom checker API primarily for patients",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apimedic/refs/heads/main/screenshots/apimedic-2026-06-20T172248.png",
-     "score": 6.7,
+     "name": "Football Standings",
+     "slug": "football-standings",
+     "description": "Display football standings e.g epl, la liga, serie a etc. The data is based on espn site",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/football-standings/refs/heads/main/screenshots/football-standings-2026-06-20T181411.png",
+     "score": 6.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10248,30 +10255,23 @@
      "rank": 212
     },
     {
-     "name": "Fitmint",
-     "slug": "fitmint",
-     "description": "Fitmint is a mobile move-to-earn fitness application from Rabbit Technologies Inc that gamifies everyday walking. Users set daily step goals, level up, open mystery boxes, and earn an in-app currency called $GRIT that can be redeemed for Amazon and other gift cards. The app layers social features such as leaderboards, challenges, and streaks on top of activity tracking to help people build a lifelong habit of walking. Fitmint is a consumer mobile app and does not currently publish a public developer API, SDK, or developer portal; this record is maintained in the API Evangelist network as a company/provider profile and was surfaced as a portfolio company of General Catalyst.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fitmint/refs/heads/main/screenshots/fitmint-2026-07-25T214639.png",
+     "name": "ApiMedic",
+     "slug": "apimedic",
+     "description": "ApiMedic offers a medical symptom checker API primarily for patients",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apimedic/refs/heads/main/screenshots/apimedic-2026-06-20T172248.png",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 10.5
+      "developer_ergonomics": 4.8,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10298,23 +10298,30 @@
      "rank": 213
     },
     {
-     "name": "Glorify",
-     "slug": "glorify",
-     "description": "Glorify is a Christian devotional and worship mobile application that helps people build a daily faith and wellbeing practice. The app delivers daily devotionals, Bible passages and inspirational quotes alongside guided meditations, prayer, sleep stories, worship music playlists, and audio courses led by theologians and authors, plus a community for connecting with other believers. Glorify also offers a physical wearable, the Glorify Ring. The company reports more than 20 million downloads and a 4.9-star average across over one million reviews, and is backed by Andreessen Horowitz (a16z). Glorify is a consumer application and does not currently publish a public developer API, SDK, or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/glorify/refs/heads/main/screenshots/glorify-2026-07-25T215920.png",
+     "name": "Fitmint",
+     "slug": "fitmint",
+     "description": "Fitmint is a mobile move-to-earn fitness application from Rabbit Technologies Inc that gamifies everyday walking. Users set daily step goals, level up, open mystery boxes, and earn an in-app currency called $GRIT that can be redeemed for Amazon and other gift cards. The app layers social features such as leaderboards, challenges, and streaks on top of activity tracking to help people build a lifelong habit of walking. Fitmint is a consumer mobile app and does not currently publish a public developer API, SDK, or developer portal; this record is maintained in the API Evangelist network as a company/provider profile and was surfaced as a portfolio company of General Catalyst.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fitmint/refs/heads/main/screenshots/fitmint-2026-07-25T214639.png",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
-      "access_clarity": 0.0
+      "developer_ergonomics": 2.4,
+      "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 12.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10341,9 +10348,10 @@
      "rank": 214
     },
     {
-     "name": "Sport List & Data",
-     "slug": "sport-list-and-data",
-     "description": "List of and resources related to sports",
+     "name": "Glorify",
+     "slug": "glorify",
+     "description": "Glorify is a Christian devotional and worship mobile application that helps people build a daily faith and wellbeing practice. The app delivers daily devotionals, Bible passages and inspirational quotes alongside guided meditations, prayer, sleep stories, worship music playlists, and audio courses led by theologians and authors, plus a community for connecting with other believers. Glorify also offers a physical wearable, the Glorify Ring. The company reports more than 20 million downloads and a 4.9-star average across over one million reviews, and is backed by Andreessen Horowitz (a16z). Glorify is a consumer application and does not currently publish a public developer API, SDK, or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/glorify/refs/heads/main/screenshots/glorify-2026-07-25T215920.png",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10356,7 +10364,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10383,9 +10391,9 @@
      "rank": 215
     },
     {
-     "name": "Sport Places",
-     "slug": "sport-places",
-     "description": "Crowd-source sports places around the world",
+     "name": "Sport List & Data",
+     "slug": "sport-list-and-data",
+     "description": "List of and resources related to sports",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10398,7 +10406,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10425,9 +10433,9 @@
      "rank": 216
     },
     {
-     "name": "Sport Vision",
-     "slug": "sport-vision",
-     "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
+     "name": "Sport Places",
+     "slug": "sport-places",
+     "description": "Crowd-source sports places around the world",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10440,7 +10448,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10467,9 +10475,9 @@
      "rank": 217
     },
     {
-     "name": "SuredBits",
-     "slug": "suredbits",
-     "description": "Query sports data, including teams, players, games, scores and statistics",
+     "name": "Sport Vision",
+     "slug": "sport-vision",
+     "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10482,7 +10490,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10509,10 +10517,9 @@
      "rank": 218
     },
     {
-     "name": "TourneyRadar",
-     "slug": "tourneyradar",
-     "description": "Upcoming chess tournaments from 140+ national federations worldwide",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tourneyradar/refs/heads/main/screenshots/tourneyradar-2026-06-20T195503.png",
+     "name": "SuredBits",
+     "slug": "suredbits",
+     "description": "Query sports data, including teams, players, games, scores and statistics",
      "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -10525,7 +10532,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10552,11 +10559,11 @@
      "rank": 219
     },
     {
-     "name": "CollegeFootballData.com",
-     "slug": "collegefootballdata-com",
-     "description": "Unofficial detailed American college football statistics, records, and results API",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/collegefootballdata-com/refs/heads/main/screenshots/collegefootballdata-com-2026-06-20T174746.png",
-     "score": 6.2,
+     "name": "TourneyRadar",
+     "slug": "tourneyradar",
+     "description": "Upcoming chess tournaments from 140+ national federations worldwide",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tourneyradar/refs/heads/main/screenshots/tourneyradar-2026-06-20T195503.png",
+     "score": 6.7,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -10564,11 +10571,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
+      "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10595,30 +10602,23 @@
      "rank": 220
     },
     {
-     "name": "GNC Holdings",
-     "slug": "gnc-holdings",
-     "description": "GNC Holdings, LLC (General Nutrition Centers) is an American specialty retailer of health, wellness, and performance products including vitamins, minerals, herbal supplements, sports nutrition, diet, and energy products. Founded in 1935 and headquartered in Pittsburgh, Pennsylvania, GNC is a wholly owned subsidiary of Harbin Pharmaceutical Group following its 2020 acquisition. The company operates owned and franchised retail locations, online stores, and retail partnerships across approximately 50 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gnc-holdings/refs/heads/main/screenshots/gnc-holdings-2026-06-20T181935.png",
+     "name": "CollegeFootballData.com",
+     "slug": "collegefootballdata-com",
+     "description": "Unofficial detailed American college football statistics, records, and results API",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/collegefootballdata-com/refs/heads/main/screenshots/collegefootballdata-com-2026-06-20T174746.png",
      "score": 6.2,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 10.5
+      "developer_ergonomics": 2.4,
+      "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10705,7 +10705,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10754,7 +10754,7 @@
       "access_clarity": 6.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -10804,7 +10804,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10846,7 +10846,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10933,7 +10933,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -10976,7 +10976,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -11026,7 +11026,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11069,7 +11069,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11111,7 +11111,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11153,7 +11153,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11203,7 +11203,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11246,7 +11246,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11289,7 +11289,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11332,7 +11332,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11374,7 +11374,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11417,7 +11417,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -11460,7 +11460,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11510,7 +11510,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11560,7 +11560,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11610,7 +11610,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11660,7 +11660,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11761,7 +11761,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11811,7 +11811,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11861,7 +11861,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11911,7 +11911,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -11960,7 +11960,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -12010,7 +12010,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12060,7 +12060,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12109,7 +12109,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12159,7 +12159,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12209,7 +12209,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12258,7 +12258,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12308,7 +12308,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12358,7 +12358,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12408,7 +12408,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12458,7 +12458,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12507,7 +12507,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12557,7 +12557,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12607,7 +12607,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12657,7 +12657,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12707,7 +12707,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12756,7 +12756,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12806,7 +12806,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12856,7 +12856,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -12906,7 +12906,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
       "note": "provider declares no identity tags; regime could not be determined"
@@ -13003,7 +13003,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13052,7 +13052,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13102,7 +13102,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13151,7 +13151,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13200,7 +13200,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13249,7 +13249,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13298,7 +13298,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -13347,7 +13347,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -13397,7 +13397,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",

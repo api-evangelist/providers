@@ -27,7 +27,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -77,7 +77,7 @@
       "access_clarity": 60.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -137,7 +137,7 @@
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -187,7 +187,7 @@
       "access_clarity": 38.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -236,7 +236,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -286,7 +286,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -347,7 +347,7 @@
       "access_clarity": 17.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -397,7 +397,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 37.6,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -439,7 +439,7 @@
       "access_clarity": 76.3
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 27.5,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -482,7 +482,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -532,7 +532,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -582,7 +582,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -632,7 +632,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -682,7 +682,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -732,7 +732,7 @@
       "access_clarity": 63.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -782,7 +782,7 @@
       "access_clarity": 39.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -823,8 +823,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Maastricht University",
@@ -843,7 +843,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -893,7 +893,7 @@
       "access_clarity": 36.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -943,7 +943,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -992,7 +992,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1042,7 +1042,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1092,7 +1092,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1126,6 +1126,56 @@
      "rank": 22
     },
     {
+     "name": "Greenchoice",
+     "slug": "greenchoice",
+     "description": "Greenchoice is a Dutch energy supplier focused on green electricity and gas, offering renewable energy contracts, solar panels, home batteries, heat pumps and EV charging to consumers and businesses in the Netherlands. It runs no developer programme and publishes no API: the only machine-readable contract on any Greenchoice host is the OpenID Connect discovery document behind its own customer single sign-on at sso.greenchoice.nl.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png",
+     "score": 28.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 18.2,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 19.0,
+      "access_clarity": 52.6
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 63.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 13.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 23
+    },
+    {
      "name": "EFFECT Photonics",
      "slug": "effect-photonics",
      "description": "EFFECT Photonics is an optical-semiconductor company headquartered at High Tech Campus 37 in Eindhoven, the Netherlands, with sites in the United Kingdom, the United States and Taiwan. Spun out of Eindhoven University of Technology, it designs and manufactures coherent optical transceiver subsystems and monolithically integrated Indium Phosphide (InP) photonic integrated circuits, including its pico and nano Integrable Tunable Laser Assemblies for 100G, 400G and 800G coherent links across telecom access and metro networks, data-center interconnect and AI scale-across infrastructure. It operates no developer API programme and publishes no product, network-management or transceiver-control API, no developer portal, no SDK and no pricing. It is catalogued here because its corporate website runs a live WordPress REST API with 290 discoverable routes — including a publicly readable optical-product catalogue with hardware taxonomies (product line, form factor, output power, tuning range, operating temperature, target application, management interface) and a first-party `effect/v1` namespace — and because that same install exposes two Model Context Protocol servers guarded by an OAuth 2.1 authorization server the host advertises through RFC 8414 and RFC 9728 metadata.",
@@ -1141,7 +1191,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
@@ -1172,7 +1222,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 23
+     "rank": 24
     }
    ]
   },
@@ -1201,7 +1251,7 @@
       "access_clarity": 52.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1225,7 +1275,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Eindhoven University of Technology",
@@ -1244,7 +1294,7 @@
       "access_clarity": 50.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Education & Research",
@@ -1275,7 +1325,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "GLS Group",
@@ -1294,7 +1344,7 @@
       "access_clarity": 13.2
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
      "agent_dims": {
@@ -1318,7 +1368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Code24",
@@ -1336,7 +1386,7 @@
       "access_clarity": 25.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1367,7 +1417,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "data.overheid.nl",
@@ -1386,7 +1436,7 @@
       "access_clarity": 28.9
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
@@ -1417,7 +1467,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "TOPdesk",
@@ -1436,7 +1486,7 @@
       "access_clarity": 23.7
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1460,7 +1510,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "ScreenPoint Medical",
@@ -1479,7 +1529,7 @@
       "access_clarity": 18.4
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1510,7 +1560,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Insify",
@@ -1529,7 +1579,7 @@
       "access_clarity": 27.6
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -1537,59 +1587,6 @@
       "score": 21.2,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 31
-    }
-   ]
-  },
-  {
-   "band": "minimal",
-   "label": "Minimal",
-   "range": "0 – 10.9",
-   "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 17,
-   "shown": 17,
-   "providers": [
-    {
-     "name": "Otrium",
-     "slug": "otrium",
-     "description": "Otrium is an online designer fashion outlet, headquartered in Amsterdam, that connects shoppers across Europe with end-of-season and overstock apparel, footwear, and accessories from designer and premium brands at reduced prices. A Certified B Corporation, Otrium operates a curated marketplace model with dedicated brand storefronts, native iOS and Android apps, and multi-market localization across the Netherlands, Germany, Belgium, France, Italy, the United Kingdom, Spain, Poland, and the rest of Europe. It was surfaced in the API Evangelist network as a portfolio company of Bond Capital and Index Ventures. No public developer API, SDK, or documentation surface is currently published; this profile captures the company identity and its verified public web properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/otrium/refs/heads/main/screenshots/otrium-2026-08-07T191032.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1614,12 +1611,22 @@
       "agentic_commerce": false
      },
      "rank": 32
-    },
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0 – 10.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 16,
+   "shown": 16,
+   "providers": [
     {
-     "name": "Superscript",
-     "slug": "superscript",
-     "description": "Superscript is a UK- and Netherlands-based business insurance provider offering flexible, subscription-based cover for small and growing businesses, sole traders, landlords, and larger enterprises. Its product range spans public and employers' liability, professional indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass it publishes no public API, developer portal, or programmatic integration surface; this profile captures its public web identity and probed domain-security posture.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superscript/refs/heads/main/screenshots/superscript-2026-09-02T161254.png",
+     "name": "Otrium",
+     "slug": "otrium",
+     "description": "Otrium is an online designer fashion outlet, headquartered in Amsterdam, that connects shoppers across Europe with end-of-season and overstock apparel, footwear, and accessories from designer and premium brands at reduced prices. A Certified B Corporation, Otrium operates a curated marketplace model with dedicated brand storefronts, native iOS and Android apps, and multi-market localization across the Netherlands, Germany, Belgium, France, Italy, the United Kingdom, Spain, Poland, and the rest of Europe. It was surfaced in the API Evangelist network as a portfolio company of Bond Capital and Index Ventures. No public developer API, SDK, or documentation surface is currently published; this profile captures the company identity and its verified public web properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/otrium/refs/heads/main/screenshots/otrium-2026-08-07T191032.png",
      "score": 9.7,
      "band": "minimal",
      "band_label": "Minimal",
@@ -1628,18 +1635,11 @@
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
+      "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 21.2,
-      "matched_via": "tags"
-     },
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1666,6 +1666,56 @@
      "rank": 33
     },
     {
+     "name": "Superscript",
+     "slug": "superscript",
+     "description": "Superscript is a UK- and Netherlands-based business insurance provider offering flexible, subscription-based cover for small and growing businesses, sole traders, landlords, and larger enterprises. Its product range spans public and employers' liability, professional indemnity, cyber insurance, landlord insurance, and industry-specific policies, sold direct and through a broker channel. Superscript was surfaced as a portfolio company of Seedcamp and added to the API Evangelist network. As of this enrichment pass it publishes no public API, developer portal, or programmatic integration surface; this profile captures its public web identity and probed domain-security posture.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/superscript/refs/heads/main/screenshots/superscript-2026-09-02T161254.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 21.2,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 34
+    },
+    {
      "name": "Plumery",
      "slug": "plumery",
      "description": "Plumery is an Amsterdam, Netherlands-based fintech that provides a headless, mobile-first digital banking engagement platform it markets as the \"Digital Success Fabric\" — a \"Digital Engagement Platform for Banks.\" It lets banks, credit unions, and financial institutions build and launch branded mobile and web banking experiences on top of their existing core banking systems, delivered to engineering teams as an API-first, composable platform with SDKs and developer documentation (built on the Stainless docs/SDK toolchain). Plumery maintains a public GitHub organization of supporting engineering tooling and publishes a security & compliance program (SOC 2, ISO 27001). The company is backed by QED Investors and Seedcamp.",
@@ -1682,7 +1732,7 @@
       "access_clarity": 15.8
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1713,7 +1763,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Mosa Meat",
@@ -1732,7 +1782,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1756,7 +1806,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "Leyden Labs",
@@ -1775,7 +1825,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -1806,7 +1856,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "aardaia",
@@ -1825,50 +1875,7 @@
       "access_clarity": 10.5
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 37
-    },
-    {
-     "name": "Smiler",
-     "slug": "smiler",
-     "description": "Smiler is an Amsterdam-based on-the-spot photography marketplace that connects travelers and consumers with a network of professional freelance photographers at popular tourist hotspots and leisure locations worldwide. Founded in 2020, Smiler lets people book fast, affordable photoshoots in advance across 100+ destinations, with photos delivered within 48 hours and free cancellation up to 24 hours before the shoot. The company also operates the Smiler Photographer Suite, an all-in-one tool for photographers to build portfolio websites, manage bookings, deliver mobile-friendly client galleries, and handle payments. Smiler is trusted by tens of thousands of photographers across 50+ countries and is backed by Speedinvest, Mosaic Ventures, Dutch Founders Fund, and PROfounders.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smiler/refs/heads/main/screenshots/smiler-2026-09-02T155946.png",
-     "score": 6.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 6.6
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1895,6 +1902,49 @@
      "rank": 38
     },
     {
+     "name": "Smiler",
+     "slug": "smiler",
+     "description": "Smiler is an Amsterdam-based on-the-spot photography marketplace that connects travelers and consumers with a network of professional freelance photographers at popular tourist hotspots and leisure locations worldwide. Founded in 2020, Smiler lets people book fast, affordable photoshoots in advance across 100+ destinations, with photos delivered within 48 hours and free cancellation up to 24 hours before the shoot. The company also operates the Smiler Photographer Suite, an all-in-one tool for photographers to build portfolio websites, manage bookings, deliver mobile-friendly client galleries, and handle payments. Smiler is trusted by tens of thousands of photographers across 50+ countries and is backed by Speedinvest, Mosaic Ventures, Dutch Founders Fund, and PROfounders.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/smiler/refs/heads/main/screenshots/smiler-2026-09-02T155946.png",
+     "score": 6.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 6.6
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 39
+    },
+    {
      "name": "Rabobank",
      "slug": "rabobank",
      "description": "Rabobank is a Dutch multinational banking and financial services company organized as a cooperative with a strong focus on the food and agriculture sector. It serves retail, business, corporate, and wholesale customers in the Netherlands and operates a global Food & Agribusiness practice through Rabobank Wholesale & Rural and the Rabobank Group internationally. Rabobank publishes a developer portal at docs.developer.rabobank.com (legacy URL developer.rabobank.nl redirects there) exposing PSD2-mandated open banking APIs (Account Information, Payment Initiation, Funds Confirmation) as well as Premium / Beyond-PSD2 commercial APIs for corporate cash management and notifications, with sandbox endpoints for development and a regulated production tier under PSD2 Strong Customer Authentication. Underlying schemes are aligned with the Berlin Group NextGenPSD2 XS2A Framework.",
@@ -1911,7 +1961,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1942,7 +1992,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Baan",
@@ -1960,50 +2010,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Peerby",
-     "slug": "peerby",
-     "description": "Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peerby/refs/heads/main/screenshots/peerby-2026-09-02T150939.png",
-     "score": 5.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2030,10 +2037,10 @@
      "rank": 41
     },
     {
-     "name": "Qphox",
-     "slug": "qphox",
-     "description": "QphoX is a Delft, Netherlands-based quantum technology company founded in 2021 and spun out of Delft University of Technology (TU Delft). It develops quantum networking hardware to tackle the scaling challenges of quantum computing, centered on its Quantum Transducer, described as the first quantum interface between single optical and single microwave photons, enabling optical interconnects between superconducting quantum processors. Alongside the transducer, QphoX offers an Optical Control System for delivering RF signals into extreme cryogenic environments and a CryoSwitch Control Module for use with Radiall's cryogenic latching actuator. The company publishes open-source Python instrument-control libraries (QCoDeS drivers) on GitHub for operating its hardware. QphoX is backed by Speedinvest. QphoX exposes no public web API or developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qphox/refs/heads/main/screenshots/qphox-2026-09-02T152538.png",
+     "name": "Peerby",
+     "slug": "peerby",
+     "description": "Peerby is a Dutch peer-to-peer sharing platform that lets neighbors borrow and rent everyday goods from one another instead of buying them new. Through its website and mobile apps, members request or list items such as tools, party and event equipment, electronics, bicycles, and household goods, then arrange local pickup and return. Positioned as an affordable, convenient, and more sustainable alternative to ownership, Peerby aims to reduce consumption and waste by unlocking the underused items already sitting in people's homes. Backed by Techstars, it was added to the API Evangelist network as a portfolio lead. Peerby operates a consumer single-page web application and native apps; it does not publish a public developer/API program, OpenAPI definitions, SDKs, or a .well-known discovery surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/peerby/refs/heads/main/screenshots/peerby-2026-09-02T150939.png",
      "score": 5.3,
      "band": "minimal",
      "band_label": "Minimal",
@@ -2046,7 +2053,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2073,6 +2080,49 @@
      "rank": 42
     },
     {
+     "name": "Qphox",
+     "slug": "qphox",
+     "description": "QphoX is a Delft, Netherlands-based quantum technology company founded in 2021 and spun out of Delft University of Technology (TU Delft). It develops quantum networking hardware to tackle the scaling challenges of quantum computing, centered on its Quantum Transducer, described as the first quantum interface between single optical and single microwave photons, enabling optical interconnects between superconducting quantum processors. Alongside the transducer, QphoX offers an Optical Control System for delivering RF signals into extreme cryogenic environments and a CryoSwitch Control Module for use with Radiall's cryogenic latching actuator. The company publishes open-source Python instrument-control libraries (QCoDeS drivers) on GitHub for operating its hardware. QphoX is backed by Speedinvest. QphoX exposes no public web API or developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/qphox/refs/heads/main/screenshots/qphox-2026-09-02T152538.png",
+     "score": 5.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 43
+    },
+    {
      "name": "Affy MedTech",
      "slug": "affy-medtech",
      "description": "Affy MedTech is a UK- and Netherlands-based health technology company behind Lynx, a modular, cloud-hosted platform for hospitals and healthcare delivery organisations that consolidates authoritative treatment information, patient booking, electronic medical records, clinical documentation, billing and claims validation, reporting, remote diagnostics and ambulatory ECG into a single system. Its Patient Interaction Module gives patients access to their own records, prescriptions, diagnostic images and treatment plans with self-service booking, digital consent and online payment, while the Super Switch Module acts as a real-time integration bridge between hospital systems such as radiology, laboratory and billing. The platform is marketed alongside Total Doctor / Total Health and is deployed by international hospital groups as well as smaller clinics and specialist centres. Affy MedTech is a Silver Industry Partner of openEHR International and operates alongside Vertice Software Solutions, which publishes Lynx in other markets. AFFY MEDTECH UKI LTD (company number 17000777) was incorporated in England on 30 January 2026 and is controlled by Affy Medtech B.V. of Amsterdam. As of September 2026 affymedtech.com serves only a \"Coming Soon\" placeholder and the company publishes no public developer program, API reference or machine-readable contract.",
@@ -2088,56 +2138,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 13.8,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 43
-    },
-    {
-     "name": "Enigma Health",
-     "slug": "enigma-health",
-     "description": "Enigma Health (Enigma Global eHealth) is a Netherlands-based digital health startup building a secure, private eHealth portal intended to connect patients, doctors and healthcare institutions, and to give patients lifelong, worldwide access to their own electronic health record together with a digital vaccine passport kept in sync with that record. Founded by Dutch GP and global-health researcher Remko Schats and incubated at UtrechtInc, the company is a Startup level Industry Partner of the openEHR International Foundation, placing its intended data layer on the openEHR clinical data platform standard rather than a proprietary record format. As of September 2026 the company is pre-launch: enigma-health.org serves a single 'Coming Soon' page and Enigma Health publishes no API, SDK, developer portal or machine-readable contract.",
-     "score": 5.0,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -2171,6 +2172,55 @@
      "rank": 44
     },
     {
+     "name": "Enigma Health",
+     "slug": "enigma-health",
+     "description": "Enigma Health (Enigma Global eHealth) is a Netherlands-based digital health startup building a secure, private eHealth portal intended to connect patients, doctors and healthcare institutions, and to give patients lifelong, worldwide access to their own electronic health record together with a digital vaccine passport kept in sync with that record. Founded by Dutch GP and global-health researcher Remko Schats and incubated at UtrechtInc, the company is a Startup level Industry Partner of the openEHR International Foundation, placing its intended data layer on the openEHR clinical data platform standard rather than a proprietary record format. As of September 2026 the company is pre-launch: enigma-health.org serves a single 'Coming Soon' page and Enigma Health publishes no API, SDK, developer portal or machine-readable contract.",
+     "score": 5.0,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 0.0
+     },
+     "scored_at": "2026-09-12",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 13.8,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 45
+    },
+    {
      "name": "YellowBrink",
      "slug": "yellowbrink",
      "description": "YellowBrink is a Netherlands-based, vendor-neutral community platform for open health data, founded by Jan de Lange and Bouwe Koopal to connect healthcare professionals, vendors, researchers and policymakers working with open standards such as openEHR, HL7 FHIR, OMOP and SNOMED CT. The name pairs the Yellow Pages — showing who builds what — with \"brink\", the Dutch word for the village square where a community gathers. It runs weekly webinars in cooperation with openEHR NL, country and topic special-interest groups, and discussion and co-creation rooms, hosts \"The Brink\" partner and meeting area at the EHRCON26 conference in Amsterdam, and is developing a postdoctoral European Master of Data Availability programme with European universities and hospital systems. The platform is a white-labelled Innoloft LoftOS tenant; YellowBrink itself publishes no public API, SDK or developer program.",
@@ -2186,62 +2236,12 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 7.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 45
-    },
-    {
-     "name": "Greenchoice",
-     "slug": "greenchoice",
-     "description": "Greenchoice is a Dutch energy supplier focused on green electricity and gas, offering renewable energy contracts, solar panels, heat pumps, and EV charging services to consumers and businesses in the Netherlands.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greenchoice/refs/heads/main/screenshots/greenchoice-2026-06-20T182358.png",
-     "score": 3.3,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 0.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 8.1,
       "matched_via": "tags"
      },
      "agent_score": 0.0,
@@ -2286,7 +2286,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Energy & Utilities",
@@ -2336,7 +2336,7 @@
       "access_clarity": 0.0
      },
      "scored_at": "2026-09-12",
-     "schema_version": "0.21.0",
+     "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",

@@ -29,29 +29,37 @@ agent_readiness:
     rate_limit_signal: false
     reversibility_documented: false
     spec_presence: false
-    well_known_catalog: false
-  schema_version: 0.2
-  score: 0.0
+    well_known_catalog: true
+  schema_version: '0.2'
+  score: 2.9
   scored_at: '2026-09-12'
 api_count: 0
 artifact_total: 1
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.genesisenergy.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.genesisenergy.com/contact
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.genesisenergy.com/privacy-policy
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.genesisenergy.com/terms-and-conditions
 - group: auth
   title: ''
   type: DomainSecurity
   url: security/genesis-energy-domain-security.yml
-- group: build
+- group: design
   title: ''
-  type: GitHubOrganization
-  url: https://github.com/genesis-energy
-- group: company
-  title: ''
-  type: Website
-  url: https://www.genesis-energy.com
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://genesis-energy.com/llms.txt
+  type: Conformance
+  url: conformance/genesis-energy-conformance.yml
 coverage:
   checked: '2026-09-12'
   detail: Genesis Energy, L.P. is a Gulf of Mexico pipeline, marine transportation and soda ash operator with no developer program; the only machine-readable thing it publishes is a FERC informational posting website at gas.genlp.com serving NAESB WGQ location data as a CSV download, and its "Customer Activities" system at quorum.genlp.com answers an empty 404 on every anonymous path.
@@ -67,14 +75,17 @@ coverage:
   reason: not-a-software-company
   state: none
 created: '2026-03-24'
-description: Genesis Energy is a diversified midstream energy master limited partnership with a focus on providing services to refineries, crude oil and natural gas producers, and industrial and commercial enterprises.
+description: 'Genesis Energy, L.P. (NYSE: GEL) is a diversified midstream energy master limited partnership headquartered in Houston, Texas. It operates offshore crude oil and natural gas pipelines and platforms in the Gulf of Mexico, onshore pipelines and terminals, marine transportation for refined products and crude, and a sulfur services and soda ash (alkali) chemicals business serving refineries, producers, and industrial and commercial customers. It is a pipeline and chemicals operator, not a software vendor: it publishes no developer program, no API and no machine-readable API contract. Its only public machine-readable surface is the FERC-mandated informational posting website it runs for its interstate natural gas pipeline, which serves NAESB WGQ-shaped location and capacity data as anonymous file downloads.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/genesis-energy.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-12'
 name: Genesis Energy
 nav: Providers
 network: true
-overview: Genesis Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Midstream, and Oil and Gas.
+overview: 'Genesis Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Midstream, Oil and Gas, Pipelines, and Natural Gas.
+
+
+  Genesis Energy''s developer surface includes support and 5 more developer resources.'
 press:
 - date: '2026-05-25'
   title: Genesis Mission has arrived. The world's most powerful ...
@@ -93,33 +104,35 @@ press:
   url: https://www.informatica.com/customer-success-stories/genesis-energy.html
 random_paper: 17
 score:
-  band: minimal
-  composite: 3.5
+  band: emerging
+  composite: 11.9
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 22.0
+    artifact_dirs: 8
+    catalog_earned: 27.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 93.0
+    catalog_gap: 88.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 8.4
   facets:
-    access_clarity: 0.0
+    access_clarity: 21.1
     contract_governance: 0.0
     contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 48.1
-    operational_transparency: 2.6
+    developer_ergonomics: 4.8
+    discoverability: 57.4
+    operational_transparency: 0.0
   previous_composite: 3.5
+  provenance:
+    conformance: first-party
   regulatory:
     applies: true
     matched_via: tags
     regime: Energy & Utilities
     regime_id: energy_utilities
-    score: 8.1
-  schema_version: 0.21.0
+    score: 25.7
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
@@ -129,11 +142,16 @@ security:
 - kind: domain-security
   name: Genesis Energy Domain Security
   slug: genesis-energy-domain-security
-  summary_line: TLSv1.3
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: genesis-energy
 tags:
 - Energy
 - Midstream
 - Oil and Gas
-website: https://www.genesis-energy.com
+- Pipelines
+- Natural Gas
+- Crude Oil
+- Marine Transportation
+- Soda Ash
+website: https://www.genesisenergy.com
 ---

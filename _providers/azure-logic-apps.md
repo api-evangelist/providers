@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: documented
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 26.5
   scored_at: '2026-09-12'
 agentic_access:
@@ -234,6 +234,38 @@ collections:
   name: LogicManagementClient IntegrationAccountAgreements WorkflowVersions API
   slug: open-azure-logic-apps-workflowversions-api
 common:
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Azure
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/logic-apps/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.azure.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://azure.microsoft.com/en-us/blog/
+- group: operate
+  title: ''
+  type: Support
+  url: https://azure.microsoft.com/en-us/support/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://azure.microsoft.com/en-us/support/legal/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
 - group: agent
   title: ''
   type: AgenticAccess
@@ -562,7 +594,7 @@ overview: 'Azure Logic Apps publishes 23 APIs on the [APIs.io](https://apis.io/)
   The Azure Logic Apps catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Logic Apps'' developer surface includes authentication, documentation, and 9 more developer resources.'
+  Azure Logic Apps'' developer surface includes developer portal, pricing, engineering blog, support, authentication, documentation, and 13 more developer resources.'
 plans:
 - name: Azure Logic Apps Plans Pricing
   plan_count: 3
@@ -600,8 +632,8 @@ scopes:
   slug: azure-logic-apps-scopes
   summary_line: 1 scope · implicit
 score:
-  band: thin
-  composite: 35.0
+  band: developing
+  composite: 48.1
   coverage:
     artifact_dirs: 18
     catalog_earned: 51.5
@@ -609,14 +641,14 @@ score:
     catalog_gap: 63.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 13.1
   facets:
-    access_clarity: 15.8
+    access_clarity: 47.4
     contract_governance: 28.8
     contract_quality: 57.4
-    developer_ergonomics: 33.3
-    discoverability: 48.1
-    operational_transparency: 7.9
+    developer_ergonomics: 50.0
+    discoverability: 55.6
+    operational_transparency: 28.9
   previous_composite: 35.0
   provenance:
     agentic_access: derived
@@ -625,9 +657,9 @@ score:
       derived: 0
       marker_coverage: 0.0
       total: 23
-  schema_version: 0.21.0
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 22.2

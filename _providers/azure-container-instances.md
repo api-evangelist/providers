@@ -32,7 +32,7 @@ agent_readiness:
     reversibility_documented: false
     spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
+  schema_version: '0.2'
   score: 22.3
   scored_at: '2026-09-12'
 agentic_access:
@@ -54,7 +54,17 @@ apis:
   description: The Subscriptions API from Azure Container Instances — 12 operation(s) for subscriptions.
   name: Azure Container Instances Subscriptions API
   slug: azure-container-instances-subscriptions-api
-artifact_total: 100
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Container Groups operations
+  name: microsoft-azure-container-instances Container Groups API
+  slug: microsoft-azure-container-instances-container-groups-api
+- baseURL: https://management.azure.com/
+  baseurl_source: declared
+  description: Operations operations
+  name: microsoft-azure-container-instances Operations API
+  slug: microsoft-azure-container-instances-operations-api
+artifact_total: 102
 collections:
 - collection_type: open
   name: API Collection
@@ -66,6 +76,22 @@ collections:
   name: ContainerInstanceManagementClient Operations Subscriptions API
   slug: open-azure-container-instances-subscriptions-api
 common:
+- group: start
+  title: ''
+  type: Portal
+  url: https://portal.azure.com/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.microsoft.com/en-us/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://privacy.microsoft.com/en-us/privacystatement
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://portal.azure.com/llms.txt
 - group: agent
   title: ''
   type: AgenticAccess
@@ -402,13 +428,13 @@ modified: '2026-05-19'
 name: Azure Container Instances
 nav: Providers
 network: true
-overview: 'Azure Container Instances publishes 2 APIs on the [APIs.io](https://apis.io/) network: Operations API and Subscriptions API. Tagged areas include Azure, Cloud, Container Instances, Containers, and Microsoft.
+overview: 'Azure Container Instances publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Operations API, Subscriptions API, microsoft-azure-container-instances Container Groups API, and 1 more. Tagged areas include Azure, Cloud, Container Instances, Containers, and Microsoft.
 
 
   The Azure Container Instances catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Azure Container Instances'' developer surface includes authentication, documentation, pricing, engineering blog, signup flow, support, and 10 more developer resources.'
+  Azure Container Instances'' developer surface includes developer portal, authentication, documentation, pricing, engineering blog, signup flow, support, and 13 more developer resources.'
 plans:
 - name: Azure Container Instances Plans Pricing
   plan_count: 3
@@ -447,7 +473,7 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 43.9
+  composite: 51.3
   coverage:
     artifact_dirs: 17
     catalog_earned: 61.5
@@ -455,13 +481,13 @@ score:
     catalog_gap: 53.5
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 7.4
   facets:
-    access_clarity: 39.5
+    access_clarity: 60.5
     contract_governance: 28.8
-    contract_quality: 54.3
-    developer_ergonomics: 40.5
-    discoverability: 59.3
+    contract_quality: 53.7
+    developer_ergonomics: 50.0
+    discoverability: 74.1
     operational_transparency: 26.3
   previous_composite: 43.9
   provenance:
@@ -470,10 +496,10 @@ score:
       callable: 100.0
       derived: 0
       marker_coverage: 0.0
-      total: 2
-  schema_version: 0.21.0
+      total: 3
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: true
     score: 22.2

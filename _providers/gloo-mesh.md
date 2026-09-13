@@ -1,49 +1,129 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
+  confidence: high
+  label: Contact sales · no published price list
   onboarding: unknown
-  pricing: freemium
+  pricing: unknown
   public: false
   source:
   - plans
   trial: false
   try_now: false
 agent_readiness:
-  band: human-only
+  band: agent-aware
   dimensions:
     agent_card: false
-    agent_skills: false
+    agent_skills: derived
     agentic_access: false
     agentic_commerce: false
-    auth_clarity: false
+    auth_clarity: bearer
     consent_identity: false
     delegated_identity: false
     dry_run_mode: false
     dynamic_client_registration: false
-    error_semantics: false
+    error_semantics: documented
     event_surface_described: false
-    idempotency: false
-    mcp_server: false
+    idempotency: documented
+    mcp_server: documented
     openapi_examples: false
     protected_resource_metadata: false
     rate_limit_signal: documented
     reversibility_documented: false
-    spec_presence: false
+    spec_presence: true
     well_known_catalog: false
-  schema_version: 0.2
-  score: 2.5
+  schema_version: '0.2'
+  score: 28.5
   scored_at: '2026-09-12'
 api_count: 2
 apis:
-- description: Gloo Mesh Enterprise (also called Gloo Platform) is a service mesh management platform built on Istio that provides intra-mesh and multi-cluster routing, access policies, JWT authentication, rate limi
+- description: Gloo Mesh Enterprise (documented as "Gloo Mesh (Gloo Platform APIs)", current version 2.14, released 2026-09-09) is a service mesh management platform built on Istio that provides intra-mesh and multi
   name: Gloo Mesh Enterprise
   slug: gloo-mesh-enterprise
-- description: Gloo Mesh Core extends a single Istio service mesh with insights, operational tooling, and lifecycle management for upstream Istio deployments. It surfaces Istio insights, telemetry, and a curated set
+- description: 'Gloo Mesh Core extended a single Istio service mesh with insights, operational tooling and lifecycle management for upstream Istio. Solo.io has RETIRED the standalone Gloo Mesh Core documentation set '
   name: Gloo Mesh Core
   slug: gloo-mesh-core
-artifact_total: 7
+artifact_total: 10
 common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.solo.io/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.solo.io/gloo-mesh-enterprise/latest/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.solo.io/gloo-mesh-enterprise/latest/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.solo.io/gloo-mesh-enterprise/latest/reference/api/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.solo.io/gloo-mesh-enterprise/latest/getting_started/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.solo.io/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/solo-io
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.solo.io/gloo-mesh-enterprise/latest/reference/changelog/release-notes/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/gloo-mesh-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: https://docs.solo.io/gloo-mesh-enterprise/latest/reference/version/versions/
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/gloo-mesh-lifecycle.yml
+- group: operate
+  title: ''
+  type: Community
+  url: https://slack.solo.io/
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.solo.io/company/get-support
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://support.solo.io/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.solo.io/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.solo.io/get-started
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://legal.solo.io/#website-terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://legal.solo.io/#privacy-policy
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.solo.io/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.solo.io/
 - group: auth
   title: ''
   type: VulnerabilityDisclosure
@@ -52,103 +132,186 @@ common:
   title: ''
   type: DomainSecurity
   url: security/gloo-mesh-domain-security.yml
-- group: company
+- group: other
   title: ''
-  type: Website
-  url: https://www.solo.io/
-- group: start
+  type: Protobuf
+  url: grpc/gloo-mesh-proto-index.yml
+- group: other
   title: ''
-  type: Portal
-  url: https://www.solo.io/products/gloo-mesh/
-- group: docs
+  type: x-KubernetesCRD
+  url: crd/gloo-mesh-crd-index.yml
+- group: other
   title: ''
-  type: Documentation
-  url: https://docs.solo.io/gloo-mesh-enterprise/latest/
-- group: start
+  type: HelmChart
+  url: https://storage.googleapis.com/gloo-platform/helm-charts/index.yaml
+- group: agent
   title: ''
-  type: GettingStarted
-  url: https://docs.solo.io/gloo-mesh-enterprise/latest/getting_started/
-- group: company
+  type: MCPServer
+  url: mcp/gloo-mesh-mcp.yml
+- group: agent
   title: ''
-  type: Blog
-  url: https://www.solo.io/blog/
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/gloo-mesh-llms.txt
 - group: build
   title: ''
-  type: GitHubOrganization
-  url: https://github.com/solo-io
-- group: operate
+  type: Packages
+  url: packages/gloo-mesh-packages.yml
+- group: build
   title: ''
-  type: ChangeLog
-  url: https://docs.solo.io/gloo-mesh-enterprise/latest/changelog/
-- group: operate
+  type: SDKs
+  url: packages/gloo-mesh-packages.yml
+- group: build
   title: ''
-  type: Community
-  url: https://slack.solo.io/
-- group: operate
+  type: CLI
+  url: cli/gloo-mesh-cli.yml
+- group: start
   title: ''
-  type: Support
-  url: https://www.solo.io/company/contact/
+  type: Sandbox
+  url: sandbox/gloo-mesh-sandbox.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/gloo-mesh-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/gloo-mesh-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/gloo-mesh-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/gloo-mesh-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/gloo-mesh-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/gloo-mesh-data-model.yml
 - group: commercial
   title: ''
-  type: TermsOfService
-  url: https://www.solo.io/legal/terms-of-service/
+  type: Plans
+  url: plans/gloo-mesh-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/gloo-mesh-rate-limits.yml
 - group: commercial
   title: ''
-  type: PrivacyPolicy
-  url: https://www.solo.io/legal/privacy-policy/
+  type: FinOps
+  url: finops/gloo-mesh-finops.yml
+crds:
+- name: gloo mesh admin gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-admin-gloo-solo-io-crds.yaml
+- name: gloo mesh apimanagement gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-apimanagement-gloo-solo-io-crds.yaml
+- name: gloo mesh crd index
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-crd-index.yml
+- name: gloo mesh extauth solo io v1 crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-extauth-solo-io-v1-crds.yaml
+- name: gloo mesh extensions policy gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-extensions-policy-gloo-solo-io-crds.yaml
+- name: gloo mesh gatewaylifecyclemanagers admin gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-gatewaylifecyclemanagers-admin-gloo-solo-io-crds.yaml
+- name: gloo mesh infrastructure gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-infrastructure-gloo-solo-io-crds.yaml
+- name: gloo mesh install istio io v1alpha1 crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-install-istio-io-v1alpha1-crds.yaml
+- name: gloo mesh internal gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-internal-gloo-solo-io-crds.yaml
+- name: gloo mesh istiolifecyclemanagers admin gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-istiolifecyclemanagers-admin-gloo-solo-io-crds.yaml
+- name: gloo mesh networking gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-networking-gloo-solo-io-crds.yaml
+- name: gloo mesh observability policy gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-observability-policy-gloo-solo-io-crds.yaml
+- name: gloo mesh ratelimit solo io v1alpha1 crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-ratelimit-solo-io-v1alpha1-crds.yaml
+- name: gloo mesh resilience policy gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-resilience-policy-gloo-solo-io-crds.yaml
+- name: gloo mesh security policy gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-security-policy-gloo-solo-io-crds.yaml
+- name: gloo mesh trafficcontrol policy gloo solo io crds
+  url: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/crd/gloo-mesh-trafficcontrol-policy-gloo-solo-io-crds.yaml
 created: '2026-04-28'
-description: Gloo Mesh is an enterprise service mesh management platform from Solo.io built on Istio, providing multi-cluster and multi-mesh traffic management, security policy enforcement, and observability across hybrid cloud environments. It simplifies service mesh operations with a unified control plane and policy management interface, exposing Kubernetes Custom Resource Definitions (CRDs) such as AccessPolicy, JwtPolicy, and RatelimitPolicy as the primary API surface.
+description: Gloo Mesh is Solo.io's enterprise service mesh management platform, built on Istio and shipped as Kubernetes software you run in your own clusters. It provides multi-cluster and multi-mesh traffic management, security policy enforcement, workload identity and observability, with a management plane in one cluster and relay-connected agents in each workload cluster. Its API surface is not an HTTP endpoint but 70 Kubernetes Custom Resource Definitions across 13 API groups — AccessPolicy, JWTPolicy, RateLimitPolicy, RouteTable, VirtualDestination, VirtualGateway, Workspace and the rest — each carrying an OpenAPI v3 structural schema and CEL validation rules, generated from 92 public protobuf definitions. Solo.io distributes it as the gloo-platform Helm charts and the meshctl CLI, documents it at docs.solo.io/gloo-mesh-enterprise, and runs an unauthenticated remote MCP server over its documentation corpus.
 finops:
 - name: Gloo Mesh Finops
   service_category: API
   slug: gloo-mesh-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gloo-mesh.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: ''
+  name: Solo.io - Docs MCP
+  slug: soloio-docs-mcp
+modified: '2026-09-12'
 name: Gloo Mesh
 nav: Providers
 network: true
 overview: 'Gloo Mesh publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Istio, Kubernetes, Multi-Cluster, Open-Source, and Service Mesh.
 
 
-  Gloo Mesh''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, changelog, support, and 7 more developer resources.'
+  Gloo Mesh''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 34 more developer resources.'
 plans:
 - name: Gloo Mesh Plans Pricing
-  plan_count: 3
+  plan_count: 0
   slug: gloo-mesh-plans-pricing
 random_paper: 4
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Gloo Mesh Rate Limits
   slug: gloo-mesh-rate-limits
 score:
-  band: emerging
-  composite: 20.4
+  band: developing
+  composite: 43.8
   coverage:
-    artifact_dirs: 6
-    catalog_earned: 46.0
+    artifact_dirs: 22
+    catalog_earned: 40.0
     catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
+    catalog_gap: 75.0
     catalog_max: 115.0
     note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
+  delta: 23.4
   facets:
-    access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 68.5
-    operational_transparency: 10.5
+    access_clarity: 39.5
+    contract_governance: 4.5
+    contract_quality: 26.7
+    developer_ergonomics: 80.4
+    discoverability: 75.9
+    operational_transparency: 21.1
   previous_composite: 20.4
-  schema_version: 0.21.0
+  provenance:
+    conformance: derived
+    mcp: first-party
+    skills: derived
+  regulatory:
+    applies: true
+    matched_via: tags
+    regime: Insurance
+    regime_id: insurance
+    score: 42.4
+  schema_version: 0.22.0
   scored_at: '2026-09-12'
-  trend: flat
+  trend: rising
   upsert:
     applies: false
     note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
     reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/gloo-mesh/refs/heads/main/screenshots/gloo-mesh-2026-06-20T181924.png
 security:
+- kind: authentication
+  name: Gloo Mesh Authentication
+  slug: gloo-mesh-authentication
+  summary_line: kubernetes-rbac/mutual-tls/license-key/oidc · 5 schemes
 - kind: domain-security
   name: Gloo Mesh Domain Security
   slug: gloo-mesh-domain-security
@@ -156,7 +319,11 @@ security:
 - kind: vulnerability-disclosure
   name: Gloo Mesh Vulnerability Disclosure
   slug: gloo-mesh-vulnerability-disclosure
-  summary_line: disclosure policy published
+  summary_line: Hackerone · contact published
+- kind: trust-center
+  name: Gloo Mesh Trust Center
+  slug: gloo-mesh-trust-center
+  summary_line: trust center published
 slug: gloo-mesh
 tags:
 - Istio
@@ -164,5 +331,10 @@ tags:
 - Multi-Cluster
 - Open-Source
 - Service Mesh
+- Envoy
+- Kubernetes CRDs
+- Protobuf
+- Policy Enforcement
+- Observability
 website: https://www.solo.io/
 ---
