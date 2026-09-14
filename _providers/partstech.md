@@ -13,31 +13,6 @@ access_model:
   - sandbox
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 30.8
-  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://api.partstech.com
@@ -327,40 +302,6 @@ rate_limits:
 - limit_count: 4
   name: Partstech Rate Limits
   slug: partstech-rate-limits
-score:
-  band: developing
-  composite: 50.9
-  coverage:
-    artifact_dirs: 22
-    catalog_earned: 51.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 64.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 69.7
-    contract_governance: 4.5
-    contract_quality: 61.3
-    developer_ergonomics: 56.5
-    discoverability: 50.0
-    operational_transparency: 42.1
-  previous_composite: 50.9
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 33
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/partstech/refs/heads/main/screenshots/partstech-2026-09-02T150917.png
 security:
 - kind: authentication

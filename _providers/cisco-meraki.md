@@ -10,31 +10,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: true
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: true
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 31.2
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 445
   human_in_the_loop: 88
@@ -270,38 +245,6 @@ overview: 'Cisco Meraki publishes 20 APIs on the [APIs.io](https://apis.io/) net
 
   Cisco Meraki''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
 random_paper: 10
-score:
-  band: thin
-  composite: 30.0
-  coverage:
-    artifact_dirs: 7
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 55.8
-    developer_ergonomics: 45.2
-    discoverability: 74.1
-    operational_transparency: 2.6
-  previous_composite: 30.0
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 100.0
-      total: 20
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/screenshots/cisco-meraki-2026-06-20T174358.png
 security:
 - kind: authentication

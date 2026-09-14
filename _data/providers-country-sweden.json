@@ -26,7 +26,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -87,21 +87,14 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 45.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -143,7 +136,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -185,8 +178,8 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 7,
-   "shown": 7,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Safello",
@@ -204,7 +197,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -254,7 +247,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -304,7 +297,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -354,7 +347,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -404,7 +397,7 @@
       "developer_ergonomics": 43.5,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -439,6 +432,56 @@
      "rank": 8
     },
     {
+     "name": "IFS",
+     "slug": "ifs",
+     "description": "IFS is a global enterprise software company providing cloud ERP, enterprise asset management, field service management, and enterprise service management platforms. APIs enable integration with IFS Cloud across manufacturing, energy, aerospace, defense, and service industries. IFS is headquartered in Linköping, Sweden with operations in over 90 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png",
+     "score": 44.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 65.8,
+      "contract_governance": 28.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 23.8,
+      "access_clarity": 28.9
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Energy & Utilities",
+      "regime_id": "energy_utilities",
+      "score": 52.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 28.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "na",
+      "mcp_server": false,
+      "auth_clarity": "negotiable",
+      "idempotency": "na",
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": "na",
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 9
+    },
+    {
      "name": "Lund University",
      "slug": "lund",
      "description": "Lund University is a public research university in Lund, Sweden, founded in 1666, with roughly 46,000 students across nine faculties and the MAX IV and ESS research infrastructures on its doorstep. Its programmable footprint is narrow, real, and almost entirely library-operated: Lund University Libraries run two self-hosted publication repositories on the university's own host — Lund University Publications (LUP) for research output and LUP Student Papers for theses and degree projects — and each exposes the same open, keyless stack of a JSON(P) search API, an OAI-PMH 2.0 repository, an SRU 1.1/CQL search service, a unAPI 1 discovery service, RSS feeds and a bulk bibliographic export. Lund also operates its own Shibboleth Identity Provider, registered in the Swedish national federation SWAMID and interfederated through eduGAIN, which is a genuinely institution-operated machine-readable surface. Outside those, there is no central developer portal, no self-service API key, no open data portal at data.lu.se, and no public JSON endpoint behind the course finder — the education search at lunduniversity.lu.se is server-rendered with nothing machine-readable underneath. The research portal at portal.research.lu.se is the LUCRIS research information system running on Elsevier Pure: the data is Lund's, the contract is Elsevier's, and its web service refuses anonymous callers. Library discovery (LUBcat, LUBsearch) and the timetable (TimeEdit) are likewise vendor platforms carrying Lund's name.",
@@ -454,7 +497,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -486,7 +529,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Chalmers University of Technology",
@@ -504,7 +547,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -536,7 +579,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 10
+     "rank": 11
     }
    ]
   },
@@ -545,8 +588,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
+   "count": 8,
+   "shown": 8,
    "providers": [
     {
      "name": "Einride",
@@ -564,7 +607,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.8,
      "agent_band": "agent-aware",
@@ -589,7 +632,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Fortnox",
@@ -607,7 +650,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -632,56 +675,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 12
-    },
-    {
-     "name": "IFS",
-     "slug": "ifs",
-     "description": "IFS is a global enterprise software company providing cloud ERP, enterprise asset management, field service management, and enterprise service management platforms. APIs enable integration with IFS Cloud across manufacturing, energy, aerospace, defense, and service industries. IFS is headquartered in Linköping, Sweden with operations in over 90 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png",
-     "score": 35.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 66.7,
-      "contract_governance": 9.8,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 23.8,
-      "access_clarity": 13.2
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Energy & Utilities",
-      "regime_id": "energy_utilities",
-      "score": 45.9,
-      "matched_via": "tags"
-     },
-     "agent_score": 28.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "na",
-      "mcp_server": false,
-      "auth_clarity": "negotiable",
-      "idempotency": "na",
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": "na",
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 13
     },
     {
@@ -700,7 +693,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -750,7 +743,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -800,7 +793,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 12.4,
      "agent_band": "agent-aware",
@@ -843,7 +836,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.2,
      "agent_band": "agent-aware",
@@ -886,7 +879,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -929,7 +922,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.6,
      "agent_band": "agent-aware",
@@ -982,7 +975,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -1025,21 +1018,14 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1082,7 +1068,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1132,7 +1118,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1181,7 +1167,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1231,7 +1217,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1280,25 +1266,14 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 25.3,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1341,7 +1316,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1384,7 +1359,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1434,7 +1409,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1483,7 +1458,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1526,7 +1501,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1569,7 +1544,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1619,7 +1594,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1669,7 +1644,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1712,7 +1687,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 13.8,
      "agent_band": "agent-aware",
@@ -1765,7 +1740,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1808,7 +1783,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1858,7 +1833,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1908,7 +1883,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1951,7 +1926,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2001,7 +1976,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2044,7 +2019,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2087,7 +2062,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2130,7 +2105,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2180,7 +2155,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2230,7 +2205,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2280,7 +2255,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2329,7 +2304,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2372,7 +2347,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2422,7 +2397,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2472,7 +2447,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2515,7 +2490,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2558,7 +2533,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2608,7 +2583,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2650,7 +2625,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2693,7 +2668,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2736,7 +2711,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2779,7 +2754,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2829,7 +2804,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2915,7 +2890,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2958,7 +2933,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3001,7 +2976,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3044,7 +3019,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3094,7 +3069,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3143,7 +3118,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

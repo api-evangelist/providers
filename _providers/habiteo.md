@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 24.6
-  scored_at: '2026-09-12'
 api_count: 14
 apis:
 - baseURL: https://www.habiteo.com/wp-json
@@ -222,48 +197,6 @@ rate_limits:
 - limit_count: 0
   name: Habiteo Rate Limits
   slug: habiteo-rate-limits
-score:
-  band: emerging
-  composite: 20.9
-  coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 17.1
-    contract_governance: 4.5
-    contract_quality: 16.6
-    developer_ergonomics: 30.4
-    discoverability: 74.1
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - france
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - france-iberia
-  previous_composite: 20.9
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 15
-      marker_coverage: 100.0
-      total: 15
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/habiteo/refs/heads/main/screenshots/habiteo-2026-09-02T145647.png
 security:
 - kind: authentication

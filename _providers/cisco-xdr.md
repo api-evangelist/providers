@@ -14,31 +14,6 @@ access_model:
   - sandbox
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: documented
-    dry_run_mode: true
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 38.5
-  scored_at: '2026-09-12'
 api_count: 12
 apis:
 - baseURL: https://private.intel.amp.cisco.com
@@ -693,40 +668,6 @@ scopes:
   scope_count: 41
   slug: cisco-xdr-scopes
   summary_line: 41 scopes · authorizationCode/clientCredentials
-score:
-  band: strong
-  composite: 62.9
-  coverage:
-    artifact_dirs: 23
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 75.0
-    contract_governance: 4.5
-    contract_quality: 61.3
-    developer_ergonomics: 66.1
-    discoverability: 68.5
-    operational_transparency: 76.3
-  previous_composite: 62.9
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 62.2
-      derived: 0
-      marker_coverage: 100.0
-      total: 82
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-xdr/refs/heads/main/screenshots/cisco-xdr-2026-09-02T145050.png
 security:
 - kind: authentication

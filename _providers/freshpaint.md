@@ -10,31 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: documented
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 31.8
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -209,51 +184,6 @@ rate_limits:
 - limit_count: 2
   name: Freshpaint Rate Limits
   slug: freshpaint-rate-limits
-score:
-  band: strong
-  composite: 55.1
-  coverage:
-    artifact_dirs: 22
-    catalog_earned: 60.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 86.8
-    contract_governance: 18.2
-    contract_quality: 56.5
-    developer_ergonomics: 28.0
-    discoverability: 75.9
-    operational_transparency: 47.4
-  previous_composite: 55.1
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    jurisdictions:
-    - jurisdiction: US
-      standard: hipaa
-    jurisdictions_satisfied: 1
-    matched_via: tags
-    regime: Health
-    regime_id: health
-    score: 37.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshpaint/refs/heads/main/screenshots/freshpaint-2026-07-25T215208.png
 security:
 - kind: authentication

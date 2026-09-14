@@ -27,7 +27,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 46.9,
      "agent_band": "agent-ready",
@@ -82,7 +82,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -221,15 +221,15 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 28.3,
-     "agent_band": "agent-aware",
+     "agent_score": 37.0,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -265,7 +265,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -313,7 +313,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.3,
      "agent_band": "agent-ready",
@@ -368,7 +368,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -412,7 +412,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.1,
      "agent_band": "agent-aware",
@@ -456,15 +456,15 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 18.0,
+     "agent_score": 26.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -500,7 +500,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -544,7 +544,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 16.2,
      "agent_band": "agent-aware",
@@ -588,7 +588,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -649,7 +649,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -693,7 +693,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 9.4,
      "agent_band": "agent-aware",
@@ -737,7 +737,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -781,7 +781,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -825,7 +825,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -869,7 +869,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -913,7 +913,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -957,7 +957,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1008,7 +1008,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.3,
      "agent_band": "agent-ready",
@@ -1052,7 +1052,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1105,7 +1105,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,

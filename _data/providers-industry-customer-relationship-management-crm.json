@@ -27,7 +27,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 49.6,
      "agent_band": "agent-ready",
@@ -70,7 +70,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -120,7 +120,7 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 57.2,
      "agent_band": "agent-native",
@@ -163,7 +163,7 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 47.3,
      "agent_band": "agent-native",
@@ -206,25 +206,14 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
       "score": 73.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "ccpa",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 57.4,
      "agent_band": "agent-ready",
@@ -267,21 +256,14 @@
       "developer_ergonomics": 85.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 71.9,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 66.1,
      "agent_band": "agent-native",
@@ -324,7 +306,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
@@ -367,15 +349,15 @@
       "developer_ergonomics": 84.5,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 47.5,
+     "agent_score": 41.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "bearer",
       "idempotency": "documented",
       "error_semantics": "documented",
@@ -410,7 +392,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 52.2,
      "agent_band": "agent-ready",
@@ -453,21 +435,14 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
       "score": 73.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 53.6,
      "agent_band": "agent-ready",
@@ -510,21 +485,14 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
       "score": 72.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 47.8,
      "agent_band": "agent-ready",
@@ -567,7 +535,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 54.4,
      "agent_band": "agent-ready",
@@ -610,7 +578,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 52.7,
      "agent_band": "agent-ready",
@@ -653,7 +621,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -696,7 +664,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 65.8,
      "agent_band": "agent-ready",
@@ -724,326 +692,11 @@
      "rank": 15
     },
     {
-     "name": "Salesforce Service Cloud APIs",
-     "slug": "service-cloud",
-     "description": "Salesforce Service Cloud is the customer-service and contact-centre product on the Salesforce Platform, and its API surface is the Salesforce Platform API applied to service objects — Case, CaseComment, Knowledge articles, LiveChatTranscript, MessagingSession, entitlements and omni-channel routing — reached through the REST, SOAP, Bulk and Composite APIs. Alongside that record layer Salesforce ships purpose-built runtimes with their own contracts: an OpenAPI 3.0 document for the Einstein Bots Runtime API, a gRPC/protobuf contract for the Pub/Sub event API, a CometD Streaming API, and generally available hosted MCP servers that expose the sObject layer to AI agents over OAuth. There is no single global API host — every call is made against the customer's own org at the instance_url returned with the OAuth token, on API version 67.0 (Summer '26). Authentication is OAuth 2.0 only; Salesforce issues no API keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png",
-     "score": 68.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 55.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 82.7,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 47.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 16
-    },
-    {
-     "name": "Microsoft Dynamics 365 Sales",
-     "slug": "microsoft-dynamics-365-sales",
-     "description": "Microsoft Dynamics 365 Sales is Microsoft's enterprise CRM application for managing leads, opportunities, accounts, contacts, sales pipelines, forecasts, and customer relationships, built on the Microsoft Dataverse platform and integrated with Microsoft 365, Teams, Copilot, and Power Platform. Developers programmatically interact with Dynamics 365 Sales data through the Dataverse Web API, an OData v4.0 RESTful interface that exposes every table, action, and function in a Sales environment. The Dataverse Web API uses OAuth 2.0 (Microsoft Entra ID) Bearer token authentication and is reached at a per-environment endpoint such as https://{org}.api.crm.dynamics.com/api/data/v9.2/.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png",
-     "score": 68.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 83.3,
-      "contract_quality": 60.4,
-      "contract_governance": 18.2,
-      "operational_transparency": 89.5,
-      "developer_ergonomics": 80.4,
-      "access_clarity": 78.9
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 39.2,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "templated",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "Lightfield",
-     "slug": "lightfield",
-     "description": "Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them into a versioned context graph of CRM objects, and lets AI agents reason over that graph to generate pipeline, prepare for meetings, enrich records and drive follow-up. The public Lightfield API (beta) provides read/write access to every CRM entity — accounts, contacts, opportunities, meetings, notes, tasks, lists, emails, files, members, custom objects and workflow runs — across 55 operations, with first-party TypeScript, Python and Go SDKs, a Go CLI, and a hosted Model Context Protocol server at mcp.lightfield.app secured with OAuth 2.1. Workflows and Automations add trigger-driven agent pipelines fed by inbound webhooks, object lifecycle events and schedules. Backed by Greylock and Lightspeed Venture Partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png",
-     "score": 68.2,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 66.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 74.4,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 65.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Lev",
-     "slug": "lev",
-     "description": "Lev is an AI platform and product system for commercial real estate (CRE) teams, used by sponsors, financing brokers, investment-sales brokers, lenders, capital-markets teams, and enterprise operators. The platform is organized in four layers: CRE apps (CRM, pipeline, vault/data rooms, checklists, memos, commissions), source-backed AI agents (Lev Agent, Lev Memo, Lender Search, Lev Match, Lev Index), CRE data (lender, market, contact, property, and recent-terms data), and a developer platform. That platform layer is the API Evangelist interest: a versioned REST API at api.lev.com covering deals, documents and vaults, checklists, contacts, companies, the lender directory, term sheets, placements, pipelines, market data, account, and billing; a hosted remote MCP server at mcp.lev.com with roughly 60 tools and OAuth 2.1 discovery; and a first-party Python CLI. The API publishes an OpenAPI 3.1 description, scoped API keys, cursor pagination, Idempotency-Key support on writes, request-id correlation, and a documented error-type and rate-limit contract.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png",
-     "score": 67.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 56.3,
-      "contract_governance": 4.5,
-      "operational_transparency": 73.7,
-      "developer_ergonomics": 67.3,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 54.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 19
-    },
-    {
-     "name": "ClickFunnels",
-     "slug": "clickfunnels",
-     "description": "ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract covering teams, workspaces, funnels, pages, blogs, products, discounts, orders, invoices, transactions, subscriptions, contacts, courses, communities, forms, workflows, email and analytics, authenticated with a team-scoped Bearer token or with workspace-scoped OAuth 2.0. It is discoverable the correct way: an RFC 9727 api-catalog links the spec, RFC 8414 metadata publishes the OAuth scopes, and sixteen Markdown Agent Skills are served from /.well-known/ for agents driving the API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png",
-     "score": 67.8,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 70.4,
-      "contract_quality": 67.3,
-      "contract_governance": 18.2,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 66.7,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.7,
-      "matched_via": "tags"
-     },
-     "agent_score": 37.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Oracle Siebel",
-     "slug": "oracle-siebel",
-     "description": "Oracle Siebel CRM APIs provide programmatic access to customer relationship management functionality including sales, marketing, and service automation capabilities. Siebel CRM offers REST, SOAP, scripting, and event-driven integration interfaces for building integrations with enterprise systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png",
-     "score": 67.6,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 66.7,
-      "contract_quality": 65.7,
-      "contract_governance": 18.2,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 67.3,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 31.3,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "UserGems",
-     "slug": "usergems",
-     "description": "UserGems is a San Francisco-based sales intelligence platform that tracks champion job changes and surfaces buying signals so sales and marketing teams can prioritize outbound and ABM motions. The platform packages 30+ native signals (job changes, contact-level intent, M&A, hiring, web visits), Gem-E AI agents for prospect list building and email personalization, and custom AI scoring trained on 600+ closed-won patterns. UserGems exposes a public REST API at api.usergems.com/v1 that lets customers programmatically add and remove contacts to track for job changes, add and remove target accounts, and honor data-subject deletion requests. That API is deliberately write-only — there are no read or GET endpoints — authenticates with a single company-wide X-Api-Key header, is capped at 20 requests per second with one record per request, and acknowledges enqueueing rather than completion. UserGems also ships a hosted remote MCP server at app.usergems.com/mcp/usergems, in gated early access as of August 2026, that lets agents in Claude or ChatGPT search accounts and prospects, pull signal and score history, run research, draft Gem-E messages, and build and run campaigns including CRM writes, sequence enrollment and ad-audience sync — authorized with OAuth 2.0, dynamic client registration, PKCE S256 and a single mcp:use scope. Native integrations include Salesforce, HubSpot, Microsoft Dynamics, Outreach, Salesloft, Gong Engage, Marketo, LinkedIn Ads, Meta Ads, and Google Ads.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png",
-     "score": 67.4,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 79.9,
-      "contract_governance": 31.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 60.1,
-      "access_clarity": 89.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 59.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": true,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 22
-    },
-    {
      "name": "Givebutter",
      "slug": "givebutter",
      "description": "Givebutter is a fundraising and donor-management platform for nonprofits, offering donation forms, fundraising pages, events, auctions and a donor CRM at no subscription cost. It publishes a public REST API at api.givebutter.com/v1 described by its own OpenAPI 3.1 (70 operations across campaigns, contacts, households, transactions, funds, payouts, recurring plans, pledges, messages and webhooks), an embeddable widgets library of custom elements, a hosted MCP server at mcp.givebutter.com protected by OAuth 2.1, an A2A agent card and a provider-authored agent skill.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/givebutter/refs/heads/main/screenshots/givebutter-2026-06-20T181853.png",
-     "score": 67.3,
+     "score": 69.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
@@ -1051,10 +704,10 @@
       "contract_quality": 64.1,
       "contract_governance": 18.2,
       "operational_transparency": 39.5,
-      "developer_ergonomics": 59.5,
+      "developer_ergonomics": 71.4,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1086,6 +739,321 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 16
+    },
+    {
+     "name": "Salesforce Service Cloud APIs",
+     "slug": "service-cloud",
+     "description": "Salesforce Service Cloud is the customer-service and contact-centre product on the Salesforce Platform, and its API surface is the Salesforce Platform API applied to service objects — Case, CaseComment, Knowledge articles, LiveChatTranscript, MessagingSession, entitlements and omni-channel routing — reached through the REST, SOAP, Bulk and Composite APIs. Alongside that record layer Salesforce ships purpose-built runtimes with their own contracts: an OpenAPI 3.0 document for the Einstein Bots Runtime API, a gRPC/protobuf contract for the Pub/Sub event API, a CometD Streaming API, and generally available hosted MCP servers that expose the sObject layer to AI agents over OAuth. There is no single global API host — every call is made against the customer's own org at the instance_url returned with the OAuth token, on API version 67.0 (Summer '26). Authentication is OAuth 2.0 only; Salesforce issues no API keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/screenshots/service-cloud-2026-06-20T193724.png",
+     "score": 68.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 55.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 82.7,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 47.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 17
+    },
+    {
+     "name": "Microsoft Dynamics 365 Sales",
+     "slug": "microsoft-dynamics-365-sales",
+     "description": "Microsoft Dynamics 365 Sales is Microsoft's enterprise CRM application for managing leads, opportunities, accounts, contacts, sales pipelines, forecasts, and customer relationships, built on the Microsoft Dataverse platform and integrated with Microsoft 365, Teams, Copilot, and Power Platform. Developers programmatically interact with Dynamics 365 Sales data through the Dataverse Web API, an OData v4.0 RESTful interface that exposes every table, action, and function in a Sales environment. The Dataverse Web API uses OAuth 2.0 (Microsoft Entra ID) Bearer token authentication and is reached at a per-environment endpoint such as https://{org}.api.crm.dynamics.com/api/data/v9.2/.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png",
+     "score": 68.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 83.3,
+      "contract_quality": 60.4,
+      "contract_governance": 18.2,
+      "operational_transparency": 89.5,
+      "developer_ergonomics": 80.4,
+      "access_clarity": 78.9
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 39.2,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "templated",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Lightfield",
+     "slug": "lightfield",
+     "description": "Lightfield is an agent-native customer relationship management (CRM) platform for high-growth and AI-native go-to-market teams. Rather than depending on manual data entry, Lightfield captures customer interactions — calls, emails, meetings and external signals — as unstructured data, organizes them into a versioned context graph of CRM objects, and lets AI agents reason over that graph to generate pipeline, prepare for meetings, enrich records and drive follow-up. The public Lightfield API (beta) provides read/write access to every CRM entity — accounts, contacts, opportunities, meetings, notes, tasks, lists, emails, files, members, custom objects and workflow runs — across 55 operations, with first-party TypeScript, Python and Go SDKs, a Go CLI, and a hosted Model Context Protocol server at mcp.lightfield.app secured with OAuth 2.1. Workflows and Automations add trigger-driven agent pipelines fed by inbound webhooks, object lifecycle events and schedules. Backed by Greylock and Lightspeed Venture Partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/screenshots/lightfield-2026-07-25T225114.png",
+     "score": 68.2,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 66.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 74.4,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 65.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "Lev",
+     "slug": "lev",
+     "description": "Lev is an AI platform and product system for commercial real estate (CRE) teams, used by sponsors, financing brokers, investment-sales brokers, lenders, capital-markets teams, and enterprise operators. The platform is organized in four layers: CRE apps (CRM, pipeline, vault/data rooms, checklists, memos, commissions), source-backed AI agents (Lev Agent, Lev Memo, Lender Search, Lev Match, Lev Index), CRE data (lender, market, contact, property, and recent-terms data), and a developer platform. That platform layer is the API Evangelist interest: a versioned REST API at api.lev.com covering deals, documents and vaults, checklists, contacts, companies, the lender directory, term sheets, placements, pipelines, market data, account, and billing; a hosted remote MCP server at mcp.lev.com with roughly 60 tools and OAuth 2.1 discovery; and a first-party Python CLI. The API publishes an OpenAPI 3.1 description, scoped API keys, cursor pagination, Idempotency-Key support on writes, request-id correlation, and a documented error-type and rate-limit contract.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png",
+     "score": 67.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 56.3,
+      "contract_governance": 4.5,
+      "operational_transparency": 73.7,
+      "developer_ergonomics": 67.3,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 54.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "ClickFunnels",
+     "slug": "clickfunnels",
+     "description": "ClickFunnels is a sales funnel and online business platform that lets entrepreneurs build landing pages, sales funnels, checkout flows, courses, membership sites, communities, blogs and email marketing campaigns without code. The ClickFunnels 2.0 REST API is a 418-operation OpenAPI 3.1 contract covering teams, workspaces, funnels, pages, blogs, products, discounts, orders, invoices, transactions, subscriptions, contacts, courses, communities, forms, workflows, email and analytics, authenticated with a team-scoped Bearer token or with workspace-scoped OAuth 2.0. It is discoverable the correct way: an RFC 9727 api-catalog links the spec, RFC 8414 metadata publishes the OAuth scopes, and sixteen Markdown Agent Skills are served from /.well-known/ for agents driving the API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clickfunnels/refs/heads/main/screenshots/clickfunnels-2026-06-20T174514.png",
+     "score": 67.8,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 70.4,
+      "contract_quality": 67.3,
+      "contract_governance": 18.2,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 66.7,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Oracle Siebel",
+     "slug": "oracle-siebel",
+     "description": "Oracle Siebel CRM APIs provide programmatic access to customer relationship management functionality including sales, marketing, and service automation capabilities. Siebel CRM offers REST, SOAP, scripting, and event-driven integration interfaces for building integrations with enterprise systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/oracle-siebel/refs/heads/main/screenshots/oracle-siebel-2026-06-20T191147.png",
+     "score": 67.6,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 66.7,
+      "contract_quality": 65.7,
+      "contract_governance": 18.2,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 67.3,
+      "access_clarity": 76.3
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 31.3,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "UserGems",
+     "slug": "usergems",
+     "description": "UserGems is a San Francisco-based sales intelligence platform that tracks champion job changes and surfaces buying signals so sales and marketing teams can prioritize outbound and ABM motions. The platform packages 30+ native signals (job changes, contact-level intent, M&A, hiring, web visits), Gem-E AI agents for prospect list building and email personalization, and custom AI scoring trained on 600+ closed-won patterns. UserGems exposes a public REST API at api.usergems.com/v1 that lets customers programmatically add and remove contacts to track for job changes, add and remove target accounts, and honor data-subject deletion requests. That API is deliberately write-only — there are no read or GET endpoints — authenticates with a single company-wide X-Api-Key header, is capped at 20 requests per second with one record per request, and acknowledges enqueueing rather than completion. UserGems also ships a hosted remote MCP server at app.usergems.com/mcp/usergems, in gated early access as of August 2026, that lets agents in Claude or ChatGPT search accounts and prospects, pull signal and score history, run research, draft Gem-E messages, and build and run campaigns including CRM writes, sequence enrollment and ad-audience sync — authorized with OAuth 2.0, dynamic client registration, PKCE S256 and a single mcp:use scope. Native integrations include Salesforce, HubSpot, Microsoft Dynamics, Outreach, Salesloft, Gong Engage, Marketo, LinkedIn Ads, Meta Ads, and Google Ads.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png",
+     "score": 67.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 79.9,
+      "contract_governance": 31.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 60.1,
+      "access_clarity": 89.5
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 59.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": true,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
      "rank": 23
     },
     {
@@ -1104,7 +1072,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -1147,7 +1115,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1189,8 +1157,8 @@
    "label": "Strong",
    "range": "54.3 – 66.4",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 56,
-   "shown": 56,
+   "count": 55,
+   "shown": 55,
    "providers": [
     {
      "name": "Vendasta",
@@ -1208,7 +1176,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 40.8,
      "agent_band": "agent-native",
@@ -1251,7 +1219,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 38.5,
      "agent_band": "agent-ready",
@@ -1294,7 +1262,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -1337,7 +1305,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 42.6,
      "agent_band": "agent-ready",
@@ -1380,7 +1348,7 @@
       "developer_ergonomics": 78.0,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1430,7 +1398,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -1473,7 +1441,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -1516,7 +1484,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1566,7 +1534,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 47.1,
      "agent_band": "agent-ready",
@@ -1609,7 +1577,7 @@
       "developer_ergonomics": 67.3,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 46.1,
      "agent_band": "agent-ready",
@@ -1652,7 +1620,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1695,7 +1663,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 39.6,
      "agent_band": "agent-ready",
@@ -1738,7 +1706,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 42.4,
      "agent_band": "agent-ready",
@@ -1781,7 +1749,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.8,
      "agent_band": "agent-ready",
@@ -1824,7 +1792,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 50.5,
      "agent_band": "agent-ready",
@@ -1867,7 +1835,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1917,7 +1885,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1967,7 +1935,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2017,21 +1985,14 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 59.4,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -2074,7 +2035,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.9,
      "agent_band": "agent-ready",
@@ -2117,7 +2078,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2152,21 +2113,322 @@
      "rank": 46
     },
     {
+     "name": "Microsoft",
+     "slug": "microsoft",
+     "description": "Collection of Microsoft's primary APIs and developer resources.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
+     "score": 60.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 77.5,
+      "contract_governance": 9.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 75.0,
+      "access_clarity": 60.5
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 30.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "documented",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 47
+    },
+    {
+     "name": "Apollo API Documentation",
+     "slug": "apollo-api-documentation",
+     "description": "Apollo.io is a sales intelligence and engagement platform. Its REST API provides programmatic access to a database of over 240 million contacts and 30 million companies, covering people and organization enrichment (single and bulk), people/company/news search, and go-to-market workflow management across accounts, contacts, deals, sequences, emails, tasks, calls, conversations, lists and custom fields. Apollo users authenticate with an API key in the x-api-key header; partners building on behalf of mutual users authenticate with OAuth 2.0. Apollo publishes a complete OpenAPI 3.1 specification, a hosted remote MCP server at mcp.apollo.io, and a first-party CLI.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png",
+     "score": 60.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 67.1,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 42.3,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 41.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 48
+    },
+    {
+     "name": "Salesloft",
+     "slug": "salesloft",
+     "description": "Salesloft is a sales engagement and revenue orchestration platform, now combined with Clari, Drift and Groove, used by more than 4,000 sales teams to run cadences, dial and email prospects, capture and analyse conversations, and forecast pipeline. The Salesloft Platform API v2 at https://api.salesloft.com/v2 covers accounts, people, cadences, steps and actions, tasks, calls, emails, meetings, notes, opportunities, conversation intelligence, bulk jobs, imports, CRM mirroring, data-redaction governance and Rhythm signals, authenticated with OAuth 2.0 (authorization code and client credentials) or scoped API keys and priced against a 600-cost-per-minute per-team budget. Salesloft also publishes a documented webhook surface with HMAC-signed deliveries and a first-party remote MCP server at https://mcp.salesloft.com/mcp exposing fifteen read-only tools to AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/screenshots/salesloft-2026-06-20T193352.png",
+     "score": 60.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 63.0,
+      "contract_quality": 58.2,
+      "contract_governance": 31.8,
+      "operational_transparency": 84.2,
+      "developer_ergonomics": 61.3,
+      "access_clarity": 53.9
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 44.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": "partial",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 49
+    },
+    {
+     "name": "Apollo.io",
+     "slug": "apollo-io",
+     "description": "Apollo.io is a sales intelligence and go-to-market platform combining a database of 240M+ contacts and 30M+ companies with enrichment, sequencing, dialing and conversation intelligence. Its REST API publishes 80 operations at https://api.apollo.io/api/v1 across people and company search, single and bulk enrichment, CRM accounts, contacts and deals, outreach sequences, one-off emails, tasks, calls, conversations, custom fields, lists, analytics and usage stats — described by a first-party OpenAPI 3.1.0 document. Apollo also ships a hosted MCP server, a first-party CLI, and provider-published agent skills for both.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png",
+     "score": 60.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 53.7,
+      "contract_governance": 4.5,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 58.3,
+      "access_clarity": 100.0
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 60.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": "verified",
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 50
+    },
+    {
+     "name": "Crossbeam",
+     "slug": "crossbeam",
+     "description": "Crossbeam is the leading Ecosystem-Led Growth (ELG) platform: a secure data-collaboration network that lets companies compare CRM data with their partners to uncover shared customers, overlapping prospects, and co-selling opportunities without exposing sensitive records. It turns partner-sourced overlaps, populations, and real-time signals into \"Ecosystem Intelligence\" that flows into GTM tools and AI agents. Crossbeam exposes this data through a REST Partner API (OAuth 2.0), real-time Signals webhooks, a remote MCP server, and in-app AI Chat, backed by SOC 2 Type II, GDPR, CCPA, and PCI DSS compliance.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/screenshots/crossbeam-2026-07-25T210753.png",
+     "score": 59.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 41.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 76.2,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 48.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "documented",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 51
+    },
+    {
+     "name": "Salesflare",
+     "slug": "salesflare",
+     "description": "Salesflare is an intelligent CRM built for B2B startups and small businesses that automates data input by pulling contact and company information from emails, calendars, phone logs, and social profiles. The platform provides a REST API for programmatically managing accounts, contacts, opportunities, tasks, and email messages. Developers can use the API to integrate CRM data into their own applications, automate sales workflows, and synchronize data across systems. Salesflare supports bearer token authentication via API keys generated from the settings dashboard, with endpoints covering the full CRM object model including leads, pipelines, and enriched contact records.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png",
+     "score": 59.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 54.4,
+      "contract_governance": 29.5,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 49.4,
+      "access_clarity": 84.2
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 48.4,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 52
+    },
+    {
+     "name": "Creatio",
+     "slug": "creatio",
+     "description": "Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers, AI agents, and a business process engine. Creatio serves banking, insurance, manufacturing, high tech, retail, CPG, pharmaceuticals, telecom, the public sector, and other industries. For integrations, Creatio exposes platform data and processes over an OData 4 service (recommended), a legacy OData 3 service, and the RESTful DataService web service, secured with forms (cookie) authentication via AuthService.svc or OAuth 2.0 through the Creatio Identity Service. Extensions and connectors are distributed through the Creatio Marketplace. This profile was enriched by the API Evangelist enrichment pipeline from Creatio's public developer documentation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png",
+     "score": 59.2,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 81.5,
+      "contract_quality": 41.6,
+      "contract_governance": 18.2,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 64.3,
+      "access_clarity": 92.1
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 25.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 53
+    },
+    {
      "name": "AgendaPro",
      "slug": "agendapro",
      "description": "AgendaPro is a Latin American vertical SaaS platform for appointment-based service businesses — salons, barbershops, spas, aesthetic and medical clinics, gyms, veterinarians and wellness studios — combining online booking, calendar and staff scheduling, client CRM and treatment records, point of sale, inventory, commissions, marketing campaigns and WhatsApp/SMS/email reminders, plus online payments and gift cards. Founded in Chile and operating across Chile, Mexico, Colombia, Peru, Argentina, Brazil and Spain, it serves multi-location merchants from a single account. Its public developer surface is the Connect v3 API, an OpenAPI 3.0.3-described REST gateway at connect.agendapro.com that exposes bookings, availability slots, clients, custom attributes, locations, services, categories, service providers, sales, carts and online payment requests, with Bearer API-key auth, scoped keys, per-minute and per-day rate limiting, and HMAC-signed webhooks. API access requires an active Pro plan.",
-     "score": 60.4,
+     "score": 59.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 64.4,
       "contract_governance": 4.5,
-      "operational_transparency": 50.0,
+      "operational_transparency": 39.5,
       "developer_ergonomics": 58.9,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2198,307 +2460,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 47
-    },
-    {
-     "name": "Microsoft",
-     "slug": "microsoft",
-     "description": "Collection of Microsoft's primary APIs and developer resources.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-     "score": 60.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 77.5,
-      "contract_governance": 9.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 75.0,
-      "access_clarity": 60.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 30.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "documented",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 48
-    },
-    {
-     "name": "Apollo API Documentation",
-     "slug": "apollo-api-documentation",
-     "description": "Apollo.io is a sales intelligence and engagement platform. Its REST API provides programmatic access to a database of over 240 million contacts and 30 million companies, covering people and organization enrichment (single and bulk), people/company/news search, and go-to-market workflow management across accounts, contacts, deals, sequences, emails, tasks, calls, conversations, lists and custom fields. Apollo users authenticate with an API key in the x-api-key header; partners building on behalf of mutual users authenticate with OAuth 2.0. Apollo publishes a complete OpenAPI 3.1 specification, a hosted remote MCP server at mcp.apollo.io, and a first-party CLI.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png",
-     "score": 60.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 67.1,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 42.3,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 41.5,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 49
-    },
-    {
-     "name": "Salesloft",
-     "slug": "salesloft",
-     "description": "Salesloft is a sales engagement and revenue orchestration platform, now combined with Clari, Drift and Groove, used by more than 4,000 sales teams to run cadences, dial and email prospects, capture and analyse conversations, and forecast pipeline. The Salesloft Platform API v2 at https://api.salesloft.com/v2 covers accounts, people, cadences, steps and actions, tasks, calls, emails, meetings, notes, opportunities, conversation intelligence, bulk jobs, imports, CRM mirroring, data-redaction governance and Rhythm signals, authenticated with OAuth 2.0 (authorization code and client credentials) or scoped API keys and priced against a 600-cost-per-minute per-team budget. Salesloft also publishes a documented webhook surface with HMAC-signed deliveries and a first-party remote MCP server at https://mcp.salesloft.com/mcp exposing fifteen read-only tools to AI agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesloft/refs/heads/main/screenshots/salesloft-2026-06-20T193352.png",
-     "score": 60.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 63.0,
-      "contract_quality": 58.2,
-      "contract_governance": 31.8,
-      "operational_transparency": 84.2,
-      "developer_ergonomics": 61.3,
-      "access_clarity": 53.9
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 44.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": "partial",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 50
-    },
-    {
-     "name": "Apollo.io",
-     "slug": "apollo-io",
-     "description": "Apollo.io is a sales intelligence and go-to-market platform combining a database of 240M+ contacts and 30M+ companies with enrichment, sequencing, dialing and conversation intelligence. Its REST API publishes 80 operations at https://api.apollo.io/api/v1 across people and company search, single and bulk enrichment, CRM accounts, contacts and deals, outreach sequences, one-off emails, tasks, calls, conversations, custom fields, lists, analytics and usage stats — described by a first-party OpenAPI 3.1.0 document. Apollo also ships a hosted MCP server, a first-party CLI, and provider-published agent skills for both.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png",
-     "score": 60.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 53.7,
-      "contract_governance": 4.5,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 58.3,
-      "access_clarity": 100.0
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 60.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": "verified",
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 51
-    },
-    {
-     "name": "Crossbeam",
-     "slug": "crossbeam",
-     "description": "Crossbeam is the leading Ecosystem-Led Growth (ELG) platform: a secure data-collaboration network that lets companies compare CRM data with their partners to uncover shared customers, overlapping prospects, and co-selling opportunities without exposing sensitive records. It turns partner-sourced overlaps, populations, and real-time signals into \"Ecosystem Intelligence\" that flows into GTM tools and AI agents. Crossbeam exposes this data through a REST Partner API (OAuth 2.0), real-time Signals webhooks, a remote MCP server, and in-app AI Chat, backed by SOC 2 Type II, GDPR, CCPA, and PCI DSS compliance.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/crossbeam/refs/heads/main/screenshots/crossbeam-2026-07-25T210753.png",
-     "score": 59.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 41.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 76.2,
-      "access_clarity": 85.5
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "documented",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "Salesflare",
-     "slug": "salesflare",
-     "description": "Salesflare is an intelligent CRM built for B2B startups and small businesses that automates data input by pulling contact and company information from emails, calendars, phone logs, and social profiles. The platform provides a REST API for programmatically managing accounts, contacts, opportunities, tasks, and email messages. Developers can use the API to integrate CRM data into their own applications, automate sales workflows, and synchronize data across systems. Salesflare supports bearer token authentication via API keys generated from the settings dashboard, with endpoints covering the full CRM object model including leads, pipelines, and enriched contact records.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesflare/refs/heads/main/screenshots/salesflare-2026-06-20T193340.png",
-     "score": 59.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 54.4,
-      "contract_governance": 29.5,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 49.4,
-      "access_clarity": 84.2
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 48.4,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 53
-    },
-    {
-     "name": "Creatio",
-     "slug": "creatio",
-     "description": "Creatio is a global software vendor of an AI-native no-code platform for customer relationship management (CRM) and workflow / business process automation. Its product line spans Sales Creatio, Marketing Creatio, and Service Creatio, built on Studio Creatio — a no-code toolkit with visual designers, AI agents, and a business process engine. Creatio serves banking, insurance, manufacturing, high tech, retail, CPG, pharmaceuticals, telecom, the public sector, and other industries. For integrations, Creatio exposes platform data and processes over an OData 4 service (recommended), a legacy OData 3 service, and the RESTful DataService web service, secured with forms (cookie) authentication via AuthService.svc or OAuth 2.0 through the Creatio Identity Service. Extensions and connectors are distributed through the Creatio Marketplace. This profile was enriched by the API Evangelist enrichment pipeline from Creatio's public developer documentation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/creatio/refs/heads/main/screenshots/creatio-2026-07-25T210701.png",
-     "score": 59.2,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 81.5,
-      "contract_quality": 41.6,
-      "contract_governance": 18.2,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 64.3,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 25.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 54
     },
     {
@@ -2517,7 +2478,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 42.1,
      "agent_band": "agent-ready",
@@ -2560,7 +2521,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -2603,7 +2564,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -2646,7 +2607,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -2689,7 +2650,7 @@
       "developer_ergonomics": 61.3,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 53.4,
      "agent_band": "agent-ready",
@@ -2732,7 +2693,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 46.6,
      "agent_band": "agent-native",
@@ -2775,7 +2736,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -2818,7 +2779,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -2861,7 +2822,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2911,7 +2872,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -2954,7 +2915,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3004,7 +2965,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -3047,7 +3008,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -3090,7 +3051,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.8,
      "agent_band": "agent-ready",
@@ -3133,7 +3094,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.6,
      "agent_band": "agent-ready",
@@ -3176,7 +3137,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.7,
      "agent_band": "agent-aware",
@@ -3204,48 +3165,6 @@
      "rank": 70
     },
     {
-     "name": "Entergram",
-     "slug": "entergram",
-     "description": "Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, broadcast messaging, and a ticketing system with assignment, SLA and status tracking. Its developer surface has three parts: a workspace-scoped REST API (X-API-Key) covering accounts, contacts, groups, chats, messages, custom fields, tickets, webhooks and resumable events; a hosted Model Context Protocol (MCP) server for personal Telegram accounts (OAuth2 + PKCE) that lets AI agents read chats, manage tickets and update CRM fields; and outbound webhooks for incoming/outgoing message events, plus a Make.com integration.",
-     "score": 55.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 48.1,
-      "contract_governance": 18.2,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 47.0,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 50.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "served",
-      "idempotency": "documented",
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": "verified",
-      "dynamic_client_registration": true,
-      "agentic_commerce": false
-     },
-     "rank": 71
-    },
-    {
      "name": "Salesforce Sales Cloud",
      "slug": "salesforce-sales-cloud",
      "description": "Enterprise CRM platform providing sales automation, customer relationship management, and business intelligence capabilities through REST and SOAP APIs.",
@@ -3261,7 +3180,7 @@
       "developer_ergonomics": 76.2,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -3286,7 +3205,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 72
+     "rank": 71
     },
     {
      "name": "NationBuilder",
@@ -3304,7 +3223,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -3329,7 +3248,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 73
+     "rank": 72
     },
     {
      "name": "Warmly",
@@ -3347,7 +3266,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -3372,7 +3291,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 74
+     "rank": 73
     },
     {
      "name": "Endgame",
@@ -3390,7 +3309,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 51.1,
      "agent_band": "agent-ready",
@@ -3415,7 +3334,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 75
+     "rank": 74
     },
     {
      "name": "LeadSquared",
@@ -3433,7 +3352,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -3458,7 +3377,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 76
+     "rank": 75
     },
     {
      "name": "Salesforce Automation",
@@ -3476,7 +3395,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -3501,7 +3420,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 77
+     "rank": 76
     },
     {
      "name": "Thoughtly",
@@ -3519,7 +3438,7 @@
       "developer_ergonomics": 48.8,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3551,7 +3470,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 78
+     "rank": 77
     },
     {
      "name": "BizAPI",
@@ -3569,7 +3488,7 @@
       "developer_ergonomics": 70.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -3594,7 +3513,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 79
+     "rank": 78
     },
     {
      "name": "Poggio Labs",
@@ -3612,7 +3531,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 57.7,
      "agent_band": "agent-native",
@@ -3637,7 +3556,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 80
+     "rank": 79
     },
     {
      "name": "Splio",
@@ -3655,21 +3574,14 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Telecommunications",
       "regime_id": "telecommunications",
       "score": 51.4,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 36.2,
      "agent_band": "agent-ready",
@@ -3694,7 +3606,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 81
+     "rank": 80
     }
    ],
    "open": true
@@ -3704,9 +3616,51 @@
    "label": "Developing",
    "range": "39.3 – 54.2",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 85,
-   "shown": 85,
+   "count": 86,
+   "shown": 86,
    "providers": [
+    {
+     "name": "Entergram",
+     "slug": "entergram",
+     "description": "Entergram is a CRM built specifically for Telegram. It connects personal Telegram accounts (not bots) into a shared team workspace where sales, support, community and trading teams manage conversations at scale — a multi-account inbox, a CRM table and Kanban pipeline, custom columns and labels, broadcast messaging, and a ticketing system with assignment, SLA and status tracking. Its developer surface has three parts: a workspace-scoped REST API (X-API-Key) covering accounts, contacts, groups, chats, messages, custom fields, tickets, webhooks and resumable events; a hosted Model Context Protocol (MCP) server for personal Telegram accounts (OAuth2 + PKCE) that lets AI agents read chats, manage tickets and update CRM fields; and outbound webhooks for incoming/outgoing message events, plus a Make.com integration.",
+     "score": 54.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 48.1,
+      "contract_governance": 18.2,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 47.0,
+      "access_clarity": 85.5
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 50.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "served",
+      "idempotency": "documented",
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": "verified",
+      "dynamic_client_registration": true,
+      "agentic_commerce": false
+     },
+     "rank": 81
+    },
     {
      "name": "Zoho",
      "slug": "zoho",
@@ -3723,7 +3677,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
@@ -3751,62 +3705,6 @@
      "rank": 82
     },
     {
-     "name": "Agora Real Estate",
-     "slug": "agora-real-estate",
-     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
-     "score": 54.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.9,
-      "contract_quality": 60.5,
-      "contract_governance": 18.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 92.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 62.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
-     },
-     "agent_score": 37.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": true,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 83
-    },
-    {
      "name": "Coperniq",
      "slug": "coperniq",
      "description": "Coperniq is an AI-powered operating system for residential and commercial contractors across solar, storage, HVAC, electrical, plumbing, and roofing trades, consolidating sales, project management, service operations, dispatch, and cashflow into one system. Its REST API (https://api.coperniq.io/v1) lets developers automate projects, opportunities, accounts, contacts, sites, assets, work orders, forms, quotes, invoices, bills, payments, and more, with API-key authentication, page-based pagination, per-key rate limiting, and outbound automation webhooks. Coperniq was surfaced as a portfolio company of Initialized Capital (sector: climate) and enriched into the API Evangelist network from its public developer surface.",
@@ -3822,7 +3720,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3854,7 +3752,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 84
+     "rank": 83
     },
     {
      "name": "Street.co.uk",
@@ -3872,7 +3770,7 @@
       "developer_ergonomics": 62.5,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -3897,7 +3795,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 85
+     "rank": 84
     },
     {
      "name": "Uncodie (now Makinari)",
@@ -3915,7 +3813,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -3940,7 +3838,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 86
+     "rank": 85
     },
     {
      "name": "Chorus.ai",
@@ -3958,7 +3856,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.4,
      "agent_band": "agent-aware",
@@ -3983,7 +3881,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 87
+     "rank": 86
     },
     {
      "name": "Paperless Parts",
@@ -4001,7 +3899,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -4026,7 +3924,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 88
+     "rank": 87
     },
     {
      "name": "Lawmatics",
@@ -4044,7 +3942,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 42.2,
      "agent_band": "agent-ready",
@@ -4069,7 +3967,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 89
+     "rank": 88
     },
     {
      "name": "Xiaoman (OKKI)",
@@ -4087,7 +3985,7 @@
       "developer_ergonomics": 79.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -4112,7 +4010,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 90
+     "rank": 89
     },
     {
      "name": "CustomerOS",
@@ -4130,15 +4028,15 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 37.6,
+     "agent_score": 31.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": "verified",
@@ -4155,7 +4053,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 91
+     "rank": 90
     },
     {
      "name": "Mob.ly",
@@ -4173,7 +4071,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -4198,7 +4096,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 92
+     "rank": 91
     },
     {
      "name": "ServiceTitan",
@@ -4216,7 +4114,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.4,
      "agent_band": "agent-aware",
@@ -4241,7 +4139,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 93
+     "rank": 92
     },
     {
      "name": "Erply",
@@ -4259,7 +4157,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.0,
      "agent_band": "agent-ready",
@@ -4284,7 +4182,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 94
+     "rank": 93
     },
     {
      "name": "Planhat",
@@ -4302,7 +4200,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.8,
      "agent_band": "agent-ready",
@@ -4327,7 +4225,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 95
+     "rank": 94
     },
     {
      "name": "Lone Wolf Technologies",
@@ -4345,7 +4243,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4377,7 +4275,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 96
+     "rank": 95
     },
     {
      "name": "Mixmax",
@@ -4395,7 +4293,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -4420,7 +4318,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 97
+     "rank": 96
     },
     {
      "name": "Salesforce Experience Cloud",
@@ -4438,7 +4336,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -4463,7 +4361,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 98
+     "rank": 97
     },
     {
      "name": "Vitally",
@@ -4481,7 +4379,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 39.0,
      "agent_band": "agent-ready",
@@ -4506,7 +4404,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "AutoLeadStar",
@@ -4524,7 +4422,7 @@
       "developer_ergonomics": 55.4,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.6,
      "agent_band": "agent-ready",
@@ -4549,7 +4447,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Census",
@@ -4567,7 +4465,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 86.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -4592,7 +4490,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Reevo",
@@ -4610,7 +4508,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 77.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 56.5,
      "agent_band": "agent-ready",
@@ -4635,7 +4533,7 @@
       "dynamic_client_registration": true,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Agile CRM",
@@ -4653,7 +4551,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -4678,6 +4576,55 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 102
+    },
+    {
+     "name": "Agora Real Estate",
+     "slug": "agora-real-estate",
+     "description": "Agora (agorareal.com) is a real estate investment management platform for general partners, syndicators, owners/operators and investment firms, covering fundraising and investor onboarding, an investor portal and investor CRM, digital subscriptions and e-signature, data rooms, cap table and transaction management, distribution waterfall automation, capital calls, ACH and cross-border payments, K-1 and document management, investor reporting, and integrated fund accounting, bookkeeping and tax services. It is sold as a subscription starting at $749/month for the Essential tier, with Pro and Enterprise tiers quoted, and its customer-facing platform is multi-tenant — every client firm gets its own investor portal and client-platform host under agorareal.com. Agora publishes no developer portal and no public reference for that platform API: \"API Access\" is an Enterprise line item priced separately, and the tenant API answers nothing anonymously. What it does publish anonymously is the first-party content API behind its own website, a headless WordPress install whose route index and custom agora/v1 namespace are served in the open, plus a full OAuth 2.0 / OpenID Connect authorization server on its own domain for the new Cortex AI product. Its own release feed schedules an \"API + MCP\" launch for 22 September 2026.",
+     "score": 49.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.9,
+      "contract_quality": 60.5,
+      "contract_governance": 18.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 20.8,
+      "access_clarity": 77.6
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.7,
+      "matched_via": "tags"
+     },
+     "agent_score": 37.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 103
     },
     {
@@ -4696,7 +4643,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.3,
      "agent_band": "agent-ready",
@@ -4739,7 +4686,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 89.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -4782,7 +4729,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -4825,7 +4772,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 40.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -4868,7 +4815,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.9,
      "agent_band": "agent-ready",
@@ -4911,15 +4858,15 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 27.3,
-     "agent_band": "agent-aware",
+     "agent_score": 36.0,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -4954,7 +4901,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -4997,7 +4944,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.1,
      "agent_band": "agent-ready",
@@ -5040,7 +4987,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 35.8,
      "agent_band": "agent-ready",
@@ -5083,7 +5030,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 36.1,
      "agent_band": "agent-ready",
@@ -5126,7 +5073,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.6,
      "agent_band": "agent-aware",
@@ -5169,7 +5116,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.7,
      "agent_band": "agent-ready",
@@ -5211,7 +5158,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -5254,7 +5201,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 36.0,
      "agent_band": "agent-ready",
@@ -5297,7 +5244,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5347,7 +5294,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -5390,7 +5337,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 50.2,
      "agent_band": "agent-native",
@@ -5433,7 +5380,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 52.9,
      "agent_band": "agent-ready",
@@ -5476,7 +5423,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -5519,7 +5466,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.3,
      "agent_band": "agent-aware",
@@ -5562,7 +5509,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -5605,7 +5552,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 40.1,
      "agent_band": "agent-ready",
@@ -5648,7 +5595,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -5691,7 +5638,7 @@
       "developer_ergonomics": 58.3,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -5734,7 +5681,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -5777,7 +5724,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -5820,7 +5767,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 48.6,
      "agent_band": "agent-ready",
@@ -5863,7 +5810,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -5906,7 +5853,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.0,
      "agent_band": "agent-aware",
@@ -5949,7 +5896,7 @@
       "developer_ergonomics": 53.6,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.1,
      "agent_band": "agent-ready",
@@ -5992,7 +5939,7 @@
       "developer_ergonomics": 60.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -6035,7 +5982,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 41.8,
      "agent_band": "agent-ready",
@@ -6077,7 +6024,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6127,7 +6074,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 55.2,
      "agent_band": "agent-ready",
@@ -6170,7 +6117,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 41.5,
      "agent_band": "agent-native",
@@ -6213,7 +6160,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 20.5,
      "agent_band": "agent-aware",
@@ -6256,7 +6203,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -6299,7 +6246,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -6342,7 +6289,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -6385,7 +6332,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 44.4,
      "agent_band": "agent-ready",
@@ -6428,7 +6375,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6478,7 +6425,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.6,
      "agent_band": "agent-ready",
@@ -6521,7 +6468,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -6564,7 +6511,7 @@
       "developer_ergonomics": 44.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -6607,7 +6554,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 39.8,
      "agent_band": "agent-native",
@@ -6650,7 +6597,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -6693,7 +6640,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6743,7 +6690,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -6786,7 +6733,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.7,
      "agent_band": "agent-ready",
@@ -6828,7 +6775,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 9.0,
      "agent_band": "agent-aware",
@@ -6871,7 +6818,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -6914,7 +6861,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6964,7 +6911,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -7007,15 +6954,15 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 17.3,
+     "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -7050,7 +6997,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -7093,7 +7040,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -7136,7 +7083,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -7179,7 +7126,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 36.9,
      "agent_band": "agent-ready",
@@ -7222,7 +7169,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.7,
      "agent_band": "agent-ready",
@@ -7265,7 +7212,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -7308,7 +7255,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -7351,7 +7298,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -7393,7 +7340,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.5,
      "agent_band": "agent-aware",
@@ -7446,7 +7393,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 36.6,
      "agent_band": "agent-ready",
@@ -7489,7 +7436,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 85.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -7532,7 +7479,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.9,
      "agent_band": "agent-aware",
@@ -7575,7 +7522,7 @@
       "developer_ergonomics": 19.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7625,7 +7572,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 73.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -7668,7 +7615,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.4,
      "agent_band": "agent-aware",
@@ -7711,7 +7658,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -7754,7 +7701,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7803,7 +7750,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -7846,7 +7793,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -7889,7 +7836,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -7932,7 +7879,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -7975,7 +7922,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.0,
      "agent_band": "agent-aware",
@@ -8018,7 +7965,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -8061,7 +8008,7 @@
       "developer_ergonomics": 57.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.5,
      "agent_band": "agent-ready",
@@ -8104,7 +8051,7 @@
       "developer_ergonomics": 36.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -8147,7 +8094,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -8190,7 +8137,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -8233,7 +8180,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -8276,7 +8223,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -8319,7 +8266,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -8362,7 +8309,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -8405,7 +8352,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -8448,7 +8395,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -8491,15 +8438,15 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 19.8,
+     "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -8534,7 +8481,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.9,
      "agent_band": "agent-ready",
@@ -8577,7 +8524,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -8620,7 +8567,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.4,
      "agent_band": "agent-aware",
@@ -8663,7 +8610,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -8705,7 +8652,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -8748,7 +8695,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -8791,7 +8738,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8841,7 +8788,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -8884,7 +8831,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 20.9,
      "agent_band": "agent-aware",
@@ -8927,7 +8874,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8977,7 +8924,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 16.4,
      "agent_band": "agent-aware",
@@ -9020,7 +8967,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 82.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -9063,7 +9010,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -9106,7 +9053,7 @@
       "developer_ergonomics": 13.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 36.7,
      "agent_band": "agent-ready",
@@ -9149,7 +9096,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 20.7,
      "agent_band": "agent-aware",
@@ -9192,7 +9139,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -9235,7 +9182,7 @@
       "developer_ergonomics": 22.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -9278,7 +9225,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9328,7 +9275,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9378,7 +9325,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -9421,7 +9368,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -9464,7 +9411,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -9507,7 +9454,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 44.1,
      "agent_band": "agent-ready",
@@ -9550,7 +9497,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 75.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.6,
      "agent_band": "agent-aware",
@@ -9593,7 +9540,7 @@
       "developer_ergonomics": 17.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.4,
      "agent_band": "agent-aware",
@@ -9636,7 +9583,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -9679,7 +9626,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -9722,7 +9669,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -9765,7 +9712,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -9808,7 +9755,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 18.7,
      "agent_band": "agent-aware",
@@ -9851,7 +9798,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9901,7 +9848,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.9,
      "agent_band": "agent-aware",
@@ -9944,21 +9891,14 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 39.1,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -10001,7 +9941,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -10044,7 +9984,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 12.1,
      "agent_band": "agent-aware",
@@ -10087,7 +10027,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -10130,7 +10070,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10180,7 +10120,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10223,7 +10163,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.0,
      "agent_band": "agent-ready",
@@ -10266,7 +10206,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.3,
      "agent_band": "agent-aware",
@@ -10309,7 +10249,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -10352,7 +10292,7 @@
       "developer_ergonomics": 52.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -10395,7 +10335,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -10438,7 +10378,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10488,7 +10428,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -10531,7 +10471,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -10584,7 +10524,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -10627,7 +10567,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10677,7 +10617,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -10727,7 +10667,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10770,7 +10710,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 13.7,
      "agent_band": "agent-aware",
@@ -10813,7 +10753,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -10856,7 +10796,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 12.9,
      "agent_band": "agent-aware",
@@ -10899,7 +10839,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -10942,7 +10882,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -10985,7 +10925,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.7,
      "agent_band": "agent-aware",
@@ -11027,7 +10967,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -11070,7 +11010,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11113,7 +11053,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -11156,7 +11096,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -11199,7 +11139,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11242,7 +11182,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11285,7 +11225,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -11327,7 +11267,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11377,7 +11317,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -11420,7 +11360,7 @@
       "developer_ergonomics": 59.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11470,7 +11410,7 @@
       "developer_ergonomics": 10.7,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11520,7 +11460,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11570,15 +11510,15 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
+     "agent_score": 11.2,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -11613,7 +11553,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -11656,7 +11596,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11706,7 +11646,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -11756,7 +11696,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -11799,7 +11739,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.6,
      "agent_band": "agent-aware",
@@ -11842,7 +11782,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11885,7 +11825,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -11928,7 +11868,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11971,7 +11911,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12014,7 +11954,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12057,7 +11997,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -12100,7 +12040,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12150,7 +12090,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12200,7 +12140,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12250,7 +12190,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12293,7 +12233,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12336,7 +12276,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 22.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -12379,7 +12319,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12429,7 +12369,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12479,7 +12419,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12529,7 +12469,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12572,7 +12512,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12622,7 +12562,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12665,7 +12605,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12708,7 +12648,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -12751,21 +12691,14 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 30.4,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12808,7 +12741,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12851,7 +12784,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 1.3,
      "agent_band": "human-only",
@@ -12894,7 +12827,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12937,7 +12870,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -12980,7 +12913,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -12989,13 +12922,13 @@
       "score": 21.9,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -13030,7 +12963,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -13073,7 +13006,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13116,7 +13049,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13166,7 +13099,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13216,7 +13149,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13259,7 +13192,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -13302,7 +13235,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13345,7 +13278,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13395,7 +13328,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13438,7 +13371,7 @@
       "developer_ergonomics": 20.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -13481,7 +13414,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 4.7,
      "agent_band": "human-only",
@@ -13523,7 +13456,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -13573,7 +13506,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -13616,7 +13549,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13659,7 +13592,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13702,7 +13635,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13745,7 +13678,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13788,7 +13721,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13831,7 +13764,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13874,7 +13807,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -13917,15 +13850,15 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -13960,7 +13893,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14003,7 +13936,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14053,7 +13986,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14096,7 +14029,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14139,7 +14072,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14192,7 +14125,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14235,7 +14168,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14285,7 +14218,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14328,7 +14261,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14371,7 +14304,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -14421,7 +14354,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14464,7 +14397,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14507,7 +14440,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14550,7 +14483,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -14593,7 +14526,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14636,7 +14569,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14679,7 +14612,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14722,7 +14655,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 8.6,
      "agent_band": "agent-aware",
@@ -14765,7 +14698,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14808,7 +14741,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14851,7 +14784,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 3.5,
      "agent_band": "human-only",
@@ -14894,7 +14827,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14937,7 +14870,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -14980,7 +14913,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15023,7 +14956,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -15066,7 +14999,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15109,7 +15042,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15152,7 +15085,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -15201,7 +15134,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15288,7 +15221,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15420,7 +15353,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15462,7 +15395,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15638,7 +15571,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15681,7 +15614,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15723,7 +15656,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15810,7 +15743,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15897,7 +15830,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15939,7 +15872,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -15981,7 +15914,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -16068,7 +16001,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16118,7 +16051,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16168,7 +16101,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16218,7 +16151,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16267,7 +16200,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -16317,7 +16250,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

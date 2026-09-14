@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-12'
 api_count: 8
 apis:
 - description: Core Aave V3 protocol contracts — Pool, L2 Pool, Wrapped Token Gateway, PoolAddressesProvider, Pool Configurator, Interest Rate Strategy, Access Control Manager, Oracles, aTokens, variable / stable de
@@ -60,7 +35,7 @@ apis:
 - description: Open-source web interface (app.aave.com) for interacting with the Aave protocol — a reference implementation that integrates the SDK, Kit, and subgraphs.
   name: Aave Interface
   slug: interface
-artifact_total: 14
+artifact_total: 15
 common:
 - group: operate
   title: ''
@@ -118,6 +93,14 @@ common:
   title: ''
   type: Blog
   url: https://aave.com/blog
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.aave.com
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://aave.com/docs/mcp
 created: '2026-05-23'
 description: 'Aave is a decentralized, non-custodial liquidity protocol where users supply assets to earn yield and borrow against collateral. The protocol runs on Ethereum and many L2s (Arbitrum, Optimism, Base, Polygon, Avalanche, zkSync, Scroll, Metis) and exposes developer surfaces beyond on-chain contracts: official Aave V3 / V4 TypeScript SDKs, Aave Kit (React + TypeScript + GraphQL), and protocol subgraphs hosted on The Graph for indexed market, reserve, user, and historical data.'
 finops:
@@ -130,14 +113,18 @@ graphqls:
   slug: aave-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aave.png
 layout: provider
-modified: '2026-05-23'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+modified: '2026-09-13'
 name: Aave
 nav: Providers
 network: true
 overview: 'Aave publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Liquidity, and Protocol.
 
 
-  Aave''s developer surface includes documentation, GitHub presence, engineering blog, and 11 more developer resources.'
+  Aave''s developer surface includes documentation, GitHub presence, engineering blog, and 13 more developer resources.'
 plans:
 - name: Aave Plans Pricing
   plan_count: 1
@@ -147,32 +134,6 @@ rate_limits:
 - limit_count: 2
   name: Aave Rate Limits
   slug: aave-rate-limits
-score:
-  band: emerging
-  composite: 23.6
-  coverage:
-    artifact_dirs: 7
-    catalog_earned: 59.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 56.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 36.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 16.7
-    discoverability: 74.1
-    operational_transparency: 42.1
-  previous_composite: 23.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/aave/refs/heads/main/screenshots/aave-2026-06-20T163031.png
 security:
 - kind: domain-security

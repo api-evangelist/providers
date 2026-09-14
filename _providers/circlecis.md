@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 21.5
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -144,7 +119,7 @@ modified: '2026-05-19'
 name: CircleCI
 nav: Providers
 network: true
-overview: 'CircleCI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Context API, Job API, Pipeline API, and 3 more. Tagged areas include CI/CD, Continuous Deployment, Continuous Integration, DevOps, and Pipelines.
+overview: 'CircleCI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including Context API, Job API, Pipeline API, and 3 more. Tagged areas include CI/CD, Continuous Deployment, Continuous Integration, Developer Tools, and DevOps.
 
 
   CircleCI''s developer surface includes authentication, engineering blog, and 4 more developer resources.'
@@ -157,38 +132,6 @@ rate_limits:
 - limit_count: 5
   name: Circlecis Rate Limits
   slug: circlecis-rate-limits
-score:
-  band: thin
-  composite: 30.6
-  coverage:
-    artifact_dirs: 11
-    catalog_earned: 44.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 54.4
-    developer_ergonomics: 23.8
-    discoverability: 72.2
-    operational_transparency: 7.9
-  previous_composite: 30.6
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/circlecis/refs/heads/main/screenshots/circlecis-2026-06-20T174349.png
 security:
 - kind: authentication
@@ -212,6 +155,7 @@ tags:
 - CI/CD
 - Continuous Deployment
 - Continuous Integration
+- Developer Tools
 - DevOps
 - Pipelines
 - Workflows

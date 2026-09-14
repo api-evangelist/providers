@@ -8,31 +8,6 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - description: REST API for accessing iSpot.tv TV and video ad measurement data — airing occurrence, estimated spend, household and person-level impressions, attention metrics, OTT/streaming impressions, TV conversi
@@ -180,34 +155,6 @@ rate_limits:
 - limit_count: 21
   name: Ispottv Rate Limits
   slug: ispottv-rate-limits
-score:
-  band: developing
-  composite: 39.7
-  coverage:
-    artifact_dirs: 17
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 46.1
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 60.7
-    discoverability: 75.9
-    operational_transparency: 65.8
-  previous_composite: 39.7
-  provenance:
-    conformance: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png
 security:
 - kind: authentication

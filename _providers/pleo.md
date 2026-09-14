@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 36.7
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 83
   human_in_the_loop: 0
@@ -283,6 +258,10 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/pleo-context.jsonld
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://developers.pleo.io/docs/current/pleo-mcp/get-started/pleo-mcp-overview
 created: 2026-06-12
 description: Pleo is a business spend management platform that issues smart company cards to employees, enabling real-time expense tracking, receipt capture, and automated bookkeeping. The Pleo REST API lets developers automate workflows, sync accounting data, manage users and cards, and build custom integrations against accounting systems. The API supports OAuth 2.0 (with PKCE) and API key authentication with a scopes-based permission model, and offers both a sandbox and production environment. Pleo also runs an App Marketplace where partners can publish integrations available to thousands of businesses across Europe.
 examples:
@@ -376,7 +355,7 @@ jsonld:
   property_count: 18
   slug: pleo-context
 layout: provider
-modified: 2026-06-12
+modified: '2026-09-13'
 name: Pleo
 nav: Providers
 network: true
@@ -386,7 +365,7 @@ overview: 'Pleo publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
   The Pleo catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  Pleo''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  Pleo''s developer surface includes authentication, documentation, engineering blog, pricing, and 13 more developer resources.'
 plans:
 - name: Pleo Plans Pricing
   plan_count: 4
@@ -407,45 +386,6 @@ rules:
     info: 2
     warn: 3
   slug: pleo-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 48.3
-  coverage:
-    artifact_dirs: 16
-    catalog_earned: 86.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 28.8
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 50.0
-    contract_governance: 25.0
-    contract_quality: 61.8
-    developer_ergonomics: 23.8
-    discoverability: 74.1
-    operational_transparency: 50.0
-  previous_composite: 48.3
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 21
-    mcp: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 26.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/screenshots/pleo-2026-06-20T191811.png
 security:
 - kind: authentication

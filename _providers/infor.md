@@ -1,40 +1,16 @@
 ---
 access_model:
   confidence: high
-  label: Self-serve signup
-  onboarding: self-serve
+  label: Contact sales · API access bundled with a CloudSuite subscription
+  onboarding: unknown
   pricing: unknown
   public: false
   source:
   - plans
   - authentication
+  - probe
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: negotiable
-    consent_identity: false
-    delegated_identity: documented
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 25.9
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -53,17 +29,20 @@ apis:
 - description: Infor CloudSuite Financials APIs provide integration with general ledger, accounts payable, accounts receivable, cash management, and financial reporting for enterprise finance operations.
   name: Infor CloudSuite Financials API
   slug: infor-cloudsuite-financials-api
-- baseURL: https://mingledev01-ionapi.mingle.infor.com
+- baseURL: https://mingle-ionapi.inforcloudsuite.com/{tenant}/IONSERVICES
   baseurl_source: declared
   description: ION document routing and processing
   name: Infor ION Documents API
   slug: infor-ion-documents-api
-- baseURL: https://mingledev01-ionapi.mingle.infor.com
+- baseURL: https://mingle-ionapi.inforcloudsuite.com/{tenant}/M3
   baseurl_source: declared
   description: Infor M3 business API programs
   name: Infor M3 API API
   slug: infor-m3-api-api
-artifact_total: 22
+- description: The Infor Document Management REST API, published on the Infor Developer Portal at developer.infor.com/api and served through the ION API Gateway under the IDM suite path. It covers the content reposi
+  name: Infor Document Management (IDM) API
+  slug: infor-idm-api
+artifact_total: 23
 asyncapis:
 - description: Infor ION event framework AsyncAPI specification for event-driven integrations with Infor CloudSuite applications. The ION Event Hub publishes business events when transactions occur in Infor applicat
   name: Infor ION Events
@@ -106,11 +85,185 @@ common:
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/infor
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.infor.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.infor.com/
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/infor-cloud/ion-api-sdk
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://github.com/infor-cloud/ion-api-sdk
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.infor.com/en/about/legal
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.infor.com/en/about/privacy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.infor.com/blog
+- group: company
+  title: ''
+  type: Website
+  url: https://www.infor.com/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/infor-cloud
+- group: build
+  title: ''
+  type: SDKs
+  url: https://github.com/infor-cloud/ion-api-sdk
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/_original/infor-ion-api-gateway-openapi.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: json-schema/infor-m3-customer-schema.json
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/infor-context.jsonld
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: asyncapi/infor-ion-events-asyncapi.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/infor-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/infor-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/infor-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/infor-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/infor-components.yml
+- group: agent
+  title: ''
+  type: X-MCPServerCandidate
+  url: mcp/infor-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/infor-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/infor-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/infor-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/infor-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: lifecycle/infor-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/infor-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/infor-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/infor-data-model.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/infor-changelog.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/infor-ion-events-asyncapi.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/infor-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/infor-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/infor-finops.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/infor-jsonschema-spectral-rules.yml
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.infor.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.infor.com/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developer.infor.com/tutorials
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.infor.com/customer-success/support
+- group: operate
+  title: ''
+  type: Community
+  url: https://community.infor.com/categories/developer
+- group: start
+  title: ''
+  type: Login
+  url: https://concierge.infor.com
+- group: other
+  title: ''
+  type: Marketplace
+  url: https://marketplace.infor.com
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.infor.com/
+created: '2026-04-28'
 description: Infor provides industry-specific cloud ERP platforms including CloudSuite Industrial (M3), CloudSuite Financials, and Infor LN. The Infor ION API Gateway enables OAuth 2.0-based integration across Infor applications and third-party systems. SDKs are available via the infor-cloud GitHub organization for Java, .NET, Go, and HTML5 development.
 finops:
 - name: Infor Finops
   service_category: Enterprise Software
   slug: infor-finops
+image: https://www.infor.com/logo-infor.png
 json_schemas:
 - name: Infor M3 Customer
   property_count: 22
@@ -121,7 +274,7 @@ jsonld:
   property_count: 6
   slug: infor-context
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-13'
 name: Infor
 nav: Providers
 network: true
@@ -131,7 +284,7 @@ overview: 'Infor publishes 2 APIs on the [APIs.io](https://apis.io/) network: IO
   The Infor catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 2 Spectral governance rulesets.
 
 
-  Infor''s developer surface includes authentication and 5 more developer resources.'
+  Infor''s developer surface includes authentication, developer portal, documentation, engineering blog, CLI, changelog, API reference, and 42 more developer resources.'
 plans:
 - name: Infor Plans Pricing
   plan_count: 1
@@ -168,38 +321,6 @@ scopes:
   scope_count: 0
   slug: infor-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: thin
-  composite: 38.0
-  coverage:
-    artifact_dirs: 15
-    catalog_earned: 51.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 63.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 21.1
-    contract_governance: 13.6
-    contract_quality: 64.8
-    developer_ergonomics: 50.0
-    discoverability: 59.3
-    operational_transparency: 5.3
-  previous_composite: 38.0
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/infor/refs/heads/main/screenshots/infor-2026-06-20T183339.png
 security:
 - kind: authentication
@@ -221,4 +342,5 @@ tags:
 - Supply Chain
 - Cloud
 - Integration
+website: https://www.infor.com/
 ---

@@ -10,31 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 22.3
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 5
@@ -79,7 +54,7 @@ apis:
   description: Manage URL groups for fan-out delivery
   name: QStash URL Groups API
   slug: qstash-url-groups-api
-artifact_total: 28
+artifact_total: 30
 collections:
 - collection_type: open
   name: API Collection
@@ -170,6 +145,14 @@ common:
   title: ''
   type: JSONLDContext
   url: json-ld/qstash-context.jsonld
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://mcp.upstash.com/mcp
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/upstash/mcp-server
 created: '2026-06-12'
 description: QStash is a serverless message queue and task scheduling REST API from Upstash that delivers HTTP messages to endpoints reliably without requiring any long-lived connections or infrastructure management. Built entirely on stateless HTTP requests, it is designed for serverless and edge runtimes where traditional message brokers are impractical. QStash supports automatic retries, CRON-based scheduling up to one year in advance, URL group broadcasting for fan-out delivery, FIFO queuing, dead-letter queues, and message deduplication. Developers simply POST a message with a destination URL and QStash handles guaranteed delivery with configurable retry logic and flow control.
 examples:
@@ -200,7 +183,14 @@ jsonld:
   property_count: 31
   slug: qstash-context
 layout: provider
-modified: '2026-06-12'
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+- description: ''
+  name: MCP Server Source
+  slug: mcp-server-source
+modified: '2026-09-13'
 name: QStash
 nav: Providers
 network: true
@@ -210,7 +200,7 @@ overview: 'QStash publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
   The QStash catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
 
 
-  QStash''s developer surface includes authentication, documentation, engineering blog, pricing, and 12 more developer resources.'
+  QStash''s developer surface includes authentication, documentation, engineering blog, pricing, and 14 more developer resources.'
 plans:
 - name: Qstash Plans Pricing
   plan_count: 5
@@ -231,38 +221,6 @@ rules:
     info: 2
     warn: 3
   slug: qstash-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 48.8
-  coverage:
-    artifact_dirs: 15
-    catalog_earned: 83.3
-    catalog_earned_first_party: 0.0
-    catalog_gap: 31.8
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 50.0
-    contract_governance: 25.0
-    contract_quality: 63.4
-    developer_ergonomics: 23.8
-    discoverability: 68.5
-    operational_transparency: 52.6
-  previous_composite: 48.8
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/screenshots/qstash-2026-06-20T192402.png
 security:
 - kind: authentication

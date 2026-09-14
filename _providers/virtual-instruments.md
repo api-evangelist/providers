@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 31.3
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: Global View APIs for alerts, external alert ingestion, and on-prem storage dashboards. Function-based JSON POST bodies over a Solr-style query engine, served from the Virtana cloud platform.
@@ -183,35 +158,6 @@ overview: 'Virtana (Virtual Instruments) publishes 3 APIs on the [APIs.io](https
 
   Virtana (Virtual Instruments)''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 21 more developer resources.'
 random_paper: 11
-score:
-  band: developing
-  composite: 47.7
-  coverage:
-    artifact_dirs: 15
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 43.4
-    contract_governance: 18.2
-    contract_quality: 41.6
-    developer_ergonomics: 64.3
-    discoverability: 81.5
-    operational_transparency: 42.1
-  previous_composite: 47.7
-  provenance:
-    conformance: first-party
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/virtual-instruments/refs/heads/main/screenshots/virtual-instruments-2026-08-17T082756.png
 security:
 - kind: authentication

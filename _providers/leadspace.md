@@ -11,32 +11,6 @@ access_model:
   - plans/leadspace-plans-pricing.yml
   trial: true
   try_now: true
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: false
-    openapi_examples: documented
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 45.3
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -305,41 +279,6 @@ scopes:
   scope_count: 4
   slug: leadspace-scopes
   summary_line: 4 scopes · authorizationCode
-score:
-  band: exemplar
-  composite: 67.3
-  coverage:
-    artifact_dirs: 25
-    catalog_earned: 60.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 85.5
-    contract_governance: 18.2
-    contract_quality: 68.7
-    developer_ergonomics: 58.9
-    discoverability: 74.1
-    operational_transparency: 73.7
-  previous_composite: 67.3
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:
 - kind: authentication

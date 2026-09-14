@@ -1,30 +1,4 @@
 ---
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: platform
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 39.7
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.aoxlabs.com
@@ -195,47 +169,6 @@ scopes:
   scope_count: 0
   slug: adro1b33-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: thin
-  composite: 30.8
-  coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 47.4
-    contract_governance: 4.5
-    contract_quality: 37.0
-    developer_ergonomics: 23.2
-    discoverability: 75.9
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - south-korea
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - japan-korea
-  previous_composite: 30.8
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 security:
 - kind: authentication
   name: Adro1B33 Authentication

@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: verified
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 36.2
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: Referral coupon API published as a public Postman collection. Checks and burns coupons for a referrer or a newly referred prospect, authenticated by a SHA-256 hash of the coupon code concatenated with
@@ -321,58 +296,6 @@ rate_limits:
 - limit_count: 4
   name: Splio Rate Limits
   slug: splio-rate-limits
-score:
-  band: strong
-  composite: 54.3
-  coverage:
-    artifact_dirs: 20
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 42.1
-    contract_governance: 18.2
-    contract_quality: 53.4
-    developer_ergonomics: 51.8
-    discoverability: 81.5
-    operational_transparency: 50.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - france
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - france-iberia
-  previous_composite: 54.3
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 17
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    jurisdictions:
-    - jurisdiction: EU
-      standard: gdpr
-    jurisdictions_satisfied: 1
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 51.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/splio/refs/heads/main/screenshots/splio-2026-09-02T160514.png
 security:
 - kind: authentication

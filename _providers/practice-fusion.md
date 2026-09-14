@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: documented
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 37.6
-  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -232,46 +207,6 @@ scopes:
   scope_count: 0
   slug: practice-fusion-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: strong
-  composite: 61.4
-  coverage:
-    artifact_dirs: 18
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 85.5
-    contract_governance: 18.2
-    contract_quality: 34.4
-    developer_ergonomics: 56.5
-    discoverability: 81.5
-    operational_transparency: 44.7
-  previous_composite: 61.4
-  provenance:
-    conformance: first-party
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    jurisdictions:
-    - jurisdiction: US
-      standard: hipaa
-    jurisdictions_satisfied: 1
-    matched_via: tags
-    regime: Health
-    regime_id: health
-    score: 73.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/practice-fusion/refs/heads/main/screenshots/practice-fusion-2026-08-17T081329.png
 security:
 - kind: authentication

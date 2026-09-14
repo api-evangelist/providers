@@ -11,32 +11,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: negotiable
-    consent_identity: false
-    delegated_identity: documented
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: verified
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 49.5
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: https://api.upsun.com
@@ -547,46 +521,6 @@ scopes:
   scope_count: 1
   slug: platform.sh-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
-score:
-  band: developing
-  composite: 52.8
-  coverage:
-    artifact_dirs: 23
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 47.4
-    contract_governance: 18.2
-    contract_quality: 58.6
-    developer_ergonomics: 73.2
-    discoverability: 57.4
-    operational_transparency: 52.6
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - france-iberia
-  previous_composite: 52.8
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 60
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/platform.sh/refs/heads/main/screenshots/platform.sh-2026-09-02T151433.png
 security:
 - kind: authentication

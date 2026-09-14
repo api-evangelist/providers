@@ -12,31 +12,6 @@ access_model:
   - '{''url'': ''https://finaccel.co'', ''status'': 301, ''note'': ''declared website redirects to https://kredivocorp.com/ — a different registrable domain (finaccel.co -> kredivocorp.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: documented
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 33.6
-  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - baseURL: https://sandbox.kredivo.com
@@ -237,7 +212,7 @@ modified: '2026-07-19'
 name: Kredivo
 nav: Providers
 network: true
-overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calculator API, Checkout API, Confirmation API, and 2 more. Tagged areas include Company, Payments, Buy Now Pay Later, BNPL, and Lending.
+overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Calculator API, Checkout API, Confirmation API, and 2 more. Tagged areas include Company, Payments, Buy Now Pay Later, Lending, and Consumer Credit.
 
 
   The Kredivo catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -245,53 +220,6 @@ overview: 'Kredivo publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
   Kredivo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 28 more developer resources.'
 random_paper: 0
-score:
-  band: developing
-  composite: 41.8
-  coverage:
-    artifact_dirs: 19
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 22.0
-    developer_ergonomics: 73.2
-    discoverability: 81.5
-    operational_transparency: 34.2
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - indonesia
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - southeast-asia
-  previous_composite: 41.8
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 6
-      marker_coverage: 100.0
-      total: 6
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 48.4
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/kredivo/refs/heads/main/screenshots/kredivo-2026-07-25T224258.png
 security:
 - kind: authentication
@@ -311,7 +239,6 @@ tags:
 - Company
 - Payments
 - Buy Now Pay Later
-- BNPL
 - Lending
 - Consumer Credit
 - Checkout

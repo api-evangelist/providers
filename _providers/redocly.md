@@ -9,32 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: true
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: negotiable
-    consent_identity: false
-    delegated_identity: documented
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 44.6
-  scored_at: '2026-09-12'
 api_count: 12
 apis:
 - description: Redocly Realm is the comprehensive API lifecycle management platform that unifies Redoc, Revel, and Reef into a single integrated product. Realm includes API documentation, mock servers, linting, cata
@@ -388,40 +362,6 @@ scopes:
   scope_count: 0
   slug: redocly-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: exemplar
-  composite: 74.6
-  coverage:
-    artifact_dirs: 31
-    catalog_earned: 85.3
-    catalog_earned_first_party: 24.0
-    catalog_gap: 29.8
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 100.0
-    contract_governance: 43.2
-    contract_quality: 65.4
-    developer_ergonomics: 61.9
-    discoverability: 72.2
-    operational_transparency: 92.1
-  previous_composite: 74.6
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
-    mcp: first-party
-    skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/redocly/refs/heads/main/screenshots/redocly-2026-06-20T192731.png
 security:
 - kind: authentication
@@ -452,4 +392,5 @@ tags:
 - MCP
 - Monitoring
 - OpenAPI
+- Developer Tools
 ---

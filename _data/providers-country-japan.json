@@ -1,6 +1,6 @@
 {
- "total": 105,
- "shown": 105,
+ "total": 109,
+ "shown": 109,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 44.9,
      "agent_band": "agent-native",
@@ -130,7 +130,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.9,
      "agent_band": "agent-ready",
@@ -173,7 +173,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -234,7 +234,7 @@
       "developer_ergonomics": 75.0,
       "access_clarity": 56.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -284,7 +284,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -334,7 +334,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 41.2,
      "agent_band": "agent-ready",
@@ -377,7 +377,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -427,7 +427,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -470,7 +470,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -519,7 +519,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 46.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -547,48 +547,6 @@
      "rank": 11
     },
     {
-     "name": "Agri Info Design",
-     "slug": "agriinfodesign",
-     "description": "Agri Info Design, Ltd. (株式会社農業情報設計社) is a Japanese agricultural-technology company founded 21 April 2014 in Obihiro, Hokkaido, building precision-farming guidance for tractors and other agricultural machinery. Its AgriBus product line pairs the AgriBus-NAVI Android GPS/GNSS guidance app (100,000+ downloads worldwide) with AgriBus-GMiniR and AgriBus-G2 RTK-GNSS receivers, the AgriBus-AutoSteer automatic steering package, and AgriBus-Web, a browser console for field boundaries, reference lines, work-record history, elevation maps and RTK base-station management. The company also sells ISOBUS / ISO 11783 / AG-PORT consulting. Its cloud platform is a set of Spring Boot microservices on agribus-connect.net, each of which publishes a machine-readable OpenAPI/Swagger contract anonymously, including an implementation of Japan's NARO-led 農機オープンAPI (Agricultural Machinery Open API) device and location surface.",
-     "score": 41.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 74.1,
-      "contract_quality": 49.2,
-      "contract_governance": 18.2,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 20.8,
-      "access_clarity": 76.3
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 31.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "reversibility_documented": "documented",
-      "mcp_server": false,
-      "auth_clarity": "served",
-      "idempotency": false,
-      "error_semantics": "documented",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": "served",
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 12
-    },
-    {
      "name": "Paidy",
      "slug": "paidy",
      "description": "Paidy is a Japanese buy now, pay later (BNPL) and digital payment service that enables Japanese consumers to make purchases and pay later via monthly consolidated billing. Merchants integrate Paidy Checkout (JavaScript) and the Paidy REST API to accept deferred payments, manage authorizations, capture funds, issue refunds, and handle recurring payments via stored tokens.",
@@ -604,7 +562,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -636,7 +594,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 13
+     "rank": 12
     },
     {
      "name": "Magic Moment",
@@ -654,7 +612,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 64.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -679,6 +637,48 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
+     "rank": 13
+    },
+    {
+     "name": "Agri Info Design",
+     "slug": "agriinfodesign",
+     "description": "Agri Info Design, Ltd. (株式会社農業情報設計社) is a Japanese agricultural-technology company founded 21 April 2014 in Obihiro, Hokkaido, building precision-farming guidance for tractors and other agricultural machinery. Its AgriBus product line pairs the AgriBus-NAVI Android GPS/GNSS guidance app (100,000+ downloads worldwide) with AgriBus-GMiniR and AgriBus-G2 RTK-GNSS receivers, the AgriBus-AutoSteer automatic steering package, and AgriBus-Web, a browser console for field boundaries, reference lines, work-record history, elevation maps and RTK base-station management. The company also sells ISOBUS / ISO 11783 / AG-PORT consulting. Its cloud platform is a set of Spring Boot microservices on agribus-connect.net, each of which publishes a machine-readable OpenAPI/Swagger contract anonymously, including an implementation of Japan's NARO-led 農機オープンAPI (Agricultural Machinery Open API) device and location surface.",
+     "score": 39.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 74.1,
+      "contract_quality": 49.2,
+      "contract_governance": 18.2,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 20.8,
+      "access_clarity": 69.7
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 31.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "reversibility_documented": "documented",
+      "mcp_server": false,
+      "auth_clarity": "served",
+      "idempotency": false,
+      "error_semantics": "documented",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": "served",
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
      "rank": 14
     },
     {
@@ -697,7 +697,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -750,7 +750,7 @@
       "developer_ergonomics": 54.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 9.7,
      "agent_band": "agent-aware",
@@ -793,7 +793,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -843,7 +843,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -886,7 +886,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -936,7 +936,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -986,7 +986,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1036,7 +1036,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1086,7 +1086,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1136,7 +1136,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1186,7 +1186,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.0,
      "agent_band": "agent-ready",
@@ -1229,7 +1229,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.8,
      "agent_band": "agent-ready",
@@ -1272,7 +1272,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1322,7 +1322,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1372,7 +1372,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1422,7 +1422,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1472,7 +1472,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1522,7 +1522,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1565,7 +1565,7 @@
       "developer_ergonomics": 41.7,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1615,7 +1615,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1657,7 +1657,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1707,7 +1707,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1766,7 +1766,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 6.1,
      "agent_band": "agent-aware",
@@ -1809,7 +1809,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1859,7 +1859,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1909,7 +1909,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.4,
      "agent_band": "agent-aware",
@@ -1952,7 +1952,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1995,7 +1995,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2044,7 +2044,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2053,13 +2053,13 @@
       "score": 26.3,
       "matched_via": "tags"
      },
-     "agent_score": 13.7,
+     "agent_score": 7.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": "verified",
+      "mcp_server": "platform",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -2094,7 +2094,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2144,7 +2144,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2194,7 +2194,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2244,7 +2244,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2294,7 +2294,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2344,7 +2344,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2394,7 +2394,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2444,7 +2444,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2487,7 +2487,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2530,7 +2530,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2573,7 +2573,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2616,7 +2616,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2659,7 +2659,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2702,7 +2702,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2752,7 +2752,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2801,7 +2801,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2844,7 +2844,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2897,7 +2897,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2940,7 +2940,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2983,7 +2983,7 @@
       "developer_ergonomics": 6.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3033,7 +3033,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3076,7 +3076,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3118,7 +3118,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3168,7 +3168,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3211,7 +3211,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3254,7 +3254,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3304,7 +3304,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3354,7 +3354,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3396,7 +3396,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3439,7 +3439,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3481,7 +3481,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3524,7 +3524,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3567,7 +3567,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3610,7 +3610,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3652,7 +3652,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3680,21 +3680,22 @@
      "rank": 78
     },
     {
-     "name": "Elephantech",
-     "slug": "agicinc",
-     "description": "Elephantech Inc. (founded January 2014 in Tokyo as AgIC Inc., renamed Elephantech in September 2017) develops, manufactures and sells precision metal inkjet printing equipment, advanced conductive materials, and flexible printed circuit board products, including its SustainaCircuits multilayer PCB line and NeuralJet printing technology. The company positions itself as decarbonizing electronics manufacturing by replacing subtractive copper etching with additive inkjet deposition. It is a hardware and materials manufacturer with roughly 150 employees, headquartered at 4-3-8 Hatchobori, Chuo-ku, Tokyo; it publishes no developer program, public API, SDK or machine-readable API contract.",
-     "score": 8.3,
+     "name": "Shippio",
+     "slug": "shippio",
+     "description": "Shippio is a Japanese logistics-technology company positioning itself as \"Japan's first digital forwarder.\" It provides cloud-based SaaS for visualizing and streamlining international trade and freight-forwarding operations, combining domain expertise with AI-era digital technology. Its product line includes Shippio Forwarding (a digital forwarding service), Shippio Cargo (trade-management SaaS for shippers/importers-exporters), and Shippio Works (trade-management SaaS for logistics operators), delivered through a multi-sided platform that connects shippers and operators. The company is backed by 500 Global. As of this enrichment pass Shippio publishes no public developer portal, API documentation, SDKs, or pricing; its APIs are internal platform APIs referenced only in engineering job postings, so this profile is identity-only with no public API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippio/refs/heads/main/screenshots/shippio-2026-09-02T155232.png",
+     "score": 8.1,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 2.4,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3722,22 +3723,21 @@
      "rank": 79
     },
     {
-     "name": "Shippio",
-     "slug": "shippio",
-     "description": "Shippio is a Japanese logistics-technology company positioning itself as \"Japan's first digital forwarder.\" It provides cloud-based SaaS for visualizing and streamlining international trade and freight-forwarding operations, combining domain expertise with AI-era digital technology. Its product line includes Shippio Forwarding (a digital forwarding service), Shippio Cargo (trade-management SaaS for shippers/importers-exporters), and Shippio Works (trade-management SaaS for logistics operators), delivered through a multi-sided platform that connects shippers and operators. The company is backed by 500 Global. As of this enrichment pass Shippio publishes no public developer portal, API documentation, SDKs, or pricing; its APIs are internal platform APIs referenced only in engineering job postings, so this profile is identity-only with no public API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shippio/refs/heads/main/screenshots/shippio-2026-09-02T155232.png",
-     "score": 8.1,
+     "name": "Elephantech",
+     "slug": "agicinc",
+     "description": "Elephantech Inc. (founded January 2014 in Tokyo as AgIC Inc., renamed Elephantech in September 2017) develops, manufactures and sells precision metal inkjet printing equipment, advanced conductive materials, and flexible printed circuit board products, including its SustainaCircuits multilayer PCB line and NeuralJet printing technology. The company positions itself as decarbonizing electronics manufacturing by replacing subtractive copper etching with additive inkjet deposition. It is a hardware and materials manufacturer with roughly 150 employees, headquartered at 4-3-8 Hatchobori, Chuo-ku, Tokyo; it publishes no developer program, public API, SDK or machine-readable API contract.",
+     "score": 7.9,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
       "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.8,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3779,7 +3779,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3821,7 +3821,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3864,7 +3864,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3914,7 +3914,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3957,7 +3957,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4007,7 +4007,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4050,7 +4050,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4099,7 +4099,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4142,7 +4142,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4192,7 +4192,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4242,7 +4242,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4285,7 +4285,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4328,7 +4328,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4371,7 +4371,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4414,7 +4414,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4457,7 +4457,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4500,7 +4500,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4550,7 +4550,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4600,7 +4600,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4701,7 +4701,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4751,7 +4751,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4801,7 +4801,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4851,7 +4851,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4892,14 +4892,38 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "ActEvolve",
      "slug": "actevolve",
      "description": "ActEvolve Inc. (株式会社ActEvolve) was a Tokyo virtual-reality entertainment company incorporated on 9 August 2017 by Takuya Kato, a former Capcom game developer, together with other ex-game-industry engineers. In November 2018 it launched VARK, a VR live platform on which VTuber and virtual-artist performances — most visibly the long-running \"Cinderella switch\" series with hololive — were staged as ticketed, seat-based concerts for Meta Quest, Android and iOS, paid for with in-app VARK Coin. The company took strategic investment from KLab Inc. in August 2019, renamed itself VARK Inc. (株式会社VARK) on 1 May 2020 alongside a roughly ¥200M round from ANRI, raised a further ¥600M in May 2021, and diversified into the VARK SHORTS 3D animation tool and the STAR BLOOM liver-management agency, producing metaverse events for ANYCOLOR, Avex, KADOKAWA, COVER, Dwango, Shochiku and Meta. VARK was a consumer entertainment app rather than a platform business: it never operated a developer program, and no public API, SDK, webhook catalogue or machine-readable specification (OpenAPI, AsyncAPI, GraphQL SDL, MCP manifest, agent card) was published on any of its hosts at any point — 1,812 archived URLs across vark.co.jp and its subdomains contain no /api, /developers, /docs, /openapi or /graphql path of any kind. The VARK metaverse service shut down on 4 March 2024 with same-day notice, refunding unused VARK Coin until 5 May 2024 under Japan's Payment Services Act; the free tier of VARK SHORTS ended on 30 September 2024; and in March 2025 the entire company was sold in an all-share transaction whose acquirer and terms were kept confidential, with founder Takuya Kato stepping down as representative director. This profile is retained as a historical record — there is no API surface to enrich.",
      "rank": 105
+    },
+    {
+     "name": "Agripedia",
+     "slug": "agripedia",
+     "description": "Agripedia (アグリぺディア株式会社) is a Tokyo agricultural technology company, founded in June 2019 and headquartered in Nishi-Gotanda, Shinagawa-ku, that connects mid- and large-scale Japanese farms and production areas with food-service and food-manufacturing buyers. It supports growers from GAP certification through to the sale of the certified produce, runs a B2B direct-sales channel for GAP-certified commercial agricultural products, sells crop-protection materials and fertilizer, and operates its own production management system for cultivation history and traceability. It holds JGAP group certification (March 2023) and is a GAP partner of Japan's Ministry of Agriculture, Forestry and Fisheries. Its software reaches farms, buyers and staff as closed, credentialed web applications; the company publishes no developer program, no public API, and no machine-readable contract on any host it operates.",
+     "rank": 106
+    },
+    {
+     "name": "Agrist",
+     "slug": "agrist",
+     "description": "AGRIST Inc. (AGRIST株式会社) is a Japanese deep-tech agricultural robotics company founded in October 2019 and headquartered in Shintomi-cho, Koyu-gun, Miyazaki Prefecture, with an AI robot farm in Higashikushira (Kagoshima), an AI robot test facility in Shintomi-cho and the AGRIST Joso Farm in Joso City, Ibaraki. Its flagship product is \"L\", an automatic bell-pepper harvesting robot that travels along overhead wires strung between greenhouse rows rather than on ground rails, using multiple cameras and a proprietary computer-vision model to find and cut harvest-ready fruit through layered foliage; a cucumber harvesting robot followed. Around the hardware the company sells AGRIST Ai, a greenhouse cultivation-support and yield-forecasting system fed by robot patrol data and environmental sensors, and it operates its own farms plus Smart Agri University (SAU), a nine-month smart-agriculture training program. AGRIST is venture-backed through a Series B that includes Mizuho Capital, Global Infrastructure Management, Nippon Steel Kowa Real Estate, Nippon Express Holdings, Takamiya and Sparx, and has taken more than 27 domestic and international awards including a CES 2023 Innovation Award and a Japanese Minister of Agriculture, Forestry and Fisheries Award. It is a robotics and farm-operations business, not a software vendor: as of 2026-09-13 it publishes no developer program, no public API, no SDK and no machine-readable API contract of any kind.",
+     "rank": 107
+    },
+    {
+     "name": "AgroDesign Studios",
+     "slug": "agrodesignstudio",
+     "description": "AgroDesign Studios (株式会社アグロデザイン・スタジオ) is a Japanese structural-biology startup founded 30 March 2018 by CEO Yuki Nishigaya, based in the University of Tokyo Kashiwa-II campus industry-academia building in Kashiwa, Chiba. It applies protein and nucleic-acid 3D structure information to the discovery of molecular-targeted, environmentally safer crop-protection chemicals. Its commercial surface is contract research rather than software: the AgroBox® service brand sells X-ray crystallography, cryo-EM, fragment screening and structure-based drug design (SBDD) engagements, and AgroDesign.SHOP sells lab-automation robots, cultivation kits and experimental materials. The company publishes no first-party API, SDK or developer program; its only machine-callable agent surface is the Wix platform Site MCP endpoint served on each of its two Wix-hosted sites.",
+     "rank": 108
+    },
+    {
+     "name": "Takeda Pharmaceutical Company",
+     "slug": "takeda-pharmaceutical-company",
+     "description": "Takeda Pharmaceutical Company Limited is a Japanese multinational biopharmaceutical company headquartered in Tokyo, founded in 1781 and listed on the Tokyo Stock Exchange (4502) and the New York Stock Exchange (TAK). It is the largest pharmaceutical company in Japan and Asia, and operates globally across oncology, rare genetic and hematologic diseases, neuroscience, gastroenterology, plasma-derived therapies and vaccines, a portfolio substantially expanded by its 2019 acquisition of Shire. Takeda is a software consumer rather than a software vendor: it runs large internal API and data platforms, but publishes no public developer program, API reference or machine-readable contract. The one machine-readable document it does serve to automated clients is an llms.txt at its corporate root, which indexes its verified country websites and states an explicit LLM usage and attribution policy.",
+     "rank": 109
     }
    ]
   }

@@ -12,31 +12,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: derived
-    idempotency: verified
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 34.5
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -286,50 +261,6 @@ rules:
     info: 1
     warn: 4
   slug: sendle-jsonschema-spectral-rules
-score:
-  band: developing
-  composite: 46.3
-  coverage:
-    artifact_dirs: 28
-    catalog_earned: 90.5
-    catalog_earned_first_party: 24.0
-    catalog_gap: 24.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 39.5
-    contract_governance: 33.3
-    contract_quality: 72.4
-    developer_ergonomics: 17.9
-    discoverability: 75.9
-    operational_transparency: 44.7
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - australia
-    - canada
-    - united-states
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - anz
-    - north-america
-  previous_composite: 46.3
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
-    mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png
 security:
 - kind: authentication

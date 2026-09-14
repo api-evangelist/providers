@@ -61,5 +61,6 @@ tags:
 - Debugging
 - AWS Lambda
 - Defunct
+- Developer Tools
 website: https://www.thundra.io
 ---

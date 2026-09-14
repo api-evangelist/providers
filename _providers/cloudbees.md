@@ -11,32 +11,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 44.1
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -337,7 +311,7 @@ modified: '2026-09-05'
 name: CloudBees
 nav: Providers
 network: true
-overview: 'CloudBees publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Unify Platform API, Computer API, CreateItem API, and 5 more. Tagged areas include CI/CD, Continuous Delivery, Continuous Integration, DevOps, and Feature Flags.
+overview: 'CloudBees publishes 8 APIs on the [APIs.io](https://apis.io/) network, including Unify Platform API, Computer API, CreateItem API, and 5 more. Tagged areas include CI/CD, Continuous Delivery, Continuous Integration, Developer Tools, and DevOps.
 
 
   The CloudBees catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 1 Spectral governance ruleset.
@@ -370,41 +344,6 @@ scopes:
   scope_count: 4
   slug: cloudbees-scopes
   summary_line: 4 scopes · authorizationCode
-score:
-  band: exemplar
-  composite: 66.6
-  coverage:
-    artifact_dirs: 27
-    catalog_earned: 72.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 43.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 55.3
-    contract_governance: 72.7
-    contract_quality: 58.1
-    developer_ergonomics: 75.6
-    discoverability: 72.2
-    operational_transparency: 81.6
-  previous_composite: 66.6
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 22.2
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/screenshots/cloudbees-2026-06-20T174542.png
 security:
 - kind: authentication
@@ -428,6 +367,7 @@ tags:
 - CI/CD
 - Continuous Delivery
 - Continuous Integration
+- Developer Tools
 - DevOps
 - Feature Flags
 - Feature Management

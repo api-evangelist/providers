@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 28.2
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://api.automile.com
@@ -791,40 +766,6 @@ scopes:
   scope_count: 2
   slug: automile-scopes
   summary_line: 2 scopes · implicit
-score:
-  band: developing
-  composite: 44.9
-  coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 55.8
-    developer_ergonomics: 51.8
-    discoverability: 75.9
-    operational_transparency: 10.5
-  previous_composite: 44.9
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 78
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 50.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/automile/refs/heads/main/screenshots/automile-2026-07-25T201834.png
 security:
 - kind: authentication

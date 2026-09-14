@@ -27,21 +27,14 @@
       "developer_ergonomics": 94.6,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 93.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2-sca",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 45.7,
      "agent_band": "agent-native",
@@ -85,7 +78,7 @@
       "developer_ergonomics": 82.1,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -136,7 +129,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 81.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -187,25 +180,14 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 63.3,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "fdx",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 40.5,
      "agent_band": "agent-native",
@@ -249,7 +231,7 @@
       "developer_ergonomics": 73.2,
       "access_clarity": 65.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -300,7 +282,7 @@
       "developer_ergonomics": 74.4,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -347,57 +329,6 @@
    "shown": 13,
    "providers": [
     {
-     "name": "FIS Global",
-     "slug": "fis",
-     "description": "FIS (Fidelity National Information Services) is a global leader in financial technology providing APIs for core banking, payments, wealth management, and capital markets through the CodeConnect API marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment infrastructure.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png",
-     "score": 65.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 70.3,
-      "contract_governance": 14.4,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 63.7,
-      "access_clarity": 81.6
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 67.1,
-      "matched_via": "tags"
-     },
-     "agent_score": 44.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": "documented",
-      "mcp_server": "verified",
-      "auth_clarity": "negotiable",
-      "idempotency": false,
-      "error_semantics": "verified",
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": true,
-      "agent_skills": "derived",
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Acquirers & Processors",
-     "rank": 7
-    },
-    {
      "name": "Fireblocks",
      "slug": "fireblocks",
      "description": "Fireblocks is an institutional digital-asset and stablecoin infrastructure company providing MPC-secured custody, wallets (custodial and non-custodial / embedded), payments, tokenization, staking, smart contracts, off-exchange settlement, and DeFi security to trading firms, fintechs, exchanges, payment service providers, banks, financial institutions, and Web3 companies. The Fireblocks REST API exposes 236+ operations across 15 surface areas — Vaults, Transactions, Wallets, Assets, Exchange, Tokenization, Contracts, Staking, NFTs, Payments, Network/Off-Exchange, Compliance, Gas Station, Workspace Management, and Webhooks — alongside the separate Non-Custodial Wallet (NCW) API for embedded wallets.",
@@ -413,7 +344,7 @@
       "developer_ergonomics": 70.2,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -443,7 +374,7 @@
       "agentic_commerce": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 8
+     "rank": 7
     },
     {
      "name": "Socure",
@@ -461,7 +392,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 78.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -491,7 +422,7 @@
       "agentic_commerce": false
      },
      "tier": "Fraud, Risk & Identity",
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Cash App",
@@ -509,7 +440,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -542,7 +473,7 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Dwolla",
@@ -560,7 +491,7 @@
       "developer_ergonomics": 72.0,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -593,7 +524,7 @@
       "agentic_commerce": false
      },
      "tier": "Financial Data & Aggregation",
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Flywire",
@@ -611,21 +542,14 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 93.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -651,7 +575,7 @@
       "agentic_commerce": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Payabli",
@@ -669,7 +593,7 @@
       "developer_ergonomics": 86.9,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -702,6 +626,57 @@
       "agentic_commerce": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 12
+    },
+    {
+     "name": "FIS Global",
+     "slug": "fis",
+     "description": "FIS (Fidelity National Information Services) is a global leader in financial technology providing APIs for core banking, payments, wealth management, and capital markets through the CodeConnect API marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment infrastructure.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png",
+     "score": 59.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 70.3,
+      "contract_governance": 14.4,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 47.0,
+      "access_clarity": 68.4
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.1,
+      "matched_via": "tags"
+     },
+     "agent_score": 44.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": "documented",
+      "mcp_server": "verified",
+      "auth_clarity": "negotiable",
+      "idempotency": false,
+      "error_semantics": "verified",
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": true,
+      "agent_skills": "derived",
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Acquirers & Processors",
      "rank": 13
     },
     {
@@ -720,7 +695,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -771,7 +746,7 @@
       "developer_ergonomics": 81.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -822,7 +797,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 67.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -873,7 +848,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -924,7 +899,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -975,7 +950,7 @@
       "developer_ergonomics": 39.3,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1037,7 +1012,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1088,7 +1063,7 @@
       "developer_ergonomics": 75.6,
       "access_clarity": 3.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1139,7 +1114,7 @@
       "developer_ergonomics": 51.2,
       "access_clarity": 55.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1190,7 +1165,7 @@
       "developer_ergonomics": 3.6,
       "access_clarity": 68.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1199,13 +1174,13 @@
       "score": 71.9,
       "matched_via": "tags"
      },
-     "agent_score": 29.0,
+     "agent_score": 39.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "na",
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "negotiable",
       "idempotency": "na",
       "error_semantics": false,
@@ -1241,7 +1216,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1292,7 +1267,7 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1301,13 +1276,13 @@
       "score": 31.3,
       "matched_via": "tags"
      },
-     "agent_score": 20.9,
-     "agent_band": "agent-aware",
+     "agent_score": 29.5,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -1343,7 +1318,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1394,21 +1369,14 @@
       "developer_ergonomics": 71.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 68.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2-sca",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 26.1,
      "agent_band": "agent-aware",
@@ -1452,7 +1420,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1503,7 +1471,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1554,7 +1522,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1605,7 +1573,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1656,7 +1624,7 @@
       "developer_ergonomics": 63.7,
       "access_clarity": 7.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1707,7 +1675,7 @@
       "developer_ergonomics": 56.0,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1758,7 +1726,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1809,7 +1777,7 @@
       "developer_ergonomics": 46.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1860,7 +1828,7 @@
       "developer_ergonomics": 25.0,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1911,7 +1879,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1962,7 +1930,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2013,7 +1981,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2064,7 +2032,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2115,7 +2083,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2176,7 +2144,7 @@
       "developer_ergonomics": 45.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2227,7 +2195,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2277,21 +2245,14 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 75.0,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -2335,7 +2296,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2385,7 +2346,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 19.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2436,7 +2397,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2487,7 +2448,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2538,7 +2499,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2547,13 +2508,13 @@
       "score": 39.1,
       "matched_via": "tags"
      },
-     "agent_score": 19.8,
+     "agent_score": 28.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -2589,7 +2550,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -2637,7 +2598,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2688,7 +2649,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2739,7 +2700,7 @@
       "developer_ergonomics": 34.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2790,7 +2751,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2851,7 +2812,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2902,7 +2863,7 @@
       "developer_ergonomics": 33.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2953,7 +2914,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3004,21 +2965,14 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 34.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "psd2",
-        "jurisdiction": "EU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 5.0,
      "agent_band": "human-only",
@@ -3062,21 +3016,14 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 50.0,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3120,7 +3067,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3171,7 +3118,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3222,7 +3169,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3283,7 +3230,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -3331,7 +3278,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3340,13 +3287,13 @@
       "score": 15.6,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
+     "agent_score": 2.2,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "platform",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -3381,7 +3328,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3424,7 +3371,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

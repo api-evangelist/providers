@@ -8,33 +8,12 @@ access_model:
   source: []
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-12'
-api_count: 0
-artifact_total: 1
+api_count: 1
+apis:
+- description: 'The public Esri ArcGIS Online feature-service catalog Hawaiian Electric serves under tenant gfBpz2hbsVDgru6D. Twenty-three FeatureServers are shared publicly and answer anonymous queries: the External'
+  name: Hawaiian Electric Grid Data (ArcGIS REST Feature Services)
+  slug: hawaiian-electric-grid-data-arcgis-rest-feature-services
+artifact_total: 5
 common:
 - group: auth
   title: ''
@@ -52,18 +31,10 @@ common:
   title: ''
   type: Subsidiary
   url: https://www.hawaiianelectric.com/
-- group: other
-  title: ''
-  type: Subsidiary
-  url: https://pacificcurrent.com/
 - group: company
   title: ''
   type: InvestorRelations
   url: https://www.hei.com/investor-relations/
-- group: other
-  title: ''
-  type: SECFilings
-  url: https://www.hei.com/investor-relations/sec-filings/
 - group: operate
   title: ''
   type: PressReleases
@@ -72,19 +43,54 @@ common:
   title: ''
   type: Sustainability
   url: https://www.hei.com/sustainability/
+- group: other
+  title: ''
+  type: Subsidiary
+  url: https://pacificcurrenthawaii.com/
+- group: other
+  title: ''
+  type: SECFilings
+  url: https://www.hei.com/investor-relations/reports-and-filings/default.aspx
 - group: operate
   title: ''
   type: ContactUs
-  url: https://www.hei.com/contact-us/
+  url: https://www.hei.com/investor-relations/contact-us/default.aspx
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.hawaiianelectric.com/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.hawaiianelectric.com/privacy-notice/customer-information-privacy-policy
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.hawaiianelectric.com/about-us/newsroom
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hawaiian-electric-industries-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hawaiian-electric-industries-packages.yml
 created: '2026-03-24'
-description: Hawaiian Electric Industries (HEI) is a Hawaii-based holding company whose primary subsidiaries provide electric utility service to roughly 95% of Hawaii's residents through Hawaiian Electric, and clean-energy investments through Pacific Current. HEI does not publish public developer APIs at this time; this index tracks the company and its subsidiaries for API discovery purposes.
+description: 'Hawaiian Electric Industries (HEI) is a Honolulu-based holding company whose principal subsidiary, Hawaiian Electric, delivers electricity to roughly 95% of Hawaii''s residents through three operating utilities — Hawaiian Electric (Oahu), Hawaii Electric Light (Hawaii Island) and Maui Electric (Maui County) — alongside Pacific Current, its clean-energy and sustainability investment arm. HEI runs no developer program and publishes no OpenAPI, SDK or MCP server. It does serve one real, anonymously callable machine-readable surface: a public Esri ArcGIS REST feature-service catalog carrying the Locational Value Maps, published grid needs and EV charging locations that its own hawaiianelectric.com map applications consume.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hawaiian-electric-industries.png
 layout: provider
-modified: '2026-04-28'
+modified: '2026-09-13'
 name: Hawaiian Electric Industries
 nav: Providers
 network: true
-overview: Hawaiian Electric Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Holding Company, Hawaii, and Fortune 1000.
+overview: 'Hawaiian Electric Industries publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Utilities, Electricity, Grid, and Holding Company.
+
+
+  Hawaiian Electric Industries'' developer surface includes engineering blog and 14 more developer resources.'
+plans:
+- name: Hawaiian Electric Industries Plans Pricing
+  plan_count: 0
+  slug: hawaiian-electric-industries-plans-pricing
 press:
 - date: '2026-05-25'
   title: Hawaiian Electric Industries Inc. has sold over 90% of its ...
@@ -102,45 +108,16 @@ press:
   title: 'Wall Street Recap: Can Hawaiian Electric Industries Inc. (HWI) stock ...'
   url: https://www.fitnessatfive.com/ati-del/258/Can-Hawaiian-Electric-Industries-Inc.-(HWI)-stock-sustain-institutional-flows
 random_paper: 9
-score:
-  band: minimal
-  composite: 3.3
-  coverage:
-    artifact_dirs: 5
-    catalog_earned: 27.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 88.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 50.0
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - north-america
-  previous_composite: 3.3
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Energy & Utilities
-    regime_id: energy_utilities
-    score: 8.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+rate_limits:
+- limit_count: 3
+  name: Hawaiian Electric Industries Rate Limits
+  slug: hawaiian-electric-industries-rate-limits
 screenshot: https://raw.githubusercontent.com/api-evangelist/hawaiian-electric-industries/refs/heads/main/screenshots/hawaiian-electric-industries-2026-06-20T182541.png
 security:
+- kind: authentication
+  name: Hawaiian Electric Industries Authentication
+  slug: hawaiian-electric-industries-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Hawaiian Electric Industries Domain Security
   slug: hawaiian-electric-industries-domain-security
@@ -149,8 +126,15 @@ slug: hawaiian-electric-industries
 tags:
 - Energy
 - Utilities
+- Electricity
+- Grid
 - Holding Company
 - Hawaii
 - Fortune 1000
+- Geospatial
+- ArcGIS
+- Open Data
+- Locational Value Map
+- EV Charging
 website: https://www.hei.com/
 ---

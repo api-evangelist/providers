@@ -11,31 +11,6 @@ access_model:
   - https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/apis/get-started-apis
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 29.7
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 3
@@ -765,50 +740,6 @@ scopes:
   scope_count: 0
   slug: adobe-campaign-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: exemplar
-  composite: 74.9
-  coverage:
-    artifact_dirs: 31
-    catalog_earned: 61.5
-    catalog_earned_first_party: 16.0
-    catalog_gap: 53.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 84.2
-    contract_governance: 31.8
-    contract_quality: 74.0
-    developer_ergonomics: 72.0
-    discoverability: 57.4
-    operational_transparency: 65.8
-  open_source:
-    applies: true
-    score: 40.0
-  previous_composite: 74.9
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 17
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 38.9
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-campaign/refs/heads/main/screenshots/adobe-campaign-2026-06-20T164822.png
 security:
 - kind: authentication

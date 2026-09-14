@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: platform
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 34.4
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - baseURL: https://api.carmd.com/
@@ -163,36 +138,6 @@ scopes:
   scope_count: 0
   slug: carmd-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: thin
-  composite: 33.1
-  coverage:
-    artifact_dirs: 21
-    catalog_earned: 51.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 64.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 41.5
-    developer_ergonomics: 30.4
-    discoverability: 81.5
-    operational_transparency: 21.1
-  previous_composite: 33.1
-  provenance:
-    conformance: first-party
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/carmd/refs/heads/main/screenshots/carmd-2026-06-20T174011.png
 security:
 - kind: authentication

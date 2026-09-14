@@ -11,31 +11,6 @@ access_model:
   - sandbox
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: true
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -230,47 +205,6 @@ overview: 'Upsie publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
   Upsie''s developer surface includes documentation, API reference, support, signup flow, authentication, sandbox, and 17 more developer resources.'
 random_paper: 4
-score:
-  band: thin
-  composite: 32.2
-  coverage:
-    artifact_dirs: 17
-    catalog_earned: 40.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 75.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 22.7
-    developer_ergonomics: 43.5
-    discoverability: 81.5
-    operational_transparency: 10.5
-  previous_composite: 32.2
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 9
-      marker_coverage: 100.0
-      total: 9
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 37.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/screenshots/upsie-2026-08-17T082639.png
 security:
 - kind: authentication

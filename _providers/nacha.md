@@ -10,31 +10,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 26.4
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -424,54 +399,6 @@ overview: 'Nacha publishes 19 APIs on the [APIs.io](https://apis.io/) network, i
 
   Nacha''s developer surface includes authentication, API reference, documentation, getting-started guide, engineering blog, and 44 more developer resources.'
 random_paper: 3
-score:
-  band: thin
-  composite: 38.3
-  coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 27.6
-    contract_governance: 4.5
-    contract_quality: 50.4
-    developer_ergonomics: 54.2
-    discoverability: 75.9
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - united-states
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - north-america
-  previous_composite: 38.3
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 36.8
-      derived: 0
-      marker_coverage: 0.0
-      total: 19
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 45.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nacha/refs/heads/main/screenshots/nacha-2026-08-07T184604.png
 security:
 - kind: authentication

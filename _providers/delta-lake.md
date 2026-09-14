@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: documented
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 27.5
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: The Delta Lake storage framework defines the on-disk transaction log and protocol that adds ACID transactions, schema enforcement, and time travel to Parquet-based data lakes. Delta Lake exposes Spark
@@ -206,44 +181,6 @@ rate_limits:
 - limit_count: 0
   name: Delta Lake Rate Limits
   slug: delta-lake-rate-limits
-score:
-  band: developing
-  composite: 48.7
-  coverage:
-    artifact_dirs: 24
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 28.9
-    contract_governance: 33.3
-    contract_quality: 50.9
-    developer_ergonomics: 63.7
-    discoverability: 72.2
-    operational_transparency: 34.2
-  open_source:
-    applies: true
-    score: 65.0
-  previous_composite: 48.7
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-lake/refs/heads/main/screenshots/delta-lake-2026-06-20T175901.png
 security:
 - kind: authentication

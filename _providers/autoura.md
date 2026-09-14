@@ -1,45 +1,28 @@
 ---
 access_model:
-  confidence: medium
-  label: Freemium
-  onboarding: unknown
-  pricing: freemium
-  public: false
+  confidence: high
+  label: Paid subscription, with a published public test API key for evaluation
+  onboarding: self-serve
+  pricing: paid
+  public: true
   source:
   - plans
+  - docs
   trial: false
-  try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-12'
-api_count: 1
+  try_now: true
+api_count: 2
 apis:
 - description: The Autoura Experience API provides access to tourism content including cuisine guides, destination information, tour itineraries, local activities, and points of interest. Developers can integrate Au
   name: Autoura Experience API
   slug: autoura-api
-artifact_total: 17
+- description: 'Autoura''s hosted remote Model Context Protocol server, the surface it builds for AI agents first. One endpoint carries two permission-scoped tool sets: a B2B set for brands, attractions, tour operator'
+  name: Autoura MCP Server
+  slug: autoura-mcp
+artifact_total: 22
+asyncapis:
+- description: ''
+  name: Autoura Webhooks
+  slug: autoura-webhooks
 common:
 - group: auth
   title: ''
@@ -60,13 +43,113 @@ common:
 - group: docs
   title: ''
   type: Documentation
-  url: https://www.autoura.com/docs/api/cuisines
+  url: https://www.autoura.com/docs/api
 - group: agent
   title: ''
-  type: LlmsText
-  url: https://www.autoura.com/llms.txt
+  type: MCPServer
+  url: mcp/autoura-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/autoura-tool-crosswalk.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/autoura-well-known.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/autoura-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/autoura-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/autoura-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/autoura-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/autoura-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/autoura-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/autoura-conformance.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/autoura-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/autoura-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/autoura-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/autoura-components.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/autoura-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/autoura-rate-limits.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/autoura-llms.txt
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.autoura.com/docs/api
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.autoura.com/docs/api
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.autoura.com/docs/api/authentication
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.autoura.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.autoura.com/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.autoura.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.autoura.com/legal/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.autoura.com/contact
 created: '2025-03-01'
-description: Autoura is a digital experience platform for real-world tourism and travel experiences. They develop software and APIs that enable travel companies, destination management organizations, and developers to access and integrate tourism content including destination information, tour itineraries, cuisine guides, activities, and interactive local experience recommendations.
+description: 'Autoura is a UK digital experience platform (DXP) for real-world tourism and travel experiences, operated by The Spontaneous Travel Company Limited. It structures and maintains experience data — venues, attractions, tours, routes, stops, accessibility and dietary signals, AI guide characters and storytelling — so travel companies, destination management organizations and, increasingly, AI agents can act on it. Autoura is agent-native rather than agent-adjacent: it advertises its own agent skill from a link rel="ai-skill" element in its homepage head, runs a hosted remote MCP server behind OAuth 2.1 with PKCE and dynamic client registration, exposes the same tool set as WebMCP on its PlanMyVisit consumer product, and addresses consumer profiles by DID with DIDComm v2 messaging. A REST API over api.autoura.com serves routes, stops, visits, characters, MoveMe audio and a consent-brokered consumer preference graph, with dietary requirements keyed on IATA airline special-meal codes.'
 features:
 - description: Access rich destination content including local attractions, points of interest, neighborhood guides, and cultural highlights for tourism applications and travel content platforms.
   name: Destination Content API
@@ -91,51 +174,41 @@ integrations:
 - description: Embed Autoura destination content into CMS-based tourism websites using API integrations for dynamic content delivery.
   name: CMS Platforms
 layout: provider
-modified: '2026-04-19'
+mcp_servers:
+- description: ''
+  name: Autoura MCP Server
+  slug: autoura-mcp-server
+modified: '2026-09-13'
 name: Autoura
 nav: Providers
 network: true
-overview: 'Autoura publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Tourism, Tours, Travel, Destinations, and Experience.
+overview: 'Autoura publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Tourism, Tours, Travel, Destinations, and Experience.
 
 
-  Autoura''s developer surface includes documentation and 5 more developer resources.'
+  The Autoura catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Autoura''s developer surface includes documentation, authentication, changelog, sandbox, API reference, getting-started guide, pricing, and 24 more developer resources.'
 plans:
 - name: Autoura Plans Pricing
   plan_count: 3
   slug: autoura-plans-pricing
 random_paper: 13
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Autoura Rate Limits
   slug: autoura-rate-limits
-score:
-  band: emerging
-  composite: 11.2
-  coverage:
-    artifact_dirs: 6
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 15.8
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 0.0
-    discoverability: 66.7
-    operational_transparency: 10.5
-  previous_composite: 11.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+scopes:
+- name: Autoura Scopes
+  scope_count: 3
+  slug: autoura-scopes
+  summary_line: 3 scopes · authorizationCode
 screenshot: https://raw.githubusercontent.com/api-evangelist/autoura/refs/heads/main/screenshots/autoura-2026-06-20T172710.png
 security:
+- kind: authentication
+  name: Autoura Authentication
+  slug: autoura-authentication
+  summary_line: apiKey/http/oauth2/openIdConnect · 6 schemes
 - kind: domain-security
   name: Autoura Domain Security
   slug: autoura-domain-security

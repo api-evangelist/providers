@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: true
-    dynamic_client_registration: true
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: documented
-    mcp_server: verified
-    openapi_examples: partial
-    protected_resource_metadata: verified
-    rate_limit_signal: false
-    reversibility_documented: verified
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 63.1
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 124
   human_in_the_loop: 7
@@ -544,41 +519,6 @@ scopes:
   scope_count: 8
   slug: duvo-ai-scopes
   summary_line: 8 scopes
-score:
-  band: developing
-  composite: 53.9
-  coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 38.2
-    contract_governance: 4.5
-    contract_quality: 62.4
-    developer_ergonomics: 73.2
-    discoverability: 75.9
-    operational_transparency: 10.5
-  previous_composite: 53.9
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 52
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 72.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/duvo-ai/refs/heads/main/screenshots/duvo-ai-2026-07-25T212653.png
 security:
 - kind: authentication

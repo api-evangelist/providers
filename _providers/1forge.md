@@ -10,31 +10,6 @@ access_model:
   - authentication
   trial: true
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: na
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: derived
-    idempotency: na
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: na
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -271,45 +246,6 @@ rules:
     info: 4
     warn: 18
   slug: 1forge-rules
-score:
-  band: thin
-  composite: 38.9
-  coverage:
-    artifact_dirs: 16
-    catalog_earned: 80.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 34.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 52.6
-    contract_governance: 28.8
-    contract_quality: 29.9
-    developer_ergonomics: 28.6
-    discoverability: 81.5
-    operational_transparency: 23.7
-  previous_composite: 38.9
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 6
-      marker_coverage: 100.0
-      total: 6
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 38.3
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/screenshots/1forge-2026-06-20T162445.png
 security:
 - kind: authentication

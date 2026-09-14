@@ -1,6 +1,6 @@
 {
- "total": 207,
- "shown": 207,
+ "total": 208,
+ "shown": 208,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 71.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -127,7 +127,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 84.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -177,7 +177,7 @@
       "developer_ergonomics": 77.4,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -220,7 +220,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -281,7 +281,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 63.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.9,
      "agent_band": "agent-aware",
@@ -324,21 +324,14 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 27.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.6,
      "agent_band": "agent-aware",
@@ -381,7 +374,7 @@
       "developer_ergonomics": 68.5,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -431,7 +424,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -481,7 +474,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -531,7 +524,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 69.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 42.8,
      "agent_band": "agent-ready",
@@ -574,7 +567,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -617,7 +610,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -667,7 +660,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -717,7 +710,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -767,7 +760,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -817,7 +810,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -878,7 +871,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -921,7 +914,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -964,7 +957,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1013,7 +1006,7 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1063,7 +1056,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.8,
      "agent_band": "agent-aware",
@@ -1106,7 +1099,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1149,7 +1142,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1192,7 +1185,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1242,7 +1235,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 57.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -1285,7 +1278,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1334,7 +1327,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1383,7 +1376,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1433,7 +1426,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.4,
      "agent_band": "agent-aware",
@@ -1476,7 +1469,7 @@
       "developer_ergonomics": 64.3,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1526,7 +1519,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1576,7 +1569,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1626,7 +1619,7 @@
       "developer_ergonomics": 32.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1676,7 +1669,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1719,7 +1712,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 17.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1769,7 +1762,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1819,7 +1812,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 26.8,
      "agent_band": "agent-aware",
@@ -1862,7 +1855,7 @@
       "developer_ergonomics": 33.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1912,7 +1905,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1962,7 +1955,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2012,7 +2005,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2062,7 +2055,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2112,7 +2105,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -2155,7 +2148,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.8,
      "agent_band": "agent-aware",
@@ -2198,7 +2191,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2248,7 +2241,7 @@
       "developer_ergonomics": 47.6,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2298,7 +2291,7 @@
       "developer_ergonomics": 54.2,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2348,7 +2341,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2398,7 +2391,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 45.0,
      "agent_band": "agent-native",
@@ -2441,7 +2434,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2491,7 +2484,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -2525,8 +2518,8 @@
    "label": "Emerging",
    "range": "11 – 26.1",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 80,
-   "shown": 80,
+   "count": 81,
+   "shown": 81,
    "providers": [
     {
      "name": "SideChef",
@@ -2544,7 +2537,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 7.9,
      "agent_band": "agent-aware",
@@ -2587,7 +2580,7 @@
       "developer_ergonomics": 28.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2637,29 +2630,14 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "ccpa-cpra",
-        "jurisdiction": "US"
-       },
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       },
-       {
-        "standard": "hitrust",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2702,7 +2680,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2752,7 +2730,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -2795,7 +2773,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2845,7 +2823,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2895,7 +2873,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -2938,7 +2916,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2988,25 +2966,14 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 53.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 30.0,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 2,
-      "jurisdictions": [
-       {
-        "standard": "gdpr",
-        "jurisdiction": "EU"
-       },
-       {
-        "standard": "hipaa",
-        "jurisdiction": "US"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3049,7 +3016,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3099,7 +3066,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 10.6,
      "agent_band": "agent-aware",
@@ -3142,7 +3109,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3192,7 +3159,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 5.6,
      "agent_band": "agent-aware",
@@ -3235,7 +3202,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 8.8,
      "agent_band": "agent-aware",
@@ -3278,7 +3245,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.6,
      "agent_band": "agent-ready",
@@ -3321,7 +3288,7 @@
       "developer_ergonomics": 18.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -3364,7 +3331,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3414,7 +3381,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3457,7 +3424,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3507,7 +3474,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3557,7 +3524,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 18.7,
      "agent_band": "agent-aware",
@@ -3600,7 +3567,7 @@
       "developer_ergonomics": 20.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.0,
      "agent_band": "agent-ready",
@@ -3642,7 +3609,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 9.2,
      "agent_band": "agent-aware",
@@ -3685,7 +3652,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3735,7 +3702,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "undetermined": true,
@@ -3782,7 +3749,7 @@
       "developer_ergonomics": 27.4,
       "access_clarity": 32.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3832,7 +3799,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3882,7 +3849,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -3932,7 +3899,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -3975,7 +3942,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4025,7 +3992,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4075,7 +4042,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -4118,7 +4085,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4168,7 +4135,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4211,7 +4178,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4254,7 +4221,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4304,7 +4271,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4313,13 +4280,13 @@
       "score": 17.5,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -4354,7 +4321,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4404,7 +4371,7 @@
       "developer_ergonomics": 1.2,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4454,7 +4421,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4489,56 +4456,6 @@
      "rank": 93
     },
     {
-     "name": "Foodvisor",
-     "slug": "foodvisor",
-     "description": "Foodvisor is a French mobile nutrition platform whose app identifies food items from a photograph using computer vision and returns nutritional information — calories, macronutrients and portion estimates. Between 2023 and 2025 Foodvisor also sold that capability to developers as the Foodvisor Vision API, a commercial image-recognition and nutrition-analysis service documented at vision.foodvisor.io. That developer product has since been withdrawn: the Vision product page now returns HTTP 404, the documentation host no longer resolves in DNS, and the live site carries no API, developer or enterprise content. Foodvisor today publishes no machine-readable contract, no SDK, no MCP server and no /.well-known document, and operates as a consumer subscription app.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foodvisor/refs/heads/main/screenshots/foodvisor-2026-06-20T181405.png",
-     "score": 14.5,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 2.6,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 42.1
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 94
-    },
-    {
      "name": "Cookunity",
      "slug": "cookunity",
      "description": "CookUnity is the first chef-to-consumer meal marketplace, connecting award-winning chefs with food lovers nationwide. Chefs craft restaurant-quality meals in local kitchens and deliver them fresh, ready to heat in two minutes, with more than 300 rotating dishes spanning a wide range of cuisines and dietary options (keto, vegan, paleo, high-protein, gluten-free and more). Subscribers choose four to sixteen meals per week on a flexible weekly plan. The company also runs a chef marketplace onboarding culinary entrepreneurs, a CookUnity for Business program for corporate, healthcare and education clients, and gift cards. CookUnity is a consumer brand and does not publish a public developer API; this profile tracks its public web, identity, and domain-security surface. It was surfaced as a portfolio company of General Catalyst and Insight Partners.",
@@ -4554,7 +4471,50 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 94
+    },
+    {
+     "name": "Linas Matkasse",
+     "slug": "linas-matkasse",
+     "description": "Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a \"Mina Sidor\" customer account area; it publishes no public developer portal, API documentation, or SDKs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/screenshots/linas-matkasse-2026-07-25T225218.png",
+     "score": 14.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 34.2
+     },
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4582,23 +4542,30 @@
      "rank": 95
     },
     {
-     "name": "Linas Matkasse",
-     "slug": "linas-matkasse",
-     "description": "Linas Matkasse is a Swedish meal-kit subscription service that delivers pre-portioned ingredients and nutritionally calculated recipes to customers' homes each week. Customers pick from more than 150 weekly recipes across concepts such as Chef's Choice, Family Favorites, Quick & Easy, Calorie-Smart, Vegetarian, Gluten-Free and Lactose-Free, and can change their selection until Tuesday night before a Saturday-to-Monday delivery. The brand is operated by Cheffelo, a Scandinavian meal-kit group listed on Nasdaq First North Growth Market that also runs Godtlevert in Norway and RetNemt in Denmark and delivers roughly 17 million meals a year. Linas Matkasse runs a consumer subscription e-commerce storefront and a \"Mina Sidor\" customer account area; it publishes no public developer portal, API documentation, or SDKs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/linas-matkasse/refs/heads/main/screenshots/linas-matkasse-2026-07-25T225218.png",
-     "score": 14.3,
+     "name": "Calibrate",
+     "slug": "calibrate",
+     "description": "Calibrate is a telehealth metabolic-health and weight-loss company that pairs clinician-prescribed GLP-1 medications with 1:1 video coaching and a science-backed educational curriculum to help members improve metabolic health and achieve sustainable weight loss. Programs are sold directly to individuals (from $199/month) and through employer benefits. Calibrate delivers its service through consumer web and iOS mobile apps rather than a public developer API; this profile tracks the company's public web and account surface. Backed by Threshold Ventures.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calibrate/refs/heads/main/screenshots/calibrate-2026-07-25T204230.png",
+     "score": 13.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
-      "operational_transparency": 2.6,
+      "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
+      "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -4625,22 +4592,22 @@
      "rank": 96
     },
     {
-     "name": "Calibrate",
-     "slug": "calibrate",
-     "description": "Calibrate is a telehealth metabolic-health and weight-loss company that pairs clinician-prescribed GLP-1 medications with 1:1 video coaching and a science-backed educational curriculum to help members improve metabolic health and achieve sustainable weight loss. Programs are sold directly to individuals (from $199/month) and through employer benefits. Calibrate delivers its service through consumer web and iOS mobile apps rather than a public developer API; this profile tracks the company's public web and account surface. Backed by Threshold Ventures.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/calibrate/refs/heads/main/screenshots/calibrate-2026-07-25T204230.png",
-     "score": 13.9,
+     "name": "FitOn",
+     "slug": "fiton",
+     "description": "FitOn is a consumer digital fitness and wellness platform offering free, on-demand workout classes (cardio, strength, yoga, Pilates, HIIT), guided meditation, personalized meal plans and nutrition tracking, recipes, and social challenges. FitOn serves 15 million+ members with celebrity and world-class trainers across mobile, web, and connected-TV apps (Apple TV, Roku, Chromecast, Fire TV). Its FitOn Health arm delivers an enterprise wellness benefit to employers, health plans, and brokers. FitOn is backed by Accel. As of this enrichment pass FitOn publishes no public developer API, developer portal, SDKs, or OpenAPI; consumer and B2B integration is handled through partnership programs rather than a self-serve API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiton/refs/heads/main/screenshots/fiton-2026-07-25T214634.png",
+     "score": 13.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 57.4,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
-      "access_clarity": 38.2
+      "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4675,56 +4642,6 @@
      "rank": 97
     },
     {
-     "name": "FitOn",
-     "slug": "fiton",
-     "description": "FitOn is a consumer digital fitness and wellness platform offering free, on-demand workout classes (cardio, strength, yoga, Pilates, HIIT), guided meditation, personalized meal plans and nutrition tracking, recipes, and social challenges. FitOn serves 15 million+ members with celebrity and world-class trainers across mobile, web, and connected-TV apps (Apple TV, Roku, Chromecast, Fire TV). Its FitOn Health arm delivers an enterprise wellness benefit to employers, health plans, and brokers. FitOn is backed by Accel. As of this enrichment pass FitOn publishes no public developer API, developer portal, SDKs, or OpenAPI; consumer and B2B integration is handled through partnership programs rather than a self-serve API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiton/refs/heads/main/screenshots/fiton-2026-07-25T214634.png",
-     "score": 13.8,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 34.2
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 98
-    },
-    {
      "name": "Womaness",
      "slug": "womaness",
      "description": "Womaness is a women-founded midlife wellness brand created to modernize aging for women and to help them navigate the phases their bodies move through around menopause. The direct-to-consumer company sells clean, estrogen-free, doctor-approved and clinically tested skincare, supplements, sexual-health and menopause-support products (including Let's Neck serum, Melt for You inserts and Daily V Soothe) through a Shopify-hosted online store and select retail partners. Surfaced as a portfolio company of Obvious Ventures and added to the API Evangelist network; it is a consumer e-commerce brand with no first-party public developer API surface.",
@@ -4740,7 +4657,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4772,7 +4689,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 99
+     "rank": 98
     },
     {
      "name": "LabDoor",
@@ -4790,7 +4707,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4822,7 +4739,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 100
+     "rank": 99
     },
     {
      "name": "Seed Health",
@@ -4840,7 +4757,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4872,7 +4789,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 101
+     "rank": 100
     },
     {
      "name": "Colgate-Palmolive",
@@ -4890,7 +4807,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -4915,7 +4832,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 102
+     "rank": 101
     },
     {
      "name": "Digbi Health",
@@ -4933,7 +4850,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -4965,7 +4882,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 103
+     "rank": 102
     },
     {
      "name": "Marley Spoon",
@@ -4983,7 +4900,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4997,6 +4914,56 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 103
+    },
+    {
+     "name": "Foodvisor",
+     "slug": "foodvisor",
+     "description": "Foodvisor is a French mobile nutrition platform whose app identifies food items from a photograph using computer vision and returns nutritional information — calories, macronutrients and portion estimates. Between 2023 and 2025 Foodvisor also sold that capability to developers as the Foodvisor Vision API, a commercial image-recognition and nutrition-analysis service documented at vision.foodvisor.io. That developer product has since been withdrawn: the Vision product page now returns HTTP 404, the documentation host no longer resolves in DNS, and the live site carries no API, developer or enterprise content. Foodvisor today publishes no machine-readable contract, no SDK, no MCP server and no /.well-known document, and operates as a consumer subscription app.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/foodvisor/refs/heads/main/screenshots/foodvisor-2026-06-20T181405.png",
+     "score": 13.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 59.3,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 2.6,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 35.5
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
       "event_surface_described": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -5026,7 +4993,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5076,7 +5043,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5126,7 +5093,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5176,7 +5143,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5226,7 +5193,7 @@
       "developer_ergonomics": 19.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 10.8,
      "agent_band": "agent-aware",
@@ -5269,7 +5236,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5319,7 +5286,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5328,13 +5295,13 @@
       "score": 17.5,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -5369,7 +5336,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5412,7 +5379,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5455,7 +5422,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5505,7 +5472,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5555,7 +5522,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5605,7 +5572,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5654,7 +5621,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5704,7 +5671,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5713,13 +5680,13 @@
       "score": 25.0,
       "matched_via": "tags"
      },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -5754,7 +5721,7 @@
       "developer_ergonomics": 16.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5804,7 +5771,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5854,7 +5821,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.1,
      "agent_band": "agent-aware",
@@ -5897,7 +5864,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5940,7 +5907,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -5990,7 +5957,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6040,7 +6007,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6090,7 +6057,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6133,7 +6100,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6176,7 +6143,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6219,7 +6186,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6254,10 +6221,10 @@
      "rank": 130
     },
     {
-     "name": "Second Nature",
-     "slug": "second-nature",
-     "description": "Second Nature is a UK-based digital weight-loss programme that combines NHS-trusted, CQC-regulated clinical care with dietitian-led coaching and behaviour-change support. The service pairs weight-loss medication (including Wegovy, Mounjaro, oral semaglutide and Orlistat programmes) with personalised medication reviews, a mobile app for tracking, and a science-based content library of guides and member stories. It operates as a registered pharmacy, supports NHS referrals and partnerships, and was surfaced as a portfolio company of 500 Global and Speedinvest. As of this enrichment pass Second Nature publishes a consumer marketing site and an llms.txt discovery file but exposes no public developer portal, API reference, SDKs, or machine-readable API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/second-nature/refs/heads/main/screenshots/second-nature-2026-09-02T154658.png",
+     "name": "GNC Holdings",
+     "slug": "gnc-holdings",
+     "description": "GNC Holdings, LLC (General Nutrition Centers) is an American specialty retailer of health, wellness, and performance products including vitamins, minerals, herbal supplements, sports nutrition, diet, and energy products. Founded in 1935 and headquartered in Pittsburgh, Pennsylvania, GNC is a wholly owned subsidiary of Harbin Pharmaceutical Group following its 2020 acquisition. The company operates owned and franchised retail locations, online stores, and retail partnerships across approximately 50 countries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gnc-holdings/refs/heads/main/screenshots/gnc-holdings-2026-06-20T181935.png",
      "score": 11.2,
      "band": "emerging",
      "band_label": "Emerging",
@@ -6269,7 +6236,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6304,6 +6271,56 @@
      "rank": 131
     },
     {
+     "name": "Second Nature",
+     "slug": "second-nature",
+     "description": "Second Nature is a UK-based digital weight-loss programme that combines NHS-trusted, CQC-regulated clinical care with dietitian-led coaching and behaviour-change support. The service pairs weight-loss medication (including Wegovy, Mounjaro, oral semaglutide and Orlistat programmes) with personalised medication reviews, a mobile app for tracking, and a science-based content library of guides and member stories. It operates as a registered pharmacy, supports NHS referrals and partnerships, and was surfaced as a portfolio company of 500 Global and Speedinvest. As of this enrichment pass Second Nature publishes a consumer marketing site and an llms.txt discovery file but exposes no public developer portal, API reference, SDKs, or machine-readable API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/second-nature/refs/heads/main/screenshots/second-nature-2026-09-02T154658.png",
+     "score": 11.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 132
+    },
+    {
      "name": "truBrain",
      "slug": "trubrain",
      "description": "truBrain is a Santa Monica, California nootropics and functional-beverage brand that makes \"natural superfuels for performance\" — drinkable nootropic shots (2,000mg of natural nootropics per 1oz bottle for focus and motivation), drinkable ketones (Ketone XL, 11g of pure ketones per shot for athletic energy and recovery), plus gummies, functional-mushroom blends, capsules, NAD+, hydration, and sleep supplements, packaged in recycled paper bottles. Founded by a team of neuroscientists and backed by 500 Global, the company sells direct-to-consumer through a Shopify storefront and has run a Regulation A+ public equity offering. This profile was surfaced from the 500 Global portfolio and added to the API Evangelist network. truBrain is a consumer packaged-goods company: it publishes no first-party developer API, documentation, or SDKs. The only machine-readable surface at its domain is Shopify's Customer Accounts OpenID Connect / OAuth 2.0 discovery metadata.",
@@ -6319,7 +6336,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6351,7 +6368,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 132
+     "rank": 133
     }
    ]
   },
@@ -6360,8 +6377,8 @@
    "label": "Minimal",
    "range": "0 – 10.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 74,
-   "shown": 74,
+   "count": 73,
+   "shown": 73,
    "providers": [
     {
      "name": "ElCoach",
@@ -6379,7 +6396,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6411,7 +6428,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 133
+     "rank": 134
     },
     {
      "name": "Geltor",
@@ -6429,7 +6446,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6461,7 +6478,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 134
+     "rank": 135
     },
     {
      "name": "Blue Apron",
@@ -6479,50 +6496,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 135
-    },
-    {
-     "name": "Little Freddie",
-     "slug": "little-freddie",
-     "description": "Little Freddie (Sunny Fields Enterprise Ltd) is a UK-based organic baby and toddler food brand producing nutritious weaning products for infants from six months, developed with a paediatric dietitian to meet UK and EU baby-food guidelines. Its ranges include Greek-style yoghurts, Simply Fruit purees, Full of Veg meals, dairy-free alternatives, home-style meals and omega-3 \"Good for Brains\" options, sold through major UK retailers including Tesco, Sainsbury's, Asda, Morrisons, Co-op, Ocado, Booths and Spar. The company also runs a Parenting Hub with weaning, nutrition and parenting content. Surfaced as a portfolio company of Hillhouse; this profile currently exposes no public developer API surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/little-freddie/refs/heads/main/screenshots/little-freddie-2026-07-25T225343.png",
-     "score": 10.6,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6550,10 +6524,10 @@
      "rank": 136
     },
     {
-     "name": "Notti",
-     "slug": "notti",
-     "description": "Notti (Notti Pet Food) is a Malaysian pet-nutrition startup selling premium slow-baked kibble, treats, and supplements for dogs (Wou Wou) and cats (Mau Mau) direct-to-consumer through a Shopify storefront. Formulations emphasise \">=80% fresh meat\", low-temperature slow-baking to preserve nutrients, no meat meal or by-products, and AAFCO-compliant nutrition with no chemical preservatives. The company is seed-funded, has been covered by Malaysian business press (The Edge, The Star, Business Today, Free Malaysia Today), and is tracked here as a 500 Global portfolio company. Notti operates as a consumer e-commerce and retail brand and publishes no developer API, documentation, or technical integration surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/notti/refs/heads/main/screenshots/notti-2026-08-07T185600.png",
+     "name": "Little Freddie",
+     "slug": "little-freddie",
+     "description": "Little Freddie (Sunny Fields Enterprise Ltd) is a UK-based organic baby and toddler food brand producing nutritious weaning products for infants from six months, developed with a paediatric dietitian to meet UK and EU baby-food guidelines. Its ranges include Greek-style yoghurts, Simply Fruit purees, Full of Veg meals, dairy-free alternatives, home-style meals and omega-3 \"Good for Brains\" options, sold through major UK retailers including Tesco, Sainsbury's, Asda, Morrisons, Co-op, Ocado, Booths and Spar. The company also runs a Parenting Hub with weaning, nutrition and parenting content. Surfaced as a portfolio company of Hillhouse; this profile currently exposes no public developer API surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/little-freddie/refs/heads/main/screenshots/little-freddie-2026-07-25T225343.png",
      "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6565,7 +6539,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6593,11 +6567,11 @@
      "rank": 137
     },
     {
-     "name": "Alcresta Therapeutics",
-     "slug": "alcresta-therapeutics",
-     "description": "Alcresta Therapeutics is a specialty pharmaceutical company developing enzyme-based products that improve fat absorption and digestive health for people with rare and chronic conditions. Its lead product, the RELiZORB (immobilized lipase) cartridge, uses the company's patented iLipase microbead technology to mimic pancreatic lipase and hydrolyze fats in enteral (tube) feeding formulas, helping patients with exocrine pancreatic insufficiency, cystic fibrosis, short bowel syndrome, and critical-care nutrition needs absorb fatty acids they otherwise could not. Alcresta is backed by Bessemer Venture Partners. The company operates a corporate and product marketing website but publishes no public developer API, SDKs, or machine-readable API specifications at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alcresta-therapeutics/refs/heads/main/screenshots/alcresta-therapeutics-2026-07-25T195547.png",
-     "score": 10.5,
+     "name": "Notti",
+     "slug": "notti",
+     "description": "Notti (Notti Pet Food) is a Malaysian pet-nutrition startup selling premium slow-baked kibble, treats, and supplements for dogs (Wou Wou) and cats (Mau Mau) direct-to-consumer through a Shopify storefront. Formulations emphasise \">=80% fresh meat\", low-temperature slow-baking to preserve nutrients, no meat meal or by-products, and AAFCO-compliant nutrition with no chemical preservatives. The company is seed-funded, has been covered by Malaysian business press (The Edge, The Star, Business Today, Free Malaysia Today), and is tracked here as a 500 Global portfolio company. Notti operates as a consumer e-commerce and retail brand and publishes no developer API, documentation, or technical integration surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/notti/refs/heads/main/screenshots/notti-2026-08-07T185600.png",
+     "score": 10.6,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
@@ -6608,15 +6582,8 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 17.5,
-      "matched_via": "tags"
-     },
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6643,10 +6610,10 @@
      "rank": 138
     },
     {
-     "name": "Fay",
-     "slug": "fay",
-     "description": "Fay (Fay Health, Inc.) is a digital-health marketplace that connects members with registered dietitians and nutritionists and handles the insurance billing so nutrition counseling is covered — often at little or no out-of-pocket cost. The platform offers telehealth consultations, personalized meal planning, and support for chronic condition management, backed by iOS and Android apps and a member help center. Fay reports 4,000+ registered dietitians, 700+ accepted insurance plans, and 100,000+ members. It is backed by Forerunner Ventures and General Catalyst and is tracked in the API Evangelist network as a portfolio-lead company profile; Fay publishes no public developer or API surface at this time.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fay/refs/heads/main/screenshots/fay-2026-07-25T214305.png",
+     "name": "Alcresta Therapeutics",
+     "slug": "alcresta-therapeutics",
+     "description": "Alcresta Therapeutics is a specialty pharmaceutical company developing enzyme-based products that improve fat absorption and digestive health for people with rare and chronic conditions. Its lead product, the RELiZORB (immobilized lipase) cartridge, uses the company's patented iLipase microbead technology to mimic pancreatic lipase and hydrolyze fats in enteral (tube) feeding formulas, helping patients with exocrine pancreatic insufficiency, cystic fibrosis, short bowel syndrome, and critical-care nutrition needs absorb fatty acids they otherwise could not. Alcresta is backed by Bessemer Venture Partners. The company operates a corporate and product marketing website but publishes no public developer API, SDKs, or machine-readable API specifications at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alcresta-therapeutics/refs/heads/main/screenshots/alcresta-therapeutics-2026-07-25T195547.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6658,7 +6625,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6693,10 +6660,10 @@
      "rank": 139
     },
     {
-     "name": "Heltia",
-     "slug": "heltia",
-     "description": "Heltia is a Turkish digital mental-health and employee-wellbeing platform (an Employee Assistance Platform, EAP) that connects individuals and corporate employees with licensed psychologists and dietitians for online therapy, counseling and nutrition support. Its consumer app offers video sessions with experts, self-assessment tests (anxiety, depression, OCD, motivation) and an expert-reviewed blog, while its corporate products — Esenlik (wellbeing), Sağlık Yönetimi (health management) and brokerage — give employers measurable workforce mental-health programs. Backed by Northzone. Heltia does not currently publish a public developer API, SDK or documentation surface.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heltia/refs/heads/main/screenshots/heltia-2026-07-25T220959.png",
+     "name": "Fay",
+     "slug": "fay",
+     "description": "Fay (Fay Health, Inc.) is a digital-health marketplace that connects members with registered dietitians and nutritionists and handles the insurance billing so nutrition counseling is covered — often at little or no out-of-pocket cost. The platform offers telehealth consultations, personalized meal planning, and support for chronic condition management, backed by iOS and Android apps and a member help center. Fay reports 4,000+ registered dietitians, 700+ accepted insurance plans, and 100,000+ members. It is backed by Forerunner Ventures and General Catalyst and is tracked in the API Evangelist network as a portfolio-lead company profile; Fay publishes no public developer or API surface at this time.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fay/refs/heads/main/screenshots/fay-2026-07-25T214305.png",
      "score": 10.5,
      "band": "minimal",
      "band_label": "Minimal",
@@ -6708,7 +6675,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6743,6 +6710,56 @@
      "rank": 140
     },
     {
+     "name": "Heltia",
+     "slug": "heltia",
+     "description": "Heltia is a Turkish digital mental-health and employee-wellbeing platform (an Employee Assistance Platform, EAP) that connects individuals and corporate employees with licensed psychologists and dietitians for online therapy, counseling and nutrition support. Its consumer app offers video sessions with experts, self-assessment tests (anxiety, depression, OCD, motivation) and an expert-reviewed blog, while its corporate products — Esenlik (wellbeing), Sağlık Yönetimi (health management) and brokerage — give employers measurable workforce mental-health programs. Backed by Northzone. Heltia does not currently publish a public developer API, SDK or documentation surface.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/heltia/refs/heads/main/screenshots/heltia-2026-07-25T220959.png",
+     "score": 10.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 7.1,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 17.5,
+      "matched_via": "tags"
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 141
+    },
+    {
      "name": "Infinant Health",
      "slug": "evolve-biosystems",
      "description": "Infinant Health (formerly Evolve Biosystems) is a privately held life-sciences company in Sacramento, California, spun out of the Foods for Health Institute at the University of California, Davis after more than a decade of research into the infant gut microbiome. Its foundational discovery is B. infantis EVC001, a strain of Bifidobacterium longum subsp. infantis that metabolizes human milk oligosaccharides and has largely disappeared from infants in industrialized countries. The company commercializes that strain as Evivo, a consumer infant probiotic sold direct-to-consumer and through retail, and is developing INF108 as a drug candidate intended to reduce necrotizing enterocolitis in premature infants. Infinant Health is a biotechnology and consumer-health manufacturer rather than a software company: it publishes clinical trials, peer-reviewed publications and investor material, but no developer program, public API, SDK or machine-readable API contract could be found on any of its hosts.",
@@ -6758,7 +6775,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6790,7 +6807,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 141
+     "rank": 142
     },
     {
      "name": "The Feed",
@@ -6808,7 +6825,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6833,7 +6850,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 142
+     "rank": 143
     },
     {
      "name": "Nourish",
@@ -6851,7 +6868,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6883,7 +6900,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 143
+     "rank": 144
     },
     {
      "name": "Golden Child",
@@ -6901,15 +6918,15 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -6926,7 +6943,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 144
+     "rank": 145
     },
     {
      "name": "Numan",
@@ -6944,7 +6961,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -6976,7 +6993,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 145
+     "rank": 146
     },
     {
      "name": "Eucalyptus",
@@ -6994,7 +7011,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7026,7 +7043,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 146
+     "rank": 147
     },
     {
      "name": "Ritual",
@@ -7044,7 +7061,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7076,7 +7093,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 147
+     "rank": 148
     },
     {
      "name": "The Fit Body Co",
@@ -7094,7 +7111,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7126,7 +7143,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 148
+     "rank": 149
     },
     {
      "name": "1Balance",
@@ -7144,50 +7161,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 149
-    },
-    {
-     "name": "DayDayCook",
-     "slug": "daydaycook",
-     "description": "DayDayCook is a home-cooking content-to-commerce platform founded in Hong Kong that publishes recipes, cooking videos, and food storytelling (its \"Taste & Tales\" blog) alongside a direct-to-consumer shop selling its own branded sauces, ingredients, and prepared foods under the tagline \"Easy Cooking, Festive Flavours.\" The business pairs a culinary media audience with a consumer-packaged-goods and e-commerce operation. It is a portfolio company of 500 Global and is tracked in the API Evangelist network. As of this enrichment pass DayDayCook publishes a consumer web presence and online shop but exposes no public developer API, developer portal, or machine-readable API specification.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daydaycook/refs/heads/main/screenshots/daydaycook-2026-07-25T211440.png",
-     "score": 9.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.4,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7215,6 +7189,49 @@
      "rank": 150
     },
     {
+     "name": "DayDayCook",
+     "slug": "daydaycook",
+     "description": "DayDayCook is a home-cooking content-to-commerce platform founded in Hong Kong that publishes recipes, cooking videos, and food storytelling (its \"Taste & Tales\" blog) alongside a direct-to-consumer shop selling its own branded sauces, ingredients, and prepared foods under the tagline \"Easy Cooking, Festive Flavours.\" The business pairs a culinary media audience with a consumer-packaged-goods and e-commerce operation. It is a portfolio company of 500 Global and is tracked in the API Evangelist network. As of this enrichment pass DayDayCook publishes a consumer web presence and online shop but exposes no public developer API, developer portal, or machine-readable API specification.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/daydaycook/refs/heads/main/screenshots/daydaycook-2026-07-25T211440.png",
+     "score": 9.7,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.4,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 151
+    },
+    {
      "name": "GymNadz",
      "slug": "gymnadz",
      "description": "GymNadz is a women-focused fitness application offering personalized workout programs, nutrition and meal plans, and community features. The platform provides a library of 300+ exercises with customizable workout and meal plans tailored to individual fitness goals, plus progress tracking and coach interaction. It is delivered as consumer iOS and Android mobile apps rather than as a developer platform. GymNadz is a portfolio company of 500 Global, tracked in the API Evangelist network. No public API, developer portal, SDK, or machine-readable API surface was found during enrichment; this profile captures the company's public identity and domain security posture.",
@@ -7230,7 +7247,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7262,7 +7279,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 151
+     "rank": 152
     },
     {
      "name": "Nutrition & Exercise API",
@@ -7280,7 +7297,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7312,7 +7329,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 152
+     "rank": 153
     },
     {
      "name": "Gousto",
@@ -7330,50 +7347,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 153
-    },
-    {
-     "name": "Flavrs",
-     "slug": "flavrs",
-     "description": "Flavrs is a consumer food and cooking platform \"made for people who live to eat\" that pairs short-form cooking videos from notable chefs and food creators (including Eric Ripert and Binging with Babish) with structured recipe data and integrated ingredient shopping, so viewers can watch a dish being made and buy everything they need to cook it in a single app. Backed by a16z and surfaced in the API Evangelist network as a portfolio-lead company profile, Flavrs has since merged with the meal-delivery service CookUnity and now redirects its audience there. Flavrs operates as a mobile consumer application and publishes no public developer API, SDK, or documentation surface at this time; this profile captures its real identity, legal, and social properties for network completeness.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flavrs/refs/heads/main/screenshots/flavrs-2026-07-25T214724.png",
-     "score": 9.2,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 0.0,
-      "access_clarity": 21.1
-     },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7401,6 +7375,49 @@
      "rank": 154
     },
     {
+     "name": "Flavrs",
+     "slug": "flavrs",
+     "description": "Flavrs is a consumer food and cooking platform \"made for people who live to eat\" that pairs short-form cooking videos from notable chefs and food creators (including Eric Ripert and Binging with Babish) with structured recipe data and integrated ingredient shopping, so viewers can watch a dish being made and buy everything they need to cook it in a single app. Backed by a16z and surfaced in the API Evangelist network as a portfolio-lead company profile, Flavrs has since merged with the meal-delivery service CookUnity and now redirects its audience there. Flavrs operates as a mobile consumer application and publishes no public developer API, SDK, or documentation surface at this time; this profile captures its real identity, legal, and social properties for network completeness.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flavrs/refs/heads/main/screenshots/flavrs-2026-07-25T214724.png",
+     "score": 9.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "access_clarity": 21.1
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 155
+    },
+    {
      "name": "Napkin Math",
      "slug": "napkin-math",
      "description": "Napkin Math is a personalized AI food journal from Paper Star (a Y Combinator company, founded 2026 in San Francisco by Manuel Castro, Claire Nord, and Jynnie Tang). Marketed as \"an AI nutrition coach in your pocket,\" it is a simple, beautiful food diary that helps people log meals and understand their eating habits over time. The product is a consumer mobile application rather than a developer platform: as of this profile Napkin Math publishes no public API, developer documentation, SDKs, OpenAPI, MCP server, or /.well-known discovery surface. This entry is maintained in the API Evangelist network as a company profile and enrichment lead; it will be upgraded to carry API artifacts if and when Napkin Math or Paper Star exposes a public API surface.",
@@ -7416,7 +7433,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7448,7 +7465,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 155
+     "rank": 156
     },
     {
      "name": "Petual",
@@ -7466,7 +7483,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7498,7 +7515,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 156
+     "rank": 157
     },
     {
      "name": "8fit",
@@ -7516,7 +7533,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7548,7 +7565,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 157
+     "rank": 158
     },
     {
      "name": "Nutrisystem (Wellina by Nutrisystem)",
@@ -7566,7 +7583,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7598,7 +7615,7 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 158
+     "rank": 159
     },
     {
      "name": "Chefs for Seniors",
@@ -7616,50 +7633,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "rank": 159
-    },
-    {
-     "name": "DailyMealz",
-     "slug": "dailymealz",
-     "description": "DailyMealz is a Saudi Arabia-based meal subscription service that delivers fresh daily lunches and full-day meal plans sourced from a network of more than sixty partner restaurants. Subscribers choose a package (healthy, keto, diet, and similar options), select meals from a rotating menu, and control delivery timing through the DailyMealz mobile app. The company also operates a DailyMealz for Business offering for corporate meal programs. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; DailyMealz is an app-first consumer brand and publishes no public developer API surface, documentation portal, or API specifications as of this profiling round.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dailymealz/refs/heads/main/screenshots/dailymealz-2026-07-25T211139.png",
-     "score": 8.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 50.0,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 7.1,
-      "access_clarity": 10.5
-     },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7687,37 +7661,30 @@
      "rank": 160
     },
     {
-     "name": "GNC Holdings",
-     "slug": "gnc-holdings",
-     "description": "GNC Holdings, LLC (General Nutrition Centers) is an American specialty retailer of health, wellness, and performance products including vitamins, minerals, herbal supplements, sports nutrition, diet, and energy products. Founded in 1935 and headquartered in Pittsburgh, Pennsylvania, GNC is a wholly owned subsidiary of Harbin Pharmaceutical Group following its 2020 acquisition. The company operates owned and franchised retail locations, online stores, and retail partnerships across approximately 50 countries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gnc-holdings/refs/heads/main/screenshots/gnc-holdings-2026-06-20T181935.png",
-     "score": 8.3,
+     "name": "DailyMealz",
+     "slug": "dailymealz",
+     "description": "DailyMealz is a Saudi Arabia-based meal subscription service that delivers fresh daily lunches and full-day meal plans sourced from a network of more than sixty partner restaurants. Subscribers choose a package (healthy, keto, diet, and similar options), select meals from a rotating menu, and control delivery timing through the DailyMealz mobile app. The company also operates a DailyMealz for Business offering for corporate meal programs. It was surfaced as a portfolio company of 500 Global and added to the API Evangelist network for enrichment; DailyMealz is an app-first consumer brand and publishes no public developer API surface, documentation portal, or API specifications as of this profiling round.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dailymealz/refs/heads/main/screenshots/dailymealz-2026-07-25T211139.png",
+     "score": 8.5,
      "band": "minimal",
      "band_label": "Minimal",
      "facets": {
-      "discoverability": 57.4,
+      "discoverability": 50.0,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 12.5,
-      "matched_via": "tags"
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
+     "agent_score": 8.6,
+     "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
       "reversibility_documented": false,
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
@@ -7752,7 +7719,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -7802,7 +7769,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7845,7 +7812,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7888,7 +7855,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7931,7 +7898,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7974,7 +7941,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8017,7 +7984,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8067,7 +8034,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8117,7 +8084,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8160,7 +8127,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8203,7 +8170,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8246,7 +8213,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.9,
      "agent_band": "human-only",
@@ -8289,7 +8256,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8338,7 +8305,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8381,7 +8348,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8423,7 +8390,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8473,7 +8440,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8516,7 +8483,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8602,7 +8569,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8644,7 +8611,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8687,7 +8654,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8729,7 +8696,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8815,7 +8782,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8858,7 +8825,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8908,7 +8875,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -8958,7 +8925,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9001,7 +8968,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9044,7 +9011,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 6.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9093,7 +9060,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9143,7 +9110,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9192,7 +9159,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9242,7 +9209,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9291,7 +9258,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9341,7 +9308,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9391,7 +9358,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9441,7 +9408,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9490,7 +9457,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9539,7 +9506,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9589,7 +9556,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9639,7 +9606,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9688,7 +9655,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9737,7 +9704,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9786,7 +9753,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -9827,14 +9794,20 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "providers": [
     {
      "name": "Advanced Bio Development",
      "slug": "advancedbiodevelopment",
      "description": "Advanced Bio Development, Inc. (ABD) was a New Jersey beverage and dietary-supplement company headquartered in Englewood Cliffs, NJ. It developed, produced and marketed X2PERFORMANCE, a patented all-natural liquid sports-energy supplement built around ATP, created by founder Dr. Ralph Ferrante as an alternative to conventional performance stimulants, and distributed in part through Anheuser-Busch InBev's AB ONE network. The company sold consumer packaged goods through retail and e-commerce; software was never its product and it never operated a developer program, public API, SDK or developer portal. In March 2023 X2 Performance merged into the Don't Quit! beverage platform — ABD and existing X2 investors became shareholders in Don't Quit!, X2 CEO Mark French took the same role at the combined company, and Keurig Dr Pepper remained majority owner — after which the X2 brand was wound down. The brand domain x2performance.com is no longer controlled by the company: WHOIS lists the registrant organization as HugeDomains.com and the site 302s to a domain-resale listing, while advancedbiodevelopment.com does not resolve. This record is retained as an honest zero — a consumer-packaged-goods company with no API surface, whose only remaining public presence is third-party listings.",
      "rank": 207
+    },
+    {
+     "name": "AHARA",
+     "slug": "ahara",
+     "description": "AHARA is a Los Angeles personalized-nutrition company founded in 2022 by physician nutritionist Dr. Melina Jampolis and The RealReal founder Julie Wainwright, funded with a $10.25M seed round led by Greycroft. It pairs a health questionnaire and at-home genetic, epigenetic and blood-biomarker testing with registered-dietitian guidance and a consumer app (Food Health Rx) that turns the results into a personalized food-as-medicine plan, sold direct to consumers and through employers, health plans and providers. In late 2024 the company rebranded as Food Health Collective and moved its web presence to foodhealthcollective.org; the original ahara.com domain is now registrar-suspended (clientHold, NXDOMAIN) and the ahara.health Squarespace site has expired. AHARA operates no developer program: there is no portal, no documentation, no API reference, no public package, no GitHub organization and no machine-readable contract on any host it controls.",
+     "rank": 208
     }
    ]
   }

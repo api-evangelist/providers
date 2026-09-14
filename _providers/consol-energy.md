@@ -9,31 +9,6 @@ access_model:
   - probe
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: na
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: na
-    mcp_server: false
-    openapi_examples: documented
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: na
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 30.0
-  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: Machine-readable filing data for the post-merger company is published by the U.S. Securities and Exchange Commission, not by the company itself. CIK 0001710366 is the CONSOL Energy Inc. registrant, re
@@ -203,52 +178,6 @@ rate_limits:
 - limit_count: 0
   name: Consol Energy Rate Limits
   slug: consol-energy-rate-limits
-score:
-  band: thin
-  composite: 27.6
-  coverage:
-    artifact_dirs: 21
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 28.9
-    contract_governance: 18.2
-    contract_quality: 15.8
-    developer_ergonomics: 30.4
-    discoverability: 74.1
-    operational_transparency: 0.0
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - north-america
-  previous_composite: 27.6
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 5
-      marker_coverage: 100.0
-      total: 5
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Energy & Utilities
-    regime_id: energy_utilities
-    score: 33.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: this provider''s published contracts declare no write operations, and a read-only API cannot create-or-update. Excluded from the denominator, not zeroed.'
-    reason: read_only
 screenshot: https://raw.githubusercontent.com/api-evangelist/consol-energy/refs/heads/main/screenshots/consol-energy-2026-06-20T174910.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@
       "developer_ergonomics": 73.8,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 44.2,
      "agent_band": "agent-ready",
@@ -82,7 +82,7 @@
       "developer_ergonomics": 61.9,
       "access_clarity": 100.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 20.4,
      "agent_band": "agent-aware",
@@ -126,7 +126,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 29.9,
      "agent_band": "agent-ready",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 35.7,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 15.5,
      "agent_band": "agent-aware",
@@ -206,8 +206,8 @@
    "label": "Thin",
    "range": "26.2 – 39.2",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "providers": [
     {
      "name": "Insomnia",
@@ -225,7 +225,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -269,7 +269,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 20.0,
      "agent_band": "agent-aware",
@@ -298,66 +298,22 @@
      "rank": 6
     },
     {
-     "name": "REST Client",
-     "slug": "rest-client",
-     "description": "REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication schemes (Basic, Digest, SSL Client Certificates, Azure AD, AWS Signature v4, AWS Cognito), environment and file variables, request chaining, cookie management, code generation to multiple languages, and response saving. The extension is installed via the VS Code Marketplace under the identifier humao.rest-client and is widely used as a lightweight alternative to dedicated API clients like Postman and Insomnia.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rest-client/refs/heads/main/screenshots/rest-client-2026-06-20T193111.png",
-     "score": 28.4,
+     "name": "Firecamp",
+     "slug": "firecamp",
+     "description": "Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png",
+     "score": 30.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 59.3,
-      "contract_quality": 29.3,
-      "contract_governance": 25.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 15.8
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 28.6,
+      "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 3.8,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Local-First & Offline-First Clients",
-     "rank": 7
-    },
-    {
-     "name": "Thunder Client",
-     "slug": "thunder-client",
-     "description": "Thunder Client is a lightweight REST API client extension for Visual Studio Code created by Ranga Vadhineni, providing a clean interface for sending HTTP requests, managing collections, and testing APIs without leaving the editor. With nearly 7 million installs, it pioneered GUI-based API testing in VS Code with 100% local storage, scriptless testing, Git Sync for team collaboration, GraphQL support, and an advanced CLI for CI/CD integration. Thunder Client supports importing collections from Postman, Insomnia, Hoppscotch, and OpenAPI 3.0, and offers pre/post-request scripting and environment variables.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thunder-client/refs/heads/main/screenshots/thunder-client-2026-06-20T195320.png",
-     "score": 26.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 68.5,
-      "contract_quality": 14.7,
-      "contract_governance": 25.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 21.4,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -383,35 +339,69 @@
       "agentic_commerce": false
      },
      "tier": "Client Platforms",
-     "rank": 8
-    }
-   ]
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "11 – 26.1",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 22,
-   "shown": 22,
-   "providers": [
+     "rank": 7
+    },
     {
-     "name": "Axios",
-     "slug": "axios",
-     "description": "Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axios/refs/heads/main/screenshots/axios-2026-06-20T172811.png",
-     "score": 26.0,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "REST Client",
+     "slug": "rest-client",
+     "description": "REST Client is a Visual Studio Code extension developed by Huachao Mao that enables developers to send HTTP requests and view responses directly within the VS Code editor. It supports RFC 2616 HTTP request format using .http and .rest files, GraphQL queries, cURL commands, multiple authentication schemes (Basic, Digest, SSL Client Certificates, Azure AD, AWS Signature v4, AWS Cognito), environment and file variables, request chaining, cookie management, code generation to multiple languages, and response saving. The extension is installed via the VS Code Marketplace under the identifier humao.rest-client and is widely used as a lightweight alternative to dedicated API clients like Postman and Insomnia.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rest-client/refs/heads/main/screenshots/rest-client-2026-06-20T193111.png",
+     "score": 28.4,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 40.7,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 28.6,
+      "discoverability": 59.3,
+      "contract_quality": 29.3,
+      "contract_governance": 25.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Local-First & Offline-First Clients",
+     "rank": 8
+    },
+    {
+     "name": "Thunder Client",
+     "slug": "thunder-client",
+     "description": "Thunder Client is a lightweight REST API client extension for Visual Studio Code created by Ranga Vadhineni, providing a clean interface for sending HTTP requests, managing collections, and testing APIs without leaving the editor. With nearly 7 million installs, it pioneered GUI-based API testing in VS Code with 100% local storage, scriptless testing, Git Sync for team collaboration, GraphQL support, and an advanced CLI for CI/CD integration. Thunder Client supports importing collections from Postman, Insomnia, Hoppscotch, and OpenAPI 3.0, and offers pre/post-request scripting and environment variables.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thunder-client/refs/heads/main/screenshots/thunder-client-2026-06-20T195320.png",
+     "score": 26.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 68.5,
+      "contract_quality": 14.7,
+      "contract_governance": 25.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 26.3
+     },
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -436,26 +426,36 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "tier": "CLI Clients & HTTP Libraries",
+     "tier": "Client Platforms",
      "rank": 9
-    },
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "11 – 26.1",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 21,
+   "shown": 21,
+   "providers": [
     {
-     "name": "Node-Fetch",
-     "slug": "node-fetch",
-     "description": "node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/node-fetch/refs/heads/main/screenshots/node-fetch-2026-06-20T190351.png",
-     "score": 25.5,
+     "name": "Axios",
+     "slug": "axios",
+     "description": "Axios is a promise-based HTTP client for the browser and Node.js with automatic JSON data transformation and request/response interceptors.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/axios/refs/heads/main/screenshots/axios-2026-06-20T172811.png",
+     "score": 26.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 50.0,
+      "discoverability": 40.7,
       "contract_quality": 0.0,
       "contract_governance": 0.0,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 21.4,
+      "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -484,6 +484,50 @@
      "rank": 10
     },
     {
+     "name": "Node-Fetch",
+     "slug": "node-fetch",
+     "description": "node-fetch is a lightweight module that brings the Fetch API to Node.js for making HTTP requests. It is a client library, not an API service, and provides a window.fetch-compatible interface for server-side JavaScript.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/node-fetch/refs/heads/main/screenshots/node-fetch-2026-06-20T190351.png",
+     "score": 25.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 50.0,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.4,
+      "access_clarity": 15.8
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 2.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": "documented",
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "CLI Clients & HTTP Libraries",
+     "rank": 11
+    },
+    {
      "name": "Requests",
      "slug": "requests",
      "description": "Requests is a simple and elegant HTTP library for Python, designed for human beings. Published under the Apache2 license by the Python Software Foundation (PSF), it is one of the most downloaded Python packages with approximately 300 million weekly downloads and over 4 million dependent repositories. Requests abstracts urllib3 to provide idiomatic HTTP method functions (get, post, put, patch, delete, head, options), persistent Sessions with connection pooling, automatic content decompression, TLS/SSL verification, Basic and Digest authentication, cookie persistence, streaming downloads, multipart file uploads, SOCKS proxy support, and configurable timeouts. Current stable version: 2.33.1 (March 2026). Supports Python 3.10+.",
@@ -499,7 +543,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -532,7 +576,7 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Voiden",
@@ -550,7 +594,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -576,7 +620,7 @@
       "agentic_commerce": false
      },
      "tier": "Local-First & Offline-First Clients",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Wget",
@@ -594,7 +638,7 @@
       "developer_ergonomics": 15.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -620,50 +664,6 @@
       "agentic_commerce": false
      },
      "tier": "CLI Clients & HTTP Libraries",
-     "rank": 13
-    },
-    {
-     "name": "Firecamp",
-     "slug": "firecamp",
-     "description": "Firecamp is an open-source API development platform for designing, testing, and documenting REST, GraphQL, and WebSocket APIs. It provides multi-protocol playgrounds (REST, GraphQL, WebSocket, SocketIO), team collaboration in shared workspaces, API collection management, a test runner, and CLI/CI-CD integration. Firecamp does not expose a public consumer API; it is a tooling product for working with other APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/firecamp/refs/heads/main/screenshots/firecamp-2026-06-20T181227.png",
-     "score": 23.3,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 59.3,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.6,
-      "access_clarity": 26.3
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 2.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": "documented",
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Client Platforms",
      "rank": 14
     },
     {
@@ -682,7 +682,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -726,7 +726,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -770,7 +770,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -821,7 +821,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -865,7 +865,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -916,7 +916,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -967,7 +967,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1011,7 +1011,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1055,7 +1055,7 @@
       "developer_ergonomics": 21.4,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1099,7 +1099,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 11.2,
      "agent_band": "agent-aware",
@@ -1143,7 +1143,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1187,7 +1187,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 26.2,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1275,7 +1275,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1319,7 +1319,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1363,7 +1363,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1417,7 +1417,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1461,7 +1461,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1505,7 +1505,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1549,7 +1549,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",

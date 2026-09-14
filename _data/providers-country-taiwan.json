@@ -27,7 +27,7 @@
       "developer_ergonomics": 66.1,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,7 +77,7 @@
       "developer_ergonomics": 80.4,
       "access_clarity": 76.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -138,7 +138,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -249,7 +249,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 39.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -299,7 +299,7 @@
       "developer_ergonomics": 45.2,
       "access_clarity": 59.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -337,21 +337,64 @@
    "shown": 5,
    "providers": [
     {
+     "name": "hotcake 夯客",
+     "slug": "hotcake",
+     "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotcake/refs/heads/main/screenshots/hotcake-2026-07-25T221501.png",
+     "score": 22.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 57.4,
+      "contract_quality": 0.0,
+      "contract_governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 26.2,
+      "access_clarity": 44.7
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "reversibility_documented": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "event_surface_described": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "rank": 7
+    },
+    {
      "name": "aetherAI",
      "slug": "aetherai",
      "description": "aetherAI (雲象科技, aetherAI Co., Ltd.) is a Taipei-based medical-imaging AI company and one of Asia's leading digital-pathology vendors. It builds regulated diagnostic software for hospitals, reference laboratories and pharmaceutical R&D: aetherSlide, an FDA-cleared (K233126), CE-marked and TFDA-approved whole-slide image management and viewing system; aetherWeb, a cloud digital pathology education platform; aetherAI Hema for bone-marrow smear differential counting; aetherAI Endo for real-time computer-aided polyp detection in colonoscopy; and aetherAI Ortho for whole-spine radiograph measurement. The company was founded in Taiwan, raised NT$765 million in Series B funding led by CDIB Capital, Quanta Computer, Taiwan Business Bank VC and Cathay Venture, listed on Taiwan's Emerging Stock Board in November 2024, holds ISO/IEC 27001 certification, and has filed for the Taiwan Innovation Board. aetherAI publishes no public developer API, no OpenAPI or other machine-readable contract, and no developer portal; its clinical software is sold and deployed through a direct enterprise motion and its application sits behind a customer login. The single publicly callable surface is a Wix-provided Site MCP endpoint on its own domain, which serves website content rather than any clinical product.",
-     "score": 22.7,
+     "score": 21.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
       "discoverability": 75.9,
       "contract_quality": 0.0,
       "contract_governance": 18.2,
-      "operational_transparency": 5.3,
+      "operational_transparency": 2.6,
       "developer_ergonomics": 19.0,
-      "access_clarity": 31.6
+      "access_clarity": 25.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -383,49 +426,6 @@
       "dynamic_client_registration": false,
       "agentic_commerce": false
      },
-     "rank": 7
-    },
-    {
-     "name": "hotcake 夯客",
-     "slug": "hotcake",
-     "description": "HOTCAKE 夯客 (Hotcake Inc. / 夯客股份有限公司) is a Taipei, Taiwan SaaS platform for the beauty and wellness industry — hair salons, nail and lash studios, skincare and medical beauty clinics, massage and fitness. It gives merchants an intuitive appointment, membership, and POS system covering 24-hour automated online booking, member passports and tagging, stored-value and voucher/loyalty programs, checkout and revenue analytics, inventory management, staff scheduling, and marketing automation. HOTCAKE is a LINE official-account technical partner and integrates LINE Pay, third-party payment gateways, and Google Calendar/Maps. It is delivered as a subscription with no long-term contract and same-day go-live. HOTCAKE was surfaced as a 500 Global portfolio company and added to the API Evangelist network; it ships mobile merchant apps and a merchant documentation/help manual, but publishes no public developer API, OpenAPI, or SDK.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hotcake/refs/heads/main/screenshots/hotcake-2026-07-25T221501.png",
-     "score": 22.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 57.4,
-      "contract_quality": 0.0,
-      "contract_governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 26.2,
-      "access_clarity": 44.7
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "reversibility_documented": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "event_surface_described": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
      "rank": 8
     },
     {
@@ -444,7 +444,7 @@
       "developer_ergonomics": 9.5,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -494,7 +494,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -544,7 +544,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -597,7 +597,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -646,7 +646,7 @@
       "developer_ergonomics": 7.1,
       "access_clarity": 13.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -738,7 +738,7 @@
       "developer_ergonomics": 2.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -780,7 +780,7 @@
       "developer_ergonomics": 4.8,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -830,7 +830,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -873,7 +873,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -916,7 +916,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -959,7 +959,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1001,7 +1001,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1044,7 +1044,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1094,7 +1094,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1143,7 +1143,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1193,7 +1193,7 @@
       "developer_ergonomics": 0.0,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

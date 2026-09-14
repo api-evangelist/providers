@@ -13,31 +13,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 30.9
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'A live, OAuth-protected Model Context Protocol server that involve.me serves from its own infrastructure and advertises through RFC 9728 protected-resource metadata on www.involve.me. SCOPE: it expose'
@@ -202,41 +177,6 @@ scopes:
   scope_count: 21
   slug: involve-me-scopes
   summary_line: 21 scopes
-score:
-  band: developing
-  composite: 49.1
-  coverage:
-    artifact_dirs: 18
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 41.6
-    developer_ergonomics: 28.6
-    discoverability: 75.9
-    operational_transparency: 36.8
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - dach
-    - europe
-  previous_composite: 49.1
-  provenance:
-    conformance: first-party
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/involve-me/refs/heads/main/screenshots/involve-me-2026-08-17T081000.png
 security:
 - kind: authentication

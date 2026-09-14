@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 35.7
-  scored_at: '2026-09-12'
 api_count: 28
 apis:
 - description: The Lithium/Khoros Community platform API. Version 2 is driven by LiQL (Lithium Query Language), a SQL-like query language over community objects such as messages, users, boards and categories; the le
@@ -1067,40 +1042,6 @@ scopes:
   scope_count: 1
   slug: lithium-scopes
   summary_line: 1 scope · clientCredentials/authorizationCode
-score:
-  band: strong
-  composite: 59.7
-  coverage:
-    artifact_dirs: 25
-    catalog_earned: 44.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 71.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 62.8
-    developer_ergonomics: 44.6
-    discoverability: 77.8
-    operational_transparency: 84.2
-  previous_composite: 59.7
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 99
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/lithium/refs/heads/main/screenshots/lithium-2026-07-25T225335.png
 security:
 - kind: authentication

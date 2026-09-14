@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 17.3
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -161,7 +136,7 @@ modified: '2026-05-19'
 name: Debezium
 nav: Providers
 network: true
-overview: 'Debezium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Connectors API, Offsets API, and 2 more. Tagged areas include Apache Kafka, CDC, Change Data Capture, Databases, and Event Streaming.
+overview: 'Debezium publishes 5 APIs on the [APIs.io](https://apis.io/) network, including Cluster API, Connectors API, Offsets API, and 2 more. Tagged areas include Apache Kafka, Change Data Capture, Databases, Event Streaming, and Open-Source.
 
 
   The Debezium catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -199,38 +174,6 @@ rules:
     info: 0
     warn: 4
   slug: debezium-kafka-connect-api-rules
-score:
-  band: thin
-  composite: 30.7
-  coverage:
-    artifact_dirs: 13
-    catalog_earned: 61.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 53.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 15.8
-    contract_governance: 28.8
-    contract_quality: 47.6
-    developer_ergonomics: 26.2
-    discoverability: 59.3
-    operational_transparency: 13.2
-  previous_composite: 30.7
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/screenshots/debezium-2026-06-20T175745.png
 security:
 - kind: domain-security
@@ -240,7 +183,6 @@ security:
 slug: debezium
 tags:
 - Apache Kafka
-- CDC
 - Change Data Capture
 - Databases
 - Event Streaming

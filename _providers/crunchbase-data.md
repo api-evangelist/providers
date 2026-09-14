@@ -11,32 +11,6 @@ access_model:
   - https://data.crunchbase.com/docs/using-the-api
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 46.9
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 153
   human_in_the_loop: 0
@@ -318,41 +292,6 @@ scopes:
   scope_count: 2
   slug: crunchbase-data-scopes
   summary_line: 2 scopes · authorizationCode
-score:
-  band: developing
-  composite: 47.3
-  coverage:
-    artifact_dirs: 23
-    catalog_earned: 73.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 42.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 84.2
-    contract_governance: 4.5
-    contract_quality: 31.2
-    developer_ergonomics: 33.9
-    discoverability: 81.5
-    operational_transparency: 60.5
-  previous_composite: 47.3
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 10
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/crunchbase-data/refs/heads/main/screenshots/crunchbase-data-2026-07-25T210816.png
 security:
 - kind: authentication

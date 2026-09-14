@@ -10,32 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: true
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: negotiable
-    consent_identity: false
-    delegated_identity: documented
-    dry_run_mode: true
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 47.3
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -11030,38 +11004,6 @@ scopes:
   scope_count: 288
   slug: atlassian-scopes
   summary_line: 288 scopes · authorizationCode
-score:
-  band: strong
-  composite: 65.6
-  coverage:
-    artifact_dirs: 23
-    catalog_earned: 68.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 46.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 39.5
-    contract_governance: 28.8
-    contract_quality: 72.4
-    developer_ergonomics: 70.2
-    discoverability: 59.3
-    operational_transparency: 52.6
-  previous_composite: 65.6
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 21.5
-      derived: 0
-      marker_coverage: 0.0
-      total: 144
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 100.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:
 - kind: authentication

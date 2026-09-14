@@ -11,31 +11,6 @@ access_model:
   - https://github.com/fodoole/qeen-mobile-sdk-ios
   trial: true
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 7.9
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: Qeen's first-party mobile analytics and commerce-event SDK, shipped as a binary XCFramework for iOS (Swift Package Manager) and an AAR for Android (self-hosted Maven). It exposes a typed commerce even
@@ -167,39 +142,6 @@ rate_limits:
 - limit_count: 0
   name: Qeenai Rate Limits
   slug: qeenai-rate-limits
-score:
-  band: thin
-  composite: 31.4
-  coverage:
-    artifact_dirs: 16
-    catalog_earned: 52.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 63.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 69.7
-    contract_governance: 4.5
-    contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 74.1
-    operational_transparency: 18.4
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - middle-east
-  previous_composite: 31.4
-  provenance:
-    conformance: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/qeenai/refs/heads/main/screenshots/qeenai-2026-09-02T152427.png
 security:
 - kind: authentication

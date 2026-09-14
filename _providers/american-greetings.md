@@ -10,31 +10,6 @@ access_model:
   - https://corporate.americangreetings.com/wp-json/wp/v2/products
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 27.2
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - baseURL: https://corporate.americangreetings.com/wp-json
@@ -144,51 +119,6 @@ rate_limits:
 - limit_count: 0
   name: American Greetings Rate Limits
   slug: american-greetings-rate-limits
-score:
-  band: thin
-  composite: 30.5
-  coverage:
-    artifact_dirs: 19
-    catalog_earned: 43.0
-    catalog_earned_first_party: 8.0
-    catalog_gap: 72.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 28.9
-    contract_governance: 4.5
-    contract_quality: 58.5
-    developer_ergonomics: 20.8
-    discoverability: 66.7
-    operational_transparency: 2.6
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - north-america
-  previous_composite: 30.5
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Payments
-    regime_id: payments
-    score: 26.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-greetings/refs/heads/main/screenshots/american-greetings-2026-06-20T171917.png
 security:
 - kind: authentication

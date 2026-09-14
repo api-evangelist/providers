@@ -10,31 +10,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 26.7
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -222,47 +197,6 @@ overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
   Moonbounce''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
 random_paper: 6
-score:
-  band: developing
-  composite: 46.1
-  coverage:
-    artifact_dirs: 19
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 31.6
-    contract_governance: 4.5
-    contract_quality: 61.1
-    developer_ergonomics: 60.1
-    discoverability: 75.9
-    operational_transparency: 26.3
-  previous_composite: 46.1
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Insurance
-    regime_id: insurance
-    score: 37.9
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/moonbounce/refs/heads/main/screenshots/moonbounce-2026-08-07T184233.png
 security:
 - kind: authentication

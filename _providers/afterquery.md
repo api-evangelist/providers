@@ -1,29 +1,4 @@
 ---
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: conformant
-    agent_skills: true
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 17.8
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: A read-only Model Context Protocol server over the AfterQuery Experts Help Center, served anonymously from AfterQuery's documentation host. Three tools - full-text documentation search, a sandboxed re
@@ -140,33 +115,6 @@ rate_limits:
 - limit_count: 0
   name: Afterquery Rate Limits
   slug: afterquery-rate-limits
-score:
-  band: emerging
-  composite: 24.4
-  coverage:
-    artifact_dirs: 12
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  facets:
-    access_clarity: 34.2
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 35.7
-    discoverability: 75.9
-    operational_transparency: 5.3
-  provenance:
-    conformance: first-party
-    mcp: first-party
-    skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 security:
 - kind: authentication
   name: Afterquery Authentication

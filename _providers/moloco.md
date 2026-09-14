@@ -13,31 +13,6 @@ access_model:
   - sandbox
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: documented
-    mcp_server: verified
-    openapi_examples: partial
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 57.0
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 131
   human_in_the_loop: 2
@@ -493,7 +468,7 @@ modified: '2026-08-13'
 name: MOLOCO
 nav: Providers
 network: true
-overview: 'MOLOCO publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Ad Account API, Ad Group API, Ad Manager Account API, and 38 more. Tagged areas include Advertising, AdTech, Demand-Side Platform, Retail Media, and Commerce Media.
+overview: 'MOLOCO publishes 41 APIs on the [APIs.io](https://apis.io/) network, including Ad Account API, Ad Group API, Ad Manager Account API, and 38 more. Tagged areas include Advertising, AdTech, DSP, Retail Media, and Commerce Media.
 
 
   The MOLOCO catalog on APIs.io includes 1 event-driven AsyncAPI specification.
@@ -514,41 +489,6 @@ scopes:
   scope_count: 2
   slug: moloco-scopes
   summary_line: 2 scopes
-score:
-  band: strong
-  composite: 62.7
-  coverage:
-    artifact_dirs: 26
-    catalog_earned: 49.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 66.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 39.5
-    contract_governance: 4.5
-    contract_quality: 72.1
-    developer_ergonomics: 66.1
-    discoverability: 75.9
-    operational_transparency: 72.4
-  previous_composite: 62.7
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 56.1
-      derived: 0
-      marker_coverage: 0.0
-      total: 42
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 66.7
 screenshot: https://raw.githubusercontent.com/api-evangelist/moloco/refs/heads/main/screenshots/moloco-2026-08-07T184114.png
 security:
 - kind: authentication
@@ -567,7 +507,7 @@ slug: moloco
 tags:
 - Advertising
 - AdTech
-- Demand-Side Platform
+- DSP
 - Retail Media
 - Commerce Media
 - Programmatic Advertising

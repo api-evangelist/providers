@@ -11,131 +11,122 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 19.8
-  scored_at: '2026-09-12'
 agentic_access:
-- acting_count: 25
+- acting_count: 45
   human_in_the_loop: 1
   name: Idenfy Agentic Access
-  operation_count: 36
+  operation_count: 73
   slug: idenfy-agentic-access
-  summary_line: 36 operations · 25 acting · 1 human-in-the-loop
-api_count: 1
+  summary_line: 73 operations · 45 acting · 1 human-in-the-loop
+api_count: 7
 apis:
-- description: The iDenfy Identity Verification (KYC) API provides document verification, selfie checks, and liveness detection through redirect, iFrame, mobile SDK, or direct API integration.
-  name: iDenfy Identity Verification API
-  slug: idenfy-verification-api
-- description: The iDenfy Business Verification (KYB) API enables company verification using registry lookups, ultimate beneficial owner identification, and credit report checks via redirect or iFrame integration.
-  name: iDenfy Business Verification API
-  slug: idenfy-business-verification-api
-- description: The iDenfy AML Screening API screens individuals and companies against sanctions lists, politically exposed persons (PEPs), and adverse media, with one-time and ongoing monitoring options.
-  name: iDenfy AML Screening API
-  slug: idenfy-aml-screening-api
 - baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The iDenfy Fraud Prevention API provides risk scoring, proxy detection, phone and address verification, and proof of address checks to identify and stop fraudulent activities.
-  name: iDenfy Fraud Prevention API
-  slug: idenfy-fraud-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The iDenfy Face Authentication API re-authenticates returning users by comparing a live facial scan against a previously verified identity.
-  name: iDenfy Face Authentication API
-  slug: idenfy-face-authentication-api
-- description: The iDenfy Bank Verification API verifies bank accounts via open banking connections to over 2,500 European banks.
-  name: iDenfy Bank Verification API
-  slug: idenfy-bank-verification-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Aml API from iDenfy — 6 operation(s) for aml.
-  name: iDenfy Aml API
-  slug: idenfy-aml-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Bank API from iDenfy — 2 operation(s) for bank.
-  name: iDenfy Bank API
-  slug: idenfy-bank-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Face Authentication API from iDenfy — 2 operation(s) for face authentication.
-  name: iDenfy Face Authentication API
-  slug: idenfy-face-authentication-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Fraud API from iDenfy — 5 operation(s) for fraud.
-  name: iDenfy Fraud API
-  slug: idenfy-fraud-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Kyb API from iDenfy — 7 operation(s) for kyb.
-  name: iDenfy Kyb API
-  slug: idenfy-kyb-api
-- baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Kyc API from iDenfy — 5 operation(s) for kyc.
-  name: iDenfy Kyc API
+  baseurl_source: declared
+  description: Document verification, selfie capture, liveness detection and AI plus human review. Mint a session token with POST /api/v2/token, hand the returned authToken to a redirect, iFrame or mobile SDK, and r
+  name: iDenfy Identity Verification (KYC) API
   slug: idenfy-kyc-api
 - baseURL: https://ivs.idenfy.com
-  baseurl_source: spec
-  description: The Token API from iDenfy — 1 operation(s) for token.
-  name: iDenfy Token API
-  slug: idenfy-token-api
-artifact_total: 29
+  baseurl_source: declared
+  description: Company verification across 180+ registries with ultimate beneficial owner identification, KYB form collection, beneficiary and document management, questionnaires, credit bureau reports, government d
+  name: iDenfy Business Verification (KYB) API
+  slug: idenfy-kyb-api
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: declared
+  description: Screens people and companies against sanctions lists, politically exposed persons and adverse media, as a one-time check or as ongoing monitoring that raises an alert when a new match appears. Carries
+  name: iDenfy AML Screening and Monitoring API
+  slug: idenfy-aml-api
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: declared
+  description: Verifies bank account ownership through open banking connections to European banks, and exposes the account transaction list behind a completed verification. Two operations and two webhook events.
+  name: iDenfy Bank Verification API
+  slug: idenfy-bank-api
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: declared
+  description: Creates a standalone bank card verification session. Account balance is pre-checked, and an insufficient balance is rejected with 402 rather than 403. One operation and one webhook event.
+  name: iDenfy Bank Card Verification API
+  slug: idenfy-bank-card-api
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: declared
+  description: Re-authenticates a returning user in about thirty seconds by matching a live facial scan against a previously verified identity. The published contract exposes the session list and retrieve operations
+  name: iDenfy Face Authentication API
+  slug: idenfy-face-authentication-api
+- baseURL: https://ivs.idenfy.com
+  baseurl_source: declared
+  description: Estimates age from a selfie and escalates borderline cases to a full document check on the same integration, giving one audit trail from selfie to certified ID. Account balance is pre-checked and an i
+  name: iDenfy Age Estimation API
+  slug: idenfy-age-estimation-api
+- description: AI risk scoring, proxy/VPN/Tor detection, phone validation, SMS phone verification, fraud probability estimation, address verification and AI proof of address, plus configurable risk assessment profil
+  name: iDenfy Fraud Prevention and Risk API
+  slug: idenfy-fraud-api
+- description: 'A hosted, unauthenticated remote Model Context Protocol server over the whole public documentation site, including the seven OpenAPI specs. Three live tools: documentation search, a read-only virtual '
+  name: iDenfy Documentation MCP Server
+  slug: idenfy-docs-mcp
+artifact_total: 20
+asyncapis:
+- description: ''
+  name: Idenfy Webhooks
+  slug: idenfy-webhooks
 collections:
 - collection_type: open
   name: API Collection
   slug: open-.refine-report
-- collection_type: open
-  name: iDenfy Aml API
-  slug: open-idenfy-aml-api
-- collection_type: open
-  name: iDenfy Aml Bank API
-  slug: open-idenfy-bank-api
-- collection_type: open
-  name: iDenfy Aml Face Authentication API
-  slug: open-idenfy-face-authentication-api
-- collection_type: open
-  name: iDenfy Aml Fraud API
-  slug: open-idenfy-fraud-api
-- collection_type: open
-  name: iDenfy Aml Kyb API
-  slug: open-idenfy-kyb-api
-- collection_type: open
-  name: iDenfy Aml Kyc API
-  slug: open-idenfy-kyc-api
-- collection_type: open
-  name: iDenfy Aml Token API
-  slug: open-idenfy-token-api
-- collection_type: open
-  name: iDenfy API
-  slug: open-idenfy
 common:
-- group: agent
+- group: company
   title: ''
-  type: AgenticAccess
-  url: agentic-access/idenfy-agentic-access.yml
+  type: Website
+  url: https://www.idenfy.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://documentation.idenfy.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://documentation.idenfy.com/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://documentation.idenfy.com/api-reference/overview
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://documentation.idenfy.com/quickstart
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/idenfy-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/idenfy-conventions.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/idenfy-data-model.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/idenfy-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/idenfy-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.idenfy.com/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/idenfy-changelog.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/idenfy-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: security/idenfy-trust-center.yml
 - group: auth
   title: ''
   type: TrustCenter
@@ -144,34 +135,106 @@ common:
   title: ''
   type: DomainSecurity
   url: security/idenfy-domain-security.yml
-- group: auth
+- group: design
   title: ''
-  type: Authentication
-  url: authentication/idenfy-authentication.yml
+  type: Webhooks
+  url: asyncapi/idenfy-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/idenfy-sandbox.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/idenfy-components.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/idenfy-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/idenfy-packages.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/idenfy-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/idenfy-rate-limits.yml
+- group: other
+  title: ''
+  type: AgentCard
+  url: a2a/idenfy-a2a.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/idenfy-well-known.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/idenfy-agentic-access.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/idenfy-finops.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://idenfy.com/llms.txt
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/idenfy-docs-llms.txt
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://idenfy.com/pricing-plans-v4/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://idenfy.com/pricing-plans-v4/
+- group: start
+  title: ''
+  type: Login
+  url: https://admin.idenfy.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://idenfy-ivs.atlassian.net/servicedesk/customer/portal/1
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.idenfy.com/contact/
+- group: build
+  title: ''
+  type: Postman
+  url: https://www.postman.com/idenfy-developers/idenfy-public-api/collection/gwjcqp9/idenfy-api-requests
 - group: build
   title: ''
   type: GitHubOrganization
   url: https://github.com/idenfy
 - group: company
   title: ''
-  type: LinkedIn
-  url: https://www.linkedin.com/company/idenfy
+  type: Blog
+  url: https://idenfy.com/blog/
 - group: company
   title: ''
-  type: Website
-  url: https://www.idenfy.com/
-- group: docs
+  type: LinkedIn
+  url: https://www.linkedin.com/company/idenfy
+- group: commercial
   title: ''
-  type: Documentation
-  url: https://documentation.idenfy.com/
-- group: operate
+  type: TermsOfService
+  url: https://idenfy.com/terms-of-service/
+- group: commercial
   title: ''
-  type: Support
-  url: https://www.idenfy.com/contact/
-- group: agent
-  title: ''
-  type: LlmsText
-  url: https://idenfy.com/llms.txt
+  type: PrivacyPolicy
+  url: https://idenfy.com/privacy-policy/
 created: '2024-11-13'
 description: iDenfy is an identity verification platform providing KYC, KYB, and AML compliance solutions. The iDenfy API enables businesses to verify identities, check for fraud, and comply with regulatory requirements through automated document verification, facial recognition, AML screening, business verification, and bank verification services.
 finops:
@@ -180,76 +243,63 @@ finops:
   slug: idenfy-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/idenfy.png
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: iDenfy runs a hosted, remote Model Context Protocol server over the full public documentation site. It is read-only and unauthenticated — it serves published documentation pages and the OpenAPI specs,
+  name: iDenfy Documentation MCP Server
+  slug: idenfy-documentation-mcp-server
+modified: '2026-09-13'
 name: iDenfy
 nav: Providers
 network: true
-overview: 'iDenfy publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Fraud Prevention API, Face Authentication API, Aml API, and 6 more. Tagged areas include AML, Compliance, Fraud Detection, Identity Verification, and KYB.
+overview: 'iDenfy publishes 7 APIs on the [APIs.io](https://apis.io/) network, including Identity Verification (KYC) API, Business Verification (KYB) API, AML Screening and Monitoring API, and 4 more. Tagged areas include AML, Age Verification, Bank Verification, Biometrics, and Compliance.
 
 
-  iDenfy''s developer surface includes authentication, documentation, support, and 7 more developer resources.'
+  The iDenfy catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  iDenfy''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, pricing, and 34 more developer resources.'
 plans:
 - name: Idenfy Plans Pricing
   plan_count: 3
   slug: idenfy-plans-pricing
 random_paper: 9
 rate_limits:
-- limit_count: 5
+- limit_count: 0
   name: Idenfy Rate Limits
   slug: idenfy-rate-limits
-score:
-  band: thin
-  composite: 29.1
-  coverage:
-    artifact_dirs: 11
-    catalog_earned: 41.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 74.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 23.7
-    contract_governance: 0.0
-    contract_quality: 51.1
-    developer_ergonomics: 21.4
-    discoverability: 66.7
-    operational_transparency: 10.5
-  previous_composite: 29.1
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 7
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/idenfy/refs/heads/main/screenshots/idenfy-2026-06-20T183205.png
 security:
 - kind: authentication
   name: Idenfy Authentication
   slug: idenfy-authentication
-  summary_line: http · 1 scheme
+  summary_line: http · 2 schemes
 - kind: domain-security
   name: Idenfy Domain Security
   slug: idenfy-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Idenfy Vulnerability Disclosure
+  slug: idenfy-vulnerability-disclosure
+  summary_line: Hackerone
 - kind: trust-center
   name: Idenfy Trust Center
   slug: idenfy-trust-center
-  summary_line: ISO 27001, GDPR
+  summary_line: ISO/IEC 27001:2022, SOC 2 Type II, eIDAS, iBeta / ISO 30107-3
 slug: idenfy
 tags:
 - AML
+- Age Verification
+- Bank Verification
+- Biometrics
 - Compliance
 - Fraud Detection
 - Identity Verification
 - KYB
 - KYC
+- MCP
+- Open Banking
+- RegTech
+- Sanctions Screening
+- Webhooks
 website: https://www.idenfy.com/
 ---

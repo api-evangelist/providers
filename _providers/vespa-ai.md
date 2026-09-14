@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bound
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -266,6 +241,10 @@ common:
   title: ''
   type: LlmsText
   url: https://docs.vespa.ai/llms.txt
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://blog.vespa.ai/public-mcp-interns/
 created: '2026-05-25'
 description: Vespa is an open-source AI search engine, big-data serving engine, and vector database originally developed inside Yahoo and spun out as Vespa.ai AS. Vespa combines vector search, text search (BM25), structured filtering, and machine-learned ranking — including native tensor inference — into a single distributed serving engine that scales to billions of documents with sub-100ms latency. Vespa Cloud is the fully managed commercial offering operated by the Vespa.ai team across AWS and GCP, with Startup, Basic, Commercial, and Enterprise plans plus a Self-Managed option for customers running the open-source engine on their own infrastructure. Vespa is widely used at Spotify, Perplexity, Yahoo, Farfetch, and Elicit for search, recommendation, personalization, and Retrieval-Augmented Generation (RAG).
 examples:
@@ -331,7 +310,7 @@ jsonld:
   property_count: 6
   slug: vespa-ai-context
 layout: provider
-modified: '2026-08-08'
+modified: '2026-09-13'
 name: Vespa
 nav: Providers
 network: true
@@ -341,7 +320,7 @@ overview: 'Vespa publishes 3 APIs on the [APIs.io](https://apis.io/) network: Qu
   The Vespa catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
 
 
-  Vespa''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, developer console, support, and 34 more developer resources.'
+  Vespa''s developer surface includes authentication, documentation, getting-started guide, engineering blog, pricing, developer console, support, and 35 more developer resources.'
 plans:
 - name: Vespa Ai Plans Pricing
   plan_count: 6
@@ -373,38 +352,6 @@ rules:
     info: 0
     warn: 7
   slug: vespa-ai-rules
-score:
-  band: developing
-  composite: 52.6
-  coverage:
-    artifact_dirs: 18
-    catalog_earned: 79.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 35.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 50.0
-    contract_governance: 28.8
-    contract_quality: 56.0
-    developer_ergonomics: 53.6
-    discoverability: 72.2
-    operational_transparency: 60.5
-  previous_composite: 52.6
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/vespa-ai/refs/heads/main/screenshots/vespa-ai-2026-06-20T201005.png
 security:
 - kind: authentication

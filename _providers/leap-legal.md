@@ -10,31 +10,6 @@ access_model:
   - '{''url'': ''https://leap.us'', ''status'': 301, ''note'': ''declared website redirects to https://www.leaplegalsoftware.com/us/ — a different registrable domain (leap.us -> leaplegalsoftware.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-12'
 api_count: 5
 apis:
 - description: Modeled matter and contact/client management surface that third-party Marketplace apps integrate against - matters (number, title, practice area, status, responsible attorney), contacts/clients (indiv
@@ -95,32 +70,6 @@ plans:
   plan_count: 2
   slug: leap-legal-plans-pricing
 random_paper: 14
-score:
-  band: emerging
-  composite: 11.2
-  coverage:
-    artifact_dirs: 4
-    catalog_earned: 43.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 72.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 21.1
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 64.8
-    operational_transparency: 0.0
-  previous_composite: 11.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/leap-legal/refs/heads/main/screenshots/leap-legal-2026-07-25T224746.png
 security:
 - kind: domain-security

@@ -12,32 +12,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: true
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 40.3
-  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://api.pyannote.ai
@@ -232,38 +206,6 @@ rate_limits:
 - limit_count: 3
   name: Pyannoteai Rate Limits
   slug: pyannoteai-rate-limits
-score:
-  band: strong
-  composite: 60.8
-  coverage:
-    artifact_dirs: 25
-    catalog_earned: 61.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 54.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 78.9
-    contract_governance: 0.0
-    contract_quality: 59.7
-    developer_ergonomics: 78.6
-    discoverability: 75.9
-    operational_transparency: 57.9
-  previous_composite: 60.8
-  provenance:
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/pyannoteai/refs/heads/main/screenshots/pyannoteai-2026-09-02T152355.png
 security:
 - kind: authentication

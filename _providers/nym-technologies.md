@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 19.2
-  scored_at: '2026-09-12'
 api_count: 2
 apis:
 - baseURL: https://validator.nymtech.net/api
@@ -379,40 +354,6 @@ overview: 'Nym Technologies publishes 23 APIs on the [APIs.io](https://apis.io/)
 
   Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 28 more developer resources.'
 random_paper: 10
-score:
-  band: developing
-  composite: 49.8
-  coverage:
-    artifact_dirs: 20
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 40.8
-    developer_ergonomics: 66.1
-    discoverability: 75.9
-    operational_transparency: 52.6
-  previous_composite: 49.8
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 23
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/nym-technologies/refs/heads/main/screenshots/nym-technologies-2026-08-07T185831.png
 security:
 - kind: authentication

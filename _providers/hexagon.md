@@ -9,32 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 15.5
-  scored_at: '2026-09-12'
-api_count: 3
+api_count: 5
 apis:
 - description: REST APIs for the Nexus digital reality platform enabling manufacturers to build connected workflows integrating metrology, quality inspection, and production monitoring data. All endpoints are authen
   name: Hexagon Nexus API
@@ -45,8 +20,106 @@ apis:
 - description: Smart Digital eXchange API Services enabling integration with Hexagon's engineering data management platform for plant design, document control, and digital twin workflows in process and power industr
   name: HxGN SDx API Services
   slug: hxgn-sdx-api
-artifact_total: 7
+- description: 'The federated GraphQL API behind Hexagon GeoCloud (formerly HxDR / Reality Cloud Studio) for uploading, processing, organising, streaming and sharing reality-capture and geospatial data. 1,125 types, '
+  name: Hexagon GeoCloud GraphQL API
+  slug: geocloud-graphql
+- description: A remote Model Context Protocol endpoint served from the Hexagon GeoCloud web property and discoverable through RFC 9728 protected-resource metadata and RFC 8414 authorization-server metadata on the s
+  name: Hexagon GeoCloud MCP Server
+  slug: geocloud-mcp
+artifact_total: 13
 common:
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://rcdocs.leica-geosystems.com/en/hexagon-geocloud/latest.md
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://nexus.hexagon.com/developerportal
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://rcdocs.leica-geosystems.com/en/hexagon-geocloud/latest/getting-started.md
+- group: operate
+  title: ''
+  type: Support
+  url: https://geocloud.hexagon.com/contact-support/
+- group: start
+  title: ''
+  type: SignUp
+  url: https://geocloud.hexagon.com/free-demo/
+- group: start
+  title: ''
+  type: Login
+  url: https://geocloud.hxdr.app/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://geocloud.hexagon.com/terms-of-use/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://hexagon.com/legal/privacy-notice
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/hexagon-changelog.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/hexagon-lifecycle.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hexagon-lifecycle.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hexagon-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/hexagon-scopes.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hexagon-well-known.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hexagon-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://geocloud.hexagon.com/security-compliance/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/hexagon-trust-center.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hexagon-llms.txt
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hexagon-mcp.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hexagon-packages.yml
+- group: operate
+  title: ''
+  type: FAQ
+  url: https://geocloud.hexagon.com/faq/
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/hexagon-oss
 - group: auth
   title: ''
   type: DomainSecurity
@@ -103,6 +176,10 @@ finops:
   slug: hexagon-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hexagon.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: Hexagon GeoCloud MCP
+  slug: hexagon-geocloud-mcp
 modified: '2026-06-13'
 name: Hexagon
 nav: Providers
@@ -110,7 +187,7 @@ network: true
 overview: 'Hexagon publishes 1 API on the [APIs.io](https://apis.io/) network: Nexus API. Tagged areas include Manufacturing, Metrology, Quality Inspection, Digital Factory, and Production Monitoring.
 
 
-  Hexagon''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
+  Hexagon''s developer surface includes API reference, getting-started guide, support, signup flow, changelog, authentication, FAQ, and 28 more developer resources.'
 plans:
 - name: Hexagon Plans Pricing
   plan_count: 3
@@ -120,38 +197,25 @@ rate_limits:
 - limit_count: 0
   name: Hexagon Rate Limits
   slug: hexagon-rate-limits
-score:
-  band: thin
-  composite: 29.2
-  coverage:
-    artifact_dirs: 7
-    catalog_earned: 55.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 60.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 50.0
-    contract_governance: 0.0
-    contract_quality: 26.7
-    developer_ergonomics: 11.9
-    discoverability: 74.1
-    operational_transparency: 21.1
-  previous_composite: 29.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+scopes:
+- name: Hexagon Scopes
+  scope_count: 0
+  slug: hexagon-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 screenshot: https://raw.githubusercontent.com/api-evangelist/hexagon/refs/heads/main/screenshots/hexagon-2026-06-20T182709.png
 security:
+- kind: authentication
+  name: Hexagon Authentication
+  slug: hexagon-authentication
+  summary_line: 2 schemes
 - kind: domain-security
   name: Hexagon Domain Security
   slug: hexagon-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Hexagon Trust Center
+  slug: hexagon-trust-center
+  summary_line: SOC 2 Type II, ISO/IEC 27001:2022, CSA STAR Level 1
 slug: hexagon
 tags:
 - Manufacturing

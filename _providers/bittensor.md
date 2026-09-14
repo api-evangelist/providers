@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 8.1
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -149,37 +124,6 @@ overview: 'Bittensor publishes 1 API on the [APIs.io](https://apis.io/) network.
 
   Bittensor''s developer surface includes documentation, getting-started guide, API reference, engineering blog, CLI, authentication, and 16 more developer resources.'
 random_paper: 20
-score:
-  band: emerging
-  composite: 22.2
-  coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 4.5
-    contract_quality: 0.0
-    developer_ergonomics: 68.5
-    discoverability: 75.9
-    operational_transparency: 2.6
-  previous_composite: 22.2
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/bittensor/refs/heads/main/screenshots/bittensor-2026-07-25T203211.png
 security:
 - kind: authentication

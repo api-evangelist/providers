@@ -1,69 +1,122 @@
 ---
 access_model:
-  confidence: low
-  label: Unknown
+  confidence: medium
+  label: Open discovery, gated execution — tools/list is anonymous, tools/call needs an agent profile and a JWT
   onboarding: unknown
-  pricing: unknown
-  public: false
+  pricing: free
+  public: true
   source:
-  - '{''url'': ''https://www.hni.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.acrisure.com/midwest — a different registrable domain (hni.com -> acrisure.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
+  - '{''url'': ''https://hearthnhome.com/api/ucp/mcp'', ''status'': 200, ''note'': ''JSON-RPC tools/list returned all 13 tools with full inputSchemas and no Authorization header; tools/call on the same endpoint returned -32000 AuthenticationRequired (a Shopify agent JWT) and -32001 invalid_profile_url (a fetchable meta.ucp-agent.profile URI) — discovery is open, execution is gated (probed 2026-09-13)''}'
+  - '{''url'': ''https://www.hni.com'', ''status'': 301, ''note'': ''the previously recorded website hni.com 301s to acrisure.com/midwest — that is HNI Risk Services / Acrisure Midwest, a DIFFERENT company; HNI Corporation is www.hnicorp.com (probed 2026-09-13, roadmap#169)''}'
   trial: false
-  try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 0.0
-  scored_at: '2026-09-12'
-api_count: 0
-artifact_total: 1
+  try_now: true
+api_count: 1
+apis:
+- description: The Hearth & Home Technologies storefront implements the Universal Commerce Protocol (UCP) over an anonymous Model Context Protocol endpoint. A tools/list probe on 2026-09-13 returned 13 tools — searc
+  name: Hearth & Home Technologies Agent Commerce (UCP/MCP)
+  slug: hearth-home-agent-commerce
+artifact_total: 7
 common:
-- group: auth
+- group: company
   title: ''
-  type: DomainSecurity
-  url: security/hni-domain-security.yml
+  type: Website
+  url: https://www.hnicorp.com
 - group: company
   title: ''
   type: LinkedIn
   url: https://www.linkedin.com/company/hni-corporation
-- group: company
+- group: commercial
   title: ''
-  type: Website
-  url: https://www.hni.com
-- group: company
+  type: PrivacyPolicy
+  url: https://www.hnicorp.com/privacy-policy
+- group: commercial
   title: ''
-  type: Blog
-  url: https://www.hni.com/blog
-description: HNI is a performance-driven risk advisor that delivers insurance, benefits, and advisory strategies to help ambitious leaders boost performance.
+  type: TermsOfService
+  url: https://www.hnicorp.com/terms-of-use
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/hni-domain-security.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/hni-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/hni-llms.txt
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/hni-conformance.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/hni-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/hni-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/hni-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/hni-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/hni-lifecycle.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/hni-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/hni-plans-pricing.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/hni-packages.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/hni-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/hni-data-model.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/hni-mcp.yml
+created: '2026-04-28'
+description: 'HNI Corporation (NYSE: HNI) is a manufacturer founded in 1944 and headquartered in Muscatine, Iowa, built around two operating segments. Workplace Furnishings makes office seating, desks, storage, tables, panel systems and ancillary furnishings sold through independent dealers under the HON, Allsteel, Gunlocke, HBF and Kimball International brands. Residential Building Products is the hearth business, operated by Hearth & Home Technologies under the Heatilator, Heat & Glo, Majestic, Monessen, Quadra-Fire, Harman, SimpliFire and PelPro brands. HNI publishes no developer portal, REST API or OpenAPI for either segment. Its one public machine-readable surface is the agent-commerce stack on the Hearth & Home Technologies storefront at hearthnhome.com, which serves an llms.txt, a Universal Commerce Protocol merchant profile and an anonymous MCP endpoint exposing 13 catalog, cart and checkout tools.'
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hni.png
 layout: provider
-modified: '2026-04-28'
-name: Hni
+mcp_servers:
+- description: ''
+  name: Hearth & Home Technologies Agent Commerce MCP Server
+  slug: hearth-home-technologies-agent-commerce-mcp-server
+modified: '2026-09-13'
+name: HNI Corporation
 nav: Providers
 network: true
-overview: 'Hni is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
+overview: 'HNI Corporation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000, Manufacturing, Office Furniture, Workplace, and Building Products.
 
 
-  Hni''s developer surface includes engineering blog and 3 more developer resources.'
+  HNI Corporation''s developer surface includes authentication and 19 more developer resources.'
+plans:
+- name: Hni Plans Pricing
+  plan_count: 0
+  slug: hni-plans-pricing
 press:
 - date: '2026-05-25'
   title: The companies have closed on the acquisition deal, HNI ...
@@ -81,34 +134,21 @@ press:
   title: HNI) 2026 proxy details Steelcase deal, pay and ESG
   url: https://www.stocktitan.net/sec-filings/HNI/def-14a-hni-corp-definitive-proxy-statement-3603a98d9fc3.html
 random_paper: 4
-score:
-  band: minimal
-  composite: 3.1
-  coverage:
-    artifact_dirs: 5
-    catalog_earned: 14.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 101.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 2.4
-    discoverability: 25.9
-    operational_transparency: 0.0
-  previous_composite: 3.1
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+rate_limits:
+- limit_count: 0
+  name: Hni Rate Limits
+  slug: hni-rate-limits
+scopes:
+- name: Hni Scopes
+  scope_count: 0
+  slug: hni-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 screenshot: https://raw.githubusercontent.com/api-evangelist/hni/refs/heads/main/screenshots/hni-2026-06-20T182807.png
 security:
+- kind: authentication
+  name: Hni Authentication
+  slug: hni-authentication
+  summary_line: 4 schemes
 - kind: domain-security
   name: Hni Domain Security
   slug: hni-domain-security
@@ -116,5 +156,14 @@ security:
 slug: hni
 tags:
 - Fortune 1000
-website: https://www.hni.com
+- Manufacturing
+- Office Furniture
+- Workplace
+- Building Products
+- Hearth
+- Retail
+- E-Commerce
+- Agent Commerce
+- MCP
+website: https://www.hnicorp.com
 ---

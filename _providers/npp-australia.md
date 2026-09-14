@@ -10,31 +10,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 15.1
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: The NPP API Framework defines the mandatory technical approach and data attributes for APIs built on the New Payments Platform, aligned to the ISO 20022 messaging standard. NPP Australia does not itse
@@ -154,47 +129,6 @@ overview: 'NPP Australia (AP+) publishes 3 APIs on the [APIs.io](https://apis.io
 
   NPP Australia (AP+)''s developer surface includes documentation, API reference, sandbox, signup flow, engineering blog, getting-started guide, support, and 16 more developer resources.'
 random_paper: 1
-score:
-  band: thin
-  composite: 30.6
-  coverage:
-    artifact_dirs: 9
-    catalog_earned: 35.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 80.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 34.2
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 60.7
-    discoverability: 72.2
-    operational_transparency: 7.9
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - australia
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - anz
-  previous_composite: 30.6
-  provenance:
-    conformance: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 39.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/npp-australia/refs/heads/main/screenshots/npp-australia-2026-08-07T185651.png
 security:
 - kind: authentication

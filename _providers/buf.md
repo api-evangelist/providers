@@ -9,32 +9,7 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 5.0
-  scored_at: '2026-09-12'
-api_count: 3
+api_count: 2
 apis:
 - description: 'The Buf Schema Registry (BSR) is a centralized repository for managing, distributing, and documenting Protobuf schemas. It provides dependency management, generated SDKs in multiple languages, remote '
   name: Buf Schema Registry (BSR)
@@ -42,10 +17,11 @@ apis:
 - description: The Buf CLI is a local Protobuf development toolchain providing linting, breaking change detection, code generation, formatting, dependency management, and schema push/pull to the Buf Schema Registry.
   name: Buf CLI
   slug: buf-cli
-- description: Bufstream is a Kafka-compatible streaming platform built on Protocol Buffers. It provides schema enforcement, Iceberg integration, and administrative tooling for managing Kafka-compatible streaming wo
-  name: Bufstream
-  slug: bufstream
-artifact_total: 17
+artifact_total: 21
+asyncapis:
+- description: ''
+  name: Buf Bsr Webhooks
+  slug: buf-bsr-webhooks
 common:
 - group: operate
   title: ''
@@ -123,8 +99,132 @@ common:
   title: ''
   type: SchemaRegistry
   url: https://buf.build/registry
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://buf.build/docs
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://buf.build/docs/bsr/apis/api-access/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://buf.build/docs/bsr/quickstart/
+- group: operate
+  title: ''
+  type: Support
+  url: https://buf.build/docs/contact/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.buf.build
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/buf-lifecycle.yml
+- group: operate
+  title: ''
+  type: Deprecation
+  url: lifecycle/buf-lifecycle.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/buf-changelog.yml
+- group: other
+  title: ''
+  type: Protobuf
+  url: grpc/buf-grpc-index.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/buf-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/buf-llms.txt
+- group: build
+  title: ''
+  type: Packages
+  url: packages/buf-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/buf-packages.yml
+- group: build
+  title: ''
+  type: Go SDK
+  url: https://pkg.go.dev/buf.build/gen/go/bufbuild/registry/connectrpc/go
+- group: build
+  title: ''
+  type: CLI
+  url: cli/buf-cli.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/buf-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/buf-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/buf-conventions.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/buf-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/buf-scopes.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/buf-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/buf-data-model.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/buf-rate-limits.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/buf-plans-pricing.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/buf-bsr-webhooks.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/buf-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/buf-conformance.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/buf-well-known.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/buf-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: security/buf-vulnerability-disclosure.yml
 created: '2026-03-25'
-description: Buf is a modern developer platform for Protocol Buffers and gRPC, providing a CLI toolchain, schema registry, and streaming infrastructure. It replaces traditional protoc-based workflows with linting, breaking change detection, code generation, remote plugins, and the Buf Schema Registry (BSR) for centralized schema distribution. Buf also offers Bufstream, a Kafka-compatible streaming platform built on Protobuf. Used by enterprises including EA, Intel, IBM, OpenAI, and Okta.
+description: 'Buf Technologies builds the modern toolchain for Protocol Buffers and gRPC: the buf CLI, the Buf Schema Registry (BSR), Protovalidate, Protobuf-ES and Protobuf-Py, and the Connect protocol, which is now a CNCF project. It replaces protoc-based workflows with linting, breaking-change detection, code generation, remote plugins, policy checks and centralized schema distribution. Buf''s own public API is published as Protobuf rather than OpenAPI — 33 services and 85 RPCs served over Connect, gRPC and gRPC-Web at the root of buf.build, Apache-2.0 licensed at github.com/bufbuild/registry-proto — and the same surface is exposed to agents as a remote MCP server at https://buf.build/mcp. Used by enterprises including EA, Intel, IBM, OpenAI and Okta. Bufstream, Buf''s Kafka-compatible streaming platform, was acquired by CoreWeave in May 2026 and is no longer a Buf product.'
 features:
 - features:
   - Style Guide Enforcement
@@ -173,61 +273,53 @@ finops:
   slug: buf-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/buf.png
 layout: provider
-modified: '2026-04-21'
+mcp_servers:
+- description: The Buf Schema Registry exposes its public v1 Registry API as MCP tools so an agent can find a module, fetch its schema, and inspect commits and labels without a generated client. Buf's own docs state
+  name: Buf MCP Server
+  slug: buf-mcp-server
+modified: '2026-09-13'
 name: Buf
 nav: Providers
 network: true
-overview: 'Buf publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, gRPC, Kafka, Open-Source, and Protocol Buffers.
+overview: 'Buf publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Code Generation, Developer Tools, gRPC, Kafka, and Open-Source.
 
 
-  Buf''s developer surface includes documentation, engineering blog, pricing, signup flow, and 15 more developer resources.'
+  The Buf catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Buf''s developer surface includes documentation, engineering blog, pricing, signup flow, API reference, getting-started guide, support, and 43 more developer resources.'
 plans:
 - name: Buf Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: buf-plans-pricing
 random_paper: 2
 rate_limits:
-- limit_count: 5
+- limit_count: 4
   name: Buf Rate Limits
   slug: buf-rate-limits
-score:
-  band: thin
-  composite: 29.2
-  coverage:
-    artifact_dirs: 6
-    catalog_earned: 44.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 71.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 53.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 45.2
-    discoverability: 64.8
-    operational_transparency: 26.3
-  open_source:
-    applies: true
-    score: 25.0
-  previous_composite: 29.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+scopes:
+- name: Buf Scopes
+  scope_count: 0
+  slug: buf-scopes
+  summary_line: OAuth 2.0 · no documented scopes
 screenshot: https://raw.githubusercontent.com/api-evangelist/buf/refs/heads/main/screenshots/buf-2026-06-20T173740.png
 security:
+- kind: authentication
+  name: Buf Authentication
+  slug: buf-authentication
+  summary_line: 3 schemes
 - kind: domain-security
   name: Buf Domain Security
   slug: buf-domain-security
   summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Buf Vulnerability Disclosure
+  slug: buf-vulnerability-disclosure
+  summary_line: Hackerone
 slug: buf
 tags:
 - Code Generation
+- Developer Tools
 - gRPC
 - Kafka
 - Open-Source

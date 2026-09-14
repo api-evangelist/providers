@@ -10,31 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: verified
-    mcp_server: false
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 37.1
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -46,64 +21,244 @@ api_count: 2
 apis:
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing bucket and object access control lists (ACLs)
-  name: Amazon S3 Access Control API
-  slug: amazon-s3-access-control-api
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Abac (bucket-level)
+  slug: amazon-s3-abac-bucket-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for S3 Access Grants management
-  name: Amazon S3 Access Grants API
-  slug: amazon-s3-access-grants-api
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Accelerate (bucket-level)
+  slug: amazon-s3-accelerate-bucket-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for creating and managing S3 access points
-  name: Amazon S3 Access Points API
-  slug: amazon-s3-access-points-api
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Acl (bucket-level)
+  slug: amazon-s3-acl-bucket-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for creating and managing S3 Batch Operations jobs
-  name: Amazon S3 Batch Operations API
-  slug: amazon-s3-batch-operations-api
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Acl (object-level)
+  slug: amazon-s3-acl-object-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing bucket-level configuration such as versioning, lifecycle, CORS, and encryption
-  name: Amazon S3 Bucket Configuration API
-  slug: amazon-s3-bucket-configuration-api
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Analytics (bucket-level)
+  slug: amazon-s3-analytics-bucket-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for creating, listing, and managing S3 buckets
-  name: Amazon S3 Buckets API
-  slug: amazon-s3-buckets-api
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Annotation (object-level)
+  slug: amazon-s3-annotation-object-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for Multi-Region Access Points
-  name: Amazon S3 Multi-Region Access Points API
-  slug: amazon-s3-multi-region-access-points-api
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Attributes (object-level)
+  slug: amazon-s3-attributes-object-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for multipart upload of large objects
-  name: Amazon S3 Multipart Upload API
-  slug: amazon-s3-multipart-upload-api
+  description: 5 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Core (bucket-level)
+  slug: amazon-s3-core-bucket-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for uploading, downloading, copying, and deleting objects
-  name: Amazon S3 Objects API
-  slug: amazon-s3-objects-api
+  description: 5 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Core (object-level)
+  slug: amazon-s3-core-object-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing public access block settings
-  name: Amazon S3 Public Access Block API
-  slug: amazon-s3-public-access-block-api
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Core (service-level)
+  slug: amazon-s3-core-service-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for S3 Storage Lens configurations
-  name: Amazon S3 Storage Lens API
-  slug: amazon-s3-storage-lens-api
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Cors (bucket-level)
+  slug: amazon-s3-cors-bucket-api
 - baseURL: https://s3.amazonaws.com
   baseurl_source: declared
-  description: Operations for managing bucket and object tags
-  name: Amazon S3 Tagging API
-  slug: amazon-s3-tagging-api
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Delete (bucket-level)
+  slug: amazon-s3-delete-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Encryption (bucket-level)
+  slug: amazon-s3-encryption-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Encryption (object-level)
+  slug: amazon-s3-encryption-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Intelligent Tiering (bucket-level)
+  slug: amazon-s3-intelligent-tiering-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Inventory (bucket-level)
+  slug: amazon-s3-inventory-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Legal Hold (object-level)
+  slug: amazon-s3-legal-hold-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Lifecycle (bucket-level)
+  slug: amazon-s3-lifecycle-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 List Type (bucket-level)
+  slug: amazon-s3-list-type-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Location (bucket-level)
+  slug: amazon-s3-location-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Logging (bucket-level)
+  slug: amazon-s3-logging-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Metadatatable (bucket-level)
+  slug: amazon-s3-metadata-able-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Metadataannotationtable (bucket-level)
+  slug: amazon-s3-metadata-nnotation-able-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Metadatainventorytable (bucket-level)
+  slug: amazon-s3-metadata-nventory-able-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Metadataconfiguration (bucket-level)
+  slug: amazon-s3-metadata-onfiguration-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Metadatajournaltable (bucket-level)
+  slug: amazon-s3-metadata-ournal-able-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Metrics (bucket-level)
+  slug: amazon-s3-metrics-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Notification (bucket-level)
+  slug: amazon-s3-notification-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Object Lock (bucket-level)
+  slug: amazon-s3-object-lock-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Ownershipcontrols (bucket-level)
+  slug: amazon-s3-ownership-ontrols-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Policy (bucket-level)
+  slug: amazon-s3-policy-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Policystatus (bucket-level)
+  slug: amazon-s3-policy-tatus-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Publicaccessblock (bucket-level)
+  slug: amazon-s3-public-ccess-lock-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Renameobject (object-level)
+  slug: amazon-s3-rename-bject-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Replication (bucket-level)
+  slug: amazon-s3-replication-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Requestpayment (bucket-level)
+  slug: amazon-s3-request-ayment-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Restore (object-level)
+  slug: amazon-s3-restore-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Retention (object-level)
+  slug: amazon-s3-retention-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Select (object-level)
+  slug: amazon-s3-select-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Session (bucket-level)
+  slug: amazon-s3-session-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Tagging (bucket-level)
+  slug: amazon-s3-tagging-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Tagging (object-level)
+  slug: amazon-s3-tagging-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Torrent (object-level)
+  slug: amazon-s3-torrent-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Uploads (bucket-level)
+  slug: amazon-s3-uploads-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Uploads (object-level)
+  slug: amazon-s3-uploads-object-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 2 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Versioning (bucket-level)
+  slug: amazon-s3-versioning-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 1 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Versions (bucket-level)
+  slug: amazon-s3-versions-bucket-api
+- baseURL: https://s3.amazonaws.com
+  baseurl_source: declared
+  description: 3 operation(s) from the Amazon S3 REST API, generated from the authoritative AWS service model.
+  name: Amazon S3 Website (bucket-level)
+  slug: amazon-s3-website-bucket-api
 arazzos:
 - description: Initiate a multipart upload then abort it to release any staged storage.
   name: Amazon S3 Start and Abort a Multipart Upload
@@ -165,7 +320,7 @@ arazzos:
 - description: Write a bucket tag set then read it back to confirm it was stored.
   name: Amazon S3 Set and Verify Bucket Tags
   slug: amazon-s3-set-bucket-tagging-workflow
-artifact_total: 249
+artifact_total: 285
 collections:
 - collection_type: postman
   name: Amazon S3 Control API
@@ -1000,11 +1155,11 @@ jsonld:
   property_count: 0
   slug: amazon-s3-tables-context
 layout: provider
-modified: '2026-06-20'
+modified: '2026-09-13'
 name: Amazon S3
 nav: Providers
 network: true
-overview: 'Amazon S3 publishes 12 APIs on the [APIs.io](https://apis.io/) network, including Access Control API, Access Grants API, Access Points API, and 9 more. Tagged areas include Archive, Backup, Cloud Storage, Data Storage, and Object Storage.
+overview: 'Amazon S3 publishes 48 APIs on the [APIs.io](https://apis.io/) network, including Abac (bucket-level), Accelerate (bucket-level), Acl (bucket-level), and 45 more. Tagged areas include Archive, Backup, Cloud Storage, Data Storage, and Object Storage.
 
 
   The Amazon S3 catalog on APIs.io includes 4 JSON-LD contexts and 2 Spectral governance rulesets.
@@ -1042,40 +1197,6 @@ rules:
     info: 3
     warn: 5
   slug: amazon-s3-spectral-rules
-score:
-  band: strong
-  composite: 65.7
-  coverage:
-    artifact_dirs: 31
-    catalog_earned: 66.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 48.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 69.7
-    contract_governance: 18.2
-    contract_quality: 76.0
-    developer_ergonomics: 79.8
-    discoverability: 74.1
-    operational_transparency: 52.6
-  previous_composite: 65.7
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 17
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:
 - kind: authentication

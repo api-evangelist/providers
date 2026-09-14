@@ -10,31 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-12'
 api_count: 6
 apis:
 - description: UCL Discovery is UCL's open-access institutional repository of research outputs, running EPrints on UCL's own registrable domain, and it exposes an OAI-PMH 2.0 metadata-harvesting endpoint at discover
@@ -195,51 +170,6 @@ rate_limits:
 - limit_count: 1
   name: Ucl Rate Limits
   slug: ucl-rate-limits
-score:
-  band: thin
-  composite: 26.6
-  coverage:
-    artifact_dirs: 7
-    catalog_earned: 54.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 61.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 39.5
-    contract_governance: 0.0
-    contract_quality: 4.4
-    developer_ergonomics: 16.7
-    discoverability: 64.8
-    operational_transparency: 39.5
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    countries:
-    - united-kingdom
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - united-kingdom-ireland
-  open_source:
-    applies: true
-    score: 50.0
-  previous_composite: 26.6
-  provenance:
-    conformance: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Education & Research
-    regime_id: education
-    score: 27.8
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png
 security:
 - kind: domain-security

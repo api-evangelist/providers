@@ -10,31 +10,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: documented
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 28.5
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -219,47 +194,6 @@ overview: 'Robinhood publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
   Robinhood''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 23 more developer resources.'
 random_paper: 19
-score:
-  band: developing
-  composite: 44.2
-  coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 21.1
-    contract_governance: 4.5
-    contract_quality: 58.1
-    developer_ergonomics: 58.9
-    discoverability: 75.9
-    operational_transparency: 28.9
-  previous_composite: 44.2
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 5
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: weak_tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 51.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/robinhood/refs/heads/main/screenshots/robinhood-2026-08-17T081615.png
 security:
 - kind: authentication

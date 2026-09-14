@@ -11,31 +11,6 @@ access_model:
   - '{''url'': ''https://www.soundtrackyourbrand.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.soundtrack.io/ — a different registrable domain (soundtrackyourbrand.com -> soundtrack.io), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: derived
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 20.3
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Single-endpoint GraphQL API (queries, mutations and websocket subscriptions) for building display, control and monitoring apps on top of Soundtrack — now-playing, playback control, device pairing, sch
@@ -171,42 +146,6 @@ overview: 'Soundtrack Your Brand publishes 1 API on the [APIs.io](https://apis.i
 
   Soundtrack Your Brand''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, support, pricing, and 20 more developer resources.'
 random_paper: 16
-score:
-  band: developing
-  composite: 41.5
-  coverage:
-    artifact_dirs: 16
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 53.1
-    developer_ergonomics: 54.2
-    discoverability: 75.9
-    operational_transparency: 18.4
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - europe
-    - nordics
-  previous_composite: 41.5
-  provenance:
-    conformance: derived
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundtrack-your-brand/refs/heads/main/screenshots/soundtrack-your-brand-2026-08-17T082005.png
 security:
 - kind: authentication

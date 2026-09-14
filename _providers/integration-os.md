@@ -10,38 +10,27 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: flavored
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 4.0
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
-- description: One is the current successor brand to IntegrationOS and Pica. It provides agent infrastructure with a unified CLI for 250+ platforms and 50,000+ tools, managed OAuth (AuthKit), multi-step Flows, memor
+- baseURL: https://api.withone.ai
+  baseurl_source: declared
+  description: One is the current successor brand to IntegrationOS and Pica. It provides agent infrastructure with a unified CLI for 250+ platforms and 50,000+ tools, managed OAuth (AuthKit), multi-step Flows, memor
   name: One (successor to IntegrationOS / Pica)
   slug: successor
-artifact_total: 6
+artifact_total: 10
+asyncapis:
+- description: ''
+  name: Integration Os Webhooks
+  slug: integration-os-webhooks
 common:
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/integration-os-scopes.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/integration-os-authentication.yml
 - group: company
   title: ''
   type: Website
@@ -93,41 +82,169 @@ common:
 - group: other
   title: ''
   type: HistoricalSite
-  url: https://www.integrationos.com/
-- group: docs
-  title: ''
-  type: HistoricalDocs
-  url: https://docs.picaos.com/
+  url: https://www.picaos.com/
 - group: build
   title: ''
   type: HistoricalGitHub
   url: https://github.com/integration-os
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/integration-os-one-api-openapi.json
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/integration-os-mcp.yml
+- group: build
+  title: ''
+  type: ToolCrosswalk
+  url: mcp/integration-os-tool-crosswalk.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/integration-os-webhooks.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/integration-os-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/integration-os-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/integration-os-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/integration-os-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/integration-os-cli.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/integration-os-components.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/integration-os-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/integration-os-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/integration-os-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/integration-os-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/integration-os-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/integration-os-conformance.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/integration-os-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.withone.ai/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/integration-os-changelog.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/integration-os-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/integration-os-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/integration-os-finops.yml
+- group: design
+  title: ''
+  type: Rules
+  url: rules/integration-os-rules.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/integration-os-one-api-overlay.yaml
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://www.withone.ai/docs/api-reference/introduction
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.withone.ai/docs/getting-started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.withone.ai/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.withone.ai/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.withone.ai/privacy
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.withone.ai/contact
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/withoneai
 created: '2026-03-27'
-description: IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company was subsequently rebranded as Pica (picaos.com) and the brand has since redirected to One (withone.ai), an agent infrastructure platform offering authenticated access to 250+ platforms with 50,000+ actions, managed OAuth, scheduling, memory, and API knowledge through a unified CLI. This index preserves the IntegrationOS history while pointing to the active successor.
+description: 'IntegrationOS was a unified API platform that let developers add third-party integrations to their products with a single API call. The company rebranded as Pica (picaos.com) and then, on 2026-03-25, as One (withone.ai) — the provider''s own changelog records the step as "Pica is now One". One is an agent infrastructure platform: authenticated access to 789 platforms and 111,176 actions through a unified CLI, managed OAuth (AuthKit), multi-step Flows, inbound webhook Relay, and both a hosted and a local Model Context Protocol server. This record preserves the IntegrationOS history and profiles the active successor''s published surface, including its OpenAPI 3.1.0 contract (248 operations), its four-tool MCP server, its llms.txt and its agent.json.'
 finops:
 - name: Integration Os Finops
   service_category: API
   slug: integration-os-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 layout: provider
-modified: '2026-04-28'
+mcp_servers:
+- description: One ships BOTH a hosted remote MCP server and a local-stdio server, and the provider documents them as two ways to reach the same four tools. The remote endpoint is reachable and OAuth-gated; the loca
+  name: IntegrationOS MCP Server
+  slug: integrationos-mcp-server
+modified: '2026-09-13'
 name: IntegrationOS
 nav: Providers
 network: true
-overview: 'IntegrationOS publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Agent Infrastructure, AI Agents, Connectors, Historical, and Integration.
+overview: 'IntegrationOS publishes 1 API on the [APIs.io](https://apis.io/) network: One (successor to IntegrationOS / Pica). Tagged areas include Agent Infrastructure, AI Agents, Connectors, Historical, and Integration.
 
 
-  The IntegrationOS catalog on APIs.io includes 1 Spectral governance ruleset.
+  The IntegrationOS catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
 
 
-  IntegrationOS''s developer surface includes developer portal, documentation, engineering blog, signup flow, and 11 more developer resources.'
+  IntegrationOS''s developer surface includes authentication, developer portal, documentation, engineering blog, signup flow, CLI, sandbox, and 41 more developer resources.'
 plans:
 - name: Integration Os Plans Pricing
-  plan_count: 3
+  plan_count: 4
   slug: integration-os-plans-pricing
 random_paper: 10
 rate_limits:
-- limit_count: 5
+- limit_count: 4
   name: Integration Os Rate Limits
   slug: integration-os-rate-limits
 rules:
@@ -141,34 +258,17 @@ rules:
     info: 0
     warn: 0
   slug: integration-os-rules
-score:
-  band: emerging
-  composite: 18.6
-  coverage:
-    artifact_dirs: 8
-    catalog_earned: 46.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 69.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 28.9
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 21.4
-    discoverability: 68.5
-    operational_transparency: 13.2
-  previous_composite: 18.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
+scopes:
+- name: Integration Os Scopes
+  scope_count: 38
+  slug: integration-os-scopes
+  summary_line: 38 scopes · authorizationCode
 screenshot: https://raw.githubusercontent.com/api-evangelist/integration-os/refs/heads/main/screenshots/integration-os-2026-06-20T183438.png
 security:
+- kind: authentication
+  name: Integration Os Authentication
+  slug: integration-os-authentication
+  summary_line: apiKey/http/oauth2 · 5 schemes
 - kind: domain-security
   name: Integration Os Domain Security
   slug: integration-os-domain-security

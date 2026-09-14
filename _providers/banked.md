@@ -10,31 +10,6 @@ access_model:
   - '{''url'': ''https://banked.com/'', ''status'': 301, ''note'': ''declared website redirects to https://paybyb.com/ — a different registrable domain (banked.com -> paybyb.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 28.4
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Account-to-account payments over open banking — create payment sessions (checkout), payouts, refunds, and webhooks. The Partner API onboards businesses on behalf of platforms. OAuth 2.0 client-credent
@@ -174,41 +149,6 @@ overview: 'Banked publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Banked''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 21 more developer resources.'
 random_paper: 4
-score:
-  band: thin
-  composite: 38.9
-  coverage:
-    artifact_dirs: 13
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 17.1
-    contract_governance: 18.2
-    contract_quality: 41.6
-    developer_ergonomics: 45.2
-    discoverability: 75.9
-    operational_transparency: 44.7
-  previous_composite: 38.9
-  provenance:
-    conformance: first-party
-    mcp: first-party
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 34.2
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/banked/refs/heads/main/screenshots/banked-2026-07-25T202342.png
 security:
 - kind: authentication

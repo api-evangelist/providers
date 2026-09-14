@@ -13,31 +13,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_card: flavored
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: self
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: documented
-    mcp_server: verified
-    openapi_examples: partial
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 69.2
-  scored_at: '2026-09-12'
 api_count: 4
 apis:
 - baseURL: https://taskfolk.ai/api
@@ -399,40 +374,6 @@ scopes:
   scope_count: 47
   slug: taskfolk-scopes
   summary_line: 47 scopes · authorizationCode
-score:
-  band: strong
-  composite: 61.1
-  coverage:
-    artifact_dirs: 23
-    catalog_earned: 52.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 63.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 84.2
-    contract_governance: 18.2
-    contract_quality: 56.5
-    developer_ergonomics: 58.9
-    discoverability: 77.8
-    operational_transparency: 52.6
-  previous_composite: 61.1
-  provenance:
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 32
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/taskfolk/refs/heads/main/screenshots/taskfolk-2026-09-02T162549.png
 security:
 - kind: authentication

@@ -10,32 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: true
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: verified
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 60.4
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -358,41 +332,6 @@ scopes:
   scope_count: 2
   slug: fireflies-scopes
   summary_line: 2 scopes · authorizationCode
-score:
-  band: exemplar
-  composite: 70.3
-  coverage:
-    artifact_dirs: 31
-    catalog_earned: 77.3
-    catalog_earned_first_party: 12.0
-    catalog_gap: 37.8
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 100.0
-    contract_governance: 43.2
-    contract_quality: 82.1
-    developer_ergonomics: 59.5
-    discoverability: 75.9
-    operational_transparency: 44.7
-  previous_composite: 70.3
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 1
-    mcp: first-party
-    skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies/refs/heads/main/screenshots/fireflies-2026-06-20T181230.png
 security:
 - kind: authentication

@@ -1,29 +1,4 @@
 ---
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: true
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 24.5
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: RESTful JSON API grouping five sentiment services (Reddit Stocks, X.com Stocks, Stock News, Polymarket Stocks, Reddit Crypto) with 41 base endpoints plus PRO raw-mention endpoints. Authenticated via X
@@ -175,46 +150,6 @@ rate_limits:
 - limit_count: 6
   name: Adanos Market Sentiment Api Rate Limits
   slug: adanos-market-sentiment-api-rate-limits
-score:
-  band: strong
-  composite: 54.3
-  coverage:
-    artifact_dirs: 21
-    catalog_earned: 59.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 56.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 76.3
-    contract_governance: 4.5
-    contract_quality: 26.7
-    developer_ergonomics: 57.1
-    discoverability: 72.2
-    operational_transparency: 76.3
-  previous_composite: 54.3
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 6
-    mcp: derived
-    skills: first-party
-  regulatory:
-    applies: true
-    matched_via: weak_tags
-    regime: Securities & Market Data
-    regime_id: securities_market_data
-    score: 61.7
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/screenshots/adanos-market-sentiment-api-2026-07-25T181547.png
 security:
 - kind: authentication

@@ -11,32 +11,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: true
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: verified
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 41.9
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -355,41 +329,6 @@ rate_limits:
 - limit_count: 12
   name: Diffbot Rate Limits
   slug: diffbot-rate-limits
-score:
-  band: exemplar
-  composite: 73.7
-  coverage:
-    artifact_dirs: 25
-    catalog_earned: 67.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 48.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 2.3
-  facets:
-    access_clarity: 92.1
-    contract_governance: 18.2
-    contract_quality: 58.7
-    developer_ergonomics: 90.5
-    discoverability: 81.5
-    operational_transparency: 81.6
-  previous_composite: 71.4
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 4
-    mcp: first-party
-    skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 22.2
 screenshot: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/screenshots/diffbot-2026-06-20T180012.png
 security:
 - kind: authentication

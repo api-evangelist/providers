@@ -10,31 +10,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: documented
-    mcp_server: templated
-    openapi_examples: partial
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 57.9
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -771,47 +746,6 @@ scopes:
   scope_count: 42
   slug: salesforce-marketing-cloud-scopes
   summary_line: 42 scopes · clientCredentials
-score:
-  band: exemplar
-  composite: 82.6
-  coverage:
-    artifact_dirs: 33
-    catalog_earned: 71.5
-    catalog_earned_first_party: 24.0
-    catalog_gap: 43.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 100.0
-    contract_governance: 31.8
-    contract_quality: 74.5
-    developer_ergonomics: 76.8
-    discoverability: 79.6
-    operational_transparency: 84.2
-  previous_composite: 82.6
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 3
-    mcp: first-party
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Telecommunications
-    regime_id: telecommunications
-    score: 73.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:
 - kind: authentication

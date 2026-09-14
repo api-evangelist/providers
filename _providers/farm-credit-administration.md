@@ -11,31 +11,6 @@ access_model:
   - https://www.fca.gov/data
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: documented
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 10.1
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'Public, anonymous Esri ArcGIS Server 12.0 REST services publishing the geography of the Farm Credit System: 55 ACA/FLCA institution headquarters (charter address, phone, county, CEO and chair surnames'
@@ -234,42 +209,6 @@ rate_limits:
 - limit_count: 0
   name: Farm Credit Administration Rate Limits
   slug: farm-credit-administration-rate-limits
-score:
-  band: emerging
-  composite: 24.3
-  coverage:
-    artifact_dirs: 17
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 10.5
-    contract_governance: 18.2
-    contract_quality: 6.7
-    developer_ergonomics: 25.6
-    discoverability: 75.9
-    operational_transparency: 10.5
-  previous_composite: 24.3
-  provenance:
-    conformance: first-party
-    mcp: derived
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Government & Public Sector
-    regime_id: government
-    score: 50.0
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-credit-administration/refs/heads/main/screenshots/farm-credit-administration-2026-06-20T181040.png
 security:
 - kind: authentication

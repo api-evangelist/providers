@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: true
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 29.8
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -528,41 +503,6 @@ rules:
     info: 0
     warn: 2
   slug: ibm-quantum-rules
-score:
-  band: strong
-  composite: 64.4
-  coverage:
-    artifact_dirs: 17
-    catalog_earned: 81.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 33.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 92.1
-    contract_governance: 28.8
-    contract_quality: 70.9
-    developer_ergonomics: 65.5
-    discoverability: 55.6
-    operational_transparency: 52.6
-  previous_composite: 64.4
-  provenance:
-    agentic_access: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 9
-  regulatory:
-    note: provider declares no identity tags; regime could not be determined
-    undetermined: true
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-quantum/refs/heads/main/screenshots/ibm-quantum-2026-06-20T183130.png
 security:
 - kind: authentication

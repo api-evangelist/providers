@@ -27,7 +27,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 42.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -77,21 +77,14 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 78.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 48.4,
      "agent_band": "agent-ready",
@@ -134,21 +127,14 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 84.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -191,21 +177,14 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 77.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -248,21 +227,14 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 62.0,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -305,7 +277,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -355,21 +327,14 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 25.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 74.1,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -412,21 +377,14 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 87.3,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 34.7,
      "agent_band": "agent-ready",
@@ -469,7 +427,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -519,7 +477,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 27.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -569,21 +527,14 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 78.5,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -626,21 +577,14 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 53.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 24.6,
      "agent_band": "agent-aware",
@@ -683,21 +627,14 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 84.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-banking",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -740,7 +677,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -790,7 +727,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -840,7 +777,7 @@
       "developer_ergonomics": 53.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -890,7 +827,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -940,7 +877,7 @@
       "developer_ergonomics": 51.8,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -990,7 +927,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 35.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1040,7 +977,7 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1090,21 +1027,14 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 60.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1147,7 +1077,7 @@
       "developer_ergonomics": 48.2,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1197,7 +1127,7 @@
       "developer_ergonomics": 49.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1247,7 +1177,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1297,21 +1227,14 @@
       "developer_ergonomics": 37.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 70.9,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 36.5,
      "agent_band": "agent-ready",
@@ -1354,7 +1277,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 31.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1404,21 +1327,14 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 39.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1472,21 +1388,14 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 63.3,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1529,7 +1438,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1579,21 +1488,14 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 72.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 32.2,
      "agent_band": "agent-ready",
@@ -1636,21 +1538,14 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 73.4,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -1693,7 +1588,7 @@
       "developer_ergonomics": 39.9,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1743,21 +1638,14 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 60.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -1800,7 +1688,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1850,7 +1738,7 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 38.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1900,21 +1788,14 @@
       "developer_ergonomics": 44.6,
       "access_clarity": 28.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 77.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 22.1,
      "agent_band": "agent-aware",
@@ -1957,7 +1838,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2007,21 +1888,14 @@
       "developer_ergonomics": 58.9,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 31.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -2064,7 +1938,7 @@
       "developer_ergonomics": 47.0,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2114,7 +1988,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2164,21 +2038,14 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 39.2,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -2221,7 +2088,7 @@
       "developer_ergonomics": 35.1,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2271,7 +2138,7 @@
       "developer_ergonomics": 42.3,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2321,7 +2188,7 @@
       "developer_ergonomics": 29.2,
       "access_clarity": 5.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2371,7 +2238,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2421,7 +2288,7 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2471,21 +2338,14 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 10.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 26.6,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -2528,21 +2388,14 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 70.9,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-consumer-data-standards",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 23.9,
      "agent_band": "agent-aware",
@@ -2585,7 +2438,7 @@
       "developer_ergonomics": 25.6,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -2646,21 +2499,14 @@
       "developer_ergonomics": 30.4,
       "access_clarity": 0.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 60.8,
-      "matched_via": "tags",
-      "jurisdictions_satisfied": 1,
-      "jurisdictions": [
-       {
-        "standard": "cdr-banking",
-        "jurisdiction": "AU"
-       }
-      ]
+      "matched_via": "tags"
      },
      "agent_score": 29.3,
      "agent_band": "agent-ready",

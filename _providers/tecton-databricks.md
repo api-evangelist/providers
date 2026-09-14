@@ -10,31 +10,6 @@ access_model:
   - '{''url'': ''https://www.tecton.ai/'', ''status'': 301, ''note'': ''declared website redirects to https://www.databricks.com/ — a different registrable domain (tecton.ai -> databricks.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: documented
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 8.8
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: REST API for the Tecton feature platform - the Feature Service (low-latency online feature retrieval, e.g. POST /api/v1/feature-service/get-features), the Ingest API, the Metadata API, and SCIM 2.0 pr
@@ -159,35 +134,6 @@ overview: 'Tecton (Databricks) publishes 1 API on the [APIs.io](https://apis.io/
 
   Tecton (Databricks)''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, CLI, and 18 more developer resources.'
 random_paper: 3
-score:
-  band: thin
-  composite: 33.8
-  coverage:
-    artifact_dirs: 14
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 36.8
-    contract_governance: 18.2
-    contract_quality: 0.0
-    developer_ergonomics: 71.4
-    discoverability: 75.9
-    operational_transparency: 18.4
-  previous_composite: 33.8
-  provenance:
-    conformance: first-party
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecton-databricks/refs/heads/main/screenshots/tecton-databricks-2026-09-02T162713.png
 security:
 - kind: authentication

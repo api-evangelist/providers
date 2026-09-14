@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: documented
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 3.8
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Speedscale captures production API traffic and replays it in lower environments for load testing, regression testing, and chaos testing. It provides traffic capture, replay, mocking of backend depende
@@ -138,7 +113,7 @@ modified: '2026-05-02'
 name: Speedscale
 nav: Providers
 network: true
-overview: 'Speedscale publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, API Testing, Kubernetes, Load Testing, and Performance Testing.
+overview: 'Speedscale publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include API Mocking, API Testing, Developer Tools, Kubernetes, and Load Testing.
 
 
   The Speedscale catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
@@ -176,32 +151,6 @@ rules:
     info: 1
     warn: 2
   slug: speedscale-rules
-score:
-  band: thin
-  composite: 33.5
-  coverage:
-    artifact_dirs: 13
-    catalog_earned: 72.5
-    catalog_earned_first_party: 0.0
-    catalog_gap: 42.5
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 32.9
-    contract_governance: 28.8
-    contract_quality: 29.3
-    developer_ergonomics: 35.7
-    discoverability: 75.9
-    operational_transparency: 10.5
-  previous_composite: 33.5
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/screenshots/speedscale-2026-06-20T194303.png
 security:
 - kind: domain-security
@@ -212,6 +161,7 @@ slug: speedscale
 tags:
 - API Mocking
 - API Testing
+- Developer Tools
 - Kubernetes
 - Load Testing
 - Performance Testing

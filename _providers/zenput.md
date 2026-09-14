@@ -12,31 +12,6 @@ access_model:
   - '{''url'': ''https://www.zenput.com'', ''status'': 301, ''note'': ''declared website redirects to https://www.crunchtime.com/operations-execution — a different registrable domain (zenput.com -> crunchtime.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)''}'
   trial: false
   try_now: false
-agent_readiness:
-  band: human-only
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: false
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: false
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 2.5
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: 'RESTful HTTP API for the Zenput operations-execution platform — retrieve activity/form submissions (including large-batch paged retrieval), manage locations, users, user roles, teams, tasks, sensors, '
@@ -125,34 +100,6 @@ overview: 'Zenput publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
   Zenput''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 10 more developer resources.'
 random_paper: 6
-score:
-  band: emerging
-  composite: 18.6
-  coverage:
-    artifact_dirs: 10
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 0.0
-    contract_governance: 0.0
-    contract_quality: 0.0
-    developer_ergonomics: 42.9
-    discoverability: 75.9
-    operational_transparency: 18.4
-  previous_composite: 18.6
-  provenance:
-    mcp: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenput/refs/heads/main/screenshots/zenput-2026-09-02T171616.png
 security:
 - kind: authentication

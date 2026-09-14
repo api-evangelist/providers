@@ -9,32 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  band_gated_from: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: documented
-    event_surface_described: true
-    idempotency: false
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: verified
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 50.0
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: The groundcover platform REST API. Data query endpoints run gcQL pipelines against logs (POST /api/logs/v2/search), trace spans (POST /api/traces/v2/search) and Kubernetes events (POST /api/k8s/v2/eve
@@ -231,35 +205,6 @@ scopes:
   scope_count: 0
   slug: groundcover-scopes
   summary_line: OAuth 2.0 · no documented scopes
-score:
-  band: strong
-  composite: 61.2
-  coverage:
-    artifact_dirs: 21
-    catalog_earned: 60.0
-    catalog_earned_first_party: 20.0
-    catalog_gap: 55.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 100.0
-    contract_governance: 18.2
-    contract_quality: 41.6
-    developer_ergonomics: 69.0
-    discoverability: 75.9
-    operational_transparency: 55.3
-  previous_composite: 61.2
-  provenance:
-    conformance: first-party
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: false
-    note: 'Not scored: no parseable contract to read. Never-measured is not the same fact as measured-empty, so this is absent rather than zero.'
-    reason: no_specs
 screenshot: https://raw.githubusercontent.com/api-evangelist/groundcover/refs/heads/main/screenshots/groundcover-2026-06-20T182415.png
 security:
 - kind: authentication

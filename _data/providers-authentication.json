@@ -27,7 +27,7 @@
       "developer_ergonomics": 91.1,
       "access_clarity": 93.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 48.5,
      "agent_band": "agent-ready",
@@ -71,7 +71,7 @@
       "developer_ergonomics": 82.7,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 30.4,
      "agent_band": "agent-ready",
@@ -115,7 +115,7 @@
       "developer_ergonomics": 57.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.4,
      "agent_band": "agent-aware",
@@ -170,7 +170,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 92.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -199,55 +199,11 @@
      "rank": 4
     },
     {
-     "name": "Okta",
-     "slug": "okta",
-     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png",
-     "score": 62.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 53.7,
-      "contract_quality": 77.4,
-      "contract_governance": 28.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 70.2,
-      "access_clarity": 61.8
-     },
-     "scored_at": "2026-09-12",
-     "schema_version": "0.22.0",
-     "agent_score": 30.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": "derived",
-      "reversibility_documented": false,
-      "mcp_server": "verified",
-      "auth_clarity": "bearer",
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": "documented",
-      "rate_limit_signal": "documented",
-      "event_surface_described": "derived",
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false,
-      "agent_card": false,
-      "dry_run_mode": false,
-      "delegated_identity": false,
-      "protected_resource_metadata": false,
-      "dynamic_client_registration": false,
-      "agentic_commerce": false
-     },
-     "tier": "Enterprise IAM & Workforce Identity",
-     "rank": 5
-    },
-    {
      "name": "Gluu",
      "slug": "gluu",
      "description": "Gluu is a technology company that specializes in providing identity and access management solutions for businesses. Their platform allows organizations to centrally manage the authentication and authorization of users across various applications and systems, ensuring secure access to sensitive data and resources. Gluu leads the Linux Foundation Janssen Project, whose OAuth 2.0 / OpenID Connect authorization server, SCIM 2.0 service, FIDO2 server, Config API and Cedarling policy decision point are the components Gluu packages commercially as Gluu Flex and hosts as Gluu Solo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gluu/refs/heads/main/screenshots/gluu-2026-06-20T181925.png",
-     "score": 61.6,
+     "score": 63.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
@@ -255,10 +211,10 @@
       "contract_quality": 64.9,
       "contract_governance": 18.2,
       "operational_transparency": 42.1,
-      "developer_ergonomics": 68.5,
-      "access_clarity": 73.7
+      "developer_ergonomics": 80.4,
+      "access_clarity": 71.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.5,
      "agent_band": "agent-ready",
@@ -284,6 +240,50 @@
       "agentic_commerce": false
      },
      "tier": "Open Source Identity Servers",
+     "rank": 5
+    },
+    {
+     "name": "Okta",
+     "slug": "okta",
+     "description": "Okta is the workforce identity incumbent — its Identity Cloud platform (also called the Okta Workforce Identity Platform) covers Single Sign-On, Adaptive MFA, Universal Directory, Lifecycle Management, Identity Governance, Privileged Access, Device Access, Identity Threat Protection, Identity Security Posture Management, Access Gateway, and API Access Management. Customer identity is handled by Auth0, which Okta acquired in 2021 and now operates as its consumer-facing identity arm. The platform now extends to securing AI agents via Okta for AI Agents and the Cross-App Access (XAA) protocol — an emerging OAuth profile based on the IETF ID-JAG draft for agent-to-app authorization. The Okta Management API is the primary developer surface, with an official MCP server (okta-mcp-server) exposing administrative operations to LLM agents under human-in-the-loop confirmation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/okta/refs/heads/main/screenshots/okta-2026-08-07T190056.png",
+     "score": 62.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 53.7,
+      "contract_quality": 77.4,
+      "contract_governance": 28.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 70.2,
+      "access_clarity": 61.8
+     },
+     "scored_at": "2026-09-13",
+     "schema_version": "0.22.0",
+     "agent_score": 30.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": "derived",
+      "reversibility_documented": false,
+      "mcp_server": "verified",
+      "auth_clarity": "bearer",
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": "documented",
+      "rate_limit_signal": "documented",
+      "event_surface_described": "derived",
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false,
+      "dry_run_mode": false,
+      "delegated_identity": false,
+      "protected_resource_metadata": false,
+      "dynamic_client_registration": false,
+      "agentic_commerce": false
+     },
+     "tier": "Enterprise IAM & Workforce Identity",
      "rank": 6
     },
     {
@@ -302,7 +302,7 @@
       "developer_ergonomics": 60.7,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 37.9,
      "agent_band": "agent-ready",
@@ -346,7 +346,7 @@
       "developer_ergonomics": 29.8,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.1,
      "agent_band": "agent-ready",
@@ -390,7 +390,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 36.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 34.3,
      "agent_band": "agent-ready",
@@ -434,15 +434,15 @@
       "developer_ergonomics": 88.1,
       "access_clarity": 52.6
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
-     "agent_score": 19.0,
+     "agent_score": 27.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": "derived",
       "reversibility_documented": "documented",
-      "mcp_server": false,
+      "mcp_server": "verified",
       "auth_clarity": "bearer",
       "idempotency": false,
       "error_semantics": false,
@@ -478,7 +478,7 @@
       "developer_ergonomics": 78.6,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 32.4,
      "agent_band": "agent-ready",
@@ -533,7 +533,7 @@
       "developer_ergonomics": 56.5,
       "access_clarity": 18.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.6,
      "agent_band": "agent-ready",
@@ -577,7 +577,7 @@
       "developer_ergonomics": 63.1,
       "access_clarity": 34.2
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 43.5,
      "agent_band": "agent-ready",
@@ -621,7 +621,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -665,7 +665,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 60.5
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.0,
      "agent_band": "agent-aware",
@@ -709,7 +709,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -753,7 +753,7 @@
       "developer_ergonomics": 65.5,
       "access_clarity": 43.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -797,7 +797,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -841,7 +841,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 33.7,
      "agent_band": "agent-ready",
@@ -885,7 +885,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 57.9
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -936,7 +936,7 @@
       "developer_ergonomics": 31.0,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -987,7 +987,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 28.1,
      "agent_band": "agent-aware",
@@ -1031,7 +1031,7 @@
       "developer_ergonomics": 50.0,
       "access_clarity": 51.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 31.4,
      "agent_band": "agent-ready",
@@ -1075,7 +1075,7 @@
       "developer_ergonomics": 69.0,
       "access_clarity": 26.3
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1126,7 +1126,7 @@
       "developer_ergonomics": 32.1,
       "access_clarity": 47.4
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1180,7 +1180,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 50.0
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 14.3,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 19.8,
      "agent_band": "agent-aware",
@@ -1275,7 +1275,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.2,
      "agent_band": "agent-aware",
@@ -1319,7 +1319,7 @@
       "developer_ergonomics": 40.5,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.7,
      "agent_band": "agent-aware",
@@ -1363,7 +1363,7 @@
       "developer_ergonomics": 66.7,
       "access_clarity": 21.1
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 2.5,
      "agent_band": "human-only",
@@ -1407,7 +1407,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 44.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 24.5,
      "agent_band": "agent-aware",
@@ -1451,7 +1451,7 @@
       "developer_ergonomics": 42.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 22.3,
      "agent_band": "agent-aware",
@@ -1495,7 +1495,7 @@
       "developer_ergonomics": 28.6,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1539,7 +1539,7 @@
       "developer_ergonomics": 11.9,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 25.5,
      "agent_band": "agent-aware",
@@ -1593,7 +1593,7 @@
       "developer_ergonomics": 38.1,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 23.2,
      "agent_band": "agent-aware",
@@ -1637,7 +1637,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 23.7
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "agent_score": 21.5,
      "agent_band": "agent-aware",
@@ -1680,7 +1680,7 @@
       "developer_ergonomics": 23.8,
       "access_clarity": 15.8
      },
-     "scored_at": "2026-09-12",
+     "scored_at": "2026-09-13",
      "schema_version": "0.22.0",
      "regulatory": {
       "applies": true,

@@ -11,31 +11,6 @@ access_model:
   - sandbox
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: verified
-    mcp_server: platform
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: false
-    reversibility_documented: documented
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 44.0
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -304,47 +279,6 @@ overview: 'PayWithMyBank (Trustly) publishes 12 APIs on the [APIs.io](https://ap
 
   PayWithMyBank (Trustly)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 27 more developer resources.'
 random_paper: 9
-score:
-  band: developing
-  composite: 51.4
-  coverage:
-    artifact_dirs: 22
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 34.2
-    contract_governance: 4.5
-    contract_quality: 59.7
-    developer_ergonomics: 73.2
-    discoverability: 75.9
-    operational_transparency: 10.5
-  previous_composite: 51.4
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 12
-    mcp: first-party
-    skills: derived
-  regulatory:
-    applies: true
-    matched_via: tags
-    regime: Banking & Open Finance
-    regime_id: banking_open_finance
-    score: 31.6
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 61.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/screenshots/paywithmybank-2026-08-07T191723.png
 security:
 - kind: authentication

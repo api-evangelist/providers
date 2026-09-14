@@ -9,31 +9,6 @@ access_model:
   - authentication
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-native
-  dimensions:
-    agent_card: flavored
-    agent_skills: derived
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: served
-    consent_identity: false
-    delegated_identity: served
-    dry_run_mode: false
-    dynamic_client_registration: true
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: documented
-    mcp_server: verified
-    openapi_examples: false
-    protected_resource_metadata: verified
-    rate_limit_signal: false
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 57.7
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -382,41 +357,6 @@ scopes:
   scope_count: 1
   slug: dash0-scopes
   summary_line: 1 scope · authorizationCode/refreshToken
-score:
-  band: strong
-  composite: 59.9
-  coverage:
-    artifact_dirs: 24
-    catalog_earned: 37.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 78.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 60.5
-    contract_governance: 18.2
-    contract_quality: 58.7
-    developer_ergonomics: 69.6
-    discoverability: 75.9
-    operational_transparency: 52.6
-  previous_composite: 59.9
-  provenance:
-    agentic_access: derived
-    conformance: first-party
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 18
-    mcp: first-party
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 33.3
 screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:
 - kind: authentication

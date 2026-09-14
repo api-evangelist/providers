@@ -11,31 +11,6 @@ access_model:
   - security
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: false
-    agent_skills: derived
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: true
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 31.5
-  scored_at: '2026-09-12'
 api_count: 3
 apis:
 - description: The IT Glue API is a JSON:API-conformant REST interface over the IT Glue IT-documentation platform — organizations, configurations, contacts, locations, passwords, documents, flexible assets and flexi
@@ -2670,45 +2645,6 @@ rate_limits:
 - limit_count: 4
   name: Kaseya Rate Limits
   slug: kaseya-rate-limits
-score:
-  band: developing
-  composite: 51.8
-  coverage:
-    artifact_dirs: 20
-    catalog_earned: 39.0
-    catalog_earned_first_party: 12.0
-    catalog_gap: 76.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 38.2
-    contract_governance: 4.5
-    contract_quality: 54.0
-    developer_ergonomics: 63.7
-    discoverability: 57.4
-    operational_transparency: 73.7
-  jurisdiction:
-    basis: provider tags (build_countries.py / build_regions.py)
-    note: A first approximation of where this provider operates, derived from the tags on its profile. NOT a legal determination of domicile or regulatory scope, and it does not yet decide which regimes the regulatory facet evaluates (roadmap#85).
-    regions:
-    - north-america
-  previous_composite: 51.8
-  provenance:
-    conformance: derived
-    contracts:
-      callable: 100.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 484
-    mcp: derived
-    skills: derived
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 27.8
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaseya/refs/heads/main/screenshots/kaseya-2026-08-07T171103.png
 security:
 - kind: authentication

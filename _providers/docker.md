@@ -9,31 +9,6 @@ access_model:
   - plans
   trial: false
   try_now: false
-agent_readiness:
-  band: agent-aware
-  dimensions:
-    agent_card: false
-    agent_skills: false
-    agentic_access: derived
-    agentic_commerce: false
-    auth_clarity: false
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: verified
-    event_surface_described: false
-    idempotency: false
-    mcp_server: false
-    openapi_examples: partial
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: false
-  schema_version: '0.2'
-  score: 25.5
-  scored_at: '2026-09-12'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 4
@@ -399,7 +374,7 @@ modified: '2026-06-20'
 name: Docker
 nav: Providers
 network: true
-overview: 'Docker publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Config API, Container API, Distribution API, and 12 more. Tagged areas include Cloud, Containers, DevOps, Infrastructure, and Microservices.
+overview: 'Docker publishes 15 APIs on the [APIs.io](https://apis.io/) network, including Config API, Container API, Distribution API, and 12 more. Tagged areas include Cloud, Containers, Developer Tools, DevOps, and Infrastructure.
 
 
   Docker''s developer surface includes documentation, engineering blog, pricing, signup flow, changelog, CLI, and 36 more developer resources.'
@@ -412,40 +387,6 @@ rate_limits:
 - limit_count: 5
   name: Docker Rate Limits
   slug: docker-rate-limits
-score:
-  band: developing
-  composite: 41.0
-  coverage:
-    artifact_dirs: 22
-    catalog_earned: 36.0
-    catalog_earned_first_party: 0.0
-    catalog_gap: 79.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 60.5
-    contract_governance: 4.5
-    contract_quality: 42.2
-    developer_ergonomics: 31.0
-    discoverability: 57.4
-    operational_transparency: 42.1
-  previous_composite: 41.0
-  provenance:
-    agentic_access: derived
-    conformance: derived
-    contracts:
-      callable: 0.0
-      derived: 0
-      marker_coverage: 0.0
-      total: 15
-    mcp: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 11.1
 screenshot: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/screenshots/docker-2026-06-20T180111.png
 security:
 - kind: domain-security
@@ -460,6 +401,7 @@ slug: docker
 tags:
 - Cloud
 - Containers
+- Developer Tools
 - DevOps
 - Infrastructure
 - Microservices

@@ -1,29 +1,4 @@
 ---
-agent_readiness:
-  band: agent-ready
-  dimensions:
-    agent_card: flavored
-    agent_skills: true
-    agentic_access: false
-    agentic_commerce: false
-    auth_clarity: bearer
-    consent_identity: false
-    delegated_identity: false
-    dry_run_mode: false
-    dynamic_client_registration: false
-    error_semantics: documented
-    event_surface_described: false
-    idempotency: false
-    mcp_server: templated
-    openapi_examples: false
-    protected_resource_metadata: false
-    rate_limit_signal: documented
-    reversibility_documented: false
-    spec_presence: true
-    well_known_catalog: true
-  schema_version: '0.2'
-  score: 34.0
-  scored_at: '2026-09-12'
 api_count: 1
 apis:
 - description: Production REST API covering 14 spiritual intelligence domains with 210+ endpoints under a single API key, authenticated via X-API-Key header. Documented by a live OpenAPI 3.1 spec and interactive ref
@@ -204,35 +179,6 @@ rate_limits:
 - limit_count: 4
   name: Roxyapi Rate Limits
   slug: roxyapi-rate-limits
-score:
-  band: strong
-  composite: 55.2
-  coverage:
-    artifact_dirs: 21
-    catalog_earned: 58.0
-    catalog_earned_first_party: 24.0
-    catalog_gap: 57.0
-    catalog_max: 115.0
-    note: 'Disclosure, not a penalty. catalog_gap is rubric points API Evangelist could add with no action by this provider, and it is NOT subtracted from the composite above. It is our backlog EXCEPT where this provider already did the work: catalog_earned is how much of the class was satisfied at all, and catalog_earned_first_party how much of that came from artifacts the provider published rather than ones we generated (roadmap#221). catalog_earned_first_party is a FLOOR, not the whole share: only ~40 of the rubric''s 113 checks carry a provenance class at all, so a check we cannot attribute counts toward neither side. Read it as "at least this much was theirs", never as "the rest was ours".'
-  delta: 0.0
-  facets:
-    access_clarity: 77.6
-    contract_governance: 4.5
-    contract_quality: 26.7
-    developer_ergonomics: 81.0
-    discoverability: 70.4
-    operational_transparency: 76.3
-  previous_composite: 55.2
-  provenance:
-    conformance: derived
-    mcp: first-party
-    skills: first-party
-  schema_version: 0.22.0
-  scored_at: '2026-09-12'
-  trend: flat
-  upsert:
-    applies: true
-    score: 0.0
 screenshot: https://raw.githubusercontent.com/api-evangelist/roxyapi/refs/heads/main/screenshots/roxyapi-2026-09-02T154145.png
 security:
 - kind: authentication
